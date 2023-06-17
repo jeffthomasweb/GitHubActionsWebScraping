@@ -32,12 +32,15 @@ ars_list = rss("https://feeds.arstechnica.com/arstechnica/index")
 buffalo_list = rss("https://www.wgrz.com/feeds/syndication/rss/news/local")
 
 with open("output.txt", "w") as output_file:
+    output_file.writelines("**********NPR stories**********\n\n")
     for individual_npr in npr_list:
         output_file.writelines(individual_npr)
         output_file.writelines("\n\n")
+    output_file.writelines("**********Ars Technica stories**********\n\n")
     for individual_ars in ars_list:
         output_file.writelines(individual_ars)
         output_file.writelines("\n\n")
+    output_file.writelines("**********Buffalo News stories**********\n\n")
     for individual_buffalo in buffalo_list:
         output_file.writelines(individual_buffalo)
         output_file.writelines("\n\n")
