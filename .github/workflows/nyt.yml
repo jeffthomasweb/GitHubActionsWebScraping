@@ -21,7 +21,7 @@ jobs:
     #  run: python3 scrape.py
     - name: Commit and push if it changed
       run: |-
-        sudo apt update && install -y lynx
+        sudo apt install -y lynx
         lynx -accept_all_cookies -dump https://nytimes.com > nyt.txt
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
