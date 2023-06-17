@@ -3,7 +3,7 @@ name: Use Lynx browser to web scrape NYT
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '1 * */,7 * *'
+    - cron:  '0 4 * * Fri,Sat,Sun'
 jobs:
   scheduled:
     runs-on: ubuntu-latest
@@ -22,7 +22,7 @@ jobs:
     - name: Commit and push if it changed
       run: |-
         sudo apt update && install -y lynx
-        lynx --dump https://nytimes.com > nyt.txt
+        lynx -accept_all_cookies -dump https://nytimes.com > nyt.txt
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
         git add -A
