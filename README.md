@@ -1,9 +1,6 @@
-This webscraper runs twice a day using the free tier of GitHub Actions. It will get the text from the 3 RSS feeds and place the parsed 
-text into a file called output.txt. 
+This project uses the free tier of GitHub Actions to run a webscraper. The YML files controling the scraping are located under .github/workflows. The parsed content is saved into output.txt and nyt.txt. 
 
-There's another scraper in this project that scrapes the New York Times website on the weekends.
-
-A sample YML file for the scraping actions is below.
+One of the YML files is pasted below as an example.
 
 ```yml
 name: Web scrape 
