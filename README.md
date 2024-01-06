@@ -8,7 +8,7 @@ name: Web scrape
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '* */12 * * *'
+    - cron:  '7 */12 * * *'
 jobs:
   scheduled:
     runs-on: ubuntu-latest
