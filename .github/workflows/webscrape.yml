@@ -1,3 +1,5 @@
+#This workflow has been disabled. There were issues updating the version of actions/checkout, setup-python, or the python library feedparser. 
+#I'm now using stdpythonlibraryrss.yml. This new action doesn't require setup-python or feedparser.
 name: Web scrape 
 
 on:
