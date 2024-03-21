@@ -24,7 +24,7 @@ def xml_parser_xpath(local_file: str) -> list[str]:
     
     for i in range(0, length_xpath_stories):
         if (xpath_title[i].text is not None and xpath_description[i].text is not None):
-            final_list.append(" ".join([str(xpath_title[i].text), \
+            final_list.append(". ".join([str(xpath_title[i].text), \
                 str(xpath_description[i].text)]))
     
     return final_list
