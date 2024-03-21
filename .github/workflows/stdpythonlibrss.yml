@@ -14,9 +14,9 @@ jobs:
         fetch-depth: 0
     - name: Commit and push if it changed
       run: |
-        wget -P rss_text_files/npr.xml https://feeds.npr.org/1001/rss.xml
-        wget -P rss_text_files/arstechnica.xml https://feeds.arstechnica.com/arstechnica/index
-        wget -P rss_text_files/buffalowgrznews.xml https://www.wgrz.com/feeds/syndication/rss/news/local
+        wget -O - https://feeds.npr.org/1001/rss.xml > rss_text_files/npr.xml
+        wget -O - https://feeds.arstechnica.com/arstechnica/index > rss_text_files/arstechnica.xml
+        wget -O - https://www.wgrz.com/feeds/syndication/rss/news/local > rss_text_files/buffalowgrznews.xml
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
         git add -A
