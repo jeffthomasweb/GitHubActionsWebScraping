@@ -1,9 +1,9 @@
-This project uses the free tier of GitHub Actions to run a webscraper. The YML files controling the scraping are located under .github/workflows. The parsed content is saved into output.txt and nyt.txt. 
+This project uses the free tier of GitHub Actions to run a webscraper. The YML files controling the scraping are located under .github/workflows. The parsed content is saved on rss_feeds_combined.txt and nyt.txt. 
 
 One of the YML files is pasted below as an example.
 
 ```yml
-name: Web scrape 
+name: Use the standard Python library to parse RSS Feeds
 
 on:
   workflow_dispatch:
@@ -14,22 +14,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
-    - uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-        cache: 'pip'
-    - run: pip install -r requirements.txt
-    - name: Fetch latest data
-      run: python3 scrape.py
     - name: Commit and push if it changed
-      run: |-
+      run: |
+        wget -O npr.xml https://feeds.npr.org/1001/rss.xml
+        wget -O arstechnica.xml https://feeds.arstechnica.com/arstechnica/index
+        wget -O wgrznews.xml https://www.wgrz.com/feeds/syndication/rss/news/local
+        python3 pythonstdlibraryrss.py
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
         git add -A
         timestamp=$(date -u)
         git commit -m "Latest data: ${timestamp}" || exit 0
         git push
+
 ```
