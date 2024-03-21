@@ -11,7 +11,7 @@ def rss(rss_address):
     clean_story_list1 = []
     clean_story_list2 = []
     #Use feedparser to get the 15 stories in the RSS feed.
-    for i in range(0,15):
+    for i in range(0,len(feedparser_parse)):
         story_list.append(feedparser_parse.entries[i].title + '. ' + feedparser_parse.entries[i].summary)
 
     #Use regular expression to clean the <em> and </em> tags.
