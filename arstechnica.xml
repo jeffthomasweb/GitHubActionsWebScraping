@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Tue, 26 Mar 2024 23:50:55 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 27 Mar 2024 23:15:43 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,7 +21,677 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>The Ars Technica guide to keyboards: Mechanical, membrane, and buckling springs</title>
+		<title>The Delta IV Heavy, a rocket whose time has come and gone, will fly once more</title>
+		<link>https://arstechnica.com/?p=2012923</link>
+					<comments>https://arstechnica.com/space/2024/03/the-delta-iv-heavy-a-rocket-whose-time-has-come-and-gone-will-fly-once-more/#comments</comments>
+		
+		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 23:15:43 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[cape canaveral]]></category>
+		<category><![CDATA[delta iv heavy]]></category>
+		<category><![CDATA[delta rocket]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[National Reconnaissance Office]]></category>
+		<category><![CDATA[nrol-70]]></category>
+		<category><![CDATA[united launch alliance]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012923</guid>
+
+					<description><![CDATA[The final Delta IV Heavy rocket is scheduled to launch Thursday, weather permitting.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/53583785953_811fa811bd_k-800x534.jpg" alt="United Launch Alliance's final Delta IV Heavy rocket, seen here in December when ground crews rolled it to the launch pad at Cape Canaveral Space Force Station, Florida.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/53583785953_811fa811bd_k.jpg" class="enlarge-link" data-height="1067" data-width="1600">Enlarge</a> <span class="sep">/</span> United Launch Alliance's final Delta IV Heavy rocket, seen here in December when ground crews rolled it to the launch pad at Cape Canaveral Space Force Station, Florida. (credit: <a rel="nofollow" class="caption-link" href="https://www.flickr.com/photos/ulalaunch/53583785953/">United Launch Alliance</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>This is the rocket that literally lights itself on fire before it heads to space. It's the world's largest rocket entirely fueled by liquid hydrogen, a propellant that is vexing to handle but rewarding in its efficiency.</p>
+<p>The Delta IV Heavy was America's most powerful launch vehicle for nearly a decade and has been a cornerstone for the US military's space program for more than 20 years. It is also the world's most expensive commercially produced rocket, a fact driven not just by its outsized capability but also its complexity.</p>
+<p>Now, United Launch Alliance's last Delta IV Heavy rocket is set to lift off Thursday from Cape Canaveral Space Force Station, Florida, with a classified payload for the National Reconnaissance Office, the US government's spy satellite agency.</p></div><p><a href="https://arstechnica.com/?p=2012923#p3">Read 36 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012923&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/03/the-delta-iv-heavy-a-rocket-whose-time-has-come-and-gone-will-fly-once-more/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Thousands of servers hacked in ongoing attack targeting Ray AI framework</title>
+		<link>https://arstechnica.com/?p=2013046</link>
+					<comments>https://arstechnica.com/security/2024/03/thousands-of-servers-hacked-in-ongoing-attack-targeting-ray-ai-framework/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 22:40:53 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2013046</guid>
+
+					<description><![CDATA[Researchers say it's the first known in-the-wild attack targeting AI workloads.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1-800x450.jpg" alt="Thousands of servers hacked in ongoing attack targeting Ray AI framework">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1.jpg" class="enlarge-link" data-height="563" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Thousands of servers storing AI workloads and network credentials have been hacked in an ongoing attack campaign targeting a reported vulnerability in Ray, a computing framework used by OpenAI, Uber, and Amazon.</p>
+<p>The attacks, which have been active for at least seven months, have led to the tampering of AI models. They have also resulted in the compromise of network credentials, allowing access to internal networks and databases and tokens for accessing accounts on platforms including OpenAI, Hugging Face, Stripe, and Azure. Besides corrupting models and stealing credentials, attackers behind the campaign have installed cryptocurrency miners on compromised infrastructure, which typically provides massive amounts of computing power. Attackers have also installed reverse shells, which are text-based interfaces for remotely controlling servers.</p>
+<h2>Hitting the jackpot</h2>
+<p>“When attackers get their hands on a Ray production cluster, it is a jackpot,” researchers from Oligo, the security firm that spotted the attacks, wrote in a <a href="https://www.oligo.security/blog/shadowray-attack-ai-workloads-actively-exploited-in-the-wild">post</a>. “Valuable company data plus remote code execution makes it easy to monetize attacks—all while remaining in the shadows, totally undetected (and, with static security tools, undetectable).”</p></div><p><a href="https://arstechnica.com/?p=2013046#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2013046&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/03/thousands-of-servers-hacked-in-ongoing-attack-targeting-ray-ai-framework/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Quantum computing progress: Higher temps, better error correction</title>
+		<link>https://arstechnica.com/?p=2013053</link>
+					<comments>https://arstechnica.com/science/2024/03/quantum-computing-progress-higher-temps-better-error-correction/#comments</comments>
+		
+		<dc:creator><![CDATA[John Timmer]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 22:24:36 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[ibm]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[quantum computing]]></category>
+		<category><![CDATA[quantum mechanics]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2013053</guid>
+
+					<description><![CDATA[Amazon, IBM, and traditional silicon makers all working toward error correction.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-1070527780-800x533.jpg" alt="conceptual graphic of symbols representing quantum states floating above a stylized computer chip.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-1070527780.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/quantum-computing-concept-circuit-and-qubits-in-royalty-free-image/1070527780?phrase=qubits">vital</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>There's a strong consensus that tackling most useful problems with a quantum computer will require that the computer be capable of error correction. There is absolutely no consensus, however, about what technology will allow us to get there. A large number of companies, including major players like Microsoft, Intel, Amazon, and IBM, have all committed to different technologies to get there, while a collection of startups are exploring an even wider range of potential solutions.</p>
+<p>We probably won't have a clearer picture of what's likely to work for a few years. But there's going to be lots of interesting research and development work between now and then, some of which may ultimately represent key milestones in the development of quantum computing. To give you a sense of that work, we're going to look at three papers that were published within the last couple of weeks, each of which tackles a different aspect of quantum computing technology.</p>
+<h2>Hot stuff</h2>
+<p>Error correction will require connecting multiple hardware qubits to act as a single unit termed a logical qubit. This spreads a single bit of quantum information across multiple hardware qubits, making it more robust. Additional qubits are used to monitor the behavior of the ones holding the data and perform corrections as needed. Some error correction schemes require over a hundred hardware qubits for each logical qubit, meaning we'd need tens of thousands of hardware qubits before we could do anything practical.</p></div><p><a href="https://arstechnica.com/?p=2013053#p3">Read 21 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2013053&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/03/quantum-computing-progress-higher-temps-better-error-correction/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Oregon governor signs nation’s first right-to-repair bill that bans parts pairing</title>
+		<link>https://arstechnica.com/?p=2013030</link>
+					<comments>https://arstechnica.com/gadgets/2024/03/oregon-governor-signs-nations-first-right-to-repair-bill-that-bans-part-pairing/#comments</comments>
+		
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 21:57:30 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Oregon]]></category>
+		<category><![CDATA[parts pairing]]></category>
+		<category><![CDATA[right to repair]]></category>
+		<category><![CDATA[serialization]]></category>
+		<category><![CDATA[US PIRG]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2013030</guid>
+
+					<description><![CDATA[Starting in 2025, devices can't block repair parts with software pairing checks.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-1321654926-800x566.jpg" alt="Cables emanating from an iPhone under repair, with gloves hands holding a tweezer over the phone">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-1321654926-scaled.jpg" class="enlarge-link" data-height="1812" data-width="2560">Enlarge</a> <span class="sep">/</span> Oregon's repair bill prohibits companies from implementing software locks that prohibit aftermarket or used parts from being installed in their devices. </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Oregon Governor Tina Kotek <a href="https://ktvz.com/news/business/2024/03/27/gov-kotek-signs-oregons-right-to-repair-bill-into-law-consumer-reports-is-among-those-cheering/">today signed</a> the state's Right to Repair Act, which will push manufacturers to provide more repair options for their products than any other state so far.</p>
+<p>The law, like those passed in <a href="https://arstechnica.com/gadgets/2022/12/weakened-right-to-repair-bill-is-signed-into-law-by-new-yorks-governor/">New York</a>, <a href="https://arstechnica.com/gadgets/2023/09/calif-passes-strongest-right-to-repair-bill-yet-requiring-7-years-of-parts/">California</a>, and <a href="https://arstechnica.com/gadgets/2023/05/minnesota-enacts-right-to-repair-law-that-covers-more-devices-than-any-other-state/">Minnesota</a>, will require many manufacturers to provide the same parts, tools, and documentation to individuals and repair shops that they provide to their own repair teams.</p>
+<p>But <a href="https://arstechnica.com/tech-policy/2024/03/oregon-oks-right-to-repair-bill-that-bans-the-blocking-of-aftermarket-parts/">Oregon's bill goes further</a>, preventing companies from implementing schemes that require parts to be verified through encrypted software checks before they will function. Known as parts pairing or serialization, Oregon's bill, <a href="https://olis.oregonlegislature.gov/liz/2024R1/Measures/Overview/SB1596">SB 1596</a>, is the first in the nation to target that practice. Oregon State Senator Janeen Sollman (D) and Representative Courtney Neron (D) sponsored and pushed the bill in the state senate and legislature.</p></div><p><a href="https://arstechnica.com/?p=2013030#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2013030&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/03/oregon-governor-signs-nations-first-right-to-repair-bill-that-bans-part-pairing/feed/</wfw:commentRss>
+			<slash:comments>41</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Puerto Rico declares public health emergency as dengue cases rise</title>
+		<link>https://arstechnica.com/?p=2013036</link>
+					<comments>https://arstechnica.com/science/2024/03/puerto-rico-declares-public-health-emergency-as-dengue-cases-rise/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 21:24:37 +0000</pubDate>
+				<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Aedes aegypti]]></category>
+		<category><![CDATA[dengue]]></category>
+		<category><![CDATA[Infectious disease]]></category>
+		<category><![CDATA[mosquitoes]]></category>
+		<category><![CDATA[Puerto Rico]]></category>
+		<category><![CDATA[viral infection]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2013036</guid>
+
+					<description><![CDATA[Cases so far are up 140 percent compared to this point last year.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2016/01/640px-Aedes_aegypti_during_blood_meal-640x423.jpg" alt="Female Aedes aegypti mosquito as she was in the process of obtaining a " blood meal.>
+      <p class="caption" style="font-size:0.8em">Female <em>Aedes aegypti</em> mosquito as she was in the process of obtaining a "blood meal." (credit: <a rel="nofollow" class="caption-link" href="https://commons.wikimedia.org/wiki/File:Aedes_aegypti_during_blood_meal.jpg#/media/File:Aedes_aegypti_during_blood_meal.jpg">US Department of Health and Human Services</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Puerto Rico has declared a public health emergency amid an ongoing outbreak of dengue infections, a mosquito-spread viral infection that can cause fever, aches, rash, vomiting, and, in about 5 percent of cases, a severe disease marked by internal bleeding and shock.</p>
+<p>The US territory has tallied 549 cases since the start of the year, representing a <a href="https://www.salud.pr.gov/CMS/DOWNLOAD/8768">140 percent increase</a> compared with cases tallied at this point last year, <a href="https://www.salud.pr.gov/menuInst/download/1833">according to the territory's health department</a>. The Associated Press reported that more than 340 of the 549 cases have been hospitalized.</p>
+<p>In 2023, the island nation of more than 3.2 million people had over 1,000 cases of dengue throughout the year.</p></div><p><a href="https://arstechnica.com/?p=2013036#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2013036&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/03/puerto-rico-declares-public-health-emergency-as-dengue-cases-rise/feed/</wfw:commentRss>
+			<slash:comments>10</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Starlink mobile plans hit snag as FCC dismisses SpaceX spectrum application</title>
+		<link>https://arstechnica.com/?p=2012994</link>
+					<comments>https://arstechnica.com/tech-policy/2024/03/starlink-mobile-plans-hit-snag-as-fcc-dismisses-spacex-spectrum-application/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 21:10:49 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[spacex starlink]]></category>
+		<category><![CDATA[starlink fcc]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012994</guid>
+
+					<description><![CDATA[SpaceX application tossed but firm will get another shot in spectrum rulemaking.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/starlink-snow-800x600.jpg" alt="Snow and ice cover part of a Starlink satellite dish.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/starlink-snow.jpg" class="enlarge-link" data-height="1875" data-width="2500">Enlarge</a> <span class="sep">/</span> A Starlink user terminal during winter. (credit: Getty Images | AntaresNS)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Starlink's mobile ambitions were dealt at least a temporary blow yesterday when the Federal Communications Commission dismissed SpaceX's application to use several spectrum bands for mobile service.</p>
+<p>SpaceX is seeking approval to use up to 7,500 second-generation Starlink satellites with spectrum in the 1.6 GHz, 2 GHz, and 2.4 GHz bands. SpaceX could still end up getting what it wants but will have to go through new rulemaking processes in which the FCC will evaluate whether the spectrum bands can handle the system without affecting existing users.</p>
+<p>The FCC Space Bureau's <a href="https://www.fcc.gov/document/spacex-gen2-mss-application-dismissed-unacceptable-filing">ruling</a> dismissed the SpaceX application yesterday as "unacceptable for filing." The application was filed over a year ago.</p></div><p><a href="https://arstechnica.com/?p=2012994#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012994&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/03/starlink-mobile-plans-hit-snag-as-fcc-dismisses-spacex-spectrum-application/feed/</wfw:commentRss>
+			<slash:comments>16</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Event Horizon Telescope captures stunning new image of Milky Way’s black hole</title>
+		<link>https://arstechnica.com/?p=2012771</link>
+					<comments>https://arstechnica.com/science/2024/03/event-horizon-telescope-captures-stunning-new-image-of-milky-ways-black-hole/#comments</comments>
+		
+		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 20:55:44 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[astrophysics]]></category>
+		<category><![CDATA[black holes]]></category>
+		<category><![CDATA[Event Horizon Telescope]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012771</guid>
+
+					<description><![CDATA[There are also hints of an elusive high-energy jet, similar to larger M87* black hole.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/event1CROP-800x551.jpg" alt="A new image from the Event Horizon Telescope has revealed powerful magnetic fields spiraling from the edge of a supermassive black hole at the center of the Milky Way, Sagittarius A*.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/event1CROP.jpg" class="enlarge-link" data-height="826" data-width="1200">Enlarge</a> <span class="sep">/</span> A new image from the Event Horizon Telescope has revealed powerful magnetic fields spiraling from the edge of a supermassive black hole at the center of the Milky Way, Sagittarius A*. (credit: EHT Collaboration)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Physicists have been confident since the1980s that there is a supermassive black hole at the center of the Milky Way galaxy, similar to those thought to be at the center of most spiral and elliptical galaxies. It's since been dubbed <a href="https://en.wikipedia.org/wiki/Sagittarius_A*">Sagittarius A*</a> (pronounced A-star), or SgrA* for short. The Event Horizon Telescope (EHT) captured the first image of SgrA* two years ago. Now the collaboration has revealed a new polarized image (above) showcasing the black hole's swirling magnetic fields. The technical details appear in <a href="https://doi.org/10.3847/2041-8213/ad2df0">two</a> new <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ad2df1">papers</a> published in The Astrophysical Journal Letters. The new image is strikingly similar to another EHT image of a larger supermassive black hole, M87*, so this might be something that all such black holes share.</p>
+<p>The only way to "see" a black hole is to image the shadow created by light as it bends in response to the object's powerful gravitational field. As Ars Science Editor <a href="https://arstechnica.com/science/2019/04/event-horizon-telescope-gives-us-first-images-of-what-its-named-for/" data-uri="2739cb45160166b5cc4167c3ef232c6d">John Timmer reported in 2019,</a> the EHT isn't a telescope in the traditional sense. Instead, it's a collection of telescopes scattered around the globe. The EHT is created by interferometry, which uses light in the microwave regime of the electromagnetic spectrum captured at different locations. These recorded images are combined and processed to build an image with a resolution similar to that of a telescope the size of the most distant locations. Interferometry has been used at facilities like ALMA (the Atacama Large Millimeter/submillimeter Array) in northern Chile, where telescopes can be spread across 16 km of desert.</p>
+<p>In theory, there's no upper limit on the size of the array, but to determine which photons originated simultaneously at the source, you need very precise location and timing information on each of the sites. And you still have to gather sufficient photons to see anything at all. So atomic clocks were installed at many of the locations, and exact GPS measurements were built up over time. For the EHT, the large collecting area of ALMA—combined with choosing a wavelength in which supermassive black holes are very bright—ensured sufficient photons.</p></div><p><a href="https://arstechnica.com/?p=2012771#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012771&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/03/event-horizon-telescope-captures-stunning-new-image-of-milky-ways-black-hole/feed/</wfw:commentRss>
+			<slash:comments>27</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Facebook secretly spied on Snapchat usage to confuse advertisers, court docs say</title>
+		<link>https://arstechnica.com/?p=2012980</link>
+					<comments>https://arstechnica.com/tech-policy/2024/03/facebook-secretly-spied-on-snapchat-usage-to-confuse-advertisers-court-docs-say/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 20:25:51 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[anticompetitive behavior]]></category>
+		<category><![CDATA[Antitrust law]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[Mark Zuckerberg]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[online advertising]]></category>
+		<category><![CDATA[snapchat]]></category>
+		<category><![CDATA[social media ads]]></category>
+		<category><![CDATA[YouTube]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012980</guid>
+
+					<description><![CDATA[Zuckerberg told execs to “figure out” how to spy on encrypted Snapchat traffic.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-1873369836-800x534.jpg" alt="Facebook secretly spied on Snapchat usage to confuse advertisers, court docs say">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-1873369836.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/the-snapchat-logo-is-being-displayed-on-a-smartphone-screen-news-photo/1873369836">NurPhoto / Contributor | NurPhoto</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Unsealed court documents have revealed more details about a secret Facebook project initially called "Ghostbusters," designed to sneakily access encrypted Snapchat usage data to give Facebook a leg up on its rival, just when Snapchat was experiencing rapid growth in 2016.</p>
+<p>The documents were filed in a class-action lawsuit from consumers and advertisers, accusing Meta of anticompetitive behavior that blocks rivals from competing in the social media ads market.</p>
+<p>"Whenever someone asks a question about Snapchat, the answer is usually that because their traffic is encrypted, we have no analytics about them," Facebook CEO Mark Zuckerberg (who has since rebranded his company as Meta) <a href="https://storage.courtlistener.com/recap/gov.uscourts.cand.369872/gov.uscourts.cand.369872.736.0.pdf">wrote</a> in a 2016 email to Javier Olivan.</p></div><p><a href="https://arstechnica.com/?p=2012980#p3">Read 18 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012980&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/03/facebook-secretly-spied-on-snapchat-usage-to-confuse-advertisers-court-docs-say/feed/</wfw:commentRss>
+			<slash:comments>50</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Canva’s Affinity acquisition is a non-subscription-based weapon against Adobe</title>
+		<link>https://arstechnica.com/?p=2012895</link>
+					<comments>https://arstechnica.com/information-technology/2024/03/canvas-affinity-acquisition-is-a-subscription-based-weapon-against-adobe/#comments</comments>
+		
+		<dc:creator><![CDATA[Scharon Harding]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 19:27:24 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[acquisition]]></category>
+		<category><![CDATA[Adobe]]></category>
+		<category><![CDATA[canva]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012895</guid>
+
+					<description><![CDATA[But what will result from the companies' opposing views on generative AI? ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/affinity-800x495.jpg" alt="Affinity's photo editor.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/affinity.jpg" class="enlarge-link" data-height="1040" data-width="1680">Enlarge</a> <span class="sep">/</span> Affinity's photo editor.  (credit: <a rel="nofollow" class="caption-link" href="https://www.canva.com/newsroom/news/affinity/">Canva</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Online graphic design platform provider Canva announced its acquisition of Affinity on Tuesday. The purchase adds tools for creative professionals to the Australian startup's repertoire, presenting competition for today's digital design stronghold, Adobe.</p>
+<p>The companies didn't provide specifics about the deal, but Cliff Obrecht, Canva's co-founder and COO, told <a href="https://www.bloomberg.com/news/articles/2024-03-26/canva-acquires-affinity-design-suite-in-push-to-rival-adobe">Bloomberg</a> that it consists of cash and stock and is worth "several hundred million pounds."</p>
+<p>Canva, which debuted in 2013, has made numerous acquisitions to date, including Flourish, Kaleido, and Pixabay, but its purchase of Affinity is its biggest yet—by both price and headcount (90). Affinity CEO Ashley Hewson said via a <a href="https://www.youtube.com/watch?v=YcaGgGErLMo">YouTube video</a> that Canva approached Affinity about a potential deal two months ago.</p></div><p><a href="https://arstechnica.com/?p=2012895#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012895&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/information-technology/2024/03/canvas-affinity-acquisition-is-a-subscription-based-weapon-against-adobe/feed/</wfw:commentRss>
+			<slash:comments>75</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Intel, Microsoft discuss plans to run Copilot locally on PCs instead of in the cloud</title>
+		<link>https://arstechnica.com/?p=2012793</link>
+					<comments>https://arstechnica.com/gadgets/2024/03/intel-microsoft-discuss-plans-to-run-copilot-locally-on-pcs-instead-of-in-the-cloud/#comments</comments>
+		
+		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 18:45:55 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[copilot]]></category>
+		<category><![CDATA[Intel]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012793</guid>
+
+					<description><![CDATA[Companies are trying to make the "AI PC" happen with new silicon and software.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/intel-ai-pc-2-800x450.jpeg" alt="The basic requirements for an AI PC, at least when it's running Windows.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/intel-ai-pc-2.jpeg" class="enlarge-link" data-height="1080" data-width="1920">Enlarge</a> <span class="sep">/</span> The basic requirements for an AI PC, at least when it's running Windows. (credit: Intel)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Microsoft <a href="https://arstechnica.com/gadgets/2024/01/ai-comes-for-your-pcs-keyboard-as-microsoft-adds-dedicated-copilot-key/">said in January</a> that 2024 would be the year of the "AI PC," and we know that AI PCs will include a few hardware components that most Windows systems currently do not include—namely, <a href="https://arstechnica.com/ai/2024/02/your-current-pc-probably-doesnt-have-an-ai-processor-but-your-next-one-might/">a built-in neural processing unit</a> (NPU) and Microsoft's new Copilot key for keyboards. But so far we haven't heard a whole lot about what a so-called AI PC will actually do for users.</p>
+
+<p>Microsoft and Intel are starting to talk about a few details as part of an announcement from Intel about a new AI PC developer program that will encourage software developers to leverage local hardware to build AI features into their apps.</p>
+<p>The main news <a href="https://www.tomshardware.com/pc-components/cpus/intel-confirms-microsoft-copilot-will-soon-run-locally-on-pcs-next-gen-ai-pcs-require-40-tops-of-npu-performance">comes from Tom's Hardware</a>, confirming that AI PCs would be able to run "more elements of Copilot," Microsoft's AI chatbot assistant, "locally on the client." Currently, Copilot relies on server-side processing even for small requests, introducing lag that is tolerable if you're making a broad request for information but less so if all you want to do is change a setting or get basic answers. Running generative AI models locally could also improve user privacy, making it possible to take advantage of AI-infused software without automatically sending information to a company that will use it for further model training.</p></div><p><a href="https://arstechnica.com/?p=2012793#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012793&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/03/intel-microsoft-discuss-plans-to-run-copilot-locally-on-pcs-instead-of-in-the-cloud/feed/</wfw:commentRss>
+			<slash:comments>52</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Google’s Pixel 9 might have three models, adding a small “Pro” phone</title>
+		<link>https://arstechnica.com/?p=2012841</link>
+					<comments>https://arstechnica.com/gadgets/2024/03/googles-pixel-9-might-have-three-models-adding-a-small-pro-phone/#comments</comments>
+		
+		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 18:32:05 +0000</pubDate>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Google Pixel]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012841</guid>
+
+					<description><![CDATA[A 6.8-inch "Pixel 9 Pro XL," 6.1-inch "Pixel 9 Pro," and a "Pixel 9" at 6.0 inches.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/pixel-9-lineup-800x446.jpg" alt="OnLeak's renders of the &lt;a href='https://www.mysmartprice.com/gear/pixel-9-pro-5k-renders-360-degree-video-exclusive/'&gt;Pixel 9 Pro XL&lt;/a&gt;, the &lt;a href='https://www.91mobiles.com/hub/google-pixel-9-design-render-exclusive/'&gt;Pixel 9 Pro&lt;/a&gt;, and the &lt;a href = 'https://www.91mobiles.com/hub/google-pixel-9-renders-design-exclusive/'&gt;Pixel 9.&lt;/a&gt;">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/pixel-9-lineup.jpg" class="enlarge-link" data-height="635" data-width="1140">Enlarge</a> <span class="sep">/</span> OnLeak's renders of the <a href="https://www.mysmartprice.com/gear/pixel-9-pro-5k-renders-360-degree-video-exclusive/">Pixel 9 Pro XL</a>, the <a href="https://www.91mobiles.com/hub/google-pixel-9-design-render-exclusive/">Pixel 9 Pro</a>, and the <a href="https://www.91mobiles.com/hub/google-pixel-9-renders-design-exclusive/">Pixel 9.</a> (credit: OnLeaks / 91Mobiles / MySmartPrice)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>When renders of the Pixel 9 came out <a href="https://arstechnica.com/gadgets/2024/01/googles-pixel-9-gets-its-first-leaked-render-looks-a-lot-like-an-iphone/">in January</a> from OnLeaks, we got our first hints that a big change in Google's lineup was afoot. Usually, the company does a big "Pro" phone with three cameras and all the premium features and then a smaller Pixel that gets cut down somewhat, usually with only two cameras. Those January renders showed a big and small phone <em>both</em> with three cameras, indicating the base model Pixel 9 was getting updated to be a "mini-Pro" model—a smaller phone, but still with all the trimmings. The small Pro model still seems to be in the works, but apparently, that's not the base model.</p>
+<p>The new render from <a href="https://www.91mobiles.com/hub/google-pixel-9-renders-design-exclusive/">OnLeaks and 91Mobiles</a> shows a <em>third</em> Pixel 9. This one is the usual cut-down small model with only two cameras. Apparently, the lineup would now be a 6.8-inch "Pixel 9 Pro XL," a "Pixel 9 Pro" at 6.1 inches, and a "Pixel 9" at 6.0 inches.</p>
+<p>The base model's design looks just like the other Pixel 9 leaks. The camera bar takes on a new rounded pill shape. The sides switch to a flat metal band, like an iPhone 4/15. The corners of the display and phone body are much more rounded.</p></div><p><a href="https://arstechnica.com/?p=2012841#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012841&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/03/googles-pixel-9-might-have-three-models-adding-a-small-pro-phone/feed/</wfw:commentRss>
+			<slash:comments>43</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The company building a rotating detonation engine is pushing the tech forward</title>
+		<link>https://arstechnica.com/?p=2012893</link>
+					<comments>https://arstechnica.com/space/2024/03/venus-aerospace-takes-flight-as-it-progresses-with-tests-of-novel-engine/#comments</comments>
+		
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 18:23:47 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[venus aerospace]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012893</guid>
+
+					<description><![CDATA["I'm convinced that this is going to be the engine that unlocks the hypersonic economy."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/Sequence-01.00_00_28_51.Still001-800x422.jpg" alt="A Venus Aerospace drone makes a powered flight.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/Sequence-01.00_00_28_51.Still001.jpg" class="enlarge-link" data-height="1158" data-width="2195">Enlarge</a> <span class="sep">/</span> A Venus Aerospace drone makes a powered flight. (credit: Venus Aerospace)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Venus Aerospace conducted its first powered flight last month, reaching Mach 0.9 with a drone.</p>
+<p>The 8-foot-long vehicle was dropped from an Aero L-29 Delfín aircraft at 12,000 feet and flew under the power of a hydrogen peroxide monopropellant engine. This engine was not fired at full thrust because the location of the test flight, an unspecified range in the United States, did not permit flight faster than the speed of sound, said Andrew Duggleby, co-founder and chief technology officer of the Houston-based company.</p>
+<p>This first powered flight came as the company announced a long-duration test firing of its rotating detonation rocket engine, an experimental approach to propulsion that could be about 15 percent more efficient than a conventional chemical rocket engine. The company's long-term ambition is to develop a commercial aircraft that can travel at Mach 9—far faster than any previous airplane. That's clearly a ways off, but these are important, if early, steps on that path.</p></div><p><a href="https://arstechnica.com/?p=2012893#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012893&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/03/venus-aerospace-takes-flight-as-it-progresses-with-tests-of-novel-engine/feed/</wfw:commentRss>
+			<slash:comments>43</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>“MFA Fatigue” attack targets iPhone owners with endless password reset prompts</title>
+		<link>https://arstechnica.com/?p=2012822</link>
+					<comments>https://arstechnica.com/security/2024/03/mfa-fatigue-attack-targets-iphone-owners-with-endless-password-reset-prompts/#comments</comments>
+		
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 18:10:10 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[icloud]]></category>
+		<category><![CDATA[mobile phishing]]></category>
+		<category><![CDATA[password reset]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[rate limiting]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012822</guid>
+
+					<description><![CDATA[Rapid-fire prompts sometimes followed with spoofed calls from "Apple support."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/iphone_pass_prompt2_redo-800x450.jpg" alt="iPhone showing three password reset prompts">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/iphone_pass_prompt2_redo-scaled.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> <span class="sep">/</span> They look like normal notifications, but opening an iPhone with one or more of these stacked up, you won't be able to do much of anything until you tap "Allow" or "Don't Allow." And they're right next to each other. (credit: Kevin Purdy)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Human weaknesses are a rich target for phishing attacks. Making humans click "Don't Allow" over and over again in a phone prompt that can't be skipped is an angle some iCloud attackers are taking—and likely having some success.</p>
+<p>Brian Krebs' at Krebs on Security <a href="https://krebsonsecurity.com/2024/03/recent-mfa-bombing-attacks-targeting-apple-users/">detailed the attacks in a recent post</a>, noting that "MFA Fatigue Attacks" are a <a href="https://www.beyondtrust.com/resources/glossary/mfa-fatigue-attack">known attack strategy</a>. By repeatedly hitting a potential victim's device with multifactor authentication requests, the attack fills a device's screen with prompts that typically have yes/no options, often very close together. Apple's devices are just the latest rich target for this technique.</p>
+<p>Both the Kremlin-backed Fancy Bear advanced persistent threat group and a rag-tag bunch of teenagers known as Lapsus$ have been known to use the technique, also known as <a href="https://arstechnica.com/information-technology/2022/03/lapsus-and-solar-winds-hackers-both-use-the-same-old-trick-to-bypass-mfa/">MFA prompt bombing</a>, successfully.</p></div><p><a href="https://arstechnica.com/?p=2012822#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012822&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/03/mfa-fatigue-attack-targets-iphone-owners-with-endless-password-reset-prompts/feed/</wfw:commentRss>
+			<slash:comments>65</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Why the Baltimore bridge collapsed so quickly</title>
+		<link>https://arstechnica.com/?p=2012725</link>
+					<comments>https://arstechnica.com/science/2024/03/why-the-baltimore-bridge-collapsed-so-quickly/#comments</comments>
+		
+		<dc:creator><![CDATA[WIRED]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 17:42:56 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Baltimore]]></category>
+		<category><![CDATA[bridges]]></category>
+		<category><![CDATA[Cargo ship]]></category>
+		<category><![CDATA[syndication]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012725</guid>
+
+					<description><![CDATA[The immense power of a container ship shouldn’t be underestimated.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-2107843833-800x499.jpg" alt="The steel frame of the Francis Scott Key Bridge sits on top of a container ship after the bridge collapsed in Baltimore.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-2107843833.jpg" class="enlarge-link" data-height="4868" data-width="7812">Enlarge</a> <span class="sep">/</span> The steel frame of the Francis Scott Key Bridge sits on top of a container ship after the bridge collapsed in Baltimore on March 26. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/in-this-aerial-image-the-steel-frame-of-the-francis-scott-news-photo/2107843833">Jim Watson/AFP via Getty Images)</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Just shy of half past 1 in the morning, the MV <em>Dali</em>, a giant container ship, was sailing gently out of the port of Baltimore when something went terribly wrong. Suddenly, lights all over the 300-meter-long vessel went out. They flicked on again a moment later, but the ship then began to veer to the right, toward one of the massive pylon-like supports on the Francis Scott Key truss bridge—a huge mass of steel and concrete that spans the Patapsco River.</p>
+<p>The <em>Dali</em>’s lights went out a second time. Then the impact came. The ship plowed into the support, with large sections of the bridge’s main truss section instantly snapping apart and falling into the river. It took just 20 seconds or so for the structure to come down.</p>
+<p></p></div><p><a href="https://arstechnica.com/?p=2012725#p3">Read 20 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012725&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/03/why-the-baltimore-bridge-collapsed-so-quickly/feed/</wfw:commentRss>
+			<slash:comments>189</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>US pricing announced for the Polestar 4 EV; starts at $54,900</title>
+		<link>https://arstechnica.com/?p=2012902</link>
+					<comments>https://arstechnica.com/cars/2024/03/us-pricing-announced-for-the-polestar-4-ev-starts-at-54900/#comments</comments>
+		
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 17:42:33 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Polestar]]></category>
+		<category><![CDATA[Polestar 4]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012902</guid>
+
+					<description><![CDATA[The midsize SUV will have up to 300 miles of range—but no rear windshield.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/Polestar-at-NYIAS-2024-1-800x600.jpg" alt="A car underneath a gold dustcloth">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/Polestar-at-NYIAS-2024-1-scaled.jpg" class="enlarge-link" data-height="1920" data-width="2560">Enlarge</a> <span class="sep">/</span> The Polestar 4 went on sale in China late last year, then in Europe and Australia in January. Now it's North America's turn. (credit: Jonathan Gitlin)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>NEW YORK—On Wednesday, Polestar formally launched its next electric vehicle in the North American market at the New York International Auto Show. Until now, Polestar's range has been a little limited—there was the Polestar 1, <a href="https://arstechnica.com/cars/2019/11/the-polestar-1-is-a-turbocharged-supercharged-plug-in-hybrid-enigma/">a handsome if a little eccentric plug-in hybrid GT</a> that went out of production after just 1,500 examples. And there's the Polestar 2 sedan, now available as <a href="https://arstechnica.com/cars/2023/09/now-rear-wheel-drive-the-single-motor-polestar-2-is-better-than-ever/">a more efficient, more fun rear-wheel drive variant</a>. But the brand has lacked that most popular of body styles, the SUV—until now.</p>
+<p>"We have been obviously waiting for this year so much in order to really accelerate now. So the two cars coming are SUVs, [which] is, for us, key to really get into the dimension that we want to be," said Thomas Ingenlath, CEO of Polestar. "We have invested so much into the brand. We have so much invested into being in 25 countries. Of course we need now that kind of scale, a minimum of a three-car company to justify all of that," he said.</p>
+<p>The latest addition is called the Polestar 4, which slightly confusingly slots between the smaller Polestar 2 sedan and larger, more expensive Polestar 3—the other SUV <a href="https://arstechnica.com/cars/2024/03/polestar-announces-polestar-3-pricing-electric-suv-starts-at-73400/">that joins the range this year</a>. It has a clear family resemblance to its siblings, with similar front styling to the Polestar 3 and a fastback rear that calls back to the Polestar 2. The decision to ditch the rear windshield will no doubt be controversial—instead, the Polestar 4 uses a camera-based mirror that provides a wider-angle view of things behind the car than a normal passive mirror.</p></div><p><a href="https://arstechnica.com/?p=2012902#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012902&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/03/us-pricing-announced-for-the-polestar-4-ev-starts-at-54900/feed/</wfw:commentRss>
+			<slash:comments>83</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>“The king is dead”—Claude 3 surpasses GPT-4 on Chatbot Arena for the first time</title>
+		<link>https://arstechnica.com/?p=2012778</link>
+					<comments>https://arstechnica.com/information-technology/2024/03/the-king-is-dead-claude-3-surpasses-gpt-4-on-chatbot-arena-for-the-first-time/#comments</comments>
+		
+		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 16:32:24 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI benchmarks]]></category>
+		<category><![CDATA[AI leaderboard]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Chatbot Arena]]></category>
+		<category><![CDATA[Claude 3]]></category>
+		<category><![CDATA[Claude 3 Haiku]]></category>
+		<category><![CDATA[Claude 3 Opus]]></category>
+		<category><![CDATA[Claude Opus]]></category>
+		<category><![CDATA[GPT-3.5]]></category>
+		<category><![CDATA[GPT-4]]></category>
+		<category><![CDATA[GPT-4-turbo]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012778</guid>
+
+					<description><![CDATA[Anthropic's Claude 3 is first to unseat GPT-4 for #1 since launch of Chatbot Arena in May '23.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/robots_fighting_2-800x450.jpg" alt="Two toy robots fighting, one knocking the other's head off.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/robots_fighting_2.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/robot-fight-club-concept-royalty-free-image/1010065454">Getty Images / Benj Edwards</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>On Tuesday, Anthropic's <a href="https://arstechnica.com/information-technology/2024/03/the-ai-wars-heat-up-with-claude-3-claimed-to-have-near-human-abilities/">Claude 3 Opus</a> large language model (LLM) surpassed OpenAI's GPT-4 (which powers ChatGPT) for the first time on <a href="https://arstechnica.com/ai/2023/12/turing-test-on-steroids-chatbot-arena-crowdsources-ratings-for-45-ai-models/">Chatbot Arena</a>, a popular crowdsourced <a href="https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard">leaderboard</a> used by AI researchers to gauge the relative capabilities of AI language models. "The king is dead," <a href="https://x.com/NickADobos/status/1772764680639148285?s=20">tweeted</a> software developer Nick Dobos in a post comparing <a href="https://arstechnica.com/information-technology/2023/11/openai-introduces-gpt-4-turbo-larger-memory-lower-cost-new-knowledge/">GPT-4 Turbo</a> and Claude 3 Opus that has been making the rounds on social media. "RIP GPT-4."</p>
+
+<p>Since GPT-4 was included in Chatbot Arena <a href="https://lmsys.org/blog/2023-05-10-leaderboard/">around May 10, 2023</a> (the leaderboard launched <a href="https://lmsys.org/blog/2023-05-03-arena/">May 3</a> of that year), variations of GPT-4 have consistently been on the top of the chart until now, so its defeat in the Arena is a notable moment in the relatively short history of AI language models. One of Anthropic's smaller models, Haiku, has also been turning heads with its performance on the leaderboard.</p>
+<p>"For the first time, the best available models—Opus for advanced tasks, Haiku for cost and efficiency—are from a vendor that isn't OpenAI," independent AI researcher Simon Willison told Ars Technica. "That's reassuring—we all benefit from a diversity of top vendors in this space. But GPT-4 is over a year old at this point, and it took that year for anyone else to catch up."</p></div><p><a href="https://arstechnica.com/?p=2012778#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012778&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/information-technology/2024/03/the-king-is-dead-claude-3-surpasses-gpt-4-on-chatbot-arena-for-the-first-time/feed/</wfw:commentRss>
+			<slash:comments>42</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Microsoft opens a crack in console gaming’s decades-old walled garden</title>
+		<link>https://arstechnica.com/?p=2012805</link>
+					<comments>https://arstechnica.com/gaming/2024/03/microsoft-opens-a-crack-in-console-gamings-decades-old-walled-garden/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 15:58:59 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[epic games store]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[XBox]]></category>
+		<category><![CDATA[Xbox One]]></category>
+		<category><![CDATA[xbox series x]]></category>
+		<category><![CDATA[xbox store]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012805</guid>
+
+					<description><![CDATA[Competing marketplaces like the Epic Games Store could show up on Xbox in the future.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/closedconsole-800x450.jpg" alt="Will the fragile Xbox balloon pop if that cage is opened?">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/closedconsole.jpg" class="enlarge-link" data-height="563" data-width="1000">Enlarge</a> <span class="sep">/</span> Will the fragile Xbox balloon pop if that cage is opened? (credit: Aurich Lawson / Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Since the days of the NES, the one unshakable distinction between the PC and console gaming markets was the latter's "walled garden" approach to game distribution. For decades now, console makers have completely controlled the licensing and sales methods available for games on their own hardware.</p>
+<p>So when Microsoft Xbox chief Phil Spencer says that he's open to breaking down that walled garden for his consoles, it's a big deal.</p>
+<p><a href="https://www.polygon.com/24108670/xbox-epic-games-store-phil-spencer-interview">Speaking to Polygon</a> in an interview at last week's Game Developers Conference, Spencer said he could foresee a future in which competing game marketplaces like <a href="https://arstechnica.com/gaming/2023/03/epic-opens-up-its-games-store-to-everyone-with-self-publishing-tools/">the Epic Games Store</a> or <a href="https://arstechnica.com/gaming/2021/05/today-only-itch-io-waives-devs-fees-for-your-drm-free-game-purchases/">indie clearinghouse itch.io</a> were available directly on Xbox hardware. “[Consider] our history as the Windows company," Spencer told Polygon. "Nobody would blink twice if I said, 'Hey, when you’re using a PC, you get to decide the type of experience you have [by picking where to buy games].' There’s real value in that."</p></div><p><a href="https://arstechnica.com/?p=2012805#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012805&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/03/microsoft-opens-a-crack-in-console-gamings-decades-old-walled-garden/feed/</wfw:commentRss>
+			<slash:comments>86</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Pornhub prepared to block Florida if child safety law takes effect</title>
+		<link>https://arstechnica.com/?p=2012788</link>
+					<comments>https://arstechnica.com/tech-policy/2024/03/pornhub-prepared-to-block-florida-if-child-safety-law-takes-effect/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 15:33:11 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[adult entertainment]]></category>
+		<category><![CDATA[adult sites]]></category>
+		<category><![CDATA[age verification]]></category>
+		<category><![CDATA[age-gating]]></category>
+		<category><![CDATA[aylo]]></category>
+		<category><![CDATA[child safety law]]></category>
+		<category><![CDATA[Florida]]></category>
+		<category><![CDATA[online child safety]]></category>
+		<category><![CDATA[pornhub]]></category>
+		<category><![CDATA[texas]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2012788</guid>
+
+					<description><![CDATA[Florida plans to start requiring ID for porn January 1.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/ph-cutting-off-florida-800x450.jpg" alt="Pornhub prepared to block Florida if child safety law takes effect">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/ph-cutting-off-florida.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> (credit: Aurich Lawson | Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>This week, Florida made headlines after passing HB 3, <a href="https://arstechnica.com/tech-policy/2024/03/florida-braces-for-lawsuits-over-law-banning-kids-from-social-media/">a law banning children under 14 from accessing social media</a> without parental consent.</p>
+<p>Much less attention was given to another requirement under the law obligating "pornographic or sexually explicit websites" to "use age verification to prevent minors from accessing sites that are inappropriate for children," as Republican Florida Governor Ron DeSantis explained the law in a <a href="https://www.flgov.com/2024/03/25/governor-desantis-signs-legislation-to-protect-children-and-uphold-parental-rights/">statement</a>.</p>
+<p>But Pornhub's parent company, Aylo, has taken notice, with a spokesperson confirming to Ars that "we are aware of the passage into law of HB 3 in Florida, which unfortunately fails to protect minors online."</p></div><p><a href="https://arstechnica.com/?p=2012788#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012788&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/03/pornhub-prepared-to-block-florida-if-child-safety-law-takes-effect/feed/</wfw:commentRss>
+			<slash:comments>187</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Explaining why your keyboard feels so darn good—or way too mushy</title>
 		<link>https://arstechnica.com/?p=2007717</link>
 					<comments>https://arstechnica.com/gadgets/2024/03/the-ars-technica-guide-to-keyboards-mechanical-membrane-and-buckling-springs/#comments</comments>
 		
@@ -36,10 +706,10 @@
 		<category><![CDATA[mechanical keyboards]]></category>
 		<guid isPermaLink="false">https://arstechnica.com/?p=2007717</guid>
 
-					<description><![CDATA[Explaining the mushy and the magnificent. ]]></description>
+					<description><![CDATA[Ars Technica's guide to keyboards: Mechanical, membrane, and buckling springs.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/keyboard-switch-styles-800x450.jpg" alt="The Ars Technica guide to keyboards: Mechanical, membrane, and buckling springs">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/keyboard-switch-styles-800x450.jpg" alt="Explaining why your keyboard feels so darn good—or way too mushy">
       <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/keyboard-switch-styles.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> (credit: Aurich Lawson)</p>  </figure>
 
 
@@ -53,7 +723,7 @@
 <p>In this guide, we’ll look at how some of the most popular keyboard categories work and how their differences impact typing feel.</p></div><p><a href="https://arstechnica.com/?p=2007717#p3">Read 51 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2007717&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/03/the-ars-technica-guide-to-keyboards-mechanical-membrane-and-buckling-springs/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>161</slash:comments>
 		
 		
 			</item>
@@ -91,714 +761,10 @@
 <div><a name="page-1"></a></div>
 <p>Wild migratory birds likely spread a deadly strain of bird flu to dairy cows in Texas and Kansas, <a href="https://www.tahc.texas.gov/news/2024/2024-03-26_HPAI_Dairies.pdf">state</a> and <a href="https://www.aphis.usda.gov/aphis/newsroom/news/sa_by_date/sa-2024/hpai-cattle">federal officials</a> announced this week.</p>
 <p>It is believed to be the first time the virus, a highly pathogenic avian influenza (HPAI), has been found in cows in the US. Last week, officials in Minnesota confirmed finding an HPAI case <a href="https://www.avma.org/news/goat-minnesota-tests-positive-hpai">in a young goat</a>, marking the first time the virus has been found in a domestic ruminant in the US.</p>
-<p><a href="https://apnews.com/article/bird-flu-dairy-cattle-usda-kansas-texas-c3040bb31a9a8293717d47362f006902">According to the Associated Press</a>, officials with the Texas Animal Health Commission confirmed the flu virus is the Type A H5N1 strain, which has been <a href="https://arstechnica.com/science/2023/01/as-egg-prices-soar-the-bloodiest-bird-flu-outbreak-in-us-history-drags-on/">ravaging bird populations around the globe for several years</a>. The explosive, ongoing spread of the virus has led to many spillover events into mammals, making epidemiologists anxious that the virus could adapt to spread widely in humans.</p></div><p><a href="https://arstechnica.com/?p=2012750#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012750&comments=1">Comments</a></p>]]></content:encoded>
+<p><a href="https://apnews.com/article/bird-flu-dairy-cattle-usda-kansas-texas-c3040bb31a9a8293717d47362f006902">According to the Associated Press</a>, officials with the Texas Animal Health Commission confirmed the flu virus is the Type A H5N1 strain, which has been <a href="https://arstechnica.com/science/2023/01/as-egg-prices-soar-the-bloodiest-bird-flu-outbreak-in-us-history-drags-on/">ravaging bird populations around the globe for several years</a>. The explosive ongoing spread of the virus has led to many spillover events into mammals, making epidemiologists anxious that the virus could adapt to spread widely in humans.</p></div><p><a href="https://arstechnica.com/?p=2012750#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012750&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/03/cows-in-texas-and-kansas-test-positive-for-highly-pathogenic-bird-flu/feed/</wfw:commentRss>
-			<slash:comments>51</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Taylor Swift fans dancing and jumping created last year’s “Swift quakes”</title>
-		<link>https://arstechnica.com/?p=2010047</link>
-					<comments>https://arstechnica.com/science/2024/03/taylor-swift-fans-dancing-and-jumping-created-last-years-swift-quakes/#comments</comments>
-		
-		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 22:36:18 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[harmonic tremors]]></category>
-		<category><![CDATA[reverberation]]></category>
-		<category><![CDATA[seismology]]></category>
-		<category><![CDATA[Swift Quake]]></category>
-		<category><![CDATA[taylor swift]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2010047</guid>
-
-					<description><![CDATA["Shake It Off" produced tremors equivalent to a local magnitude earthquake of 0.851.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/swift1-800x559.jpg" alt="Taylor Swift on the Eras Tour in 2023">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/swift1.jpg" class="enlarge-link" data-height="838" data-width="1200">Enlarge</a> <span class="sep">/</span> Taylor Swift during her <em>Eras</em> Tour. Crowd motions likely caused mini "Swift quakes" recorded by seismic monitoring stations. (credit: <a rel="nofollow" class="caption-link" href="https://creativecommons.org/licenses/by-sa/2.0/">Ronald Woan/CC BY-SA 2.0</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>When mega pop star Taylor Swift gave a series of concerts last August at the SoFi Stadium in Los Angeles, regional seismic network stations recorded unique harmonic vibrations known as "concert tremor." A similar <a href="https://www.cnn.com/2023/07/27/entertainment/taylor-swift-seismic-activity/index.html">"Swift quake"</a> had occurred the month before in Seattle, prompting scientists from the California Institute of Technology and UCLA to take a closer look at seismic data collected during Swift's LA concert.</p>
-<p>The researchers concluded that the vibrations were largely generated by crowd motion as "Swifties" jumped and danced enthusiastically to the music and described their findings in a <a href="https://pubs.geoscienceworld.org/ssa/srl/article-abstract/doi/10.1785/0220230385/636176/Shake-to-the-Beat-Exploring-the-Seismic-Signals?redirectedFrom=fulltext">new paper</a> published in the journal Seismological Research Letters. The authors contend that gaining a better understanding of atypical seismic signals like those generated by the Swift concert could improve the analysis of seismic signals in the future, as well as bolster emerging applications like using signals from train noise for <a href="https://en.wikipedia.org/wiki/Seismic_interferometry">seismic interferometry</a>.</p>
-<p>Concert tremor consists of low-frequency signals of extended duration with harmonic frequency peaks between 1 and 10 Hz, similar to the signals generated by volcanoes or trains. There has been considerable debate about the source of these low-frequency concert tremor signals: Are they produced by the synchronized movement of the crowd, or by the sound systems or instruments coupled to the stage? Several prior studies of stadium concerts have argued for the former hypothesis, while a <a href="https://pubs.usgs.gov/publication/70189620">2015 study</a> found that a chanting crowd at a football game produced similar harmonic seismic tremors. However, a <a href="https://pubs.geoscienceworld.org/ssa/srl/article-abstract/79/4/546/143430/Seismic-Raves-Tremor-Observations-from-an">2008 study</a> concluded that such signals generated during an outdoor electronic dance music festival came from the sound system vibrating to the musical beat.</p></div><p><a href="https://arstechnica.com/?p=2010047#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2010047&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/03/taylor-swift-fans-dancing-and-jumping-created-last-years-swift-quakes/feed/</wfw:commentRss>
-			<slash:comments>49</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>SCOTUS mifepristone case: Justices focus on anti-abortion groups’ legal standing</title>
-		<link>https://arstechnica.com/?p=2012710</link>
-					<comments>https://arstechnica.com/science/2024/03/abortion-pill-case-scotus-skeptical-of-anti-abortion-groups-legal-standing/#comments</comments>
-		
-		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 21:10:11 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Abortion]]></category>
-		<category><![CDATA[alito]]></category>
-		<category><![CDATA[barrett]]></category>
-		<category><![CDATA[clarence thomas]]></category>
-		<category><![CDATA[comstock]]></category>
-		<category><![CDATA[drug approval]]></category>
-		<category><![CDATA[fda]]></category>
-		<category><![CDATA[gorsuch]]></category>
-		<category><![CDATA[kagan]]></category>
-		<category><![CDATA[ketanji brown jackson]]></category>
-		<category><![CDATA[medication abortion]]></category>
-		<category><![CDATA[mifepristone]]></category>
-		<category><![CDATA[SCOTUS]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012710</guid>
-
-					<description><![CDATA[The case has big implications for women's health and the authority of the FDA.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-2115237711-800x533.jpeg" alt="Demonstrators participate in an abortion-rights rally outside the Supreme Court as the justices of the court hear oral arguments in the case of the &lt;em&gt;US Food and Drug Administration v. Alliance for Hippocratic Medicine&lt;/em&gt; on March 26, 2024 in Washington, DC.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-2115237711-scaled.jpeg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> Demonstrators participate in an abortion-rights rally outside the Supreme Court as the justices of the court hear oral arguments in the case of the <em>US Food and Drug Administration v. Alliance for Hippocratic Medicine</em> on March 26, 2024 in Washington, DC. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/demonstrators-participate-in-a-abortion-rights-rally-news-photo/2115237711?adppopup=true">Getty | Anna Moneymaker</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The US Supreme Court on Tuesday heard arguments in a case seeking to limit access to the abortion and miscarriage drug mifepristone, with a majority of justices expressing skepticism that the anti-abortion groups that brought the case have the legal standing to do so.</p>
-<p>The case threatens to dramatically alter access to a drug that has been safely used for decades and, according to the Guttmacher Institute, was used in <a href="https://www.guttmacher.org/2024/03/medication-abortion-accounted-63-all-us-abortions-2023-increase-53-2020">63 percent of abortions documented in the health care system in 2023</a>. But, it also has sweeping implications for the Food and Drug Administration's authority over drugs, marking the first time that courts have second-guessed the agency's expert scientific analysis and moved to restrict access to an FDA-approved drug.</p>
-<p>As such, the case has rattled health experts, reproductive health care advocates, the FDA, and the pharmaceutical industry alike. But, based on the line of questioning in today's oral arguments, they have reason to breathe a sigh of relief.</p></div><p><a href="https://arstechnica.com/?p=2012710#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012710&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/03/abortion-pill-case-scotus-skeptical-of-anti-abortion-groups-legal-standing/feed/</wfw:commentRss>
-			<slash:comments>122</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Thousands of phones and routers swept into proxy service, unbeknownst to users</title>
-		<link>https://arstechnica.com/?p=2012682</link>
-					<comments>https://arstechnica.com/security/2024/03/thousands-of-phones-and-routers-swept-into-proxy-service-unbeknownst-to-users/#comments</comments>
-		
-		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 19:56:09 +0000</pubDate>
-				<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[android]]></category>
-		<category><![CDATA[anonymous proxy]]></category>
-		<category><![CDATA[botnets]]></category>
-		<category><![CDATA[Phones]]></category>
-		<category><![CDATA[routers]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012682</guid>
-
-					<description><![CDATA[Two new reports show criminals may be using your device to cover their online tracks.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/hacked-800x457.jpg" alt="Thousands of phones and routers swept into proxy service, unbeknownst to users">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/hacked.jpg" class="enlarge-link" data-height="629" data-width="1100">Enlarge</a> (credit: Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Crooks are working overtime to anonymize their illicit online activities using thousands of devices of unsuspecting users, as evidenced by two unrelated reports published Tuesday.</p>
-<p>The first, from security firm Lumen Labs, reports that roughly 40,000 home and office routers have been drafted into a criminal enterprise that anonymizes illicit Internet activities, with another 1,000 new devices being added each day. The malware responsible is a variant of <a href="https://isc.sans.edu/diary/Linksys+Worm+TheMoon+Summary+What+we+know+so+far/17633">TheMoon</a>, a malicious code family dating back to at least 2014. In its earliest days, TheMoon almost exclusively infected Linksys E1000 series routers. Over the years it <a href="https://blog-netlab-360-com.translate.goog/themoon-botnet-a-review-and-new-features/?_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=en-US">branched out</a> to targeting the Asus WRTs, Vivotek Network Cameras, and multiple D-Link models.</p>
-<p>In the years following its debut, TheMoon’s self-propagating behavior and growing ability to compromise a broad base of architectures enabled a growth curve that captured attention in security circles. More recently, the visibility of the Internet of Things botnet trailed off, leading many to assume it was inert. To the surprise of researchers in Lumen’s Black Lotus Lab, during a single 72-hour stretch earlier this month, TheMoon added 6,000 ASUS routers to its ranks, an indication that the botnet is as strong as it’s ever been.</p></div><p><a href="https://arstechnica.com/?p=2012682#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012682&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/security/2024/03/thousands-of-phones-and-routers-swept-into-proxy-service-unbeknownst-to-users/feed/</wfw:commentRss>
-			<slash:comments>56</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Missouri AG sues Media Matters over its X research, demands donor names</title>
-		<link>https://arstechnica.com/?p=2012671</link>
-					<comments>https://arstechnica.com/tech-policy/2024/03/missouri-ag-sues-media-matters-in-lawsuit-echoing-elon-musks-complaints/#comments</comments>
-		
-		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 19:38:58 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[elon musk media matters]]></category>
-		<category><![CDATA[missouri media matters]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012671</guid>
-
-					<description><![CDATA[Media watchdog slams "meritless, expensive, and harassing investigations."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/02/Elon-Musk-X-800x533.jpg" alt="A photo of Elon Musk next to the logo for X, the social network formerly known as Twitter,.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/02/Elon-Musk-X.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> (credit: Getty Images | NurPhoto )</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Missouri Attorney General Andrew Bailey yesterday <a href="https://ago.mo.gov/attorney-general-bailey-files-suit-against-media-matters-for-refusal-to-cooperate-with-investigation/">sued Media Matters</a> in an attempt to protect Elon Musk and X from the nonprofit watchdog group's investigations into hate speech on the social network. Bailey's <a href="https://ago.mo.gov/wp-content/uploads/Final-Media-Matters-Petition.pdf">lawsuit</a> claims that "Media Matters has used fraud to solicit donations from Missourians in order to trick advertisers into removing their advertisements from X, formerly Twitter, one of the last platforms dedicated to free speech in America."</p>
-<p>Bailey didn't provide much detail on the alleged fraud but claimed that Media Matters is guilty of "fraudulent manipulation of data on X.com." That's apparently a reference to Media Matters reporting that X placed ads for major brands next to posts touting Hitler and Nazis. X has accused Media Matters of manipulating the site's algorithm by endlessly scrolling and refreshing.</p>
-<p>Bailey yesterday issued an <a href="https://ago.mo.gov/wp-content/uploads/Final-CID-to-Media-Matters.pdf">investigative demand</a> seeking names and addresses of all Media Matters donors who live in Missouri and a range of internal communications and documents regarding the group's research on Musk and X. Bailey anticipates that Media Matters won't provide the requested materials, so he filed the lawsuit asking Cole County Circuit Court for an order to enforce the investigative demand.</p></div><p><a href="https://arstechnica.com/?p=2012671#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012671&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/03/missouri-ag-sues-media-matters-in-lawsuit-echoing-elon-musks-complaints/feed/</wfw:commentRss>
-			<slash:comments>142</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>WWDC 2024 starts on June 10 with announcements about iOS 18 and beyond</title>
-		<link>https://arstechnica.com/?p=2012651</link>
-					<comments>https://arstechnica.com/gadgets/2024/03/wwdc-2024-starts-on-june-10-with-announcements-about-ios-18-and-beyond/#comments</comments>
-		
-		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 19:02:50 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[generative ai]]></category>
-		<category><![CDATA[ios 18]]></category>
-		<category><![CDATA[WWDC]]></category>
-		<category><![CDATA[WWDC 2024]]></category>
-		<category><![CDATA[WWDC24]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012651</guid>
-
-					<description><![CDATA[Speculation is rampant that Apple will make its first big moves in generative AI.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/wwdc-2024-main-image-800x450.jpeg" alt="A colorful logo that says " wwdc>
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/wwdc-2024-main-image.jpeg" class="enlarge-link" data-height="900" data-width="1600">Enlarge</a> <span class="sep">/</span> The logo for WWDC24. (credit: Apple)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Apple has announced dates for this year's Worldwide Developers Conference (WWDC). WWDC24 will run from June 10 through June 14 at the company's Cupertino, California, headquarters, but everything will be streamed online.</p>
-<p>Apple posted about the event with the following <a href="https://developer.apple.com/wwdc24/">generic copy</a>:</p>
-<blockquote><p>Join us online for the biggest developer event of the year. Be there for the unveiling of the latest Apple platforms, technologies, and tools. Learn how to create and elevate your apps and games. Engage with Apple designers and engineers and connect with the worldwide developer community. All online and at no cost.</p></blockquote>
-<p>As always, the conference will kick off with a keynote presentation on the first day, which is Monday, June 10. You can be sure Apple will use that event to at least announce the key features of its next round of annual software updates for iOS, iPadOS, macOS, watchOS, visionOS, and tvOS.</p></div><p><a href="https://arstechnica.com/?p=2012651#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012651&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/03/wwdc-2024-starts-on-june-10-with-announcements-about-ios-18-and-beyond/feed/</wfw:commentRss>
-			<slash:comments>63</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Cities: Skylines 2 gets long-awaited official mod support and map editor</title>
-		<link>https://arstechnica.com/?p=2012649</link>
-					<comments>https://arstechnica.com/gaming/2024/03/cities-skylines-2-gets-long-awaited-official-mod-support-and-map-editor/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 18:53:09 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[cities: skylines 2]]></category>
-		<category><![CDATA[city builders]]></category>
-		<category><![CDATA[colossal order]]></category>
-		<category><![CDATA[modding]]></category>
-		<category><![CDATA[Paradox Interactive]]></category>
-		<category><![CDATA[simulation game]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012649</guid>
-
-					<description><![CDATA[Modding was seen as the most important next step by developer's leader.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/CSII-BeachProps-Screenshot-4-low-800x450.jpg" alt="View of a rooftop terrace with sun umbrella in Cities: Skylines 2's Beach Properties expansion.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/CSII-BeachProps-Screenshot-4-low.jpg" class="enlarge-link" data-height="1080" data-width="1920">Enlarge</a> <span class="sep">/</span> Kudos to the designer of this umbrella-shaded rooftop terrace at Colossal Order, perhaps the only worker who can imagine a place that isn't overwhelmed by Steam reviewers. (credit: Paradox Interactive)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Under the very unassuming name of <a href="https://forum.paradoxplaza.com/forum/threads/modding-wavelet-patch-1-1-0f1.1640000/">patch 1.1.0f1</a>, <em>Cities: Skylines 2 </em>is getting something quite big. The sequel now has the modding, map editing, and code modding support that made its predecessor such a sprawling success.</p>
-<p>Only time will tell if community energy can help restore some of the momentum that has been dispersed by the fraught launch of <em><a href="https://www.paradoxinteractive.com/games/cities-skylines-ii/about">Cities: Skylines 2</a> (C:S2)</em>. The project of relatively small developer Colossal Order arrived in October 2023 with performance issues and a lack of content compared to its predecessor. Some of that content perception stemmed from the game's lack of modding support, which had contributed to entire aspects of the original game not yet available in the sequel.</p>
-<p>When <a href="https://arstechnica.com/gaming/2023/12/an-interview-with-cities-skylines-2-developers-ceo-mariina-hallikainen/">Ars interviewed Colossal Order CEO Mariina Hallikainen</a> in December, she said that modding support was the thing she was most looking forward to arriving. Modding support was intended to be available at launch, but the challenges of building the new game's technical base, amid <a href="https://arstechnica.com/gaming/2023/11/the-sad-story-of-cities-skylines-2s-launch-and-how-the-game-hopes-to-get-better/">many other technical issues</a>, pushed it back, along with console releases.</p></div><p><a href="https://arstechnica.com/?p=2012649#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012649&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/03/cities-skylines-2-gets-long-awaited-official-mod-support-and-map-editor/feed/</wfw:commentRss>
-			<slash:comments>55</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Chrome launches native build for Arm-powered Windows laptops</title>
-		<link>https://arstechnica.com/?p=2012585</link>
-					<comments>https://arstechnica.com/gadgets/2024/03/chrome-launches-native-build-for-arm-powered-windows-laptops/#comments</comments>
-		
-		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 17:18:17 +0000</pubDate>
-				<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[ARM]]></category>
-		<category><![CDATA[Google Chrome]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012585</guid>
-
-					<description><![CDATA[When the big Windows-on-Arm relaunch happens in mid-2024, Chrome will be ready. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2021/03/Chrome-Getty-800x533.jpg" alt="Extreme close-up photograph of finger above Chrome icon on smartphone.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2021/03/Chrome-Getty.jpg" class="enlarge-link" data-height="2397" data-width="3596">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/">Getty Images</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>We are quickly barreling toward an age of viable Arm-powered Windows laptops with the upcoming launch of Qualcomm's Snapdragon X Elite CPU. Hardware options are great, but getting useful computers out of them will require a lot of new software, and a big one has just launched: Chrome for Windows on Arm.</p>
-<p>Google has had a nightly "canary" build running <a href="https://arstechnica.com/gadgets/2024/01/google-launches-chrome-nightlies-for-windows-11-on-arm/">since January</a>, but now it has <a href="https://blog.google/products/chrome/download-google-chrome-windows-pc-arm/">a blog post</a> up touting a production-ready version of Chrome for "Arm-compatible Windows PCs powered by Snapdragon." That's right, Qualcomm has a big hand in this release, too, with <a href="https://www.qualcomm.com/news/releases/2024/03/fast--secure-and-native--chrome-comes-to-windows-on-snapdragon">its own press announcement</a> touting Google's browser release for its upcoming chip. Google promises a native version of Chrome will be "fully optimized for your PC’s [Arm] hardware and operating system to make browsing the web faster and smoother."</p>
-<p>Apple upended laptop CPU architecture when it dumped Intel and launched the Arm-based Apple Silicon M1. A few years later and Qualcomm is ready to answer—mostly by buying <a href="https://arstechnica.com/gadgets/2021/03/qualcomm-closes-nuvia-deal-promises-in-house-laptop-cpus-by-2h-2022/">a company full</a> of Apple Silicon veterans—with the upcoming launch of the Snapdragon X Elite chip. <a href="https://arstechnica.com/gadgets/2023/10/qualcomm-snapdragon-x-elite-looks-like-the-windows-worlds-answer-to-apple-silicon/">Qualcomm claims</a> the X Elite will bring Apple Silicon-class hardware to Windows, but the chip isn't out yet—it's due for a "mid-2024" release. Most of the software you'll be running will still be written in x86 and need to go through a translation layer, which will slow things down, but at least it won't have to be your primary browser.</p></div><p><a href="https://arstechnica.com/?p=2012585#p3">Read 1 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012585&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/03/chrome-launches-native-build-for-arm-powered-windows-laptops/feed/</wfw:commentRss>
-			<slash:comments>52</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Bridge collapses put transportation agencies’ emergency plans to the test</title>
-		<link>https://arstechnica.com/?p=2012626</link>
-					<comments>https://arstechnica.com/science/2024/03/bridge-collapses-put-transportation-agencies-emergency-plans-to-the-test/#comments</comments>
-		
-		<dc:creator><![CDATA[The Conversation]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 17:12:22 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Baltimore]]></category>
-		<category><![CDATA[bridges]]></category>
-		<category><![CDATA[Cargo ship]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[transportation]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012626</guid>
-
-					<description><![CDATA[Agencies need to build or find excess vehicle capacity before a bridge fails.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-2107846294-800x533.jpg" alt="The Dali container vessel after striking the Francis Scott Key Bridge that collapsed into the Patapsco River in Baltimore on March 26. The commuter bridge collapsed after being struck by a container ship, causing vehicles to plunge into the water and halting shipping traffic at one of the most important ports on the US East Coast.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-2107846294-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> The Dali container vessel after striking the Francis Scott Key Bridge that collapsed into the Patapsco River in Baltimore on March 26. The commuter bridge collapsed after being struck by a container ship, causing vehicles to plunge into the water and halting shipping traffic at one of the most important ports on the US East Coast. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/the-dali-container-vessel-after-striking-the-francis-scott-news-photo/2107846294">Al Drago/Bloomberg via Getty Images</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p><em>A container ship <a href="https://apnews.com/article/baltimore-bridge-collapse-53169b379820032f832de4016c655d1b">rammed into the Francis Scott Key Bridge in Baltimore</a> around 1:30 am on March 26, 2024, causing a portion of the bridge to collapse into Baltimore Harbor. Officials called the event a mass casualty and were searching for people in the waters of the busy port.</em></p>
-<p><em>This event occurred less than a year after <a href="https://www.washingtonpost.com/transportation/2023/06/11/bridge-collapse-philadelphia-interstate-95/">a portion of Interstate 95 collapsed</a> in north Philadelphia during a truck fire. That disaster was initially expected to snarl traffic for months, but a <a href="https://www.usatoday.com/story/news/nation/2023/06/23/i-95-bridge-reopening-friday/70349844007/">temporary six-lane roadway</a> was constructed in 12 days to serve motorists while a permanent overpass was rebuilt.</em></p>
-<p><em>US cities often face similar challenges when <a href="https://www.nbcnews.com/news/us-news/memphis-cracked-i-40-bridge-creates-headache-traffic-shipping-n1267187">routine wear and tear</a>, <a href="https://abc7news.com/loma-prieta-quake-earthquake-when-was-magnitude/5605965/">natural disasters</a>, or major accidents damage roads and bridges. Transportation engineer <a href="https://scholar.google.com/citations?user=RxdHmbMAAAAJ&amp;hl=en">Lee D. Han</a> explains how planners, transit agencies, and city governments anticipate and manage these disruptions.</em></p></div><p><a href="https://arstechnica.com/?p=2012626#p3">Read 25 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012626&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/03/bridge-collapses-put-transportation-agencies-emergency-plans-to-the-test/feed/</wfw:commentRss>
-			<slash:comments>274</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Florida braces for lawsuits over law banning kids from social media</title>
-		<link>https://arstechnica.com/?p=2012595</link>
-					<comments>https://arstechnica.com/tech-policy/2024/03/florida-braces-for-lawsuits-over-law-banning-kids-from-social-media/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 16:31:56 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[age verification]]></category>
-		<category><![CDATA[data privacy]]></category>
-		<category><![CDATA[Florida]]></category>
-		<category><![CDATA[online child safety]]></category>
-		<category><![CDATA[ron desantis]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012595</guid>
-
-					<description><![CDATA[Florida law banning kids from social media is unconstitutional, critics say.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-1390506912-800x532.jpg" alt="Florida braces for lawsuits over law banning kids from social media">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-1390506912.jpg" class="enlarge-link" data-height="1412" data-width="2122">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/cute-fashionable-little-girl-relaxes-indoors-using-royalty-free-image/1390506912?phrase=Florida%20kids%20phone">Lisa5201 | E+</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>On Monday, Florida became the first state to ban kids under 14 from social media without parental permission. It appears likely that the law—considered one of the most restrictive in the US—will face significant legal challenges, however, before taking effect on January 1.</p>
-<p>Under <a href="https://www.flsenate.gov/Session/Bill/2024/3/BillText/er/PDF">HB 3</a>, apps like Instagram, Snapchat, or TikTok would need to verify the ages of users, then delete any accounts for users under 14 when parental consent is not granted. Companies that "knowingly or recklessly" fail to block underage users risk fines of up to $10,000 in damages to anyone suing on behalf of child users. They could also be liable for up to $50,000 per violation in civil penalties.</p>
-<p>In a <a href="https://www.flgov.com/2024/03/25/governor-desantis-signs-legislation-to-protect-children-and-uphold-parental-rights/">statement</a>, Florida governor Ron DeSantis said the "landmark law" gives "parents a greater ability to protect their children" from a variety of social media harm. Florida House Speaker Paul Renner, who spearheaded the law, explained some of that harm, saying that passing HB 3 was critical because "the Internet has become a dark alley for our children where predators target them and dangerous social media leads to higher rates of depression, self-harm, and even suicide."</p></div><p><a href="https://arstechnica.com/?p=2012595#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012595&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/03/florida-braces-for-lawsuits-over-law-banning-kids-from-social-media/feed/</wfw:commentRss>
-			<slash:comments>165</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Genesis unveils its take on the big luxury EV—the Neolun Concept</title>
-		<link>https://arstechnica.com/?p=2012586</link>
-					<comments>https://arstechnica.com/cars/2024/03/sporty-orange-and-big-luxury-genesis-brings-its-ev-game-to-ny/#comments</comments>
-		
-		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 16:07:53 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Genesis]]></category>
-		<category><![CDATA[Genesis GV60]]></category>
-		<category><![CDATA[Genesis Magma]]></category>
-		<category><![CDATA[NYIAS]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012586</guid>
-
-					<description><![CDATA[Korea's luxury automaker brings five surprises to the New York International Auto Show.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/Genesis-at-NYIAS-2024-1-800x600.jpg" alt="The front half of the Genesis Neolum Concept EV">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/Genesis-at-NYIAS-2024-1-scaled.jpg" class="enlarge-link" data-height="1920" data-width="2560">Enlarge</a> <span class="sep">/</span> This concept points the way to a future Genesis flagship SUV. (credit: Jonathan Gitlin)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<aside class="pullbox sidebar fullwidth">Genesis provided train tickets from Washington to New York and accommodation so Ars could attend its event. Ars does not accept paid editorial content.</aside>
-<p>NEW YORK—You can always rely on Genesis to bring at least one interesting concept to the New York International Auto Show. This year, the company brought several. At a busy reveal at the brand's Genesis House in Manhattan, it showed us its high-performance ambitions with not one but four bright orange machines, plus one rather famous Belgian racing driver. Then, in a chamber reminiscent of <em><a href="https://airandspace.si.edu/multimedia-gallery/nasm2018-00448jpg">The Barmacide Feast</a></em>, we got to see the poshest Genesis yet, the brand's take on a big luxury electric vehicle inspired by Korean hospitality.</p>
-<h2>The Neolum Concept</h2>
-  <ul class="gallery shortcode-gallery gallery-wide">
-          <li>
-        <div class="gallery-item-content">
-          <div class="gallery-image"><img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/Genesis-at-NYIAS-2024-2-980x735.jpg" alt=""></div>
-          <p>
-            The Genesis Neolum has the looks to hold its own next to any Range Rover or Bentley Bentayga.                          [credit:
-                              Jonathan Gitlin                            ]
-                      </p>
-        </div>
-      </li>
-      </ul>
-
-<p>Genesis was tight-lipped in the lead-up to Monday night's unveilings, but no one was entirely surprised to see a big electric SUV. Genesis is owned by Hyundai Group, after all, and has access to the E-GMP architecture, a thoroughly up-to-date flexible platform that keeps impressing us. Kia just used E-GMP to great effect to make <a href="https://arstechnica.com/cars/2023/03/heres-our-first-look-at-kias-ev9-three-row-electric-suv/">the EV9</a>, a three-row family SUV. And Hyundai's take on that form factor is <a href="https://arstechnica.com/cars/2021/11/hyundai-hints-at-ioniq-7-with-its-latest-concept-ev-seven/">due later this year</a> in the production Ioniq 7, so an upmarket model from Genesis seemed obvious.</p>
-<p>"The last eight years, it was about finding who we are and then discovering DNA for the Genesis," said SangYup Lee, global design head for Genesis. "Now it's time to expand."</p></div><p><a href="https://arstechnica.com/?p=2012586#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012586&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/03/sporty-orange-and-big-luxury-genesis-brings-its-ev-game-to-ny/feed/</wfw:commentRss>
-			<slash:comments>67</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Daily Telescope: A protostar with a stunning protoplanetary disc</title>
-		<link>https://arstechnica.com/?p=2012480</link>
-					<comments>https://arstechnica.com/space/2024/03/daily-telescope-a-protostar-with-a-stunning-protoplanetary-disc/#comments</comments>
-		
-		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 12:00:09 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[daily telescope]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012480</guid>
-
-					<description><![CDATA[Dust and stars, stars and dust.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/heic2406a-800x922.jpg" alt="FS Tau is a multi-star system.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/heic2406a.jpg" class="enlarge-link" data-height="2193" data-width="1903">Enlarge</a> <span class="sep">/</span> FS Tau is a multi-star system. (credit: NASA, ESA, K. Stapelfeldt (NASA JPL), G. Kober )</p>  </figure>
-
-
-
-
-      <p><em>Welcome to the <a href="https://arstechnica.com/tag/daily-telescope/">Daily Telescope</a>. There is a little too much darkness in this world and not enough light, a little too much pseudoscience and not enough science. We'll let other publications offer you a daily horoscope. At Ars Technica, we're going to take a different route, finding inspiration from very real images of a universe that is filled with stars and wonder.</em></p>
-    
-
-<div><a name="page-1"></a></div>
-<p>Good morning. It's March 26, and today's photo comes from the Hubble Space Telescope. It showcases a very young multi-star system known as FS Tau.</p>
-<p>This star system is only about 2.8 million years old. In terms of cosmic time, that is but a blink of the eye. It lies about 450-light-years away from Earth.</p></div><p><a href="https://arstechnica.com/?p=2012480#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012480&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/03/daily-telescope-a-protostar-with-a-stunning-protoplanetary-disc/feed/</wfw:commentRss>
-			<slash:comments>28</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Super Mario Maker’s “final boss” was a fraud all along</title>
-		<link>https://arstechnica.com/?p=2012413</link>
-					<comments>https://arstechnica.com/gaming/2024/03/super-mario-makers-final-boss-was-a-fraud-all-along/#comments</comments>
-		
-		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 11:00:25 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Mario]]></category>
-		<category><![CDATA[super mario maker]]></category>
-		<category><![CDATA[TAS]]></category>
-		<category><![CDATA[Team 0%]]></category>
-		<category><![CDATA[tool-assisted speedrun]]></category>
-		<category><![CDATA[Wii U]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012413</guid>
-
-					<description><![CDATA["Team 0%" declares a bittersweet victory as Trimming the Herbs' creator comes clean.
-]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image full">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/rob-tool-assisted-mario-maker-980x551.jpg" alt="When good robots fall into the wrong hands, bad things can happen...">
-      <p class="caption" style="font-size:0.8em">When good robots fall into the wrong hands, bad things can happen... (credit: Aurich Lawson | Nintendo)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The <em>Super Mario Maker</em> community and <a href="https://twitter.com/Team0Percent">"Team 0%"</a> have declared victory in <a href="https://arstechnica.com/gaming/2024/03/the-super-mario-maker-community-faces-its-final-boss/">their years-long effort to clear every user-submitted level</a> in the original Wii U game before <a href="https://arstechnica.com/gaming/2023/10/wii-u-3ds-online-servers-to-shut-down-in-six-months/">the servers shut off for good on April 8</a>. That victory declaration comes despite the fact that no human player has yet to clear "Trimming the Herbs" (TTH), the ultra-hard level that gained notoriety this month as what was thought to be the final "uncleared" level in the game.</p>
-<p>This strange confluence of events is the result of an admission by Ahoyo, the creator of Trimming the Herbs, who came clean Friday evening regarding his use of <a href="https://tasvideos.org/WelcomeToTASVideos">automated, tool-assisted speedrun (TAS) methods</a> in creating the level. That means he was able to use superhuman capabilities like slow-motion, rewinding, and frame advance to pre-record the precise set of perfectly timed inputs needed to <a href="https://www.youtube.com/watch?v=siz4oB4CGKo">craft the "creator clear"</a> that was necessary to upload the level in the first place.</p>
-<div class="video"><div class="wrapper"><iframe style="display:block" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/siz4oB4CGKo?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe></div><p class="caption" style="font-size:0.8em">Ahoyo's video of a "creator clear" for Trimming the Herbs, which he now admits was created using TAS methods. </p></div>
-<p>"I’m sorry for the drama [my level] caused within the community, and I regret the ordeal," Ahoyo <a href="https://discord.com/channels/394519186610847754/1220808827621085294/1220844130947563541">wrote on the Team 0% Discord</a> and <a href="https://twitter.com/Ahoyoo_Twitch/status/1771286936944099483">social media</a>. "But at least it was interesting. However in the end the truth matters most. Congratulations to Team 0% for their well-earned achievement!"</p></div><p><a href="https://arstechnica.com/?p=2012413#p3">Read 29 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012413&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/03/super-mario-makers-final-boss-was-a-fraud-all-along/feed/</wfw:commentRss>
-			<slash:comments>60</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Starliner’s first commander: Don’t expect perfection on crew test flight</title>
-		<link>https://arstechnica.com/?p=2012455</link>
-					<comments>https://arstechnica.com/space/2024/03/despite-turbulence-at-boeing-astronauts-are-ready-to-fly-companys-starliner/#comments</comments>
-		
-		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 00:19:37 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[aviation]]></category>
-		<category><![CDATA[Boeing]]></category>
-		<category><![CDATA[commercial crew]]></category>
-		<category><![CDATA[dave Calhoun]]></category>
-		<category><![CDATA[human spaceflight]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[starliner]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012455</guid>
-
-					<description><![CDATA[Dave Calhoun, who has led Boeing since 2020, will step down as CEO at the end of the year.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/cftstarlinerfuelingprep-800x533.jpeg" alt="Technicians at NASA's Kennedy Space Center in Florida prepare Boeing's Starliner spacecraft for fueling.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/cftstarlinerfuelingprep-scaled.jpeg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> Technicians at NASA's Kennedy Space Center in Florida prepare Boeing's Starliner spacecraft for fueling. (credit: <a rel="nofollow" class="caption-link" href="https://x.com/BoeingSpace/status/1769763373606932853?s=20">Boeing</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>HOUSTON—While it doesn't have the same relevance to public consciousness as safety problems with commercial airliners, a successful test flight of Boeing's Starliner spacecraft in May would be welcome news for the beleaguered aerospace company.</p>
-<p>This will be the first time the Starliner capsule flies into low-Earth orbit with humans aboard. NASA astronauts Butch Wilmore and Suni Williams are in the final stages of training for the so-called Crew Flight Test (CFT), a milestone running seven years behind the schedule Boeing said it could achieve when it won a $4.2 billion commercial crew contract from NASA a decade ago.</p>
-<p>If schedules hold, Wilmore and Williams will take off inside Boeing's Starliner spacecraft aboard a United Launch Alliance Atlas V rocket after midnight May 1, local time, from Cape Canaveral Space Force Station in Florida. They will fly Starliner to the International Space Station for a stay of at least eight days, then return the capsule to a parachute-assisted, airbag-cushioned landing in the western United States, likely at White Sands, New Mexico.</p></div><p><a href="https://arstechnica.com/?p=2012455#p3">Read 33 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012455&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/03/despite-turbulence-at-boeing-astronauts-are-ready-to-fly-companys-starliner/feed/</wfw:commentRss>
-			<slash:comments>183</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Workers with job flexibility and security have better mental health</title>
-		<link>https://arstechnica.com/?p=2012543</link>
-					<comments>https://arstechnica.com/science/2024/03/job-flexibility-and-security-linked-to-better-mental-health-among-workers/#comments</comments>
-		
-		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Mon, 25 Mar 2024 22:17:51 +0000</pubDate>
-				<category><![CDATA[Health]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[absenteeism]]></category>
-		<category><![CDATA[anxiety]]></category>
-		<category><![CDATA[job flexibility]]></category>
-		<category><![CDATA[job security]]></category>
-		<category><![CDATA[mental health]]></category>
-		<category><![CDATA[psychological distress]]></category>
-		<category><![CDATA[return-to-office]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012543</guid>
-
-					<description><![CDATA[Job flexibility and security were linked to significantly less psychological distress and anxiety. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2017/08/office-space-bossman-800x502.jpeg" alt="Workers with job flexibility and security have better mental health">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2017/08/office-space-bossman.jpeg" class="enlarge-link" data-height="664" data-width="1059">Enlarge</a> (credit: Office Space)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>American workers who have more flexibility and security in their jobs also have better mental health, according to <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2816735">a study of 2021 survey data</a> from over 18,000 nationally representative working Americans.</p>
-<p>The study, published Monday in JAMA Network Open, may not be surprising to those who have faced return-to-office mandates and rounds of layoffs amid the pandemic. But, it offers clear data on just how important job flexibility and security are to the health and well-being of workers.</p>
-<p>For the study, job flexibility was assessed in terms of ease of adjusting work schedules, advance notice of scheduling changes, and whether schedules were changed by employers often. People who reported greater flexibility in their job had 26 percent lower odds of serious psychological distress, which was measured on a validated, widely used questionnaire that assesses depression, nervousness, hopelessness, and worthlessness, among other forms of distress. Greater job flexibility was also linked to 13 percent lower odds of experiencing daily anxiety, 11 percent lower odds of experiencing weekly anxiety, and 9 percent lower odds of experiencing anxiety a few times a year.</p></div><p><a href="https://arstechnica.com/?p=2012543#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012543&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/03/job-flexibility-and-security-linked-to-better-mental-health-among-workers/feed/</wfw:commentRss>
-			<slash:comments>185</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Flying coach? At least you’ll be able to watch movies on an in-seat OLED TV soon</title>
-		<link>https://arstechnica.com/?p=2012437</link>
-					<comments>https://arstechnica.com/gadgets/2024/03/flying-coach-at-least-youll-be-able-to-watch-movies-on-an-in-seat-oled-tv-soon/#comments</comments>
-		
-		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
-		<pubDate>Mon, 25 Mar 2024 20:45:55 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<category><![CDATA[4K]]></category>
-		<category><![CDATA[Astrova]]></category>
-		<category><![CDATA[HDR]]></category>
-		<category><![CDATA[Icelandair]]></category>
-		<category><![CDATA[oled]]></category>
-		<category><![CDATA[panasonic]]></category>
-		<category><![CDATA[Panasonic Avionics]]></category>
-		<category><![CDATA[Qantus]]></category>
-		<category><![CDATA[United Airlines]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012437</guid>
-
-					<description><![CDATA[Who needs legroom when you have 8.3 million individually emissive pixels?]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-
-
-
-
-
-<div><a name="page-1"></a></div>
-  <ul class="gallery shortcode-gallery gallery-wide">
-          <li>
-        <div class="gallery-item-content">
-          <div class="gallery-image"><img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/Astrova-screen-980x494.png" alt=""></div>
-          <p>
-            This is one of the Panasonic Avionics Astrova in-flight entertainment systems, set to debut in Icelandair, Qantus, and United Airlines flights in the next couple of years.                          [credit:
-                              Panasonic                            ]
-                      </p>
-        </div>
-      </li>
-      </ul>
-
-<p>Flying on commercial airlines today might be a lot more of a pain than it used to be, but new tech is going to bring some improvement to one part of the experience—in-flight entertainment. Panasonic Avionics' brand <a href="https://www.panasonic.aero/our-offerings/systems/astrova/">Astrova</a> in-flight entertainment systems are starting to roll out on commercial flights on certain airlines, promising 4K HDR TVs and other features to the backs of seats that should be a huge upgrade over the abysmal screens we normally watch in-flight movies on.</p>
-<p>Look at most commercial airlines today, and you'll find a tiny, terrible LCD TV embedded in the seat in front of you. These HD, standard dynamic range screens have terrible contrast and poor viewing angles, and they aren't bright enough to achieve a good viewing experience when the overhead lights are on.</p>
-<p>They're bad enough that I always bring my own hardware for flights—most recently, I took three flights with Apple's Vision Pro headset, which I plan to write about later this week. But most people just bring a tablet.</p></div><p><a href="https://arstechnica.com/?p=2012437#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012437&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/03/flying-coach-at-least-youll-be-able-to-watch-movies-on-an-in-seat-oled-tv-soon/feed/</wfw:commentRss>
-			<slash:comments>176</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Justice Department indicts 7 accused in 14-year hack campaign by Chinese gov</title>
-		<link>https://arstechnica.com/?p=2012482</link>
-					<comments>https://arstechnica.com/security/2024/03/justice-department-indicts-7-accused-in-14-year-hack-campaign-by-chinese-gov/#comments</comments>
-		
-		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
-		<pubDate>Mon, 25 Mar 2024 20:20:53 +0000</pubDate>
-				<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[apt31]]></category>
-		<category><![CDATA[hacking]]></category>
-		<category><![CDATA[people's republic of china]]></category>
-		<category><![CDATA[zirconium]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012482</guid>
-
-					<description><![CDATA[Hacks allegedly targeted US officials and politicians, their spouses and dozens of companies.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/05/china-matrix-800x413.jpg" alt="Justice Department indicts 7 accused in 14-year hack campaign by Chinese gov">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/05/china-matrix.jpg" class="enlarge-link" data-height="1244" data-width="2410">Enlarge</a> (credit: peterschreiber.media | Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The US Justice Department on Monday unsealed an indictment charging seven men with hacking or attempting to hack dozens of US companies in a 14-year campaign furthering an economic espionage and foreign intelligence gathering by the Chinese government.</p>
-<p>All seven defendants, federal prosecutors alleged, were associated with Wuhan Xiaoruizhi Science &amp; Technology Co., Ltd. a front company created by the Hubei State Security Department, an outpost of the Ministry of State Security located in Wuhan province. The MSS, in turn, has funded an advanced persistent threat group tracked under names including APT31, Zirconium Violet Typhoon, Judgment Panda, and Altaire.</p>
-<h2>Relentless 14-year campaign</h2>
-<p>“Since at least 2010, the defendants … engaged in computer network intrusion activity on behalf of the HSSD targeting numerous US government officials, various US economic and defense industries and a variety of private industry officials, foreign democracy activists, academics and parliamentarians in response to geopolitical events affecting the PRC,” federal prosecutors <a href="https://www.justice.gov/opa/media/1345141/dl?inline">alleged</a>. “These computer network intrusion activities resulted in the confirmed and potential compromise of work and personal email accounts, cloud storage accounts and telephone call records belonging to millions of Americans, including at least some information that could be released in support of malign influence targeting democratic processes and institutions, and economic plans, intellectual property, and trade secrets belonging to American businesses, and contributed to the estimated billions of dollars lost every year as a result of the PRC’s state-sponsored apparatus to transfer US technology to the PRC.”</p></div><p><a href="https://arstechnica.com/?p=2012482#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012482&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/security/2024/03/justice-department-indicts-7-accused-in-14-year-hack-campaign-by-chinese-gov/feed/</wfw:commentRss>
-			<slash:comments>53</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Mozilla’s privacy service drops a provider with ties to people-search sites</title>
-		<link>https://arstechnica.com/?p=2012417</link>
-					<comments>https://arstechnica.com/gadgets/2024/03/mozillas-privacy-service-drops-a-provider-with-ties-to-people-search-sites/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Mon, 25 Mar 2024 19:49:56 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<category><![CDATA[brian krebs]]></category>
-		<category><![CDATA[data brokers]]></category>
-		<category><![CDATA[data privacy]]></category>
-		<category><![CDATA[dimitri shelest]]></category>
-		<category><![CDATA[firefox]]></category>
-		<category><![CDATA[krebs on security]]></category>
-		<category><![CDATA[Mozilla]]></category>
-		<category><![CDATA[mozilla monitor]]></category>
-		<category><![CDATA[mozilla monitor plus]]></category>
-		<category><![CDATA[onerep]]></category>
-		<category><![CDATA[online data privacy]]></category>
-		<category><![CDATA[people search]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012417</guid>
-
-					<description><![CDATA[Owner of Onerep removal service launched "dozens of people-search services."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/Screenshot-2024-03-25-at-2.17.33%E2%80%AFPM-800x523.png" alt="Mozilla Monitor Plus dashboard">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/Screenshot-2024-03-25-at-2.17.33%E2%80%AFPM.png" class="enlarge-link" data-height="984" data-width="1506">Enlarge</a> (credit: Mozilla)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p><a href="https://monitor.mozilla.org/">Mozilla's Monitor Plus</a>, a service <a href="https://arstechnica.com/gadgets/2024/02/mozilla-expands-its-privacy-focus-with-monitor-plus-data-broker-removal-service/">launched by the privacy-minded tech firm in February</a>, notes on its pitch page that there is "a $240 billion industry of data brokers selling your private information for profit" and that its offering can "take back your privacy."</p>
-<p>Mozilla's most recent move to protect privacy has been to cut out one of the key providers of Monitor Plus' people-search protections, <a href="https://onerep.com/">Onerep</a>. That comes after reporting from security reporter Brian Krebs, who uncovered Onerep CEO and founder Dimitri Shelest as the founder of "dozens of people-search services since 2010," including one, Nuwber, that still sells the very kind of "background reports" that Monitor Plus seeks to curb.</p>
-<p>Shelest <a href="https://krebsonsecurity.com/wp-content/uploads/2024/03/Dimitri-Shelest-Letter-_-Comment-on-Krebs-article-3.20.24-1.pdf">told Krebs in a statement</a> (PDF) that he did have an ownership stake in Nuwber, but that Nuwber has "zero cross-over or information-sharing with Onerep" and that he no longer operates any other people-search sites. Shelest admitted the bad look but said that his experience with people search gave Onerep "the best tech and team in the space."</p></div><p><a href="https://arstechnica.com/?p=2012417#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012417&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/03/mozillas-privacy-service-drops-a-provider-with-ties-to-people-search-sites/feed/</wfw:commentRss>
-			<slash:comments>41</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>macOS Sonoma 14.4.1 released to fix the stuff that the 14.4 update broke</title>
-		<link>https://arstechnica.com/?p=2012440</link>
-					<comments>https://arstechnica.com/gadgets/2024/03/macos-sonoma-14-4-1-released-to-fix-the-stuff-that-the-14-4-update-broke/#comments</comments>
-		
-		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
-		<pubDate>Mon, 25 Mar 2024 19:44:16 +0000</pubDate>
-				<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[MacOS]]></category>
-		<category><![CDATA[macOS 14]]></category>
-		<category><![CDATA[macos sonoma]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2012440</guid>
-
-					<description><![CDATA[The 14.4 release introduced a number of problems the new update claims to fix.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/IMG_1727-1-800x400.jpeg" alt="An M3 MacBook Air running macOS Sonoma. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/IMG_1727-1.jpeg" class="enlarge-link" data-height="1280" data-width="2560">Enlarge</a> <span class="sep">/</span> An M3 MacBook Air running macOS Sonoma.  (credit: Andrew Cunningham)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Apple has just released version 14.4.1 for macOS Sonoma, a small-but-significant patch that claims to fix several issues with third-party software and accessories that <a href="https://arstechnica.com/gadgets/2024/03/usb-hubs-printers-java-and-more-seemingly-broken-by-macos-14-4-update/">cropped up in the 14.4 update</a>. The 14.4.1 release also includes a pair of security fixes.</p>
-<p>Apple’s release notes highlight fixes for three major problems:</p>
-<blockquote>
-<ul>
-<li>USB hubs connected to external displays may not be recognized</li>
-<li>Copy protected Audio Unit plug-ins designed for professional music apps may not open or pass validation</li>
-<li>Apps that include Java may quit unexpectedly</li>
-</ul>
-</blockquote>
-<p>Users and companies began noticing problems shortly after the macOS 14.4 update was released earlier this month. Reports of broken USB hubs cropped up on Reddit, the Apple Support Communities forums, and elsewhere within the first couple of days, and issues with Java and <a href="https://help.ilok.com/faq_licenses.html#sonoma_14_4_plugins">iLok audio software DRM devices</a> were reported later on. Some users also reported broken printer drivers and <a href="https://www.macrumors.com/2024/03/19/sonoma-bug-destroys-saved-versions-icloud-drive/">deleted file revisions in iCloud Drive</a>, though Apple's release notes don't mention those problems.</p></div><p><a href="https://arstechnica.com/?p=2012440#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2012440&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/03/macos-sonoma-14-4-1-released-to-fix-the-stuff-that-the-14-4-update-broke/feed/</wfw:commentRss>
-			<slash:comments>75</slash:comments>
+			<slash:comments>88</slash:comments>
 		
 		
 			</item>
