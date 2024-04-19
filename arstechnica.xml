@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Thu, 18 Apr 2024 11:12:25 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 18 Apr 2024 23:52:16 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,43 +21,21 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>OpenAI winds down AI image generator that blew minds and forged friendships in 2022</title>
-		<link>https://arstechnica.com/?p=2017168</link>
+		<title>Boeing says it will cut SLS workforce “due to external factors”</title>
+		<link>https://arstechnica.com/?p=2018532</link>
+					<comments>https://arstechnica.com/space/2024/04/amid-schedule-uncertainty-boeing-will-shed-workers-on-sls-rocket-program/#comments</comments>
 		
-		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
-		<pubDate>Thu, 18 Apr 2024 11:00:46 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[AI copyright]]></category>
-		<category><![CDATA[AI criticism]]></category>
-		<category><![CDATA[AI ethics]]></category>
-		<category><![CDATA[Andy Baio]]></category>
-		<category><![CDATA[art]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[chatgtp]]></category>
-		<category><![CDATA[dall-e]]></category>
-		<category><![CDATA[DALL-E 2]]></category>
-		<category><![CDATA[DALL-E 3]]></category>
-		<category><![CDATA[Danielle Baskin]]></category>
-		<category><![CDATA[Danielle Fong]]></category>
-		<category><![CDATA[Douglas Bonneville]]></category>
-		<category><![CDATA[LAION]]></category>
-		<category><![CDATA[Lapine]]></category>
-		<category><![CDATA[latent space]]></category>
-		<category><![CDATA[latent space astronauts]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[MidJourney]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[RJ Palmer]]></category>
-		<category><![CDATA[Stable Diffusion]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017168</guid>
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 23:52:16 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018532</guid>
 
-					<description><![CDATA[How a group of friends found themselves at the center of a fierce debate about the future of art.]]></description>
+					<description><![CDATA["Boeing is reviewing and adjusting current staffing levels."]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/dalle_hero_2-800x450.jpg" alt="An AI-generated image from DALL-E 2 created with the prompt " a painting by grant wood of an astronaut couple american gothic style.>
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/dalle_hero_2.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> An AI-generated image from DALL-E 2 created with the prompt "A painting by Grant Wood of an astronaut couple, american gothic style." (credit: <a rel="nofollow" class="caption-link" href="https://x.com/AiArtPic/status/1548226438934867968">AI Pictures That Go Hard / X</a>)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/08/Artemis-I-Aug-19-2022-8968-800x533.jpg" alt="The SLS rocket is seen on its launch pad at Kennedy Space Center in August 2022.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/08/Artemis-I-Aug-19-2022-8968.jpg" class="enlarge-link" data-height="1333" data-width="2000">Enlarge</a> <span class="sep">/</span> The SLS rocket is seen on its launch pad at Kennedy Space Center in August 2022. (credit: Trevor Mahlmann)</p>  </figure>
 
 
 
@@ -65,222 +43,37 @@
 
 
 <div><a name="page-1"></a></div>
-<p>When OpenAI's DALL-E 2 <a href="https://x.com/OpenAI/status/1511707245536428034">debuted</a> on April 6, 2022, the idea that a computer could create relatively photorealistic images on demand based on just text descriptions caught a lot of people <a href="https://www.theverge.com/23162454/openai-dall-e-image-generation-tool-creative-revolution">off guard</a>. The launch began an innovative and tumultuous period in AI history, marked by a sense of wonder and a polarizing ethical debate that reverberates in the AI space to this day.</p>
-
-<p>Last week, OpenAI <a href="https://help.openai.com/en/articles/4936794-is-dall-e-2-available">turned off</a> the ability for new customers to purchase generation credits for the web version of DALL-E 2, effectively killing it. From a technological point of view, it's not too surprising that OpenAI recently began winding down support for the service. The 2-year-old image generation model was groundbreaking for its time, but it has since been surpassed by <a href="https://arstechnica.com/information-technology/2023/11/from-toy-to-tool-dall-e-3-is-a-wake-up-call-for-visual-artists-and-the-rest-of-us/">DALL-E 3's</a> higher level of detail, and OpenAI has recently begun rolling out DALL-E 3 <a href="https://twitter.com/OpenAI/status/1775569161759985737">editing capabilities</a>.</p>
-<p>But for a tight-knit group of artists and tech enthusiasts who were there at the start of DALL-E 2, the service's sunset marks the bittersweet end of a period where AI technology briefly felt like a magical portal to boundless creativity. "The arrival of DALL-E 2 was truly mind-blowing," illustrator <a href="https://bonfx.com/">Douglas Bonneville</a> told Ars in an interview. "There was an exhilarating sense of unlimited freedom in those first days that we all suspected AI was going to unleash. It felt like a liberation from something into something else, but it was never clear exactly what."</p></div><p><a href="https://arstechnica.com/?p=2017168#p3">Read 42 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017168&comments=1">Comments</a></p>]]></content:encoded>
+<p>On Thursday senior Boeing officials leading the Space Launch System program, including David Dutcher and Steve Snell, convened an all-hands meeting for the more than 1,000 employees who work on the rocket.</p>
+<p>According to two people familiar with the meeting, the officials announced that there would be a significant number of layoffs and reassignments of people working on the program. They offered a handful of reasons for the cuts, including the fact that timelines for NASA's Artemis lunar missions that will use the SLS rocket are slipping to the right.</p>
+<p>Later on Thursday, in a statement provided to Ars, a Boeing spokesperson confirmed the cuts to Ars: "Due to external factors unrelated to our program performance, Boeing is reviewing and adjusting current staffing levels on the Space Launch System program."</p></div><p><a href="https://arstechnica.com/?p=2018532#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018532&comments=1">Comments</a></p>]]></content:encoded>
 					
+					<wfw:commentRss>https://arstechnica.com/space/2024/04/amid-schedule-uncertainty-boeing-will-shed-workers-on-sls-rocket-program/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Life-threatening rat pee infections reach record levels in NYC</title>
-		<link>https://arstechnica.com/?p=2018117</link>
-					<comments>https://arstechnica.com/science/2024/04/life-threatening-rat-pee-infections-reach-record-levels-in-nyc/#comments</comments>
+		<title>Hospital prices for the same emergency care vary up to 16X, study finds</title>
+		<link>https://arstechnica.com/?p=2018504</link>
+					<comments>https://arstechnica.com/science/2024/04/hospital-prices-for-the-same-emergency-care-vary-up-to-16x-study-finds/#comments</comments>
 		
 		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 22:26:59 +0000</pubDate>
-				<category><![CDATA[Health]]></category>
-		<category><![CDATA[Science]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2018117</guid>
-
-					<description><![CDATA[Between 2001 and 2020, there was an average of 3 cases per year. Last year's tally was 24.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1488494954-800x524.jpeg" alt="A rat looks for food while on a subway platform at the Columbus Circle - 59th Street station on May 8, 2023, in New York City. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1488494954-scaled.jpeg" class="enlarge-link" data-height="1678" data-width="2560">Enlarge</a> <span class="sep">/</span> A rat looks for food while on a subway platform at the Columbus Circle - 59th Street station on May 8, 2023, in New York City.  (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/rat-looks-for-food-while-on-a-subway-platform-at-the-news-photo/1488494954?adppopup=true">Getty | Gary Hershorn</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>A life-threatening bacterial infection typically spread through rat urine sickened a record number of people in New York City last year—and this year looks on track for another all-time high, the NYC Department of Health and Mental Hygiene reports.</p>
-<p>The infection is leptospirosis, which can cause a range of symptoms, including non-specific ones like fever, headache, chills, muscle aches, vomiting, diarrhea, and cough. But, if left untreated, can become severe, causing kidney failure, liver damage, jaundice, hemorrhage, <a href="https://arstechnica.com/science/2023/01/canal-of-urine-blamed-for-rare-infection-in-man-with-bloody-yellow-eyes/">bloody eyes</a> (conjunctival suffusion), respiratory distress, and potentially death.</p>
-<p>The bacteria that causes it—spirochete bacteria of the genus <em>Leptospira</em>—infect rats, which shed the bacteria in their urine. The germs jump to people through direct contact with open wounds or mucous membranes.</p></div><p><a href="https://arstechnica.com/?p=2018117#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018117&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/04/life-threatening-rat-pee-infections-reach-record-levels-in-nyc/feed/</wfw:commentRss>
-			<slash:comments>63</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Kremlin-backed actors spread disinformation ahead of US elections</title>
-		<link>https://arstechnica.com/?p=2018090</link>
-					<comments>https://arstechnica.com/security/2024/04/russian-us-election-interference-sowing-discord-over-ukraine-kicks-into-gear/#comments</comments>
-		
-		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 21:55:30 +0000</pubDate>
-				<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[disinformation]]></category>
-		<category><![CDATA[election influence]]></category>
-		<category><![CDATA[election interferance]]></category>
-		<category><![CDATA[elections]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2018090</guid>
-
-					<description><![CDATA[To a lesser extent, China and Iran also peddle disinfo in hopes of influencing voters.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/us-elections-800x534.jpg" alt="Kremlin-backed actors spread disinformation ahead of US elections">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/us-elections.jpg" class="enlarge-link" data-height="667" data-width="1000">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/united-states-election-royalty-free-image/1434120138">da-kuk/Getty</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Kremlin-backed actors have stepped up efforts to interfere with the US presidential election by planting disinformation and false narratives on social media and fake news sites, analysts with Microsoft reported Wednesday.</p>
-<p>The analysts have identified several unique influence-peddling groups affiliated with the Russian government seeking to influence the election outcome, with the objective in large part to reduce US support of Ukraine and sow domestic infighting. These groups have so far been less active during the current election cycle than they were during previous ones, likely because of a less contested primary season.</p>
-<h2>Stoking divisions</h2>
-<p>Over the past 45 days, the groups have seeded a growing number of social media posts and fake news articles that attempt to foment opposition to US support of Ukraine and stoke divisions over hot-button issues such as election fraud. The influence campaigns also promote questions about President Biden’s mental health and corrupt judges. In all, Microsoft has tracked scores of such operations in recent weeks.</p></div><p><a href="https://arstechnica.com/?p=2018090#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018090&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/security/2024/04/russian-us-election-interference-sowing-discord-over-ukraine-kicks-into-gear/feed/</wfw:commentRss>
-			<slash:comments>68</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Boston Dynamics’ new humanoid moves like no robot you’ve ever seen</title>
-		<link>https://arstechnica.com/?p=2017478</link>
-					<comments>https://arstechnica.com/gadgets/2024/04/boston-dynamics-debuts-humanoid-robot-destined-for-commercialization/#comments</comments>
-		
-		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 21:08:17 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017478</guid>
-
-					<description><![CDATA[All-electric, 360-degree joints give the new Atlas plenty of inhuman movements. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/atlas-yellow-800x565.jpg" alt="The new, all-electric Atlas.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/atlas-yellow.jpg" class="enlarge-link" data-height="1017" data-width="1440">Enlarge</a> <span class="sep">/</span> The new, all-electric Atlas. (credit: Boston Dynamics)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The humanoid robotics market is <a href="https://arstechnica.com/gadgets/2024/03/huge-funding-round-makes-figure-big-techs-favorite-humanoid-robot-company/">starting</a> to <a href="https://arstechnica.com/information-technology/2024/03/nvidia-announces-moonshot-to-create-embodied-human-level-ai-in-robot-form/">heat up,</a> and the company that's been doing this the longest isn't going to sit by and watch. Boston Dynamics has a <a href="https://bostondynamics.com/blog/electric-new-era-for-atlas/">new humanoid robot</a> that the company says represents a path to commercialization. It's the company's next-generation, all-electric "Atlas" robot.</p>
-<p>While new Atlas and old Atlas share a name, they couldn't be more different when it comes to construction. The old Atlas—a research platform and viral sensation that could handle nearly any terrain, <a href="https://arstechnica.com/gadgets/2021/08/boston-dynamics-shares-an-incredible-behind-the-scenes-look-at-robot-building/">do backflips</a>, and <a href="https://arstechnica.com/gadgets/2024/02/boston-dynamics-atlas-tries-out-inventory-work-gets-better-at-lifting/">pick up heavy objects</a>—was powered by a heavy, complicated hydraulics system. The new Atlas is all-electric and looks like it's a fraction of the size and weight of the hydraulic version. It also looks like <em>a product</em>, with covers around all the major components and consumer-friendly design touches like a giant status light in the head and a light-up power button that looks like it was ripped right from the <a href="https://arstechnica.com/gadgets/2021/02/boston-dynamics-robot-dog-gets-an-arm-attachment-self-charging-capabilities/">Spot</a> assembly line.</p>
-<p>Hydraulic Atlas is being retired to make way for the all-electric version. The company posted one last <a href="https://www.youtube.com/watch?v=-9EM5_VFlt8">goodbye video</a> for the hydraulic model on its YouTube page, showing the history of the project. Atlas has done a lot of neat tricks over the years, but getting there has required a lot of learning—part of that is taking some absolutely gnarly slams, which are highlighted in the video. The video seemed to go out of its way to show just how cumbersome hydraulics can be. At one point, it looks like Atlas' foot <a href="https://youtu.be/-9EM5_VFlt8?t=85">completely breaks off</a>, and hydraulic fluid gushes all over the floor. Other times, the robot just springs a leak, and a fine mist of high-pressure fluid sprays everywhere as the robot goes limp. The fluid has a red tinge to it, so with a little imagination, it can look pretty gory!</p></div><p><a href="https://arstechnica.com/?p=2017478#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017478&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/04/boston-dynamics-debuts-humanoid-robot-destined-for-commercialization/feed/</wfw:commentRss>
-			<slash:comments>156</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Feds appoint “AI doomer” to run AI safety at US institute</title>
-		<link>https://arstechnica.com/?p=2017927</link>
-					<comments>https://arstechnica.com/tech-policy/2024/04/feds-appoint-ai-doomer-to-run-us-ai-safety-institute/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 20:30:43 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017927</guid>
-
-					<description><![CDATA[Former OpenAI researcher once predicted a 50 percent chance of AI killing all of us. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1479585779-800x530.jpg" alt="Feds appoint “AI doomer” to run AI safety at US institute">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1479585779.jpg" class="enlarge-link" data-height="1409" data-width="2128">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/artificial-intelligence-warning-road-sign-with-royalty-free-image/1479585779?phrase=storm+cloud+artificial+intelligence&amp;adppopup=true">Bill Oxford | iStock / Getty Images Plus</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The US AI Safety Institute—part of the National Institute of Standards and Technology (NIST)—has finally announced its leadership team after much speculation.</p>
-<p>Appointed as head of AI safety is Paul Christiano, a former OpenAI researcher who pioneered a foundational AI safety technique called reinforcement learning from human feedback (RLHF), but is also known for <a href="https://www.businessinsider.com/openai-researcher-ai-doom-50-chatgpt-2023-5">predicting</a> that "there's a 50 percent chance AI development could end in 'doom.'" While Christiano's research background is impressive, some fear that by appointing a so-called "AI doomer," NIST may be risking encouraging non-scientific thinking that many critics view as sheer speculation.</p>
-<p>There have been rumors that NIST staffers oppose the hiring. A controversial VentureBeat <a href="https://venturebeat.com/ai/nist-staffers-revolt-against-potential-appointment-of-effective-altruist-ai-researcher-to-us-ai-safety-institute/">report</a> last month cited two anonymous sources claiming that, seemingly because of Christiano's so-called "AI doomer" views, NIST staffers were "revolting." Some staff members and scientists allegedly threatened to resign, VentureBeat reported, fearing "that Christiano’s association" with effective altruism and "longtermism could compromise the institute’s objectivity and integrity."</p></div><p><a href="https://arstechnica.com/?p=2017927#p3">Read 34 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017927&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/04/feds-appoint-ai-doomer-to-run-us-ai-safety-institute/feed/</wfw:commentRss>
-			<slash:comments>77</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Billions of public Discord messages may be sold through a scraping service</title>
-		<link>https://arstechnica.com/?p=2017957</link>
-					<comments>https://arstechnica.com/tech-policy/2024/04/billions-of-public-discord-messages-may-be-sold-through-a-scraping-service/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 19:42:36 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[chat]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[data scraping]]></category>
-		<category><![CDATA[discord]]></category>
-		<category><![CDATA[discord servers]]></category>
-		<category><![CDATA[privacy]]></category>
-		<category><![CDATA[scraping]]></category>
-		<category><![CDATA[spy pet]]></category>
-		<category><![CDATA[web scraping]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017957</guid>
-
-					<description><![CDATA[Cross-server tracking suggests a new understanding of "public" chat servers.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-2147879682-800x534.jpg" alt="Discord logo, warped by vertical perspective over a phone displaying the app">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-2147879682.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> (credit: Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>It's easy to get the impression that Discord chat messages are ephemeral, especially across different public servers, where lines fly upward at a near-unreadable pace. But someone claims to be catching and compiling that data and is offering packages that can track more than 600 million users across more than 14,000 servers.</p>
-<p><a href="https://www.404media.co/a-spy-site-is-scraping-discord-and-selling-users-messages/">Joseph Cox at 404 Media confirmed</a> that Spy Pet, a service that sells access to a database of purportedly 3 billion Discord messages, offers data "credits" to customers who pay in bitcoin, ethereum, or other cryptocurrency. Searching individual users will reveal the servers that Spy Pet can track them across, a raw and exportable table of their messages, and connected accounts, such as GitHub. Ominously, Spy Pet lists more than 86,000 other servers in which it has "no bots," but "we know it exists."</p>
-  <ul class="gallery shortcode-gallery gallery-wide">
-          <li>
-        <div class="gallery-item-content">
-          <div class="gallery-image"><img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/spypet_1-980x1289.png" alt=""></div>
-          <p>
-            An example of Spy Pet's service from its website. Shown are a user's nicknames, connected accounts, banner image, server memberships, and messages across those servers tracked by Spy Pet.                          [credit:
-                              Spy Pet                            ]
-                      </p>
-        </div>
-      </li>
-      </ul>
-
-<p>As Cox notes, Discord doesn't make messages inside server channels, like blog posts or unlocked social media feeds, easy to publicly access and search. But many Discord users many not expect their messages, server memberships, bans, or other data to be grabbed by a bot, compiled, and sold to anybody wishing to pin them all on a particular user. 404 Media confirmed the service's function with multiple user examples. Private messages are not mentioned by Spy Pet and are presumably still secure.</p></div><p><a href="https://arstechnica.com/?p=2017957#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017957&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/04/billions-of-public-discord-messages-may-be-sold-through-a-scraping-service/feed/</wfw:commentRss>
-			<slash:comments>33</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Bodies found in Neolithic pit were likely victims of ritualistic murder</title>
-		<link>https://arstechnica.com/?p=2015478</link>
-					<comments>https://arstechnica.com/science/2024/04/bodies-found-in-neolithic-pit-were-likely-victims-of-ritualistic-murder/#comments</comments>
-		
-		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 19:30:35 +0000</pubDate>
+		<pubDate>Thu, 18 Apr 2024 22:14:49 +0000</pubDate>
 				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Uncategorized]]></category>
-		<category><![CDATA[anthropology]]></category>
-		<category><![CDATA[Archaeology]]></category>
-		<category><![CDATA[cultural evolution]]></category>
-		<category><![CDATA[forensic archaeology]]></category>
-		<category><![CDATA[neolithic]]></category>
-		<category><![CDATA[ritual sacrifice]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2015478</guid>
+		<category><![CDATA[emergency department]]></category>
+		<category><![CDATA[emergency medical care]]></category>
+		<category><![CDATA[hospitals]]></category>
+		<category><![CDATA[JAMA]]></category>
+		<category><![CDATA[medical bills]]></category>
+		<category><![CDATA[trauma]]></category>
+		<category><![CDATA[trauma care]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018504</guid>
 
-					<description><![CDATA[One victim may have been hogtied alive in pit, à la Mafia-style ligature strangulation.]]></description>
+					<description><![CDATA[Hospitals' "trauma activation fees" are unregulated and extremely variable.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/neolithic5-800x552.jpg" alt="View taken from the upper part of the 255 storage pit showing the three skeletons, with one individual in a central position">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/neolithic5.jpg" class="enlarge-link" data-height="828" data-width="1200">Enlarge</a> <span class="sep">/</span> Three female skeletons found in a Neolithic storage pit in France show signs of ritualistic human sacrifice. (credit: . Beeching/Ludes et al., 2024)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1189385839-800x533.jpeg" alt="Miami Beach, Fire Rescue ambulance at Mt. Sinai Medical Center hospital. ]">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1189385839-scaled.jpeg" class="enlarge-link" data-height="1706" data-width="2560">Enlarge</a> <span class="sep">/</span> Miami Beach, Fire Rescue ambulance at Mt. Sinai Medical Center hospital. ] (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/miami-beach-fire-rescue-ambulance-mt-sinai-medical-center-news-photo/1189385839?adppopup=true">Getty | Jeffrey Greenberg/</a>)</p>  </figure>
 
 
 
@@ -288,141 +81,36 @@
 
 
 <div><a name="page-1"></a></div>
-<p>Archaeologists have discovered the remains of two women in a Neolithic tomb in France, with the positioning of the bodies suggesting they may have been ritualistically murdered by asphyxia or self-strangulation, according to a <a href="http://www.science.org/doi/10.1126/sciadv.adl3374">recent paper</a> published in the journal Science Advances.</p>
-<p><strong>(WARNING: graphic descriptions below.)</strong></p>
-<p>France's Rhône Valley is home to several archaeological sites dating to the end of the Middle Neolithic period (between 4250 and 3600/3500 BCE in the region); the sites include various storage silos, broken grindstones, imported ceramics, animal remains (both from communal meals and sacrifices), and human remains deposited in sepulchral pits. Saint-Paul-Trois-Châteaux is one such site.</p></div><p><a href="https://arstechnica.com/?p=2015478#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2015478&comments=1">Comments</a></p>]]></content:encoded>
+<p>Since 2021, federal law has required hospitals to publicly post their prices, allowing Americans to easily anticipate costs and shop around for affordable care—as they would for any other marketed service or product. But hospitals have mostly failed miserably at complying with the law.</p>
+<p><a href="https://www.kff.org/health-costs/issue-brief/ongoing-challenges-with-hospital-price-transparency/">A 2023 KFF analysis</a> on compliance found that the pricing information hospitals provided is "messy, inconsistent, and confusing, making it challenging, if not impossible, for patients or researchers to use them for their intended purpose." A <a href="https://www.patientrightsadvocate.org/semi-annual-report-feb2024?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=sendto_localnewslettertest&amp;stream=top#_ga=2.87797776.98993747.1713459754-1027137399.1713459754">February 2024 report</a> from the nonprofit organization Patient Rights Advocate found that only 35 percent of 2,000 US hospitals surveyed were in full compliance with the 2021 rule.</p>
+<p>But even if hospitals dramatically improved their price transparency, it likely wouldn't help when patients need emergency trauma care. After an unexpected, major injury, people are sent to the closest hospital and aren't likely to be shopping around for the best price from the back of an ambulance. If they did, though, they might also need to be treated for shock.</p></div><p><a href="https://arstechnica.com/?p=2018504#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018504&comments=1">Comments</a></p>]]></content:encoded>
 					
-					<wfw:commentRss>https://arstechnica.com/science/2024/04/bodies-found-in-neolithic-pit-were-likely-victims-of-ritualistic-murder/feed/</wfw:commentRss>
+					<wfw:commentRss>https://arstechnica.com/science/2024/04/hospital-prices-for-the-same-emergency-care-vary-up-to-16x-study-finds/feed/</wfw:commentRss>
 			<slash:comments>40</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Climate damages by 2050 will be 6 times the cost of limiting warming to 2°</title>
-		<link>https://arstechnica.com/?p=2018002</link>
-					<comments>https://arstechnica.com/science/2024/04/climate-damages-by-2050-will-be-6-times-the-cost-of-limiting-warming-to-2/#comments</comments>
-		
-		<dc:creator><![CDATA[John Timmer]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 19:06:54 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[adaptation]]></category>
-		<category><![CDATA[climate change]]></category>
-		<category><![CDATA[Earth science]]></category>
-		<category><![CDATA[Economics]]></category>
-		<category><![CDATA[green]]></category>
-		<category><![CDATA[mitigation]]></category>
-		<category><![CDATA[sustainability]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2018002</guid>
-
-					<description><![CDATA[Study tracks the past costs of climate events and projects them into the future.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1453228041-800x533.jpg" alt="A worker walks between long rows of solar panels.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1453228041-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/power-engineer-checking-and-installing-maintenance-royalty-free-image/1453228041?phrase=climate+change">Frame Studio</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Almost from the start, arguments about mitigating climate change have included an element of cost-benefit analysis: Would it cost more to move the world off fossil fuels than it would to simply try to adapt to a changing world? A strong consensus has built that the answer to the question is a clear no, capped off by <a href="https://www.nobelprize.org/prizes/economic-sciences/2018/nordhaus/facts/">a Nobel in Economics</a> given to one of the people whose work was key to building that consensus.</p>
-<p>While most academics may have considered the argument put to rest, it has enjoyed an extended life in the political sphere. Large unknowns remain about both the costs and benefits, which depend in part on the remaining uncertainties in climate science and in part on the assumptions baked into economic models.</p>
-<p>In Wednesday's edition of Nature, a small team of researchers analyzed how local economies have responded to the last 40 years of warming and projected those effects forward to 2050. They find that we're already committed to warming that will see the growth of the global economy undercut by 20 percent. That places the cost of even a limited period of climate change at roughly six times the estimated price of putting the world on a path to limit the warming to 2° C.</p></div><p><a href="https://arstechnica.com/?p=2018002#p3">Read 18 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018002&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/04/climate-damages-by-2050-will-be-6-times-the-cost-of-limiting-warming-to-2/feed/</wfw:commentRss>
-			<slash:comments>86</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Tesla asks shareholders to approve Texas move and restore Elon Musk’s $56B pay</title>
-		<link>https://arstechnica.com/?p=2017920</link>
-					<comments>https://arstechnica.com/tech-policy/2024/04/tesla-asks-shareholders-to-approve-texas-move-and-restore-elon-musks-56b-pay/#comments</comments>
-		
-		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 17:52:18 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[tesla elon musk]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017920</guid>
-
-					<description><![CDATA[Tesla board calls June 13 shareholder vote on Musk's pay and move to Texas.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/04/getty-musk-1-800x536.jpg" alt="Elon Musk wearing a suit during an event at a Tesla factory.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/getty-musk-1.jpg" class="enlarge-link" data-height="1339" data-width="2000">Enlarge</a> <span class="sep">/</span> Tesla CEO Elon Musk at an opening event for Tesla's Gigafactory on March 22, 2022, in Gruenheide, southeast of Berlin. (credit: Getty Images | Patrick Pleul)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Tesla is asking shareholders to approve a move to Texas and to re-approve a $55.8 billion pay package for CEO Elon Musk that was recently voided by a Delaware judge.</p>
-<p>Musk's 2018 pay package was <a href="https://arstechnica.com/tech-policy/2024/01/elon-musks-56-billion-pay-plan-voided-as-shareholders-beat-tesla-in-court/">voided in a ruling</a> by Delaware Court of Chancery Judge Kathaleen McCormick, who found that the deal was unfair to shareholders. After the ruling, <a href="https://arstechnica.com/tech-policy/2024/02/elon-musk-proposes-tesla-move-to-texas-after-delaware-judge-voids-56-billion-pay/">Musk said</a> he would seek a shareholder vote on transferring Tesla's state of incorporation from Delaware to Texas.</p>
-<p>The proposed move to Texas and Musk's pay package will be up for votes at Tesla's 2024 annual meeting on June 13, Tesla Board Chairperson Robyn Denholm wrote in a letter to shareholders that was included in a <a href="https://www.sec.gov/Archives/edgar/data/1318605/000110465924048040/tm2326076d13_pre14a.htm">regulatory filing</a> today.</p></div><p><a href="https://arstechnica.com/?p=2017920#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017920&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/04/tesla-asks-shareholders-to-approve-texas-move-and-restore-elon-musks-56b-pay/feed/</wfw:commentRss>
-			<slash:comments>288</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>After decades of Mario, how do developers bridge a widening generation gap?</title>
-		<link>https://arstechnica.com/?p=2017848</link>
-					<comments>https://arstechnica.com/gaming/2024/04/after-decades-of-mario-how-do-developers-bridge-a-widening-generation-gap/#comments</comments>
-		
-		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 17:02:55 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[development]]></category>
-		<category><![CDATA[Mario]]></category>
-		<category><![CDATA[Nintendo]]></category>
-		<category><![CDATA[super mario bros wonder]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017848</guid>
-
-					<description><![CDATA[Tezuka: "The secret to having a long-tenured staff is that people don't quit."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/Block-head-prototype.png" alt="A prototype wonder effect—featuring Mario's head turned into blocks that could be eaten by enemies—didn't make it into the final game.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/Block-head-prototype.png" class="enlarge-link" data-height="401" data-width="711">Enlarge</a> <span class="sep">/</span> A prototype wonder effect—featuring Mario's head turned into blocks that could be eaten by enemies—didn't make it into the final game. (credit: Nintendo)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>In a game industry that seems to <a href="https://arstechnica.com/gaming/2024/01/microsoft-cancels-blizzard-survival-game-lays-off-1900/">engage</a> in <a href="https://arstechnica.com/gaming/2024/01/unity-cuts-25-percent-of-workforce-as-it-refocuses-on-game-engine-business/">periodic layoffs</a> as a <a href="https://arstechnica.com/gaming/2024/01/report-embracers-ongoing-layoffs-kill-a-new-deus-ex-game-after-2-years-work/">matter</a> of <a href="https://arstechnica.com/gaming/2019/02/activision-blizzard-lays-off-775-people-after-record-results-in-2018/">course</a>, it's often hard for even popular game franchises to maintain continuity in their underlying creative teams from sequel to sequel. Then there's the Mario series, where <a href="https://www.mobygames.com/game/7298/super-mario-bros/credits/nes/?autoplatform=true">every person credited with the creation of the original <em>Super Mario Bros.</em></a> in the 1980s ended up having <a href="https://www.gamesradar.com/5-people-made-the-original-super-mario-bros-all-of-them-were-still-at-nintendo-to-ship-wonder-38-years-later/">a role in the making of <em>Super Mario Bros. Wonder</em></a> just last year.</p>
-<p>In a recent interview with Ars Technica, <em>Wonder</em> producer Takashi Tezuka said it wasn't that tough to get that kind of creative continuity at Nintendo. "The secret to having a long-tenured staff is that people don't quit," he said. "For folks who have been there together for such a long time, it's easy for us to talk to each other."</p>
-
-<p>That said, Tezuka added that just getting a bunch of industry veterans together to make a game runs the risk of not "keeping up with the times. Really, for me, I have a great interest in how our newer staff members play, what they play, what they think, and what is appealing to them. I think it's very interesting the things we can come up with when these two disparate groups influence each other to create something."</p></div><p><a href="https://arstechnica.com/?p=2017848#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017848&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/04/after-decades-of-mario-how-do-developers-bridge-a-widening-generation-gap/feed/</wfw:commentRss>
-			<slash:comments>40</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Broadcom says “many” VMware perpetual licenses got support extensions</title>
-		<link>https://arstechnica.com/?p=2017717</link>
-					<comments>https://arstechnica.com/information-technology/2024/04/amid-eu-antitrust-qs-broadcom-extends-support-for-some-vmware-perpetual-licenses/#comments</comments>
+		<title>Prime Video looking to fix “extremely sloppy mistakes” in library, report says</title>
+		<link>https://arstechnica.com/?p=2018222</link>
+					<comments>https://arstechnica.com/gadgets/2024/04/thousands-complain-about-prime-videos-wrong-titles-lost-episodes-other-errors/#comments</comments>
 		
 		<dc:creator><![CDATA[Scharon Harding]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 16:44:44 +0000</pubDate>
-				<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[antitrust]]></category>
-		<category><![CDATA[Broadcom]]></category>
-		<category><![CDATA[europe]]></category>
-		<category><![CDATA[European Commission]]></category>
-		<category><![CDATA[vmware]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017717</guid>
+		<pubDate>Thu, 18 Apr 2024 22:05:29 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[amazon prime video]]></category>
+		<category><![CDATA[Disney]]></category>
+		<category><![CDATA[disney plus]]></category>
+		<category><![CDATA[Hulu]]></category>
+		<category><![CDATA[streaming]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018222</guid>
 
-					<description><![CDATA[Broadcom reportedly accused of changing VMware licensing and support conditions.]]></description>
+					<description><![CDATA[Business Insider reports of inaccuracy concerns that could hurt viewership. ]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/12/GettyImages-1247615915-800x532.jpg" alt="The logo of American cloud computing and virtualization technology company VMware is seen at the Mobile World Congress (MWC), the telecom industry's biggest annual gathering, in Barcelona on March 2, 2023.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/12/GettyImages-1247615915.jpg" class="enlarge-link" data-height="681" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/the-logo-of-american-cloud-computing-and-virtualization-news-photo/1247615915">Getty</a>)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/07/lotr-rings-of-power-listing-800x450.png" alt="Morfydd Clark is Galadriel in &lt;em&gt;The Lord of the Rings: The Rings of Power&lt;/em&gt;.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/07/lotr-rings-of-power-listing.png" class="enlarge-link" data-height="2160" data-width="3840">Enlarge</a> <span class="sep">/</span> Morfydd Clark is Galadriel in <em>The Lord of the Rings: The Rings of Power</em>. (credit: Amazon Studios)</p>  </figure>
 
 
 
@@ -430,38 +118,42 @@
 
 
 <div><a name="page-1"></a></div>
-<p>Broadcom CEO Hock Tan this week publicized some concessions aimed at helping customers and partners ease into VMware’s recent business model changes. Tan reiterated that the controversial changes, like the end of perpetual licensing, <a href="https://arstechnica.com/information-technology/2024/04/broadcom-execs-say-vmware-price-subscription-complaints-are-unwarranted/">aren't going away</a>. But amid questioning from antitrust officials in the European Union (EU), Tan announced that the company has already given support extensions for some VMware perpetual license holders.</p>
-<p>Broadcom closed its $69 billion VMware acquisition in November. One of its first moves was ending <a href="https://arstechnica.com/information-technology/2023/12/broadcom-ends-vmware-perpetual-license-sales-testing-customers-and-partners/">VMware perpetual license sales</a> in favor of subscriptions. Since December, Broadcom also hasn't sold Support and Subscription renewals for VMware perpetual licenses.</p>
-<p>In a <a href="https://www.broadcom.com/blog/a-changing-market-landscape-requires-constant-evolution-our-mission-for-vmware-customers">blog post</a> on Monday, Tan admitted that this shift requires "a change in the timing of customers' expenditures and the balance of those expenditures between capital and operating spending." As a result, Broadcom has "given support extensions to many customers who came up for renewal while these changes were rolling out." Tan didn't specify how Broadcom determined who is eligible for an extension or for how long. However, the executive's blog is the first time Broadcom has announced such extensions and opens the door to more extension requests.</p></div><p><a href="https://arstechnica.com/?p=2017717#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017717&comments=1">Comments</a></p>]]></content:encoded>
+<p>Subscribers lodged thousands of complaints related to inaccuracies in Amazon's Prime Video catalog, including incorrect content and missing episodes, according to a <a href="https://www.businessinsider.com/amazon-prime-video-viewers-ditching-shows-due-to-catalog-errors-2024-4">Business Insider</a> report this week. While Prime Video users aren't the only streaming users dealing with these problems, Insider's examination of leaked "internal documents" brings more perspective into the impact of mislabeling and similar errors on streaming platforms.</p>
+<p>Insider didn't publish the documents but said they show that "60 percent of all content-related customer-experience complaints for Prime Video last year were about catalogue errors," such as movies or shows labeled with wrong or missing titles.</p>
+<p>Specific examples reportedly named in the document include Season 1, Episode 2 of <em>The Rings of Power</em> being available before Season 1, Episode 1; character names being mistranslated; <em>Continuum</em> displaying the wrong age rating; and the Spanish-audio version of <em>Die Hard With a Vengeance </em>missing a chunk of audio.</p></div><p><a href="https://arstechnica.com/?p=2018222#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018222&comments=1">Comments</a></p>]]></content:encoded>
 					
-					<wfw:commentRss>https://arstechnica.com/information-technology/2024/04/amid-eu-antitrust-qs-broadcom-extends-support-for-some-vmware-perpetual-licenses/feed/</wfw:commentRss>
-			<slash:comments>50</slash:comments>
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/04/thousands-complain-about-prime-videos-wrong-titles-lost-episodes-other-errors/feed/</wfw:commentRss>
+			<slash:comments>38</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Dwarf Fortress’s Adventure Mode brings the sim’s chaotic spirit to CRPGs</title>
-		<link>https://arstechnica.com/?p=2017764</link>
-					<comments>https://arstechnica.com/gaming/2024/04/dwarf-fortresss-adventure-mode-brings-the-sims-chaotic-spirit-to-crpgs/#comments</comments>
+		<title>Elon Musk’s Grok keeps making up fake news based on X users’ jokes</title>
+		<link>https://arstechnica.com/?p=2018467</link>
+					<comments>https://arstechnica.com/tech-policy/2024/04/elon-musks-grok-keeps-making-up-fake-news-based-on-x-users-jokes/#comments</comments>
 		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 16:20:28 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[bay 12 games]]></category>
-		<category><![CDATA[crpg]]></category>
-		<category><![CDATA[dwarf fortress]]></category>
-		<category><![CDATA[losing is fun]]></category>
-		<category><![CDATA[RPG]]></category>
-		<category><![CDATA[simulation]]></category>
-		<category><![CDATA[tarn adams]]></category>
-		<category><![CDATA[zach adams]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017764</guid>
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 21:47:53 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[defamation]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[grok]]></category>
+		<category><![CDATA[klay thompson]]></category>
+		<category><![CDATA[libel law]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[NBA]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<category><![CDATA[X]]></category>
+		<category><![CDATA[x.AI]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018467</guid>
 
-					<description><![CDATA[Travel your own world, meet fascinating creatures, and put bolts in their necks.]]></description>
+					<description><![CDATA[X likely hopes to avoid liability with disclaimer that Grok "can make mistakes."]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/DF-A-Key-Art-No-Logo-800x450.png" alt="Key art for Dwarf Fortress' Adventure Mode">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/DF-A-Key-Art-No-Logo.png" class="enlarge-link" data-height="720" data-width="1281">Enlarge</a> <span class="sep">/</span> See that fortress over there? You can explore it. And then die, when someone in your party remembers a tragic incident involving meat and perishes of sadness. (credit: Bay 12 Games/Kitfox)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1794263843-800x530.jpg" alt="Elon Musk’s Grok keeps making up fake news based on X users’ jokes">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1794263843.jpg" class="enlarge-link" data-height="679" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/in-this-photo-illustration-xai-grok-logo-is-seen-on-a-news-photo/1794263843">SOPA Images / Contributor | LightRocket</a>)</p>  </figure>
 
 
 
@@ -469,64 +161,189 @@
 
 
 <div><a name="page-1"></a></div>
-<p>"I'm crying for some reason," says Tarn Adams, demonstrating <em><a href="https://store.steampowered.com/app/975370/Dwarf_Fortress/">Dwarf Fortress</a>' </em>"Adventure Mode" for a Discord stream full of games writers and PR folk. His adventurer is crying, that is. "Something must have upset me. Probably the dead bodies… I have great grouchiness, though."</p>
-<p>Adventure Mode, out today, builds on the <a href="https://arstechnica.com/gaming/2022/12/dwarf-fortresss-graphical-upgrade-provides-a-new-way-into-a-wildly-wonky-game/">graphical version of <em>Dwarf Fortress</em></a> and the work you've put into it. The adventurers you create and send out into the world traverse the overland and underground places you yourself crafted. This allows you to both appreciate the realms carved out by your imagination and also be a kind of dungeon master for other adventurers (with, hopefully, an easier fortress-swapping mechanic to come soon). You can also generate a new world if you prefer the simulation's weird choices to your own.</p>
-<div class="video"><div class="wrapper"><iframe style="display:block" type="text/html" width="980" height="550" src="https://www.youtube.com/embed/dX2gnya3eH4?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe></div><p class="caption" style="font-size:0.8em">Release trailer for <em>Dwarf Fortress</em>' Adventure Mode update. </p></div>
-<p>Everything about the standard simulation version of playing <em>Dwarf Fortress</em> applies to playing it as a hardcore CRPG. Everything has layers, all is described, and the combination of deep logic and utter silliness is unmatched.</p></div><p><a href="https://arstechnica.com/?p=2017764#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017764&comments=1">Comments</a></p>]]></content:encoded>
+<p>X's chatbot Grok is supposed to be an AI engine crunching the platform's posts to surface and summarize breaking news, but this week, Grok's flaws were once again exposed when the chatbot got confused and falsely accused an NBA star of criminal vandalism.</p>
+<p>"Klay Thompson Accused in Bizarre Brick-Vandalism Spree," Grok's headline read in an AI-powered trending-tab <a href="https://twitter.com/i/trending/1780463179388117057?s=09">post</a> that has remained on X (formerly Twitter) for days. Beneath the headline, Grok went into even more detail to support its fake reporting:</p>
+<blockquote><p>In a bizarre turn of events, NBA star Klay Thompson has been accused of vandalizing multiple houses with bricks in Sacramento. Authorities are investigating the claims after several individuals reported their houses being damaged, with windows shattered by bricks. Klay Thompson has not yet issued a statement regarding the accusations. The incidents have left the community shaken, but no injuries were reported. The motive behind the alleged vandalism remains unclear.</p></blockquote>
+<p>Grok appears to be confusing a common basketball term, where players are said to be throwing "bricks" when they take an airball shot that doesn't hit the rim. <a href="https://www.sfgate.com/warriors/article/klay-thompson-accused-brick-vandalism-spree-ai-19407952.php">According to SF Gate</a>, which was one of the first outlets to report the Grok error, Thompson had an "all-time rough shooting" night, hitting none of his shots on what was his emotional last game with the Golden State Warriors before becoming an unrestricted free agent.</p></div><p><a href="https://arstechnica.com/?p=2018467#p3">Read 23 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018467&comments=1">Comments</a></p>]]></content:encoded>
 					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/04/dwarf-fortresss-adventure-mode-brings-the-sims-chaotic-spirit-to-crpgs/feed/</wfw:commentRss>
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/04/elon-musks-grok-keeps-making-up-fake-news-based-on-x-users-jokes/feed/</wfw:commentRss>
+			<slash:comments>44</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Renovation relic: Man finds hominin jawbone in parents’ travertine kitchen tile</title>
+		<link>https://arstechnica.com/?p=2018331</link>
+					<comments>https://arstechnica.com/science/2024/04/renovation-relic-man-finds-hominin-jawbone-in-parents-travertine-kitchen-tile/#comments</comments>
+		
+		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 21:16:53 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Archaeology]]></category>
+		<category><![CDATA[fossils]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[Hominin]]></category>
+		<category><![CDATA[human fossils]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018331</guid>
+
+					<description><![CDATA[Yes, travertine often has embedded fossils. But not usually hominin ones.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/fossil1-800x562.jpg" alt="closeup of fossilized jawbone in a piece of travertine tile">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/fossil1.jpg" class="enlarge-link" data-height="843" data-width="1200">Enlarge</a> <span class="sep">/</span> Reddit user Kidipadeli75 spotted a fossilized hominin jawbone in his parents' new travertine kitchen tile. (credit: Reddit user Kidipadeli75)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Ah, Reddit! It's a constant source of amazing stories that sound too good to be true... and yet! The latest example <a href="https://www.reddit.com/r/fossils/comments/1c4hldl/found_a_mandible_in_the_travertin_floor_at_my/">comes to us</a> from a user named Kidipadeli75, a dentist who visited his parents after the latter's kitchen renovation and noticed what appeared to be a human-like jawbone embedded in the new travertine tile. Naturally, he posted a photograph to Reddit seeking advice and input. And Reddit was happy to oblige.</p>
+<p>User MAJOR_Blarg, for instance, is a dentist "with forensic odontology training" and offered the following:</p>
+<blockquote><p>While all old-world monkeys, apes, and hominids share the same dental formula, 2-1-2-3, and the individual molars and premolars can look similar, the specific spacing in the mandible itself is very specifically and characteristically human, or at least related and very recent hominid relative/ancestor. Most likely human given the success of the proliferation of H.s. and the (relatively) rapid formation of travertine.</p>
+<p>Against modern Homo sapiens, which may not be entirely relevant, the morphology of the mandible is likely not northern European, but more similar to African, middle Eastern, mainland Asian.</p></blockquote>
+<p>Another user, deamatrona, who claims to hold an anthropology degree, also thought the dentition looked Asiatic, "which could be a significant find." The thread also drew the attention of <a href="https://johnhawks.net/johnhawks/">John Hawks</a>, an anthropologist at the University of Wisconsin–Madison and longtime science blogger who <a href="https://johnhawks.net/weblog/how-many-bathrooms-have-neandertals-in-the-tile/">provided some valuable context</a> on his own website. (Hawks has been involved with the team that <a href="https://arstechnica.com/science/2023/06/anthropologists-find-evidence-that-homo-naledi-buried-their-dead-used-symbols/">discovered <em>Homo naledi</em></a> at the Rising Star cave system in 2013.)</p></div><p><a href="https://arstechnica.com/?p=2018331#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018331&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/04/renovation-relic-man-finds-hominin-jawbone-in-parents-travertine-kitchen-tile/feed/</wfw:commentRss>
 			<slash:comments>26</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>A chunk of metal that tore through a Florida home definitely came from the ISS</title>
-		<link>https://arstechnica.com/?p=2017513</link>
-					<comments>https://arstechnica.com/space/2024/04/florida-man-tells-ars-about-his-encounter-with-something-that-fell-from-space/#comments</comments>
+		<title>LLMs keep leaping with Llama 3, Meta’s newest open-weights AI model</title>
+		<link>https://arstechnica.com/?p=2018303</link>
+					<comments>https://arstechnica.com/information-technology/2024/04/meta-releases-chatgpt-like-ai-site-and-open-weights-llama-3-model/#comments</comments>
 		
-		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 14:09:46 +0000</pubDate>
+		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 21:04:42 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgtp]]></category>
+		<category><![CDATA[copilot]]></category>
+		<category><![CDATA[Google Gemini]]></category>
+		<category><![CDATA[LLaMA]]></category>
+		<category><![CDATA[Llama 2]]></category>
+		<category><![CDATA[Llama 3]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[Meta AI Assistant]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Microsoft Copilot]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[open weights]]></category>
+		<category><![CDATA[openai]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018303</guid>
+
+					<description><![CDATA[Zuckerberg says new AI model "was still learning" when Meta stopped training.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/08/code_llamas_hero-800x450.jpg" alt="A group of pink llamas on a pixelated background.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/08/code_llamas_hero.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/llamas-posing-in-high-desert-royalty-free-image/108005662">Getty Images | Benj Edwards</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>On Thursday, Meta unveiled early versions of its <a href="https://llama.meta.com/llama3/">Llama 3</a> open-weights AI model that can be used to power text composition, code generation, or chatbots. It also announced that its <a href="https://about.fb.com/news/2024/04/meta-ai-assistant-built-with-llama-3/">Meta AI Assistant</a> is now <a href="https://www.meta.ai/?utm_source=ai_meta_site&amp;utm_medium=web&amp;utm_content=MetaAI_page&amp;utm_campaign=April_moment">available on a website</a> and is going to be integrated into its major social media apps, intensifying the company's efforts to position its products against other AI assistants like OpenAI's ChatGPT, Microsoft's Copilot, and Google's Gemini.</p>
+
+<p>Like its predecessor, <a href="https://arstechnica.com/information-technology/2023/07/meta-launches-llama-2-an-open-source-ai-model-that-allows-commercial-applications/">Llama 2</a>, Llama 3 is notable for being a freely available, open-weights large language model (LLM) provided by a major AI company. Llama 3 technically does not quality as "open source" because that term has a <a href="https://opensource.org/osd">specific meaning</a> in software (as we have mentioned in <a href="https://arstechnica.com/information-technology/2024/03/elon-musks-xai-releases-grok-source-and-weights-taunting-openai/">other coverage</a>), and the industry has not yet settled on terminology for AI model releases that ship either code or weights with restrictions (you can read Llama 3's license <a href="https://llama.meta.com/llama3/license/">here</a>) or that ship without providing training data. We typically call these releases "open weights" instead.</p>
+<p>At the moment, Llama 3 is available in two parameter sizes: 8 billion (8B) and 70 billion (70B), both of which are available as free downloads through Meta's website with a <a href="https://llama.meta.com/llama-downloads">sign-up.</a> Llama 3 comes in two versions: pre-trained (basically the raw, next-token-prediction model) and instruction-tuned (fine-tuned to follow user instructions). Each has a 8,192 token context limit.</p></div><p><a href="https://arstechnica.com/?p=2018303#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018303&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/information-technology/2024/04/meta-releases-chatgpt-like-ai-site-and-open-weights-llama-3-model/feed/</wfw:commentRss>
+			<slash:comments>15</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Meta’s new $199 Quest 2 price is a steal for the VR-curious</title>
+		<link>https://arstechnica.com/?p=2018413</link>
+					<comments>https://arstechnica.com/gaming/2024/04/closeout-pricing-metas-aging-quest-2-headset-now-costs-199/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 20:24:00 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[quest]]></category>
+		<category><![CDATA[quest 2]]></category>
+		<category><![CDATA[virtual reality]]></category>
+		<category><![CDATA[VR]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018413</guid>
+
+					<description><![CDATA[Move comes as support winds down for the original Quest headset.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/02/quest2-800x449.jpg" alt="For just $199, you could be having as much fun as this paid model.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/02/quest2.jpg" class="enlarge-link" data-height="782" data-width="1392">Enlarge</a> <span class="sep">/</span> For just $199, you could be having as much fun as this paid model. </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Meta has announced it's permanently lowering the price of its aging Quest 2 headset to $199 for a 128GB base model, representing the company's lowest price yet for a full-featured untethered VR headset.</p>
+<p>The Quest 2, which <a href="https://arstechnica.com/gaming/2020/09/review-we-do-not-recommend-the-299-oculus-quest-2-as-your-next-vr-system/">launched in 2020 at $299</a>, famously defied tech product convention by <a href="https://arstechnica.com/gaming/2022/07/meta-quest-2-vr-headset-price-jumps-100-to-399-gets-zero-new-features/"><em>increasing</em> its MSRP to $399</a> amid inflation and supply chain issues in mid-2022. Actual prices for the headset at retail have fallen since then, though; Best Buy offered new units <a href="https://web.archive.org/web/20231028115543/https://www.bestbuy.com/site/meta-quest-2-advanced-all-in-one-virtual-reality-headset-128gb-gray/6473553.p?skuId=6473553">for $299 as of last October</a> and <a href="https://web.archive.org/web/20231124064121/https://www.bestbuy.com/site/meta-quest-2-advanced-all-in-one-virtual-reality-headset-128gb-gray/6473553.p?skuId=6473553">for $250 by the 2023 post-Thanksgiving shopping season</a>, for instance.</p>
+<p>And the Quest 2 is far from the company's state-of-the-art headset at this point. Meta launched <a href="https://arstechnica.com/gaming/2023/03/metas-absurdly-expensive-quest-pro-is-now-slightly-less-absurdly-expensive/">the surprisingly expensive Quest Pro</a> in late 2022 before dropping that headset's price from $1,499 to $999 <a href="https://arstechnica.com/gaming/2023/03/metas-absurdly-expensive-quest-pro-is-now-slightly-less-absurdly-expensive/">less than five months later</a>. And last year's <a href="https://arstechnica.com/gaming/2023/10/meta-quest-3-review-mixed-reality-version-0-5/">launch of the Quest 3</a> at a $499 starting price brought some significant improvements in resolution, processing power, thickness, and full-color passthrough images over the Quest 2.</p></div><p><a href="https://arstechnica.com/?p=2018413#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018413&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/04/closeout-pricing-metas-aging-quest-2-headset-now-costs-199/feed/</wfw:commentRss>
+			<slash:comments>66</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Google merges the Android, Chrome, and hardware divisions</title>
+		<link>https://arstechnica.com/?p=2018279</link>
+					<comments>https://arstechnica.com/gadgets/2024/04/google-merges-the-android-chrome-and-hardware-divisions/#comments</comments>
+		
+		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 20:12:55 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018279</guid>
+
+					<description><![CDATA[Google says the new “Platform and Devices” team will let it move faster. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2021/04/android-google-800x534.jpeg" alt="Google HQ.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2021/04/android-google.jpeg" class="enlarge-link" data-height="668" data-width="1000">Enlarge</a> <span class="sep">/</span> Google HQ. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/">Getty Images</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Google is doing <a href="https://blog.google/inside-google/company-announcements/building-ai-future-april-2024/">a major re-org</a> of Android, Chrome, and the Google hardware division: They're merging! Google Hardware SVP Rick Osterloh will lead the new "Platforms and Devices” division. Hiroshi Lockheimer, Google's previous head of software platforms like Android and ChromeOS, will be headed to "some new projects" at Google.</p>
+<p>"Having a unified team across Platforms &amp; Devices will help us deliver higher quality products and experiences for our users and partners," writes Google CEO Sundar Pichai. "It will help us turbocharge the Android and Chrome ecosystems, and bring the best innovations to partners faster — as we did with Circle to Search with Samsung. And internally, it will also speed up decision-making."</p>
+<p>Google also justifies the decision the same way it does most decisions nowadays: by saying it's AI-related. The announcement is a few paragraphs in a wide-ranging post by Pichai, titled, "Building for our AI future," and the new division is taking a chunk of Google Research along with it, specifically the group that has been working on computational photography. Pichai wants the team to live in "the intersection of hardware, software, and AI."</p></div><p><a href="https://arstechnica.com/?p=2018279#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018279&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/04/google-merges-the-android-chrome-and-hardware-divisions/feed/</wfw:commentRss>
+			<slash:comments>36</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>SpaceX and Northrop are working on a constellation of spy satellites</title>
+		<link>https://arstechnica.com/?p=2018357</link>
+					<comments>https://arstechnica.com/space/2024/04/spacex-working-with-northrop-grumman-on-spy-satellites-for-us-government/#comments</comments>
+		
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 19:54:08 +0000</pubDate>
 				<category><![CDATA[Science]]></category>
 		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Florida]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[space debris]]></category>
-		<category><![CDATA[space junk]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017513</guid>
+		<category><![CDATA[Northrop Grumman]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[spacex]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018357</guid>
 
-					<description><![CDATA["I don't think I've seen or heard, after my own research, any of these events occurring."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>NASA has confirmed that the object that fell into a Florida home last month was part of a battery pack released from the International Space Station.</p>
-<p>This extraordinary incident opens a new frontier in space law. NASA, the homeowner, and attorneys are navigating little-used legal codes and intergovernmental agreements to determine who should pay for the damages.</p>
-<p>Alejandro Otero, owner of the Naples, Florida, home struck by the debris, told Ars he is fairly certain the object came from the space station, even before NASA's confirmation. The circumstances strongly suggested that was the case. The cylindrical piece of metal tore through his roof on March 8, a few minutes after the time US Space Command reported the reentry of a space station cargo pallet and nine decommissioned batteries over the Gulf of Mexico on a trajectory heading forward the coast of southwest Florida.</p></div><p><a href="https://arstechnica.com/?p=2017513#p3">Read 33 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017513&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/04/florida-man-tells-ars-about-his-encounter-with-something-that-fell-from-space/feed/</wfw:commentRss>
-			<slash:comments>117</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Feds expand investigation into Honda’s automatic emergency braking system</title>
-		<link>https://arstechnica.com/?p=2017732</link>
-					<comments>https://arstechnica.com/cars/2024/04/feds-expand-investigation-into-hondas-automatic-emergency-braking-system/#comments</comments>
-		
-		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 13:57:47 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[honda]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017732</guid>
-
-					<description><![CDATA[3 million Honda Accords and CR-Vs are fitted with Collision Mitigation Braking System.]]></description>
+					<description><![CDATA[First launch of these operational vehicles may occur next month from California.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/02/Collision-Mitigation-Braking-System-source-800x450.jpg" alt="Promotional image of Honda dashboard while warning system is activated.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/02/Collision-Mitigation-Braking-System-source.jpg" class="enlarge-link" data-height="1080" data-width="1920">Enlarge</a> <span class="sep">/</span> Honda's forward collision warning system has always been sensitive. Now the NHTSA is investigating some Hondas for false-positive automatic emergency brake activations. (credit: <a rel="nofollow" class="caption-link" href="https://www.honda.com/">Honda</a>)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2020/01/starlink-800x562.png" alt="A Falcon 9 rocket launches a Starlink mission in January 2020.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2020/01/starlink.png" class="enlarge-link" data-height="959" data-width="1364">Enlarge</a> <span class="sep">/</span> A Falcon 9 rocket launches a Starlink mission in January 2020. (credit: SpaceX)</p>  </figure>
 
 
 
@@ -534,33 +351,31 @@
 
 
 <div><a name="page-1"></a></div>
-<p>This week, the National Highway Traffic Safety Administration <a href="https://static.nhtsa.gov/odi/inv/2024/INOA-EA24002-11766P1.pdf">decided to expand</a> an ongoing investigation into the alarming tendency of some modern Hondas to inappropriately trigger their automatic emergency braking systems. Studies have shown that automatic emergency braking systems have reduced road deaths in the <a href="https://www.iihs.org/topics/bibliography/ref/2111">US</a>, <a href="https://www.degruyter.com/document/doi/10.1515/eng-2021-0097/html?lang=en">Europe</a>, and <a href="https://www.mdpi.com/1660-4601/17/3/917?type=check_update&amp;version=1">China</a>, but so-called phantom braking problems have dogged systems from <a href="https://arstechnica.com/cars/2022/02/teslas-radar-less-cars-investigated-by-nhtsa-after-complaints-spike/#:~:text=The%20National%20Highway%20Traffic%20Safety,about%20416%2C000%20cars%20are%20affected.">Tesla</a> and Honda.</p>
-<p><a href="https://arstechnica.com/cars/2022/02/nhtsa-to-investigate-honda-accords-and-cr-vs-over-phantom-braking/">We first learned of the problem in 2022</a>, when NHTSA opened a preliminary investigation into the matter, based on 278 complaints. Now, NHTSA's Office of Defects Investigation has received 1,294 complaints from drivers of Honda CR-Vs (model years 2017–2022) and Honda Accords (model years 2018–2022), all claiming that their Hondas' automatic emergency braking system slammed on the brakes with no apparent obstruction in the way.</p>
-<p>Honda says it's aware of even more cases—1,991 in all, and NHTSA says that, when it takes out cases where multiple reports affect the same vehicle, <a href="https://www.nhtsa.gov/vehicle/2022/HONDA/ACCORD/4%252520DR/FWD#investigations">it knows of</a> 2,976 reports of inadvertent automatic emergency braking, with 93 injury reports and 47 crashes to date.</p></div><p><a href="https://arstechnica.com/?p=2017732#p3">Read 1 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017732&comments=1">Comments</a></p>]]></content:encoded>
+<p>SpaceX is reportedly working with at least one major US defense contractor, Northrop Grumman, on a constellation of spy satellites for the National Reconnaissance Office.</p>
+<p><a href="https://www.reuters.com/business/aerospace-defense/northrop-grumman-working-with-musks-spacex-us-spy-satellite-system-2024-04-18/">According to Reuters</a>, development of the network of hundreds of spy satellites by SpaceX is being coordinated with multiple contractors to avoid putting too much control of a highly sensitive intelligence program in the hands of one company.</p>
+<p>"It is in the government's interest to not be totally invested in one company run by one person," one of the news agency's sources said, most likely referring to SpaceX founder Elon Musk.</p></div><p><a href="https://arstechnica.com/?p=2018357#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018357&comments=1">Comments</a></p>]]></content:encoded>
 					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/04/feds-expand-investigation-into-hondas-automatic-emergency-braking-system/feed/</wfw:commentRss>
-			<slash:comments>167</slash:comments>
+					<wfw:commentRss>https://arstechnica.com/space/2024/04/spacex-working-with-northrop-grumman-on-spy-satellites-for-us-government/feed/</wfw:commentRss>
+			<slash:comments>32</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Power-hungry AI is putting the hurt on global electricity supply</title>
-		<link>https://arstechnica.com/?p=2017729</link>
-					<comments>https://arstechnica.com/ai/2024/04/power-hungry-ai-is-putting-the-hurt-on-global-electricity-supply/#comments</comments>
+		<title>Cops can force suspect to unlock phone with thumbprint, US court rules</title>
+		<link>https://arstechnica.com/?p=2018347</link>
+					<comments>https://arstechnica.com/tech-policy/2024/04/cops-can-force-suspect-to-unlock-phone-with-thumbprint-us-court-rules/#comments</comments>
 		
-		<dc:creator><![CDATA[Financial Times]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 13:55:37 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[data centers]]></category>
-		<category><![CDATA[electricity]]></category>
-		<category><![CDATA[syndication]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017729</guid>
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 19:13:21 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[phone unlocking]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018347</guid>
 
-					<description><![CDATA[Data centers are becoming a bottleneck for AI development.]]></description>
+					<description><![CDATA[Ruling: Thumbprint scan is like a "blood draw or fingerprint taken at booking."]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2019/02/GettyImages-491444142-800x533.jpg" alt="Power-hungry AI is putting the hurt on global electricity supply">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/02/GettyImages-491444142.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> </p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/getty-thumbprint-800x533.jpg" alt="A man holding up his thumb for a thumbprint scan">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/getty-thumbprint.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> </p>  </figure>
 
 
 
@@ -568,108 +383,34 @@
 
 
 <div><a name="page-1"></a></div>
-<p>Electricity supply is becoming the latest chokepoint to threaten the growth of artificial intelligence, according to leading tech industry chiefs, as power-hungry data centers add to the strain on grids around the world.</p>
-<p>Billionaire Elon Musk said this month that while the development of AI had been “chip constrained” last year, the latest bottleneck to the cutting-edge technology was “electricity supply.” Those comments followed a warning by Amazon chief Andy Jassy this year that there was “not enough energy right now” to run new generative AI services.</p>
-<p>Amazon, Microsoft, and Google parent Alphabet are investing billions of dollars in computing infrastructure as they seek to build out their AI capabilities, including in data centers that typically take several years to plan and construct.</p></div><p><a href="https://arstechnica.com/?p=2017729#p3">Read 21 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017729&comments=1">Comments</a></p>]]></content:encoded>
+<p>The US Constitution's Fifth Amendment protection against self-incrimination does not prohibit police officers from forcing a suspect to unlock a phone with a thumbprint scan, a federal appeals court ruled yesterday. The ruling does not apply to all cases in which biometrics are used to unlock an electronic device but is a significant decision in an unsettled area of the law.</p>
+<p>The US Court of Appeals for the 9th Circuit had to grapple with the question of "whether the compelled use of Payne's thumb to unlock his phone was testimonial," the <a href="https://cdn.ca9.uscourts.gov/datastore/opinions/2024/04/17/22-50262.pdf">ruling</a> in <em>United States v. Jeremy Travis Payne</em> said. "To date, neither the Supreme Court nor any of our sister circuits have addressed whether the compelled use of a biometric to unlock an electronic device is testimonial."</p>
+<p>A three-judge panel at the 9th Circuit ruled unanimously against Payne, affirming a US District Court's denial of Payne's motion to suppress evidence. Payne was a California parolee who was arrested by California Highway Patrol (CHP) after a 2021 traffic stop and charged with possession with intent to distribute fentanyl, fluorofentanyl, and cocaine.</p></div><p><a href="https://arstechnica.com/?p=2018347#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018347&comments=1">Comments</a></p>]]></content:encoded>
 					
-					<wfw:commentRss>https://arstechnica.com/ai/2024/04/power-hungry-ai-is-putting-the-hurt-on-global-electricity-supply/feed/</wfw:commentRss>
-			<slash:comments>161</slash:comments>
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/04/cops-can-force-suspect-to-unlock-phone-with-thumbprint-us-court-rules/feed/</wfw:commentRss>
+			<slash:comments>142</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>EV charging update in Google Maps includes “AI-powered” station info</title>
-		<link>https://arstechnica.com/?p=2017708</link>
-					<comments>https://arstechnica.com/cars/2024/04/google-maps-gets-ev-charging-update-showing-charger-speed-availability/#comments</comments>
-		
-		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 13:06:13 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Electric vehicles]]></category>
-		<category><![CDATA[google maps]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017708</guid>
-
-					<description><![CDATA[The update will first roll out to cars with Google Maps built-in.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/Nearby-EV-chargers-800x822.png" alt="A Google Maps screenshot showing an EV route with chargers">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/Nearby-EV-chargers.png" class="enlarge-link" data-height="1870" data-width="1820">Enlarge</a> <span class="sep">/</span> EV charger status is coming to Google Maps. (credit: Google)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Google Maps is making itself friendlier for electric vehicles. A couple of years ago it added the option <a href="https://arstechnica.com/gadgets/2022/09/google-maps-can-now-pick-the-most-efficient-route-for-evs/">to select different powertrain types</a> when calculating a route—gas, hybrid, electric, and so on. Lower-energy routes with fewer hills are helpful for electric vehicles, but mostly what EV drivers on unfamiliar terrain really want to know about are the chargers: Where are they, how fast are they, and do they work? Soon, that critical information will be available to Google Maps users via a new update.</p>
-<p>Live charger status is usually available from the onboard navigation system built into an EV. Better yet, those native nav systems invariably talk to the powertrain, so they know how much state of charge is currently in the battery and how much to expect upon arrival. Add in real-time status on chargers—how many are working, how many are available—and it's not hard to see why plenty of EV drivers stick with the built-in system.</p>
-<p>But for some EVs, that built-in system <em>is</em> Google Maps, including EVs from Ford, Honda, <a href="https://arstechnica.com/cars/2023/03/gm-confirms-its-dropping-apple-carplay-and-android-auto-from-2024-evs/">General Motors</a>, Volvo, Polestar, and soon <a href="https://arstechnica.com/cars/2023/12/porsche-gives-ars-a-look-inside-its-next-ev-the-all-electric-macan/">even Porsche</a>. These will be the first devices to receive the update, Google says, which will roll out globally in the coming months. After the connected cars, smartphones will be next.</p></div><p><a href="https://arstechnica.com/?p=2017708#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017708&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/04/google-maps-gets-ev-charging-update-showing-charger-speed-availability/feed/</wfw:commentRss>
-			<slash:comments>73</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Linus Torvalds reiterates his tabs-versus-spaces stance with a kernel trap</title>
-		<link>https://arstechnica.com/?p=2017554</link>
-					<comments>https://arstechnica.com/gadgets/2024/04/linus-torvalds-reiterates-his-tabs-versus-spaces-stance-with-a-kernel-trap/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Tue, 16 Apr 2024 21:51:20 +0000</pubDate>
-				<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[coding style]]></category>
-		<category><![CDATA[Linus Torvalds]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[Linux kernel]]></category>
-		<category><![CDATA[linux kernel mailing list]]></category>
-		<category><![CDATA[tab vs space]]></category>
-		<category><![CDATA[tabs versus spaces]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017554</guid>
-
-					<description><![CDATA[One does not simply suggest changing a kernel line to help out a parsing tool.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-595289606-800x533.jpg" alt="Tab soda displayed on a grocery shelf">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-595289606-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> Cans of Tab diet soda on display in 2011. Tab was discontinued in 2020. There has never been a soda named "Spaces" that had a cult following. (credit: Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Anybody can contribute to the Linux kernel, but any person's commit suggestion can become the focus of the kernel's master and namesake, Linus Torvalds. Torvalds is famously <a href="https://arstechnica.com/information-technology/2015/01/linus-torvalds-responds-to-ars-about-diversity-niceness-in-open-source/">not overly committed to niceness</a>, though he has been <a href="https://arstechnica.com/gadgets/2018/09/linus-torvalds-apologizes-for-years-of-being-a-jerk-takes-time-off-to-learn-empathy/">working on it since 2018</a>. You can see glimpses of this newer, less curse-laden approach in how Torvalds recently addressed a commit with which he vehemently disagreed. It involves tabs.</p>
-<p>The commit last week changed <a href="https://git.kernel.dk/?p=linux-block.git;a=commit;h=d96c36004e31">exactly one thing on one line</a>, replacing a tab character with a space: "It helps Kconfig parsers to read file without error." Torvalds responded with a commit of his own, <a href="https://www.theregister.com/2024/04/16/torvalds_complicates_his_indents/">as spotted by The Register</a>, which would "<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/diff/?id=d5cf50dafc9dd5faa1e61e7021e3496ddf7fd61e">add some hidden tabs on purpose</a>." Trying to smooth over a tabs-versus-spaces matter seemed to awaken Torvalds to the need to have tab-detecting failures be "more obvious." Torvalds would have added more, he wrote, but didn't "want to make things uglier than necessary. But it *might* be necessary if it turns out we see more of this kind of silly tooling."</p>
-<p>If you've read this far and don't understand what's happening, please allow me, a failed CS minor, to offer a quick explanation: <a href="https://www.popsci.com/inside-silicon-valleys-spaces-and-tabs-debate/">Tabs Versus Spaces</a> will <a href="https://roberttruesdale.medium.com/tabs-vs-spaces-the-never-ending-battle-beyond-code-037d493e6dd8">never</a> be truly resolved, codified, or set right by standards, and the energy spent on the issue over time could, if harnessed, likely power one or more small nations. Still, the Linux kernel has <a href="https://www.kernel.org/doc/html/latest/process/coding-style.html">its own coding style</a>, and it directly cites "K&amp;R," or <a href="https://arstechnica.com/gadgets/2022/08/unix-legend-who-owes-us-nothing-keeps-fixing-foundational-awk-code/">Kernighan</a> &amp; <a href="https://arstechnica.com/information-technology/2011/10/dennis-ritchie-the-giant-whose-shoulders-we-stand-on/">Ritchie</a>, the authors of the coding bible <em>The C Programming Language,</em> which is a tabs book. If you are submitting kernel code, it had better use tabs (eight-character tabs, ideally, though that is tied in part to <a href="https://retrocomputing.stackexchange.com/questions/16172/when-did-tabs-start-defaulting-to-8-columns">teletype and line-printer history</a>).</p></div><p><a href="https://arstechnica.com/?p=2017554#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017554&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/04/linus-torvalds-reiterates-his-tabs-versus-spaces-stance-with-a-kernel-trap/feed/</wfw:commentRss>
-			<slash:comments>492</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Attackers are pummeling networks around the world with millions of login attempts</title>
-		<link>https://arstechnica.com/?p=2017646</link>
-					<comments>https://arstechnica.com/security/2024/04/cisco-warns-of-large-scale-credential-compromise-attack-thats-likely-to-get-bigger/#comments</comments>
+		<title>LastPass users targeted in phishing attacks good enough to trick even the savvy</title>
+		<link>https://arstechnica.com/?p=2018339</link>
+					<comments>https://arstechnica.com/security/2024/04/lastpass-users-targeted-in-phishing-attacks-good-enough-to-trick-even-the-savvy/#comments</comments>
 		
 		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
-		<pubDate>Tue, 16 Apr 2024 21:31:25 +0000</pubDate>
+		<pubDate>Thu, 18 Apr 2024 18:42:06 +0000</pubDate>
 				<category><![CDATA[Biz & IT]]></category>
 		<category><![CDATA[Security]]></category>
-		<category><![CDATA[credential compromise]]></category>
-		<category><![CDATA[SSH]]></category>
-		<category><![CDATA[Talos]]></category>
-		<category><![CDATA[vpns]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017646</guid>
+		<category><![CDATA[credential phishing]]></category>
+		<category><![CDATA[lastpass]]></category>
+		<category><![CDATA[multi factor authentication]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018339</guid>
 
-					<description><![CDATA[Attacks coming from nearly 4,000 IP addresses take aim at VPNs, SSH and web apps.]]></description>
+					<description><![CDATA[Campaign used email, SMS, and voice calls to trick targets into divulging master passwords.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2021/12/password-entry-800x450.jpg" alt="Attackers are pummeling networks around the world with millions of login attempts">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2021/12/password-entry.jpg" class="enlarge-link" data-height="1299" data-width="2309">Enlarge</a> (credit: Matejmo | Getty Images)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/03/phishing-800x430.jpeg" alt="LastPass users targeted in phishing attacks good enough to trick even the savvy">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/03/phishing.jpeg" class="enlarge-link" data-height="538" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
 
 
 
@@ -677,36 +418,38 @@
 
 
 <div><a name="page-1"></a></div>
-<p>Cisco’s Talos security team is warning of a large-scale credential compromise campaign that’s indiscriminately assailing networks with login attempts aimed at gaining unauthorized access to VPN, SSH, and web application accounts.</p>
-<p>The login attempts use both generic usernames and valid usernames targeted at specific organizations. Cisco included a <a href="https://github.com/Cisco-Talos/IOCs/blob/main/2024/04/large-scale-brute-force-activity-targeting-vpns-ssh-services-with-commonly-used-login-credentials.txt">list</a> of more than 2,000 usernames and almost 100 passwords used in the attacks, along with nearly 4,000 IP addresses sending the login traffic. The IP addresses appear to originate from TOR exit nodes and other anonymizing tunnels and proxies. The attacks appear to be indiscriminate and opportunistic rather than aimed at a particular region or industry.</p>
-<p>“Depending on the target environment, successful attacks of this type may lead to unauthorized network access, account lockouts, or denial-of-service conditions,” Talos researchers <a href="https://blog.talosintelligence.com/large-scale-brute-force-activity-targeting-vpns-ssh-services-with-commonly-used-login-credentials/">wrote Tuesday</a>. “The traffic related to these attacks has increased with time and is likely to continue to rise.”</p></div><p><a href="https://arstechnica.com/?p=2017646#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017646&comments=1">Comments</a></p>]]></content:encoded>
+<p>Password-manager LastPass users were recently targeted by a convincing phishing campaign that used a combination of email, SMS, and voice calls to trick targets into divulging their master passwords, company officials said.</p>
+<p>The attackers used an advanced phishing-as-a-service kit <a href="https://www.lookout.com/threat-intelligence/article/cryptochameleon-fcc-phishing-kit">discovered in February</a> by researchers from mobile security firm Lookout. Dubbed CryptoChameleon for its focus on cryptocurrency accounts, the kit provides all the resources needed to trick even relatively savvy people into believing the communications are legitimate. Elements include high-quality URLs, a counterfeit single sign-on page for the service the target is using, and everything needed to make voice calls or send emails or texts in real time as targets are visiting a fake site. The end-to-end service can also bypass multi-factor authentication in the event a target is using the protection.</p>
+<h2>LastPass in the crosshairs</h2>
+<p>Lookout said that LastPass was one of dozens of sensitive services or sites CryptoChameleon was configured to spoof. Others targeted included the Federal Communications Commission, Coinbase and other cryptocurrency exchanges, and email, password management, and single sign-on services including Okta, iCloud, and Outlook. When Lookout researchers accessed a database one CryptoChameleon subscriber used, they found that a high percentage of the contents collected in the scams appeared to be legitimate email addresses, passwords, one-time-password tokens, password reset URLs, and photos of driver’s licenses. Typically, such databases are filled with junk entries.</p></div><p><a href="https://arstechnica.com/?p=2018339#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018339&comments=1">Comments</a></p>]]></content:encoded>
 					
-					<wfw:commentRss>https://arstechnica.com/security/2024/04/cisco-warns-of-large-scale-credential-compromise-attack-thats-likely-to-get-bigger/feed/</wfw:commentRss>
-			<slash:comments>86</slash:comments>
+					<wfw:commentRss>https://arstechnica.com/security/2024/04/lastpass-users-targeted-in-phishing-attacks-good-enough-to-trick-even-the-savvy/feed/</wfw:commentRss>
+			<slash:comments>60</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Bogus Botox poisoning outbreak spreads to 9 states, CDC says</title>
-		<link>https://arstechnica.com/?p=2017617</link>
-					<comments>https://arstechnica.com/science/2024/04/bogus-botox-poisoning-outbreak-spreads-to-9-states-cdc-says/#comments</comments>
+		<title>Fallout games continue seeing big player jumps after the TV series’ success</title>
+		<link>https://arstechnica.com/?p=2018228</link>
+					<comments>https://arstechnica.com/gaming/2024/04/fallout-games-continue-seeing-big-player-jumps-after-the-tv-series-success/#comments</comments>
 		
-		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Tue, 16 Apr 2024 21:10:52 +0000</pubDate>
-				<category><![CDATA[Health]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[botox]]></category>
-		<category><![CDATA[botulism]]></category>
-		<category><![CDATA[CDC]]></category>
-		<category><![CDATA[injection]]></category>
-		<category><![CDATA[outbreak]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017617</guid>
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 18:14:22 +0000</pubDate>
+				<category><![CDATA[Culture]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Fallout]]></category>
+		<category><![CDATA[fallout 2]]></category>
+		<category><![CDATA[Fallout 3]]></category>
+		<category><![CDATA[fallout 4]]></category>
+		<category><![CDATA[fallout 76]]></category>
+		<category><![CDATA[Fallout: New Vegas]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018228</guid>
 
-					<description><![CDATA[All of the case have been in women, nine of whom were hospitalized.]]></description>
+					<description><![CDATA[Being on deep discount doesn't hurt, either.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/Botulinum-333x523.png" alt="A package of counterfeit Botox. ">
-      <p class="caption" style="font-size:0.8em">A package of counterfeit Botox.  (credit: <a rel="nofollow" class="caption-link" href="https://www.fda.gov/drugs/drug-safety-and-availability/counterfeit-version-botox-found-multiple-states">FDA</a>)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/fallout_armors-800x333.png" alt="Brotherhood of Steel soldiers in full T-60 power armor approaching the camera in Fallout TV series">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/fallout_armors.png" class="enlarge-link" data-height="600" data-width="1440">Enlarge</a> <span class="sep">/</span> Seeing power armor in the <em>Fallout</em> series inspired many players to jump back into their own suits (and start stockpiling fusion cores). (credit: Amazon/MGM Studios)</p>  </figure>
 
 
 
@@ -714,36 +457,187 @@
 
 
 <div><a name="page-1"></a></div>
-<p>At least 19 women across nine US states appear to have been poisoned by bogus injections of Botox, t<a href="https://www.cdc.gov/botulism/outbreaks/harmful-reactions-botox-injections.html">he Centers for Disease Control and Prevention reported late Monday.</a></p>
-<p>Nine of the 19 cases—47 percent—were hospitalized and four—21 percent—were treated with botulinum anti-toxin. The CDC's alert and outbreak investigation follows <a href="https://arstechnica.com/science/2024/04/sketchy-botox-shots-spark-multistate-outbreak-of-botulism-like-condition/">reports in recent days of botulism-like illnesses linked to shady injections</a> in Tennessee, where officials reported four cases, and Illinois, where there were two. The CDC now reports that the list of affected states also includes: Colorado, Florida, Kentucky, Nebraska, New Jersey, New York, and Washington.</p>
-<p><a href="https://www.fda.gov/drugs/drug-safety-and-availability/counterfeit-version-botox-found-multiple-states">In a separate alert Tuesday, the Food and Drug Administration</a> said that "unsafe, counterfeit" versions of Botox had been found in several states, and the toxic fakes were administered by unlicensed or untrained people and/or in non-medical or unlicensed settings, such as homes or spas. The counterfeit products appeared to have come from an unlicensed source, generally raising the risks that they're "misbranded, adulterated, counterfeit, contaminated, improperly stored and transported, ineffective and/or unsafe," the FDA said.</p></div><p><a href="https://arstechnica.com/?p=2017617#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017617&comments=1">Comments</a></p>]]></content:encoded>
+<p>Long-time <em>Fallout</em> fans are used to long waits between titles, and, depending on their preferences, inconsistent results. But when Amazon's <em>Fallout </em>series showed up on Prime and <a href="https://arstechnica.com/culture/2024/04/three-episodes-in-the-fallout-tv-series-absolutely-nails-it/">absolutely nailed it</a>, it spurred a lot of players to crack open their libraries and commence some post-apocalyptic replaying. And maybe first-time playing, too.</p>
+<p><em>Fallout 76</em>, the <a href="https://arstechnica.com/gaming/2020/04/fallout-76s-wastelanders-expansion-makes-west-virginia-feel-like-home/">online multiplayer title</a> that is the most recent full release, saw perhaps the biggest delta. The game hit its all-time peak of 43,887 simultaneous players on Wednesday, April 17, <a href="https://steamcharts.com/app/1151340">according to SteamCharts</a>, roughly one week after the Amazon series' debut. For the year leading up to that peak, <em>Fallout 76</em> had hovered around 7,000-10,000 players through most of 2024, and then jumped after the series' debut. Of course, that number only counts PC players, and only those on Steam; the game, which launched simultaneously on consoles, and is <a href="https://www.xbox.com/en-US/games/fallout-76">available on Microsoft's Game Pass</a>, likely has many more players.</p>
+<p>SteamDB, another Steam stats tracker, suggested on X (formerly Twitter) that the <em>Fallout</em> game series as a whole had <a href="https://twitter.com/SteamDB/status/1779459741984379079">more than doubled its concurrent player count by April 14</a>.</p></div><p><a href="https://arstechnica.com/?p=2018228#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018228&comments=1">Comments</a></p>]]></content:encoded>
 					
-					<wfw:commentRss>https://arstechnica.com/science/2024/04/bogus-botox-poisoning-outbreak-spreads-to-9-states-cdc-says/feed/</wfw:commentRss>
-			<slash:comments>70</slash:comments>
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/04/fallout-games-continue-seeing-big-player-jumps-after-the-tv-series-success/feed/</wfw:commentRss>
+			<slash:comments>77</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Studies reveal new clues to how tardigrades can survive intense radiation</title>
-		<link>https://arstechnica.com/?p=2017449</link>
-					<comments>https://arstechnica.com/science/2024/04/studies-reveal-new-clues-to-how-tardigrades-can-survive-intense-radiation/#comments</comments>
+		<title>Big Tech can’t hoard brainwave data for ad targeting, Colorado law says</title>
+		<link>https://arstechnica.com/?p=2018276</link>
+					<comments>https://arstechnica.com/tech-policy/2024/04/colorado-privacy-law-first-to-safeguard-brain-activity-data/#comments</comments>
 		
-		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
-		<pubDate>Tue, 16 Apr 2024 20:55:02 +0000</pubDate>
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 18:03:19 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[biometric data]]></category>
+		<category><![CDATA[brain activity data]]></category>
+		<category><![CDATA[brainwaves]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[data privacy]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[neural data]]></category>
+		<category><![CDATA[Neurotechnology]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[privacy law]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018276</guid>
+
+					<description><![CDATA[Neural data can reveal health, mental states, emotions, and cognitive function.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1752189102-800x533.jpg" alt="Big Tech can’t hoard brainwave data for ad targeting, Colorado law says">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1752189102.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/network-of-brains-royalty-free-image/1752189102?phrase=human%20brain">PM Images | DigitalVision</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>On Wednesday, Colorado <a href="https://leg.colorado.gov/bills/hb24-1058">expanded the scope of its privacy law</a> initially designed to protect biometric data like fingerprints or face images to become first in the nation to also shield sensitive neural data.</p>
+<p>That could stop companies from hoarding brain activity data without residents realizing the risks. The New York Times <a href="https://www.nytimes.com/2024/04/17/science/colorado-brain-data-privacy.html">reported</a> that neural data is increasingly being collected and sold nationwide. And after a <a href="https://www.einnews.com/pr_news/546252348/global-neurotech-industry-investment-digest-2021">market analysis</a> showed that investments in neurotechnology leapt by 60 percent globally from 2019 to 2020—and were valued at $30 billion in 2021—Big Tech companies have significantly intensified plans to develop their own products to rake in potentially billions.</p>
+<p>For instance, in 2023, <a href="https://www.inverse.com/input/tech/mark-zuckerberg-ar-glasses-neural-interface-luxottica">Meta demoed a wristband</a> with a neural interface used to control its smart glasses and unveiled an <a href="https://medium.com/ai-agi/meta-just-achieved-mind-reading-with-ai-a-breakthrough-in-brain-computer-interface-technology-98cf7deb6858">AI system that could be used to decode the mind</a>. In January, Elon Musk announced that <a href="https://arstechnica.com/science/2024/01/elon-musks-neuralink-puts-brain-chip-in-first-human-amid-federal-scrutiny/">Neuralink implanted its first brain chip in a human</a> that can be used to control a device with their thoughts. And just last month, <a href="https://appleinsider.com/articles/24/03/21/future-apple-vision-pro-brainwave-sensors-could-improve-mental-and-physical-health">Apple Insider reported</a> that "Apple is working on technology that could turn the Apple Vision Pro into a brainwave reader to improve mental health, assist with training and workouts, and help with mindfulness."</p></div><p><a href="https://arstechnica.com/?p=2018276#p3">Read 24 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018276&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/04/colorado-privacy-law-first-to-safeguard-brain-activity-data/feed/</wfw:commentRss>
+			<slash:comments>35</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Chinese EV makers won’t get subsidies from Mexico after US pressure</title>
+		<link>https://arstechnica.com/?p=2018283</link>
+					<comments>https://arstechnica.com/cars/2024/04/chinese-ev-makers-wont-get-subsidies-from-mexico-after-us-pressure/#comments</comments>
+		
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 17:38:53 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[BYD]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[EV incentives]]></category>
+		<category><![CDATA[mexico]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018283</guid>
+
+					<description><![CDATA[Mexico has offered generous incentives for automakers in the past.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-2124963452-800x532.jpg" alt="BYD logo branding is pictured in front of a BYD Seal fully electric EV car during the Everything Electric London 2024 at ExCel on March 28, 2024 in London, England.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-2124963452-scaled.jpg" class="enlarge-link" data-height="1703" data-width="2560">Enlarge</a> <span class="sep">/</span> The Chinese automaker BYD has every other electric vehicle maker worried. (credit: John Keeble/Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The United States has won an important battle in its war to keep low-cost Chinese electric vehicles from American car buyers. Today, <a href="https://www.reuters.com/business/autos-transportation/mexico-facing-us-pressure-will-halt-incentives-chinese-ev-makers-2024-04-18/">Reuters reports</a> that the Mexican federal government has responded to pressure from the US and will not offer incentives to Chinese automakers, like BYD, that are looking to establish North American manufacturing operations.</p>
+<p>BYD last met with Mexican officials in January, according to Reuters, where it learned that Chinese automakers would not be offered tax breaks or cheap land to build factories.</p>
+<p>Until now, Mexico has offered <a href="https://www.reuters.com/business/autos-transportation/mexican-state-grants-tesla-153-million-incentives-factory-2023-12-14/">foreign automakers generous subsidies</a> that have made the country <a href="https://www.madeinmexicoinc.com/tax-incentives-in-mexico/">a cheap place to build cars</a>. Added to that, the United States-Mexico-Canada Free Trade Agreement <a href="https://mexico-now.com/mexico-to-benefit-from-u-s-subsidies-for-electric-vehicles/">also makes</a> Mexico desirable for ease of access to the US market, and Chinese automotive part suppliers <a href="https://www.wsj.com/business/autos/chinese-ev-maker-byd-exploring-mexico-factory-as-entry-to-u-s-market-411360fa?campaign_id=4&amp;emc=edit_dk_20240216&amp;instance_id=115337&amp;nl=dealbook&amp;regi_id=63692790&amp;segment_id=158374&amp;te=1&amp;user_id=edd9a99552656979b642d62e6445e311">have flocked to the country</a> in recent years.</p></div><p><a href="https://arstechnica.com/?p=2018283#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018283&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/04/chinese-ev-makers-wont-get-subsidies-from-mexico-after-us-pressure/feed/</wfw:commentRss>
+			<slash:comments>183</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Delta takes flight: Apple-approved Nintendo emulator is a great iOS option</title>
+		<link>https://arstechnica.com/?p=2018249</link>
+					<comments>https://arstechnica.com/gaming/2024/04/a-touchscreen-of-nostalgia-delta-brings-classic-nintendo-consoles-to-ios/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 17:30:40 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Delta]]></category>
+		<category><![CDATA[emulator]]></category>
+		<category><![CDATA[Game Boy]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[iphone]]></category>
+		<category><![CDATA[n64]]></category>
+		<category><![CDATA[NES]]></category>
+		<category><![CDATA[Nintendo]]></category>
+		<category><![CDATA[Nintendo DS]]></category>
+		<category><![CDATA[SNES]]></category>
+		<category><![CDATA[super nes]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018249</guid>
+
+					<description><![CDATA[No more sideloading needed for your iOS retro game fix.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/IMG_6856-800x369.png" alt="That is in no way what the Z button looks like or where it goes...">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/IMG_6856.png" class="enlarge-link" data-height="1125" data-width="2436">Enlarge</a> <span class="sep">/</span> That is in no way what the Z button looks like or where it goes... </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Apple's decision earlier this month to <a href="https://arstechnica.com/gadgets/2024/04/apple-now-allows-retro-game-emulators-on-its-app-store-but-with-big-caveats/">open the iOS App Store to generic retro game emulators</a> is already bearing fruit. Delta <a href="https://apps.apple.com/us/app/delta-game-emulator/id1048524688">launched Wednesday</a> as one of the first officially approved iOS apps to emulate Nintendo consoles from the NES through the N64 and the Game Boy through the Nintendo DS (though unofficial options have <a href="https://arstechnica.com/gaming/2014/12/nessnes-emulator-sneaks-into-ios-app-store/">snuck through in the past</a>).</p>
+<p>Delta is an outgrowth of developer Riley Testut's <a href="https://arstechnica.com/gaming/2014/10/ios-8-1-plugs-security-hole-that-made-it-easy-to-install-emulators/">earlier sideloadable GBA4iOS project</a>, which recently had its own<a href="https://arstechnica.com/gaming/2024/04/apple-removes-the-first-ios-game-boy-emulator-released-under-new-app-store-rules/"> unauthorized clone removed from the App Store</a>. Before Wednesday, iOS users could load Delta onto their devices only through <a href="https://altstore.io/">AltStore</a>, an iOS marketplace that used a Developer Mode workaround to sideload apps from a self-hosted server. European users can now get that AltStore directly on their iOS devices (for a small 1.50 euro/year fee), while North American users can simply <a href="https://apps.apple.com/us/app/delta-game-emulator/id1048524688">download Delta for free from the iOS App Store</a>, with no ads or user tracking to boot.</p>
+<p>All that history means Delta is far from a slapdash app quickly thrown together to take advantage of Apple's new openness to emulation. The app is obviously built with iOS in mind and already integrates some useful features designed for the mobile ecosystem. While there are some updates we'd like to see in the future, this represents a good starting point for where Apple-approved game emulation can go on iOS.</p></div><p><a href="https://arstechnica.com/?p=2018249#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018249&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/04/a-touchscreen-of-nostalgia-delta-brings-classic-nintendo-consoles-to-ios/feed/</wfw:commentRss>
+			<slash:comments>47</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Google’s latest layoffs are in finance and real estate</title>
+		<link>https://arstechnica.com/?p=2018195</link>
+					<comments>https://arstechnica.com/gadgets/2024/04/googles-latest-layoffs-are-in-finance-and-real-estate/#comments</comments>
+		
+		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 17:12:42 +0000</pubDate>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018195</guid>
+
+					<description><![CDATA[Google's almost uncountable number of layoffs continues. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2017/05/google-800x523.jpg" alt="A large Google logo is displayed amidst foliage.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2017/05/google.jpg" class="enlarge-link" data-height="670" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/search/photographer?family=editorial&amp;photographer=Sean+Gallup">Sean Gallup | Getty Images</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Google CEO Sundar Pichai <a href="https://arstechnica.com/google/2024/01/google-ceo-sundar-pichai-promises-another-year-of-google-layoffs/">promised more layoffs</a> at Google this year, and the company is delivering. <a href="https://www.businessinsider.com/google-layoffs-more-employees-2024-4">Business Insider</a> was the first to report the latest cuts are to "several teams" in Google's real estate and finance departments. The report adds: "One current employee said the changes were 'pretty large-scale' and that some roles are being moved abroad."</p>
+<p><a href="https://www.cnbc.com/2024/04/17/google-restructures-finance-team-as-a-part-of-ai-shift-cfo-tells-employees-in-memo.html">CNBC</a> has a copy of the memo that Google and Alphabet CFO Ruth Porat sent out to employees about the layoffs. Porat blames AI for the layoffs, saying, “The tech sector is in the midst of a tremendous platform shift with Al. As a company, this means we have the opportunity to make more helpful products for billions of users and provide faster solutions to our customers, but it also means we collectively have to make tough decisions, including how and where we work to align with our highest priority areas.” It's not clear how or if AI is actually taking over roles in real estate and finance.</p>
+<p>Google has been making cuts across a ton of departments since 2022, when <a href="https://arstechnica.com/gadgets/2022/08/google-ceo-calls-for-a-more-focused-and-efficient-google/">Pichai declared</a> Google was not productive enough. There was a big set of <a href="https://arstechnica.com/gadgets/2023/01/google-cuts-12000-jobs-the-largest-layoff-in-the-companys-history/">12,000 layoffs</a> in January 2023, and an almost uncountable number of smaller cuts since then. Google's cuts are aligned with a <a href="https://arstechnica.com/gadgets/2023/04/apple-joins-amazon-google-and-microsoft-in-tech-industry-layoffs/">massive wave of layoffs</a> across the tech industry.</p></div><p><a href="https://arstechnica.com/?p=2018195#p3">Read 1 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018195&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/04/googles-latest-layoffs-are-in-finance-and-real-estate/feed/</wfw:commentRss>
+			<slash:comments>76</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The largest marine reptile ever could match blue whales in size</title>
+		<link>https://arstechnica.com/?p=2018235</link>
+					<comments>https://arstechnica.com/science/2024/04/the-largest-marine-reptile-ever-could-match-blue-whales-in-size/#comments</comments>
+		
+		<dc:creator><![CDATA[Jacek Krywko]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 16:07:25 +0000</pubDate>
 				<category><![CDATA[Science]]></category>
-		<category><![CDATA[animals]]></category>
 		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[Extremophiles]]></category>
-		<category><![CDATA[Genetics]]></category>
-		<category><![CDATA[proteins]]></category>
-		<category><![CDATA[tardigrades]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2017449</guid>
+		<category><![CDATA[evolution]]></category>
+		<category><![CDATA[fossils]]></category>
+		<category><![CDATA[Ichthyosaurs]]></category>
+		<category><![CDATA[paleontology]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018235</guid>
 
-					<description><![CDATA[Radiation damages their DNA; they're just able to repair that damage very quickly.]]></description>
+					<description><![CDATA[Bones from the head of a reptile suggest a body that was well over 20 meters long.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2021/12/tardigradeTOP-800x533.jpg" alt="SEM Micrograph of a tardigrade, commonly known as a water bear">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2021/12/tardigradeTOP.jpg" class="enlarge-link" data-height="799" data-width="1200">Enlarge</a> <span class="sep">/</span> SEM Micrograph of a tardigrade, more commonly known as a "water bear" or "moss piglet." (credit: Cultura RM Exclusive/Gregory S. Paulson/Getty Images)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/b.sergeykrasovskiy-800x484.jpg" alt="The largest marine reptile ever could match blue whales in size">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/b.sergeykrasovskiy.jpg" class="enlarge-link" data-height="907" data-width="1500">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.manchester.ac.uk/discover/news/manchester-paleontologist-unearths-what-may-be-the-largest-known-marine-reptile/">Sergey Krasovskiy</a>)</p>  </figure>
 
 
 
@@ -751,12 +645,118 @@
 
 
 <div><a name="page-1"></a></div>
-<p>Since the 1960s, scientists have known that the tiny tardigrade can withstand very intense radiation blasts 1,000 times stronger than what most other animals could endure. According to a <a href="https://www.cell.com/current-biology/abstract/S0960-9822(24)00316-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982224003166%3Fshowall%3Dtrue">new paper</a> published in the journal Current Biology, it's not that such ionizing radiation doesn't damage tardigrades' DNA; rather, the tardigrades are able to rapidly repair any such damage. The findings complement those of a <a href="https://elifesciences.org/reviewed-preprints/92621">separate study</a> published in January that also explored tardigrades' response to radiation.</p>
-<p>“These animals are mounting an incredible response to radiation, and that seems to be a secret to their extreme survival abilities,” <a href="https://www.eurekalert.org/news-releases/1041321">said co-author Courtney Clark-Hachtel</a>, who was a postdoc in Bob Goldstein's lab at the University of North Carolina at Chapel Hill, which has been conducting research into tardigrades for 25 years. “What we are learning about how tardigrades overcome radiation stress can lead to new ideas about how we might try to protect other animals and microorganisms from damaging radiation.”</p>
-<p>As <a href="https://arstechnica.com/science/2019/08/tiny-tardigrades-crash-landed-on-the-moon-and-probably-survived/">reported previously</a>, tardigrades are micro-animals that can survive in the harshest conditions: extreme pressure, extreme temperature, radiation, dehydration, starvation—even exposure to the vacuum of outer space. The creatures were first described by German zoologist Johann Goeze in 1773. They were dubbed <em>tardigrada</em> ("slow steppers" or "slow walkers") four years later by Lazzaro Spallanzani, an Italian biologist. That's because tardigrades tend to lumber along like a bear. Since they can survive almost anywhere, they can be found in lots of places: deep-sea trenches, salt and freshwater sediments, tropical rain forests, the Antarctic, mud volcanoes, sand dunes, beaches, and lichen and moss. (Another name for them is "moss piglets.") </p></div><p><a href="https://arstechnica.com/?p=2017449#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017449&comments=1">Comments</a></p>]]></content:encoded>
+<p>Blue whales have been considered the largest creatures to ever live on Earth. With a maximum length of nearly 30 meters and weighing nearly 200 tons, they are the all-time undisputed heavyweight champions of the animal kingdom.</p>
+<p>Now, digging on a beach in Somerset, UK, a team of British paleontologists found the remains of an ichthyosaur, a marine reptile that could give the whales some competition. “It is quite remarkable to think that gigantic, blue-whale-sized ichthyosaurs were swimming in the oceans around what was the UK during the Triassic Period,” said Dean Lomax, a paleontologist at the University of Manchester who led the study.</p>
+<h2>Giant jawbones</h2>
+<p>Ichthyosaurs were found in the seas through much of the Mesozoic era, appearing as early as 250 million years ago. They had four limbs that looked like paddles, vertical tail fins that extended downward in most species, and generally looked like large, reptilian dolphins with elongated narrow jaws lined with teeth. And some of them were really huge. The largest ichthyosaur skeleton so far was found in British Columbia, Canada, measured 21 meters, and belonged to a particularly massive ichthyosaur called <em>Shonisaurus sikanniensis</em>. But it seems they could get even larger than that.</p></div><p><a href="https://arstechnica.com/?p=2018235#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018235&comments=1">Comments</a></p>]]></content:encoded>
 					
-					<wfw:commentRss>https://arstechnica.com/science/2024/04/studies-reveal-new-clues-to-how-tardigrades-can-survive-intense-radiation/feed/</wfw:commentRss>
-			<slash:comments>37</slash:comments>
+					<wfw:commentRss>https://arstechnica.com/science/2024/04/the-largest-marine-reptile-ever-could-match-blue-whales-in-size/feed/</wfw:commentRss>
+			<slash:comments>21</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The 2024 Mercedes E 350 4Matic is the thriftiest luxury workhorse</title>
+		<link>https://arstechnica.com/?p=2018186</link>
+					<comments>https://arstechnica.com/cars/2024/04/the-2024-mercedes-e-350-4matic-is-the-thriftiest-luxury-workhorse/#comments</comments>
+		
+		<dc:creator><![CDATA[Ars Contributors]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 15:35:57 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[car review]]></category>
+		<category><![CDATA[Mercedes-Benz]]></category>
+		<category><![CDATA[Mercedes-Benz E 350]]></category>
+		<category><![CDATA[road test]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018186</guid>
+
+					<description><![CDATA[We test out the refreshed Mercedes midsize sedan.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/2024MercedesBenzE3504Matic3-800x495.jpg" alt="A Mercedes-Benz E 350">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/2024MercedesBenzE3504Matic3-scaled.jpg" class="enlarge-link" data-height="1583" data-width="2560">Enlarge</a> <span class="sep">/</span> The Mercedes-Benz E-Class is the brand's workhorse, covering millions of km a year ferrying German taxi passengers around. (credit: Peter Nelson)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Mercedes-Benz's E Class badge possesses a lot of canon. When asked to picture a '90s-or-newer Mercedes full-size sedan, it's hard not to conjure up mental snapshots of W124-and-up generations schlepping around well-heeled suburban communities. I bet a lot of folks also picture the taxi lineup outside any German train station, too.</p>
+<p>Well, at least I do. But I'm not talking about envisioning surly Munich cabbies but rather the faithful four-doors they putter around in. A lot of them are E Classes, which further proves that the cars have always been quintessential Mercedes luxury workhorses.</p>
+<p>The brand-new 2024 E 350 4Matic, with its thrifty turbo-four powerplant, might have the most direct lineage in the US market to those cream-colored rickety diesels. It's easy on fuel for its size and ready to soak up all the miles across both traffic-ridden cityscapes and high-speed stretches of highway. And with its expansive suite of tech and mild hybrid propulsion, it's an overall great next chapter for the badge.</p></div><p><a href="https://arstechnica.com/?p=2018186#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018186&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/04/the-2024-mercedes-e-350-4matic-is-the-thriftiest-luxury-workhorse/feed/</wfw:commentRss>
+			<slash:comments>79</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Author granted copyright over book with AI-generated text—with a twist</title>
+		<link>https://arstechnica.com/?p=2018156</link>
+					<comments>https://arstechnica.com/tech-policy/2024/04/author-granted-copyright-over-book-with-ai-generated-text-with-a-twist/#comments</comments>
+		
+		<dc:creator><![CDATA[WIRED]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 13:24:48 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[copyright]]></category>
+		<category><![CDATA[syndication]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2018156</guid>
+
+					<description><![CDATA[Copyright Office changed course after initially denying request.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2015/10/Copyright.1-640x677.jpg" alt="Author granted copyright over book with AI-generated text—with a twist">
+      <p class="caption" style="font-size:0.8em">(credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Last October, I received an email with a hell of an opening line: “I fired a nuke at the US Copyright Office this morning.”</p>
+<p>The message was from Elisa Shupe, a 60-year-old retired US Army veteran who had just filed a copyright registration for a novel she’d recently self-published. She’d used OpenAI's ChatGPT extensively while writing the book. Her application was an attempt to compel the US Copyright Office to overturn its policy on work made with AI, which generally requires would-be copyright holders to exclude machine-generated elements.</p>
+<p></p></div><p><a href="https://arstechnica.com/?p=2018156#p3">Read 26 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2018156&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/04/author-granted-copyright-over-book-with-ai-generated-text-with-a-twist/feed/</wfw:commentRss>
+			<slash:comments>102</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The hidden story behind one of SpaceX’s wettest and wildest launches</title>
+		<link>https://arstechnica.com/?p=2017439</link>
+					<comments>https://arstechnica.com/space/2024/04/the-hidden-story-behind-one-of-spacexs-wettest-and-wildest-launches/#comments</comments>
+		
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2024 12:30:23 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[crs-3 launch]]></category>
+		<category><![CDATA[falcon 9]]></category>
+		<category><![CDATA[huge plume of water]]></category>
+		<category><![CDATA[space]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2017439</guid>
+
+					<description><![CDATA["It looked like a giant smoke monster."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/16670240949_d4f1d066ce_k-800x533.jpg" alt="Is that sooty rocket lifting off with the CRS-3 mission in 2014 a reused booster? No, it is not.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/16670240949_d4f1d066ce_k.jpg" class="enlarge-link" data-height="1365" data-width="2048">Enlarge</a> <span class="sep">/</span> Is that sooty rocket lifting off with the CRS-3 mission in 2014 a reused booster? No, it is not. (credit: SpaceX)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Ten years ago today, when a Falcon 9 rocket took off from Florida, something strange happened. Dramatically, as the rocket lifted off, a fountain of dirty water splashed upward alongside the vehicle, coating the rocket in grime.</p>
+<p>Following the ultimately successful liftoff of this third cargo Dragon mission to the International Space Station, SpaceX founder Elon Musk was asked about the incident during a news conference. He offered a fairly generic answer without going into the details.</p>
+<p>"We sprayed a bunch of water all around the pad," <a href="https://youtu.be/8G2pRVQ1JhA?si=pWHvvNgZ4nislem8&amp;t=843">Musk said</a>. "Essentially what happened is we splashed dirty water on ourselves. So it’s a little embarrassing, but no harm done."</p></div><p><a href="https://arstechnica.com/?p=2017439#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2017439&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/04/the-hidden-story-behind-one-of-spacexs-wettest-and-wildest-launches/feed/</wfw:commentRss>
+			<slash:comments>51</slash:comments>
 		
 		
 			</item>
