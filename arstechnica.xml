@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Mon, 06 May 2024 22:16:32 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 May 2024 23:13:14 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,25 +21,24 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Hackers discover how to reprogram NES Tetris from within the game</title>
-		<link>https://arstechnica.com/?p=2022293</link>
-					<comments>https://arstechnica.com/gaming/2024/05/hackers-discover-how-to-reprogram-nes-tetris-from-within-the-game/#comments</comments>
+		<title>Prime Video subs will soon see ads for Amazon products when they hit pause</title>
+		<link>https://arstechnica.com/?p=2022688</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/prime-video-subs-will-soon-see-ads-for-amazon-products-when-they-hit-pause/#comments</comments>
 		
-		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
-		<pubDate>Mon, 06 May 2024 22:16:32 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[coding]]></category>
-		<category><![CDATA[hackers]]></category>
-		<category><![CDATA[high scores]]></category>
-		<category><![CDATA[reprogram]]></category>
-		<category><![CDATA[Tetris]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022293</guid>
+		<dc:creator><![CDATA[Scharon Harding]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 22:55:31 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ads]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[amazon prime video]]></category>
+		<category><![CDATA[streaming]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022688</guid>
 
-					<description><![CDATA[New method could help high-score chasers trying to avoid game-ending crashes.]]></description>
+					<description><![CDATA[Amazon is adding three types of shoppable ads to Prime Video's ad tier.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/tetris-crash-reprogram-800x450.jpg" alt="I can see the code that controls the Tetri-verse!">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/tetris-crash-reprogram.jpg" class="enlarge-link" data-height="1440" data-width="2561">Enlarge</a> <span class="sep">/</span> I can see the code that controls the Tetri-verse! (credit: Aurich Lawson)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/fallout-800x334.jpg" alt="A scene from the Prime Video original series &lt;em&gt;Fallout&lt;/em&gt;.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/fallout-scaled.jpg" class="enlarge-link" data-height="1070" data-width="2560">Enlarge</a> <span class="sep">/</span> A scene from the Prime Video original series <em>Fallout</em>. (credit: <a rel="nofollow" class="caption-link" href="https://www.youtube.com/watch?v=V-mugKDQDlg">Prime Video/YouTube</a>)</p>  </figure>
 
 
 
@@ -47,36 +46,191 @@
 
 
 <div><a name="page-1"></a></div>
-<p>Earlier this year, <a href="https://arstechnica.com/gaming/2024/01/someone-has-finally-beaten-nes-tetris/">we shared the story</a> of how a classic NES <em>Tetris</em> player hit the game's "kill screen" for the first time, activating a crash after an incredible 40-minute, 1,511-line performance. Now, some players are using that kill screen—and some complicated memory manipulation it enables—to code new behaviors into versions of <em>Tetris</em> running on unmodified hardware and cartridges.</p>
-<p>We've covered similar "arbitrary code execution" glitches in <a href="https://arstechnica.com/gaming/2014/01/how-an-emulator-fueled-robot-reprogrammed-super-mario-world-on-the-fly/">games like <em>Super Mario World</em></a>, <a href="https://arstechnica.com/gaming/2021/03/how-to-beat-paper-mario-really-fast-by-playing-ocarina-of-time/"><em>Paper Mario</em></a>, and <a href="https://arstechnica.com/gaming/2020/01/how-to-get-star-fox-64-ships-into-ocarina-of-time-no-hacking-required/"><em>The Legend of Zelda: Ocarina of Time</em></a> in the past. And the basic method for introducing outside code into NES <em>Tetris</em> has been <a href="https://www.patreon.com/posts/december-update-60288924?l=fr">publicly theorized since at least 2021</a> when players were investigating <a href="https://github.com/CelestialAmber/TetrisNESDisasm">the game's decompiled code</a> (HydrantDude, who has <a href="https://www.youtube.com/watch?v=BpEcjdr_YDo">gone deep on <em>Tetris</em> crashes in the past</a>, also <a href="https://www.youtube.com/watch?v=QOES2XTqT74&amp;lc=UgwkeKtM7UOPrkYcDnl4AaABAg">says</a> the community has long had a privately known method for how to take full control of <em>Tetris</em>' RAM).</p>
-<div class="video"><div class="wrapper"><iframe style="display:block" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/QOES2XTqT74?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe></div><p class="caption" style="font-size:0.8em">Displaced Gamers explains how to reprogram NES <em>Tetris</em> within the game. </p></div>
-<p>But <a href="https://www.youtube.com/watch?v=QOES2XTqT74">a recent video from Displaced Gamers</a> takes the idea from private theory to public execution, going into painstaking detail on how to get NES <em>Tetris</em> to start reading the game's high score tables as machine code instructions.</p></div><p><a href="https://arstechnica.com/?p=2022293#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022293&comments=1">Comments</a></p>]]></content:encoded>
+<p>Amazon Prime Video subscribers will see new types of advertisements this <a href="https://www.lawinsider.com/dictionary/broadcast-year#:~:text=More%20Definitions%20of%20Broadcast%20Year,September%20of%20the%20following%20year.">broadcast year</a>. Amazon announced today that it's adding new ad formats to its video streaming service, hoping to encourage people to interact with the ads and shop on Amazon.</p>
+<p>In January, <a href="https://arstechnica.com/gadgets/2023/09/amazon-jacks-up-price-of-ad-free-prime-video-by-2-99-starting-in-2024/">Prime Video streams included commercials</a> unless subscribers paid $3 extra per month. That has meant that watching stuff on Prime Video ad-free costs $12 per month or, if you're also a Prime subscriber, $18 per month.</p>
+<h2>New types of Prime Video ads</h2>
+<p>Amazon has heightened focus on streaming ads this year. Those who opted for Prime Video with commercials will soon see shoppable carousel ads, interactive pause ads, and interactive brand trivia ads, as Amazon calls them. Amazon said that advertisers could buy these new displays to be shown "across the vast majority of content on Prime Video, wherever it’s streamed." All the new ad formats allow a viewer to place advertised products in their Amazon cart.</p></div><p><a href="https://arstechnica.com/?p=2022688#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022688&comments=1">Comments</a></p>]]></content:encoded>
 					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/hackers-discover-how-to-reprogram-nes-tetris-from-within-the-game/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/prime-video-subs-will-soon-see-ads-for-amazon-products-when-they-hit-pause/feed/</wfw:commentRss>
+			<slash:comments>57</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Novel attack against virtually all VPN apps neuters their entire purpose</title>
-		<link>https://arstechnica.com/?p=2022250</link>
-					<comments>https://arstechnica.com/security/2024/05/novel-attack-against-virtually-all-vpn-apps-neuters-their-entire-purpose/#comments</comments>
+		<title>OpenAI’s flawed plan to flag deepfakes ahead of 2024 elections</title>
+		<link>https://arstechnica.com/?p=2022700</link>
+					<comments>https://arstechnica.com/tech-policy/2024/05/why-deepfake-detection-isnt-as-simple-as-openais-true-false-binary/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 22:19:08 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ai fake images]]></category>
+		<category><![CDATA[AI image generators]]></category>
+		<category><![CDATA[Ai video generator]]></category>
+		<category><![CDATA[ai voice scam]]></category>
+		<category><![CDATA[deepfake]]></category>
+		<category><![CDATA[deepfake scams]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[Intel]]></category>
+		<category><![CDATA[McAfee]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[video generators]]></category>
+		<category><![CDATA[voice generators]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022700</guid>
+
+					<description><![CDATA[OpenAI is recruiting researchers to test its new deepfake detector.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1335171779-800x500.jpg" alt="OpenAI’s flawed plan to flag deepfakes ahead of 2024 elections">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1335171779.jpg" class="enlarge-link" data-height="1369" data-width="2190">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/fake-or-real-royalty-free-image/1335171779?phrase=true%20false">Boris Zhitkov | Moment</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>As the US moves toward criminalizing deepfakes—deceptive AI-generated audio, images, and videos that are increasingly hard to discern from authentic content online—tech companies have rushed to roll out tools to help everyone better detect AI content.</p>
+<p>But efforts so far have been imperfect, and experts fear that social media platforms may not be ready to handle the ensuing AI chaos during major global elections in 2024—despite <a href="https://www.aielectionsaccord.com/uploads/2024/02/Press-Release-AI-Elections-Accord-16-Feb-2024.pdf">tech giants committing</a> to making tools specifically to combat AI-fueled election disinformation. The best AI detection remains observant humans, who, by paying close attention to deepfakes, can pick up on flaws like AI-generated people with extra fingers or AI voices that speak without pausing for a breath.</p>
+<p>Among the splashiest tools announced this week, OpenAI <a href="https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online">shared</a> details today about a new AI image detection classifier that it claims can detect about 98 percent of AI outputs from its own <a href="https://arstechnica.com/information-technology/2023/11/from-toy-to-tool-dall-e-3-is-a-wake-up-call-for-visual-artists-and-the-rest-of-us/">sophisticated image generator, DALL-E 3</a>. It also "currently flags approximately 5 to 10 percent of images generated by other AI models," OpenAI's blog said.</p></div><p><a href="https://arstechnica.com/?p=2022700#p3">Read 31 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022700&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/why-deepfake-detection-isnt-as-simple-as-openais-true-false-binary/feed/</wfw:commentRss>
+			<slash:comments>17</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Raspberry Pis get a built-in remote access tool: Raspberry Pi Connect</title>
+		<link>https://arstechnica.com/?p=2022695</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/raspberry-pis-get-a-built-in-remote-access-tool-raspberry-pi-connect/#comments</comments>
+		
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 21:30:21 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Raspberry Pi]]></category>
+		<category><![CDATA[raspberry pi connect]]></category>
+		<category><![CDATA[remote desktop]]></category>
+		<category><![CDATA[VNC]]></category>
+		<category><![CDATA[WebRTC]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022695</guid>
+
+					<description><![CDATA[Reach your little Pis from nearly any browser—and free up your RealVNC slots.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/pi_connect1-800x489.png" alt="Raspberry Pi Connect looks like a good reason to make a Pi account, at least if you're not running your own DynDNS, VPN, and other remote access schemes.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/pi_connect1.png" class="enlarge-link" data-height="734" data-width="1200">Enlarge</a> <span class="sep">/</span> Raspberry Pi Connect looks like a good reason to make a Pi account, at least if you're not running your own DynDNS, VPN, and other remote access schemes. (credit: Raspberry Pi)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>One Raspberry Pi often leads to another. Soon enough, you're running out of spots in your free RealVNC account for your tiny boards and "real" computers. Even if you go the hardened route of SSH or an X connection, you have to keep track of where they all are. All of this is not the easiest thing to tackle if you're new to single-board computers or just eager to get started.</p>
+<p>Enter <a href="https://www.raspberrypi.com/news/raspberry-pi-connect/">Raspberry Pi Connect</a>, a new built-in way to access a Rasbperry Pi from nearly anywhere you can open a browser, whether to control yourself or provide remote assistance. On a Raspberry Pi 4, 5, or Pi 400 kit, you install Pi connect with <a href="https://www.raspberrypi.com/documentation/services/connect.html">a single terminal line</a>, reboot the Pi, and then click a new tray icon to connect the Pi to <a href="https://id.raspberrypi.com/sign-up">a Raspberry Pi ID</a> (and then enable two-factor authentication, of course).</p>
+<p>From then on, visiting <a href="http://connect.raspberrypi.com">connect.raspberrypi.com</a> gives you an encrypted connection to your desktop. It's a direct connection if possible, and if not, it runs through relay servers in London, encrypting it with <a href="https://en.wikipedia.org/wiki/Datagram_Transport_Layer_Security">DTLS</a> and keeping only the metadata needed for the service to work. The Pi will show a notification in its tray that somebody has connected, and you can manage screen sharing from there. The Pi's docs site has <a href="https://www.raspberrypi.com/documentation/services/connect.html">a lot more on the particulars</a>.</p></div><p><a href="https://arstechnica.com/?p=2022695#p3">Read 1 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022695&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/raspberry-pis-get-a-built-in-remote-access-tool-raspberry-pi-connect/feed/</wfw:commentRss>
+			<slash:comments>17</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Amid two wrongful death lawsuits, Panera to pull the plug on “charged” drinks</title>
+		<link>https://arstechnica.com/?p=2022740</link>
+					<comments>https://arstechnica.com/science/2024/05/amid-two-wrongful-death-lawsuits-panera-to-pull-the-plug-on-charged-drinks/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 21:23:38 +0000</pubDate>
+				<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[caffeine]]></category>
+		<category><![CDATA[charged]]></category>
+		<category><![CDATA[deaths]]></category>
+		<category><![CDATA[fast food]]></category>
+		<category><![CDATA[lemonade]]></category>
+		<category><![CDATA[panera]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022740</guid>
+
+					<description><![CDATA[A large previously contained nearly as much caffeine as the FDA's daily safe limit. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/12/GettyImages-1483135421-800x600.jpeg" alt="Dispensers for Charged Lemondade, a caffeinated lemonade drink, at Panera Bread, Walnut Creek, California, March 27, 2023.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/12/GettyImages-1483135421-scaled.jpeg" class="enlarge-link" data-height="1920" data-width="2560">Enlarge</a> <span class="sep">/</span> Dispensers for Charged Lemondade, a caffeinated lemonade drink, at Panera Bread, Walnut Creek, California, March 27, 2023. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/dispensers-for-charged-lemondade-a-caffeinated-lemonade-news-photo/1483135421?adppopup=true">Getty | Smith Collection/Gado</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Panera Bread will stop selling its highly caffeinated "Charged" drinks, which have been the subject of at least three lawsuits and linked to <a href="https://arstechnica.com/health/2023/12/man-dies-on-way-home-from-panera-after-having-three-charged-lemonades/">at least two deaths</a>.</p>
+<p>It is unclear when exactly the company will pull the plug on the potent potables, but in a statement to Ars Tuesday, Panera said it was undergoing a "menu transformation" that includes an "enhanced beverage portfolio." The company plans to roll out various new drinks, including a lemonade and tea, but a spokesperson confirmed that the new flavors would not contain added caffeine as the "charged" drinks did.</p>
+<p>The fast-casual cafe-style chain <a href="https://www.today.com/food/restaurants/panera-charged-lemonade-caffeine-viral-tiktok-rcna62126">drew national attention in 2022</a> for the unexpectedly high caffeine levels in the drinks, which were initially offered as self-serve with free refills.</p></div><p><a href="https://arstechnica.com/?p=2022740#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022740&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/05/amid-two-wrongful-death-lawsuits-panera-to-pull-the-plug-on-charged-drinks/feed/</wfw:commentRss>
+			<slash:comments>68</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hands-on with the new iPad Pros and Airs: A surprisingly refreshing refresh</title>
+		<link>https://arstechnica.com/?p=2022530</link>
+					<comments>https://arstechnica.com/apple/2024/05/hands-on-with-the-new-ipad-pros-and-airs-a-surprisingly-refreshing-refresh/#comments</comments>
+		
+		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 20:06:54 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[iPad Air]]></category>
+		<category><![CDATA[ipad pro]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022530</guid>
+
+					<description><![CDATA[And the new Apple Pencil Pro does some cool things, too. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/IMG_1991-800x600.jpeg" alt="Apple's latest iPad Air, now in two sizes. The Magic Keyboard accessory is the same one that you use with older iPad Airs and Pros, though they can use the new Apple Pencil Pro.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/IMG_1991.jpeg" class="enlarge-link" data-height="1920" data-width="2560">Enlarge</a> <span class="sep">/</span> Apple's latest iPad Air, now in two sizes. The Magic Keyboard accessory is the same one that you use with older iPad Airs and Pros, though they can use the new Apple Pencil Pro. (credit: Andrew Cunningham)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Apple has a new lineup of iPad Pro and Air models for the first time in well over a year. Most people would probably be hard-pressed to tell the new ones from the old ones just by looking at them, but after hands-on sessions with both sizes of both tablets, the small details (especially for the Pros) all add up to a noticeably refined iPad experience.</p>
+<h2>iPad Airs: Bigger is better</h2>
+<p>But let's begin with the new Airs since there's a bit less to talk about. The 11-inch iPad Air (technically the sixth-generation model) is mostly the same as the previous-generation A14 and M1 models, design-wise, with identical physical dimensions and weight. It's still the same slim-bezel design Apple introduced with the 2018 iPad Pro, just with a 60 Hz LCD display panel and Touch ID on the power button rather than Face ID.</p>
+
+<p>So when Apple says the device has been "redesigned," the company is mainly referring to the fact that the webcam is now mounted on the long edge of the tablet rather than the short edge. This makes its positioning more laptop-y when it's docked to the Magic Keyboard or some other keyboard.</p></div><p><a href="https://arstechnica.com/?p=2022530#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022530&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/apple/2024/05/hands-on-with-the-new-ipad-pros-and-airs-a-surprisingly-refreshing-refresh/feed/</wfw:commentRss>
+			<slash:comments>75</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ransomware mastermind LockBitSupp reveled in his anonymity—now he’s been ID’d</title>
+		<link>https://arstechnica.com/?p=2022656</link>
+					<comments>https://arstechnica.com/security/2024/05/the-mastermind-of-the-prolific-ransomware-group-lockbit-has-finally-been-unmasked/#comments</comments>
 		
 		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
-		<pubDate>Mon, 06 May 2024 20:35:29 +0000</pubDate>
+		<pubDate>Tue, 07 May 2024 19:34:00 +0000</pubDate>
 				<category><![CDATA[Biz & IT]]></category>
 		<category><![CDATA[Security]]></category>
-		<category><![CDATA[encryption]]></category>
-		<category><![CDATA[IP addresses]]></category>
-		<category><![CDATA[virtual private networks]]></category>
-		<category><![CDATA[vpns]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022250</guid>
+		<category><![CDATA[lockbit]]></category>
+		<category><![CDATA[operation cronos]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022656</guid>
 
-					<description><![CDATA[TunnelVision vulnerability has existed since 2002 and may already be known to attackers.]]></description>
+					<description><![CDATA[The US places a $10 million bounty for the arrest of Dmitry Yuryevich Khoroshev.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/vpn-tunnel-800x625.jpg" alt="Novel attack against virtually all VPN apps neuters their entire purpose">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/vpn-tunnel.jpg" class="enlarge-link" data-height="781" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/lockbitsupp-800x800.png" alt="Dmitry Yuryevich Khoroshev, aka LockBitSupp">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/lockbitsupp.png" class="enlarge-link" data-height="1080" data-width="1080">Enlarge</a> <span class="sep">/</span> Dmitry Yuryevich Khoroshev, aka LockBitSupp (credit: UK National Crime Agency)</p>  </figure>
 
 
 
@@ -84,80 +238,41 @@
 
 
 <div><a name="page-1"></a></div>
-<p>Researchers have devised an attack against nearly all virtual private network applications that forces them to send and receive some or all traffic outside of the encrypted tunnel designed to protect it from snooping or tampering.</p>
-<p>TunnelVision, as the researchers have named their attack, largely negates the entire purpose and selling point of VPNs, which is to encapsulate incoming and outgoing Internet traffic in an encrypted tunnel and to cloak the user’s IP address. The researchers believe it affects all VPN applications when they’re connected to a hostile network and that there are no ways to prevent such attacks except when the user's VPN runs on Linux or Android. They also said their attack technique may have been possible since 2002 and may already have been discovered and used in the wild since then.</p>
-<h2>Reading, dropping, or modifying VPN traffic</h2>
-<p>The effect of TunnelVision is “the victim's traffic is now decloaked and being routed through the attacker directly,” a <a href="https://www.youtube.com/watch?v=ajsLmZia6UU">video demonstration</a> explained. “The attacker can read, drop or modify the leaked traffic and the victim maintains their connection to both the VPN and the Internet.”</p></div><p><a href="https://arstechnica.com/?p=2022250#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022250&comments=1">Comments</a></p>]]></content:encoded>
+<p>Since at least 2019, a shadowy figure hiding behind several pseudonyms has publicly gloated for extorting millions of dollars from thousands of victims he and his associates had hacked. Now, for the first time, “LockBitSupp” has been unmasked by an international law enforcement team, and a $10 million bounty has been placed for his arrest.</p>
+<p>In an <a href="https://www.justice.gov/opa/media/1350921/dl">indictment</a> unsealed Tuesday, US federal prosecutors unmasked the flamboyant persona as Dmitry Yuryevich Khoroshev, a 31-year-old Russian national. Prosecutors said that during his five years at the helm of LockBit—one of the most prolific ransomware groups—Khoroshev and his subordinates have extorted $500 million from some 2,500 victims, roughly 1,800 of which were located in the US. His cut of the revenue was allegedly about $100 million.</p>
+<h2>Damage in the billions of dollars</h2>
+<p>“Beyond ransom payments and demands, LockBit attacks also severely disrupted their victims' operations, causing lost revenue and expenses associated with incident response and recovery,” federal prosecutors wrote. “With these losses included, LockBit caused damage around the world totaling billions of US dollars. Moreover, the data Khoroshev and his LockBit affiliate co-conspirators stole—containing highly sensitive organizational and personal information—remained unsecure and compromised in perpetuity, notwithstanding Khoroshev’s and his co-conspirators' false promises to the contrary.”</p></div><p><a href="https://arstechnica.com/?p=2022656#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022656&comments=1">Comments</a></p>]]></content:encoded>
 					
-					<wfw:commentRss>https://arstechnica.com/security/2024/05/novel-attack-against-virtually-all-vpn-apps-neuters-their-entire-purpose/feed/</wfw:commentRss>
-			<slash:comments>97</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Google Fit APIs get shut down in 2025, might break fitness devices</title>
-		<link>https://arstechnica.com/?p=2022139</link>
-					<comments>https://arstechnica.com/gadgets/2024/05/google-fit-apis-get-shut-down-in-2025-might-break-fitness-devices/#comments</comments>
-		
-		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
-		<pubDate>Mon, 06 May 2024 20:01:34 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022139</guid>
-
-					<description><![CDATA[Scales, trackers, and other fitness devices that don't get updated will stop syncing]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/23-800x445.jpg" alt="Google Fit seems like it's on the way out.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/23.jpg" class="enlarge-link" data-height="669" data-width="1202">Enlarge</a> <span class="sep">/</span> Google Fit seems like it's on the way out. (credit: Ron Amadeo / Google)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Google is killing off the Google Fit APIs. The platform originally existed to sync health data from third-party fitness devices to your Google account, but now it's <a href="https://android-developers.googleblog.com/2024/05/evolving-health-on-android-migrating-from-google-fit-apis-to-android-health.html">being killed off</a>. Deprecation of the APIs happened on May 1, and Google has stopped accepting new sign-ups for the API. The official shutdown date is June 30, 2025.</p>
-<p>The Google Fit API was launched <a href="https://arstechnica.com/gadgets/2014/06/google-previews-google-fit-apis-for-sharing-fitness-logging-info/">in 2014</a>, just a few weeks after Apple announced <a href="https://arstechnica.com/gadgets/2014/06/apple-announces-ios-8-at-wwdc/">Healthkit</a> in iOS 8. The goal of both platforms is to be a central repository for health data from various apps and services. Instead of seeing steps in one app and weight in another, it could all be mushed together into a one-stop-shop for health metrics. Google had a lot of big-name partners at launch, like Nike+, Adidas, Withings, Asus, HTC, Intel, LG, and app makers like Runtastic and RunKeeper.</p>
-<p>Fast-forward to 2024, and we get the <a href="https://arstechnica.com/gadgets/2021/08/a-decade-and-a-half-of-instability-the-history-of-google-messaging-apps/">familiar story</a> of Google being unable to throw its weight behind a single solution. Today, Google has <em>three</em> competing fitness APIs. There is a "<a href="https://developer.android.com/health-and-fitness/guides/health-connect/migrate/comparison-guide">Comparison Guide</a>" on the Android Developer site detailing the differences between the "Health Connect" API, the "Fitbit Web API" and the "Google Fit REST API."</p></div><p><a href="https://arstechnica.com/?p=2022139#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022139&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/google-fit-apis-get-shut-down-in-2025-might-break-fitness-devices/feed/</wfw:commentRss>
+					<wfw:commentRss>https://arstechnica.com/security/2024/05/the-mastermind-of-the-prolific-ransomware-group-lockbit-has-finally-been-unmasked/feed/</wfw:commentRss>
 			<slash:comments>59</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>New Microsoft AI model may challenge GPT-4 and Google Gemini</title>
-		<link>https://arstechnica.com/?p=2022157</link>
-					<comments>https://arstechnica.com/information-technology/2024/05/microsoft-developing-mai-1-language-model-that-may-compete-with-openai-report/#comments</comments>
+		<title>Microsoft launches AI chatbot for spies</title>
+		<link>https://arstechnica.com/?p=2022611</link>
+					<comments>https://arstechnica.com/information-technology/2024/05/microsoft-launches-ai-chatbot-for-spies/#comments</comments>
 		
 		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
-		<pubDate>Mon, 06 May 2024 19:51:22 +0000</pubDate>
+		<pubDate>Tue, 07 May 2024 19:22:10 +0000</pubDate>
 				<category><![CDATA[AI]]></category>
 		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[AI model]]></category>
-		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Policy]]></category>
 		<category><![CDATA[ChatGPT]]></category>
 		<category><![CDATA[chatgtp]]></category>
-		<category><![CDATA[Claude 3]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[Google Gemini]]></category>
-		<category><![CDATA[GPT-4]]></category>
-		<category><![CDATA[Inflection]]></category>
-		<category><![CDATA[Inflection AI]]></category>
-		<category><![CDATA[large language models]]></category>
 		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[MAI-1]]></category>
 		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[Microsoft Copilot]]></category>
-		<category><![CDATA[Mustafa Suleyman]]></category>
 		<category><![CDATA[openai]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022157</guid>
+		<category><![CDATA[secret agents]]></category>
+		<category><![CDATA[spies]]></category>
+		<category><![CDATA[US government]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022611</guid>
 
-					<description><![CDATA[In project headed by former Inflection chief, MAI-1 may have 500B parameters.]]></description>
+					<description><![CDATA[Air-gapping GPT-4 model on secure network won't prevent it from potentially making things up.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Mustafa-Suleyman_GettyImages-1932097196-800x450.jpg" alt="Mustafa Suleyman, co-founder and chief executive officer of Inflection AI UK Ltd., during a town hall on day two of the World Economic Forum (WEF) in Davos, Switzerland, on Wednesday, Jan. 17, 2024.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Mustafa-Suleyman_GettyImages-1932097196.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> Mustafa Suleyman, co-founder and chief executive officer of Inflection AI UK Ltd., during a town hall on day two of the World Economic Forum (WEF) in Davos, Switzerland, on Wednesday, Jan. 17, 2024. Suleyman joined Microsoft in March. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/mustafa-suleyman-co-founder-and-chief-executive-officer-of-news-photo/1932097196">Getty Images</a>)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/secret_agent_computer_1-800x450.jpg" alt="A person using a computer with a computer screen reflected in their glasses.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/secret_agent_computer_1.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/cyber-attacks-royalty-free-image/874781132">Getty Images</a>)</p>  </figure>
 
 
 
@@ -165,77 +280,34 @@
 
 
 <div><a name="page-1"></a></div>
-<p>Microsoft is working on a new large-scale AI language model called MAI-1, which could potentially rival state-of-the-art models from Google, <a href="https://arstechnica.com/information-technology/2024/03/the-king-is-dead-claude-3-surpasses-gpt-4-on-chatbot-arena-for-the-first-time/">Anthropic</a>, and OpenAI, according to a report by <a href="https://www.theinformation.com/articles/meet-mai-1-microsoft-readies-new-ai-model-to-compete-with-google-openai">The Information</a>. This marks the first time Microsoft has developed an in-house AI model of this magnitude since investing <a href="https://arstechnica.com/information-technology/2023/01/openai-and-microsoft-reaffirm-shared-quest-for-powerful-ai-with-new-investment/">over $10 billion</a> in OpenAI for the rights to reuse the startup's AI models. OpenAI's GPT-4 powers not only <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a> but also Microsoft Copilot.</p>
+<p>Microsoft has introduced a GPT-4-based generative AI model designed specifically for US intelligence agencies that operates disconnected from the Internet, according to a <a href="https://www.bloomberg.com/news/articles/2024-05-07/microsoft-creates-top-secret-generative-ai-service-for-us-spies">Bloomberg report</a>. This reportedly marks the first time Microsoft has deployed a major language model in a secure setting, designed to allow spy agencies to analyze top-secret information without connectivity risks—and to allow secure conversations with a chatbot similar to <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a> and <a href="https://arstechnica.com/information-technology/2023/11/bing-chat-is-now-microsoft-copilot-in-potentially-confusing-rebranding-move/">Microsoft Copilot</a>. But it may also mislead officials if not used properly due to inherent design limitations of AI language models.</p>
 
-<p>The development of MAI-1 is being led by Mustafa Suleyman, the former Google AI leader who recently served as CEO of the AI startup Inflection before Microsoft <a href="https://arstechnica.com/ai/2024/03/deepmind-cofounder-mustafa-suleyman-will-run-microsofts-new-consumer-ai-unit/">acquired the majority of the startup's staff</a> and intellectual property for $650 million in March. Although MAI-1 may build on techniques brought over by former Inflection staff, it is reportedly an entirely new large language model (LLM), as confirmed by two Microsoft employees familiar with the project.</p>
-<p>With approximately 500 billion parameters, MAI-1 will be significantly larger than Microsoft's previous open source models (such as Phi-3, which <a href="https://arstechnica.com/information-technology/2024/04/microsofts-phi-3-shows-the-surprising-power-of-small-locally-run-ai-language-models/">we covered</a> last month), requiring more computing power and training data. This reportedly places MAI-1 in a similar league as OpenAI's GPT-4, which is <a href="https://the-decoder.com/gpt-4-architecture-datasets-costs-and-more-leaked/">rumored</a> to have over 1 trillion parameters (in a mixture-of-experts configuration) and well above smaller models like <a href="https://arstechnica.com/information-technology/2024/04/meta-releases-chatgpt-like-ai-site-and-open-weights-llama-3-model/">Meta</a> and Mistral's 70 billion parameter models.</p></div><p><a href="https://arstechnica.com/?p=2022157#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022157&comments=1">Comments</a></p>]]></content:encoded>
+<p><a href="https://arstechnica.com/information-technology/2023/11/openai-introduces-gpt-4-turbo-larger-memory-lower-cost-new-knowledge/">GPT-4</a> is a large language model (LLM) created by OpenAI that attempts to predict the most likely tokens (fragments of encoded data) in a sequence. It can be used to craft computer code and analyze information. When configured as a chatbot (like ChatGPT), GPT-4 can power AI assistants that converse in a human-like manner. Microsoft has a license to use the technology as part of a deal in exchange for <a href="https://arstechnica.com/information-technology/2023/01/openai-and-microsoft-reaffirm-shared-quest-for-powerful-ai-with-new-investment/">large investments</a> it has made in OpenAI.</p>
+<p>According to the report, the new AI service (which does not yet publicly have a name) addresses a growing interest among intelligence agencies to use generative AI for processing classified data, while mitigating risks of data breaches or hacking attempts. ChatGPT normally  runs on cloud servers provided by Microsoft, which can introduce data leak and interception risks. Along those lines, the CIA <a href="https://www.bloomberg.com/news/articles/2023-09-26/cia-builds-its-own-artificial-intelligence-tool-in-rivalry-with-china">announced</a> its plan to create a ChatGPT-like service last year, but this Microsoft effort is reportedly a separate project.</p></div><p><a href="https://arstechnica.com/?p=2022611#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022611&comments=1">Comments</a></p>]]></content:encoded>
 					
-					<wfw:commentRss>https://arstechnica.com/information-technology/2024/05/microsoft-developing-mai-1-language-model-that-may-compete-with-openai-report/feed/</wfw:commentRss>
-			<slash:comments>29</slash:comments>
+					<wfw:commentRss>https://arstechnica.com/information-technology/2024/05/microsoft-launches-ai-chatbot-for-spies/feed/</wfw:commentRss>
+			<slash:comments>38</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>SpaceX got the fanfare, but Boeing’s first crew flight is still historic</title>
-		<link>https://arstechnica.com/?p=2022123</link>
-					<comments>https://arstechnica.com/space/2024/05/spacex-got-the-fanfare-but-boeings-first-crew-flight-is-still-historic/#comments</comments>
-		
-		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
-		<pubDate>Mon, 06 May 2024 19:32:54 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[bob behnken]]></category>
-		<category><![CDATA[bob crippen]]></category>
-		<category><![CDATA[Boeing]]></category>
-		<category><![CDATA[commercial crew]]></category>
-		<category><![CDATA[crew dragon]]></category>
-		<category><![CDATA[Doug Hurley]]></category>
-		<category><![CDATA[human spaceflight]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[Space shuttle]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[starliner]]></category>
-		<category><![CDATA[sts-1]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022123</guid>
-
-					<description><![CDATA[Ars spoke with the three Americans alive who have test-flown a new spacecraft in orbit.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/53567594826_e21046f7be_k-800x533.jpg" alt="Astronauts Suni Williams (left) and Butch Wilmore (right) inside a Starliner simulator at NASA's Johnson Space Center in Houston.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/53567594826_e21046f7be_k.jpg" class="enlarge-link" data-height="1365" data-width="2048">Enlarge</a> <span class="sep">/</span> Astronauts Suni Williams (left) and Butch Wilmore (right) inside a Starliner simulator at NASA's Johnson Space Center in Houston. (credit: <a rel="nofollow" class="caption-link" href="https://www.flickr.com/photos/nasa2explore/53567594826/in/album-72177720301582949/">NASA/Robert Markowitz</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>If you want to know what it's like to take a new spacecraft on its first test run in orbit, there are only three people in the Western world you can call.</p>
-<p>That fact should drive home the rarity of debuting a new human-rated spaceship. When Boeing's Starliner capsule lifts off Monday night, this group of three will grow to five. Veteran NASA astronauts Butch Wilmore and Suni Williams, both former US Navy test pilots, will be at the controls of Starliner for the ride into low-Earth orbit atop a United Launch Alliance Atlas V rocket.</p>
-<p>"The first crewed flight of a new spacecraft is an absolutely critical milestone," said Jim Free, NASA's associate administrator. "The lives of our crew members, Suni Williams and Butch Wilmore, are at stake. We don’t take that lightly at all."</p></div><p><a href="https://arstechnica.com/?p=2022123#p3">Read 59 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022123&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/05/spacex-got-the-fanfare-but-boeings-first-crew-flight-is-still-historic/feed/</wfw:commentRss>
-			<slash:comments>48</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Telcos keep using “insecure” Chinese gear because of congressional inaction</title>
-		<link>https://arstechnica.com/?p=2022171</link>
-					<comments>https://arstechnica.com/tech-policy/2024/05/us-plan-to-purge-huawei-from-telecom-networks-stalled-by-funding-shortfall/#comments</comments>
+		<title>TikTok and its Chinese owner sue US government over “foreign adversary” law</title>
+		<link>https://arstechnica.com/?p=2022633</link>
+					<comments>https://arstechnica.com/tech-policy/2024/05/tiktok-and-its-chinese-owner-sue-us-government-over-foreign-adversary-law/#comments</comments>
 		
 		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
-		<pubDate>Mon, 06 May 2024 18:39:29 +0000</pubDate>
+		<pubDate>Tue, 07 May 2024 19:08:15 +0000</pubDate>
 				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Huawei]]></category>
-		<category><![CDATA[ZTE]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022171</guid>
+		<category><![CDATA[bytedance]]></category>
+		<category><![CDATA[tiktok]]></category>
+		<category><![CDATA[TikTok ban]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022633</guid>
 
-					<description><![CDATA[Congress only gave 38% of funds needed for "rip and replace," FCC chair says.]]></description>
+					<description><![CDATA[Law curtails "massive amounts of protected speech," TikTok and ByteDance allege.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/huawei-mwc-800x533.jpg" alt="A large Huawei sign hangs over a conference expo hall.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/huawei-mwc-scaled.jpg" class="enlarge-link" data-height="1706" data-width="2560">Enlarge</a> (credit: Getty Images | NurPhoto )</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/tiktok-800x502.jpg" alt="A TikTok app icon on a phone screen.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/tiktok.jpg" class="enlarge-link" data-height="1569" data-width="2500">Enlarge</a> (credit: Getty Images | Chesnot )</p>  </figure>
 
 
 
@@ -243,103 +315,426 @@
 
 
 <div><a name="page-1"></a></div>
-<p>The US government has pressured telcos to rip out network gear made by Chinese companies Huawei and ZTE but has allocated only about 38 percent of the money needed to replace equipment with non-Chinese hardware, the Federal Communications Commission said.</p>
-<p>FCC Chairwoman Jessica Rosenworcel <a href="https://www.fcc.gov/document/chairwoman-updates-congress-rip-and-replace-funding-shortfall-0">wrote to Congress</a> Thursday, urging lawmakers to fully fund the program. Congress allocated $1.9 billion for replacements of Chinese gear that must be removed as early as this month, but the needed reimbursements add up to nearly $5 billion, Rosenworcel wrote.</p>
-<p>"I am writing... to emphasize again the urgent need for full funding of the Reimbursement Program," she wrote. Rural mobile carriers could have to withdraw from the reimbursement program or even shut down networks if the funding shortfall isn't closed, the letter said.</p></div><p><a href="https://arstechnica.com/?p=2022171#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022171&comments=1">Comments</a></p>]]></content:encoded>
+<p>TikTok and its owner ByteDance today sued the federal government to block the "Foreign Adversary Controlled Applications" law that would prohibit TikTok in the US if the company isn't sold to a non-Chinese firm. The <a href="https://storage.courtlistener.com/recap/gov.uscourts.cadc.40861/gov.uscourts.cadc.40861.1208620273.1.pdf">complaint</a> in the US Court of Appeals for the District of Columbia Circuit alleges that the law is unconstitutional and asks for a court order prohibiting enforcement.</p>
+<p>TikTok and ByteDance say the law "would allow the government to decide that a company may no longer own and publish the innovative and unique speech platform it created. If Congress can do this, it can circumvent the First Amendment by invoking national security and ordering the publisher of any individual newspaper or website to sell to avoid being shut down."</p>
+<p>The law will "silenc[e] the 170 million Americans who use the platform to communicate in ways that cannot be replicated elsewhere," TikTok and ByteDance alleged.</p></div><p><a href="https://arstechnica.com/?p=2022633#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022633&comments=1">Comments</a></p>]]></content:encoded>
 					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/us-plan-to-purge-huawei-from-telecom-networks-stalled-by-funding-shortfall/feed/</wfw:commentRss>
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/tiktok-and-its-chinese-owner-sue-us-government-over-foreign-adversary-law/feed/</wfw:commentRss>
+			<slash:comments>142</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Do you need a dentist visit every 6 months? That filling? The data is weak</title>
+		<link>https://arstechnica.com/?p=2022607</link>
+					<comments>https://arstechnica.com/science/2024/05/do-you-need-a-dentist-visit-every-6-months-that-filling-the-data-is-weak/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 17:56:03 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022607</guid>
+
+					<description><![CDATA[Getting evidence-based care may be like pulling teeth, researchers suggest.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1661590766-800x542.jpeg" alt="Do you need a dentist visit every 6 months? That filling? The data is weak">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1661590766-scaled.jpeg" class="enlarge-link" data-height="1734" data-width="2560">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/september-2023-lower-saxony-hanover-a-pediatric-dentist-news-photo/1661590766?adppopup=true">Getty | Julian Stratenschulte</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The field of dentistry is lagging on adopting evidence-based care and, as such, is rife with overdiagnoses and overtreatments that may align more with the economic pressures of keeping a dental practice afloat than what care patients actually need. At least, that's according to a trio of health and dental researchers from Brazil and the United Kingdom, led by epidemiologist and dentist Paulo Nadanovsky, of the University of the State of Rio de Janeiro.</p>
+<p>In a <a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2818193">viewpoint published Monday in JAMA Internal Medicine</a>, the researchers point out that many common—nearly unquestioned—practices in dentistry aren't backed up by solid data. That includes the typical recommendation that everyone should get a dental check-up every six months. The researchers note that two large clinical trials failed to find a benefit of six-month check-ups compared with longer intervals that were up to two years.</p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8256238/">A 2020 Cochrane review</a> that assessed the two clinical trials concluded that "whether adults see their dentist for a check‐up every six months or at personalized intervals based on their dentist's assessment of their risk of dental disease does not affect tooth decay, gum disease, or quality of life. Longer intervals (up to 24 months) between check‐ups may not negatively affect these outcomes." The Cochrane reviewers reported that they were "confident" of little to no difference between six-month and risk-based check-ups and were "moderately confident" that going up to 24-month checkups would make little to no difference either.</p></div><p><a href="https://arstechnica.com/?p=2022607#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022607&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/05/do-you-need-a-dentist-visit-every-6-months-that-filling-the-data-is-weak/feed/</wfw:commentRss>
+			<slash:comments>154</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Boeing says workers skipped required tests on 787 but recorded work as completed</title>
+		<link>https://arstechnica.com/?p=2022583</link>
+					<comments>https://arstechnica.com/tech-policy/2024/05/boeing-says-workers-skipped-required-tests-on-787-but-recorded-work-as-completed/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 17:39:40 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Boeing]]></category>
+		<category><![CDATA[boeing 787 Dreamliner]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022583</guid>
+
+					<description><![CDATA[FAA: Boeing apparently didn't confirm bonding "where the wings join the fuselage."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/boeing-dreamliner-800x537.jpg" alt="An American Airlines Boeing 787-8 Dreamliner on a runway.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/boeing-dreamliner-scaled.jpg" class="enlarge-link" data-height="1719" data-width="2560">Enlarge</a> <span class="sep">/</span> An American Airlines Boeing 787-8 Dreamliner preparing to take off at Barcelona-El Prat Airport in Spain on May 1, 2024. (credit: Getty Images | NurPhoto )</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The Federal Aviation Administration is investigating whether Boeing failed to complete required inspections on 787 Dreamliner planes and whether Boeing employees falsified aircraft records, the agency said this week. The investigation was launched after an employee reported the problem to Boeing management, and Boeing informed the FAA.</p>
+<p>"The FAA has opened an investigation into Boeing after the company voluntarily informed us in April that it may not have completed required inspections to confirm adequate bonding and grounding where the wings join the fuselage on certain 787 Dreamliner airplanes," the FAA said in a statement provided to Ars today.</p>
+<p>The FAA said it "is investigating whether Boeing completed the inspections and whether company employees may have falsified aircraft records. At the same time, Boeing is reinspecting all 787 airplanes still within the production system and must also create a plan to address the in-service fleet." The agency added that it "will take any necessary action—as always—to ensure the safety of the flying public."</p></div><p><a href="https://arstechnica.com/?p=2022583#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022583&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/boeing-says-workers-skipped-required-tests-on-787-but-recorded-work-as-completed/feed/</wfw:commentRss>
+			<slash:comments>155</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Sneaking science into Borderlands: Inside the game inside a game</title>
+		<link>https://arstechnica.com/?p=2022489</link>
+					<comments>https://arstechnica.com/science/2024/05/gaming-for-science-borderlands-science-four-years-later/#comments</comments>
+		
+		<dc:creator><![CDATA[Ars Contributors]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 16:53:11 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Borderlands]]></category>
+		<category><![CDATA[citizen science]]></category>
+		<category><![CDATA[evolution]]></category>
+		<category><![CDATA[gaming]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022489</guid>
+
+					<description><![CDATA[A key to its success? Making a game that didn't look like it involved biology.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2020/04/Borderlands-Science_Gameplay-800x450.jpg" alt="Line up those colors and close those gaps... for science!">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2020/04/Borderlands-Science_Gameplay.bmp" class="enlarge-link" data-height="2160" data-width="3840">Enlarge</a> <span class="sep">/</span> Line up those colors and close those gaps... for science! </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>In 2020, <a href="https://arstechnica.com/gaming/2020/04/you-can-help-medical-science-just-by-playing-a-new-borderlands-mini-game/">a new minigame appeared</a> in the video game <em>Borderlands 3</em>, located in the resident scientist’s laboratory on the spaceship <em>Sanctuary III</em>.  Although the arcade game may seem like just another way to pass in-game time, the tile-matching puzzle game—<a href="https://borderlands.2k.com/news/borderlands-science/"><i>Borderlands Science</i></a>—has allowed millions of players to help map the human gut microbiome.</p>
+<p><em>Borderlands Science</em> is one of the first examples of a citizen science game being embedded in a mainstream video game; it translates players’ tile matching into sequence alignment of microbial DNA strands that encode ribosomal RNA. Ultimately, this can help deduce the genetic relationships between different gut microbes—crucial information for demystifying the complex web of interactions among diet, disease, and microbiome.</p>
+<p>Since launch, over 4 million gamers have played <em>Borderlands Science</em>, collectively solving over 100 million puzzles, making this one of the largest citizen science projects ever. Not only has the game generated huge player engagement, but the results have outperformed state-of-the-art computational methods, according to an analysis of the project published in <a href="https://www.nature.com/articles/s41587-024-02175-6%23">Nature Biotechnology</a>.</p></div><p><a href="https://arstechnica.com/?p=2022489#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022489&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/05/gaming-for-science-borderlands-science-four-years-later/feed/</wfw:commentRss>
+			<slash:comments>16</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Doc who claimed COVID shots cause magnetism gets medical license back</title>
+		<link>https://arstechnica.com/?p=2022563</link>
+					<comments>https://arstechnica.com/science/2024/05/anti-vaccine-doc-who-railed-about-magnetism-5g-gets-medical-license-back/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 16:24:58 +0000</pubDate>
+				<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[5]]></category>
+		<category><![CDATA[5G]]></category>
+		<category><![CDATA[anti-vaccine]]></category>
+		<category><![CDATA[COVID-19]]></category>
+		<category><![CDATA[magnetism]]></category>
+		<category><![CDATA[misinformation]]></category>
+		<category><![CDATA[Ohio]]></category>
+		<category><![CDATA[Sherri Tenpenny]]></category>
+		<category><![CDATA[vaccines]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022563</guid>
+
+					<description><![CDATA[She also claimed cities liquified dead bodies and poured them into the water supply.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/10/tenpenny-800x412.jpg" alt="Cleveland doctor Sherri Tenpenny gives false testimony on June 8, 2021, saying COVID-19 vaccines magnetize people. ">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/10/tenpenny.jpg" class="enlarge-link" data-height="1288" data-width="2498">Enlarge</a> <span class="sep">/</span> Cleveland doctor Sherri Tenpenny gives false testimony on June 8, 2021, saying COVID-19 vaccines magnetize people.  (credit: <a rel="nofollow" class="caption-link" href="https://ohiochannel.org/video/ohio-house-health-committee-6-8-2021">The Ohio Channel</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>An anti-vaccine doctor best known for <a href="https://arstechnica.com/health/2023/08/ohio-doc-who-said-vaccines-magnetized-people-loses-medical-license/">losing her medical license</a> after falsely claiming that COVID-19 vaccines cause people to become magnetic and "interface" with 5G towers, has had her medical license restored, according to local media reports.</p>
+<p>Sherri Tenpenny, an osteopathic doctor in the Cleveland area, beamed into the national spotlight in June 2021 while giving repelling testimony before state lawmakers about COVID-19 vaccine recipients. "I'm sure you've seen the pictures all over the Internet of people who have had these shots and now they're magnetized," Tenpenny said in her viral testimony. "You can put a key on their forehead—it sticks. You can put spoons and forks all over and they can stick because now we think there is a metal piece to that."</p>
+<p>Her testimony was in support of a bill that would largely ban vaccine mandates in Ohio. The bill never made it out of committee. But the state's medical board opened an investigation the next month. The board intended to ask Tenpenny a variety of questions, including about her statements "regarding COVID-19 vaccines causing people to become magnetized or creating an interface with 5G towers… and regarding some major metropolitan areas liquefying dead bodies and pouring them into the water supply," according to <a href="https://dam.assets.ohio.gov/image/upload/med.ohio.gov/formala/34003789.pdf">a board report.</a></p></div><p><a href="https://arstechnica.com/?p=2022563#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022563&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/05/anti-vaccine-doc-who-railed-about-magnetism-5g-gets-medical-license-back/feed/</wfw:commentRss>
+			<slash:comments>202</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NHTSA sends Tesla massive data request as it investigates Autopilot recall</title>
+		<link>https://arstechnica.com/?p=2022536</link>
+					<comments>https://arstechnica.com/cars/2024/05/nhtsa-wants-autopilot-answers-from-tesla-after-20-post-recall-crashes/#comments</comments>
+		
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 16:13:06 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[nhtsa]]></category>
+		<category><![CDATA[NHTSA recall]]></category>
+		<category><![CDATA[Tesla recall]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022536</guid>
+
+					<description><![CDATA[Tesla has until July 1 to comply with the data request about its Autopilot recall.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1853379358-800x533.jpg" alt="DECEMBER 13: A Tesla dealership is seen on December 13, 2023 in Austin, Texas. Tesla is recalling nearly all vehicles sold in the US after a near two-year investigation by the National Highway Traffic Safety Administration found a defect in the Autopilot system.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1853379358.jpg" class="enlarge-link" data-height="5504" data-width="8256">Enlarge</a> (credit: Brandon Bell/Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The federal government has given Tesla quite the homework assignment. The electric automaker has until July 1 to reply to a massive data request from the National Highway Traffic Safety Administration, <a href="https://arstechnica.com/cars/2024/04/feds-concerned-some-of-teslas-autopilot-recall-was-opt-in-reversible/">which is investigating</a> the efficacy of <a href="https://arstechnica.com/cars/2023/12/more-than-2-million-teslas-are-being-recalled-due-to-unsafe-autopilot/">Tesla's massive Autopilot recall</a>, following at least 20 crashes post-recall.</p>
+<p>Tesla decided to <a href="https://arstechnica.com/cars/2023/12/more-than-2-million-teslas-are-being-recalled-due-to-unsafe-autopilot/">recall more than 2 million cars</a> in the US—almost every vehicle it has ever sold here—in December 2023, following an engineering analysis by NHTSA that found the automaker's Autopilot driver assistance feature had inadequate driver monitoring and that Autopilot was too easily misused.</p>
+<p>Last month, <a href="https://arstechnica.com/cars/2024/04/feds-concerned-some-of-teslas-autopilot-recall-was-opt-in-reversible/">we discovered that NHTSA is not happy</a> with the Autopilot recall. Now, the agency has <a href="https://static.nhtsa.gov/odi/inv/2024/INIM-RQ24009-12199.pdf">made public the letter it sent Tesla this week</a>, demanding a whole lot of answers by July 1.</p></div><p><a href="https://arstechnica.com/?p=2022536#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022536&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/05/nhtsa-wants-autopilot-answers-from-tesla-after-20-post-recall-crashes/feed/</wfw:commentRss>
+			<slash:comments>145</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The $499 Google Pixel 8a is official, with 120 Hz display, 7 years of updates</title>
+		<link>https://arstechnica.com/?p=2022244</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/the-499-google-pixel-8a-is-official-with-120-hz-display-7-years-of-updates/#comments</comments>
+		
+		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 16:00:49 +0000</pubDate>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022244</guid>
+
+					<description><![CDATA[The new Pixel 8a looks like a mid-range champion. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+
+
+
+
+
+<div><a name="page-1"></a></div>
+  <ul class="gallery shortcode-gallery gallery-wide">
+          <li>
+        <div class="gallery-item-content">
+          <div class="gallery-image"><img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Pixel-8a_All-980x632.jpg" alt=""></div>
+          <p>
+            The Pixel 8a.                          [credit:
+                              Google                            ]
+                      </p>
+        </div>
+      </li>
+      </ul>
+
+<p>Today is a big event day for Apple, but that doesn't mean Google is going to fade into the background: It's announcing the Pixel 8a today. The big news is that the Pixel a series is still $499 despite some upgrades.</p>
+<p>What are those upgrades? How about a 120 Hz display on Google's mid-ranger for the first time? The 6.1-inch, 120 Hz, 2400×1080 display is closer to a flagship than ever, even if it is a smaller phone. You also get flagship-class support with Google's industry-leading seven years of OS updates, so the phone should be good until 2031, if you can hold out that long. Together, these two upgrades make the Pixel 8a an incredible value.</p>
+<p>Major news with last year's launch of the Pixel 7a was the older Pixel 6a, which got a big price drop down to $349 when the 7a came out. When asked about a potential Pixel 7a price drop, Google says it "will continue to sell the Pixel 7a" but also that it has "<span class=" "><span class="">no</span> <span class="active">news</span> to announce today on a pricing change."</span> It did feel like the Pixel 6a's price drop <a href="https://arstechnica.com/gadgets/2023/05/pixel-7a-review-more-of-googles-winning-formula/">stole some</a> of the 7a's thunder last year, so maybe Google is giving that announcement some breathing room. <span class=" ">For now, you'll have to think long and hard at checkout and decide between a</span> $499 Pixel 8a and a $499 Pixel 7a. The base model Pixel 8, at $699 with nearly the same specs, is also a tough sell in the face of the Pixel 8a.</p></div><p><a href="https://arstechnica.com/?p=2022244#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022244&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/the-499-google-pixel-8a-is-official-with-120-hz-display-7-years-of-updates/feed/</wfw:commentRss>
+			<slash:comments>108</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hands-on with the new John Wick pinball</title>
+		<link>https://arstechnica.com/?p=2022246</link>
+					<comments>https://arstechnica.com/gaming/2024/05/hands-on-with-the-new-john-wick-pinball/#comments</comments>
+		
+		<dc:creator><![CDATA[Aurich Lawson]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 16:00:12 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[pinball]]></category>
+		<category><![CDATA[Stern pinball]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022246</guid>
+
+					<description><![CDATA[Stern Pinball brings the legendary assassin to the world of mechanical gaming.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/JohnWick-Listing-800x450.jpg" alt="John? Is that you, John? John? Can't we discuss this like civilized men? ">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/JohnWick-Listing.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> <span class="sep">/</span> John? Is that you, John? John? Can't we discuss this like civilized men?  (credit: Stern Pinball)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>If you don’t follow the ins and outs of pinball, you might be surprised to find out there are more active companies making games in 2024 than ever before.</p>
+<p>Stern Pinball is the 800-pound gorilla of the industry. It has been around the longest, has the largest factory, sells the most games, and releases more titles per year than anyone else. For years, it was the sole remaining pinball company in the world.</p>
+<p>Now—despite the decline of arcades—pinball is seeing a second life. A passionate collector base dedicates entire game rooms in their homes to machines. Pinball and bars go together so well Stern has a whole video series on “<a href="https://sternpinball.com/brewcadehopping/">brewcade hopping</a>”. There are games in <a href="https://www.revengeof.com">comics shop</a>s. One of my more amazing local spots is in the <a href="https://ontiltpinball.com">back of a Korean BBQ</a>. All this interest has created a thriving pinball ecosystem of boutique makers, where success is often measured in sales of 1,000 machines or fewer. Other pinball companies might not compete with Stern directly by volume, but they do provide a level of competition for ideas that keeps the hobby strong.</p></div><p><a href="https://arstechnica.com/?p=2022246#p3">Read 23 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022246&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/hands-on-with-the-new-john-wick-pinball/feed/</wfw:commentRss>
+			<slash:comments>61</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Microsoft shuts down Bethesda’s Hi-Fi Rush, Redfall studios</title>
+		<link>https://arstechnica.com/?p=2022510</link>
+					<comments>https://arstechnica.com/gaming/2024/05/microsoft-shuts-down-bethesdas-hi-fi-rush-redfall-studios/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 15:28:24 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[arkane]]></category>
+		<category><![CDATA[bethesda]]></category>
+		<category><![CDATA[hi-fi rush]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[tango gameworks]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022510</guid>
+
+					<description><![CDATA[Xbox maker wants to "prioritiz[e] high-impact titles" according to letter to staff.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/hifirush-800x452.jpeg" alt="Artist's conception of Microsoft telling &lt;em&gt;Hi-Fi Rush&lt;/em&gt; maker Tango Gameworks they no longer exist as a studio.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/hifirush.jpeg" class="enlarge-link" data-height="1356" data-width="2400">Enlarge</a> <span class="sep">/</span> Artist's conception of Microsoft telling <em>Hi-Fi Rush</em> maker Tango Gameworks they no longer exist as a studio. (credit: Tango Gameworks)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Microsoft is shutting down four studios within its Bethesda Softworks subsidiary, according to a staff email <a href="https://www.ign.com/articles/microsoft-closes-redfall-developer-arkane-austin-hifi-rush-developer-tango-gameworks-and-more-in-devastating-cuts-at-bethesda">obtained by IGN</a>. The closures include <em>Redfall</em> developer Arkane Austin and <em>Hi-Fi Rush</em> studio Tango Gameworks. While some team members will be reassigned to other parts of the company, head of Xbox Game Studios Matt Booty said in a letter to staffers "that some of our colleagues will be leaving us."</p>
+<p>Tango Gameworks confirmed in <a href="https://twitter.com/TangoGameworks/status/1787837929332601189">a short social media message</a> that "<em>Hi-Fi Rush</em>, along with Tango's previous titles [like <em>The Evil Within</em>], will remain available and playable everywhere they are today." But the closure of Arkane Austin means that "development will not continue on <em>Redfall</em>," the company wrote <a href="https://twitter.com/ArkaneStudios/status/1787837804287860886">in its own social media update</a>. "Arkane Lyon will continue their focus on immersive experiences where they are hard at work on their upcoming project [<a href="https://www.marvel.com/games/marvels-blade">Marvel's <em>Blade</em></a>]."</p>
+<p>In his note to staff, Booty said that [<em>Redfall</em>] “will remain online for players to enjoy and we will provide make-good offers to players who purchased the Hero DLC.”</p></div><p><a href="https://arstechnica.com/?p=2022510#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022510&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/microsoft-shuts-down-bethesdas-hi-fi-rush-redfall-studios/feed/</wfw:commentRss>
+			<slash:comments>97</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>New “Apple Pencil Pro” can do a barrel roll</title>
+		<link>https://arstechnica.com/?p=2022371</link>
+					<comments>https://arstechnica.com/apple/2024/05/ipad-pros-get-new-magic-keyboard-apple-pencil-pro/#comments</comments>
+		
+		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 15:10:54 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022371</guid>
+
+					<description><![CDATA[New Magic Keyboard promises a Macbook-like experience, while the Pencil gets new tricks. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+
+
+
+
+
+<div><a name="page-1"></a></div>
+  <ul class="gallery shortcode-gallery gallery-wide">
+          <li>
+        <div class="gallery-item-content">
+          <div class="gallery-image"><img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Screenshot-2024-05-07-at-09.31.32-980x368.jpg" alt=""></div>
+          <p>
+            The Apple Pencil Pro                          [credit:
+                              Apple                            ]
+                      </p>
+        </div>
+      </li>
+      </ul>
+
+<p>With new iPads come new keyboards and pencils, and the big news today is the "Apple Pencil Pro," a souped-up version of Apple's iPad stylus. The Pencil Pro is $129 and works with the new iPad Pro and iPad Air.</p>
+<p>How much can you improve a stylus? How about rotation detection via a new gyroscope embedded in the pencil? Apple calls this a "<a href="https://www.youtube.com/watch?v=2ImLlEO90Do">barrel roll</a>," which provides rotation input in your iPad apps. If you're drawing and are using a brush that isn't symmetrical, a barrel roll will change the rotation of the brush. If you have a 3D item out in Procreate, a pencil rotation will rotate the 3D item. Devs can cook up whatever app interactions they can think of with this new feature.</p>
+<p>The Pencil is also squeezable now, which can bring up a context menu. It also has haptics embedded in it, so you'll get feedback whenever you squeeze or rotate an item. The Pencil magnetically clips on the side of the iPad for charging, but if you happen to lose it, it will also show up in the Find My app next to all your other Apple things.</p></div><p><a href="https://arstechnica.com/?p=2022371#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022371&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/apple/2024/05/ipad-pros-get-new-magic-keyboard-apple-pencil-pro/feed/</wfw:commentRss>
+			<slash:comments>66</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Apple kills $329 iPad with home button, Lightning port</title>
+		<link>https://arstechnica.com/?p=2022463</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/apple-drops-price-of-10th-gen-ipad-from-399-to-349/#comments</comments>
+		
+		<dc:creator><![CDATA[Scharon Harding]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 14:56:14 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[ipad]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022463</guid>
+
+					<description><![CDATA[No more home button.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/apple-ipad-800x401.jpg" alt="Apple kills $329 iPad with home button, Lightning port">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/apple-ipad-scaled.jpg" class="enlarge-link" data-height="1282" data-width="2560">Enlarge</a> </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Apple is lowering the price of its 10th-generation iPad from $399 to $349, the company announced at its <a href="https://arstechnica.com/gadgets/2024/05/what-to-expect-from-apples-may-7-let-loose-event/">Let Loose</a> event today.</p>
+<p>The <a href="https://arstechnica.com/gadgets/2022/10/2022-ipad-review-a-half-step-forward-for-apples-basic-tablet/">10th-generation iPad</a> did away with the top and bottom bezels that previous iPads carried. The 10.9-inch tablet also doesn't have a home button, showing Apple, under <a href="https://arstechnica.com/gadgets/2022/12/the-clock-is-rapidly-ticking-on-apples-lightning-charger/">pressure from European Union</a> regulations, moving from a Lightning port to USB-C. It debuted with a $449 starting price in 2022 with an A14 chip.</p>
+<p>However, Apple is also doing away with the $329 9th-generation iPad, effectively increasing the price of entry for an iPad.</p></div><p><a href="https://arstechnica.com/?p=2022463#p3">Read 1 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022463&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/apple-drops-price-of-10th-gen-ipad-from-399-to-349/feed/</wfw:commentRss>
+			<slash:comments>66</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Nintendo pre-announces a Switch 2 announcement is coming… eventually</title>
+		<link>https://arstechnica.com/?p=2022407</link>
+					<comments>https://arstechnica.com/gaming/2024/05/nintendo-pre-announces-a-switch-2-announcement-is-coming-eventually/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Tue, 07 May 2024 14:39:24 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[information]]></category>
+		<category><![CDATA[Nintendo]]></category>
+		<category><![CDATA[switch 2]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022407</guid>
+
+					<description><![CDATA[More info promised sometime before the end of March 2025.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2021/09/nintendo-wrapped-present-tag-800x450.jpg" alt="Nintendo will eventually gift us Switch 2 information, hopefully in time for Christmas.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2021/09/nintendo-wrapped-present-tag.jpg" class="enlarge-link" data-height="844" data-width="1500">Enlarge</a> <span class="sep">/</span> Nintendo will eventually gift us Switch 2 information, hopefully in time for Christmas. (credit: Aurich Lawson)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>While the past few months have included <a href="https://arstechnica.com/gaming/2024/04/controller-maker-says-switch-2-will-be-backward-compatible-with-all-switch-games/">plenty</a> of <a href="https://arstechnica.com/gaming/2024/04/report-switch-2-joy-cons-will-attach-via-magnets/">informed speculation</a> about the <a href="https://arstechnica.com/gaming/2024/01/analyst-switch-2-will-have-a-massive-8-inch-lcd-screen/">so-called</a> <a href="https://arstechnica.com/gaming/2023/11/what-do-we-know-about-the-switch-2s-hardware-power/">Switch 2</a>, Nintendo hasn't given even a bare hint that the system is in the works. That changed at least somewhat last night, as Nintendo President Shinto Furukawa <a href="https://twitter.com/NintendoCoLtd/status/1787736518762881197">shared on social media</a> that "we will make an announcement about the successor to Nintendo Switch within this fiscal year," which ends on March 31, 2025.</p>
+<p>In his pre-announcement announcement, Furukawa warned that an upcoming Nintendo Direct presentation planned for June would include "no mention of the Nintendo Switch successor," suggesting more information may be coming closer to the end of the fiscal year than the beginning.</p>
+<p>Furukawa notes that the eventual announcement will come over nine years after Nintendo <a href="https://arstechnica.com/gaming/2015/03/nintendo-partners-with-dena-to-develop-mobile-phone-games/">first alluded to the Switch's existence</a> with the March 2015 announcement of a console then called "Project NX." Nintendo didn't show that hardware publicly until 19 months later, with <a href="https://arstechnica.com/gaming/2016/10/nintendos-next-console-switch-is-a-consoletablet-hybrid/">a three-minute preview trailer that dropped in October 2016</a>. Hands-on press previews for the Switch came <a href="https://arstechnica.com/gaming/2017/01/hands-on-with-nintendo-switch-jack-of-all-trades-master-of-some/">three months after that</a>, and we then had to wait almost two more months for <a href="https://arstechnica.com/gaming/2017/03/nintendo-switch-review/">the console to finally hit store shelves</a> in March of 2017.</p></div><p><a href="https://arstechnica.com/?p=2022407#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022407&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/nintendo-pre-announces-a-switch-2-announcement-is-coming-eventually/feed/</wfw:commentRss>
 			<slash:comments>35</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>SEC crypto crackdown continues with Robinhood as lawsuit looms</title>
-		<link>https://arstechnica.com/?p=2022159</link>
-					<comments>https://arstechnica.com/tech-policy/2024/05/sec-crypto-crackdown-continues-with-robinhood-as-lawsuit-looms/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Mon, 06 May 2024 18:28:53 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[cryptocurrency exchange]]></category>
-		<category><![CDATA[Robinhood]]></category>
-		<category><![CDATA[Robinhood crypto]]></category>
-		<category><![CDATA[Robinhood Markets]]></category>
-		<category><![CDATA[SEC]]></category>
-		<category><![CDATA[Securities and Exchange Commission]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022159</guid>
-
-					<description><![CDATA[Robinhood accused SEC of creating a "world of confusion around crypto."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1246654944-800x534.jpg" alt="SEC crypto crackdown continues with Robinhood as lawsuit looms">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1246654944.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/robinhood-logo-displayed-on-a-phone-screen-and-news-photo/1246654944?adppopup=true">NurPhoto / Contributor | NurPhoto</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Continuing its crackdown on cryptocurrency exchanges, the Securities and Exchange Commission (SEC) may potentially sue Robinhood Markets over securities violations alleged in the popular investing app's crypto unit, Robinhood Crypto <a href="https://newsroom.aboutrobinhood.com/robinhood-response-to-receipt-of-wells-notice-from-the-u-s-securities-and-exchange-commission/">said</a> Monday.</p>
-<p>In a recent SEC <a href="https://www.sec.gov/ix?doc=/Archives/edgar/data/0001783879/000178387924000138/hood-20240504.htm">filing</a>, Robinhood Markets Chief Financial Officer Jason Warnick confirmed that Robinhood Crypto has received investigative subpoenas from the SEC regarding its "cryptocurrency listings, custody of cryptocurrencies, and platform operations."</p>
-<p>Despite Robinhood cooperating with these investigations, the SEC sent a "Wells Notice" on Monday, the filing said. The notice alerted Robinhood that SEC staff had made a "preliminary determination" recommending that the SEC "file an enforcement action" alleging that Robinhood Crypto had violated the Securities Exchange Act of 1934.</p></div><p><a href="https://arstechnica.com/?p=2022159#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022159&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/sec-crypto-crackdown-continues-with-robinhood-as-lawsuit-looms/feed/</wfw:commentRss>
-			<slash:comments>21</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Tesla announces fourth round of layoffs in four weeks</title>
-		<link>https://arstechnica.com/?p=2022175</link>
-					<comments>https://arstechnica.com/cars/2024/05/tesla-announces-fourth-round-of-layoffs-in-four-weeks/#comments</comments>
-		
-		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
-		<pubDate>Mon, 06 May 2024 18:07:28 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Tesla]]></category>
-		<category><![CDATA[Tesla layoffs]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022175</guid>
-
-					<description><![CDATA[The latest cuts affect engineers, HR, and service advisers. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1170611827-800x533.jpg" alt="GOTHENBURG, SWEDEN - 2019/09/14: An American automotive and energy company that specialises in electric car manufacturing Tesla logo seen in Gothenburg. (Photo by Karol Serewis/SOPA Images/LightRocket via Getty Images)">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1170611827-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> (credit: Karol Serewis/SOPA Images/LightRocket via Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>On Sunday night, even more Tesla workers learned they were no longer employed by the company as it engaged in yet another round of layoffs. Multiple former employees posted on <a href="https://www.linkedin.com/posts/jon-froines_streamline-activity-7193052699754483712-tFHe/">LinkedIn</a> and <a href="https://www.teamblind.com/post/Tesla-employees-in-Austin-got-impacted-few-minutes-back-please-do-check-your-emails-or-your-access-sorry-to-hear-guys-tjgJAZxC?utm_source=share&amp;utm_medium=normal&amp;from=share_link">other sites</a> to relay the news that they were no longer with the company.</p>
-<p>"Well, tonight I have learned that my nearly 8 year journey leading and designing Service products at Tesla has come to an end," <a href="https://www.linkedin.com/posts/shanedagostino_teslalayoffs-activity-7193050041668796417-yRNY/">wrote</a> one former employee.</p>
-<p>"For the past Month, most Tesla Employees have had the ritual of keeping a close eye on one's personal email on Sundays and to check it before heading into work on Monday, as layoffs have been increasing. I was spared last October when we had layoffs and also for the last 3 weeks of layoffs. However, I too received the dreaded 'Tesla Employment Update' email today," <a href="https://www.linkedin.com/posts/brandon-bosserman-b8b486256_well-friends-certainly-not-the-post-i-was-activity-7193050961618038784-qGlB/">wrote</a> another.</p></div><p><a href="https://arstechnica.com/?p=2022175#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022175&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/05/tesla-announces-fourth-round-of-layoffs-in-four-weeks/feed/</wfw:commentRss>
-			<slash:comments>286</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Pokémon Go players are altering public map data to catch rare Pokémon</title>
-		<link>https://arstechnica.com/?p=2022132</link>
-					<comments>https://arstechnica.com/gaming/2024/05/pokemon-go-players-are-altering-public-map-data-to-catch-rare-pokemon/#comments</comments>
+		<title>Apple announces M4 with more CPU cores and AI focus, just months after M3</title>
+		<link>https://arstechnica.com/?p=2022375</link>
+					<comments>https://arstechnica.com/apple/2024/05/apple-announces-m4-with-more-cpu-cores-and-ai-focus-just-months-after-m3/#comments</comments>
 		
 		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
-		<pubDate>Mon, 06 May 2024 15:54:06 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[pokemon go]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022132</guid>
+		<pubDate>Tue, 07 May 2024 14:33:47 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[apple m4]]></category>
+		<category><![CDATA[Apple silicon]]></category>
+		<category><![CDATA[m4]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022375</guid>
 
-					<description><![CDATA[OpenStreetMap contributors have been dealing with <em>Pokémon Go</em> players for years.]]></description>
+					<description><![CDATA[Aggressive update schedule is a major departure for Apple Silicon.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/wiglett-800x450.jpeg" alt="Rather than going to beaches to catch Wigletts, some &lt;em&gt;Pokémon Go&lt;/em&gt; players are trying to bring the beaches to themselves.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/wiglett.jpeg" class="enlarge-link" data-height="1080" data-width="1920">Enlarge</a> <span class="sep">/</span> Rather than going to beaches to catch Wigletts, some <em>Pokémon Go</em> players are trying to bring the beaches to themselves. (credit: Niantic)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Screenshot-2024-05-07-at-09.20.49-800x448.jpg" alt="Apple's M4 chip in the new iPad Pro. It follows the M3 by just a few months. ">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Screenshot-2024-05-07-at-09.20.49-scaled.jpg" class="enlarge-link" data-height="1434" data-width="2560">Enlarge</a> <span class="sep">/</span> Apple's M4 chip in the new iPad Pro. It follows the M3 by just a few months.  (credit: Apple)</p>  </figure>
 
 
 
@@ -347,410 +742,13 @@
 
 
 <div><a name="page-1"></a></div>
-<p>Ah, <em>Pokémon Go</em>. The hottest mobile game <a href="https://www.youtube.com/watch?v=jt6riM2aDLk&amp;t=28s">of 2016</a> remains a potent force to this day, pulling in <a href="https://www.statista.com/statistics/882474/pokemon-go-all-time-player-spending/">hundreds of millions of dollars a year</a> from <a href="https://activeplayer.io/pokemon-go/">tens of millions of</a> monthly active players.</p>
-<p>Part of what keeps the game fresh is a continuous trickle of new Pokémon. The game began with just the original 151 monsters back in 2016 and has gradually caught up to the current generation of Switch games in bits and pieces over the last eight years. The game is currently in the process of adding monsters from <em>Scarlet </em>and <em>Violet</em>, and that's where this story begins.</p>
-<p>Two of the latest additions to the <em>Pokémon Go</em> roster are Wiglett and Wugtrio, riffs on the designs of Diglett and Dugtrio, who live on beaches and look kind of like <a href="https://en.wikipedia.org/wiki/Heterocongrinae">garden eels</a>. <em>Pokémon Go</em> <a href="https://www.polygon.com/pokemon-go-guide/24140393/biomes-map-city-mountains-forest-beach-spawns">uses a biome system</a> that restricts certain Pokémon to certain types of real-world terrain, like forests, mountains, and beaches. As aquatic Pokémon, Wiglett and Wugtrio show up in the beach biome.</p></div><p><a href="https://arstechnica.com/?p=2022132#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022132&comments=1">Comments</a></p>]]></content:encoded>
+<p>In a major shake-up of its chip roadmap, Apple has announced a new M4 processor for <a href="https://arstechnica.com/gadgets/2024/05/new-ipad-pros-are-the-thinnest-apple-device-ever-feature-dual-oled-screens/">today’s iPad Pro refresh</a>, barely six months after releasing <a href="https://arstechnica.com/gadgets/2023/11/review-apples-16-inch-m3-max-macbook-pro-crams-ultra-level-speed-into-a-laptop/">the first MacBook Pros with the M3</a> and not even two months after updating the <a href="https://arstechnica.com/gadgets/2024/03/review-apples-efficient-m3-macbook-airs-are-just-about-as-good-as-laptops-get/">MacBook Air with the M3</a>.</p>
+<p>Apple says the M4 includes "up to" four high-performance CPU cores, six high-efficiency cores, and a 10-core GPU. Apple's high-level performance estimates say that the M4 has 50 percent faster CPU performance and four times as much graphics performance. Like the GPU in the M3, the M4 also supports hardware-accelerated ray-tracing to enable more advanced lighting effects in games and other apps. Due partly to its "second-generation" 3 nm manufacturing process, Apple says the M4 can match the performance of the M2 while using just half the power.</p>
+
+<p>As with so much else in the tech industry right now, the M4 also has an AI focus; Apple says it's beefing up the 16-core Neural Engine (Apple’s equivalent of the Neural Processing Unit that companies like Qualcomm, Intel, AMD, and Microsoft have been pushing lately). Apple says the M4 runs up to 38 trillion operations per second (TOPS), considerably ahead of Intel's Meteor Lake platform, though a bit short of the 45 TOPS that Qualcomm is promising with the Snapdragon X Elite and Plus series. The M3's Neural Engine is only capable of 18 TOPS, so that's a major step up for Apple's hardware.</p></div><p><a href="https://arstechnica.com/?p=2022375#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022375&comments=1">Comments</a></p>]]></content:encoded>
 					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/pokemon-go-players-are-altering-public-map-data-to-catch-rare-pokemon/feed/</wfw:commentRss>
-			<slash:comments>57</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Sony backs down, won’t enforce PSN accounts for Helldivers 2 PC players on Steam</title>
-		<link>https://arstechnica.com/?p=2022100</link>
-					<comments>https://arstechnica.com/gaming/2024/05/sony-backs-down-wont-enforce-psn-accounts-for-helldivers-2-pc-players-on-steam/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Mon, 06 May 2024 13:33:43 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[co-op shooters]]></category>
-		<category><![CDATA[helldivers 2]]></category>
-		<category><![CDATA[PlayStation Network]]></category>
-		<category><![CDATA[PSN]]></category>
-		<category><![CDATA[Sony]]></category>
-		<category><![CDATA[sony playstation network]]></category>
-		<category><![CDATA[squad shooters]]></category>
-		<category><![CDATA[Steam]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022100</guid>
-
-					<description><![CDATA[What will Sony do next for an audience that likes its games but not its network?]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/helldivers-2-screenshot-disclaimer-09-en-10jul23-800x450.jpeg" alt="Helldivers 2 player aiming a laser reticule into a massive explosion.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/helldivers-2-screenshot-disclaimer-09-en-10jul23.jpeg" class="enlarge-link" data-height="1350" data-width="2400">Enlarge</a> <span class="sep">/</span> Aiming a single rifle sight into an earth-moving explosion feels like some kind of metaphor for the <em>Helldivers 2</em> delayed PSN requirement saga. (credit: PlayStation/Arrowhead)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p><em>Helldivers 2 </em>PC players can continue doing their part for Super Earth, sans Sony logins.</p>
-<p>Sony's plan for its surprise hit co-op squad shooter—now the most successful launch in Sony's nascent PC catalog—<em><a href="https://go.skimresources.com/?id=100098X1555750&amp;isjs=1&amp;jv=15.5.0&amp;sref=https%3A%2F%2Farstechnica.com%2Fwp%2Fwp-admin%2Fpost-new.php&amp;url=https%3A%2F%2Fwww.playstation.com%2Fen-us%2Fgames%2Fhelldivers-2%2F&amp;xs=1&amp;xtz=240&amp;xuuid=0a34d96947c630bbc54c350e076b0b9e&amp;xjsf=other_click__contextmenu%20%5B2%5D">Helldivers 2</a>, </em>was to make its players sign in with PlayStation Network (PSN) accounts before it launched in early February, even if they purchased the game through the Steam store.</p>
-<p>Sony and developer Arrowhead didn't enforce PSN logins during its frenetic launch and then announced late last week that <a href="https://store.steampowered.com/news/app/553850/view/4196868529806518741?l=english">PSN accounts would soon be mandatory</a>. Many players <a href="https://arstechnica.com/gaming/2024/05/sony-will-soon-demand-helldivers-2-players-on-steam-have-psn-accounts/">did not like that at all</a>, seeing in it a sudden desire by Sony to capitalize on its unexpected smash hit. Some were not eager to engage with a network that had <a href="https://arstechnica.com/gaming/2015/01/sony-offers-digital-rewards-to-victims-of-2011-psn-hack/">a notable hack in its history</a>, others were concerned about countries where PSN was not offered, and many didn't take Sony at its word that this was about griefing, banning, and other moderation. Because of the uneven availability of Steam and PSN, <em>Helldivers 2</em> was <a href="https://news.google.com/articles/CBMiNWh0dHBzOi8vd3d3LnBjZ2FtZXNuLmNvbS9oZWxsZGl2ZXJzLTIvc3RlYW0tZGVsaXN0aW5n0gEA?hl=en-US&amp;gl=US&amp;ceid=US%3Aen">delisted in 177 countries on Steam</a> over the weekend as Steam worked through refund requests.</p></div><p><a href="https://arstechnica.com/?p=2022100#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022100&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/sony-backs-down-wont-enforce-psn-accounts-for-helldivers-2-pc-players-on-steam/feed/</wfw:commentRss>
-			<slash:comments>201</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Doctor Who’s sparkling new season feels like a fresh return to form</title>
-		<link>https://arstechnica.com/?p=2021749</link>
-					<comments>https://arstechnica.com/culture/2024/05/doctor-whos-sparkling-new-season-feels-like-a-fresh-return-to-form/#comments</comments>
-		
-		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
-		<pubDate>Mon, 06 May 2024 13:00:39 +0000</pubDate>
-				<category><![CDATA[Culture]]></category>
-		<category><![CDATA[BBC]]></category>
-		<category><![CDATA[disney plus]]></category>
-		<category><![CDATA[Doctor Who]]></category>
-		<category><![CDATA[entertainment]]></category>
-		<category><![CDATA[Ncuti Gatwa]]></category>
-		<category><![CDATA[streaming television]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2021749</guid>
-
-					<description><![CDATA[Russell T. Davies and stars Ncuti Gatwa and Millie Gibson weigh in on the new adventures.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/docwhoTOP-800x533.jpg" alt="black man and pretty blonde woman examining a strange contraption">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/docwhoTOP.jpg" class="enlarge-link" data-height="800" data-width="1200">Enlarge</a> <span class="sep">/</span> Ncuti Gatwa is the Fifteenth Doctor, and Millie Gibson is his new companion, Ruby Sunday, in new season of <em>Doctor Who</em>. (credit: Disney+)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>A new season of <em>Doctor Who</em> is almost upon us, featuring Ncuti Gatwa's first full run as the 15th Doctor, with a shiny new companion. It's also the first time <em>Doctor Who</em> will stream on Disney+, after the platform acquired the international broadcasting rights. That could translate into a whole new generation of fans for this beloved British sci-fi series.</p>
-<p><strong>(Spoilers for "The Power of the Doctor," "The Giggle," and "The Church on Ruby Road" below.)</strong></p>
-<p>Here's a brief summation for the benefit of those who may not have kept up with the more recent seasons. Russell T. Davies—who revived the series in 2005 with Christopher Eccleston as the Ninth Doctor—has returned as showrunner. Davies lost no time introducing a few new twists. When it came time for Jodie Whittaker's Thirteenth Doctor to regenerate, fans had expected Gatwa to be introduced. Instead, the new Fourteenth Doctor was played by former Tenth Doctor David Tennant, reuniting with former companion Donna Noble (Catherine Tate) for three specials.</p></div><p><a href="https://arstechnica.com/?p=2021749#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2021749&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/culture/2024/05/doctor-whos-sparkling-new-season-feels-like-a-fresh-return-to-form/feed/</wfw:commentRss>
-			<slash:comments>82</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>The surprise is not that Boeing lost commercial crew but that it finished at all</title>
-		<link>https://arstechnica.com/?p=2020256</link>
-					<comments>https://arstechnica.com/space/2024/05/the-surprise-is-not-that-boeing-lost-commercial-crew-but-that-it-finished-at-all/#comments</comments>
-		
-		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
-		<pubDate>Mon, 06 May 2024 11:00:46 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Boeing]]></category>
-		<category><![CDATA[starliner]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2020256</guid>
-
-					<description><![CDATA["The structural inefficiency was a huge deal."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/53659367267_bc270d779a_k-800x533.jpg" alt="Boeing's Starliner spacecraft is lifted to be placed atop an Atlas V rocket for its first crewed launch.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/53659367267_bc270d779a_k.jpg" class="enlarge-link" data-height="1365" data-width="2047">Enlarge</a> <span class="sep">/</span> Boeing's Starliner spacecraft is lifted to be placed atop an Atlas V rocket for its first crewed launch. (credit: United Launch Alliance)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>NASA's senior leaders in human spaceflight gathered for a momentous meeting at the agency's headquarters in Washington, DC, almost exactly 10 years ago.</p>
-<p>These were the people who, for decades, had developed and flown the Space Shuttle. They oversaw the construction of the International Space Station. Now, with the shuttle's retirement, these princely figures in the human spaceflight community were tasked with selecting a replacement vehicle to send astronauts to the orbiting laboratory.</p>
-<p>Boeing was the easy favorite. The majority of engineers and other participants in the meeting argued that Boeing alone should win a contract worth billions of dollars to develop a crew capsule. Only toward the end did a few voices speak up in favor of a second contender, SpaceX. At the meeting's conclusion, NASA's chief of human spaceflight at the time, William Gerstenmaier, decided to hold off on making a final decision.</p></div><p><a href="https://arstechnica.com/?p=2020256#p3">Read 47 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2020256&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/05/the-surprise-is-not-that-boeing-lost-commercial-crew-but-that-it-finished-at-all/feed/</wfw:commentRss>
-			<slash:comments>283</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Here are all the F1 cars designed by the legendary Adrian Newey</title>
-		<link>https://arstechnica.com/?p=2021839</link>
-					<comments>https://arstechnica.com/cars/2024/05/here-are-all-the-f1-cars-designed-by-the-legendary-adrian-newey/#comments</comments>
-		
-		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
-		<pubDate>Sun, 05 May 2024 11:00:39 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Adrian Newey]]></category>
-		<category><![CDATA[F1]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2021839</guid>
-
-					<description><![CDATA[No other F1 designer has penned more championship winning cars than Adrian Newey.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-102580743-800x533.jpg" alt="Red Bull Racing Chief Technical Officer, Adrian Newey prepares to drive the Red Bull Racing RB5 up the hill during day one of The Goodwood Festival of Speed at The Goodwood Estate on July 2, 2010 in Chichester, England.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-102580743-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> When you're a legendary F1 designer like Adrian Newey, it's easy to persuade the team to let you have a go in one of your own creations. (credit: Andrew Hone/Getty Images for Red Bull)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>In Formula 1, the car isn't quite <em>everything</em>, but ultimately, how well the team's designers did their job creating a racing car is a more important factor in a team's success on track than how good their drivers are. It's not that F1 drivers don't matter, but even the best driver on the grid will struggle to earn points if they're not in a competitive car.</p>
-<p>One designer has been responsible for creating competitive cars more than any other, penning 12 championship-winning cars in 32 years. His name is Adrian Newey, and this week, we discovered he's looking for a new job.</p>
-<p>As in other sports, F1's "silly season" is what they call that time period when contracts are up and people are switching to new teams; it's named as such because it's what happens when there's no real news to report but you need a story anyway.</p></div><p><a href="https://arstechnica.com/?p=2021839#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2021839&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/05/here-are-all-the-f1-cars-designed-by-the-legendary-adrian-newey/feed/</wfw:commentRss>
-			<slash:comments>69</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>The Boys S4 trailer brings us more bloody mayhem and “Homelander on Ice”</title>
-		<link>https://arstechnica.com/?p=2022018</link>
-					<comments>https://arstechnica.com/culture/2024/05/the-boys-s4-trailer-brings-us-more-bloody-mayhem-and-homelander-on-ice/#comments</comments>
-		
-		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
-		<pubDate>Sat, 04 May 2024 21:23:51 +0000</pubDate>
-				<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Uncategorized]]></category>
-		<category><![CDATA[entertainment]]></category>
-		<category><![CDATA[prime video]]></category>
-		<category><![CDATA[streaming television]]></category>
-		<category><![CDATA[The Boys]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022018</guid>
-
-					<description><![CDATA["You will no longer be beloved celebrities. You will be wrathful gods. Show me a little wrath."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<div class="video"><div class="wrapper"><iframe style="display:block" type="text/html" width="980" height="550" src="https://www.youtube.com/embed/EzFXDvC-EwM?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe></div><p class="caption" style="font-size:0.8em">The long-awaited fourth season of the Prime Video series, <em>The Boys,</em> premieres on June 13, 2024.  </p></div>
-<p>Last summer's Hollywood strikes delayed a number of releases, among them the fourth season of Prime Video's <a href="https://en.wikipedia.org/wiki/The_Boys_(TV_series)"><em>The Boys</em></a>. We're longtime fans of this incredibly violent, darkly funny anti-homage to superheroes and, thus, are thrilled to see there's finally an official trailer for S4. It's filled with the bloody mayhem we've come to expect from the show, as well as a tantalizing glimpse of the chief villain, Homelander (Antony Starr), performing in what appears to be an ice skating extravaganza.</p>
-<p><strong>(Spoilers for prior seasons below, especially S3.)</strong></p>
-<p>As I've <a href="https://arstechnica.com/gaming/2022/03/butcher-gets-his-own-super-powered-laser-eyes-in-the-boys-s3-red-band-teaser/">written previously</a>, the show is based on the comic book series of the same name by Garth Ennis and Darick Robertson. <em>The Boys</em> <a href="https://arstechnica.com/?p=1713317&amp;preview=true" data-uri="184dcd6eabe0758c6379c1bec9af1b76">is set</a> in a fictional universe where superheroes are real but are corrupted by corporate interests and a toxic celebrity-obsessed culture. The most elite superhero group is called the Seven, operated by the Vought Corporation, which created the supes with a substance called Compound V. The Seven is headed up by Homelander, a violent and unstable psychopath disguised as the All-American hero. Homelander's counterpart as the head of the titular "Boys" is Billy Butcher (Karl Urban), a self-appointed vigilante intent on checking the bad behavior of the Seven—especially Homelander, who brutally raped Butcher's wife, Becca (Shantel VanSanten), unknowingly fathering a son, Ryan, in the process.</p></div><p><a href="https://arstechnica.com/?p=2022018#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022018&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/culture/2024/05/the-boys-s4-trailer-brings-us-more-bloody-mayhem-and-homelander-on-ice/feed/</wfw:commentRss>
-			<slash:comments>72</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>It’s Star Wars Day, and we have a new trailer for The Acolyte to celebrate</title>
-		<link>https://arstechnica.com/?p=2022021</link>
-					<comments>https://arstechnica.com/culture/2024/05/its-star-wars-day-and-we-have-a-new-trailer-for-the-acolyte-to-celebrate/#comments</comments>
-		
-		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
-		<pubDate>Sat, 04 May 2024 19:45:51 +0000</pubDate>
-				<category><![CDATA[Culture]]></category>
-		<category><![CDATA[disney plus]]></category>
-		<category><![CDATA[entertainment]]></category>
-		<category><![CDATA[Lucasfilm]]></category>
-		<category><![CDATA[Star Wars]]></category>
-		<category><![CDATA[streaming television]]></category>
-		<category><![CDATA[The Acolyte]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022021</guid>
-
-					<description><![CDATA["The Jedi justify their galactic dominance in the name of peace. But that peace is a lie."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<div class="video"><div class="wrapper"><iframe style="display:block" type="text/html" width="980" height="550" src="https://www.youtube.com/embed/6tzur6JrUEA?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe></div><p class="caption" style="font-size:0.8em">"No one is safe from the truth" in new trailer for <em>The Acolyte</em>. </p></div>
-<p>It's Star Wars Day, and to mark the occasion, Disney+ has dropped a new trailer for <a href="https://en.wikipedia.org/wiki/The_Acolyte_(TV_series)"><em>Star Wars: The Acolyte</em></a>. As <a href="https://arstechnica.com/culture/2024/03/darkness-rises-in-an-age-of-light-in-first-trailer-for-star-wars-the-acolyte/">previously reported</a>, a long time ago, in a galaxy far, far away, the Galactic Republic and its Jedi masters symbolized the epitome of enlightenment and peace. Then came the inevitable downfall and outbreak of war as the Sith, who embraced the Dark Side of the Force, came to power. <a href="https://en.wikipedia.org/wiki/The_Acolyte_(TV_series)"><em>Star Wars: The Acolyte</em></a> will explore those final days of the Republic as the seeds of its destruction were sown.</p>
-<p>The eight-episode series was created by Leslye Headland. It's set at the end of the High Republic Era, about a century before the events of <em>The Phantom Menace</em>. Apparently, Headland rather cheekily pitched <em>The Acolyte</em> as "<em>Frozen</em> meets <em>Kill Bill</em>." She drew on <em>wuxia</em> martial arts films for inspiration, much like George Lucas was originally inspired by Westerns and the samurai films of Akira Kurosawa. Per the official premise:</p>
-<div>
-<blockquote><p>In <em>Star Wars: The Acolyte</em>, an investigation into a shocking crime spree pits a respected Jedi Master (Lee Jung-jae) against a dangerous warrior from his past (Amandla Stenberg). As more clues emerge, they travel down a dark path where sinister forces reveal all is not what it seems…<i></i></p></blockquote>
-<p>In addition to Lee (best known from<em> Squid Game</em>) and Stenberg (Rue in <em>The Hunger Games</em>), the cast includes Manny Jacinto (Jason on <em>The Good Place</em>) as a former smuggler named Qimir; Dafne Keen (<em>Logan</em>,<em> His Dark Materials</em>) as a young Jedi named Jecki Lon; Carrie-Ann Moss (Trinity in <em>The Matrix</em> trilogy) as a Jedi master named Indara; Jodie Turner-Smith (<em>After Yang</em>) as Mother Aniseya, who leads a coven of witches; Rebecca Henderson (<em>Russian Doll</em>) as a Jedi knight named Vernestra Rwoh; and Charlie Bennet (<em>Russian Doll</em>) as a Jedi named Yord Fandar.</p>
-<p>In addition, Abigail Thorn plays Ensign Eurus, while Joonas Suotamo plays a Wookiee Jedi master named Kelnacca. Suotamo portrayed Chewbacca in the sequel trilogy of films (Episodes VII-IX) and in <em>Solo: A Star Wars Story</em>. Also appearing in as-yet-undisclosed roles are Dean-Charles Chapman, Amy Tsang, and Margarita Levieva.</p>
-</div>
-<p>The first trailer dropped in March, in which we saw young padawans in training, Indara battling a mysterious masked figure, somebody out there killing Jedi, and a growing sense of darkness. This latest trailer reinforces those themes. The assassin, Mae (Stenberg), once trained with Master Sol (Lee), and he thinks he should be the one to bring her in—although Master Vernestra correctly suspects Mae's killings are a small part of a larger plan, i.e, the eventual return of the Sith.</p></div><p><a href="https://arstechnica.com/?p=2022021#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022021&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/culture/2024/05/its-star-wars-day-and-we-have-a-new-trailer-for-the-acolyte-to-celebrate/feed/</wfw:commentRss>
-			<slash:comments>72</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>These dangerous scammers don’t even bother to hide their crimes</title>
-		<link>https://arstechnica.com/?p=2022009</link>
-					<comments>https://arstechnica.com/security/2024/05/these-dangerous-scammers-dont-even-bother-to-hide-their-crimes/#comments</comments>
-		
-		<dc:creator><![CDATA[WIRED]]></dc:creator>
-		<pubDate>Sat, 04 May 2024 11:37:56 +0000</pubDate>
-				<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[syndication]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022009</guid>
-
-					<description><![CDATA[Cybercriminals openly run dozens of scams across social media and messaging apps. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1241008489-800x534.jpg" alt="One hundred dollar bill Benjamin Franklin portrait looks behind brown craft ripped paper">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1241008489-scaled.jpg" class="enlarge-link" data-height="1709" data-width="2560">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/one-hundred-dollar-bill-behind-brown-craft-ripped-royalty-free-image/1241008489">Kuzmik_A/Getty Images</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Most scammers and cybercriminals operate in the digital shadows and don’t want you to know how they make money. But that’s not the case for the <a href="https://www.wired.com/story/nigerian-email-scammers-more-effective-than-ever/">Yahoo Boys</a>, a loose collective of young men in West Africa who are some of the web’s most prolific—and increasingly dangerous—scammers.</p>
-<p>Thousands of people are members of dozens of Yahoo Boy groups operating across Facebook, WhatsApp, and Telegram, a WIRED analysis has found. The scammers, who deal in types of fraud that <a href="https://www.ic3.gov/media/pdf/annualreport/2023_ic3report.pdf" target="_blank" rel="noopener" data-offer-url="https://www.ic3.gov/media/pdf/annualreport/2023_ic3report.pdf" data-event-click='{"element":"ExternalLink","outgoingURL":"https://www.ic3.gov/media/pdf/annualreport/2023_ic3report.pdf"}'>total hundreds of millions of dollars</a> each year, also have dozens of accounts on TikTok, YouTube, and the document-sharing service Scribd that are getting thousands of views.</p>
-<p></p></div><p><a href="https://arstechnica.com/?p=2022009#p3">Read 23 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022009&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/security/2024/05/these-dangerous-scammers-dont-even-bother-to-hide-their-crimes/feed/</wfw:commentRss>
-			<slash:comments>87</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Glow of an exoplanet may be from starlight reflecting off liquid iron</title>
-		<link>https://arstechnica.com/?p=2021697</link>
-					<comments>https://arstechnica.com/science/2024/05/glow-of-an-exoplanet-may-be-from-starlight-reflecting-off-liquid-iron/#comments</comments>
-		
-		<dc:creator><![CDATA[Elizabeth Rayne]]></dc:creator>
-		<pubDate>Sat, 04 May 2024 11:00:42 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[astronomy]]></category>
-		<category><![CDATA[atmospheres]]></category>
-		<category><![CDATA[exoplanets]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2021697</guid>
-
-					<description><![CDATA[A phenomenon called a "glory" may be happening on a hellishly hot giant planet.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Artist_impression_of_glory_on_exoplanet_WASP-76b-800x431.jpg" alt="Image of a planet on a dark background, with an iridescent circle on the right side of the planet.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Artist_impression_of_glory_on_exoplanet_WASP-76b-scaled.jpg" class="enlarge-link" data-height="1379" data-width="2560">Enlarge</a> <span class="sep">/</span> Artist impression of a glory on exoplanet WASP-76b. (credit: <a rel="nofollow" class="caption-link" href="https://www.esa.int/ESA_Multimedia/Images/2024/04/Artist_impression_of_glory_on_exoplanet_WASP-76b">ESA</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Do rainbows exist on distant worlds? Many phenomena that happen on Earth—such as rain, hurricanes, and <a href="https://arstechnica.com/science/2022/08/new-webb-images-of-jupiter-show-dazzling-auroras-and-two-small-moons/">auroras</a>—also occur on other planets in our Solar System if the conditions are right. Now we have evidence from outside our Solar System that one particularly strange exoplanet might even be displaying something close to a rainbow.</p>
-<p>Appearing in the sky as a halo of colors, a phenomenon called a "glory" occurs when light hits clouds made up of a homogeneous substance in the form of spherical droplets. It might be the explanation for a mystery regarding observations of exoplanet <a href="https://arstechnica.com/science/2020/03/hot-gas-giant-planet-appears-to-have-iron-rain/">WASP-76B</a>. This planet, a scorching gas giant that experiences molten iron rain, has also been observed to have more light on its eastern terminator (a line used to separate the day side from the night side) than its western terminator. Why was there more light on one side of the planet?</p>
-<p>After observing it with the CHEOPS space telescope, then combining that with previous observations from Hubble, Spitzer, and TESS, a team of researchers from ESA and the University of Bern in Switzerland now think that the most likely reason for the extra light is a glory.</p></div><p><a href="https://arstechnica.com/?p=2021697#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2021697&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/05/glow-of-an-exoplanet-may-be-from-starlight-reflecting-off-liquid-iron/feed/</wfw:commentRss>
-			<slash:comments>57</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Microsoft plans to lock down Windows DNS like never before. Here’s how.</title>
-		<link>https://arstechnica.com/?p=2021987</link>
-					<comments>https://arstechnica.com/security/2024/05/microsoft-plans-to-lock-down-windows-dns-like-never-before-heres-how/#comments</comments>
-		
-		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
-		<pubDate>Fri, 03 May 2024 23:42:26 +0000</pubDate>
-				<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[domain name system]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[Windows]]></category>
-		<category><![CDATA[ztdns]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2021987</guid>
-
-					<description><![CDATA[ZTDNS brings the best of both worlds to DNS: encryption and fine-grained control.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/10/windows-malware-800x534.jpg" alt="Microsoft plans to lock down Windows DNS like never before. Here’s how.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/10/windows-malware.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> (credit: Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Translating human-readable domain names into numerical IP addresses has long been fraught with gaping security risks. After all, lookups are rarely end-to-end encrypted. The servers providing domain name lookups provide translations for virtually any IP address—even when they’re known to be malicious. And many end-user devices can easily be configured to stop using authorized lookup servers and instead use malicious ones.</p>
-<p>Microsoft on Friday provided a <a href="https://techcommunity.microsoft.com/t5/networking-blog/announcing-zero-trust-dns-private-preview/ba-p/4110366">peek</a> at a comprehensive framework that aims to sort out the Domain Name System (DNS) mess so that it’s better locked down inside Windows networks. It’s called ZTDNS (zero trust DNS). Its two main features are (1) encrypted and cryptographically authenticated connections between end-user clients and DNS servers and (2) the ability for administrators to tightly restrict the domains these servers will resolve.</p>
-<h2>Clearing the minefield</h2>
-<p>One of the reasons DNS has been such a security minefield is that these two features can be mutually exclusive. Adding cryptographic authentication and encryption to DNS often obscures the visibility admins need to prevent user devices from connecting to malicious domains or detect anomalous behavior inside a network. As a result, DNS traffic is either sent in clear text or it's encrypted in a way that allows admins to decrypt it in transit through what is essentially an <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">adversary-in-the-middle attack</a>.</p></div><p><a href="https://arstechnica.com/?p=2021987#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2021987&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/security/2024/05/microsoft-plans-to-lock-down-windows-dns-like-never-before-heres-how/feed/</wfw:commentRss>
-			<slash:comments>175</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Judge mulls sanctions over Google’s “shocking” destruction of internal chats</title>
-		<link>https://arstechnica.com/?p=2021979</link>
-					<comments>https://arstechnica.com/tech-policy/2024/05/judge-mulls-sanctions-over-googles-shocking-destruction-of-internal-chats/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Fri, 03 May 2024 23:17:57 +0000</pubDate>
-				<category><![CDATA[Google]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Antitrust law]]></category>
-		<category><![CDATA[department of justice]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[google monopoly trial]]></category>
-		<category><![CDATA[google search ads]]></category>
-		<category><![CDATA[search engines]]></category>
-		<category><![CDATA[us v google]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2021979</guid>
-
-					<description><![CDATA[Punishing Google for being the best would be “unprecedented,” lawyer argued.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1678321753-800x534.jpg" alt="Kenneth Dintzer, litigator for the US Department of Justice, exits federal court in Washington, DC, on September 20, 2023, during the antitrust trial to determine if Alphabet Inc.'s Google maintains a monopoly in the online search business.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1678321753.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> <span class="sep">/</span> Kenneth Dintzer, litigator for the US Department of Justice, exits federal court in Washington, DC, on September 20, 2023, during the antitrust trial to determine if Alphabet Inc.'s Google maintains a monopoly in the online search business. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/kenneth-dintzer-litigator-for-the-us-department-of-justice-news-photo/1678321753">Bloomberg / Contributor | Bloomberg</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Near the end of the second day of closing arguments in the Google monopoly trial, US district judge Amit Mehta weighed whether sanctions were warranted over what the US Department of Justice described as Google's "routine, regular, and normal destruction" of evidence.</p>
-<p>Google was accused of enacting a policy instructing employees to turn chat history off by default when discussing sensitive topics, including Google's revenue-sharing and mobile application distribution agreements. These agreements, the DOJ and state attorneys general argued, work to maintain Google's monopoly over search.</p>
-<p>According to the DOJ, Google <a href="https://arstechnica.com/tech-policy/2023/02/us-says-google-routinely-destroyed-evidence-and-lied-about-use-of-auto-delete/">destroyed potentially hundreds of thousands of chat sessions</a> not just during their investigation but also during litigation. Google only stopped the practice after the DOJ discovered the policy. DOJ's attorney Kenneth Dintzer told Mehta Friday that the DOJ believed the court should "conclude that communicating with history off shows anti-competitive intent to hide information because they knew they were violating antitrust law."</p></div><p><a href="https://arstechnica.com/?p=2021979#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2021979&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/judge-mulls-sanctions-over-googles-shocking-destruction-of-internal-chats/feed/</wfw:commentRss>
-			<slash:comments>141</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Sony demands PSN accounts for Helldivers 2 PC players, and it’s not going well</title>
-		<link>https://arstechnica.com/?p=2021773</link>
-					<comments>https://arstechnica.com/gaming/2024/05/sony-will-soon-demand-helldivers-2-players-on-steam-have-psn-accounts/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Fri, 03 May 2024 22:17:35 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[helldivers 2]]></category>
-		<category><![CDATA[PlayStation]]></category>
-		<category><![CDATA[PlayStation Network]]></category>
-		<category><![CDATA[psn hack]]></category>
-		<category><![CDATA[Sony]]></category>
-		<category><![CDATA[sony playstation]]></category>
-		<category><![CDATA[sony playstation network]]></category>
-		<category><![CDATA[Steam]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2021773</guid>
-
-					<description><![CDATA[A surprise hit, a network with brutal baggage, and the Steam profit paradox.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/helldivers4-800x450.jpg" alt="Helldivers 2 player posing in winter armor">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/helldivers4.jpg" class="enlarge-link" data-height="900" data-width="1600">Enlarge</a> <span class="sep">/</span> This gear is from the upcoming "Polar Patriots" Premium Warbond in <em>Helldivers 2</em>. It's an upcoming change the developer and publisher likely wish was getting more attention of late. (credit: Sony Interactive Entertainment)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>There's a lot of stories about the modern PC gaming industry balled up inside one recent "update" to <a href="https://www.playstation.com/en-us/games/helldivers-2/"><em>Helldivers 2</em></a>.</p>
-<p>Sony Interactive Entertainment <a href="https://store.steampowered.com/news/app/553850/view/4196868529806518741?l=english">announced Thursday night</a> that current players of the runaway hit co-op shooter will have to connect their Steam accounts to a PlayStation Network (PSN) account starting on May 30, with a hard deadline of June 4. New players will be required to connect the two starting Monday, May 6.</p>
-<p>Officially, this is happening because of the "safety and security provided on PlayStation and PlayStation Studios games." Account linking allows Sony to ban abusive players, and also gives banned players the right to appeal. Sony writes that it would have done this at launch, but "Due to technical issues … we allowed the linking requirements for Steam accounts to a PlayStation Network account to be temporarily optional. That grace period will now expire."</p></div><p><a href="https://arstechnica.com/?p=2021773#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2021773&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/sony-will-soon-demand-helldivers-2-players-on-steam-have-psn-accounts/feed/</wfw:commentRss>
-			<slash:comments>376</slash:comments>
+					<wfw:commentRss>https://arstechnica.com/apple/2024/05/apple-announces-m4-with-more-cpu-cores-and-ai-focus-just-months-after-m3/feed/</wfw:commentRss>
+			<slash:comments>98</slash:comments>
 		
 		
 			</item>
