@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Tue, 07 May 2024 23:13:14 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 May 2024 23:32:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,6 +21,481 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Logic Pro gets some serious AI—and a version bump—for Mac and iPad</title>
+		<link>https://arstechnica.com/?p=2023010</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/whats-coming-in-major-new-versions-of-logic-pro-for-mac-and-ipad/#comments</comments>
+		
+		<dc:creator><![CDATA[Nate Anderson]]></dc:creator>
+		<pubDate>Wed, 08 May 2024 23:22:22 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2023010</guid>
+
+					<description><![CDATA[Logic now goes to 11.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/chord-track-800x496.jpg" alt="The new Chord Track feature.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/chord-track.jpg" class="enlarge-link" data-height="1292" data-width="2082">Enlarge</a> <span class="sep">/</span> The new Chord Track feature. (credit: Apple)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>If you watched yesterday's <a href="https://www.apple.com/apple-events/">iPad-a-palooza event</a> from Apple, then you probably saw the segment about cool new features coming to the iPad version of Logic Pro, Apple's professional audio recording software. But what the event did not make clear was that all the same features are coming to the Mac version of Logic Pro—and both the Mac and iPad versions will get newly numbered. After many years, the Mac version of Logic Pro will upgrade from X (ten) to 11, while the much more recent iPad version increments to 2.</p>
+<p>Both versions will be released on May 13, and both are free upgrades for existing users. (Sort of—iPad users have to pay a subscription fee to access Logic Pro, but if you already pay, you'll get the upgrade. This led many people to speculate online that Apple would move the Mac version of Logic to a similar subscription model; thankfully, that is not the case. Yet.)</p>
+<p>Both versions will gain an identical set of new features, which were touched on briefly in Apple's event video. But thanks to a lengthy <a href="https://www.apple.com/newsroom/2024/05/logic-pro-takes-music-making-to-the-next-level-with-new-ai-features/">press release</a> that Apple posted after the event, along with updates to <a href="https://www.apple.com/logic-pro/">Apple's main Logic page</a>, we now have a better sense of what these features are, what systems they require, and just how much Apple has gone all-in on AI. Also, we get some pictures.</p></div><p><a href="https://arstechnica.com/?p=2023010#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2023010&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/whats-coming-in-major-new-versions-of-logic-pro-for-mac-and-ipad/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Critical vulnerabilities in BIG-IP appliances leave big networks open to intrusion</title>
+		<link>https://arstechnica.com/?p=2022973</link>
+					<comments>https://arstechnica.com/security/2024/05/critical-vulnerabilities-in-big-ip-appliances-leave-big-networks-open-to-intrusion/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Wed, 08 May 2024 21:35:08 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[big-ip]]></category>
+		<category><![CDATA[f5]]></category>
+		<category><![CDATA[network intrusion]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022973</guid>
+
+					<description><![CDATA[Hackers can exploit them to gain full administrative control of internal devices.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1-800x450.jpg" alt="Critical vulnerabilities in BIG-IP appliances leave big networks open to intrusion">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1.jpg" class="enlarge-link" data-height="563" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Researchers on Wednesday reported critical vulnerabilities in a widely used networking appliance that leaves some of the world’s biggest networks open to intrusion.</p>
+<p>The vulnerabilities reside in BIG-IP Next Central Manager, a component in the latest generation of the BIG-IP line of appliances, which organizations use to manage traffic going into and out of their networks. Seattle-based F5, which sells the product, <a href="https://www.f5.com/c/emea-2020/event/f5-myforum">says</a> its gear is used in 48 of the top 50 corporations as tracked by Fortune. F5 <a href="https://www.f5.com/products/big-ip-services/big-ip-next">describes</a> the Next Central Manager as a “single, centralized point of control” for managing entire fleets of BIG-IP appliances.</p>
+<p>As devices performing load balancing, DDoS mitigation, and inspection and encryption of data entering and exiting large networks, BIG-IP gear sits at their perimeter and acts as a major pipeline to some of the most security-critical resources housed inside. Those characteristics have made BIG-IP appliances ideal for hacking. In <a href="https://arstechnica.com/gadgets/2021/03/to-security-pros-dread-another-critical-server-vulnerability-is-under-exploit/">2021</a> and <a href="https://arstechnica.com/information-technology/2022/05/hackers-are-actively-exploiting-big-ip-vulnerability-with-a-9-8-severity-rating/">2022</a>, hackers actively compromised BIG-IP appliances by exploiting vulnerabilities carrying severity ratings of 9.8 out of 10.</p></div><p><a href="https://arstechnica.com/?p=2022973#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022973&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/05/critical-vulnerabilities-in-big-ip-appliances-leave-big-networks-open-to-intrusion/feed/</wfw:commentRss>
+			<slash:comments>12</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Dell responds to return-to-office resistance with VPN, badge tracking</title>
+		<link>https://arstechnica.com/?p=2022891</link>
+					<comments>https://arstechnica.com/information-technology/2024/05/dell-to-monitor-worker-vpn-use-badge-swipes-to-enforce-office-policy/#comments</comments>
+		
+		<dc:creator><![CDATA[Scharon Harding]]></dc:creator>
+		<pubDate>Wed, 08 May 2024 20:57:34 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[dell]]></category>
+		<category><![CDATA[return-to-office]]></category>
+		<category><![CDATA[work from home]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022891</guid>
+
+					<description><![CDATA[Report claims new tracking starts May 13 with unclear consequences. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1246865511-800x600.jpg" alt="Signage outside Dell Technologies headquarters in Round Rock, Texas, US, on Monday, Feb. 6, 2023.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1246865511.jpg" class="enlarge-link" data-height="768" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/signage-outside-dell-technologies-headquarters-in-round-news-photo/1246865511">Getty</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>After reversing its positioning on remote work, Dell is reportedly implementing new tracking techniques on May 13 to ensure its workers are following the company's return-to-office (RTO) policy, <a href="https://www.theregister.com/2024/05/08/dell_return_office/">The Register</a> reported today, citing anonymous sources.</p>
+<p>Dell has allowed people to work remotely for over 10 years. But in February, it issued an RTO mandate, and come May 13, most workers will be classified as either totally remote or hybrid. Starting this month, hybrid workers have to go into a Dell office at least 39 days per quarter. Fully remote workers, meanwhile, are <a href="https://arstechnica.com/information-technology/2024/03/dell-tells-remote-workers-that-they-wont-be-eligible-for-promotion/">ineligible for promotion</a>, <a href="https://www.businessinsider.com/dell-remote-workers-promotion-return-office-push-flexible-work-2024-3">Business Insider</a> reported in March.</p>
+<p>Now The Register reports that Dell will track employees' badge swipes and VPN connections to confirm that workers are in the office for a significant amount of time.</p></div><p><a href="https://arstechnica.com/?p=2022891#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022891&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/information-technology/2024/05/dell-to-monitor-worker-vpn-use-badge-swipes-to-enforce-office-policy/feed/</wfw:commentRss>
+			<slash:comments>136</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>40 years later, Kontrabant 2 for ZX Spectrum is rebroadcast on FM in Slovenia</title>
+		<link>https://arstechnica.com/?p=2022822</link>
+					<comments>https://arstechnica.com/gaming/2024/05/1984s-kontrabant-2-for-zx-spectrum-is-broadcast-on-fm-radio-in-slovenia-today/#comments</comments>
+		
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Wed, 08 May 2024 20:13:21 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[adventure games]]></category>
+		<category><![CDATA[cassette]]></category>
+		<category><![CDATA[cassette tapes]]></category>
+		<category><![CDATA[Text Adventures]]></category>
+		<category><![CDATA[text games]]></category>
+		<category><![CDATA[vintage computers]]></category>
+		<category><![CDATA[zx spectrum]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022822</guid>
+
+					<description><![CDATA[Celebrating radio waves, magnetic tape heads, and smuggled 8-bit computers.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/kontrabant2_cover-1-800x599.jpg" alt="Kontrabant 2 title image on ZX Spectrum">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/kontrabant2_cover-1.jpg" class="enlarge-link" data-height="820" data-width="1096">Enlarge</a> <span class="sep">/</span> In 1984, the year 2000 was so promising, students made entire games promising to take you there.  (credit: Radio Student)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Software is almost impossibly easy to download, distribute, and access compared to 40 years ago. Everything is bigger, faster, and more flexible, but there's a certain charm to the ways of diskettes and cassettes that is hard to recapture. That doesn't mean we can't try.</p>
+<p>By the time you read this, it's likely that <a href="https://worldofspectrum.org/software?id=0021603"><em>Kontrabant 2</em></a> will have already hit the airwaves on <a href="https://radiostudent.si/">Radio Študent</a> in Slovenia. At 9:30 pm Slovenia time (UTC+2 in Daylight Savings Time), if you are tuned to 89.3 FM, hitting record on a cassette tape will capture a buzzing sound that will run until just over 50KB have been transmitted. If all went well, you can load the tape into your working <a href="https://arstechnica.com/gaming/2021/09/rip-sir-clive-sinclair-creator-of-uks-famed-zx-spectrum-gaming-computer/">ZX Spectrum</a> or bring it to the Computer History Museum in Slovenia and use theirs to try it out.</p>
+<p></p></div><p><a href="https://arstechnica.com/?p=2022822#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022822&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/1984s-kontrabant-2-for-zx-spectrum-is-broadcast-on-fm-radio-in-slovenia-today/feed/</wfw:commentRss>
+			<slash:comments>26</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Robot dogs armed with AI-targeting rifles undergo US Marines Special Ops evaluation</title>
+		<link>https://arstechnica.com/?p=2022843</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/robot-dogs-armed-with-ai-targeting-rifles-undergo-us-marines-special-ops-evaluation/#comments</comments>
+		
+		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
+		<pubDate>Wed, 08 May 2024 19:59:38 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[autonomous weapons]]></category>
+		<category><![CDATA[Boston Robotics]]></category>
+		<category><![CDATA[Ghost Robotics]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Marines]]></category>
+		<category><![CDATA[MARSOC]]></category>
+		<category><![CDATA[Military]]></category>
+		<category><![CDATA[Onyx Industries]]></category>
+		<category><![CDATA[police]]></category>
+		<category><![CDATA[robots]]></category>
+		<category><![CDATA[US Marines]]></category>
+		<category><![CDATA[US Military]]></category>
+		<category><![CDATA[Weapons]]></category>
+		<category><![CDATA[weapons systems]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022843</guid>
+
+					<description><![CDATA[Quadrupeds being reviewed have automatic targeting systems but require human oversight to fire.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/robot_dog_with_gun_header-800x450.jpg" alt="A still image of a robotic quadruped armed with a remote weapons system, captured from a video provided by Onyx Industries.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/robot_dog_with_gun_header.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> A still image of a robotic quadruped armed with a remote weapons system, captured from a video provided by Onyx Industries. (credit: <a rel="nofollow" class="caption-link" href="https://www.linkedin.com/posts/onyxindustriesllc_remotelethality-defenseinnovation-unmannedsystems-activity-7191113204855398402-nV7P">Onyx Industries</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The United States Marine Forces Special Operations Command (<a href="https://www.marsoc.marines.mil/">MARSOC</a>) is currently evaluating a new generation of robotic "dogs" developed by <a href="https://www.ghostrobotics.io/">Ghost Robotics</a>, with the potential to be equipped with gun systems from defense tech company Onyx Industries, reports <a href="https://www.twz.com/sea/rifle-armed-robot-dogs-now-being-tested-by-marine-special-operators">The War Zone</a>.</p>
+
+<p>While MARSOC is testing Ghost Robotics' quadrupedal unmanned ground vehicles (called "<a href="https://www.ghostrobotics.io/vision-60">Q-UGVs</a>" for short) for various applications, including reconnaissance and surveillance, it's the possibility of arming them with weapons for remote engagement that may draw the most attention. But it's not unprecedented: The US Marine Corps has also tested <a href="https://www.twz.com/marines-test-fire-robot-dog-armed-with-rocket-launcher">robotic dogs armed with rocket launchers</a> in the past.</p>
+<p>MARSOC is currently in possession of two armed Q-UGVs undergoing testing, as confirmed by Onyx Industries staff, and their gun systems are based on Onyx's <a href="https://onyx-ind.com/otss/">SENTRY remote weapon system</a> (RWS), which features an AI-enabled digital imaging system and can automatically detect and track people, drones, or vehicles, reporting potential targets to a remote human operator that could be located anywhere in the world. The system maintains a human-in-the-loop control for fire decisions, and it cannot decide to fire autonomously.</p></div><p><a href="https://arstechnica.com/?p=2022843#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022843&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/robot-dogs-armed-with-ai-targeting-rifles-undergo-us-marines-special-ops-evaluation/feed/</wfw:commentRss>
+			<slash:comments>141</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>DeepMind adds a diffusion engine to latest protein-folding software</title>
+		<link>https://arstechnica.com/?p=2022871</link>
+					<comments>https://arstechnica.com/science/2024/05/deepmind-adds-a-diffusion-engine-to-latest-protein-folding-software/#comments</comments>
+		
+		<dc:creator><![CDATA[John Timmer]]></dc:creator>
+		<pubDate>Wed, 08 May 2024 19:45:12 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[biochemistry]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[deepmind]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[protein folding]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022871</guid>
+
+					<description><![CDATA[Major under-the-hood changes let AlphaFold handle protein-DNA complexes and more.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Screenshot-2024-05-08-at-2.54.53%E2%80%AFPM-800x377.png" alt="image of a complicated mix of lines and ribbons arranged in a complicated 3D structure.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Screenshot-2024-05-08-at-2.54.53%E2%80%AFPM.png" class="enlarge-link" data-height="548" data-width="1164">Enlarge</a> <span class="sep">/</span> Prediction of the structure of a coronavirus Spike protein from a virus that causes the common cold. (credit: Google DeepMind)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Most of the activities that go on inside cells—the activities that keep us living, breathing, thinking animals—are handled by proteins. They allow cells to communicate with each other, run a cell's basic metabolism, and help convert the information stored in DNA into even more proteins. And all of that depends on the ability of the protein's string of amino acids to fold up into a complicated yet specific three-dimensional shape that enables it to function.</p>
+<p>Up until this decade, understanding that 3D shape meant purifying the protein and subjecting it to a time- and labor-intensive process to determine its structure. But that changed with the work of DeepMind, one of Google's AI divisions, which <a href="https://arstechnica.com/science/2021/07/google-details-its-protein-folding-software-academics-offer-an-alternative/">released Alpha Fold in 2021</a>, and a <a href="https://arstechnica.com/science/2021/07/google-details-its-protein-folding-software-academics-offer-an-alternative/">similar academic effort</a> shortly afterward. The software wasn't perfect; it struggled with larger proteins and didn't offer high-confidence solutions for every protein. But many of its predictions turned out to be <a href="https://arstechnica.com/science/2023/09/googles-ai-software-brings-order-to-protein-chaos/">remarkably accurate</a>.</p>
+<p>Even so, these structures only told half of the story. To function, almost every protein has to interact with something else—other proteins, DNA, chemicals, membranes, and more. And, while the initial version of AlphaFold could handle some protein-protein interactions, the rest remained black boxes. Today, DeepMind is announcing the availability of version 3 of AlphaFold, which has seen parts of its underlying engine either heavily modified or replaced entirely. Thanks to these changes, the software now handles various additional protein interactions and modifications.</p></div><p><a href="https://arstechnica.com/?p=2022871#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022871&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/05/deepmind-adds-a-diffusion-engine-to-latest-protein-folding-software/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Intel’s and Qualcomm’s Huawei export licenses get revoked</title>
+		<link>https://arstechnica.com/?p=2022821</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/intels-and-qualcomms-huawei-export-licenses-get-revoked/#comments</comments>
+		
+		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
+		<pubDate>Wed, 08 May 2024 19:19:44 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[Qualcomm]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022821</guid>
+
+					<description><![CDATA[Huawei's phone division has moved on, but laptops will suffer without Intel. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/28-800x446.jpg" alt="Huawei's Intel-powered Matebook X Pro has drawn criticism from US China hawks. ">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/28.jpg" class="enlarge-link" data-height="912" data-width="1636">Enlarge</a> <span class="sep">/</span> Huawei's Intel-powered Matebook X Pro has drawn criticism from US China hawks.  (credit: Huawei)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The US crackdown on exports to Huawei now includes even stronger restrictions than the company has already faced. <a href="https://www.ft.com/content/cf965960-b083-49ee-bae1-6ce95fe872a3">The Financial Times</a> reports that Intel and Qualcomm have had their Huawei export licenses revoked, so Huawei will no longer be able to buy chips from either company.</p>
+<p>The export ban has been around since 2020 and means that any company wishing to ship parts to Huawei must get approval from the government on a case-by-case basis. Sometimes these come with restrictions, like <a href="https://www.reuters.com/article/qualcomm-huawei-tech/qualcomm-receives-u-s-permission-to-sell-4g-chips-to-huawei-in-exception-to-ban-idUSKBN27U0MW/">Qualcomm's license</a>, which allowed it to ship smartphone chips to Huawei, but not "5G" chips. That led to Qualcomm creating special <a href="https://arstechnica.com/gadgets/2021/07/huaweis-latest-flagship-phone-has-harmonyos-a-qualcomm-soc-and-no-5g/">4G-only versions</a> of its 5G chips for Huawei, and the company ended up with 4G-only Snapdragon 888 phones in 2021.</p>
+<p>Since then, Huawei has been working on its own Arm chips from its chip design division, HiSilicon. In April, the <a href="https://arstechnica.com/gadgets/2024/04/huawei-phone-has-a-pop-out-camera-lens-just-like-a-point-and-shoot-camera/">Huawei Pura 70</a> smartphone launched with an in-house HiSilicon Kirin 9010 SoC made at SMIC, a Chinese chip fab that is also facing export restrictions. With what is probably still a<a href="https://www.techinsights.com/blog/techinsights-finds-smic-7nm-n2-huawei-mate-60-pro"> 7 nm manufacturing process</a>, it's <a href="https://www.gsmarena.com/huawei_matepad_pro_13_2-review-2644p4.php#pt">more of a 2020 chip</a> than a 2024 chip, but that's still fast enough for many use cases.</p></div><p><a href="https://arstechnica.com/?p=2022821#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022821&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/intels-and-qualcomms-huawei-export-licenses-get-revoked/feed/</wfw:commentRss>
+			<slash:comments>90</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bike brands start to adopt C-V2X to warn cyclists about cars</title>
+		<link>https://arstechnica.com/?p=2022851</link>
+					<comments>https://arstechnica.com/cars/2024/05/the-vehicle-and-bicycle-safety-tech-that-can-see-through-walls/#comments</comments>
+		
+		<dc:creator><![CDATA[Ars Contributors]]></dc:creator>
+		<pubDate>Wed, 08 May 2024 18:59:22 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Audi]]></category>
+		<category><![CDATA[bicycling]]></category>
+		<category><![CDATA[C-V2X]]></category>
+		<category><![CDATA[cycling]]></category>
+		<category><![CDATA[road safety]]></category>
+		<category><![CDATA[V2X]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022851</guid>
+
+					<description><![CDATA[More automakers will need to adopt C-V2X to see a real benefit, though.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Medium-10346-RightTurnAssistAlert-800x533.jpg" alt="A cyclist rides near a blue Audi SUV. The image also shows a screenshot of the Audi dashboard, which has a large yellow icon warning the driver of a cyclist">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Medium-10346-RightTurnAssistAlert-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> A C-V2X bicycle can alert a C-V2X-enabled car to its presence—note the large yellow icon on the screenshot of the Audi's digital instrument display. (credit: Audi)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>There's a fundamental flaw in current car safety tech: It's limited to line of sight. Or, perhaps, line of "sensing" is more accurate, because the way cameras and lidar work is to inspect the perimeter of a vehicle and use predictive algorithms to understand the motion of an object in relation to the motion of the vehicle itself. Which is good, because as carmakers have added elements such as pedestrian and cyclist detection, they're trying to prevent drivers from hurting the most vulnerable road users. And unfortunately this is necessary, because even though 2023 saw a slight reduction in drivers striking cyclists and pedestrians, according to the most recent data from the <a href="https://www.ghsa.org/resources/news-releases/pedestrians-preliminary24">Governor's Highway Safety Association</a>, since 2019 pedestrian fatalities are still up 14 percent—and cyclist deaths are up 50 percent since 2010.</p>
+<p>That doesn't mean lidar and cameras have "failed," but because they rely on what the sensors can pick up, they cannot necessarily ID hazards (and alert drivers) as quickly as we need them to, particularly if that's a cyclist in your lane 300 feet down the road, just over the next rise. Yes, current sensing works well now with figuring out <a href="https://arstechnica.com/cars/2023/09/mercedes-benzs-level-3-autonomous-driving-system-takes-over-in-heavy-traffic/">the pace of a traffic jam</a>, and automatic emergency braking <a href="https://arstechnica.com/cars/2023/05/automatic-emergency-braking-should-become-mandatory-feds-say/">can step in to stop your car if you fail to</a>. But for non-automotive obstacles, they're still limited.</p>
+<p>For that, we need better tech, which is emerging and is called <a href="https://arstechnica.com/cars/2017/09/qualcomm-covers-all-the-bases-with-a-cellular-vehicle-to-everything-chipset/">Connected Vehicle to Everything</a> (C-V2X). The idea isn't that complicated. Boiled down, it's a chipset that operates on a portion of the cellular bandwidth, and vehicles with this tech embedded (say in an e-bike or car) monitor anything with a C-V2X chip as well as broadcast their own location at a pulse of 10 times a second. This precision location system would then warn a driver of a cyclist on the road ahead, even beyond line of sight, and in an emergency—possibly because a cyclist was right in a car's path—could prevent a collision.</p></div><p><a href="https://arstechnica.com/?p=2022851#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022851&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/05/the-vehicle-and-bicycle-safety-tech-that-can-see-through-walls/feed/</wfw:commentRss>
+			<slash:comments>114</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>M4 iPad Pro CPU cores and RAM amount are tied to storage capacity</title>
+		<link>https://arstechnica.com/?p=2022820</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/m4-ipad-pro-cpu-cores-and-ram-amount-are-tied-to-storage-capacity/#comments</comments>
+		
+		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
+		<pubDate>Wed, 08 May 2024 17:32:42 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[apple m4]]></category>
+		<category><![CDATA[Apple silicon]]></category>
+		<category><![CDATA[CPU]]></category>
+		<category><![CDATA[iPad Air]]></category>
+		<category><![CDATA[ipad pro]]></category>
+		<category><![CDATA[m4]]></category>
+		<category><![CDATA[RAM]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022820</guid>
+
+					<description><![CDATA[Apple has tied RAM to storage capacity in older iPads; it's a first for the CPU.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Apple-iPad-Pro-camera-close-up-240507-800x450.jpg" alt="The new M4 iPad Pro.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Apple-iPad-Pro-camera-close-up-240507.jpg" class="enlarge-link" data-height="1102" data-width="1960">Enlarge</a> <span class="sep">/</span> The new M4 iPad Pro. (credit: Apple)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>When Apple announced the <a href="https://arstechnica.com/apple/2024/05/apple-announces-m4-with-more-cpu-cores-and-ai-focus-just-months-after-m3/">Apple M4 chip</a> during its <a href="https://arstechnica.com/gadgets/2024/05/new-ipad-pros-are-the-thinnest-apple-device-ever-feature-dual-oled-screens/">iPad Pro event</a> yesterday, it mentioned that the chip came with "up to" four high-performance CPU cores.</p>
+<p>Those short, easily missable words always mean that there's a lower-end version of the chip coming that <em>doesn't </em>include that many CPU cores, and <a href="https://www.apple.com/ipad-pro/specs/">the tech specs page for the new iPad Pro</a> has the full details: iPad Pros with 256GB or 512GB of storage use a version of the M4 with three high-performance CPU cores and six smaller efficiency cores. Only the models with 1TB and 2TB of storage have an M4 with all four high-performance CPU cores enabled.</p>
+
+<p>The 256GB and 512GB models also ship with 8GB of RAM, where the 1TB and 2TB models come with 16GB of memory installed. Though these changes are clearly spelled out on the Tech Specs page, the actual configuration page for the iPad Pros in Apple's online store doesn't give any indication that upgrading storage also upgrades your CPU and RAM.</p></div><p><a href="https://arstechnica.com/?p=2022820#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022820&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/m4-ipad-pro-cpu-cores-and-ram-amount-are-tied-to-storage-capacity/feed/</wfw:commentRss>
+			<slash:comments>105</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>FCC explicitly prohibits fast lanes, closing possible net neutrality loophole</title>
+		<link>https://arstechnica.com/?p=2022823</link>
+					<comments>https://arstechnica.com/tech-policy/2024/05/fcc-explicitly-prohibits-fast-lanes-closing-possible-net-neutrality-loophole/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Wed, 08 May 2024 17:25:50 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Net Neutrality]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022823</guid>
+
+					<description><![CDATA[Putting applications into fast lanes would violate FCC's no-throttling rule.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/fast-lane-800x600.jpg" alt="Illustration of an Internet fast lane">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/fast-lane.jpg" class="enlarge-link" data-height="1875" data-width="2500">Enlarge</a> (credit: Getty Images | nadla)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The Federal Communications Commission clarified its net neutrality rules to prohibit more kinds of fast lanes.</p>
+<p>While the FCC <a href="https://arstechnica.com/tech-policy/2024/04/fcc-restores-net-neutrality-rules-that-ban-blocking-and-throttling-in-3-2-vote/">voted to restore net neutrality rules</a> on April 25, it didn't release the <a href="https://docs.fcc.gov/public/attachments/FCC-24-52A1.pdf">final text</a> of the order until yesterday. The final text has some changes compared to the draft version released a few weeks before the vote.</p>
+<p>Both the draft and final rules ban paid prioritization, or fast lanes that application providers have to pay Internet service providers for. But some net neutrality proponents <a href="https://arstechnica.com/tech-policy/2024/04/isps-can-charge-extra-for-fast-gaming-under-fccs-internet-rules-critics-say/">raised concerns</a> about the draft text because it would have let ISPs speed up certain types of applications as long as the application providers don't have to pay for special treatment.</p></div><p><a href="https://arstechnica.com/?p=2022823#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022823&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/fcc-explicitly-prohibits-fast-lanes-closing-possible-net-neutrality-loophole/feed/</wfw:commentRss>
+			<slash:comments>60</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tesla is under a federal wire fraud probe for misleading investors</title>
+		<link>https://arstechnica.com/?p=2022790</link>
+					<comments>https://arstechnica.com/cars/2024/05/teslas-self-driving-claims-subject-to-federal-securities-and-wire-fraud-probe/#comments</comments>
+		
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+		<pubDate>Wed, 08 May 2024 15:05:27 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[DoJ]]></category>
+		<category><![CDATA[SEC]]></category>
+		<category><![CDATA[Tesla]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022790</guid>
+
+					<description><![CDATA[Prosecutors are combing subpoenaed materials for evidence Tesla knowingly misled.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/10/tesla-autopilot-flying-800x449.jpg" alt="A Tesla Model X with Roger the inflatable autopilot (from the movie Airplane!) in the driver's seat">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/10/tesla-autopilot-flying.jpg" class="enlarge-link" data-height="1078" data-width="1920">Enlarge</a> (credit: Aurich Lawson | Tesla | Airplane!)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>There's more bad news for Tesla. On Monday, we learned that CEO Elon Musk is continuing to slash his way through the company payroll as Tesla went through <a href="https://arstechnica.com/cars/2024/05/tesla-announces-fourth-round-of-layoffs-in-four-weeks/">a fourth round of layoffs in four weeks.</a> Yesterday, we discovered <a href="https://arstechnica.com/cars/2024/05/nhtsa-wants-autopilot-answers-from-tesla-after-20-post-recall-crashes/">exactly what questions</a> the National Highway Traffic Safety Administration wants answered about the safety of Tesla's Autopilot driver assist. And today, it emerged that the US Department of Justice is investigating whether or not Tesla committed securities or wire fraud by making misleading statements about Autopilot and its so-called "Full Self-Driving" (FSD) option.</p>
+<p><a href="https://www.reuters.com/business/autos-transportation/tesla-autopilot-probe-us-prosecutors-focus-securities-wire-fraud-2024-05-08/">Reuters reported</a> that three people familiar with the matter told it about the investigation. One of the sources also told Reuters that the Securities and Exchange Commission is also investigating Tesla's claims about its driver assists.</p>
+<h2>Not the first time</h2>
+<p>This isn't the first time Tesla has been accused of securities fraud. In 2018, <a href="https://arstechnica.com/cars/2018/09/elon-musk-settles-fraud-charge-he-and-tesla-to-pay-40-million-in-penalties/">Musk agreed to a settlement</a> with the SEC over his infamous "funding secured" tweet that sent the company's share price skyrocketing despite the fact that there was never actually a possibility that he would take the company private. As a result, Musk was required to step down as chairman, and both Musk and Tesla were ordered to pay $20 million in penalties, to be distributed to <a href="https://arstechnica.com/cars/2018/08/tesla-is-already-facing-its-first-lawsuit-over-musks-buyout-tweets/">investors who lost money after being misled by Musk</a>.</p></div><p><a href="https://arstechnica.com/?p=2022790#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022790&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/05/teslas-self-driving-claims-subject-to-federal-securities-and-wire-fraud-probe/feed/</wfw:commentRss>
+			<slash:comments>229</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Court rules against Activision Blizzard in $23.4M patent dispute</title>
+		<link>https://arstechnica.com/?p=2022794</link>
+					<comments>https://arstechnica.com/gaming/2024/05/jury-finds-activision-blizzard-liable-in-23-4m-patent-infringement-case/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Wed, 08 May 2024 14:49:34 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Activision Blizzard]]></category>
+		<category><![CDATA[Boeing]]></category>
+		<category><![CDATA[Networking]]></category>
+		<category><![CDATA[patent]]></category>
+		<category><![CDATA[troll]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022794</guid>
+
+					<description><![CDATA[Activision plans appeal, says it uses different network tech in its games.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/wowcrowd-800x450.png" alt="Acceleration Bay says &lt;em&gt;World of Warcraft&lt;/em&gt;'s networking code infringes on a patent originally filed by Boeing.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/wowcrowd.png" class="enlarge-link" data-height="506" data-width="900">Enlarge</a> <span class="sep">/</span> Acceleration Bay says <em>World of Warcraft</em>'s networking code infringes on a patent originally filed by Boeing. (credit: Activision Blizzard)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>A jury has found Activision Blizzard liable for $23.4 million in damages in a patent infringement lawsuit first brought to court in 2015.</p>
+<p>The case centers on patents first filed by Boeing in 2000, one that describes a <a href="https://patents.google.com/patent/US6701344B1/en">"distributed game environment"</a> across a host and multiple computers and another that <a href="https://patents.google.com/patent/US6732147B1/en">describes a simple method for disconnecting from such a network</a>. Those patents were acquired in 2015 by Acceleration Bay, which accused Activision Blizzard of using infringing technology to develop <em>World of Warcraft</em> and at least two <em>Call of Duty</em> titles.</p>
+<p>Those accusations succeeded in court earlier this week, as a jury <a href="https://fingfx.thomsonreuters.com/gfx/legaldocs/movalxmnbpa/ACTIVISION%20PATENT%20TRIAL%20verdict.pdf">found</a> a "preponderance of evidence" that the patents were infringed. The decision came following <a href="https://www.kramerlevin.com/en/perspectives-search/kramer-levin-secures-dollar234m-patent-infringement-verdict-on-behalf-of-acceleration-bay.html">a one-week trial</a> in which Activision Blizzard argued that its networking technology works differently from what is described in the patents, as <a href="https://www.reuters.com/legal/litigation/activision-hit-with-234-mln-us-patent-verdict-multiplayer-gaming-case-2024-05-06/">reported by Reuters</a>.</p></div><p><a href="https://arstechnica.com/?p=2022794#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022794&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/jury-finds-activision-blizzard-liable-in-23-4m-patent-infringement-case/feed/</wfw:commentRss>
+			<slash:comments>67</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>No one has seen the data behind Tyson’s “climate friendly beef” claim</title>
+		<link>https://arstechnica.com/?p=2022789</link>
+					<comments>https://arstechnica.com/science/2024/05/no-one-has-seen-the-data-behind-tysons-climate-friendly-beef-claim/#comments</comments>
+		
+		<dc:creator><![CDATA[Inside Climate News]]></dc:creator>
+		<pubDate>Wed, 08 May 2024 14:33:04 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[beef]]></category>
+		<category><![CDATA[cattle]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[greenhouse gas]]></category>
+		<category><![CDATA[syndication]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2022789</guid>
+
+					<description><![CDATA[Millions of taxpayer dollars flow to livestock companies raising "low carbon" beef.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/feedlot-800x533.jpg" alt="feedlot">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/feedlot.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> <span class="sep">/</span> The Environmental Working Group published a new analysis on Wednesday outlining its efforts to push the USDA for more transparency, including asking for specific rationale in allowing brands to label beef as “climate friendly.” (credit: Carolyn Van Houten/Washington Post via Getty)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>About five miles south of Broken Bow, in the heart of central Nebraska, thousands of cattle stand in feedlots at Adams Land &amp; Cattle Co., a supplier of beef to the meat giant Tyson Foods.</p>
+<p>From the air, the feedlots look dusty brown and packed with cows—not a vision of happy animals grazing on open pastureland, enriching the soil with carbon. But when the animals are slaughtered, processed, and sent onward to consumers, labels on the final product can claim that they were raised in a “climate friendly” way.</p>
+<p>In late 2022, Tyson—one of the country’s “big four” meat packers—applied to the US Department of Agriculture (USDA), seeking a “climate friendly” label for its Brazen Beef brand. The production of Brazen Beef, the label claims, achieves a “10 percent greenhouse gas reduction.” Soon after, the USDA approved the label.</p></div><p><a href="https://arstechnica.com/?p=2022789#p3">Read 48 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022789&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/05/no-one-has-seen-the-data-behind-tysons-climate-friendly-beef-claim/feed/</wfw:commentRss>
+			<slash:comments>125</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Prime Video subs will soon see ads for Amazon products when they hit pause</title>
 		<link>https://arstechnica.com/?p=2022688</link>
 					<comments>https://arstechnica.com/gadgets/2024/05/prime-video-subs-will-soon-see-ads-for-amazon-products-when-they-hit-pause/#comments</comments>
@@ -52,7 +527,7 @@
 <p>Amazon has heightened focus on streaming ads this year. Those who opted for Prime Video with commercials will soon see shoppable carousel ads, interactive pause ads, and interactive brand trivia ads, as Amazon calls them. Amazon said that advertisers could buy these new displays to be shown "across the vast majority of content on Prime Video, wherever it’s streamed." All the new ad formats allow a viewer to place advertised products in their Amazon cart.</p></div><p><a href="https://arstechnica.com/?p=2022688#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022688&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/prime-video-subs-will-soon-see-ads-for-amazon-products-when-they-hit-pause/feed/</wfw:commentRss>
-			<slash:comments>57</slash:comments>
+			<slash:comments>229</slash:comments>
 		
 		
 			</item>
@@ -96,12 +571,12 @@
 <p>Among the splashiest tools announced this week, OpenAI <a href="https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online">shared</a> details today about a new AI image detection classifier that it claims can detect about 98 percent of AI outputs from its own <a href="https://arstechnica.com/information-technology/2023/11/from-toy-to-tool-dall-e-3-is-a-wake-up-call-for-visual-artists-and-the-rest-of-us/">sophisticated image generator, DALL-E 3</a>. It also "currently flags approximately 5 to 10 percent of images generated by other AI models," OpenAI's blog said.</p></div><p><a href="https://arstechnica.com/?p=2022700#p3">Read 31 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022700&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/why-deepfake-detection-isnt-as-simple-as-openais-true-false-binary/feed/</wfw:commentRss>
-			<slash:comments>17</slash:comments>
+			<slash:comments>70</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Raspberry Pis get a built-in remote access tool: Raspberry Pi Connect</title>
+		<title>Raspberry Pis get a built-in remote-access tool: Raspberry Pi Connect</title>
 		<link>https://arstechnica.com/?p=2022695</link>
 					<comments>https://arstechnica.com/gadgets/2024/05/raspberry-pis-get-a-built-in-remote-access-tool-raspberry-pi-connect/#comments</comments>
 		
@@ -118,8 +593,8 @@
 					<description><![CDATA[Reach your little Pis from nearly any browser—and free up your RealVNC slots.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/pi_connect1-800x489.png" alt="Raspberry Pi Connect looks like a good reason to make a Pi account, at least if you're not running your own DynDNS, VPN, and other remote access schemes.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/pi_connect1.png" class="enlarge-link" data-height="734" data-width="1200">Enlarge</a> <span class="sep">/</span> Raspberry Pi Connect looks like a good reason to make a Pi account, at least if you're not running your own DynDNS, VPN, and other remote access schemes. (credit: Raspberry Pi)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/pi_connect1-800x489.png" alt="Raspberry Pi Connect looks like a good reason to make a Pi account, at least if you're not running your own DynDNS, VPN, and other remote-access schemes.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/pi_connect1.png" class="enlarge-link" data-height="734" data-width="1200">Enlarge</a> <span class="sep">/</span> Raspberry Pi Connect looks like a good reason to make a Pi account, at least if you're not running your own DynDNS, VPN, and other remote-access schemes. (credit: Raspberry Pi)</p>  </figure>
 
 
 
@@ -128,11 +603,11 @@
 
 <div><a name="page-1"></a></div>
 <p>One Raspberry Pi often leads to another. Soon enough, you're running out of spots in your free RealVNC account for your tiny boards and "real" computers. Even if you go the hardened route of SSH or an X connection, you have to keep track of where they all are. All of this is not the easiest thing to tackle if you're new to single-board computers or just eager to get started.</p>
-<p>Enter <a href="https://www.raspberrypi.com/news/raspberry-pi-connect/">Raspberry Pi Connect</a>, a new built-in way to access a Rasbperry Pi from nearly anywhere you can open a browser, whether to control yourself or provide remote assistance. On a Raspberry Pi 4, 5, or Pi 400 kit, you install Pi connect with <a href="https://www.raspberrypi.com/documentation/services/connect.html">a single terminal line</a>, reboot the Pi, and then click a new tray icon to connect the Pi to <a href="https://id.raspberrypi.com/sign-up">a Raspberry Pi ID</a> (and then enable two-factor authentication, of course).</p>
+<p>Enter <a href="https://www.raspberrypi.com/news/raspberry-pi-connect/">Raspberry Pi Connect</a>, a new built-in way to access a Raspberry Pi from nearly anywhere you can open a browser, whether to control yourself or provide remote assistance. On a Raspberry Pi 4, 5, or Pi 400 kit, you install Pi connect with <a href="https://www.raspberrypi.com/documentation/services/connect.html">a single terminal line</a>, reboot the Pi, and then click a new tray icon to connect the Pi to <a href="https://id.raspberrypi.com/sign-up">a Raspberry Pi ID</a> (and then enable two-factor authentication, of course).</p>
 <p>From then on, visiting <a href="http://connect.raspberrypi.com">connect.raspberrypi.com</a> gives you an encrypted connection to your desktop. It's a direct connection if possible, and if not, it runs through relay servers in London, encrypting it with <a href="https://en.wikipedia.org/wiki/Datagram_Transport_Layer_Security">DTLS</a> and keeping only the metadata needed for the service to work. The Pi will show a notification in its tray that somebody has connected, and you can manage screen sharing from there. The Pi's docs site has <a href="https://www.raspberrypi.com/documentation/services/connect.html">a lot more on the particulars</a>.</p></div><p><a href="https://arstechnica.com/?p=2022695#p3">Read 1 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022695&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/raspberry-pis-get-a-built-in-remote-access-tool-raspberry-pi-connect/feed/</wfw:commentRss>
-			<slash:comments>17</slash:comments>
+			<slash:comments>57</slash:comments>
 		
 		
 			</item>
@@ -170,7 +645,7 @@
 <p>The fast-casual cafe-style chain <a href="https://www.today.com/food/restaurants/panera-charged-lemonade-caffeine-viral-tiktok-rcna62126">drew national attention in 2022</a> for the unexpectedly high caffeine levels in the drinks, which were initially offered as self-serve with free refills.</p></div><p><a href="https://arstechnica.com/?p=2022740#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022740&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/05/amid-two-wrongful-death-lawsuits-panera-to-pull-the-plug-on-charged-drinks/feed/</wfw:commentRss>
-			<slash:comments>68</slash:comments>
+			<slash:comments>153</slash:comments>
 		
 		
 			</item>
@@ -208,7 +683,7 @@
 <p>So when Apple says the device has been "redesigned," the company is mainly referring to the fact that the webcam is now mounted on the long edge of the tablet rather than the short edge. This makes its positioning more laptop-y when it's docked to the Magic Keyboard or some other keyboard.</p></div><p><a href="https://arstechnica.com/?p=2022530#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022530&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/apple/2024/05/hands-on-with-the-new-ipad-pros-and-airs-a-surprisingly-refreshing-refresh/feed/</wfw:commentRss>
-			<slash:comments>75</slash:comments>
+			<slash:comments>207</slash:comments>
 		
 		
 			</item>
@@ -244,7 +719,7 @@
 <p>“Beyond ransom payments and demands, LockBit attacks also severely disrupted their victims' operations, causing lost revenue and expenses associated with incident response and recovery,” federal prosecutors wrote. “With these losses included, LockBit caused damage around the world totaling billions of US dollars. Moreover, the data Khoroshev and his LockBit affiliate co-conspirators stole—containing highly sensitive organizational and personal information—remained unsecure and compromised in perpetuity, notwithstanding Khoroshev’s and his co-conspirators' false promises to the contrary.”</p></div><p><a href="https://arstechnica.com/?p=2022656#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022656&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/security/2024/05/the-mastermind-of-the-prolific-ransomware-group-lockbit-has-finally-been-unmasked/feed/</wfw:commentRss>
-			<slash:comments>59</slash:comments>
+			<slash:comments>104</slash:comments>
 		
 		
 			</item>
@@ -286,469 +761,7 @@
 <p>According to the report, the new AI service (which does not yet publicly have a name) addresses a growing interest among intelligence agencies to use generative AI for processing classified data, while mitigating risks of data breaches or hacking attempts. ChatGPT normally  runs on cloud servers provided by Microsoft, which can introduce data leak and interception risks. Along those lines, the CIA <a href="https://www.bloomberg.com/news/articles/2023-09-26/cia-builds-its-own-artificial-intelligence-tool-in-rivalry-with-china">announced</a> its plan to create a ChatGPT-like service last year, but this Microsoft effort is reportedly a separate project.</p></div><p><a href="https://arstechnica.com/?p=2022611#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022611&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/information-technology/2024/05/microsoft-launches-ai-chatbot-for-spies/feed/</wfw:commentRss>
-			<slash:comments>38</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>TikTok and its Chinese owner sue US government over “foreign adversary” law</title>
-		<link>https://arstechnica.com/?p=2022633</link>
-					<comments>https://arstechnica.com/tech-policy/2024/05/tiktok-and-its-chinese-owner-sue-us-government-over-foreign-adversary-law/#comments</comments>
-		
-		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
-		<pubDate>Tue, 07 May 2024 19:08:15 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[bytedance]]></category>
-		<category><![CDATA[tiktok]]></category>
-		<category><![CDATA[TikTok ban]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022633</guid>
-
-					<description><![CDATA[Law curtails "massive amounts of protected speech," TikTok and ByteDance allege.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/tiktok-800x502.jpg" alt="A TikTok app icon on a phone screen.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/tiktok.jpg" class="enlarge-link" data-height="1569" data-width="2500">Enlarge</a> (credit: Getty Images | Chesnot )</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>TikTok and its owner ByteDance today sued the federal government to block the "Foreign Adversary Controlled Applications" law that would prohibit TikTok in the US if the company isn't sold to a non-Chinese firm. The <a href="https://storage.courtlistener.com/recap/gov.uscourts.cadc.40861/gov.uscourts.cadc.40861.1208620273.1.pdf">complaint</a> in the US Court of Appeals for the District of Columbia Circuit alleges that the law is unconstitutional and asks for a court order prohibiting enforcement.</p>
-<p>TikTok and ByteDance say the law "would allow the government to decide that a company may no longer own and publish the innovative and unique speech platform it created. If Congress can do this, it can circumvent the First Amendment by invoking national security and ordering the publisher of any individual newspaper or website to sell to avoid being shut down."</p>
-<p>The law will "silenc[e] the 170 million Americans who use the platform to communicate in ways that cannot be replicated elsewhere," TikTok and ByteDance alleged.</p></div><p><a href="https://arstechnica.com/?p=2022633#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022633&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/tiktok-and-its-chinese-owner-sue-us-government-over-foreign-adversary-law/feed/</wfw:commentRss>
-			<slash:comments>142</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Do you need a dentist visit every 6 months? That filling? The data is weak</title>
-		<link>https://arstechnica.com/?p=2022607</link>
-					<comments>https://arstechnica.com/science/2024/05/do-you-need-a-dentist-visit-every-6-months-that-filling-the-data-is-weak/#comments</comments>
-		
-		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Tue, 07 May 2024 17:56:03 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022607</guid>
-
-					<description><![CDATA[Getting evidence-based care may be like pulling teeth, researchers suggest.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1661590766-800x542.jpeg" alt="Do you need a dentist visit every 6 months? That filling? The data is weak">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1661590766-scaled.jpeg" class="enlarge-link" data-height="1734" data-width="2560">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/september-2023-lower-saxony-hanover-a-pediatric-dentist-news-photo/1661590766?adppopup=true">Getty | Julian Stratenschulte</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The field of dentistry is lagging on adopting evidence-based care and, as such, is rife with overdiagnoses and overtreatments that may align more with the economic pressures of keeping a dental practice afloat than what care patients actually need. At least, that's according to a trio of health and dental researchers from Brazil and the United Kingdom, led by epidemiologist and dentist Paulo Nadanovsky, of the University of the State of Rio de Janeiro.</p>
-<p>In a <a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2818193">viewpoint published Monday in JAMA Internal Medicine</a>, the researchers point out that many common—nearly unquestioned—practices in dentistry aren't backed up by solid data. That includes the typical recommendation that everyone should get a dental check-up every six months. The researchers note that two large clinical trials failed to find a benefit of six-month check-ups compared with longer intervals that were up to two years.</p>
-<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8256238/">A 2020 Cochrane review</a> that assessed the two clinical trials concluded that "whether adults see their dentist for a check‐up every six months or at personalized intervals based on their dentist's assessment of their risk of dental disease does not affect tooth decay, gum disease, or quality of life. Longer intervals (up to 24 months) between check‐ups may not negatively affect these outcomes." The Cochrane reviewers reported that they were "confident" of little to no difference between six-month and risk-based check-ups and were "moderately confident" that going up to 24-month checkups would make little to no difference either.</p></div><p><a href="https://arstechnica.com/?p=2022607#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022607&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/05/do-you-need-a-dentist-visit-every-6-months-that-filling-the-data-is-weak/feed/</wfw:commentRss>
-			<slash:comments>154</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Boeing says workers skipped required tests on 787 but recorded work as completed</title>
-		<link>https://arstechnica.com/?p=2022583</link>
-					<comments>https://arstechnica.com/tech-policy/2024/05/boeing-says-workers-skipped-required-tests-on-787-but-recorded-work-as-completed/#comments</comments>
-		
-		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
-		<pubDate>Tue, 07 May 2024 17:39:40 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Boeing]]></category>
-		<category><![CDATA[boeing 787 Dreamliner]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022583</guid>
-
-					<description><![CDATA[FAA: Boeing apparently didn't confirm bonding "where the wings join the fuselage."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/boeing-dreamliner-800x537.jpg" alt="An American Airlines Boeing 787-8 Dreamliner on a runway.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/boeing-dreamliner-scaled.jpg" class="enlarge-link" data-height="1719" data-width="2560">Enlarge</a> <span class="sep">/</span> An American Airlines Boeing 787-8 Dreamliner preparing to take off at Barcelona-El Prat Airport in Spain on May 1, 2024. (credit: Getty Images | NurPhoto )</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The Federal Aviation Administration is investigating whether Boeing failed to complete required inspections on 787 Dreamliner planes and whether Boeing employees falsified aircraft records, the agency said this week. The investigation was launched after an employee reported the problem to Boeing management, and Boeing informed the FAA.</p>
-<p>"The FAA has opened an investigation into Boeing after the company voluntarily informed us in April that it may not have completed required inspections to confirm adequate bonding and grounding where the wings join the fuselage on certain 787 Dreamliner airplanes," the FAA said in a statement provided to Ars today.</p>
-<p>The FAA said it "is investigating whether Boeing completed the inspections and whether company employees may have falsified aircraft records. At the same time, Boeing is reinspecting all 787 airplanes still within the production system and must also create a plan to address the in-service fleet." The agency added that it "will take any necessary action—as always—to ensure the safety of the flying public."</p></div><p><a href="https://arstechnica.com/?p=2022583#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022583&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/boeing-says-workers-skipped-required-tests-on-787-but-recorded-work-as-completed/feed/</wfw:commentRss>
-			<slash:comments>155</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Sneaking science into Borderlands: Inside the game inside a game</title>
-		<link>https://arstechnica.com/?p=2022489</link>
-					<comments>https://arstechnica.com/science/2024/05/gaming-for-science-borderlands-science-four-years-later/#comments</comments>
-		
-		<dc:creator><![CDATA[Ars Contributors]]></dc:creator>
-		<pubDate>Tue, 07 May 2024 16:53:11 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Borderlands]]></category>
-		<category><![CDATA[citizen science]]></category>
-		<category><![CDATA[evolution]]></category>
-		<category><![CDATA[gaming]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022489</guid>
-
-					<description><![CDATA[A key to its success? Making a game that didn't look like it involved biology.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2020/04/Borderlands-Science_Gameplay-800x450.jpg" alt="Line up those colors and close those gaps... for science!">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2020/04/Borderlands-Science_Gameplay.bmp" class="enlarge-link" data-height="2160" data-width="3840">Enlarge</a> <span class="sep">/</span> Line up those colors and close those gaps... for science! </p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>In 2020, <a href="https://arstechnica.com/gaming/2020/04/you-can-help-medical-science-just-by-playing-a-new-borderlands-mini-game/">a new minigame appeared</a> in the video game <em>Borderlands 3</em>, located in the resident scientist’s laboratory on the spaceship <em>Sanctuary III</em>.  Although the arcade game may seem like just another way to pass in-game time, the tile-matching puzzle game—<a href="https://borderlands.2k.com/news/borderlands-science/"><i>Borderlands Science</i></a>—has allowed millions of players to help map the human gut microbiome.</p>
-<p><em>Borderlands Science</em> is one of the first examples of a citizen science game being embedded in a mainstream video game; it translates players’ tile matching into sequence alignment of microbial DNA strands that encode ribosomal RNA. Ultimately, this can help deduce the genetic relationships between different gut microbes—crucial information for demystifying the complex web of interactions among diet, disease, and microbiome.</p>
-<p>Since launch, over 4 million gamers have played <em>Borderlands Science</em>, collectively solving over 100 million puzzles, making this one of the largest citizen science projects ever. Not only has the game generated huge player engagement, but the results have outperformed state-of-the-art computational methods, according to an analysis of the project published in <a href="https://www.nature.com/articles/s41587-024-02175-6%23">Nature Biotechnology</a>.</p></div><p><a href="https://arstechnica.com/?p=2022489#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022489&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/05/gaming-for-science-borderlands-science-four-years-later/feed/</wfw:commentRss>
-			<slash:comments>16</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Doc who claimed COVID shots cause magnetism gets medical license back</title>
-		<link>https://arstechnica.com/?p=2022563</link>
-					<comments>https://arstechnica.com/science/2024/05/anti-vaccine-doc-who-railed-about-magnetism-5g-gets-medical-license-back/#comments</comments>
-		
-		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Tue, 07 May 2024 16:24:58 +0000</pubDate>
-				<category><![CDATA[Health]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[5]]></category>
-		<category><![CDATA[5G]]></category>
-		<category><![CDATA[anti-vaccine]]></category>
-		<category><![CDATA[COVID-19]]></category>
-		<category><![CDATA[magnetism]]></category>
-		<category><![CDATA[misinformation]]></category>
-		<category><![CDATA[Ohio]]></category>
-		<category><![CDATA[Sherri Tenpenny]]></category>
-		<category><![CDATA[vaccines]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022563</guid>
-
-					<description><![CDATA[She also claimed cities liquified dead bodies and poured them into the water supply.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/10/tenpenny-800x412.jpg" alt="Cleveland doctor Sherri Tenpenny gives false testimony on June 8, 2021, saying COVID-19 vaccines magnetize people. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/10/tenpenny.jpg" class="enlarge-link" data-height="1288" data-width="2498">Enlarge</a> <span class="sep">/</span> Cleveland doctor Sherri Tenpenny gives false testimony on June 8, 2021, saying COVID-19 vaccines magnetize people.  (credit: <a rel="nofollow" class="caption-link" href="https://ohiochannel.org/video/ohio-house-health-committee-6-8-2021">The Ohio Channel</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>An anti-vaccine doctor best known for <a href="https://arstechnica.com/health/2023/08/ohio-doc-who-said-vaccines-magnetized-people-loses-medical-license/">losing her medical license</a> after falsely claiming that COVID-19 vaccines cause people to become magnetic and "interface" with 5G towers, has had her medical license restored, according to local media reports.</p>
-<p>Sherri Tenpenny, an osteopathic doctor in the Cleveland area, beamed into the national spotlight in June 2021 while giving repelling testimony before state lawmakers about COVID-19 vaccine recipients. "I'm sure you've seen the pictures all over the Internet of people who have had these shots and now they're magnetized," Tenpenny said in her viral testimony. "You can put a key on their forehead—it sticks. You can put spoons and forks all over and they can stick because now we think there is a metal piece to that."</p>
-<p>Her testimony was in support of a bill that would largely ban vaccine mandates in Ohio. The bill never made it out of committee. But the state's medical board opened an investigation the next month. The board intended to ask Tenpenny a variety of questions, including about her statements "regarding COVID-19 vaccines causing people to become magnetized or creating an interface with 5G towers… and regarding some major metropolitan areas liquefying dead bodies and pouring them into the water supply," according to <a href="https://dam.assets.ohio.gov/image/upload/med.ohio.gov/formala/34003789.pdf">a board report.</a></p></div><p><a href="https://arstechnica.com/?p=2022563#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022563&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/05/anti-vaccine-doc-who-railed-about-magnetism-5g-gets-medical-license-back/feed/</wfw:commentRss>
-			<slash:comments>202</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>NHTSA sends Tesla massive data request as it investigates Autopilot recall</title>
-		<link>https://arstechnica.com/?p=2022536</link>
-					<comments>https://arstechnica.com/cars/2024/05/nhtsa-wants-autopilot-answers-from-tesla-after-20-post-recall-crashes/#comments</comments>
-		
-		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
-		<pubDate>Tue, 07 May 2024 16:13:06 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[nhtsa]]></category>
-		<category><![CDATA[NHTSA recall]]></category>
-		<category><![CDATA[Tesla recall]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022536</guid>
-
-					<description><![CDATA[Tesla has until July 1 to comply with the data request about its Autopilot recall.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1853379358-800x533.jpg" alt="DECEMBER 13: A Tesla dealership is seen on December 13, 2023 in Austin, Texas. Tesla is recalling nearly all vehicles sold in the US after a near two-year investigation by the National Highway Traffic Safety Administration found a defect in the Autopilot system.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1853379358.jpg" class="enlarge-link" data-height="5504" data-width="8256">Enlarge</a> (credit: Brandon Bell/Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The federal government has given Tesla quite the homework assignment. The electric automaker has until July 1 to reply to a massive data request from the National Highway Traffic Safety Administration, <a href="https://arstechnica.com/cars/2024/04/feds-concerned-some-of-teslas-autopilot-recall-was-opt-in-reversible/">which is investigating</a> the efficacy of <a href="https://arstechnica.com/cars/2023/12/more-than-2-million-teslas-are-being-recalled-due-to-unsafe-autopilot/">Tesla's massive Autopilot recall</a>, following at least 20 crashes post-recall.</p>
-<p>Tesla decided to <a href="https://arstechnica.com/cars/2023/12/more-than-2-million-teslas-are-being-recalled-due-to-unsafe-autopilot/">recall more than 2 million cars</a> in the US—almost every vehicle it has ever sold here—in December 2023, following an engineering analysis by NHTSA that found the automaker's Autopilot driver assistance feature had inadequate driver monitoring and that Autopilot was too easily misused.</p>
-<p>Last month, <a href="https://arstechnica.com/cars/2024/04/feds-concerned-some-of-teslas-autopilot-recall-was-opt-in-reversible/">we discovered that NHTSA is not happy</a> with the Autopilot recall. Now, the agency has <a href="https://static.nhtsa.gov/odi/inv/2024/INIM-RQ24009-12199.pdf">made public the letter it sent Tesla this week</a>, demanding a whole lot of answers by July 1.</p></div><p><a href="https://arstechnica.com/?p=2022536#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022536&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/05/nhtsa-wants-autopilot-answers-from-tesla-after-20-post-recall-crashes/feed/</wfw:commentRss>
-			<slash:comments>145</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>The $499 Google Pixel 8a is official, with 120 Hz display, 7 years of updates</title>
-		<link>https://arstechnica.com/?p=2022244</link>
-					<comments>https://arstechnica.com/gadgets/2024/05/the-499-google-pixel-8a-is-official-with-120-hz-display-7-years-of-updates/#comments</comments>
-		
-		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
-		<pubDate>Tue, 07 May 2024 16:00:49 +0000</pubDate>
-				<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022244</guid>
-
-					<description><![CDATA[The new Pixel 8a looks like a mid-range champion. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-
-
-
-
-
-<div><a name="page-1"></a></div>
-  <ul class="gallery shortcode-gallery gallery-wide">
-          <li>
-        <div class="gallery-item-content">
-          <div class="gallery-image"><img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Pixel-8a_All-980x632.jpg" alt=""></div>
-          <p>
-            The Pixel 8a.                          [credit:
-                              Google                            ]
-                      </p>
-        </div>
-      </li>
-      </ul>
-
-<p>Today is a big event day for Apple, but that doesn't mean Google is going to fade into the background: It's announcing the Pixel 8a today. The big news is that the Pixel a series is still $499 despite some upgrades.</p>
-<p>What are those upgrades? How about a 120 Hz display on Google's mid-ranger for the first time? The 6.1-inch, 120 Hz, 2400×1080 display is closer to a flagship than ever, even if it is a smaller phone. You also get flagship-class support with Google's industry-leading seven years of OS updates, so the phone should be good until 2031, if you can hold out that long. Together, these two upgrades make the Pixel 8a an incredible value.</p>
-<p>Major news with last year's launch of the Pixel 7a was the older Pixel 6a, which got a big price drop down to $349 when the 7a came out. When asked about a potential Pixel 7a price drop, Google says it "will continue to sell the Pixel 7a" but also that it has "<span class=" "><span class="">no</span> <span class="active">news</span> to announce today on a pricing change."</span> It did feel like the Pixel 6a's price drop <a href="https://arstechnica.com/gadgets/2023/05/pixel-7a-review-more-of-googles-winning-formula/">stole some</a> of the 7a's thunder last year, so maybe Google is giving that announcement some breathing room. <span class=" ">For now, you'll have to think long and hard at checkout and decide between a</span> $499 Pixel 8a and a $499 Pixel 7a. The base model Pixel 8, at $699 with nearly the same specs, is also a tough sell in the face of the Pixel 8a.</p></div><p><a href="https://arstechnica.com/?p=2022244#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022244&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/the-499-google-pixel-8a-is-official-with-120-hz-display-7-years-of-updates/feed/</wfw:commentRss>
-			<slash:comments>108</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Hands-on with the new John Wick pinball</title>
-		<link>https://arstechnica.com/?p=2022246</link>
-					<comments>https://arstechnica.com/gaming/2024/05/hands-on-with-the-new-john-wick-pinball/#comments</comments>
-		
-		<dc:creator><![CDATA[Aurich Lawson]]></dc:creator>
-		<pubDate>Tue, 07 May 2024 16:00:12 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[pinball]]></category>
-		<category><![CDATA[Stern pinball]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022246</guid>
-
-					<description><![CDATA[Stern Pinball brings the legendary assassin to the world of mechanical gaming.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/JohnWick-Listing-800x450.jpg" alt="John? Is that you, John? John? Can't we discuss this like civilized men? ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/JohnWick-Listing.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> <span class="sep">/</span> John? Is that you, John? John? Can't we discuss this like civilized men?  (credit: Stern Pinball)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>If you don’t follow the ins and outs of pinball, you might be surprised to find out there are more active companies making games in 2024 than ever before.</p>
-<p>Stern Pinball is the 800-pound gorilla of the industry. It has been around the longest, has the largest factory, sells the most games, and releases more titles per year than anyone else. For years, it was the sole remaining pinball company in the world.</p>
-<p>Now—despite the decline of arcades—pinball is seeing a second life. A passionate collector base dedicates entire game rooms in their homes to machines. Pinball and bars go together so well Stern has a whole video series on “<a href="https://sternpinball.com/brewcadehopping/">brewcade hopping</a>”. There are games in <a href="https://www.revengeof.com">comics shop</a>s. One of my more amazing local spots is in the <a href="https://ontiltpinball.com">back of a Korean BBQ</a>. All this interest has created a thriving pinball ecosystem of boutique makers, where success is often measured in sales of 1,000 machines or fewer. Other pinball companies might not compete with Stern directly by volume, but they do provide a level of competition for ideas that keeps the hobby strong.</p></div><p><a href="https://arstechnica.com/?p=2022246#p3">Read 23 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022246&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/hands-on-with-the-new-john-wick-pinball/feed/</wfw:commentRss>
-			<slash:comments>61</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Microsoft shuts down Bethesda’s Hi-Fi Rush, Redfall studios</title>
-		<link>https://arstechnica.com/?p=2022510</link>
-					<comments>https://arstechnica.com/gaming/2024/05/microsoft-shuts-down-bethesdas-hi-fi-rush-redfall-studios/#comments</comments>
-		
-		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
-		<pubDate>Tue, 07 May 2024 15:28:24 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[arkane]]></category>
-		<category><![CDATA[bethesda]]></category>
-		<category><![CDATA[hi-fi rush]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[tango gameworks]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022510</guid>
-
-					<description><![CDATA[Xbox maker wants to "prioritiz[e] high-impact titles" according to letter to staff.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/hifirush-800x452.jpeg" alt="Artist's conception of Microsoft telling &lt;em&gt;Hi-Fi Rush&lt;/em&gt; maker Tango Gameworks they no longer exist as a studio.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/hifirush.jpeg" class="enlarge-link" data-height="1356" data-width="2400">Enlarge</a> <span class="sep">/</span> Artist's conception of Microsoft telling <em>Hi-Fi Rush</em> maker Tango Gameworks they no longer exist as a studio. (credit: Tango Gameworks)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Microsoft is shutting down four studios within its Bethesda Softworks subsidiary, according to a staff email <a href="https://www.ign.com/articles/microsoft-closes-redfall-developer-arkane-austin-hifi-rush-developer-tango-gameworks-and-more-in-devastating-cuts-at-bethesda">obtained by IGN</a>. The closures include <em>Redfall</em> developer Arkane Austin and <em>Hi-Fi Rush</em> studio Tango Gameworks. While some team members will be reassigned to other parts of the company, head of Xbox Game Studios Matt Booty said in a letter to staffers "that some of our colleagues will be leaving us."</p>
-<p>Tango Gameworks confirmed in <a href="https://twitter.com/TangoGameworks/status/1787837929332601189">a short social media message</a> that "<em>Hi-Fi Rush</em>, along with Tango's previous titles [like <em>The Evil Within</em>], will remain available and playable everywhere they are today." But the closure of Arkane Austin means that "development will not continue on <em>Redfall</em>," the company wrote <a href="https://twitter.com/ArkaneStudios/status/1787837804287860886">in its own social media update</a>. "Arkane Lyon will continue their focus on immersive experiences where they are hard at work on their upcoming project [<a href="https://www.marvel.com/games/marvels-blade">Marvel's <em>Blade</em></a>]."</p>
-<p>In his note to staff, Booty said that [<em>Redfall</em>] “will remain online for players to enjoy and we will provide make-good offers to players who purchased the Hero DLC.”</p></div><p><a href="https://arstechnica.com/?p=2022510#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022510&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/microsoft-shuts-down-bethesdas-hi-fi-rush-redfall-studios/feed/</wfw:commentRss>
-			<slash:comments>97</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>New “Apple Pencil Pro” can do a barrel roll</title>
-		<link>https://arstechnica.com/?p=2022371</link>
-					<comments>https://arstechnica.com/apple/2024/05/ipad-pros-get-new-magic-keyboard-apple-pencil-pro/#comments</comments>
-		
-		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
-		<pubDate>Tue, 07 May 2024 15:10:54 +0000</pubDate>
-				<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022371</guid>
-
-					<description><![CDATA[New Magic Keyboard promises a Macbook-like experience, while the Pencil gets new tricks. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-
-
-
-
-
-<div><a name="page-1"></a></div>
-  <ul class="gallery shortcode-gallery gallery-wide">
-          <li>
-        <div class="gallery-item-content">
-          <div class="gallery-image"><img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Screenshot-2024-05-07-at-09.31.32-980x368.jpg" alt=""></div>
-          <p>
-            The Apple Pencil Pro                          [credit:
-                              Apple                            ]
-                      </p>
-        </div>
-      </li>
-      </ul>
-
-<p>With new iPads come new keyboards and pencils, and the big news today is the "Apple Pencil Pro," a souped-up version of Apple's iPad stylus. The Pencil Pro is $129 and works with the new iPad Pro and iPad Air.</p>
-<p>How much can you improve a stylus? How about rotation detection via a new gyroscope embedded in the pencil? Apple calls this a "<a href="https://www.youtube.com/watch?v=2ImLlEO90Do">barrel roll</a>," which provides rotation input in your iPad apps. If you're drawing and are using a brush that isn't symmetrical, a barrel roll will change the rotation of the brush. If you have a 3D item out in Procreate, a pencil rotation will rotate the 3D item. Devs can cook up whatever app interactions they can think of with this new feature.</p>
-<p>The Pencil is also squeezable now, which can bring up a context menu. It also has haptics embedded in it, so you'll get feedback whenever you squeeze or rotate an item. The Pencil magnetically clips on the side of the iPad for charging, but if you happen to lose it, it will also show up in the Find My app next to all your other Apple things.</p></div><p><a href="https://arstechnica.com/?p=2022371#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022371&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/apple/2024/05/ipad-pros-get-new-magic-keyboard-apple-pencil-pro/feed/</wfw:commentRss>
-			<slash:comments>66</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Apple kills $329 iPad with home button, Lightning port</title>
-		<link>https://arstechnica.com/?p=2022463</link>
-					<comments>https://arstechnica.com/gadgets/2024/05/apple-drops-price-of-10th-gen-ipad-from-399-to-349/#comments</comments>
-		
-		<dc:creator><![CDATA[Scharon Harding]]></dc:creator>
-		<pubDate>Tue, 07 May 2024 14:56:14 +0000</pubDate>
-				<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[ipad]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022463</guid>
-
-					<description><![CDATA[No more home button.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/apple-ipad-800x401.jpg" alt="Apple kills $329 iPad with home button, Lightning port">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/apple-ipad-scaled.jpg" class="enlarge-link" data-height="1282" data-width="2560">Enlarge</a> </p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Apple is lowering the price of its 10th-generation iPad from $399 to $349, the company announced at its <a href="https://arstechnica.com/gadgets/2024/05/what-to-expect-from-apples-may-7-let-loose-event/">Let Loose</a> event today.</p>
-<p>The <a href="https://arstechnica.com/gadgets/2022/10/2022-ipad-review-a-half-step-forward-for-apples-basic-tablet/">10th-generation iPad</a> did away with the top and bottom bezels that previous iPads carried. The 10.9-inch tablet also doesn't have a home button, showing Apple, under <a href="https://arstechnica.com/gadgets/2022/12/the-clock-is-rapidly-ticking-on-apples-lightning-charger/">pressure from European Union</a> regulations, moving from a Lightning port to USB-C. It debuted with a $449 starting price in 2022 with an A14 chip.</p>
-<p>However, Apple is also doing away with the $329 9th-generation iPad, effectively increasing the price of entry for an iPad.</p></div><p><a href="https://arstechnica.com/?p=2022463#p3">Read 1 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022463&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/apple-drops-price-of-10th-gen-ipad-from-399-to-349/feed/</wfw:commentRss>
-			<slash:comments>66</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Nintendo pre-announces a Switch 2 announcement is coming… eventually</title>
-		<link>https://arstechnica.com/?p=2022407</link>
-					<comments>https://arstechnica.com/gaming/2024/05/nintendo-pre-announces-a-switch-2-announcement-is-coming-eventually/#comments</comments>
-		
-		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
-		<pubDate>Tue, 07 May 2024 14:39:24 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Announcement]]></category>
-		<category><![CDATA[information]]></category>
-		<category><![CDATA[Nintendo]]></category>
-		<category><![CDATA[switch 2]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022407</guid>
-
-					<description><![CDATA[More info promised sometime before the end of March 2025.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2021/09/nintendo-wrapped-present-tag-800x450.jpg" alt="Nintendo will eventually gift us Switch 2 information, hopefully in time for Christmas.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2021/09/nintendo-wrapped-present-tag.jpg" class="enlarge-link" data-height="844" data-width="1500">Enlarge</a> <span class="sep">/</span> Nintendo will eventually gift us Switch 2 information, hopefully in time for Christmas. (credit: Aurich Lawson)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>While the past few months have included <a href="https://arstechnica.com/gaming/2024/04/controller-maker-says-switch-2-will-be-backward-compatible-with-all-switch-games/">plenty</a> of <a href="https://arstechnica.com/gaming/2024/04/report-switch-2-joy-cons-will-attach-via-magnets/">informed speculation</a> about the <a href="https://arstechnica.com/gaming/2024/01/analyst-switch-2-will-have-a-massive-8-inch-lcd-screen/">so-called</a> <a href="https://arstechnica.com/gaming/2023/11/what-do-we-know-about-the-switch-2s-hardware-power/">Switch 2</a>, Nintendo hasn't given even a bare hint that the system is in the works. That changed at least somewhat last night, as Nintendo President Shinto Furukawa <a href="https://twitter.com/NintendoCoLtd/status/1787736518762881197">shared on social media</a> that "we will make an announcement about the successor to Nintendo Switch within this fiscal year," which ends on March 31, 2025.</p>
-<p>In his pre-announcement announcement, Furukawa warned that an upcoming Nintendo Direct presentation planned for June would include "no mention of the Nintendo Switch successor," suggesting more information may be coming closer to the end of the fiscal year than the beginning.</p>
-<p>Furukawa notes that the eventual announcement will come over nine years after Nintendo <a href="https://arstechnica.com/gaming/2015/03/nintendo-partners-with-dena-to-develop-mobile-phone-games/">first alluded to the Switch's existence</a> with the March 2015 announcement of a console then called "Project NX." Nintendo didn't show that hardware publicly until 19 months later, with <a href="https://arstechnica.com/gaming/2016/10/nintendos-next-console-switch-is-a-consoletablet-hybrid/">a three-minute preview trailer that dropped in October 2016</a>. Hands-on press previews for the Switch came <a href="https://arstechnica.com/gaming/2017/01/hands-on-with-nintendo-switch-jack-of-all-trades-master-of-some/">three months after that</a>, and we then had to wait almost two more months for <a href="https://arstechnica.com/gaming/2017/03/nintendo-switch-review/">the console to finally hit store shelves</a> in March of 2017.</p></div><p><a href="https://arstechnica.com/?p=2022407#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022407&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/nintendo-pre-announces-a-switch-2-announcement-is-coming-eventually/feed/</wfw:commentRss>
-			<slash:comments>35</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Apple announces M4 with more CPU cores and AI focus, just months after M3</title>
-		<link>https://arstechnica.com/?p=2022375</link>
-					<comments>https://arstechnica.com/apple/2024/05/apple-announces-m4-with-more-cpu-cores-and-ai-focus-just-months-after-m3/#comments</comments>
-		
-		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
-		<pubDate>Tue, 07 May 2024 14:33:47 +0000</pubDate>
-				<category><![CDATA[Apple]]></category>
-		<category><![CDATA[apple m4]]></category>
-		<category><![CDATA[Apple silicon]]></category>
-		<category><![CDATA[m4]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2022375</guid>
-
-					<description><![CDATA[Aggressive update schedule is a major departure for Apple Silicon.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Screenshot-2024-05-07-at-09.20.49-800x448.jpg" alt="Apple's M4 chip in the new iPad Pro. It follows the M3 by just a few months. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Screenshot-2024-05-07-at-09.20.49-scaled.jpg" class="enlarge-link" data-height="1434" data-width="2560">Enlarge</a> <span class="sep">/</span> Apple's M4 chip in the new iPad Pro. It follows the M3 by just a few months.  (credit: Apple)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>In a major shake-up of its chip roadmap, Apple has announced a new M4 processor for <a href="https://arstechnica.com/gadgets/2024/05/new-ipad-pros-are-the-thinnest-apple-device-ever-feature-dual-oled-screens/">today’s iPad Pro refresh</a>, barely six months after releasing <a href="https://arstechnica.com/gadgets/2023/11/review-apples-16-inch-m3-max-macbook-pro-crams-ultra-level-speed-into-a-laptop/">the first MacBook Pros with the M3</a> and not even two months after updating the <a href="https://arstechnica.com/gadgets/2024/03/review-apples-efficient-m3-macbook-airs-are-just-about-as-good-as-laptops-get/">MacBook Air with the M3</a>.</p>
-<p>Apple says the M4 includes "up to" four high-performance CPU cores, six high-efficiency cores, and a 10-core GPU. Apple's high-level performance estimates say that the M4 has 50 percent faster CPU performance and four times as much graphics performance. Like the GPU in the M3, the M4 also supports hardware-accelerated ray-tracing to enable more advanced lighting effects in games and other apps. Due partly to its "second-generation" 3 nm manufacturing process, Apple says the M4 can match the performance of the M2 while using just half the power.</p>
-
-<p>As with so much else in the tech industry right now, the M4 also has an AI focus; Apple says it's beefing up the 16-core Neural Engine (Apple’s equivalent of the Neural Processing Unit that companies like Qualcomm, Intel, AMD, and Microsoft have been pushing lately). Apple says the M4 runs up to 38 trillion operations per second (TOPS), considerably ahead of Intel's Meteor Lake platform, though a bit short of the 45 TOPS that Qualcomm is promising with the Snapdragon X Elite and Plus series. The M3's Neural Engine is only capable of 18 TOPS, so that's a major step up for Apple's hardware.</p></div><p><a href="https://arstechnica.com/?p=2022375#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2022375&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/apple/2024/05/apple-announces-m4-with-more-cpu-cores-and-ai-focus-just-months-after-m3/feed/</wfw:commentRss>
-			<slash:comments>98</slash:comments>
+			<slash:comments>45</slash:comments>
 		
 		
 			</item>
