@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Thu, 23 May 2024 03:42:27 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 May 2024 23:18:31 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,6 +21,723 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>US officials: A Russian rocket launch last week likely deployed a space weapon</title>
+		<link>https://arstechnica.com/?p=2026816</link>
+					<comments>https://arstechnica.com/space/2024/05/russia-still-appears-to-be-playing-cat-and-mouse-with-us-spy-satellites/#comments</comments>
+		
+		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 23:08:22 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[ASAT]]></category>
+		<category><![CDATA[keyhole]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[military space]]></category>
+		<category><![CDATA[russia]]></category>
+		<category><![CDATA[space warfare]]></category>
+		<category><![CDATA[spy satellite]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026816</guid>
+
+					<description><![CDATA["Naming space as a warfighting domain was kind of forbidden, but that's changed."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/soyuzlaunch1-800x533.jpg" alt="A Russian Soyuz rocket climbs away from the Plesetsk Cosmodrome on May 16.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/soyuzlaunch1.jpg" class="enlarge-link" data-height="800" data-width="1200">Enlarge</a> <span class="sep">/</span> A Russian Soyuz rocket climbs away from the Plesetsk Cosmodrome on May 16. </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The launch of a classified Russian military satellite last week deployed a payload that US government officials say is likely a space weapon.</p>
+<p>In a series of statements, US officials said the new military satellite, named Kosmos 2576, appears to be similar to two previous "inspector" spacecraft launched by Russia in 2019 and 2022.</p>
+<p>"Just last week, on May 16, Russia launched a satellite into low-Earth orbit that the United States assesses is likely a counter-space weapon presumably capable of attacking other satellites in low-Earth orbit," said Robert Wood, the deputy US ambassador to the United Nations. "Russia deployed this new counter-space weapon into the same orbit as a US government satellite."</p></div><p><a href="https://arstechnica.com/?p=2026816#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026816&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/05/russia-still-appears-to-be-playing-cat-and-mouse-with-us-spy-satellites/feed/</wfw:commentRss>
+			<slash:comments>19</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Crooks plant backdoor in software used by courtrooms around the world</title>
+		<link>https://arstechnica.com/?p=2026911</link>
+					<comments>https://arstechnica.com/security/2024/05/crooks-plant-backdoor-in-software-used-by-courtrooms-around-the-world/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 22:46:51 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[audio/video]]></category>
+		<category><![CDATA[backdoors]]></category>
+		<category><![CDATA[supply chain attacks]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026911</guid>
+
+					<description><![CDATA[It's unclear how the malicious version of JAVS Viewer came to be.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/javs-suite-8-800x400.jpg" alt="Crooks plant backdoor in software used by courtrooms around the world">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/javs-suite-8.jpg" class="enlarge-link" data-height="768" data-width="1536">Enlarge</a> (credit: JAVS)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>A software maker serving more than 10,000 courtrooms throughout the world hosted an application update containing a hidden backdoor that maintained persistent communication with a malicious website, researchers reported Thursday, in the latest episode of a supply-chain attack.</p>
+<p>The software, known as the JAVS Viewer 8, is a component of the <a href="https://www.javs.com/javs-suite-8-av-management-software/">JAVS Suite 8</a>, an application package courtrooms use to record, play back, and manage audio and video from proceedings. Its maker, Louisville, Kentucky-based Justice AV Solutions, says its products are used in more than 10,000 courtrooms throughout the US and 11 other countries. The company has been in business for 35 years.</p>
+<h2>JAVS Viewer users at high risk</h2>
+<p>Researchers from security firm Rapid7 <a href="https://www.rapid7.com/blog/post/2024/05/23/cve-2024-4978-backdoored-justice-av-solutions-viewer-software-used-in-apparent-supply-chain-attack/">reported</a> that a version of the JAVS Viewer 8 available for download on javs.com contained a backdoor that gave an unknown threat actor persistent access to infected devices. The malicious download, planted inside an executable file that installs the JAVS Viewer version 8.3.7, was available no later than April 1, when a <a href="https://x.com/2RunJack2/status/1775052981966377148">post</a> on X (formerly Twitter) reported it. It’s unclear when the backdoored version was removed from the company’s download page. JAVS representatives didn’t immediately respond to questions sent by email.</p></div><p><a href="https://arstechnica.com/?p=2026911#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026911&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/05/crooks-plant-backdoor-in-software-used-by-courtrooms-around-the-world/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>“Unacceptable”: Spotify bricking Car Thing devices in Dec. without refunds</title>
+		<link>https://arstechnica.com/?p=2026806</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/pleas-for-open-sourcing-refunds-as-spotify-plans-to-brick-car-thing-devices/#comments</comments>
+		
+		<dc:creator><![CDATA[Scharon Harding]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 20:32:02 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[spotify]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026806</guid>
+
+					<description><![CDATA[Spotify stopped making Car Things in July 2022 but kept selling them. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/07/car-thing-800x600.jpg" alt="“Unacceptable”: Spotify bricking Car Thing devices in Dec. without refunds">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/07/car-thing.jpg" class="enlarge-link" data-height="1440" data-width="1920">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://guc-daytona-oms.spotifycdn.com/assets/v1/static/images/carousel-stuck-in-traffic-desktop-1920.jpg">Spotify</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Owners of Spotify's soon-to-be-bricked Car Thing device are begging the company to open-source the gadgets to save some the landfill. Spotify hasn't responded to pleas to salvage the hardware, which was originally intended to connect to car dashboards and auxiliary outlets to enable drivers to listen to and navigate Spotify.</p>
+<p>Spotify announced today that it's bricking all purchased Car Things on December 9 and not offering refunds or trade-in options. On a <a href="https://support.spotify.com/us/article/car-thing-discontinued/">support page</a>, Spotify says:</p>
+<blockquote><p>We're discontinuing Car Thing as part of our ongoing efforts to streamline our product offerings. We understand it may be disappointing, but this decision allows us to focus on developing new features and enhancements that will ultimately provide a better experience to all Spotify users.</p></blockquote>
+<p>Spotify has no further guidance for device owners beyond asking them to reset the device to factory settings and “safely” get rid of the bricked gadget by “following local electronic waste guidelines.”</p></div><p><a href="https://arstechnica.com/?p=2026806#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026806&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/pleas-for-open-sourcing-refunds-as-spotify-plans-to-brick-car-thing-devices/feed/</wfw:commentRss>
+			<slash:comments>87</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bing outage shows just how little competition Google search really has</title>
+		<link>https://arstechnica.com/?p=2026559</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/bing-outage-shows-just-how-little-competition-google-search-really-has/#comments</comments>
+		
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 20:01:29 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ai overview]]></category>
+		<category><![CDATA[Bing]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[duckduckgo]]></category>
+		<category><![CDATA[ecosia]]></category>
+		<category><![CDATA[gby]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[kagi]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[mojeek]]></category>
+		<category><![CDATA[reddit]]></category>
+		<category><![CDATA[right dao]]></category>
+		<category><![CDATA[search]]></category>
+		<category><![CDATA[stract]]></category>
+		<category><![CDATA[yandex]]></category>
+		<category><![CDATA[yep]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026559</guid>
+
+					<description><![CDATA[Opinion: Actively searching without Google or Bing is harder than it looks.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1247376163-800x533.jpg" alt="Google logo on a phone in front of a Bing logo in the background">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1247376163-scaled.jpg" class="enlarge-link" data-height="1706" data-width="2560">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Bing, Microsoft's search engine platform, went down in <a href="https://searchengineland.com/bing-search-outages-since-early-this-morning-442499">the very early morning today</a>. That meant that searches from Microsoft's Edge browsers that had yet to change their default providers didn't work. It also meant that services relying on Bing's search API—Microsoft's own Copilot, ChatGPT search, Yahoo, Ecosia, and DuckDuckGo—similarly failed.</p>
+<p>Services were largely restored by the morning Eastern work hours, but the timing feels apt, concerning, or some combination of the two. Google, the <a href="https://gs.statcounter.com/search-engine-market-share">consistently dominating search platform</a>, just last week <a href="https://blog.google/products/search/generative-ai-google-search-may-2024/">announced</a> and debuted <a href="https://arstechnica.com/gadgets/2024/05/google-is-reimagining-search-in-the-gemini-era-with-improved-ai-options/">AI Overviews as a default addition to all searches</a>. If you don't want an AI response but still want to use Google, you can hunt down <a href="https://arstechnica.com/gadgets/2024/05/google-search-adds-web-filter-as-it-pivots-to-ai-focused-search-results/">the new "Web" option</a> in a menu, or you can, <a href="https://tedium.co/2024/05/17/google-web-search-make-default/">per Ernie Smith</a>, tack "&amp;udm=14" onto your search or use Smith's own <a href="https://udm14.com/">"Konami code" shortcut page</a>.</p>
+<p>If dismay about AI's hallucinations, power draw, or <a href="https://www.404media.co/google-is-paying-reddit-60-million-for-fucksmith-to-tell-its-users-to-eat-glue/">pizza recipes</a> concern you—along with perhaps broader Google issues involving privacy, tracking, news, SEO, or monopoly power—most of your other major options were brought down by a single API outage this morning. Moving past that kind of single point of vulnerability will take some work, both by the industry and by you, the person wondering if there's a real alternative.</p></div><p><a href="https://arstechnica.com/?p=2026559#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026559&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/bing-outage-shows-just-how-little-competition-google-search-really-has/feed/</wfw:commentRss>
+			<slash:comments>70</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Biggest Windows 11 update in 2 years nearly finalized, enters Release Preview</title>
+		<link>https://arstechnica.com/?p=2026588</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/biggest-windows-11-update-in-2-years-nearly-finalized-enters-release-preview/#comments</comments>
+		
+		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 19:39:09 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[windows 11]]></category>
+		<category><![CDATA[windows 11 24h2]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026588</guid>
+
+					<description><![CDATA[24H2 update includes big changes, will be released "later this calendar year." ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/win11-listing-800x451.jpeg" alt="Biggest Windows 11 update in 2 years nearly finalized, enters Release Preview">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/win11-listing.jpeg" class="enlarge-link" data-height="610" data-width="1083">Enlarge</a> (credit: Microsoft)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The Windows 11 24H2 update isn’t scheduled to be released until sometime this fall, but testers can get a near-final version of it early. Microsoft has <a href="https://blogs.windows.com/windows-insider/2024/05/22/releasing-windows-11-version-24h2-to-the-release-preview-channel/">released Windows 11 24H2 build 26100.712</a> to its Release Preview testing channel for Windows Insiders, a sign that the update is nearly complete and that the company has shifted into bug-fixing mode ahead of general availability.</p>
+<p>Microsoft has generally stuck to smaller but more frequent feature updates during the Windows 11 era, but the annual fall updates still tend to be a bigger deal. They’re the ones that determine whether you’re still eligible for security updates, and they often (but not always) come with more significant under-the-hood changes than the normal feature drops.</p>
+
+<p>Case in point: Windows 11 24H2 includes an updated compiler, kernel, and scheduler, all lower-level system changes made at least in part to better support Arm-based PCs. Existing Windows-on-Arm systems should also see a 10 or 20 percent performance boost when using x86 applications, thanks to improvements in the translation layer (which Microsoft is now calling <a href="https://arstechnica.com/gadgets/2024/05/microsoft-says-prism-translation-layer-does-for-arm-pcs-what-rosetta-did-for-macs/">Prism</a>).</p></div><p><a href="https://arstechnica.com/?p=2026588#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026588&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/biggest-windows-11-update-in-2-years-nearly-finalized-enters-release-preview/feed/</wfw:commentRss>
+			<slash:comments>69</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Chocolate made with fewer calories, less waste</title>
+		<link>https://arstechnica.com/?p=2026799</link>
+					<comments>https://arstechnica.com/science/2024/05/a-new-recipe-for-healthier-more-sustainable-chocolate/#comments</comments>
+		
+		<dc:creator><![CDATA[Diana Gitig]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 19:27:46 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[agriculture]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[chocolate]]></category>
+		<category><![CDATA[Cocoa]]></category>
+		<category><![CDATA[food]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026799</guid>
+
+					<description><![CDATA[“Whole fruit chocolate” uses cocoa pulp and inner shell in lieu of sugar.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-649043924-800x533.jpg" alt="Cocoa beans and chocolate on wooden background">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-649043924.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-649043924.jpg">YelenaYemchuk</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Commercialization has not dealt kindly with the Mayan Food of the Gods. Modern chocolate products are filled with sugar and calories, contributing to the obesity epidemic in the West. And the cocoa crop is hardly in great shape; climate change is decreasing production, causing <a href="https://www.nytimes.com/2024/05/10/business/cocoa-prices-chocolate.html">prices to rise</a>; farmers in West Africa have responded by <a href="https://theconversation.com/the-real-cost-of-your-chocolate-habit-new-research-reveals-the-bittersweet-truth-of-cocoa-farming-in-africas-forests-206082">clear-cutting rainforests</a> to plant more cocoa plants. However, researchers at ETH Zurich may have found a path to start addressing both problems, making chocolate that has less sugar and calories and makes more efficient use of the cocoa crop. The Swiss perfected chocolate-making over 200 years ago, so if they say the chocolate is good, it is.</p>
+<p>Chocolate is traditionally made by mixing dried, roasted, and ground fermented cocoa beans to make cocoa mass. The cocoa mass is then mixed with refined sugar, usually from sugar beets. Instead of sugar, this new Swiss whole fruit chocolate uses the pulp surrounding the cocoa beans along with the inner rind of the cocoa pod husk to make a cocoa gel. When mixed with cocoa mass, this produces chocolate that is higher in fiber and lower in saturated fat than conventional chocolate.</p>
+<p>The “whole fruit” on its label is certainly more appealing than the air or fish oil that has previously been substituted for cocoa butter to reduce the saturated fat content of chocolate confections. (Extra cocoa butter, or fat isolated from the cocoa bean, is sometimes added to cocoa mass to make the end product smoother and waxier.) The pulp and the cocoa pods are generally discarded, so upcycling them instead of tossing them could reduce the land use impact and global warming potential of cocoa cultivation.</p></div><p><a href="https://arstechnica.com/?p=2026799#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026799&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/05/a-new-recipe-for-healthier-more-sustainable-chocolate/feed/</wfw:commentRss>
+			<slash:comments>46</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Democratic consultant indicted for Biden deepfake that told people not to vote</title>
+		<link>https://arstechnica.com/?p=2026769</link>
+					<comments>https://arstechnica.com/tech-policy/2024/05/democratic-consultant-indicted-for-biden-deepfake-that-told-people-not-to-vote/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 19:17:47 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[biden robocall]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026769</guid>
+
+					<description><![CDATA[Steven Kramer charged with voter suppression and faces possible $6 million fine.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/01/joe-biden-on-phone-800x533.jpg" alt="Joe Biden holds a cell phone to his ear while having a conversation.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/01/joe-biden-on-phone.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> <span class="sep">/</span> President Joe Biden at a Rose Garden event at the White House on May 1, 2023, in Washington, DC. (credit: Getty Images | Alex Wong )</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>A Democratic consultant was indicted on charges of voter suppression and impersonation of a candidate after admitting that he commissioned a robocall that used artificial intelligence to imitate President Joe Biden's voice. The political consultant, Steven Kramer, is also facing a $6 million fine proposed by the Federal Communications Commission.</p>
+<p>The <a href="https://arstechnica.com/tech-policy/2024/01/robocall-with-artificial-joe-biden-voice-tells-democrats-not-to-vote/">fake Biden robocall</a> urged Democrats not to vote and was placed to New Hampshire residents before the state's presidential primary in January. Kramer, who was working for a candidate running against Biden, acknowledged that he was responsible for the robocall in February.</p>
+<p>Kramer, a 54-year-old from New Orleans, "has been charged with 13 felony counts of voter suppression... and 13 misdemeanor counts of impersonation of a candidate," New Hampshire Attorney General John Formella <a href="https://www.doj.nh.gov/news/2024/20240523-kramer-voter-suppression.html">announced today</a>. "The charges are spread across four counties based on the residence of thirteen New Hampshire residents who received the Biden robocalls."</p></div><p><a href="https://arstechnica.com/?p=2026769#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026769&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/democratic-consultant-indicted-for-biden-deepfake-that-told-people-not-to-vote/feed/</wfw:commentRss>
+			<slash:comments>69</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Family stricken with rare brain worms after eating undercooked bear</title>
+		<link>https://arstechnica.com/?p=2026753</link>
+					<comments>https://arstechnica.com/science/2024/05/if-you-plan-to-eat-an-undercooked-bear-watch-out-for-brain-worms/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 18:46:08 +0000</pubDate>
+				<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[bear]]></category>
+		<category><![CDATA[brain worms]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[Meat]]></category>
+		<category><![CDATA[parasite]]></category>
+		<category><![CDATA[trichinellosis]]></category>
+		<category><![CDATA[undercooked]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026753</guid>
+
+					<description><![CDATA[In the parasite vs. bear vs. human battle, the grizzly parasite comes out on top.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1237342075-800x533.jpeg" alt="American black bear seen along the Red Rock Parkway inside Waterton Lakes National Park in Alberta, Canada.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1237342075-scaled.jpeg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> American black bear seen along the Red Rock Parkway inside Waterton Lakes National Park in Alberta, Canada. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/american-black-bear-seen-along-the-red-rock-parkway-inside-news-photo/1237342075?searchscope=image%2Cfilm&amp;adppopup=true">Getty | Artur Widak</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>In the summer of 2022, a family gathered in South Dakota for a reunion that included a special meal—<a href="https://www.cdc.gov/mmwr/volumes/73/wr/mm7320a2.htm?s_cid=mm7320a2_w">kabobs made with the meat of a black bear</a> that one of the family members had "harvested" from northern Saskatchewan, Canada, that May. Lacking a meat thermometer, the family assessed the doneness of the dark-colored meat by eye. At first, they accidentally served it rare, which a few family members noticed before a decision was made to recook it. The rest of the reunion was unremarkable, and the family members departed to their homes in Arizona, Minnesota, and South Dakota.</p>
+<p>But just days later, family members began falling ill. One, a 29-year-old male in Minnesota, sought care for a mysterious illness marked by fever, severe muscle pains, swelling around his eyes (periorbital edema), high levels of infection-fighting white blood cells (eosinophilia, a common response to parasites), and other laboratory anomalies. The man sought care four times and was hospitalized twice in a 17-day span in July. It wasn't until his second hospitalization that doctors learned about the bear meat—and then it all made sense.</p>
+<p>The doctors suspected the man had a condition called trichinellosis and infection of<em> Trichinella</em> nematodes (roundworms). These dangerous parasites can be found worldwide, embedded into the muscle fibers of various carnivores and omnivores, <a href="https://www.cdc.gov/dpdx/trichinellosis/index.html">according to the Centers for Disease Control and Prevention</a>. But, it's quite rare to find them in humans in North America. Between 2016 and 2022, there were seven outbreaks of trichinellosis in the US, involving just 35 cases. The majority were linked to eating bear meat, but moose and wild boar meat are also common sources.</p></div><p><a href="https://arstechnica.com/?p=2026753#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026753&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/05/if-you-plan-to-eat-an-undercooked-bear-watch-out-for-brain-worms/feed/</wfw:commentRss>
+			<slash:comments>115</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Sky voice actor says nobody ever compared her to ScarJo before OpenAI drama</title>
+		<link>https://arstechnica.com/?p=2026675</link>
+					<comments>https://arstechnica.com/tech-policy/2024/05/sky-voice-actor-says-nobody-ever-compared-her-to-scarjo-before-openai-drama/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 18:27:39 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[bette Midler]]></category>
+		<category><![CDATA[chatbot]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[her movie]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[right to publicity]]></category>
+		<category><![CDATA[scarlett johansson]]></category>
+		<category><![CDATA[sky voice]]></category>
+		<category><![CDATA[tom waits]]></category>
+		<category><![CDATA[voice misappropriation]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026675</guid>
+
+					<description><![CDATA[OpenAI’s feud with Scarlett Johansson could cost Hollywood AI deals.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1739776055-800x534.jpg" alt="Scarlett Johansson attends the Golden Heart Awards in 2023.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1739776055.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> <span class="sep">/</span> Scarlett Johansson attends the Golden Heart Awards in 2023. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/scarlett-johansson-attends-golden-heart-awards-2023-news-photo/1739776055?adppopup=true">Sean Zanni / Contributor | Patrick McMullan</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>OpenAI is sticking to its story that it never intended to copy Scarlett Johansson's voice when seeking an actor for ChatGPT's "Sky" voice mode.</p>
+<p>The company <a href="https://www.washingtonpost.com/technology/2024/05/22/openai-scarlett-johansson-chatgpt-ai-voice/">provided The Washington Post</a> with documents and recordings clearly meant to support <a href="https://arstechnica.com/tech-policy/2024/05/openai-pauses-chatgpt-4o-voice-that-fans-said-ripped-off-scarlett-johansson/">OpenAI CEO Sam Altman's defense against Johansson's claims</a> that Sky was made to sound "eerily similar" to her critically acclaimed voice acting performance in the sci-fi film <em>Her</em>.</p>
+<p>Johansson has alleged that OpenAI hired a soundalike to steal her likeness and confirmed that she declined to provide the Sky voice. Experts have said that Johansson has a strong case should she decide to sue OpenAI for violating her right to publicity, which gives the actress exclusive rights to the commercial use of her likeness.</p></div><p><a href="https://arstechnica.com/?p=2026675#p3">Read 40 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026675&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/sky-voice-actor-says-nobody-ever-compared-her-to-scarjo-before-openai-drama/feed/</wfw:commentRss>
+			<slash:comments>141</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Next up in Google’s dramatic overhaul of search: AI Overview ads</title>
+		<link>https://arstechnica.com/?p=2026600</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/next-up-in-googles-dramatic-overhaul-of-search-ai-overview-ads/#comments</comments>
+		
+		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 17:36:24 +0000</pubDate>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ai overview]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026600</guid>
+
+					<description><![CDATA[Google turned search into an AI product, and now it's time to make money. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+
+
+
+
+
+<div><a name="page-1"></a></div>
+  <ul class="gallery shortcode-gallery gallery-wide">
+          <li>
+        <div class="gallery-item-content">
+          <div class="gallery-image"><img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/11-980x738.jpg" alt=""></div>
+          <p>
+            Ads in AI Overview. They're below the fold in this example.                           [credit:
+                              Google                            ]
+                      </p>
+        </div>
+      </li>
+      </ul>
+
+<p>Google's AI Overview is a complete transformation of what Google Search is, changing from a product that searches the web to show relevant links, to a place that scrapes the web of information and shows it directly to users. Google is not done making changes, though, and next for AI Overview is ads! We're all so excited.</p>
+<p>The <a href="https://blog.google/products/ads-commerce/ai-creativity-google-marketing-live/">Google Ads &amp; Commerce blog</a> shows what this will look like, with ads landing at the bottom of the AI Overview box. The overview box was already a massive, screen-filling box, and ads make it even longer, pushing what's left of the web results even further down the page. Google's demo shows the ads at the bottom of the overview box, and you have to scroll down to see them.</p>
+<p>Google's ad placement will surely be changed and tweaked a million times in the future, and Google mentions that "in early testing, we’ve heard that people find the ads appearing above and below the AI-generated overview helpful." Leaving aside the unique perspective that ads are "helpful," there's your confirmation of the usual above-the-fold ad placement.</p></div><p><a href="https://arstechnica.com/?p=2026600#p3">Read 1 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026600&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/next-up-in-googles-dramatic-overhaul-of-search-ai-overview-ads/feed/</wfw:commentRss>
+			<slash:comments>76</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The single-motor BMW i4 proves the less-powerful EV is usually better</title>
+		<link>https://arstechnica.com/?p=2026660</link>
+					<comments>https://arstechnica.com/cars/2024/05/the-bmw-i4-edrive40-might-be-the-best-electric-sedan-on-sale-today/#comments</comments>
+		
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 17:31:38 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[BMW i4]]></category>
+		<category><![CDATA[BMW i4 eDrive40]]></category>
+		<category><![CDATA[car review]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026660</guid>
+
+					<description><![CDATA[This rear-wheel drive EV is efficient, practical, and has class-leading technology.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/2024-BMW-i4-eDrive40-1-800x600.jpg" alt="A green metallic BMW i4 seen in the rain">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/2024-BMW-i4-eDrive40-1-scaled.jpg" class="enlarge-link" data-height="1920" data-width="2560">Enlarge</a> <span class="sep">/</span> BMW's single-motor, rear-wheel drive i4 eDrive40 ticks an awful lot of my boxes.  (credit: Jonathan Gitlin)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p><span class="ars-approved-logo right"></span>I have a theory about electric vehicles, and with a few notable exceptions, <a href="https://arstechnica.com/cars/2022/06/the-driving-enthusiasts-dilemma-about-electric-cars/">it's this</a>: The cheaper, less powerful version is usually the one to get. Big power outputs and short 0–60 times have been the industry's go-to, but always with the trade-off being less range and a bigger sticker price. Today's EV is a good example. It's the BMW i4 eDrive40, a single-motor version of BMW's smaller electric fastback sedan. It has taken a while to get some seat time in one, but the wait was worth it, because this is one of the best electric sedans we've tested so far.</p>
+<p>I've driven the BMW i4 a few times now since its launch in 2021, but always <a href="https://arstechnica.com/cars/2021/10/the-2023-bmw-i4-is-the-electric-bmw-sedan-youve-been-waiting-for/">the very fast, very powerful, rather expensive i4 M50</a>. Which is fine, but not exciting like the M3. The <a href="https://arstechnica.com/cars/2021/06/bmw-finds-its-mojo-again-with-the-55400-i4-electric-sedan/">i4 eDrive40</a> undercuts the twin-motor, all-wheel drive M50 by more than $10,000—it starts at a more reasonable $57,300 and goes more than 30 miles (48 km) farther on a single charge of the same capacity 84.3 kWh (net) battery pack, with an EPA range of 301 miles (484 km).</p>
+<p>BMW made its name on the back of a string of driver-focused, rear-wheel drive sedans, and I had high expectations for the eDrive40 to live up to. With no front motor, there's less weight on the front axle, and the front wheels just have to worry about steering and braking, not laying down power as well. Less power to put down means smaller wheels, which translates into a better ride and more range, although our test car was equipped with 19-inch wheels (a $600 option), which reduced its range to 283 miles (455 km) compared to the 18-inch option.</p></div><p><a href="https://arstechnica.com/?p=2026660#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026660&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/05/the-bmw-i4-edrive40-might-be-the-best-electric-sedan-on-sale-today/feed/</wfw:commentRss>
+			<slash:comments>74</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A root-server at the Internet’s core lost touch with its peers. We still don’t know why.</title>
+		<link>https://arstechnica.com/?p=2026566</link>
+					<comments>https://arstechnica.com/security/2024/05/dns-glitch-that-threatened-internet-stability-fixed-cause-remains-unclear/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 17:10:34 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[DNS]]></category>
+		<category><![CDATA[DNSSEC]]></category>
+		<category><![CDATA[domain name system]]></category>
+		<category><![CDATA[root servers]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026566</guid>
+
+					<description><![CDATA[For 4 days, the c-root server maintained by Cogent lost touch with its 12 peers.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/internet-routing-800x534.jpeg" alt="A root-server at the Internet’s core lost touch with its peers. We still don’t know why.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/internet-routing.jpeg" class="enlarge-link" data-height="668" data-width="1000">Enlarge</a> </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>For more than four days, a server at the very core of the Internet’s domain name system was out of sync with its 12 root server peers due to an unexplained glitch that could have caused stability and security problems worldwide. This server, maintained by Internet carrier <a href="http://www.cogentco.com/">Cogent Communications</a>, is one of the 13 root servers that provision the Internet’s root zone, which sits at the top of the hierarchical distributed database known as the domain name system, or DNS.</p>
+<p>Here's a simplified recap of the way the domain name system works and how root servers fit in:</p>
+<p>When someone enters wikipedia.org in their browser, the servers handling the request first must translate the human-friendly domain name into an IP address. This is where the domain name system comes in. The first step in the DNS process is the browser queries the local stub resolver in the local operating system. The stub resolver forwards the query to a recursive resolver, which may be provided by the user's ISP or a service such as 1.1.1.1 or 8.8.8.8 from Cloudflare and Google, respectively.</p></div><p><a href="https://arstechnica.com/?p=2026566#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026566&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/05/dns-glitch-that-threatened-internet-stability-fixed-cause-remains-unclear/feed/</wfw:commentRss>
+			<slash:comments>64</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>EmTech Digital 2024: A thoughtful look at AI’s pros and cons with minimal hype</title>
+		<link>https://arstechnica.com/?p=2026462</link>
+					<comments>https://arstechnica.com/information-technology/2024/05/emtech-digital-2024-a-thoughtful-look-at-ais-pros-and-cons-with-minimal-hype/#comments</comments>
+		
+		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 16:38:38 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[EmTech Digital]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Mat Honan]]></category>
+		<category><![CDATA[Melissa Heikkilä]]></category>
+		<category><![CDATA[MIT]]></category>
+		<category><![CDATA[mit media lab]]></category>
+		<category><![CDATA[MIT Technology Review]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026462</guid>
+
+					<description><![CDATA[At MIT conference, experts explore AI's potential for "human flourishing" and the need for regulation.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/IMG_0794-800x600.jpg" alt="Nathan Benaich of Air Street capital delivers the opening presentation on the state of AI at EmTech Digital 2024 on May 22, 2024.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/IMG_0794-scaled.jpg" class="enlarge-link" data-height="1920" data-width="2560">Enlarge</a> <span class="sep">/</span> Nathan Benaich of Air Street Capital delivers the opening presentation on the state of AI at EmTech Digital 2024 on May 22, 2024. (credit: Benj Edwards)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>CAMBRIDGE, Massachusetts—On Wednesday, AI enthusiasts and experts gathered to hear a series of presentations about the state of AI at <a href="https://event.technologyreview.com/emtech-digital-us-2024/">EmTech Digital 2024</a> on the Massachusetts Institute of Technology's campus. The event was hosted by the publication MIT Technology Review. The overall consensus is that generative AI is still in its very early stages—with policy, regulations, and social norms still being established—and its growth is likely to continue into the future.</p>
+
+<p>I was there to check the event out. MIT is the birthplace of many tech innovations—including the <a href="https://www.vintagecomputing.com/index.php/archives/1863/spacewar-profile-of-a-cultural-earthquake">first action-oriented computer video game</a>—among others, so it felt fitting to hear talks about the latest tech craze in the same building that hosts MIT's <a href="https://en.wikipedia.org/wiki/MIT_Media_Lab">Media Lab</a> on its sprawling and lush campus.</p>
+<p>EmTech's speakers included AI researchers, policy experts, critics, and company spokespeople. A corporate feel pervaded the event due to strategic sponsorships, but it was handled in a low-key way that matches the level-headed tech coverage coming out of MIT Technology Review. After each presentation, MIT Technology Review staff—such as Editor-in-Chief Mat Honan and Senior Reporter Melissa Heikkilä—did a brief sit-down interview with the speaker, pushing back on some points and emphasizing others. Then the speaker took a few audience questions if time allowed.</p></div><p><a href="https://arstechnica.com/?p=2026462#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026462&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/information-technology/2024/05/emtech-digital-2024-a-thoughtful-look-at-ais-pros-and-cons-with-minimal-hype/feed/</wfw:commentRss>
+			<slash:comments>18</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>US sues Ticketmaster and owner Live Nation, seeks breakup of monopoly</title>
+		<link>https://arstechnica.com/?p=2026640</link>
+					<comments>https://arstechnica.com/tech-policy/2024/05/us-sues-ticketmaster-and-owner-live-nation-seeks-breakup-of-monopoly/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 16:04:54 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[live nation ticketmaster]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026640</guid>
+
+					<description><![CDATA[Live Nation has monopolized "nearly all live music in America today," US says.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/ticketmaster-800x533.jpg" alt="A large Ticketmaster logo is displayed on a digital screen above the field where a soccer game is played.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/ticketmaster.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> <span class="sep">/</span> Ticketmaster advertisements in the United States v. South Africa women's soccer match at Soldier Field on September 24, 2023 in Chicago, Illinois.  (credit: Getty Images | Daniel Bartel/ISI Photos/USSF)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The US government today sued Live Nation and its Ticketmaster subsidiary in a complaint that seeks a breakup of the company that dominates the live music and events market.</p>
+<p>The US Department of Justice is seeking "structural relief," including a breakup, "to stop the anticompetitive conduct arising from Live Nation's monopoly power." The DOJ <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.621993/gov.uscourts.nysd.621993.1.0_1.pdf">complaint</a> asked a federal court to "order the divestiture of, at minimum, Ticketmaster, along with any additional relief as needed to cure any anticompetitive harm."</p>
+<p>The District of Columbia and 29 states joined the DOJ in the lawsuit filed in US District Court for the Southern District of New York. "One monopolist serves as the gatekeeper for the delivery of nearly all live music in America today: Live Nation, including its wholly owned subsidiary Ticketmaster," the complaint said.</p></div><p><a href="https://arstechnica.com/?p=2026640#p3">Read 17 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026640&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/us-sues-ticketmaster-and-owner-live-nation-seeks-breakup-of-monopoly/feed/</wfw:commentRss>
+			<slash:comments>115</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The 2024 Chevrolet Silverado EV’s great range comes at a high cost</title>
+		<link>https://arstechnica.com/?p=2026203</link>
+					<comments>https://arstechnica.com/cars/2024/05/the-2024-chevrolet-silverado-evs-great-range-comes-at-a-high-cost/#comments</comments>
+		
+		<dc:creator><![CDATA[Ars Contributors]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 16:00:20 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[car review]]></category>
+		<category><![CDATA[Chevrolet silverado EV]]></category>
+		<category><![CDATA[First drive]]></category>
+		<category><![CDATA[Ultium]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026203</guid>
+
+					<description><![CDATA[At $94,500, the Chevrolet Silverado RST First Edition offers diminishing returns.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Ars-Technica-Chevrolet-Silverado-EV-4-800x533.jpg" alt="A black Chevrolet Silverado EV">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Ars-Technica-Chevrolet-Silverado-EV-4.jpg" class="enlarge-link" data-height="1600" data-width="2400">Enlarge</a> <span class="sep">/</span> Chevrolet is starting at the top with the Silverado EV RST First Edition. It's betting that EV truck buyers want a lot of range and towing capability and will pay handsomely for the experience. (credit: Michael Teo Van Runkle)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<aside class="pullbox sidebar fullwidth">Chevrolet provided flights from Los Angeles to Detroit and accommodation so Ars could drive the Silverado EV. Ars does not accept paid editorial content.</aside>
+<p>The latest addition to Chevrolet's growing family of Ultium electric vehicles recently began shipping to dealers in the form of the Silverado EV's early RST First Edition package. Silverado's top spec level now joins the lineup's previous fleet-only WT trim, meaning the general public can now purchase an enormous electric pickup that strongly resembles the Avalanche of 2001 to 2013. But despite any other similarities to <a href="https://arstechnica.com/cars/2022/04/the-hummer-ev-is-an-electric-truck-for-people-who-think-evs-are-stupid/">the Hummer EV</a>, which shares a related chassis, or ICE trucks of old, the 2024 Silverado aims to change the game for GM's market positioning despite arriving a full <a href="https://arstechnica.com/cars/2022/05/the-most-important-ev-of-the-decade-we-drive-the-f-150-lightning/4/">24 months after Ford's F-150 Lightning</a>.</p>
+<p>With a large crew cab, a longer truck bed, and angular sail panels, the Silverado EV looks less boxy than GMC's Hummer EV. Aero gains thanks to the smoother design pair with lower rolling-resistance tires, allowing the Silverado to achieve an EPA range estimate of up to 450 miles (724 km), though the RST First Edition I recently drove over the course of a long day in Michigan earns a rating of 440 miles (708 km).</p>
+<p>On the highway, judging by wind noise around the cabin alone, the aerodynamic gains of the Silverado's styling seem to make a noticeable difference versus the Hummer. On the other hand, tire hum might cover up any aero deficiencies because the RST's single weirdest detail constantly occupies center stage here: a set of 24-inch wheels, the largest ever equipped to a car, truck, or SUV straight from the factory.</p></div><p><a href="https://arstechnica.com/?p=2026203#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026203&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/05/the-2024-chevrolet-silverado-evs-great-range-comes-at-a-high-cost/feed/</wfw:commentRss>
+			<slash:comments>124</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Teslas can still be stolen with a cheap radio hack despite new keyless tech</title>
+		<link>https://arstechnica.com/?p=2026474</link>
+					<comments>https://arstechnica.com/cars/2024/05/teslas-can-still-be-stolen-with-a-cheap-radio-hack-despite-new-keyless-tech/#comments</comments>
+		
+		<dc:creator><![CDATA[WIRED]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 14:24:10 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[car theft]]></category>
+		<category><![CDATA[model 3]]></category>
+		<category><![CDATA[relay attack]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[Tesl]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026474</guid>
+
+					<description><![CDATA[Tesla owners should enable PIN-to-drive protection to thwart relay attacks.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/01/GettyImages-1531040160-800x503.jpg" alt="New Tesla electric vehicles fill the car lot at the Tesla retail location on Route 347 in Smithtown, New York on July 5, 2023.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/01/GettyImages-1531040160-scaled.jpg" class="enlarge-link" data-height="1611" data-width="2560">Enlarge</a> <span class="sep">/</span> Tesla sold 1.2 million Model Y crossovers last year. (credit: John Paraskevas/Newsday RM via Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>For at least a decade, a car theft trick known as a <a href="https://www.wired.com/2017/04/just-pair-11-radio-gadgets-can-steal-car/">“relay attack”</a> has been the modern equivalent of hot-wiring: a cheap and relatively easy technique to steal hundreds of models of vehicles. A more recent upgrade to the radio protocol in cars' keyless entry systems known as ultra-wideband communications, rolled out to some high-end cars including the latest <a href="https://www.wired.com/story/tesla-model-3-review/">Tesla Model 3</a>, has been heralded as the fix for that ubiquitous form of grand theft auto. But when one group of Chinese researchers actually checked whether it's still possible to perform relay attacks against the latest Tesla and a collection of other cars that support that next-gen radio protocol, they found that they're as stealable as ever.</p>
+<figure class="video ars-wp-video">
+    <div class="wrapper ars-wp-video-wrapper" style="padding-bottom: 56.25%;">
+        <video class="wp-video-shortcode" id="video-2026474-1" width="1920" height="1080" preload="metadata" controls="controls"><source type="video/mp4" src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/tesla-radio-hack.mp4?_=1"></source></video>    </div>
+    </figure>
+<p>In a video shared with WIRED, researchers at the Beijing-based automotive cybersecurity firm GoGoByte demonstrated that they could carry out a relay attack against the latest Tesla Model 3 despite its upgrade to an ultra-wideband keyless entry system, instantly unlocking it with less than a hundred dollars worth of radio equipment. Since the Tesla 3's keyless entry system also controls the car's immobilizer feature designed to prevent its theft, that means a radio hacker could start the car and drive it away in seconds—unless the driver has enabled Tesla's optional, off-by-default PIN-to-drive feature that requires the owner to enter a four-digit code before starting the car.</p>
+<p></p></div><p><a href="https://arstechnica.com/?p=2026474#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026474&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/05/teslas-can-still-be-stolen-with-a-cheap-radio-hack-despite-new-keyless-tech/feed/</wfw:commentRss>
+			<slash:comments>103</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The next food marketing blitz is aimed at people on new weight-loss drugs</title>
+		<link>https://arstechnica.com/?p=2026494</link>
+					<comments>https://arstechnica.com/science/2024/05/with-weight-loss-drugs-booming-companies-target-dieters-with-new-foods/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 14:08:53 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Daily Harvest]]></category>
+		<category><![CDATA[diet]]></category>
+		<category><![CDATA[food]]></category>
+		<category><![CDATA[food industry]]></category>
+		<category><![CDATA[GLP-1]]></category>
+		<category><![CDATA[GNC]]></category>
+		<category><![CDATA[mounjaro]]></category>
+		<category><![CDATA[nestle]]></category>
+		<category><![CDATA[Ozempic]]></category>
+		<category><![CDATA[wegovy]]></category>
+		<category><![CDATA[weight loss]]></category>
+		<category><![CDATA[Weight Watchers]]></category>
+		<category><![CDATA[zepbound]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026494</guid>
+
+					<description><![CDATA[Taking a weight-loss drug? Food makers have just the new food for you.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1189380093-800x533.jpeg" alt="The next food marketing blitz is aimed at people on new weight-loss drugs">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1189380093-scaled.jpeg" class="enlarge-link" data-height="1706" data-width="2560">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/miami-beach-publix-grocery-store-frozen-foods-aisle-news-photo/1189380093?searchscope=image%2Cfilm&amp;adppopup=true">Getty | Jeffrey Greenberg</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>As new diabetes and weight-loss drugs help patients curb appetites and <a href="https://arstechnica.com/science/2024/05/long-term-wegovy-study-finds-weight-loss-plateaus-a-little-after-a-year/">shed pounds</a>, food manufacturers are looking for new ways to keep their bottom lines plump.</p>
+<p>Millions of Americans have begun taking the <a href="https://arstechnica.com/science/2024/05/outrageously-priced-weight-loss-drugs-could-bankrupt-us-health-care/">pricey new drugs</a>—particularly Mounjaro, Ozempic, Wegovy, and Zepbound—and millions more are expected to go on them in the coming years. As such, food makers are bracing for slimmer sales. In <a href="https://www.morganstanley.com/ideas/obesity-drugs-market-expanded-opportunity">a report earlier this month</a>, Morgan Stanley's tobacco and packaged food analyst Pamela Kaufman said the drugs are expected to affect both the amounts and the types of food people eat, taking a bite out of the food and drink industry's profits.</p>
+<p>"In Morgan Stanley Research surveys, people taking weight-loss drugs were found to eat less food in general, while half slashed their consumption of sugary drinks, alcohol, confections and salty snacks, and nearly a quarter stopped drinking alcohol completely," Kaufman said. Restaurants that sell unhealthy foods, particularly chains, may face long-term business risks, the report noted. Around 75 percent of survey respondents taking weight-loss drugs said they had cut back on going to pizza and fast food restaurants.</p></div><p><a href="https://arstechnica.com/?p=2026494#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026494&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/05/with-weight-loss-drugs-booming-companies-target-dieters-with-new-foods/feed/</wfw:commentRss>
+			<slash:comments>129</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Redwood partners with GM joint venture Ultium to recycle battery scrap</title>
+		<link>https://arstechnica.com/?p=2026304</link>
+					<comments>https://arstechnica.com/cars/2024/05/gm-to-recycle-10k-tons-of-ev-battery-materials-a-year-with-redwood-deal/#comments</comments>
+		
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 13:00:00 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[battery recycling]]></category>
+		<category><![CDATA[EV battery recycling]]></category>
+		<category><![CDATA[General Motors]]></category>
+		<category><![CDATA[Redwood Materials]]></category>
+		<category><![CDATA[Ultium]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026304</guid>
+
+					<description><![CDATA[Production scrap from cell factories in Ohio and Tennessee will be recycled.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Materials1-800x534.jpg" alt="Eight beakers filled with colorful mineral salts, photographed from above.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Materials1.jpg" class="enlarge-link" data-height="5464" data-width="8192">Enlarge</a> <span class="sep">/</span> These minerals were once part of lithium-ion battery cells and will be once again. (credit: Redwood Materials)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Battery recycling company Redwood Materials will start recycling battery production scrap from General Motors' new line of electric vehicles. This morning, Redwood announced that it is working with Ultium Cells, the joint venture between GM and LG Energy Solutions that makes Ultium battery cells. Approximately 10,000 tons a year of production scrap will be sent from the Ultium Cells plants in Ohio and Tennessee to Redwood's site in northern Nevada.</p>
+<p>Redwood was <a href="https://arstechnica.com/science/2020/09/former-tesla-cto-wins-amazon-funding-for-battery-recycling-project/">started by</a> former Tesla CTO JB Straubel in 2017 and in recent years has announced partnerships with multiple OEMs, including <a href="https://arstechnica.com/cars/2022/02/ford-volvo-and-redwood-materials-start-recycling-ev-batteries/">Ford, Volvo</a>, <a href="https://arstechnica.com/cars/2022/07/volkswagen-partners-with-redwood-materials-to-recycle-ev-batteries/">Volkswagen</a>, and now General Motors. Last year, the US Department of Energy <a href="https://arstechnica.com/cars/2023/02/redwood-gets-2-billion-commitment-from-doe-for-recycled-batteries/">approved a $2 billion loan</a> to Redwood as part of its Advanced Technology Manufacturing program (which also funded Ultium Cells).</p>
+<p>Redwood says that its hydrometallurgy facility is now a "commercial-scale source of lithium supply," the first to come online in the United States for decades. The facility also produces raw nickel and cobalt from battery scrap.</p></div><p><a href="https://arstechnica.com/?p=2026304#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026304&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/05/gm-to-recycle-10k-tons-of-ev-battery-materials-a-year-with-redwood-deal/feed/</wfw:commentRss>
+			<slash:comments>37</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>New warp drive concept does twist space, doesn’t move us very fast</title>
+		<link>https://arstechnica.com/?p=2025766</link>
+					<comments>https://arstechnica.com/science/2024/05/physicists-find-a-possible-way-to-get-warped-space-but-no-drive/#comments</comments>
+		
+		<dc:creator><![CDATA[Paul Sutter]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 12:55:48 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[faster than light travel]]></category>
+		<category><![CDATA[general relativity]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[warp drive]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2025766</guid>
+
+					<description><![CDATA[While it won't make a useful spaceship engine, it may tell us more about relativity.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2015/12/Enterprise-Temporal-Vortex-640x275.jpg" alt="The Enterprise, caught in the wake of a temporal vortex, witnesses the Earth, assimilated long ago, in the altered timeline. ">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2015/12/Enterprise-Temporal-Vortex.jpg" class="enlarge-link" data-height="826" data-width="1920">Enlarge</a> <span class="sep">/</span> The Enterprise, caught in the wake of a temporal vortex, witnesses the Earth, assimilated long ago, in the altered timeline.  (credit: Paramount Pictures)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>A team of physicists has discovered that it’s possible to build a real, actual, physical warp drive and not break any known rules of physics. One caveat: the vessel doing the warping can’t exceed the speed of light, so you’re not going to get anywhere interesting any time soon. But this research still represents an important advance in our understanding of gravity.</p>
+<h2>Moving without motion</h2>
+<p>Einstein’s general theory of relativity is a toolkit for solving problems involving gravity that connects mass and energy with deformations in spacetime. In turn, those spacetime deformations instruct the mass and energy how to move. In almost all cases, physicists use the equations of relativity to figure out how a particular combination of objects will move. They have some physical scenario, like a planet orbiting a star or two black holes colliding, and they ask how those objects deform spacetime and what the subsequent evolution of the system should be.</p>
+<p>But it’s also possible to run Einstein’s math in reverse by imagining some desired motion and asking what kind of spacetime deformation can make it possible. This is how the Mexican physicist Miguel Alcubierre discovered the physical basis for a warp drive—long a staple of the <em>Star Trek </em>franchise.</p></div><p><a href="https://arstechnica.com/?p=2025766#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2025766&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/05/physicists-find-a-possible-way-to-get-warped-space-but-no-drive/feed/</wfw:commentRss>
+			<slash:comments>157</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Second human case of bird flu linked to cows found—via text messages</title>
 		<link>https://arstechnica.com/?p=2026362</link>
 					<comments>https://arstechnica.com/science/2024/05/second-dairy-farm-worker-infected-with-bird-flu-amid-cow-outbreak-cdc-reports/#comments</comments>
@@ -52,703 +769,7 @@
 <p>In a press briefing Wednesday afternoon, CDC Principal Deputy Director Nirav Shah said the person was taking part in an active surveillance system, in which the state's health department sent out a text message every day asking about the presence of any symptoms. The worker's infection was identified after the person responded that there were symptoms.</p></div><p><a href="https://arstechnica.com/?p=2026362#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026362&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/05/second-dairy-farm-worker-infected-with-bird-flu-amid-cow-outbreak-cdc-reports/feed/</wfw:commentRss>
-			<slash:comments>43</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>T-Mobile imposes $5 monthly price hike on customers using older plans</title>
-		<link>https://arstechnica.com/?p=2026437</link>
-					<comments>https://arstechnica.com/tech-policy/2024/05/t-mobile-imposes-5-monthly-price-hike-on-customers-using-older-plans/#comments</comments>
-		
-		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 21:47:28 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[t-mobile]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026437</guid>
-
-					<description><![CDATA[T-Mobile raises rates $2 or $5 per line on "some of our oldest rate plans."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2020/06/getty-t-mobile-sign-800x533.jpg" alt="A T-Mobile logo on the window of a store.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2020/06/getty-t-mobile-sign.jpg" class="enlarge-link" data-height="1239" data-width="1859">Enlarge</a> <span class="sep">/</span> A T-Mobile logo at a store in New York on April 30, 2018. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/collections/bloomberg">Getty Images | Bloomberg</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>T-Mobile today is notifying customers on some older smartphone plans that their monthly prices will soon be increased by either $2 or $5.</p>
-<p>T-Mobile confirmed the price increases when contacted by Ars today. "The increase is $2 or $5 per line. We won't be sharing the details on which plans but the portion of customers who are included are being notified today," a T-Mobile spokesperson told us.</p>
-<p>The price increases, which reportedly will take effect during the June billing cycle, were <a href="https://tmo.report/2024/05/confirmed-t-mobile-is-raising-prices-on-some-legacy-plans/">previously confirmed</a> by The Mobile Report. The news article said that affected plans include One, Magenta, Magenta Max, Magenta 55+, Magenta First Responder, and Simple Choice. While smartphone plans will increase either $2 or $5, it appears that affected plans for tablets and hotspots will get a $2 price increase.</p></div><p><a href="https://arstechnica.com/?p=2026437#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026437&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/t-mobile-imposes-5-monthly-price-hike-on-customers-using-older-plans/feed/</wfw:commentRss>
-			<slash:comments>86</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Netflix releases first look at new Witcher after Henry Cavill left for Warhammer 40K</title>
-		<link>https://arstechnica.com/?p=2026264</link>
-					<comments>https://arstechnica.com/culture/2024/05/netflix-releases-first-look-at-new-witcher-after-henry-cavill-left-for-warhammer-40k/#comments</comments>
-		
-		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 20:14:13 +0000</pubDate>
-				<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[fantasy]]></category>
-		<category><![CDATA[henry cavill]]></category>
-		<category><![CDATA[Liam Hemsworth]]></category>
-		<category><![CDATA[Netflix]]></category>
-		<category><![CDATA[streaming]]></category>
-		<category><![CDATA[The Witcher]]></category>
-		<category><![CDATA[TV]]></category>
-		<category><![CDATA[Warhammer 40K]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026264</guid>
-
-					<description><![CDATA[It's a brief glimpse, but Liam Hemsworth at least looks the part.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<div class="video"><div class="wrapper"><iframe style="display:block" type="text/html" width="980" height="550" src="https://www.youtube.com/embed/kr3br-3i8TY?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe></div><p class="caption" style="font-size:0.8em"><em>The Witcher</em> season four teaser. </p></div>
-<p>It has been a tumultuous run for Netflix's popular adaptation of The Witcher novels and games. A series of setbacks and controversies led to a long delay after the show lost its star, Henry Cavill. Now a brief season four teaser gives us our first look at Cavill's replacement in the role of Geralt of Rivia, Liam Hemsworth.</p>
-<p>The video above reveals little about the direction for the season beyond establishing that, yes, Hemsworth is now Geralt, and here's what it looks like. He looks the part, though it's hard for some fans to imagine him matching Cavill's pitch-perfect presence and delivery for the character.</p>
-<p>See, Cavill is famously a passionate gamer. He's talked at length about his deep fandom of <em>Warhammer 40K</em>, his experiences playing <em>World of Warcraft</em>, and yes, his experiences with 2015's immensely popular open-world RPG <em>The Witcher 3: Wild Hunt</em>. He even has appeared in a video <a href="https://www.youtube.com/watch?v=G2gYUVQrLzQ">building a gaming PC</a>.</p></div><p><a href="https://arstechnica.com/?p=2026264#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026264&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/culture/2024/05/netflix-releases-first-look-at-new-witcher-after-henry-cavill-left-for-warhammer-40k/feed/</wfw:commentRss>
-			<slash:comments>61</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>One difference with this wave of Arm PCs? All the big PC makers are actually on board</title>
-		<link>https://arstechnica.com/?p=2025874</link>
-					<comments>https://arstechnica.com/gadgets/2024/05/one-difference-with-this-wave-of-arm-pcs-all-the-big-pc-makers-are-actually-on-board/#comments</comments>
-		
-		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 20:06:24 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Acer]]></category>
-		<category><![CDATA[ASUS]]></category>
-		<category><![CDATA[copilot]]></category>
-		<category><![CDATA[copliot+]]></category>
-		<category><![CDATA[dell]]></category>
-		<category><![CDATA[HP]]></category>
-		<category><![CDATA[Lenovo]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[Samsung]]></category>
-		<category><![CDATA[windows 11]]></category>
-		<category><![CDATA[windows 11 24h2]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2025874</guid>
-
-					<description><![CDATA[Windows RT and Windows 10-on-Arm each launched with just a handful of devices.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/win11-bloom-rainbow-800x500.jpeg" alt="One difference with this wave of Arm PCs? All the big PC makers are actually on board">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/win11-bloom-rainbow.jpeg" class="enlarge-link" data-height="1200" data-width="1920">Enlarge</a> (credit: Microsoft)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Here at Ars, we’ve been around long enough to chronicle every single time that Microsoft has tried to get Windows running on Arm-based processors, instead of the Intel and AMD-made x86 chips that have been synonymous with Windows for more than three decades. The most significant attempts happened in 2012 with Windows RT, which looked like Windows 8 but couldn’t run any x86 Windows apps; and in 2017 when Windows 10 Arm PCs <a href="https://arstechnica.com/information-technology/2016/12/microsoft-pushes-for-a-more-modern-pc-with-vr-project-evo-and-arm-support/">arrived with rudimentary x86 emulation</a>.</p>
-
-<p>The main PC company backing each of those Arm efforts was Microsoft itself, which launched the original Surface to showcase Windows RT and the first Surface Pro X during the Windows 10 era. Since then, Microsoft has periodically refreshed the Arm version of the Surface tablet while continuing to sell Intel versions. A couple of PC OEMs put out Windows RT tablets, and most of them took a stab at one or two Windows 10-into-11-era Arm PCs. But there was never a big unified push that made it clear that the entire consumer PC ecosystem had bought into Arm.</p>
-<p>This week’s announcements felt different—yes, there was a new Surface Pro and Surface Laptop from Microsoft leading the charge (and the new Surface Pro is the first Surface Pro ever to ship Arm as the default option for most people). But the Surface launch was accompanied by a major wave of systems from essentially every major PC OEM, suggesting at least some level of elevated enthusiasm for the Snapdragon X series that didn’t exist for older Arm chips.</p></div><p><a href="https://arstechnica.com/?p=2025874#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2025874&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/one-difference-with-this-wave-of-arm-pcs-all-the-big-pc-makers-are-actually-on-board/feed/</wfw:commentRss>
-			<slash:comments>97</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Lizard that Hulks out shows off its superhero genes</title>
-		<link>https://arstechnica.com/?p=2025795</link>
-					<comments>https://arstechnica.com/science/2024/05/lizard-that-hulks-out-shows-off-its-superhero-genes/#comments</comments>
-		
-		<dc:creator><![CDATA[Elizabeth Rayne]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 19:31:07 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[evolution]]></category>
-		<category><![CDATA[Genomics]]></category>
-		<category><![CDATA[lizards]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2025795</guid>
-
-					<description><![CDATA[A subspecies of reptiles in Italy is much bigger and greener than its relatives.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-169371781-800x480.jpg" alt="The head and forelimbs of a green, brown, and yellow lizard on a rock.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-169371781-scaled.jpg" class="enlarge-link" data-height="1535" data-width="2560">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/common-wall-lizard-royalty-free-image/169371781?phrase=Podarcis+muralis">Kristian Bell</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The lizard <i>Podarcis</i><i> muralis nigriventris</i><i> </i>might not grow to a freakish size and smash everything in sight, but evolution has turned this lizard into the Incredible Hulk of sorts—green skin included. <em>P. </em><i>nigriventris</i> is something like the imposing Marvel superhero when compared to other strains of common wall lizards (<i>Podarcis muralis</i>). While the common version tends to be relatively small and brownish to greenish-brown, the <i>nigriventris</i> subspecies, which is found in central Italy, is visually impressive because of its green(er) skin with black markings, larger size, and heightened aggression.</p>
-<p>A team of evolutionary biologists led by Nathalie Feiner of Lund University in Sweden decided to find out which genes contributed to making <i>P. nigriventris </i>so Hulkish. Like many fictional humans with superpowers (but unlike the mutant Hulk), this lizard is a hybrid.</p>
-<h2>Hulking hybrids</h2>
-<p>Though common wall lizards are found from the Iberian peninsula all the way to Asia Minor, the researchers focused on lizards from populations in central Italy (IT lineage) and the southern Alps (SA lineage). These lineages most likely diverged from a common ancestor between 5–6 million years ago and then began to hybridize—individuals from the different lineages mated with each other to produce hybrid offspring.</p></div><p><a href="https://arstechnica.com/?p=2025795#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2025795&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/05/lizard-that-hulks-out-shows-off-its-superhero-genes/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Here’s what’s really going on inside an LLM’s neural network</title>
-		<link>https://arstechnica.com/?p=2026236</link>
-					<comments>https://arstechnica.com/ai/2024/05/heres-whats-really-going-on-inside-an-llms-neural-network/#comments</comments>
-		
-		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 18:31:25 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[black box]]></category>
-		<category><![CDATA[neural network]]></category>
-		<category><![CDATA[research]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026236</guid>
-
-					<description><![CDATA[Anthropic's conceptual mapping helps explain why LLMs behave the way they do.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/deconstructing-ai-800x450.jpg" alt="Here’s what’s really going on inside an LLM’s neural network">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/deconstructing-ai.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> (credit: Aurich Lawson | Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>With most computer programs—even complex ones—you can meticulously trace through the code and memory usage to figure out <em>why</em> that program generates any specific behavior or output. That's generally not true in the field of generative AI, where the non-interpretable neural networks underlying these models make it hard for even experts to figure out precisely <a href="https://arstechnica.com/information-technology/2023/04/why-ai-chatbots-are-the-ultimate-bs-machines-and-how-people-hope-to-fix-them/">why they often confabulate information</a>, for instance.</p>
-<p>Now, <a href="https://www.anthropic.com/research/mapping-mind-language-model">new research from Anthropic</a> offers a new window into what's going on inside the Claude LLM's "black box." The company's <a href="https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html">new paper</a> on "Extracting Interpretable Features from Claude 3 Sonnet" describes a powerful new method for at least partially explaining just how the model's millions of artificial neurons fire to create <a href="https://arstechnica.com/information-technology/2024/03/the-ai-wars-heat-up-with-claude-3-claimed-to-have-near-human-abilities/">surprisingly lifelike responses</a> to general queries.</p>
-<h2>Opening the hood</h2>
-<p>When analyzing an LLM, it's trivial to see which specific artificial neurons are activated in response to any particular query. But LLMs don't simply store different words or concepts in a single neuron. Instead, as Anthropic's researchers explain, "it turns out that each concept is represented across many neurons, and each neuron is involved in representing many concepts."</p></div><p><a href="https://arstechnica.com/?p=2026236#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026236&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/ai/2024/05/heres-whats-really-going-on-inside-an-llms-neural-network/feed/</wfw:commentRss>
-			<slash:comments>47</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Lawmakers say Section 230 repeal will protect children—opponents predict chaos</title>
-		<link>https://arstechnica.com/?p=2026242</link>
-					<comments>https://arstechnica.com/tech-policy/2024/05/lawmakers-say-section-230-repeal-will-protect-children-opponents-predict-chaos/#comments</comments>
-		
-		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 18:28:18 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[section 230 repeal]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026242</guid>
-
-					<description><![CDATA[Repeal bill is bipartisan but has opponents from across the political spectrum.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/pallone-mcmorris-rodgers-800x533.jpg" alt="A US lawmaker speaks at a congressional hearing">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/pallone-mcmorris-rodgers.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> <span class="sep">/</span> US Rep. Frank Pallone, Jr. (D-N.J.), right, speaks as House Commerce Committee Chair Cathy McMorris Rodgers (R-Wash.) looks on during a hearing about TikTok on Thursday, March 23, 2023. (credit: Getty Images | Tom Williams )</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>A proposed repeal of Section 230 is designed to punish Big Tech but is also facing opposition from library associations, the Internet Archive, the owner of Wikipedia, and advocacy groups from across the political spectrum who say a repeal is bad for online speech. Opposition poured in before a House <a href="https://energycommerce.house.gov/events/communications-and-technology-subcommittee-hearing-legislative-proposal-to-sunset-section-230-of-the-communications-decency-act">hearing</a> today on the bipartisan plan to "sunset" Section 230 of the Communications Decency Act, which gives online platforms <a href="https://arstechnica.com/tech-policy/2020/06/section-230-the-internet-law-politicians-love-to-hate-explained/">immunity from lawsuits</a> over how they moderate user-submitted content.</p>
-<p>Lawmakers defended the proposed repeal. House Commerce Committee Ranking Member Frank Pallone, Jr. (D-N.J.) today <a href="https://democrats-energycommerce.house.gov/media/press-releases/pallone-stresses-need-hold-big-tech-accountable-sunsetting-section-230">said</a> that "Section 230 has outlived its usefulness and has played an outsized role in creating today's 'profits over people' Internet" and criticized what he called "Big Tech's constant scare tactics about reforming Section 230."</p>
-<p>Pallone teamed up with Commerce Committee Chair Cathy McMorris Rodgers (R-Wash.) to <a href="https://energycommerce.house.gov/posts/bipartisan-energy-and-commerce-leaders-announce-legislative-hearing-on-sunsetting-section-230">propose</a> the Section 230 repeal. The lawmakers haven't come up with a replacement for the law, a tactic that some critics predict will lead to legislative chaos. A <a href="https://d1dth6e84htgma.cloudfront.net/05_22_24_Section_230_Leg_C_and_T_Hearing_Memo_1_9e8995c30b.pdf">hearing memo</a> said the draft bill "would sunset Section 230 of the Communications Act effective on December 31, 2025," but claimed the "intent of the legislation is not to have Section 230 actually sunset, but to encourage all technology companies to work with Congress to advance a long-term reform solution to Section 230."</p></div><p><a href="https://arstechnica.com/?p=2026242#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026242&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/lawmakers-say-section-230-repeal-will-protect-children-opponents-predict-chaos/feed/</wfw:commentRss>
-			<slash:comments>203</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Humane AI Pin is a disaster: Founders already want to sell the company</title>
-		<link>https://arstechnica.com/?p=2026234</link>
-					<comments>https://arstechnica.com/gadgets/2024/05/humane-ai-pin-founders-run-for-the-exits-one-month-after-launch/#comments</comments>
-		
-		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 18:19:50 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026234</guid>
-
-					<description><![CDATA[One month after launch of its "smartphone replacement," Humane already seems doomed. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/11/10-800x450.jpg" alt="Humane AI Pin">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/11/10.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> <span class="sep">/</span> The Humane AI Pin. It has a magnetic back, so it sticks to your clothing like a name tag.  (credit: Humane)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The wearable startup Humane, makers of the bizarre Humane AI Pin, is already looking for the exit. Bloomberg reports the company is <a href="https://www.bloomberg.com/news/articles/2024-05-22/wearable-ai-startup-humane-is-said-to-explore-potential-sale">seeking a sale</a> after its first and only product launch was a big flop. Despite seemingly having nothing else in the pipeline and the AI Pin being dead on arrival, Bloomberg reports the company is "seeking a price of between $750 million and $1 billion in a sale." Humane was founded by two ex-Apple employees, Imran Chaudhri and Bethany Bongiorno, in 2018 and has raised $230 million from some big-name investors like OpenAI CEO Sam Altman.</p>
-<p>The Humane AI Pin <a href="https://arstechnica.com/gadgets/2023/11/humane-ai-pin-a-700-voice-command-box-definitely-wont-replace-your-phone/2/">immediately seemed</a> like an idea that only made sense in a VC pitch room. The device is a wearable voice command box and camera that you magnetically clip onto a shirt, sort of like a Star Trek communicator. It wanted to replace your smartphone yet had no traditional display, and the company bragged in the launch video: "We don't do apps." That means you're left with mostly voice commands for whatever the voice command system can process. You could press on the front and ask a question. The camera could also be involved in a "what's this thing?" capacity.</p>
-<p>While there was no onboard display, it did have a one-color 720p laser projection system that would project onto your hand. The UI looked just like a smartwatch, and you controlled it with the same hand you're using as a projection screen. You could tilt your palm around to select something and tap your fingers together to confirm, all the while distorting and moving the "display" being projected onto your hand. The smartwatch-like UI raises the question: "Why not just wear a smartwatch instead?" Then you'd have real apps, a real display, a less-weird form factor, better input, and better voice commands, and it would probably cost less. Oh, yeah, about that price: The Humane AI Pin was $700 <em>plus</em> a $24-a-month subscription fee, while an Apple Watch Series 9 is $400.</p></div><p><a href="https://arstechnica.com/?p=2026234#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026234&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/humane-ai-pin-founders-run-for-the-exits-one-month-after-launch/feed/</wfw:commentRss>
-			<slash:comments>142</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Whale songs have features of language, but whales may not be speaking</title>
-		<link>https://arstechnica.com/?p=2025782</link>
-					<comments>https://arstechnica.com/science/2024/05/do-sperm-whale-calls-share-features-with-speech-or-song/#comments</comments>
-		
-		<dc:creator><![CDATA[Jacek Krywko]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 15:55:10 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[animal behavior]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[language]]></category>
-		<category><![CDATA[whale song]]></category>
-		<category><![CDATA[whales]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2025782</guid>
-
-					<description><![CDATA[The features that whale calls share with language are very abstract.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-857317768-800x534.jpg" alt="A group of sperm whales and remora idle near the surface of the ocean.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-857317768.jpg" class="enlarge-link" data-height="1415" data-width="2120">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/pod-of-sperm-whale-calves-and-juveniles-in-a-social-royalty-free-image/857317768?phrase=sperm+whale">wildestanimal</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Whales use complex communication systems we still don’t understand, a trope exploited in sci-fi shows like Apple TV’s <em>Extrapolations</em>. That show featured a humpback whale (voiced by Meryl Streep) discussing Mahler’s symphonies with a human researcher via some AI-powered inter-species translation app developed in 2046.</p>
-<p>We’re a long way from that future. But a team of MIT researchers has now analyzed a database of Caribbean sperm whales’ calls and has found there really is a contextual and combinatorial structure in there. But does it mean whales have a human-like language and we can just wait until Chat GPT 8.0 to figure out how to translate from English to Sperm-Whaleish? Not really.</p>
-<h2>One-page dictionary</h2>
-<p>“Sperm whales communicate using clicks. These clicks occur in short packets we call codas that typically last less than two seconds, containing three to 40 clicks,” said Pratyusha Sharma, a researcher at the MIT Computer Science and Artificial Intelligence Laboratory and the lead author of the study. Her team argues that codas are analogues of words in human language and are further organized in coda sequences that are analogues of sentences. “Sperm whales are not born with this communication system; it's acquired and changes over the course of time,” Sharma said.</p></div><p><a href="https://arstechnica.com/?p=2025782#p3">Read 24 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2025782&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/05/do-sperm-whale-calls-share-features-with-speech-or-song/feed/</wfw:commentRss>
-			<slash:comments>52</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>A week with the Chevy Blazer EV shows things to love—but also painful flaws</title>
-		<link>https://arstechnica.com/?p=2026183</link>
-					<comments>https://arstechnica.com/cars/2024/05/a-week-with-the-chevy-blazer-ev-shows-things-to-love-but-also-painful-flaws/#comments</comments>
-		
-		<dc:creator><![CDATA[Ars Contributors]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 15:12:24 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Apple CarPlay]]></category>
-		<category><![CDATA[car review]]></category>
-		<category><![CDATA[Chevrolet Blazer EV]]></category>
-		<category><![CDATA[General Motors]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026183</guid>
-
-					<description><![CDATA[The decision to drop Apple CarPlay was a mistake. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/DSC_8493-800x529.jpg" alt="A red Chevrolet Blazer">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/DSC_8493.jpg" class="enlarge-link" data-height="925" data-width="1400">Enlarge</a> <span class="sep">/</span> The Chevrolet Blazer was pulled from sale almost immediately after our first drive in December. Now it's back on sale—with a price cut. (credit: Michael Frank)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>General Motors appears to have solved the problem that was holding back the production of its Ultium-based electric vehicles. These are now rolling out of factories—you can expect to read about the new Silverado EV tomorrow and the (allegedly affordable) Equinox EV next week, to name but two. We got <a href="https://arstechnica.com/cars/2023/12/the-2024-chevrolet-blazer-first-drive-gms-ev-platform-goes-mainstream/">a first-blush drive of the Blazer this past winter</a> before GM had to put a stop on sales due to some… <a href="https://insideevs.com/reviews/701169/2024-blazer-ev-stranded-broken/">glitches</a>. Now, with the vehicle back on sale and the software debugged, it's time to see if the fixes helped.</p>
-<p>In reintroducing the Blazer EV and <a href="https://arstechnica.com/cars/2024/03/gm-starts-selling-chevy-blazer-evs-again-cuts-prices-up-to-6250/">returning it to market</a>, Chevy has also lowered the price pretty significantly, by an average of about $6,000 per model. The LT AWD now starts at $48,800, and there's a $7,500 incentive for customers who aren't eligible for the IRS clean vehicle tax credit. The RS AWD, which we tested, has an MSRP of $53,200, but with the delivery charge and GM's cash on the hood, it came in at $47,095. Both have an 85 kWh battery good for 279 miles (449 km) max range per charge. The longer-range, bigger-battery 102 kWh RS RWD boasts a more impressive 324 miles ( 521 km) per charge and works out to $48,670.</p>
-<p>These are pretty competitive prices when you consider the mid-sized EV SUV segment. An obvious comparison: The Ioniq 5 SE AWD costs $49,350 and cannot qualify for the federal tax credit (unless leased), and its range runs shy of the Chevy Blazer RS AWD, too, at 260 miles (418 km) versus the Chevy's 279.</p></div><p><a href="https://arstechnica.com/?p=2026183#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026183&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/05/a-week-with-the-chevy-blazer-ev-shows-things-to-love-but-also-painful-flaws/feed/</wfw:commentRss>
-			<slash:comments>234</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Investigation shows how easy it is to find escorts, oxycodone on Eventbrite</title>
-		<link>https://arstechnica.com/?p=2026185</link>
-					<comments>https://arstechnica.com/tech-policy/2024/05/investigation-shows-how-easy-it-is-to-find-escorts-oxycodone-on-eventbrite/#comments</comments>
-		
-		<dc:creator><![CDATA[WIRED]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 13:55:10 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[dark web]]></category>
-		<category><![CDATA[Eventbrite]]></category>
-		<category><![CDATA[illegal drugs]]></category>
-		<category><![CDATA[syndication]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026185</guid>
-
-					<description><![CDATA[The site even promotes illegal opioid sales to folks seeking addiction support.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/eventbrite-800x534.jpg" alt="Eventbrite headquarters in downtown San Francisco">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/eventbrite.jpg" class="enlarge-link" data-height="1334" data-width="2000">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/eventbrite-headquarters-in-downtown-san-francisco-royalty-free-image/1186371114">Sundry Photography via Getty</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>This June, approximately 150 motorcycles will thunder down Route 9W in Saugerties, New York, for Ryan’s Ride for Recovery. Organized by Vince Kelder and his family, the barbecue and raffle will raise money to support their sober-living facility and honor their son who tragically died from a heroin overdose in 2015 after a yearslong drug addiction.</p>
-<p>The Kelders established Raising Your Awareness about Narcotics (RYAN) to help others struggling with substance-use disorder. For years, the organization has relied on Eventbrite, an event management and ticketing website, to arrange its events. This year, however, alongside listings for Ryan’s Ride and other addiction recovery events, Eventbrite surfaced listings peddling illegal sales of prescription drugs like Xanax, Valium, and oxycodone.</p>
-<p>“It’s criminal,” Vince Kelder says. “They’re preying on people trying to get their lives back together.”</p></div><p><a href="https://arstechnica.com/?p=2026185#p3">Read 24 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026185&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/investigation-shows-how-easy-it-is-to-find-escorts-oxycodone-on-eventbrite/feed/</wfw:commentRss>
-			<slash:comments>116</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>The Motiv Argo is a new modular medium-duty electric truck</title>
-		<link>https://arstechnica.com/?p=2026165</link>
-					<comments>https://arstechnica.com/cars/2024/05/the-motiv-argo-is-a-new-modular-medium-duty-electric-truck/#comments</comments>
-		
-		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 13:07:08 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[ACT Expo]]></category>
-		<category><![CDATA[electric truck]]></category>
-		<category><![CDATA[Motiv Argo]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026165</guid>
-
-					<description><![CDATA[Motiv has made electric powertrains for medium-duty vehicles since 2009.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Front-view-outside_parked-800x534.jpg" alt="A white cab-chassis medium duty truck with a bare frame behind it">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Front-view-outside_parked.jpg" class="enlarge-link" data-height="5464" data-width="8192">Enlarge</a> <span class="sep">/</span> Fleets looking for a medium-duty electric truck now have a new option. (credit: Motiv)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Medium- and heavy-duty vehicles account for <a href="https://www.epa.gov/greenvehicles/fast-facts-transportation-greenhouse-gas-emissions">about 23 percent</a> of US vehicle emissions. That's much less than the amount of greenhouse gases emitted each year by light-duty vehicles, but if anything, businesses can often have a clearer case for electrification, whether that's to save money on annual running costs or to meet ESG goals. The annual Advanced Clean Transportation Expo is currently underway in Las Vegas, and yesterday Motiv Electric Trucks revealed the production version of its new modular medium-duty EV, the Argo.</p>
-<p>Motiv has been around since 2009 and has been selling electric powertrains for school buses, step vans, box trucks, and even trolleys. Now it's branching out with its own vehicle, the modular Argo, which is capable of carrying up to 14,000 lbs (6,350 kg) with a range of up to 200 miles (321 km).</p>
-<p>"Overnight we've moved from a company primarily serving a narrow slice of the $20 billion medium duty truck market to one that can serve nearly that entire market," said Motiv CEO Scott Griffith. "The launch of Argo is a transformational moment for our company as we can now offer more vehicles and options to help more fleet customers meet their sustainability goals."</p></div><p><a href="https://arstechnica.com/?p=2026165#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026165&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/05/the-motiv-argo-is-a-new-modular-medium-duty-electric-truck/feed/</wfw:commentRss>
-			<slash:comments>62</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>On self-driving, Waymo is playing chess while Tesla plays checkers</title>
-		<link>https://arstechnica.com/?p=2026117</link>
-					<comments>https://arstechnica.com/cars/2024/05/on-self-driving-waymo-is-playing-chess-while-tesla-plays-checkers/#comments</comments>
-		
-		<dc:creator><![CDATA[Timothy B. Lee]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 11:00:17 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[self driving cars]]></category>
-		<category><![CDATA[Tesla]]></category>
-		<category><![CDATA[waymo]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026117</guid>
-
-					<description><![CDATA[We'll know Tesla is serious about robotaxis when it starts hiring remote operators.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1590504209-800x533.jpg" alt="A Waymo autonomous taxi in San Francisco.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1590504209-scaled.jpg" class="enlarge-link" data-height="1706" data-width="2560">Enlarge</a> <span class="sep">/</span> A Waymo autonomous taxi in San Francisco. (credit: David Paul Morris/Bloomberg via Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Tesla fans—and CEO Elon Musk himself—are excited about the prospects for Tesla’s Full Self Driving (FSD) software. Tesla released a major upgrade—version 12.3—of the software in March. Then, last month, <a href="https://twitter.com/elonmusk/status/1776351450542768368" rel="">Musk announced</a> that Tesla would unveil a purpose-built robotaxi on August 8. Last week, Musk <a href="https://x.com/elonmusk/status/1790627471844622435" rel="">announced</a> that a new version of FSD—12.4—will come out in the coming days and will have a “5X to 10X improvement in miles per intervention.”</p>
-<p>But I think fans expecting Tesla to launch a driverless taxi service in the near future will be disappointed.</p>
-<p>During a late March trip to San Francisco, I had a chance to try the latest self-driving technology from both Tesla and Google’s Waymo.</p></div><p><a href="https://arstechnica.com/?p=2026117#p3">Read 74 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026117&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/05/on-self-driving-waymo-is-playing-chess-while-tesla-plays-checkers/feed/</wfw:commentRss>
-			<slash:comments>351</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>This EV builder has given a Land Rover Defender four electric hub motors</title>
-		<link>https://arstechnica.com/?p=2025856</link>
-					<comments>https://arstechnica.com/cars/2024/05/this-ev-builder-has-given-a-land-rover-defender-four-electric-hub-motors/#comments</comments>
-		
-		<dc:creator><![CDATA[Ars Contributors]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 08:00:24 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[BEDEO]]></category>
-		<category><![CDATA[EV restomod]]></category>
-		<category><![CDATA[Land Rover Defender]]></category>
-		<category><![CDATA[Protean motors]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2025856</guid>
-
-					<description><![CDATA[BEDEO and Protean have been converting commercial vans to hybrid power for some time.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GFW_7544-sharpen-800x533.jpg" alt="A green classic land rover defender drives through some standing water">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GFW_7544-sharpen-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> The Land Rover Defender has a cult following, and if you're looking to make one electric, there's now one more option. (credit: BEDEO)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>British electric vehicle company BEDEO specializes in turning diesel vans into hybrids thanks to smart in-wheel motor tech. And its latest project—an electric Land Rover Defender conversion—could see its tech wind up on your driveway.</p>
-<p>Land Rover's now defunct "old" Defender is a ripe candidate for <a href="https://arstechnica.com/cars/2022/04/how-ev-technology-is-bringing-hot-rodding-into-the-21st-century/3/">an EV restomod</a>. There's space for motors, batteries, and various other sundries within; in certain parts of the world, you'll find yourself tripping over them without trying. For some reason, people go all gooey with nostalgia over them, so they don't mind throwing money at their perfect Landie. There are plenty out there already—the UK military is <a href="https://expeditionportal.com/british-army-to-electrify-classic-land-rover-defenders-with-electrogenic/">looking into converting</a> some of its fleet of Defenders into EVs, while <a href="https://arstechnica.com/cars/2021/06/this-range-rover-classic-restomod-runs-on-tesla-power/">restomod companies will sell you</a> one upholstered with the skin of an exotic creature, and numerous others promise <a href="https://arstechnica.com/cars/2020/07/want-a-boxy-suv-that-runs-on-batteries-check-out-the-twisted-nas-e/">super silent cruising</a> up and down the lumps and bumps of the world.</p>
-<p>Whereas most will rip out the diesel motor and replace it with a traditional EV powertrain, BEDEO's method is different. Rather than mounting the motor(s) on the chassis, connected to the wheels by driveshafts, the company hub-mounts them, putting a motor in each wheel, saving room elsewhere to avoid encroaching on space previously used by oily bits.</p></div><p><a href="https://arstechnica.com/?p=2025856#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2025856&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/05/this-ev-builder-has-given-a-land-rover-defender-four-electric-hub-motors/feed/</wfw:commentRss>
-			<slash:comments>58</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>The first crew launch of Boeing’s Starliner capsule remains on hold</title>
-		<link>https://arstechnica.com/?p=2026155</link>
-					<comments>https://arstechnica.com/space/2024/05/the-first-crew-launch-of-boeings-starliner-capsule-is-on-hold-indefinitely/#comments</comments>
-		
-		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 06:15:07 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[atlas v]]></category>
-		<category><![CDATA[Boeing]]></category>
-		<category><![CDATA[commercial crew]]></category>
-		<category><![CDATA[human spaceflight]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[starliner]]></category>
-		<category><![CDATA[united launch alliance]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026155</guid>
-
-					<description><![CDATA[June 1 is the earliest possible launch date for Starliner's crewed flight test.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-2151100665-800x591.jpg" alt="Boeing's Starliner spacecraft on the eve of the first crew launch attempt earlier this month.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-2151100665.jpg" class="enlarge-link" data-height="1329" data-width="1800">Enlarge</a> <span class="sep">/</span> Boeing's Starliner spacecraft on the eve of the first crew launch attempt earlier this month. (credit: Miguel J. Rodriguez Carrillo/AFP via Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The first crewed test flight of Boeing's long-delayed Starliner spacecraft won't take off as planned Saturday and could face a longer postponement as engineers evaluate a stubborn leak of helium from the capsule's propulsion system.</p>
-<p>NASA announced the latest delay of the Starliner test flight late Tuesday. Officials will take more time to consider their options for how to proceed with the mission after discovering the small helium leak on the spacecraft's service module.</p>
-<p>The space agency did not describe what options are on the table, but sources said they range from flying the spacecraft "as is" with a thorough understanding of the leak and confidence it won't become more significant in flight, to removing the capsule from its Atlas V rocket and taking it back to a hangar for repairs.</p></div><p><a href="https://arstechnica.com/?p=2026155#p3">Read 21 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026155&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/05/the-first-crew-launch-of-boeings-starliner-capsule-is-on-hold-indefinitely/feed/</wfw:commentRss>
-			<slash:comments>272</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Non-invasive zaps to the spinal cord can treat paralysis—but no one knows why</title>
-		<link>https://arstechnica.com/?p=2026123</link>
-					<comments>https://arstechnica.com/science/2024/05/non-invasive-zaps-to-the-spinal-cord-can-treat-paralysis-but-no-one-knows-why/#comments</comments>
-		
-		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Tue, 21 May 2024 22:28:14 +0000</pubDate>
-				<category><![CDATA[Health]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[ARM]]></category>
-		<category><![CDATA[hand]]></category>
-		<category><![CDATA[non-invasive]]></category>
-		<category><![CDATA[paralysis]]></category>
-		<category><![CDATA[quadriplegia]]></category>
-		<category><![CDATA[spinal cord]]></category>
-		<category><![CDATA[spinal cord injury]]></category>
-		<category><![CDATA[stimulator]]></category>
-		<category><![CDATA[tetraplegia]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026123</guid>
-
-					<description><![CDATA[The benefits may seem small, but they can make a world of difference, patients say.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Participant-Photo-2_Sherown-800x450.jpeg" alt="Trial participant Sherown Campbell manipulating a Rubik's Cube. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Participant-Photo-2_Sherown-scaled.jpeg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> <span class="sep">/</span> Trial participant Sherown Campbell manipulating a Rubik's Cube.  (credit: UP-LIFT Trial)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>With a zap of electricity from well-placed electrodes on the back of the neck, patients with <a href="https://www.medicalnewstoday.com/articles/tetraplegia">tetraplegia</a> can regain some modest yet potentially "life-changing" functioning of their hands and arms, according to data from <a href="https://www.nature.com/articles/s41591-024-02940-9">a small clinical trial published Monday in Nature Medicine</a>.</p>
-<p>The relatively simple stimulation method—which requires no surgery—offers an accessible and more affordable non-invasive means for those living with paralysis to regain some meaningful function, the researchers behind the trial say. However, the therapy's further potential remains limited given that scientists have yet to fully understand exactly why it works.</p>
-<p>For the trial, 60 patients with tetraplegia underwent the stimulation therapy over at least 24 sessions during a two-month period. At the end, 72 percent (43 patients) saw clinically meaningful improvements in both strength and functional performance. Further, 90 percent (54 patients) saw improvement from at least one strength or functional outcome. There were no serious adverse events reported.</p></div><p><a href="https://arstechnica.com/?p=2026123#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026123&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/05/non-invasive-zaps-to-the-spinal-cord-can-treat-paralysis-but-no-one-knows-why/feed/</wfw:commentRss>
-			<slash:comments>62</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Google sends DOJ unexpected check in attempt to avoid monopoly jury trial</title>
-		<link>https://arstechnica.com/?p=2026097</link>
-					<comments>https://arstechnica.com/tech-policy/2024/05/google-sends-doj-unexpected-check-in-attempt-to-avoid-monopoly-jury-trial/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Tue, 21 May 2024 21:54:36 +0000</pubDate>
-				<category><![CDATA[Google]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[adtech]]></category>
-		<category><![CDATA[advertising exchange]]></category>
-		<category><![CDATA[advertising technology]]></category>
-		<category><![CDATA[Antitrust law]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[google adtech]]></category>
-		<category><![CDATA[google adtech monopoly trial]]></category>
-		<category><![CDATA[monopoly]]></category>
-		<category><![CDATA[online advertising]]></category>
-		<category><![CDATA[us department of justice]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026097</guid>
-
-					<description><![CDATA[Google steals DOJ tactic to dodge owing damages by paying DOJ upfront.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-2149535935-800x527.jpg" alt="Google sends DOJ unexpected check in attempt to avoid monopoly jury trial">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-2149535935.jpg" class="enlarge-link" data-height="675" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/april-2024-lower-saxony-hanover-trade-fair-visitors-walk-news-photo/2149535935?searchscope=image%2Cfilm&amp;adppopup=true">	picture alliance / Contributor | picture alliance</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Last week, Google sent a cashier's check to the US government that it claimed in a <a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/US-v-Google-Memo-in-Support-of-Motion-to-Dismiss-5-16-2024.pdf">court filing</a> covers "every dollar the United States could conceivably hope to recover" in damages during the Google <a href="https://www.justice.gov/opa/pr/justice-department-sues-google-monopolizing-digital-advertising-technologies">adtech monopoly trial</a> scheduled to start this September.</p>
-<p>According to Google, sending the check moots the government's sole claim for damages, which in turn foils the government's plan to seek a jury trial under its damages claim. While Google disputes liability for any of the government's claims, the payment serves to "prevent the tail from wagging the dog," the court filing said.</p>
-<p>It's unclear just how big the check was. The court filing redacted key figures to protect Google's trade secrets. But Google claimed that testimony from US experts "shrank" the damages estimate "considerably" from initial estimates between $100 million and $300 million, suggesting that the current damages estimate is "substantially less" than what the US has paid so far in expert fees to reach those estimates.</p></div><p><a href="https://arstechnica.com/?p=2026097#p3">Read 17 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026097&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/google-sends-doj-unexpected-check-in-attempt-to-avoid-monopoly-jury-trial/feed/</wfw:commentRss>
-			<slash:comments>124</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>We get more useful energy out of renewables than fossil fuels</title>
-		<link>https://arstechnica.com/?p=2026106</link>
-					<comments>https://arstechnica.com/science/2024/05/we-get-more-useful-energy-out-of-renewables-than-fossil-fuels/#comments</comments>
-		
-		<dc:creator><![CDATA[John Timmer]]></dc:creator>
-		<pubDate>Tue, 21 May 2024 21:30:23 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Energy]]></category>
-		<category><![CDATA[green]]></category>
-		<category><![CDATA[green energy]]></category>
-		<category><![CDATA[renewable energy]]></category>
-		<category><![CDATA[sustainability]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026106</guid>
-
-					<description><![CDATA[It costs less energy to get fossil fuels, but we can't use them as efficiently. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1385275906-800x546.jpg" alt="We get more useful energy out of renewables than fossil fuels">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1385275906.jpg" class="enlarge-link" data-height="1430" data-width="2096">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/sun-and-solar-panels-royalty-free-image/1385275906?phrase=solar+panels">Yaorusheng</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>It doesn't take a lot of energy to dig up coal or pump oil from the ground. By contrast, most renewable sources of energy involve obtaining and refining resources, sophisticated manufacturing, and installation. So, at first glance, when it comes to the energy used to get more energy—the energy return on investment—fossil fuels seem like a clear winner. That has led some to argue that transitioning to renewables will create an overall drop in net energy production, which nobody is interested in seeing.</p>
-<p>A new study by researchers at the UK's University of Leeds, however, suggests that this isn't a concern at all—in most countries, renewables already produce more net energy than the fossil fuels they're displacing. The key to understanding why is that it's much easier to do useful things with electricity than it is with a hunk of coal or a glob of crude oil.</p>
-<h2>Energy efficiency and utility</h2>
-<p>The basic idea behind the new work is that while it's energetically cheap to extract fossil fuels, the stuff that comes out of the ground isn't ready to be put to use. There are energetic costs to making it into a useful form and transporting it to where it's needed, and then there is lost energy when it's being put to use. That's especially notable for uses like internal combustion engines, where significantly less than half of the energy available in gasoline actually gets converted into motion.</p></div><p><a href="https://arstechnica.com/?p=2026106#p3">Read 18 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026106&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/05/we-get-more-useful-energy-out-of-renewables-than-fossil-fuels/feed/</wfw:commentRss>
-			<slash:comments>153</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Surviving reentry is the key goal for SpaceX’s fourth Starship test flight</title>
-		<link>https://arstechnica.com/?p=2025783</link>
-					<comments>https://arstechnica.com/space/2024/05/surviving-reentry-is-the-key-goal-for-spacexs-fourth-starship-test-flight/#comments</comments>
-		
-		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
-		<pubDate>Tue, 21 May 2024 20:08:04 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[artemis]]></category>
-		<category><![CDATA[Commercial space]]></category>
-		<category><![CDATA[human landing system]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[orbital refueling]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[Starbase]]></category>
-		<category><![CDATA[starship]]></category>
-		<category><![CDATA[starship ift-4]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2025783</guid>
-
-					<description><![CDATA[Elon Musk says SpaceX aims to launch the fourth Starship test flight in about two weeks.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/ift4wdr-800x450.jpeg" alt="SpaceX's fourth full-scale Starship rocket undergoes a fueling test Monday.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/ift4wdr.jpeg" class="enlarge-link" data-height="1013" data-width="1800">Enlarge</a> <span class="sep">/</span> SpaceX's fourth full-scale Starship rocket undergoes a fueling test Monday. (credit: <a rel="nofollow" class="caption-link" href="https://x.com/SpaceX/status/1792625975601054003">SpaceX</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>After three test flights, SpaceX has shown that the world's most powerful rocket can reach space. Now, engineers must demonstrate the company's next-generation Starship vehicle can get back home.</p>
-<p>This will be the central objective for the fourth Starship test flight, which could happen as soon as early June, according to Elon Musk, SpaceX's founder and CEO.</p>
-<p>"Starship Flight 4 in about 2 weeks," Musk <a href="https://x.com/elonmusk/status/1792629142141177890">posted on X</a>, his social media platform, following a Starship countdown rehearsal Monday at the Starship launch site in South Texas. "Primary goal is getting through max reentry heating."</p></div><p><a href="https://arstechnica.com/?p=2025783#p3">Read 26 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2025783&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/05/surviving-reentry-is-the-key-goal-for-spacexs-fourth-starship-test-flight/feed/</wfw:commentRss>
-			<slash:comments>128</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Shadow of the Erdtree’s trailer gives us more Elden Ring lore to get wrong</title>
-		<link>https://arstechnica.com/?p=2025855</link>
-					<comments>https://arstechnica.com/gaming/2024/05/shadow-of-the-erdtrees-trailer-gives-us-more-elden-ring-lore-to-get-wrong/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Tue, 21 May 2024 19:39:26 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[DLC]]></category>
-		<category><![CDATA[elden ring]]></category>
-		<category><![CDATA[FromSoft]]></category>
-		<category><![CDATA[FromSoftware]]></category>
-		<category><![CDATA[shadow of the erdtree]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2025855</guid>
-
-					<description><![CDATA[A lore-lover's moment-by-moment dive into the latest Miyazaki mind maze.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Screenshot-2024-05-21-at-12.14.05%E2%80%AFPM-1-800x357.png" alt="&quot;Look, everybody! It's the one thing that ties the whole story together! And it's pointing us toward this legacy dungeon, inside which must surely lie safety and salvation. Let us go forth.&quot;">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Screenshot-2024-05-21-at-12.14.05%E2%80%AFPM-1.png" class="enlarge-link" data-height="1140" data-width="2552">Enlarge</a> <span class="sep">/</span> "Look, everybody! It's the one thing that ties the whole story together! And it's pointing us toward this legacy dungeon, inside which must surely lie safety and salvation. Let us go forth." (credit: FromSoftware/Bandai Namco)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>There are lots of ways to enjoy <a href="https://arstechnica.com/gaming/2022/02/elden-ring-review-come-see-the-softer-side-of-punishing-difficulty/"><em>Elden Ring</em></a>, beyond the core attack/dodge/survive gameplay. You can obsess over builds, appreciate the mastery of speedrunners and grand masters like <a href="https://www.polygon.com/23198342/elden-ring-let-me-solo-her-fromsoftware-bandai-namco-gift-box">Let Me Solo Her</a>, or mix and match the huge variety of armor in pursuit of <a href="https://www.reddit.com/r/fashionsouls/">Fashion Souls</a>. And then there is lore. There is so much of it, and most of it has the consistency of campfire smoke.</p>
-<p><em>Elden Ring</em> tells its backstory (written <a href="https://www.polygon.com/24135223/elden-ring-did-george-r-r-martin-write-shadow-of-the-erdtree-dlc">in part by George R.R. Martin</a>) primarily through item descriptions and environmental hints. The scraps of narrative that do exist stand unsteadily against unreliable narrators, contradictions, <a href="https://gamerant.com/elden-ring-cut-content-shadow-erdtree-miquella-dreams-st-trina/">cut content</a>, and lovably enthusiastic fans who take small hints to their illogical extremes. Developer FromSoftware and primary creator Hidetaka Miyazaki do almost nothing to disprove misunderstandings or reward accurate conclusions, although they appreciate the energy. Miyazaki will just <a href="https://www.ign.com/articles/elden-ring-shadow-of-erdtree-director-hidetaka-miyazaki-look-back-interview-profile">casually tell IGN</a> that there's a "small element" that hasn't been discovered, offer nothing more on that, and leave fans like me craven with an unmet need for conclusion.</p>
-<div class="video"><div class="wrapper"><iframe style="display:block" type="text/html" width="980" height="550" src="https://www.youtube.com/embed/6uT8wGtB3yQ?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe></div><p class="caption" style="font-size:0.8em"><em>Elden Ring: Shadow of the Erdtree</em> story trailer. </p></div>
-<p>I love this and cherish the way FromSoftware will never in my lifetime confirm my hopes or expectations. So with the surprise arrival of an honest-to-goodness <a href="https://www.youtube.com/watch?v=6uT8wGtB3yQ">story-based trailer for the <em>Shadow of the Erdtree</em> expansion</a>, due out June 21, I was given yet another feast of vague notions and evocative images.</p></div><p><a href="https://arstechnica.com/?p=2025855#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2025855&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/shadow-of-the-erdtrees-trailer-gives-us-more-elden-ring-lore-to-get-wrong/feed/</wfw:commentRss>
-			<slash:comments>57</slash:comments>
+			<slash:comments>67</slash:comments>
 		
 		
 			</item>
