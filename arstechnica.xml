@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Thu, 23 May 2024 23:18:31 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 24 May 2024 22:06:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,6 +21,436 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Newly discovered ransomware uses BitLocker to encrypt victim data</title>
+		<link>https://arstechnica.com/?p=2027056</link>
+					<comments>https://arstechnica.com/security/2024/05/newly-discovered-ransomware-uses-bitlocker-to-encrypt-victim-data/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 22:06:57 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[BitLocker]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2027056</guid>
+
+					<description><![CDATA[ShrinkLocker is the latest ransomware to use Windows' full-disk encryption.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>A previously unknown piece of ransomware, dubbed ShrinkLocker, encrypts victim data using the BitLocker feature built into the Windows operating system.</p>
+<p>BitLocker is a <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/manage-bde">full-volume encryptor</a> that debuted in 2007 with the release of Windows Vista. Users employ it to encrypt entire hard drives to prevent people from reading or modifying data in the event they get physical access to the disk. Starting with the <a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/whats-new/whats-new-windows-10-version-1507-and-1511">rollout of Windows 10</a>, BitLocker by default has used the 128-bit and 256-bit XTS-AES encryption algorithm, giving the feature extra protection from attacks that rely on manipulating cipher text to cause predictable changes in plain text.</p>
+<p>Recently, researchers from security firm Kaspersky found a threat actor using BitLocker to encrypt data on systems located in Mexico, Indonesia, and Jordan. The researchers named the new ransomware ShrinkLocker, both for its use of BitLocker and because it shrinks the size of each non-boot partition by 100 MB and splits the newly unallocated space into new primary partitions of the same size.</p></div><p><a href="https://arstechnica.com/?p=2027056#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2027056&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/05/newly-discovered-ransomware-uses-bitlocker-to-encrypt-victim-data/feed/</wfw:commentRss>
+			<slash:comments>10</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Another US state repeals law that protected ISPs from municipal competition</title>
+		<link>https://arstechnica.com/?p=2027041</link>
+					<comments>https://arstechnica.com/tech-policy/2024/05/another-us-state-repeals-law-that-protected-isps-from-municipal-competition/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 18:25:00 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[municipal broadband]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2027041</guid>
+
+					<description><![CDATA[With Minnesota repeal, number of states restricting public broadband falls to 16.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/getty-network-800x533.jpg" alt="Illustration of network data represented by curving lines flowing on a dark background.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/getty-network.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> (credit: Getty Images | Yuichiro Chino)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Minnesota this week eliminated two laws that made it harder for cities and towns to build their own broadband networks. The state-imposed restrictions were repealed in an <a href="https://www.revisor.mn.gov/bills/bill.php?b=senate&amp;f=Sf4097&amp;ssn=0&amp;y=2024">omnibus commerce policy bill</a> signed on Tuesday by Gov. Tim Walz, a Democrat.</p>
+<p>Minnesota was previously <a href="https://arstechnica.com/tech-policy/2014/02/isp-lobby-has-already-won-limits-on-public-broadband-in-20-states/">one of about 20 states</a> that imposed significant restrictions on municipal broadband. The <a href="https://broadbandnow.com/report/municipal-broadband-roadblocks">number</a> can differ depending on who's <a href="https://www.localnetchoice.org/wp-content/uploads/2021/08/CLIC-List-State-Barriers-7-1-21.pdf">counting</a> because of disagreements over what counts as a significant restriction. But the list has gotten smaller in recent years because states including <a href="https://arstechnica.com/tech-policy/2021/02/gop-plan-for-broadband-competition-would-ban-city-run-networks-across-us/#:~:text=Republicans%20in%20the-,Arkansas,-State%20Legislature.%20Baller">Arkansas</a>, <a href="https://arstechnica.com/tech-policy/2023/05/colorado-kills-law-that-made-it-harder-for-cities-to-offer-internet-service/">Colorado</a>, and <a href="https://arstechnica.com/tech-policy/2021/04/victory-for-municipal-broadband-as-wash-state-lawmakers-end-restrictions/">Washington</a> repealed laws that hindered municipal broadband.</p>
+<p>The Minnesota bill enacted this week <a href="https://www.revisor.mn.gov/bills/text.php?number=SF4097&amp;version=latest&amp;session=ls93&amp;session_year=2024&amp;session_number=0#:~:text=Any%20municipality%20shall%20have%20the%20right%20to%20own%20and%20operate%20a%20telephone%20exchange">struck down</a> a requirement that municipal telecommunications networks be approved in an election with 65 percent of the vote. The law is over a century old, the Institute for Local Self-Reliance's Community Broadband Network Initiative <a href="https://communitynets.org/content/minnesota-strikes-down-preemption-laws-blocking-municipal-broadband">wrote</a> yesterday.</p></div><p><a href="https://arstechnica.com/?p=2027041#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2027041&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/another-us-state-repeals-law-that-protected-isps-from-municipal-competition/feed/</wfw:commentRss>
+			<slash:comments>56</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>SpaceX sets date for next Starship flight, explains what went wrong the last time</title>
+		<link>https://arstechnica.com/?p=2026961</link>
+					<comments>https://arstechnica.com/space/2024/05/spacex-sets-next-starship-flight-date-will-focus-on-propulsion-and-landing/#comments</comments>
+		
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 18:10:02 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[starship]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026961</guid>
+
+					<description><![CDATA[Clearing blocked filters and clogged valves is the order of the day.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Starhip-4-800x450.jpg" alt="SpaceX's Starship vehicle undergoes a wet dress rehearsal prior to its fourth launch attempt.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Starhip-4-scaled.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> <span class="sep">/</span> SpaceX's Starship vehicle undergoes a wet dress rehearsal prior to its fourth launch attempt. (credit: SpaceX)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>SpaceX is targeting June 5 for the next flight of its massive Starship rocket, the company said Friday.</p>
+<p>The highly anticipated test flight— the fourth in a program to bring Starship to operational readiness and make progress toward its eventual reuse—will seek to demonstrate the ability of the Super Heavy first stage to make a soft landing in the Gulf of Mexico and for the Starship upper stage to make a controlled reentry through Earth's atmosphere before it falls into the Indian Ocean.</p>
+<p>This mission will carry no payloads as SpaceX seeks additional flight data about the performance of the complex Starship vehicle. It is simultaneously the largest and most powerful rocket ever built and the first launch system ever intended to be fully and rapidly reusable.</p></div><p><a href="https://arstechnica.com/?p=2026961#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026961&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/05/spacex-sets-next-starship-flight-date-will-focus-on-propulsion-and-landing/feed/</wfw:commentRss>
+			<slash:comments>88</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Google Search’s “udm=14” trick lets you kill AI search for good</title>
+		<link>https://arstechnica.com/?p=2026948</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/google-searchs-udm14-trick-lets-you-kill-ai-search-for-good/#comments</comments>
+		
+		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 17:54:01 +0000</pubDate>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[google ai]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026948</guid>
+
+					<description><![CDATA[The power of URL parameters lets you unofficially turn off Google's AI Overview.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/2-1-800x473.jpg" alt='The now normal "AI" results versus the old school "Web" results.'>
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/2-1.jpg" class="enlarge-link" data-height="984" data-width="1666">Enlarge</a> <span class="sep">/</span> The now normal "AI" results versus the old school "Web" results. (credit: Ron Amadeo / Google)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>If you're tired of Google's AI Overview extracting all value from the web while also telling people to eat glue or run with scissors, you can turn it off—sort of. Google has been telling people its AI box at the top of search results is <em>the future</em>, and you can't turn it off, but that ignores how Google search works: A lot of options are powered by URL parameters. That means you can turn off AI search with this one simple trick! (Sorry.)</p>
+<p>Our method for killing AI search is defaulting to the new <a href="https://arstechnica.com/gadgets/2024/05/google-search-adds-web-filter-as-it-pivots-to-ai-focused-search-results/">"web" search filter,</a> which Google recently launched as a way to search the web without Google's alpha-quality AI junk. It's actually pretty nice, showing only the traditional 10 blue links, giving you a clean (well, other than the ads), uncluttered results page that looks like it's from 2011. Sadly, Google's UI doesn't have a way to make "web" search the default, and switching to it means digging through the "more" options drop-down <em>after</em> you do a search, so it's a few clicks deep.</p>
+<p>Check out the URL after you do a search, and you'll see a mile-long URL full of esoteric tracking information and mode information. We'll put each search result URL parameter on a new line so the URL is somewhat readable:</p></div><p><a href="https://arstechnica.com/?p=2026948#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026948&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/google-searchs-udm14-trick-lets-you-kill-ai-search-for-good/feed/</wfw:commentRss>
+			<slash:comments>88</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Biden’s new import rules will hit e-bike batteries too</title>
+		<link>https://arstechnica.com/?p=2026997</link>
+					<comments>https://arstechnica.com/tech-policy/2024/05/bidens-new-import-rules-will-hit-e-bike-batteries-too/#comments</comments>
+		
+		<dc:creator><![CDATA[WIRED]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 17:40:52 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ebike]]></category>
+		<category><![CDATA[ebikes]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[tariffs]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026997</guid>
+
+					<description><![CDATA[The tariffs’ effects on the bike industry are still up in the air.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/11/e-bike-800x534.jpg" alt="family on cargo e-bike">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/11/e-bike.jpg" class="enlarge-link" data-height="1414" data-width="2120">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/bike-ride-on-cargo-e-bike-carries-the-whole-family-royalty-free-image/1395791732">RyanLJane via Getty</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Last week, the Biden administration announced it would <a href="https://www.wired.com/story/new-ev-china-tariffs-biden/">levy dramatic new tariffs</a> on <a href="https://www.wired.com/tag/electric-vehicles/">electric vehicles</a>, electric vehicle batteries, and battery components imported into the United States from China. The move kicked off another round of global debate on how best to push the transportation industry toward an emissions-free future, and how global automotive manufacturers outside of China should compete with the Asian country’s <a href="https://www.wired.com/story/how-chinas-ev-boom-caught-western-car-companies-asleep-at-the-wheel/">well-engineered and low-cost car options</a>.</p>
+<p>But what is an electric <em>vehicle</em> exactly? China has dominated bicycle manufacturing, too; it was responsible for some 80 percent of US bicycle imports in 2021, according to <a href="https://prosperousamerica.org/wp-content/uploads/2021/11/The-Global-Bicycle-Market-A-Comprehensive-Plan-to-Re-Shore-the-U.S.-Bike-E-Bike-Industry-1.pdf" target="_blank" rel="nofollow noopener" data-offer-url="https://prosperousamerica.org/wp-content/uploads/2021/11/The-Global-Bicycle-Market-A-Comprehensive-Plan-to-Re-Shore-the-U.S.-Bike-E-Bike-Industry-1.pdf" data-event-click='{"element":"ExternalLink","outgoingURL":"https://prosperousamerica.org/wp-content/uploads/2021/11/The-Global-Bicycle-Market-A-Comprehensive-Plan-to-Re-Shore-the-U.S.-Bike-E-Bike-Industry-1.pdf"}'>one report</a>. In cycling circles, the US’s new trade policies have raised questions about how much bicycle companies will have to pay to get Chinese-made bicycles and components into the US, and whether any new costs will get passed on to US customers. </p><div class="image shortcode-img right full"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/02/wired-logo.png"></div>
+<p>On Wednesday, the Office of the United States Trade Representative—the US agency that creates trade policy—clarified that ebike batteries would be affected by the new policy, too.</p></div><p><a href="https://arstechnica.com/?p=2026997#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026997&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/bidens-new-import-rules-will-hit-e-bike-batteries-too/feed/</wfw:commentRss>
+			<slash:comments>42</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>After mice drink raw H5N1 milk, bird flu virus riddles their organs</title>
+		<link>https://arstechnica.com/?p=2027000</link>
+					<comments>https://arstechnica.com/science/2024/05/after-mice-drink-raw-h5n1-milk-bird-flu-virus-riddles-their-organs/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 16:39:36 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[avian influenza]]></category>
+		<category><![CDATA[bird flu]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[cows]]></category>
+		<category><![CDATA[dairy cows]]></category>
+		<category><![CDATA[fda]]></category>
+		<category><![CDATA[flu]]></category>
+		<category><![CDATA[H5N1]]></category>
+		<category><![CDATA[Infectious disease]]></category>
+		<category><![CDATA[Mice]]></category>
+		<category><![CDATA[milk]]></category>
+		<category><![CDATA[outbreak]]></category>
+		<category><![CDATA[raw milk]]></category>
+		<category><![CDATA[USDA]]></category>
+		<category><![CDATA[virus]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2027000</guid>
+
+					<description><![CDATA[No, really, drinking raw milk during the H5N1 outbreak is a bad idea.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1566603587-800x533.jpeg" alt="Fresh raw milk being poured into a container on a dairy farm on July 29, 2023, in De Lutte, Netherlands.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1566603587-scaled.jpeg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> Fresh raw milk being poured into a container on a dairy farm on July 29, 2023, in De Lutte, Netherlands. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/farmer-frans-zanderink-pours-fresh-raw-milk-in-a-container-news-photo/1566603587?searchscope=image%2Cfilm&amp;adppopup=true">Getty | Pierre Crom</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Despite the delusions of the raw milk crowd, drinking unpasteurized milk brimming with infectious avian H5N1 influenza virus is a very bad idea, according to <a href="https://www.nejm.org/doi/full/10.1056/NEJMc2405495">freshly squeezed data published Friday in the New England Journal of Medicine</a>.</p>
+<p>Researchers at the University of Wisconsin-Madison squirted raw H5N1-containing milk from infected cows into the throats of anesthetized laboratory mice, finding that the virus caused systemic infections after the mice were observed swallowing the dose. The illnesses began quickly, with symptoms of lethargy and ruffled fur starting on day 1. On day 4, the animals were euthanized to prevent extended suffering. Subsequent analysis found that the mice had high levels of H5N1 bird flu virus in their respiratory tracts, as well their hearts, kidneys, spleens, livers, mammary glands, and brains.</p>
+<p>"Collectively, our data indicate that HPAI [Highly Pathogenic Avian Influenza] A(H5N1) virus in untreated milk can infect susceptible animals that consume it," the researchers concluded. The researchers also found that raw milk containing H5N1 can remain infectious for weeks when stored at refrigerator temperatures.</p></div><p><a href="https://arstechnica.com/?p=2027000#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2027000&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/05/after-mice-drink-raw-h5n1-milk-bird-flu-virus-riddles-their-organs/feed/</wfw:commentRss>
+			<slash:comments>163</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Apple clarifies iOS 17.5 bug that exposed deleted photos</title>
+		<link>https://arstechnica.com/?p=2026970</link>
+					<comments>https://arstechnica.com/gadgets/2024/05/apple-clarifies-ios-17-5-bug-that-exposed-deleted-photos/#comments</comments>
+		
+		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 16:28:37 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[ios 17.5]]></category>
+		<category><![CDATA[iOS 17.5.1]]></category>
+		<category><![CDATA[photos]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026970</guid>
+
+					<description><![CDATA[iOS 17.5.1 fixed the bug, but users still had questions.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/iPadOS-175-800x512.jpeg" alt="iPadOS 17.5.1 ready to install on an iPad Pro.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/iPadOS-175-scaled.jpeg" class="enlarge-link" data-height="1640" data-width="2560">Enlarge</a> <span class="sep">/</span> iPadOS 17.5.1 ready to install on an iPad Pro. (credit: Samuel Axon)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>On May 20, <a href="https://arstechnica.com/gadgets/2024/05/ios-and-ipados-17-5-1-fix-a-nasty-bug-that-resurfaced-old-photos/">Apple released iOS 17.5.1</a> to fix a bug users had found a few days prior in iOS 17.5 that resurfaced old photos that had been previously deleted. So far, the update seems to have resolved the issue, but users were left wondering exactly what had happened. Now Apple has clarified the issue somewhat, describing the nature of the bug to 9to5Mac.</p>
+<p>Apple told the publication that the photos were not regurgitated from iCloud Photos after being deleted on the local device; rather, they were local to the device. Apple says they were neither left in the cloud after deletion nor synced to it after, and the company did not have access to the deleted photos.</p>
+<p>The photos were retained on the local device storage due to a database corruption issue, and the bug resurfaced photos that were flagged for deletion but were not actually fully deleted locally.</p></div><p><a href="https://arstechnica.com/?p=2026970#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026970&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/apple-clarifies-ios-17-5-bug-that-exposed-deleted-photos/feed/</wfw:commentRss>
+			<slash:comments>49</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>After you die, your Steam games will be stuck in legal limbo</title>
+		<link>https://arstechnica.com/?p=2026982</link>
+					<comments>https://arstechnica.com/gaming/2024/05/after-you-die-your-steam-games-will-be-stuck-in-legal-limbo/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 16:15:26 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[death]]></category>
+		<category><![CDATA[estate]]></category>
+		<category><![CDATA[inheritance]]></category>
+		<category><![CDATA[Steam]]></category>
+		<category><![CDATA[vaslve]]></category>
+		<category><![CDATA[will]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026982</guid>
+
+					<description><![CDATA[So much for your descendants posthumously clearing out that massive backlog...]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-485865905-800x533.jpg" alt="But... but I was just about to check out &lt;em&gt;Tacoma&lt;/em&gt;.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-485865905-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> But... but I was just about to check out <em>Tacoma</em>. (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>With Valve's Steam gaming platform <a href="https://store.steampowered.com/sale/steam20">approaching the US drinking age</a> this year, more and more aging PC gamers may be considering what will happen to their vast digital game libraries after they die. Unfortunately, legally, your collection of hundreds of backlogged games will likely pass into the ether along with you someday.</p>
+<p>The issue of digital game inheritability gained renewed attention this week as <a href="https://www.resetera.com/threads/to-anyone-who-is-curious-no-you-cannot-transfer-your-steam-account-via-a-will-you-can-only-take-your-games-to-your-graves.875634/">a ResetEra poster</a> quoted a Steam support response asking about transferring Steam account ownership via a last will and testament. "Unfortunately, Steam accounts and games are non-transferable" the response reads. "Steam Support can't provide someone else with access to the account or merge its contents with another account. I regret to inform you that your Steam account cannot be transferred via a will."</p>
+<p>This isn't the first time someone has asked this basic estate planning question, of course. Last year, a Steam forum user <a href="https://steamcommunity.com/discussions/forum/1/3820780544823475453/#c3820780544825804543">quoted a similar response from Steam support</a> as saying, "Your account is yours and yours alone. Now you can share it with family members, but you cannot give it away."</p></div><p><a href="https://arstechnica.com/?p=2026982#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026982&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/after-you-die-your-steam-games-will-be-stuck-in-legal-limbo/feed/</wfw:commentRss>
+			<slash:comments>122</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The ROG Ally X leaks, with twice the battery of the original and way more RAM</title>
+		<link>https://arstechnica.com/?p=2026950</link>
+					<comments>https://arstechnica.com/gaming/2024/05/the-rog-ally-x-leaks-with-twice-the-battery-of-the-original-and-way-more-ram/#comments</comments>
+		
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 15:44:39 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[ASUS]]></category>
+		<category><![CDATA[asus rog ally]]></category>
+		<category><![CDATA[gaming handheld]]></category>
+		<category><![CDATA[handheld pc]]></category>
+		<category><![CDATA[ROG Ally]]></category>
+		<category><![CDATA[steam deck]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026950</guid>
+
+					<description><![CDATA[This handheld has more RAM than my gaming PC, though the chip stays the same.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/videocardz_leak1-800x416.jpg" alt="Heavily altered image of a ROG Ally X, with " above it and up beneath>
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/videocardz_leak1.jpg" class="enlarge-link" data-height="1040" data-width="2000">Enlarge</a> <span class="sep">/</span> VideoCardz' leaked image of a ROG Ally X, seemingly having gone through the JPG blender a couple times. (credit: <a rel="nofollow" class="caption-link" href="https://videocardz.com/newz/asus-rog-ally-x-specs-leaked-24gb-lpddr5x-7500-memory-and-massive-80-wh-battery">VideoCardz</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p><a href="https://arstechnica.com/gadgets/2023/05/the-asus-rog-ally-runs-windows-eats-battery-and-needs-time-to-cook/">Asus' ROG Ally</a> was the first major-brand attempt to compete with Valve's Steam Deck. It was beefy and interesting, but it had three major flaws: It ran Windows on a little touchscreen, had unremarkable ergonomics, and its battery life was painful.</p>
+<p>The Asus ROG (Republic of Gamers) Ally X, which has been <a href="https://www.youtube.com/watch?v=vze62qJK1Sk">announced</a> and is due out June 2, seems to have had its specs leaked, and they indicate a fix for at least the battery life. Gaming site <a href="https://videocardz.com/newz/asus-rog-ally-x-specs-leaked-24gb-lpddr5x-7500-memory-and-massive-80-wh-battery">VideoCardz</a>, starting its leak reveal with "No more rumors," cites the ROG Ally X as having the same Ryzen Z1 Extreme APU as the prior ROG Ally, as well as the same 7-inch 1080p VRR screen with a 120 Hz refresh rate.</p>
+<div class="image shortcode-img center full"><img alt="VideoCardz' leaked image, seemingly from Asus marketing materials, with the ROG Ally X's specifications." src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/videocardz_leak2.jpg"><p class="caption" style="font-size:0.8em">VideoCardz' leaked image, seemingly from Asus marketing materials, with the ROG Ally X's specifications. (credit: <a rel="nofollow" class="caption-link" href="https://videocardz.com/newz/asus-rog-ally-x-specs-leaked-24gb-lpddr5x-7500-memory-and-massive-80-wh-battery">VideoCardz</a>)</p></div>
+<p>The battery and memory have changed substantially, though. An 80-watt-hour battery, up from 40, somehow adds just 70 grams of weight and about 5 mm of thickness to the sequel device. By increasing the RAM from 16GB to 24GB and making it LPDDR5, the ROG Ally X may be able to lend more of it to the GPU, upping performance somewhat without demanding a new chip or architecture. There is also a second USB-C port, with USB4 speeds, that should help quite a bit with docking, charging while playing with accessories, and, I would guess, <a href="https://arstechnica.com/gadgets/2023/06/the-linux-coders-turning-the-rog-ally-and-other-handhelds-into-steam-deck-clones/3/">Linux hackery</a>.</p></div><p><a href="https://arstechnica.com/?p=2026950#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026950&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/05/the-rog-ally-x-leaks-with-twice-the-battery-of-the-original-and-way-more-ram/feed/</wfw:commentRss>
+			<slash:comments>51</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>OpenAI backpedals on scandalous tactic to silence former employees</title>
+		<link>https://arstechnica.com/?p=2026952</link>
+					<comments>https://arstechnica.com/tech-policy/2024/05/openai-ends-harsh-non-disparagement-agreements-that-could-claw-back-millions/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 15:32:17 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[censorship]]></category>
+		<category><![CDATA[non-disparagement]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026952</guid>
+
+					<description><![CDATA[OpenAI releases employees from evil exit agreement in staff-wide memo.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-2153474140-800x534.jpg" alt="OpenAI CEO Sam Altman.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-2153474140.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> <span class="sep">/</span> OpenAI CEO Sam Altman. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/openai-ceo-sam-altman-speaks-during-the-microsoft-build-news-photo/2153474140?adppopup=true">JASON REDMOND / Contributor | AFP</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Former and current OpenAI employees received a memo this week that the AI company hopes to end the most embarrassing scandal that Sam Altman has ever faced as OpenAI's CEO.</p>
+<p>The memo finally clarified for employees that OpenAI would not enforce a non-disparagement contract that employees since at least 2019 were pressured to sign within a week of termination or else risk losing their vested equity. For an OpenAI employee, that could mean losing millions for expressing even mild criticism about OpenAI's work.</p>
+<p>You can read the full memo below in a <a href="https://x.com/andrew_n_carr/status/1793773522432753854">post</a> on X (formerly Twitter) from Andrew Carr, a former OpenAI employee whose LinkedIn confirms that he left the company in 2021.</p></div><p><a href="https://arstechnica.com/?p=2026952#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026952&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/openai-ends-harsh-non-disparagement-agreements-that-could-claw-back-millions/feed/</wfw:commentRss>
+			<slash:comments>98</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Rocket Report: SpaceX focused on Starship reentry; Firefly may be for sale</title>
+		<link>https://arstechnica.com/?p=2026434</link>
+					<comments>https://arstechnica.com/space/2024/05/rocket-report-spacex-focused-on-starship-reentry-firefly-may-be-for-sale/#comments</comments>
+		
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 12:00:43 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[rocket report]]></category>
+		<category><![CDATA[space]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026434</guid>
+
+					<description><![CDATA["Teams are in the process of completing a follow-on propulsion system assessment."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GOMH4_ma4AE32Md-800x533.jpg" alt="A Falcon 9 rocket launches the NROL-146 mission from California this week.
+">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GOMH4_ma4AE32Md-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> A Falcon 9 rocket launches the NROL-146 mission from California this week.
+ (credit: SpaceX)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Welcome to Edition 6.45 of the Rocket Report! The most interesting news in launch this week, to me, is that Firefly is potentially up for sale. That makes two of the handful of US companies with operational rockets, Firefly and United Launch Alliance, actively on offer. I'll be fascinated to see what the valuations of each end up being if/when sales go through.</p>
+<p>As always, we <a href="https://arstechnica.wufoo.com/forms/launch-stories/">welcome reader submissions</a>, and if you don't want to miss an issue, please subscribe using the box below (the form will not appear on AMP-enabled versions of the site). Each report will include information on small-, medium-, and heavy-lift rockets as well as a quick look ahead at the next three launches on the calendar.</p>
+<div class="image shortcode-img center full"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png"></div>
+<p><strong>Firefly may be up for sale</strong>. Firefly Aerospace investors are considering a sale that could value the closely held rocket and Moon lander maker at about $1.5 billion, <a href="https://www.bloomberg.com/news/articles/2024-05-22/firefly-aerospace-backers-said-to-explore-1-5-billion-sale">Bloomberg reports</a>. The rocket company's primary owner, AE Industrial Partners, is working with an adviser on "strategic options" for Firefly. Neither AE nor Firefly commented to Bloomberg about the potential sale. AE invested $75 million into Texas-based Firefly as part of a series B financing round in 2022. The firm made a subsequent investment in its Series C round in November 2023.</p></div><p><a href="https://arstechnica.com/?p=2026434#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026434&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/05/rocket-report-spacex-focused-on-starship-reentry-firefly-may-be-for-sale/feed/</wfw:commentRss>
+			<slash:comments>130</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Daily Telescope: The initial results from Europe’s Euclid telescope are dazzling</title>
+		<link>https://arstechnica.com/?p=2026897</link>
+					<comments>https://arstechnica.com/space/2024/05/daily-telescope-observing-a-distant-star-nursery-in-unprecedented-detail/#comments</comments>
+		
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Fri, 24 May 2024 12:00:14 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[daily telescope]]></category>
+		<category><![CDATA[space]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2026897</guid>
+
+					<description><![CDATA["Euclid’s instruments can detect objects just a few times the mass of Jupiter."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Euclid-800x495.jpg" alt="Messier 78 is a nursery of star formation enveloped in a shroud of interstellar dust.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Euclid.jpg" class="enlarge-link" data-height="847" data-width="1370">Enlarge</a> <span class="sep">/</span> Messier 78 is a nursery of star formation enveloped in a shroud of interstellar dust. (credit: ESA/Euclid/Euclid Consortium/NASA et. al.)</p>  </figure>
+
+
+
+
+      <p><em>Welcome to the <a href="https://arstechnica.com/tag/daily-telescope/">Daily Telescope</a>. There is a little too much darkness in this world and not enough light, a little too much pseudoscience and not enough science. We'll let other publications offer you a daily horoscope. At Ars Technica, we're going to take a different route, finding inspiration from very real images of a universe that is filled with stars and wonder.</em></p>
+    
+
+<div><a name="page-1"></a></div>
+<p>Good morning. It's May 24, and today's photo comes from the European Space Agency's new Euclid space telescope.</p>
+<p>Launched in July 2023, the mission is intended to create a giant map of the Universe, across more than one-third of the nighttime sky. Its big-ticket goal is to help scientists better understand the nature of dark matter and dark energy, which account for the vast majority of the mass in the Universe—but about which we know almost nothing.</p></div><p><a href="https://arstechnica.com/?p=2026897#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026897&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/05/daily-telescope-observing-a-distant-star-nursery-in-unprecedented-detail/feed/</wfw:commentRss>
+			<slash:comments>30</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Google’s “AI Overview” can give false, misleading, and dangerous answers</title>
 		<link>https://arstechnica.com/?p=2025825</link>
 					<comments>https://arstechnica.com/information-technology/2024/05/googles-ai-overview-can-give-false-misleading-and-dangerous-answers/#comments</comments>
@@ -55,7 +485,7 @@
 <p>"The examples we've seen are generally very uncommon queries and aren’t representative of most people’s experiences," a Google spokesperson told Ars. "The vast majority of AI Overviews provide high quality information, with links to dig deeper on the web."</p></div><p><a href="https://arstechnica.com/?p=2025825#p3">Read 18 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2025825&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/information-technology/2024/05/googles-ai-overview-can-give-false-misleading-and-dangerous-answers/feed/</wfw:commentRss>
-			<slash:comments>14</slash:comments>
+			<slash:comments>193</slash:comments>
 		
 		
 			</item>
@@ -94,7 +524,7 @@
 <p>"Just last week, on May 16, Russia launched a satellite into low-Earth orbit that the United States assesses is likely a counter-space weapon presumably capable of attacking other satellites in low-Earth orbit," said Robert Wood, the deputy US ambassador to the United Nations. "Russia deployed this new counter-space weapon into the same orbit as a US government satellite."</p></div><p><a href="https://arstechnica.com/?p=2026816#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026816&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/space/2024/05/russia-still-appears-to-be-playing-cat-and-mouse-with-us-spy-satellites/feed/</wfw:commentRss>
-			<slash:comments>106</slash:comments>
+			<slash:comments>169</slash:comments>
 		
 		
 			</item>
@@ -109,6 +539,7 @@
 		<category><![CDATA[Security]]></category>
 		<category><![CDATA[audio/video]]></category>
 		<category><![CDATA[backdoors]]></category>
+		<category><![CDATA[cybersecurity]]></category>
 		<category><![CDATA[supply chain attacks]]></category>
 		<guid isPermaLink="false">https://arstechnica.com/?p=2026911</guid>
 
@@ -130,7 +561,7 @@
 <p>Researchers from security firm Rapid7 <a href="https://www.rapid7.com/blog/post/2024/05/23/cve-2024-4978-backdoored-justice-av-solutions-viewer-software-used-in-apparent-supply-chain-attack/">reported</a> that a version of the JAVS Viewer 8 available for download on javs.com contained a backdoor that gave an unknown threat actor persistent access to infected devices. The malicious download, planted inside an executable file that installs the JAVS Viewer version 8.3.7, was available no later than April 1, when a <a href="https://x.com/2RunJack2/status/1775052981966377148">post</a> on X (formerly Twitter) reported it. It’s unclear when the backdoored version was removed from the company’s download page. JAVS representatives didn’t immediately respond to questions sent by email.</p></div><p><a href="https://arstechnica.com/?p=2026911#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026911&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/security/2024/05/crooks-plant-backdoor-in-software-used-by-courtrooms-around-the-world/feed/</wfw:commentRss>
-			<slash:comments>18</slash:comments>
+			<slash:comments>38</slash:comments>
 		
 		
 			</item>
@@ -163,7 +594,7 @@
 <p>Spotify has no further guidance for device owners beyond asking them to reset the device to factory settings and “safely” get rid of the bricked gadget by “following local electronic waste guidelines.”</p></div><p><a href="https://arstechnica.com/?p=2026806#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026806&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/pleas-for-open-sourcing-refunds-as-spotify-plans-to-brick-car-thing-devices/feed/</wfw:commentRss>
-			<slash:comments>157</slash:comments>
+			<slash:comments>206</slash:comments>
 		
 		
 			</item>
@@ -212,7 +643,7 @@
 <p>If dismay about AI's hallucinations, power draw, or <a href="https://www.404media.co/google-is-paying-reddit-60-million-for-fucksmith-to-tell-its-users-to-eat-glue/">pizza recipes</a> concern you—along with perhaps broader Google issues involving privacy, tracking, news, SEO, or monopoly power—most of your other major options were brought down by a single API outage this morning. Moving past that kind of single point of vulnerability will take some work, both by the industry and by you, the person wondering if there's a real alternative.</p></div><p><a href="https://arstechnica.com/?p=2026559#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026559&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/bing-outage-shows-just-how-little-competition-google-search-really-has/feed/</wfw:commentRss>
-			<slash:comments>95</slash:comments>
+			<slash:comments>127</slash:comments>
 		
 		
 			</item>
@@ -246,7 +677,7 @@
 <p>Case in point: Windows 11 24H2 includes an updated compiler, kernel, and scheduler, all lower-level system changes made at least in part to better support Arm-based PCs. Existing Windows-on-Arm systems should also see a 10 or 20 percent performance boost when using x86 applications, thanks to improvements in the translation layer (which Microsoft is now calling <a href="https://arstechnica.com/gadgets/2024/05/microsoft-says-prism-translation-layer-does-for-arm-pcs-what-rosetta-did-for-macs/">Prism</a>).</p></div><p><a href="https://arstechnica.com/?p=2026588#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026588&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/biggest-windows-11-update-in-2-years-nearly-finalized-enters-release-preview/feed/</wfw:commentRss>
-			<slash:comments>106</slash:comments>
+			<slash:comments>149</slash:comments>
 		
 		
 			</item>
@@ -282,7 +713,7 @@
 <p>The “whole fruit” on its label is certainly more appealing than the air or fish oil that has previously been substituted for cocoa butter to reduce the saturated fat content of chocolate confections. (Extra cocoa butter, or fat isolated from the cocoa bean, is sometimes added to cocoa mass to make the end product smoother and waxier.) The pulp and the cocoa pods are generally discarded, so upcycling them instead of tossing them could reduce the land use impact and global warming potential of cocoa cultivation.</p></div><p><a href="https://arstechnica.com/?p=2026799#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026799&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/05/a-new-recipe-for-healthier-more-sustainable-chocolate/feed/</wfw:commentRss>
-			<slash:comments>59</slash:comments>
+			<slash:comments>76</slash:comments>
 		
 		
 			</item>
@@ -314,465 +745,7 @@
 <p>Kramer, a 54-year-old from New Orleans, "has been charged with 13 felony counts of voter suppression... and 13 misdemeanor counts of impersonation of a candidate," New Hampshire Attorney General John Formella <a href="https://www.doj.nh.gov/news/2024/20240523-kramer-voter-suppression.html">announced today</a>. "The charges are spread across four counties based on the residence of thirteen New Hampshire residents who received the Biden robocalls."</p></div><p><a href="https://arstechnica.com/?p=2026769#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026769&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/democratic-consultant-indicted-for-biden-deepfake-that-told-people-not-to-vote/feed/</wfw:commentRss>
-			<slash:comments>82</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Family stricken with rare brain worms after eating undercooked bear</title>
-		<link>https://arstechnica.com/?p=2026753</link>
-					<comments>https://arstechnica.com/science/2024/05/if-you-plan-to-eat-an-undercooked-bear-watch-out-for-brain-worms/#comments</comments>
-		
-		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Thu, 23 May 2024 18:46:08 +0000</pubDate>
-				<category><![CDATA[Health]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[bear]]></category>
-		<category><![CDATA[brain worms]]></category>
-		<category><![CDATA[CDC]]></category>
-		<category><![CDATA[Meat]]></category>
-		<category><![CDATA[parasite]]></category>
-		<category><![CDATA[trichinellosis]]></category>
-		<category><![CDATA[undercooked]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026753</guid>
-
-					<description><![CDATA[In the parasite vs. bear vs. human battle, the grizzly parasite comes out on top.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1237342075-800x533.jpeg" alt="American black bear seen along the Red Rock Parkway inside Waterton Lakes National Park in Alberta, Canada.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1237342075-scaled.jpeg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> American black bear seen along the Red Rock Parkway inside Waterton Lakes National Park in Alberta, Canada. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/american-black-bear-seen-along-the-red-rock-parkway-inside-news-photo/1237342075?searchscope=image%2Cfilm&amp;adppopup=true">Getty | Artur Widak</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>In the summer of 2022, a family gathered in South Dakota for a reunion that included a special meal—<a href="https://www.cdc.gov/mmwr/volumes/73/wr/mm7320a2.htm?s_cid=mm7320a2_w">kabobs made with the meat of a black bear</a> that one of the family members had "harvested" from northern Saskatchewan, Canada, that May. Lacking a meat thermometer, the family assessed the doneness of the dark-colored meat by eye. At first, they accidentally served it rare, which a few family members noticed before a decision was made to recook it. The rest of the reunion was unremarkable, and the family members departed to their homes in Arizona, Minnesota, and South Dakota.</p>
-<p>But just days later, family members began falling ill. One, a 29-year-old male in Minnesota, sought care for a mysterious illness marked by fever, severe muscle pains, swelling around his eyes (periorbital edema), high levels of infection-fighting white blood cells (eosinophilia, a common response to parasites), and other laboratory anomalies. The man sought care four times and was hospitalized twice in a 17-day span in July. It wasn't until his second hospitalization that doctors learned about the bear meat—and then it all made sense.</p>
-<p>The doctors suspected the man had a condition called trichinellosis and infection of<em> Trichinella</em> nematodes (roundworms). These dangerous parasites can be found worldwide, embedded into the muscle fibers of various carnivores and omnivores, <a href="https://www.cdc.gov/dpdx/trichinellosis/index.html">according to the Centers for Disease Control and Prevention</a>. But, it's quite rare to find them in humans in North America. Between 2016 and 2022, there were seven outbreaks of trichinellosis in the US, involving just 35 cases. The majority were linked to eating bear meat, but moose and wild boar meat are also common sources.</p></div><p><a href="https://arstechnica.com/?p=2026753#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026753&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/05/if-you-plan-to-eat-an-undercooked-bear-watch-out-for-brain-worms/feed/</wfw:commentRss>
-			<slash:comments>143</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Sky voice actor says nobody ever compared her to ScarJo before OpenAI drama</title>
-		<link>https://arstechnica.com/?p=2026675</link>
-					<comments>https://arstechnica.com/tech-policy/2024/05/sky-voice-actor-says-nobody-ever-compared-her-to-scarjo-before-openai-drama/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Thu, 23 May 2024 18:27:39 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[bette Midler]]></category>
-		<category><![CDATA[chatbot]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[generative ai]]></category>
-		<category><![CDATA[her movie]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[right to publicity]]></category>
-		<category><![CDATA[scarlett johansson]]></category>
-		<category><![CDATA[sky voice]]></category>
-		<category><![CDATA[tom waits]]></category>
-		<category><![CDATA[voice misappropriation]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026675</guid>
-
-					<description><![CDATA[OpenAI’s feud with Scarlett Johansson could cost Hollywood AI deals.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1739776055-800x534.jpg" alt="Scarlett Johansson attends the Golden Heart Awards in 2023.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1739776055.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> <span class="sep">/</span> Scarlett Johansson attends the Golden Heart Awards in 2023. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/scarlett-johansson-attends-golden-heart-awards-2023-news-photo/1739776055?adppopup=true">Sean Zanni / Contributor | Patrick McMullan</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>OpenAI is sticking to its story that it never intended to copy Scarlett Johansson's voice when seeking an actor for ChatGPT's "Sky" voice mode.</p>
-<p>The company <a href="https://www.washingtonpost.com/technology/2024/05/22/openai-scarlett-johansson-chatgpt-ai-voice/">provided The Washington Post</a> with documents and recordings clearly meant to support <a href="https://arstechnica.com/tech-policy/2024/05/openai-pauses-chatgpt-4o-voice-that-fans-said-ripped-off-scarlett-johansson/">OpenAI CEO Sam Altman's defense against Johansson's claims</a> that Sky was made to sound "eerily similar" to her critically acclaimed voice acting performance in the sci-fi film <em>Her</em>.</p>
-<p>Johansson has alleged that OpenAI hired a soundalike to steal her likeness and confirmed that she declined to provide the Sky voice. Experts have said that Johansson has a strong case should she decide to sue OpenAI for violating her right to publicity, which gives the actress exclusive rights to the commercial use of her likeness.</p></div><p><a href="https://arstechnica.com/?p=2026675#p3">Read 40 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026675&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/sky-voice-actor-says-nobody-ever-compared-her-to-scarjo-before-openai-drama/feed/</wfw:commentRss>
-			<slash:comments>180</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Next up in Google’s dramatic overhaul of search: AI Overview ads</title>
-		<link>https://arstechnica.com/?p=2026600</link>
-					<comments>https://arstechnica.com/gadgets/2024/05/next-up-in-googles-dramatic-overhaul-of-search-ai-overview-ads/#comments</comments>
-		
-		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
-		<pubDate>Thu, 23 May 2024 17:36:24 +0000</pubDate>
-				<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[ai overview]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026600</guid>
-
-					<description><![CDATA[Google turned search into an AI product, and now it's time to make money. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-
-
-
-
-
-<div><a name="page-1"></a></div>
-  <ul class="gallery shortcode-gallery gallery-wide">
-          <li>
-        <div class="gallery-item-content">
-          <div class="gallery-image"><img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/11-980x738.jpg" alt=""></div>
-          <p>
-            Ads in AI Overview. They're below the fold in this example.                           [credit:
-                              Google                            ]
-                      </p>
-        </div>
-      </li>
-      </ul>
-
-<p>Google's AI Overview is a complete transformation of what Google Search is, changing from a product that searches the web to show relevant links, to a place that scrapes the web of information and shows it directly to users. Google is not done making changes, though, and next for AI Overview is ads! We're all so excited.</p>
-<p>The <a href="https://blog.google/products/ads-commerce/ai-creativity-google-marketing-live/">Google Ads &amp; Commerce blog</a> shows what this will look like, with ads landing at the bottom of the AI Overview box. The overview box was already a massive, screen-filling box, and ads make it even longer, pushing what's left of the web results even further down the page. Google's demo shows the ads at the bottom of the overview box, and you have to scroll down to see them.</p>
-<p>Google's ad placement will surely be changed and tweaked a million times in the future, and Google mentions that "in early testing, we’ve heard that people find the ads appearing above and below the AI-generated overview helpful." Leaving aside the unique perspective that ads are "helpful," there's your confirmation of the usual above-the-fold ad placement.</p></div><p><a href="https://arstechnica.com/?p=2026600#p3">Read 1 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026600&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/05/next-up-in-googles-dramatic-overhaul-of-search-ai-overview-ads/feed/</wfw:commentRss>
-			<slash:comments>85</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>The single-motor BMW i4 proves the less-powerful EV is usually better</title>
-		<link>https://arstechnica.com/?p=2026660</link>
-					<comments>https://arstechnica.com/cars/2024/05/the-bmw-i4-edrive40-might-be-the-best-electric-sedan-on-sale-today/#comments</comments>
-		
-		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
-		<pubDate>Thu, 23 May 2024 17:31:38 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[BMW i4]]></category>
-		<category><![CDATA[BMW i4 eDrive40]]></category>
-		<category><![CDATA[car review]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026660</guid>
-
-					<description><![CDATA[This rear-wheel drive EV is efficient, practical, and has class-leading technology.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/2024-BMW-i4-eDrive40-1-800x600.jpg" alt="A green metallic BMW i4 seen in the rain">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/2024-BMW-i4-eDrive40-1-scaled.jpg" class="enlarge-link" data-height="1920" data-width="2560">Enlarge</a> <span class="sep">/</span> BMW's single-motor, rear-wheel drive i4 eDrive40 ticks an awful lot of my boxes.  (credit: Jonathan Gitlin)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p><span class="ars-approved-logo right"></span>I have a theory about electric vehicles, and with a few notable exceptions, <a href="https://arstechnica.com/cars/2022/06/the-driving-enthusiasts-dilemma-about-electric-cars/">it's this</a>: The cheaper, less powerful version is usually the one to get. Big power outputs and short 0–60 times have been the industry's go-to, but always with the trade-off being less range and a bigger sticker price. Today's EV is a good example. It's the BMW i4 eDrive40, a single-motor version of BMW's smaller electric fastback sedan. It has taken a while to get some seat time in one, but the wait was worth it, because this is one of the best electric sedans we've tested so far.</p>
-<p>I've driven the BMW i4 a few times now since its launch in 2021, but always <a href="https://arstechnica.com/cars/2021/10/the-2023-bmw-i4-is-the-electric-bmw-sedan-youve-been-waiting-for/">the very fast, very powerful, rather expensive i4 M50</a>. Which is fine, but not exciting like the M3. The <a href="https://arstechnica.com/cars/2021/06/bmw-finds-its-mojo-again-with-the-55400-i4-electric-sedan/">i4 eDrive40</a> undercuts the twin-motor, all-wheel drive M50 by more than $10,000—it starts at a more reasonable $57,300 and goes more than 30 miles (48 km) farther on a single charge of the same capacity 84.3 kWh (net) battery pack, with an EPA range of 301 miles (484 km).</p>
-<p>BMW made its name on the back of a string of driver-focused, rear-wheel drive sedans, and I had high expectations for the eDrive40 to live up to. With no front motor, there's less weight on the front axle, and the front wheels just have to worry about steering and braking, not laying down power as well. Less power to put down means smaller wheels, which translates into a better ride and more range, although our test car was equipped with 19-inch wheels (a $600 option), which reduced its range to 283 miles (455 km) compared to the 18-inch option.</p></div><p><a href="https://arstechnica.com/?p=2026660#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026660&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/05/the-bmw-i4-edrive40-might-be-the-best-electric-sedan-on-sale-today/feed/</wfw:commentRss>
-			<slash:comments>99</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>A root-server at the Internet’s core lost touch with its peers. We still don’t know why.</title>
-		<link>https://arstechnica.com/?p=2026566</link>
-					<comments>https://arstechnica.com/security/2024/05/dns-glitch-that-threatened-internet-stability-fixed-cause-remains-unclear/#comments</comments>
-		
-		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
-		<pubDate>Thu, 23 May 2024 17:10:34 +0000</pubDate>
-				<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[DNS]]></category>
-		<category><![CDATA[DNSSEC]]></category>
-		<category><![CDATA[domain name system]]></category>
-		<category><![CDATA[root servers]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026566</guid>
-
-					<description><![CDATA[For 4 days, the c-root server maintained by Cogent lost touch with its 12 peers.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/internet-routing-800x534.jpeg" alt="A root-server at the Internet’s core lost touch with its peers. We still don’t know why.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/internet-routing.jpeg" class="enlarge-link" data-height="668" data-width="1000">Enlarge</a> </p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>For more than four days, a server at the very core of the Internet’s domain name system was out of sync with its 12 root server peers due to an unexplained glitch that could have caused stability and security problems worldwide. This server, maintained by Internet carrier <a href="http://www.cogentco.com/">Cogent Communications</a>, is one of the 13 root servers that provision the Internet’s root zone, which sits at the top of the hierarchical distributed database known as the domain name system, or DNS.</p>
-<p>Here's a simplified recap of the way the domain name system works and how root servers fit in:</p>
-<p>When someone enters wikipedia.org in their browser, the servers handling the request first must translate the human-friendly domain name into an IP address. This is where the domain name system comes in. The first step in the DNS process is the browser queries the local stub resolver in the local operating system. The stub resolver forwards the query to a recursive resolver, which may be provided by the user's ISP or a service such as 1.1.1.1 or 8.8.8.8 from Cloudflare and Google, respectively.</p></div><p><a href="https://arstechnica.com/?p=2026566#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026566&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/security/2024/05/dns-glitch-that-threatened-internet-stability-fixed-cause-remains-unclear/feed/</wfw:commentRss>
-			<slash:comments>70</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>EmTech Digital 2024: A thoughtful look at AI’s pros and cons with minimal hype</title>
-		<link>https://arstechnica.com/?p=2026462</link>
-					<comments>https://arstechnica.com/information-technology/2024/05/emtech-digital-2024-a-thoughtful-look-at-ais-pros-and-cons-with-minimal-hype/#comments</comments>
-		
-		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
-		<pubDate>Thu, 23 May 2024 16:38:38 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[EmTech Digital]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[Mat Honan]]></category>
-		<category><![CDATA[Melissa Heikkilä]]></category>
-		<category><![CDATA[MIT]]></category>
-		<category><![CDATA[mit media lab]]></category>
-		<category><![CDATA[MIT Technology Review]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026462</guid>
-
-					<description><![CDATA[At MIT conference, experts explore AI's potential for "human flourishing" and the need for regulation.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/IMG_0794-800x600.jpg" alt="Nathan Benaich of Air Street capital delivers the opening presentation on the state of AI at EmTech Digital 2024 on May 22, 2024.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/IMG_0794-scaled.jpg" class="enlarge-link" data-height="1920" data-width="2560">Enlarge</a> <span class="sep">/</span> Nathan Benaich of Air Street Capital delivers the opening presentation on the state of AI at EmTech Digital 2024 on May 22, 2024. (credit: Benj Edwards)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>CAMBRIDGE, Massachusetts—On Wednesday, AI enthusiasts and experts gathered to hear a series of presentations about the state of AI at <a href="https://event.technologyreview.com/emtech-digital-us-2024/">EmTech Digital 2024</a> on the Massachusetts Institute of Technology's campus. The event was hosted by the publication MIT Technology Review. The overall consensus is that generative AI is still in its very early stages—with policy, regulations, and social norms still being established—and its growth is likely to continue into the future.</p>
-
-<p>I was there to check the event out. MIT is the birthplace of many tech innovations—including the <a href="https://www.vintagecomputing.com/index.php/archives/1863/spacewar-profile-of-a-cultural-earthquake">first action-oriented computer video game</a>—among others, so it felt fitting to hear talks about the latest tech craze in the same building that hosts MIT's <a href="https://en.wikipedia.org/wiki/MIT_Media_Lab">Media Lab</a> on its sprawling and lush campus.</p>
-<p>EmTech's speakers included AI researchers, policy experts, critics, and company spokespeople. A corporate feel pervaded the event due to strategic sponsorships, but it was handled in a low-key way that matches the level-headed tech coverage coming out of MIT Technology Review. After each presentation, MIT Technology Review staff—such as Editor-in-Chief Mat Honan and Senior Reporter Melissa Heikkilä—did a brief sit-down interview with the speaker, pushing back on some points and emphasizing others. Then the speaker took a few audience questions if time allowed.</p></div><p><a href="https://arstechnica.com/?p=2026462#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026462&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/information-technology/2024/05/emtech-digital-2024-a-thoughtful-look-at-ais-pros-and-cons-with-minimal-hype/feed/</wfw:commentRss>
-			<slash:comments>23</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>US sues Ticketmaster and owner Live Nation, seeks breakup of monopoly</title>
-		<link>https://arstechnica.com/?p=2026640</link>
-					<comments>https://arstechnica.com/tech-policy/2024/05/us-sues-ticketmaster-and-owner-live-nation-seeks-breakup-of-monopoly/#comments</comments>
-		
-		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
-		<pubDate>Thu, 23 May 2024 16:04:54 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[live nation ticketmaster]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026640</guid>
-
-					<description><![CDATA[Live Nation has monopolized "nearly all live music in America today," US says.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/ticketmaster-800x533.jpg" alt="A large Ticketmaster logo is displayed on a digital screen above the field where a soccer game is played.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/ticketmaster.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> <span class="sep">/</span> Ticketmaster advertisements in the United States v. South Africa women's soccer match at Soldier Field on September 24, 2023 in Chicago, Illinois.  (credit: Getty Images | Daniel Bartel/ISI Photos/USSF)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The US government today sued Live Nation and its Ticketmaster subsidiary in a complaint that seeks a breakup of the company that dominates the live music and events market.</p>
-<p>The US Department of Justice is seeking "structural relief," including a breakup, "to stop the anticompetitive conduct arising from Live Nation's monopoly power." The DOJ <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.621993/gov.uscourts.nysd.621993.1.0_1.pdf">complaint</a> asked a federal court to "order the divestiture of, at minimum, Ticketmaster, along with any additional relief as needed to cure any anticompetitive harm."</p>
-<p>The District of Columbia and 29 states joined the DOJ in the lawsuit filed in US District Court for the Southern District of New York. "One monopolist serves as the gatekeeper for the delivery of nearly all live music in America today: Live Nation, including its wholly owned subsidiary Ticketmaster," the complaint said.</p></div><p><a href="https://arstechnica.com/?p=2026640#p3">Read 17 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026640&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/05/us-sues-ticketmaster-and-owner-live-nation-seeks-breakup-of-monopoly/feed/</wfw:commentRss>
-			<slash:comments>123</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>The 2024 Chevrolet Silverado EV’s great range comes at a high cost</title>
-		<link>https://arstechnica.com/?p=2026203</link>
-					<comments>https://arstechnica.com/cars/2024/05/the-2024-chevrolet-silverado-evs-great-range-comes-at-a-high-cost/#comments</comments>
-		
-		<dc:creator><![CDATA[Ars Contributors]]></dc:creator>
-		<pubDate>Thu, 23 May 2024 16:00:20 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[car review]]></category>
-		<category><![CDATA[Chevrolet silverado EV]]></category>
-		<category><![CDATA[First drive]]></category>
-		<category><![CDATA[Ultium]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026203</guid>
-
-					<description><![CDATA[At $94,500, the Chevrolet Silverado RST First Edition offers diminishing returns.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Ars-Technica-Chevrolet-Silverado-EV-4-800x533.jpg" alt="A black Chevrolet Silverado EV">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Ars-Technica-Chevrolet-Silverado-EV-4.jpg" class="enlarge-link" data-height="1600" data-width="2400">Enlarge</a> <span class="sep">/</span> Chevrolet is starting at the top with the Silverado EV RST First Edition. It's betting that EV truck buyers want a lot of range and towing capability and will pay handsomely for the experience. (credit: Michael Teo Van Runkle)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<aside class="pullbox sidebar fullwidth">Chevrolet provided flights from Los Angeles to Detroit and accommodation so Ars could drive the Silverado EV. Ars does not accept paid editorial content.</aside>
-<p>The latest addition to Chevrolet's growing family of Ultium electric vehicles recently began shipping to dealers in the form of the Silverado EV's early RST First Edition package. Silverado's top spec level now joins the lineup's previous fleet-only WT trim, meaning the general public can now purchase an enormous electric pickup that strongly resembles the Avalanche of 2001 to 2013. But despite any other similarities to <a href="https://arstechnica.com/cars/2022/04/the-hummer-ev-is-an-electric-truck-for-people-who-think-evs-are-stupid/">the Hummer EV</a>, which shares a related chassis, or ICE trucks of old, the 2024 Silverado aims to change the game for GM's market positioning despite arriving a full <a href="https://arstechnica.com/cars/2022/05/the-most-important-ev-of-the-decade-we-drive-the-f-150-lightning/4/">24 months after Ford's F-150 Lightning</a>.</p>
-<p>With a large crew cab, a longer truck bed, and angular sail panels, the Silverado EV looks less boxy than GMC's Hummer EV. Aero gains thanks to the smoother design pair with lower rolling-resistance tires, allowing the Silverado to achieve an EPA range estimate of up to 450 miles (724 km), though the RST First Edition I recently drove over the course of a long day in Michigan earns a rating of 440 miles (708 km).</p>
-<p>On the highway, judging by wind noise around the cabin alone, the aerodynamic gains of the Silverado's styling seem to make a noticeable difference versus the Hummer. On the other hand, tire hum might cover up any aero deficiencies because the RST's single weirdest detail constantly occupies center stage here: a set of 24-inch wheels, the largest ever equipped to a car, truck, or SUV straight from the factory.</p></div><p><a href="https://arstechnica.com/?p=2026203#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026203&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/05/the-2024-chevrolet-silverado-evs-great-range-comes-at-a-high-cost/feed/</wfw:commentRss>
-			<slash:comments>140</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Teslas can still be stolen with a cheap radio hack despite new keyless tech</title>
-		<link>https://arstechnica.com/?p=2026474</link>
-					<comments>https://arstechnica.com/cars/2024/05/teslas-can-still-be-stolen-with-a-cheap-radio-hack-despite-new-keyless-tech/#comments</comments>
-		
-		<dc:creator><![CDATA[WIRED]]></dc:creator>
-		<pubDate>Thu, 23 May 2024 14:24:10 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[car theft]]></category>
-		<category><![CDATA[model 3]]></category>
-		<category><![CDATA[relay attack]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[Tesl]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026474</guid>
-
-					<description><![CDATA[Tesla owners should enable PIN-to-drive protection to thwart relay attacks.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/01/GettyImages-1531040160-800x503.jpg" alt="New Tesla electric vehicles fill the car lot at the Tesla retail location on Route 347 in Smithtown, New York on July 5, 2023.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/01/GettyImages-1531040160-scaled.jpg" class="enlarge-link" data-height="1611" data-width="2560">Enlarge</a> <span class="sep">/</span> Tesla sold 1.2 million Model Y crossovers last year. (credit: John Paraskevas/Newsday RM via Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>For at least a decade, a car theft trick known as a <a href="https://www.wired.com/2017/04/just-pair-11-radio-gadgets-can-steal-car/">“relay attack”</a> has been the modern equivalent of hot-wiring: a cheap and relatively easy technique to steal hundreds of models of vehicles. A more recent upgrade to the radio protocol in cars' keyless entry systems known as ultra-wideband communications, rolled out to some high-end cars including the latest <a href="https://www.wired.com/story/tesla-model-3-review/">Tesla Model 3</a>, has been heralded as the fix for that ubiquitous form of grand theft auto. But when one group of Chinese researchers actually checked whether it's still possible to perform relay attacks against the latest Tesla and a collection of other cars that support that next-gen radio protocol, they found that they're as stealable as ever.</p>
-<figure class="video ars-wp-video">
-    <div class="wrapper ars-wp-video-wrapper" style="padding-bottom: 56.25%;">
-        <video class="wp-video-shortcode" id="video-2026474-1" width="1920" height="1080" preload="metadata" controls="controls"><source type="video/mp4" src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/tesla-radio-hack.mp4?_=1"></source></video>    </div>
-    </figure>
-<p>In a video shared with WIRED, researchers at the Beijing-based automotive cybersecurity firm GoGoByte demonstrated that they could carry out a relay attack against the latest Tesla Model 3 despite its upgrade to an ultra-wideband keyless entry system, instantly unlocking it with less than a hundred dollars worth of radio equipment. Since the Tesla 3's keyless entry system also controls the car's immobilizer feature designed to prevent its theft, that means a radio hacker could start the car and drive it away in seconds—unless the driver has enabled Tesla's optional, off-by-default PIN-to-drive feature that requires the owner to enter a four-digit code before starting the car.</p>
-<p></p></div><p><a href="https://arstechnica.com/?p=2026474#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026474&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/05/teslas-can-still-be-stolen-with-a-cheap-radio-hack-despite-new-keyless-tech/feed/</wfw:commentRss>
-			<slash:comments>110</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>The next food marketing blitz is aimed at people on new weight-loss drugs</title>
-		<link>https://arstechnica.com/?p=2026494</link>
-					<comments>https://arstechnica.com/science/2024/05/with-weight-loss-drugs-booming-companies-target-dieters-with-new-foods/#comments</comments>
-		
-		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Thu, 23 May 2024 14:08:53 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Daily Harvest]]></category>
-		<category><![CDATA[diet]]></category>
-		<category><![CDATA[food]]></category>
-		<category><![CDATA[food industry]]></category>
-		<category><![CDATA[GLP-1]]></category>
-		<category><![CDATA[GNC]]></category>
-		<category><![CDATA[mounjaro]]></category>
-		<category><![CDATA[nestle]]></category>
-		<category><![CDATA[Ozempic]]></category>
-		<category><![CDATA[wegovy]]></category>
-		<category><![CDATA[weight loss]]></category>
-		<category><![CDATA[Weight Watchers]]></category>
-		<category><![CDATA[zepbound]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026494</guid>
-
-					<description><![CDATA[Taking a weight-loss drug? Food makers have just the new food for you.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1189380093-800x533.jpeg" alt="The next food marketing blitz is aimed at people on new weight-loss drugs">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1189380093-scaled.jpeg" class="enlarge-link" data-height="1706" data-width="2560">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/miami-beach-publix-grocery-store-frozen-foods-aisle-news-photo/1189380093?searchscope=image%2Cfilm&amp;adppopup=true">Getty | Jeffrey Greenberg</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>As new diabetes and weight-loss drugs help patients curb appetites and <a href="https://arstechnica.com/science/2024/05/long-term-wegovy-study-finds-weight-loss-plateaus-a-little-after-a-year/">shed pounds</a>, food manufacturers are looking for new ways to keep their bottom lines plump.</p>
-<p>Millions of Americans have begun taking the <a href="https://arstechnica.com/science/2024/05/outrageously-priced-weight-loss-drugs-could-bankrupt-us-health-care/">pricey new drugs</a>—particularly Mounjaro, Ozempic, Wegovy, and Zepbound—and millions more are expected to go on them in the coming years. As such, food makers are bracing for slimmer sales. In <a href="https://www.morganstanley.com/ideas/obesity-drugs-market-expanded-opportunity">a report earlier this month</a>, Morgan Stanley's tobacco and packaged food analyst Pamela Kaufman said the drugs are expected to affect both the amounts and the types of food people eat, taking a bite out of the food and drink industry's profits.</p>
-<p>"In Morgan Stanley Research surveys, people taking weight-loss drugs were found to eat less food in general, while half slashed their consumption of sugary drinks, alcohol, confections and salty snacks, and nearly a quarter stopped drinking alcohol completely," Kaufman said. Restaurants that sell unhealthy foods, particularly chains, may face long-term business risks, the report noted. Around 75 percent of survey respondents taking weight-loss drugs said they had cut back on going to pizza and fast food restaurants.</p></div><p><a href="https://arstechnica.com/?p=2026494#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026494&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/05/with-weight-loss-drugs-booming-companies-target-dieters-with-new-foods/feed/</wfw:commentRss>
-			<slash:comments>140</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Redwood partners with GM joint venture Ultium to recycle battery scrap</title>
-		<link>https://arstechnica.com/?p=2026304</link>
-					<comments>https://arstechnica.com/cars/2024/05/gm-to-recycle-10k-tons-of-ev-battery-materials-a-year-with-redwood-deal/#comments</comments>
-		
-		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
-		<pubDate>Thu, 23 May 2024 13:00:00 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[battery recycling]]></category>
-		<category><![CDATA[EV battery recycling]]></category>
-		<category><![CDATA[General Motors]]></category>
-		<category><![CDATA[Redwood Materials]]></category>
-		<category><![CDATA[Ultium]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2026304</guid>
-
-					<description><![CDATA[Production scrap from cell factories in Ohio and Tennessee will be recycled.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Materials1-800x534.jpg" alt="Eight beakers filled with colorful mineral salts, photographed from above.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/Materials1.jpg" class="enlarge-link" data-height="5464" data-width="8192">Enlarge</a> <span class="sep">/</span> These minerals were once part of lithium-ion battery cells and will be once again. (credit: Redwood Materials)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Battery recycling company Redwood Materials will start recycling battery production scrap from General Motors' new line of electric vehicles. This morning, Redwood announced that it is working with Ultium Cells, the joint venture between GM and LG Energy Solutions that makes Ultium battery cells. Approximately 10,000 tons a year of production scrap will be sent from the Ultium Cells plants in Ohio and Tennessee to Redwood's site in northern Nevada.</p>
-<p>Redwood was <a href="https://arstechnica.com/science/2020/09/former-tesla-cto-wins-amazon-funding-for-battery-recycling-project/">started by</a> former Tesla CTO JB Straubel in 2017 and in recent years has announced partnerships with multiple OEMs, including <a href="https://arstechnica.com/cars/2022/02/ford-volvo-and-redwood-materials-start-recycling-ev-batteries/">Ford, Volvo</a>, <a href="https://arstechnica.com/cars/2022/07/volkswagen-partners-with-redwood-materials-to-recycle-ev-batteries/">Volkswagen</a>, and now General Motors. Last year, the US Department of Energy <a href="https://arstechnica.com/cars/2023/02/redwood-gets-2-billion-commitment-from-doe-for-recycled-batteries/">approved a $2 billion loan</a> to Redwood as part of its Advanced Technology Manufacturing program (which also funded Ultium Cells).</p>
-<p>Redwood says that its hydrometallurgy facility is now a "commercial-scale source of lithium supply," the first to come online in the United States for decades. The facility also produces raw nickel and cobalt from battery scrap.</p></div><p><a href="https://arstechnica.com/?p=2026304#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2026304&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/05/gm-to-recycle-10k-tons-of-ev-battery-materials-a-year-with-redwood-deal/feed/</wfw:commentRss>
-			<slash:comments>38</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>New warp drive concept does twist space, doesn’t move us very fast</title>
-		<link>https://arstechnica.com/?p=2025766</link>
-					<comments>https://arstechnica.com/science/2024/05/physicists-find-a-possible-way-to-get-warped-space-but-no-drive/#comments</comments>
-		
-		<dc:creator><![CDATA[Paul Sutter]]></dc:creator>
-		<pubDate>Thu, 23 May 2024 12:55:48 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[faster than light travel]]></category>
-		<category><![CDATA[general relativity]]></category>
-		<category><![CDATA[Physics]]></category>
-		<category><![CDATA[warp drive]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2025766</guid>
-
-					<description><![CDATA[While it won't make a useful spaceship engine, it may tell us more about relativity.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2015/12/Enterprise-Temporal-Vortex-640x275.jpg" alt="The Enterprise, caught in the wake of a temporal vortex, witnesses the Earth, assimilated long ago, in the altered timeline. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2015/12/Enterprise-Temporal-Vortex.jpg" class="enlarge-link" data-height="826" data-width="1920">Enlarge</a> <span class="sep">/</span> The Enterprise, caught in the wake of a temporal vortex, witnesses the Earth, assimilated long ago, in the altered timeline.  (credit: Paramount Pictures)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>A team of physicists has discovered that it’s possible to build a real, actual, physical warp drive and not break any known rules of physics. One caveat: the vessel doing the warping can’t exceed the speed of light, so you’re not going to get anywhere interesting any time soon. But this research still represents an important advance in our understanding of gravity.</p>
-<h2>Moving without motion</h2>
-<p>Einstein’s general theory of relativity is a toolkit for solving problems involving gravity that connects mass and energy with deformations in spacetime. In turn, those spacetime deformations instruct the mass and energy how to move. In almost all cases, physicists use the equations of relativity to figure out how a particular combination of objects will move. They have some physical scenario, like a planet orbiting a star or two black holes colliding, and they ask how those objects deform spacetime and what the subsequent evolution of the system should be.</p>
-<p>But it’s also possible to run Einstein’s math in reverse by imagining some desired motion and asking what kind of spacetime deformation can make it possible. This is how the Mexican physicist Miguel Alcubierre discovered the physical basis for a warp drive—long a staple of the <em>Star Trek </em>franchise.</p></div><p><a href="https://arstechnica.com/?p=2025766#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2025766&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/05/physicists-find-a-possible-way-to-get-warped-space-but-no-drive/feed/</wfw:commentRss>
-			<slash:comments>171</slash:comments>
+			<slash:comments>88</slash:comments>
 		
 		
 			</item>
