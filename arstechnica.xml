@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Fri, 14 Jun 2024 03:41:25 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 14 Jun 2024 23:19:45 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,6 +21,524 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Blue Origin joins SpaceX and ULA in new round of military launch contracts</title>
+		<link>https://arstechnica.com/?p=2031872</link>
+					<comments>https://arstechnica.com/space/2024/06/blue-origin-joins-spacex-and-ula-in-new-round-of-military-launch-contracts/#comments</comments>
+		
+		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 23:19:45 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[blue origin]]></category>
+		<category><![CDATA[falcon heavy]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[military space]]></category>
+		<category><![CDATA[new glenn]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[united launch alliance]]></category>
+		<category><![CDATA[vulcan]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2031872</guid>
+
+					<description><![CDATA["Lane 1 serves our commercial-like missions that can accept more risk."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/newglenn_lc36-800x533.jpg" alt="Blue Origin's New Glenn rocket on the launch pad for testing earlier this year.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/newglenn_lc36.jpg" class="enlarge-link" data-height="1200" data-width="1800">Enlarge</a> <span class="sep">/</span> Blue Origin's New Glenn rocket on the launch pad for testing earlier this year. (credit: <a rel="nofollow" class="caption-link" href="https://x.com/blueorigin/status/1767937132436357506">Blue Origin</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>After years of lobbying, protests and bidding, Jeff Bezos's space company is now a military launch contractor.</p>
+<p>The US Space Force announced Thursday that Blue Origin will compete with United Launch Alliance and SpaceX for at least 30 military launch contracts over the next five years. These launch contracts have a combined value of up to $5.6 billion.</p>
+<p>This is the first of two major contract decisions the Space Force will make this year as the military seeks to foster more competition among its roster of launch providers, and reduce its reliance on just one or two companies.</p></div><p><a href="https://arstechnica.com/?p=2031872#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031872&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/06/blue-origin-joins-spacex-and-ula-in-new-round-of-military-launch-contracts/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ransomware attackers quickly weaponize PHP vulnerability with 9.8 severity rating</title>
+		<link>https://arstechnica.com/?p=2031861</link>
+					<comments>https://arstechnica.com/security/2024/06/thousands-of-servers-infected-with-ransomware-via-critical-php-vulnerability/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 19:40:29 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[exploits]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2031861</guid>
+
+					<description><![CDATA[TellYouThePass group opportunistically infects servers that have yet to update.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/01/exploit-800x534.jpg" alt='Photograph depicts a security scanner extracting virus from a string of binary code. Hand with the word "exploit"'>
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/01/exploit.jpg" class="enlarge-link" data-height="667" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Ransomware criminals have quickly weaponized an easy-to-exploit vulnerability in the PHP programming language that executes malicious code on web servers, security researchers said.</p>
+<p>As of Thursday, Internet scans performed by security firm Censys had detected 1,000 servers infected by a ransomware strain known as TellYouThePass, down from 1,800 detected on Monday. The servers, primarily located in China, no longer display their usual content; instead, many list the site’s file directory, which shows all files have been given a .locked extension, indicating they have been encrypted. An accompanying ransom note demands roughly $6,500 in exchange for the decryption key.</p>
+<div class="image shortcode-img center large"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/tellyouthepass-php.ransom-note.webp"><img alt="The output of PHP servers infected by TellYouThePass ransomware." src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/tellyouthepass-php.ransom-note-640x621.webp" srcset="https://cdn.arstechnica.net/wp-content/uploads/2024/06/tellyouthepass-php.ransom-note.webp 2x"></a><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/tellyouthepass-php.ransom-note.webp" class="caption-link" rel="nofollow">The output of PHP servers infected by TellYouThePass ransomware.</a> (credit: Censys)</p></div>
+<div class="image shortcode-img center large"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/tellyouthepass-ransom-note.webp"><img alt="The accompanying ransom note." src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/tellyouthepass-ransom-note-640x101.webp" srcset="https://cdn.arstechnica.net/wp-content/uploads/2024/06/tellyouthepass-ransom-note.webp 2x"></a><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/tellyouthepass-ransom-note.webp" class="caption-link" rel="nofollow">The accompanying ransom note.</a> (credit: Censys)</p></div>
+<h2>When opportunity knocks</h2>
+<p>The <a href="https://arstechnica.com/security/2024/06/php-vulnerability-allows-attackers-to-run-malicious-code-on-windows-servers/">vulnerability</a>, tracked as CVE-2024-4577 and carrying a severity rating of 9.8 out of 10, stems from errors in the way PHP converts Unicode characters into ASCII. A feature built into Windows known as Best Fit allows attackers to use a technique known as argument injection to convert user-supplied input into characters that pass malicious commands to the main PHP application. Exploits allow attackers to bypass CVE-2012-1823, a critical code execution vulnerability patched in PHP in 2012.</p></div><p><a href="https://arstechnica.com/?p=2031861#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031861&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/06/thousands-of-servers-infected-with-ransomware-via-critical-php-vulnerability/feed/</wfw:commentRss>
+			<slash:comments>29</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Meta halts plans to train AI on Facebook, Instagram posts in EU</title>
+		<link>https://arstechnica.com/?p=2031851</link>
+					<comments>https://arstechnica.com/tech-policy/2024/06/meta-halts-plans-to-train-ai-on-facebook-instagram-posts-in-eu/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 18:44:48 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[european union]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[gdpr]]></category>
+		<category><![CDATA[General Data Protection Regulation]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[noyb]]></category>
+		<category><![CDATA[online privacy]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2031851</guid>
+
+					<description><![CDATA[Meta was going to start training AI on Facebook and Instagram posts on June 26.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1160865507-800x536.jpg" alt="Meta halts plans to train AI on Facebook, Instagram posts in EU">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1160865507.jpg" class="enlarge-link" data-height="1417" data-width="2115">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/illustration/thumbs-down-icon-abstract-blue-background-royalty-free-illustration/1160865507?phrase=Facebook%20thumbs%20down&amp;searchscope=image%2Cfilm">GreyParrot | iStock / Getty Images Plus</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Meta has apparently paused plans to process mounds of user data to bring new AI experiences to Europe.</p>
+<p>The decision comes after <a href="https://arstechnica.com/tech-policy/2024/06/meta-to-train-undefined-ai-tech-on-facebook-users-posts-pics-in-eu/">data regulators rebuffed</a> the tech giant's <a href="https://about.fb.com/news/h/bringing-generative-ai-experiences-to-people-in-europe/">claims</a> that it had "legitimate interests" in processing European Union- and European Economic Area (EEA)-based Facebook and Instagram users' data—including personal posts and pictures—to train future AI tools.</p>
+<p>There's not much information available yet on Meta's decision. But Meta's EU regulator, the Irish Data Protection Commission (DPC), posted a <a href="https://www.dataprotection.ie/en/news-media/latest-news/dpcs-engagement-meta-ai">statement</a> confirming that Meta made the move after ongoing discussions with the DPC about compliance with the EU's strict data privacy laws, including the General Data Protection Regulation (GDPR).</p></div><p><a href="https://arstechnica.com/?p=2031851#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031851&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/meta-halts-plans-to-train-ai-on-facebook-instagram-posts-in-eu/feed/</wfw:commentRss>
+			<slash:comments>36</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Retired engineer discovers 55-year-old bug in Lunar Lander computer game code</title>
+		<link>https://arstechnica.com/?p=2031700</link>
+					<comments>https://arstechnica.com/gaming/2024/06/retired-engineer-discovers-55-year-old-bug-in-lunar-lander-computer-game-code/#comments</comments>
+		
+		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 18:04:33 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apollo]]></category>
+		<category><![CDATA[FOCAL]]></category>
+		<category><![CDATA[gaming]]></category>
+		<category><![CDATA[Jim Storer]]></category>
+		<category><![CDATA[lunar lander]]></category>
+		<category><![CDATA[Martin C. Martin]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[PDP-8]]></category>
+		<category><![CDATA[space]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2031700</guid>
+
+					<description><![CDATA[A physics simulation flaw in text-based 1969 computer game went unnoticed until today.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/moonlander_hero_3-800x450.jpg" alt="Illustration of the Apollo lunar lander Eagle over the Moon.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/moonlander_hero_3.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> Illustration of the Apollo lunar lander Eagle over the Moon. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/illustration/lunar-module-over-the-moon-illustration-royalty-free-illustration/1015900070">Getty Images</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>On Friday, a retired software engineer named Martin C. Martin <a href="https://martincmartin.com/2024/06/14/how-i-found-a-55-year-old-bug-in-the-first-lunar-lander-game/">announced</a> that he recently discovered a bug in the original <em>Lunar Lander</em> computer game's physics code while tinkering with the software. Created by a <a href="https://technologizer.com/2009/07/19/lunar-lander/index.html">17-year-old high school student named Jim Storer</a> in 1969, this primordial game rendered the action only as text status updates on a <a href="https://www.pcmag.com/news/the-forgotten-world-of-teletype-computer-games">teletype</a>, but it set the stage for future versions to come.</p>
+
+<p>The legendary game—which Storer developed on a <a href="https://en.wikipedia.org/wiki/PDP-8">PDP-8</a> minicomputer in a programming language called <a href="https://en.wikipedia.org/wiki/FOCAL_(programming_language)">FOCAL</a> just months after Neil Armstrong and Buzz Aldrin made their historic moonwalks—allows players to control a lunar module's descent onto the Moon's surface. Players must carefully manage their fuel usage to achieve a gentle landing, making critical decisions every ten seconds to burn the right amount of fuel.</p>
+<p>In 2009, just short of the 40th anniversary of the first Moon landing, I set out to find the author of the original <em>Lunar Lander</em> game, which was then primarily known as a graphical game, thanks to the <a href="http://www.brouhaha.com/~eric/retrocomputing/dec/gt40/">graphical version</a> from 1974 and a <a href="https://en.wikipedia.org/wiki/Lunar_Lander_(1979_video_game)">1979 Atari arcade title</a>. When I discovered that Storer created the oldest known version as a teletype game, I interviewed him and wrote up <a href="https://technologizer.com/2009/07/19/lunar-lander/index.html">a history of the game</a>. Storer later <a href="https://www.cs.brandeis.edu/~storer/LunarLander/LunarLander.html">released the source code</a> to the original game, written in FOCAL, on his website.</p></div><p><a href="https://arstechnica.com/?p=2031700#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031700&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/06/retired-engineer-discovers-55-year-old-bug-in-lunar-lander-computer-game-code/feed/</wfw:commentRss>
+			<slash:comments>49</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Apple punishes women for same behaviors that get men promoted, lawsuit says</title>
+		<link>https://arstechnica.com/?p=2031799</link>
+					<comments>https://arstechnica.com/tech-policy/2024/06/apple-deliberately-pays-women-less-than-men-lawsuit-says/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 17:37:59 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[discrimination]]></category>
+		<category><![CDATA[equal employment]]></category>
+		<category><![CDATA[gender pay gap]]></category>
+		<category><![CDATA[pay discrimination]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2031799</guid>
+
+					<description><![CDATA[Apple could owe thousands in back pay to 12,000 female employees.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1258638612-800x534.jpg" alt="Apple punishes women for same behaviors that get men promoted, lawsuit says">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1258638612.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/woman-with-headphones-walks-past-an-apple-store-in-downtown-news-photo/1258638612?searchscope=image%2Cfilm&amp;adppopup=true">Marcos del Mazo / Contributor | LightRocket</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Apple has spent years "intentionally, knowingly, and deliberately paying women less than men for substantially similar work," a proposed class action <a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Jong-v-Apple-Complaint-6-13-2024.pdf">lawsuit</a> filed in California on Thursday alleged.</p>
+<p>A victory for women suing could mean that more than 12,000 current and former female employees in California could collectively claw back potentially millions in lost wages from an apparently ever-widening wage gap allegedly perpetuated by Apple policies.</p>
+<p>The lawsuit was filed by two employees who have each been with Apple for more than a decade, Justina Jong and Amina Salgado. They claimed that Apple violated California employment laws between 2020 and 2024 by unfairly discriminating against California-based female employees in Apple’s engineering, marketing, and AppleCare divisions and "systematically" paying women "lower compensation than men with similar education and experience."</p></div><p><a href="https://arstechnica.com/?p=2031799#p3">Read 20 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031799&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/apple-deliberately-pays-women-less-than-men-lawsuit-says/feed/</wfw:commentRss>
+			<slash:comments>165</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tesla investors sue Elon Musk for diverting carmaker’s resources to xAI</title>
+		<link>https://arstechnica.com/?p=2031780</link>
+					<comments>https://arstechnica.com/tech-policy/2024/06/tesla-investors-sue-elon-musk-for-diverting-carmakers-resources-to-xai/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 17:11:27 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[elon musk tesla]]></category>
+		<category><![CDATA[elon musk xai]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2031780</guid>
+
+					<description><![CDATA[Lawsuit: Musk's xAI poached Tesla employees, Nvidia GPUs, and data.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/tesla-logo-800x533.jpg" alt="A large Tesla logo">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/tesla-logo.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> (credit: Getty Images | SOPA Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>A group of Tesla investors yesterday sued Elon Musk, the company, and its board members, alleging that Tesla was harmed by Musk's diversion of resources to his xAI venture. The diversion of resources includes hiring AI employees away from Tesla, diverting microchips from Tesla to X (formerly Twitter) and xAI, and "xAI's use of Tesla's data to develop xAI's own software/hardware, all without compensation to Tesla," the lawsuit said.</p>
+<p>The <a href="https://s3.documentcloud.org/documents/24747977/2024-06-13-e-filed-verified-stockholder-derivative-complaint-tesla-xai.pdf">lawsuit</a> in Delaware Court of Chancery was filed by three Tesla shareholders: the Cleveland Bakers and Teamsters Pension Fund, Daniel Hazen, and Michael Giampietro. It seeks financial damages for Tesla and the disgorging of Musk's equity stake in xAI to Tesla.</p>
+<p>"Could the CEO of Coca-Cola loyally start a competing soft-drink company on the side, then divert scarce ingredients from Coca-Cola to the startup? Could the CEO of Goldman Sachs loyally start a competing financial advisory company on the side, then hire away key bankers from Goldman Sachs to the startup? Could the board of either company loyally permit such conduct without doing <em>anything</em> about it? Of course not," the lawsuit says.</p></div><p><a href="https://arstechnica.com/?p=2031780#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031780&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/tesla-investors-sue-elon-musk-for-diverting-carmakers-resources-to-xai/feed/</wfw:commentRss>
+			<slash:comments>166</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Huge telehealth fraud indictment may wreak havoc for Adderall users, CDC warns</title>
+		<link>https://arstechnica.com/?p=2031787</link>
+					<comments>https://arstechnica.com/science/2024/06/up-to-50k-patients-face-adderall-disruption-amid-telehealth-fraud-indictment/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 16:59:35 +0000</pubDate>
+				<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[adderall]]></category>
+		<category><![CDATA[ADHD]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[department of justice]]></category>
+		<category><![CDATA[Done Global]]></category>
+		<category><![CDATA[fentanyl]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[illicit drugs]]></category>
+		<category><![CDATA[overdose]]></category>
+		<category><![CDATA[prescription drug]]></category>
+		<category><![CDATA[stimulants]]></category>
+		<category><![CDATA[telehealth]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2031787</guid>
+
+					<description><![CDATA[The consequences are dangerous, possibly even deadly, for patients across the US.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-94819136-800x526.jpeg" alt="Ten milligram tablets of the hyperactivity drug, Adderall, made by Shire Plc, is shown in a Cambridge, Massachusetts pharmacy Thursday, January 19, 2006.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-94819136-scaled.jpeg" class="enlarge-link" data-height="1682" data-width="2560">Enlarge</a> <span class="sep">/</span> Ten milligram tablets of the hyperactivity drug, Adderall, made by Shire Plc, is shown in a Cambridge, Massachusetts pharmacy Thursday, January 19, 2006. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/ten-milligram-tablets-of-the-hyperactivity-drug-adderall-news-photo/94819136?searchscope=image%2Cfilm&amp;adppopup=true">Getty | Jb Reed</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The Centers for Disease Control and Prevention on Thursday warned that a federal indictment of an allegedly fraudulent telehealth company may lead to a massive, nationwide disruption in access to ADHD medications—namely Adderall, but also other stimulants—and could possibly increase the risk of injuries and overdoses.</p>
+<p>"A disruption involving this large telehealth company could impact as many as 30,000 to 50,000 patients ages 18 years and older across all 50 US states," <a href="https://emergency.cdc.gov/han/2024/han00510.asp">the CDC wrote in its health alert</a>.</p>
+<p>The CDC warning came on the heels of <a href="https://www.justice.gov/opa/pr/founderceo-and-clinical-president-digital-health-company-arrested-100m-adderall-distribution">an announcement from the Justice Department</a> Thursday that federal agents had arrested two people in connection with an alleged scheme to illegally distribute Adderall and other stimulants through a subscription-based online telehealth company called Done Global.  The company's CEO and founder, Ruthia He, was arrested in Los Angeles, and its clinical president, David Brody, was arrested in San Rafael, California.</p></div><p><a href="https://arstechnica.com/?p=2031787#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031787&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/06/up-to-50k-patients-face-adderall-disruption-amid-telehealth-fraud-indictment/feed/</wfw:commentRss>
+			<slash:comments>124</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>To kill the competition, bacteria throw pieces of dead viruses at them</title>
+		<link>https://arstechnica.com/?p=2031745</link>
+					<comments>https://arstechnica.com/science/2024/06/bacteria-use-pieces-of-dead-viruses-to-kill-their-competitors/#comments</comments>
+		
+		<dc:creator><![CDATA[John Timmer]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 16:50:43 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[bacteria]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[evolution]]></category>
+		<category><![CDATA[phages]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2031745</guid>
+
+					<description><![CDATA[A network of mutual murder ensures that diverse populations of bacteria survive.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1179029438-800x509.jpg" alt="A green, lawn like background with an orange item consisting of legs, a narrow shaft, and a polygonal head.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1179029438.jpg" class="enlarge-link" data-height="1381" data-width="2170">Enlarge</a> <span class="sep">/</span> This is an intact phage. A tailocin looks like one of these with its head cut off. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/bacteriophage-virus-particle-on-bacteria-surface-royalty-free-image/1179029438?phrase=phage">iLexx</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Long before humans became interested in killing bacteria, viruses were on the job. Viruses that attack bacteria, termed "phages" (short for bacteriophage), were first identified by their ability to create bare patches on the surface of culture plates that were otherwise covered by a lawn of bacteria. After playing critical roles in the early development of molecular biology, a number of phages have been developed as potential therapies to be used when antibiotic resistance limits the effectiveness of traditional medicines.</p>
+<p>But we're relative latecomers in terms of turning phages into tools. Researchers have described a number of cases where bacteria have maintained pieces of disabled viruses in their genomes and converted them into weapons that can be used to kill other bacteria that might otherwise compete for resources. I only just became aware of that weaponization, thanks to a new study showing that this process has helped maintain diverse bacterial populations for centuries.</p>
+<h2>Evolving a killer</h2>
+<p>The new work started when researchers were studying the population of bacteria associated with a plant growing wild in Germany. The population included diverse members of the genus <em>Pseudomonas</em>, which can include plant pathogens. Normally, when bacteria infect a new victim, a single strain expands dramatically as it successfully exploits its host. In this case, though, the <em>Pseudomonas</em> population contained a variety of different strains that appeared to maintain a stable competition.</p></div><p><a href="https://arstechnica.com/?p=2031745#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031745&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/06/bacteria-use-pieces-of-dead-viruses-to-kill-their-competitors/feed/</wfw:commentRss>
+			<slash:comments>15</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How the “Nutbush” became Australia’s unofficial national dance</title>
+		<link>https://arstechnica.com/?p=2030863</link>
+					<comments>https://arstechnica.com/science/2024/06/how-the-nutbush-became-australias-unofficial-national-dance/#comments</comments>
+		
+		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 16:30:29 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[cultural studies]]></category>
+		<category><![CDATA[dance]]></category>
+		<category><![CDATA[fads]]></category>
+		<category><![CDATA[human culture]]></category>
+		<category><![CDATA[line dancing]]></category>
+		<category><![CDATA[Nutbush]]></category>
+		<category><![CDATA[Tina Turner]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2030863</guid>
+
+					<description><![CDATA[Most Australians learned the "daggy" line dance in primary school starting in the mid-1970s]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/nutbush2CROP-800x539.jpg" alt="Embassy employees, men and women, in a bee-shaped line formation doing the Nutbush">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/nutbush2CROP.jpg" class="enlarge-link" data-height="808" data-width="1200">Enlarge</a> <span class="sep">/</span> US Embassy Australia employees learning to do the Nutbush to honor the late Tina Turner in 2023. (credit: <a rel="nofollow" class="caption-link" href="https://x.com/USEmbAustralia/status/1661625923903586305?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1661625923903586305%7Ctwgr%5E58c5824713ba74b576cb9d395e037805907cdf2f%7Ctwcon%5Es1_&amp;ref_url=https%3A%2F%2Fscroll.in%2Fvideo%2F1049843%2Fwatch-us-embassy-staff-in-australia-does-the-nutbush-line-dance-to-honour-singer-tina-turner">Screenshot/US Embassy Australia on X</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The whole world mourned <a href="https://www.bbc.com/news/65669653">the passing</a> of music legend <a href="https://en.wikipedia.org/wiki/Tina_Turner">Tina Turner</a> last year, perhaps none more so than Australians, who have always had a <a href="https://www.theguardian.com/music/2023/may/26/from-nutbush-to-the-nrl-australias-unique-love-for-tina-turner">special fondness</a> for her. That's not just because of her star turn as Aunty Entity in 1985's <a href="https://en.wikipedia.org/wiki/Mad_Max_Beyond_Thunderdome"><em>Mad Max Beyond Thunderdome</em></a> or her stint as the face of Australia's rugby league.</p>
+<p>Australians of all ages have also been performing a line dance called the "<a href="https://en.wikipedia.org/wiki/Nutbush_(dance)">Nutbush</a>" at weddings and social events to Turner's hit single (with then-husband Ike Turner) "<a href="https://en.wikipedia.org/wiki/Nutbush_City_Limits">Nutbush City Limits</a>." Turner herself never performed the dance, but when she died, there was a flood of viral TikTok videos of people performing the Nutbush in her honor—including members of the US Embassy in Canberra, who had clearly just learned it for the occasion. Dancers at the 2023 Mundi Mundi Bash in a remote corner of New South Wales set a world record with 6,594 dancers performing the Nutbush at the same time.</p>
+<p>The exact origin of the dance remains unknown, but researchers at the University of South Australia think they understand how the Nutbush became so ubiquitous in Australia, according to <a href="https://www.tandfonline.com/doi/full/10.1080/10304312.2024.2331796">a paper</a> published in the journal Continuum. “What we seem to know is that there was a committee in the New South Wales education department that devised the idea of the Nutbush,” co-author Jon Stratton <a href="https://www.theguardian.com/australia-news/2024/may/05/origins-of-the-nutbush-line-dance-australia-schools">told the Guardian</a>. “Whether they devised the dance itself, we don’t really know. But what’s interesting is that nobody has come forward.”</p></div><p><a href="https://arstechnica.com/?p=2030863#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2030863&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/06/how-the-nutbush-became-australias-unofficial-national-dance/feed/</wfw:commentRss>
+			<slash:comments>42</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Apple set to be first Big Tech group to face charges under EU digital law</title>
+		<link>https://arstechnica.com/?p=2031767</link>
+					<comments>https://arstechnica.com/tech-policy/2024/06/apple-set-to-be-first-big-tech-group-to-face-charges-under-eu-digital-law/#comments</comments>
+		
+		<dc:creator><![CDATA[Financial Times]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 16:16:49 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[european union]]></category>
+		<category><![CDATA[syndication]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2031767</guid>
+
+					<description><![CDATA[Brussels to announce iPhone maker is failing to open up its App Store to competition.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/08/app_store.jpg" alt="App Store icon on an iPhone screen">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/08/app_store.jpg" class="enlarge-link" data-height="533" data-width="800">Enlarge</a> (credit: Getty Images | NurPhoto)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Brussels is set to charge Apple over allegedly stifling competition on its mobile app store, the first time EU regulators have used new digital rules to target a Big Tech group.</p>
+<p>The European Commission has determined that the iPhone maker is not complying with obligations to allow app developers to “steer” users to offers outside its App Store without imposing fees on them, according to three people with close knowledge of its investigation.</p>
+<p>The charges would be the first brought against a tech company under the Digital Markets Act, landmark legislation designed to force powerful “online gatekeepers” to open up their businesses to competition in the EU.</p></div><p><a href="https://arstechnica.com/?p=2031767#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031767&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/apple-set-to-be-first-big-tech-group-to-face-charges-under-eu-digital-law/feed/</wfw:commentRss>
+			<slash:comments>69</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Are Diablo fans getting too old for the old-school item grind?</title>
+		<link>https://arstechnica.com/?p=2031708</link>
+					<comments>https://arstechnica.com/gaming/2024/06/are-diablo-fans-getting-too-old-for-the-old-school-item-grind/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 15:54:12 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Blizzard]]></category>
+		<category><![CDATA[Diablo]]></category>
+		<category><![CDATA[grind]]></category>
+		<category><![CDATA[items]]></category>
+		<category><![CDATA[loot]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2031708</guid>
+
+					<description><![CDATA[Devs say players no longer want the "very long chase" for rare drops.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/d4-800x450.png" alt="Do you have a few hundred hours to hear the good news about our lord and savior, &lt;em&gt;Diablo&lt;/em&gt;?">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/d4.png" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> Do you have a few hundred hours to hear the good news about our lord and savior, <em>Diablo</em>? (credit: Blizzard)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Longtime fans of <em>Diablo II</em> are deeply familiar with the extreme timesink that is <a href="https://arstechnica.com/gaming/2024/02/diablo-ii-streamer-finds-1-in-3-million-item-drop-instantly-sells-it-for-laughs/">the late-game grind for the very best loot</a>. But when the creators of <em>Diablo IV</em> tried to re-create that style of grinding for the latest game in the series, they found that their players' tastes had changed quite a bit in the intervening years.</p>
+<p>In <a href="https://www.windowscentral.com/gaming/is-there-a-paladin-in-diablo-4">a wide-ranging interview with Windows Central</a>, Blizzard's general manager of <em>Diablo</em>, Rod Fergusson, said that they launched <em>Diablo IV</em> under "the assumption that <em>D4</em> was meant to be more <em>D2</em>-like." That meant, in part, increasing the length of time required to discover the game's most valuable items after <a href="https://arstechnica.com/gaming/2014/03/diablo-3-says-goodbye-and-good-riddance-to-the-auction-house/">post-Auction-House <em>Diablo 3</em> made rare item drops much more common</a>.</p>
+<p>"One of the assumptions was that people were going to be okay with the long grind for the Unique or an Uber Unique in particular, because in <em>Diablo II</em>, it can go years," Fergusson said. "You can go three years before you find the Uber you're looking for... and so we were like, okay, this is what people love about the progression of <em>D2</em>, that idea of that very long chase."</p></div><p><a href="https://arstechnica.com/?p=2031708#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031708&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/06/are-diablo-fans-getting-too-old-for-the-old-school-item-grind/feed/</wfw:commentRss>
+			<slash:comments>132</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Give yourself a day to tackle all your recommendation and subscription guilt</title>
+		<link>https://arstechnica.com/?p=2031661</link>
+					<comments>https://arstechnica.com/gadgets/2024/06/feel-bad-about-not-liking-rating-subscribing-i-recommend-a-tech-guilt-day/#comments</comments>
+		
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 15:42:34 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[tech guilt day]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2031661</guid>
+
+					<description><![CDATA[Opinion: It never ends, but you can triage and help out your favorite creators.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1312818032-800x400.jpg" alt="Hand made up of thousands of digital cubes, giving a thumbs up">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1312818032.jpg" class="enlarge-link" data-height="1224" data-width="2448">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>We're heading into summer, a time when some people get a few half or whole days off from work. These can't all be vacations, and there's only so much shopping, golfing, or streaming one can do. A few of these times off are even unexpected, such that people with kids might even have some rare time to themselves.</p>
+<p>I have a suggestion for some part of one of these days: Declare a Tech Guilt Absolution Day. Sit down, gather up the little computer and phone stuff you love that more people should know about, or free things totally worth a few bucks, and blitz through ratings, reviews, and donations.</p>
+
+<p>Note that I am using the term "guilt," not "<a href="https://brenebrown.com/articles/2013/01/15/shame-v-guilt/">shame</a>." I do not believe any modern human should feel bad about themselves for all the things they have failed to like, rate, <em>and</em> subscribe to. The modern ecosystems of useful little applications, games, podcasts, YouTube videos, newsletters, and the like demand far more secondary engagement than anyone can manage. Even if you purchase something or subscribe, the creators you appreciate, swimming upstream in the torrential rapids of the attention economy, can always use some attention. So I suggest we triage as best we can.</p></div><p><a href="https://arstechnica.com/?p=2031661#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031661&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/06/feel-bad-about-not-liking-rating-subscribing-i-recommend-a-tech-guilt-day/feed/</wfw:commentRss>
+			<slash:comments>41</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Rocket Report: Starship is on the clock; Virgin Galactic at a crossroads</title>
+		<link>https://arstechnica.com/?p=2031555</link>
+					<comments>https://arstechnica.com/space/2024/06/rocket-report-starship-is-in-the-clock-virgin-galactic-at-a-crossroad/#comments</comments>
+		
+		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 11:00:41 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2031555</guid>
+
+					<description><![CDATA[The payloads for the first Ariane 6 launch are buttoned up for flight next month.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/ariane6encap-800x1200.jpeg" alt="The payload fairing for the first test flight of Europe's Ariane 6 rocket has been positioned around the small batch of satellites that will ride it into orbit.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/ariane6encap-scaled.jpeg" class="enlarge-link" data-height="2560" data-width="1706">Enlarge</a> <span class="sep">/</span> The payload fairing for the first test flight of Europe's Ariane 6 rocket has been positioned around the small batch of satellites that will ride it into orbit. (credit: <a rel="nofollow" class="caption-link" href="https://x.com/esa/status/1800136926743412917/photo/1">ESA/M. Pédoussaut</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Welcome to Edition 6.48 of the Rocket Report! Fresh off last week's dramatic test flight of SpaceX's Starship, teams in Texas are wasting no time gearing up for the next launch. Ground crews are replacing the entire heat shield on the next Starship spacecraft to overcome deficiencies identified on last week's flight. SpaceX has a whole lot to accomplish with Starship in the next several months if NASA is going to land astronauts on the Moon by the end of 2026.</p>
+<p>As always, we <a href="https://arstechnica.wufoo.com/forms/launch-stories/">welcome reader submissions</a>, and if you don't want to miss an issue, please subscribe using the box below (the form will not appear on AMP-enabled versions of the site). Each report will include information on small-, medium-, and heavy-lift rockets as well as a quick look ahead at the next three launches on the calendar.</p>
+<div class="image shortcode-img center full"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png"></div>
+<p><b>Virgin Galactic won't be flying again any time soon. </b>After an impressive but brief flurry of spaceflight activity—seven human spaceflights in a year, even to suborbital space, is unprecedented for a private company—Virgin Galactic will now be grounded again for at least two years, <a href="https://arstechnica.com/space/2024/06/virgin-galactic-has-ceased-flying-its-only-space-plane-now-what/">Ars reports</a>. That's because Colglazier and Virgin Galactic are betting it all on the development of a future "Delta class" of spaceships modeled on VSS<em> Unity, </em>which made its last flight to suborbital space Saturday. Virgin Galactic, founded by Richard Branson, now finds itself at a crossroads as it chases profitability, which VSS<em> Unity </em>had no hope of helping it achieve despite two decades of development and billions of dollars spent.</p></div><p><a href="https://arstechnica.com/?p=2031555#p3">Read 20 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031555&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/06/rocket-report-starship-is-in-the-clock-virgin-galactic-at-a-crossroad/feed/</wfw:commentRss>
+			<slash:comments>145</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mod Easy: A retro e-bike with a sidecar perfect for Indiana Jones cosplay</title>
+		<link>https://arstechnica.com/?p=2031239</link>
+					<comments>https://arstechnica.com/cars/2024/06/mod-easy-a-retro-e-bike-with-a-sidecar-perfect-for-indiana-jones-cosplay/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Fri, 14 Jun 2024 11:00:39 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Features]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2031239</guid>
+
+					<description><![CDATA[It's not the most practical option for passengers, but my son had a blast.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/MOD_Easy_Sidecar_Section_2_1600x-800x800.webp" alt="The Mod Easy Sidecar">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/MOD_Easy_Sidecar_Section_2_1600x.webp" class="enlarge-link" data-height="1000" data-width="1000">Enlarge</a> <span class="sep">/</span> The Mod Easy Sidecar (credit: <a rel="nofollow" class="caption-link" href="https://mod-bikes.com/cdn/shop/files/MOD_Easy_Sidecar_Section_2_1600x.jpg?v=1688752199">Mod Bikes</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>As some Ars readers may recall, I reviewed <a href="https://arstechnica.com/cars/2024/04/a-cycling-newb-tries-a-cargo-e-bike-the-user-friendly-maven/">The Maven Cargo e-bike</a> earlier this year as a complete newb to e-bikes. For my second foray into the world of e-bikes, I took an entirely different path.</p>
+<p>The stylish Maven was designed with utility in mind—it's safe, user-friendly, and practical for accomplishing all the daily transportation needs of a busy family. The second bike, <a href="https://mod-bikes.com/products/mod-easy-electric-cruiser-bike-and-sidecar">the $4,299 Mod Easy Sidecar 3</a>, is on the other end of the spectrum. Just a cursory glance makes it clear: This bike is built for pure, head-turning fun.</p>
+<p>The Mod Easy 3 is a retro-style Class 2 bike—complete with a sidecar that looks like it's straight out of <em>Indiana Jones and the Last Crusade</em>. Nailing this look wasn't the initial goal of Mod Bike founder Dor Korngold. In an interview with Ars, Korngold said the Mod Easy was the first bike he designed for himself. "It started with me wanting to have this classic cruiser," he said, but he didn't have a sketch or final design in mind at the outset. Instead, the design was based on what parts he had in his garage.</p></div><p><a href="https://arstechnica.com/?p=2031239#p3">Read 25 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031239&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/06/mod-easy-a-retro-e-bike-with-a-sidecar-perfect-for-indiana-jones-cosplay/feed/</wfw:commentRss>
+			<slash:comments>73</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Microsoft delays Recall again, won’t debut it with new Copilot+ PCs after all</title>
 		<link>https://arstechnica.com/?p=2031624</link>
 					<comments>https://arstechnica.com/gadgets/2024/06/microsoft-delays-data-scraping-recall-feature-again-commits-to-public-beta-test/#comments</comments>
@@ -53,11 +571,11 @@
 <div><a name="page-1"></a></div>
 <p>Microsoft will be delaying its controversial Recall feature again, according to <a href="https://blogs.windows.com/windowsexperience/2024/06/07/update-on-the-recall-preview-feature-for-copilot-pcs/">an updated blog post</a> by Windows and Devices VP Pavan Davuluri. And when the feature does return "in the coming weeks," Davuluri writes, it will be as a preview available to PCs in the Windows Insider Program, the same public testing and validation pipeline that all other Windows features usually go through before being released to the general populace.</p>
 
-<p>Recall is a new Windows 11 AI feature that will be available on PCs that meet the company's requirements for its "Copilot+ PC" program. Copilot+ PCs need at least 16GB of RAM, 256GB of storage, and a neural processing unit (NPU) capable of at least 40 trillion operations per second (TOPS). The first (and for a few months, only) PCs that will meet this requirement are all using <a href="https://arstechnica.com/gadgets/2023/10/qualcomm-snapdragon-x-elite-looks-like-the-windows-worlds-answer-to-apple-silicon/">Qualcomm's Snapdragon X Plus and X Elite Arm chips</a>, with compatible <a href="https://arstechnica.com/gadgets/2024/06/intels-new-lunar-lake-chips-promise-big-gpu-and-npu-upgrades-minor-cpu-boosts/">Intel</a> and <a href="https://arstechnica.com/gadgets/2024/06/amds-ryzen-ai-300-series-laptop-cpus-are-its-first-for-new-copilot-pcs/#:~:text=AMD-,AMD%27s%20Ryzen%20AI%20300%20series%20is%20its%20next%2Dgen%20laptop,to%20support%20Copilot%2B%20PC%20features.&amp;text=Ryzen%20AI%20300%20uses%20a,hasn%27t%20said%20much%20about.&amp;text=Only%20two%20high%2Dend%20processors,though%20others%20will%20surely%20follow.">AMD</a> processors following later this year. Copilot+ PCs ship with other generative AI features too, but Recall's widely-publicized security problems have sucked most of the oxygen out of the room so far.</p>
+<p>Recall is a new Windows 11 AI feature that will be available on PCs that meet the company's requirements for its "Copilot+ PC" program. Copilot+ PCs need at least 16GB of RAM, 256GB of storage, and a neural processing unit (NPU) capable of at least 40 trillion operations per second (TOPS). The first (and for a few months, only) PCs that will meet this requirement are all using <a href="https://arstechnica.com/gadgets/2023/10/qualcomm-snapdragon-x-elite-looks-like-the-windows-worlds-answer-to-apple-silicon/">Qualcomm's Snapdragon X Plus and X Elite Arm chips</a>, with compatible <a href="https://arstechnica.com/gadgets/2024/06/intels-new-lunar-lake-chips-promise-big-gpu-and-npu-upgrades-minor-cpu-boosts/">Intel</a> and <a href="https://arstechnica.com/gadgets/2024/06/amds-ryzen-ai-300-series-laptop-cpus-are-its-first-for-new-copilot-pcs/#:~:text=AMD-,AMD%27s%20Ryzen%20AI%20300%20series%20is%20its%20next%2Dgen%20laptop,to%20support%20Copilot%2B%20PC%20features.&amp;text=Ryzen%20AI%20300%20uses%20a,hasn%27t%20said%20much%20about.&amp;text=Only%20two%20high%2Dend%20processors,though%20others%20will%20surely%20follow.">AMD</a> processors following later this year. Copilot+ PCs ship with other generative AI features, too, but Recall's widely publicized security problems have sucked most of the oxygen out of the room so far.</p>
 <p>The Windows Insider preview of Recall will still require a PC that meets the Copilot+ requirements, though <a href="https://github.com/thebookisclosed/AmperageKit">third-party scripts</a> may be able to turn on Recall for PCs without the necessary hardware. We'll know more when Recall makes its reappearance.</p></div><p><a href="https://arstechnica.com/?p=2031624#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031624&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/06/microsoft-delays-data-scraping-recall-feature-again-commits-to-public-beta-test/feed/</wfw:commentRss>
-			<slash:comments>48</slash:comments>
+			<slash:comments>181</slash:comments>
 		
 		
 			</item>
@@ -90,7 +608,7 @@
 <p>For the non-AI categories, the 1839 Awards rules note that they "reserve the right to request proof of the image not being generated by AI as well as for proof of ownership of the original files." Apparently, though, the awards did not request any corresponding proof that submissions in the AI category <em>were</em> generated by AI.</p></div><p><a href="https://arstechnica.com/?p=2031577#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031577&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/ai/2024/06/this-photo-got-3rd-in-an-ai-art-contest-then-its-human-photographer-came-forward/feed/</wfw:commentRss>
-			<slash:comments>45</slash:comments>
+			<slash:comments>71</slash:comments>
 		
 		
 			</item>
@@ -122,11 +640,11 @@
 
 <div><a name="page-1"></a></div>
 <p>Famed polar explorer <a href="https://en.wikipedia.org/wiki/Ernest_Shackleton">Ernest Shackleton</a> famously defied the odds to survive the sinking of his ship, <em>Endurance</em>, which became trapped in sea ice in 1914. His luck ran out on his follow-up expedition; he died unexpectedly of a heart attack in 1922 on board a ship called <em><a href="https://en.wikipedia.org/wiki/Quest_(ship)">Quest</a>.</em> The ship survived that expedition and sailed for another 40 years, eventually sinking in 1962 after its hull was pierced by ice on a seal-hunting run. Shipwreck hunters <a href="https://www.nytimes.com/2024/06/13/world/canada/ernest-shackleton-quest-ship-found.html">have now located</a> the remains of the converted Norwegian sealer in the Labrador Sea, off the coast of Newfoundland, Canada. The wreckage of <em>Endurance</em> <a href="https://arstechnica.com/science/2022/03/long-lost-endurance-shipwreck-found-off-coast-of-antarctica/">was found</a> in pristine condition in 2022 at the bottom of the Weddell Sea.</p>
-<p>The <em>Quest</em> expedition's relatively minor accomplishments might lack the nail-biting drama of the <em>Endurance</em> saga, but the wreck is nonetheless historically significant. "His final voyage kind of ended that Heroic Age of Exploration, of polar exploration, certainly in the south," renowned shipwreck hunter David Mearns, who directed the operation, <a href="https://www.bbc.com/news/articles/cpvv2w2e69go">told the BBC</a>. "Afterwards, it was what you would call the scientific age. In the pantheon of polar ships, <em>Quest</em> is definitely an icon."</p>
+<p>The <em>Quest</em> expedition's relatively minor accomplishments might lack the nail-biting drama of the <em>Endurance</em> saga, but the wreck is nonetheless historically significant. "His final voyage kind of ended that Heroic Age of Exploration, of polar exploration, certainly in the south," renowned shipwreck hunter David Mearns <a href="https://www.bbc.com/news/articles/cpvv2w2e69go">told the BBC</a>. "Afterwards, it was what you would call the scientific age. In the pantheon of polar ships, <em>Quest</em> is definitely an icon."</p>
 <p>As <a href="https://arstechnica.com/science/2022/03/long-lost-endurance-shipwreck-found-off-coast-of-antarctica/">previously reported</a>, <em>Endurance</em> set sail from Plymouth, Massachusetts, on August 6, 1914, with Shackleton joining his crew in Buenos Aires, Argentina. By January 1915, the ship had become hopelessly locked in sea ice, unable to continue its voyage. For 10 months, the crew endured the freezing conditions, waiting for the ice to break up. The ship's structure remained intact, but by October 25, Shackleton realized <em>Endurance</em> was doomed. He and his men opted to camp out on the ice some two miles (3.2 km) away, taking as many supplies as they could with them.</p></div><p><a href="https://arstechnica.com/?p=2031103#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031103&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/06/expedition-finds-wreckage-of-ship-on-which-shackleton-made-his-final-voyage/feed/</wfw:commentRss>
-			<slash:comments>27</slash:comments>
+			<slash:comments>45</slash:comments>
 		
 		
 			</item>
@@ -160,11 +678,11 @@
 
 <div><a name="page-1"></a></div>
 <p>The development of gene editing tools, which enable the specific targeting and correction of mutations, hold the promise of allowing us to correct those mutations that cause genetic diseases. However, the technology has been around for a while now—two researchers were critical to its development in 2020—<a href="https://arstechnica.com/science/2020/10/gene-editing-tool-gets-its-inevitable-nobel/">and there have been only a few cases</a> where gene editing has been used to target diseases.</p>
-<p>One of the reasons for that is the challenge of targeting specific cells in a living organism. Many genetic diseases affect only a specific cell type, such as red blood cells in sickle cell anemia, or specific tissue. Ideally, to limit potential side effects, we'd like to ensure that enough of the editing takes place in the affected tissue to have an impact, while minimizing editing elsewhere to limit side effects. But our ability to do so has been limited. Plus, a lot of the cells affected by genetic diseases are mature and have stopped dividing. So, we either need to repeat the gene editing treatments indefinitely or find a way to target the stem cell population that produces the mature cells.</p>
+<p>One of the reasons for that is the challenge of targeting specific cells in a living organism. Many genetic diseases affect only a specific cell type, such as red blood cells in sickle-cell anemia, or specific tissue. Ideally, to limit potential side effects, we'd like to ensure that enough of the editing takes place in the affected tissue to have an impact, while minimizing editing elsewhere to limit side effects. But our ability to do so has been limited. Plus, a lot of the cells affected by genetic diseases are mature and have stopped dividing. So, we either need to repeat the gene editing treatments indefinitely or find a way to target the stem cell population that produces the mature cells.</p>
 <p>On Thursday, a US-based research team said that they've done gene editing experiments that targeted a high-profile genetic disease: cystic fibrosis. Their technique largely targets the tissue most affected by the disease (the lung), and occurs in the stem cell populations that produce mature lung cells, ensuring that the effect is stable.</p></div><p><a href="https://arstechnica.com/?p=2031527#p3">Read 17 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031527&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/06/researchers-do-gene-editing-in-lung-stem-cells-target-cystic-fibrosis/feed/</wfw:commentRss>
-			<slash:comments>26</slash:comments>
+			<slash:comments>39</slash:comments>
 		
 		
 			</item>
@@ -197,7 +715,7 @@
 <p>"Both Tesla shareholder resolutions are currently passing by wide margins!" <a href="https://x.com/elonmusk/status/1801084780035154058">Musk wrote</a>, referring to the pay vote and the move from Delaware to Texas. His post included charts indicating that both shareholder resolutions had more than enough yes votes to surpass the "guaranteed win" threshold.</p></div><p><a href="https://arstechnica.com/?p=2031288#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031288&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/musk-says-hes-winning-tesla-shareholder-vote-on-pay-plan-by-wide-margin/feed/</wfw:commentRss>
-			<slash:comments>604</slash:comments>
+			<slash:comments>756</slash:comments>
 		
 		
 			</item>
@@ -242,544 +760,7 @@
 <p>The date was announced during an Official Xbox Podcast interview (and accompanying <a href="https://news.xbox.com/en-us/2024/06/12/ara-history-untold-release-date-multiplayer-details/">blog post</a>) with Marc Meyer, president of Oxide Games, the studio developing <em>Ara</em>. The podcast covered more than just the release date, though, with Meyer offering up some new gameplay details—particularly about how multiplayer will work.</p></div><p><a href="https://arstechnica.com/?p=2031511#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031511&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gaming/2024/06/civilization-like-ara-blurs-lines-between-hot-seat-and-play-by-mail-multiplayer/feed/</wfw:commentRss>
-			<slash:comments>27</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>“Simulation of keyboard activity” leads to firing of Wells Fargo employees</title>
-		<link>https://arstechnica.com/?p=2031452</link>
-					<comments>https://arstechnica.com/information-technology/2024/06/wells-fargo-fires-over-a-dozen-employees-for-simulating-keyboard-activity-at-work/#comments</comments>
-		
-		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
-		<pubDate>Thu, 13 Jun 2024 20:51:34 +0000</pubDate>
-				<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[corporate surveillance]]></category>
-		<category><![CDATA[faking work]]></category>
-		<category><![CDATA[keyboard]]></category>
-		<category><![CDATA[Mouse]]></category>
-		<category><![CDATA[mouse jigglers]]></category>
-		<category><![CDATA[surveillance]]></category>
-		<category><![CDATA[tech]]></category>
-		<category><![CDATA[Wells Fargo]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2031452</guid>
-
-					<description><![CDATA[With worker surveillance on the rise, vendors sell devices to fake keyboard and mouse movement.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/wellsfargo_header-800x450.jpg" alt="Signage with logo at headquarters of Wells Fargo Capital Finance, the commercial banking division of Wells Fargo Bank, in the Financial District neighborhood of San Francisco, California, September 26, 2016.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/wellsfargo_header.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/signage-with-logo-at-headquarters-of-wells-fargo-capital-news-photo/613357666">Getty Images</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Last month, Wells Fargo terminated over a dozen bank employees following an investigation into claims of faking work activity on their computers, according to a <a href="https://www.bloomberg.com/news/articles/2024-06-13/wells-fires-over-a-dozen-for-simulation-of-keyboard-activity">Bloomberg report</a>.</p>
-<p>A Financial Industry Regulatory Authority (FINRA) search conducted by Ars confirmed that the fired members of the firm's wealth and investment management division were "discharged after review of allegations involving simulation of keyboard activity creating impression of active work."</p>
-<div class="image shortcode-img center large"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/wf_fired_statement.jpg"><img alt='A screenshot of a FINRA report showing that an employee was "Discharged after review of allegations involving simulation of keyboard activity creating impression of active work."' src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/wf_fired_statement-640x198.jpg" srcset="https://cdn.arstechnica.net/wp-content/uploads/2024/06/wf_fired_statement.jpg 2x"></a><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/wf_fired_statement.jpg" class="caption-link" rel="nofollow">A screenshot of a FINRA report showing that an employee was "Discharged after review of allegations involving simulation of keyboard activity creating impression of active work."</a> (credit: Jon Brodkin / Ars Technica)</p></div>
-<p>A rise in remote work during the COVID-19 pandemic accelerated the adoption of <a href="https://www.cnbc.com/2023/04/24/employee-surveillance-is-on-the-rise-that-could-backfire-on-employers.html">remote worker surveillance</a> techniques, especially those using software installed on machines that keeps track of activity and reports back to corporate management. It's worth noting that the Bloomberg report says the FINRA filing does not specify whether the fired Wells Fargo employees were simulating activity at home or in an office.</p></div><p><a href="https://arstechnica.com/?p=2031452#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031452&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/information-technology/2024/06/wells-fargo-fires-over-a-dozen-employees-for-simulating-keyboard-activity-at-work/feed/</wfw:commentRss>
-			<slash:comments>140</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Microsoft in damage-control mode, says it will prioritize security over AI</title>
-		<link>https://arstechnica.com/?p=2031477</link>
-					<comments>https://arstechnica.com/tech-policy/2024/06/microsoft-in-damage-control-mode-says-it-will-prioritize-security-over-ai/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Thu, 13 Jun 2024 20:38:58 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[azure]]></category>
-		<category><![CDATA[brad smith]]></category>
-		<category><![CDATA[china]]></category>
-		<category><![CDATA[cloud service providers]]></category>
-		<category><![CDATA[congress]]></category>
-		<category><![CDATA[congressional hearing]]></category>
-		<category><![CDATA[cyberattack]]></category>
-		<category><![CDATA[cybersecurity]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[Microsoft Azure]]></category>
-		<category><![CDATA[microsoft president]]></category>
-		<category><![CDATA[russia]]></category>
-		<category><![CDATA[satay nadella]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2031477</guid>
-
-					<description><![CDATA[Microsoft CEO Satya Nadella is now personally responsible for security flaws.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-2156786701-800x534.jpg" alt="Brad Smith, vice chairman and president of Microsoft, is sworn in before testifying about Microsoft's cybersecurity work during a House Committee on Homeland Security hearing on Capitol Hill in Washington, DC, on June 13, 2024. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-2156786701.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> <span class="sep">/</span> Brad Smith, vice chairman and president of Microsoft, is sworn in before testifying about Microsoft's cybersecurity work during a House Committee on Homeland Security hearing on Capitol Hill in Washington, DC, on June 13, 2024.  (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/brad-smith-vice-chairman-and-president-of-microsoft-is-news-photo/2156786701">SAUL LOEB / Contributor | AFP</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Microsoft is pivoting its company culture to make security a top priority, President Brad Smith testified to Congress on Thursday, promising that security will be "more important even than the company’s work on artificial intelligence."</p>
-<p>Satya Nadella, Microsoft's CEO, "has taken on the responsibility personally to serve as the senior executive with overall accountability for Microsoft’s security," Smith told Congress.</p>
-<p>His testimony comes after Microsoft admitted that it could have taken steps to prevent two aggressive nation-state cyberattacks from <a href="https://arstechnica.com/security/2023/09/hack-of-a-microsoft-corporate-account-led-to-azure-breach-by-chinese-hackers/">China</a> and <a href="https://arstechnica.com/tech-policy/2021/04/us-government-strikes-back-at-kremlin-for-solarwinds-hack-campaign/">Russia</a>.</p></div><p><a href="https://arstechnica.com/?p=2031477#p3">Read 30 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031477&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/microsoft-in-damage-control-mode-says-it-will-prioritize-security-over-ai/feed/</wfw:commentRss>
-			<slash:comments>83</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>The rent is too dang high in Cities: Skylines 2, so the devs nuked the landlords</title>
-		<link>https://arstechnica.com/?p=2031406</link>
-					<comments>https://arstechnica.com/gaming/2024/06/the-rent-is-too-dang-high-in-cities-skylines-2-so-the-devs-nuked-the-landlords/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Thu, 13 Jun 2024 20:13:32 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[cities skylines]]></category>
-		<category><![CDATA[cities: skylines 2]]></category>
-		<category><![CDATA[city builders]]></category>
-		<category><![CDATA[landlords]]></category>
-		<category><![CDATA[realpage]]></category>
-		<category><![CDATA[rent]]></category>
-		<category><![CDATA[simulation games]]></category>
-		<category><![CDATA[simulations]]></category>
-		<category><![CDATA[yieldstar]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2031406</guid>
-
-					<description><![CDATA[It was getting so bad, people were actually suggesting building more homes.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/cs21-800x450.jpg" alt="Cities: Skylines 2 shot of a house">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/cs21.jpg" class="enlarge-link" data-height="1080" data-width="1920">Enlarge</a> <span class="sep">/</span> Remember, folks inside those polygons: If your housing feels too expensive, spend less money on resource consumption. It's just math. (credit: Paradox Interactive)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>City building simulations are not real life. They can be <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=611fdd1531e1cc42e46c1e16fa70cf3d21e6bc58">helpful</a> teaching <a href="https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/teaching-with-simcity-using-sophisticated-gaming-simulations-to-teach-concepts-in-introductory-american-government/762C8068A6686704C32B51A563E19FA7">tools</a>, but they abstract away many of the real issues in changing communities.</p>
-<p>And yet, sometimes a game like <em>Cities: Skylines 2 (C:S2) </em>will present an issue that's just <a href="https://ballotpedia.org/Rent_is_2_Damn_High">too timely and relevant</a> to ignore. Such is the case with "<a href="https://store.steampowered.com/news/app/949230/view/4145079671516384052">Economy 2.0</a>," a big update to the <a href="https://arstechnica.com/gaming/2023/11/the-sad-story-of-cities-skylines-2s-launch-and-how-the-game-hopes-to-get-better/">beleaguered</a> yet continually in-development game, due to arrive within the next week or so. The first and most important thing it tackles is the persistent issue of "High Rent," something that's bothering the in-game citizens ("cims" among fans), <em>C:S2</em> players, and nearly every human <a href="https://www.nytimes.com/2024/06/12/business/housing-rent-inflation.html">living in the United States</a> and many other places.</p>
-<p><em>C:S2</em> has solutions to high rent, at least for their virtual citizens. They removed the "virtual landlord" that takes in rent, so now a building's upkeep is evenly split among renters. There's a new formula for calculating rent, one that evokes a kind of elegant mathematical certainty none of us will ever see:</p></div><p><a href="https://arstechnica.com/?p=2031406#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031406&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/06/the-rent-is-too-dang-high-in-cities-skylines-2-so-the-devs-nuked-the-landlords/feed/</wfw:commentRss>
-			<slash:comments>60</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Report: Apple isn’t paying OpenAI for ChatGPT integration into OSes</title>
-		<link>https://arstechnica.com/?p=2031318</link>
-					<comments>https://arstechnica.com/information-technology/2024/06/report-apple-isnt-paying-openai-for-chatgpt-integration-into-oses/#comments</comments>
-		
-		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
-		<pubDate>Thu, 13 Jun 2024 17:20:42 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[AI assitants]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[apple intelligence]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[chatgtp]]></category>
-		<category><![CDATA[GPT-4]]></category>
-		<category><![CDATA[iOS]]></category>
-		<category><![CDATA[ios 18]]></category>
-		<category><![CDATA[iPadOS]]></category>
-		<category><![CDATA[iPadOS 18]]></category>
-		<category><![CDATA[iphone]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[MacOS]]></category>
-		<category><![CDATA[macos sequoia]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[sam altman]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2031318</guid>
-
-					<description><![CDATA[Apple thinks pushing OpenAI’s brand to hundreds of millions is worth more than money.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/openai_apple_1_hero-800x450.jpg" alt="The OpenAI and Apple logos together.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/openai_apple_1_hero.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> (credit: OpenAI / Apple / Benj Edwards)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>On Monday, Apple announced it would be <a href="https://arstechnica.com/gadgets/2024/06/apple-integrates-chatgpt-into-siri-ios-and-mac-os/">integrating</a> OpenAI's ChatGPT AI assistant into upcoming versions of its iPhone, iPad, and Mac operating systems. It paves the way for future third-party AI model integrations, but given Google's multi-billion-dollar <a href="https://arstechnica.com/tech-policy/2023/09/google-deal-may-have-kept-apple-from-building-search-engine-exec-says/">deal with Apple</a> for preferential web search, the OpenAI announcement inspired speculation about who is paying whom. According to a <a href="https://www.bloomberg.com/news/articles/2024-06-12/apple-to-pay-openai-for-chatgpt-through-distribution-not-cash">Bloomberg report</a> published Wednesday, Apple considers ChatGPT's placement on its devices as compensation enough.</p>
-
-<p>"Apple isn’t paying OpenAI as part of the partnership," writes Bloomberg reporter Mark Gurman, citing people familiar with the matter who wish to remain anonymous. "Instead, Apple believes pushing OpenAI’s brand and technology to hundreds of millions of its devices is of equal or greater value than monetary payments."</p>
-<p>The Bloomberg report states that neither company expects the agreement to generate meaningful revenue in the short term, and in fact, the partnership could burn extra money for OpenAI, because it pays Microsoft to host ChatGPT's capabilities on its Azure cloud. However, OpenAI could benefit by converting free users to paid subscriptions, and Apple potentially benefits by providing easy, built-in access to ChatGPT during a time when its own in-house LLMs are still catching up.</p></div><p><a href="https://arstechnica.com/?p=2031318#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031318&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/information-technology/2024/06/report-apple-isnt-paying-openai-for-chatgpt-integration-into-oses/feed/</wfw:commentRss>
-			<slash:comments>126</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Gaming historians preserve what’s likely Nintendo’s first US commercial</title>
-		<link>https://arstechnica.com/?p=2031362</link>
-					<comments>https://arstechnica.com/gaming/2024/06/gaming-historians-preserve-whats-likely-nintendos-first-us-commercial/#comments</comments>
-		
-		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
-		<pubDate>Thu, 13 Jun 2024 16:51:42 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[ad]]></category>
-		<category><![CDATA[Game & Watch]]></category>
-		<category><![CDATA[History]]></category>
-		<category><![CDATA[mego]]></category>
-		<category><![CDATA[Nintendo]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2031362</guid>
-
-					<description><![CDATA[Mego's "Time Out" spot pitched Nintendo's Game &#038; Watch handhelds under a different name.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/gandwshorts-800x587.png" alt='"So slim you can play it anywhere." '>
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/gandwshorts.png" class="enlarge-link" data-height="1149" data-width="1566">Enlarge</a> <span class="sep">/</span> "So slim you can play it anywhere."  (credit: <a rel="nofollow" class="caption-link" href="https://gamehistory.org/mego-time-out-commercial/">VGHF</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Gamers of a certain age may remember Nintendo's Game &amp; Watch line, which predated the <a href="https://arstechnica.com/gaming/2019/04/game-boy-20th-anniversary/">cartridge-based Game Boy</a> by offering <a href="https://arstechnica.com/gaming/2018/03/play-tamagotchi-mc-hammer-and-more-lcd-handheld-wonders-in-your-browser/">simple, single-serving LCD games</a> that can <a href="https://arstechnica.com/gaming/2021/08/rare-nintendo-game-watch-unit-fetches-9000-at-auction/">fetch a pretty penny at auction today</a>. But even most ancient gamers probably don't remember Mego's "Time Out" line, which took the internal of Nintendo's early Game &amp; Watch titles and rebranded them for an American audience that hadn't yet heard of the Japanese game maker.</p>
-<p>Now, the Video Game History Foundation (VGHF) has helped preserve <a href="https://gamehistory.org/mego-time-out-commercial/">the original film of an early Mego Time Out commercial</a>, marking the recovered, digitized video as "what we believe is the first commercial for a Nintendo product in the United States." The 30-second TV spot—which is <a href="https://www.youtube.com/watch?v=4xVT5i1muxE">now available in a high-quality digital transfer</a> for the first time—provides a fascinating glimpse into how marketers positioned some of Nintendo's earliest games to a public that still needed to be sold on the very idea of portable gaming.</p>
-<h2>Imagine an “electronic sport”</h2>
-<div class="image shortcode-img right medium"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/game2.jpg"><img alt="A 1980 Mego catalog sells Nintendo's Game &amp;amp; Watch games under the toy company's &quot;Time Out&quot; branding." src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/game2-300x391.jpg" srcset="https://cdn.arstechnica.net/wp-content/uploads/2024/06/game2.jpg 2x"></a><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/game2.jpg" class="caption-link" rel="nofollow">A 1980 Mego catalog sells Nintendo's Game &amp; Watch games under the toy company's "Time Out" branding.</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.megomuseum.com/catalog/1980e/game.shtml">Mego Museum</a>)</p></div>
-<p>Founded in the 1950s, Mego made a name for itself in the 1970s with licensed movie action figures and <a href="http://www.2xlrobot.com/index.html">early robotic toys like the 2-XL</a> (a childhood favorite of your humble author). In 1980, though, Mego branched out to partner with a brand-new, pre-<em>Donkey Kong</em> Nintendo of America to release rebranded versions of four early Game &amp; Watch titles: <em>Ball</em> (which became Mego's "Toss-Up"), <em>Vermin</em> ("Exterminator"), <em>Fire</em> ("Fireman Fireman"), and <em>Flagman</em> ("Flag Man").</p></div><p><a href="https://arstechnica.com/?p=2031362#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031362&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/06/gaming-historians-preserve-whats-likely-nintendos-first-us-commercial/feed/</wfw:commentRss>
-			<slash:comments>34</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Cop busted for unauthorized use of Clearview AI facial recognition resigns</title>
-		<link>https://arstechnica.com/?p=2031338</link>
-					<comments>https://arstechnica.com/tech-policy/2024/06/cop-busted-for-unauthorized-use-of-clearview-ai-facial-recognition-resigns/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Thu, 13 Jun 2024 16:16:54 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[clearview.ai]]></category>
-		<category><![CDATA[face scans]]></category>
-		<category><![CDATA[facial recognition]]></category>
-		<category><![CDATA[law enforcement]]></category>
-		<category><![CDATA[police misconduct]]></category>
-		<category><![CDATA[police surveillance]]></category>
-		<category><![CDATA[public safety]]></category>
-		<category><![CDATA[surveillance technology]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2031338</guid>
-
-					<description><![CDATA[Indiana cop easily hid frequent personal use of Clearview AI face scans.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1498893020-800x534.jpg" alt="Cop busted for unauthorized use of Clearview AI facial recognition resigns">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1498893020.jpg" class="enlarge-link" data-height="1414" data-width="2119">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/social-connecting-concept-royalty-free-image/1498893020?phrase=facial+recognition&amp;searchscope=image%2Cfilm&amp;adppopup=true">Francesco Carta fotografo | Moment</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>An Indiana cop has resigned after it was revealed that he frequently used Clearview AI facial recognition technology to track down social media users not linked to any crimes.</p>
-<p>According to a <a href="https://city-countyobserver.com/443846-2/">press release</a> from the Evansville Police Department, this was a clear "misuse" of Clearview AI's controversial face scan tech, which some US cities have banned over concerns that it gives law enforcement unlimited power to track people in their daily lives.</p>
-<p>To help identify suspects, police can scan what Clearview AI describes on its website as "the world's largest facial recognition network." The database pools more than 40 billion images collected from news media, mugshot websites, public social media, and other open sources.</p></div><p><a href="https://arstechnica.com/?p=2031338#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031338&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/cop-busted-for-unauthorized-use-of-clearview-ai-facial-recognition-resigns/feed/</wfw:commentRss>
-			<slash:comments>85</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>SCOTUS rejects challenge to abortion pill for lack of standing</title>
-		<link>https://arstechnica.com/?p=2031323</link>
-					<comments>https://arstechnica.com/science/2024/06/scotus-rejects-challenge-to-abortion-pill-for-lack-of-standing/#comments</comments>
-		
-		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Thu, 13 Jun 2024 15:38:30 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Abortion]]></category>
-		<category><![CDATA[mifepristone]]></category>
-		<category><![CDATA[miscarriage]]></category>
-		<category><![CDATA[reproductive health]]></category>
-		<category><![CDATA[SCOTUS]]></category>
-		<category><![CDATA[Supreme Court]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2031323</guid>
-
-					<description><![CDATA[The anti-abortion defendants are not injured by the FDA's actions on mifepristone.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/04/GettyImages-1241524154-800x533.jpeg" alt="Mifepristone (Mifeprex) and misoprostol, the two drugs used in a medication abortion, are seen at the Women's Reproductive Clinic, which provides legal medication abortion services, in Santa Teresa, New Mexico, on June 17, 2022. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/04/GettyImages-1241524154-scaled.jpeg" class="enlarge-link" data-height="1706" data-width="2560">Enlarge</a> <span class="sep">/</span> Mifepristone (Mifeprex) and misoprostol, the two drugs used in a medication abortion, are seen at the Women's Reproductive Clinic, which provides legal medication abortion services, in Santa Teresa, New Mexico, on June 17, 2022.  (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/mifepristone-and-misoprostol-the-two-drugs-used-in-a-news-photo/1241524154?adppopup=true">Getty | Robyn Beck</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The US Supreme Court on Thursday struck down a case that<a href="https://arstechnica.com/science/2023/04/a-deep-dive-into-the-scotus-abortion-pill-case-and-whats-at-stake-for-the-fda/"> threatened to remove or at least restrict access to mifepristone</a>, a pill approved by the Food and Drug Administration for medication abortions and used in miscarriage care. The drug has been used for decades, racking up a remarkably good safety record in that time. It is currently used in the majority of abortions in the US.</p>
-<p>The high court found that the anti-abortion medical groups that legally challenged the FDA's decision to approve the drug in 2000 and then ease usage restrictions in 2016 and 2021 simply <a href="https://arstechnica.com/science/2024/03/abortion-pill-case-scotus-skeptical-of-anti-abortion-groups-legal-standing/">lacked standing</a> to challenge any of those decisions. That is, the groups failed to demonstrate that they were harmed by the FDA's decision and therefore had no grounds to legally challenge the government agency's actions. The ruling tracks closely with comments and questions the justices raised during oral arguments in March.</p>
-<p>"Plaintiffs are pro-life, oppose elective abortion, and have sincere legal, moral, ideological, and policy objections to mifepristone being prescribed and used <em>by others</em>," the Supreme Court noted in its <a href="https://www.supremecourt.gov/opinions/23pdf/23-235_n7ip.pdf">opinion</a>, which included the emphasis on "by others." The court summarized that the groups offered "complicated causation theories to connect FDA’s actions to the plaintiffs’ alleged injuries in fact," and the court found that "none of these theories suffices" to prove harm.</p></div><p><a href="https://arstechnica.com/?p=2031323#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031323&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/06/scotus-rejects-challenge-to-abortion-pill-for-lack-of-standing/feed/</wfw:commentRss>
-			<slash:comments>267</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Wyoming mayoral candidate wants to govern by AI bot</title>
-		<link>https://arstechnica.com/?p=2031255</link>
-					<comments>https://arstechnica.com/ai/2024/06/wyoming-mayoral-candidate-wants-to-govern-by-ai-bot/#comments</comments>
-		
-		<dc:creator><![CDATA[WIRED]]></dc:creator>
-		<pubDate>Thu, 13 Jun 2024 14:01:15 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[politics]]></category>
-		<category><![CDATA[syndication]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2031255</guid>
-
-					<description><![CDATA[VIC, the bot, will make decisions for the "meat puppet" who shows up at meetings.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/botai-800x450.jpg" alt="Digital chatbot icon on future tech background. Productivity of AI bots evolution. Futuristic chatbot icon and abstract chart in world of technological progress and innovation. CGI 3D render">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/botai.jpg" class="enlarge-link" data-height="1299" data-width="2309">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/digital-chatbot-icon-on-future-tech-background-royalty-free-image/1995269744">dakuq via Getty</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Victor Miller is running for mayor of Cheyenne, Wyoming, with an unusual campaign promise: If elected, he will <i>not be</i> calling the shots—an AI bot will. VIC, the Virtual Integrated Citizen, is a ChatGPT-based chatbot that Miller created. And Miller says the bot has better ideas—and a better grasp of the law—than many people currently serving in government.</p>
-<p>“I realized that this entity is way smarter than me, and more importantly, way better than some of the outward-facing public servants I see,” he says. According to Miller, VIC will make the decisions, and Miller will be its “meat puppet,” attending meetings, signing documents, and otherwise doing the corporeal job of running the city.</p>
-<p>But whether VIC—and Victor—will be allowed to run at all is still an open question.</p></div><p><a href="https://arstechnica.com/?p=2031255#p3">Read 20 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031255&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/ai/2024/06/wyoming-mayoral-candidate-wants-to-govern-by-ai-bot/feed/</wfw:commentRss>
-			<slash:comments>139</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>May contain nuts: Precautionary allergen labels lead to consumer confusion</title>
-		<link>https://arstechnica.com/?p=2031214</link>
-					<comments>https://arstechnica.com/science/2024/06/may-contain-nuts-precautionary-allergen-labels-lead-to-consumer-confusion/#comments</comments>
-		
-		<dc:creator><![CDATA[Undark Magazine]]></dc:creator>
-		<pubDate>Thu, 13 Jun 2024 11:00:50 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[food allergies]]></category>
-		<category><![CDATA[undark]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2031214</guid>
-
-					<description><![CDATA[Some labels suggest allergen cross-contamination that might not exist.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1417278236-800x572.jpg" alt="May contain nuts: Precautionary allergen labels lead to consumer confusion">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1417278236-scaled.jpg" class="enlarge-link" data-height="1831" data-width="2560">Enlarge</a> (credit: TopMicrobialStock, Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p><span class="dropcap">W</span><span class="bolded">hen Ina Chung,</span> a Colorado mother, first fed packaged foods to her infant, she was careful to read the labels. Her daughter was allergic to peanuts, dairy, and eggs, so products containing those ingredients were out. So were foods with labels that said they <em>may contain</em> the allergens.</p>
-<p>Chung felt like this last category suggested a clear risk that wasn’t worth taking. “I had heard that the ingredient labels were regulated. And so I thought that that included those statements,” said Chung. “Which was not true.”</p>
-<p>Precautionary allergen labels like those that say "processed in a facility that uses milk" or "may contain fish" are meant to address the potential for cross-contact. For instance, a granola bar that doesn’t list peanuts as an ingredient could still say they <em>may</em> be included. And in the United States, these warnings are not regulated; companies can use whatever precautionary phrasing they choose on any product. Some don’t bother with any labels, <a href="https://academic.oup.com/jaoac/article/101/1/23/5653903">even in facilities</a> where unintended allergens slip in; others list allergens that may pose little risk. Robert Earl, vice president of regulatory affairs at Food Allergy Research &amp; Education, or <a href="https://www.foodallergy.org/">FARE</a>, a nonprofit advocacy, research, and education group, has even seen such labels that include all nine common food allergens. “I would bet my bottom dollar not all of those allergens are even in the facility,” he said.</p></div><p><a href="https://arstechnica.com/?p=2031214#p3">Read 33 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031214&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/06/may-contain-nuts-precautionary-allergen-labels-lead-to-consumer-confusion/feed/</wfw:commentRss>
-			<slash:comments>164</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Roku owners face the grimmest indignity yet: Stuck-on motion smoothing</title>
-		<link>https://arstechnica.com/?p=2031173</link>
-					<comments>https://arstechnica.com/gadgets/2024/06/roku-owners-face-the-grimmest-indignity-yet-stuck-on-motion-smoothing/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Wed, 12 Jun 2024 21:13:48 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<category><![CDATA[frame rate]]></category>
-		<category><![CDATA[memc]]></category>
-		<category><![CDATA[motion smoothing]]></category>
-		<category><![CDATA[roku]]></category>
-		<category><![CDATA[Tom Cruise]]></category>
-		<category><![CDATA[video interpolation]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2031173</guid>
-
-					<description><![CDATA[Software updates strike again, leaving interpolated frames in unwanted places.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/roku-soap-opera-800x419.jpg" alt="Couple yelling at each other, as if in a soap opera, on a Roku TV, with a grotesque smoothing effect applied to both people.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/roku-soap-opera.jpg" class="enlarge-link" data-height="628" data-width="1200">Enlarge</a> <span class="sep">/</span> Motion smoothing was making images uncanny and weird long before AI got here. (credit: Aurich Lawson | Getty Images | Roku)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Roku TV owners have been introduced to a number of annoyances recently through the software update pipeline. There was an arbitration-demanding terms of service that <a href="https://arstechnica.com/gadgets/2024/03/disgraceful-messy-tos-update-allegedly-locks-roku-devices-until-users-give-in/">locked your TV until you agreed</a> (or mailed a letter). There is the upcoming <a href="https://arstechnica.com/gadgets/2024/04/roku-ad-push-continues-with-plans-to-put-video-ads-in-os-home-screen/">introduction of ads to the home screen</a>. But the latest irritation hits some Roku owners right in the eyes.</p>
-<p>Reports on <a href="https://community.roku.com/t5/Discussions/Motion-Smoothing-out-of-nowhere/m-p/974654">Roku's community forums</a> and on <a href="https://www.reddit.com/r/Roku/comments/1ddywvp/tcl_has_action_smoothing_out_of_the_blue/">Reddit</a> find owners of TCL HDTVs, on which Roku is a built-in OS, experiencing "motion smoothing" without having turned it on after updating to Roku OS 13. Some people are reporting that their TV never offered "Action Smoothing" before, but it is now displaying the results with no way to turn it off. Neither the TV's general settings, nor the specific settings available while content is playing, offer a way to turn it off, according to some users.</p>
-<p>"Action smoothing" is Roku's name for video interpolation, or motion smoothing. The heart of motion smoothing is Motion Estimation Motion Compensation (MEMC). Fast-moving video, such as live sports or intense action scenes, can have a "juddery" feeling when shown on TVs at a lower frame rate. Motion smoothing uses MEMC hardware and algorithms to artificially boost the frame rate of a video signal by creating its best guess of what a frame between two existing frames would look like and then inserting it to boost the frame rate.</p></div><p><a href="https://arstechnica.com/?p=2031173#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031173&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/06/roku-owners-face-the-grimmest-indignity-yet-stuck-on-motion-smoothing/feed/</wfw:commentRss>
-			<slash:comments>238</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Turkish student creates custom AI device for cheating university exam, gets arrested</title>
-		<link>https://arstechnica.com/?p=2031012</link>
-					<comments>https://arstechnica.com/information-technology/2024/06/turkish-student-creates-custom-ai-device-for-cheating-university-exam-gets-arrested/#comments</comments>
-		
-		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
-		<pubDate>Wed, 12 Jun 2024 20:52:49 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[Reuters]]></category>
-		<category><![CDATA[The Daily Mail]]></category>
-		<category><![CDATA[Turkey]]></category>
-		<category><![CDATA[TYT]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2031012</guid>
-
-					<description><![CDATA[Elaborate scheme involved hidden camera and an earpiece to hear answers.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/shirt-button-camera-800x450.jpg" alt="A photo illustration of what a shirt-button camera &lt;em&gt;could&lt;/em&gt; look like. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/shirt-button-camera.jpg" class="enlarge-link" data-height="1080" data-width="1920">Enlarge</a> <span class="sep">/</span> A photo illustration of what a shirt-button camera <em>could</em> look like.  (credit: Aurich Lawson | Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>On Saturday, Turkish police arrested and detained a prospective university student who is accused of developing an elaborate scheme to use AI and hidden devices to help him cheat on an important entrance exam, reports <a href="https://www.reuters.com/technology/artificial-intelligence/turkish-student-arrested-using-ai-cheat-university-exam-2024-06-11/">Reuters</a> and <a href="https://www.dailymail.co.uk/news/article-13519405/Turkish-student-used-AI-software-cheat-university-exam-disguising-camera-shirt-button-hiding-router-shoe-jailed.html">The Daily Mail</a>.</p>
-<p>The unnamed student is reportedly jailed pending trial after the incident, which took place in the southwestern province of <a href="https://en.wikipedia.org/wiki/Isparta">Isparta</a>, where the student was caught behaving suspiciously during the <a href="https://en.wikipedia.org/wiki/Student_Selection_and_Placement_System">TYT</a>. The TYT is a nationally held university aptitude exam that determines a person's eligibility to attend a university in Turkey—and cheating on the high-stakes exam is a serious offense.</p>
-<p>According to police reports, the student used a camera disguised as a shirt button, connected to AI software via a "router" (possibly a mistranslation of a cellular modem) hidden in the sole of their shoe. The system worked by scanning the exam questions using the button camera, which then relayed the information to an unnamed AI model. The software generated the correct answers and recited them to the student through an earpiece.</p></div><p><a href="https://arstechnica.com/?p=2031012#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031012&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/information-technology/2024/06/turkish-student-creates-custom-ai-device-for-cheating-university-exam-gets-arrested/feed/</wfw:commentRss>
-			<slash:comments>132</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Starlink user terminal now costs just $300 in 28 states, $500 in rest of US</title>
-		<link>https://arstechnica.com/?p=2031158</link>
-					<comments>https://arstechnica.com/tech-policy/2024/06/starlink-cuts-satellite-dish-price-from-600-to-300-in-excess-capacity-areas/#comments</comments>
-		
-		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
-		<pubDate>Wed, 12 Jun 2024 20:20:41 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[starlink]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2031158</guid>
-
-					<description><![CDATA[The $600 standard price was replaced with regional pricing of $500 or $300. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/starlink-new-dish-800x566.jpg" alt="A rectangular satellite dish sitting on the ground outdoors.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/starlink-new-dish.jpg" class="enlarge-link" data-height="1066" data-width="1508">Enlarge</a> <span class="sep">/</span> The standard Starlink satellite dish. (credit: Starlink)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>You can now buy a Starlink satellite dish for $299 (plus shipping and tax) in 28 US states due to a discount for areas where SpaceX's broadband network has excess capacity.</p>
-<p>Starlink had raised its upfront hardware cost from $499 to $599 <a href="https://arstechnica.com/information-technology/2022/03/starlink-hikes-prices-to-599-up-front-and-110-per-month-blames-inflation/">in March 2022</a> but cut the <a href="https://www.starlink.com/service-plans">standard price</a> back down to $499 this week. In the 28 states where the network has what SpaceX deems excess capacity, a $200 discount is being applied to bring the price down to $299. It's unclear how long the deal will last, though we can assume the number of states eligible for $299 pricing will fall if a lot of people sign up.</p>
-<p>"In the United States, new orders in certain regions are eligible for a one-time savings in areas where Starlink has abundant network availability," a <a href="https://support.starlink.com/?topic=efa87a10-aa1d-783a-ae80-0e1425041708">support page</a> posted yesterday said. "$200 will be removed from your Starlink kit price when ordering on Starlink.com and if activated after purchasing from a retailer, a $200 credit will be applied. The savings are only available for Residential Standard service in these designated regional savings areas."</p></div><p><a href="https://arstechnica.com/?p=2031158#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031158&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/starlink-cuts-satellite-dish-price-from-600-to-300-in-excess-capacity-areas/feed/</wfw:commentRss>
-			<slash:comments>109</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>New Stable Diffusion 3 release excels at AI-generated body horror</title>
-		<link>https://arstechnica.com/?p=2031050</link>
-					<comments>https://arstechnica.com/information-technology/2024/06/ridiculed-stable-diffusion-3-release-excels-at-ai-generated-body-horror/#comments</comments>
-		
-		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
-		<pubDate>Wed, 12 Jun 2024 19:26:52 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[AI image generator]]></category>
-		<category><![CDATA[body horror]]></category>
-		<category><![CDATA[image synthesis]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[Stability AI]]></category>
-		<category><![CDATA[Stable Diffusion]]></category>
-		<category><![CDATA[Stable Diffusion 3]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2031050</guid>
-
-					<description><![CDATA[Users react to mangled SD3 generations and ask, "Is this release supposed to be a joke?"]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/sd3_body_horror_1-800x450.jpg" alt="An AI-generated image created using Stable Diffusion 3 of a girl lying in the grass.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/sd3_body_horror_1.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> An AI-generated image created using Stable Diffusion 3 of a girl lying in the grass. (credit: <a rel="nofollow" class="caption-link" href="https://www.reddit.com/r/StableDiffusion/comments/1de85nc/why_is_sd3_so_bad_at_generating_girls_lying_on/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button">HorneyMetalBeing</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>On Wednesday, Stability AI released weights for <a href="https://stability.ai/news/stable-diffusion-3-medium">Stable Diffusion 3 Medium</a>, an AI image-synthesis model that turns text prompts into AI-generated images. Its arrival has been ridiculed online, however, because it generates images of humans in a way that seems like a step backward from other state-of-the-art image-synthesis models like <a href="https://arstechnica.com/information-technology/2024/01/a-crazy-update-midjourney-v6-upgrade-heaps-on-ai-generated-detail/">Midjourney</a> or <a href="https://arstechnica.com/information-technology/2023/11/from-toy-to-tool-dall-e-3-is-a-wake-up-call-for-visual-artists-and-the-rest-of-us/">DALL-E 3</a>. As a result, it can churn out wild anatomically incorrect visual abominations with ease.</p>
-
-<p>A thread on Reddit, titled, "<a href="https://www.reddit.com/r/StableDiffusion/comments/1de7lbg/is_this_release_supposed_to_be_a_joke_sd32b/">Is this release supposed to be a joke? [SD3-2B],</a>" details the spectacular failures of SD3 Medium at rendering humans, especially human limbs like hands and feet. Another thread, titled, "<a href="https://www.reddit.com/r/StableDiffusion/comments/1de85nc/why_is_sd3_so_bad_at_generating_girls_lying_on/">Why is SD3 so bad at generating girls lying on the grass?</a>" shows similar issues, but for entire human bodies.</p>
-<p>Hands have traditionally been a challenge for AI image generators due to lack of good examples in early training data sets, but more recently, several image-synthesis models <a href="https://arstechnica.com/information-technology/2023/03/ai-imager-midjourney-v5-stuns-with-photorealistic-images-and-5-fingered-hands/">seemed to have overcome the issue</a>. In that sense, SD3 appears to be a huge step backward for the image-synthesis enthusiasts that gather on Reddit—especially compared to recent Stability releases like <a href="https://arstechnica.com/information-technology/2023/11/stable-diffusion-turbo-xl-accelerates-image-synthesis-with-one-step-generation/">SD XL Turbo</a> in November.</p></div><p><a href="https://arstechnica.com/?p=2031050#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2031050&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/information-technology/2024/06/ridiculed-stable-diffusion-3-release-excels-at-ai-generated-body-horror/feed/</wfw:commentRss>
-			<slash:comments>238</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Google’s abuse of Fitbit continues with web app shutdown</title>
-		<link>https://arstechnica.com/?p=2030992</link>
-					<comments>https://arstechnica.com/gadgets/2024/06/googles-abuse-of-fitbit-continues-with-web-app-shutdown/#comments</comments>
-		
-		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
-		<pubDate>Wed, 12 Jun 2024 19:02:22 +0000</pubDate>
-				<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2030992</guid>
-
-					<description><![CDATA[Users say the app, which is now the only Fitbit interface, lacks matching features. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/25-800x445.jpg" alt="Google’s abuse of Fitbit continues with web app shutdown">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/25.jpg" class="enlarge-link" data-height="560" data-width="1006">Enlarge</a> (credit: Fitbit)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Google's <a href="https://arstechnica.com/gadgets/2024/03/google-reshapes-fitbit-in-its-image-as-users-allege-planned-obsolescence/">continued abuse</a> of the Fitbit brand is continuing with the shutdown of the web dashboard. Fitbit.com used to be both a storefront and a way for users to get a big-screen UI to sift through reams of fitness data. The store <a href="https://9to5google.com/2024/04/27/fitbit-google-store-replaced/">closed up shop</a> in April, and now the web dashboard <a href="https://community.fitbit.com/t5/Fitbit-com-Dashboard/Fitbit-com-web-dashboard-is-transitioning-to-the-Fitbit-app/td-p/5613159">is dying</a> in July.</p>
-<p>In a post on the "Fitbit Community" forums, the company said: "Next month, we’re consolidating the Fitbit.com dashboard into the Fitbit app. The web browser will no longer offer access to the Fitbit.com dashboard after July 8, 2024." That's it. There's no replacement or new fitness thing Google is more interested in; web functionality is just being removed. Google, we'll remind you, used to be a web company. Now it's a phone app or nothing. Google did the same thing to its Google Fit product <a href="https://www.neowin.net/news/google-fit-website-to-close-on-march-19-shifting-focus-to-mobile-and-smartwatch/">in 2019</a>, killing off the more powerful website in favor of an app focus.</p>
-<p>Dumping the web app leaves a few holes in Fitbit's ecosystem. The Fitbit app doesn't support big screens like tablet devices, so this is removing the only large-format interface for data. Fitbit's competitors all have big-screen interfaces. Garmin has a <a href="https://connect.garmin.com/">very similar</a> website, and the Apple Watch has <a href="https://support.apple.com/guide/ipad/get-started-with-health-ipadf82bbc87/ipados">an iPad health app</a>. This isn't an improvement. To make matters worse, the app does not have the features of the web dashboard, with many of the <em>livid</em> comments in the forums <a href="https://www.reddit.com/r/fitbit/comments/1ddm7yp/fitbitcom_web_dashboard_shutting_down_in_july/">on Reddit</a> calling out the app's deficiencies in graphing, achievement statistics, calorie counting, and logs.</p></div><p><a href="https://arstechnica.com/?p=2030992#p3">Read 1 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2030992&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/06/googles-abuse-of-fitbit-continues-with-web-app-shutdown/feed/</wfw:commentRss>
-			<slash:comments>116</slash:comments>
+			<slash:comments>43</slash:comments>
 		
 		
 			</item>
