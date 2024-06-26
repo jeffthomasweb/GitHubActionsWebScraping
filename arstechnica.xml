@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Mon, 24 Jun 2024 23:36:35 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 25 Jun 2024 22:42:59 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,6 +21,530 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Researchers upend AI status quo by eliminating matrix multiplication in LLMs</title>
+		<link>https://arstechnica.com/?p=2033314</link>
+					<comments>https://arstechnica.com/information-technology/2024/06/researchers-upend-ai-status-quo-by-eliminating-matrix-multiplication-in-llms/#comments</comments>
+		
+		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 22:27:51 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Google Gemini]]></category>
+		<category><![CDATA[GPU]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[matmul]]></category>
+		<category><![CDATA[matrix math]]></category>
+		<category><![CDATA[matrix multiplication]]></category>
+		<category><![CDATA[ternary]]></category>
+		<category><![CDATA[UC Santa Cruz]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2033314</guid>
+
+					<description><![CDATA[Running AI models without matrix math means far less power consumption—and fewer GPUs?]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/AI_lightbulb-800x450.jpg" alt="Illustration of a brain inside of a light bulb.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/AI_lightbulb.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> Illustration of a brain inside of a light bulb. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/artificial-intelligence-domination-light-bulb-brain-royalty-free-image/1985871636">Getty Images</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Researchers claim to have developed a new way to run AI language models more efficiently by eliminating matrix multiplication from the process. This fundamentally redesigns neural network operations that are currently accelerated by GPU chips. The findings, detailed in a <a href="https://arxiv.org/abs/2406.02528">recent preprint paper</a> from researchers at the University of California Santa Cruz, UC Davis, LuxiTech, and Soochow University, could have deep implications for the <a href="https://arstechnica.com/ai/2024/06/is-generative-ai-really-going-to-wreak-havoc-on-the-power-grid/">environmental impact</a> and operational costs of AI systems.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Matrix_multiplication">Matrix multiplication</a> (often abbreviated to "MatMul") is at the <a href="https://arstechnica.com/information-technology/2022/10/deepmind-breaks-50-year-math-record-using-ai-new-record-falls-a-week-later/">center</a> of most neural network computational tasks today, and GPUs are particularly good at executing the math quickly because they can perform large numbers of multiplication operations in parallel. That ability momentarily made Nvidia the <a href="https://www.wsj.com/tech/ai/nvidias-ascent-to-most-valuable-company-has-echoes-of-dot-com-boom-dd836c90">most valuable company</a> in the world last week; the company currently holds an estimated <a href="https://www.hpcwire.com/2024/06/10/nvidia-shipped-3-76-million-data-center-gpus-in-2023-according-to-study/">98 percent market share</a> for data center GPUs, which are commonly used to power AI systems like <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a> and <a href="https://arstechnica.com/information-technology/2023/12/google-launches-gemini-a-powerful-ai-model-it-says-can-surpass-gpt-4/">Google Gemini</a>.</p>
+<p>In the new paper, titled "Scalable MatMul-free Language Modeling," the researchers describe creating a custom 2.7 billion parameter model without using MatMul that features similar performance to conventional large language models (LLMs). They also demonstrate running a 1.3 billion parameter model at 23.8 tokens per second on a GPU that was accelerated by a custom-programmed <a href="https://en.wikipedia.org/wiki/Field-programmable_gate_array">FPGA</a> chip that uses about 13 watts of power (not counting the GPU's power draw). The implication is that a more efficient FPGA "paves the way for the development of more efficient and hardware-friendly architectures," they write.</p></div><p><a href="https://arstechnica.com/?p=2033314#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033314&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/information-technology/2024/06/researchers-upend-ai-status-quo-by-eliminating-matrix-multiplication-in-llms/feed/</wfw:commentRss>
+			<slash:comments>29</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>OpenAI’s ChatGPT for Mac is now available to all users</title>
+		<link>https://arstechnica.com/?p=2033436</link>
+					<comments>https://arstechnica.com/gadgets/2024/06/openais-chatgpt-for-mac-is-now-available-to-all-users/#comments</comments>
+		
+		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 21:37:32 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[GPT-4o]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[MacOS]]></category>
+		<category><![CDATA[openai]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2033436</guid>
+
+					<description><![CDATA[It supports pretty much everything but API calls.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Screenshot-2024-06-25-at-4.18.56%E2%80%AFPM-800x420.png" alt="A message field for ChatGPT pops up over a Mac desktop">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Screenshot-2024-06-25-at-4.18.56%E2%80%AFPM.png" class="enlarge-link" data-height="858" data-width="1634">Enlarge</a> <span class="sep">/</span> The app lets you invoke ChatGPT from anywhere in the system with a keyboard shortcut, Spotlight-style. (credit: Samuel Axon)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>OpenAI's official ChatGPT app for macOS is now <a href="https://openai.com/chatgpt/mac/">available</a> to all users for the first time, provided they're running macOS Sonoma or later.</p>
+<p>It was previously being rolled out gradually to paid subscribers to ChatGPT's Plus premium plan.</p>
+<p>The ChatGPT Mac app mostly acts as a desktop window version of the web app, allowing you to carry on back-and-forth prompt-and-response conversations. You can select between the GPT-3.5, GPT-4, and GPT-4o models. It also supports the more specialized GPTs available in the web version, including the DALL-E image generator and custom GPTs.</p></div><p><a href="https://arstechnica.com/?p=2033436#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033436&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/06/openais-chatgpt-for-mac-is-now-available-to-all-users/feed/</wfw:commentRss>
+			<slash:comments>9</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ketamine pills for depression show positive results in trial—but with caveats</title>
+		<link>https://arstechnica.com/?p=2033492</link>
+					<comments>https://arstechnica.com/science/2024/06/ketamine-pills-for-depression-show-positive-results-in-trial-but-with-caveats/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 20:18:57 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[clinical trial]]></category>
+		<category><![CDATA[depression]]></category>
+		<category><![CDATA[enriched]]></category>
+		<category><![CDATA[fda]]></category>
+		<category><![CDATA[ketamine]]></category>
+		<category><![CDATA[matthew perry]]></category>
+		<category><![CDATA[mdma]]></category>
+		<category><![CDATA[mental disorders]]></category>
+		<category><![CDATA[psychedelic]]></category>
+		<category><![CDATA[psychiatric]]></category>
+		<category><![CDATA[PTSD]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2033492</guid>
+
+					<description><![CDATA[A slow-release oral dose showed good safety, but efficacy is shaky.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1441480865-800x574.jpeg" alt="Ketamine pills for depression show positive results in trial—but with caveats">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1441480865-scaled.jpeg" class="enlarge-link" data-height="1836" data-width="2560">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/at-boulder-mind-care-dr-wade-grindle-gives-ketamine-to-some-news-photo/1441480865?searchscope=image%2Cfilm&amp;adppopup=true">Getty | RJ Sangosti</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>After an <a href="https://arstechnica.com/science/2024/06/flawed-scandalous-trials-tank-fda-expert-support-for-mdma-therapy/">MDMA therapy for post-traumatic stress disorder dramatically failed to impress Food and Drug Administration advisers</a> earlier this month, researchers are moving forward with another psychedelic—a slow-release oral dose of the hallucinogenic drug ketamine—as a therapy for treatment-resistant depression.</p>
+<p>In a mid-stage, randomized, placebo-controlled clinical trial, researchers tested slow-release ketamine pills, taken twice weekly. The trial, sponsored by New Zealand-based Douglas Pharmaceuticals, found ketamine to be safe compared with placebo. At the trial's highest dose, the treatment showed some efficacy against depression in patients who had previously tried an average of nearly five antidepressants without success, <a href="https://www.nature.com/articles/s41591-024-03063-x">according to the results published Monday in Nature Medicine</a>.</p>
+<p>But the Phase II trial, which started with 231 participants, indicated that the pool of patients who may benefit from the treatment could be quite limited. The researchers behind the trial chose an unusual "enrichment" design to test the depression treatment. This was intended to thwart the high failure rates generally seen in trials for depression treatments, even in patients without treatment-resistant cases. But even after selecting patients who initially responded to ketamine, 59.5 percent of the enriched participants still dropped out of the trial before its completion, largely due to a lack of efficacy.</p></div><p><a href="https://arstechnica.com/?p=2033492#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033492&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/06/ketamine-pills-for-depression-show-positive-results-in-trial-but-with-caveats/feed/</wfw:commentRss>
+			<slash:comments>35</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The mythical griffin was not inspired by a horned dinosaur, study concludes</title>
+		<link>https://arstechnica.com/?p=2032976</link>
+					<comments>https://arstechnica.com/science/2024/06/the-mythical-gryphon-was-not-inspired-by-a-horned-dinosaur-study-concludes/#comments</comments>
+		
+		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 19:42:43 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[cryptology]]></category>
+		<category><![CDATA[Folklore]]></category>
+		<category><![CDATA[geomyths]]></category>
+		<category><![CDATA[gryphon]]></category>
+		<category><![CDATA[mythbusting]]></category>
+		<category><![CDATA[mythical creatures]]></category>
+		<category><![CDATA[mythology]]></category>
+		<category><![CDATA[paleontology]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2032976</guid>
+
+					<description><![CDATA[The mythological creatures are instead "chimeras of big cats and raptorial birds."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/griffinTOP-800x533.jpg" alt="Painting of a griffin, a lion-raptor chimaera">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/griffinTOP.jpg" class="enlarge-link" data-height="799" data-width="1200">Enlarge</a> <span class="sep">/</span> Painting of a gryphon, or griffin, a lion-raptor chimera from ancient folklore. (credit: Mark Witton)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The gryphon, or <a href="https://en.wikipedia.org/wiki/Griffin">griffin</a>, is a legendary creature dating back to classical antiquity, sporting the body, legs, and tail of a lion and the wings, head, and front talons of an eagle. Since the 1980s, a popular "geomyth" has spread that the griffin's unique appearance was inspired by the fossilized skeleton of a horned dinosaur known as <a href="https://en.wikipedia.org/wiki/Protoceratops"><em>Protoceratops</em></a>. It's a fascinating and colorful story, but according to the authors of a <a href="https://journals.sagepub.com/doi/10.1177/03080188241255543">new paper</a> published in the journal Interdisciplinary Science Reviews, there is no hard evidence to support such a connection.</p>
+<p>"Everything about griffin origins is consistent with their traditional interpretation as imaginary beasts, just as their appearance is entirely explained by them being [mythological] <a href="https://en.wikipedia.org/wiki/Chimera_(mythology)">chimeras</a> of big cats and raptorial birds," <a href="https://www.eurekalert.org/news-releases/1048872">said co-author Mark Witton</a>, a paleontologist at the University of Portsmouth. "Invoking a role for dinosaurs in griffin lore, especially species from distant lands like <em>Protoceratops</em>, not only introduces unnecessary complexity and inconsistencies to their origins, but also relies on interpretations and proposals that don’t withstand scrutiny.”</p>
+<p>There are representations of griffin-like creatures in ancient Egyptian art dated to before 3000 BCE, while in ancient Greek and Roman texts the creatures were associated with gold deposits in Central Asia. By the Middle Ages, griffins were common figures in medieval iconography and in heraldry. The <a href="https://en.wikipedia.org/wiki/Hippogriff">hippogriff</a> named Buckbeak in <em>Harry Potter and the Prisoner of Azkaban</em> is a related mythical creature, the product of a griffin and a mare.</p></div><p><a href="https://arstechnica.com/?p=2032976#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2032976&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/06/the-mythical-gryphon-was-not-inspired-by-a-horned-dinosaur-study-concludes/feed/</wfw:commentRss>
+			<slash:comments>33</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NASA’s commercial spacesuit program just hit a major snag</title>
+		<link>https://arstechnica.com/?p=2033392</link>
+					<comments>https://arstechnica.com/space/2024/06/nasas-commercial-spacesuit-program-just-hit-a-major-snag/#comments</comments>
+		
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 19:22:12 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[collins]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[suit]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2033392</guid>
+
+					<description><![CDATA["Unfortunately Collins has been significantly behind schedule."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2019/10/48914447452_6fd563556a_k-800x533.jpg" alt="NASA astronaut Christina Koch (right) poses for a portrait with fellow Expedition 61 Flight Engineer Jessica Meir, who is inside a US spacesuit for a fit check.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/10/48914447452_6fd563556a_k.jpg" class="enlarge-link" data-height="1365" data-width="2048">Enlarge</a> <span class="sep">/</span> NASA astronaut Christina Koch (right) poses for a portrait with fellow Expedition 61 Flight Engineer Jessica Meir, who is inside a US spacesuit for a fit check. (credit: NASA)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Almost exactly two years ago, as it prepared for the next generation of human spaceflight, NASA chose a pair of private companies to design and develop new spacesuits. These were to be new spacesuits that would allow astronauts to both perform spacewalks outside the International Space Station as well as walk on the Moon as part of the Artemis program.</p>
+<p>Now, that plan appears to be in trouble, with one of the spacesuit providers—Collins Aerospace—expected to back out, Ars has learned. It's a blow for NASA, because the space agency really needs modern spacesuits.</p>
+<p>NASA's Apollo-era suits have long been retired. The current suits used for spacewalks in low-Earth orbit are four decades old. "These new capabilities will allow us to continue on the ISS and allows us to do the Artemis program and continue on to Mars," said the director of Johnson Space Center, Vanessa Wyche, during a celebratory news conference in Houston <a href="https://arstechnica.com/science/2022/06/nasa-announces-a-new-plan-to-buy-private-spacesuits-to-make-lunar-landing-date/">two years ago</a>.</p></div><p><a href="https://arstechnica.com/?p=2033392#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033392&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/06/nasas-commercial-spacesuit-program-just-hit-a-major-snag/feed/</wfw:commentRss>
+			<slash:comments>123</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Verizon screwup caused 911 outage in 6 states—carrier agrees to $1M fine</title>
+		<link>https://arstechnica.com/?p=2033451</link>
+					<comments>https://arstechnica.com/tech-policy/2024/06/verizon-screwup-caused-911-outage-in-6-states-carrier-agrees-to-1m-fine/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 18:31:22 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[911 outage]]></category>
+		<category><![CDATA[verizon wireless]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2033451</guid>
+
+					<description><![CDATA[Verizon initially failed to remove a flawed update file that caused two outages.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2019/06/getty-verizon-logo-800x534.jpg" alt="A Verizon logo on top of a black background.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/06/getty-verizon-logo.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/search/photographer?photographer=David%20Ramos&amp;family=editorial&amp;page=1&amp;recency=anydate&amp;suppressfamilycorrection=true#license">Getty Images | David Ramos</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Verizon Wireless agreed to pay a $1,050,000 penalty to the US Treasury and implement a compliance plan because of a 911 outage in December 2022 that was caused by a botched update, the Federal Communications Commission <a href="https://www.fcc.gov/document/fcc-settles-verizon-911-outage-violations-over-1-million">announced</a> today.</p>
+<p>A <a href="https://docs.fcc.gov/public/attachments/DA-24-578A1.pdf">consent decree</a> explains that the outage was caused by "the reapplication of a known flawed security policy update file." During the outage, lasting one hour and 44 minutes, Verizon failed to deliver hundreds of 911 calls in Alabama, Florida, Georgia, North Carolina, South Carolina, and Tennessee, the FCC said.</p>
+<p>"The [FCC] Enforcement Bureau takes any potential violations of the Commission's 911 rules extremely seriously. Sunny day outages, as occurred here, can be especially troubling because they occur when the public and 911 call centers least expect it," Bureau Chief Loyaan Egal said.</p></div><p><a href="https://arstechnica.com/?p=2033451#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033451&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/verizon-screwup-caused-911-outage-in-6-states-carrier-agrees-to-1m-fine/feed/</wfw:commentRss>
+			<slash:comments>25</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The math on unplayed Steam “shame” is way off—and no cause for guilt</title>
+		<link>https://arstechnica.com/?p=2033313</link>
+					<comments>https://arstechnica.com/gaming/2024/06/is-the-total-value-of-unplayed-steam-games-really-19-billion-probably-not/#comments</comments>
+		
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 18:06:44 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[PC gaming]]></category>
+		<category><![CDATA[Steam]]></category>
+		<category><![CDATA[steam backlog]]></category>
+		<category><![CDATA[steam gauge]]></category>
+		<category><![CDATA[steam sale]]></category>
+		<category><![CDATA[Unplayed games]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2033313</guid>
+
+					<description><![CDATA[It's fun to speculate, but sales and library quirks make it impossible to know.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1243266495-800x534.jpg" alt="Person holding a Steam Deck and playing PowerWash Simulator">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1243266495.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> <span class="sep">/</span> Blast away all the guilt you want in <em>PowerWash Simulator</em>, but there's no need to feel dirty in the real world about your backlog. (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Gaming news site PCGamesN has a web tool, <a href="https://www.steamidfinder.com/">SteamIDFinder</a>, that can do a neat trick. If you buy PC games on Steam and have your user profile set to make your gaming details public, you can enter your numeric user ID into it and see a bunch of stats. One set of stats is dedicated to the total value of the games listed as unplayed; you can share this page as an image linking to your "Pile of Shame," which includes the total "Value" of your Steam collection and unplayed games.</p>
+<div class="image shortcode-img center full"><img alt="Example findings from SteamIDFinder, from someone who likely has hundreds of games from Humble Bundles and other deals in their library." src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/image-2.png"><p class="caption" style="font-size:0.8em">Example findings from SteamIDFinder, from someone who likely has hundreds of games from Humble Bundles and other deals in their library. (credit: SteamIDFinder)</p></div>
+<p>Using data from what it claims are the roughly 10 percent of 73 million Steam accounts in its database set to Public, PCGamesN extrapolates $1.9 billion in unplayed games, multiplies it by 10, and casually suggests that <a href="https://www.pcgamesn.com/steam/pile-of-shame">there are $19 billion in unplayed games hanging around</a>. That is "more than the gross national product of Nicaragua, Niger, Chad, or Mauritius," the site notes.</p>
+<h2>That is a very loose “$19 billion”</h2>
+<p>"Multiply by 10" is already a pretty soft science, but the numbers are worth digging into further. For starters, SteamIDFinder is using the current sale price of every game in your unplayed library, as confirmed by looking at a half-dozen "Pile of Shame" profiles. An informal poll of Ars Technica co-workers and friends with notable Steam libraries suggests that games purchased at full price make up a tiny fraction of the games in our backlogs. Games acquired through package deals, like the <a href="https://www.humblebundle.com/">Humble Bundle</a>, or during one of Steam's <a href="https://arstechnica.com/gaming/2021/07/steam-summer-sale-best-deals-hidden-gems-indie-games/">annual or one-time sales</a>, are a big part of most people's Steam catalogs, I'd reckon.</p></div><p><a href="https://arstechnica.com/?p=2033313#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033313&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/06/is-the-total-value-of-unplayed-steam-games-really-19-billion-probably-not/feed/</wfw:commentRss>
+			<slash:comments>89</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Taking a closer look at AI’s supposed energy apocalypse</title>
+		<link>https://arstechnica.com/?p=2033273</link>
+					<comments>https://arstechnica.com/ai/2024/06/is-generative-ai-really-going-to-wreak-havoc-on-the-power-grid/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 18:01:46 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Features]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2033273</guid>
+
+					<description><![CDATA[AI is just one small part of data centers’ soaring energy use.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1384950048-800x555.jpg" alt="Someone just asked what it would look like if their girlfriend was a Smurf. Better add another rack of servers!">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1384950048.jpg" class="enlarge-link" data-height="1442" data-width="2078">Enlarge</a> <span class="sep">/</span> Someone just asked what it would look like if their girlfriend was a Smurf. Better add another rack of servers! (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Late last week, both <a href="https://www.bloomberg.com/graphics/2024-ai-data-centers-power-grids/">Bloomberg</a> and <a href="https://www.washingtonpost.com/business/2024/06/21/artificial-intelligence-nuclear-fusion-climate/">The Washington Post</a> published stories focused on the ostensibly disastrous impact artificial intelligence is having on the power grid and on efforts to collectively reduce our use of fossil fuels. The high-profile pieces lean heavily on recent projections from <a href="https://www.goldmansachs.com/intelligence/pages/gs-research/generational-growth-ai-data-centers-and-the-coming-us-power-surge/report.pdf">Goldman Sachs</a> and <a href="https://iea.blob.core.windows.net/assets/6b2fd954-2017-408e-bf08-952fdd62118a/Electricity2024-Analysisandforecastto2026.pdf">the International Energy Agency</a> (IEA) to cast AI's "insatiable" demand for energy as an almost apocalyptic threat to our power infrastructure. The Post piece even cites anonymous "some [people]" in reporting that "some worry whether there will be enough electricity to meet [the power demands] from any source."</p>
+<p>Digging into the best available numbers and projections available, though, it's hard to see AI's current and near-future environmental impact in such a dire light. While generative AI models and tools can and will use a significant amount of energy, we shouldn't conflate AI energy usage with the larger and largely pre-existing energy usage of "data centers" as a whole. And just like any technology, whether that AI energy use is worthwhile depends largely on your wider opinion of the value of generative AI in the first place.</p>
+<h2>Not all data centers</h2>
+<p>While the headline focus of both Bloomberg and The Washington Post's recent pieces is on artificial intelligence, the actual numbers and projections cited in both pieces overwhelmingly focus on the energy used by Internet "data centers" as a whole. Long before generative AI became the current Silicon Valley buzzword, those data centers were already growing immensely in size and energy usage, powering everything from Amazon Web Services servers to online gaming services, Zoom video calls, and cloud storage and retrieval for billions of documents and photos, to name just a few of the more common uses.</p></div><p><a href="https://arstechnica.com/?p=2033273#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033273&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/ai/2024/06/is-generative-ai-really-going-to-wreak-havoc-on-the-power-grid/feed/</wfw:commentRss>
+			<slash:comments>54</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>“Energy-smart” bricks need less power to make, are better insulation</title>
+		<link>https://arstechnica.com/?p=2033291</link>
+					<comments>https://arstechnica.com/science/2024/06/making-energy-smart-bricks-from-recycling-waste/#comments</comments>
+		
+		<dc:creator><![CDATA[Ars Contributors]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 17:34:08 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[bricks]]></category>
+		<category><![CDATA[green]]></category>
+		<category><![CDATA[materials science]]></category>
+		<category><![CDATA[recycling]]></category>
+		<category><![CDATA[sustainability]]></category>
+		<category><![CDATA[waste]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2033291</guid>
+
+					<description><![CDATA[Cutting the energy used while firing the bricks means big savings at scale.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/news-waste-glass-1220px-800x480.jpg" alt="Image of a person holding a bag full of dirty looking material with jagged pieces in it.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/news-waste-glass-1220px.jpg" class="enlarge-link" data-height="732" data-width="1220">Enlarge</a> <span class="sep">/</span> Some of the waste material that ends up part of these bricks. (credit: Seamus Daniel, RMIT University)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Researchers at the Royal Melbourne Institute of Technology (RMIT) in Australia have developed special “energy-smart bricks” that can be made by mixing clay with glass waste and coal ash. These bricks can help mitigate the negative effects of traditional brick manufacturing, an energy-intensive process that requires large-scale clay mining, contributes heavily to CO<sub>2</sub> emissions, and generates a lot of air pollution.</p>
+<p>According to the RMIT researchers, “Brick kilns worldwide consume 375 million tonnes (~340 million metric tons) of coal in combustion annually, which is equivalent to 675 million tonnes of CO<sub>2</sub> emission (~612 million metric tons).” This exceeds the combined annual carbon dioxide emissions of 130 million passenger vehicles in the US.</p>
+<p>The <a href="https://arstechnica.com/information-technology/2014/07/these-bricks-are-like-lego-for-full-sized-buildings/">energy-smart bricks</a> rely on a material called RCF waste. It mostly contains fine pieces of glass (92 percent) left over from the recycling process, along with ceramic materials, plastic, paper, and ash. Most of this <a href="https://arstechnica.com/science/2013/11/global-waste-production-to-triple-by-2100-led-by-sub-saharan-africa/">waste material</a> generally ends up in landfills, where it can cause soil and water degradation. However, the study authors <a href="https://www.sciencedirect.com/science/article/pii/S0950061823037492?via%3Dihub">note</a>, “The utilization of RCF waste in fired-clay bricks offers a potential solution to the increasing global waste crisis and reduces the burden on landfills."</p></div><p><a href="https://arstechnica.com/?p=2033291#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033291&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/06/making-energy-smart-bricks-from-recycling-waste/feed/</wfw:commentRss>
+			<slash:comments>59</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Saturn’s moon Titan has shorelines that appear to be shaped by waves</title>
+		<link>https://arstechnica.com/?p=2033382</link>
+					<comments>https://arstechnica.com/science/2024/06/surfs-up-on-titan-shorelines-on-saturns-moon-suggest-wave-action/#comments</comments>
+		
+		<dc:creator><![CDATA[Jacek Krywko]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 17:24:00 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[Cassini]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[planetary science]]></category>
+		<category><![CDATA[Saturn]]></category>
+		<category><![CDATA[Titan]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2033382</guid>
+
+					<description><![CDATA[The liquid hydrocarbon waves would likely reach a height of a meter.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2017/05/titan_nasa_jpl-800x763.jpg" alt="Ligeia Mare, the second-largest body of liquid hydrocarbons on Titan.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2017/05/titan_nasa_jpl.jpg" class="enlarge-link" data-height="1507" data-width="1581">Enlarge</a> <span class="sep">/</span> Ligeia Mare, the second-largest body of liquid hydrocarbons on Titan. (credit: <a rel="nofollow" class="caption-link" href="https://www.nasa.gov/feature/jpl/cassini-explores-a-methane-sea-on-titan">NASA/JPL-Caltech/ASI/Cornell</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>During its T85 Titan flyby on July 24, 2012, the Cassini spacecraft registered an unexpectedly bright reflection on the surface of the lake Kivu Lacus. Its Visual and Infrared Mapping Spectrometer (VIMS) data was interpreted as a roughness on the methane-ethane lake, which could have been a sign of mudflats, surfacing bubbles, or waves.</p>
+<p>“Our landscape evolution models show that the shorelines on Titan are most consistent with Earth lakes that have been eroded by waves,” says Rose Palermo, a coastal geomorphologist at St. Petersburg Coastal and Marine Science Center, who led the study investigating signatures of wave erosion on Titan. The evidence of waves is still inconclusive, but future crewed missions to Titan should probably pack some surfboards just in case.</p>
+<h2>Troubled seas</h2>
+<p>While waves have been considered the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4959132/">most plausible explanation</a> for reflections visible in Cassini’s VIMS imagery for quite some time, other studies aimed to confirm their presence found no wave activity at all. “Other observations show that the liquid surfaces have been very still in the past, very flat,” Palermo says. “A possible explanation for this is at the time we were observing Titan, the winds were pretty low, so there weren’t many waves at that time. To confirm waves, we would need to have better resolution data,” she adds.</p></div><p><a href="https://arstechnica.com/?p=2033382#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033382&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/06/surfs-up-on-titan-shorelines-on-saturns-moon-suggest-wave-action/feed/</wfw:commentRss>
+			<slash:comments>46</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Microsoft risks huge fine over “possibly abusive” bundling of Teams and Office</title>
+		<link>https://arstechnica.com/?p=2033342</link>
+					<comments>https://arstechnica.com/tech-policy/2024/06/microsoft-risks-huge-fine-over-possibly-abusive-bundling-of-teams-and-office/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 16:59:55 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[alfaview]]></category>
+		<category><![CDATA[anticompetitive behavior]]></category>
+		<category><![CDATA[Antitrust law]]></category>
+		<category><![CDATA[Digital Markets Act]]></category>
+		<category><![CDATA[European Commission]]></category>
+		<category><![CDATA[european union]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[monopoly]]></category>
+		<category><![CDATA[SaaS]]></category>
+		<category><![CDATA[slack]]></category>
+		<category><![CDATA[software as a service]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2033342</guid>
+
+					<description><![CDATA[Microsoft vows to make more changes facing EU fine over Teams bundling.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1973070077-800x534.jpg" alt="A screen shows a virtual meeting with Microsoft Teams at a conference on January 30, 2024 in Barcelona, Spain.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1973070077.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> <span class="sep">/</span> A screen shows a virtual meeting with Microsoft Teams at a conference on January 30, 2024 in Barcelona, Spain. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/screen-shows-a-virtual-meeting-with-microsoft-teams-at-ise-news-photo/1973070077?searchscope=image%2Cfilm&amp;adppopup=true">Cesc Maymo / Contributor | Getty Images News</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Microsoft may be hit with a massive fine in the European Union for "possibly abusively" bundling Teams with its Office 365 and Microsoft 365 software suites for businesses.</p>
+<p>On Tuesday, the European Commission (EC) <a href="https://ec.europa.eu/commission/presscorner/detail/es/ip_24_3446">announced</a> preliminary findings of an investigation into whether Microsoft's "suite-centric business model combining multiple types of software in a single offering" unfairly shut out rivals in the "software as a service" (SaaS) market.</p>
+<p>"Since at least April 2019," the EC found, Microsoft's practice of "tying Teams with its core SaaS productivity applications" potentially restricted competition in the "market for communication and collaboration products."</p></div><p><a href="https://arstechnica.com/?p=2033342#p3">Read 31 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033342&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/microsoft-risks-huge-fine-over-possibly-abusive-bundling-of-teams-and-office/feed/</wfw:commentRss>
+			<slash:comments>116</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Julian Assange to plead guilty but is going home after long extradition fight</title>
+		<link>https://arstechnica.com/?p=2033336</link>
+					<comments>https://arstechnica.com/tech-policy/2024/06/julian-assange-to-plead-guilty-but-go-home-after-long-extradition-fight/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 16:10:38 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Julian Assange]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2033336</guid>
+
+					<description><![CDATA["Julian is free!" wife wrote after Assange struck deal with US government.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/julian-assange-800x533.jpg" alt="Julian Assange in an airplane seat, looking out the window.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/julian-assange.jpg" class="enlarge-link" data-height="853" data-width="1280">Enlarge</a> <span class="sep">/</span> Julian Assange in an airplane in a photo posted by WikiLeaks on June 25, 2024. (credit: <a rel="nofollow" class="caption-link" href="https://x.com/wikileaks/status/1805523516130722200">WikiLeaks</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>WikiLeaks founder Julian Assange has agreed to plead guilty to a single criminal charge, ending a long extradition battle with the United States government. Assange will reportedly avoid further jail time and be allowed to return to his home country of Australia.</p>
+<p>Assange won't have to travel to the continental United States. He is scheduled to plead guilty tomorrow in US District Court for the Northern Mariana Islands, a US territory in the western Pacific Ocean.</p>
+<p>In a <a href="https://storage.courtlistener.com/recap/gov.uscourts.nmid.6474/gov.uscourts.nmid.6474.3.0_2.pdf">court filing</a> in Saipan, the US government said:</p></div><p><a href="https://arstechnica.com/?p=2033336#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033336&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/julian-assange-to-plead-guilty-but-go-home-after-long-extradition-fight/feed/</wfw:commentRss>
+			<slash:comments>241</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Political deepfakes are the most popular way to misuse AI</title>
+		<link>https://arstechnica.com/?p=2033304</link>
+					<comments>https://arstechnica.com/ai/2024/06/political-deepfakes-are-the-most-popular-way-to-misuse-ai/#comments</comments>
+		
+		<dc:creator><![CDATA[Financial Times]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 13:43:51 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[deepfakes]]></category>
+		<category><![CDATA[deepmind]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[syndication]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2033304</guid>
+
+					<description><![CDATA[Study from Google's DeepMind lays out nefarious ways AI is being used.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/deepfake-800x457.jpg" alt="Political deepfakes are the most popular way to misuse AI">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/deepfake.jpg" class="enlarge-link" data-height="914" data-width="1600">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/deep-fake-hoax-and-manipulation-news-titles-on-royalty-free-image/1482445987">Arkadiusz Warguła via Getty</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Artificial intelligence-generated “deepfakes” that impersonate politicians and celebrities are far more prevalent than efforts to use AI to assist cyber attacks, according to the first research by Google’s DeepMind division into the most common malicious uses of the cutting-edge technology.</p>
+<p><a href="https://arxiv.org/abs/2406.13843">The study</a> said the creation of realistic but fake images, video, and audio of people was almost twice as common as the next highest misuse of generative AI tools: the falsifying of information using text-based tools, such as chatbots, to generate misinformation to post online.</p>
+<p>The most common goal of actors misusing generative AI was to shape or influence public opinion, the analysis, conducted with the search group’s research and development unit Jigsaw, found. That accounted for 27 percent of uses, feeding into fears over how deepfakes might influence elections globally this year.</p></div><p><a href="https://arstechnica.com/?p=2033304#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033304&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/ai/2024/06/political-deepfakes-are-the-most-popular-way-to-misuse-ai/feed/</wfw:commentRss>
+			<slash:comments>102</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Rocks from the far side of the Moon landed in Mongolia on Tuesday</title>
+		<link>https://arstechnica.com/?p=2033288</link>
+					<comments>https://arstechnica.com/space/2024/06/china-has-completed-another-impressive-robotic-mission-to-the-moon/#comments</comments>
+		
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 12:59:18 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[artemis]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[moon]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[space]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2033288</guid>
+
+					<description><![CDATA[The mission has significance for the Moon race between China and the United States.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/20240625a1d41a4d368044398d11c961d4ff7a63_XxjpbeE007479_20240625_CBMFN0A003-800x533.jpg" alt="This photo taken on June 25, 2024, shows the retrieval site of the return capsule of the Chang'e-6 probe in Siziwang Banner, north China's Inner Mongolia Autonomous Region.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/20240625a1d41a4d368044398d11c961d4ff7a63_XxjpbeE007479_20240625_CBMFN0A003.jpg" class="enlarge-link" data-height="600" data-width="900">Enlarge</a> <span class="sep">/</span> This photo taken on June 25, 2024, shows the retrieval site of the return capsule of the Chang'e-6 probe in Siziwang Banner, north China's Inner Mongolia Autonomous Region. (credit: Xinhua/Lian Zhen)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>A small spacecraft landed in Inner Mongolia on Tuesday, bringing samples from the far side of the Moon back to Earth.</p>
+<p>This was not China's first robotic mission to return a few pounds of dust and pebbles from the lunar surface—that came with the Chang'e 5 mission in December 2020. However, this was the first time any space program in the world returned material from the Moon's far side.</p>
+<p>The successful conclusion of this mission, which launched from Earth nearly two months ago, marked another significant achievement for China's space program as the country sets its sights on landing humans on the Moon by the year 2030.</p></div><p><a href="https://arstechnica.com/?p=2033288#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033288&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/06/china-has-completed-another-impressive-robotic-mission-to-the-moon/feed/</wfw:commentRss>
+			<slash:comments>117</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Sir Peter Beck unplugged: “Transporter can do it for free for all we care”</title>
 		<link>https://arstechnica.com/?p=2033175</link>
 					<comments>https://arstechnica.com/space/2024/06/sir-peter-beck-unplugged-transporter-can-do-it-for-free-for-all-we-care/#comments</comments>
@@ -53,7 +577,7 @@
 <p><strong>Ars Technica</strong>: <strong>Hi Pete. We've talked about competition in small launch for years. But when I tally up the record of some of your US competitors—Firefly, Astra, Relativity Space, Virgin Orbit, and ABL—they're 7-for-21 on launch attempts. And if you remove the now-retired rockets, it's 1-for-6. Some of these competitors have, or did, exist for a decade. What does this say about the launch business?</strong></p></div><p><a href="https://arstechnica.com/?p=2033175#p3">Read 33 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033175&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/space/2024/06/sir-peter-beck-unplugged-transporter-can-do-it-for-free-for-all-we-care/feed/</wfw:commentRss>
-			<slash:comments>41</slash:comments>
+			<slash:comments>269</slash:comments>
 		
 		
 			</item>
@@ -90,7 +614,7 @@
 <p>“The injected malicious code is not very sophisticated or heavily obfuscated and contains comments throughout making it easy to follow,” the researchers wrote. “The earliest injection appears to date back to June 21st, 2024, and the threat actor was still actively making updates to plugins as recently as 5 hours ago.”</p></div><p><a href="https://arstechnica.com/?p=2033226#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033226&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/security/2024/06/supply-chain-attack-on-wordpress-plugins-affects-as-many-as-36000-sites/feed/</wfw:commentRss>
-			<slash:comments>14</slash:comments>
+			<slash:comments>35</slash:comments>
 		
 		
 			</item>
@@ -132,7 +656,7 @@
 <p>The feature was discovered in the iPadOS 18 beta by artist and developer Kaleb Cadle, who posted about it to his Substack <a href="https://kalebcadle.substack.com/p/ipados-18-adds-another-very-useful">ByteBits</a> a couple of days ago. It was later found in iOS 18 as well.</p></div><p><a href="https://arstechnica.com/?p=2033190#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033190&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/06/ios-and-ipados-18-add-the-option-to-format-external-drives/feed/</wfw:commentRss>
-			<slash:comments>61</slash:comments>
+			<slash:comments>144</slash:comments>
 		
 		
 			</item>
@@ -169,7 +693,7 @@
 <p>Despite the documentation change, <a href="https://arstechnica.com/gadgets/2024/02/what-i-do-to-clean-up-a-clean-install-of-windows-11-23h2-and-edge/">most of the workarounds</a> for creating a local account still work in both Windows 11 23H2 (the publicly available version of Windows 11 for most PCs) and 24H2 (<a href="https://arstechnica.com/gadgets/2024/06/windows-11-24h2-is-released-to-the-public-but-only-on-copilot-pcs-for-now/">available now on Copilot+ PCs</a>, later this fall for everyone else). The easiest way to do it on a PC you just took out of the box is to press Shift+F10 during the setup process to bring up a command prompt window, typing <code>OOBE\BYPASSNRO</code>, rebooting, and then clicking the "I don't have Internet" button when asked to connect to a Wi-Fi network.</p></div><p><a href="https://arstechnica.com/?p=2033155#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033155&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/06/microsoft-removes-documentation-for-switching-to-a-local-account-in-windows-11/feed/</wfw:commentRss>
-			<slash:comments>126</slash:comments>
+			<slash:comments>256</slash:comments>
 		
 		
 			</item>
@@ -201,13 +725,13 @@
 
 
 <div><a name="page-1"></a></div>
-<p>Linux and its code are made by people, and people are not with us forever. Over the weekend, a <a href="https://lore.kernel.org/linux-wireless/ds6wc3svkyre4p2rwg4f76o67xndazaeoyjwblhuzichscyxoz@5ttdvbymxr55/T/#mfd2f4928e0e013c10375ca766035c1385e18f8e0">brief message on the Linux kernel mailing list</a> reminded people of just how much one person can mean to a seemingly gargantuan project like Linux and how quickly they can disappear.</p>
+<p>Linux and its code are made by people, and people are not with us forever. Over the weekend, a <a href="https://lore.kernel.org/linux-wireless/ds6wc3svkyre4p2rwg4f76o67xndazaeoyjwblhuzichscyxoz@5ttdvbymxr55/T/#mfd2f4928e0e013c10375ca766035c1385e18f8e0">brief message on the Linux kernel mailing list</a> reminded everyone of just how much one person can mean to a seemingly gargantuan project like Linux, and how quickly that person can disappear.</p>
 <p>Denise Finger, wife of the deceased, wrote to the Linux Wireless list on Friday evening:</p>
 <blockquote><p>This is to notify you that Larry Finger, one of your developers, passed away on June 21st.</p></blockquote>
 <p>LWN.net reckons that <a href="https://hkfuneralhome.com/larry-finger/">Finger, 84</a>, contributed to 94 Linux kernel releases, or 1,464 commits total, at least since <a href="https://kernelnewbies.org/Linux_2_6_16">kernel 2.6.16 in 2006</a> (and when the kernel started using git to track changes). Given the <a href="https://arstechnica.com/gadgets/2024/04/linus-torvalds-reiterates-his-tabs-versus-spaces-stance-with-a-kernel-trap/">sometimes precarious nature of contributing to the kernel</a>, this is on its own an impressive achievement—especially for someone with no formal computer training and who considered himself a scientist.</p></div><p><a href="https://arstechnica.com/?p=2033066#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033066&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/06/larry-finger-linux-wireless-hero-was-a-persistent-patient-coder-and-mentor/feed/</wfw:commentRss>
-			<slash:comments>22</slash:comments>
+			<slash:comments>40</slash:comments>
 		
 		
 			</item>
@@ -257,542 +781,7 @@
 <p>Like other generative AI models, both Udio and Suno (which we <a href="https://arstechnica.com/information-technology/2024/04/new-ai-music-generator-udio-synthesizes-realistic-music-on-demand/">covered</a> <a href="https://arstechnica.com/information-technology/2024/04/mit-license-text-becomes-viral-sad-girl-piano-ballad-generated-by-ai/">separately</a> in April) rely on a broad selection of existing human-created artworks that teach a neural network the relationship between words in a written prompt and styles of music. The record labels correctly note that these companies have been deliberately vague about the sources of their training data.</p></div><p><a href="https://arstechnica.com/?p=2033128#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033128&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/information-technology/2024/06/music-labels-sue-ai-music-generators-for-copyright-infringement/feed/</wfw:commentRss>
-			<slash:comments>85</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Astronomers think they’ve figured out how and when Jupiter’s Red Spot formed</title>
-		<link>https://arstechnica.com/?p=2032984</link>
-					<comments>https://arstechnica.com/science/2024/06/is-jupiters-iconic-red-spot-the-same-one-that-cassini-observed-in-the-1600s/#comments</comments>
-		
-		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
-		<pubDate>Mon, 24 Jun 2024 17:36:19 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[astronomy]]></category>
-		<category><![CDATA[geophysics]]></category>
-		<category><![CDATA[Giovanni Cassini]]></category>
-		<category><![CDATA[great red spot]]></category>
-		<category><![CDATA[Jupiter]]></category>
-		<category><![CDATA[science history]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2032984</guid>
-
-					<description><![CDATA[Astronomers concluded it is not the same and that Cassini's spot disappeared in 1708.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/jupiter6-800x523.jpg" alt="Enhanced image of Jupiter’s Great Red Spot, as seen from a Juno flyby in 2018. The Red Spot we see today is likely not the same one famously observed by Cassini in the 1600s.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/jupiter6.jpg" class="enlarge-link" data-height="785" data-width="1200">Enlarge</a> <span class="sep">/</span> Enhanced Juno image of Jupiter’s Great Red Spot in 2018. It is likely not the same one observed by Cassini in the 1600s. (credit: <a rel="nofollow" class="caption-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">Gerald Eichstadt and Sean Doran/CC BY-NC-SA</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The planet <a href="https://en.wikipedia.org/wiki/Jupiter">Jupiter</a> is particularly known for its so-called Great Red Spot, a swirling vortex in the gas giant's atmosphere that has been around since at least 1831. But how it formed and how old it is remain matters of debate. Astronomers in the 1600s, including <a href="https://en.wikipedia.org/wiki/Giovanni_Domenico_Cassini">Giovanni Cassini</a>, also reported a similar spot in their observations of Jupiter that they dubbed the "Permanent Spot." This prompted scientists to question whether the spot Cassini observed is the same one we see today. We now have an answer to that question: The spots are not the same, according to a <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL108993">new paper</a> published in the journal Geophysical Research Letters.</p>
-<p>“From the measurements of sizes and movements, we deduced that it is highly unlikely that the current Great Red Spot was the ‘Permanent Spot’ observed by Cassini,” <a href="https://news.agu.org/press-release/jupiters-great-red-spot-reborn-1800s/">said co-author Agustín Sánchez-Lavega</a> of the University of the Basque Country in Bilbao, Spain. “The ‘Permanent Spot’ probably disappeared sometime between the mid-18th and 19th centuries, in which case we can now say that the longevity of the Red Spot exceeds 190 years.”</p>
-<p>The planet Jupiter was known to Babylonian astronomers in the 7th and 8th centuries BCE, as well as to ancient Chinese astronomers; the latter's observations would eventually give birth to the Chinese zodiac in the 4th century BCE, with its 12-year cycle based on the gas giant's orbit around the Sun. In 1610, aided by the emergence of telescopes, Galileo Galilei famously observed Jupiter's four largest moons, thereby bolstering the Copernican heliocentric model of the solar system.</p></div><p><a href="https://arstechnica.com/?p=2032984#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2032984&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/06/is-jupiters-iconic-red-spot-the-same-one-that-cassini-observed-in-the-1600s/feed/</wfw:commentRss>
-			<slash:comments>48</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>iFixit says new Arm Surface hardware “puts repair front and center”</title>
-		<link>https://arstechnica.com/?p=2033069</link>
-					<comments>https://arstechnica.com/gadgets/2024/06/ifixit-says-new-arm-surface-hardware-puts-repair-front-and-center/#comments</comments>
-		
-		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
-		<pubDate>Mon, 24 Jun 2024 17:27:24 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<category><![CDATA[copilot+ PC]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[Microsoft Surface]]></category>
-		<category><![CDATA[Qualcomm]]></category>
-		<category><![CDATA[snapdragon x elite]]></category>
-		<category><![CDATA[windows 11]]></category>
-		<category><![CDATA[windows 11 24h2]]></category>
-		<category><![CDATA[windows on arm]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2033069</guid>
-
-					<description><![CDATA[Both devices make it relatively easy to get at the battery and SSD.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Surface-thermals-out2-1-800x533.jpg" alt="Microsoft's 11th-edition Surface Pro, as exploded by iFixit. Despite adhesive holding in the screen and the fact that you need to remove the heatsink to get at the battery, it's still much more repairable than past Surfaces or competing tablets.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Surface-thermals-out2-1-scaled.jpg" class="enlarge-link" data-height="1706" data-width="2560">Enlarge</a> <span class="sep">/</span> Microsoft's 11th-edition Surface Pro, as exploded by iFixit. Despite adhesive holding in the screen and the fact that you need to remove the heatsink to get at the battery, it's still much more repairable than past Surfaces or competing tablets. (credit: <a rel="nofollow" class="caption-link" href="https://www.ifixit.com/News/96998/from-0-10-to-8-10-microsoft-puts-repair-front-and-center">iFixit</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>For a long time, Microsoft's Surface hardware was difficult-to-impossible to open and repair, and devices as recent as 2019's Surface Pro 7 <a href="https://www.youtube.com/watch?v=CvY0qah3wSk">still managed a repairability score of just 1 out of 10</a> on iFixit's scale. 2017's original Surface Laptop needed to be <a href="https://arstechnica.com/gadgets/2017/06/2017-surface-pro-least-repairable-ever-surface-laptop-is-made-of-glue/">physically sliced apart</a> to access its internals, making it essentially impossible to try to fix the machine without destroying it.</p>
-<p>But in recent years, partly due to <a href="https://arstechnica.com/gadgets/2021/10/microsoft-is-evaluating-right-to-repair-options-for-xbox-and-surface-devices/">pressure from shareholders</a> and others, Microsoft has <a href="https://arstechnica.com/gadgets/2019/10/microsoft-finally-built-a-repairable-surface-laptop/">made an earnest effort</a> to improve the repairability of its devices. The company has published detailed repair manuals <a href="https://arstechnica.com/gadgets/2022/01/microsoft-posts-its-own-teardown-and-repair-video-for-the-surface-laptop-se/">and videos</a> and has made <a href="https://arstechnica.com/gadgets/2022/11/surface-9-pro-teardown-reveals-modular-parts-microsofts-2023-repair-plans/">changes to its hardware designs</a> over the years to make it easier to open them without breaking them and easier to replace parts once you’re inside. Microsoft also <a href="https://arstechnica.com/gadgets/2023/06/microsoft-adds-pricey-diy-surface-repair-parts-to-online-store/">sells some first-party parts for repairs</a>, though not every part from every Surface is available, and Microsoft and iFixit have partnered to <a href="https://www.ifixit.com/Parts/Microsoft_Tablet">offer other parts as well</a>.</p>
-<p>Now, iFixit has torn apart the most recent Snapdragon X-powered Surface Pro and Surface Laptop devices and has mostly high praise for both devices <a href="https://www.youtube.com/watch?v=Eg7KXJQ0p00">in its preliminary teardown video</a>. Both devices earn an 8 out of 10 on iFixit's repairability scale, thanks to <a href="https://go.skimresources.com/?id=100098X1555750&amp;isjs=1&amp;jv=15.7.1&amp;sref=https%3A%2F%2Farstechnica.com%2Fwp%2Fwp-admin%2Fpost.php%3Fpost%3D2033069%26action%3Dedit&amp;url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fdownload%2Fdetails.aspx%3Fid%3D100440&amp;xs=1&amp;xtz=240&amp;xuuid=102f803fe2b83ed4f8c861f1f46aa83a&amp;xjsf=other_click__auxclick%20%5B2%5D">Microsoft's first-party service manuals</a>, the relative ease with which both devices can be opened, and clearly labeled internal components.</p></div><p><a href="https://arstechnica.com/?p=2033069#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033069&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/06/ifixit-says-new-arm-surface-hardware-puts-repair-front-and-center/feed/</wfw:commentRss>
-			<slash:comments>26</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>EU says Apple violated app developers’ rights, could be fined 10% of revenue</title>
-		<link>https://arstechnica.com/?p=2033091</link>
-					<comments>https://arstechnica.com/tech-policy/2024/06/eu-says-apple-violated-app-developers-rights-could-be-fined-10-of-revenue/#comments</comments>
-		
-		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
-		<pubDate>Mon, 24 Jun 2024 16:05:46 +0000</pubDate>
-				<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Apple App Store]]></category>
-		<category><![CDATA[apple digital markets act]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2033091</guid>
-
-					<description><![CDATA[EU: Apple fees and rules stop devs from steering users to other sales channels.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/apple-eu-800x532.jpg" alt="Apple logo is displayed on a smartphone with a European Union flag in the background.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/apple-eu.jpg" class="enlarge-link" data-height="1664" data-width="2500">Enlarge</a> (credit: Getty Images | SOPA Images )</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The European Commission today said it found that Apple is violating the Digital Markets Act (DMA) with App Store rules and fees that "prevent app developers from freely steering consumers to alternative channels for offers and content." The commission "informed Apple of its preliminary view" that the company is violating the law, the regulator <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_24_3433">announced</a>.</p>
-<p>This starts a process in which Apple has the right to examine documents in the commission's investigation file and reply in writing to the findings. There is a March 2025 deadline for the commission to make a final ruling.</p>
-<p>The commission noted that it "can impose fines up to 10 percent of the gatekeeper's total worldwide turnover," or up to 20 percent for repeat infringements. For "systematic infringements," the European regulator could respond by requiring "a gatekeeper to sell a business or parts of it, or banning the gatekeeper from acquisitions of additional services related to the systemic non-compliance."</p></div><p><a href="https://arstechnica.com/?p=2033091#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033091&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/eu-says-apple-violated-app-developers-rights-could-be-fined-10-of-revenue/feed/</wfw:commentRss>
-			<slash:comments>297</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Is having a pet good for you? The fuzzy science of pet ownership</title>
-		<link>https://arstechnica.com/?p=2033058</link>
-					<comments>https://arstechnica.com/science/2024/06/is-having-a-pet-good-for-you-the-fuzzy-science-of-pet-ownership/#comments</comments>
-		
-		<dc:creator><![CDATA[Undark Magazine]]></dc:creator>
-		<pubDate>Mon, 24 Jun 2024 14:13:16 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Cats]]></category>
-		<category><![CDATA[Dogs]]></category>
-		<category><![CDATA[pets]]></category>
-		<category><![CDATA[syndication]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2033058</guid>
-
-					<description><![CDATA[It turns out the pet care industry has funded a lot of studies.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/bullterrier-800x533.jpg" alt="A picture of a bull terrier on a park bench">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/bullterrier.jpg" class="enlarge-link" data-height="707" data-width="1061">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/the-red-bull-terrier-lies-on-a-bench-royalty-free-image/493342660">Azaliya via Getty</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>For more than a decade, in blog posts and scientific papers and public talks, the psychologist Hal Herzog has questioned whether owning pets makes people happier and healthier.</p>
-<p>It is a lonely quest, convincing people that <a href="https://undark.org/2022/09/12/punishment-puppies-and-science-bringing-dog-training-to-heel/">puppies</a> and kittens may not actually be terrific for their physical and mental health. “When I talk to people about this,” Herzog recently said, “nobody believes me.” A prominent professor at a major public university once <a href="https://psmag.com/social-justice/maybe-not-but-cmon-take-a-look-at-these-hounds">described</a> him as “a super curmudgeon” who is, in effect, “trying to prove that apple pie causes cancer.”</p>
-<p>As a teenager in New Jersey in the 1960s, Herzog kept dogs and cats, as well as an iguana, a duck, and a boa constrictor named Boa. Now a professor emeritus at Western Carolina University, he insists he’s not out to smear anyone’s furry friends. In <a href="https://www.psychologytoday.com/intl/blog/animals-and-us/201208/puppies-kittens-and-human-health-science-versus-wishful-thinking">a blog post</a> questioning the so-called pet effect, in 2012, Herzog included a photo of his cat, Tilly. “She makes my life better,” he wrote. “Please Don’t Blame The Messenger!”</p></div><p><a href="https://arstechnica.com/?p=2033058#p3">Read 37 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033058&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/06/is-having-a-pet-good-for-you-the-fuzzy-science-of-pet-ownership/feed/</wfw:commentRss>
-			<slash:comments>172</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Decades later, John Romero looks back at the birth of the first-person shooter</title>
-		<link>https://arstechnica.com/?p=2032808</link>
-					<comments>https://arstechnica.com/gaming/2024/06/in-first-person-john-romero-reflects-on-over-three-decades-as-the-doom-guy/#comments</comments>
-		
-		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
-		<pubDate>Mon, 24 Jun 2024 11:00:42 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Doom]]></category>
-		<category><![CDATA[id]]></category>
-		<category><![CDATA[id Software]]></category>
-		<category><![CDATA[john romero]]></category>
-		<category><![CDATA[romero]]></category>
-		<category><![CDATA[Wolfenstein]]></category>
-		<category><![CDATA[wolfenstein 3d]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2032808</guid>
-
-					<description><![CDATA[Id Software co-founder talks to Ars about everything from <em>Catacomb 3-D</em> to "boomer shooters."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/romero-boomer-shooter-doom-800x450.jpg" alt="Decades later, John Romero looks back at the birth of the first-person shooter">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/romero-boomer-shooter-doom.jpg" class="enlarge-link" data-height="1387" data-width="2464">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://creativecommons.org/licenses/by/2.0/">Aurich Lawson | Id | GDC</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>John Romero remembers the moment he realized what the future of gaming would look like.</p>
-<p>In late 1991, Romero and his colleagues at id Software had just released <em>Catacomb 3-D</em>, a crude-looking, <a href="https://moddingwiki.shikadi.net/wiki/EGA_Palette">EGA-colored</a> first-person shooter that was nonetheless revolutionary compared to other first-person games of the time. "When we started making our 3D games, the only 3D games out there were nothing like ours," Romero told Ars in a recent interview. "They were lockstep, going through a maze, do a 90-degree turn, that kind of thing."</p>
-<p>Despite <em>Catacomb 3-D</em>'s technological advances in first-person perspective, though, Romero remembers the team at id followed its release by going to work on the next entry in <a href="https://arstechnica.com/gaming/2019/06/bethesda-revives-80s-pc-series-commander-keen-as-a-free-to-play-mobile-game/">the long-running <em>Commander Keen</em> series</a> of 2D platform games. But as that process moved forward, Romero told Ars that something didn't feel right.</p></div><p><a href="https://arstechnica.com/?p=2032808#p3">Read 20 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2032808&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/06/in-first-person-john-romero-reflects-on-over-three-decades-as-the-doom-guy/feed/</wfw:commentRss>
-			<slash:comments>107</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>NASA indefinitely delays return of Starliner to review propulsion data</title>
-		<link>https://arstechnica.com/?p=2032970</link>
-					<comments>https://arstechnica.com/space/2024/06/nasa-indefinitely-delays-return-of-starliner-to-review-propulsion-data/#comments</comments>
-		
-		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
-		<pubDate>Sat, 22 Jun 2024 01:27:19 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[starliner]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2032970</guid>
-
-					<description><![CDATA[“We are letting the data drive our decision."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/53772281410_901326aee0_k-800x533.jpg" alt="Boeing's Starliner capsule lifts off aboard United Launch Alliance's Atlas V rocket.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/53772281410_901326aee0_k.jpg" class="enlarge-link" data-height="1200" data-width="1800">Enlarge</a> <span class="sep">/</span> Boeing's Starliner capsule lifts off aboard United Launch Alliance's Atlas V rocket. (credit: <a rel="nofollow" class="caption-link" href="https://www.flickr.com/photos/ulalaunch/53772281410/">United Launch Alliance</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>In an update released late Friday evening, NASA said it was "adjusting" the date of the Starliner spacecraft's return to Earth from June 26 to an unspecified time in July.</p>
-<p>The announcement followed two days of long meetings to review the readiness of the spacecraft, developed by Boeing, to fly NASA astronauts Butch Wilmore and Suni Williams to Earth. According to sources, these meetings included high-level participation from senior leaders at the agency, including Associate Administrator Jim Free.</p>
-<p>This "Crew Flight Test," which launched on June 5 atop an Atlas V rocket, was originally due to undock and return to Earth on June 14. However, as engineers from NASA and Boeing studied data from the <a href="https://arstechnica.com/space/2024/06/after-a-drama-filled-day-boeings-starliner-finally-finds-its-way/">vehicle's problematic flight</a> to the International Space Station, they have waved off several return opportunities.</p></div><p><a href="https://arstechnica.com/?p=2032970#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2032970&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/06/nasa-indefinitely-delays-return-of-starliner-to-review-propulsion-data/feed/</wfw:commentRss>
-			<slash:comments>656</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Internet Archive forced to remove 500,000 books after publishers’ court win</title>
-		<link>https://arstechnica.com/?p=2032890</link>
-					<comments>https://arstechnica.com/tech-policy/2024/06/internet-archive-forced-to-remove-500000-books-after-publishers-court-win/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Fri, 21 Jun 2024 21:42:00 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Uncategorized]]></category>
-		<category><![CDATA[controlled digital lending]]></category>
-		<category><![CDATA[copyright law]]></category>
-		<category><![CDATA[fair use]]></category>
-		<category><![CDATA[internat archive]]></category>
-		<category><![CDATA[Open Library]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2032890</guid>
-
-					<description><![CDATA[Internet Archive fans beg publishers to stop emptying the open library.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-119015596-800x609.jpg" alt="Internet Archive forced to remove 500,000 books after publishers’ court win">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-119015596.jpg" class="enlarge-link" data-height="1511" data-width="1984">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/pile-of-books-by-empty-shelves-royalty-free-image/119015596?phrase=empty+bookshelf&amp;adppopup=true">Tim Macpherson | Image Source</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>As a result <a href="https://arstechnica.com/tech-policy/2023/03/publishers-beat-internet-archive-as-judge-rules-e-book-lending-violates-copyright/">of book publishers successfully suing the Internet Archive</a> (IA) last year, the free online library that strives to keep growing online access to books recently shrank by about 500,000 titles.</p>
-<p>IA <a href="https://blog.archive.org/2024/06/17/let-readers-read/">reported</a> in a blog post this month that publishers abruptly forcing these takedowns triggered a "devastating loss" for readers who depend on IA to access books that are otherwise impossible or difficult to access.</p>
-<p>To restore access, IA is now appealing, hoping to reverse the prior court's decision by convincing the US Court of Appeals in the Second Circuit that IA's <a href="https://archive.org/details/controlled-digital-lending-explained">controlled digital lending</a> of its physical books should be considered fair use under copyright law. An April <a href="https://storage.courtlistener.com/recap/gov.uscourts.ca2.60988/gov.uscourts.ca2.60988.259.0.pdf">court filing</a> shows that IA intends to argue that the publishers have no evidence that the e-book market has been harmed by the open library's lending, and copyright law is better served by allowing IA's lending than by preventing it.</p></div><p><a href="https://arstechnica.com/?p=2032890#p3">Read 39 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2032890&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/internet-archive-forced-to-remove-500000-books-after-publishers-court-win/feed/</wfw:commentRss>
-			<slash:comments>336</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Top FDA official overrules staff to approve gene therapy that failed trial</title>
-		<link>https://arstechnica.com/?p=2032919</link>
-					<comments>https://arstechnica.com/science/2024/06/top-fda-official-overrules-staff-to-approve-gene-therapy-that-failed-trial/#comments</comments>
-		
-		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Fri, 21 Jun 2024 21:26:33 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[clinical data]]></category>
-		<category><![CDATA[clinical trials]]></category>
-		<category><![CDATA[duchenne muscular dystrophy]]></category>
-		<category><![CDATA[elevidys]]></category>
-		<category><![CDATA[fda]]></category>
-		<category><![CDATA[fda approval]]></category>
-		<category><![CDATA[gene therapy]]></category>
-		<category><![CDATA[Peter Marks]]></category>
-		<category><![CDATA[sarepta]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2032919</guid>
-
-					<description><![CDATA[Peter Marks overruled three teams and two top directors.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1231786160-800x533.jpeg" alt="Dr. Peter Marks, Director of the Center for Biologics Evaluation and Research within the Food and Drug Administration on March 18, 2021 in Washington, DC. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1231786160-scaled.jpeg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> Dr. Peter Marks, Director of the Center for Biologics Evaluation and Research within the Food and Drug Administration on March 18, 2021 in Washington, DC.  (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/dr-peter-marks-director-of-the-center-for-biologics-news-photo/1231786160?searchscope=image%2Cfilm&amp;adppopup=true">Getty | Susan Walsh</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The Food and Drug Administration (FDA) on Thursday announced <a href="https://www.fda.gov/news-events/press-announcements/fda-expands-approval-gene-therapy-patients-duchenne-muscular-dystrophy">expanded approval for a gene therapy to treat Duchenne muscular dystrophy</a> (DMD)—despite the fact that it failed a Phase III clinical trial last year and that the approval came over the objections of three of FDA's own expert review teams and two of its directors.</p>
-<p>In fact, the decision to expand the approval of the therapy—<a href="https://en.wikipedia.org/wiki/Delandistrogene_moxeparvovec">called Elevidys</a> (delandistrogene moxeparvovec-rokl)—appears to have been decided almost entirely by Peter Marks, Director of the FDA's Center for Biologics Evaluation and Research.</p>
-<p>Elevidys initially gained an FDA approval last year, also over objections from staff. The therapy intravenously delivers a transgene that codes for select portions of a protein called dystrophin in healthy muscle cells; the protein is mutated in patients with DMD. Last year's initial approval occurred under an accelerated approval process and was only for use in DMD patients ages 4 and 5 who are able to walk. In the actions Thursday, the FDA granted a traditional approval for the therapy and opened access to DMD patients of all ages, regardless of ambulatory status.</p></div><p><a href="https://arstechnica.com/?p=2032919#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2032919&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/06/top-fda-official-overrules-staff-to-approve-gene-therapy-that-failed-trial/feed/</wfw:commentRss>
-			<slash:comments>249</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>$200-ish laptop with a 386 and 8MB of RAM is a modern take on the Windows 3.1 era</title>
-		<link>https://arstechnica.com/?p=2032811</link>
-					<comments>https://arstechnica.com/gadgets/2024/06/the-ultimate-windows-3-1-laptop-sellers-behind-book-8088-are-back-with-pocket-386/#comments</comments>
-		
-		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
-		<pubDate>Fri, 21 Jun 2024 21:18:16 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<category><![CDATA[MS-DOS]]></category>
-		<category><![CDATA[windows 3.1]]></category>
-		<category><![CDATA[windows 95]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2032811</guid>
-
-					<description><![CDATA[Pocket 386 supports external accessories and will just barely run Windows 95.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p> </p>
-  <ul class="gallery shortcode-gallery gallery-wide">
-          <li>
-        <div class="gallery-item-content">
-          <div class="gallery-image"><img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/pocket-386-01-980x669.jpeg" alt=""></div>
-          <p>
-            The Pocket 386, a new-old laptop that can run MS-DOS, Windows 3.x, and (technically) Windows 95.                          [credit:
-                              DZT's Store                            ]
-                      </p>
-        </div>
-      </li>
-      </ul>
-
-<p>Of the many oddities you can buy from Aliexpress, some of the weirdest are the recreations of retro computer systems in semi-modern designs. We're most intimately familiar with <a href="https://arstechnica.com/gadgets/2023/07/going-deep-with-the-book-8088-the-brand-new-laptop-that-runs-like-its-1981/">the Book 8088</a>, a recreation of the original 1981 IBM PC inside a chunky clamshell laptop. The people behind the Book 8088 are also responsible for the Hand386, which is a bit like a late-80s PC stuck inside an old Palm Pilot or Blackberry, and a second revision of the Book 8088 with more built-in ports and a VGA-capable graphics adapter installed instead of a basic CGA adapter.</p>
-
-<p>Whoever is selling these systems is now <a href="https://www.aliexpress.us/item/3256805356267711.html">back with the Pocket 386</a>, which combines Hand386-style internals with a clamshell design similar to the Book 8088. The result is the kind of IBM-compatible system that would have been common during the Windows 3.1 era, when MS-DOS still dominated (especially for games) but Windows was on the upswing.</p></div><p><a href="https://arstechnica.com/?p=2032811#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2032811&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/06/the-ultimate-windows-3-1-laptop-sellers-behind-book-8088-are-back-with-pocket-386/feed/</wfw:commentRss>
-			<slash:comments>201</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Citing national security, US will ban Kaspersky anti-virus software in July</title>
-		<link>https://arstechnica.com/?p=2032766</link>
-					<comments>https://arstechnica.com/tech-policy/2024/06/citing-national-security-us-will-ban-kaspersky-anti-virus-software-in-july/#comments</comments>
-		
-		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
-		<pubDate>Fri, 21 Jun 2024 21:00:14 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Kaspersky]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2032766</guid>
-
-					<description><![CDATA[Kaspersky blames the "present geopolitical climate and theoretical concerns."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2017/01/kaspersky-800x533.jpeg" alt="Citing national security, US will ban Kaspersky anti-virus software in July">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2017/01/kaspersky.jpeg" class="enlarge-link" data-height="533" data-width="800">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://usa.kaspersky.com/">Kaspersky Lab</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The Biden administration will ban all sales of Kaspersky antivirus software in the US starting in July, according to <a href="https://www.reuters.com/technology/biden-ban-us-sales-kaspersky-software-over-ties-russia-source-says-2024-06-20/">reporting from Reuters</a> and a filing from the US Department of Commerce (<a href="https://public-inspection.federalregister.gov/2024-13695.pdf">PDF</a>).</p>
-<p>The US believes that security software made by Moscow-based Kaspersky Lab represents a national security risk and that the Russian government could use Kaspersky's software to install malware, block other security updates, and "collect and weaponize the personal information of Americans," said US Commerce Secretary Gina Raimondo.</p>
-<p>“When you think about national security, you may think about guns and tanks and missiles,” said Raimondo during a press briefing, <a href="https://www.wired.com/story/us-bans-kaspersky-software/">as reported by Wired</a>. “But the truth is, increasingly, it's about technology, and it's about dual-use technology, and it's about data.”</p></div><p><a href="https://arstechnica.com/?p=2032766#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2032766&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/citing-national-security-us-will-ban-kaspersky-anti-virus-software-in-july/feed/</wfw:commentRss>
-			<slash:comments>268</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Congress passes bill to jumpstart new nuclear power tech</title>
-		<link>https://arstechnica.com/?p=2032883</link>
-					<comments>https://arstechnica.com/science/2024/06/congress-passes-bill-to-jumpstart-new-nuclear-power-tech/#comments</comments>
-		
-		<dc:creator><![CDATA[John Timmer]]></dc:creator>
-		<pubDate>Fri, 21 Jun 2024 20:40:16 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[congress]]></category>
-		<category><![CDATA[Energy]]></category>
-		<category><![CDATA[energy policy]]></category>
-		<category><![CDATA[nuclear energy]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2032883</guid>
-
-					<description><![CDATA[ADVANCE Act heads for Biden's signature, but it may be too little, too late.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1297436157-800x600.jpg" alt="A nuclear reactor and two cooling towards on a body of water, with a late-evening glow in the sky.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1297436157.jpg" class="enlarge-link" data-height="1500" data-width="2000">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/at-dusk-the-thermal-power-plants-royalty-free-image/1297436157?phrase=nuclear+reactor">hrui</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Earlier this week, the US Senate passed what's being called <a href="https://www.congress.gov/bill/118th-congress/senate-bill/1111/text">the ADVANCE Act</a>, for Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy. Among a number of other changes, the bill would attempt to streamline permitting for newer reactor technology and offer cash incentives for the first companies that build new plants that rely on one of a handful of different technologies. It enjoyed broad bipartisan support both in the House and Senate and now heads to President Biden for his signature.</p>
-<p>Given Biden's penchant for promoting his bipartisan credentials, it's likely to be signed into law. But the biggest hurdles nuclear power faces are all economic, rather than regulatory, and the bill provides very little in the way of direct funding that could help overcome those barriers.</p>
-<h2>Incentives</h2>
-<p>For reasons that will be clear only to congressional staffers, <a href="https://www.congress.gov/bill/118th-congress/senate-bill/870/text">the Senate version of the bill</a> was attached to an amendment to the Federal Fire Prevention and Control Act. Nevertheless, it passed by a margin of 88-2, indicating widespread (and potentially veto-proof) support. Having passed the House already, there's nothing left but the president's signature.</p></div><p><a href="https://arstechnica.com/?p=2032883#p3">Read 17 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2032883&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/06/congress-passes-bill-to-jumpstart-new-nuclear-power-tech/feed/</wfw:commentRss>
-			<slash:comments>365</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>40 years later, X Window System is far more relevant than anyone could guess</title>
-		<link>https://arstechnica.com/?p=2032813</link>
-					<comments>https://arstechnica.com/gadgets/2024/06/the-x-window-system-is-40-archaic-as-heck-and-still-relevant/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Fri, 21 Jun 2024 19:47:41 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<category><![CDATA[astrophysics]]></category>
-		<category><![CDATA[dumb terminal]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[Sun microsystems]]></category>
-		<category><![CDATA[UNIX]]></category>
-		<category><![CDATA[VAX]]></category>
-		<category><![CDATA[Wayland]]></category>
-		<category><![CDATA[X]]></category>
-		<category><![CDATA[x window system]]></category>
-		<category><![CDATA[x11]]></category>
-		<category><![CDATA[zaphod]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2032813</guid>
-
-					<description><![CDATA[One astrophysics professor's memories of writing X11 code in the 1980s.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1097897294-800x533.jpg" alt="low angle view of Office Buildings in Hong Kong from below, with the sky visible through an X-like cross">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1097897294-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> (credit: Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Often times, when I am researching something about computers or coding that has been around a very long while, I will come across a document on a university website that tells me more about that thing than any Wikipedia page or archive ever could.</p>
-<p>It's usually a PDF, though sometimes a plaintext file, on a .edu subdirectory that starts with a username preceded by a tilde (~) character. This is typically a document that a professor, faced with the same questions semester after semester, has put together to save the most time possible and get back to their work. I recently found such a document inside Princeton University's astrophysics department: "<a href="https://www.astro.princeton.edu/~strauss/AST303/Xintro.pdf">An Introduction to the X Window System</a>," written by <a href="https://web.astro.princeton.edu/people/robert-lupton">Robert Lupton</a>.</p>
-<p>X Window System, which <a href="https://www.talisman.org/x-debut.shtml">turned 40 years old earlier this week</a>, was something you had to know how to use to work with space-facing instruments back in the early 1980s, when <a href="https://en.wikipedia.org/wiki/VT100">VT100s</a>, <a href="https://en.wikipedia.org/wiki/VAX-11">VAX-11/750s</a>, and Sun Microsystems boxes would share space at college computer labs. As the member of the AstroPhysical Sciences Department at Princeton who knew the most about computers back then, it fell to Lupton to fix things and take questions.</p></div><p><a href="https://arstechnica.com/?p=2032813#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2032813&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/06/the-x-window-system-is-40-archaic-as-heck-and-still-relevant/feed/</wfw:commentRss>
-			<slash:comments>148</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Apple Intelligence and other features won’t launch in the EU this year</title>
-		<link>https://arstechnica.com/?p=2032820</link>
-					<comments>https://arstechnica.com/gaming/2024/06/apple-intelligence-and-other-features-wont-launch-in-the-eu-this-year/#comments</comments>
-		
-		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
-		<pubDate>Fri, 21 Jun 2024 19:34:57 +0000</pubDate>
-				<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[apple intelligence]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[dma]]></category>
-		<category><![CDATA[EU]]></category>
-		<category><![CDATA[European Commission]]></category>
-		<category><![CDATA[european union]]></category>
-		<category><![CDATA[generative ai]]></category>
-		<category><![CDATA[ios 18]]></category>
-		<category><![CDATA[macos sequoia]]></category>
-		<category><![CDATA[privacy]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2032820</guid>
-
-					<description><![CDATA[iPhone Mirroring and SharePlay screen sharing will also skip the EU for now.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Screenshot-2024-06-10-at-13.31.03-scaled-1-800x460.jpg" alt="A photo of a hand holding an iPhone running the Image Playground experience in iOS 18">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Screenshot-2024-06-10-at-13.31.03-scaled-1.jpg" class="enlarge-link" data-height="1472" data-width="2560">Enlarge</a> <span class="sep">/</span> Features like Image Playground won't arrive in Europe at the same time as other regions. (credit: Apple)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Three major features in iOS 18 and macOS Sequoia will not be available to European users this fall, Apple says. They include iPhone screen mirroring on the Mac, SharePlay screen sharing, and the entire Apple Intelligence suite of generative AI features.</p>
-<p>In a statement sent to <a href="https://www.ft.com/content/360751cb-7a22-48e0-9b00-6a30ff41dcfe">Financial Times</a>, <a href="https://www.theverge.com/2024/6/21/24183251/apple-eu-delay-ai-screen-mirroring-shareplay-dma">The Verge</a>, and others, Apple says this decision is related to the European Union's Digital Markets Act (DMA). Here's the full statement, which was attributed to Apple spokesperson Fred Sainz:</p>
-<blockquote><p>Two weeks ago, Apple unveiled hundreds of new features that we are excited to bring to our users around the world. We are highly motivated to make these technologies accessible to all users. However, due to the regulatory uncertainties brought about by the Digital Markets Act (DMA), we do not believe that we will be able to roll out three of these features — iPhone Mirroring, SharePlay Screen Sharing enhancements, and Apple Intelligence — to our EU users this year.</p>
-<p>Specifically, we are concerned that the interoperability requirements of the DMA could force us to compromise the integrity of our products in ways that risk user privacy and data security. We are committed to collaborating with the European Commission in an attempt to find a solution that would enable us to deliver these features to our EU customers without compromising their safety.</p></blockquote>
-<p>It is unclear from Apple's statement precisely which aspects of the DMA may have led to this decision. It could be that Apple is concerned that it would be required to give competitors like Microsoft or Google access to user data collected for Apple Intelligence features and beyond, but we're not sure.</p></div><p><a href="https://arstechnica.com/?p=2032820#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2032820&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/06/apple-intelligence-and-other-features-wont-launch-in-the-eu-this-year/feed/</wfw:commentRss>
-			<slash:comments>279</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Win+C, Windows’ most cursed keyboard shortcut, is getting retired again</title>
-		<link>https://arstechnica.com/?p=2032806</link>
-					<comments>https://arstechnica.com/google/2024/06/winc-windows-most-cursed-keyboard-shortcut-is-getting-retired-again/#comments</comments>
-		
-		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
-		<pubDate>Fri, 21 Jun 2024 18:19:10 +0000</pubDate>
-				<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[copilot]]></category>
-		<category><![CDATA[windows 10]]></category>
-		<category><![CDATA[windows 10 22h2]]></category>
-		<category><![CDATA[windows 11]]></category>
-		<category><![CDATA[windows 11 24h2]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2032806</guid>
-
-					<description><![CDATA[Win+C has been assigned to some of Windows' least successful features.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/01/copilot-key-800x450.jpg" alt="A rendering of the Copilot button. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/01/copilot-key.jpg" class="enlarge-link" data-height="1080" data-width="1920">Enlarge</a> <span class="sep">/</span> A rendering of the Copilot button.  (credit: Microsoft)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Microsoft is all-in on its Copilot+ PC push right now, but the fact is that they'll be an extremely small minority among the PC install base for the foreseeable future. The program's stringent hardware requirements—16GB of RAM, at least 256GB of storage, and a fast neural processing unit (NPU)—disqualify all but new PCs, keeping features like Recall from running on all current Windows 11 PCs.</p>
-
-<p>But the Copilot chatbot remains supported on all Windows 11 PCs (and <a href="https://arstechnica.com/gadgets/2023/11/microsoft-is-revisiting-windows-10-by-backporting-the-copilot-ai-assistant/">most Windows 10 PCs</a>), and a change Microsoft has made to <a href="https://blogs.windows.com/windows-insider/2024/06/14/announcing-windows-11-insider-preview-build-22635-3785-beta-channel/">recent Windows 11 Insider Preview builds</a> is actually making the feature less useful and accessible than it is in the current publicly available versions of Windows. Copilot is being changed from a persistent sidebar into an app window that can be resized, minimized, and pinned and unpinned from the taskbar, just like any other app. But at least as of this writing, this version of Copilot can no longer adjust Windows' settings, and it's no longer possible to call it up with the Windows+C keyboard shortcut. Only newer keyboards with the dedicated Copilot key will have an easy built-in keyboard shortcut for summoning Copilot.</p>
-<p>If Microsoft keeps these changes intact, they'll hit Windows 11 PCs when the 24H2 update is released to the general public later this year; the changes are already present on Copilot+ PCs, which are <a href="https://arstechnica.com/gadgets/2024/06/windows-11-24h2-is-released-to-the-public-but-only-on-copilot-pcs-for-now/">running a version of Window 11 24H2 out of the box</a>.</p></div><p><a href="https://arstechnica.com/?p=2032806#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2032806&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/google/2024/06/winc-windows-most-cursed-keyboard-shortcut-is-getting-retired-again/feed/</wfw:commentRss>
-			<slash:comments>141</slash:comments>
+			<slash:comments>179</slash:comments>
 		
 		
 			</item>
