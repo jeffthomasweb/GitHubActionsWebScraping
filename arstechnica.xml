@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Mon, 01 Jul 2024 12:26:32 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 02 Jul 2024 00:29:55 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,6 +21,452 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Firefly is building fast and breaking things on path to a reusable rocket</title>
+		<link>https://arstechnica.com/?p=2034632</link>
+		
+		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
+		<pubDate>Tue, 02 Jul 2024 00:29:55 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[alpha]]></category>
+		<category><![CDATA[Commercial space]]></category>
+		<category><![CDATA[Firefly Aerospace]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[medium launch vehicle]]></category>
+		<category><![CDATA[Northrop Grumman]]></category>
+		<category><![CDATA[reusable rocket]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2034632</guid>
+
+					<description><![CDATA["For our base design, we're designing around return to launch site propulsive landing."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/53384085166_c7d67827bf_h-800x450.jpg" alt="A test version of Firefly's Miranda engine fires up on a test stand in Briggs, Texas.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/53384085166_c7d67827bf_h.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> A test version of Firefly's Miranda engine fires up on a test stand in Briggs, Texas. (credit: Firefly Aerospace)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>BRIGGS, Texas—The new medium-lift rocket under development by Firefly Aerospace and Northrop Grumman will eventually incorporate a recoverable booster that will return to its launch site in Virginia for reuse.</p>
+<p>Firefly has previously suggested rocket reuse is on the roadmap for the new rocket—known, for now, only as the Medium Launch Vehicle (MLV)—but officials revealed new details of the plan during a recent visit by Ars to Firefly's rocket factory in rural Central Texas.</p>
+<p>“Northrop and Firefly have a similar perspective and that is, for that class of rocket, reusability is a requirement for a bunch of reasons," said Bill Weber, Firefly's CEO. "Economically, it becomes an advantage because we don't have to go build additional floor space ... Similarly, the pricing structure for customers starts to get super competitive, which we absolutely love, and we’ll be right in the middle of.”</p></div><p><a href="https://arstechnica.com/?p=2034632#p3">Read 33 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034632&comments=1">Comments</a></p>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>3 million iOS and macOS apps were exposed to potent supply-chain attacks</title>
+		<link>https://arstechnica.com/?p=2034866</link>
+					<comments>https://arstechnica.com/security/2024/07/3-million-ios-and-macos-apps-were-exposed-to-potent-supply-chain-attacks/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Mon, 01 Jul 2024 23:43:41 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[cocoapods]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[MacOS]]></category>
+		<category><![CDATA[open source]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2034866</guid>
+
+					<description><![CDATA[Apps that used code libraries hosted on CocoaPods were vulnerable for about 10 years.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/apple-security.jpg" alt="3 million iOS and macOS apps were exposed to potent supply-chain attacks">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/apple-security.jpg" class="enlarge-link" data-height="450" data-width="800">Enlarge</a> (credit: Aurich Lawson)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Vulnerabilities that went undetected for a decade left thousands of macOS and iOS apps susceptible to supply-chain attacks. Hackers could have added malicious code compromising the security of millions or billions of people who installed them, researchers said Monday.</p>
+<p>The vulnerabilities, which were fixed last October, resided in a “trunk” server used to manage <a href="https://cocoapods.org/">CocoaPods</a>, a repository for open source Swift and Objective-C projects that roughly 3 million macOS and iOS apps depend on. When developers make changes to one of their “pods”—CocoaPods lingo for individual code packages—dependent apps typically incorporate them automatically through app updates, typically with no interaction required by end users.</p>
+<h2>Code injection vulnerabilities</h2>
+<p>“Many applications can access a user’s most sensitive information: credit card details, medical records, private materials, and more,” <a href="https://www.evasec.io/blog/eva-discovered-supply-chain-vulnerabities-in-cocoapods">wrote</a> researchers from EVA Information Security, the firm that discovered the vulnerability. “Injecting code into these applications could enable attackers to access this information for almost any malicious purpose imaginable—ransomware, fraud, blackmail, corporate espionage… In the process, it could expose companies to major legal liabilities and reputational risk.”</p></div><p><a href="https://arstechnica.com/?p=2034866#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034866&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/07/3-million-ios-and-macos-apps-were-exposed-to-potent-supply-chain-attacks/feed/</wfw:commentRss>
+			<slash:comments>8</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The best Audi EV so far? We drive the 2025 Q6 e-tron SUV</title>
+		<link>https://arstechnica.com/?p=2034780</link>
+					<comments>https://arstechnica.com/cars/2024/07/the-best-audi-ev-so-far-we-drive-the-2025-q6-e-tron-suv/#comments</comments>
+		
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+		<pubDate>Mon, 01 Jul 2024 22:01:07 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Audi Q6 e-tron]]></category>
+		<category><![CDATA[Audi SQ6 e-tron]]></category>
+		<category><![CDATA[car review]]></category>
+		<category><![CDATA[First drive]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2034780</guid>
+
+					<description><![CDATA[We drive Audi's new 800-volt EV ahead of US deliveries in Q4 2024.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/2025-Audi-Q6-e-tron-first-drive-1-800x533.jpg" alt="A grey Audi SQ6 drives past some graffiti">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/2025-Audi-Q6-e-tron-first-drive-1-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> Audi took the lead on developing VW Group's new Premium Platform Electric, and its first EV to use PPE is the 2025 Q6 e-tron. (credit: Audi)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<aside class="pullbox sidebar fullwidth">Audi provided flights from Washington to Bilbao and accommodation so Ars could drive the Q6 e-tron. Ars does not accept paid editorial content.</aside>
+<p>The arrival of the Q6 e-tron marks a significant milestone on the electric journey that Audi and its corporate siblings began in the wake of dieselgate, nearly a decade ago. Now, after developing electric vehicles based on its own gas-powered models, a cheaper VW platform, and a tweaked Taycan, <a href="https://arstechnica.com/cars/2023/05/throw-out-all-those-black-boxes-and-say-hello-to-the-software-defined-car/">the brand has led the development</a> of a new platform just for electric vehicles, one that incorporates lessons learned from those earlier EVs.</p>
+<p>We've <a href="https://arstechnica.com/cars/2019/10/audi-is-planning-20-all-electric-models-by-2025-heres-how-it-will-do-it/">followed the development</a> of that Premium Platform Electric architecture and <a href="https://arstechnica.com/cars/2024/03/audi-debuts-its-next-ev-platform-with-the-2025-q6-e-tron-suv/">the Q6 e-tron</a> for some time. Now, we've finally been behind the wheel.</p>
+<p>Audi made its name with "quattro" all-wheel drive powertrains, and both versions of Q6 e-tron to be offered initially will use twin-motor, all-wheel drive powertrains—an asynchronous motor driving the front wheels and a permanent magnet synchronous motor at the rear. Both versions will use the same capacity 100 kWh (94.4 kWh net) battery pack, which operates at 800 V and DC fast-charges from 10–80 percent in 21 minutes.</p></div><p><a href="https://arstechnica.com/?p=2034780#p3">Read 18 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034780&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/07/the-best-audi-ev-so-far-we-drive-the-2025-q6-e-tron-suv/feed/</wfw:commentRss>
+			<slash:comments>25</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>GameStop investor retracts suit accusing Roaring Kitty of pump-and-dump scheme</title>
+		<link>https://arstechnica.com/?p=2034817</link>
+					<comments>https://arstechnica.com/tech-policy/2024/07/lawsuit-accuses-roaring-kitty-of-deceiving-his-meme-stock-army/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Mon, 01 Jul 2024 21:18:02 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[e-trade]]></category>
+		<category><![CDATA[Gamestop]]></category>
+		<category><![CDATA[Keith gill]]></category>
+		<category><![CDATA[meme stocks]]></category>
+		<category><![CDATA[roaring kitty]]></category>
+		<category><![CDATA[securities fraud]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2034817</guid>
+
+					<description><![CDATA[Roaring Kitty was briefly accused of deceiving his meme stock army.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-1355656401-800x533.jpg" alt="GameStop investor retracts suit accusing Roaring Kitty of pump-and-dump scheme">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-1355656401.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/gamestop-strip-mall-location-gamestop-is-a-video-royalty-free-image/1355656401?phrase=gamestop&amp;searchscope=image%2Cfilm&amp;adppopup=true">jetcityimage | iStock Editorial / Getty Images Plus</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Keith Gill—the meme stock influencer known as "Roaring Kitty" and "DeepF—Value" who has rallied millions on X and Reddit behind GameStop—briefly faced a <a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/Radev-v-Gill-Complaint-6-28-2024.pdf">lawsuit</a> claiming that he knowingly deceived his loyal followers to reap millions of dollars in gains. The lawsuit was <a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/123121452012.pdf">voluntarily dismissed</a> by the plaintiff, Martin Radev, on July 1.</p>
+<p>The proposed class action was filed Friday by Radev, a GameStop investor who accused Gill of a "pump-and-dump scheme" that allegedly artificially rose prices of GameStop securities between May 13 and June 13. As a result, perhaps thousands of investors were harmed, including Gill's followers, Radev's complaint alleged, while speculating on the class size. On Monday, Radev asked the court to dismiss the lawsuit without prejudice.</p>
+<p>Radev's complaint followed reports <a href="https://arstechnica.com/tech-policy/2024/06/gamestop-stock-influencer-roaring-kitty-may-lose-access-to-e-trade-report-says/">that E-Trade was considering banning Gill</a> for suspected stock manipulation but reportedly feared backlash from Gill's so-called meme stock army. According to the aggrieved investor, Gill's scheme allegedly worked like this:</p></div><p><a href="https://arstechnica.com/?p=2034817#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034817&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/07/lawsuit-accuses-roaring-kitty-of-deceiving-his-meme-stock-army/feed/</wfw:commentRss>
+			<slash:comments>31</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bleeding subscribers, cable companies force their way into streaming</title>
+		<link>https://arstechnica.com/?p=2034726</link>
+					<comments>https://arstechnica.com/gadgets/2024/07/bleeding-subscribers-cable-companies-force-their-way-into-streaming/#comments</comments>
+		
+		<dc:creator><![CDATA[Scharon Harding]]></dc:creator>
+		<pubDate>Mon, 01 Jul 2024 19:20:13 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Charter]]></category>
+		<category><![CDATA[Comcast]]></category>
+		<category><![CDATA[peacock]]></category>
+		<category><![CDATA[streaming]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2034726</guid>
+
+					<description><![CDATA[Companies like Charter brought about the streaming industry they now want to join. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/tv-remote-800x533.jpg" alt="A person's hand aiming a cable TV remote control at a TV screen">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/tv-remote.jpg" class="enlarge-link" data-height="1666" data-width="2500">Enlarge</a> (credit: Getty Images | stefanamer)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>It's clear that streaming services are the present and future of video distribution. But that doesn't mean that cable companies are ready to give up on your monthly dollars.</p>
+<p>A sign of this is Comcast, the US's second-biggest cable company, debuting a new streaming service today. Comcast already had an offering that let subscribers stream its Xfinity cable live channels and access some titles on demand. NOW TV Latino differs in being a separate, additional streaming service that people can subscribe to independently of Xfinity cable for $10 per month.</p>
+<p>However, unlike streaming services like Netflix or Max, you can only subscribe to NOW TV Latino if Xfinity is sold in your area. NOW TV Latino subscriptions include the ability to stream live TV from Spanish-language channels that Xfinity offers, like Sony Cine and ViendoMovies. And because Comcast owns NBCUniversal, people who subscribe to NOW TV Latino get a free subscription to Peacock with commercials, which usually costs $6 per month.</p></div><p><a href="https://arstechnica.com/?p=2034726#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034726&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/07/bleeding-subscribers-cable-companies-force-their-way-into-streaming/feed/</wfw:commentRss>
+			<slash:comments>89</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Supreme Court vacates rulings on Texas and Florida social media laws</title>
+		<link>https://arstechnica.com/?p=2034680</link>
+					<comments>https://arstechnica.com/tech-policy/2024/07/texas-social-media-law-likely-violates-first-amendment-scotus-majority-says/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Mon, 01 Jul 2024 19:08:10 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[florida social media law]]></category>
+		<category><![CDATA[supreme court social media]]></category>
+		<category><![CDATA[texas social media law]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2034680</guid>
+
+					<description><![CDATA[Supreme Court remands two cases, saying lower courts didn't do full analysis.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/02/supreme-court-800x533.jpg" alt="The US Supreme Court building is seen on a sunny day. Kids mingle around a small pool on the grounds in front of the building.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/02/supreme-court.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> <span class="sep">/</span> The Supreme Court of the United States in Washington, DC, in May 2023. (credit: Getty Images | NurPhoto)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The US Supreme Court has avoided making a final decision on challenges to the Texas and Florida social media laws, but the majority opinion written by Justice Elena Kagan criticized the Texas law and made it clear that content moderation is protected by the First Amendment.</p>
+<p>The Texas law "is unlikely to withstand First Amendment scrutiny," the Supreme Court majority wrote. "Texas has thus far justified the law as necessary to balance the mix of speech on Facebook's News Feed and similar platforms; and the record reflects that Texas officials passed it because they thought those feeds skewed against politically conservative voices. But this Court has many times held, in many contexts, that it is no job for government to decide what counts as the right balance of private expression—to 'un-bias' what it thinks biased, rather than to leave such judgments to speakers and their audiences. That principle works for social-media platforms as it does for others."</p>
+<p>A Big Tech lobby group that challenged the state laws said it was pleased by the ruling. "In a complex series of opinions that were unanimous in the outcome, but divided 6-3 in their reasoning, the Court sent the cases back to lower courts, making clear that a State may not interfere with private actors' speech," the Computer &amp; Communications Industry Association <a href="https://ccianet.org/news/2024/07/supreme-court-issues-ruling-in-ccia-netchoice-challenge-to-florida-texas-social-media-laws/">said</a>.</p></div><p><a href="https://arstechnica.com/?p=2034680#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034680&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/07/texas-social-media-law-likely-violates-first-amendment-scotus-majority-says/feed/</wfw:commentRss>
+			<slash:comments>158</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Teaser for Hellboy: The Crooked Man brings the low-budget horror vibes</title>
+		<link>https://arstechnica.com/?p=2034715</link>
+					<comments>https://arstechnica.com/culture/2024/07/teaser-for-hellboy-the-crooked-man-brings-the-low-budget-horror-vibes/#comments</comments>
+		
+		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
+		<pubDate>Mon, 01 Jul 2024 18:41:42 +0000</pubDate>
+				<category><![CDATA[Culture]]></category>
+		<category><![CDATA[entertainment]]></category>
+		<category><![CDATA[film trailers]]></category>
+		<category><![CDATA[films]]></category>
+		<category><![CDATA[Hellboy]]></category>
+		<category><![CDATA[Hellboy: The Crooked Man]]></category>
+		<category><![CDATA[Ketchup Entertainment]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2034715</guid>
+
+					<description><![CDATA[<em>Hellboy</em> creator Mike Mignola co-wrote the screenplay based on his short story from comics.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<div class="video"><div class="wrapper"><iframe style="display:block" type="text/html" width="980" height="550" src="https://www.youtube.com/embed/NMT1q1BOs6Q?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe></div><p class="caption" style="font-size:0.8em"><em>Hellboy: The Crooked Man</em> is based on a 2008 limited series by Mike Mignola and artist Richard Corben. </p></div>
+<p>It has only been a few years since David Harbour starred in the <a href="https://en.wikipedia.org/wiki/Hellboy_(2019_film)">2019 reboot</a> of the Hellboy <a href="https://en.wikipedia.org/wiki/Hellboy#In_other_media">film franchise</a>—a critical and box office failure, although Harbour's performance earned praise. But <a href="https://ew.com/see-first-trailer-hellboy-the-crooked-man-jack-kesy-8671521">via Entertainment Weekly</a>, we learned that there's a new reboot coming our way: <em><a href="https://en.wikipedia.org/wiki/Hellboy:_The_Crooked_Man">Hellboy: The Crooked Man</a>.</em> The project wrapped filming in May and now has a teaser—inexplicably released in 480p [<strong>UPDATE</strong>: ONE Media posted a higher resolution version, now embedded above]—giving us our first glimpse of star Jack Kesy's (<em>Claws, Deadpool 2</em>) take on Mike Mignola's iconic character.</p>
+<p>It's definitely a very different look and vibe from the previous big studio releases. Director Brian Taylor (<em>Crank</em>) is clearly leaning into the low-budget folk horror genre for this, but will fans embrace a bargain-basement <em>Hellboy</em> reboot—even one co-written by Mignola himself?</p>
+<p>Mignola based his script on <a href="https://en.wikipedia.org/wiki/Hellboy:_The_Crooked_Man_and_Others#The_Crooked_Man">a 2008 <em>Hellboy</em> limited series</a> he created, with artwork by Richard Corben. That story features a younger Hellboy wandering in the Appalachian Mountains in 1958 after "finishing up some stuff down South." He meets regional native Tom Ferrell, coming home after decades away. When he was young, Tom was initiated as a witch and has returned to atone for that, even though he has never actually practiced magic—apart from a magical "witch-bone" he carries with him.</p></div><p><a href="https://arstechnica.com/?p=2034715#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034715&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/culture/2024/07/teaser-for-hellboy-the-crooked-man-brings-the-low-budget-horror-vibes/feed/</wfw:commentRss>
+			<slash:comments>61</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Alzheimer’s scientist indicted for allegedly falsifying data in $16M scheme</title>
+		<link>https://arstechnica.com/?p=2034747</link>
+					<comments>https://arstechnica.com/science/2024/07/alzheimers-scientist-indicted-for-allegedly-falsifying-data-in-16m-scheme/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Mon, 01 Jul 2024 18:16:50 +0000</pubDate>
+				<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Alzheimer's]]></category>
+		<category><![CDATA[Cassava]]></category>
+		<category><![CDATA[CUNY]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[Hoau-Yan Wang]]></category>
+		<category><![CDATA[NIH]]></category>
+		<category><![CDATA[NIH grant]]></category>
+		<category><![CDATA[research]]></category>
+		<category><![CDATA[research funding]]></category>
+		<category><![CDATA[research misconduct]]></category>
+		<category><![CDATA[Simufilam]]></category>
+		<category><![CDATA[Western blots]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2034747</guid>
+
+					<description><![CDATA[The work underpinned an Alzheimer's drug by Cassava, now in a Phase III trial.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-1236271712-800x533.jpeg" alt="Alzheimer’s scientist indicted for allegedly falsifying data in $16M scheme">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-1236271712-scaled.jpeg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/in-this-photo-illustration-a-cassava-sciences-inc-logo-is-news-photo/1236271712?searchscope=image%2Cfilm&amp;adppopup=true">Getty | Pavlo Gonchar</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>A federal grand jury has indicted an embattled Alzheimer's researcher for <a href="https://www.justice.gov/opa/pr/professor-charged-operating-multimillion-dollar-grant-fraud-scheme">allegedly falsifying data to fraudulently obtain $16 million in federal research funding</a> from the National Institutes of Health for the development of a controversial Alzheimer's drug and diagnostic test.</p>
+<p>Hoau-Yan Wang, 67, a medical professor at the City University of New York, was a paid collaborator with the Austin, Texas-based pharmaceutical company Cassava Sciences. Wang's research and publications provided scientific underpinnings for Cassava's Alzheimer's treatment, Simufilam, which is <a href="https://clinicaltrials.gov/study/NCT05026177?term=Simufilam&amp;aggFilters=phase:3&amp;rank=2">now in</a> Phase III <a href="https://clinicaltrials.gov/study/NCT04994483?term=Simufilam&amp;aggFilters=phase:3&amp;rank=3">trials</a>.</p>
+<p>Simufilam is a small-molecule drug that Cassava claims can restore the structure and function of a scaffolding protein in the brain of people with Alzheimer's, leading to slowed cognitive decline. But outside researchers have long expressed doubts and concerns about the research.</p></div><p><a href="https://arstechnica.com/?p=2034747#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034747&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/07/alzheimers-scientist-indicted-for-allegedly-falsifying-data-in-16m-scheme/feed/</wfw:commentRss>
+			<slash:comments>42</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lightening the load: AI helps exoskeleton work with different strides</title>
+		<link>https://arstechnica.com/?p=2034710</link>
+					<comments>https://arstechnica.com/science/2024/07/ai-helps-exoskeleton-adjust-to-different-users-handle-stairs/#comments</comments>
+		
+		<dc:creator><![CDATA[Jacek Krywko]]></dc:creator>
+		<pubDate>Mon, 01 Jul 2024 17:31:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[exoskeleton]]></category>
+		<category><![CDATA[https://doi.org/10.1038/s41586-024-07382-4]]></category>
+		<category><![CDATA[Robotics]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2034710</guid>
+
+					<description><![CDATA[A model trained in a virtual environment does remarkably well in the real world.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/aliens-powerloaders-800x450.jpg" alt="Image of two people using powered exoskeletons to move heavy items around, as seen in the movie Aliens.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/aliens-powerloaders.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> <span class="sep">/</span> Right now, the software doesn't do arms, so don't go taking on any aliens with it. (credit: 20th Century Fox)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Exoskeletons today look like something straight out of sci-fi. But the reality is they are nowhere near as robust as their fictional counterparts. They’re quite wobbly, and it takes long hours of handcrafting software policies, which regulate how they work—a process that has to be repeated for each individual user.</p>
+<p>To bring the technology a bit closer to <em>Avatar</em>’s Skel Suits or Warhammer 40k power armor, a team at North Carolina University’s Lab of Biomechatronics and Intelligent Robotics used AI to build the first one-size-fits-all exoskeleton that supports walking, running, and stair-climbing. Critically, its software adapts itself to new users with no need for any user-specific adjustments. “You just wear it and it works,” says Hao Su, an associate professor and co-author of the study.</p>
+<h2>Tailor-made robots</h2>
+<p>An exoskeleton is a robot you wear to aid your movements—it makes walking, running, and other activities less taxing, the same way an e-bike adds extra watts on top of those you generate yourself, making pedaling easier. “The problem is, exoskeletons have a hard time understanding human intentions, whether you want to run or walk or climb stairs. It’s solved with locomotion recognition: systems that recognize human locomotion intentions,” says Su.</p></div><p><a href="https://arstechnica.com/?p=2034710#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034710&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/07/ai-helps-exoskeleton-adjust-to-different-users-handle-stairs/feed/</wfw:commentRss>
+			<slash:comments>22</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Meta defends charging fee for privacy amid showdown with EU</title>
+		<link>https://arstechnica.com/?p=2034642</link>
+					<comments>https://arstechnica.com/tech-policy/2024/07/metas-pay-for-privacy-plan-falls-afoul-of-the-law-eu-regulators-say/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Mon, 01 Jul 2024 15:26:33 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[anti-competition]]></category>
+		<category><![CDATA[competition law]]></category>
+		<category><![CDATA[data privacy]]></category>
+		<category><![CDATA[Digital Markets Act]]></category>
+		<category><![CDATA[dma]]></category>
+		<category><![CDATA[European Commission]]></category>
+		<category><![CDATA[european union]]></category>
+		<category><![CDATA[gdpr]]></category>
+		<category><![CDATA[General Data Protection Regulation]]></category>
+		<category><![CDATA[noyb]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2034642</guid>
+
+					<description><![CDATA[EU finding that Meta’s subscription option violates DMA could impact many sites.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-2159334739-800x527.jpg" alt="Meta defends charging fee for privacy amid showdown with EU">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-2159334739.jpg" class="enlarge-link" data-height="674" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/man-holds-the-banner-of-the-logo-of-instagram-and-a-woman-news-photo/2159334739?searchscope=image%2Cfilm&amp;adppopup=true">Anadolu / Contributor | Anadolu</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Meta continues to hit walls with its heavily scrutinized plan to comply with the European Union's strict online competition law, the Digital Markets Act (DMA), by offering Facebook and Instagram subscriptions as an alternative for privacy-inclined users who want to opt out of ad targeting.</p>
+<p>Today, the European Commission (EC) <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_24_3582">announced</a> preliminary findings that Meta's so-called "pay or consent" or "pay or OK" model—which gives users a choice to either pay for access to its platforms or give consent to collect user data to target ads—is not compliant with the DMA.</p>
+<p>According to the EC, Meta's advertising model violates the DMA in two ways. First, it "does not allow users to opt for a service that uses less of their personal data but is otherwise equivalent to the 'personalized ads-based service." And second, it "does not allow users to exercise their right to freely consent to the combination of their personal data," the press release said.</p></div><p><a href="https://arstechnica.com/?p=2034642#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034642&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/07/metas-pay-for-privacy-plan-falls-afoul-of-the-law-eu-regulators-say/feed/</wfw:commentRss>
+			<slash:comments>138</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Why Fisker’s bankruptcy is likely to leave its EV owners without warranty</title>
+		<link>https://arstechnica.com/?p=2034624</link>
+					<comments>https://arstechnica.com/cars/2024/07/fisker-owners-fear-for-future-support-after-bankruptcy/#comments</comments>
+		
+		<dc:creator><![CDATA[WIRED]]></dc:creator>
+		<pubDate>Mon, 01 Jul 2024 13:48:58 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[bankruptcy]]></category>
+		<category><![CDATA[EVs]]></category>
+		<category><![CDATA[Fisker]]></category>
+		<category><![CDATA[Fisker Ocean]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[warranty]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2034624</guid>
+
+					<description><![CDATA[Build problems and unmet need for software updates have Fisker owners worried.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1575080924-800x533.jpg" alt='Fisker CEO Henrik Fisker introduces the all-electric compact hatchback Pear during its inaugural "Product Vision Day" in Huntington Beach, California, on August 3, 2023.'>
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1575080924-scaled.jpg" class="enlarge-link" data-height="1706" data-width="2560">Enlarge</a> <span class="sep">/</span> Fisker CEO Henrik Fisker introduces the all-electric compact hatchback Pear during its inaugural "Product Vision Day" in Huntington Beach, California, on August 3, 2023. </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>It was the last week in June, and José De Bardi hadn’t gotten much sleep. The trouble had really kicked off on June 18, about a week earlier, when the <a href="https://www.wired.com/tag/electric-vehicles/">electric vehicle</a> company Fisker announced it had <a href="https://arstechnica.com/cars/2024/06/ev-firm-fisker-files-for-bankruptcy-months-after-it-stopped-making-the-ocean/">filed for bankruptcy protection</a>. Now some 6,400 Fisker owners like De Bardi wondered: What will happen to their cars in the future?</p>
+<p>The bankruptcy “lit a fire,” De Bardi says. “We had to get organized if we had any chance of representing owners’ interests.” Within days, he and a handful of other Fisker vehicle owners had established a nonprofit organization called the <a href="https://www.fiskeroa.com/">Fisker Owners Association</a>, dedicated to keeping their cars running. (Hence, the lack of sleep.) By the end of the month, 1,200 owners—representing nearly a fifth of total Fisker cars sold—had registered through the group’s website, De Bardi says.</p>
+<p></p></div><p><a href="https://arstechnica.com/?p=2034624#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034624&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/07/fisker-owners-fear-for-future-support-after-bankruptcy/feed/</wfw:commentRss>
+			<slash:comments>147</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Chinese space firm unintentionally launches its new rocket</title>
+		<link>https://arstechnica.com/?p=2034603</link>
+					<comments>https://arstechnica.com/space/2024/07/chinese-space-firm-unintentionally-launches-its-new-rocket/#comments</comments>
+		
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Mon, 01 Jul 2024 12:52:47 +0000</pubDate>
+				<category><![CDATA[Space]]></category>
+		<category><![CDATA[Anomaly]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[space pioneer]]></category>
+		<category><![CDATA[spacex]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2034603</guid>
+
+					<description><![CDATA[Space Pioneer had been prepping the vehicle for its debut launch later this summer.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GRR5TdFbIAEUIbU-800x1060.jpg" alt="The Tianlong-3 rocket as seen on its test stand before the anomaly.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GRR5TdFbIAEUIbU.jpg" class="enlarge-link" data-height="1491" data-width="1125">Enlarge</a> <span class="sep">/</span> The Tianlong-3 rocket as seen on its test stand before the anomaly. (credit: Space Pioneer)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>One of the most promising Chinese space startups, Space Pioneer, experienced a serious anomaly this weekend while testing the first stage of its Tianlong-3 rocket near the city of Gongyi.</p>
+<p>The rocket was undergoing a static fire test of the stage, in which a vehicle is clamped to a test stand while its engines are ignited, when the booster broke free. <a href="https://web.archive.org/web/20240630112213/https://mp.weixin.qq.com/s/6K2mdDWviOlk30oU-JH90Q">According to a statement from the company</a>, the rocket was not sufficiently clamped down and blasted off from the test stand "due to a structural failure."</p>
+<p>Video of the accidental ascent showed the rocket rising several hundred meters into the sky before it crashed explosively into a mountain 1.5 km away from the test site. (See <a href="https://x.com/J1NFENG/status/1807334917031825869">various angles of the accident here</a>, on the social media site X, <a href="https://m.weibo.cn/detail/5050998629862652#&amp;video">or on Weibo</a>.) The statement from Space Pioneer sought to downplay the incident, saying it had implemented safety measures before the test, and there were no casualties as a result of the accident. "The test site is far away from the urban area of ​​Gongyi," the company said.</p></div><p><a href="https://arstechnica.com/?p=2034603#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034603&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/07/chinese-space-firm-unintentionally-launches-its-new-rocket/feed/</wfw:commentRss>
+			<slash:comments>190</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>The telltale words that could identify generative AI text</title>
 		<link>https://arstechnica.com/?p=2034045</link>
 					<comments>https://arstechnica.com/ai/2024/07/the-telltale-words-that-could-identify-generative-ai-text/#comments</comments>
@@ -48,7 +494,7 @@
 <p>To measure these vocabulary changes, the researchers analyzed 14 million paper abstracts published on <a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a> between 2010 and 2024, tracking the relative frequency of each word as it appeared across each year. They then compared the expected frequency of those words (based on the pre-2023 trendline) to the actual frequency of those words in abstracts from 2023 and 2024, when LLMs were in widespread use.</p></div><p><a href="https://arstechnica.com/?p=2034045#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034045&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/ai/2024/07/the-telltale-words-that-could-identify-generative-ai-text/feed/</wfw:commentRss>
-			<slash:comments>24</slash:comments>
+			<slash:comments>116</slash:comments>
 		
 		
 			</item>
@@ -85,7 +531,7 @@
 <p>The carpets are made from, variously, recycled fishing nets or plastic bottles. The vinyl seats use pine oil instead of the stuff extracted from the ground, and the knitted upholstery fabric—also recycled plastic bottles—was designed to leave no off-cuts.</p></div><p><a href="https://arstechnica.com/?p=2034236#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034236&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/cars/2024/06/the-2025-polestar-4-great-steering-and-a-small-carbon-footprint-stand-out/feed/</wfw:commentRss>
-			<slash:comments>122</slash:comments>
+			<slash:comments>192</slash:comments>
 		
 		
 			</item>
@@ -122,10 +568,10 @@
 <div><a name="page-1"></a></div>
 <p>Ultra-athlete <a href="https://en.wikipedia.org/wiki/Ross_Edgley">Ross Edgley</a> is no stranger to pushing his body to extremes. He once ran a marathon while pulling a 1-ton car; ran a triathlon while carrying a 100-pound tree; and climbed a 65-foot rope over and over again until he'd climbed the equivalent of Mt. Everest—all for charity. In 2016, he set the world record for the world's longest staged sea swim around the coastline of Great Britain: 1,780 miles over 157 days.</p>
 <p>At one point during that swim, a <a href="https://en.wikipedia.org/wiki/Basking_shark">basking shark</a> appeared and swam alongside Edgley for a day and a half. That experience ignited his curiosity about sharks and eventually led to his new National Geographic documentary, <em><a href="https://www.natgeotv.com/ca/shark-vs-ross-edgley">Shark vs. Ross Edgley</a>—</em>part of four full weeks of <a href="https://www.youtube.com/watch?v=6qTvntc2MD0">2024 SHARKFEST</a> programming. Edgley matches his athletic prowess against four different species of shark. He tries to jump out of the water (polaris) like a <a href="https://en.wikipedia.org/wiki/Great_white_shark">great white shark</a>; withstand the G forces produced by a <a href="https://en.wikipedia.org/wiki/Hammerhead_shark">hammerhead shark</a>'s fast, rapid turns; mimic the extreme fasting and feasting regimen of a migrating tiger shark; and match the swimming speed of a <a href="https://en.wikipedia.org/wiki/Shortfin_mako_shark">mako shark</a>. </p>
-<p>"I love this idea of having a goal and then reverse engineering and deconstructing it," Edgley told Ars. "[Sharks are] the ultimate ocean athletes. We just had this idea: what if you're crazy enough to try and follow in the footsteps of four amazing sharks? It's an impossible task. You're going to fail, you're going to be humbled. But in the process, we could use it as a sports/shark science experiment, almost like a Trojan horse to bring science and ocean conservation to a new audience."</p></div><p><a href="https://arstechnica.com/?p=2034182#p3">Read 26 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034182&comments=1">Comments</a></p>]]></content:encoded>
+<p>"I love this idea of having a goal and then reverse-engineering and deconstructing it," Edgley told Ars. "[Sharks are] the ultimate ocean athletes. We just had this idea: what if you're crazy enough to try and follow in the footsteps of four amazing sharks? It's an impossible task. You're going to fail, you're going to be humbled. But in the process, we could use it as a sports/shark science experiment, almost like a Trojan horse to bring science and ocean conservation to a new audience."</p></div><p><a href="https://arstechnica.com/?p=2034182#p3">Read 26 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034182&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/06/an-ultra-athlete-goes-head-to-head-with-the-worlds-most-formidable-sharks/feed/</wfw:commentRss>
-			<slash:comments>43</slash:comments>
+			<slash:comments>52</slash:comments>
 		
 		
 			</item>
@@ -159,7 +605,7 @@
 <p>“The crows come to the house and scream to warn us that there is no more water ... it’s our alarm,” says Ortiz Ramos in her distinct northern Mexico accent. Her words sound straight from an Aesop’s fable, but they take on stark realism in this spot. Covering large parts of Arizona, California, and the Mexican states of Baja California and Sonora, the Sonoran Desert—along with the Lut Desert in Iran—was cataloged in 2023 as having <a href="https://www.science.org/content/article/move-over-death-valley-these-are-two-hottest-spots-earth">the hottest surface temperature on the planet</a>, at 80.8° Celsius (177° Fahrenheit).</p></div><p><a href="https://arstechnica.com/?p=2034429#p3">Read 40 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034429&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/06/nature-interrupted-impact-of-the-us-mexico-border-wall-on-wildlife/feed/</wfw:commentRss>
-			<slash:comments>86</slash:comments>
+			<slash:comments>116</slash:comments>
 		
 		
 			</item>
@@ -197,7 +643,7 @@
 <p>It was certainly more ambitious than <em>Myst</em>. Instead of a handful of tightly packed theme park worlds, it offered a singular, cohesive one that felt lived in and steeped in history in a way that <em>Myst</em> couldn't quite match.</p></div><p><a href="https://arstechnica.com/?p=2034421#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034421&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gaming/2024/06/the-new-riven-remake-is-even-better-than-myst/feed/</wfw:commentRss>
-			<slash:comments>87</slash:comments>
+			<slash:comments>116</slash:comments>
 		
 		
 			</item>
@@ -232,7 +678,7 @@
 <p>The second was that a developer named Jim Hall wrote a post announcing something called “PD-DOS.” Unhappy with Windows 3.x and unexcited by the project we would come to know as Windows 95, Hall wanted to break ground on a new “public domain” version of DOS that could keep the traditional command-line interface alive as most of the world left it behind for more user-friendly but resource-intensive graphical user interfaces.</p></div><p><a href="https://arstechnica.com/?p=2033083#p3">Read 25 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033083&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/06/30-years-later-freedos-is-still-keeping-the-dream-of-the-command-prompt-alive/feed/</wfw:commentRss>
-			<slash:comments>78</slash:comments>
+			<slash:comments>106</slash:comments>
 		
 		
 			</item>
@@ -271,7 +717,7 @@
 <p>It’s the culmination of years of genetic sequencing by members of the international team behind this new paper. They studied 21 mammoth genomes—13 of which were newly sequenced by lead author Marianne Dehasque; others had been sequenced years prior by co-authors Patrícia Pečnerová, Foteini Kanellidou, and Héloïse Muller. The genomes were obtained from Siberian woolly mammoths (<i>Mammuthus primigenius</i>), both from the mainland and the island before and after it became isolated. The oldest genome was from a female Siberian mammoth who died about 52,300 years ago. The youngest were from Wrangel Island male mammoths who perished right around the time the last of these mammoths died out (one of them died just 4,333 years ago).</p></div><p><a href="https://arstechnica.com/?p=2034436#p3">Read 27 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034436&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/06/last-population-of-mammoths-survived-a-severe-population-bottleneck/feed/</wfw:commentRss>
-			<slash:comments>59</slash:comments>
+			<slash:comments>65</slash:comments>
 		
 		
 			</item>
@@ -306,458 +752,7 @@
 <p>In fact, that six-figure sum appears to have been the gang’s only confirmed haul from its physical crypto thefts—although the burglars and their associates made millions in total, mostly through more traditional crypto hacking as well as stealing other assets. A deeper look into court documents from the St. Felix case, however, reveals that the relatively small profit St. Felix’s gang made from its burglaries doesn’t capture the full scope of the harm they inflicted: In total, those court filings and DOJ officials describe how more than a dozen convicted and alleged members of the crypto-focused gang broke into the homes of 11 victims, carrying out a brutal spree of armed robberies, death threats, beatings, torture sessions, and even one kidnapping in a campaign that spanned four US states.</p></div><p><a href="https://arstechnica.com/?p=2034420#p3">Read 25 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034420&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/security/2024/06/inside-a-violent-gangs-ruthless-crypto-stealing-home-invasion-spree/feed/</wfw:commentRss>
-			<slash:comments>154</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>NASA and SpaceX misjudged the risks from reentering space junk</title>
-		<link>https://arstechnica.com/?p=2033944</link>
-					<comments>https://arstechnica.com/space/2024/06/maybe-its-time-to-reassess-the-risk-of-space-junk-falling-to-earth/#comments</comments>
-		
-		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
-		<pubDate>Sat, 29 Jun 2024 00:22:38 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[dragon]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[space debris]]></category>
-		<category><![CDATA[spacex]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2033944</guid>
-
-					<description><![CDATA[“Safety tends to not be on the front burner until it really needs to be on the front burner.”]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/10691589926_e49018a6bd_3k-800x533.jpg" alt="A European ATV cargo freighter reenters the atmosphere over the Pacific Ocean in 2013.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/10691589926_e49018a6bd_3k.jpg" class="enlarge-link" data-height="1200" data-width="1800">Enlarge</a> <span class="sep">/</span> A European ATV cargo freighter reenters the atmosphere over the Pacific Ocean in 2013. </p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Since the beginning of the year, landowners have discovered several pieces of space junk traced to missions supporting the International Space Station. On all of these occasions, engineers expected none of the disposable hardware would survive the scorching heat of reentry and make it to Earth's surface.</p>
-<p>These incidents highlight an urgency for more research into what happens when a spacecraft makes an uncontrolled reentry into the atmosphere, according to engineers from the Aerospace Corporation, a federally funded research center based in El Segundo, California. More stuff is getting launched into space than ever before, and the trend will continue as companies deploy more satellite constellations and field heavier rockets.</p>
-<p>"The biggest immediate need now is just to do some more work to really understand this whole process and to be in a position to be ready to accommodate new materials, new operational approaches as they happen more quickly," said Marlon Sorge, executive director of Aerospace's Center for Orbital and Reentry Debris Studies. "Clearly, that’s the direction that spaceflight is going.”</p></div><p><a href="https://arstechnica.com/?p=2033944#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2033944&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/06/maybe-its-time-to-reassess-the-risk-of-space-junk-falling-to-earth/feed/</wfw:commentRss>
-			<slash:comments>247</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>NASA orders more tests on Starliner, but says crew isn’t stranded in space</title>
-		<link>https://arstechnica.com/?p=2034431</link>
-					<comments>https://arstechnica.com/space/2024/06/nasa-orders-more-tests-on-starliner-but-says-crew-isnt-stranded-in-space/#comments</comments>
-		
-		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
-		<pubDate>Fri, 28 Jun 2024 22:58:31 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Boeing]]></category>
-		<category><![CDATA[commercial crew]]></category>
-		<category><![CDATA[human spaceflight]]></category>
-		<category><![CDATA[international space station]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[starliner]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2034431</guid>
-
-					<description><![CDATA[“I want to make it very clear that Butch and Suni are not stranded in space."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/53797942971_5ae4c07feb_4k-800x1067.jpg" alt="Boeing's Starliner spacecraft is seen docked at the International Space Station on June 13.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/53797942971_5ae4c07feb_4k.jpg" class="enlarge-link" data-height="1600" data-width="1200">Enlarge</a> <span class="sep">/</span> Boeing's Starliner spacecraft is seen docked at the International Space Station on June 13. (credit: <a rel="nofollow" class="caption-link" href="https://www.flickr.com/photos/nasa2explore/53797942971/">NASA</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>NASA and Boeing officials pushed back Friday on headlines that the commercial Starliner crew capsule is stranded at the International Space Station but said they need more time to analyze data before formally clearing the spacecraft for undocking and reentry.</p>
-<p>Two NASA astronauts, commander Butch Wilmore and pilot Suni Williams, will spend at least a few more weeks on the space station as engineers on the ground conduct thruster tests to better understand issues with the Starliner propulsion system in orbit. Wilmore and Williams launched June 5 aboard an Atlas V rocket and <a href="https://arstechnica.com/space/2024/06/after-a-drama-filled-day-boeings-starliner-finally-finds-its-way/">docked at the station the next day</a>, completing the first segment of Starliner's first test flight with astronauts.</p>
-<p>NASA managers originally planned for the Starliner spacecraft to remain docked at the space station for at least eight days, although they left open the possibility of a mission extension. The test flight is now likely to last at least a month and a half, and perhaps longer, as engineers wrestle with helium leaks and thruster glitches on Starliner's service module.</p></div><p><a href="https://arstechnica.com/?p=2034431#p3">Read 26 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034431&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/06/nasa-orders-more-tests-on-starliner-but-says-crew-isnt-stranded-in-space/feed/</wfw:commentRss>
-			<slash:comments>263</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Apple’s Vision Pro goes on sale outside the US for the first time</title>
-		<link>https://arstechnica.com/?p=2034503</link>
-					<comments>https://arstechnica.com/gadgets/2024/06/apples-vision-pro-goes-on-sale-outside-the-us-for-the-first-time/#comments</comments>
-		
-		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
-		<pubDate>Fri, 28 Jun 2024 21:42:40 +0000</pubDate>
-				<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[Apple Vision Pro]]></category>
-		<category><![CDATA[ar]]></category>
-		<category><![CDATA[augmented reality]]></category>
-		<category><![CDATA[hmd]]></category>
-		<category><![CDATA[mixed reality]]></category>
-		<category><![CDATA[spatial computing]]></category>
-		<category><![CDATA[virtual reality]]></category>
-		<category><![CDATA[vision pro]]></category>
-		<category><![CDATA[visionOS]]></category>
-		<category><![CDATA[VR]]></category>
-		<category><![CDATA[XR]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2034503</guid>
-
-					<description><![CDATA[Since February, the headset has only been available in the United States.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Apple-Vision-Pro-availability-Omotesando-Tokyo-Apple-Vision-Pro-on-display-800x533.jpg" alt="A mixed reality headset over a table in an Apple Store">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Apple-Vision-Pro-availability-Omotesando-Tokyo-Apple-Vision-Pro-on-display.jpg" class="enlarge-link" data-height="1306" data-width="1960">Enlarge</a> <span class="sep">/</span> A Vision Pro on display at an Apple Store in Tokyo. (credit: Apple)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Apple's Vision Pro headset went on sale outside the United States for the first time today, in the first of two waves of expanded availability.</p>
-<p>The $3,499 "spatial computing" device launched back in February in the US, but it hasn't taken the tech world by storm. Part of that has been its regional launch, with some of the biggest markets still lacking access.</p>
-<p>Apple announced that the product would be sold internationally during its keynote at the Worldwide Developers Conference earlier this month.</p></div><p><a href="https://arstechnica.com/?p=2034503#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034503&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/06/apples-vision-pro-goes-on-sale-outside-the-us-for-the-first-time/feed/</wfw:commentRss>
-			<slash:comments>103</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>ChatGPT outperforms undergrads in intro-level courses, falls short later</title>
-		<link>https://arstechnica.com/?p=2034465</link>
-					<comments>https://arstechnica.com/ai/2024/06/chatgpt-outperforms-undergrads-in-intro-level-courses-falls-short-later/#comments</comments>
-		
-		<dc:creator><![CDATA[Jacek Krywko]]></dc:creator>
-		<pubDate>Fri, 28 Jun 2024 21:23:53 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[college]]></category>
-		<category><![CDATA[exams]]></category>
-		<category><![CDATA[grades]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2034465</guid>
-
-					<description><![CDATA[Software that promises to detect AI-produced text fails to deliver.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-525409577-800x533.jpg" alt="Overhead view of a classroom full of students at desks, focused on writing on papers.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-525409577.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/elevated-view-of-students-writing-their-gcse-exam-royalty-free-image/525409577?phrase=student+exam">Caiaimage/Chris Ryan</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>“Since the rise of large language models like ChatGPT there have been lots of anecdotal reports about students submitting AI-generated work as their exam assignments and getting good grades. So, we stress-tested our university’s examination system against AI cheating in a controlled experiment,” says Peter Scarfe, a researcher at the School of Psychology and Clinical Language Sciences at the University of Reading.</p>
-<p>His team created over 30 fake psychology student accounts and used them to submit ChatGPT-4-produced answers to examination questions. The anecdotal reports were true—the AI use went largely undetected, and, on average, ChatGPT scored better than human students.</p>
-<h2>Rules of engagement</h2>
-<p>Scarfe’s team submitted AI-generated work in five undergraduate modules, covering classes needed during all three years of study for a bachelor’s degree in psychology. The assignments were either 200-word answers to short questions or more elaborate essays, roughly 1,500 words long. “The markers of the exams didn’t know about the experiment. In a way, participants in the study didn’t know they were participating in the study, but we’ve got necessary permissions to go ahead with that”, Scarfe claims.</p></div><p><a href="https://arstechnica.com/?p=2034465#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034465&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/ai/2024/06/chatgpt-outperforms-undergrads-in-intro-level-courses-falls-short-later/feed/</wfw:commentRss>
-			<slash:comments>92</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Microdosing candies finally recalled after psychoactive muscimol found</title>
-		<link>https://arstechnica.com/?p=2034470</link>
-					<comments>https://arstechnica.com/science/2024/06/microdosing-candies-linked-to-seizures-intubation-finally-recalled/#comments</comments>
-		
-		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Fri, 28 Jun 2024 21:10:36 +0000</pubDate>
-				<category><![CDATA[Health]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[CDC]]></category>
-		<category><![CDATA[diamond shruumz]]></category>
-		<category><![CDATA[fda]]></category>
-		<category><![CDATA[illnesses]]></category>
-		<category><![CDATA[muscimol]]></category>
-		<category><![CDATA[Mushroom]]></category>
-		<category><![CDATA[neurotransmitter]]></category>
-		<category><![CDATA[poisoning]]></category>
-		<category><![CDATA[recall]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2034470</guid>
-
-					<description><![CDATA[Muscimol, found in the candy, is from hallucinogenic Amanita muscaria mushrooms.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Diamond-Shruumz-Starter-Pack-2-800x1198.jpeg" alt="Microdosing candies finally recalled after psychoactive muscimol found">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Diamond-Shruumz-Starter-Pack-2.jpeg" class="enlarge-link" data-height="2560" data-width="1710">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://diamondshruumz.com/shop/chocolate-bars/diamond-shruumz-starter-pack-4x-1pk/">Diamond Shruumz</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>After weeks of reports of severe illnesses across the country, the maker of Diamond Shruumz microdosing chocolates, gummies, and candy cones has <a href="https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prophet-premium-blends-recalls-diamond-shruumz-products-because-possible-health-risk">finally issued a recall</a>. It covers all lots and all flavors of all the brand's products.</p>
-<p>The illnesses have been marked by several severe symptoms, which notably include seizures, loss of consciousness, and the need for intubation and intensive care. To date, there have been 39 people sickened, including 23 hospitalizations across 20 states, <a href="https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-illnesses-diamond-shruumz-brand-chocolate-bars-cones-gummies-june-2024?utm_medium=email&amp;utm_source=govdelivery">according to the Food and Drug Administration</a> and <a href="https://www.cdc.gov/environmental-health-studies/outbreak-investigation-diamond-shruumz-products/index.html#cdc_generic_section_1-outbreak-investigation-summary">the Centers for Disease Control and Prevention</a>. The FDA <a href="https://arstechnica.com/science/2024/06/people-are-seizing-being-intubated-after-eating-microdose-chocolates/">first issued a warning</a> on the brand's chocolate bars on June 7, when there were reports of eight cases, including six hospitalizations, in four states.</p>
-<p>Diamond Shruumz's parent company, Prophet Premium Blends, said in the recall notice that it had received only two complaints about the products to date and, upon receiving those complaints, reviewed recent laboratory analyses (Certificates of Analysis) of its products. According to the company, those CoAs noted "higher than normal amounts of muscimol," which is one of two key compounds found in hallucinogenic <em>Amanita </em>mushrooms. Muscimol "could be a potential cause of symptoms consistent with those observed in persons who became ill after eating Diamond Shruumz products," the company said in the recall notice.</p></div><p><a href="https://arstechnica.com/?p=2034470#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034470&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/06/microdosing-candies-linked-to-seizures-intubation-finally-recalled/feed/</wfw:commentRss>
-			<slash:comments>115</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Appeals court seems lost on how Internet Archive harms publishers</title>
-		<link>https://arstechnica.com/?p=2034435</link>
-					<comments>https://arstechnica.com/tech-policy/2024/06/appeals-court-seems-lost-on-how-internet-archive-harms-publishers/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Fri, 28 Jun 2024 20:25:25 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[copyright law]]></category>
-		<category><![CDATA[ebook licensing]]></category>
-		<category><![CDATA[ebooks]]></category>
-		<category><![CDATA[fair use]]></category>
-		<category><![CDATA[Internet Archive]]></category>
-		<category><![CDATA[libraries]]></category>
-		<category><![CDATA[Open Library]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2034435</guid>
-
-					<description><![CDATA[Appeals court decision potentially reversing publishers' suit may come this fall.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1197675803-800x565.jpg" alt="Appeals court seems lost on how Internet Archive harms publishers">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1197675803.jpg" class="enlarge-link" data-height="1455" data-width="2061">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/illustration/bookshelves-with-books-on-laptop-screen-royalty-free-illustration/1197675803?phrase=digital%2Bbookshelf">mitay20 | iStock / Getty Images Plus</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The Internet Archive (IA) went before a three-judge panel Friday to defend its open library's <a href="https://arstechnica.com/tech-policy/2011/06/internet-archive-backs-up-digital-books-on-paper/">controlled digital lending (CDL) practices</a> after <a href="https://arstechnica.com/tech-policy/2023/03/publishers-beat-internet-archive-as-judge-rules-e-book-lending-violates-copyright/">book publishers last year won a lawsuit</a> claiming that the archive's lending violated copyright law.</p>
-<p>In the weeks ahead of IA's efforts to appeal that ruling, IA was <a href="https://arstechnica.com/tech-policy/2024/06/internet-archive-forced-to-remove-500000-books-after-publishers-court-win/">forced to remove 500,000 books from its collection</a>, shocking users. In an <a href="https://www.change.org/p/let-readers-read-an-open-letter-to-the-publishers-in-hachette-v-internet-archive">open letter</a> to publishers, more than 30,000 readers, researchers, and authors begged for access to the books to be restored in the open library, claiming the takedowns dealt "a serious blow to lower-income families, people with disabilities, rural communities, and LGBTQ+ people, among many others," who may not have access to a local library or feel "safe accessing the information they need in public."</p>
-<p>During a press briefing following arguments in court Friday, IA founder Brewster Kahle said that "those voices weren't being heard." Judges appeared primarily focused on understanding how IA's digital lending potentially hurts publishers' profits in the ebook licensing market, rather than on how publishers' costly ebook licensing potentially harms readers.</p></div><p><a href="https://arstechnica.com/?p=2034435#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034435&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/appeals-court-seems-lost-on-how-internet-archive-harms-publishers/feed/</wfw:commentRss>
-			<slash:comments>73</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Mere days before its debut, the Ariane 6 rocket loses a key customer to SpaceX</title>
-		<link>https://arstechnica.com/?p=2034369</link>
-					<comments>https://arstechnica.com/space/2024/06/mere-days-before-its-debut-the-ariane-6-rocket-loses-a-key-customer-to-spacex/#comments</comments>
-		
-		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
-		<pubDate>Fri, 28 Jun 2024 17:50:46 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[ariane 6]]></category>
-		<category><![CDATA[eumetsat]]></category>
-		<category><![CDATA[falcon 9]]></category>
-		<category><![CDATA[space]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2034369</guid>
-
-					<description><![CDATA["I am impatiently waiting to understand what reasons could have led Eumetsat to such a decision."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/Ariane_6_standing_tall-800x533.jpg" alt="The flight hardware core stage for Europe’s new rocket, Ariane 6, is moved onto the launch pad for the first time. A launch is due to occur on July 9, 2024.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/Ariane_6_standing_tall-scaled.jpg" class="enlarge-link" data-height="1706" data-width="2560">Enlarge</a> <span class="sep">/</span> The flight hardware core stage for Europe’s new rocket, Ariane 6, is moved onto the launch pad for the first time. A launch is due to occur on July 9, 2024. (credit: ESA-M. Pédoussaut)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>In a shocking announcement this week, the European intergovernmental organization responsible for launching and operating the continent's weather satellites has pulled its next mission off a future launch of Europe's new Ariane 6 rocket. Instead, the valuable MTG-S1 satellite will now reach geostationary orbit on SpaceX's Falcon 9 rocket in 2025.</p>
-<p>“This decision was driven by exceptional circumstances” <a href="https://www.eumetsat.int/meteosat-satellite-be-launched-spacex">said</a> Phil Evans, director general of the organization Eumetsat. “It does not compromise our standard policy of supporting European partners, and we look forward to a successful SpaceX launch for this masterpiece of European technology.”</p>
-<p>The decision, taken at a council meeting of Eumetsat's 30 member nations on Wednesday and Thursday, comes less than two weeks before the debut of the Ariane 6 rocket, scheduled for July 9.</p></div><p><a href="https://arstechnica.com/?p=2034369#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034369&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/06/mere-days-before-its-debut-the-ariane-6-rocket-loses-a-key-customer-to-spacex/feed/</wfw:commentRss>
-			<slash:comments>213</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Bipartisan consensus in favor of renewable power is ending</title>
-		<link>https://arstechnica.com/?p=2034381</link>
-					<comments>https://arstechnica.com/science/2024/06/support-for-renewable-power-is-plunging-among-republicans/#comments</comments>
-		
-		<dc:creator><![CDATA[John Timmer]]></dc:creator>
-		<pubDate>Fri, 28 Jun 2024 17:40:09 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Energy]]></category>
-		<category><![CDATA[partisanship]]></category>
-		<category><![CDATA[public opinion]]></category>
-		<category><![CDATA[renewable energy]]></category>
-		<category><![CDATA[sustainability]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2034381</guid>
-
-					<description><![CDATA[The change is most pronounced in those over 50 years old.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1453859222-800x533.jpg" alt="Image of solar panels on a green grassy field, with blue sky in the background.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1453859222.jpg" class="enlarge-link" data-height="1413" data-width="2121">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/view-of-modern-photovoltaic-solar-panels-to-charge-royalty-free-image/1453859222?phrase=solar+panels">tigerstrawberry</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>One of the most striking things about the explosion of renewable power that's happening in the US is that much of it is going on in states governed by politicians who don't believe in the problem wind and solar are meant to address. Acceptance of the evidence for climate change tends to be lowest among Republicans, yet many of the states where renewable power has boomed—wind in Wyoming and Iowa, solar in Texas—are governed by Republicans.</p>
-<p>That's partly because, up until about 2020, there was a strong bipartisan consensus in favor of expanding wind and solar power, with support above 75 percent among both parties. Since then, however, support among Republicans has dropped dramatically, approaching 50 percent, according to polling data released this week.</p>
-<div class="image shortcode-img center full"><img alt="Renewables enjoyed solid Republican support until recently." src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/image-3.png"><p class="caption" style="font-size:0.8em">Renewables enjoyed solid Republican support until recently. (credit: <a rel="nofollow" class="caption-link" href="https://www.pewresearch.org/science/2024/06/27/how-americans-view-national-local-and-personal-energy-choices/ps_2024-6-27_energy_0-02/">Pew Research</a>)</p></div>
-<p>To a certain extent, none of this should be surprising. The current leader of the Republican Party has been saying that wind turbines <a href="https://www.factcheck.org/2019/04/trumps-faulty-wind-power-claims/">cause cancer</a> and offshore wind is <a href="https://www.bbc.com/news/world-us-canada-66928305">killing whales</a>. And conservative-backed groups have been <a href="https://www.npr.org/2023/02/18/1154867064/solar-power-misinformation-activists-rural-america">spreading misinformation</a> in order to drum up opposition to solar power facilities.</p></div><p><a href="https://arstechnica.com/?p=2034381#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034381&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/06/support-for-renewable-power-is-plunging-among-republicans/feed/</wfw:commentRss>
-			<slash:comments>388</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>SCOTUS kills Chevron deference, giving courts more power to block federal rules</title>
-		<link>https://arstechnica.com/?p=2034370</link>
-					<comments>https://arstechnica.com/tech-policy/2024/06/scotus-kills-chevron-deference-giving-courts-more-power-to-block-federal-rules/#comments</comments>
-		
-		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
-		<pubDate>Fri, 28 Jun 2024 17:26:01 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Supreme Court]]></category>
-		<category><![CDATA[supreme court chevron]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2034370</guid>
-
-					<description><![CDATA[EPA rules and FCC net neutrality order at risk: "No consumer protection is safe."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/supreme-court-justices-800x571.jpg" alt="Supreme Court Chief Justice John Roberts and Associate Justice Sonia Sotomayor wearing their robes as they arrive for the State of the Union address.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/03/supreme-court-justices.jpg" class="enlarge-link" data-height="1783" data-width="2500">Enlarge</a> <span class="sep">/</span> Supreme Court Chief Justice John Roberts and Associate Justice Sonia Sotomayor arrive for President Joe Biden's State of the Union address on March 7, 2024, in Washington, DC. (credit: Getty Images | Win McNamee )</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The US Supreme Court today overturned the 40-year-old <em>Chevron</em> precedent in a ruling that limits the regulatory authority of federal agencies. The <a href="https://www.supremecourt.gov/opinions/23pdf/22-451_7m58.pdf">6-3 decision</a> in <em>Loper Bright Enterprises v. Raimondo</em> will make it harder for agencies such as the Federal Communications Commission and Environmental Protection Agency to issue regulations without explicit authorization from Congress.</p>
-<p>Chief Justice John Roberts delivered the opinion of the court and was joined by Clarence Thomas, Samuel Alito, Neil Gorsuch, Brett Kavanaugh, and Amy Coney Barrett. Justice Elena Kagan filed a dissenting opinion that was joined by Sonia Sotomayor and Ketanji Brown Jackson.</p>
-<p><em>Chevron</em> gave agencies leeway to interpret ambiguous laws as long as the agency's conclusion was reasonable. But the Roberts court said that a "statutory ambiguity does not necessarily reflect a congressional intent that an agency, as opposed to a court, resolve the resulting interpretive question."</p></div><p><a href="https://arstechnica.com/?p=2034370#p3">Read 21 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034370&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/scotus-kills-chevron-deference-giving-courts-more-power-to-block-federal-rules/feed/</wfw:commentRss>
-			<slash:comments>395</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Tesla says Model 3 that burst into flames in fatal tree crash wasn’t defective</title>
-		<link>https://arstechnica.com/?p=2034362</link>
-					<comments>https://arstechnica.com/tech-policy/2024/06/tesla-says-model-3-that-burst-into-flames-in-fatal-tree-crash-wasnt-defective/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Fri, 28 Jun 2024 17:17:50 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[autonomous cars]]></category>
-		<category><![CDATA[Autonomous Driving]]></category>
-		<category><![CDATA[autopilot]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[self-driving]]></category>
-		<category><![CDATA[Tesla]]></category>
-		<category><![CDATA[tesla model 3]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2034362</guid>
-
-					<description><![CDATA[Lawsuit alleged defects with both Tesla's self-driving and Model 3 flammability.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1237480832-800x507.jpg" alt="Tesla says Model 3 that burst into flames in fatal tree crash wasn’t defective">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1237480832.jpg" class="enlarge-link" data-height="649" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/photo-taken-on-oct-31-2021-shows-a-tesla-brand-store-for-news-photo/1237480832?searchscope=image%2Cfilm&amp;adppopup=true">CFOTO / Contributor | Future Publishing</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Tesla has denied that "any defect in the Autopilot system caused or contributed" to the 2022 death of a Tesla employee, Hans von Ohain, whose Tesla Model 3 burst into flames after the car suddenly veered off a road and crashed into a tree.</p>
-<p>"Von Ohain fought to regain control of the vehicle, but, to his surprise and horror, his efforts were prevented by the vehicle's Autopilot features, leaving him helpless and unable to steer back on course," a wrongful death <a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Bass-v-Tesla-Notice-of-Removal-6-24-2024.pl_.pdf">lawsuit</a> filed in May by von Ohain's wife, Nora Bass, alleged.</p>
-<p>In Tesla's <a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Bass-v-Tesla-Response-to-Complaint-6-27-2024.pdf">response</a> to the lawsuit filed Thursday, the carmaker also denied that the 2021 vehicle had any defects, contradicting Bass' claims that Tesla knew that the car should have been recalled but chose to "prioritize profits over consumer safety."</p></div><p><a href="https://arstechnica.com/?p=2034362#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034362&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/tesla-says-model-3-that-burst-into-flames-in-fatal-tree-crash-wasnt-defective/feed/</wfw:commentRss>
-			<slash:comments>149</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Brussels explores antitrust probe into Microsoft’s partnership with OpenAI</title>
-		<link>https://arstechnica.com/?p=2034368</link>
-					<comments>https://arstechnica.com/tech-policy/2024/06/brussels-explores-antitrust-probe-into-microsofts-partnership-with-openai/#comments</comments>
-		
-		<dc:creator><![CDATA[Financial Times]]></dc:creator>
-		<pubDate>Fri, 28 Jun 2024 17:03:07 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[antitrust]]></category>
-		<category><![CDATA[brussels]]></category>
-		<category><![CDATA[european union]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[microsoft openai]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[syndication]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2034368</guid>
-
-					<description><![CDATA[EU executive arm drops merger review into US tech companies’ alliance.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-2153659113-800x487.jpg" alt="EU competition chief Margrethe Vestager said the bloc was looking into practices that could in effect lead to a company controlling a greater share of the AI market.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-2153659113.jpg" class="enlarge-link" data-height="4708" data-width="7728">Enlarge</a> <span class="sep">/</span> EU competition chief Margrethe Vestager said the bloc was looking into practices that could in effect lead to a company controlling a greater share of the AI market. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/executive-vice-president-of-the-european-commission-for-a-news-photo/2153659119">Thierry Monasse/Getty Images</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Brussels is preparing for an antitrust investigation into Microsoft’s $13 billion investment into OpenAI, after the European Union decided not to proceed with a merger review into the most powerful alliance in the artificial intelligence industry.</p>
-<p>The European Commission, the EU’s executive arm, began to explore a review under merger control rules in January, but on Friday announced that it would not proceed due to a lack of evidence that Microsoft controls OpenAI.</p>
-<p>However, the commission said it was now exploring the possibility of a traditional antitrust investigation into whether the tie-up between the world’s most valuable listed company and the best-funded AI start-up was harming competition in the fast-growing market.</p></div><p><a href="https://arstechnica.com/?p=2034368#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034368&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/06/brussels-explores-antitrust-probe-into-microsofts-partnership-with-openai/feed/</wfw:commentRss>
-			<slash:comments>24</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Man suffers rare bee sting directly to the eyeball—it didn’t go well</title>
-		<link>https://arstechnica.com/?p=2034341</link>
-					<comments>https://arstechnica.com/science/2024/06/doctors-pull-bee-stinger-out-of-mans-bloody-eyeball-after-days-of-pain/#comments</comments>
-		
-		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Fri, 28 Jun 2024 16:33:25 +0000</pubDate>
-				<category><![CDATA[Health]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[bee sting]]></category>
-		<category><![CDATA[eye]]></category>
-		<category><![CDATA[NEJM]]></category>
-		<category><![CDATA[ophthalmology]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2034341</guid>
-
-					<description><![CDATA[He did recover. No disturbing images in the article, but a link for those who dare.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1139359961-800x533.jpeg" alt="Bees fly to their hive.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/GettyImages-1139359961-scaled.jpeg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> Bees fly to their hive. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/april-2019-north-rhine-westphalia-remscheid-bees-fly-to-news-photo/1139359961?searchscope=image%2Cfilm&amp;adppopup=true">Getty | Federico Gambarini</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>In what may be the biological equivalent to getting struck by lightning, a very unlucky man in the Philadelphia area took a very rare bee sting directly to the eyeball—and things went badly from there.</p>
-<p>As one might expect, the 55-year-old went to the emergency department, where doctors tried to extract the injurious insect's stinger from the man's right eye. But it soon became apparent that they didn't get it all.</p>
-<p>Two days after the bee attack, the man went to the Wills Eye Hospital with worsening vision and pain in the pierced eye. At that point, the vision in his right eye had deteriorated to only being able to count fingers. The eye was swollen, inflamed, and bloodshot. Blood was visibly pooling at the bottom of his iris. And right at the border between the man's cornea and the white of his eye, ophthalmologists spotted the problem: a teeny spear-like fragment of the bee's stinger still stuck in place.</p></div><p><a href="https://arstechnica.com/?p=2034341#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034341&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/06/doctors-pull-bee-stinger-out-of-mans-bloody-eyeball-after-days-of-pain/feed/</wfw:commentRss>
-			<slash:comments>89</slash:comments>
+			<slash:comments>177</slash:comments>
 		
 		
 			</item>
