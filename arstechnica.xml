@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Tue, 30 Jul 2024 11:10:31 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 30 Jul 2024 23:34:19 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,8 +21,473 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Mysterious family of malware hid in Google Play for years</title>
+		<link>https://arstechnica.com/?p=2040171</link>
+					<comments>https://arstechnica.com/security/2024/07/mysterious-family-of-malware-hid-in-google-play-for-years/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Tue, 30 Jul 2024 23:00:04 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[credential theft]]></category>
+		<category><![CDATA[malware]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2040171</guid>
+
+					<description><![CDATA[Mandrake's ability to go unnoticed was the result of designs not often seen in Android malware.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/05/phone-malware-800x532.jpg" alt="An image illustrating a phone infected with malware">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/05/phone-malware.jpg" class="enlarge-link" data-height="665" data-width="1000">Enlarge</a> </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>A mysterious family of Android malware with a demonstrated history of effectively concealing its myriad spying activities has once again been found in Google Play after more than two years of hiding in plain sight.</p>
+<p>The apps, disguised as file-sharing, astronomy, and cryptocurrency apps, hosted Mandrake, a family of highly intrusive malware that security firm Bitdefender <a href="https://www.bitdefender.com/files/News/CaseStudies/study/329/Bitdefender-PR-Whitepaper-Mandrake-creat4464-en-EN-interactive.pdf">called out</a> in 2020. Bitdefender said the apps appeared in two waves, one in 2016 through 2017 and again in 2018 through 2020. Mandrake’s ability to go unnoticed then was the result of some unusually rigorous steps to fly under the radar. They included:</p>
+<ul>
+<li aria-level="1">Not working in 90 countries, including those comprising the former Soviet Union</li>
+<li aria-level="1">Delivering its final payload only to victims who were extremely narrowly targeted</li>
+<li aria-level="1">Containing a kill switch the developers named seppuku (Japanese form of ritual</li>
+<li aria-level="1">suicide) that fully wiped all traces of the malware</li>
+<li aria-level="1">Fully functional decoy apps in categories including finance, Auto &amp; Vehicles, Video Players &amp; Editors, Art &amp; Design, and Productivity</li>
+<li aria-level="1">Quick fixes for bugs reported in comments</li>
+<li aria-level="1">TLS <a href="https://owasp.org/www-community/controls/Certificate_and_Public_Key_Pinning">certificate pinning</a> to conceal communications with command and control servers.</li>
+</ul>
+<h2>Lurking in the shadows</h2>
+<p>Bitdefender estimated the number of victims in the tens of thousands for the 2018 to 2020 wave and “probably hundreds of thousands throughout the full 4-year period.”</p></div><p><a href="https://arstechnica.com/?p=2040171#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040171&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/07/mysterious-family-of-malware-hid-in-google-play-for-years/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>With a landmark launch, the Pentagon is finally free of Russian rocket engines</title>
+		<link>https://arstechnica.com/?p=2039968</link>
+					<comments>https://arstechnica.com/space/2024/07/with-a-landmark-launch-the-pentagon-is-finally-free-of-russian-rocket-engines/#comments</comments>
+		
+		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
+		<pubDate>Tue, 30 Jul 2024 20:52:10 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[atlas v]]></category>
+		<category><![CDATA[cape canaveral]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[military space]]></category>
+		<category><![CDATA[rd-180]]></category>
+		<category><![CDATA[russia]]></category>
+		<category><![CDATA[space force]]></category>
+		<category><![CDATA[united launch alliance]]></category>
+		<category><![CDATA[US Space Force]]></category>
+		<category><![CDATA[ussf-51]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2039968</guid>
+
+					<description><![CDATA[It's been a decade-long effort to end the US military's reliance on the RD-180 engine.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/53891944579_49af4043a0_k-800x640.jpg" alt="Liftoff of ULA's Atlas V rocket on the US Space Force's USSF-51 mission.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/53891944579_49af4043a0_k.jpg" class="enlarge-link" data-height="1200" data-width="1500">Enlarge</a> <span class="sep">/</span> Liftoff of ULA's Atlas V rocket on the US Space Force's USSF-51 mission. (credit: <a rel="nofollow" class="caption-link" href="https://www.flickr.com/photos/ulalaunch/53891944579/">United Launch Alliance</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>United Launch Alliance delivered a classified US military payload to orbit Tuesday for the last time with an Atlas V rocket, ending the Pentagon's use of Russian rocket engines as national security missions transition to all-American launchers.</p>
+<p>The Atlas V rocket lifted off from Cape Canaveral Space Force Station in Florida at 6:45 am EDT (10:45 UTC) Tuesday, propelled by a Russian-made RD-180 engine and five strap-on solid-fueled boosters in its most powerful configuration. This was the 101st launch of an Atlas V rocket since its debut in 2002, and the 58th and final Atlas V mission with a US national security payload since 2007.</p>
+<p>The US Space Force's Space Systems Command confirmed a successful conclusion to the mission, code-named USSF-51, on Tuesday afternoon. The rocket's Centaur upper stage released the top secret USSF-51 payload about seven hours after liftoff, likely in a high-altitude geostationary orbit over the equator. The military did not publicize the exact specifications of the rocket's target orbit.</p></div><p><a href="https://arstechnica.com/?p=2039968#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039968&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/07/with-a-landmark-launch-the-pentagon-is-finally-free-of-russian-rocket-engines/feed/</wfw:commentRss>
+			<slash:comments>35</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Apple stealthily adds minor features in iOS 17.6, macOS 14.6 releases</title>
+		<link>https://arstechnica.com/?p=2040130</link>
+					<comments>https://arstechnica.com/gadgets/2024/07/apple-stealthily-adds-minor-features-in-ios-17-6-macos-14-6-releases/#comments</comments>
+		
+		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
+		<pubDate>Tue, 30 Jul 2024 20:08:35 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[iOS 17]]></category>
+		<category><![CDATA[iOS 17.6]]></category>
+		<category><![CDATA[iPadOS]]></category>
+		<category><![CDATA[iPadOS 17]]></category>
+		<category><![CDATA[iPadOS 17.6]]></category>
+		<category><![CDATA[MacOS]]></category>
+		<category><![CDATA[macos sonoma]]></category>
+		<category><![CDATA[macOS Sonoma 14.6]]></category>
+		<category><![CDATA[software updates]]></category>
+		<category><![CDATA[tvos]]></category>
+		<category><![CDATA[tvOS 17]]></category>
+		<category><![CDATA[tvOS 17.6]]></category>
+		<category><![CDATA[watchos]]></category>
+		<category><![CDATA[watchOS 10]]></category>
+		<category><![CDATA[watchOS 10.6]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2040130</guid>
+
+					<description><![CDATA[The M3 MacBook Pro now supports multiple external monitors.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/iOS-176-iPhone-800x488.png" alt="An iPhone lies on a wood surface, showing the Software Update panel on its screen">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/iOS-176-iPhone.png" class="enlarge-link" data-height="696" data-width="1141">Enlarge</a> <span class="sep">/</span> iOS 17.6 installing on an iPhone 13 Pro. (credit: Samuel Axon)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Apple has some minor updates for all its operating systems, and the releases include iOS 17.6, iPadOS 17.6, tvOS 17.6, watchOS 10.6, and macOS Sonoma 14.6.</p>
+<p>Apple's notes for these updates simply say they include bug fixes, security updates, or optimizations. However, there are a few hidden features.</p>
+<p>macOS 14.6 reportedly enables multi-display support in clamshell mode on the M3 MacBook Pro, allowing users of that device to use two external displays at once. That was already possible on the M3 Pro and M3 Max variations. Apple had previously released a similar update to bring that functionality to the M3 MacBook Air.</p></div><p><a href="https://arstechnica.com/?p=2040130#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040130&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/07/apple-stealthily-adds-minor-features-in-ios-17-6-macos-14-6-releases/feed/</wfw:commentRss>
+			<slash:comments>29</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>AI search engine accused of plagiarism announces publisher revenue-sharing plan</title>
+		<link>https://arstechnica.com/?p=2039978</link>
+					<comments>https://arstechnica.com/information-technology/2024/07/ai-search-engine-accused-of-plagiarism-announces-publisher-revenue-sharing-plan/#comments</comments>
+		
+		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
+		<pubDate>Tue, 30 Jul 2024 19:58:55 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI plagiarism]]></category>
+		<category><![CDATA[AI search engine]]></category>
+		<category><![CDATA[ars technica]]></category>
+		<category><![CDATA[CNBC]]></category>
+		<category><![CDATA[Conde Nast]]></category>
+		<category><![CDATA[forbes]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Perplexity]]></category>
+		<category><![CDATA[Perplexity.ai]]></category>
+		<category><![CDATA[Roger Lynch]]></category>
+		<category><![CDATA[wired]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2039978</guid>
+
+					<description><![CDATA[Perplexity says WordPress.com, TIME, Der Spiegel, and Fortune have already signed up.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/robot_caught_in_spotlight-800x469.jpg" alt="Robot caught in a flashlight vector illustration">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/robot_caught_in_spotlight.jpg" class="enlarge-link" data-height="704" data-width="1200">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/illustration/robot-caught-in-a-flashlight-vector-royalty-free-illustration/1760687083">Moor Studio via Getty Images</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>On Tuesday, AI-powered search engine Perplexity <a href="https://www.perplexity.ai/hub/blog/introducing-the-perplexity-publishers-program">unveiled</a> a new revenue-sharing program for publishers, marking a significant shift in its approach to third-party content use, <a href="https://www.cnbc.com/2024/07/30/perplexity-ai-to-share-revenue-with-publishers-after-plagiarism-accusations.html">reports</a> CNBC. The move comes after plagiarism allegations from major media outlets, including <a href="https://www.forbes.com/sites/sarahemerson/2024/06/07/buzzy-ai-search-engine-perplexity-is-directly-ripping-off-content-from-news-outlets/">Forbes</a>, <a href="https://www.wired.com/story/perplexity-plagiarized-our-story-about-how-perplexity-is-a-bullshit-machine/">Wired</a>, and Ars parent company <a href="https://www.theinformation.com/articles/cond-nast-sends-cease-and-desist-letter-to-ai-search-engine-perplexity">Condé Nast</a>. Perplexity, valued at over $1 billion, aims to compete with search giant Google.</p>
+
+<p>"To further support the vital work of media organizations and online creators, we need to ensure publishers can thrive as Perplexity grows," writes the company in a <a href="https://www.perplexity.ai/hub/blog/introducing-the-perplexity-publishers-program">blog post</a> announcing the problem. "That’s why we’re excited to announce the Perplexity Publishers Program and our first batch of partners: TIME, Der Spiegel, Fortune, Entrepreneur, The Texas Tribune, and WordPress.com."</p>
+<p>Under the program, Perplexity will share a percentage of ad revenue with publishers when their content is cited in AI-generated answers. The revenue share applies on a per-article basis and potentially multiplies if articles from a single publisher are used in one response. Some content providers, such as WordPress.com, plan to pass some of that revenue on to content creators.</p></div><p><a href="https://arstechnica.com/?p=2039978#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039978&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/information-technology/2024/07/ai-search-engine-accused-of-plagiarism-announces-publisher-revenue-sharing-plan/feed/</wfw:commentRss>
+			<slash:comments>19</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kids Online Safety Act passes Senate despite concerns it will harm kids</title>
+		<link>https://arstechnica.com/?p=2040074</link>
+					<comments>https://arstechnica.com/tech-policy/2024/07/kids-online-safety-act-passes-senate-despite-concerns-it-will-harm-kids/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Tue, 30 Jul 2024 19:31:58 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[censorship]]></category>
+		<category><![CDATA[COPPA]]></category>
+		<category><![CDATA[COPPA 2.0]]></category>
+		<category><![CDATA[First Amendment]]></category>
+		<category><![CDATA[free speech]]></category>
+		<category><![CDATA[kids online safety act]]></category>
+		<category><![CDATA[KOSA]]></category>
+		<category><![CDATA[online child safety]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2040074</guid>
+
+					<description><![CDATA[KOSA risks “nearly limitless content regulation,” senator warns.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-909597732-800x534.jpg" alt="Kids Online Safety Act passes Senate despite concerns it will harm kids">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-909597732.jpg" class="enlarge-link" data-height="1414" data-width="2119">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/father-and-daughter-sitting-in-dark-childrens-room-royalty-free-image/909597732?phrase=kids+online&amp;adppopup=true">Westend61 | Westend61</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The Kids Online Safety Act (KOSA) easily passed the Senate today despite critics' concerns that the bill may <a href="https://arstechnica.com/tech-policy/2023/08/the-kids-online-safety-act-isnt-all-right-critics-say/#:~:text=Debate%20continues%20to%20rage%20over,Haugen's%20shocking%20revelations%20to%20Congress.">risk creating more harm than good for kids</a> and perhaps censor speech for online users of all ages if it's signed into law.</p>
+<p>KOSA received broad bipartisan support in the Senate, passing with a 91–3 vote alongside the Children’s Online Privacy Protection Action (COPPA) 2.0. Both laws seek to control how much data can be collected from minors, as well as regulate the platform features that could harm children's mental health.</p>
+<p>Only Sens. Ron Wyden (D-Ore.), Rand Paul (R-Ky.), and Mike Lee (R-Utah) opposed the bills.</p></div><p><a href="https://arstechnica.com/?p=2040074#p3">Read 23 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040074&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/07/kids-online-safety-act-passes-senate-despite-concerns-it-will-harm-kids/feed/</wfw:commentRss>
+			<slash:comments>64</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Outsourcing emotion: The horror of Google’s “Dear Sydney” AI ad</title>
+		<link>https://arstechnica.com/?p=2040001</link>
+					<comments>https://arstechnica.com/ai/2024/07/dear-sydney-why-i-find-googles-ai-olympics-ad-so-disturbing/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Tue, 30 Jul 2024 18:59:56 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[2024 olympics]]></category>
+		<category><![CDATA[Google Gemini]]></category>
+		<category><![CDATA[Microsoft Copilot]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2040001</guid>
+
+					<description><![CDATA[Opinion: "Help my daughter write a letter" is not the same as "Help me with boring busywork."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/dearsydney-800x396.png" alt="Here's an idea: Don't be a deadbeat and do it yourself!">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/dearsydney.png" class="enlarge-link" data-height="1268" data-width="2560">Enlarge</a> <span class="sep">/</span> Here's an idea: Don't be a deadbeat and do it yourself! (credit: <a rel="nofollow" class="caption-link" href="https://www.youtube.com/watch?v=NgtHJKn0Mck">Google</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>If you've watched any Olympics coverage this week, you've likely been confronted with <a href="https://www.youtube.com/watch?v=NgtHJKn0Mck">an ad for Google's Gemini AI called "Dear Sydney."</a> In it, a proud father seeks help writing a letter on behalf of his daughter, who is an aspiring runner and superfan of world-record-holding hurdler Sydney McLaughlin-Levrone.</p>
+<p>"I'm pretty good with words, but this has to be just right," the father intones before asking Gemini to "Help my daughter write a letter telling Sydney how inspiring she is..." Gemini dutifully responds with a draft letter in which the LLM tells the runner, on behalf of the daughter, that she wants to be "just like you."</p>
+<p>Every time I see this ad, it puts me on edge in a way I've had trouble putting into words (though <a href="https://gemini.google.com/share/815f28b9c364">Gemini itself has some helpful thoughts</a>). As someone who writes words for a living, the idea of outsourcing a writing task to a machine brings up <a href="https://arstechnica.com/information-technology/2023/07/google-demos-unsettling-tool-to-help-journalists-write-the-news/">some vocational anxiety</a>. And the idea of someone who's "pretty good with words" doubting his abilities when the writing "has to be just right" sets off alarm bells regarding <a href="https://arstechnica.com/ai/2024/07/superhuman-go-ais-still-have-trouble-defending-against-these-simple-exploits/">the superhuman framing of AI capabilities</a>.</p></div><p><a href="https://arstechnica.com/?p=2040001#p3">Read 18 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040001&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/ai/2024/07/dear-sydney-why-i-find-googles-ai-olympics-ad-so-disturbing/feed/</wfw:commentRss>
+			<slash:comments>118</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Charter failed to notify 911 call centers and FCC about VoIP phone outages</title>
+		<link>https://arstechnica.com/?p=2040032</link>
+					<comments>https://arstechnica.com/tech-policy/2024/07/charter-failed-to-notify-911-call-centers-and-fcc-about-voip-phone-outages/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Tue, 30 Jul 2024 17:56:45 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[charter 911 outage]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2040032</guid>
+
+					<description><![CDATA[Charter blames error with email notification and misunderstanding of FCC rules.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/07/charter-spectrum-van-800x534.jpg" alt="A parked van used by a Spectrum cable technician. The van has the Spectrum logo on its side and a ladder stowed on the roof.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/07/charter-spectrum-van.jpg" class="enlarge-link" data-height="1366" data-width="2048">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.flickr.com/photos/diversey/33726014308/">Getty Images | Tony Webster</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Charter Communications agreed to pay a $15 million fine after admitting that it failed to notify more than a thousand 911 call centers about an outage caused by a denial-of-service attack and separately failed to meet the Federal Communications Commission's reporting deadlines for hundreds of planned maintenance outages.</p>
+<p>"As part of the settlement, Charter admits to violating the agency's rules regarding notifications to public safety officials and the Commission in connection with three unplanned network outages and hundreds of planned, maintenance-related network outages that occurred last year," the FCC said in an <a href="https://docs.fcc.gov/public/attachments/DOC-404306A1.pdf">announcement</a> yesterday.</p>
+<p>A <a href="https://docs.fcc.gov/public/attachments/DA-24-708A1.pdf">consent decree</a> said Charter admits that it "failed to timely notify more than 1,000 PSAPs [Public Safety Answering Points] of an outage on February 19, 2023." The decree notes that failure to notify the PSAPs, or 911 call centers, "impedes the ability of public safety officials to mediate the effects of an outage by notifying the public of alternate ways to contact emergency services."</p></div><p><a href="https://arstechnica.com/?p=2040032#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040032&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/07/charter-failed-to-notify-911-call-centers-and-fcc-about-voip-phone-outages/feed/</wfw:commentRss>
+			<slash:comments>25</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Amazon forced to recall 400K products that could kill, electrocute people</title>
+		<link>https://arstechnica.com/?p=2040006</link>
+					<comments>https://arstechnica.com/tech-policy/2024/07/amazon-forced-to-recall-400k-products-that-could-kill-electrocute-people/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Tue, 30 Jul 2024 17:54:55 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[product recall]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2040006</guid>
+
+					<description><![CDATA[People may still be using unsafe products that Amazon sold and resold.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-2115789924-800x534.jpg" alt="Amazon forced to recall 400K products that could kill, electrocute people">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-2115789924.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/the-logo-of-e-commerce-company-amazon-is-pictured-on-news-photo/2115789924?adppopup=true">MARCO BERTORELLO / Contributor | AFP</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Amazon failed to adequately alert more than 300,000 customers to serious risks—including death and electrocution—that US Consumer Product Safety Commission (CPSC) testing found with more than 400,000 products that third parties sold on its platform.</p>
+<p>The CPSC unanimously voted to hold Amazon legally responsible for third-party sellers' defective products. Now, Amazon must make a CPSC-approved plan to properly recall the dangerous products—including highly flammable children's pajamas, faulty carbon monoxide detectors, and unsafe hair dryers that could cause electrocution—which the CPSC fears may still be widely used in homes across America.</p>
+<p>While Amazon scrambles to devise a plan, the CPSC summarized the ongoing risks to consumers:</p></div><p><a href="https://arstechnica.com/?p=2040006#p3">Read 24 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040006&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/07/amazon-forced-to-recall-400k-products-that-could-kill-electrocute-people/feed/</wfw:commentRss>
+			<slash:comments>101</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Logitech has an idea for a “forever mouse” that requires a subscription</title>
+		<link>https://arstechnica.com/?p=2039972</link>
+					<comments>https://arstechnica.com/gadgets/2024/07/logitech-has-an-idea-for-a-forever-mouse-thatrequires-a-subscription/#comments</comments>
+		
+		<dc:creator><![CDATA[Scharon Harding]]></dc:creator>
+		<pubDate>Tue, 30 Jul 2024 17:49:07 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Logitech]]></category>
+		<category><![CDATA[Mice]]></category>
+		<category><![CDATA[Mouse]]></category>
+		<category><![CDATA[self-r]]></category>
+		<category><![CDATA[subscriptions]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2039972</guid>
+
+					<description><![CDATA[Exec says mouse that requires a regular fee for software updates is possible. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-485221091-800x532.jpg" alt="Studio shot of hand using computer mouse">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-485221091.jpg" class="enlarge-link" data-height="1412" data-width="2122">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/studio-shot-of-hand-using-computer-mouse-royalty-free-image/485221091">Getty</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Logitech CEO Hanneke Faber recently discussed the possibility of one day selling a mouse that customers can use "forever." The executive said such a mouse isn't "necessarily super far away" and will rely on software updates, likely delivered through a subscription model.</p>
+<p>Speaking on a July 29 episode of The Verge's <a href="https://www.theverge.com/24206847/logitech-ceo-hanneke-faber-mouse-keyboard-gaming-decoder-podcast-interview">Decoder</a> podcast, Faber, who Logitech appointed as CEO in October, said that members of a "Logitech innovation center" showed her "a forever mouse" and compared it to a nice but not "super expensive" watch. She said:</p>
+<blockquote><p>... I’m not planning to throw that watch away ever. So why would I be throwing my mouse or my keyboard away if it’s a fantastic-quality, well-designed, software-enabled mouse? The forever mouse is one of the things that we’d like to get to.</p></blockquote>
+<p>The concept mouse that Faber examined was "a little heavier" than the typical mouse. But what drives its longevity potential for Logitech is the idea of constantly updated software and services.</p></div><p><a href="https://arstechnica.com/?p=2039972#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039972&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/07/logitech-has-an-idea-for-a-forever-mouse-thatrequires-a-subscription/feed/</wfw:commentRss>
+			<slash:comments>339</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Loss of popular 2FA tool puts security-minded GrapheneOS in a paradox</title>
+		<link>https://arstechnica.com/?p=2039975</link>
+					<comments>https://arstechnica.com/gadgets/2024/07/loss-of-popular-2fa-tool-puts-security-minded-grapheneos-in-a-paradox/#comments</comments>
+		
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Tue, 30 Jul 2024 16:36:12 +0000</pubDate>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[2fa]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[Authy]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google play services]]></category>
+		<category><![CDATA[grapheneos]]></category>
+		<category><![CDATA[lineageos]]></category>
+		<category><![CDATA[ROMs]]></category>
+		<category><![CDATA[two-factor authentication]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2039975</guid>
+
+					<description><![CDATA[Losing access to Authy leads to another reckoning with Google's security model.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/graphene-800x534.jpg" alt="Scientist looking at a molecular model of graphene in a laboratory">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/graphene.jpg" class="enlarge-link" data-height="1414" data-width="2119">Enlarge</a> <span class="sep">/</span> Graphene is a remarkable allotrope, deserving of further study. GrapheneOS is a remarkable ROM, one that Google does not quite know how to accommodate, due to its "tiny, tiny" user numbers compared to mainstream Android. </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>"If it's not an official OS, we have to assume it's bad."</p>
+<p>That's how Shawn Wilden, the tech lead for hardware-backed security in Android, <a href="https://x.com/shawnwillden/status/1817928318039237001">described</a> the current reality of custom Android-based operating systems in response to a real security conundrum. <a href="https://grapheneos.org/">GrapheneOS</a> users <a href="https://www.reddit.com/r/LineageOS/comments/1e8m2a2/comment/ledtg3a/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button">discovered recently</a> that <a href="https://authy.com/">Authy</a>, a popular (and <a href="https://arstechnica.com/information-technology/2020/05/choosing-2fa-authenticator-apps-can-be-hard-ars-did-it-so-you-dont-have-to/">generally well-regarded</a>) two-factor authentication manager, will not work on their phones—phones running an OS intended to be more secure and hardened than any standard Android phone.</p>
+<p>"We don't want to punish users of alternative OSes, but there's really no other option at the moment," Wilden added before his blunt conclusion. "Play Integrity has absolutely no way to guess whether a given custom OS completely subverts the Android security model."</p></div><p><a href="https://arstechnica.com/?p=2039975#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039975&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/07/loss-of-popular-2fa-tool-puts-security-minded-grapheneos-in-a-paradox/feed/</wfw:commentRss>
+			<slash:comments>91</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Meta to pay $1.4 billion settlement after Texas facial recognition complaint</title>
+		<link>https://arstechnica.com/?p=2039989</link>
+					<comments>https://arstechnica.com/tech-policy/2024/07/meta-to-pay-1-4-billion-settlement-after-texas-facial-recognition-complaint/#comments</comments>
+		
+		<dc:creator><![CDATA[Financial Times]]></dc:creator>
+		<pubDate>Tue, 30 Jul 2024 16:21:08 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ken paxton]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[syndication]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2039989</guid>
+
+					<description><![CDATA[Facebook’s parent accused of gathering data from photos and videos without "informed consent."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/10/meta-down-800x539.jpg" alt="Meta to pay $1.4 billion settlement after Texas facial recognition complaint">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/10/meta-down.jpg" class="enlarge-link" data-height="690" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/in-this-photo-illustration-the-facebook-whatsapp-and-news-photo/1235722082">SOPA Images/Getty</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Facebook owner Meta has agreed to pay $1.4 billion to the state of Texas to settle claims that the company harvested millions of citizens’ biometric data without proper consent.</p>
+<p>The settlement, to be paid over five years, is the largest ever obtained from an action brought by a single US state, said a statement from Attorney General Ken Paxton.</p>
+<p>It also marks one of the largest penalties levied at Meta by regulators, second only to a $5 billion settlement it paid the US Federal Trade Commission in 2019 for the misuse of user data in the wake of the Cambridge Analytica privacy scandal.</p></div><p><a href="https://arstechnica.com/?p=2039989#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039989&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/07/meta-to-pay-1-4-billion-settlement-after-texas-facial-recognition-complaint/feed/</wfw:commentRss>
+			<slash:comments>41</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tesla recalls 1.8 million cars because their hoods can open while driving</title>
+		<link>https://arstechnica.com/?p=2039948</link>
+					<comments>https://arstechnica.com/cars/2024/07/tesla-recalls-1-8-million-cars-because-their-hoods-can-open-while-driving/#comments</comments>
+		
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+		<pubDate>Tue, 30 Jul 2024 14:20:17 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Tesla recall]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2039948</guid>
+
+					<description><![CDATA[The problem seems more prevalent in China than elsewhere, "for reasons unknown."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-993427446-800x533.jpg" alt="An employee closes the front hood of a Tesla Inc. Model 3 electric vehicle at the company's showroom in Newport Beach, California, U.S., on Friday, July 6, 2018.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-993427446-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> (credit:  Patrick T. Fallon/Bloomberg via Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The electric car manufacturer Tesla had to issue a massive recall this month to fix faulty hood latches that can open while its cars are driving. The problem affects more than 1.8 million cars, which means it's slightly smaller than the recall in December that applied to <a href="https://arstechnica.com/cars/2023/12/more-than-2-million-teslas-are-being-recalled-due-to-unsafe-autopilot/">more than 2 million Teslas</a>.</p>
+<p>The problem, according to the official National Highway Traffic Safety Administration's <a href="https://static.nhtsa.gov/odi/rcl/2024/RCLRPT-24V554-1225.PDF">Part 573 safety recall report</a>, affects model year 2021–2024 Model 3s (built between September 21, 2020, and June 2, 2024), model year 2021–2024 Model Ss (built between January 26, 2021, and July 15, 2024), model year 2021–2024 Model Xs (built between August 18, 2021, and July 15, 2024), and model year 2020–2024 Model Ys (built between January 9, 2020, and July 15, 2024).</p>
+<p>The problem first became apparent to Tesla in March of this year after complaints about unintended hood opening from Chinese customers. By April, it had identified the problem as deformation of the hood latch switch, "which could prevent the customer from being notified about an open hood state."</p></div><p><a href="https://arstechnica.com/?p=2039948#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039948&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/07/tesla-recalls-1-8-million-cars-because-their-hoods-can-open-while-driving/feed/</wfw:commentRss>
+			<slash:comments>230</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Hybrids between two species can produce “swarms” that flourish</title>
 		<link>https://arstechnica.com/?p=2036554</link>
+					<comments>https://arstechnica.com/science/2024/07/how-hybrid-swarms-can-break-down-species-boundaries-and-take-over-habitats/#comments</comments>
 		
 		<dc:creator><![CDATA[Ars Contributors]]></dc:creator>
 		<pubDate>Tue, 30 Jul 2024 11:00:06 +0000</pubDate>
@@ -39,7 +504,7 @@
 					<description><![CDATA[Humans may be part of a hybrid swarm. And we’re making more of them.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/liger-hybrid-800x450.jpg" alt="Hybrids between two species can produce “swarms” that flourish">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/liger-hybrid-800x450.jpg" alt="An artist manipulated image showing the blending of a lion and a tiger">
       <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/liger-hybrid.jpg" class="enlarge-link" data-height="1309" data-width="2328">Enlarge</a> (credit: Aurich Lawson | Getty Images)</p>  </figure>
 
 
@@ -52,6 +517,8 @@
 <p>As it turns out, hybridization in nature is quite common. Some 25 percent of plant species hybridize and some 10 percent of animals do the same.</p>
 <p>“Hybridization as an event is rare,” said Jeremie Fant, a conservation scientist with the Chicago Botanic Garden who has worked on plant hybridization. “But in evolutionary history, it's been very common. Hybrids in the plant kingdom are everywhere. They are scattered through most lineages. When hybridization does occur, it can have important evolutionary impacts.”</p></div><p><a href="https://arstechnica.com/?p=2036554#p3">Read 50 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2036554&comments=1">Comments</a></p>]]></content:encoded>
 					
+					<wfw:commentRss>https://arstechnica.com/science/2024/07/how-hybrid-swarms-can-break-down-species-boundaries-and-take-over-habitats/feed/</wfw:commentRss>
+			<slash:comments>72</slash:comments>
 		
 		
 			</item>
@@ -84,7 +551,7 @@
 <p>As <a href="https://arstechnica.com/culture/2024/05/saurons-dark-rise-is-front-and-center-in-the-rings-of-power-s2-teaser/">previously reported</a>, Prime Video made a major investment in <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Rings_of_Power"><em>The Rings of Power</em></a> when it acquired the rights to the source material from the Tolkien estate, even committing to multiple seasons upfront. Pretty much everyone guessed long before the S1 finale's reveal that Halbrand (Charlie Vickers), king of the Southlands, was Sauron in disguise. Fans even dubbed him "Hot Sauron." He took advantage of the fact that the elvish light of Valar was fading, putting the race of elves in danger of extinction unless they returned to Valinor to preserve their immortality. The discovery of the precious ore mithril gave the elves another option championed by Elrond (Robert Aramayo), Galadriel (Morfydd Clark), and the elven smith Celebrimbor (Charles Edwards).</p></div><p><a href="https://arstechnica.com/?p=2039912#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039912&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/culture/2024/07/lavish-the-rings-of-power-s2-trailer-debuts-at-san-diego-comic-con/feed/</wfw:commentRss>
-			<slash:comments>63</slash:comments>
+			<slash:comments>120</slash:comments>
 		
 		
 			</item>
@@ -121,7 +588,7 @@
 <p><strong>(Spoilers for 2022's <em>The Batman</em> below.)</strong></p></div><p><a href="https://arstechnica.com/?p=2039876#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039876&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/culture/2024/07/brooding-colin-farrell-channels-tony-soprano-in-the-penguin-comic-con-trailer/feed/</wfw:commentRss>
-			<slash:comments>59</slash:comments>
+			<slash:comments>92</slash:comments>
 		
 		
 			</item>
@@ -157,7 +624,7 @@
 <p>On desktop, look for a sidebar on the right-hand side that has buttons for setting text size and width, and then "Color (beta)." If you don't see a sidebar, look for an eyeglasses-like icon in the upper-right corner near the search and account tools. On mobile, look for the three horizontal bars (aka hamburger button) in the upper-left corner of a page, choose Settings, then pick your Color. There is the standard Light you know, Dark, and Automatic, which takes its color cues from your system.</p></div><p><a href="https://arstechnica.com/?p=2039811#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039811&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/07/wikipedia-finally-has-an-official-dark-mode-on-desktop-and-mobile/feed/</wfw:commentRss>
-			<slash:comments>62</slash:comments>
+			<slash:comments>88</slash:comments>
 		
 		
 			</item>
@@ -194,7 +661,7 @@
 <p>Full administrative control of the hypervisor gives attackers various capabilities, including encrypting the file system and taking down the servers they host. The hypervisor control can also allow attackers to access hosted virtual machines to either exfiltrate data or expand their foothold inside a network. Microsoft discovered the vulnerability under exploit in the normal course of investigating the attacks and reported it to VMware. VMware parent company Broadcom <a href="https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24505">patched</a> the vulnerability on Thursday.</p></div><p><a href="https://arstechnica.com/?p=2039863#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039863&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/security/2024/07/hackers-exploit-vmware-vulnerability-that-gives-them-hypervisor-admin/feed/</wfw:commentRss>
-			<slash:comments>52</slash:comments>
+			<slash:comments>63</slash:comments>
 		
 		
 			</item>
@@ -231,7 +698,7 @@
 <p>The final season of <em>Lower Decks</em> premieres on Paramount+ on October 24, 2024, and will run through December 19.</p></div><p><a href="https://arstechnica.com/?p=2039676#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039676&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/culture/2024/07/star-treks-comic-con-panel-debuts-teaser-for-lower-decks-final-season/feed/</wfw:commentRss>
-			<slash:comments>80</slash:comments>
+			<slash:comments>123</slash:comments>
 		
 		
 			</item>
@@ -264,7 +731,7 @@
 <p>Republican lawmakers' main complaint was that most of the ACP money went to households that already had broadband before the subsidy was created. FCC Chairwoman Jessica Rosenworcel warned that killing the discounts would reduce Internet access, <a href="https://docs.fcc.gov/public/attachments/DOC-402286A1.pdf">saying</a> an FCC survey found that 77 percent of participating households would change their plan or drop Internet service entirely once the discounts expired.</p></div><p><a href="https://arstechnica.com/?p=2039833#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039833&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/07/low-income-homes-drop-internet-service-after-congress-kills-discount-program/feed/</wfw:commentRss>
-			<slash:comments>57</slash:comments>
+			<slash:comments>96</slash:comments>
 		
 		
 			</item>
@@ -297,466 +764,7 @@
 <p>This is where <a href="https://highways.dot.gov/safety/proven-safety-countermeasures/road-diets-roadway-reconfiguration">road diets</a> come in—they're a relatively cheap and simple way to slow traffic and significantly cut the accident rate along a stretch of road. You take a four-lane (two-way road) and repaint it so there are now three lanes for cars: one in each direction, with a center lane in the middle for turning. The remaining space on either side becomes bike lanes (<a href="https://arstechnica.com/cars/2019/05/bike-lanes-need-physical-protection-from-car-traffic-study-shows/">physically protected ones</a>, please).</p></div><p><a href="https://arstechnica.com/?p=2039836#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039836&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/cars/2024/07/ambulances-arent-slowed-by-bike-lanes-and-traffic-calming-measures/feed/</wfw:commentRss>
-			<slash:comments>186</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>SpaceX moving Dragon splashdowns to Pacific to solve falling debris problem</title>
-		<link>https://arstechnica.com/?p=2039636</link>
-					<comments>https://arstechnica.com/space/2024/07/spacex-moving-dragon-splashdowns-to-pacific-to-solve-falling-debris-problem/#comments</comments>
-		
-		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
-		<pubDate>Mon, 29 Jul 2024 20:02:06 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[commercial crew]]></category>
-		<category><![CDATA[dragon]]></category>
-		<category><![CDATA[human spaceflight]]></category>
-		<category><![CDATA[international space station]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[spacex]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2039636</guid>
-
-					<description><![CDATA["We've decided to shift Dragon recovery operations back to the West Coast."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/52101241999_c63715e3d5_k-800x533.jpg" alt="A Crew Dragon spacecraft is seen docked at the International Space Station in 2022. The section of the spacecraft on the left is the pressurized capsule, while the rear section, at right, is the trunk.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/52101241999_c63715e3d5_k.jpg" class="enlarge-link" data-height="1200" data-width="1800">Enlarge</a> <span class="sep">/</span> A Crew Dragon spacecraft is seen docked at the International Space Station in 2022. The section of the spacecraft on the left is the pressurized capsule, while the rear section, at right, is the trunk. (credit: NASA)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Sometime next year, SpaceX will begin returning its Dragon crew and cargo capsules to splashdowns in the Pacific Ocean and end recoveries of the spacecraft off the coast of Florida.</p>
-<p>This will allow SpaceX to make changes to the way it brings Dragons back to Earth and eliminate the risk, however tiny, that a piece of debris from the ship's trunk section might fall on someone and cause damage, injury, or death.</p>
-<p>"After five years of splashing down off the coast of Florida, we've decided to shift Dragon recovery operations back to the West Coast," said Sarah Walker, SpaceX's director of Dragon mission management.</p></div><p><a href="https://arstechnica.com/?p=2039636#p3">Read 24 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039636&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/07/spacex-moving-dragon-splashdowns-to-pacific-to-solve-falling-debris-problem/feed/</wfw:commentRss>
-			<slash:comments>72</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>From sci-fi to state law: California’s plan to prevent AI catastrophe</title>
-		<link>https://arstechnica.com/?p=2036533</link>
-					<comments>https://arstechnica.com/information-technology/2024/07/from-sci-fi-to-state-law-californias-plan-to-prevent-ai-catastrophe/#comments</comments>
-		
-		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
-		<pubDate>Mon, 29 Jul 2024 19:05:43 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[AI regulation]]></category>
-		<category><![CDATA[Center for AI Safety]]></category>
-		<category><![CDATA[Dan Hendrycks]]></category>
-		<category><![CDATA[Daniel Jeffries]]></category>
-		<category><![CDATA[Dr. Nirit Weiss-Blatt]]></category>
-		<category><![CDATA[Geoffrey Hinton]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[SB-1047]]></category>
-		<category><![CDATA[Scott Wiener]]></category>
-		<category><![CDATA[Yann LeCun]]></category>
-		<category><![CDATA[Yoshua Bengio]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2036533</guid>
-
-					<description><![CDATA[Critics say SB-1047, proposed by "AI doomers," could slow innovation and stifle open source AI.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/california_state_capital_building-800x450.jpg" alt="The California state capital building in Sacramento.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/california_state_capital_building.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> The California State Capitol Building in Sacramento. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/capital-building-at-night-royalty-free-image/182176535">Getty Images</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>California's "Safe and Secure Innovation for Frontier Artificial Intelligence Models Act" (a.k.a. SB-1047) has led to a flurry of <a href="https://www.vox.com/future-perfect/361562/california-ai-bill-scott-wiener-sb-1047">headlines</a> and <a href="https://fortune.com/2024/07/15/california-ai-bill-sb-1047-fierce-debate-regulation-safety/">debate</a> concerning the overall "safety" of large artificial intelligence models. But critics are concerned that the bill's overblown focus on existential threats by future AI models could severely limit research and development for more prosaic, non-threatening AI uses today.</p>
-
-<p><a href="https://digitaldemocracy.calmatters.org/bills/ca_202320240sb1047">SB-1047</a>, introduced by State Senator <a href="https://sd11.senate.ca.gov/">Scott Wiener</a>, passed the California Senate <a href="https://sd11.senate.ca.gov/news/bipartisan-vote-senate-passes-senator-wieners-landmark-ai-safety-and-innovation-bill">in May</a> with a 32-1 vote and seems well positioned for a final vote in the State Assembly in August. The text of the bill requires companies behind sufficiently large AI models (currently set at $100 million in training costs and the rough computing power implied by those costs today) to put testing procedures and systems in place to prevent and respond to "safety incidents."</p>
-<p>The bill lays out a legalistic definition of those safety incidents that in turn focuses on defining a set of "critical harms" that an AI system might enable. That includes harms leading to "mass casualties or at least $500 million of damage," such as "the creation or use of chemical, biological, radiological, or nuclear weapon" (hello, <a href="https://en.wikipedia.org/wiki/Skynet_(Terminator)">Skynet</a>?) or "precise instructions for conducting a cyberattack... on critical infrastructure." The bill also alludes to "other grave harms to public safety and security that are of comparable severity" to those laid out explicitly.</p></div><p><a href="https://arstechnica.com/?p=2036533#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2036533&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/information-technology/2024/07/from-sci-fi-to-state-law-californias-plan-to-prevent-ai-catastrophe/feed/</wfw:commentRss>
-			<slash:comments>73</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Air pollution makes it harder for bees to smell flowers</title>
-		<link>https://arstechnica.com/?p=2039764</link>
-					<comments>https://arstechnica.com/science/2024/07/air-pollution-makes-it-harder-for-bees-to-smell-flowers/#comments</comments>
-		
-		<dc:creator><![CDATA[Knowable Magazine]]></dc:creator>
-		<pubDate>Mon, 29 Jul 2024 18:34:43 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[air pollution]]></category>
-		<category><![CDATA[bees]]></category>
-		<category><![CDATA[pollination]]></category>
-		<category><![CDATA[pollinators]]></category>
-		<category><![CDATA[syndication]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2039764</guid>
-
-					<description><![CDATA[Contaminants can alter plant odors and warp insects’ senses, disrupting the process of pollination.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2013/05/bee_flying_from_pdphoto-640x480.jpg" alt="Scientists are uncovering various ways that air pollution can interfere with the ability of insects to pollinate plants.">
-      <p class="caption" style="font-size:0.8em">Scientists are uncovering various ways that air pollution can interfere with the ability of insects to pollinate plants. (credit: <a rel="nofollow" class="caption-link" href="http://pioneer.utah.gov/research/utah_symbols/insect.html">Utah.gov</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>In the summers of 2018 and 2019, ecologist <a href="https://www.reading.ac.uk/sustainable-land-management/our-staff/james-ryalls">James Ryalls</a> and his colleagues would go out to a field near Reading in southern England to stare at the insects buzzing around black mustard plants. Each time a bee, hoverfly, moth, butterfly, or <a href="https://knowablemagazine.org/content/article/food-environment/2021/the-essential-fly">other insect</a> tried to get at the pollen or nectar in the small yellow flowers, they’d make a note.</p>
-<p>It was part of an unusual experiment. Some patches of mustard plants were surrounded by pipes that released ozone and nitrogen oxides—polluting gases produced around power plants and conventional cars. Other plots had pipes releasing normal air.</p>
-<p>The results startled the scientists. Plants smothered by pollutants were visited by <a href="https://www.sciencedirect.com/science/article/pii/S0269749122000616">up to 70 percent fewer insects overall, and their flowers received 90 percent fewer visits</a> compared with those in unpolluted plots. The concentrations of pollutants were well below what US regulators consider safe. “We didn’t expect it to be quite as dramatic as that,” says study coauthor <a href="https://staffprofile.unisq.edu.au/Profile/Robbie-Girling">Robbie Girling</a>, an entomologist at the University of Southern Queensland in Australia and a visiting professor at the University of Reading.</p></div><p><a href="https://arstechnica.com/?p=2039764#p3">Read 21 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039764&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/07/air-pollution-makes-it-harder-for-bees-to-smell-flowers/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Although it’s not final, SpaceX just got good news from the FAA on Starbase</title>
-		<link>https://arstechnica.com/?p=2039734</link>
-					<comments>https://arstechnica.com/space/2024/07/although-its-not-final-spacex-just-got-good-news-from-the-faa-on-starbase/#comments</comments>
-		
-		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
-		<pubDate>Mon, 29 Jul 2024 18:20:10 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[FAA]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[Starbase]]></category>
-		<category><![CDATA[starship]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2039734</guid>
-
-					<description><![CDATA["SpaceX has dramatically reduced the duration of operations."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/booster-flight-5-800x450.jpg" alt="The Super Heavy booster for Flight 5 of Starship undergoes a static fire test earlier this month.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/booster-flight-5-scaled.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> <span class="sep">/</span> The Super Heavy booster for Flight 5 of Starship undergoes a static fire test earlier this month. (credit: SpaceX)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>After SpaceX decided to launch orbital missions of its Starship rocket from Texas about five years ago, the company had to undergo a federal environmental review of the site to ensure it was safe to do so.</p>
-<p>As a part of this multi-year process, the Federal Aviation Administration completed a Final Programmatic Environmental Assessment in June 2022. Following that review, SpaceX received approval to conduct up to five Starship launches from South Texas annually.</p>
-<p>SpaceX has since launched Starship four times from its launch site in South Texas, known as Starbase, and is planning a fifth launch within the next two months. However, as it continues to test Starship and make plans for regular flights, SpaceX will need a higher flight rate. This is especially true as the company is unlikely to activate additional launch pads for Starship in Florida until at least 2026.</p></div><p><a href="https://arstechnica.com/?p=2039734#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039734&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/07/although-its-not-final-spacex-just-got-good-news-from-the-faa-on-starbase/feed/</wfw:commentRss>
-			<slash:comments>89</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>iOS 18.1 developer beta brings Apple Intelligence into the wild for the first time</title>
-		<link>https://arstechnica.com/?p=2039736</link>
-					<comments>https://arstechnica.com/gadgets/2024/07/you-can-now-try-apple-intelligence-in-the-ios-macos-developer-beta/#comments</comments>
-		
-		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
-		<pubDate>Mon, 29 Jul 2024 18:04:09 +0000</pubDate>
-				<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[apple intelligence]]></category>
-		<category><![CDATA[Apple Mail]]></category>
-		<category><![CDATA[iOS]]></category>
-		<category><![CDATA[ios 18]]></category>
-		<category><![CDATA[iOS 18.1]]></category>
-		<category><![CDATA[MacOS]]></category>
-		<category><![CDATA[macOS 15]]></category>
-		<category><![CDATA[macOS 15.1]]></category>
-		<category><![CDATA[Siri]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2039736</guid>
-
-					<description><![CDATA[Some features will be included, and others won't.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/apple_intelligence_hero-800x444.jpg" alt="Craig Federighi stands in front of a screen with the words " apple intelligence>
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/apple_intelligence_hero.jpg" class="enlarge-link" data-height="666" data-width="1200">Enlarge</a> <span class="sep">/</span> Apple Intelligence was unveiled at WWDC 2024. (credit: Apple)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>As was just <a href="https://arstechnica.com/gadgets/2024/07/apple-intelligence-features-reportedly-wont-be-ready-for-ios-18s-launch-this-fall/">rumored</a>, the iOS 18.1, iPadOS 18.1, and macOS Sequoia 15.1 developer betas are rolling out today, and they include the first opportunity to try out Apple Intelligence, the company's suite of generative AI features.</p>
-<p>Initially announced for iOS 18, Apple Intelligence is expected to launch for the public this fall. Typically, Apple also releases a public beta (the developer one requires a developer account) for new OS updates, but it hasn't announced any specifics about that just yet.</p>
-<p>Not all the Apple Intelligence features will be part of this beta. It will include writing tools, like the ability to rewrite, proofread, or summarize text throughout the OS in first-party and most third-party apps. It will also include new Siri improvements, such as moving seamlessly between voice and typing, the ability to follow when you stumble over your words, and maintaining context from one request to the next. (It will not, however, include ChatGPT integration; Apple says that's coming later.)</p></div><p><a href="https://arstechnica.com/?p=2039736#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039736&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/07/you-can-now-try-apple-intelligence-in-the-ios-macos-developer-beta/feed/</wfw:commentRss>
-			<slash:comments>43</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Marvel has cast Robert Downey Jr. as Doctor Doom in two new Avengers movies</title>
-		<link>https://arstechnica.com/?p=2039678</link>
-					<comments>https://arstechnica.com/culture/2024/07/robert-downey-jr-returns-to-mcu-as-doctor-doom-in-two-new-avengers-movies/#comments</comments>
-		
-		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
-		<pubDate>Mon, 29 Jul 2024 17:01:56 +0000</pubDate>
-				<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Avengers: Doomsday]]></category>
-		<category><![CDATA[Captain America: Brave New World]]></category>
-		<category><![CDATA[Fantastic Four First Steps]]></category>
-		<category><![CDATA[mcu]]></category>
-		<category><![CDATA[MCU Phase Five]]></category>
-		<category><![CDATA[MCU Phase Six]]></category>
-		<category><![CDATA[Robert Downey Jr.]]></category>
-		<category><![CDATA[Russo brothers]]></category>
-		<category><![CDATA[san diego comic con]]></category>
-		<category><![CDATA[Thunderbolts]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2039678</guid>
-
-					<description><![CDATA[Also news re: <em>Captain America: Brave New World</em>, <em>Thunderbolts</em>, <em>Fantastic Four: First Steps</em>.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/marvel1-800x539.jpg" alt="Robert Downey Jr in all-green outfit and sunglasses standing with arms spayed wide in triumph">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/marvel1.jpg" class="enlarge-link" data-height="809" data-width="1200">Enlarge</a> <span class="sep">/</span> Robert Downey Jr. will play Doctor Doom in two new Avengers movies from the Russo brothers. (credit: Marvel Studios)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The Marvel Cinematic Universe received a much-needed boost this weekend with the box office dominance of <a href="https://arstechnica.com/culture/2024/07/final-deadpool-and-wolverine-trailer-strikes-a-surprisingly-somber-note/"><em>Deadpool and Wolverin</em>e</a>, which raked in a <a href="https://deadline.com/2024/07/deadpool-wolverine-box-office-records-1236025175/">record-breaking</a> $438.3 million worldwide and $205 million domestically. And the Marvel panel at this weekend's San Diego Comic-Con kept up the momentum, delighting attendees with sneak peeks of what's to come—most notably the <a href="https://deadline.com/2024/07/robert-downey-jr-victor-von-doom-avengers-doomsday-1236024873/">return of Robert Downey Jr.</a> to the MCU. The twist: RDJ won't be donning his usual Iron Man suit. Instead, he'll be playing Doctor Doom for <em>Avengers: Doomsday</em> (2026), with the Russo brothers <a href="https://deadline.com/2024/07/avengers-russo-brothers-comic-con-1236024839/">returning to direct</a>. This will be followed by the Russo-directed <em>Avengers: Secret Wars</em> (2027).</p>
-<p>Comic-Con attendees were also treated to exclusive new footage from <em>Captain America: Brave New World</em>, and updates on <em>Thunderbolts</em> and <em>The Fantastic Four</em> reboot, <a href="https://deadline.com/2024/07/the-fantastic-four-first-steps-marvel-comic-con-1236021939/">titled <em>First Steps</em></a>, as well as a surprise screening of <em>Deadpool and Wolverine</em>.</p>
-<h2>“New mask, same task”</h2>
-<div class="image shortcode-img center large"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/marvel4.jpg"><img alt="The Russo brothers will direct &lt;em&gt;Avengers: Secret Wars&lt;/em&gt; and &lt;em&gt;Avengers: Doomsday.&lt;/em&gt;" src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/marvel4-640x427.jpg" srcset="https://cdn.arstechnica.net/wp-content/uploads/2024/07/marvel4.jpg 2x"></a><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/marvel4.jpg" class="caption-link" rel="nofollow">The Russo brothers will direct <em>Avengers: Secret Wars</em> and <em>Avengers: Doomsday.</em></a> (credit: Marvel Studios)</p></div>
-<p>It's no secret that Marvel Studios originally planned to build its Phase Six Avengers arc (<em>The Kang Dynasty</em>) around Jonathan Majors' Kang the Conqueror (and associated Variants), introduced in <em>Loki</em> and last year's <em>Ant-Man and the Wasp: Quantumania</em>. But then Majors was convicted of "reckless assault and harassment" (domestic violence), and Marvel fired the actor soon after. That meant the studio needed to retool its Phase Six plans, culminating in the announced return of the Russo brothers, who directed four of the MCU's most successful films, which brought in more than $6 billion at the global box office.</p></div><p><a href="https://arstechnica.com/?p=2039678#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039678&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/culture/2024/07/robert-downey-jr-returns-to-mcu-as-doctor-doom-in-two-new-avengers-movies/feed/</wfw:commentRss>
-			<slash:comments>175</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Apple Intelligence features reportedly won’t be ready for iOS 18’s launch this fall</title>
-		<link>https://arstechnica.com/?p=2039693</link>
-					<comments>https://arstechnica.com/gadgets/2024/07/apple-intelligence-features-reportedly-wont-be-ready-for-ios-18s-launch-this-fall/#comments</comments>
-		
-		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
-		<pubDate>Mon, 29 Jul 2024 15:54:08 +0000</pubDate>
-				<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[ios 18]]></category>
-		<category><![CDATA[iPadOS 18]]></category>
-		<category><![CDATA[macOS 15]]></category>
-		<category><![CDATA[macos 15 sequoia]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2039693</guid>
-
-					<description><![CDATA[Betas of iOS 18.1 et al with Apple Intelligence could land as soon as this week.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/new-2024-apple-update-800x495.jpeg" alt="Apple Intelligence features reportedly won’t be ready for iOS 18’s launch this fall">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/new-2024-apple-update-scaled.jpeg" class="enlarge-link" data-height="1585" data-width="2560">Enlarge</a> (credit: Apple)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Apple spent a lot of time at its Worldwide Developers Conference this year talking up the new iOS 18, iPadOS 18, and macOS 15 features powered by <a href="https://arstechnica.com/information-technology/2024/06/for-apple-ai-now-stands-for-apple-intelligence-launched-at-wwdc-2024/">Apple Intelligence</a>, the brand name Apple is using for various generative AI features. But beta testers still haven't been able to use any of these features for themselves, even though Apple has released four developer beta builds and two public beta builds of all of these updates at this point.</p>
-<p>Bloomberg's Mark Gurman <a href="https://www.bloomberg.com/news/articles/2024-07-28/apple-intelligence-to-miss-initial-release-of-upcoming-ios-18-ipados-overhauls">reports</a> that Apple still plans to release a preview of these features this summer, but the Apple Intelligence features will actually be "later than anticipated." Apple Intelligence reportedly won't be ready when the initial versions of these operating systems launch in the fall—usually mid-to-late September—and Apple currently plans to launch them to the general public in an update in October, the report says.</p>
-
-<p>Gurman says that Apple will still have a preview of the Apple Intelligence features available for beta testers this summer as promised. But they'll be available in beta versions of iOS 18.1 and iPadOS 18.1 updates that will be released and tested separately from the 18.0 updates that are currently available in Apple's developer and public beta programs. (Gurman doesn't specifically mention macOS 15 Sequoia, but hopefully a 15.1 update with the Apple Intelligence features will be available for Macs, too.)</p></div><p><a href="https://arstechnica.com/?p=2039693#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039693&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/07/apple-intelligence-features-reportedly-wont-be-ready-for-ios-18s-launch-this-fall/feed/</wfw:commentRss>
-			<slash:comments>43</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Synology BeeStation review: A great way to start getting real about backups</title>
-		<link>https://arstechnica.com/?p=2038468</link>
-					<comments>https://arstechnica.com/gadgets/2024/07/synology-beestation-review-a-great-way-to-start-getting-real-about-backups/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Mon, 29 Jul 2024 11:00:54 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Reviews]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[backup]]></category>
-		<category><![CDATA[beestation]]></category>
-		<category><![CDATA[dropbox]]></category>
-		<category><![CDATA[Google drive]]></category>
-		<category><![CDATA[NAS]]></category>
-		<category><![CDATA[network attached storage]]></category>
-		<category><![CDATA[onedrive]]></category>
-		<category><![CDATA[Synology]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2038468</guid>
-
-					<description><![CDATA[If you're not ready for full-on NAS gear, consider this clever little drive.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/beestation_handout-800x388.jpg" alt="BeeStation drive next to a laptop and smartphone aon a desk, with a notebook and pen in the foreground, laptop screen showing photos from BeeStation in a grid.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/beestation_handout.jpg" class="enlarge-link" data-height="1241" data-width="2560">Enlarge</a> <span class="sep">/</span> In this handout image from Synology, a thoughtful worker uses BeeFiles on their MacBook and BeePhotos on their iPhone, always keeping their BeeStation close at hand. They might have important thoughts about the books "Island" or "DECO" to keep stored privately, redundantly, forever. (credit: Synology)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Dropbox is not backup. A portable hard drive is not backup. Real backup, experienced people have told me, starts with <a href="https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf">the 3-2-1 rule</a>: three copies, two types of storage (or devices), and one copy is remote.</p>
-<p>And yet my data backup system remains precarious. I have tried many schemes, ranging from “pay for Google Drive space and just dump it all there” to “multi-platform rsync/crontab-based headless system I try to build out with help from StackExchange.” I try not to be the person in an informercial, insisting that there must be a better way, but when it comes to backing up music, photos, cloud-based email and files, settings, and more, I am indeed that person. There <i>has</i> to be a better way, and it can’t just be the heavy lift of setting up a Synology NAS, right?</p>
-<p>Well, what if Synology itself knew that not everybody is ready to become a self-employed, single-client junior sysadmin? That’s how I think about <a href="https://bee.synology.com/en-me/BeeStation">the BeeStation</a> ($220 as of this writing). It’s just enough backup to be way better than what most people think of as backup (praying that a giant corporation never loses or closes their account), but it’s still just one device. It can also create a pretty smooth ascent to full-on NAS if this little taste of self-directed storage spurs your ambitions.</p></div><p><a href="https://arstechnica.com/?p=2038468#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2038468&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/07/synology-beestation-review-a-great-way-to-start-getting-real-about-backups/feed/</wfw:commentRss>
-			<slash:comments>188</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Are you a workaholic? Here’s how to spot the signs</title>
-		<link>https://arstechnica.com/?p=2039521</link>
-					<comments>https://arstechnica.com/science/2024/07/are-you-a-workaholic-heres-how-to-spot-the-signs/#comments</comments>
-		
-		<dc:creator><![CDATA[Knowable Magazine]]></dc:creator>
-		<pubDate>Sun, 28 Jul 2024 11:02:37 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[workaholic]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2039521</guid>
-
-					<description><![CDATA[Psychologists now view an out-of-control compulsion to work as an addiction.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-523148304-800x655.jpg" alt="Man works late in dimly lit cubicle amid a dark office space">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-523148304-scaled.jpg" class="enlarge-link" data-height="2095" data-width="2560">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/man-working-late-in-cubicle-royalty-free-image/523148304">Bill Varie/Getty Images</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>An accountant who fills out spreadsheets at the beach, a dog groomer who always has time for one more client, a basketball player who shoots free throws to the point of exhaustion.</p>
-<p>Every profession has its share of hard chargers and overachievers. But for some workers—perhaps more than ever in our always-on, always-connected world—the drive to send one more email, clip one more poodle, sink one more shot becomes all-consuming.</p>
-<p>Workaholism is a common feature of the modern workplace. A recent review gauging its pervasiveness across occupational fields and cultures <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10643257/">found that roughly 15 percent of workers</a> qualify as workaholics. That adds up to millions of overextended employees around the world who don’t know when—or how, or why—to quit.</p></div><p><a href="https://arstechnica.com/?p=2039521#p3">Read 25 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039521&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/07/are-you-a-workaholic-heres-how-to-spot-the-signs/feed/</wfw:commentRss>
-			<slash:comments>135</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>It’s not just us: Other animals change their social habits in old age</title>
-		<link>https://arstechnica.com/?p=2039482</link>
-					<comments>https://arstechnica.com/science/2024/07/its-not-just-us-other-animals-change-their-social-habits-in-old-age/#comments</comments>
-		
-		<dc:creator><![CDATA[Knowable Magazine]]></dc:creator>
-		<pubDate>Sat, 27 Jul 2024 11:08:45 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[animal behavior]]></category>
-		<category><![CDATA[animal psychology]]></category>
-		<category><![CDATA[syndication]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2039482</guid>
-
-					<description><![CDATA[Long-term studies reveal what elderly deer, sheep, and macaques are up to in their later years.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-1404565632-800x533.jpg" alt="A Rhesus macaque on a Buddhist stupa in the Swayambhunath temple complex in Kathmandu, Nepal">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-1404565632-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> As female macaques age, the size of their social network shrinks. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/rhesus-macaque-on-a-buddhist-stupa-in-the-swayambhunath-news-photo/1404565632">Jon G. Fuller/VW Pics/Universal Images Group via Getty Images</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Walnut was born on June 3, 1995, at the start of what would become an unusually hot summer, on an island called Rum (pronounced <em>room</em>), the largest of the Small Isles off the west coast of Scotland. We know this because since 1974, <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-ecolsys-012722-024041">researchers have diligently recorded</a> the births of red deer like her, and caught, weighed and marked every calf they could get their hands on—about 9 out of every 10.</p>
-<p>Near the cottage in Kilmory on the northern side of the island where the researchers are based, there has been no hunting since the project began, which allowed the deer to relax and get used to human observers. Walnut was a regular there, grazing the invariably short-clipped grass in this popular spot. “She would always just be there in the group, with her sisters and their families,” says biologist Alison Morris, who has lived on Rum for more than 23 years and studies the deer year-round.</p>
-<p>Walnut raised 14 offspring, the last one in 2013, when she was 18 years old. In her later years, Morris recalls, Walnut would spend most of her time away from the herd, usually with Vanity, another female (called a hind) of the same age who had never calved. “They were often seen affectionately grooming each other, and after Walnut died of old age in October 2016, at the age of 21—quite extraordinary for a hind—Vanity spent most of her time alone. She died two years later, at the grand age of 23.”</p></div><p><a href="https://arstechnica.com/?p=2039482#p3">Read 27 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039482&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/07/its-not-just-us-other-animals-change-their-social-habits-in-old-age/feed/</wfw:commentRss>
-			<slash:comments>34</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>The Summit 1 is not peak e-mountain bike, but it’s a great all-rounder</title>
-		<link>https://arstechnica.com/?p=2038100</link>
-					<comments>https://arstechnica.com/cars/2024/07/the-summit-1-is-not-peak-mountain-bike-but-its-a-great-all-rounder/#comments</comments>
-		
-		<dc:creator><![CDATA[John Timmer]]></dc:creator>
-		<pubDate>Sat, 27 Jul 2024 11:00:55 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[e-bikes]]></category>
-		<category><![CDATA[e-mountain bike]]></category>
-		<category><![CDATA[hardtail]]></category>
-		<category><![CDATA[velotric]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2038100</guid>
-
-					<description><![CDATA[Great price, a solid all-around bike, but not everything you might want from an MTB.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/intro-view-800x571.jpg" alt="Image of a blue hard tail mountain bike leaning against a grey stone wall.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/intro-view.jpg" class="enlarge-link" data-height="1427" data-width="2000">Enlarge</a> (credit: John Timmer)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>As I mentioned in another recent review, I've been checking out electric hardtail mountain bikes lately. Their relative simplicity compared to full-suspension models tends to allow companies to hit a lower price point without sacrificing much in terms of component quality, potentially opening up mountain biking to people who might not otherwise consider it. The first e-hardtail I checked out, <a href="https://arstechnica.com/cars/2024/07/aventons-ramblas-an-e-bike-that-offers-a-hard-tail-and-a-solid-ride/">Aventon's Ramblas</a>, fits this description to a T, offering a solid trail riding experience at a price that's competitive with similar offerings from major manufacturers.</p>
-<p><a href="https://www.velotricbike.com/products/velotric-summit-1?variant=42388148912311">Velotric's Summit 1</a> has a slightly different take on the equation. The company has made a few compromises that allowed it to bring the price down to just under $2,000, which is significantly lower than a lot of the competition. The result is something that's a bit of a step down on some more challenging trails. But it still can do about 90 percent of what most alternatives offer, and it's probably a better all-around bicycle for people who intend to also use it for commuting or errand-running.</p>
-<h2>Making the Summit</h2>
-<p>Velotric is another e-bike-only company, and we've <a href="https://arstechnica.com/cars/2022/08/no-gimmicks-no-problems-the-low-fuss-reasonably-priced-e-bike/">generally been impressed</a> by its products, which offer a fair bit of value for their price. The Summit 1 seems to be a reworking of its T-series of bikes (which <a href="https://arstechnica.com/cars/2023/08/velotric-t1-e-bike-review-low-key-and-sleek-yet-powerful-and-fun/">also impressed us</a>) into mountain bike form. You get a similar app experience and integration of the bike into Apple's Find My system, though the company has ditched the thumbprint reader, which is supposed to function as a security measure. Velotric has also done some nice work adapting its packaging to smooth out the assembly process, placing different parts in labeled sub-boxes.</p></div><p><a href="https://arstechnica.com/?p=2038100#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2038100&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/07/the-summit-1-is-not-peak-mountain-bike-but-its-a-great-all-rounder/feed/</wfw:commentRss>
-			<slash:comments>97</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>SpaceX roars back to orbit barely two weeks after in-flight anomaly</title>
-		<link>https://arstechnica.com/?p=2039608</link>
-					<comments>https://arstechnica.com/space/2024/07/spacex-roars-back-to-orbit-barely-two-weeks-after-in-flight-anomaly/#comments</comments>
-		
-		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
-		<pubDate>Sat, 27 Jul 2024 06:51:55 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[falcon 9]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[spacex]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2039608</guid>
-
-					<description><![CDATA["It was incredible to see how quickly the team was able to identify the cause of the mishap."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/Falcon-9-lifftoff-800x461.jpg" alt="The Starlink 10-9 mission lifts off early Saturday morning from Florida.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/Falcon-9-lifftoff.jpg" class="enlarge-link" data-height="1064" data-width="1845">Enlarge</a> <span class="sep">/</span> The Starlink 10-9 mission lifts off early Saturday morning from Florida. (credit: SpaceX webcast)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Early on Saturday morning, at 1:45 am local time, a Falcon 9 rocket soared into orbit from its launch site at Kennedy Space Center in Florida.</p>
-<p>By some measures this was an extremely routine mission—it was, after all, SpaceX's 73rd launch of this calendar year. And like many other Falcon 9 launches this year, the "Starlink 10-9" mission carried 23 of the broadband Internet satellites into orbit. However, after a rare failure earlier this month, this particular Falcon 9 rocket was making a return-to-flight for the company and attempting to get the world's most active booster back into service.</p>
-<p>And by all measures, it performed. The first stage booster, B-1069, made its 17th flight into orbit before landing on the <em>Just Read the Instructions</em> drone ship in the Atlantic Ocean. Then, a little more than an hour after liftoff, the rocket's second stage released its payload into a good orbit, from which the Starlink spacecraft will use its on-board thrusters to reach operational altitudes in the coming weeks.</p></div><p><a href="https://arstechnica.com/?p=2039608#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039608&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/07/spacex-roars-back-to-orbit-barely-two-weeks-after-in-flight-anomaly/feed/</wfw:commentRss>
-			<slash:comments>151</slash:comments>
+			<slash:comments>275</slash:comments>
 		
 		
 			</item>
