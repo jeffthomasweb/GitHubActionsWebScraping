@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Sun, 04 Aug 2024 20:24:24 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 05 Aug 2024 23:53:31 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,7 +21,408 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>How we went from paper chromosomes to today’s precision cancer drugs</title>
+		<title>Mac and Windows users infected by software updates delivered over hacked ISP</title>
+		<link>https://arstechnica.com/?p=2041175</link>
+					<comments>https://arstechnica.com/security/2024/08/hacked-isp-infects-users-receiving-unsecure-software-updates/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2024 23:43:06 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[DNS poisoning]]></category>
+		<category><![CDATA[domain name system]]></category>
+		<category><![CDATA[infections]]></category>
+		<category><![CDATA[malware]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2041175</guid>
+
+					<description><![CDATA[DNS poisoning attack worked even when targets used DNS from Google and Cloudflare.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2020/07/cyber-attack-800x600.jpg" alt="The words " cyber attack are mixed in with a computer screen full of binary.>
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2020/07/cyber-attack.jpg" class="enlarge-link" data-height="768" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.flickr.com/photos/30478819@N08/45944781585">Marco Verch Professional Photographer and Speaker</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Hackers delivered malware to Windows and Mac users by compromising their Internet service provider and then tampering with software updates delivered over unsecure connections, researchers said.</p>
+<p>The attack, researchers from security firm Volexity said, worked by hacking routers or similar types of device infrastructure of an unnamed ISP. The attackers then used their control of the devices to poison domain name system responses for legitimate hostnames providing updates for at least six different apps written for Windows or macOS. The apps affected were the 5KPlayer, Quick Heal, Rainmeter, Partition Wizard, and those from Corel and Sogou.</p>
+<h2>These aren’t the update servers you’re looking for</h2>
+<p>Because the update mechanisms didn’t use <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">TLS</a> or cryptographic signatures to authenticate the connections or downloaded software, the threat actors were able to use their control of the ISP infrastructure to successfully perform <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">machine-in-the-middle</a> (MitM) attacks that directed targeted users to hostile servers rather than the ones operated by the affected software makers. These redirections worked even when users employed non-encrypted public DNS services such as Google’s 8.8.8.8 or Cloudflare’s 1.1.1.1 rather than the authoritative DNS server provided by the ISP.</p></div><p><a href="https://arstechnica.com/?p=2041175#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2041175&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/08/hacked-isp-infects-users-receiving-unsecure-software-updates/feed/</wfw:commentRss>
+			<slash:comments>17</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Man suffers heart problem after rapid weight loss: A GLP-1 cautionary tale</title>
+		<link>https://arstechnica.com/?p=2041166</link>
+					<comments>https://arstechnica.com/science/2024/08/the-dangers-of-losing-weight-faster-than-your-doctors-can-keep-up/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2024 22:31:40 +0000</pubDate>
+				<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[dosage]]></category>
+		<category><![CDATA[GLP-1]]></category>
+		<category><![CDATA[hypothyroidism]]></category>
+		<category><![CDATA[obesity]]></category>
+		<category><![CDATA[thyroid]]></category>
+		<category><![CDATA[trizepatide]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2041166</guid>
+
+					<description><![CDATA[The man developed atrial fibrillation and required hospitalization.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2017/06/GettyImages-157482086-800x533.jpg" alt="Man suffers heart problem after rapid weight loss: A GLP-1 cautionary tale">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2017/06/GettyImages-157482086.jpg" class="enlarge-link" data-height="2509" data-width="3764">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="http://www.gettyimages.com/license/157482086">Getty | Spauln</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The dose makes the medicine—and for many critical prescription drugs, the dose depends on a patient's body weight. Usually, this is not a problem; weight changes large enough to significantly affect dosages often occur gradually, over periods long enough for doctors to notice and adjust prescriptions. But, in the era of new weight loss drugs, that may no longer be the case.</p>
+<p>In <a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2821728">a cautionary tale published Monday in JAMA Internal Medicine</a>, researchers at the University of Colorado reported the case of a man who lost nearly 30 percent of his body weight in a six-month period using a new weight loss drug. Then, he showed up at an emergency department with heart palpitations, excessive sweating, confusion, fever, and hand tremors. Tests indicated the man had <a href="https://www.nhlbi.nih.gov/health/atrial-fibrillation">atrial fibrillation</a>, an irregular heart rhythm that can lead to heart failure and stroke without treatment.</p>
+<p>The 62-year-old had no history of atrial fibrillation, but he had previously been diagnosed with obesity, Type 1 diabetes, and hypothyroidism (a condition in which the thyroid gland does not produce enough thyroid hormone). For his hypothyroidism, he took levothyroxine, a synthetic thyroid hormone that is dosed by weight.</p></div><p><a href="https://arstechnica.com/?p=2041166#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2041166&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/08/the-dangers-of-losing-weight-faster-than-your-doctors-can-keep-up/feed/</wfw:commentRss>
+			<slash:comments>19</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>OpenAI has the tech to watermark ChatGPT text—it just won’t release it</title>
+		<link>https://arstechnica.com/?p=2041148</link>
+					<comments>https://arstechnica.com/ai/2024/08/openai-has-the-tech-to-watermark-chatgpt-text-it-just-wont-release-it/#comments</comments>
+		
+		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2024 22:12:20 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[LLM]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[watermark]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2041148</guid>
+
+					<description><![CDATA[Some say watermarking is the responsible thing to do, but it's complicated.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/01/chatgpt-800x520.jpg" alt="OpenAI logo displayed on a phone screen and ChatGPT website displayed on a laptop screen.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/01/chatgpt.jpg" class="enlarge-link" data-height="666" data-width="1024">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>According to <a href="https://www.wsj.com/tech/ai/openai-tool-chatgpt-cheating-writing-135b755a">The Wall Street Journal</a>, there's internal conflict at OpenAI over whether or not to release a watermarking tool that would allow people to test text to see whether it was generated by ChatGPT or not.</p>
+<p>To deploy the tool, OpenAI would make tweaks to ChatGPT that would lead it to leave a trail in the text it generates that can be detected by a special tool. The watermark would be undetectable by human readers without the tool, and the company's internal testing has shown that it does not negatively affect the quality of outputs. The detector would be accurate 99.9 percent of the time. It's important to note that the watermark would be a pattern in the text itself, meaning it would be preserved if the user copies and pastes the text or even if they make modest edits to it.</p>
+<p>Some OpenAI employees have campaigned for the tool's release, but others believe that would be the wrong move, citing a few specific problems.</p></div><p><a href="https://arstechnica.com/?p=2041148#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2041148&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/ai/2024/08/openai-has-the-tech-to-watermark-chatgpt-text-it-just-wont-release-it/feed/</wfw:commentRss>
+			<slash:comments>38</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Study suggests Egyptians used hydraulic lifts to build Pyramid of Djoser</title>
+		<link>https://arstechnica.com/?p=2040905</link>
+					<comments>https://arstechnica.com/science/2024/08/did-ancient-egyptians-use-a-hydraulic-lift-to-build-the-pyramid-of-djoser/#comments</comments>
+		
+		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2024 21:20:22 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[ancient egypt]]></category>
+		<category><![CDATA[Archaeology]]></category>
+		<category><![CDATA[Egyptian pyramids]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2040905</guid>
+
+					<description><![CDATA[Finding elusive pictorial, textual references to hydraulic device may help convince skeptics.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/djoserTOP-800x533.jpg" alt="Saqqara pyramid of Djoser in Egypt with sitting camel in the foreground">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/djoserTOP.jpg" class="enlarge-link" data-height="800" data-width="1200">Enlarge</a> <span class="sep">/</span> A camel chills next to the Step Pyramid of Djoser in the Saqqara necropolis in Egypt, built around 2680 BCE. (credit: <a rel="nofollow" class="caption-link" href="https://creativecommons.org/licenses/by-sa/3.0/">Charles J. Sharp/CC BY-SA 3.0</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>It's long been a hotly debated open question regarding <a href="https://en.wikipedia.org/wiki/Egyptian_pyramid_construction_techniques">how the great pyramids of Egypt were built</a>, given the sheer size and weight of the limestone blocks used for the construction. Numerous speculative (and controversial) hypotheses have been proposed, including the use of ramps, levers, cranes, winches, hoists, pivots, or any combination thereof. Now we can add the possible use of a hydraulic lift to those speculative scenarios. According to a <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306690">new paper</a> published in the journal PLoS ONE, ancient Egyptians during the Third Dynasty may have at least partly relied on hydraulics to build the <a href="https://en.wikipedia.org/wiki/Pyramid_of_Djoser">Step Pyramid of Djoser</a>.</p>
+<p>"Many theories on pyramid construction suggest that pure human strength, possibly aided by basic mechanical devices like levers and ramps, was utilized," co-author Xavier Landreau, of Paleotechnic in Paris and Universite Grenoble Alpes, told Ars. "Our analysis led us to the utilization of water as a means of raising stones. We are skeptical that the largest pyramids were built using only known ramp and lever methods."</p>
+<p>The Step Pyramid was built around 2680 BCE, part of a funerary complex for the Third Dynasty pharaoh <a href="https://en.wikipedia.org/wiki/Djoser">Djoser</a>. It's located in the Saqqara necropolis and was the first pyramid to be built, almost a "proto-pyramid" that originally stood some 205 feet high. (The <a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">Great Pyramid of Giza</a>, by contrast, stood 481 feet high and was the tallest human-made structure for nearly 4,000 years.) Previous monuments were made of mud brick, but Djoser's Step Pyramid is made of stone (specifically limestone); it's widely thought that Djoser's vizier, <a href="https://en.wikipedia.org/wiki/Imhotep">Imhotep</a>, designed and built the complex. The third century BCE historian Manetho once described Imhotep as the "inventor of building in stone." As such, the Djoser Pyramid influenced the construction of later, larger pyramids during the Fourth, Fifth, and Sixth Dynasties.</p></div><p><a href="https://arstechnica.com/?p=2040905#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040905&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/08/did-ancient-egyptians-use-a-hydraulic-lift-to-build-the-pyramid-of-djoser/feed/</wfw:commentRss>
+			<slash:comments>27</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Google loses DOJ’s big monopoly trial over search business</title>
+		<link>https://arstechnica.com/?p=2041103</link>
+					<comments>https://arstechnica.com/tech-policy/2024/08/google-loses-dojs-big-monopoly-trial-over-search-business/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2024 19:30:54 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Antitrust law]]></category>
+		<category><![CDATA[department of justice]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google monopoly trial]]></category>
+		<category><![CDATA[google search]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2041103</guid>
+
+					<description><![CDATA[Google's exclusive deals maintained monopolies in two markets, judge ruled.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1935927066-800x534.jpg" alt="Google loses DOJ’s big monopoly trial over search business">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1935927066.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/this-photograph-taken-on-january-18-2024-shows-a-sign-of-us-news-photo/1935927066?adppopup=true">FABRICE COFFRINI / Contributor | AFP</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Google just lost a massive antitrust trial over its sprawling search business, as US district judge Amit Mehta released his <a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/US-v-Google-Opinion-8-5-2024.pdf">ruling</a>, showing that he sided with the US Department of Justice in the case that could disrupt how billions of people search the web.</p>
+<p>"Google is a monopolist, and it has acted as one to maintain its monopoly,” Mehta wrote in his opinion. “It has violated Section 2 of the Sherman Act.”</p>
+<p>The verdict will likely come as a shock to Google, which had <a href="https://arstechnica.com/tech-policy/2024/05/judge-mulls-sanctions-over-googles-shocking-destruction-of-internal-chats/">long argued</a> that punishing Google for being the best in search would be "unprecedented" and frequently pointed to the DOJ's lack of direct evidence. However, Mehta found the limited direct evidence compelling, especially "Google’s admission that it does not 'consider whether users will go to other specific search providers (general or otherwise) if it introduces a change to its Search product.'"</p></div><p><a href="https://arstechnica.com/?p=2041103#p3">Read 23 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2041103&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/google-loses-dojs-big-monopoly-trial-over-search-business/feed/</wfw:commentRss>
+			<slash:comments>152</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Court blocks net neutrality, says ISPs are likely to win case against FCC</title>
+		<link>https://arstechnica.com/?p=2041082</link>
+					<comments>https://arstechnica.com/tech-policy/2024/08/fcc-suffers-major-setback-in-attempt-to-defend-net-neutrality-rules/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2024 18:51:15 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[fcc net neutrality]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2041082</guid>
+
+					<description><![CDATA[It's not over, but three judges said ISPs "are likely to succeed on the merits."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/09/getty-rosenworcel-net-neutrality-800x533.jpg" alt="FCC Commissioner Jessica Rosenworcel speaks outside in front of a sign that says " net neutrality wake up call.>
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/09/getty-rosenworcel-net-neutrality.jpg" class="enlarge-link" data-height="1000" data-width="1500">Enlarge</a> <span class="sep">/</span> Federal Communication Commission Chairwoman Jessica Rosenworcel, then a commissioner, rallies against repeal of net neutrality rules in December 2017. (credit: Getty Images | Chip Somodevilla)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The Federal Communications Commission's hopes of enforcing net neutrality rules was dealt a major setback last week. A panel of appeals court judges blocked the regulations on Thursday in a ruling that said broadband providers are likely to win the case on the merits.</p>
+<p>The US Court of Appeals for the 6th Circuit previously <a href="https://arstechnica.com/tech-policy/2024/07/net-neutrality-rules-temporarily-stayed-as-judges-weigh-impact-of-scotus-ruling/">issued an administrative stay</a> that delayed enforcement of the rules for a few weeks, which didn't necessarily indicate much about the judges' view of the lawsuit. But on Thursday, the judges issued an <a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/net-neutrality-block-august-2024.pdf">order</a> that stays the net neutrality rules until the court makes a final ruling, and judges made it clear they believe the Internet service providers have a stronger case than the FCC.</p>
+<p>"Because the broadband providers have shown that they are likely to succeed on the merits and that the equities support them, we grant the stay," a panel of three judges wrote in the unanimous ruling.</p></div><p><a href="https://arstechnica.com/?p=2041082#p3">Read 23 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2041082&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/fcc-suffers-major-setback-in-attempt-to-defend-net-neutrality-rules/feed/</wfw:commentRss>
+			<slash:comments>85</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Chrome’s Manifest V3, and its changes for ad blocking, are coming real soon</title>
+		<link>https://arstechnica.com/?p=2041032</link>
+					<comments>https://arstechnica.com/gadgets/2024/08/chromes-manifest-v3-and-its-changes-for-ad-blocking-are-coming-real-soon/#comments</comments>
+		
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2024 17:56:15 +0000</pubDate>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ad blockers]]></category>
+		<category><![CDATA[browser extensions]]></category>
+		<category><![CDATA[chrome]]></category>
+		<category><![CDATA[chrome manifest v3]]></category>
+		<category><![CDATA[Google Chrome]]></category>
+		<category><![CDATA[google chrome extensions]]></category>
+		<category><![CDATA[manifest v3]]></category>
+		<category><![CDATA[ublock lite]]></category>
+		<category><![CDATA[ublock origin]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2041032</guid>
+
+					<description><![CDATA[Chrome is warning users that their extension makers need to update soon.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/chrome_ad_squircle.jpg" alt="Chrome logo, squared off in the style of a popular ad-blocking logo">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/chrome_ad_squircle.jpg" class="enlarge-link" data-height="430" data-width="800">Enlarge</a> (credit: Ron Amadeo)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Google Chrome's long, long project to implement a new browser extension platform is seemingly going to happen, for real, after six years of cautious movement.</p>
+<p>One of the first ways people are seeing this is if they use uBlock Origin, a popular ad-blocking extension, <a href="https://www.bleepingcomputer.com/news/google/google-chrome-warns-ublock-origin-may-soon-be-disabled/">as noted by Bleeping Computer</a>. Recently, Chrome users have seen warnings pop up that "This extension may soon no longer be supported," with links asking the user to "Remove or replace it with similar extensions" from Chrome's Web Store. You might see a similar warning on some extensions if you head to Chrome's Extensions page (chrome://extensions).</p>
+<p>What's happening is Chrome preparing to make Manifest V3 required for extensions that want to run on its platform. <a href="https://blog.chromium.org/2018/10/trustworthy-chrome-extensions-by-default.html">First announced in 2018</a>, the <a href="https://arstechnica.com/gadgets/2024/05/google-starts-deprecating-older-more-capable-chrome-extensions-next-week/">last word</a> on Manifest V3 was that V2 extensions would start being nudged out in early June on the Beta, Dev, and Canary update channels. Users will be able to manually re-enable V2 extensions "for a short time," <a href="https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline">Google has said</a>, "but over time, this toggle will go away as well." The shift for enterprise Chrome deployments is expected to be put off until June 2025.</p></div><p><a href="https://arstechnica.com/?p=2041032#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2041032&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/08/chromes-manifest-v3-and-its-changes-for-ad-blocking-are-coming-real-soon/feed/</wfw:commentRss>
+			<slash:comments>122</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Elon Musk sues OpenAI, Sam Altman for making a “fool” out of him</title>
+		<link>https://arstechnica.com/?p=2041054</link>
+					<comments>https://arstechnica.com/tech-policy/2024/08/openai-wouldnt-exist-without-me-elon-musk-says-reviving-lawsuit/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2024 17:49:48 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[agi]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AI safety]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[chatbot]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[existential risks]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[GPT-4]]></category>
+		<category><![CDATA[GPT-4o]]></category>
+		<category><![CDATA[grok]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[openai]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2041054</guid>
+
+					<description><![CDATA[Elon Musk asks court to void Microsoft’s exclusive deal with OpenAI.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-491588398-800x531.jpg" alt="Elon Musk and Sam Altman share the stage in 2015, the same year that Musk alleged that Altman's &quot;deception&quot; began.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-491588398.jpg" class="enlarge-link" data-height="680" data-width="1024">Enlarge</a> <span class="sep">/</span> Elon Musk and Sam Altman share the stage in 2015, the same year that Musk alleged that Altman's "deception" began. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/tesla-motors-ceo-and-product-architect-elon-musk-and-y-news-photo/491588398?adppopup=true">Michael Kovac / Contributor | Getty Images North America</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>After <a href="https://arstechnica.com/tech-policy/2024/06/breaking-elon-musk-drops-claims-that-openai-abandoned-mission/">withdrawing his lawsuit in June</a> for unknown reasons, Elon Musk has revived a complaint accusing OpenAI and its CEO Sam Altman of fraudulently inducing Musk to contribute $44 million in seed funding by promising that OpenAI would always open-source its technology and prioritize serving the public good over profits as a permanent nonprofit.</p>
+<p>Instead, Musk alleged that Altman and his co-conspirators—"preying on Musk’s humanitarian concern about the existential dangers posed by artificial intelligence"—always intended to "betray" these promises in pursuit of personal gains.</p>
+<p>As OpenAI's technology advanced toward artificial general intelligence (AGI) and strove to surpass human capabilities, "Altman set the bait and hooked Musk with sham altruism then flipped the script as the non-profit’s technology approached AGI and profits neared, mobilizing Defendants to turn OpenAI, Inc. into their personal piggy bank and OpenAI into a moneymaking bonanza, worth billions," Musk's complaint said.</p></div><p><a href="https://arstechnica.com/?p=2041054#p3">Read 29 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2041054&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/openai-wouldnt-exist-without-me-elon-musk-says-reviving-lawsuit/feed/</wfw:commentRss>
+			<slash:comments>164</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Gamification gets drivers to put down their phones, study finds</title>
+		<link>https://arstechnica.com/?p=2041031</link>
+					<comments>https://arstechnica.com/cars/2024/08/gamification-gets-drivers-to-put-their-phones-down-study-finds/#comments</comments>
+		
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2024 15:54:45 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[distracted driving]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2041031</guid>
+
+					<description><![CDATA[Gamification plus cash prizes worked even better.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1021542964-800x533.jpg" alt="Close-up Of A Man's Hand Typing Text Message On Mobile Phone While Driving Car">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1021542964.jpg" class="enlarge-link" data-height="5773" data-width="8660">Enlarge</a> <span class="sep">/</span> You should not do this while you are driving.  (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Distracted driving isn't only a result of drivers using their phones when they should be paying attention. But it is a significant cause of the problem, accounting for at least 13 percent of distracted driving deaths and rising to 1 in 5 for young drivers. Now, a study conducted with customers of the Progressive insurance company has tested different strategies to get those drivers to put their phones down in the car, and it found two that significantly reduced handheld use, with the effect persisting after the end of the study.</p>
+<p>The study recruited 1,653 customers already enrolled in its Progressive Snapshot program, which involves the use of a smartphone app that detects phone use while driving. Before the start of the trial, the participants all averaged more than 6.4 minutes per hour of handheld use while driving—Progressive says its safest customers have handheld usage of less than 1 minute per hour while driving.</p>
+<h2>Five test groups</h2>
+<p>The drivers were split into five different arms, each with increasing amounts of intervention. The first group just received education about the problem, such as statistics about state laws that ban phone use while driving, increased crash risks, and recommendations to use hands-free options like a phone mount or casting interface instead.</p></div><p><a href="https://arstechnica.com/?p=2041031#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2041031&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/08/gamification-gets-drivers-to-put-their-phones-down-study-finds/feed/</wfw:commentRss>
+			<slash:comments>103</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NASA likely to significantly delay the launch of Crew 9 due to Starliner issues</title>
+		<link>https://arstechnica.com/?p=2040999</link>
+					<comments>https://arstechnica.com/space/2024/08/nasa-likely-to-significantly-delay-the-launch-of-crew-9-due-to-starliner-issues/#comments</comments>
+		
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2024 15:37:41 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[crew dragon]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[starliner]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2040999</guid>
+
+					<description><![CDATA[The primary reason for the delay is rather surprising.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/05/53659367267_bc270d779a_k-800x533.jpg" alt="Boeing's Starliner spacecraft is lifted to be placed atop an Atlas V rocket for its first crewed launch.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/05/53659367267_bc270d779a_k.jpg" class="enlarge-link" data-height="1365" data-width="2047">Enlarge</a> <span class="sep">/</span> Boeing's Starliner spacecraft is lifted to be placed atop an Atlas V rocket for its first crewed launch. (credit: United Launch Alliance)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>NASA is planning to significantly delay the launch of the Crew 9 mission to the International Space Station due to ongoing concerns about the Starliner spacecraft currently attached to the station.</p>
+<p>While the space agency has not said anything publicly, sources say NASA should announce the decision this week. Officials are contemplating moving the Crew-9 mission from its <a href="https://blogs.nasa.gov/commercialcrew/2024/07/26/nasa-spacex-targeting-aug-18-for-crew-9-mission-to-space-station/">current date</a> of August 18 to September 24, a significant slip.</p>
+<p>Nominally, this Crew Dragon mission will carry NASA astronauts Zena Cardman, spacecraft commander; Nick Hague, pilot; and Stephanie Wilson, mission specialist; as well as Roscosmos cosmonaut Alexander Gorbunov, for a six-month journey to the space station. However, NASA has been considering alternatives to the crew lineup—possibly launching with two astronauts instead of four—due to ongoing discussions about the viability of Starliner to safely return astronauts Butch Wilmore and Suni Williams to Earth.</p></div><p><a href="https://arstechnica.com/?p=2040999#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040999&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/08/nasa-likely-to-significantly-delay-the-launch-of-crew-9-due-to-starliner-issues/feed/</wfw:commentRss>
+			<slash:comments>460</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>CrowdStrike claps back at Delta, says airline rejected offers for help</title>
+		<link>https://arstechnica.com/?p=2041007</link>
+					<comments>https://arstechnica.com/information-technology/2024/08/crowdstrike-claps-back-at-delta-says-airline-rejected-offers-for-help/#comments</comments>
+		
+		<dc:creator><![CDATA[Financial Times]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2024 13:37:15 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Crowdstrike]]></category>
+		<category><![CDATA[Delta]]></category>
+		<category><![CDATA[syndication]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2041007</guid>
+
+					<description><![CDATA[Delta is creating a "misleading narrative," according to CrowdStrike's lawyers.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/delta-800x535.jpg" alt="LOS ANGELES, CALIFORNIA - JULY 23: Travelers from France wait on their delayed flight on the check-in floor of the Delta Air Lines terminal at Los Angeles International Airport (LAX) on July 23, 2024 in Los Angeles, California.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/delta.jpg" class="enlarge-link" data-height="685" data-width="1024">Enlarge</a> <span class="sep">/</span> LOS ANGELES, CALIFORNIA - JULY 23: Travelers from France wait on their delayed flight on the check-in floor of the Delta Air Lines terminal at Los Angeles International Airport (LAX) on July 23, 2024 in Los Angeles, California. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/travelers-from-france-wait-on-their-delayed-flight-on-the-news-photo/2163296647">Mario Tama/Getty Images</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>CrowdStrike has hit back at Delta Air Lines’ threat of litigation against the cyber security company over a botched software update that grounded thousands of flights, denying it was responsible for the carrier’s own IT decisions and days-long disruption.</p>
+<p>In a letter on Sunday, lawyers for CrowdStrike argued that the US carrier had created a “misleading narrative” that the cyber security firm was “grossly negligent” in an incident that the US airline has said will cost it $500 million.</p>
+<p>Delta took days longer than its rivals to recover when CrowdStrike’s update brought down millions of Windows computers around the world last month. The airline has alerted the cyber security company that it plans to seek damages for the disruptions and hired litigation firm Boies Schiller Flexner.</p></div><p><a href="https://arstechnica.com/?p=2041007#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2041007&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/information-technology/2024/08/crowdstrike-claps-back-at-delta-says-airline-rejected-offers-for-help/feed/</wfw:commentRss>
+			<slash:comments>174</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Path to precision: Targeted cancer drugs go from table to trials to bedside</title>
 		<link>https://arstechnica.com/?p=2040306</link>
 					<comments>https://arstechnica.com/science/2024/08/precision-cancer-treatments/#comments</comments>
 		
@@ -42,7 +443,7 @@
 					<description><![CDATA[What started in a scientist's dining room is now in tissue-agnostic combo trials.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/cancer-chromosome-matching-800x450.jpg" alt="How we went from paper chromosomes to today’s precision cancer drugs">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/cancer-chromosome-matching-800x450.jpg" alt="Path to precision: Targeted cancer drugs go from table to trials to bedside">
       <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/cancer-chromosome-matching.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> (credit: Aurich Lawson)</p>  </figure>
 
 
@@ -52,16 +453,16 @@
 
 <div><a name="page-1"></a></div>
 <p>In 1972, Janet Rowley sat at her dining room table and cut tiny chromosomes from photographs she had taken in her laboratory. One by one, she snipped out the small figures her children teasingly called paper dolls. She then carefully laid them out in 23 matching pairs—and warned her kids not to sneeze.</p>
-<p>The physician-scientist had just mastered a new chromosome staining technique in a year-long sabbatical at Oxford. But it was in the dining room of her Chicago home where she made the discovery that would dramatically alter the course of cancer research.</p>
+<p>The physician-scientist had just mastered a new chromosome-staining technique in a year-long sabbatical at Oxford. But it was in the dining room of her Chicago home where she made the discovery that would dramatically alter the course of cancer research.</p>
 <p></p></div><p><a href="https://arstechnica.com/?p=2040306#p3">Read 29 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040306&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/08/precision-cancer-treatments/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+			<slash:comments>47</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Historic flooding possible as TS Debby bears down on southeastern United States</title>
+		<title>Historic flooding possible as TS Debby bears down on southeastern US</title>
 		<link>https://arstechnica.com/?p=2040979</link>
 					<comments>https://arstechnica.com/science/2024/08/the-atlantic-hurricane-season-starts-to-sizzle-first-up-is-a-major-flood-storm/#comments</comments>
 		
@@ -73,7 +474,7 @@
 		<category><![CDATA[tropical storm debby]]></category>
 		<guid isPermaLink="false">https://arstechnica.com/?p=2040979</guid>
 
-					<description><![CDATA[Tropical rainfall and training bands, it's going to be a soggy mess.]]></description>
+					<description><![CDATA[Tropical rainfall and training bands: It's going to be a soggy mess.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
   <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/TS-Debby-800x573.jpg" alt="Satellite image of Tropical Storm Debby on Sunday morning.">
@@ -85,12 +486,12 @@
 
 
 <div><a name="page-1"></a></div>
-<p>As often happens during the month of July, the Atlantic tropics entered a lull after Hurricane Beryl struck Texas and short-lived Tropical Storm Chris moved into Mexico. But now, with African dust diminishing from the atmosphere and August well under way, the oceans have awoken.</p>
+<p>As often happens during the month of July, the Atlantic tropics entered a lull after Hurricane Beryl struck Texas and short-lived Tropical Storm Chris moved into Mexico. But now, with African dust diminishing from the atmosphere and August well underway, the oceans have awoken.</p>
 <p><a href="https://www.nhc.noaa.gov/refresh/graphics_at4+shtml/095141.shtml?cone#contents">Tropical Storm Debby</a> formed this weekend, and according to forecasters with the National Hurricane Center, the system is likely to reach Category 1 hurricane status before making landfall along the coastal bend of western Florida on Monday.</p>
 <p>As hurricanes go, this is not the most threatening storm the Sunshine State has seen in recent years. Yes, no one likes a hurricane, or the storm surge it brings. But Debby is likely to strike a relatively unpopulated area of Florida, venting much of its fury on preserves and wildlife areas. This won't be pleasant by any means, but as hurricanes go this one should be fairly manageable from a wind and surge standpoint.</p></div><p><a href="https://arstechnica.com/?p=2040979#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040979&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/08/the-atlantic-hurricane-season-starts-to-sizzle-first-up-is-a-major-flood-storm/feed/</wfw:commentRss>
-			<slash:comments>172</slash:comments>
+			<slash:comments>248</slash:comments>
 		
 		
 			</item>
@@ -124,7 +525,7 @@
 <p>Gov. Jay Inslee vetoed that provision but let the tax break expansion go forward. As <a href="https://www.seattletimes.com/seattle-news/times-watchdog/power-hungry-how-the-data-center-boom-drained-wa-of-hydropower/">The Seattle Times</a> and <a href="https://www.propublica.org/article/data-centers-clean-energy-washington-state">ProPublica</a> recently reported, the industry has continued to grow and now threatens Washington’s effort to eliminate carbon emissions from electricity generation.</p></div><p><a href="https://arstechnica.com/?p=2040917#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040917&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/08/data-centers-demand-a-massive-amount-of-energy-heres-how-some-states-are-tackling-the-industrys-impact/feed/</wfw:commentRss>
-			<slash:comments>115</slash:comments>
+			<slash:comments>153</slash:comments>
 		
 		
 			</item>
@@ -160,7 +561,7 @@
 <p>A forthcoming study seeks to inform how courts consider challenges to these regulations by establishing once and for all that the lawmakers who shaped the Clean Air Act in 1970 knew scientists considered carbon dioxide an air pollutant, and that these elected officials were intent on limiting its emissions.</p></div><p><a href="https://arstechnica.com/?p=2040871#p3">Read 21 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040871&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/08/memo-to-the-supreme-court-clean-air-act-targeted-co2-as-climate-pollutant-study-says/feed/</wfw:commentRss>
-			<slash:comments>258</slash:comments>
+			<slash:comments>348</slash:comments>
 		
 		
 			</item>
@@ -196,7 +597,7 @@
 <p>The backlash was similar to that against Apple's recent ad in which an enormous hydraulic press crushed TVs, musical instruments, record players, paint cans, sculptures, and even emoji into… the newest model of the iPad. Apple apparently wanted to show just how much creative and entertainment potential the iPad held; critics read the ad as a warning image about the destruction of human creativity in a technological age. Apple <a href="https://arstechnica.com/gadgets/2024/05/apple-apologizes-for-ad-that-crushes-the-sum-total-of-human-artistic-endeavor/">apologized</a> soon after.</p></div><p><a href="https://arstechnica.com/?p=2040972#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040972&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/culture/2024/08/google-pulls-its-terrible-pro-ai-dear-sydney-ad-after-backlash/feed/</wfw:commentRss>
-			<slash:comments>237</slash:comments>
+			<slash:comments>264</slash:comments>
 		
 		
 			</item>
@@ -235,7 +636,7 @@
 <p>The three substandard drugs tested came from three different illegal online pharmacies, which sold them as generic semaglutide drugs for weight loss, appetite suppression, diabetes, and cardiovascular health. However, the researchers, led by scientists at the University of California, San Diego, and the University of Pécs in Hungary, had initially tried purchasing counterfeit drugs from six such sellers.</p></div><p><a href="https://arstechnica.com/?p=2040959#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040959&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/08/shady-weight-loss-drugs-sold-online-are-mislabeled-contaminated-study-finds/feed/</wfw:commentRss>
-			<slash:comments>106</slash:comments>
+			<slash:comments>112</slash:comments>
 		
 		
 			</item>
@@ -274,7 +675,7 @@
 <p>The COPPA Rule requires TikTok to prove that it does not target kids as its primary audience, the DOJ said, and TikTok claims to satisfy that "by requiring users creating accounts to report their birthdates."</p></div><p><a href="https://arstechnica.com/?p=2040944#p3">Read 21 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040944&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/doj-sues-tiktok-alleging-massive-scale-invasions-of-childrens-privacy/feed/</wfw:commentRss>
-			<slash:comments>50</slash:comments>
+			<slash:comments>57</slash:comments>
 		
 		
 			</item>
@@ -310,7 +711,7 @@
 <p>Preserved it will be, but it seems that the RomHacking site will not go on further. The site's founder <a href="https://www.romhacking.net/forum/index.php?topic=39405">posted a sign-off statement to the site Thursday night</a>, one that in turn praised the community, decried certain members of it, and looked forward to what will happen with "the next generation."</p></div><p><a href="https://arstechnica.com/?p=2040891#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040891&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gaming/2024/08/rom-hackings-premier-site-is-going-read-only-after-internal-struggle/feed/</wfw:commentRss>
-			<slash:comments>51</slash:comments>
+			<slash:comments>61</slash:comments>
 		
 		
 			</item>
@@ -346,431 +747,7 @@
 <p>There's also a one-time setup and shipping fee for the rentals that totals $50. NZXT says it will "likely" charge subscribers a separate fee if they return the rental without the original box and packaging (NZXT hasn't disclosed how much).</p></div><p><a href="https://arstechnica.com/?p=2040844#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040844&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/08/nzxt-wants-you-to-pay-up-to-169-month-to-rent-a-gaming-pc/feed/</wfw:commentRss>
-			<slash:comments>202</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Silicon plus perovskite solar reaches 34 percent efficiency</title>
-		<link>https://arstechnica.com/?p=2040875</link>
-					<comments>https://arstechnica.com/science/2024/08/continued-progress-with-dual-layer-solar-cells/#comments</comments>
-		
-		<dc:creator><![CDATA[John Timmer]]></dc:creator>
-		<pubDate>Fri, 02 Aug 2024 18:36:26 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[green]]></category>
-		<category><![CDATA[green energy]]></category>
-		<category><![CDATA[materials science]]></category>
-		<category><![CDATA[perovskites]]></category>
-		<category><![CDATA[photovoltaics]]></category>
-		<category><![CDATA[solar power]]></category>
-		<category><![CDATA[sustainability]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2040875</guid>
-
-					<description><![CDATA[There are still longevity problems, but things continue to get better.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2159351178-800x533.jpg" alt="Solar panels with green foliage behind them, and a diagram of a chemical's structure in the foreground.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2159351178.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> <span class="sep">/</span> Some solar panels, along with a diagram of a perovskite's crystal structure. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/perovskite-solar-cell-is-the-energy-of-the-future-royalty-free-image/2159351178?phrase=perovskite">Subhakitnibhat Kewiko</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>As the price of silicon panels has continued to come down, we've reached the point where they're a small and shrinking cost of building a solar farm. That means that it might be worth spending more to get a panel that converts more of the incoming sunlight to electricity, since it allows you to get more out of the price paid to get each panel installed. But silicon panels are already pushing up against physical limits on efficiency. Which means our best chance for a major boost in panel efficiency may be to combine silicon with an additional photovoltaic material.</p>
-<p>Right now, most of the focus is on pairing silicon with a class of materials called perovskites. Perovskite crystals can be layered on top of silicon, creating a panel with two materials that absorb different areas of the spectrum—plus, perovskites can be made from relatively cheap raw materials. Unfortunately, it has been difficult to make perovskites that are both high-efficiency and last for the decades that the silicon portion will.</p>
-<p>Lots of labs are attempting to change that, though. And two of them reported some progress this week, including a perovskite/silicon system that achieved 34 percent efficiency.</p></div><p><a href="https://arstechnica.com/?p=2040875#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040875&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/08/continued-progress-with-dual-layer-solar-cells/feed/</wfw:commentRss>
-			<slash:comments>63</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Sam Altman accused of being shady about OpenAI’s safety efforts</title>
-		<link>https://arstechnica.com/?p=2040870</link>
-					<comments>https://arstechnica.com/tech-policy/2024/08/sam-altman-accused-of-being-shady-about-openais-safety-efforts/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Fri, 02 Aug 2024 18:08:54 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AI risks]]></category>
-		<category><![CDATA[AI safety]]></category>
-		<category><![CDATA[chuck grassley]]></category>
-		<category><![CDATA[existential risks]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[sam altman]]></category>
-		<category><![CDATA[Securities and Exchange Commission]]></category>
-		<category><![CDATA[whistleblowers]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2040870</guid>
-
-					<description><![CDATA[OpenAI CEO Sam Altman pushed to explain recent changes to safety efforts.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1930535859-800x523.jpg" alt="Sam Altman, chief executive officer of OpenAI, during an interview at Bloomberg House on the opening day of the World Economic Forum (WEF) in Davos, Switzerland, on Tuesday, Jan. 16, 2024.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1930535859.jpg" class="enlarge-link" data-height="670" data-width="1024">Enlarge</a> <span class="sep">/</span> Sam Altman, chief executive officer of OpenAI, during an interview at Bloomberg House on the opening day of the World Economic Forum (WEF) in Davos, Switzerland, on Tuesday, Jan. 16, 2024. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/sam-altman-chief-executive-officer-of-openai-during-an-news-photo/1930535859?adppopup=true">Bloomberg / Contributor | Bloomberg</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>OpenAI is facing increasing pressure to prove it's not hiding AI risks after whistleblowers alleged to the US Securities and Exchange Commission (SEC) that the AI company's <a href="https://arstechnica.com/tech-policy/2024/05/openai-ends-harsh-non-disparagement-agreements-that-could-claw-back-millions/">non-disclosure agreements had illegally silenced employees</a> from disclosing major safety concerns to lawmakers.</p>
-<p>In a <a href="https://www.washingtonpost.com/documents/8bf076a6-663b-4552-be52-079b79274f9c.pdf">letter</a> to OpenAI yesterday, Senator Chuck Grassley (R-Iowa) demanded evidence that OpenAI is no longer requiring agreements that could be "stifling" its "employees from making protected disclosures to government regulators."</p>
-<p>Specifically, Grassley asked OpenAI to produce current employment, severance, non-disparagement, and non-disclosure agreements to reassure Congress that contracts don't discourage disclosures. That's critical, Grassley said, so that it will be possible to rely on whistleblowers exposing emerging threats to help shape effective AI policies safeguarding against existential AI risks as technologies advance.</p></div><p><a href="https://arstechnica.com/?p=2040870#p3">Read 27 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040870&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/sam-altman-accused-of-being-shady-about-openais-safety-efforts/feed/</wfw:commentRss>
-			<slash:comments>111</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>FLUX: This new AI image generator is eerily good at creating human hands</title>
-		<link>https://arstechnica.com/?p=2040748</link>
-					<comments>https://arstechnica.com/information-technology/2024/08/flux-this-new-ai-image-generator-is-eerily-good-at-creating-human-hands/#comments</comments>
-		
-		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
-		<pubDate>Fri, 02 Aug 2024 17:47:26 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[AI image generation]]></category>
-		<category><![CDATA[AI image generator]]></category>
-		<category><![CDATA[Andreas Blattman]]></category>
-		<category><![CDATA[Black Forest Labs]]></category>
-		<category><![CDATA[Dominik Lorenz]]></category>
-		<category><![CDATA[FLUX.1]]></category>
-		<category><![CDATA[image synthesis]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[Patrick Esser]]></category>
-		<category><![CDATA[Robin Rombach]]></category>
-		<category><![CDATA[Stability AI]]></category>
-		<category><![CDATA[Stable Diffusion]]></category>
-		<category><![CDATA[Stable Diffusion 3]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2040748</guid>
-
-					<description><![CDATA[FLUX.1 is the open-weights heir apparent to Stable Diffusion, turning text into images.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/jOmxRsxgXSWnh5YEvFI5b-800x450.png" alt="AI-generated image by FLUX.1 dev: " a beautiful queen of the universe holding up her hands face in background.>
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/jOmxRsxgXSWnh5YEvFI5b.png" class="enlarge-link" data-height="576" data-width="1024">Enlarge</a> <span class="sep">/</span> AI-generated image by FLUX.1 dev: "A beautiful queen of the universe holding up her hands, face in the background." (credit: FLUX.1)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>On Thursday, AI-startup Black Forest Labs <a href="https://blackforestlabs.ai/announcing-black-forest-labs/">announced</a> the launch of its company and the release of its first suite of text-to-image AI models, called FLUX.1. The German-based company, founded by researchers who developed the technology behind <a href="https://arstechnica.com/information-technology/2022/09/with-stable-diffusion-you-may-never-believe-what-you-see-online-again/">Stable Diffusion</a> and invented the <a href="https://arxiv.org/abs/2112.10752">latent diffusion technique</a>, aims to create advanced generative AI for images and videos.</p>
-
-<p>The launch of FLUX.1 comes about seven weeks after Stability AI's troubled release of <a href="https://arstechnica.com/information-technology/2024/06/ridiculed-stable-diffusion-3-release-excels-at-ai-generated-body-horror/">Stable Diffusion 3 Medium</a> in mid-June. Stability AI's offering faced widespread criticism among image-synthesis hobbyists for its poor performance in generating human anatomy, with users sharing examples of distorted limbs and bodies across social media. That problematic launch followed the earlier departure of three key engineers from Stability AI—Robin Rombach, Andreas Blattmann, and Dominik Lorenz—who went on to found Black Forest Labs along with latent diffusion co-developer Patrick Esser and <a href="https://blackforestlabs.ai/our-team/">others</a>.</p>
-<p>Black Forest Labs launched with the release of three FLUX.1 text-to-image models: a high-end commercial "pro" version, a mid-range "dev" version with open weights for non-commercial use, and a faster open-weights "schnell" version ("schnell" means quick or fast in German). Black Forest Labs claims its models outperform existing options like Midjourney and DALL-E in areas such as image quality and adherence to text prompts.</p></div><p><a href="https://arstechnica.com/?p=2040748#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040748&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/information-technology/2024/08/flux-this-new-ai-image-generator-is-eerily-good-at-creating-human-hands/feed/</wfw:commentRss>
-			<slash:comments>141</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>US probes Nvidia’s acquisition of Israeli AI startup</title>
-		<link>https://arstechnica.com/?p=2040841</link>
-					<comments>https://arstechnica.com/tech-policy/2024/08/us-probes-nvidias-acquisition-of-israeli-ai-startup/#comments</comments>
-		
-		<dc:creator><![CDATA[Financial Times]]></dc:creator>
-		<pubDate>Fri, 02 Aug 2024 17:03:56 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Justice Department]]></category>
-		<category><![CDATA[NVIDIA]]></category>
-		<category><![CDATA[run:ai]]></category>
-		<category><![CDATA[syndication]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2040841</guid>
-
-					<description><![CDATA[Justice Department has increased scrutiny of the chipmaker’s power in the emerging sector.
-]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2021/11/nvidia-sign-2-800x534.jpg" alt="US probes Nvidia’s acquisition of Israeli AI startup">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2021/11/nvidia-sign-2.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> (credit: Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The US Department of Justice is investigating Nvidia’s acquisition of Run:ai, an Israeli artificial intelligence startup, for potential antitrust violations, said a person familiar with discussions the government agency has had with third parties.</p>
-<p>The DoJ has asked market participants about the competitive impact of the transaction, which Nvidia announced in April. The price was not disclosed but a report from TechCrunch estimated it at $700 million.</p>
-<p>The scope of the probe remains unclear, the person said. But the DoJ has inquired about matters including whether the deal could quash emerging competition in the up-and-coming sector and entrench Nvidia’s dominant market position.</p></div><p><a href="https://arstechnica.com/?p=2040841#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040841&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/us-probes-nvidias-acquisition-of-israeli-ai-startup/feed/</wfw:commentRss>
-			<slash:comments>16</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Metropolis 1998 lets you design every building in an isometric, pixel-art city</title>
-		<link>https://arstechnica.com/?p=2040744</link>
-					<comments>https://arstechnica.com/gaming/2024/08/metropolis-1998-lets-you-design-every-building-in-an-isometric-pixel-art-city/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Fri, 02 Aug 2024 16:43:07 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[cities skylines]]></category>
-		<category><![CDATA[dwarf fortress]]></category>
-		<category><![CDATA[metropolis 1998]]></category>
-		<category><![CDATA[rollercoaster tycoon]]></category>
-		<category><![CDATA[SimCity]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2040744</guid>
-
-					<description><![CDATA[Devs cite <em>Rollercoaster Tycoon</em>, <em>Dwarf Fortress</em>, and, yes, <em>SimCity</em> as inspiration.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/metropolis2-800x450.jpg" alt="Designing the pieces of a house in Metropolis 1998, with a series of bookshelves and couches open in the menu picker on-screen.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/metropolis2.jpg" class="enlarge-link" data-height="1080" data-width="1920">Enlarge</a> <span class="sep">/</span> There is something so wonderfully obscene about having a town with hundreds of people living their lives, running into conflict, hoping for better, and your omnipotent self is stuck on which bookcase best fits this living room corner. (credit: YesBox)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Naming a game must be incredibly hard. How many more <em>Dark Fallen Journeys </em>and <em>Noun: Verb of the Noun</em> games can fit into the market? And yet certain games just appear with a near-perfect, properly descriptive label.</p>
-<p><em>Metropolis 1998</em> is just such a game, telling you what you'll be doing, how it will look and feel, and what era it harkens back to. You can verify this with <a href="https://store.steampowered.com/app/2287430/Metropolis_1998/">its "pre-alpha" demo on Steam</a> and <a href="https://yesbox.itch.io/archapolis">Itch.io</a>. There's plenty more to come, but what is already in place is impressive. And it's simply pleasant to play, especially if you're the type who wants to make something entirely yours. Not just "put the park inside the commercial district," but <em>The Sims-</em>style "choose which wood color for the dining room table in a living room you framed up yourself."</p>
-<p>You start out in a big field with no features (yet) and the sounds of birds chirping. Once you lay down a road, you can add things at a few different levels. You can, <em>SimCity</em>-style, simply plot out colored zones and let the people figure it out themselves. You can add pre-made buildings individually. Or you can really get in there, spacing out individual rooms, choosing the doors and windows and objects inside, and realizing how hard it is to shape multi-floor houses so the roof doesn't look grotesque. You can save the filled-out house for later reuse or just hold on to its core aspects as a blueprint.</p></div><p><a href="https://arstechnica.com/?p=2040744#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040744&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/08/metropolis-1998-lets-you-design-every-building-in-an-isometric-pixel-art-city/feed/</wfw:commentRss>
-			<slash:comments>54</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Human muscle cells come back from space, look aged</title>
-		<link>https://arstechnica.com/?p=2040423</link>
-					<comments>https://arstechnica.com/science/2024/08/human-muscle-cells-come-back-from-space-look-aged/#comments</comments>
-		
-		<dc:creator><![CDATA[Jacek Krywko]]></dc:creator>
-		<pubDate>Fri, 02 Aug 2024 15:33:30 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[gene activity]]></category>
-		<category><![CDATA[muscle cells]]></category>
-		<category><![CDATA[Space exploration]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2040423</guid>
-
-					<description><![CDATA[Astronauts' muscles atrophy in space, but we can identify the genes involved. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/image-9-800x533.jpeg" alt="Image of two astronauts in an equipment filled chamber, standing near the suits they wear for extravehicular activities.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/image-9.jpeg" class="enlarge-link" data-height="1024" data-width="1536">Enlarge</a> <span class="sep">/</span> Muscle atrophy is a known hazard of spending time on the International Space Station. (credit: <a rel="nofollow" class="caption-link" href="https://www.nasa.gov/news-release/international-students-to-speak-with-nasa-astronauts-aboard-space-station/">NASA</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Muscle-on-chip systems are three-dimensional human muscle cell bundles cultured on collagen scaffolds. A Stanford University research team sent some of these systems to the International Space Station to study the muscle atrophy commonly observed in astronauts.</p>
-<p>It turns out that space triggers processes in human muscles that eerily resemble something we know very well: getting old. “We learned that microgravity mimics some of the qualities of accelerated aging,” said Ngan F. Huang, an associate professor at Stanford who led the study.</p>
-<h2>Space-borne bioconstructs</h2>
-<p>“This work originates from our lab’s expertise in regenerative medicine and tissue engineering. We received funding to do a tissue engineering experiment on the ISS, which really helped us embark on this journey, and became curious how microgravity affects human health,” said Huang. So her team got busy designing the research equipment needed to work onboard the space station. The first step was building the muscle-on-chip systems.</p></div><p><a href="https://arstechnica.com/?p=2040423#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040423&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/08/human-muscle-cells-come-back-from-space-look-aged/feed/</wfw:commentRss>
-			<slash:comments>37</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Intel is offering extended warranties for crashing 13th- and 14th-gen desktop CPUs</title>
-		<link>https://arstechnica.com/?p=2040742</link>
-					<comments>https://arstechnica.com/gadgets/2024/08/intel-extends-warranties-by-two-years-for-crash-prone-core-desktop-cpus/#comments</comments>
-		
-		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
-		<pubDate>Fri, 02 Aug 2024 14:38:26 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<category><![CDATA[13th-generation core]]></category>
-		<category><![CDATA[14th-generation core]]></category>
-		<category><![CDATA[Alder Lake]]></category>
-		<category><![CDATA[Intel]]></category>
-		<category><![CDATA[intel core]]></category>
-		<category><![CDATA[raptor lake]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2040742</guid>
-
-					<description><![CDATA[Intel's microcode fix won't help CPUs that are already damaged.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/IMG_0954-800x533.jpeg" alt="Even mainstream CPUs like the Core i5-13400 could theoretically be affected by Intel's crashing issues.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/IMG_0954.jpeg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> Even mainstream CPUs like the Core i5-13400 could theoretically be affected by Intel's crashing issues. (credit: Andrew Cunningham)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Intel will be releasing a microcode update to prevent further damage to crashing 13th- and 14th-generation desktop processors <a href="https://arstechnica.com/gadgets/2024/07/intel-has-finally-tracked-down-the-problem-making-13th-and-14th-gen-cpus-crash/">sometime this month</a> if it can stick to its previously announced schedule. This fix should be available via BIOS updates from PC and motherboard makers and from Microsoft as a Windows update. But it will take time for those updates to roll out to users, and Intel has said that processors that are already exhibiting crashes have been permanently damaged and won't be fixed by the microcode update.</p>
-
-<p>In an effort to provide peace of mind to buyers and cover anyone whose CPU is subtly damaged but not showing explicit signs of instability, Intel is extending the warranty on all affected 13th- and 14th-generation CPUs by an additional two years, Tom's Hardware <a href="https://www.tomshardware.com/pc-components/cpus/intel-announces-an-extra-two-years-of-warranty-for-its-chips-amid-crashing-and-instability-issues-longer-warranty-applies-to-13th-and-14th-gen-core-processors">reports</a>. This raises the warranty on a new boxed Intel CPU from three years to five. For processors that came installed in pre-built PCs, Intel says users should reach out to their PC's manufacturer for support instead.</p>
-<p>Though owners of high-end chips like the Core i9-13900K and Core i9-14900K were the most frequently affected by the crashing issue, Intel says that any 13th- or 14th-generation desktop CPU with a base power of 65 W or higher could ultimately be affected. This means that even slower, more budget-oriented chips like the <a href="https://arstechnica.com/gadgets/2023/04/intels-core-i5-is-the-best-bargain-in-cpus-right-now-but-which-should-you-get/">Core i5-13400</a> could end up having problems.</p></div><p><a href="https://arstechnica.com/?p=2040742#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040742&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/08/intel-extends-warranties-by-two-years-for-crash-prone-core-desktop-cpus/feed/</wfw:commentRss>
-			<slash:comments>162</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>A few weeks with the Pocket 386, an early-‘90s-style, half-busted retro PC</title>
-		<link>https://arstechnica.com/?p=2034561</link>
-					<comments>https://arstechnica.com/gadgets/2024/08/a-few-weeks-with-the-pocket-386-an-early-90s-style-half-busted-retro-pc/#comments</comments>
-		
-		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
-		<pubDate>Fri, 02 Aug 2024 13:42:43 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[80386]]></category>
-		<category><![CDATA[book 8088]]></category>
-		<category><![CDATA[Intel]]></category>
-		<category><![CDATA[MS-DOS]]></category>
-		<category><![CDATA[pocket 386]]></category>
-		<category><![CDATA[Retro computing]]></category>
-		<category><![CDATA[windows 95]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2034561</guid>
-
-					<description><![CDATA[AliExpress retro laptop doesn't always live up to its promise.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/IMG_2028-800x400.jpeg" alt="The Pocket 386 is fun for a while, but the shortcomings and the broken stuff start to wear on you after a while. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/IMG_2028.jpeg" class="enlarge-link" data-height="1280" data-width="2560">Enlarge</a> <span class="sep">/</span> The Pocket 386 is fun for a while, but the shortcomings and the broken stuff start to wear on you after a while.  (credit: Andrew Cunningham)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The <a href="https://arstechnica.com/gadgets/2023/07/going-deep-with-the-book-8088-the-brand-new-laptop-that-runs-like-its-1981/">Book 8088</a> was a neat experiment, but as a clone of <a href="https://arstechnica.com/gadgets/2017/06/ibm-pc-history-part-1/">the original IBM PC</a>, it was pretty limited in what it could do. Early MS-DOS apps and games worked fine, and the very first Windows versions ran… technically. Just not the later ones that could actually run Windows software.</p>
-
-<p>The <a href="https://arstechnica.com/gadgets/2024/06/the-ultimate-windows-3-1-laptop-sellers-behind-book-8088-are-back-with-pocket-386/">Pocket 386 laptop</a> is a lot like the Book 8088, but fast-forwarded to the next huge evolution in the PC’s development. Intel’s 80386 processors not only jumped from 16-bit operation to 32-bit, but they implemented different memory modes that could take advantage of many megabytes of memory while maintaining compatibility with apps that only recognized the first 640KB.</p>
-<p>Expanded software compatibility makes this one more appealing to retro-computing enthusiasts since (like a vintage 386) it will do just about everything an 8088 can do, with the added benefit of a whole lot more speed and much better compatibility with seminal versions of Windows. It’s much more convenient to have all this hardware squeezed into a little laptop than in a big, clunky vintage desktop with slowly dying capacitors in it.</p></div><p><a href="https://arstechnica.com/?p=2034561#p3">Read 53 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2034561&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/08/a-few-weeks-with-the-pocket-386-an-early-90s-style-half-busted-retro-pc/feed/</wfw:commentRss>
-			<slash:comments>119</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Rocket Report: Falcon 9 is back; Starship could be recovered off Australia</title>
-		<link>https://arstechnica.com/?p=2040677</link>
-					<comments>https://arstechnica.com/space/2024/08/rocket-report-falcon-9-is-back-starship-could-be-recovered-off-australia/#comments</comments>
-		
-		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
-		<pubDate>Fri, 02 Aug 2024 12:39:46 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[atlas v]]></category>
-		<category><![CDATA[european space agency]]></category>
-		<category><![CDATA[falcon 9]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[rocket report]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[starship]]></category>
-		<category><![CDATA[united launch alliance]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2040677</guid>
-
-					<description><![CDATA[Elon Musk doesn't expect the next Starship test flight to occur before late August.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Welcome to Edition 7.05 of the Rocket Report! The Federal Aviation Administration grounded SpaceX's Falcon 9 rocket for 15 days after a rare failure of its upper stage earlier this month. The FAA gave the green light for Falcon 9 to return to flight July 25, and within a couple of days, SpaceX successfully launched three missions from three launch pads. There's a lot on Falcon 9's to-do list, so we expect SpaceX to quickly return to form with several flights per week.</p>
-<p>As always, we <a href="https://arstechnica.wufoo.com/forms/launch-stories/">welcome reader submissions</a>. If you don't want to miss an issue, please subscribe using the box below (the form will not appear on AMP-enabled versions of the site). Each report will include information on small-, medium-, and heavy-lift rockets as well as a quick look ahead at the next three launches on the calendar.</p>
-<div class="image shortcode-img center full"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png"></div>
-<p><b>Big delay for a reusable rocket testbed. </b>The French space agency, CNES, has revealed that the inaugural test flight of its Callisto reusable rocket demonstrator will not take place until late 2025 or early 2026, <a href="https://europeanspaceflight.com/has-the-inaugural-callisto-test-flight-slipped-to-2026/">European Spaceflight reports</a>. CNES unveiled an updated website for the Callisto rocket program earlier this month, showing the test rocket has been delayed from a debut launch later this year to until late 2025 or early 2026. The Callisto rocket is designed to test techniques and technologies required for reusable rockets, such as vertical takeoff and vertical landing, with suborbital flights from the Guiana Space Center in South America.</p></div><p><a href="https://arstechnica.com/?p=2040677#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040677&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/08/rocket-report-falcon-9-is-back-starship-could-be-recovered-off-australia/feed/</wfw:commentRss>
-			<slash:comments>300</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>“Screaming Woman” mummy may have died in agony 3,500 years ago, study finds</title>
-		<link>https://arstechnica.com/?p=2039947</link>
-					<comments>https://arstechnica.com/science/2024/08/screaming-woman-mummy-may-have-died-in-agony-3500-years-ago-study-finds/#comments</comments>
-		
-		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
-		<pubDate>Fri, 02 Aug 2024 04:15:23 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[ancient egypt]]></category>
-		<category><![CDATA[Archaeology]]></category>
-		<category><![CDATA[archaeometry]]></category>
-		<category><![CDATA[CT scanning]]></category>
-		<category><![CDATA[Egyptian mummification]]></category>
-		<category><![CDATA[forensic archaeology]]></category>
-		<category><![CDATA[paleoradiology]]></category>
-		<category><![CDATA[screaming woman mummy]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2039947</guid>
-
-					<description><![CDATA[Scientists performed a "virtual autopsy" but could not determine exact cause of death.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/07/mummy1CROP-800x536.jpg" alt="The Screaming Woman mummy, closeup of head/skull surrounded by elaborate wig">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/07/mummy1CROP.jpg" class="enlarge-link" data-height="804" data-width="1200">Enlarge</a> <span class="sep">/</span> CT scans and other techniques allowed scientists to "virtually dissect" this 3,500-year-old "Screaming Woman" mummy. (credit: <a rel="nofollow" class="caption-link" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Sahar Saleem/CC BY</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>There have been a handful of ancient Egyptian mummies discovered with their mouths wide open, as if mid-scream. This has puzzled archaeologists because Egyptian mummification typically involved bandaging the mandible to the skull to keep the mouth closed. Scientists have "virtually dissected" one such "Screaming Woman" mummy and concluded that the wide-open mouth is not the result of poor mummification, according to a <a href="https://www.frontiersin.org/articles/10.3389/fmed.2024.1406225/full">new paper</a> published in the journal Frontiers in Medicine. There was no clear cause of death, but the authors suggest the mummy's expression could indicate she died in excruciating pain.</p>
-<p>"The Screaming Woman is a true ‘time capsule’ of the way that she died and was mummified,” <a href="https://www.eurekalert.org/news-releases/1052837?">said co-author Sahar Saleem</a>, a professor of radiology at Cairo University in Egypt. "Here we show that she was embalmed with costly, imported embalming material. This, and the mummy's well-preserved appearance, contradicts the traditional belief that a failure to remove her inner organs implied poor mummification."</p>
-<p>Saleem has long been involved in paleoradiology and archaeometry of "screaming"  Egyptian mummies. For instance, she co-authored <a href="https://ejrnm.springeropen.com/articles/10.1186/s43055-020-00255-6">a 2020 paper</a> applying similar techniques to the study of another "Screaming Woman" mummy, dubbed Unknown Woman A by the then-head of the Egyptian Antiquities Service, Gaston Maspero, and one of two such mummies discovered in the Royal Cache at Deir el Bahari near Luxor in 1881. This was where 21st and 22nd Dynasty priests would hide the remains of royal members from earlier dynasties to thwart grave robbers.</p></div><p><a href="https://arstechnica.com/?p=2039947#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2039947&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/08/screaming-woman-mummy-may-have-died-in-agony-3500-years-ago-study-finds/feed/</wfw:commentRss>
-			<slash:comments>63</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Who are the two major hackers Russia just received in a prisoner swap?</title>
-		<link>https://arstechnica.com/?p=2040698</link>
-					<comments>https://arstechnica.com/security/2024/08/who-are-the-two-major-hackers-russia-just-received-in-a-prisoner-swap/#comments</comments>
-		
-		<dc:creator><![CDATA[Nate Anderson]]></dc:creator>
-		<pubDate>Fri, 02 Aug 2024 00:14:25 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[hackers]]></category>
-		<category><![CDATA[prisoner swap]]></category>
-		<category><![CDATA[prisoners]]></category>
-		<category><![CDATA[russia]]></category>
-		<category><![CDATA[russian hacking]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2040698</guid>
-
-					<description><![CDATA[Both men committed major financial crimes—and had powerful friends.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/01/russia-state-hacking-800x451.jpg" alt="Who are the two major hackers Russia just received in a prisoner swap?">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/01/russia-state-hacking.jpg" class="enlarge-link" data-height="620" data-width="1100">Enlarge</a> (credit: Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>As part of today’s <a href="https://www.cnn.com/2024/08/01/politics/russia-us-prisoner-swap/index.html">blockbuster prisoner swap</a> between the US and Russia, which freed the journalist Evan Gershkovich and several Russian opposition figures, Russia received in return a motley collection of serious criminals, including an assassin who had <a href="https://www.nytimes.com/2024/08/01/world/europe/russia-krasikov-prisoner-swap.html">executed an enemy of the Russian state in the middle of Berlin</a>.</p>
-<p>But the Russians also got two hackers, Vladislav Klyushin and Roman Seleznev, each of whom had been convicted of major financial crimes in the US. The US government <a href="https://storage.courtlistener.com/recap/gov.uscourts.mad.232574/gov.uscourts.mad.232574.248.0.pdf">said</a> that Klyushin “stands convicted of the most significant hacking and trading scheme in American history, and one of the largest insider trading schemes ever prosecuted.” As for Seleznev, federal prosecutors <a href="https://www.nytimes.com/2017/04/21/technology/russian-hacker-sentenced.html">said</a> that he has “harmed more victims and caused more financial loss than perhaps any other defendant that has appeared before the court.”</p>
-<p>What sort of hacker do you have to be to attract the interest of the Russian state in prisoner swaps like these? Clearly, it helps to have hacked widely and caused major damage to Russia’s enemies. By bringing these two men home, Russian leadership is sending a clear message to domestic hackers: We’ve got your back.</p></div><p><a href="https://arstechnica.com/?p=2040698#p3">Read 17 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2040698&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/security/2024/08/who-are-the-two-major-hackers-russia-just-received-in-a-prisoner-swap/feed/</wfw:commentRss>
-			<slash:comments>170</slash:comments>
+			<slash:comments>215</slash:comments>
 		
 		
 			</item>
