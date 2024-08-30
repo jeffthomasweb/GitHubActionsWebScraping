@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Thu, 29 Aug 2024 00:13:59 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 30 Aug 2024 00:00:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,6 +21,542 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Sunrise alarm clock didn’t make waking up easier—but made sleeping more peaceful</title>
+		<link>https://arstechnica.com/?p=2046183</link>
+					<comments>https://arstechnica.com/gadgets/2024/08/sunrise-alarm-clock-didnt-make-waking-up-easier-but-made-sleeping-more-peaceful/#comments</comments>
+		
+		<dc:creator><![CDATA[Scharon Harding]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 23:56:55 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[reviews]]></category>
+		<category><![CDATA[smart home]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046183</guid>
+
+					<description><![CDATA[Hatch Restore 2 targets circadian rhythms, but it can't beat sunlight. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+
+
+
+
+
+<div><a name="page-1"></a></div>
+  <ul class="gallery shortcode-gallery gallery-wide">
+          <li>
+        <div class="gallery-item-content">
+          <div class="gallery-image"><img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/20240829_185819-980x552.jpg" alt=""></div>
+          <p>
+            The Hatch Restore 2 with one of its lighting options on.                          [credit:
+                              Scharon Harding                            ]
+                      </p>
+        </div>
+      </li>
+      </ul>
+
+<p>To say "I’m not a morning person" would be an understatement. Not only is it hard for me to be useful in the first hour (or so) of being awake, but it’s hard for me to wake up. I mean, <em>really hard.</em></p>
+<p>I’ve tried various recommendations and tricks: I've set multiple alarms and had coffee ready and waiting, and I've put my alarm clock far from my bed and kept my blinds open so that sunlight might wake me. But I’m still prone to sleeping through my alarm or hitting snooze until the last minute.</p>
+<p>The Hatch Restore 2, a smart alarm clock with lighting that mimics sunrises and sunsets, seemed like a technologically savvy approach to realizing my dreams of becoming a morning person.</p></div><p><a href="https://arstechnica.com/?p=2046183#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046183&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/08/sunrise-alarm-clock-didnt-make-waking-up-easier-but-made-sleeping-more-peaceful/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Revised Raspberry Pi 5 chip comes with unexpected power savings</title>
+		<link>https://arstechnica.com/?p=2046291</link>
+					<comments>https://arstechnica.com/gadgets/2024/08/2gb-raspberry-pi-5s-new-chip-also-cuts-power-use-by-up-to-30-testing-shows/#comments</comments>
+		
+		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 22:06:14 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[raspberry pi 5]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046291</guid>
+
+					<description><![CDATA[What we don't know is whether 4GB or 8GB Pis will get the tweaked chip design.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/pi5_2-800x537.jpeg" alt="The Broadcom SoC used in the original 4GB and 8GB Raspberry Pi 5. The 2GB version uses an updated revision with several small but significant benefits.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/pi5_2.jpeg" class="enlarge-link" data-height="1374" data-width="2048">Enlarge</a> <span class="sep">/</span> The Broadcom SoC used in the original 4GB and 8GB Raspberry Pi 5. The 2GB version uses an updated revision with several small but significant benefits. (credit: Raspberry Pi)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>When Raspberry Pi introduced <a href="https://arstechnica.com/gadgets/2024/08/new-2gb-raspberry-pi-5-option-knocks-the-price-down-to-50/">a new 2GB version of the Raspberry Pi 5 board</a> earlier this month, CEO Eben Upton said that the board would come with a slightly updated version of the board's Broadcom BCM2712C1 SoC. By removing chip functionality that the Pi 5 didn't use, the new D0 stepping of the chip would use less silicon, reducing its cost.</p>
+<p>Raspberry Pi enthusiast and YouTuber Jeff Geerling has <a href="https://www.jeffgeerling.com/blog/2024/new-2gb-pi-5-has-33-smaller-die-30-idle-power-savings">performed some firsthand testing</a> of the 2GB Pi 5. As Upton said, the new board is functionally identical to the older 4GB and 8GB boards, with identical performance (as long as whatever workload you're running doesn't benefit from extra RAM, anyway). The new silicon die is also <a href="https://x.com/geerlingguy/status/1828177919765532758">about 33 percent smaller</a> than the old one, which Geerling verified by <a href="https://x.com/geerlingguy/status/1828177615640739901">removing the SoC's heat spreader</a> to expose the silicon underneath and measuring by hand.</p>
+<p>Geerling also demonstrated that the 2GB Pi 5 comes with a couple of unexpected benefits that Upton didn't mention in his announcement—that the 2GB Pi 5 runs a little cooler and uses a little less power than the 4GB and 8GB editions. The 2GB Pi used just 2.4 W or power at idle and 8.9 W during a CPU stress test, compared to 3.3 W and 9.8 W in the 4GB version. The SoC of the 2GB Pi measured 30° Celsius at idle and 59° under load, compared to 32° and 63° for the 2GB version. Those are all small but significant differences, given that nothing has changed other than the SoC.</p></div><p><a href="https://arstechnica.com/?p=2046291#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046291&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/08/2gb-raspberry-pi-5s-new-chip-also-cuts-power-use-by-up-to-30-testing-shows/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Space Command chief says dialogue with China is too often a one-way street</title>
+		<link>https://arstechnica.com/?p=2046107</link>
+					<comments>https://arstechnica.com/space/2024/08/as-china-creates-more-space-junk-the-us-military-still-plays-orbital-traffic-cop/#comments</comments>
+		
+		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 21:47:40 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[military space]]></category>
+		<category><![CDATA[space command]]></category>
+		<category><![CDATA[space debris]]></category>
+		<category><![CDATA[Stephen whiting]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046107</guid>
+
+					<description><![CDATA["We all should operate with due regard and in a professional manner."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/240209-N-TP834-1040-800x533.jpg" alt="Gen. Stephen Whiting, commander of US Space Command, speaks earlier this year at Peterson Space Force Base, Colorado.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/240209-N-TP834-1040.jpg" class="enlarge-link" data-height="1080" data-width="1620">Enlarge</a> <span class="sep">/</span> Gen. Stephen Whiting, commander of US Space Command, speaks earlier this year at Peterson Space Force Base, Colorado. (credit: <a rel="nofollow" class="caption-link" href="https://www.spacecom.mil/Newsroom/News/Article-Display/Article/3683192/usspacecom-releases-updated-strategic-vision/">USSPACECOM photo by John Philip Wagner Jr.</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The head of US Space Command said Wednesday he would like to see more transparency from the Chinese government on space debris, especially as one of China's newer rockets has shown a propensity for breaking apart and littering low-Earth orbit with hundreds of pieces of space junk.</p>
+<p>Gen. Stephen Whiting, commander of US Space Command, said he's observed some improvement in the dialogue between US and Chinese military officials this year. But the <a href="https://arstechnica.com/space/2024/08/us-military-tracks-more-than-300-pieces-of-debris-from-chinese-launch/">disintegration of the upper stage from a Long March 6A rocket</a> earlier this month showed China could do more to prevent the creation of space debris, and communicate openly about it when it happens.</p>
+<p>The Chinese government acknowledged the breakup of the Long March 6A rocket's upper stage in a statement by its Ministry of Foreign Affairs on August 14, more than a week after the rocket's launch August 6 with the first batch of 18 Internet satellites for a megaconstellation of thousands of spacecraft analogous to SpaceX's Starlink network.</p></div><p><a href="https://arstechnica.com/?p=2046107#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046107&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/08/as-china-creates-more-space-junk-the-us-military-still-plays-orbital-traffic-cop/feed/</wfw:commentRss>
+			<slash:comments>21</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>EmuDeck coder pivots to hardware with Linux-based “EmuDeck Machines”</title>
+		<link>https://arstechnica.com/?p=2046260</link>
+					<comments>https://arstechnica.com/gaming/2024/08/emudeck-machines-pack-popular-emulation-suite-in-linux-powered-plug-and-play-pc/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 21:25:48 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046260</guid>
+
+					<description><![CDATA[Project lead says its "mostly for fun" but "my heart is poured in this thing."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/emudeckmachines.jpg" alt="Any resemblance to the Dreamcast is completely coincidental, we're sure.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/emudeckmachines.jpg" class="enlarge-link" data-height="460" data-width="695">Enlarge</a> <span class="sep">/</span> Any resemblance to the Dreamcast is completely coincidental, we're sure. (credit: <a rel="nofollow" class="caption-link" href="https://www.indiegogo.com/projects/emudeck-machines-retro-emulation-console-pc#/">IndieGogo</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>If you're familiar with the name EmuDeck, you're likely a Steam Deck owner looking for <a href="https://www.emudeck.com/">an easy and user-friendly way to run emulators on your Steam Deck handheld</a>. Now, <a href="https://github.com/dragoonDorise">one of the coders</a> behind that software suite is dipping their toes into branded gaming hardware with <a href="https://x.com/EmuDeck/status/1829172047559397518">the EmuDeck Machines project</a>, now seeking <a href="https://www.indiegogo.com/projects/emudeck-machines-retro-emulation-console-pc#/">funding on IndieGogo</a>.</p>
+<p>The EmuDeck Machines obviously come with EmuDeck software preinstalled to let users easily "play your retro games from your couch." But they also promise to let you run games from Steam and other popular PC launchers through the <a href="https://bazzite.gg/">Linux-based, gaming-focused Bazzite OS</a>. The vibe is definitely similar to that of <a href="https://arstechnica.com/gaming/2016/06/its-time-to-declare-valves-steam-machines-doa/">Valve's own aborted Steam Machines effort</a> from years back, albeit in a less "official" capacity.</p>
+<p>"I used to be a PC guy but in the last 20 years I switched to the Mac and in the Apple ecosystem choosing a computer is easy," project lead DragoonDorise told Ars in an email. "But then I found myself wanting a gaming rig so I started my search and boy oh boy I was lost. The PC industry seems to be trying to trick you every step of the way, gazillions of options, hard to understand what's good and what's not. If you are tech savvy it's not hard, you know what to get and what to avoid. Then it hit me, I made emulation easy with EmuDeck, why not make hardware easy too?"</p></div><p><a href="https://arstechnica.com/?p=2046260#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046260&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/08/emudeck-machines-pack-popular-emulation-suite-in-linux-powered-plug-and-play-pc/feed/</wfw:commentRss>
+			<slash:comments>22</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>US: Alaska man busted with 10,000+ child sex abuse images despite his many encrypted apps</title>
+		<link>https://arstechnica.com/?p=2046303</link>
+					<comments>https://arstechnica.com/tech-policy/2024/08/military-driver-arrested-for-creating-fake-ai-sex-abuse-images-but-using-real-kids-he-knew/#comments</comments>
+		
+		<dc:creator><![CDATA[Nate Anderson]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 21:25:32 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Alaska]]></category>
+		<category><![CDATA[child porn]]></category>
+		<category><![CDATA[csam]]></category>
+		<category><![CDATA[sex abuse]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046303</guid>
+
+					<description><![CDATA[Encryption alone won't save you from the feds.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2020/11/encryption-800x534.jpg" alt="Stylized illustration of a padlock.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2020/11/encryption.jpg" class="enlarge-link" data-height="667" data-width="1000">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/security-padlock-in-circuit-board-royalty-free-image/1177340837?adppopup=true&amp;irgwc=1&amp;esource=AFF_GI_IR_Skimbit%20Ltd._10078&amp;asid=Skimbit%20Ltd.&amp;cid=GI&amp;utm_medium=affiliate&amp;utm_source=Skimbit%20Ltd.&amp;utm_content=10078">Getty Images | Yuichiro Chino</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The rise in child sexual abuse material (CSAM) has been one of the darkest Internet trends, but after years of covering CSAM cases, I've found that few of those arrested show deep technical sophistication. (Perhaps this is simply because the technically sophisticated are better at avoiding arrest.)</p>
+<p>Most understand that what they are doing is illegal and that password protection is required, both for their devices and online communities. Some can also use tools like TOR (The Onion Router). And, increasingly, encrypted (or at least encrypted-capable) chat apps might be in play.</p>
+<p>But I've never seen anyone who, when arrested, had <em>three</em> Samsung Galaxy phones filled with "tens of thousands of videos and images" depicting CSAM, all of it hidden behind a secrecy-focused, password-protected app called "<a href="https://play.google.com/store/apps/details?id=com.hld.anzenbokusucal&amp;hl=en_US">Calculator Photo Vault</a>." Nor have I seen anyone arrested for CSAM having used all of the following:</p></div><p><a href="https://arstechnica.com/?p=2046303#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046303&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/military-driver-arrested-for-creating-fake-ai-sex-abuse-images-but-using-real-kids-he-knew/feed/</wfw:commentRss>
+			<slash:comments>25</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Commercial spyware vendor exploits used by Kremlin-backed hackers, Google says</title>
+		<link>https://arstechnica.com/?p=2046289</link>
+					<comments>https://arstechnica.com/security/2024/08/commercial-spyware-vendor-exploits-used-by-kremlin-backed-hackers-google-says/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 21:05:06 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046289</guid>
+
+					<description><![CDATA[Findings undercut pledges of NSO Group and Intgellexa their wares won't be abused.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-800x450.jpg" alt="Commercial spyware vendor exploits used by Kremlin-backed hackers, Google says">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg" class="enlarge-link" data-height="563" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Critics of spyware and exploit sellers have long warned that the advanced hacking sold by commercial surveillance vendors (CSVs) represents a worldwide danger because they inevitably find their way into the hands of malicious parties, even when the CSVs promise they will be used only to target known criminals. On Thursday, Google analysts presented evidence bolstering the critique after finding that spies working on behalf of the Kremlin used exploits that are “identical or strikingly similar” to those sold by spyware makers Intellexa and NSO Group.</p>
+<p>The hacking outfit, tracked under names including APT29, Cozy Bear, and Midnight Blizzard, is widely assessed to work on behalf of Russia’s Foreign Intelligence Service, or the SVR. Researchers with Google’s Threat Analysis Group, which tracks nation-state hacking, <a href="https://blog.google/threat-analysis-group/state-backed-attackers-and-commercial-surveillance-vendors-repeatedly-use-the-same-exploits/">said Thursday</a> that they observed APT29 using exploits identical or closely identical to those first used by commercial exploit sellers NSO Group of Israel and Intellexa of Ireland. In both cases, the Commercial Surveillance Vendors’ exploits were first used as zero-days, meaning when the vulnerabilities weren’t publicly known and no patch was available.</p>
+<h2>Identical or strikingly similar</h2>
+<p>Once patches became available for the vulnerabilities, TAG said, APT29 used the exploits in watering hole attacks, which infect targets by surreptitiously planting exploits on sites they’re known to frequent. TAG said APT29 used the exploits as n-days, which target vulnerabilities that have recently been fixed but not yet widely installed by users.</p></div><p><a href="https://arstechnica.com/?p=2046289#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046289&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/08/commercial-spyware-vendor-exploits-used-by-kremlin-backed-hackers-google-says/feed/</wfw:commentRss>
+			<slash:comments>9</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Apple is reportedly trying to invest in OpenAI</title>
+		<link>https://arstechnica.com/?p=2046261</link>
+					<comments>https://arstechnica.com/gadgets/2024/08/apple-is-reportedly-trying-to-invest-in-openai/#comments</comments>
+		
+		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 20:45:42 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[apple intelligence]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[openai]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046261</guid>
+
+					<description><![CDATA[OpenAI's ChatGPT will be built into the iPhone operating system later this year.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/01/chatgpt-800x520.jpg" alt="OpenAI logo displayed on a phone screen and ChatGPT website displayed on a laptop screen.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/01/chatgpt.jpg" class="enlarge-link" data-height="666" data-width="1024">Enlarge</a> <span class="sep">/</span> The OpenAI logo. (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>According to a report in <a href="https://www.wsj.com/tech/ai/openai-apple-funding-chatgpt-50754cd6">The Wall Street Journal</a>, Apple is in talks to invest in OpenAI, the generative AI company whose ChatGPT will feature in future versions of iOS.</p>
+<p>If the talks are successful, Apple will join a multi-billion dollar funding round led by Thrive Capital that would value the startup at more than $100 billion.</p>
+<p>The report doesn't say exactly how much Apple would invest, but it does note that it would not be the only participant in this round of funding. For example, Microsoft is expected to invest further, and Bloomberg <a href="https://www.bloomberg.com/news/articles/2024-08-29/nvidia-has-held-discussions-about-joining-openai-s-funding-round">reports</a> that Nvidia is also considering participating.</p></div><p><a href="https://arstechnica.com/?p=2046261#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046261&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/08/apple-is-reportedly-trying-to-invest-in-openai/feed/</wfw:commentRss>
+			<slash:comments>32</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Feds to get early access to OpenAI, Anthropic AI to test for doomsday scenarios</title>
+		<link>https://arstechnica.com/?p=2046240</link>
+					<comments>https://arstechnica.com/tech-policy/2024/08/feds-to-get-early-access-to-openai-anthropic-ai-to-test-for-doomsday-scenarios/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 20:14:45 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI safety]]></category>
+		<category><![CDATA[ai safety institute]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[NIST]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[us ai safety institute]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046240</guid>
+
+					<description><![CDATA[AI companies agreed that ensuring AI safety was key to innovation.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1262115351-800x533.jpg" alt="Feds to get early access to OpenAI, Anthropic AI to test for doomsday scenarios">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1262115351.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/robotic-hand-with-yellow-caution-tape-royalty-free-image/1262115351?phrase=robot+safety+sign&amp;adppopup=true">Kilito Chan | Moment</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>OpenAI and Anthropic have each signed unprecedented deals granting the US government early access to conduct safety testing on the companies' flashiest new AI models before they're released to the public.</p>
+<p>According to a <a href="https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research">press release</a> from the National Institute of Standards and Technology (NIST), the deal creates a "formal collaboration on AI safety research, testing, and evaluation with both Anthropic and OpenAI" and the US Artificial Intelligence Safety Institute.</p>
+<p>Through the deal, the US AI Safety Institute will "receive access to major new models from each company prior to and following their public release." This will ensure that public safety won't depend exclusively on how the companies "evaluate capabilities and safety risks, as well as methods to mitigate those risks," NIST said, but also on collaborative research with the US government.</p></div><p><a href="https://arstechnica.com/?p=2046240#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046240&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/feds-to-get-early-access-to-openai-anthropic-ai-to-test-for-doomsday-scenarios/feed/</wfw:commentRss>
+			<slash:comments>13</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MPA says no more “Whac-a-Mole” with pirate sites, claims it took down “mothership”</title>
+		<link>https://arstechnica.com/?p=2046230</link>
+					<comments>https://arstechnica.com/tech-policy/2024/08/movie-industry-touts-takedown-of-worlds-largest-pirate-streaming-ring/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 20:06:35 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[fmovies]]></category>
+		<category><![CDATA[fmovies takedown]]></category>
+		<category><![CDATA[motion picture association]]></category>
+		<category><![CDATA[pirate streaming]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046230</guid>
+
+					<description><![CDATA[Fmovies takedown "is a stunning victory," MPA CEO Charles Rivkin said.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/mpa-ceo-800x544.jpg" alt="Motion Picture Association CEO Charles Rivkin gives a speech at a podium during a conference.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/mpa-ceo.jpg" class="enlarge-link" data-height="1700" data-width="2500">Enlarge</a> <span class="sep">/</span> Motion Picture Association CEO Charles Rivkin speaks onstage during CinemaCon, a convention of the National Association of Theatre Owners, at Caesars Palace on April 9, 2024, in Las Vegas, Nevada. (credit: Getty Images | Jerod Harris )</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>A group representing major film studios said it collaborated with Vietnamese authorities to take down what it called "the largest pirate streaming operation in the world."</p>
+<p>Fmovies, which the film industry group also called the "world's largest piracy ring," is said to have drawn more than 6.7 billion visits between January 2023 and June 2024. Launched in 2016, the Hanoi-based outfit included pirate sites bflixz, flixtorz, movies7, myflixer, and aniwave.</p>
+<p>"The takedown of Fmovies is a stunning victory for casts, crews, writers, directors, studios, and the creative community across the globe," Motion Picture Association (MPA) CEO Charles Rivkin said today.</p></div><p><a href="https://arstechnica.com/?p=2046230#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046230&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/movie-industry-touts-takedown-of-worlds-largest-pirate-streaming-ring/feed/</wfw:commentRss>
+			<slash:comments>94</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Eli Lilly raises price of Zepbound while trumpeting discount on starter vials</title>
+		<link>https://arstechnica.com/?p=2046139</link>
+					<comments>https://arstechnica.com/science/2024/08/eli-lilly-raises-price-of-zepbound-while-trumpeting-discount-on-starter-vials/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 19:59:28 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[bernie sanders]]></category>
+		<category><![CDATA[drug prices]]></category>
+		<category><![CDATA[eli lilly]]></category>
+		<category><![CDATA[GLP-1]]></category>
+		<category><![CDATA[health insurance]]></category>
+		<category><![CDATA[lilly]]></category>
+		<category><![CDATA[prescription drugs]]></category>
+		<category><![CDATA[sanders]]></category>
+		<category><![CDATA[weight loss drugs]]></category>
+		<category><![CDATA[zepbound]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046139</guid>
+
+					<description><![CDATA[Cost for insured patients without coverage for the drug rises from $550 to $650 a month.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2126120280-800x533.jpg" alt="An Eli Lilly &amp; Co. Zepbound injection pen arranged in the Brooklyn borough of New York, US, on Thursday, March 28, 2024. ">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2126120280-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> An Eli Lilly &amp; Co. Zepbound injection pen arranged in the Brooklyn borough of New York, US, on Thursday, March 28, 2024.  (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/an-eli-lilly-co-zepbound-injection-pen-arranged-in-the-news-photo/2126120280?adppopup=true">Getty | helby Knowles</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Pharmaceutical giant Eli Lilly earned praise this week with <a href="https://investor.lilly.com/news-releases/news-release-details/lilly-releases-zepboundr-tirzepatide-single-dose-vials-expanding">an announcement</a> that it is now selling starter dosages of its popular weight-loss drug tirzepatide (Zepbound) at a price significantly lower than before. But the cheers were short-lived as critics quickly noticed that Lilly also quietly raised the price on current versions of the drug—a move that was notably missing from the company's press release this week.</p>
+<p>In the past, Lilly sold Zepbound only in injectable pens with a list price of $1,060 for a month's supply. Several dosages are available—2.5 mg, 5 mg, 7.5 mg, 10 mg, 12.5 mg, or 15 mg—and patients progressively increase their dosage until they reach a maintenance dosage. The recommended maintenance dosages are 5 mg, 10 mg, or 15 mg. The higher the dose, the more the weight loss. For instance, people using the 15 mg doses lost an average of <a href="https://zepbound.lilly.com/what-is-zepbound">21 percent of their weight</a> over 17 months in a clinical trial, while those on 5 mg doses only lost an average of 15 percent of their weight.</p>
+<p>On Tuesday, Lilly announced that it will now sell Zepbound in vials, too. And a month's supply of vials with the 2.5 mg doses will cost $399, while a month's supply of 5 mg doses is priced at $549—a welcome drop from the $1,060 price tag. These prices are for a self-pay option, meaning that patients with a valid, on-label prescription can buy them directly from Lilly if they have no insurance or have insurance that does not cover the drug.</p></div><p><a href="https://arstechnica.com/?p=2046139#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046139&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/08/eli-lilly-raises-price-of-zepbound-while-trumpeting-discount-on-starter-vials/feed/</wfw:commentRss>
+			<slash:comments>31</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>We can now watch Grace Hopper’s famed 1982 lecture on YouTube</title>
+		<link>https://arstechnica.com/?p=2046172</link>
+					<comments>https://arstechnica.com/science/2024/08/we-can-now-watch-grace-hoppers-famed-1982-lecture-on-youtube/#comments</comments>
+		
+		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 19:51:39 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[cobol]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[Grace Hopper]]></category>
+		<category><![CDATA[national archives]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046172</guid>
+
+					<description><![CDATA[The lecture featured Hopper discussing future challenges of protecting information.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<div class="video"><div class="wrapper"><iframe style="display:block" type="text/html" width="980" height="550" src="https://www.youtube.com/embed/si9iqF5uTFk?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe></div><p class="caption" style="font-size:0.8em">Rear Admiral Grace Hopper on Future Possibilities: Data, Hardware, Software, and People (Part One, 1982). </p></div>
+<p>The late Rear Admiral <a href="https://en.wikipedia.org/wiki/Grace_Hopper">Grace Hopper</a> was a gifted mathematician and undisputed pioneer in computer programming, <a href="https://arstechnica.com/tech-policy/2016/11/top-apollo-era-navy-computer-scientists-receive-presidential-medal-of-freedom/">honored posthumously</a> in 2016 with the Presidential Medal of Freedom. She was also very much in demand as a speaker in her later career. Hopper's famous 1982 lecture on "Future Possibilities: Data, Hardware, Software, and People," has long been publicly unavailable because of the obsolete media on which it was recorded. The National Archives and Records Administration (NARA) finally managed to retrieve the footage for the National Security Agency (NSA), which <a href="https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/3884041/nsa-releases-copy-of-internal-lecture-delivered-by-computing-giant-rear-adm-gra/">posted the lecture</a> in two parts on YouTube (Part One embedded above, Part Two embedded below).</p>
+<p>Hopper earned undergraduate degrees in math and physics from Vassar College and a PhD in math from Yale in 1930. She returned to Vassar as a professor, but when World War II broke out, she sought to enlist in the US Naval Reserve. She was initially denied on the basis of her age (34) and low weight-to-height ratio, and also because her expertise elsewhere made her particularly valuable to the war effort. Hopper got an exemption, and after graduating first in her class, she joined the Bureau of Ships Computation Project at Harvard University, where she served on the Mark I computer programming staff under Howard H. Aiken.</p>
+<p>She stayed with the lab until 1949 and was next hired as a senior mathematician by Eckert-Mauchly Computer Corporation to develop the Universal Automatic Computer, or <a href="https://arstechnica.com/tech-policy/2011/09/univac-the-troubled-life-of-americas-first-computer/">UNIVAC</a>, the first computer. Hopper championed the development of a new programming language based on English words. "It's much easier for most people to write an English statement than it is to use symbols," she reasoned. "So I decided data processors ought to be able to write their programs in English and the computers would translate them into machine code."</p></div><p><a href="https://arstechnica.com/?p=2046172#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046172&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/08/we-can-now-watch-grace-hoppers-famed-1982-lecture-on-youtube/feed/</wfw:commentRss>
+			<slash:comments>38</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>DOJ declares victory over Backpage as judge sends founder Lacey to prison</title>
+		<link>https://arstechnica.com/?p=2046155</link>
+					<comments>https://arstechnica.com/tech-policy/2024/08/backpage-founder-michael-lacey-gets-5-years-in-prison-for-money-laundering/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 16:48:13 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[backpage michael lacey]]></category>
+		<category><![CDATA[michael lacey sentencing]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046155</guid>
+
+					<description><![CDATA[Lacey gets 5 years for one money laundering charge but was acquitted on 50 counts.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/michael-lacey-800x482.jpg" alt="Backpage founder Michael Lacey sits at a table while testifying during a Senate hearing.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/michael-lacey.jpg" class="enlarge-link" data-height="1492" data-width="2477">Enlarge</a> <span class="sep">/</span> Backpage founder Michael Lacey testifying at a US Senate hearing in January 2017. (credit: <a rel="nofollow" class="caption-link" href="https://www.youtube.com/watch?v=9PMco6Up4Xg">US Senate hearing</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Backpage founder Michael Lacey was sentenced yesterday to five years in prison and fined $3 million after being convicted on one count of money laundering. Lacey, 76, was also sentenced to three years of supervised release, the Department of Justice said in a <a href="https://www.justice.gov/opa/pr/three-owners-notorious-prostitution-website-backpagecom-sentenced">press release</a>.</p>
+<p>Two other Backpage principals—Scott Spear and John "Jed" Brunst—were sentenced to 10 years in prison and three years of supervised release. "The Court also ordered that all defendants turn themselves in to the US Marshals Service by noon on Sept. 11," the Department of Justice said.</p>
+<p>Authorities alleged that Backpage generated over $500 million in revenue from running a forum that facilitated prostitution. While Lacey argued that he wasn't involved in day-to-day operations, US District Judge Diane Humetewa "told Lacey during Wednesday's sentencing he was aware of the allegations against Backpage and did nothing," <a href="https://apnews.com/article/backpage-prostitution-sex-ads-michael-lacey-sentencing-fdc90e3293eec40a2f63d2e0d828ff5f">according to the Associated Press</a>.</p></div><p><a href="https://arstechnica.com/?p=2046155#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046155&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/backpage-founder-michael-lacey-gets-5-years-in-prison-for-money-laundering/feed/</wfw:commentRss>
+			<slash:comments>106</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>California legislature passes controversial “kill switch” AI safety bill</title>
+		<link>https://arstechnica.com/?p=2046140</link>
+					<comments>https://arstechnica.com/ai/2024/08/as-contentious-california-ai-safety-bill-passes-critics-push-governor-for-veto/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 16:07:41 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046140</guid>
+
+					<description><![CDATA[Governor will balance worries about "over-regulation" with calls from AI luminaries.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/newsom-800x533.png" alt="California governor Gavin Newsom will likely soon face a decision on whether to sign SB-1047.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/newsom.png" class="enlarge-link" data-height="3333" data-width="5000">Enlarge</a> <span class="sep">/</span> California governor Gavin Newsom will likely soon face a decision on whether to sign SB-1047. (credit: Ray Chavez/The Mercury News via Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>A controversial bill aimed at enforcing safety standards for large artificial intelligence models has now <a href="https://sd11.senate.ca.gov/news/senator-wieners-landmark-ai-bill-passes-assembly">passed the California State Assembly</a> by a 45–11 vote. Following <a href="https://sd11.senate.ca.gov/news/bipartisan-vote-senate-passes-senator-wieners-landmark-ai-safety-and-innovation-bill">a 32–1 state Senate vote</a> in May, <a href="https://arstechnica.com/information-technology/2024/07/from-sci-fi-to-state-law-californias-plan-to-prevent-ai-catastrophe/">SB-1047</a> now faces just one more procedural state senate vote before heading to Governor Gavin Newsom's desk.</p>
+<p>As <a href="https://arstechnica.com/information-technology/2024/07/from-sci-fi-to-state-law-californias-plan-to-prevent-ai-catastrophe/">we've previously explored in depth</a>, SB-1047 asks AI model creators to implement <a href="https://arstechnica.com/ai/2024/06/outcry-from-big-ai-firms-over-california-ai-kill-switch-bill/">a "kill switch"</a> that can be activated if that model starts introducing "novel threats to public safety and security," especially if it's acting "with limited human oversight, intervention, or supervision." Some have criticized the bill for focusing on outlandish risks from an imagined future AI rather than real, present-day harms of AI use cases like deep fakes or misinformation.</p>
+<p>In <a href="https://sd11.senate.ca.gov/news/senator-wieners-landmark-ai-bill-passes-assembly">announcing</a> the legislative passage Wednesday, bill sponsor and state senator Scott Weiner cited support from AI industry luminaries such as <a href="https://arstechnica.com/information-technology/2023/05/warning-of-ais-danger-pioneer-geoffrey-hinton-quits-google-to-speak-freely/">Geoffrey Hinton</a> and <a href="https://arstechnica.com/gadgets/2021/05/apple-hires-yet-another-ex-google-ai-leader/">Yoshua Bengio</a> (who both last year also signed <a href="https://arstechnica.com/information-technology/2023/05/openai-execs-warn-of-risk-of-extinction-from-artificial-intelligence-in-new-open-letter/">a statement warning of a "risk of extinction"</a> from fast-developing AI tech).</p></div><p><a href="https://arstechnica.com/?p=2046140#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046140&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/ai/2024/08/as-contentious-california-ai-safety-bill-passes-critics-push-governor-for-veto/feed/</wfw:commentRss>
+			<slash:comments>89</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Chatbots offer cops the “ultimate out” to spin police reports, expert says</title>
+		<link>https://arstechnica.com/?p=2046081</link>
+					<comments>https://arstechnica.com/tech-policy/2024/08/chatbots-offer-cops-the-ultimate-out-to-spin-police-reports-expert-says/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 14:38:06 +0000</pubDate>
+				<category><![CDATA[Features]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI assistant]]></category>
+		<category><![CDATA[ai chatbots]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[axon]]></category>
+		<category><![CDATA[body cameras]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[draft one]]></category>
+		<category><![CDATA[police tech]]></category>
+		<category><![CDATA[police technology]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046081</guid>
+
+					<description><![CDATA[Experts warn chatbots writing police reports can make serious errors.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/police-ai-body-camera-800x450.jpg" alt="Chatbots offer cops the “ultimate out” to spin police reports, expert says">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/police-ai-body-camera.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> (credit: Aurich Lawson | Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>If you were suspected of a crime, would you trust a chatbot to accurately explain what happened?</p>
+<p>Some police departments think the tech is ready. And officers who have started using chatbots to quickly complete their most dreaded task of drafting police reports seemingly don't want to go back to spending hours each week doing their own paperwork.</p>
+<p>In June, a police department in Frederick, Colorado, boasted that it was the "first law enforcement agency in the world to go live with Axon Draft One," a new kind of police tech that allows a chatbot to spit out AI-generated police reports almost immediately after a body camera stops recording a police interaction.</p></div><p><a href="https://arstechnica.com/?p=2046081#p3">Read 70 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046081&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/chatbots-offer-cops-the-ultimate-out-to-spin-police-reports-expert-says/feed/</wfw:commentRss>
+			<slash:comments>131</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>EU investigating if Telegram played down user numbers to avoid regulation</title>
+		<link>https://arstechnica.com/?p=2046110</link>
+					<comments>https://arstechnica.com/tech-policy/2024/08/eu-investigating-if-telegram-played-down-user-numbers-to-avoid-regulation/#comments</comments>
+		
+		<dc:creator><![CDATA[Financial Times]]></dc:creator>
+		<pubDate>Thu, 29 Aug 2024 13:10:23 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Digital Services Act]]></category>
+		<category><![CDATA[DSA]]></category>
+		<category><![CDATA[Durov]]></category>
+		<category><![CDATA[EU]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[telegram]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2046110</guid>
+
+					<description><![CDATA[The new probe is separate from the French investigation into the platform.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/telegram-logo-800x534.jpg" alt="Telegram logo displayed on a phone screen is seen through the broken glass in this illustration photo taken in Krakow, Poland on August 27, 2024.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/telegram-logo.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/telegram-logo-displayed-on-a-phone-screen-is-seen-through-news-photo/216797181">NurPhoto via Getty</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Brussels is investigating whether Telegram breached EU digital rules by failing to provide accurate user numbers, as officials push to bring the controversial messaging app under stricter supervision.</p>
+<p>EU legal and data experts suspect that the app has understated its presence in the EU to stay under a 45 million user threshold, above which large online platforms are subject to a swath of Brussels regulations designed to check their influence.</p>
+<p>The EU probe comes alongside a wide-ranging French investigation into alleged criminal activity on Telegram that led to the arrest on Saturday of its founder, Russian-born billionaire Pavel Durov. On Wednesday evening, a magistrate was due to decide whether to charge or release him.</p></div><p><a href="https://arstechnica.com/?p=2046110#p3">Read 17 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046110&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/eu-investigating-if-telegram-played-down-user-numbers-to-avoid-regulation/feed/</wfw:commentRss>
+			<slash:comments>85</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Telegram CEO charged with numerous crimes and is banned from leaving France</title>
 		<link>https://arstechnica.com/?p=2046072</link>
 					<comments>https://arstechnica.com/tech-policy/2024/08/pavel-durov-indicted-as-prosecutor-cites-telegrams-refusal-to-work-with-police/#comments</comments>
@@ -48,7 +584,7 @@
 <p>The first charge listed is complicity in "web-mastering an online platform in order to enable an illegal transaction in organized group." Today's press release said this charge carries a maximum penalty of 10 years in prison and a 500,000-euro fine.</p></div><p><a href="https://arstechnica.com/?p=2046072#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046072&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/pavel-durov-indicted-as-prosecutor-cites-telegrams-refusal-to-work-with-police/feed/</wfw:commentRss>
-			<slash:comments>105</slash:comments>
+			<slash:comments>339</slash:comments>
 		
 		
 			</item>
@@ -86,7 +622,7 @@
 <p>Akamai said that the attackers are exploiting the vulnerability so they can install a variant of Mirai, which arrived in September 2016 when a botnet of infected devices <a href="https://arstechnica.com/information-technology/2016/09/why-the-silencing-of-krebsonsecurity-opens-a-troubling-chapter-for-the-net/">took down</a> cybersecurity news site Krebs on Security. Mirai contained functionality that allowed a ragtag army of compromised webcams, routers, and other types of IoT devices to wage distributed denial-of-service attacks of record-setting sizes. In the weeks that followed, the Mirai botnet delivered similar attacks on <a href="https://arstechnica.com/information-technology/2016/09/botnet-of-145k-cameras-reportedly-deliver-internets-biggest-ddos-ever/">Internet service providers</a> and other targets. One such attack, against dynamic domain name provider Dyn <a href="https://arstechnica.com/information-technology/2016/10/double-dip-internet-of-things-botnet-attack-felt-across-the-internet/">paralyzed</a> vast swaths of the Internet.</p></div><p><a href="https://arstechnica.com/?p=2046043#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046043&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/security/2024/08/unpatchable-0-day-in-surveillance-cam-is-being-exploited-to-install-mirai/feed/</wfw:commentRss>
-			<slash:comments>18</slash:comments>
+			<slash:comments>53</slash:comments>
 		
 		
 			</item>
@@ -113,8 +649,8 @@
 					<description><![CDATA[CDC implores consumers to check their fridges for the recalled meats.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-179795324-800x533.jpg" alt="Listeria monocytogenes.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-179795324-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> Listeria monocytogenes. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/listeria-monocytogenes-scan-electron-micrography-listeria-news-photo/179795324?adppopup=true">Getty | BSIP</a>)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-179795324-800x533.jpg" alt="&lt;em&gt;Listeria monocytogenes&lt;/em&gt;.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-179795324-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> <em>Listeria monocytogenes</em>. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/listeria-monocytogenes-scan-electron-micrography-listeria-news-photo/179795324?adppopup=true">Getty | BSIP</a>)</p>  </figure>
 
 
 
@@ -127,7 +663,7 @@
 <p>The new cases and deaths come after a massive recall of more than <a href="https://arstechnica.com/science/2024/07/7-million-pounds-of-meat-recalled-amid-deadly-outbreak/">7 million pounds of Boar's Head meat products</a>, which encompassed 71 of the company's products. That recall was <a href="https://www.fsis.usda.gov/recalls-alerts/boars-head-provisions-co--expands-recall-ready-eat-meat-and-poultry-products-due">announced on July 30</a>, which itself was an expansion of a July 26 recall of an additional 207,528 pounds of Boar's Head products. By August 8, when <a href="https://arstechnica.com/science/2024/08/another-death-in-nationwide-outbreak-that-spurred-massive-meat-recall/">the CDC last provided an update</a> on the outbreak, the number of cases had hit 43, with 43 hospitalizations and three deaths.</p></div><p><a href="https://arstechnica.com/?p=2046040#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046040&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/08/five-more-dead-in-record-breaking-outbreak-linked-to-boars-head-meats/feed/</wfw:commentRss>
-			<slash:comments>29</slash:comments>
+			<slash:comments>80</slash:comments>
 		
 		
 			</item>
@@ -166,7 +702,7 @@
 <p>That new model comes with some safeguards to try to avoid the creation of controversial images, of course. Google writes in its announcement that it doesn't support "the generation of photorealistic, identifiable individuals, depictions of minors or excessively gory, violent or sexual scenes." In <a href="https://aitestkitchen.withgoogle.com/posts/faq">an FAQ</a>, Google clarifies that the prohibition on "identifiable individuals" includes "certain queries that could lead to outputs of prominent people." In Ars' testing, that meant a query like "President Biden playing basketball" would be refused, while a more generic request for "a US president playing basketball" would generate multiple options.</p></div><p><a href="https://arstechnica.com/?p=2045999#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045999&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/ai/2024/08/months-after-controversy-google-ai-can-generate-images-of-humans-again/feed/</wfw:commentRss>
-			<slash:comments>62</slash:comments>
+			<slash:comments>130</slash:comments>
 		
 		
 			</item>
@@ -200,560 +736,7 @@
 <p>Midjourney founder David Holz previously worked at a hardware company; he was CTO of Leap Motion. A few months ago, he hired Ahmad Abbas,  whom he worked with at Leap Motion. Abbas also worked at Apple for five years as a hardware manager working on the Vision Pro headset. His <a href="https://www.linkedin.com/in/ahmad-abbas-28460662/">LinkedIn profile</a> now lists his current title as "Head of Hardware, Midjourney."</p></div><p><a href="https://arstechnica.com/?p=2046020#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2046020&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/08/ai-image-generation-company-midjourney-says-its-getting-into-hardware/feed/</wfw:commentRss>
-			<slash:comments>21</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Court: Section 230 doesn’t shield TikTok from Blackout Challenge death suit</title>
-		<link>https://arstechnica.com/?p=2045993</link>
-					<comments>https://arstechnica.com/tech-policy/2024/08/court-section-230-doesnt-shield-tiktok-from-blackout-challenge-death-suit/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 20:09:43 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[blackout challenge]]></category>
-		<category><![CDATA[bytedance]]></category>
-		<category><![CDATA[child death]]></category>
-		<category><![CDATA[child safety]]></category>
-		<category><![CDATA[communications decency act]]></category>
-		<category><![CDATA[liability]]></category>
-		<category><![CDATA[online child safety]]></category>
-		<category><![CDATA[product liability]]></category>
-		<category><![CDATA[Section 230]]></category>
-		<category><![CDATA[tiktok]]></category>
-		<category><![CDATA[wrongful death]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045993</guid>
-
-					<description><![CDATA[TikTok must face claim over For You Page recommending content that killed kids.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1444592082-800x533.jpg" alt="Court: Section 230 doesn’t shield TikTok from Blackout Challenge death suit">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1444592082.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/darkened-pensive-portrait-silhouette-of-cute-mixed-royalty-free-image/1444592082?phrase=girl+silhouette+black+&amp;adppopup=true">Catherine McQueen | Moment</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>An appeals court has revived a lawsuit against TikTok by reversing a lower court's ruling that Section 230 immunity shielded the short video app from liability <a href="https://arstechnica.com/tech-policy/2022/10/section-230-shields-tiktok-in-childs-blackout-challenge-death-lawsuit/">after a child died taking part in a dangerous "Blackout Challenge</a>."</p>
-<p><a href="https://arstechnica.com/tech-policy/2022/07/parents-sue-tiktok-after-7-kids-die-from-profitable-blackout-challenge-videos/">Several kids died</a> taking part in the “Blackout Challenge," which Third Circuit Judge Patty Shwartz described in her opinion as encouraging users "to choke themselves with belts, purse strings, or anything similar until passing out."</p>
-<p>Because TikTok promoted the challenge in children's feeds, Tawainna Anderson counted among mourning parents who attempted to sue TikTok in 2022. Ultimately, she was told that TikTok was not responsible for recommending the video that caused the death of her daughter Nylah.</p></div><p><a href="https://arstechnica.com/?p=2045993#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045993&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/court-section-230-doesnt-shield-tiktok-from-blackout-challenge-death-suit/feed/</wfw:commentRss>
-			<slash:comments>97</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>ESPN’s Where to Watch tries to solve sports’ most frustrating problem</title>
-		<link>https://arstechnica.com/?p=2045985</link>
-					<comments>https://arstechnica.com/gadgets/2024/08/espns-where-to-watch-tries-to-solve-sports-most-frustrating-problem/#comments</comments>
-		
-		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 19:55:13 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Apple TV]]></category>
-		<category><![CDATA[ESPN]]></category>
-		<category><![CDATA[ESPN Where to Watch]]></category>
-		<category><![CDATA[sports]]></category>
-		<category><![CDATA[streaming]]></category>
-		<category><![CDATA[TV]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045985</guid>
-
-					<description><![CDATA[Find your game in a convoluted landscape of streaming services and TV channels.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/Man-iPhone-11-Pro-TV-800x282.png" alt="The ESPN app on an iPhone 11 Pro.">
-      <p class="caption" style="font-size:0.8em">The ESPN app on an iPhone 11 Pro. (credit: ESPN)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Too often, new tech product or service launches seem like solutions in search of a problem, but not this one: ESPN is launching software that lets you figure out just where you can watch the specific game you want to see amid an overcomplicated web of streaming services, cable channels, and arcane licensing agreements. Every sports fan is all too familiar with today's convoluted streaming schedules.</p>
-<p>Launching today on ESPN.com and the various ESPN mobile and streaming device apps, the new guide offers various views, including one that lists all the sporting events in a single day and a search function, among other things. You can also flag favorite sports or teams to customize those views.</p>
-<p>"At the core of Where to Watch is an event database created and managed by the ESPN Stats and Information Group (SIG), which aggregates ESPN and partner data feeds along with originally sourced information and programming details from more than 250 media sources, including television networks and streaming platforms," <a href="https://espnpressroom.com/us/press-releases/2024/08/espn-launches-where-to-watch-on-espn-app-espn-com/">ESPN's press release</a> says.</p></div><p><a href="https://arstechnica.com/?p=2045985#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045985&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/08/espns-where-to-watch-tries-to-solve-sports-most-frustrating-problem/feed/</wfw:commentRss>
-			<slash:comments>38</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Trying to outrun Ukrainian drones? Kursk traffic cams still issue speeding tickets.</title>
-		<link>https://arstechnica.com/?p=2045936</link>
-					<comments>https://arstechnica.com/culture/2024/08/trying-to-outrun-ukrainian-drones-kursk-traffic-cams-still-issue-speeding-tickets/#comments</comments>
-		
-		<dc:creator><![CDATA[Nate Anderson]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 17:50:21 +0000</pubDate>
-				<category><![CDATA[Culture]]></category>
-		<category><![CDATA[drones]]></category>
-		<category><![CDATA[Kursk]]></category>
-		<category><![CDATA[russia]]></category>
-		<category><![CDATA[traffic cameras]]></category>
-		<category><![CDATA[Ukraine]]></category>
-		<category><![CDATA[war]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045936</guid>
-
-					<description><![CDATA[Drones are everywhere. Traffic cameras don't care.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/ukr-drones-800x571.jpg" alt="Photo from a Ukrainian drone.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/ukr-drones.jpg" class="enlarge-link" data-height="1624" data-width="2276">Enlarge</a> <span class="sep">/</span> Ukrainian FPV drone hunting Russian army assets along a road. </p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Imagine receiving a traffic ticket in the mail because you were speeding down a Russian road in Kursk with a Ukrainian attack drone on your tail. That's the reality facing some Russians living near the front lines after Ukraine's surprise seizure of Russian territory in Kursk Oblast. And they're complaining about it on Telegram.</p>
-<p>Rob Lee, a well-known analyst of the Ukraine/Russia war, <a href="https://x.com/RALee85/status/1828248321678290949">comments on X</a> that "traffic cameras are still operating in Kursk, and people are receiving speeding fines when trying to outrun FPVs [first-person-view attack drones]. Some have resorted to covering their license plates but the traffic police force them to remove them."</p>
-<p>The Russian outlet Mash <a href="https://t.me/mash/57073">offers more details</a> from a local perspective:</p></div><p><a href="https://arstechnica.com/?p=2045936#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045936&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/culture/2024/08/trying-to-outrun-ukrainian-drones-kursk-traffic-cams-still-issue-speeding-tickets/feed/</wfw:commentRss>
-			<slash:comments>129</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Sparks are flying day and night as SpaceX preps Starship pad to catch a rocket</title>
-		<link>https://arstechnica.com/?p=2044794</link>
-					<comments>https://arstechnica.com/space/2024/08/spacex-is-beefing-up-its-starship-launch-pad-to-catch-a-20-story-tall-rocket/#comments</comments>
-		
-		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 17:43:08 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Commercial space]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[Starbase]]></category>
-		<category><![CDATA[starship]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2044794</guid>
-
-					<description><![CDATA[It's unclear how long upgrades will take or when the FAA will approve a booster catch.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/weld1-800x447.jpg" alt="Welders at SpaceX's Starbase launch site work on the launch pad's &quot;chopstick&quot; catch arms this week.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/weld1.jpg" class="enlarge-link" data-height="838" data-width="1500">Enlarge</a> <span class="sep">/</span> Welders at SpaceX's Starbase launch site work on the launch pad's "chopstick" catch arms this week. (credit: <a rel="nofollow" class="caption-link" href="https://www.youtube.com/watch?v=tS2PHJmvJzo">LabPadre</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Pretty much every day for the last couple of weeks, workers wielding welding guns and torches have climbed onto SpaceX's Starship launch pad in South Texas to make last-minute upgrades ahead of the next test flight of the world's largest rocket.</p>
-<p>Livestreams of the launch site provided by <a href="https://www.youtube.com/@LabPadre/featured">LabPadre</a> and <a href="https://www.youtube.com/channel/UCSUu1lih2RifWkKtDOJdsBA">NASASpaceflight.com</a> have shown sparks raining down two mechanical arms extending from the side of the Starship launch tower at SpaceX's Starbase launch site on the Gulf Coast east of Brownsville, Texas. We are publishing several views here of the welding activity with the <a href="https://www.youtube.com/watch?v=tS2PHJmvJzo">permission of LabPadre</a>, which runs a YouTube page with multiple live views of Starbase.</p>
-<p>If SpaceX has its way on the next flight of Starship, these arms will close together to capture the first-stage booster, called Super Heavy, as it descends back to Earth and slows to a hover over the launch pad.</p></div><p><a href="https://arstechnica.com/?p=2044794#p3">Read 18 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2044794&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/08/spacex-is-beefing-up-its-starship-launch-pad-to-catch-a-20-story-tall-rocket/feed/</wfw:commentRss>
-			<slash:comments>60</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>A long, weird FOSS circle ends as Microsoft donates Mono to Wine project</title>
-		<link>https://arstechnica.com/?p=2045805</link>
-					<comments>https://arstechnica.com/gadgets/2024/08/a-long-weird-foss-circle-ends-as-microsoft-donates-mono-to-wine-project/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 17:15:35 +0000</pubDate>
-				<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[.NET]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[Mono]]></category>
-		<category><![CDATA[Wine]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045805</guid>
-
-					<description><![CDATA[Mono had many homes over 23 years, but Wine's repos might be its final stop.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-961309558-800x533.jpg" alt="Man looking over the offerings at a wine store with a tablet in hand.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-961309558.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> <span class="sep">/</span> Does Mono fit between the Chilean cab sav and Argentinian malbec, or is it more of an orange, maybe? (credit: Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Microsoft has donated the Mono Project, an open-source framework that brought its .NET platform to non-Windows systems, to the Wine community. WineHQ will be <a href="https://gitlab.winehq.org/wine-mono/mono">the steward of the Mono Project upstream code</a>, while Microsoft will encourage Mono-based apps to migrate to its open source .NET framework.</p>
-<p>As <a href="https://www.mono-project.com/">Microsoft notes on the Mono Project homepage</a>, the last major release of Mono was in July 2019. Mono was "a trailblazer for the .NET platform across many operating systems" and was the first implementation of .NET on Android, iOS, Linux, and other operating systems.</p>
-<h2>Ximian, Novell, SUSE, Xamarin, Microsoft—now Wine</h2>
-<p>Mono began as a project of Miguel de Icaza, co-creator of the GNOME desktop. De Icaza led Ximian (originally Helix Code), aiming to bring Microsoft's then-new .NET platform to Unix-like platforms. Ximian was acquired by Novell in 2003.</p></div><p><a href="https://arstechnica.com/?p=2045805#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045805&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/08/a-long-weird-foss-circle-ends-as-microsoft-donates-mono-to-wine-project/feed/</wfw:commentRss>
-			<slash:comments>45</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>New AI model can hallucinate a game of 1993’s Doom in real time</title>
-		<link>https://arstechnica.com/?p=2045767</link>
-					<comments>https://arstechnica.com/information-technology/2024/08/new-ai-model-can-hallucinate-a-game-of-1993s-doom-in-real-time/#comments</comments>
-		
-		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 17:06:09 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Doom]]></category>
-		<category><![CDATA[game synthesis]]></category>
-		<category><![CDATA[gaming]]></category>
-		<category><![CDATA[google deepmind]]></category>
-		<category><![CDATA[Google research]]></category>
-		<category><![CDATA[id Software]]></category>
-		<category><![CDATA[image synthesis]]></category>
-		<category><![CDATA[John Carmack]]></category>
-		<category><![CDATA[john romero]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[neural rendering]]></category>
-		<category><![CDATA[Stable Diffusion]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045767</guid>
-
-					<description><![CDATA[Dobos: "Why write rules for software by hand when AI can just think every pixel for you?"]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/ai-simulated-doom-800x450.jpg" alt="New AI model can hallucinate a game of 1993’s Doom in real time">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/ai-simulated-doom.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> (credit: Aurich Lawson | Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>On Tuesday, researchers from Google and Tel Aviv University unveiled <a href="https://gamengen.github.io/">GameNGen</a>, a new AI model that can interactively simulate the classic 1993 first-person shooter game <em>Doom</em> in real time using AI image generation techniques borrowed from <a href="https://arstechnica.com/information-technology/2022/09/with-stable-diffusion-you-may-never-believe-what-you-see-online-again/">Stable Diffusion</a>. It's a neural network system that can function as a limited game engine, potentially opening new possibilities for real-time video game synthesis in the future.</p>
-<p>For example, instead of drawing graphical video frames using traditional techniques, future games could potentially use an AI engine to "imagine" or hallucinate graphics in real time as a prediction task.</p>
-
-<p>"<span class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3">The potential here is absurd," <a href="https://x.com/NickADobos">wrote</a> app developer Nick Dobos in reaction to the news. "Why write complex rules for software by hand when the AI can just think every pixel for you?"</span></p></div><p><a href="https://arstechnica.com/?p=2045767#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045767&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/information-technology/2024/08/new-ai-model-can-hallucinate-a-game-of-1993s-doom-in-real-time/feed/</wfw:commentRss>
-			<slash:comments>121</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Man posing as teen YouTuber gets 17 years for horrific global sextortion scheme</title>
-		<link>https://arstechnica.com/?p=2045876</link>
-					<comments>https://arstechnica.com/tech-policy/2024/08/man-posing-as-teen-youtuber-gets-17-years-for-horrific-global-sextortion-scheme/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 16:46:32 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[australia]]></category>
-		<category><![CDATA[child exploitation]]></category>
-		<category><![CDATA[child sexual abuse materials]]></category>
-		<category><![CDATA[sextortion]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045876</guid>
-
-					<description><![CDATA[Australian police called it "one of the worst sextortion cases in history."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1141229196-800x533.jpg" alt="Man posing as teen YouTuber gets 17 years for horrific global sextortion scheme">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1141229196.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/mystic-picture-of-hacker-with-computer-at-dark-room-royalty-free-image/1141229196?phrase=web+of+deceit&amp;adppopup=true">Artur Debat | Moment</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>An Australian man who pretended to be a famous teenage YouTuber has been sentenced to 17 years for orchestrating what police are calling "one of the worst sextortion cases in history."</p>
-<p>Twenty-nine-year-old Muhammad Zain Ul Abideen Rasheed blackmailed hundreds of victims across 20 countries, ultimately pleading guilty to 119 charges involving 286 people. Most victims were children, the Australian Federal Police (AFP) said in a <a href="https://www.afp.gov.au/news-centre/media-release/wa-man-jailed-sextortion-286-victims">press release</a> confirming that Rasheed targeted at least 180 kids under 16.</p>
-<p>AFP coordinated with US Immigration and Customs Enforcement (ICE) and INTERPOL to catch Rasheed before more victims could be harmed. Their investigation started in 2019 when cops in Leon County, Florida, were tipped off to a sextortion scammer "masquerading as a YouTuber," an ICE <a href="https://www.ice.gov/news/releases/hsi-australian-federal-police-identify-245-victims-child-exploitation-predator-posing">press release</a> said. He was first charged in 2020 and was then hit with more charges in 2021.</p></div><p><a href="https://arstechnica.com/?p=2045876#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045876&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/man-posing-as-teen-youtuber-gets-17-years-for-horrific-global-sextortion-scheme/feed/</wfw:commentRss>
-			<slash:comments>58</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Apple lays off employees working on Books and News</title>
-		<link>https://arstechnica.com/?p=2045830</link>
-					<comments>https://arstechnica.com/gadgets/2024/08/apple-lays-off-employees-working-on-books-and-news/#comments</comments>
-		
-		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 16:35:58 +0000</pubDate>
-				<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[Apple Books]]></category>
-		<category><![CDATA[Apple News]]></category>
-		<category><![CDATA[layoffs]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045830</guid>
-
-					<description><![CDATA[All the layoffs were in the company's fast-moving services division.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/01/Apple-Books-800x443.png" alt="The Apple Books icon on a Mac.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/01/Apple-Books.png" class="enlarge-link" data-height="560" data-width="1011">Enlarge</a> <span class="sep">/</span> The Apple Books icon on a Mac. (credit: Samuel Axon)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Apple will cut 100 jobs, all in its digital services teams. Laid off employees will have 60 days to find another job in the company before it cuts ties with them altogether, according to a Bloomberg report.</p>
-<p>Compared to some other big tech companies, layoffs are relatively uncommon at Apple. This is the fourth wave this year, but cuts so far (including this one) have been laser-focused and small in scope—a contrast with companies like Intel, Cisco, or Microsoft, which have recently made more drastic cuts of anywhere from 7 to 15 percent of their workforces.</p>
-<p>The current set of cuts chiefly affects the Books team. Digital services like this have been a big part of Apple's financial success in recent quarters; in just the past year, services revenue is <a href="https://arstechnica.com/gadgets/2024/08/apple-reports-record-revenues-despite-stagnant-iphone-sales/">up 14 percent</a>. However, Books has no subscription offering, and Apple was subject to a US Department of Justice <a href="https://arstechnica.com/tech-policy/2013/06/apple-calls-e-book-price-fixing-case-bizarre-says-doj-is-being-unfair/">price-fixing lawsuit</a>.</p></div><p><a href="https://arstechnica.com/?p=2045830#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045830&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/08/apple-lays-off-employees-working-on-books-and-news/feed/</wfw:commentRss>
-			<slash:comments>82</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Elon Musk’s Boring Company can’t get Tesla FSD to work in tunnels</title>
-		<link>https://arstechnica.com/?p=2045900</link>
-					<comments>https://arstechnica.com/cars/2024/08/autonomous-teslas-still-a-pipe-dream-in-boring-company-tunnels/#comments</comments>
-		
-		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 16:33:16 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[boring company]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[tesla autopilot]]></category>
-		<category><![CDATA[Tesla FSD]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045900</guid>
-
-					<description><![CDATA[Despite "full self driving," Teslas still can't cope with one-way tunnels.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1246021612-800x533.jpg" alt="A Tesla Inc. electric vehicle is driven through a tunnel in the Boring Company's Las Vegas Convention Center Loop during the Consumer Electronics Show (CES) in Las Vegas, Nevada, on January 5, 2023.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-1246021612-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> Human driver will continue to be a job at the Boring Company Las Vegas Loop for the foreseeable future.  (credit: PATRICK T. FALLON/AFP via Getty Image)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Autonomous driving capabilities are a central component of Tesla's stratospheric share price, with CEO Elon Musk repeatedly telling investors that <a href="https://arstechnica.com/cars/2023/05/teslas-full-self-driving-sees-pedestrian-chooses-not-to-slow-down/">they're the difference between</a> "being worth a lot of money or worth basically zero." But real-world performance on the road lags far behind Musk's claims, with the latest data point coming from another Musk venture, the Boring Company, and its tunnels under Las Vegas.</p>
-<p>The Boring Company might be Elon Musk's strangest side hustle. Whether it was sparked by a <a href="https://arstechnica.com/cars/2016/12/elon-musk-hates-sitting-in-traffic-so-now-hes-going-to-build-tunnels/">desire to avoid traffic</a> commuting to SpaceX or part of an insidious plan to undermine rail projects, the results for the sewer-sized tunnels have been about what you'd expect: Proposed tunnels <a href="https://arstechnica.com/cars/2017/10/elon-musks-boring-company-is-digging-a-10-mile-tunnel-in-maryland/">between Washington DC and Baltimore</a>, underneath <a href="https://arstechnica.com/cars/2018/05/elon-musk-talks-proof-of-concept-tunnel-parallel-to-the-405-in-los-angeles/">I-405 in Los Angeles</a>, and from <a href="https://arstechnica.com/cars/2018/06/chicago-selects-elon-musks-boring-company-to-build-express-line-from-ohare/">Chicago to its major airport</a> remain literal pipe dreams.</p>
-<p>So far, there's just a 2.2-mile loop with three stations serving the Las Vegas Convention Center, albeit with the potential to expand the subterranean system to <a href="https://arstechnica.com/cars/2023/08/musks-boring-company-gets-ok-to-dig-68-miles-of-tunnels-under-las-vegas/">68 miles (110 km) in total</a>.</p></div><p><a href="https://arstechnica.com/?p=2045900#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045900&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/08/autonomous-teslas-still-a-pipe-dream-in-boring-company-tunnels/feed/</wfw:commentRss>
-			<slash:comments>185</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Telegram CEO released by police, transferred to court for possible indictment</title>
-		<link>https://arstechnica.com/?p=2045841</link>
-					<comments>https://arstechnica.com/tech-policy/2024/08/telegram-ceo-released-by-police-transferred-to-court-for-possible-indictment/#comments</comments>
-		
-		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 15:53:52 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[telegram pavel durov]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045841</guid>
-
-					<description><![CDATA[Durov released from police custody, brought to court after days of questioning.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/pavel-durov-1-800x533.jpg" alt="Telegram CEO Pavel Durov on stage at a tech conference.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/pavel-durov-1.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> <span class="sep">/</span> Telegram CEO Pavel Durov at Mobile World Congress in Barcelona, Spain, on Tuesday, Feb. 23, 2016.  (credit: Getty Images | Bloomberg)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Telegram CEO Pavel Durov is heading to court for a possible indictment after being released from police custody, authorities in France said on Wednesday. "An investigating judge has ended Pavel Durov's police custody and will have him brought to court for a first appearance and a possible indictment," according to a statement from the Paris prosecutor's office that was quoted in an <a href="https://www.bostonglobe.com/2024/08/28/business/telegram-ceo-freed-french-custody/">Associated Press article</a>.</p>
-<p>Durov was <a href="https://arstechnica.com/security/2024/08/shocker-french-make-surprise-arrest-of-telegram-founder-at-paris-airport/">arrested in Paris on Saturday</a> and <a href="https://arstechnica.com/tech-policy/2024/08/telegram-ceo-pavel-durov-awaits-charges-in-france-as-firm-denies-law-breaking/">questioned by police</a> for several days. The French investigative judge will "decide whether to place him under formal investigation following his arrest as part of a probe into organized crime on the messaging app," Reuters <a href="https://www.reuters.com/world/europe/french-judges-decide-next-step-durov-probe-2024-08-28/">wrote today</a>.</p>
-<p>"Being placed under formal investigation in France does not imply guilt or necessarily lead to trial, but indicates that judges consider there is enough to the case to proceed with the probe. Investigations can last years before being sent to trial or shelved," Reuters wrote. The judge's decision on a formal investigation is expected today, the article said.</p></div><p><a href="https://arstechnica.com/?p=2045841#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045841&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/08/telegram-ceo-released-by-police-transferred-to-court-for-possible-indictment/feed/</wfw:commentRss>
-			<slash:comments>61</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Sick of heavy electric SUVs and crossovers? Ariel debuts the E-Nomad.</title>
-		<link>https://arstechnica.com/?p=2045832</link>
-					<comments>https://arstechnica.com/cars/2024/08/a-lightweight-go-anywhere-ev-ariel-reveals-e-nomad-concept/#comments</comments>
-		
-		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 15:48:36 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Ariel]]></category>
-		<category><![CDATA[Ariel Nomad]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045832</guid>
-
-					<description><![CDATA[With enough interest, the "seriously clean fun" concept could go into production.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/03-Ariel-E-Nomad-front-800x534.jpg" alt="A green and black Ariel E-Nomad seen in the English countryside">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/03-Ariel-E-Nomad-front-scaled.jpg" class="enlarge-link" data-height="1708" data-width="2560">Enlarge</a> <span class="sep">/</span> There's a reason the Ariel Nomad works so well in open-world games like <em>Forza Horizon</em>. Now Ariel has developed an electric version. (credit: Ariel)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The low-volume British carmaker Ariel got its start with a reimagining of the iconic Lotus Seven, gaining something of a reputation for building the car that filled Jeremy Clarkson's <a href="https://www.youtube.com/watch?v=WaWoo82zNUA">epiglottis full of bees</a> on <em>Top Gear</em>, back when that was the most-torrented TV show on the Internet. Then it expanded its lineup with the Nomad, which added off-road ground ability to the mix, creating a car that starred on <em><a href="https://arstechnica.com/cars/2017/12/the-grand-tour-season-2-the-one-where-hammond-nearly-dies-again/">The Grand Tour</a></em> as well as in the last few iterations of <em><a href="https://arstechnica.com/gaming/2018/09/forza-horizon-4-is-the-best-open-world-driving-game-you-can-buy/">Forza Horizon</a></em>. Today, Ariel unveiled its idea for an all-electric take on that go-anywhere car with the E-Nomad.</p>
-<p>Ariel says the E-Nomad can match the more than respectable acceleration of its gas-powered car, which means 0–60 mph (98 km/h) in 3.4 seconds despite wearing nobbly all-terrain tires. But rapidly accelerating electric vehicles aren't anything special. What does stand out is the E-Nomad's relative lack of mass—it tips the scales at just 1,975 lbs (896 kg), less than half as much as most of the EVs on sale today.</p>
-<p>The E-Nomad's 41 kWh battery pack lives behind the cabin, replacing the internal combustion engine and fuel tank you'd find on the regular car. Ariel sourced it from Rockfort Engineering and says the pouch cells offer "best-in-class energy density." In total, the battery pack weighs less than 660 lbs (300 kg) and can send up to 281 hp (210 kW) to the drive unit at the rear. The drive has a peak torque output of 361 lb-ft (490 Nm) and is optimized for mass, weighing 202 lbs (92 kg).</p></div><p><a href="https://arstechnica.com/?p=2045832#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045832&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/08/a-lightweight-go-anywhere-ev-ariel-reveals-e-nomad-concept/feed/</wfw:commentRss>
-			<slash:comments>91</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>LLMs have a strong bias against use of African American English</title>
-		<link>https://arstechnica.com/?p=2045652</link>
-					<comments>https://arstechnica.com/ai/2024/08/llms-have-a-strong-bias-against-use-of-african-american-english/#comments</comments>
-		
-		<dc:creator><![CDATA[John Timmer]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 15:00:59 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[AI training]]></category>
-		<category><![CDATA[bias]]></category>
-		<category><![CDATA[LLMs]]></category>
-		<category><![CDATA[Racism]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045652</guid>
-
-					<description><![CDATA[Feedback gets rid of overt biases but leaves subtle racism intact.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/speech-target-public-enemy-800x450.png" alt="LLMs have a strong bias against use of African American English">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/speech-target-public-enemy.png" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> (credit: Aurich Lawson | Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>As far back as 2016, work on AI-based chatbots revealed that they have a disturbing tendency to <a href="https://arstechnica.com/information-technology/2016/03/microsoft-terminates-its-tay-ai-chatbot-after-she-turns-into-a-nazi/">reflect some of the worst biases</a> of the society that trained them. But as large language models have become ever larger and subjected to more sophisticated training, a lot of that problematic behavior has been ironed out. For example, I asked the current iteration of ChatGPT for five words it associated with African Americans, and it responded with things like "resilience" and "creativity."</p>
-<p>But a lot of research has turned up examples where implicit biases can persist in people long after outward behavior has changed. So some researchers decided to test whether the same might be true of LLMs. And was it ever.</p>
-<p>By interacting with a series of LLMs using examples of the African American English sociolect, they found that the AI's had an extremely negative view of its speakers—something that wasn't true of speakers of another American English variant. And that bias bled over into decisions the LLMs were asked to make about those who use African American English.</p></div><p><a href="https://arstechnica.com/?p=2045652#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045652&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/ai/2024/08/llms-have-a-strong-bias-against-use-of-african-american-english/feed/</wfw:commentRss>
-			<slash:comments>237</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Climate change feedbacks lead to surge in natural methane emissions</title>
-		<link>https://arstechnica.com/?p=2045807</link>
-					<comments>https://arstechnica.com/science/2024/08/climate-change-feedbacks-lead-to-surge-in-natural-methane-emissions/#comments</comments>
-		
-		<dc:creator><![CDATA[Inside Climate News]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 14:38:16 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[climate change]]></category>
-		<category><![CDATA[fossil fuels]]></category>
-		<category><![CDATA[methane]]></category>
-		<category><![CDATA[syndication]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045807</guid>
-
-					<description><![CDATA[Attempts to cut greenhouse gases made tougher by increased emissions.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/pantanal-800x533.jpg" alt="A view of the Pantanal wetlands in Brazil. New research shows a large chunk of global methane emissions are from rotting vegetation in tropical wetlands.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/pantanal.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> <span class="sep">/</span> A view of the Pantanal wetlands in Brazil. New research shows a large chunk of global methane emissions are from rotting vegetation in tropical wetlands. (credit: Carl de Souza/AFP via Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>A<a href="https://insideclimatenews.org/news/02112021/global-methane-pledge-cop26/"> 2021 pledge</a> by more than 100 nations to cut methane emissions from anthropogenic sources 30 percent by 2030 might not slow global warming as much as projected, as new research shows that feedbacks in the climate system are boosting methane emissions from natural sources, especially tropical wetlands.</p>
-<p>A new trouble spot is in the Arctic, where scientists recently found unexpectedly large methane emissions in winter. And globally, the increase in water vapor caused by global warming is slowing the rate at which methane breaks down in the atmosphere. If those feedbacks intensify, scientists said, it could outpace efforts to cut methane from fossil fuel and other human sources.</p>
-<p>Methane traps about 80 times more heat than carbon dioxide over a 20-year period, and <a href="https://climate.nasa.gov/vital-signs/methane/?intent=121#:~:text=(Learn%20more%20about%20the%20Global,(which%20began%20in%201750).">scientists estimate</a> it’s responsible for 20 to 30 percent of climate warming since the start of the industrial age, when atmospheric methane was at a concentration of about 0.7 parts per million. It has <a href="https://gml.noaa.gov/ccgg/trends_ch4/">zig-zagged upward</a> since then, spiking with the first fossil gas boom in the 1980s, then leveling off slightly before a huge surge started in the early 2000s. The amount of methane in the atmosphere reached about 1.9 ppm in 2023, nearly three times the pre-industrial level.</p></div><p><a href="https://arstechnica.com/?p=2045807#p3">Read 29 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045807&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/08/climate-change-feedbacks-lead-to-surge-in-natural-methane-emissions/feed/</wfw:commentRss>
-			<slash:comments>52</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Astrobotic’s lander didn’t make it to the Moon because of a failed valve</title>
-		<link>https://arstechnica.com/?p=2045535</link>
-					<comments>https://arstechnica.com/space/2024/08/astrobotics-lander-didnt-make-it-to-the-moon-because-of-a-failed-valve/#comments</comments>
-		
-		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 13:35:35 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[astrobotic]]></category>
-		<category><![CDATA[clps]]></category>
-		<category><![CDATA[Commercial space]]></category>
-		<category><![CDATA[griffin]]></category>
-		<category><![CDATA[moon]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[peregrine]]></category>
-		<category><![CDATA[VIPER]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045535</guid>
-
-					<description><![CDATA[Engineers are redesigning parts of the propulsion system on Astrobotic's next lunar lander.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/23.10.25_PM1_Documentation_Cleanroom_JR-3383_PS.3-scaled-1-800x551.jpg" alt="Astrobotic's Peregrine lander, with some of its propellants visible, before shipment from the company's headquarters in Pittsburgh to the launch site in Florida.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/23.10.25_PM1_Documentation_Cleanroom_JR-3383_PS.3-scaled-1.jpg" class="enlarge-link" data-height="1034" data-width="1500">Enlarge</a> <span class="sep">/</span> Astrobotic's Peregrine lander, with some of its propellants visible, before shipment from the company's headquarters in Pittsburgh to the launch site in Florida. (credit: <a rel="nofollow" class="caption-link" href="https://www.astrobotic.com/wp-content/uploads/2023/11/23.10.25_PM1_Documentation_Cleanroom_JR-3383_PS.3-scaled.jpg">Astrobotic</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Seven months after its first lunar lander fell short of reaching the Moon, Astrobotic announced Tuesday that the spacecraft was stricken by a valve failure that caused a propellant tank to burst in orbit. The company's next landing attempt, using a much larger spacecraft, will include fixes to prevent a similar failure.</p>
-<p>Astrobotic's first Peregrine lander, which the company called Peregrine Mission One, <a href="https://arstechnica.com/space/2024/01/americas-first-lunar-lander-in-a-half-century-wont-reach-the-moon/">launched on January 8 aboard United Launch Alliance's first Vulcan rocket</a>. But soon after separating from the rocket in space, the lander ran into trouble as it stepped through an activation sequence to begin priming its propulsion system.</p>
-<p>A review board determined "the most likely cause of the malfunction was a failure of a single helium pressure control valve called a PCV—pressure control valve 2, within the propulsion system," said John Horack, a space industry veteran and professor of aerospace and mechanical engineering at Ohio State University.</p></div><p><a href="https://arstechnica.com/?p=2045535#p3">Read 28 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045535&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/08/astrobotics-lander-didnt-make-it-to-the-moon-because-of-a-failed-valve/feed/</wfw:commentRss>
-			<slash:comments>42</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>For the first time in more than three years, SpaceX misses a booster landing</title>
-		<link>https://arstechnica.com/?p=2045775</link>
-					<comments>https://arstechnica.com/space/2024/08/for-the-first-time-in-more-than-three-years-spacex-misses-a-booster-landing/#comments</comments>
-		
-		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
-		<pubDate>Wed, 28 Aug 2024 13:20:26 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[falcon 9]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[spacex]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2045775</guid>
-
-					<description><![CDATA[The fleet leader has met its demise.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/shortfall-800x445.jpg" alt="A screen capture of landing video of a Falcon 9 rocket just before it tips over on Wednesday morning.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/shortfall.jpg" class="enlarge-link" data-height="989" data-width="1778">Enlarge</a> <span class="sep">/</span> A screen capture of landing video of a Falcon 9 rocket just before it tips over on Wednesday morning. (credit: SpaceX)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Early on Wednesday morning, at 3:48 am ET local time, a Falcon 9 rocket booster making its 23rd launch took off from Space Launch Complex-40 at Cape Canaveral, Florida.</p>
-<p>The mission successfully delivered 21 Starlink satellites, including 13 of the larger vehicles with direct-to-cell capabilities, before attempting a landing on the <em>A Shortfall of Gravitas</em>. However, the experienced booster had a shortfall of stability and tipped over shortly following touchdown.</p>
-<p>Prior to Wednesday's landing failure, SpaceX had landed 267 boosters in a row. The company's last failure occurred in February 2021. The cause of the failure was not immediately clear, and SpaceX said "teams are assessing the booster's flight data and status." <a href="https://www.spacex.com/launches/mission/?missionId=sl-8-6">Based on video of the landing</a>, it is possible there was an engine burn timing issue.</p></div><p><a href="https://arstechnica.com/?p=2045775#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045775&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/08/for-the-first-time-in-more-than-three-years-spacex-misses-a-booster-landing/feed/</wfw:commentRss>
-			<slash:comments>127</slash:comments>
+			<slash:comments>39</slash:comments>
 		
 		
 			</item>
