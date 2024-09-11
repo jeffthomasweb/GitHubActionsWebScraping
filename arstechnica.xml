@@ -21,6 +21,44 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Rogue WHOIS server gives researcher superpowers no one should ever have</title>
+		<link>https://arstechnica.com/?p=2048683</link>
+					<comments>https://arstechnica.com/security/2024/09/rogue-whois-server-gives-researcher-superpowers-no-one-should-ever-have/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Wed, 11 Sep 2024 10:00:40 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[HTTPS]]></category>
+		<category><![CDATA[tls]]></category>
+		<category><![CDATA[trust]]></category>
+		<category><![CDATA[WHOIS]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2048683</guid>
+
+					<description><![CDATA[.mobi top-level-domain managers changed the location of its WHOIS server. No one got the memo.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/whois-tower-800x450.jpg" alt="Rogue WHOIS server gives researcher superpowers no one should ever have">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/whois-tower.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> (credit: Aurich Lawson | Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>It’s not every day that a security researcher acquires the ability to generate counterfeit HTTPS certificates, track email activity, and execute code of his choice on thousands of servers—all in a single blow that cost only $20 and a few minutes to land. But that’s exactly what happened recently to Benjamin Harris.</p>
+<p>Harris, the CEO and founder of security firm watchTowr, did all of this by registering the domain dotmobilregistry.net. The domain was once the official home of the <a href="https://www.icann.org/en/registry-agreements/org/org-registry-agreement--whois-specifications-8-12-2006-en">authoritative WHOIS</a> server for .mobi, a top-level domain used to indicate that a website is optimized for mobile devices. At some point—it’s not clear precisely when—this WHOIS server, which acts as the official directory for every domain ending in .mobi, was relocated, from whois.dotmobiregistry.net to whois.nic.mobi. While retreating to his Las Vegas hotel room during last month’s Black Hat security conference in Las Vegas, Harris noticed that the previous dotmobiregistry.net owners had allowed the domain to expire. He then scooped it up and set up his own .mobi WHOIS server there.</p>
+<h2>Misplaced trust</h2>
+<p>To Harris’s surprise, his server received queries from slightly more than 76,000 unique IP addresses within a few hours of setting it up. Over five days, it received roughly 2.5 million queries from about 135,000 unique systems. The entities behind the systems querying his deprecated domain included a who’s who of Internet heavyweights comprising domain registrars, providers of online security tools, governments from the US and around the world, universities, and certificate authorities, the entities that issue browser-trusted TLS certificates that make HTTPS work.</p></div><p><a href="https://arstechnica.com/?p=2048683#p3">Read 18 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048683&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/09/rogue-whois-server-gives-researcher-superpowers-no-one-should-ever-have/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>SpaceX says regulators will keep Starship grounded until at least November</title>
 		<link>https://arstechnica.com/?p=2048838</link>
 					<comments>https://arstechnica.com/space/2024/09/spacex-says-regulators-will-keep-starship-grounded-until-at-least-november/#comments</comments>
@@ -55,7 +93,7 @@
 <p>"The flight test will include our most ambitious objective yet: attempt to return the Super Heavy booster to the launch site and catch it in mid-air," <a href="https://www.spacex.com/updates/#starships-fly">SpaceX said in a statement</a>.</p></div><p><a href="https://arstechnica.com/?p=2048838#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048838&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/space/2024/09/spacex-says-regulators-will-keep-starship-grounded-until-at-least-november/feed/</wfw:commentRss>
-			<slash:comments>39</slash:comments>
+			<slash:comments>159</slash:comments>
 		
 		
 			</item>
@@ -96,7 +134,7 @@
 <p>Nevada's first-of-its-kind AI will rely on a Google cloud service called Vertex AI Studio. Connecting to Google's servers, the state will fine-tune the AI system to only reference information from DETR's database, which officials think will ensure its decisions are "more tailored" and the system provides "more accurate results," Gizmodo reported.</p></div><p><a href="https://arstechnica.com/?p=2048889#p3">Read 21 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048889&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/ai-ruling-on-jobless-claims-could-make-mistakes-courts-cant-undo-experts-warn/feed/</wfw:commentRss>
-			<slash:comments>58</slash:comments>
+			<slash:comments>105</slash:comments>
 		
 		
 			</item>
@@ -129,7 +167,7 @@
 <p>The group's manifestos and chat rooms sometimes felt suffused with the habits of the extremely online: hand-clap emojis between every important word, instructional videos on how to make bombs, the language of trolling, catchphrases so over the top they sound ironic ("HAIL HOLY TERROR" in all caps).</p></div><p><a href="https://arstechnica.com/?p=2048921#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048921&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/culture/2024/09/hail-holy-terror-two-us-citizens-charged-for-running-online-terrorgram-collective/feed/</wfw:commentRss>
-			<slash:comments>36</slash:comments>
+			<slash:comments>64</slash:comments>
 		
 		
 			</item>
@@ -168,7 +206,7 @@
 <p>In this week's issue of the New England Journal of Medicine, <a href="https://www.nejm.org/doi/full/10.1056/NEJMicm2404232?logout=true">doctors in Taiwan report an unusual presentation of the disorder</a> in a 76-year-old woman. She told doctors that, for two years, every time she ate, her face would begin profusely sweating. In the clinic, the doctors observed the phenomenon themselves. They watched as she took a bite of pork jerky and began chewing.</p></div><p><a href="https://arstechnica.com/?p=2048913#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048913&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/09/woman-drips-with-sweat-from-a-bite-of-food-due-to-rare-nerve-wiring-mix-up/feed/</wfw:commentRss>
-			<slash:comments>14</slash:comments>
+			<slash:comments>26</slash:comments>
 		
 		
 			</item>
@@ -205,7 +243,7 @@
 <p>“It’s a piece of work that everyone has thought of but never managed to create,” Richard Yu, Huawei’s consumer group chairman, said during the Mate XT livestream unveiling. “I have always had a dream to put our tablet in my pocket, and we did it.”</p></div><p><a href="https://arstechnica.com/?p=2048860#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048860&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/forget-everything-huawei-is-doing-two-folds-on-the-mate-xt-ultimate/feed/</wfw:commentRss>
-			<slash:comments>81</slash:comments>
+			<slash:comments>114</slash:comments>
 		
 		
 			</item>
@@ -239,7 +277,7 @@
 <p>There are various strategies in nature for escaping predators after being swallowed. For instance, a parasitic worm called <em>Paragordius tricuspidatus</em> can <a href="https://www.nature.com/articles/440756a#:~:text=If%20a%20worm%20did%20not,surviving%20predation%20in%20this%20way.">force its way out</a> of a predator’s system when its host organism is eaten. There was also a <a href="https://www.sciencedirect.com/science/article/pii/S0960982220308423">fascinating study</a> in 2020 by Japanese scientists on the unusual survival strategy of the aquatic beetle <em>Regimbartia attenuata</em>. They fed a bunch of the beetles to a pond frog (<em>Pelophylax nigromaculatus</em>) under laboratory conditions, expecting the frog to spit the beetle out. That's what happened with <a href="https://royalsocietypublishing.org/doi/10.1098/rsbl.2017.0647">prior experiments</a> on bombardier beetles (<em>Pheropsophus jessoensis</em>), which spray toxic chemicals (described as an audible "chemical explosion") when they find themselves inside a toad's gut, inducing the toad to invert its own stomach and vomit them back out.</p></div><p><a href="https://arstechnica.com/?p=2048599#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048599&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/09/watch-japanese-eels-escape-through-a-predatory-fishs-gills/feed/</wfw:commentRss>
-			<slash:comments>43</slash:comments>
+			<slash:comments>58</slash:comments>
 		
 		
 			</item>
@@ -286,7 +324,7 @@
 <p>Now, MNT is revisiting the Reform with a more significant design update. The <a href="https://mntre.com/media/reform_md/2024-09-09-introducing-mnt-reform-next.html">MNT Reform Next</a> is smaller and thinner, defaults to a more traditional glass trackpad instead of a trackball, and is starting with the Rockchip RK3588 instead of the poky NXP/Freescale processor that the original laptop was saddled with.</p></div><p><a href="https://arstechnica.com/?p=2048810#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048810&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/all-open-source-mnt-reform-laptop-is-getting-a-sequel-with-a-refined-design/feed/</wfw:commentRss>
-			<slash:comments>24</slash:comments>
+			<slash:comments>28</slash:comments>
 		
 		
 			</item>
@@ -318,7 +356,7 @@
 <p>In <a href="https://www.youtube.com/watch?v=X24BzyzQQ-8">a video presentation Tuesday</a>, Sony's Mark Cerny said PS5 developers "desire more graphics performance" in order to deliver the visuals they want at a frame rate of 60 fps. The lack of enough graphical power on the PS5 leads to a difficult decision for players between the higher resolution of "fidelity" mode and the smoother frame rates of "performance" mode (with three-quarters of players choosing the latter, according to Cerny).</p></div><p><a href="https://arstechnica.com/?p=2048663#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048663&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gaming/2024/09/sony-announces-ps5-pro-a-700-graphics-workhorse-available-nov-7/feed/</wfw:commentRss>
-			<slash:comments>273</slash:comments>
+			<slash:comments>303</slash:comments>
 		
 		
 			</item>
@@ -352,7 +390,7 @@
 <p>Friends of mine had told me that they had to stop playing <em>Factorio</em> when it began to feel like an unpaid part-time job. Given a chance to check out <em>Satisfactory</em>, I presumed, like I always do, That Could Never Be Me. Folks, it was definitely me. I'm having a hard time writing this post, not because it's hard to describe or recommend <em>Satisfactory. </em>I just stayed up very late "reviewing" it, woke up thinking about it, and am wondering whether enough friends would want to join me that I should set up a private server.</p></div><p><a href="https://arstechnica.com/?p=2048711#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048711&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gaming/2024/09/satisfactory-hits-1-0-removing-your-last-excuse-to-avoid-falling-in-deep/feed/</wfw:commentRss>
-			<slash:comments>113</slash:comments>
+			<slash:comments>125</slash:comments>
 		
 		
 			</item>
@@ -389,7 +427,7 @@
 <p>Collectively, the announcements are the latest sign that quantum computing has emerged from its infancy and is rapidly progressing toward the development of systems that can reliably perform calculations that would be impractical or impossible to run on classical hardware. We talked with people at Microsoft and some of its hardware partners to get a sense of what's coming next to bring us closer to useful quantum computing.<!--adbreak--></p></div><p><a href="https://arstechnica.com/?p=2048754#p3">Read 20 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048754&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/09/microsoft-performs-operations-with-multiple-error-corrected-qubits/feed/</wfw:commentRss>
-			<slash:comments>28</slash:comments>
+			<slash:comments>32</slash:comments>
 		
 		
 			</item>
@@ -432,7 +470,7 @@
 <p>Since then, diamond-making technology has advanced significantly. Today, there are two primary methods for creating lab-grown diamonds: the HPHT process and chemical vapor deposition (CVD). Both types of machines are now <a href="https://www.alibaba.com/showroom/synthetic-diamond-making-machine.html">listed on Alibaba</a>, with prices starting at around <a href="https://www.alibaba.com/product-detail/HPHT-Cubic-Press-Synthetic-Diamond-Making_1600318712802.html">$200,000</a>, as <a href="https://news.ycombinator.com/item?id=41492001">pointed out</a> in a Hacker News comment by engineer John Nagle (who goes by "<a href="https://www.animats.com/classic/index.html">Animats</a>" on Hacker News). A CVD machine we found is more pricey, at <a href="https://www.alibaba.com/product-detail/VOAINO-WD-2204-915MHz-2450MHz-synthetic_1601024732626.html">around $450,000</a>.</p></div><p><a href="https://arstechnica.com/?p=2048698#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048698&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/09/you-can-buy-a-diamond-making-machine-for-200000-on-alibaba/feed/</wfw:commentRss>
-			<slash:comments>175</slash:comments>
+			<slash:comments>195</slash:comments>
 		
 		
 			</item>
@@ -470,7 +508,7 @@
 <p>The European Court of Justice said on Tuesday in its final ruling that it “confirms the European Commission’s 2016 decision: Ireland granted Apple unlawful aid which Ireland is required to recover.”</p></div><p><a href="https://arstechnica.com/?p=2048715#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048715&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/apple-must-pay-e13-billion-in-back-taxes-after-losing-final-appeal/feed/</wfw:commentRss>
-			<slash:comments>165</slash:comments>
+			<slash:comments>185</slash:comments>
 		
 		
 			</item>
@@ -509,7 +547,7 @@
 <p>Our first event will be in <a href="https://events.arstechnica.com/ibm_beyond-the-buzz-sanjose/home?ref=ArsEditApplicant">San Jose on September 18</a>, and it's titled "Beyond the Buzz: An Infrastructure Future with GenAI and What Comes Next." The idea will be to look at what generative AI means for the future of data management.</p></div><p><a href="https://arstechnica.com/?p=2037812#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2037812&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/information-technology/2024/09/hang-out-with-ars-in-san-jose-and-dc-this-fall-for-two-infrastructure-events/feed/</wfw:commentRss>
-			<slash:comments>48</slash:comments>
+			<slash:comments>49</slash:comments>
 		
 		
 			</item>
@@ -542,7 +580,7 @@
 <p>After three and a half hours, the truck will exit the freeway in Greenpoint, a neighborhood in the north of Houston. It will proceed to a second truck depot, where the trailer will again be transferred to a new rig. A different driver will get in and haul the cargo to its final destination a few miles away.</p></div><p><a href="https://arstechnica.com/?p=2048055#p3">Read 64 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048055&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/cars/2024/09/driverless-semis-could-be-months-away/feed/</wfw:commentRss>
-			<slash:comments>236</slash:comments>
+			<slash:comments>255</slash:comments>
 		
 		
 			</item>
@@ -578,7 +616,7 @@
 <p>Shortly after the mission's launch, Isaacman thanked the flight controllers, engineers, and technicians at SpaceX that made the privately funded trip possible. "We wouldn't be on this journey without all 14,000 of you back at SpaceX," he said.</p></div><p><a href="https://arstechnica.com/?p=2048679#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048679&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/space/2024/09/bold-private-spaceflight-begins-early-tuesday-with-a-break-in-the-weather/feed/</wfw:commentRss>
-			<slash:comments>143</slash:comments>
+			<slash:comments>157</slash:comments>
 		
 		
 			</item>
@@ -663,7 +701,7 @@
 <p>The system will also reportedly let users make modifications, such as changing the time of day or swapping out entire landscapes, and Roblox says the multimodal AI model will ultimately accept video and 3D prompts, not just text.</p></div><p><a href="https://arstechnica.com/?p=2048533#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048533&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/information-technology/2024/09/open-source-roblox-tool-will-allow-3d-world-creation-from-text-prompts/feed/</wfw:commentRss>
-			<slash:comments>53</slash:comments>
+			<slash:comments>54</slash:comments>
 		
 		
 			</item>
@@ -701,7 +739,7 @@
 <p>"One monopoly is bad enough," Wood said. "But a trifecta of monopolies is what we have here."</p></div><p><a href="https://arstechnica.com/?p=2048608#p3">Read 33 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048608&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/doj-claims-google-has-trifecta-of-monopolies-on-day-1-of-ad-tech-trial/feed/</wfw:commentRss>
-			<slash:comments>121</slash:comments>
+			<slash:comments>123</slash:comments>
 		
 		
 			</item>
@@ -735,50 +773,7 @@
 <p>The film that acts as a lid on Dole Sunshine fruit bowls, the rings securing jars of McCormick dried herbs, the straws attached to Juicy Juice boxes, the bags that hold Cheez-Its and Cheerios—they’re all destined for the dumpster.</p></div><p><a href="https://arstechnica.com/?p=2048520#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048520&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/these-household-brands-want-to-redefine-what-counts-as-recyclable/feed/</wfw:commentRss>
-			<slash:comments>152</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Unlocked, loaded guns more common among parents who give kids firearm lessons</title>
-		<link>https://arstechnica.com/?p=2048347</link>
-					<comments>https://arstechnica.com/science/2024/09/parents-are-more-likely-to-keep-unlocked-loaded-guns-if-kids-get-gun-lessons/#comments</comments>
-		
-		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
-		<pubDate>Mon, 09 Sep 2024 19:37:25 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[children]]></category>
-		<category><![CDATA[firearm death]]></category>
-		<category><![CDATA[firearm injury]]></category>
-		<category><![CDATA[firearms]]></category>
-		<category><![CDATA[guns]]></category>
-		<category><![CDATA[loaded]]></category>
-		<category><![CDATA[locked]]></category>
-		<category><![CDATA[Parents]]></category>
-		<category><![CDATA[safe storage]]></category>
-		<category><![CDATA[Teens]]></category>
-		<category><![CDATA[unloaded]]></category>
-		<category><![CDATA[unlocked]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2048347</guid>
-
-					<description><![CDATA[It's unknown if demonstrating responsible handling actually keeps kids safe.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1251934120-800x533.jpg" alt="A man helps a boy look at a handgun during the National Rifle Association's Annual Meetings &amp; Exhibits at the Indiana Convention Center in Indianapolis on April 16, 2023.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1251934120-scaled.jpg" class="enlarge-link" data-height="1706" data-width="2560">Enlarge</a> <span class="sep">/</span> A man helps a boy look at a handgun during the National Rifle Association's Annual Meetings &amp; Exhibits at the Indiana Convention Center in Indianapolis on April 16, 2023. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/man-helps-a-boy-look-at-a-handgun-during-the-national-rifle-news-photo/1251934120?adppopup=true">Getty | Jeremy Hogan</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Gun-owning parents who teach their kids how to responsibly handle and shoot a gun are less likely to store those deadly weapons safely, according to <a href="https://jamanetwork.com/journals/jamapediatrics/fullarticle/2823159?guestAccessKey=7930a951-ea18-47e1-a2c7-036ddf5cf7e4">a survey-based study published Monday in JAMA Pediatrics</a>.</p>
-<p>The study, conducted by gun violence researchers at Rutgers University, analyzed survey responses from 870 gun-owning parents. Of those, the parents who responded that they demonstrated proper handling to their child or teen, had their kid practice safe handling under supervision, and/or taught their kid how to shoot a firearm were more likely than other gun-owning parents to keep at least one gun unsecured—that is, unlocked and loaded. In fact, each of the three responses carried at least double the odds of the parent having an unlocked, loaded gun around, the study found.</p>
-<p>The survey responses may seem like a paradox for parents who value safe and responsible gun handling. Previous studies have suggested that safe storage of firearms can <a href="https://jamanetwork.com/journals/jamapediatrics/fullarticle/2733158">reduce the risk of injuries and deaths among children and teens</a>. A 2005 JAMA study, for instance, found <a href="https://jamanetwork.com/journals/jama/fullarticle/200330">lower risks of firearm injuries among children and teens</a> when parents securely store their firearms—meaning they kept them locked, unloaded, and stored separately from locked ammunition. And as of 2020, <a href="https://www.nejm.org/doi/10.1056/NEJMc2201761">firearm-related injuries became the leading cause of death among children and teens</a> in the US.</p></div><p><a href="https://arstechnica.com/?p=2048347#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048347&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/09/parents-are-more-likely-to-keep-unlocked-loaded-guns-if-kids-get-gun-lessons/feed/</wfw:commentRss>
-			<slash:comments>539</slash:comments>
+			<slash:comments>153</slash:comments>
 		
 		
 			</item>
