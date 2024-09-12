@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Tue, 10 Sep 2024 23:18:11 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 12 Sep 2024 00:30:58 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,6 +21,412 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>As quantum computing threats loom, Microsoft updates its core crypto library</title>
+		<link>https://arstechnica.com/?p=2049244</link>
+					<comments>https://arstechnica.com/security/2024/09/microsoft-adds-quantum-resistant-algorithms-to-its-core-crypto-library/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Thu, 12 Sep 2024 00:20:08 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[quantum computing]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049244</guid>
+
+					<description><![CDATA[Two algorithms added so far, two more planned in the coming months.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/11/encryption-key-recovery-attack-800x550.jpg" alt="As quantum computing threats loom, Microsoft updates its core crypto library">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2023/11/encryption-key-recovery-attack.jpg" class="enlarge-link" data-height="687" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Microsoft has updated a key cryptographic library with two new encryption algorithms designed to withstand attacks from quantum computers.</p>
+<p>The updates were made last week to <a href="https://github.com/microsoft/SymCrypt">SymCrypt</a>, a core cryptographic code library for handing cryptographic functions in Windows and Linux. The library, started in 2006, provides operations and algorithms developers can use to safely implement secure encryption, decryption, signing, verification, hashing, and key exchange in the apps they create. The library supports federal certification requirements for cryptographic modules used in some governmental environments.</p>
+<h2>Massive overhaul underway</h2>
+<p>Despite the name, SymCrypt supports both symmetric and asymmetric algorithms. It’s the main cryptographic library Microsoft uses in products and services including Azure, Microsoft 365, all supported versions of Windows, Azure Stack HCI, and Azure Linux. The library provides cryptographic security used in email security, cloud storage, web browsing, remote access, and device management. Microsoft documented the update in a <a href="https://techcommunity.microsoft.com/t5/security-compliance-and-identity/microsoft-s-quantum-resistant-cryptography-is-here/ba-p/4238780">post</a> on Monday.</p></div><p><a href="https://arstechnica.com/?p=2049244#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049244&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/09/microsoft-adds-quantum-resistant-algorithms-to-its-core-crypto-library/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Android apps are blocking sideloading and forcing Google Play versions instead</title>
+		<link>https://arstechnica.com/?p=2049138</link>
+					<comments>https://arstechnica.com/gadgets/2024/09/android-now-allows-apps-to-block-sideloading-and-push-a-google-play-version/#comments</comments>
+		
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Wed, 11 Sep 2024 21:31:37 +0000</pubDate>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[apks]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google play store]]></category>
+		<category><![CDATA[play integrity api]]></category>
+		<category><![CDATA[safetynet attestation]]></category>
+		<category><![CDATA[sideloading]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049138</guid>
+
+					<description><![CDATA["Select Play Partners" can block unofficial installation of their apps.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/get_this_app_play.png" alt="Image from an Android phone, suggesting user " get this app from play and showing disjointed pieces of an including a frowning emoji-like face.>
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/get_this_app_play.png" class="enlarge-link" data-height="635" data-width="753">Enlarge</a> <span class="sep">/</span> It's never explained what this collection of app icons quite represents. A disorganized app you tossed together by sideloading? A face that's frowning because it's rolling down a bar held up by app icons? It's weird, but not quite evocative. (credit: <a rel="nofollow" class="caption-link" href="https://github.com/linuxct/hydra">linuxct/hydra</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>You might sideload an Android app, or manually install its APK package, if you're using a custom version of Android that doesn't include Google's Play Store. Alternately, the app might be experimental, under development, or perhaps no longer maintained and offered by its developer. Until now, the existence of sideload-ready APKs on the web was something that seemed to be tolerated, if warned against, by Google.</p>
+<p>This quiet standstill is being shaken up by a new feature in Google's Play Integrity API. As <a href="https://www.androidauthority.com/play-integrity-sideloading-detection-3480639/">reported by Android Authority</a>, developer tools to push "remediation" dialogs during sideloading <a href="https://io.google/2024/explore/f757438a-844f-4c59-8dd4-9a5580a5e23d/">debuted</a> at Google's I/O conference in May, have begun showing up on users' phones. Sideloaders of apps from the British shop <a href="https://forum.fairphone.com/t/cannot-install-the-new-tesco-clubcard-app-fp4/93824/10">Tesco</a>, fandom app <a href="https://www.reddit.com/r/Beyblade/comments/16bi9hh/getting_this_message_when_i_open_the_bbx_app/">BeyBlade X</a>, and <a href="https://x.com/AssembleDebug/status/1833700730349515062?t=BYKpcVNNC-8z7Jems7j37Q&amp;s=19">ChatGPT</a> have reported "Get this app from Play" prompts, which cannot be worked around. An Android gaming handheld user encountered <a href="https://www.reddit.com/r/retroid/comments/1dihb9d/how_to_bypass_get_this_app_from_play_on_rp2s/">a similarly worded prompt from <em>Diablo Immortal</em></a> on their device three months ago.</p>
+<p>Google's Play Integrity API is how apps have previously blocked access when loaded onto phones that are in some way modified from a stock OS with all Google Play integrations intact. Recently, a popular two-factor authentication app <a href="https://arstechnica.com/gadgets/2024/07/loss-of-popular-2fa-tool-puts-security-minded-grapheneos-in-a-paradox/">blocked access on rooted phones</a>, including the security-minded GrapheneOS. Apps can call the Play Integrity API and get back an "integrity verdict," relaying if the phone has a "trustworthy" software environment, has Google Play Protect enabled, and passes other software checks.</p></div><p><a href="https://arstechnica.com/?p=2049138#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049138&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/android-now-allows-apps-to-block-sideloading-and-push-a-google-play-version/feed/</wfw:commentRss>
+			<slash:comments>64</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Taylor Swift cites AI deepfakes in endorsement for Kamala Harris</title>
+		<link>https://arstechnica.com/?p=2049045</link>
+					<comments>https://arstechnica.com/ai/2024/09/taylor-swift-cites-ai-deepfakes-in-endorsement-for-kamala-harris/#comments</comments>
+		
+		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
+		<pubDate>Wed, 11 Sep 2024 19:56:30 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI fakes]]></category>
+		<category><![CDATA[AI-generated images]]></category>
+		<category><![CDATA[childless cat lady]]></category>
+		<category><![CDATA[deepfakes]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[image synthesis]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[taylor swift]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049045</guid>
+
+					<description><![CDATA[Taylor Swift on AI: "The simplest way to combat misinformation is with the truth."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/taylor_screenshot_2-800x450.jpg" alt="A screenshot of Taylor Swift's Kamala Harris Instagram post, captured on September 11, 2024.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/taylor_screenshot_2.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> A screenshot of Taylor Swift's Kamala Harris Instagram post, captured on September 11, 2024. (credit: <a rel="nofollow" class="caption-link" href="https://www.instagram.com/taylorswift/p/C_wtAOKOW1z/?hl=en">Taylor Swift / Instagram</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>On Tuesday night, Taylor Swift <a href="https://www.instagram.com/taylorswift/p/C_wtAOKOW1z/?hl=en">endorsed</a> Vice President Kamala Harris for US President on Instagram, citing concerns over AI-generated deepfakes as a key motivator. The artist's warning aligns with current trends in technology, especially in an era where AI synthesis models can easily <a href="https://arstechnica.com/information-technology/2022/12/thanks-to-ai-its-probably-time-to-take-your-photos-off-the-internet/">create convincing fake images</a> and videos.</p>
+<p>"Recently I was made aware that AI of ‘me’ falsely endorsing Donald Trump’s presidential run was posted to his site," she wrote in her Instagram post. "It really conjured up my fears around AI, and the dangers of spreading misinformation. It brought me to the conclusion that I need to be very transparent about my actual plans for this election as a voter. The simplest way to combat misinformation is with the truth."</p>
+<p>In August 2024, former President Donald Trump <a href="https://www.cnn.com/2024/08/19/politics/donald-trump-taylor-swift-ai/index.html">posted AI-generated images</a> on Truth Social falsely suggesting Swift endorsed him, including a manipulated photo depicting Swift as Uncle Sam with text promoting Trump. The incident sparked Swift's fears about the spread of misinformation through AI.</p></div><p><a href="https://arstechnica.com/?p=2049045#p3">Read 1 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049045&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/ai/2024/09/taylor-swift-cites-ai-deepfakes-in-endorsement-for-kamala-harris/feed/</wfw:commentRss>
+			<slash:comments>178</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>In abortion ban states, sterilization spiked after Dobbs and kept climbing</title>
+		<link>https://arstechnica.com/?p=2049152</link>
+					<comments>https://arstechnica.com/science/2024/09/in-abortion-ban-states-sterilization-spiked-after-dobbs-and-kept-climbing/#comments</comments>
+		
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+		<pubDate>Wed, 11 Sep 2024 19:10:59 +0000</pubDate>
+				<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Abortion]]></category>
+		<category><![CDATA[contraception]]></category>
+		<category><![CDATA[JAMA]]></category>
+		<category><![CDATA[maternity]]></category>
+		<category><![CDATA[reproductive health]]></category>
+		<category><![CDATA[sterlization]]></category>
+		<category><![CDATA[women's health]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049152</guid>
+
+					<description><![CDATA[Sterilizations spike with abortion bans and declining access to care and contraception.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1243262189-800x534.jpg" alt='A woman holds a placard saying "No Forced Births" as abortion rights activists gather at the Monroe County Courthouse for a protest vigil a few hours before Indianas near total abortion ban goes into effect on September 15, 2022.'>
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1243262189-scaled.jpg" class="enlarge-link" data-height="1708" data-width="2560">Enlarge</a> <span class="sep">/</span> A woman holds a placard saying "No Forced Births" as abortion rights activists gather at the Monroe County Courthouse for a protest vigil a few hours before Indianas near total abortion ban goes into effect on September 15, 2022. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/woman-holds-a-placard-saying-no-forced-births-as-abortion-news-photo/1243262189?adppopup=true">Getty | Jeremy Hogan</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The more abortion access is jeopardized, the more women turn to sterilization, according to <a href="https://jamanetwork.com/journals/jama/fullarticle/2823625">a new report in JAMA</a> that drew on health insurance claims of nearly 4.8 million women in the US.</p>
+<p>In states that enacted total or near-total abortion bans following the US Supreme Court's <em>Dobbs</em> decision in June 2022, the rate of sterilizations among reproductive-age women that July spiked 19 percent. A similar initial spike was seen across the nation, with states that either limited or protected access to abortions seeing a 17 percent increase.</p>
+<p>But, after that, states with bans saw a divergent trend. The states that limited or protected abortion access saw sterilization procedures largely level off after July 2022. In contrast, states with bans continued to see increases. From July 2022 to December 2022, use of sterilization procedures increased by 3 percent each month.</p></div><p><a href="https://arstechnica.com/?p=2049152#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049152&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/09/in-abortion-ban-states-sterilization-spiked-after-dobbs-and-kept-climbing/feed/</wfw:commentRss>
+			<slash:comments>128</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Human drivers keep rear-ending Waymos</title>
+		<link>https://arstechnica.com/?p=2049121</link>
+					<comments>https://arstechnica.com/cars/2024/09/human-drivers-are-to-blame-for-most-serious-waymo-collisions/#comments</comments>
+		
+		<dc:creator><![CDATA[Timothy B. Lee]]></dc:creator>
+		<pubDate>Wed, 11 Sep 2024 19:05:10 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Driverless cars]]></category>
+		<category><![CDATA[driverless taxi]]></category>
+		<category><![CDATA[waymo]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049121</guid>
+
+					<description><![CDATA[We took a close look at the 23 most serious Waymo crashes.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2149191992-800x534.jpg" alt="A Waymo vehicle in San Francisco.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2149191992.jpg" class="enlarge-link" data-height="5464" data-width="8192">Enlarge</a> <span class="sep">/</span> A Waymo vehicle in San Francisco. (credit: Photo by JasonDoiy via Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p data-pm-slice="1 1 []">On a Friday evening last November, police chased a silver sedan across the San Francisco Bay Bridge. The fleeing vehicle entered San Francisco and went careening through the city’s crowded streets. At the intersection of 11th and Folsom streets, it sideswiped the fronts of two other vehicles, veered onto a sidewalk, and hit two pedestrians.</p>
+<p>According to a <a href="https://abc7news.com/police-chase-san-francisco-waymo-pursuit-crash/14011545/" target="_blank" rel="noopener noreferrer nofollow">local news story</a>, both pedestrians were taken to the hospital with one suffering major injuries. The driver of the silver sedan was injured, as was a passenger in one of the other vehicles.</p>
+<p>No one was injured in the third car, a driverless Waymo robotaxi. Still, Waymo was required to report the crash to government agencies. It was one of 20 crashes with injuries that Waymo has reported through June.  And it’s the only crash Waymo has classified as causing a serious injury.</p></div><p><a href="https://arstechnica.com/?p=2049121#p3">Read 35 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049121&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/09/human-drivers-are-to-blame-for-most-serious-waymo-collisions/feed/</wfw:commentRss>
+			<slash:comments>96</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The PS5 Pro brings the game console’s disc drive era to an end</title>
+		<link>https://arstechnica.com/?p=2049096</link>
+					<comments>https://arstechnica.com/gaming/2024/09/the-ps5-pro-brings-the-game-consoles-disc-drive-era-to-an-end/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Wed, 11 Sep 2024 18:36:26 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[playstation 5]]></category>
+		<category><![CDATA[playstation 5 pro]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049096</guid>
+
+					<description><![CDATA[Sony relegates physical game discs to a peripheral afterthought.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/ps5prohw-800x450.png" alt="Notice anything missing from the one and only model of the PS5 Pro?">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/ps5prohw.png" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> Notice anything missing from the one and only model of the PS5 Pro? (credit: Sony)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Here at Ars, we've been publicly musing about whether the world was ready for a disc-free game console <a href="https://arstechnica.com/gaming/2015/08/is-the-world-ready-for-a-disc-free-game-console/">since as far back as 2015</a>. Now, though, the better question might be whether the world ever needs a new game console with a built-in disc drive at all.</p>
+<p>Yesterday's <a href="https://arstechnica.com/gaming/2024/09/sony-announces-ps5-pro-a-700-graphics-workhorse-available-nov-7/">announcement of the PlayStation 5 Pro</a> seemed to treat the existence of disc-based games as an afterthought. You had to be watching pretty closely during <a href="https://www.youtube.com/watch?v=AdEBSx--XSc">Mark Cerny's "technical presentation" video</a> to notice that the coming PS5 Pro is only available in a single disc-drive-free model. And you'd have to read pretty deep into <a href="https://blog.playstation.com/2024/09/10/welcome-playstation-5-pro-the-most-visually-impressive-way-to-play-games-on-playstation/">the official PlayStation blog post</a> on the subject to discover that "PS5 Pro is available as a disc-less console, with the option to purchase the currently available Disc Drive for PS5 separately."</p>
+<p>That <a href="https://direct.playstation.com/en-us/buy-accessories/disc-drive-for-ps5-digital-edition-consoles">$80 disc drive accessory</a> was introduced as <a href="https://arstechnica.com/gaming/2023/10/ps5-slims-new-external-disc-drive-requires-online-pairing-before-use/">an optional upgrade</a> to <a href="https://arstechnica.com/gaming/2023/10/redesigned-ps5-models-slim-down-one-of-the-bulkiest-consoles-ever/">the Digital Edition of the PS5 Slim</a> last year, alongside a Slim model that <em>does</em> have a pre-installed disc drive. But now, just one year later, Sony has decided that it only needs a single "disc-less" model of the PS5 Pro as the default.</p></div><p><a href="https://arstechnica.com/?p=2049096#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049096&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/09/the-ps5-pro-brings-the-game-consoles-disc-drive-era-to-an-end/feed/</wfw:commentRss>
+			<slash:comments>97</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Old Easter Island genomes show no sign of a population collapse</title>
+		<link>https://arstechnica.com/?p=2049119</link>
+					<comments>https://arstechnica.com/science/2024/09/old-easter-island-genomes-show-no-sign-of-a-population-collapse/#comments</comments>
+		
+		<dc:creator><![CDATA[John Timmer]]></dc:creator>
+		<pubDate>Wed, 11 Sep 2024 18:20:50 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[anthropology]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[easter island]]></category>
+		<category><![CDATA[evolution]]></category>
+		<category><![CDATA[human evolution]]></category>
+		<category><![CDATA[native americans]]></category>
+		<category><![CDATA[Polynesians]]></category>
+		<category><![CDATA[rapa nui]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049119</guid>
+
+					<description><![CDATA[Native American DNA in the genomes dates to roughly when Rapa Nui was settled.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2068621148-800x450.jpg" alt="A row of grey rock sculptures of human torsos and heads, arranged in a long line.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2068621148.jpg" class="enlarge-link" data-height="1299" data-width="2309">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/ahu-tongariki-is-the-largest-ahu-on-easter-island-royalty-free-image/2068621148?phrase=rapa+nui&amp;searchscope=image%2Cfilm">Jarcosa</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Rapa Nui, often referred to as Easter Island, is one of the most remote populated islands in the world. It's so distant that Europeans didn't stumble onto it until centuries after they had started exploring the Pacific. When they arrived, though, they found that the relatively small island supported a population of thousands, one that had built imposing monumental statues called moai. Arguments over how this population got there and what happened once it did have gone on ever since.</p>
+<p>Some of these arguments, such as the idea that the island's indigenous people had traveled there from South America, have since been put to rest. Genomes from people native to the island show that its original population was part of the Polynesian expansion across the Pacific. But others, such as the role of ecological collapse in limiting the island's population and altering its culture, continue to be <a href="https://arstechnica.com/science/2024/06/we-now-have-even-more-evidence-against-the-ecocide-theory-of-easter-island/">debated</a>.</p>
+<p>Researchers have now obtained genome sequence from the remains of 15 Rapa Nui natives who predate European contact. And they indicate that the population of the island appears to have grown slowly and steadily, without any sign of a bottleneck that could be associated with an ecological collapse. And roughly 10 percent of the genomes appear to have a Native American source that likely dates from roughly the same time that the island was settled.</p></div><p><a href="https://arstechnica.com/?p=2049119#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049119&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/09/old-easter-island-genomes-show-no-sign-of-a-population-collapse/feed/</wfw:commentRss>
+			<slash:comments>33</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Google’s ad tech empire may be $95B and “too big” to sell, analysts warn DOJ</title>
+		<link>https://arstechnica.com/?p=2049078</link>
+					<comments>https://arstechnica.com/tech-policy/2024/09/google-holds-publishers-hostage-ex-news-corp-exec-testifies-at-ad-tech-trial/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Wed, 11 Sep 2024 18:20:19 +0000</pubDate>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[adx]]></category>
+		<category><![CDATA[Antitrust law]]></category>
+		<category><![CDATA[DoubleClick]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google ad manager]]></category>
+		<category><![CDATA[google ad tech]]></category>
+		<category><![CDATA[google monopoly]]></category>
+		<category><![CDATA[online advertising]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049078</guid>
+
+					<description><![CDATA[Google Ad Manager is key to ad tech monopoly, DOJ aims to prove.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2170357434-800x534.jpg" alt="A staffer with the Paul, Weiss legal firm wheels boxes of legal documents into the Albert V. Bryan US Courthouse at the start of a Department of Justice antitrust trial against Google over its advertiing business in Alexandria, Virginia, on September 9, 2024. Google faces its second major antitrust trial in less than a year, with the US government accusing the tech giant of dominating online advertising and stifling competition. ">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2170357434.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> <span class="sep">/</span> A staffer with the Paul, Weiss legal firm wheels boxes of legal documents into the Albert V. Bryan US Courthouse at the start of a Department of Justice antitrust trial against Google over its advertiing business in Alexandria, Virginia, on September 9, 2024. Google faces its second major antitrust trial in less than a year, with the US government accusing the tech giant of dominating online advertising and stifling competition.  (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/staffer-with-the-paul-weiss-legal-firm-wheels-boxes-of-news-photo/2170357434?adppopup=true">SAMUEL CORUM / Contributor | AFP</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Just a couple of days into the Google ad tech antitrust trial, it seems clear that the heart of the US Department of Justice's case is proving that Google Ad Manager is the key to the tech giant's alleged monopoly.</p>
+<p>Google Ad Manager is the buy-and-sell side ad tech platform launched following Google's acquisition of DoubleClick and AdX in 2008 for $3 billion. It is currently used to connect Google's publisher ad servers with its ad exchanges, tying the two together in a way that allegedly locks the majority of publishers into paying higher fees on the publisher side because they can't afford to drop Google's ad exchange.</p>
+<p>The DOJ has argued that Google Ad Manager "serves 90 percent of publishers that use the ad tech tools to sell their online ad inventory," AdAge <a href="https://adage.com/article/digital-marketing-ad-tech-news/google-ad-tech-could-be-worth-95b-antitrust-case/2579761">reported,</a> and through it, Google clearly wields monopoly powers.</p></div><p><a href="https://arstechnica.com/?p=2049078#p3">Read 41 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049078&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/google-holds-publishers-hostage-ex-news-corp-exec-testifies-at-ad-tech-trial/feed/</wfw:commentRss>
+			<slash:comments>48</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The 2024 VW Golf GTI is the last of its kind with a manual transmission</title>
+		<link>https://arstechnica.com/?p=2049026</link>
+					<comments>https://arstechnica.com/cars/2024/09/the-2024-vw-golf-gti-is-the-last-of-its-kind-with-a-manual-transmission/#comments</comments>
+		
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+		<pubDate>Wed, 11 Sep 2024 17:09:13 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[car review]]></category>
+		<category><![CDATA[Volkswagen Golf GTI]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2049026</guid>
+
+					<description><![CDATA[Get the manual while you can. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/2024-VW-Golf-GTI-1-800x600.jpg" alt="A grey VW Golf GTI">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/2024-VW-Golf-GTI-1-scaled.jpg" class="enlarge-link" data-height="1920" data-width="2560">Enlarge</a> <span class="sep">/</span> The latest Volkswagen Golf GTI isn't perfect, but  it has enough charm to overcome its flaws. (credit: Jonathan Gitlin)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>"They won't make them like this much longer" is a pretty hackneyed aphorism, but it certainly applies to the Volkswagen Golf GTI. The Mk 8 Golf is due for a mid-life refresh next year, and when that happens, VW will be simplifying things by dropping the <a href="https://arstechnica.com/cars/2023/02/the-final-shift-which-manual-transmission-will-be-the-last/">manual transmission</a> option. That means model year 2024 is the final chance anyone will have to buy a GTI with three pedals. Yes, it has some flaws, but it's also small and nimble, both attributes lacking in so much of what the automotive industry has to offer these days.</p>
+<p>We've been a bit deficient in not reviewing the Mk 8 Golf GTI until now. I reviewed the more expensive, more powerful Golf R <a href="https://arstechnica.com/cars/2022/02/volkswagen-has-given-the-2022-golf-r-an-extreme-personality-change/">in 2022</a>, but the last GTI we drove was the outgoing Mk 7 car <a href="https://arstechnica.com/cars/2020/06/the-2020-vw-golf-gti-proves-you-shouldnt-overcomplicate-an-icon/">in mid-2020</a>. That time, we were only able to source a GTI with the two-pedal, dual-clutch gearbox, a transmission I felt didn't quite suit the engine it was mated to. On the other hand, I was effusive about the old GTI's infotainment, calling it "one of the best systems on the market." Well, it was 2020, remember.</p>
+<p>Under the hood, you'll find yet another version of VW Group's venerable EA888 four-cylinder engine, here with a turbocharger and direct injection. It generates 241 hp (180 kW) and 273 lb-ft (370 Nm), with that peak torque arriving at just 1,750 rpm. This sends its power to the front wheels via a seven-speed DSG or the soon-to-be-retired six-speed manual.</p></div><p><a href="https://arstechnica.com/?p=2049026#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049026&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/09/the-2024-vw-golf-gti-is-the-last-of-its-kind-with-a-manual-transmission/feed/</wfw:commentRss>
+			<slash:comments>98</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The future of Boeing’s crewed spaceflight program is muddy after Starliner’s return</title>
+		<link>https://arstechnica.com/?p=2048972</link>
+					<comments>https://arstechnica.com/space/2024/09/the-future-of-boeings-crewed-spaceflight-program-is-muddy-after-starliners-return/#comments</comments>
+		
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Wed, 11 Sep 2024 15:01:10 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[Boeing]]></category>
+		<category><![CDATA[boeing starliner]]></category>
+		<category><![CDATA[starliner]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2048972</guid>
+
+					<description><![CDATA["The final chapter on Starliner has not been written yet."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/53986153279_21b185c887_k-800x449.jpg" alt="Boeing's uncrewed Starliner spaceraft backs away from the International Space Station moments after undocking on September 6, 2024.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/53986153279_21b185c887_k.jpg" class="enlarge-link" data-height="1150" data-width="2047">Enlarge</a> <span class="sep">/</span> Boeing's uncrewed Starliner spaceraft backs away from the International Space Station moments after undocking on September 6, 2024. (credit: NASA)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Nearly a decade ago to the day, I stood in the international terminal of Houston's main airport checking my phone. As I waited to board a flight for Moscow, an announcement from NASA was imminent, with the agency due to make its selections for private companies that would transport astronauts to the International Space Station.</p>
+<p>Then, just before boarding the direct flight to Moscow, <a href="https://www.nasa.gov/news-release/nasa-chooses-american-companies-to-transport-u-s-astronauts-to-international-space-station/">a news release</a> from NASA popped into my inbox about its Commercial Crew Program. The space agency, under a fixed price agreement, agreed to pay Boeing $4.2 billion to develop the Starliner spacecraft; SpaceX would receive $2.6 billion for the development of its Crew Dragon vehicle.</p>
+<p>At the time, the Space Shuttle had been retired for three years, and NASA's astronauts had to fly to the International Space Station aboard the Soyuz spacecraft. "Today, we are one step closer to launching our astronauts from US soil on American spacecraft and ending the nation’s sole reliance on Russia by 2017," NASA Administrator Charles Bolden said in the release.</p></div><p><a href="https://arstechnica.com/?p=2048972#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048972&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/09/the-future-of-boeings-crewed-spaceflight-program-is-muddy-after-starliners-return/feed/</wfw:commentRss>
+			<slash:comments>92</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Proposed underwater data center surprises regulators who hadn’t heard about it</title>
+		<link>https://arstechnica.com/?p=2048979</link>
+					<comments>https://arstechnica.com/tech-policy/2024/09/proposed-underwater-data-center-surprises-regulators-who-hadnt-heard-about-it/#comments</comments>
+		
+		<dc:creator><![CDATA[WIRED]]></dc:creator>
+		<pubDate>Wed, 11 Sep 2024 13:54:51 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[syndication]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2048979</guid>
+
+					<description><![CDATA[Startup NetworkOcean wants to sink GPUs into San Francisco Bay.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2015/10/data-center-640x425.jpg" alt="Proposed underwater data center surprises regulators who hadn’t heard about it">
+      <p class="caption" style="font-size:0.8em">(credit: BalticServers.com)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Data centers powering the generative AI boom are gulping water and exhausting electricity at what <a href="https://www.wired.com/story/ai-energy-demands-water-impact-internet-hyper-consumption-era/">some researchers</a> view as an unsustainable pace. Two entrepreneurs who met in high school a few years ago want to overcome that crunch with a fresh experiment: sinking the cloud into the sea.</p>
+<p>Sam Mendel and Eric Kim launched their company, NetworkOcean, out of startup accelerator Y Combinator on August 15 <a href="https://www.ycombinator.com/launches/LcE-networkocean-underwater-data-centers">by announcing plans</a> to dunk a small capsule filled with <a href="https://www.wired.com/story/fast-forward-chatgpt-hunger-energy-gpu-revolution/">GPU servers</a> into San Francisco Bay within a month. “There's this vital opportunity to build more efficient computer infrastructure that we're gonna rely on for decades to come,” Mendel says.</p>
+<p>The founders contend that moving data centers off land would slow ocean temperature rise by drawing less power and letting seawater cool the capsule’s shell, supplementing its internal cooling system. NetworkOcean’s founders have said a location in the bay would deliver fast processing speeds for <a href="https://www.wired.com/story/open-source-ai-y-combinator/">the region’s buzzing AI economy</a>.  </p></div><p><a href="https://arstechnica.com/?p=2048979#p3">Read 27 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048979&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/proposed-underwater-data-center-surprises-regulators-who-hadnt-heard-about-it/feed/</wfw:commentRss>
+			<slash:comments>141</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Rogue WHOIS server gives researcher superpowers no one should ever have</title>
 		<link>https://arstechnica.com/?p=2048683</link>
 					<comments>https://arstechnica.com/security/2024/09/rogue-whois-server-gives-researcher-superpowers-no-one-should-ever-have/#comments</comments>
@@ -48,13 +454,13 @@
 
 
 <div><a name="page-1"></a></div>
-<p>It’s not every day that a security researcher acquires the ability to generate counterfeit HTTPS certificates, track email activity, and execute code of his choice on thousands of servers—all in a single blow that cost only $20 and a few minutes to land. But that’s exactly what happened recently to Benjamin Harris.</p>
-<p>Harris, the CEO and founder of security firm watchTowr, did all of this by registering the domain dotmobilregistry.net. The domain was once the official home of the <a href="https://www.icann.org/en/registry-agreements/org/org-registry-agreement--whois-specifications-8-12-2006-en">authoritative WHOIS</a> server for .mobi, a top-level domain used to indicate that a website is optimized for mobile devices. At some point—it’s not clear precisely when—this WHOIS server, which acts as the official directory for every domain ending in .mobi, was relocated, from whois.dotmobiregistry.net to whois.nic.mobi. While retreating to his Las Vegas hotel room during last month’s Black Hat security conference in Las Vegas, Harris noticed that the previous dotmobiregistry.net owners had allowed the domain to expire. He then scooped it up and set up his own .mobi WHOIS server there.</p>
+<p>It’s not every day that a security researcher acquires the ability to generate counterfeit HTTPS certificates, track email activity, and the position to execute code of his choice on thousands of servers—all in a single blow that cost only $20 and a few minutes to land. But that’s exactly what happened recently to Benjamin Harris.</p>
+<p>Harris, the CEO and founder of security firm watchTowr, did all of this by registering the domain dotmobiregistry.net. The domain was once the official home of the <a href="https://www.icann.org/en/registry-agreements/org/org-registry-agreement--whois-specifications-8-12-2006-en">authoritative WHOIS</a> server for .mobi, a top-level domain used to indicate that a website is optimized for mobile devices. At some point—it’s not clear precisely when—this WHOIS server, which acts as the official directory for every domain ending in .mobi, was relocated, from whois.dotmobiregistry.net to whois.nic.mobi. While retreating to his Las Vegas hotel room during last month’s Black Hat security conference in Las Vegas, Harris noticed that the previous dotmobiregistry.net owners had allowed the domain to expire. He then scooped it up and set up his own .mobi WHOIS server there.</p>
 <h2>Misplaced trust</h2>
 <p>To Harris’s surprise, his server received queries from slightly more than 76,000 unique IP addresses within a few hours of setting it up. Over five days, it received roughly 2.5 million queries from about 135,000 unique systems. The entities behind the systems querying his deprecated domain included a who’s who of Internet heavyweights comprising domain registrars, providers of online security tools, governments from the US and around the world, universities, and certificate authorities, the entities that issue browser-trusted TLS certificates that make HTTPS work.</p></div><p><a href="https://arstechnica.com/?p=2048683#p3">Read 18 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048683&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/security/2024/09/rogue-whois-server-gives-researcher-superpowers-no-one-should-ever-have/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
+			<slash:comments>70</slash:comments>
 		
 		
 			</item>
@@ -93,7 +499,7 @@
 <p>"The flight test will include our most ambitious objective yet: attempt to return the Super Heavy booster to the launch site and catch it in mid-air," <a href="https://www.spacex.com/updates/#starships-fly">SpaceX said in a statement</a>.</p></div><p><a href="https://arstechnica.com/?p=2048838#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048838&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/space/2024/09/spacex-says-regulators-will-keep-starship-grounded-until-at-least-november/feed/</wfw:commentRss>
-			<slash:comments>159</slash:comments>
+			<slash:comments>290</slash:comments>
 		
 		
 			</item>
@@ -134,7 +540,7 @@
 <p>Nevada's first-of-its-kind AI will rely on a Google cloud service called Vertex AI Studio. Connecting to Google's servers, the state will fine-tune the AI system to only reference information from DETR's database, which officials think will ensure its decisions are "more tailored" and the system provides "more accurate results," Gizmodo reported.</p></div><p><a href="https://arstechnica.com/?p=2048889#p3">Read 21 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048889&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/ai-ruling-on-jobless-claims-could-make-mistakes-courts-cant-undo-experts-warn/feed/</wfw:commentRss>
-			<slash:comments>105</slash:comments>
+			<slash:comments>163</slash:comments>
 		
 		
 			</item>
@@ -167,7 +573,7 @@
 <p>The group's manifestos and chat rooms sometimes felt suffused with the habits of the extremely online: hand-clap emojis between every important word, instructional videos on how to make bombs, the language of trolling, catchphrases so over the top they sound ironic ("HAIL HOLY TERROR" in all caps).</p></div><p><a href="https://arstechnica.com/?p=2048921#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048921&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/culture/2024/09/hail-holy-terror-two-us-citizens-charged-for-running-online-terrorgram-collective/feed/</wfw:commentRss>
-			<slash:comments>64</slash:comments>
+			<slash:comments>138</slash:comments>
 		
 		
 			</item>
@@ -206,7 +612,7 @@
 <p>In this week's issue of the New England Journal of Medicine, <a href="https://www.nejm.org/doi/full/10.1056/NEJMicm2404232?logout=true">doctors in Taiwan report an unusual presentation of the disorder</a> in a 76-year-old woman. She told doctors that, for two years, every time she ate, her face would begin profusely sweating. In the clinic, the doctors observed the phenomenon themselves. They watched as she took a bite of pork jerky and began chewing.</p></div><p><a href="https://arstechnica.com/?p=2048913#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048913&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/09/woman-drips-with-sweat-from-a-bite-of-food-due-to-rare-nerve-wiring-mix-up/feed/</wfw:commentRss>
-			<slash:comments>26</slash:comments>
+			<slash:comments>41</slash:comments>
 		
 		
 			</item>
@@ -243,7 +649,7 @@
 <p>“It’s a piece of work that everyone has thought of but never managed to create,” Richard Yu, Huawei’s consumer group chairman, said during the Mate XT livestream unveiling. “I have always had a dream to put our tablet in my pocket, and we did it.”</p></div><p><a href="https://arstechnica.com/?p=2048860#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048860&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/forget-everything-huawei-is-doing-two-folds-on-the-mate-xt-ultimate/feed/</wfw:commentRss>
-			<slash:comments>114</slash:comments>
+			<slash:comments>165</slash:comments>
 		
 		
 			</item>
@@ -277,7 +683,7 @@
 <p>There are various strategies in nature for escaping predators after being swallowed. For instance, a parasitic worm called <em>Paragordius tricuspidatus</em> can <a href="https://www.nature.com/articles/440756a#:~:text=If%20a%20worm%20did%20not,surviving%20predation%20in%20this%20way.">force its way out</a> of a predator’s system when its host organism is eaten. There was also a <a href="https://www.sciencedirect.com/science/article/pii/S0960982220308423">fascinating study</a> in 2020 by Japanese scientists on the unusual survival strategy of the aquatic beetle <em>Regimbartia attenuata</em>. They fed a bunch of the beetles to a pond frog (<em>Pelophylax nigromaculatus</em>) under laboratory conditions, expecting the frog to spit the beetle out. That's what happened with <a href="https://royalsocietypublishing.org/doi/10.1098/rsbl.2017.0647">prior experiments</a> on bombardier beetles (<em>Pheropsophus jessoensis</em>), which spray toxic chemicals (described as an audible "chemical explosion") when they find themselves inside a toad's gut, inducing the toad to invert its own stomach and vomit them back out.</p></div><p><a href="https://arstechnica.com/?p=2048599#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048599&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/09/watch-japanese-eels-escape-through-a-predatory-fishs-gills/feed/</wfw:commentRss>
-			<slash:comments>58</slash:comments>
+			<slash:comments>70</slash:comments>
 		
 		
 			</item>
@@ -324,7 +730,7 @@
 <p>Now, MNT is revisiting the Reform with a more significant design update. The <a href="https://mntre.com/media/reform_md/2024-09-09-introducing-mnt-reform-next.html">MNT Reform Next</a> is smaller and thinner, defaults to a more traditional glass trackpad instead of a trackball, and is starting with the Rockchip RK3588 instead of the poky NXP/Freescale processor that the original laptop was saddled with.</p></div><p><a href="https://arstechnica.com/?p=2048810#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048810&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/all-open-source-mnt-reform-laptop-is-getting-a-sequel-with-a-refined-design/feed/</wfw:commentRss>
-			<slash:comments>28</slash:comments>
+			<slash:comments>35</slash:comments>
 		
 		
 			</item>
@@ -356,424 +762,7 @@
 <p>In <a href="https://www.youtube.com/watch?v=X24BzyzQQ-8">a video presentation Tuesday</a>, Sony's Mark Cerny said PS5 developers "desire more graphics performance" in order to deliver the visuals they want at a frame rate of 60 fps. The lack of enough graphical power on the PS5 leads to a difficult decision for players between the higher resolution of "fidelity" mode and the smoother frame rates of "performance" mode (with three-quarters of players choosing the latter, according to Cerny).</p></div><p><a href="https://arstechnica.com/?p=2048663#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048663&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gaming/2024/09/sony-announces-ps5-pro-a-700-graphics-workhorse-available-nov-7/feed/</wfw:commentRss>
-			<slash:comments>303</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Satisfactory is officially released, officially a scary wonderful time sink</title>
-		<link>https://arstechnica.com/?p=2048711</link>
-					<comments>https://arstechnica.com/gaming/2024/09/satisfactory-hits-1-0-removing-your-last-excuse-to-avoid-falling-in-deep/#comments</comments>
-		
-		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
-		<pubDate>Tue, 10 Sep 2024 15:00:56 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[coffee stain studios]]></category>
-		<category><![CDATA[factorio]]></category>
-		<category><![CDATA[satisfactory]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2048711</guid>
-
-					<description><![CDATA[Even people with 1,000 hours in the game are still learning about it.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/Satisfactory-1.0-Landscape-800x450.jpg" alt="Where are the gentle creatures and native plants you first saw when you landed? More importantly, could this conveyer belt run on a shorter path?">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/Satisfactory-1.0-Landscape.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> <span class="sep">/</span> Where are the gentle creatures and native plants you first saw when you landed? More importantly, could this conveyer belt run on a shorter path? (credit: Coffee Stain Studios)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The company that compels you to industrialize an untouched alien planet in <em>Satisfactory, </em>FICSIT, is similar to <em>Portal</em>'s Aperture Science or <em>Fallout</em>'s Vault-Tec. You are a disposable employee, fed misinformation and pushed to ignore awful or incongruous things, all for the greater good of science, profit, or an efficient mixture of the two.</p>
-<p>And yet even FICSIT was a bit concerned about how deep into the 1.0 release of <a href="https://www.satisfactorygame.com/"><em>Satisfactory</em></a> (<a href="https://store.steampowered.com/app/526870/Satisfactory/">Steam</a>, <a href="https://store.epicgames.com/en-US/p/satisfactory">Epic Games</a>, on sale until September 23) I had fallen. I got a warning that I had been playing for two hours straight. While FICSIT approved of hard work, it was important to have <em>some</em> work-life balance, it suggested.</p>
-<p>Friends of mine had told me that they had to stop playing <em>Factorio</em> when it began to feel like an unpaid part-time job. Given a chance to check out <em>Satisfactory</em>, I presumed, like I always do, That Could Never Be Me. Folks, it was definitely me. I'm having a hard time writing this post, not because it's hard to describe or recommend <em>Satisfactory. </em>I just stayed up very late "reviewing" it, woke up thinking about it, and am wondering whether enough friends would want to join me that I should set up a private server.</p></div><p><a href="https://arstechnica.com/?p=2048711#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048711&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/09/satisfactory-hits-1-0-removing-your-last-excuse-to-avoid-falling-in-deep/feed/</wfw:commentRss>
-			<slash:comments>125</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Microsoft performs operations with multiple error-corrected qubits</title>
-		<link>https://arstechnica.com/?p=2048754</link>
-					<comments>https://arstechnica.com/science/2024/09/microsoft-performs-operations-with-multiple-error-corrected-qubits/#comments</comments>
-		
-		<dc:creator><![CDATA[John Timmer]]></dc:creator>
-		<pubDate>Tue, 10 Sep 2024 14:46:36 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[atom computing]]></category>
-		<category><![CDATA[Error correction]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[quantinuum]]></category>
-		<category><![CDATA[quantum computing]]></category>
-		<category><![CDATA[qubits]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2048754</guid>
-
-					<description><![CDATA[Microsoft boosts error correction on Quantinuum machine, partners with Atom Computing.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/04/image-2-800x533.jpeg" alt="Image of a chip with a device on it that is shaped like two triangles connected by a bar.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/04/image-2-scaled.jpeg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> Quantinuum's H2 "racetrack" quantum processor. (credit: Quantinuum)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>On Tuesday, Microsoft made a series of announcements related to its Azure Quantum Cloud service. Among them was a demonstration of logical operations using the largest number of error-corrected qubits yet.</p>
-<p>"<a href="https://arstechnica.com/science/2024/04/quantum-error-correction-used-to-actually-correct-errors/">Since April</a>, we've tripled the number of logical qubits here," said Microsoft Technical Fellow Krysta Svore. "So we are accelerating toward that hundred-logical-qubit capability." The company has also lined up a new partner in the form of Atom Computing, which uses neutral atoms to hold qubits and has already demonstrated hardware with over 1,000 hardware qubits.</p>
-<p>Collectively, the announcements are the latest sign that quantum computing has emerged from its infancy and is rapidly progressing toward the development of systems that can reliably perform calculations that would be impractical or impossible to run on classical hardware. We talked with people at Microsoft and some of its hardware partners to get a sense of what's coming next to bring us closer to useful quantum computing.<!--adbreak--></p></div><p><a href="https://arstechnica.com/?p=2048754#p3">Read 20 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048754&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/09/microsoft-performs-operations-with-multiple-error-corrected-qubits/feed/</wfw:commentRss>
-			<slash:comments>32</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>You can buy a diamond-making machine for $200,000 on Alibaba</title>
-		<link>https://arstechnica.com/?p=2048698</link>
-					<comments>https://arstechnica.com/science/2024/09/you-can-buy-a-diamond-making-machine-for-200000-on-alibaba/#comments</comments>
-		
-		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
-		<pubDate>Tue, 10 Sep 2024 14:08:10 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[alibaba]]></category>
-		<category><![CDATA[carbon]]></category>
-		<category><![CDATA[china]]></category>
-		<category><![CDATA[diamond]]></category>
-		<category><![CDATA[diamonds]]></category>
-		<category><![CDATA[eCommerce]]></category>
-		<category><![CDATA[Marilyn Monroe]]></category>
-		<category><![CDATA[online shopping]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[synthetic diamonds]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2048698</guid>
-
-					<description><![CDATA[Making diamonds is cheaper than ever, creating a weird problem: too many diamonds.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/diamonds_1-800x450.jpg" alt="CLOSE UP: Jeweler looking a diamonds on the work table - stock photo">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/diamonds_1.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/jeweler-looking-a-diamonds-on-the-work-table-royalty-free-image/1323664289">eugenekeebler via Getty Images</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>In an age when you can get just about anything online, it's probably no surprise that you can <a href="https://www.alibaba.com/product-detail/HPHT-Cubic-Press-Synthetic-Diamond-Making_1600318712802.html?spm=a2700.7724857.0.0.237f4032pTaqn6">buy a diamond-making machine</a> for $200,000 on Chinese eCommerce site Alibaba. If, like me, you haven't been paying attention to the diamond industry, it turns out that the availability of these machines reflects an ongoing trend toward democratizing diamond production—a process that began decades ago and continues to evolve.</p>
-
-<p>The history of lab-grown diamonds dates back at least half a century. According to Harvard graduate student Javid Lakha, writing in a <a href="https://worksinprogress.co/issue/lab-grown-diamonds/">comprehensive piece</a> on lab-grown diamonds published in Works in Progress last month, the first successful synthesis of diamonds in a laboratory setting occurred in the 1950s. Lakha recounts how <a href="https://en.wikipedia.org/wiki/Tracy_Hall">Howard Tracy Hall</a>, a chemist at General Electric, created the first lab-grown diamonds using a high-pressure, high-temperature (HPHT) process that mimicked the conditions under which diamonds form in nature.</p>
-<p>Since then, diamond-making technology has advanced significantly. Today, there are two primary methods for creating lab-grown diamonds: the HPHT process and chemical vapor deposition (CVD). Both types of machines are now <a href="https://www.alibaba.com/showroom/synthetic-diamond-making-machine.html">listed on Alibaba</a>, with prices starting at around <a href="https://www.alibaba.com/product-detail/HPHT-Cubic-Press-Synthetic-Diamond-Making_1600318712802.html">$200,000</a>, as <a href="https://news.ycombinator.com/item?id=41492001">pointed out</a> in a Hacker News comment by engineer John Nagle (who goes by "<a href="https://www.animats.com/classic/index.html">Animats</a>" on Hacker News). A CVD machine we found is more pricey, at <a href="https://www.alibaba.com/product-detail/VOAINO-WD-2204-915MHz-2450MHz-synthetic_1601024732626.html">around $450,000</a>.</p></div><p><a href="https://arstechnica.com/?p=2048698#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048698&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/09/you-can-buy-a-diamond-making-machine-for-200000-on-alibaba/feed/</wfw:commentRss>
-			<slash:comments>195</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Apple must pay €13 billion in back taxes after losing final appeal</title>
-		<link>https://arstechnica.com/?p=2048715</link>
-					<comments>https://arstechnica.com/tech-policy/2024/09/apple-must-pay-e13-billion-in-back-taxes-after-losing-final-appeal/#comments</comments>
-		
-		<dc:creator><![CDATA[Financial Times]]></dc:creator>
-		<pubDate>Tue, 10 Sep 2024 13:47:52 +0000</pubDate>
-				<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[antitrust]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[EU]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[taxes]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2048715</guid>
-
-					<description><![CDATA[EU's top court also upholds €2.4 billion antitrust fine against Google.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/06/apple-eu-800x532.jpg" alt="Apple logo is displayed on a smartphone with a European Union flag in the background.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/06/apple-eu.jpg" class="enlarge-link" data-height="1664" data-width="2500">Enlarge</a> (credit: Getty Images | SOPA Images )</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Apple has suffered a significant defeat after the EU’s top court ruled that the iPhone maker must pay 13 billion euros in back taxes, overturning an earlier decision in the Big Tech group’s favor.</p>
-<p>The ruling relates to a 2016 case when the EU’s competition chief Margrethe Vestager said that Ireland had given the company an illegal sweetheart deal, amounting to a tax rate of less than 1 percent.</p>
-<p>The European Court of Justice said on Tuesday in its final ruling that it “confirms the European Commission’s 2016 decision: Ireland granted Apple unlawful aid which Ireland is required to recover.”</p></div><p><a href="https://arstechnica.com/?p=2048715#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048715&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/apple-must-pay-e13-billion-in-back-taxes-after-losing-final-appeal/feed/</wfw:commentRss>
-			<slash:comments>185</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Speakers announced for the Ars Technica infrastructure event in San Jose</title>
-		<link>https://arstechnica.com/?p=2037812</link>
-					<comments>https://arstechnica.com/information-technology/2024/09/hang-out-with-ars-in-san-jose-and-dc-this-fall-for-two-infrastructure-events/#comments</comments>
-		
-		<dc:creator><![CDATA[Lee Hutchinson]]></dc:creator>
-		<pubDate>Tue, 10 Sep 2024 12:00:40 +0000</pubDate>
-				<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[dc]]></category>
-		<category><![CDATA[ibm]]></category>
-		<category><![CDATA[Infrastructure]]></category>
-		<category><![CDATA[san jose]]></category>
-		<category><![CDATA[Storage]]></category>
-		<category><![CDATA[Washington D.C.]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2037812</guid>
-
-					<description><![CDATA[Come register to join us on September 18, learn some stuff, and hang out!]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-689705348-800x450.jpg" alt="Photograph of the Computer History Museum">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-689705348.jpg" class="enlarge-link" data-height="1299" data-width="2308">Enlarge</a> <span class="sep">/</span> The Computer History Museum, where we'll be meeting for our Bay Area adventure on September 18! (credit: SpVVK / Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Howdy, Arsians! Last year, we partnered with IBM to host <a href="https://arstechnica.com/staff/2023/10/are-you-near-houston-come-to-our-it-event-at-space-center-houston-on-november-1/">an in-person event in the Houston area</a> where we all gathered together, had some cocktails, and talked about resiliency and the future of IT. Location always matters for things like this, and so we hosted it at Space Center Houston and had our cocktails amidst cool space artifacts. In addition to learning a bunch of neat stuff, it was awesome to hang out with all the amazing folks who turned up at the event. Much fun was had!</p>
-<p>This year, we're back partnering with IBM again and we're looking to repeat that success with not one, but <em>two</em> in-person gatherings—each featuring a series of panel discussions with experts and capping off with a happy hour for hanging out and mingling. Where last time we went central, this time we're going to the coasts—both east and west. Read on for details!</p>
-<h2>September: San Jose, California</h2>
-<p>Our first event will be in <a href="https://events.arstechnica.com/ibm_beyond-the-buzz-sanjose/home?ref=ArsEditApplicant">San Jose on September 18</a>, and it's titled "Beyond the Buzz: An Infrastructure Future with GenAI and What Comes Next." The idea will be to look at what generative AI means for the future of data management.</p></div><p><a href="https://arstechnica.com/?p=2037812#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2037812&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/information-technology/2024/09/hang-out-with-ars-in-san-jose-and-dc-this-fall-for-two-infrastructure-events/feed/</wfw:commentRss>
-			<slash:comments>49</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Driverless semis could be months away</title>
-		<link>https://arstechnica.com/?p=2048055</link>
-					<comments>https://arstechnica.com/cars/2024/09/driverless-semis-could-be-months-away/#comments</comments>
-		
-		<dc:creator><![CDATA[Timothy B. Lee]]></dc:creator>
-		<pubDate>Tue, 10 Sep 2024 11:00:46 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Features]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2048055</guid>
-
-					<description><![CDATA[I visited two startups working to bring driverless technology to long-haul trucking.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/Aurora_Horizon_Autonomous_Trucking_-_Terminal_2-800x599.jpg" alt="An Aurora truck departs the company’s depot in Palmer, Texas. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/Aurora_Horizon_Autonomous_Trucking_-_Terminal_2-scaled.jpg" class="enlarge-link" data-height="1917" data-width="2560">Enlarge</a> <span class="sep">/</span> An Aurora truck departs the company’s depot in Palmer, Texas.  (credit: Aurora)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>On a sunny morning in December, an 18-wheeler will pull into a truck depot in Palmer, Texas, just south of Dallas. The driver will step out of the cab and help transfer his trailer to a second rig outfitted with powerful sensors.</p>
-<p>This second truck will head south on Interstate 45 toward Houston. It will move cautiously, mostly cruising in the right lane at 65 mph despite the 75 mph speed limit.</p>
-<p>After three and a half hours, the truck will exit the freeway in Greenpoint, a neighborhood in the north of Houston. It will proceed to a second truck depot, where the trailer will again be transferred to a new rig. A different driver will get in and haul the cargo to its final destination a few miles away.</p></div><p><a href="https://arstechnica.com/?p=2048055#p3">Read 64 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048055&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/09/driverless-semis-could-be-months-away/feed/</wfw:commentRss>
-			<slash:comments>255</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Polaris Dawn takes to the skies, setting the stage for a daring private spacewalk</title>
-		<link>https://arstechnica.com/?p=2048679</link>
-					<comments>https://arstechnica.com/space/2024/09/bold-private-spaceflight-begins-early-tuesday-with-a-break-in-the-weather/#comments</comments>
-		
-		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
-		<pubDate>Tue, 10 Sep 2024 09:53:10 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[falcon 9]]></category>
-		<category><![CDATA[Polaris dawn]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[spacex]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2048679</guid>
-
-					<description><![CDATA[Weather had confounded the launch attempt for nearly two weeks.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/spacex1-800x441.jpg" alt="A Crew Dragon spacecraft separates from the upper stage of a Falcon 9 rocket on Tuesday morning.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/spacex1.jpg" class="enlarge-link" data-height="1044" data-width="1894">Enlarge</a> <span class="sep">/</span> A Crew Dragon spacecraft separates from the upper stage of a Falcon 9 rocket on Tuesday morning. (credit: SpaceX)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>A Falcon 9 rocket streaked into the black predawn sky above Florida on Tuesday, carrying four people on the most ambitious private human spaceflight to date.</p>
-<p>The crew of the Polaris Dawn mission, led by a billionaire pilot named Jared Isaacman, were injected into an orbit intended to reach an apogee of 1,200 km and a perigee of 190 km. They plan to raise Crew Dragon's orbit to an apogee of 1,400 km near the end of the first day of flight.</p>
-<p>Shortly after the mission's launch, Isaacman thanked the flight controllers, engineers, and technicians at SpaceX that made the privately funded trip possible. "We wouldn't be on this journey without all 14,000 of you back at SpaceX," he said.</p></div><p><a href="https://arstechnica.com/?p=2048679#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048679&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/09/bold-private-spaceflight-begins-early-tuesday-with-a-break-in-the-weather/feed/</wfw:commentRss>
-			<slash:comments>157</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>NASA will proceed with final preps to launch Europa Clipper next month</title>
-		<link>https://arstechnica.com/?p=2048668</link>
-					<comments>https://arstechnica.com/space/2024/09/nasa-will-proceed-with-final-preps-to-launch-europa-clipper-next-month/#comments</comments>
-		
-		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
-		<pubDate>Tue, 10 Sep 2024 00:31:23 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Europa]]></category>
-		<category><![CDATA[europa clipper]]></category>
-		<category><![CDATA[jet propulsion laboratory]]></category>
-		<category><![CDATA[Jupiter]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[planetary science]]></category>
-		<category><![CDATA[solar system]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2048668</guid>
-
-					<description><![CDATA[After a four-month review, NASA says suspect transistors on Europa Clipper are good to go.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/53898132128_096b254723_k-800x533.jpg" alt="The main body of NASA's Europa Clipper spacecraft is reflected in one of the mission's deployable solar array wings during testing at Kennedy Space Center in Florida.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/53898132128_096b254723_k.jpg" class="enlarge-link" data-height="1000" data-width="1500">Enlarge</a> <span class="sep">/</span> The main body of NASA's Europa Clipper spacecraft is reflected in one of the mission's deployable solar array wings during testing at Kennedy Space Center in Florida. (credit: <a rel="nofollow" class="caption-link" href="https://www.flickr.com/photos/nasakennedy/53898132128/in/album-72177720314980452">NASA/Frank Michaux</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>For a while earlier this summer, it looked like NASA's flagship mission to study Jupiter's icy moon Europa might miss its launch window this year.</p>
-<p>In May, <a href="https://arstechnica.com/space/2024/07/nasas-flagship-mission-to-europa-has-a-problem-vulnerability-to-radiation/">engineers raised concerns</a> that transistors installed throughout the spacecraft might be susceptible to damage from radiation, an omnipresent threat for any probe whipping its way around Jupiter. The transistors are embedded in the spacecraft's circuitry and are responsible for approximately 200 unique applications, many of which are critical to keeping the mission operating as it orbits Jupiter and repeatedly zooms by Europa, interrogating the frozen moon with nine science instruments.</p>
-<p>The transistors on the Europa Clipper spacecraft are already installed, and removing them for inspections or replacement would delay the mission's launch until late next year. Europa Clipper has a 21-day launch window beginning October 10 to begin its journey into the outer solar system.</p></div><p><a href="https://arstechnica.com/?p=2048668#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048668&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/09/nasa-will-proceed-with-final-preps-to-launch-europa-clipper-next-month/feed/</wfw:commentRss>
-			<slash:comments>67</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Roblox announces AI tool for generating 3D game worlds from text</title>
-		<link>https://arstechnica.com/?p=2048533</link>
-					<comments>https://arstechnica.com/information-technology/2024/09/open-source-roblox-tool-will-allow-3d-world-creation-from-text-prompts/#comments</comments>
-		
-		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
-		<pubDate>Mon, 09 Sep 2024 21:46:11 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[3D foundational model]]></category>
-		<category><![CDATA[3D synthesis]]></category>
-		<category><![CDATA[game synthesis]]></category>
-		<category><![CDATA[gaming]]></category>
-		<category><![CDATA[generative ai]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[multiplayer games]]></category>
-		<category><![CDATA[online games]]></category>
-		<category><![CDATA[open source]]></category>
-		<category><![CDATA[roblox]]></category>
-		<category><![CDATA[world generator]]></category>
-		<category><![CDATA[world synthesis]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2048533</guid>
-
-					<description><![CDATA[New AI feature aims to streamline game creation on popular online platform.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/roblox_genai_1-800x450.jpg" alt="Someone holding up a smartphone with " roblox on the screen.>
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/roblox_genai_1.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/in-this-photo-illustration-a-roblox-logo-of-an-online-game-news-photo/1235707269">SOPA Images via Getty Images</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p class="whitespace-pre-wrap break-words">On Friday, Roblox <a href="https://corp.roblox.com/newsroom/2024/09/rdc-2024-robloxs-next-frontier">announced</a> plans to introduce an open source generative AI tool that will allow game creators to build 3D environments and objects using text prompts, reports <a href="https://www.technologyreview.com/2024/09/06/1103707/roblox-is-launching-a-generative-ai-that-builds-3d-environments-in-a-snap/">MIT Tech Review</a>. The feature, which is still under development, may streamline the process of creating game worlds on the popular online platform, potentially opening up more aspects of game creation to those without extensive 3D design skills.</p>
-
-<p>Roblox has not announced a specific launch date for the new AI tool, which is based on what it calls a "3D foundational model." The company shared a demo video of the tool where a user types, "create a race track," then "make the scenery a desert," and the AI model creates a corresponding model in the proper environment.</p>
-<p>The system will also reportedly let users make modifications, such as changing the time of day or swapping out entire landscapes, and Roblox says the multimodal AI model will ultimately accept video and 3D prompts, not just text.</p></div><p><a href="https://arstechnica.com/?p=2048533#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048533&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/information-technology/2024/09/open-source-roblox-tool-will-allow-3d-world-creation-from-text-prompts/feed/</wfw:commentRss>
-			<slash:comments>54</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>DOJ claims Google has “trifecta of monopolies” on Day 1 of ad tech trial</title>
-		<link>https://arstechnica.com/?p=2048608</link>
-					<comments>https://arstechnica.com/tech-policy/2024/09/doj-claims-google-has-trifecta-of-monopolies-on-day-1-of-ad-tech-trial/#comments</comments>
-		
-		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
-		<pubDate>Mon, 09 Sep 2024 21:08:22 +0000</pubDate>
-				<category><![CDATA[Google]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[ad tech]]></category>
-		<category><![CDATA[Antitrust law]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[google ad manager]]></category>
-		<category><![CDATA[monopoly]]></category>
-		<category><![CDATA[online advertising]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2048608</guid>
-
-					<description><![CDATA[Ad tech monopoly trial may hurt Google more than DOJ’s search case, experts say.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2170357445-800x534.jpg" alt="Karen Dunn, one of the lawyers representing Google, outside of the Albert V. Bryan US Courthouse at the start of a Department of Justice antitrust trial against Google over its advertiing business in Alexandria, Virginia, on September 9, 2024.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2170357445.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> <span class="sep">/</span> Karen Dunn, one of the lawyers representing Google, outside of the Albert V. Bryan US Courthouse at the start of a Department of Justice antitrust trial against Google over its advertiing business in Alexandria, Virginia, on September 9, 2024. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/karen-dunn-one-of-the-lawyers-representing-google-outside-news-photo/2170357445?adppopup=true">SAMUEL CORUM / Contributor | AFP</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>On Monday, the US Department of Justice's next monopoly trial against Google started in Virginia—this time <a href="https://arstechnica.com/tech-policy/2023/06/googles-ad-tech-dominance-spurs-more-antitrust-charges-report-says/">challenging the tech giant's ad tech dominance</a>.</p>
-<p>The trial comes after Google lost two major cases that proved <a href="https://arstechnica.com/tech-policy/2024/08/google-loses-dojs-big-monopoly-trial-over-search-business/">Google had a monopoly in both general search</a> and <a href="https://arstechnica.com/gaming/2023/12/googles-android-app-store-monopoly-violates-antitrust-law-jury-finds/">the Android app store</a>. During her opening statement, DOJ lawyer Julia Tarver Wood told US District Judge Leonie Brinkema—who will be ruling on the case after <a href="https://arstechnica.com/tech-policy/2024/05/google-sends-doj-unexpected-check-in-attempt-to-avoid-monopoly-jury-trial/">Google cut a check to avoid a jury trial</a>—that "it’s worth saying the quiet part out loud," AP News<a href="https://apnews.com/article/google-antitrust-ad-tech-virginia-opening-7a19f525287f782609a5316b1fdb08f0"> reported</a>.</p>
-<p>"One monopoly is bad enough," Wood said. "But a trifecta of monopolies is what we have here."</p></div><p><a href="https://arstechnica.com/?p=2048608#p3">Read 33 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048608&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/doj-claims-google-has-trifecta-of-monopolies-on-day-1-of-ad-tech-trial/feed/</wfw:commentRss>
-			<slash:comments>123</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>These household brands want to redefine what counts as “recyclable”</title>
-		<link>https://arstechnica.com/?p=2048520</link>
-					<comments>https://arstechnica.com/tech-policy/2024/09/these-household-brands-want-to-redefine-what-counts-as-recyclable/#comments</comments>
-		
-		<dc:creator><![CDATA[ProPublica]]></dc:creator>
-		<pubDate>Mon, 09 Sep 2024 19:51:00 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[plastics]]></category>
-		<category><![CDATA[recycling]]></category>
-		<category><![CDATA[syndication]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2048520</guid>
-
-					<description><![CDATA[51 companies were asked if they agreed with the proposed redefinition of “recyclable” plastic. ]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/08/plastic-recycle-800x450.jpg" alt="These household brands want to redefine what counts as “recyclable”">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/08/plastic-recycle.jpg" class="enlarge-link" data-height="1080" data-width="1920">Enlarge</a> (credit: Olga Pankova/Moment via Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p><em>This story was originally published by <a href="https://www.propublica.org/article/recycling-recyclable-plastics-consumer-brands-association">ProPublica</a>, a Pulitzer Prize-winning investigative newsroom. Sign up for <a href="https://www.propublica.org/newsletters/the-big-story?source=reprint&amp;placement=top-note">The Big Story newsletter</a> to receive stories like this one in your inbox</em>.</p>
-<p>Most of the products in the typical kitchen use plastics that are virtually impossible to recycle.</p>
-<p>The film that acts as a lid on Dole Sunshine fruit bowls, the rings securing jars of McCormick dried herbs, the straws attached to Juicy Juice boxes, the bags that hold Cheez-Its and Cheerios—they’re all destined for the dumpster.</p></div><p><a href="https://arstechnica.com/?p=2048520#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048520&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/these-household-brands-want-to-redefine-what-counts-as-recyclable/feed/</wfw:commentRss>
-			<slash:comments>153</slash:comments>
+			<slash:comments>370</slash:comments>
 		
 		
 			</item>
