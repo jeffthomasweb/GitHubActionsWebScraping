@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Thu, 12 Sep 2024 00:30:58 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 12 Sep 2024 11:39:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,6 +21,58 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>My dead father is “writing” me notes again</title>
+		<link>https://arstechnica.com/?p=2045545</link>
+					<comments>https://arstechnica.com/information-technology/2024/09/my-dead-father-is-writing-me-notes-again/#comments</comments>
+		
+		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
+		<pubDate>Thu, 12 Sep 2024 11:00:24 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[AI consent]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI handwriting]]></category>
+		<category><![CDATA[AI regulation]]></category>
+		<category><![CDATA[barbarians]]></category>
+		<category><![CDATA[D&AD]]></category>
+		<category><![CDATA[Dadio Shack]]></category>
+		<category><![CDATA[deepfakes]]></category>
+		<category><![CDATA[father]]></category>
+		<category><![CDATA[flux]]></category>
+		<category><![CDATA[Flux dev]]></category>
+		<category><![CDATA[FLUX.1]]></category>
+		<category><![CDATA[frosted prick]]></category>
+		<category><![CDATA[handwriting]]></category>
+		<category><![CDATA[handwriting synthesis]]></category>
+		<category><![CDATA[image synthesis]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Replicate]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2045545</guid>
+
+					<description><![CDATA[A recent AI discovery resurrected my late father's handwriting—and I want anyone to use it.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/guess_whos_back-800x457.jpg" alt="An AI-generated image featuring Dad's Uppercase handwriting.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/guess_whos_back.jpg" class="enlarge-link" data-height="768" data-width="1344">Enlarge</a> <span class="sep">/</span> An AI-generated image featuring my late father's handwriting. (credit: Benj Edwards / Flux)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Growing up, if I wanted to experiment with something technical, my dad made it happen. We shared dozens of tech <a href="https://www.vintagecomputing.com/index.php/archives/204">adventures</a> together, but those adventures were cut short when he died of cancer in 2013. Thanks to a new AI image generator, it turns out that my dad and I still have one more adventure to go.</p>
+
+<p>Recently, an anonymous AI hobbyist discovered that an image synthesis model called <a href="https://arstechnica.com/information-technology/2024/08/flux-this-new-ai-image-generator-is-eerily-good-at-creating-human-hands/">Flux</a> can reproduce someone's handwriting very accurately if specially trained to do so. I decided to experiment with the technique using written journals my dad left behind. The results astounded me and raised deep questions about ethics, the authenticity of media artifacts, and the personal meaning behind handwriting itself.</p>
+<p>Beyond that, I'm also happy that I get to see my dad's handwriting again. Captured by a neural network, part of him will live on in a dynamic way that was impossible a decade ago. It's been a while since he died, and I am no longer grieving. From my perspective, this is a celebration of something great about my dad—reviving the distinct way he wrote and what that conveys about who he was.</p></div><p><a href="https://arstechnica.com/?p=2045545#p3">Read 43 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2045545&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/information-technology/2024/09/my-dead-father-is-writing-me-notes-again/feed/</wfw:commentRss>
+			<slash:comments>14</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>As quantum computing threats loom, Microsoft updates its core crypto library</title>
 		<link>https://arstechnica.com/?p=2049244</link>
 					<comments>https://arstechnica.com/security/2024/09/microsoft-adds-quantum-resistant-algorithms-to-its-core-crypto-library/#comments</comments>
@@ -50,10 +102,10 @@
 <p>Microsoft has updated a key cryptographic library with two new encryption algorithms designed to withstand attacks from quantum computers.</p>
 <p>The updates were made last week to <a href="https://github.com/microsoft/SymCrypt">SymCrypt</a>, a core cryptographic code library for handing cryptographic functions in Windows and Linux. The library, started in 2006, provides operations and algorithms developers can use to safely implement secure encryption, decryption, signing, verification, hashing, and key exchange in the apps they create. The library supports federal certification requirements for cryptographic modules used in some governmental environments.</p>
 <h2>Massive overhaul underway</h2>
-<p>Despite the name, SymCrypt supports both symmetric and asymmetric algorithms. It’s the main cryptographic library Microsoft uses in products and services including Azure, Microsoft 365, all supported versions of Windows, Azure Stack HCI, and Azure Linux. The library provides cryptographic security used in email security, cloud storage, web browsing, remote access, and device management. Microsoft documented the update in a <a href="https://techcommunity.microsoft.com/t5/security-compliance-and-identity/microsoft-s-quantum-resistant-cryptography-is-here/ba-p/4238780">post</a> on Monday.</p></div><p><a href="https://arstechnica.com/?p=2049244#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049244&comments=1">Comments</a></p>]]></content:encoded>
+<p>Despite the name, SymCrypt supports both symmetric and asymmetric algorithms. It’s the main cryptographic library Microsoft uses in products and services including Azure, Microsoft 365, all supported versions of Windows, Azure Stack HCI, and Azure Linux. The library provides cryptographic security used in email security, cloud storage, web browsing, remote access, and device management. Microsoft documented the update in a <a href="https://techcommunity.microsoft.com/t5/security-compliance-and-identity/microsoft-s-quantum-resistant-cryptography-is-here/ba-p/4238780">post</a> on Monday.</p></div><p><a href="https://arstechnica.com/?p=2049244#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049244&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/security/2024/09/microsoft-adds-quantum-resistant-algorithms-to-its-core-crypto-library/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>21</slash:comments>
 		
 		
 			</item>
@@ -92,7 +144,7 @@
 <p>Google's Play Integrity API is how apps have previously blocked access when loaded onto phones that are in some way modified from a stock OS with all Google Play integrations intact. Recently, a popular two-factor authentication app <a href="https://arstechnica.com/gadgets/2024/07/loss-of-popular-2fa-tool-puts-security-minded-grapheneos-in-a-paradox/">blocked access on rooted phones</a>, including the security-minded GrapheneOS. Apps can call the Play Integrity API and get back an "integrity verdict," relaying if the phone has a "trustworthy" software environment, has Google Play Protect enabled, and passes other software checks.</p></div><p><a href="https://arstechnica.com/?p=2049138#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049138&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/android-now-allows-apps-to-block-sideloading-and-push-a-google-play-version/feed/</wfw:commentRss>
-			<slash:comments>64</slash:comments>
+			<slash:comments>110</slash:comments>
 		
 		
 			</item>
@@ -133,7 +185,7 @@
 <p>In August 2024, former President Donald Trump <a href="https://www.cnn.com/2024/08/19/politics/donald-trump-taylor-swift-ai/index.html">posted AI-generated images</a> on Truth Social falsely suggesting Swift endorsed him, including a manipulated photo depicting Swift as Uncle Sam with text promoting Trump. The incident sparked Swift's fears about the spread of misinformation through AI.</p></div><p><a href="https://arstechnica.com/?p=2049045#p3">Read 1 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049045&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/ai/2024/09/taylor-swift-cites-ai-deepfakes-in-endorsement-for-kamala-harris/feed/</wfw:commentRss>
-			<slash:comments>178</slash:comments>
+			<slash:comments>258</slash:comments>
 		
 		
 			</item>
@@ -172,7 +224,7 @@
 <p>But, after that, states with bans saw a divergent trend. The states that limited or protected abortion access saw sterilization procedures largely level off after July 2022. In contrast, states with bans continued to see increases. From July 2022 to December 2022, use of sterilization procedures increased by 3 percent each month.</p></div><p><a href="https://arstechnica.com/?p=2049152#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049152&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/09/in-abortion-ban-states-sterilization-spiked-after-dobbs-and-kept-climbing/feed/</wfw:commentRss>
-			<slash:comments>128</slash:comments>
+			<slash:comments>160</slash:comments>
 		
 		
 			</item>
@@ -207,7 +259,7 @@
 <p>No one was injured in the third car, a driverless Waymo robotaxi. Still, Waymo was required to report the crash to government agencies. It was one of 20 crashes with injuries that Waymo has reported through June.  And it’s the only crash Waymo has classified as causing a serious injury.</p></div><p><a href="https://arstechnica.com/?p=2049121#p3">Read 35 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049121&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/cars/2024/09/human-drivers-are-to-blame-for-most-serious-waymo-collisions/feed/</wfw:commentRss>
-			<slash:comments>96</slash:comments>
+			<slash:comments>123</slash:comments>
 		
 		
 			</item>
@@ -240,7 +292,7 @@
 <p>That <a href="https://direct.playstation.com/en-us/buy-accessories/disc-drive-for-ps5-digital-edition-consoles">$80 disc drive accessory</a> was introduced as <a href="https://arstechnica.com/gaming/2023/10/ps5-slims-new-external-disc-drive-requires-online-pairing-before-use/">an optional upgrade</a> to <a href="https://arstechnica.com/gaming/2023/10/redesigned-ps5-models-slim-down-one-of-the-bulkiest-consoles-ever/">the Digital Edition of the PS5 Slim</a> last year, alongside a Slim model that <em>does</em> have a pre-installed disc drive. But now, just one year later, Sony has decided that it only needs a single "disc-less" model of the PS5 Pro as the default.</p></div><p><a href="https://arstechnica.com/?p=2049096#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049096&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gaming/2024/09/the-ps5-pro-brings-the-game-consoles-disc-drive-era-to-an-end/feed/</wfw:commentRss>
-			<slash:comments>97</slash:comments>
+			<slash:comments>122</slash:comments>
 		
 		
 			</item>
@@ -279,7 +331,7 @@
 <p>Researchers have now obtained genome sequence from the remains of 15 Rapa Nui natives who predate European contact. And they indicate that the population of the island appears to have grown slowly and steadily, without any sign of a bottleneck that could be associated with an ecological collapse. And roughly 10 percent of the genomes appear to have a Native American source that likely dates from roughly the same time that the island was settled.</p></div><p><a href="https://arstechnica.com/?p=2049119#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049119&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/09/old-easter-island-genomes-show-no-sign-of-a-population-collapse/feed/</wfw:commentRss>
-			<slash:comments>33</slash:comments>
+			<slash:comments>42</slash:comments>
 		
 		
 			</item>
@@ -319,7 +371,7 @@
 <p>The DOJ has argued that Google Ad Manager "serves 90 percent of publishers that use the ad tech tools to sell their online ad inventory," AdAge <a href="https://adage.com/article/digital-marketing-ad-tech-news/google-ad-tech-could-be-worth-95b-antitrust-case/2579761">reported,</a> and through it, Google clearly wields monopoly powers.</p></div><p><a href="https://arstechnica.com/?p=2049078#p3">Read 41 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049078&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/google-holds-publishers-hostage-ex-news-corp-exec-testifies-at-ad-tech-trial/feed/</wfw:commentRss>
-			<slash:comments>48</slash:comments>
+			<slash:comments>53</slash:comments>
 		
 		
 			</item>
@@ -352,7 +404,7 @@
 <p>Under the hood, you'll find yet another version of VW Group's venerable EA888 four-cylinder engine, here with a turbocharger and direct injection. It generates 241 hp (180 kW) and 273 lb-ft (370 Nm), with that peak torque arriving at just 1,750 rpm. This sends its power to the front wheels via a seven-speed DSG or the soon-to-be-retired six-speed manual.</p></div><p><a href="https://arstechnica.com/?p=2049026#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2049026&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/cars/2024/09/the-2024-vw-golf-gti-is-the-last-of-its-kind-with-a-manual-transmission/feed/</wfw:commentRss>
-			<slash:comments>98</slash:comments>
+			<slash:comments>107</slash:comments>
 		
 		
 			</item>
@@ -387,7 +439,7 @@
 <p>At the time, the Space Shuttle had been retired for three years, and NASA's astronauts had to fly to the International Space Station aboard the Soyuz spacecraft. "Today, we are one step closer to launching our astronauts from US soil on American spacecraft and ending the nation’s sole reliance on Russia by 2017," NASA Administrator Charles Bolden said in the release.</p></div><p><a href="https://arstechnica.com/?p=2048972#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048972&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/space/2024/09/the-future-of-boeings-crewed-spaceflight-program-is-muddy-after-starliners-return/feed/</wfw:commentRss>
-			<slash:comments>92</slash:comments>
+			<slash:comments>103</slash:comments>
 		
 		
 			</item>
@@ -422,7 +474,7 @@
 <p>The founders contend that moving data centers off land would slow ocean temperature rise by drawing less power and letting seawater cool the capsule’s shell, supplementing its internal cooling system. NetworkOcean’s founders have said a location in the bay would deliver fast processing speeds for <a href="https://www.wired.com/story/open-source-ai-y-combinator/">the region’s buzzing AI economy</a>.  </p></div><p><a href="https://arstechnica.com/?p=2048979#p3">Read 27 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048979&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/proposed-underwater-data-center-surprises-regulators-who-hadnt-heard-about-it/feed/</wfw:commentRss>
-			<slash:comments>141</slash:comments>
+			<slash:comments>149</slash:comments>
 		
 		
 			</item>
@@ -460,7 +512,7 @@
 <p>To Harris’s surprise, his server received queries from slightly more than 76,000 unique IP addresses within a few hours of setting it up. Over five days, it received roughly 2.5 million queries from about 135,000 unique systems. The entities behind the systems querying his deprecated domain included a who’s who of Internet heavyweights comprising domain registrars, providers of online security tools, governments from the US and around the world, universities, and certificate authorities, the entities that issue browser-trusted TLS certificates that make HTTPS work.</p></div><p><a href="https://arstechnica.com/?p=2048683#p3">Read 18 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048683&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/security/2024/09/rogue-whois-server-gives-researcher-superpowers-no-one-should-ever-have/feed/</wfw:commentRss>
-			<slash:comments>70</slash:comments>
+			<slash:comments>80</slash:comments>
 		
 		
 			</item>
@@ -496,10 +548,10 @@
 <div><a name="page-1"></a></div>
 <p>The Federal Aviation Administration has signaled to SpaceX that it won't approve a launch license for the next test flight of the Starship rocket until at least late November, the company said in a statement on Tuesday.</p>
 <p>This is more than two months later than the mid-September timeframe the FAA previously targeted for determining whether to approve a launch license for the next Starship flight. SpaceX says the Super Heavy booster and Starship upper stage for the next launch—the fifth full-scale test flight of the Starship program—have been ready to launch since the first week of August.</p>
-<p>"The flight test will include our most ambitious objective yet: attempt to return the Super Heavy booster to the launch site and catch it in mid-air," <a href="https://www.spacex.com/updates/#starships-fly">SpaceX said in a statement</a>.</p></div><p><a href="https://arstechnica.com/?p=2048838#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048838&comments=1">Comments</a></p>]]></content:encoded>
+<p>"The flight test will include our most ambitious objective yet: attempt to return the Super Heavy booster to the launch site and catch it in mid-air," <a href="https://www.spacex.com/updates/#starships-fly">SpaceX said in a statement</a>.</p></div><p><a href="https://arstechnica.com/?p=2048838#p3">Read 26 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048838&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/space/2024/09/spacex-says-regulators-will-keep-starship-grounded-until-at-least-november/feed/</wfw:commentRss>
-			<slash:comments>290</slash:comments>
+			<slash:comments>314</slash:comments>
 		
 		
 			</item>
@@ -540,7 +592,7 @@
 <p>Nevada's first-of-its-kind AI will rely on a Google cloud service called Vertex AI Studio. Connecting to Google's servers, the state will fine-tune the AI system to only reference information from DETR's database, which officials think will ensure its decisions are "more tailored" and the system provides "more accurate results," Gizmodo reported.</p></div><p><a href="https://arstechnica.com/?p=2048889#p3">Read 21 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048889&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/ai-ruling-on-jobless-claims-could-make-mistakes-courts-cant-undo-experts-warn/feed/</wfw:commentRss>
-			<slash:comments>163</slash:comments>
+			<slash:comments>164</slash:comments>
 		
 		
 			</item>
@@ -573,7 +625,7 @@
 <p>The group's manifestos and chat rooms sometimes felt suffused with the habits of the extremely online: hand-clap emojis between every important word, instructional videos on how to make bombs, the language of trolling, catchphrases so over the top they sound ironic ("HAIL HOLY TERROR" in all caps).</p></div><p><a href="https://arstechnica.com/?p=2048921#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048921&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/culture/2024/09/hail-holy-terror-two-us-citizens-charged-for-running-online-terrorgram-collective/feed/</wfw:commentRss>
-			<slash:comments>138</slash:comments>
+			<slash:comments>143</slash:comments>
 		
 		
 			</item>
@@ -612,7 +664,7 @@
 <p>In this week's issue of the New England Journal of Medicine, <a href="https://www.nejm.org/doi/full/10.1056/NEJMicm2404232?logout=true">doctors in Taiwan report an unusual presentation of the disorder</a> in a 76-year-old woman. She told doctors that, for two years, every time she ate, her face would begin profusely sweating. In the clinic, the doctors observed the phenomenon themselves. They watched as she took a bite of pork jerky and began chewing.</p></div><p><a href="https://arstechnica.com/?p=2048913#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048913&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/09/woman-drips-with-sweat-from-a-bite-of-food-due-to-rare-nerve-wiring-mix-up/feed/</wfw:commentRss>
-			<slash:comments>41</slash:comments>
+			<slash:comments>42</slash:comments>
 		
 		
 			</item>
@@ -649,7 +701,7 @@
 <p>“It’s a piece of work that everyone has thought of but never managed to create,” Richard Yu, Huawei’s consumer group chairman, said during the Mate XT livestream unveiling. “I have always had a dream to put our tablet in my pocket, and we did it.”</p></div><p><a href="https://arstechnica.com/?p=2048860#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048860&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/forget-everything-huawei-is-doing-two-folds-on-the-mate-xt-ultimate/feed/</wfw:commentRss>
-			<slash:comments>165</slash:comments>
+			<slash:comments>172</slash:comments>
 		
 		
 			</item>
@@ -683,7 +735,7 @@
 <p>There are various strategies in nature for escaping predators after being swallowed. For instance, a parasitic worm called <em>Paragordius tricuspidatus</em> can <a href="https://www.nature.com/articles/440756a#:~:text=If%20a%20worm%20did%20not,surviving%20predation%20in%20this%20way.">force its way out</a> of a predator’s system when its host organism is eaten. There was also a <a href="https://www.sciencedirect.com/science/article/pii/S0960982220308423">fascinating study</a> in 2020 by Japanese scientists on the unusual survival strategy of the aquatic beetle <em>Regimbartia attenuata</em>. They fed a bunch of the beetles to a pond frog (<em>Pelophylax nigromaculatus</em>) under laboratory conditions, expecting the frog to spit the beetle out. That's what happened with <a href="https://royalsocietypublishing.org/doi/10.1098/rsbl.2017.0647">prior experiments</a> on bombardier beetles (<em>Pheropsophus jessoensis</em>), which spray toxic chemicals (described as an audible "chemical explosion") when they find themselves inside a toad's gut, inducing the toad to invert its own stomach and vomit them back out.</p></div><p><a href="https://arstechnica.com/?p=2048599#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048599&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/09/watch-japanese-eels-escape-through-a-predatory-fishs-gills/feed/</wfw:commentRss>
-			<slash:comments>70</slash:comments>
+			<slash:comments>73</slash:comments>
 		
 		
 			</item>
@@ -730,39 +782,7 @@
 <p>Now, MNT is revisiting the Reform with a more significant design update. The <a href="https://mntre.com/media/reform_md/2024-09-09-introducing-mnt-reform-next.html">MNT Reform Next</a> is smaller and thinner, defaults to a more traditional glass trackpad instead of a trackball, and is starting with the Rockchip RK3588 instead of the poky NXP/Freescale processor that the original laptop was saddled with.</p></div><p><a href="https://arstechnica.com/?p=2048810#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048810&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/all-open-source-mnt-reform-laptop-is-getting-a-sequel-with-a-refined-design/feed/</wfw:commentRss>
-			<slash:comments>35</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Sony announces PS5 Pro, a $700 graphical upgrade available Nov. 7</title>
-		<link>https://arstechnica.com/?p=2048663</link>
-					<comments>https://arstechnica.com/gaming/2024/09/sony-announces-ps5-pro-a-700-graphics-workhorse-available-nov-7/#comments</comments>
-		
-		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
-		<pubDate>Tue, 10 Sep 2024 15:20:24 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2048663</guid>
-
-					<description><![CDATA[New unit won't include a disc drive, but will improve frame rate in high-fidelity games.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/ps5pro-800x373.png" alt="The cool racing stripe means it's faster.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/ps5pro.png" class="enlarge-link" data-height="590" data-width="1265">Enlarge</a> <span class="sep">/</span> The cool racing stripe means it's faster. (credit: <a rel="nofollow" class="caption-link" href="https://www.youtube.com/watch?v=X24BzyzQQ-8">Sony</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Sony today announced the PlayStation 5 Pro, a mid-generation hardware upgrade that will play the same game library as <a href="https://arstechnica.com/gaming/2020/11/playstation-5-review-more-of-a-generational-hop-than-a-leap/">2020's PlayStation 5</a>, but with higher frame rates and better resolution than on the original system. The new units will be available on November 7 for $700, Sony said.</p>
-<p>The updated hardware will come complete with 2TB of solid-state storage (up from 1TB on the original PS5), but without an Ultra HD Blu-Ray disc drive, which users <a href="https://direct.playstation.com/en-us/buy-accessories/disc-drive-for-ps5-digital-edition-consoles">can purchase as an add-on accessory for $80</a>.</p>
-<div class="video"><div class="wrapper"><iframe style="display:block" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/6HaRMiTfvks?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe></div></div>
-<p>In <a href="https://www.youtube.com/watch?v=X24BzyzQQ-8">a video presentation Tuesday</a>, Sony's Mark Cerny said PS5 developers "desire more graphics performance" in order to deliver the visuals they want at a frame rate of 60 fps. The lack of enough graphical power on the PS5 leads to a difficult decision for players between the higher resolution of "fidelity" mode and the smoother frame rates of "performance" mode (with three-quarters of players choosing the latter, according to Cerny).</p></div><p><a href="https://arstechnica.com/?p=2048663#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2048663&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gaming/2024/09/sony-announces-ps5-pro-a-700-graphics-workhorse-available-nov-7/feed/</wfw:commentRss>
-			<slash:comments>370</slash:comments>
+			<slash:comments>36</slash:comments>
 		
 		
 			</item>
