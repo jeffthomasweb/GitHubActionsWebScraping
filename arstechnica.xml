@@ -5,7 +5,7 @@
 	<atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://arstechnica.com</link>
 	<description>All Ars Technica stories</description>
-	<lastBuildDate>Mon, 23 Sep 2024 22:43:34 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 24 Sep 2024 23:32:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,6 +21,546 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Ghost of Yōtei: The acclaimed Ghost of Tsushima is getting a sequel</title>
+		<link>https://arstechnica.com/?p=2052227</link>
+					<comments>https://arstechnica.com/gaming/2024/09/ghost-of-yotei-the-acclaimed-ghost-of-tsushima-is-getting-a-sequel/#comments</comments>
+		
+		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 23:10:37 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[ghost of tsushima]]></category>
+		<category><![CDATA[Ghost of Yotei]]></category>
+		<category><![CDATA[Kurosawa]]></category>
+		<category><![CDATA[open world]]></category>
+		<category><![CDATA[playstation 5]]></category>
+		<category><![CDATA[samurai]]></category>
+		<category><![CDATA[Sony]]></category>
+		<category><![CDATA[Sucker Punch]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2052227</guid>
+
+					<description><![CDATA[The follow-up to one of our favorite open-world games is coming soon, Sony says.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<div class="video"><div class="wrapper"><iframe style="display:block" type="text/html" width="980" height="550" src="https://www.youtube.com/embed/7z7kqwuf0a8?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe></div><p class="caption" style="font-size:0.8em">Sony's &lt;em&gt;Ghost of Yotei&lt;/em&gt; trailer. </p></div>
+<p>If you've been sleeping on the Akira Kurosawa-inspired, <em>Assassin's Creed</em>-esque samurai game <em>Ghost of Tsushima</em>, you've been missing out. Given that it recently got a PC release, this is a great time to catch up on it—but now there's even more reason to do so, as Sony just announced a sequel titled <em>Ghost of Yōtei</em>.</p>
+<p>Slated for a 2025 release, the game bears similarities to its predecessor. It follows a wandering samurai who rides horses across picturesque, wind-swept fields, befriends animals, and defeats enemies in katana duels.</p>
+<p>Whereas <em>Ghost of Tsushima </em>was set on Tsushima Island during the time of the Mongol invasion, <em>Ghost of Yotei</em> is (fittingly) set around the foot of Mount Yōtei, one of Japan's most picturesque locales—the area is called Hokkaido today.</p></div><p><a href="https://arstechnica.com/?p=2052227#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2052227&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/09/ghost-of-yotei-the-acclaimed-ghost-of-tsushima-is-getting-a-sequel/feed/</wfw:commentRss>
+			<slash:comments>16</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hacker plants false memories in ChatGPT to steal user data in perpetuity</title>
+		<link>https://arstechnica.com/?p=2052198</link>
+					<comments>https://arstechnica.com/security/2024/09/false-memories-planted-in-chatgpt-give-hacker-persistent-exfiltration-channel/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 20:56:26 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[prompt injection]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2052198</guid>
+
+					<description><![CDATA[Emails, documents, and other untrusted content can plant malicious memories.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/memory-800x560.jpg" alt="Hacker plants false memories in ChatGPT to steal user data in perpetuity">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/memory.jpg" class="enlarge-link" data-height="700" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>When security researcher Johann Rehberger recently reported a vulnerability in ChatGPT that allowed attackers to store false information and malicious instructions in a user’s long-term memory settings, OpenAI summarily closed the inquiry, labeling the flaw a safety issue, not, technically speaking, a security concern.</p>
+<p>So Rehberger did what all good researchers do: He created a proof-of-concept exploit that used the vulnerability to exfiltrate all user input in perpetuity. OpenAI engineers took notice and issued a partial fix earlier this month.</p>
+<h2>Strolling down memory lane</h2>
+<p>The vulnerability abused long-term conversation memory, a feature OpenAI began testing <a href="https://arstechnica.com/information-technology/2024/02/amnesia-begone-soon-chatgpt-will-remember-what-you-tell-it-between-sessions/">in February</a> and made more broadly available <a href="https://openai.com/index/memory-and-new-controls-for-chatgpt/">in September</a>. Memory with ChatGPT stores information from previous conversations and uses it as context in all future conversations. That way, the LLM can be aware of details such as a user’s age, gender, philosophical beliefs, and pretty much anything else, so those details don’t have to be inputted during each conversation.</p></div><p><a href="https://arstechnica.com/?p=2052198#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2052198&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/security/2024/09/false-memories-planted-in-chatgpt-give-hacker-persistent-exfiltration-channel/feed/</wfw:commentRss>
+			<slash:comments>33</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Caroline Ellison gets 2 years for covering up Sam Bankman-Fried’s FTX fraud</title>
+		<link>https://arstechnica.com/?p=2052068</link>
+					<comments>https://arstechnica.com/tech-policy/2024/09/caroline-ellison-to-2-years-for-covering-up-sam-bankman-frieds-ftx-fraud/#comments</comments>
+		
+		<dc:creator><![CDATA[Ashley Belanger]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 20:20:19 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Alameda Research]]></category>
+		<category><![CDATA[caroline ellison]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[cryptocurrency fraud]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[FTX]]></category>
+		<category><![CDATA[money laundering]]></category>
+		<category><![CDATA[sam bankman-fried]]></category>
+		<category><![CDATA[wire fraud]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2052068</guid>
+
+					<description><![CDATA[Caroline Ellison "deeply regrets" FTX lies, must now forfeit $11 billion.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1717211240-800x534.jpg" alt="Caroline Ellison, former chief executive officer of Alameda Research LLC, was sentenced Tuesday for helping Sam Bankman-Fried cover up FTX's fraudulent misuse of customer funds.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1717211240.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> <span class="sep">/</span> Caroline Ellison, former chief executive officer of Alameda Research LLC, was sentenced Tuesday for helping Sam Bankman-Fried cover up FTX's fraudulent misuse of customer funds. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/caroline-ellison-former-chief-executive-officer-of-alameda-news-photo/1717211240?adppopup=true">Bloomberg / Contributor | Bloomberg</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Caroline Ellison was sentenced Tuesday to 24 months for her role in covering up <a href="https://arstechnica.com/tech-policy/2024/03/ftx-fraudster-sam-bankman-fried-sentenced-to-25-years-in-prison/">Sam Bankman-Fried's rampant fraud</a> at FTX—which caused <a href="https://arstechnica.com/tech-policy/2024/08/ftx-to-pay-12-7b-to-victims-of-sam-bankman-frieds-massive-scheme/">billions in customer losses</a>.</p>
+<p>Addressing the judge at sentencing, Ellison started out by explaining "how sorry I am" for concealing FTX's lies, Bloomberg <a href="https://www.bloomberg.com/news/live-blog/2024-09-24/caroline-ellison-sentencing?srnd=phx-latest">reported live</a> from the hearing.</p>
+<p>"I participated in a criminal conspiracy that ultimately stole billions of dollars from people who entrusted their money with us," Ellison reportedly said while sniffling. "The human brain is truly bad at understanding big numbers," she added, and "not a day goes by" that she doesn't "think about all of the people I hurt.”</p></div><p><a href="https://arstechnica.com/?p=2052068#p3">Read 34 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2052068&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/caroline-ellison-to-2-years-for-covering-up-sam-bankman-frieds-ftx-fraud/feed/</wfw:commentRss>
+			<slash:comments>74</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Terminator’s Cameron joins AI company behind controversial image generator</title>
+		<link>https://arstechnica.com/?p=2052114</link>
+					<comments>https://arstechnica.com/information-technology/2024/09/james-cameron-once-warned-us-about-ai-now-hes-joined-an-ai-companys-board/#comments</comments>
+		
+		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 19:38:51 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[image synthesis]]></category>
+		<category><![CDATA[James Cameron]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[SKYNET]]></category>
+		<category><![CDATA[Stability AI]]></category>
+		<category><![CDATA[Terminator]]></category>
+		<category><![CDATA[video synthesis]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2052114</guid>
+
+					<description><![CDATA[Famed sci-fi director joins board of embattled Stability AI, creator of Stable Diffusion.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/james_cameron_4-800x450.jpg" alt="A photo of filmmaker James Cameron.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/james_cameron_4.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> Filmmaker James Cameron. (credit: <a rel="nofollow" class="caption-link" href="https://stability.ai/news/james-cameron-joins-stability-ai-board-of-directors">James Cameron / Stability AI</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>On Tuesday, Stability AI <a href="https://stability.ai/news/james-cameron-joins-stability-ai-board-of-directors">announced</a> that renowned filmmaker James Cameron—of <em>Terminator</em> and Skynet fame—has joined its board of directors. Stability is best known for its pioneering but highly controversial <a href="https://arstechnica.com/information-technology/2022/09/with-stable-diffusion-you-may-never-believe-what-you-see-online-again/">Stable Diffusion</a> series of AI image-synthesis models, first launched in 2022, which can generate images based on text descriptions.</p>
+
+<p>"I’ve spent my career seeking out emerging technologies that push the very boundaries of what’s possible, all in the service of telling incredible stories," said Cameron in a statement. "I was at the forefront of CGI over three decades ago, and I’ve stayed on the cutting edge since. Now, the intersection of generative AI and CGI image creation is the next wave."</p>
+<p>Cameron is perhaps best known as the director behind blockbusters like <em>Avatar</em>, <em>Titanic</em>, and <em>Aliens</em>, but in AI circles, he may be most relevant for the co-creation of the character <a href="https://en.wikipedia.org/wiki/Skynet_(Terminator)">Skynet</a>, a fictional AI system that triggers nuclear Armageddon and dominates humanity in the <em>Terminator</em> media franchise. Similar fears of AI <a href="https://arstechnica.com/information-technology/2023/03/openai-checked-to-see-whether-gpt-4-could-take-over-the-world/">taking over the world</a> have since jumped into reality and recently sparked attempts to regulate existential risk from AI systems through measures like <a href="https://arstechnica.com/ai/2024/08/as-contentious-california-ai-safety-bill-passes-critics-push-governor-for-veto/">SB-1047</a> in California.</p></div><p><a href="https://arstechnica.com/?p=2052114#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2052114&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/information-technology/2024/09/james-cameron-once-warned-us-about-ai-now-hes-joined-an-ai-companys-board/feed/</wfw:commentRss>
+			<slash:comments>41</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>FBI: After dad allegedly tried to shoot Trump, son arrested for child porn</title>
+		<link>https://arstechnica.com/?p=2052145</link>
+					<comments>https://arstechnica.com/culture/2024/09/son-of-would-be-trump-assassin-arrested-on-child-porn-charges/#comments</comments>
+		
+		<dc:creator><![CDATA[Nate Anderson]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 18:53:21 +0000</pubDate>
+				<category><![CDATA[Culture]]></category>
+		<category><![CDATA[assassination]]></category>
+		<category><![CDATA[child sex abuse]]></category>
+		<category><![CDATA[law]]></category>
+		<category><![CDATA[Trump]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2052145</guid>
+
+					<description><![CDATA["Hundreds" of files found on SD card, FBI agent says.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-459908461-800x533.jpg" alt="Picture of police lights.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-459908461.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> (credit: Alex Schmidt / Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Oran Routh has had an eventful few weeks.</p>
+<p>In August, he moved into a two-bed, two-bath rental unit on the second floor of a building in Greensboro, North Carolina.</p>
+<p>On September 15, his father, Ryan Routh, was found in the bushes of the sixth hole of Trump International Golf Club with a scope and a rifle, apparently in a <a href="https://www.nytimes.com/2024/09/23/us/politics/trump-assassination-attempt-routh-hearing.html">bid to assassinate Donald Trump</a>, who was golfing that day.</p></div><p><a href="https://arstechnica.com/?p=2052145#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2052145&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/culture/2024/09/son-of-would-be-trump-assassin-arrested-on-child-porn-charges/feed/</wfw:commentRss>
+			<slash:comments>123</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>In the room where it happened: When NASA nearly gave Boeing all the crew funding</title>
+		<link>https://arstechnica.com/?p=2051373</link>
+					<comments>https://arstechnica.com/features/2024/09/in-the-room-where-it-happened-when-nasa-nearly-gave-boeing-all-the-crew-funding/#comments</comments>
+		
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 17:58:47 +0000</pubDate>
+				<category><![CDATA[Features]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[Boeing]]></category>
+		<category><![CDATA[commercial crew]]></category>
+		<category><![CDATA[reentry]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[spacex]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2051373</guid>
+
+					<description><![CDATA["In all my years of working with Boeing I never saw them sign up for additional work for free."]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/KSC-20230219-PH-SPX01_0002large-800x533.jpg" alt="But for a fateful meeting in the summer of 2014, Crew Dragon probably never would have happened.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/KSC-20230219-PH-SPX01_0002large.jpg" class="enlarge-link" data-height="1280" data-width="1920">Enlarge</a> <span class="sep">/</span> But for a fateful meeting in the summer of 2014, Crew Dragon probably never would have happened. (credit: SpaceX)</p>  </figure>
+
+
+
+
+      <p><em>This is an excerpt from Chapter 11 of the book <a href="https://www.penguinrandomhouse.com/books/759707/reentry-by-eric-berger/"><em>REENTRY: SpaceX, Elon Musk and the Reusable Rockets that Launched a Second Space Age</em></a> by our own Eric Berger. The book will be published on September 24, 2024. This excerpt describes a fateful meeting 10 years ago at NASA Headquarters in Washington, DC, where the space agency's leaders met to decide which companies should be awarded billions of dollars to launch astronauts into orbit.</em></p>
+    
+
+<div><a name="page-1"></a></div>
+<p>In the early 2010s, NASA's Commercial Crew competition boiled down to three players: Boeing, SpaceX, and a Colorado-based company building a spaceplane, Sierra Nevada Corporation. Each had its own advantages. Boeing was the blue blood, with decades of spaceflight experience. SpaceX had already built a capsule, Dragon. And some NASA insiders nostalgically loved Sierra Nevada's Dream Chaser space plane, which mimicked the shuttle's winged design.</p>
+<p>This competition neared a climax in 2014 as NASA prepared to winnow the field to one company, or at most two, to move from the design phase into actual development. In May of that year Musk revealed his Crew Dragon spacecraft to the world with a characteristically showy event at the company’s headquarters in Hawthorne. As lights flashed and a smoke machine vented, Musk quite literally raised a curtain on a black-and-white capsule. He was most proud to reveal how Dragon would land. Never before had a spacecraft come back from orbit under anything but parachutes or gliding on wings. Not so with the new Dragon. It had powerful thrusters, called SuperDracos, that would allow it to land under its own power.</p></div><p><a href="https://arstechnica.com/?p=2051373#p3">Read 24 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051373&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/features/2024/09/in-the-room-where-it-happened-when-nasa-nearly-gave-boeing-all-the-crew-funding/feed/</wfw:commentRss>
+			<slash:comments>51</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Calif. Governor vetoes bill requiring opt-out signals for sale of user data</title>
+		<link>https://arstechnica.com/?p=2052064</link>
+					<comments>https://arstechnica.com/tech-policy/2024/09/calif-gov-vetoes-attempt-to-require-new-privacy-option-in-browsers-and-oses/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 17:54:53 +0000</pubDate>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[privacy opt-out]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2052064</guid>
+
+					<description><![CDATA[Gavin Newsom said he opposes mandate on mobile operating system developers.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/gavin-newsom-800x533.jpg" alt="A closeup photo of California Governor Gavin Newsom's face">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/gavin-newsom.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> <span class="sep">/</span> California Governor Gavin Newsom at a press conference in San Francisco on September 19, 2024. (credit: Getty Images | Anadolu )</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>California Gov. Gavin Newsom <a href="https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202320240AB3048">vetoed</a> a bill that would have required makers of web browsers and mobile operating systems to let consumers send opt-out preference signals that could limit businesses' use of personal information.</p>
+<p>The <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB3048">bill</a> approved by the State Legislature last month would have required an opt-out signal "that communicates the consumer's choice to opt out of the sale and sharing of the consumer's personal information or to limit the use of the consumer's sensitive personal information." It would have made it illegal for a business to offer a web browser or mobile operating system without a setting that lets consumers "send an opt-out preference signal to businesses with which the consumer interacts."</p>
+<p>In a <a href="https://www.gov.ca.gov/wp-content/uploads/2024/09/AB-3048-Veto-Message.pdf">veto message</a> sent to the Legislature Friday, Newsom said he would not sign the bill. Newsom wrote that he shares the "desire to enhance consumer privacy," noting that he previously signed a bill "requir[ing] the California Privacy Protection Agency to establish an accessible deletion mechanism allowing consumers to request that data brokers delete all of their personal information."</p></div><p><a href="https://arstechnica.com/?p=2052064#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2052064&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/calif-gov-vetoes-attempt-to-require-new-privacy-option-in-browsers-and-oses/feed/</wfw:commentRss>
+			<slash:comments>147</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Radiation should be able to deflect asteroids as large as 4 km across</title>
+		<link>https://arstechnica.com/?p=2052055</link>
+					<comments>https://arstechnica.com/science/2024/09/redirecting-an-asteroid-with-a-nuclear-bomb-should-work/#comments</comments>
+		
+		<dc:creator><![CDATA[John Timmer]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 17:37:17 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[asteroids]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[Nuclear weapons]]></category>
+		<category><![CDATA[planetary defense]]></category>
+		<category><![CDATA[planetary science]]></category>
+		<category><![CDATA[radiation]]></category>
+		<category><![CDATA[z-machine]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2052055</guid>
+
+					<description><![CDATA[Researchers blast silica with an intense X-ray burst, watch it evaporate.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/image-4-800x529.jpeg" alt="Image of a large, circular chamber covered filled with a lot of mechanical equipment, all of which is lit by blue internal glows and covered with massive, branching trails of lightning.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/image-4.jpeg" class="enlarge-link" data-height="676" data-width="1023">Enlarge</a> <span class="sep">/</span> Sandia National Labs' Z machine in action. (credit: <a rel="nofollow" class="caption-link" href="https://www.sandia.gov/z-machine/#The%20Sandia%20Z-Machine-1">Randy Montoya</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>The old joke about the dinosaurs going extinct because they didn't have a space program may be overselling the need for one. It turns out you can probably divert some of the more threatening asteroids with nothing more than the products of a nuclear weapons program. But it <a href="https://arstechnica.com/science/2015/04/a-gentle-nudge-with-a-nuke-deflecting-earth-bound-asteroids/">doesn't work</a> the way you probably think it does.</p>
+<p>Obviously, nuclear weapons are great at destroying things, so why not asteroids? That won't work because a lot of the damage that nukes generate comes from the blast wave as it propagates through the atmosphere. And the environment around asteroids is notably short on atmosphere, so blast waves won't happen. But you can still use a nuclear weapon's radiation to vaporize part of the asteroid's surface, creating a very temporary, very hot atmosphere on one side of the asteroid. This should create enough pressure to deflect the asteroid's orbit, potentially causing it to fly safely past Earth.</p>
+<p>But will it work? Some scientists at Sandia National Lab have decided to tackle a very cool question with one of the cooler bits of hardware on Earth: <a href="https://www.sandia.gov/z-machine/#The%20Sandia%20Z-Machine-1">the Z machine</a>, which can create a pulse of X-rays bright enough to vaporize rock. They estimate that a nuclear weapon can probably impart enough force to deflect asteroids as large as 4 kilometers across.</p></div><p><a href="https://arstechnica.com/?p=2052055#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2052055&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/science/2024/09/redirecting-an-asteroid-with-a-nuclear-bomb-should-work/feed/</wfw:commentRss>
+			<slash:comments>81</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NASA is ready to start buying Vulcan rockets from United Launch Alliance</title>
+		<link>https://arstechnica.com/?p=2051934</link>
+					<comments>https://arstechnica.com/space/2024/09/nasa-is-ready-to-start-buying-vulcan-rockets-from-united-launch-alliance/#comments</comments>
+		
+		<dc:creator><![CDATA[Stephen Clark]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 17:14:30 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[military space]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[united launch alliance]]></category>
+		<category><![CDATA[US Space Force]]></category>
+		<category><![CDATA[vulcan]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2051934</guid>
+
+					<description><![CDATA[The second test flight of the Vulcan rocket is scheduled for liftoff on October 4.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/53917462117_5c2fa6c2a8_k-800x533.jpg" alt="The first stage of ULA's second Vulcan rocket was raised onto its launch platform August 11 at Cape Canaveral Space Force Station, Florida.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/53917462117_5c2fa6c2a8_k.jpg" class="enlarge-link" data-height="1365" data-width="2047">Enlarge</a> <span class="sep">/</span> The first stage of ULA's second Vulcan rocket was raised onto its launch platform August 11 at Cape Canaveral Space Force Station, Florida. (credit: <a rel="nofollow" class="caption-link" href="https://www.flickr.com/photos/ulalaunch/53917462117/">United Launch Alliance</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>United Launch Alliance is free to compete for NASA contracts with its new Vulcan rocket after a successful test flight earlier this year, ending a period where SpaceX was the only company competing for rights to launch the agency's large science missions.</p>
+<p>For several years, ULA was unable to bid for NASA launch contracts after the company sold all of its remaining Atlas V rockets to other customers, primarily for Amazon's Project Kuiper Internet network. ULA could not submit its new Vulcan rocket, which will replace the Atlas V, for NASA to consider in future launch contracts until the Vulcan completed at least one successful flight, according to Tim Dunn, senior launch director at NASA's Launch Services Program.</p>
+<p>The Vulcan rocket's <a href="https://arstechnica.com/space/2024/01/ulas-vulcan-rocket-shot-for-the-moon-on-debut-launch-and-hit-a-bullseye/">first certification flight on January 8</a>, called Cert-1, was nearly flawless, demonstrating the launcher's methane-fueled BE-4 engines built by Blue Origin and an uprated twin-engine Centaur upper stage. A second test flight, known as Cert-2, is scheduled to lift off no earlier than October 4 from Cape Canaveral Space Force Station, Florida. Assuming the upcoming launch is as successful as the first one, the US Space Force aims to launch its first mission on a Vulcan rocket by the end of the year.</p></div><p><a href="https://arstechnica.com/?p=2051934#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051934&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/09/nasa-is-ready-to-start-buying-vulcan-rockets-from-united-launch-alliance/feed/</wfw:commentRss>
+			<slash:comments>28</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Car software patches are over 20% of recalls, study finds</title>
+		<link>https://arstechnica.com/?p=2052050</link>
+					<comments>https://arstechnica.com/cars/2024/09/more-than-20-of-vehicle-recalls-are-software-fixes-now/#comments</comments>
+		
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 16:51:54 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[recall]]></category>
+		<category><![CDATA[Recalls]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2052050</guid>
+
+					<description><![CDATA[How automotive recalls are handled has shifted over time.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-653513498-800x450.jpg" alt="Blue circuit board closeup connected to a cpu with a glowing car wifi symbol on top smart vehicle concept 3D illustration">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-653513498-scaled.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Software fixes are now responsible for more than 1 in 5 automotive recalls. That's the key finding from a decade's worth of National Highway Traffic Safety Administration recall data, according to an analysis from the law firm DeMayo Law. While that's a sign of growing inconvenience for drivers, the silver lining is that <a href="https://arstechnica.com/cars/2024/08/jaguar-i-pace-fire-risk-leads-to-recall-instructions-to-park-outdoors/">a software patch</a> is usually a much quicker fix than something requiring hardware replacement.</p>
+<p>"Our analysis suggests we're witnessing a shift in how automotive recalls are handled. The growing number of software-related recalls, coupled with the ability to address issues remotely, could revolutionize the recall process for both manufacturers and vehicle owners," said a spokesperson for DeMayo Law.</p>
+<p>In 2014, 34 of 277 automotive recalls were software fixes. The percentage of software recalls floated around 12–13 percent (apart from a spike in 2015) before growing steadily from 2020. In 2021, 16 percent of automotive recalls (61 out of 380) were for software. In 2022, almost 22 percent of recalls were software fixes (76 out of 348), and last year topped 23 percent (82 out of 356).</p></div><p><a href="https://arstechnica.com/?p=2052050#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2052050&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/cars/2024/09/more-than-20-of-vehicle-recalls-are-software-fixes-now/feed/</wfw:commentRss>
+			<slash:comments>49</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Broadcom responds to AT&amp;T’s VMware support lawsuit: AT&amp;T has “other options”</title>
+		<link>https://arstechnica.com/?p=2052026</link>
+					<comments>https://arstechnica.com/information-technology/2024/09/broadcom-accuses-att-of-sensationalism-after-vmware-perpetual-license-suit/#comments</comments>
+		
+		<dc:creator><![CDATA[Scharon Harding]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 16:34:10 +0000</pubDate>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AT&T]]></category>
+		<category><![CDATA[Broadcom]]></category>
+		<category><![CDATA[vmware]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2052026</guid>
+
+					<description><![CDATA[Broadcom defends against renewal, citing "End of Availability" provision. ]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1487796946-800x532.jpg" alt="Wooden gavel on table in a courtroom">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1487796946.jpg" class="enlarge-link" data-height="1412" data-width="2122">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/wooden-judges-gavel-on-table-in-a-courtroom-or-royalty-free-image/1487796946">Getty</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Broadcom is accusing AT&amp;T of trying to "rewind the clock and force" Broadcom "to sell support services for perpetual software licenses... that VMware has discontinued from its product line and to which AT&amp;T has no contractual right to purchase.” The statement comes from legal documents Broadcom filed in response to <a href="https://arstechnica.com/information-technology/2024/09/att-sues-broadcom-for-refusing-to-renew-perpetual-license-support/">AT&amp;T's lawsuit against Broadcom</a> for refusing to renew support for its VMware perpetual licenses [<a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/Broadcom_court_filing.pdf">PDF</a>].</p>
+<p>On August 29, AT&amp;T filed a lawsuit [<a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/att_broadcom.pdf">PDF</a>] against Broadcom, alleging that Broadcom is breaking a contract by refusing to provide a one-year renewal for support for perpetually licensed VMware software. Broadcom famously <a href="https://arstechnica.com/information-technology/2023/12/broadcom-ends-vmware-perpetual-license-sales-testing-customers-and-partners/">ended perpetual VMware license</a> sales shortly after closing its acquisition in favor of a subscription model featuring about two bundles of products rather than many SKUs.</p>
+<p>AT&amp;T claims its VMware contract (forged before <a href="https://arstechnica.com/information-technology/2022/05/broadcom-will-pay-61-billion-to-become-the-latest-company-to-acquire-vmware/">Broadcom's acquisition</a> closed in November) entitles it to three one-year renewals of perpetual license support, and it's currently trying to enact the second one. AT&amp;T says it uses VMware products to run 75,000 virtual machines (VMs) across about 8,600 servers. The VMs are for supporting customer services operations and operations management efficiency, per AT&amp;T. AT&amp;T is asking the Supreme Court of the State of New York to stop Broadcom from ending VMware support services for AT&amp;T and for "further relief" as deemed necessary.</p></div><p><a href="https://arstechnica.com/?p=2052026#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2052026&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/information-technology/2024/09/broadcom-accuses-att-of-sensationalism-after-vmware-perpetual-license-suit/feed/</wfw:commentRss>
+			<slash:comments>60</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>PC modder removes annoying PSN account requirement for God of War Ragnarök</title>
+		<link>https://arstechnica.com/?p=2052034</link>
+					<comments>https://arstechnica.com/gaming/2024/09/pc-modder-removes-annoying-psn-account-requirement-for-god-of-war-ragnarok/#comments</comments>
+		
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 15:45:29 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2052034</guid>
+
+					<description><![CDATA[Many players are angry over needing to log in to play a single-player game.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/gowpc-800x404.png" alt="Artist's conception of angry PC gamers launching an attack on PSN sign-in requirements.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/gowpc.png" class="enlarge-link" data-height="969" data-width="1919">Enlarge</a> <span class="sep">/</span> Artist's conception of angry PC gamers launching an attack on PSN sign-in requirements. (credit: Sony)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Sony's decision to require a PlayStation Network sign-in for the PC port of the single-player <em>God of War Ragnarök</em> is drawing <a href="https://www.reddit.com/r/GodofWar/comments/zeosg2/god_of_war_rag_being_review_bombed_on_metacritic/">expected levels</a> of <a href="https://www.reddit.com/r/Games/comments/1d4gnpe/god_of_war_ragnarok_pc_requires_a_psn_account/">ire</a> from frustrated PC gamers. Now, though, those angry players can actually do something about the problem thanks to a new mod that removes the PSN log-in requirement from the game entirely.</p>
+<p>The NoPSSDK mod, <a href="https://www.nexusmods.com/godofwarragnarok/mods/22?tab=description">hosted on NexusMods</a>, promises to "fully strip the PlayStation PC SDK runtime requirement for <em>God of War Ragnarok</em>." The <a href="https://github.com/iArtorias/nopssdk">open source mod</a> makes use of a simple <a href="https://github.com/microsoft/Detours">Microsoft Detours</a> library to get around the game's calls to the PlayStation Network API without "touch[ing] or modify[ing] any original game code."</p>
+<p>The mod, which has already seen one update related to simulating offline mode, has been downloaded just under 2,000 times as of this writing. "I will try to maintain the tool even if something changes, but hopefully nothing crucial happens," mod author iArtorias <a href="https://www.nexusmods.com/godofwarragnarok/mods/22?tab=posts">wrote in a NexusMods post</a>.</p></div><p><a href="https://arstechnica.com/?p=2052034#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2052034&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gaming/2024/09/pc-modder-removes-annoying-psn-account-requirement-for-god-of-war-ragnarok/feed/</wfw:commentRss>
+			<slash:comments>102</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kubuntu Focus Ir14 Gen 2 review: Using Linux instead of messing with it</title>
+		<link>https://arstechnica.com/?p=2051198</link>
+					<comments>https://arstechnica.com/gadgets/2024/09/kubuntu-focus-ir14-gen-2-review-using-linux-instead-of-messing-with-it/#comments</comments>
+		
+		<dc:creator><![CDATA[Kevin Purdy]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 14:46:46 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[enterprise laptop]]></category>
+		<category><![CDATA[KDE]]></category>
+		<category><![CDATA[kde plasma]]></category>
+		<category><![CDATA[Kubuntu]]></category>
+		<category><![CDATA[kubuntu focus]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[linux laptop]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2051198</guid>
+
+					<description><![CDATA[Learning to love a Linux system that's more of a workhorse than an adventure.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/kf1-800x600.jpg" alt="The Kubuntu Focus Ir14 Gen 2.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/kf1.jpg" class="enlarge-link" data-height="1512" data-width="2016">Enlarge</a> <span class="sep">/</span> The Kubuntu Focus Ir14 Gen 2. (credit: Kevin Purdy)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>There are lots of laptops—maybe all of them—on which you can run a Linux desktop. There are a few vendors that offer laptops with extensive Linux compatibility. And then there are a select few that specialize in Linux laptops, support them, and even customize them.</p>
+<p><a href="https://kfocus.org/">Kubuntu Focus</a> is one of the select few. It sent me one of its laptops to test the <a href="https://kfocus.org/spec/spec-ir14.html">Ir14 Gen 2</a>, which runs, of course, <a href="https://kubuntu.org/">Kubuntu</a>, the KDE desktop variant of Ubuntu. The “Focus” in the company name comes from what it is hoping to provide: a device on which you can just do your work without worrying about what’s happening deeper in your system. Go ahead and <code>sudo apt update</code>, says the Focus team; we’ve got you.</p>
+<p>I used the Ir14 Gen 2 for Ars Technica work and my personal needs for at least two weeks. Setting the system up with Focus’ guided wizard, installing apps from its store, and refusing to touch any of the deeper system files, I achieved something pretty remarkable: no unexpected behaviors on a Linux laptop. Had anything gone wrong, I could reasonably lean back on the system’s rollbacks, which I used a couple of times with no problem.</p></div><p><a href="https://arstechnica.com/?p=2051198#p3">Read 19 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051198&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/kubuntu-focus-ir14-gen-2-review-using-linux-instead-of-messing-with-it/feed/</wfw:commentRss>
+			<slash:comments>94</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Huawei laptop teardown shows China’s steps toward tech self-sufficiency</title>
+		<link>https://arstechnica.com/?p=2051957</link>
+					<comments>https://arstechnica.com/gadgets/2024/09/huawei-laptop-teardown-shows-chinas-steps-towards-tech-self-sufficiency/#comments</comments>
+		
+		<dc:creator><![CDATA[Financial Times]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 13:45:37 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[sanctions]]></category>
+		<category><![CDATA[syndication]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2051957</guid>
+
+					<description><![CDATA[Embargo on high-tech goods has forced China to create its own supply chain.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/l540-list-800x450.jpg" alt="Huawei laptop teardown shows China’s steps toward tech self-sufficiency">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/l540-list.jpg" class="enlarge-link" data-height="810" data-width="1440">Enlarge</a> (credit: FT)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>China’s demand that the public sector step up use of domestic semiconductors can best be seen within Huawei’s Qingyun L540 laptop.</p>
+<p>The “safe and reliable” device features a self-designed processor and a Chinese-made operating system, having stripped out foreign-made components and software as much as possible.</p>
+<p>The computer, which is being snapped up by governments and state groups across the country, has become the signature model of China’s localization campaign known as Xinchuang, or “IT application innovation.”</p></div><p><a href="https://arstechnica.com/?p=2051957#p3">Read 24 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051957&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/huawei-laptop-teardown-shows-chinas-steps-towards-tech-self-sufficiency/feed/</wfw:commentRss>
+			<slash:comments>91</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>For the first time, Blue Origin has ignited an orbital rocket stage</title>
+		<link>https://arstechnica.com/?p=2051943</link>
+					<comments>https://arstechnica.com/space/2024/09/blue-origin-completes-second-stage-hot-fire-test-of-large-new-rocket/#comments</comments>
+		
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 13:07:47 +0000</pubDate>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[blue origin]]></category>
+		<category><![CDATA[new glenn]]></category>
+		<category><![CDATA[space]]></category>
+		<guid isPermaLink="false">https://arstechnica.com/?p=2051943</guid>
+
+					<description><![CDATA[Monday's test checked an important box for Blue Origin.]]></description>
+										<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/new-glenn_gs2-hotfire-800x448.webp" alt="Blue Origin test fires the second stage of its New Glenn rocket.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/new-glenn_gs2-hotfire.webp" class="enlarge-link" data-height="1074" data-width="1920">Enlarge</a> <span class="sep">/</span> Blue Origin test fires the second stage of its New Glenn rocket. (credit: Blue Origin)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Twenty days after it rolled out to Blue Origin's launch site in Florida, the second stage of the massive New Glenn rocket underwent a successful hot-fire test on Monday.</p>
+<p>The second stage—known as GS2 for Glenn stage 2—ignited for 15 seconds as part of the "risk reduction" hot-fire test, <a href="https://www.blueorigin.com/news/new-glenn-completes-second-stage-hotfire">the company said</a>. The two BE-3U engines, fueled by liquid oxygen and hydrogen and each producing 173,000 pounds of thrust, burned with a nearly transparent flame that approached a temperature of 6,000° Fahrenheit.</p>
+<p>This marked the first time that Blue Origin, a space company founded by Jeff Bezos more than two decades ago, has integrated and fired an orbital rocket stage. After the test, Blue Origin said it is still tracking toward a November launch of the New Glenn rocket.</p></div><p><a href="https://arstechnica.com/?p=2051943#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051943&comments=1">Comments</a></p>]]></content:encoded>
+					
+					<wfw:commentRss>https://arstechnica.com/space/2024/09/blue-origin-completes-second-stage-hot-fire-test-of-large-new-rocket/feed/</wfw:commentRss>
+			<slash:comments>64</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Bird flu is spreading rapidly in California; infected herds double over weekend</title>
 		<link>https://arstechnica.com/?p=2051926</link>
 					<comments>https://arstechnica.com/science/2024/09/bird-flu-is-spreading-rapidly-in-california-infected-herds-double-over-weekend/#comments</comments>
@@ -39,8 +579,8 @@
 					<description><![CDATA[The state reported its first infected herds on August 30.]]></description>
 										<content:encoded><![CDATA[<div id="rss-wrap">
 <figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2151866021-800x534.jpg" alt="Cows being milked  in Wisconsin on May 8, 2024.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2151866021-scaled.jpg" class="enlarge-link" data-height="1708" data-width="2560">Enlarge</a> <span class="sep">/</span> Cows being milked  in Wisconsin on May 8, 2024. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/cows-being-milked-at-mystic-valley-dairy-in-dane-county-news-photo/2151866021?adppopup=true">Getty | Matthew Ludak</a>)</p>  </figure>
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2151866021-800x534.jpg" alt="Bird flu is spreading rapidly in California; infected herds double over weekend">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2151866021-scaled.jpg" class="enlarge-link" data-height="1708" data-width="2560">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/cows-being-milked-at-mystic-valley-dairy-in-dane-county-news-photo/2151866021?adppopup=true">Getty | Matthew Ludak</a>)</p>  </figure>
 
 
 
@@ -53,7 +593,7 @@
 <p>To date, 232 herds in 14 states have been infected with the bird flu.</p></div><p><a href="https://arstechnica.com/?p=2051926#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051926&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/science/2024/09/bird-flu-is-spreading-rapidly-in-california-infected-herds-double-over-weekend/feed/</wfw:commentRss>
-			<slash:comments>11</slash:comments>
+			<slash:comments>110</slash:comments>
 		
 		
 			</item>
@@ -91,10 +631,10 @@
 <p>On Monday, OpenAI CEO Sam Altman outlined his vision for an AI-driven future of tech progress and global prosperity in a new personal blog post titled "<a href="https://ia.samaltman.com/">The Intelligence Age</a>." The essay paints a picture of human advancement accelerated by AI, with Altman suggesting that superintelligent AI could emerge within the next decade.</p>
 
 <p>"It is possible that we will have superintelligence in a few thousand days (!); it may take longer, but I’m confident we’ll get there," he wrote.</p>
-<p>OpenAI's current goal is to <a href="https://openai.com/index/planning-for-agi-and-beyond/">create AGI</a> (artificial general intelligence), which is a term for hypothetical technology that could match human intelligence in performing many tasks without the need for specific training. In contrast, superintelligence surpasses AGI, and it could be seen as a hypothetical level of machine intelligence that can dramatically outperform humans at any intellectual task, perhaps even to an unfathomable degree.</p></div><p><a href="https://arstechnica.com/?p=2051754#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051754&comments=1">Comments</a></p>]]></content:encoded>
+<p>OpenAI's current goal is to <a href="https://openai.com/index/planning-for-agi-and-beyond/">create AGI</a> (artificial general intelligence), which is a term for hypothetical technology that could match human intelligence in performing many tasks without the need for specific training. By contrast, superintelligence surpasses AGI, and it could be seen as a hypothetical level of machine intelligence that can dramatically outperform humans at any intellectual task, perhaps even to an unfathomable degree.</p></div><p><a href="https://arstechnica.com/?p=2051754#p3">Read 14 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051754&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/information-technology/2024/09/ai-superintelligence-looms-in-sam-altmans-new-essay-on-the-intelligence-age/feed/</wfw:commentRss>
-			<slash:comments>88</slash:comments>
+			<slash:comments>381</slash:comments>
 		
 		
 			</item>
@@ -134,12 +674,12 @@
       </li>
       </ul>
 
-<p>Late last week, Russia's military planned to launch a Sarmat intercontinental ballistic missile (ICBM) on a test flight from the Plesetsk Cosmodrome. Imagery from commercial satellites captured over the weekend suggest the missile exploded before or during launch.</p>
+<p>Late last week, Russia's military planned to launch a Sarmat intercontinental ballistic missile (ICBM) on a test flight from the Plesetsk Cosmodrome. Imagery captured over the weekend from commercial satellites suggests the missile exploded before or during launch.</p>
 <p>This is at least the second time an RS-28 Sarmat missile has failed in less than two years, dealing a blow to the country's nuclear forces days after the head of the Russian legislature issued a veiled threat to use the missile against Europe if Western allies approved Ukraine's use of long-range weapons against Russia.</p>
 <p>Commercial satellite imagery collected by Maxar and Planet show before-and-after views of the Sarmat missile silo at Plesetsk, a military base about 500 miles (800 kilometers) north of Moscow. The view from one of Maxar's imaging satellites Saturday revealed unmistakable damage at the launch site, with a large crater centered on the opening to the underground silo.</p></div><p><a href="https://arstechnica.com/?p=2051740#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051740&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/space/2024/09/satellite-images-suggest-test-of-russian-super-weapon-failed-spectacularly/feed/</wfw:commentRss>
-			<slash:comments>85</slash:comments>
+			<slash:comments>323</slash:comments>
 		
 		
 			</item>
@@ -176,7 +716,7 @@
 <p>Software developer kits, better known as SDKs, are apps that provide developers with frameworks that can greatly speed up the app-creation process by streamlining repetitive tasks. An unverified SDK module incorporated into the apps ostensibly supported the display of ads. Behind the scenes, it provided a host of advanced methods for stealthy communication with malicious servers, where the apps would upload user data and download malicious code that could be executed and updated at any time.</p></div><p><a href="https://arstechnica.com/?p=2051854#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051854&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/security/2024/09/11-million-devices-infected-with-botnet-malware-hosted-in-google-play/feed/</wfw:commentRss>
-			<slash:comments>13</slash:comments>
+			<slash:comments>35</slash:comments>
 		
 		
 			</item>
@@ -213,546 +753,7 @@
 <p>These tools, Cloudflare's <a href="https://www.cloudflare.com/press-releases/2024/cloudflare-helps-content-creators-regain-control-of-content-from-ai/">blog</a> said, give content creators "for the first time" ways "to quickly and easily understand how AI model providers are using their content, and then take control of whether and how the models are able to access it."</p></div><p><a href="https://arstechnica.com/?p=2051732#p3">Read 32 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051732&comments=1">Comments</a></p>]]></content:encoded>
 					
 					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/cloudflare-lets-sites-block-ai-crawlers-with-one-click/feed/</wfw:commentRss>
-			<slash:comments>29</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>10 long years with—and good riddance to—Apple’s iPhone 6 design</title>
-		<link>https://arstechnica.com/?p=2051832</link>
-					<comments>https://arstechnica.com/gadgets/2024/09/10-long-years-with-and-good-riddance-to-apples-iphone-6-design/#comments</comments>
-		
-		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
-		<pubDate>Mon, 23 Sep 2024 19:50:39 +0000</pubDate>
-				<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[apple iphone]]></category>
-		<category><![CDATA[iPhone 16]]></category>
-		<category><![CDATA[iPhone 6]]></category>
-		<category><![CDATA[iphone 6s]]></category>
-		<category><![CDATA[iphone 7]]></category>
-		<category><![CDATA[iphone 8]]></category>
-		<category><![CDATA[iphone SE]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051832</guid>
-
-					<description><![CDATA[Op-ed: On living with the iPhone 6 design—and its flaws—for a full decade.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/IMG_0211-800x462.jpg" alt="The iPhone 6 and 6 Plus, the first iteration of a very, very long-lived phone design.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/IMG_0211.jpg" class="enlarge-link" data-height="1109" data-width="1920">Enlarge</a> <span class="sep">/</span> The iPhone 6 and 6 Plus, the first iteration of a very, very long-lived phone design. (credit: Andrew Cunningham)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>This past weekend, I said goodbye to Apple’s 4.7-inch iPhone 6 design after 10 long years.</p>
-<p>It started with <a href="https://arstechnica.com/gadgets/2014/09/iphone-6-and-6-plus-in-deep-with-apples-thinnest-phones/">the iPhone 6 itself</a> in 2014, a long-awaited screen size upgrade for the iPhone (<a href="https://marco.org/2011/10/08/iphone-screen-size">some of</a> the 2011-era Apple punditry insisting that 3.5 inches was the functionally perfect size for a phone screen and that Apple would <a href="https://daringfireball.net/2011/10/thoughts_and_observations_iphone_4s">never, ever change it</a>, is an interesting time capsule). It ends with my wife’s third-generation iPhone SE, its battery capacity already collapsing, which I replaced with an iPhone 16 on Friday.</p>
-
-<p>There are huge differences between those two phones—eight years’ worth of spec upgrades and water resistance being the most significant—but they look and feel almost the same, and things that were fine or forgivable in 2014 have become harder to live with now.</p></div><p><a href="https://arstechnica.com/?p=2051832#p3">Read 18 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051832&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/10-long-years-with-and-good-riddance-to-apples-iphone-6-design/feed/</wfw:commentRss>
-			<slash:comments>99</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Hybrid RV with a solar roof can power your home in an emergency</title>
-		<link>https://arstechnica.com/?p=2051838</link>
-					<comments>https://arstechnica.com/cars/2024/09/hybrid-rv-with-a-solar-roof-can-power-your-home-in-an-emergency/#comments</comments>
-		
-		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
-		<pubDate>Mon, 23 Sep 2024 19:14:31 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Harbinger]]></category>
-		<category><![CDATA[motorhome]]></category>
-		<category><![CDATA[RV]]></category>
-		<category><![CDATA[thor]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051838</guid>
-
-					<description><![CDATA[The hybrid powertrain has a range of 500 miles.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/THOR-Hybrid-Class-A-Test-Vehicle-3_4-800x417.jpg" alt="A white, green, and yellow RV parked next to some trees">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/THOR-Hybrid-Class-A-Test-Vehicle-3_4-scaled.jpg" class="enlarge-link" data-height="1335" data-width="2560">Enlarge</a> <span class="sep">/</span> This is Thor and Harbinger's test bed for a new Class A hybrid RV. (credit: Thor)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Electrification is moving through different parts of the automotive industry at different speeds. And soon, it will be time for the recreational vehicle segment to start adding batteries and electric motors. Today, Thor Industries revealed a new hybrid class A motorhome that demos a new hybrid electric powertrain <a href="https://arstechnica.com/cars/2023/07/how-harbinger-is-building-commercial-evs-with-20-year-life-spans/">from Harbinger</a>.</p>
-<p>"Electrification will play a central role in the future of mobility, including RVing," said Thor Industries President and CEO Bob Martin. "This first-of-its-kind hybrid platform and our ongoing collaboration with Harbinger are reinforcing Thor's leadership in this segment and creating major points of product differentiation for our family of companies."</p>
-<p>Thor and Harbinger have been working together for a while now—in March <a href="https://arstechnica.com/cars/2024/03/harbinger-delivers-first-customer-electric-truck-chassis-to-rv-maker-thor/">Thor took delivery</a> of a medium-duty EV chassis from Harbinger. But the battery EV RV will only have a range of about 250 miles on a single charge. By comparison, the two companies say that the hybrid RV should have a range of twice that—500 miles—courtesy of a 140 kWh lithium-ion traction battery and a gasoline-powered range extender.</p></div><p><a href="https://arstechnica.com/?p=2051838#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051838&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/09/hybrid-rv-with-a-solar-roof-can-power-your-home-in-an-emergency/feed/</wfw:commentRss>
-			<slash:comments>52</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Linux boots in 4.76 days on the Intel 4004</title>
-		<link>https://arstechnica.com/?p=2051764</link>
-					<comments>https://arstechnica.com/gadgets/2024/09/hacker-boots-linux-on-intels-first-ever-cpu/#comments</comments>
-		
-		<dc:creator><![CDATA[Benj Edwards]]></dc:creator>
-		<pubDate>Mon, 23 Sep 2024 18:48:25 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<category><![CDATA[art piece]]></category>
-		<category><![CDATA[boot]]></category>
-		<category><![CDATA[Debian Linux]]></category>
-		<category><![CDATA[Dmitry Grinberg]]></category>
-		<category><![CDATA[electronic art]]></category>
-		<category><![CDATA[electronics art]]></category>
-		<category><![CDATA[Intel]]></category>
-		<category><![CDATA[Intel 4004]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[retrotech]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051764</guid>
-
-					<description><![CDATA[Historic 4-bit microprocessor from 1971 can execute Linux commands over days or weeks.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/linux_4004_header-800x450.jpg" alt="A photo of Dmitry Grinberg's custom Linux/4004 circuit board.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/linux_4004_header.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> A photo of Dmitry Grinberg's custom Linux/4004 circuit board. (credit: <a rel="nofollow" class="caption-link" href="https://dmitry.gr/?r=05.Projects&amp;proj=35.%20Linux4004">Dmitry Grinberg</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Hardware hacker Dmitry Grinberg recently achieved what might sound impossible: <a href="https://dmitry.gr/?r=05.Projects&amp;proj=35.%20Linux4004">booting Linux on the Intel 4004</a>, the world's first commercial microprocessor. With just 2,300 transistors and an original clock speed of 740 kHz, the 1971 CPU is incredibly primitive by modern standards. And it's slow—it takes about 4.76 days for the Linux kernel to boot.</p>
-
-<p>Initially designed for a Japanese calculator called the Busicom 141-PF, the 4-bit 4004 <a href="https://www.technologizer.com/2011/11/15/intel-4004/index.html">found limited use</a> in commercial products of the 1970s before being superseded by more powerful Intel chips, such as the 8008 and 8080 that powered early personal computers—and then the <a href="https://stevemorse.org/pcw40.html">8086</a> and 8088 that launched the IBM PC era.</p>
-<p>If you're skeptical that this feat is possible with a raw 4004, you're right: The 4004 itself is far too limited to run Linux directly. Instead, Grinberg created a solution that is equally impressive: an emulator that runs on the 4004 and emulates a MIPS R3000 processor—the architecture used in the <a href="https://gunkies.org/wiki/DECstation_2100">DECstation 2100</a> workstation that Linux was originally ported to. This emulator, along with minimal hardware emulation, allows a stripped-down Debian Linux to boot to a command prompt.</p></div><p><a href="https://arstechnica.com/?p=2051764#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051764&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/hacker-boots-linux-on-intels-first-ever-cpu/feed/</wfw:commentRss>
-			<slash:comments>83</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Sonos workers shed light on why the app update went so horribly</title>
-		<link>https://arstechnica.com/?p=2051728</link>
-					<comments>https://arstechnica.com/gadgets/2024/09/it-was-the-wrong-decision-employees-discuss-sonos-rushed-app-debacle/#comments</comments>
-		
-		<dc:creator><![CDATA[Scharon Harding]]></dc:creator>
-		<pubDate>Mon, 23 Sep 2024 18:39:36 +0000</pubDate>
-				<category><![CDATA[Tech]]></category>
-		<category><![CDATA[audio]]></category>
-		<category><![CDATA[software]]></category>
-		<category><![CDATA[Sonos]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051728</guid>
-
-					<description><![CDATA[Meetings with "yelling," "screaming" preceded app's release, Bloomberg reports.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/sonos-redesigned-app-800x450.jpg" alt="sonos-redesigned-app">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/sonos-redesigned-app.jpg" class="enlarge-link" data-height="900" data-width="1600">Enlarge</a> (credit: Sonos)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>In May, Sonos updated its mobile app—to the dismay of many users. With missing features and bugs, customers complained about a loss of functionality and hardware not working the way it should. As Sonos deals with the expensive repercussions, a report from <a href="https://www.bloomberg.com/opinion/articles/2024-09-23/how-sonos-botched-an-app-and-infuriated-its-customers">Bloomberg</a> today highlights how Sonos allowed the release of an update so buggy and incomplete as to overturn its goodwill with long-standing customers.</p>
-<p>Illustrating how poorly this app update has gone, last month<a href="https://arstechnica.com/gadgets/2024/07/pained-by-having-let-you-down-sonos-apologizes-for-app-failures/">,</a> <a href="https://arstechnica.com/gadgets/2024/07/pained-by-having-let-you-down-sonos-apologizes-for-app-failures/">Sonos CEO</a> Patrick Spence said the company would spend <a href="https://arstechnica.com/gadgets/2024/08/app-redesign-blowback-will-cost-sonos-up-to-30-million-ceo-says/">$20 million to $30 million</a> in the short term to get the app where it needs to be (which is, basically, functioning as well as the predecessor) and rebuild customer and partner trust. Sonos also expects to miss its annual revenue target by $200 million. This is partially due to its delay of two hardware releases to focus on the app. Bloomberg noted that “Sonos shares are down 25% this year.” Annual bonuses and merit-based raises have also reportedly been canceled.</p>
-<h2>Outdated code</h2>
-<p>One reason for the app’s failure is the outdated code and infrastructure that the prior app was running on. Anonymous employees Bloomberg spoke with claimed that the Sonos app’s <a href="https://www.atlassian.com/agile/software-development/technical-debt">technical debt</a> had been building up for 20 years before the update.</p></div><p><a href="https://arstechnica.com/?p=2051728#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051728&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/it-was-the-wrong-decision-employees-discuss-sonos-rushed-app-debacle/feed/</wfw:commentRss>
-			<slash:comments>99</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Prepare to be entertained by latest action-packed Gladiator II trailer</title>
-		<link>https://arstechnica.com/?p=2051654</link>
-					<comments>https://arstechnica.com/culture/2024/09/prepare-to-be-entertained-by-latest-action-packed-gladiator-ii-trailer/#comments</comments>
-		
-		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
-		<pubDate>Mon, 23 Sep 2024 17:24:31 +0000</pubDate>
-				<category><![CDATA[Culture]]></category>
-		<category><![CDATA[entertainment]]></category>
-		<category><![CDATA[film trailers]]></category>
-		<category><![CDATA[Gladiator II]]></category>
-		<category><![CDATA[Paramount Pictures]]></category>
-		<category><![CDATA[Trailers]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051654</guid>
-
-					<description><![CDATA["You have something in you. Rage. Never let it go."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<div class="video"><div class="wrapper"><iframe style="display:block" type="text/html" width="980" height="550" src="https://www.youtube.com/embed/Ts0N8swyWFI?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe></div><p class="caption" style="font-size:0.8em">Are you not entertainment? We've got a shiny new trailer for <em>Gladiator II</em>. </p></div>
-<p>When the first trailer for <a href="https://en.wikipedia.org/wiki/Gladiator_II"><em>Gladiator II</em></a> dropped in early July, it racked up more than 180 million views in its first 48 hours, so clearly there's an audience for Ridley Scott's long-awaited sequel to his 2000 blockbuster <a href="https://en.wikipedia.org/wiki/Gladiator_(2000_film)"><em>Gladiator</em></a>. And no wonder; as I <a href="https://arstechnica.com/culture/2024/07/its-another-bloody-power-struggle-for-romes-future-in-gladiator-ii-trailer/">noted at the time</a>, the film "promises to be just as much of a visual feast, as a new crop of power players (plus a couple of familiar faces) clash over the future of Rome." We've now got a shiny new trailer, and I stand by that initial assessment—especially since this trailer confirms what had previously been hinted about the protagonist's biological father.</p>
-<p><strong>(Some spoilers for <em>Gladiator</em> below.)</strong></p>
-<p><em>Gladiator II</em> centers around Lucius Verus (Paul Mescal), son of Lucilla and former heir to the Roman Empire, given that his father (also named Lucius Verus) was once a co-emperor of Rome. Lucius hasn't been seen in Rome for 15 years. Instead, he has been living in a small coastal town in Numidia with his wife and child. Like Maximus before him, he is captured by the Roman army and forced to become a gladiator after the death of his family. Per the official premise:</p></div><p><a href="https://arstechnica.com/?p=2051654#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051654&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/culture/2024/09/prepare-to-be-entertained-by-latest-action-packed-gladiator-ii-trailer/feed/</wfw:commentRss>
-			<slash:comments>55</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Florence Pugh’s depressed assassin finds her crew in Thunderbolts* teaser</title>
-		<link>https://arstechnica.com/?p=2051647</link>
-					<comments>https://arstechnica.com/culture/2024/09/things-could-get-messy-for-these-misfits-in-thunderbolts-extended-teaser/#comments</comments>
-		
-		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
-		<pubDate>Mon, 23 Sep 2024 16:06:58 +0000</pubDate>
-				<category><![CDATA[Culture]]></category>
-		<category><![CDATA[entertainment]]></category>
-		<category><![CDATA[film trailers]]></category>
-		<category><![CDATA[marvel studios]]></category>
-		<category><![CDATA[mcu]]></category>
-		<category><![CDATA[MCU Phase Five]]></category>
-		<category><![CDATA[Thunderbolts]]></category>
-		<category><![CDATA[Trailers]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051647</guid>
-
-					<description><![CDATA["Everyone here has done bad things. Someone wants us gone."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p style="font-weight: 400;"></p><div class="video"><div class="wrapper"><iframe style="display:block" type="text/html" width="980" height="550" src="https://www.youtube.com/embed/v-94Snw-H4o?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe></div><p class="caption" style="font-size:0.8em">Florence Pugh heads an assembly of misfits in Marvel's <em>Thunderbolts*</em>. </p></div>
-<p>Marvel Studios has dropped an extended teaser trailer for the final feature film in its Phase Six slate: <a href="https://en.wikipedia.org/wiki/Thunderbolts*"><em>Thunderbolts*</em></a>, now with a mysterious asterisk to the title. The studio has touted the film as having a different tone from other recent MCU offerings—thanks in part to hiring "a crew of indie veterans who sold out" to make the film—and judging from the teaser, it looks like they just might deliver on that.</p>
-<p>As <a href="https://arstechnica.com/culture/2024/07/robert-downey-jr-returns-to-mcu-as-doctor-doom-in-two-new-avengers-movies/">previously reported</a>, <em>Thunderbolts*</em> is a follow-up of sorts to 2021's <a href="https://arstechnica.com/gaming/2021/07/black-widow-review-scarjos-sendoff-is-mcus-best-standalone-film-yet/"><em>Black Widow</em></a>. It's directed by Jake Schreier and stars Wyatt Russell as US Agent/failed Captain America from <em>The</em> <em>Falcon and the Winter Soldier,</em> Julia Louis-Dreyfus as Contessa Valentina Allegra, Florence Pugh as Yelena Belova, Sebastian Stan as Bucky Barnes/Winter Soldier, David Harbour as Alexei/Red Guardian, Hannah John-Kamen as Ava Starr/Ghost, Olga Kurylenko as Antonia Dreykov/Taskmaster, and Lewis Pullman as Bob/The Sentry.</p></div><p><a href="https://arstechnica.com/?p=2051647#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051647&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/culture/2024/09/things-could-get-messy-for-these-misfits-in-thunderbolts-extended-teaser/feed/</wfw:commentRss>
-			<slash:comments>86</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Elon Musk’s X gives up fight in Brazil, starts complying with judge’s demands</title>
-		<link>https://arstechnica.com/?p=2051708</link>
-					<comments>https://arstechnica.com/tech-policy/2024/09/elon-musks-x-gives-up-fight-in-brazil-starts-complying-with-judges-demands/#comments</comments>
-		
-		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
-		<pubDate>Mon, 23 Sep 2024 15:52:14 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[elon musk brazil]]></category>
-		<category><![CDATA[x brazil]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051708</guid>
-
-					<description><![CDATA[X announces reversal but must prove compliance before it can be reinstated.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/x-brazil-800x533.jpg" alt="Photo illustration shows the X logo displayed on a smartphone screen with a flag of Brazil in the background.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/x-brazil.jpg" class="enlarge-link" data-height="1667" data-width="2500">Enlarge</a> (credit: Getty Images | SOPA Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Elon Musk is apparently conceding defeat in his fight with Brazil Supreme Court Judge Alexandre de Moraes, as the X social platform has started complying with the judge's demands in an attempt to get the service un-blocked in the country.</p>
-<p>X previously refused to suspend dozens of accounts accused of spreading disinformation. Internet service providers have been <a href="https://arstechnica.com/tech-policy/2024/09/starlink-reluctantly-blocks-x-in-brazil-vows-to-keep-fighting-asset-freeze/">blocking X</a> under orders from the government since early September, and De Moraes seized $2 million from a Starlink bank account and $1.3 million from an X account to <a href="https://arstechnica.com/tech-policy/2024/09/brazil-judge-seizes-cash-from-starlink-to-cover-fine-imposed-on-elon-musks-x/">collect on fines</a> issued to X.</p>
-<p>X has <a href="https://x.com/GlobalAffairs/status/1829296715989414281">claimed</a> the orders violate Brazil's own laws. "Unlike other social media and technology platforms, we will not comply in secret with illegal orders. To our users in Brazil and around the world, X remains committed to protecting your freedom of speech," the company said in late August.</p></div><p><a href="https://arstechnica.com/?p=2051708#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051708&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/elon-musks-x-gives-up-fight-in-brazil-starts-complying-with-judges-demands/feed/</wfw:commentRss>
-			<slash:comments>139</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Fake AI “podcasters” are reviewing my book and it’s freaking me out</title>
-		<link>https://arstechnica.com/?p=2051549</link>
-					<comments>https://arstechnica.com/ai/2024/09/fake-ai-podcasters-are-reviewing-my-book-and-its-freaking-me-out/#comments</comments>
-		
-		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
-		<pubDate>Mon, 23 Sep 2024 15:40:31 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051549</guid>
-
-					<description><![CDATA[NotebookLM's "Audio Summaries" show a more personable future for AI-generated content.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/minsweeper-ai-podcast-no-cover-800x450.jpg" alt="Hey, welcome back to &quot;Talkin'&lt;em&gt;Minesweeper&lt;/em&gt;,&quot; the podcast where AI hosts discuss a book about &lt;em&gt;Minesweeper&lt;/em&gt;!">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/minsweeper-ai-podcast-no-cover.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> <span class="sep">/</span> Hey, welcome back to "Talkin'<em>Minesweeper</em>," the podcast where AI hosts discuss a book about <em>Minesweeper</em>! (credit: Aurich Lawson | Boss Fight Books)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>As someone who has been following the growth of generative AI for a while now, I know that the technology <a href="https://arstechnica.com/gadgets/2024/05/gmails-ai-powered-email-summaries-can-dig-through-your-inbox-for-you/">can be pretty good</a> (if <a href="https://arstechnica.com/ai/2024/09/australian-government-trial-finds-ai-is-much-worse-than-humans-at-summarizing/">not quite human-level</a>) at quickly summarizing complex documents into a more digestible form. But I still wasn't prepared for how disarmingly compelling it would be to listen to <a href="https://notebooklm.google/">Google's NotebookLM</a> condense <a href="https://arstechnica.com/gaming/2023/02/how-bill-gates-minesweeper-addiction-helped-lead-to-the-xbox/">my recent book about <em>Minesweeper</em></a> into a tight, 12.5-minute, podcast-style conversation between two people who don't exist.</p>
-<p>There are still enough notable issues with NotebookLM's audio output to prevent it from fully replacing professional podcasters any time soon. Even so, the podcast-like format is an incredibly engaging and endearing way to take in complex information and points to a much more personable future for generative AI than the dry back-and-forth of a text-based chatbot.</p>
-<h2>Hey! Listen!</h2>
-<audio class="wp-audio-shortcode" id="audio-2051549-1" preload="none" style="width: 100%;" controls="controls"><source type="audio/wav" src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/Minesweeper-AI-discussion.wav?_=1"></source></audio>
-<p><em>Listen to NotebookLM's 12.5-minute summary of my <em>Minesweeper</em> book using the player above.</em></p></div><p><a href="https://arstechnica.com/?p=2051549#p3">Read 17 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051549&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/ai/2024/09/fake-ai-podcasters-are-reviewing-my-book-and-its-freaking-me-out/feed/</wfw:commentRss>
-			<slash:comments>52</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Can our stockpiles of Tamiflu protect against a bird flu pandemic?</title>
-		<link>https://arstechnica.com/?p=2051670</link>
-					<comments>https://arstechnica.com/health/2024/09/can-our-stockpiles-of-tamiflu-protect-against-a-bird-flu-pandemic/#comments</comments>
-		
-		<dc:creator><![CDATA[Undark Magazine]]></dc:creator>
-		<pubDate>Mon, 23 Sep 2024 14:54:53 +0000</pubDate>
-				<category><![CDATA[Health]]></category>
-		<category><![CDATA[bird flu]]></category>
-		<category><![CDATA[H5N1]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[Tamiflu]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051670</guid>
-
-					<description><![CDATA[Governments are banking on this old drug in the event of an H5N1 outbreak.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/tamiflu-800x534.jpg" alt="A box and a tablet of Roche Pharmaceuticals' Tamiflu pills for influenza.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/tamiflu.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> <span class="sep">/</span> A box and a tablet of Roche Pharmaceuticals' Tamiflu pills for influenza. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/box-and-a-tablet-of-roche-pharmaceuticals-tamiflu-pills-for-news-photo/1953447012">Nikos Pekiaridis/NurPhoto via Getty Images</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Since reports emerged earlier this year that dairy cows across the country had been infected with H5N1 bird flu, the prospect that the virus could evolve to spark another pandemic has stoked <a href="https://undark.org/2024/07/22/avian-flu-actual-mortality-rate/">serious concern</a>.</p>
-<p>But unlike COVID-19, the flu is an old, well-known foe. And health authorities have reassured the public that the US has squirreled away millions of doses of the flu medication oseltamivir, known under the brand name Tamiflu. As health policy expert Leana S. Wen wrote in a Washington Post <a href="https://www.washingtonpost.com/opinions/2024/04/23/bird-flu-h5n1-plan-pandemic/">opinion piece</a>, the drug “works against seasonal flu and is expected to work well against H5N1.”</p>
-<p>While oseltamivir may help in cases of severe flu, some experts are concerned that the US is banking far too much on a so-so drug while failing to prioritize research on new treatments.</p></div><p><a href="https://arstechnica.com/?p=2051670#p3">Read 42 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051670&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/health/2024/09/can-our-stockpiles-of-tamiflu-protect-against-a-bird-flu-pandemic/feed/</wfw:commentRss>
-			<slash:comments>38</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>US to ban Chinese connected car software and hardware, citing security risks</title>
-		<link>https://arstechnica.com/?p=2051655</link>
-					<comments>https://arstechnica.com/cars/2024/09/us-to-ban-chinese-connected-car-software-and-hardware-citing-security-risks/#comments</comments>
-		
-		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
-		<pubDate>Mon, 23 Sep 2024 14:38:38 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Chinese EVs]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051655</guid>
-
-					<description><![CDATA[The ban would start in model-year 2027 for software and MY2030 for hardware.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1493124809-800x533.jpg" alt="Close up view of a car on charge with the Chinese flag as background. Concept of electric cars in China or Chinese car industry.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1493124809-scaled.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> (credit: Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>The US government is readying its latest measure to defend local automotive manufacturing. <a href="https://arstechnica.com/cars/2024/05/biden-set-to-levy-100-tariffs-on-chinese-evs-this-week/">In May</a>, US President Joe Biden levied new 100 percent tariffs targeted at specific Chinese automakers. Now, the US Commerce Department is set to enact a <em>de facto</em> ban on most Chinese vehicles, by prohibiting Chinese connected car software and hardware from operating on US roads, <a href="https://www.reuters.com/business/autos-transportation/biden-proposes-banning-chinese-vehicles-us-roads-with-software-crackdown-2024-09-23/">according to Reuters</a>.</p>
-<p>The rationale? National security concerns. "When foreign adversaries build software to make a vehicle [connected], that means it can be used for surveillance, can be remotely controlled, which threatens the privacy and safety of Americans on the road," said Commerce Secretary Gina Raimondo.</p>
-<p>"In an extreme situation, a foreign adversary could shut down or take control of all their vehicles operating in the United States all at the same time, causing crashes, blocking roads," said Secretary Raimondo, a scenario we saw depicted in <em>Fate of the Furious</em> (<a href="https://arstechnica.com/cars/2017/04/fate-of-the-furious-may-be-fun-but-it-made-my-brain-hurt/">where it caused me a headache</a>), as well as more recently (<a href="https://insideevs.com/news/701948/tesla-netflix-upstream-cybersecurity/">and to better effect</a>) in <em>Leave the World Behind</em>.</p></div><p><a href="https://arstechnica.com/?p=2051655#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051655&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/cars/2024/09/us-to-ban-chinese-connected-car-software-and-hardware-citing-security-risks/feed/</wfw:commentRss>
-			<slash:comments>103</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>A Chinese rocket narrowly missed a landing on Sunday—the video is amazing</title>
-		<link>https://arstechnica.com/?p=2051630</link>
-					<comments>https://arstechnica.com/space/2024/09/a-chinese-rocket-narrowly-missed-a-landing-on-sunday-the-video-is-amazing/#comments</comments>
-		
-		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
-		<pubDate>Mon, 23 Sep 2024 13:04:22 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[chinese rocket]]></category>
-		<category><![CDATA[deep blue aerospace]]></category>
-		<category><![CDATA[space]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051630</guid>
-
-					<description><![CDATA[Deep Blue Aerospace is just one of several Chinese companies working on vertical landing.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/nebula-1-800x427.jpg" alt="The Nebula-1 rocket just before attempting to land on Sunday.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/nebula-1.jpg" class="enlarge-link" data-height="1019" data-width="1908">Enlarge</a> <span class="sep">/</span> The Nebula-1 rocket just before attempting to land on Sunday. (credit: Deep Blue Aerospace)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>A Chinese space startup conducted what it called a "high-altitude" test flight of its Nebula-1 rocket on Sunday, launching the vehicle to an altitude of about 5 km or so before attempting to land it back at the Ejin Banner Spaceport in Inner Mongolia.</p>
-<p>The test flight went well for about two and a half minutes before the vehicle experienced a problem just before landing and erupted into a fireball.</p>
-<p>This is not the first vertical rocket landing test by a Chinese company, but what sets Deep Blue Aerospace apart from its competitors is its transparency. Within hours the company released <a href="https://mp.weixin.qq.com/s/jwYBZ1tlt9AcgtW2eG3gOg">a detailed statement</a> about the test flight, its objectives, and a preliminary review of what went wrong.</p></div><p><a href="https://arstechnica.com/?p=2051630#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051630&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/space/2024/09/a-chinese-rocket-narrowly-missed-a-landing-on-sunday-the-video-is-amazing/feed/</wfw:commentRss>
-			<slash:comments>283</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Tandem OLED is OLED’s latest weapon in holding off MicroLED, QDEL</title>
-		<link>https://arstechnica.com/?p=2041081</link>
-					<comments>https://arstechnica.com/gadgets/2024/09/what-tandem-oled-can-and-probably-wont-do-for-consumer-gadgets/#comments</comments>
-		
-		<dc:creator><![CDATA[Scharon Harding]]></dc:creator>
-		<pubDate>Mon, 23 Sep 2024 11:00:38 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[dell]]></category>
-		<category><![CDATA[evergreen]]></category>
-		<category><![CDATA[iPads]]></category>
-		<category><![CDATA[laptops]]></category>
-		<category><![CDATA[LG]]></category>
-		<category><![CDATA[Monitors]]></category>
-		<category><![CDATA[oled]]></category>
-		<category><![CDATA[TVs]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2041081</guid>
-
-					<description><![CDATA[Brighter and tougher, Tandem RGB stacks may help OLED keep its display reign.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/tandem-oled-800x450.jpg" alt="Like a Tandem bicycle, Tandem OLED doubles certain components for exciting momentum. ">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/tandem-oled.jpg" class="enlarge-link" data-height="1440" data-width="2560">Enlarge</a> <span class="sep">/</span> Like a Tandem bicycle, Tandem OLED doubles certain components for exciting momentum.  (credit: Aurich Lawson | Getty Images)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Tandem OLED has been around for years, but Apple made the technology feel new and shiny when it <a href="https://arstechnica.com/gadgets/2024/05/new-ipad-pros-are-the-thinnest-apple-device-ever-feature-dual-oled-screens/">announced</a> that the screen in its first ever OLED-based iPad would use a tandem structure.</p>
-<p>Other consumer gadgets, like laptops and phones, are also slowly starting to incorporate Tandem OLED displays. So we thought it's a good time to look at how Tandem OLED is used, what benefits it's delivering, and how the technology could impact future devices and compete against other emerging display technologies, like MicroLED and QDEL.</p>
-<h2>OLED TVs, monitors already use different kinds of tandem stacks</h2>
-<p>We won’t go too deep into the technical details of Tandem OLED in this article (interested readers can reference this <a href="https://www.youtube.com/watch?v=3moprE5S3Qc">handy breakdown</a>, which also includes information on current technical obstacles, like light-extraction inefficiencies). But if you're new to Tandem OLED, here’s a brief look at what makes it so interesting for tech gadgets.</p></div><p><a href="https://arstechnica.com/?p=2041081#p3">Read 52 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2041081&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/gadgets/2024/09/what-tandem-oled-can-and-probably-wont-do-for-consumer-gadgets/feed/</wfw:commentRss>
-			<slash:comments>82</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>When you call a restaurant, you might be chatting with an AI host</title>
-		<link>https://arstechnica.com/?p=2051613</link>
-					<comments>https://arstechnica.com/information-technology/2024/09/when-you-call-a-restaurant-you-might-be-chatting-with-an-ai-host/#comments</comments>
-		
-		<dc:creator><![CDATA[WIRED]]></dc:creator>
-		<pubDate>Sun, 22 Sep 2024 11:12:46 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[AI voice chat]]></category>
-		<category><![CDATA[ai voice generation]]></category>
-		<category><![CDATA[restaurants]]></category>
-		<category><![CDATA[syndication]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051613</guid>
-
-					<description><![CDATA[Voice chatbots are increasingly picking up the phone for restaurants.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2020/06/getty-robot-phone-800x640.jpg" alt="Drawing of a robot holding a telephone.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2020/06/getty-robot-phone.jpg" class="enlarge-link" data-height="1549" data-width="1936">Enlarge</a> (credit: Getty Images | Juj Winn)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>A pleasant female voice greets me over the phone. “Hi, I’m an assistant named Jasmine for Bodega,” the voice says. “How can I help?”</p>
-<p>“Do you have patio seating,” I ask. Jasmine sounds a little sad as she tells me that unfortunately, the San Francisco–based Vietnamese restaurant doesn't have outdoor seating. But her sadness isn’t the result of her having a bad day. Rather, her tone is a feature, a setting.</p>
-<p>Jasmine is a member of a new, growing clan: the AI voice restaurant host. If you recently called up a restaurant in New York City, Miami, Atlanta, or San Francisco, chances are you have spoken to one of Jasmine’s polite, calculated competitors.  </p></div><p><a href="https://arstechnica.com/?p=2051613#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051613&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/information-technology/2024/09/when-you-call-a-restaurant-you-might-be-chatting-with-an-ai-host/feed/</wfw:commentRss>
-			<slash:comments>191</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Vaporizing plastics recycles them into nothing but gas</title>
-		<link>https://arstechnica.com/?p=2051605</link>
-					<comments>https://arstechnica.com/science/2024/09/vaporizing-plastics-recycles-them-into-nothing-but-gas/#comments</comments>
-		
-		<dc:creator><![CDATA[Elizabeth Rayne]]></dc:creator>
-		<pubDate>Sat, 21 Sep 2024 11:30:09 +0000</pubDate>
-				<category><![CDATA[Science]]></category>
-		<category><![CDATA[chemistry]]></category>
-		<category><![CDATA[plastics]]></category>
-		<category><![CDATA[recycling]]></category>
-		<category><![CDATA[sustainability]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051605</guid>
-
-					<description><![CDATA[Polypropylene and polyethylene can be broken down simultaneously.]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-82846189-800x533.jpg" alt="A man stands next to piles of compressed plastic bottles.">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-82846189.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/photo/man-examines-bales-of-plastic-waste-bottles-royalty-free-image/82846189?phrase=plastic+recycling&amp;searchscope=image%2Cfilm">Derek Berwin</a>)</p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>Our planet is choking on plastics. Some of the worst offenders, which can take decades to degrade in landfills, are polypropylene—which is used for things such as food packaging and bumpers—and polyethylene, found in plastic bags, bottles, toys, and even mulch.</p>
-<p>Polypropylene and polyethylene can be recycled, but the process can be difficult and often produces large quantities of the greenhouse gas methane. They are both polyolefins, which are the products of polymerizing ethylene and propylene, raw materials that are mainly derived from fossil fuels. The bonds of polyolefins are also notoriously hard to break.</p>
-<p>Now, researchers at the University of California, Berkeley have come up with a method of recycling these polymers that uses catalysts that easily break their bonds, converting them into propylene and isobutylene, which are gases at room temperature. Those gases can then be recycled into new plastics.</p></div><p><a href="https://arstechnica.com/?p=2051605#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051605&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/science/2024/09/vaporizing-plastics-recycles-them-into-nothing-but-gas/feed/</wfw:commentRss>
-			<slash:comments>158</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>European leadership change means new adversaries for Big Tech</title>
-		<link>https://arstechnica.com/?p=2051513</link>
-					<comments>https://arstechnica.com/tech-policy/2024/09/european-leadership-change-means-new-adversaries-for-big-tech/#comments</comments>
-		
-		<dc:creator><![CDATA[WIRED]]></dc:creator>
-		<pubDate>Sat, 21 Sep 2024 11:05:32 +0000</pubDate>
-				<category><![CDATA[Policy]]></category>
-		<category><![CDATA[big tech]]></category>
-		<category><![CDATA[EU]]></category>
-		<category><![CDATA[European Commission]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[Thierry Breton]]></category>
-		<guid isPermaLink="false">https://arstechnica.com/?p=2051513</guid>
-
-					<description><![CDATA["Legislation has been adopted and now needs to be enforced."]]></description>
-										<content:encoded><![CDATA[<div id="rss-wrap">
-<figure class="intro-image intro-left">
-  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/03/eu-social-800x534.jpg" alt="European leadership change means new adversaries for Big Tech">
-      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/03/eu-social.jpg" class="enlarge-link" data-height="684" data-width="1024">Enlarge</a> </p>  </figure>
-
-
-
-
-
-
-<div><a name="page-1"></a></div>
-<p>If the past five years of EU tech rules could take human form, they would embody <a href="https://www.wired.com/story/thierry-breton-eu-commissioner/">Thierry Breton</a>. The bombastic commissioner, with his swoop of white hair, became the public face of Brussels’ irritation with American tech giants, touring Silicon Valley last summer to personally remind the industry of looming regulatory deadlines.</p>
-<p>Combative and outspoken, Breton warned that Apple had spent too long “<a href="https://www.wired.com/story/apple-hits-a-major-roadblock-as-eu-targets-app-store/">squeezing</a>” other companies out of the market. In a case against TikTok, he emphasized, “our children <a href="https://www.wired.com/story/meta-faces-fresh-probe-over-addictive-effect-on-kids/">are not guinea pigs</a> for social media.”  </p><div class="image shortcode-img right full"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/02/wired-logo.png"></div>
-<p>His confrontational attitude to the CEOs themselves was visible in his posts on X. In the lead-up to Musk’s interview with Donald Trump, Breton posted a vague but threatening <a href="https://x.com/ThierryBreton/status/1823033048109367549">letter</a> on his account reminding Musk there would be consequences if he used his platform to amplify “harmful content.” Last year, he published a photo <a href="https://x.com/ThierryBreton/status/1672361958262153219">with Mark Zuckerberg</a>, declaring a new EU motto of “move fast to fix things”—a jibe at the notorious early Facebook <a href="https://www.sec.gov/Archives/edgar/data/1326801/000119312512034517/d287954ds1.htm">slogan</a>. And in a 2023 meeting with Google CEO Sundar Pichai, Breton <a href="https://www.bloomberg.com/news/articles/2023-09-12/zuckerberg-musk-didn-t-think-eu-legislators-could-regulate-them-is-that-changi">reportedly</a> got him to agree to an “AI pact” on the spot, before <a href="https://x.com/ThierryBreton/status/1661362714030092289">tweeting the agreement</a>, making it difficult for Pichai to back out.</p></div><p><a href="https://arstechnica.com/?p=2051513#p3">Read 13 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=2051513&comments=1">Comments</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>https://arstechnica.com/tech-policy/2024/09/european-leadership-change-means-new-adversaries-for-big-tech/feed/</wfw:commentRss>
-			<slash:comments>180</slash:comments>
+			<slash:comments>43</slash:comments>
 		
 		
 			</item>
