@@ -4,7 +4,7 @@
     <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
     <link>https://arstechnica.com</link>
     <description>All Ars Technica stories</description>
-    <lastBuildDate>Wed, 09 Oct 2024 12:26:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2024 01:40:21 +0000</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>
       hourly    </sy:updatePeriod>
@@ -19,6 +19,623 @@
 	<height>32</height>
 </image> 
       <item>
+        <title>Archive.org, a repository storing the entire history of the Internet, has been hacked</title>
+        <link>https://arstechnica.com/information-technology/2024/10/archive-org-a-repository-storing-the-entire-history-of-the-internet-has-been-hacked/</link>
+                  <comments>https://arstechnica.com/information-technology/2024/10/archive-org-a-repository-storing-the-entire-history-of-the-internet-has-been-hacked/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Dan Goodin]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Oct 2024 00:12:56 +0000</pubDate>
+        		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/information-technology/2024/10/archive-org-a-repository-storing-the-entire-history-of-the-internet-has-been-hacked/</guid>
+
+                  <description>
+            <![CDATA[31 million records containing email addresses and passwords hashes exposed.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Archive.org, possibly one of the only entities to preserve the entire history of the Internet, was recently compromised in a hack that revealed data of roughly 31 million users.</p>
+<p>A little after 2 PM California time, social media blew up with screenshots showing what the archive.org homepage displayed.</p>
+<figure class="ars-img-shortcode id-2055426 align-center">
+    <div>
+                        <div class="ars-lightbox">
+            <div class="ars-lightbox-item">
+              <a data-pswp-width="756" data-pswp-height="412" data-pswp-srcset="https://cdn.arstechnica.net/wp-content/uploads/2024/10/archive-hack-300x163.png 300w, https://cdn.arstechnica.net/wp-content/uploads/2024/10/archive-hack-640x349.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2024/10/archive-hack.png 756w" data-cropped="true" href="https://cdn.arstechnica.net/wp-content/uploads/2024/10/archive-hack.png" target="_blank" class="cursor-zoom-in">
+                <img fetchpriority="high" decoding="async" width="756" height="412" src="https://cdn.arstechnica.net/wp-content/uploads/2024/10/archive-hack.png" class="attachment-full size-full" alt="" srcset="https://cdn.arstechnica.net/wp-content/uploads/2024/10/archive-hack.png 756w, https://cdn.arstechnica.net/wp-content/uploads/2024/10/archive-hack-300x163.png 300w, https://cdn.arstechnica.net/wp-content/uploads/2024/10/archive-hack-640x349.png 640w" sizes="(max-width: 756px) 100vw, 756px">
+              </a>
+              <div class="pswp-caption-content" id="caption-2055426">
+                
+                              </div>
+            </div>
+          </div>
+                  </div>
+      </figure>
+
+<p>It read:</p><p><a href="https://arstechnica.com/information-technology/2024/10/archive-org-a-repository-storing-the-entire-history-of-the-internet-has-been-hacked/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2024/10/archive-org-a-repository-storing-the-entire-history-of-the-internet-has-been-hacked/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>24</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2018/03/ledger-pwned-card-768x432.jpg" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2018/03/ledger-pwned-card-500x500.jpg" width="500"/>
+<media:credit>Saleem Rashid</media:credit></media:content>
+      </item>
+          <item>
+        <title>Maze of adapters, software patches gets a dedicated GPU working on a Raspberry Pi</title>
+        <link>https://arstechnica.com/gadgets/2024/10/maze-of-adapters-software-patches-gets-a-dedicated-gpu-working-on-a-raspberry-pi/</link>
+                  <comments>https://arstechnica.com/gadgets/2024/10/maze-of-adapters-software-patches-gets-a-dedicated-gpu-working-on-a-raspberry-pi/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Andrew Cunningham]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 22:48:17 +0000</pubDate>
+        		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[AMD]]></category>
+		<category><![CDATA[GPUs]]></category>
+		<category><![CDATA[Polaris]]></category>
+		<category><![CDATA[Radeon]]></category>
+		<category><![CDATA[Raspberry Pi]]></category>
+		<category><![CDATA[raspberry pi 5]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/10/maze-of-adapters-software-patches-gets-a-dedicated-gpu-working-on-a-raspberry-pi/</guid>
+
+                  <description>
+            <![CDATA[It's not a gaming powerhouse, but it's an interesting proof of concept.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Raspberry Pi owners have always been prone to coming up with elaborate, technically-interesting-but-practically-questionable projects, and Pi enthusiast Jeff Geerling has<a href="https://www.jeffgeerling.com/blog/2024/use-external-gpu-on-raspberry-pi-5-4k-gaming"> an exciting new submission to that canon</a>: an old AMD Radeon RX 460 GPU, connected to the Raspberry Pi 5's PCI Express bus and managing to play demanding titles like <em>Doom 3</em> (2004) and <em>Tux Racer </em>at a crisp 4K resolution.</p>
+<p>Geerling's maze of adapters, software tweaks, and workarounds is a testament both to his ingenuity and the flexibility of the Raspberry Pi and its ecosystem. By default, the Pi 5 provides a single PCI Express 2.0 lane for use with external accessories (most commonly M.2 SSDs for storage). Geerling uses an M.2 slot on the Pi and then connects it to an external GPU dock using an M.2-to-Oculink adapter. This gets the GPU connected to the Pi's PCIe bus.</p>
+<p>But there were other problems that had to be solved as well. The Pi's PCIe slot can only provide 5 W of power for external accessories, far short of the 75 W that a desktop graphics card would be able to get from a typical PCIe slot in a motherboard. Geerling needed to provide external power to both the GPU and to the slot itself to make sure that the RX 460 could draw all the power it needed to.</p><p><a href="https://arstechnica.com/gadgets/2024/10/maze-of-adapters-software-patches-gets-a-dedicated-gpu-working-on-a-raspberry-pi/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2024/10/maze-of-adapters-software-patches-gets-a-dedicated-gpu-working-on-a-raspberry-pi/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>19</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/pi-5-gpu-768x432.jpeg" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/pi-5-gpu-500x500-1728513211.jpeg" width="500"/>
+<media:credit>Jeff Geerling</media:credit><media:text>Pi enthusiast Jeff Geerling managed to connect an AMD Radeon RX 460 to a Raspberry Pi 5, and even got some games working. </media:text></media:content>
+      </item>
+          <item>
+        <title>Rapid analysis finds climate change’s fingerprint on Hurricane Helene</title>
+        <link>https://arstechnica.com/science/2024/10/helenes-carolina-rainfall-made-70-percent-more-likely-by-climate-change/</link>
+                  <comments>https://arstechnica.com/science/2024/10/helenes-carolina-rainfall-made-70-percent-more-likely-by-climate-change/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[John Timmer]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 21:50:46 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[atmospheric science]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[Earth science]]></category>
+		<category><![CDATA[hurricane helene]]></category>
+		<category><![CDATA[hurricanes]]></category>
+		<category><![CDATA[meteorology]]></category>
+		<category><![CDATA[Rainfall]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2024/10/helenes-carolina-rainfall-made-70-percent-more-likely-by-climate-change/</guid>
+
+                  <description>
+            <![CDATA[1.3&#176; C of warming means rainfall like this may now be expected every 70 years.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Hurricane Helene crossed the Gulf of Mexico at a time when sea surface temperatures were at record highs and then barreled into a region where heavy rains had left the ground saturated. The result was historic <a href="https://arstechnica.com/science/2024/09/were-only-beginning-to-understand-the-historic-nature-of-helenes-flooding/">catastrophic flooding</a>.</p>
+<p>One key question is how soon we might expect history to repeat itself. Our rapidly warming planet has tilted the odds in favor of some extreme weather events in a way that means we can expect some events that had been extremely rare to start occurring with some regularity. Our first stab at understanding climate change's influence on Helene was <a href="https://www.worldweatherattribution.org/climate-change-key-driver-of-catastrophic-impacts-of-hurricane-helene-that-devastated-both-coastal-and-inland-communities/">released on Wednesday</a>, and it suggests that rainfall of the sort experienced by the Carolinas may now be a once-in-70-year event, which could have implications for how we rebuild some of the communities shattered by the rain.</p>
+<h2>Rapid attribution</h2>
+<p>The quick analysis was done by the World Weather Attribution project, which has developed peer-reviewed methods of looking for the fingerprints of climate change in major weather events. In general, this involves identifying the key weather patterns that produced the event and then exploring their frequency using climate models run with and without the carbon dioxide we've added to the atmosphere.</p><p><a href="https://arstechnica.com/science/2024/10/helenes-carolina-rainfall-made-70-percent-more-likely-by-climate-change/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2024/10/helenes-carolina-rainfall-made-70-percent-more-likely-by-climate-change/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>18</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-2176083692-768x432.jpg" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-2176083692-500x500.jpg" width="500"/>
+<media:credit>Frank Ramspott</media:credit><media:text>3D render of a topographic map of the Gulf of Mexico from September 26, 2024. </media:text></media:content>
+      </item>
+          <item>
+        <title>Is China pulling ahead in AI video synthesis? We put Minimax to the test</title>
+        <link>https://arstechnica.com/ai/2024/10/is-china-pulling-ahead-in-ai-video-synthesis-we-put-minimax-to-the-test/</link>
+                  <comments>https://arstechnica.com/ai/2024/10/is-china-pulling-ahead-in-ai-video-synthesis-we-put-minimax-to-the-test/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Benj Edwards]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 21:33:34 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Ai video generator]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[Chinese AI]]></category>
+		<category><![CDATA[deepfake]]></category>
+		<category><![CDATA[deepfakes]]></category>
+		<category><![CDATA[image synthesis]]></category>
+		<category><![CDATA[KLING]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Minimax]]></category>
+		<category><![CDATA[Minimax video-01]]></category>
+		<category><![CDATA[princess mononoke]]></category>
+		<category><![CDATA[video synthesis]]></category>
+		<category><![CDATA[will smith]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/ai/2024/10/is-china-pulling-ahead-in-ai-video-synthesis-we-put-minimax-to-the-test/</guid>
+
+                  <description>
+            <![CDATA[With China's AI video generators pushing memes into weird territory, it was time to test one out.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>If 2022 was the year AI image generators <a href="https://arstechnica.com/information-technology/2022/12/please-slow-down-the-7-biggest-ai-stories-of-2022/">went mainstream</a>, 2024 has arguably been the year that AI <a href="https://arstechnica.com/tag/video-synthesis/">video synthesis models</a> exploded in capability. These models, while not yet perfect, can generate new videos from text descriptions called prompts, still images, or existing videos. After OpenAI made waves with <a href="https://arstechnica.com/information-technology/2024/02/openai-collapses-media-reality-with-sora-a-photorealistic-ai-video-generator/">Sora</a> in February, two major AI models emerged from China: Kuaishou Technology's <a href="https://kling.kuaishou.com/">Kling</a> and Minimax's video-01.</p>
+<p>Both Chinese models have already powered numerous viral AI-generated video projects, accelerating meme culture in <a href="https://www.reddit.com/r/aivideo/">weird new ways</a>, including a recent shot-for-shot translation of the <a href="https://x.com/PJaccetturo/status/1843737222031519910"><em>Princess Mononoke</em> trailer</a> using Kling that inspired death threats and a <a href="https://www.reddit.com/r/GordonRamsay/comments/1fxazzs/gordon_ramsay_ai/">series of videos</a> created with Minimax's platform. The videos show a synthesized version of TV chef Gordon Ramsay <a href="https://www.youtube.com/watch?v=zXh-tLmf7_M">doing ridiculous things</a>.</p>
+<div class="twitter-tweet"><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">After 22 million views and thousands of death threats, I felt like I needed to take this post down for my own mental health. <br>This trailer was an EXPERIMENT to show my 300 friends on X how far we've coming in 16 months.<br>I'm putting it back up to keep the conversation going. <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f9f5.png" alt="ð§µ" class="wp-smiley" style="height: 1em; max-height: 1em;"> <a href="https://t.co/tFpRPm9BMv">pic.twitter.com/tFpRPm9BMv</a></p>— PJ Ace (@PJaccetturo) <a href="https://twitter.com/PJaccetturo/status/1843737222031519910?ref_src=twsrc%5Etfw">October 8, 2024</a></blockquote></div>
+<p>Kling first emerged in June, and it can generate two minutes of 1080p HD video at 30 frames per second with a level of detail and coherency that some think surpasses Sora. It's currently only available to people with a Chinese telephone number, and we have not yet used it ourselves.</p><p><a href="https://arstechnica.com/ai/2024/10/is-china-pulling-ahead-in-ai-video-synthesis-we-put-minimax-to-the-test/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2024/10/is-china-pulling-ahead-in-ai-video-synthesis-we-put-minimax-to-the-test/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>12</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/still_shot-768x432.jpg" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/still_shot-500x500.jpg" width="500"/>
+<media:credit>Minimax</media:credit><media:text>A still shot from an AI-generated Minimax video-01 video with the prompt: "A highly-intelligent person reading 'Ars Technica' on their computer when the screen explodes"</media:text></media:content>
+      </item>
+          <item>
+        <title>Drug makers can’t make knockoff weight-loss drugs anymore—and they’re mad</title>
+        <link>https://arstechnica.com/health/2024/10/drug-makers-sue-fda-so-they-can-keep-making-knockoff-weight-loss-drugs/</link>
+                  <comments>https://arstechnica.com/health/2024/10/drug-makers-sue-fda-so-they-can-keep-making-knockoff-weight-loss-drugs/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Beth Mole]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 21:17:09 +0000</pubDate>
+        		<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[compounding pharmacy]]></category>
+		<category><![CDATA[fda]]></category>
+		<category><![CDATA[GLP-1]]></category>
+		<category><![CDATA[lilly]]></category>
+		<category><![CDATA[outsourcing facility]]></category>
+		<category><![CDATA[semaglutide]]></category>
+		<category><![CDATA[Tirzepatide]]></category>
+		<category><![CDATA[weight loss]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/health/2024/10/drug-makers-sue-fda-so-they-can-keep-making-knockoff-weight-loss-drugs/</guid>
+
+                  <description>
+            <![CDATA[Compounding pharmacies could make knockoffs during shortage. But FDA says it's over.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Compounding pharmacies are suing the Food and Drug Administration so they can keep making imitation versions of popular—and lucrative—tirzepatide drugs, namely knockoffs of Mounjaro for diabetes and Zepbound for weight loss.</p>
+<p>Generally, compounding pharmacies make customized formulations of drugs for patients with specific needs, like when a patient has an allergy to a filler ingredient or if a child needs a liquid version of a drug that normally comes as a capsule. But larger compounding operations are also legally allowed to make imitations of branded drugs if those drugs are in short supply, acting as a stopgap for patients.</p>
+<p>Tirzepatide has certainly been in short supply in recent years. Given the high prevalence of diabetes and obesity in America and the drug's effectiveness, demand for tirzepatide and other drugs in the new GLP-1 class have skyrocketed, and many patients have struggled to fill prescriptions. The FDA placed tirzepatide on its <a href="https://dps.fda.gov/drugshortages">drug shortage list</a> in December of 2022—and that's where it remained until last week.</p><p><a href="https://arstechnica.com/health/2024/10/drug-makers-sue-fda-so-they-can-keep-making-knockoff-weight-loss-drugs/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2024/10/drug-makers-sue-fda-so-they-can-keep-making-knockoff-weight-loss-drugs/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>49</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1245722172-768x432.jpg" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1245722172-500x500.jpg" width="500"/>
+<media:credit>Getty | Sandy Huffaker</media:credit><media:text> Mounjaro injection pen on display.</media:text></media:content>
+      </item>
+          <item>
+        <title>“Sticky” steering sparks huge recall for Honda, 1.7M cars affected</title>
+        <link>https://arstechnica.com/cars/2024/10/sticky-steering-sparks-huge-recall-for-honda-1-7m-cars-affected/</link>
+                  <comments>https://arstechnica.com/cars/2024/10/sticky-steering-sparks-huge-recall-for-honda-1-7m-cars-affected/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jonathan M. Gitlin]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 21:04:10 +0000</pubDate>
+        		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[auto recall]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/cars/2024/10/sticky-steering-sparks-huge-recall-for-honda-1-7m-cars-affected/</guid>
+
+                  <description>
+            <![CDATA[The problem affects a number of different Hondas built since 2021. ]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Honda is <a href="https://static.nhtsa.gov/odi/rcl/2024/RCLRPT-24V744-4093.PDF">recalling</a> almost 1.7 million vehicles due to a steering defect. An improperly made part can cause certain cars' steering to become "sticky"—never an attribute one wants in a moving vehicle.</p>
+<p>The problem affects a range of newer Hondas and an Acura; the earliest the defective parts were used on any vehicle was February 2021. But it applies to the following:</p>
+<ul style="list-style-type: disc;">
+<li>2022–2025 Honda Civic four-door</li>
+<li>2025 Honda Civic four-door hybrid</li>
+<li>2022–2025 Honda Civic five-door</li>
+<li>2025 Honda Civic five-door Hybrid</li>
+<li>2023–2025 Honda Civic Type-R</li>
+<li>2023–2025 Honda CR-V</li>
+<li>2023–2025 Honda CR-V Hybrid</li>
+<li>2025 Honda CR-V Fuel Cell Electric Vehicle</li>
+<li>2023–2025 Honda HR-V</li>
+<li>2023–2025 Acura Integra</li>
+<li>2024–2025 Acura Integra Type S</li>
+</ul>
+<p>Honda says that a combination of environmental heat, moisture, and "an insufficient annealing process and high load single unit break-in during production of the worm wheel" means there's too much pressure and not enough grease between the worm wheel and worm gear. On top of that, the worm gear spring isn't quite right, "resulting in higher friction and increased torque fluctuation when steering.</p><p><a href="https://arstechnica.com/cars/2024/10/sticky-steering-sparks-huge-recall-for-honda-1-7m-cars-affected/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2024/10/sticky-steering-sparks-huge-recall-for-honda-1-7m-cars-affected/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>20</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/05-2025-Honda-Civic-Hatchback-Sport-Touring-768x432-1728506910.jpg" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/05-2025-Honda-Civic-Hatchback-Sport-Touring-500x500-1728506901.jpg" width="500"/>
+<media:credit>Honda</media:credit></media:content>
+      </item>
+          <item>
+        <title>DOJ proposes breakup and other big changes to end Google search monopoly</title>
+        <link>https://arstechnica.com/tech-policy/2024/10/googles-ai-deals-could-hurt-its-search-monopoly-appeal-expert-says/</link>
+                  <comments>https://arstechnica.com/tech-policy/2024/10/googles-ai-deals-could-hurt-its-search-monopoly-appeal-expert-says/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ashley Belanger]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 20:16:04 +0000</pubDate>
+        		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[Antitrust law]]></category>
+		<category><![CDATA[chrome]]></category>
+		<category><![CDATA[duckduckgo]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google search monopoly]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Mozilla]]></category>
+		<category><![CDATA[online search industry]]></category>
+		<category><![CDATA[search engines]]></category>
+		<category><![CDATA[us department of justice]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/10/googles-ai-deals-could-hurt-its-search-monopoly-appeal-expert-says/</guid>
+
+                  <description>
+            <![CDATA[Google called the DOJ extending search remedies to AI "radical," an "overreach."]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>The US Department of Justice finally <a href="https://cdn.arstechnica.net/wp-content/uploads/2024/10/US-v-Google-DOJs-Proposed-Remedies-Framework-10-8-24.pdf">proposed</a> sweeping remedies to destroy <a href="https://arstechnica.com/tech-policy/2024/08/google-loses-dojs-big-monopoly-trial-over-search-business/">Google's search monopoly </a>late yesterday, and, predictably, Google is not loving any of it.</p>
+<p>On top of <a href="https://arstechnica.com/tech-policy/2024/08/all-the-possible-ways-to-destroy-googles-monopoly-in-search/">predictable asks</a>—like potentially requiring Google to share search data with rivals, restricting distribution agreements with browsers like Firefox and device makers like Apple, and breaking off Chrome or Android—the DOJ proposed remedies to keep Google from blocking competition in "the evolving search industry." And those extra steps threaten Google's stake in the nascent AI search world.</p>
+<p>This is only the first step in the remedies stage of litigation, but Google is already showing resistance to both expected and unexpected remedies that the DOJ proposed. In a <a href="https://blog.google/outreach-initiatives/public-policy/doj-search-remedies-framework/">blog</a> from Google's vice president of regulatory affairs, Lee-Anne Mulholland, the company accused the DOJ of "overreach," suggesting that proposed remedies are "radical" and "go far beyond the specific legal issues in this case."</p><p><a href="https://arstechnica.com/tech-policy/2024/10/googles-ai-deals-could-hurt-its-search-monopoly-appeal-expert-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2024/10/googles-ai-deals-could-hurt-its-search-monopoly-appeal-expert-says/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>102</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1415832512-768x432.jpg" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1415832512-500x500-1728499952.jpg" width="500"/>
+<media:credit>400tmax | iStock Unreleased</media:credit></media:content>
+      </item>
+          <item>
+        <title>Octopus suckers inspire new tech for gripping objects underwater</title>
+        <link>https://arstechnica.com/science/2024/10/octopus-suckers-inspire-new-tech-for-gripping-objects-underwater/</link>
+                  <comments>https://arstechnica.com/science/2024/10/octopus-suckers-inspire-new-tech-for-gripping-objects-underwater/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jennifer Ouellette]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 19:00:29 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[adhesives]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[biomimicry]]></category>
+		<category><![CDATA[cephalopods]]></category>
+		<category><![CDATA[materials science]]></category>
+		<category><![CDATA[octopuses]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2024/10/octopus-suckers-inspire-new-tech-for-gripping-objects-underwater/</guid>
+
+                  <description>
+            <![CDATA[New adhesive system could be powerful tool for underwater salvage, rescue operations.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Over the last few years, Virginia Tech scientists have been looking to the octopus for inspiration to design technologies that can better grip a wide variety of objects in underwater environments. Their latest breakthrough is a special switchable adhesive modeled after the shape of the animal's suckers, according to a new paper published in the journal Advanced Science.</p>
+<p>“I am fascinated with how an octopus in one moment can hold something strongly, then release it instantly. It does this underwater, on objects that are rough, curved, and irregular—that is quite a feat,”<a href="https://www.eurekalert.org/news-releases/1060480?"> said co-author and research group leader Michael Bartlett</a>. "We’re now closer than ever to replicating the incredible ability of an octopus to grip and manipulate objects with precision, opening up new possibilities for exploration and manipulation of wet or underwater environments.”</p>
+<p>As <a href="https://arstechnica.com/science/2022/07/octopus-inspired-octaglove-makes-it-easier-to-grip-objects-under-water/">previously reported</a>, there are several examples in nature of efficient ways to latch onto objects in underwater environments, per the authors. Mussels, for instance, secrete adhesive proteins to attach themselves to wet surfaces, while frogs have uniquely structured toe pads that create capillary and hydrodynamic forces for adhesion. But cephalopods like the octopus have an added advantage: The adhesion supplied by their grippers can be quickly and easily reversed, so the creatures can adapt to changing conditions, attaching to wet and dry surfaces.</p><p><a href="https://arstechnica.com/science/2024/10/octopus-suckers-inspire-new-tech-for-gripping-objects-underwater/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2024/10/octopus-suckers-inspire-new-tech-for-gripping-objects-underwater/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>12</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/octo1-768x432.jpg" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/octo1-500x500.jpg" width="500"/>
+<media:credit>Alex Parrish for Virginia Tech</media:credit><media:text>Gradute student Chanhong Lee tests the octopus-inspired sucker in the lab.</media:text></media:content>
+      </item>
+          <item>
+        <title>Google identifies low noise “phase transition” in its quantum processor</title>
+        <link>https://arstechnica.com/science/2024/10/google-identifies-low-noise-phase-transition-in-its-quantum-processor/</link>
+                  <comments>https://arstechnica.com/science/2024/10/google-identifies-low-noise-phase-transition-in-its-quantum-processor/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[John Timmer]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 17:58:28 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[error rate]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[NISQ]]></category>
+		<category><![CDATA[quantum computing]]></category>
+		<category><![CDATA[quantum mechanics]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2024/10/google-identifies-low-noise-phase-transition-in-its-quantum-processor/</guid>
+
+                  <description>
+            <![CDATA[Benchmark may help us understand how quantum computers can operate with low error.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Back in 2019, Google <a href="https://arstechnica.com/science/2019/09/paper-leaks-showing-a-quantum-computer-doing-something-a-supercomputer-cant/">made waves</a> by claiming it had achieved what has been called "quantum supremacy"—the ability of a quantum computer to perform operations that would take a wildly impractical amount of time to simulate on standard computing hardware. That claim proved to be controversial, in that the operations were little more than a benchmark that involved getting the quantum computer to behave like a quantum computer; separately, <a href="https://arstechnica.com/science/2021/11/math-may-have-caught-up-with-googles-quantum-supremacy-claims/">improved ideas</a> about how to perform the simulation on a supercomputer cut the time required down significantly.</p>
+<p>But Google is back with a new exploration of the benchmark, described in a paper published in Nature on Wednesday. It uses the benchmark to identify what it calls a phase transition in the performance of its quantum processor and uses it to identify conditions where the processor can operate with low noise. Taking advantage of that, they again show that, even giving classical hardware every potential advantage, it would take a supercomputer a dozen years to simulate things.</p>
+<h2>Cross entropy benchmarking</h2>
+<p>The benchmark in question involves the performance of what are called <a href="https://en.wikipedia.org/wiki/Quantum_random_circuits">quantum random circuits</a>, which involves performing a set of operations on qubits and letting the state of the system evolve over time, so that the output depends heavily on the stochastic nature of measurement outcomes in quantum mechanics. Each qubit will have a probability of producing one of two results, but unless that probability is one, there's no way of knowing which of the results you'll actually get. As a result, the output of the operations will be a string of truly random bits.</p><p><a href="https://arstechnica.com/science/2024/10/google-identifies-low-noise-phase-transition-in-its-quantum-processor/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2024/10/google-identifies-low-noise-phase-transition-in-its-quantum-processor/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>18</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/10/Sycamore-Rainbow-cropped-768x432.jpg" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2019/10/Sycamore-Rainbow-cropped-500x500.jpg" width="500"/>
+<media:credit>Google</media:credit><media:text>Google's Sycamore processor.</media:text></media:content>
+      </item>
+          <item>
+        <title>Thunderbird Android client is K-9 Mail reborn, and it’s in solid beta</title>
+        <link>https://arstechnica.com/gadgets/2024/10/thunderbird-android-client-is-k-9-mail-reborn-and-its-in-solid-beta/</link>
+                  <comments>https://arstechnica.com/gadgets/2024/10/thunderbird-android-client-is-k-9-mail-reborn-and-its-in-solid-beta/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kevin Purdy]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 17:01:54 +0000</pubDate>
+        		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[email client]]></category>
+		<category><![CDATA[email clients]]></category>
+		<category><![CDATA[gmail]]></category>
+		<category><![CDATA[K-9 Mail]]></category>
+		<category><![CDATA[Mozilla]]></category>
+		<category><![CDATA[mzla]]></category>
+		<category><![CDATA[plain text email]]></category>
+		<category><![CDATA[Thunderbird]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/10/thunderbird-android-client-is-k-9-mail-reborn-and-its-in-solid-beta/</guid>
+
+                  <description>
+            <![CDATA[Android's longtime refuge for simple, snappy email is almost Thunderbird.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Thunderbird's Android app, which is <a href="https://arstechnica.com/gadgets/2022/06/email-client-k-9-mail-will-become-thunderbird-for-android/">actually the K-9 Mail project reborn</a>, is almost out. You can check it out a bit early in a beta that will feel pretty robust to most users.</p>
+<p>Thunderbird, maintained by the Mozilla Foundation subsidiary MZLA, acquired the source code and naming rights to K-9 Mail, as <a href="https://blog.thunderbird.net/2022/06/revealed-thunderbird-on-android-plans-k9/">announced in June 2022</a>. The group also brought K-9 maintainer Christian Ketterer (or "cketti") onto the project. Their initial goals, before a full rebrand into Thunderbird, involved importing Thunderbird's automatic account setup, message filters, and mobile/desktop Thunderbird syncing.</p>
+<p>At the tail end of 2023, however, Ketterer wrote on K-9's blog that the punchlist of items before official Thunderbird-dom was <a href="https://k9mail.app/2023/12/28/When-will-Thunderbird-for-Android-be-released">taking longer than expected</a>. But when it's fully released, Thunderbird for Android will have those features. As such, beta testers are asked to <a href="https://blog.thunderbird.net/2024/09/help-us-test-the-thunderbird-for-android-beta/">check out a specific list of things</a> to see if they work, including automatic setup, folder management, and K-9-to-Thunderbird transfer. The beta will not be "addressing longstanding issues," Thunderbird's blog post notes.</p><p><a href="https://arstechnica.com/gadgets/2024/10/thunderbird-android-client-is-k-9-mail-reborn-and-its-in-solid-beta/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2024/10/thunderbird-android-client-is-k-9-mail-reborn-and-its-in-solid-beta/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>46</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/Screenshot_20241009-095452-768x432-1728492392.png" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/Screenshot_20241009-095452-500x500-1728492381.png" width="500"/>
+<media:credit>Kevin Purdy</media:credit></media:content>
+      </item>
+          <item>
+        <title>X reinstated in Brazil after Musk pays fines, agrees to follow local laws</title>
+        <link>https://arstechnica.com/tech-policy/2024/10/x-reinstated-in-brazil-after-musk-pays-fines-agrees-to-follow-local-laws/</link>
+                  <comments>https://arstechnica.com/tech-policy/2024/10/x-reinstated-in-brazil-after-musk-pays-fines-agrees-to-follow-local-laws/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jon Brodkin]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 16:51:36 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[brazil x]]></category>
+		<category><![CDATA[elon musk brazil]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/10/x-reinstated-in-brazil-after-musk-pays-fines-agrees-to-follow-local-laws/</guid>
+
+                  <description>
+            <![CDATA[X blocked accounts and paid $5 million in fines to get back online in Brazil.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Brazil's Supreme Court is allowing Elon Musk's X to resume operations, apparently ending a months-long battle after the social network paid over $5 million in fines and reluctantly agreed to suspend accounts accused of spreading disinformation.</p>
+<p>The court yesterday issued a <a href="https://noticias.stf.jus.br/postsnoticias/stf-autoriza-o-retorno-imediato-do-x-e-determina-que-anatel-adote-providencias-para-a-retomada-do-servico/">press release</a> announcing the reinstatement, saying that X has complied with all the orders it previously defied. Brazil Supreme Court Judge Alexandre de Moraes ordered that the suspension be ended and that telecom agency Anatel take steps to allow the platform's return.</p>
+<p>The dispute began in April, when X refused to suspend certain accounts belonging to supporters of former President Jair Bolsonaro. X, formerly Twitter, was banned in Brazil for over a month. Internet providers, <a href="https://arstechnica.com/tech-policy/2024/09/starlink-reluctantly-blocks-x-in-brazil-vows-to-keep-fighting-asset-freeze/" target="_blank" rel="noopener">including Musk's Starlink service,</a> were ordered to block the social network.</p><p><a href="https://arstechnica.com/tech-policy/2024/10/x-reinstated-in-brazil-after-musk-pays-fines-agrees-to-follow-local-laws/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2024/10/x-reinstated-in-brazil-after-musk-pays-fines-agrees-to-follow-local-laws/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>59</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/bolsonaro-musk-768x432.jpg" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/bolsonaro-musk-500x500.jpg" width="500"/>
+<media:credit>Getty Images | NurPhoto </media:credit><media:text>Supporters of former President Jair Bolsonaro participate in an event in the central area of Sao Paulo, Brazil, on September 7, 2024. Bolsonaro backers called for the impeachment of Supreme Court Justice Alexandre de Moraes.</media:text></media:content>
+      </item>
+          <item>
+        <title>GM ditches failed Ultium battery branding as its EV sales soar</title>
+        <link>https://arstechnica.com/cars/2024/10/general-motors-is-ditching-ultium-branding-for-its-ev-batteries/</link>
+                  <comments>https://arstechnica.com/cars/2024/10/general-motors-is-ditching-ultium-branding-for-its-ev-batteries/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jonathan M. Gitlin]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 16:26:45 +0000</pubDate>
+        		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[General Motors]]></category>
+		<category><![CDATA[Ultium]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/cars/2024/10/general-motors-is-ditching-ultium-branding-for-its-ev-batteries/</guid>
+
+                  <description>
+            <![CDATA[GM says it's time to embrace new cell formats and chemistries.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>General Motors is shaking up its electric vehicle strategy once again. Despite bumper EV sales in 2024, the US automaker told investors yesterday that it will stop <a href="https://arstechnica.com/cars/2020/03/general-motors-announces-new-battery-platform-claims-100kwh-soon/">branding its batteries under the Ultium name</a>. Perhaps more consequentially, it's also abandoning its one-cell-type-fits-all strategy and will embrace a wider range of cell chemistries and physical formats in forthcoming EVs.</p>
+<p>GM debuted the Ultium brand in March 2020 as part of a much-hyped EV plan that was supposed to see 22 new electric models on sale in the US by 2023. The company formed a $2.3 billion joint venture with LG Chem, called Ultium Cells LLC, and decided on a family of common batteries across its brands, using a nickel manganese cobalt aluminum chemistry in a pouch cell format that could be combined in modules for packs as small as 50 kWh or larger than 200 kWh, as found in the <a href="https://arstechnica.com/cars/2022/04/the-hummer-ev-is-an-electric-truck-for-people-who-think-evs-are-stupid/">Hummer</a> and <a href="https://arstechnica.com/cars/2022/01/chevrolet-shows-off-the-2024-silverado-ev-its-first-electric-pickup/">Silverado</a> EVs.</p>
+<p>Most importantly, GM chair and CEO Mary Barra said that Ultium cells would drop below the important $100/kWh barrier "early in the platform's life."</p><p><a href="https://arstechnica.com/cars/2024/10/general-motors-is-ditching-ultium-branding-for-its-ev-batteries/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2024/10/general-motors-is-ditching-ultium-branding-for-its-ev-batteries/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>139</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/2024-chevrolet-equinox-ev-lt-304-768x432.jpg" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/2024-chevrolet-equinox-ev-lt-304-500x500.jpg" width="500"/>
+<media:credit>General Motors</media:credit><media:text>With a starting price of $35,000 before the clean vehicle tax credit, the Equinox EV is the cheapest GM EV on sale, until the Bolt returns.</media:text></media:content>
+      </item>
+          <item>
+        <title>NOAA drops scientist’s ashes into the eye of Category 5 Milton</title>
+        <link>https://arstechnica.com/science/2024/10/scientists-ashes-dropped-into-hurricane-miltons-eye-as-final-tribute/</link>
+                  <comments>https://arstechnica.com/science/2024/10/scientists-ashes-dropped-into-hurricane-miltons-eye-as-final-tribute/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Benj Edwards]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 15:19:15 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[hurricane]]></category>
+		<category><![CDATA[Hurricane Milton]]></category>
+		<category><![CDATA[meteorology]]></category>
+		<category><![CDATA[milton]]></category>
+		<category><![CDATA[NOAA]]></category>
+		<category><![CDATA[NOAA Aircraft Operations Center]]></category>
+		<category><![CDATA[Peter Dodge]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[Weather]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2024/10/scientists-ashes-dropped-into-hurricane-miltons-eye-as-final-tribute/</guid>
+
+                  <description>
+            <![CDATA[Hurricane hunter Peter Dodge's last flight into the storms he spent his life studying.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>On Tuesday evening during a measurement flight, the NOAA Aircraft Operations Center <a href="https://x.com/MichaelRLowry/status/1843840572743921841">dropped</a> the ashes of Peter Dodge, a longtime radar scientist and hurricane hunter, in the eye of <a href="https://arstechnica.com/science/2024/10/hurricane-milton-becomes-second-fastest-storm-to-reach-category-5-status/">Hurricane Milton</a>. The drop honored Dodge's 44-year career and his contributions to radar meteorology and tropical cyclone research.</p>
+<p>As the powerful and dangerous storm bears down on Florida, the release of Dodge's ashes was an unusually peaceful moment during a type of flight that is <a href="https://x.com/noaa_hurrhunter/status/1843706785401843941?s=43">typically quite turbulent</a>. Michael Lowry, a Hurricane Specialist and Storm Surge Expert at WPLG-TV in Florida, <a href="https://x.com/MichaelRLowry/status/1843840572743921841">celebrated</a> the moment on X, calling it a "beautiful tribute."</p>
+<p>Lowry's post included a screenshot of a <a href="https://learningweather.psu.edu/node/66">Vortex Data Message</a>, which is a log of in-flight observations made by hurricane reconnaissance aircraft, detailing the storm's center location, pressure, wind speed, temperature, and other key meteorological data used to assess the intensity and structure of the cyclone. At the end, a tribute line reads, "PETER DODGE HX SCI (1950–2023) 387TH PENNY."</p><p><a href="https://arstechnica.com/science/2024/10/scientists-ashes-dropped-into-hurricane-miltons-eye-as-final-tribute/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2024/10/scientists-ashes-dropped-into-hurricane-miltons-eye-as-final-tribute/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>54</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/hurricane_milton_10-09-2024-768x432.png" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/hurricane_milton_10-09-2024-500x500.png" width="500"/>
+<media:credit>NOAA</media:credit><media:text>A satellite image of Hurricane Milton from 9:50 am ET on October 9, 2024.</media:text></media:content>
+      </item>
+          <item>
+        <title>Protein structure and design software gets the Chemistry Nobel</title>
+        <link>https://arstechnica.com/science/2024/10/protein-structure-and-design-software-gets-the-chemistry-nobel/</link>
+                  <comments>https://arstechnica.com/science/2024/10/protein-structure-and-design-software-gets-the-chemistry-nobel/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[John Timmer]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 14:55:58 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AlphaFold]]></category>
+		<category><![CDATA[biochemistry]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[computational chemistry]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[deepmind]]></category>
+		<category><![CDATA[evolution]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2024/10/protein-structure-and-design-software-gets-the-chemistry-nobel/</guid>
+
+                  <description>
+            <![CDATA[One academic and two people from DeepMind take home the Nobel.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>On Wednesday, the Nobel Committee announced that it had awarded the Nobel Prize in chemistry to researchers who pioneered major breakthroughs in computational chemistry. These include two researchers at Google's DeepMind in acknowledgment of their role in developing AI software that could take a raw protein sequence and use it to predict the three-dimensional structure the protein would adopt in cells. Separately, the University of Washington's David Baker was honored for developing software that could design entirely new proteins with specific structures.</p>
+<p>The award makes for a bit of a theme for this year, as yesterday's Physics prize <a href="https://arstechnica.com/ai/2024/10/in-stunning-nobel-win-ai-researchers-hopfield-and-hinton-take-2024-physics-prize/">honored AI developments</a>. In that case, the connection to physics seemed a bit tenuous, but here, there should be little question that the developments solved major problems in biochemistry.</p>
+<h2>Understanding protein structure</h2>
+<p>DeepMind, represented by Demis Hassabis and John Jumper, had developed AIs that managed to master games as diverse as <a href="https://arstechnica.com/gaming/2017/12/deepmind-ai-needs-mere-4-hours-of-self-training-to-become-a-chess-overlord/">chess</a> and <em><a href="https://arstechnica.com/science/2019/10/leveling-up-deepminds-alphastar-achieves-grandmaster-level-in-starcraft-ii/">StarCraft</a></em>. But it was always working on more significant problems in parallel, and in 2020, it surprised many people by announcing that it had tackled one of the biggest computational challenges in existence: <a href="https://arstechnica.com/science/2020/11/deepmind-ai-handles-protein-folding-which-humbled-previous-software/">the prediction of protein structures</a>.</p><p><a href="https://arstechnica.com/science/2024/10/protein-structure-and-design-software-gets-the-chemistry-nobel/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2024/10/protein-structure-and-design-software-gets-the-chemistry-nobel/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>42</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/Screenshot-2024-10-09-at-10.11.32 AM-e1728483237535-768x432.png" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/Screenshot-2024-10-09-at-10.11.32 AM-e1728483237535-500x500.png" width="500"/>
+<media:credit>Johan Jarnestad/The Royal Swedish Academy of Science</media:credit><media:text>The first human-designed protein that adopted a specific configuration.</media:text></media:content>
+      </item>
+          <item>
+        <title>Bankrupt Fisker says it can’t migrate its EVs to a new owner’s server</title>
+        <link>https://arstechnica.com/cars/2024/10/connected-car-failure-puts-kibosh-on-sale-of-3300-fisker-oceans/</link>
+                  <comments>https://arstechnica.com/cars/2024/10/connected-car-failure-puts-kibosh-on-sale-of-3300-fisker-oceans/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jonathan M. Gitlin]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 14:34:17 +0000</pubDate>
+        		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[connected cars]]></category>
+		<category><![CDATA[Fisker]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/cars/2024/10/connected-car-failure-puts-kibosh-on-sale-of-3300-fisker-oceans/</guid>
+
+                  <description>
+            <![CDATA[Fisker waited until Friday evening to tell the buyer about the problem.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Starting a new car company isn't easy—just ask Henrik Fisker, whose <a href="https://arstechnica.com/cars/2023/08/fisker-debuts-an-entire-range-of-new-evs-including-one-sub-30000/">second bite</a> at that particular cherry ended the same way as his first <a href="https://arstechnica.com/cars/2024/06/ev-firm-fisker-files-for-bankruptcy-months-after-it-stopped-making-the-ocean/">when it filed for bankruptcy</a> this July. At the time, Fisker said it wanted to try to "preserve certain customer programs," but Ars wondered what this actually meant, particularly now that electric vehicles are so dependent on software support and cloud connectivity. Now, thanks to <a href="https://www.veritaglobal.net/fisker/document/2411390241007000000000012">a recent court filing</a> spotted by <a href="https://techcrunch.com/2024/10/08/fisker-bankruptcy-hits-major-speed-bump-as-fleet-sale-is-now-in-question/">TechCrunch</a>, we know the answer: nothing good.</p>
+<p>Car publications <a href="https://www.edmunds.com/car-news/do-not-buy-a-new-fisker-ocean.html">were already warning consumers</a> to steer clear of the Ocean as early as this March, despite massive price cuts that saw these electric SUVs being offered for less than $25,000. A New York-based company called American Lease was less deterred by this warning and in June agreed to purchase the remaining Fisker inventory—approximately 3,300 cars for a total of $46.3 million dollars. By October, American Lease had paid Fisker $42.5 million and had taken delivery of about 1,100 Oceans.</p>
+<p>That was the plan until the end of last week, at least. Last Friday evening, Fisker informed American Lease that the Oceans "cannot, as a technical matter, be 'ported' from the Fisker server to which the vehicles are currently linked to a distinct server owned and/or controlled by" American Lease.</p><p><a href="https://arstechnica.com/cars/2024/10/connected-car-failure-puts-kibosh-on-sale-of-3300-fisker-oceans/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2024/10/connected-car-failure-puts-kibosh-on-sale-of-3300-fisker-oceans/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>210</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-2152918132-768x432.jpg" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-2152918132-500x500.jpg" width="500"/>
+<media:credit>Jay L. Clendenin/Getty Images</media:credit><media:text>Fisker's now-deserted offices in Manhattan Beach, California.</media:text></media:content>
+      </item>
+          <item>
+        <title>How foreign influence campaigns manipulate your social media feeds</title>
+        <link>https://arstechnica.com/tech-policy/2024/10/how-foreign-influence-campaigns-manipulate-your-social-media-feeds/</link>
+                  <comments>https://arstechnica.com/tech-policy/2024/10/how-foreign-influence-campaigns-manipulate-your-social-media-feeds/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Filippo Menczer, The Conversation]]>
+        </dc:creator>
+        <pubDate>Wed, 09 Oct 2024 13:32:33 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[bluesky]]></category>
+		<category><![CDATA[bots]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[foreign influence]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[social media]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[threads]]></category>
+		<category><![CDATA[X]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/10/how-foreign-influence-campaigns-manipulate-your-social-media-feeds/</guid>
+
+                  <description>
+            <![CDATA[Russians, Chinese, Iranians, and Israelis are trying to change your beliefs.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Foreign influence campaigns, or information operations, <a href="https://www.brennancenter.org/our-work/analysis-opinion/foreign-adversaries-are-targeting-2024-election">have been widespread</a> in the run-up to the 2024 US presidential election. Influence campaigns are large-scale efforts to shift public opinion, push false narratives, or change behaviors among a target population. <a href="https://apnews.com/article/russia-disinformation-foreign-influence-election-microsoft-7f802f9f4a0efe206fdaad29516b1f7f">Russia</a>, <a href="https://www.reuters.com/world/us/us-voters-targeted-by-chinese-influence-online-researchers-say-2024-09-03/">China</a>, <a href="https://www.politico.com/news/2024/09/12/justice-department-fbi-iran-trump-00178997">Iran</a>, <a href="https://www.npr.org/2024/07/09/nx-s1-4994027/israel-us-online-influence-campaign-gaza">Israel</a>, and other nations have run these campaigns by exploiting <a href="https://www.npr.org/2024/09/04/nx-s1-5100329/us-russia-election-interference-bots-2024">social bots</a>, <a href="https://apnews.com/article/russian-interference-presidential-election-influencers-trump-999435273dd39edf7468c6aa34fad5dd">influencers</a>, <a href="https://www.reuters.com/world/us/social-media-platforms-leave-alleged-russian-influence-network-largely-untouched-2024-09-06/">media companies</a>, and <a href="https://www.forbes.com/sites/jamesfarrell/2024/05/30/openai-disrupts-disinformation-campaigns-from-russia-china-using-its-systems-to-influence-public-opinion/">generative AI</a>.</p>
+<p>At the Indiana University <a href="https://osome.iu.edu/">Observatory on Social Media</a>, my colleagues <a href="https://scholar.google.com/citations?hl=en&amp;user=f_kGJwkAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">and I</a> study influence campaigns and design technical solutions—algorithms—<a href="http://doi.org/10.1140/epjds/s13688-017-0111-y">to detect</a> and counter them. <a href="http://doi.org/10.1609/icwsm.v15i1.18075">State-of-the-art methods</a> developed in our center use several indicators of this type of online activity, which researchers call inauthentic coordinated behavior. We identify clusters of social media accounts that post in a synchronized fashion, amplify the same groups of users, share identical sets of links, images or hashtags, or perform <a href="http://doi.org/10.1140/epjds/s13688-023-00410-9">suspiciously similar sequences of actions</a>.</p>
+<p>We have uncovered many examples of coordinated inauthentic behavior. For example, we found accounts that flood the network with tens or hundreds of thousands of posts in a single day. The same campaign can post a message with one account and then have other accounts that its organizers also control “like” and “unlike” it hundreds of times in a short time span. Once the campaign achieves its objective, all these messages can be <a href="http://doi.org/10.1609/icwsm.v16i1.19355">deleted to evade detection</a>. Using these tricks, foreign governments and their agents can manipulate social media algorithms that determine what is trending and what is engaging to decide what users see in their feeds.</p><p><a href="https://arstechnica.com/tech-policy/2024/10/how-foreign-influence-campaigns-manipulate-your-social-media-feeds/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2024/10/how-foreign-influence-campaigns-manipulate-your-social-media-feeds/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>104</slash:comments>
+        
+        
+        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/social-manipulation-768x432.jpg" width="768">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/social-manipulation-500x500.jpg" width="500"/>
+<media:credit>Sean Gladwell via Getty</media:credit><media:text>USA social media graphic illustration</media:text></media:content>
+      </item>
+          <item>
         <title>Two never-before-seen tools, from same group, infect air-gapped devices</title>
         <link>https://arstechnica.com/security/2024/10/two-never-before-seen-tools-from-same-group-infect-air-gapped-devices/</link>
                   <comments>https://arstechnica.com/security/2024/10/two-never-before-seen-tools-from-same-group-infect-air-gapped-devices/#comments</comments>
@@ -46,7 +663,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>8</slash:comments>
+                  <slash:comments>94</slash:comments>
         
         
         <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/unplugged-ethernet-cable-768x432.jpg" width="768">
@@ -81,7 +698,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>16</slash:comments>
+                  <slash:comments>124</slash:comments>
         
         
         <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2014/12/PIA19048europa950-768x432.jpg" width="768">
@@ -120,7 +737,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>95</slash:comments>
+                  <slash:comments>143</slash:comments>
         
         
         <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-605695785-768x432.jpg" width="768">
@@ -155,606 +772,12 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>76</slash:comments>
+                  <slash:comments>112</slash:comments>
         
         
         <media:content height="432" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/iCloud-web-apps-768x432.png" width="768">
 <media:thumbnail height="476" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/iCloud-web-apps-500x476.png" width="500"/>
 <media:credit>Apple</media:credit><media:text>The app picker in the iCloud.com interface.</media:text></media:content>
-      </item>
-          <item>
-        <title>Your doctor’s office could be reading your blood pressure all wrong</title>
-        <link>https://arstechnica.com/health/2024/10/your-doctors-office-could-be-reading-your-blood-pressure-all-wrong/</link>
-                  <comments>https://arstechnica.com/health/2024/10/your-doctors-office-could-be-reading-your-blood-pressure-all-wrong/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Beth Mole]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 20:23:21 +0000</pubDate>
-        		<category><![CDATA[Health]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[blood pressure]]></category>
-		<category><![CDATA[hypertension]]></category>
-		<category><![CDATA[JAMA]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/health/2024/10/your-doctors-office-could-be-reading-your-blood-pressure-all-wrong/</guid>
-
-                  <description>
-            <![CDATA[54 million US adults may be misdiagnosed with high BP based on bad readings.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Many people may be surprised to learn the proper procedure for taking a blood pressure reading—because of how different it is from what happens during their doctor's appointments.</p>
-<p>According to <a href="https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home">the American Heart Association</a> and <a href="https://www.ncbi.nlm.nih.gov/books/NBK482189/">other medical experts</a>, getting an accurate reading requires following a strict set of preparations: You must not eat, drink, exercise, or smoke within 30 minutes of a reading. You must have an empty bladder. You must sit straight up in a chair with back support. Your legs must be uncrossed and your feet must be flat on the ground. The arm to be measured must be rested on a flat surface so that it is at the same level as your heart, not lower, not higher. You must sit calmly, without talking for five minutes to relax before the reading. When it's time, an appropriately sized cuff should be wrapped around your bare upper arm, right above the elbow; it should never be wrapped over clothing. At least two readings should be taken, with the average recorded. Ideally, readings should be taken <a href="https://www.heart.org/en/news/2022/08/03/are-you-taking-blood-pressure-in-both-arms-you-should-study-finds">in both arms</a>, with the highest readings recorded.</p>
-<figure class="ars-img-shortcode id-2055108 align-center">
-    <div>
-                        <div class="ars-lightbox">
-            <div class="ars-lightbox-item">
-              <a data-pswp-width="1000" data-pswp-height="598" data-pswp-srcset="https://cdn.arstechnica.net/wp-content/uploads/2024/10/blood-pressure-readings-chart-English-300x179.jpg 300w, https://cdn.arstechnica.net/wp-content/uploads/2024/10/blood-pressure-readings-chart-English-640x383.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2024/10/blood-pressure-readings-chart-English-768x459.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2024/10/blood-pressure-readings-chart-English-980x586.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2024/10/blood-pressure-readings-chart-English.jpg 1000w" data-cropped="true" href="https://cdn.arstechnica.net/wp-content/uploads/2024/10/blood-pressure-readings-chart-English.jpg" target="_blank" class="cursor-zoom-in">
-                <img loading="lazy" decoding="async" width="1000" height="598" src="https://cdn.arstechnica.net/wp-content/uploads/2024/10/blood-pressure-readings-chart-English.jpg" class="attachment-full size-full" alt="" srcset="https://cdn.arstechnica.net/wp-content/uploads/2024/10/blood-pressure-readings-chart-English.jpg 1000w, https://cdn.arstechnica.net/wp-content/uploads/2024/10/blood-pressure-readings-chart-English-300x179.jpg 300w, https://cdn.arstechnica.net/wp-content/uploads/2024/10/blood-pressure-readings-chart-English-640x383.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2024/10/blood-pressure-readings-chart-English-768x459.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2024/10/blood-pressure-readings-chart-English-980x586.jpg 980w" sizes="(max-width: 1000px) 100vw, 1000px">
-              </a>
-              <div class="pswp-caption-content" id="caption-2055108">
-                
-                                  <div class="ars-gallery-caption-credit">
-                    Credit:
-                                          <a href="https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home?gad_source=1&amp;amp;gclid=Cj0KCQjwsJO4BhDoARIsADDv4vBMy6PT70V2cyNV0eKlNk_eZcy3UT2BXbaEbTSrAXiPsHW_MBEXH4caAhhJEALw_wcB" target="_blank">American Heart Association</a>
-                                      </div>
-                              </div>
-            </div>
-          </div>
-                  </div>
-      </figure>
-
-<p>Deviations from this protocol have the potential to significantly alter your blood pressure reading—and your blood pressure category. For instance, putting the blood pressure cuff over clothing can raise your reading <a href="https://www.ncbi.nlm.nih.gov/books/NBK482189/">as much as 50 mm Hg</a>. That's enough to make someone with early stage hypertension seem as if they're in a hypertensive crisis, at imminent risk of a stroke or heart attack. If you have to pee, the reading can be 15 mm Hg higher. Talking can raise it by 10 mm Hg.</p><p><a href="https://arstechnica.com/health/2024/10/your-doctors-office-could-be-reading-your-blood-pressure-all-wrong/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2024/10/your-doctors-office-could-be-reading-your-blood-pressure-all-wrong/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>121</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1170089149-768x432.jpg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1170089149-500x500.jpg" width="500"/>
-<media:text>Senior man checking his blood pressure</media:text></media:content>
-      </item>
-          <item>
-        <title>Alleged Switch modder takes on Nintendo’s legal might without a lawyer</title>
-        <link>https://arstechnica.com/gaming/2024/10/accused-switch-modder-represents-himself-as-nintendo-lawsuit-moves-forward/</link>
-                  <comments>https://arstechnica.com/gaming/2024/10/accused-switch-modder-represents-himself-as-nintendo-lawsuit-moves-forward/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kyle Orland]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 19:50:07 +0000</pubDate>
-        		<category><![CDATA[Gaming]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gaming/2024/10/accused-switch-modder-represents-himself-as-nintendo-lawsuit-moves-forward/</guid>
-
-                  <description>
-            <![CDATA[Pro se legal filing denies all of Nintendo's accusations, offers some novel defenses.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>When faced with a legal threat from Nintendo, most alleged <a href="https://arstechnica.com/gaming/2020/06/nintendo-issues-cease-and-desist-for-switch-modchip-installation-service/">modders</a>, <a href="https://arstechnica.com/gaming/2021/06/former-rom-site-owner-must-pay-2-1-million-to-nintendo/">ROM pirates</a>, and/or <a href="https://arstechnica.com/gaming/2024/10/switch-emulator-ryujinx-shuts-down-development-after-contact-by-nintendo/">emulator makers</a> will simply <a href="https://arstechnica.com/gaming/2016/12/nintendo-sends-cease-and-desist-notice-to-pokemon-rom-hacker/">give in to a cease-and-desist demand</a>, <a href="https://arstechnica.com/gaming/2024/03/switch-emulator-makers-agree-to-pay-2-4-million-to-settle-nintendo-lawsuit/">reach an out of court settlement</a>, or <a href="https://arstechnica.com/gaming/2021/11/hacker-will-pay-nintendo-4-5-million-in-team-xecuter-plea-bargain/">plead guilty</a> rather than hiring legal representation for what could be a lengthy, costly trial. Then there's Ryan Daly, alleged owner of ModdedHardware.com, who has apparently decided to represent himself as a recent lawsuit brought against him by the Switch maker moves forward.</p>
-<p>Nintendo says it first approached Daly in March about his site (currently password-protected but <a href="https://web.archive.org/web/20240504061109/https://www.moddedhardware.com/">archived here</a>) and its sales of modded Switch consoles, console modding services, and piracy-enabling devices such as the MIG Switch card that were pre-installed with popular Nintendo games. At that time, Daly agreed "both verbally and in signed writing" to refrain from these infringing sales, according to Nintendo. It was only after months of Daly continuing those sales and largely ignoring further contact from Nintendo that the company says it was forced to file <a href="https://cdn.arstechnica.net/wp-content/uploads/2024/10/nintendo-modded.pdf">its June lawsuit</a> in a Seattle federal court.</p>
-<p>In that initial lawsuit, Nintendo said it "received a communication from a lawyer purporting to represent [Daly]" in June, followed by a message days later that Daly "was in the process of obtaining new counsel." That search for new counsel has seemingly not moved forward, as last week Daly <a href="https://cdn.arstechnica.net/wp-content/uploads/2024/10/daly-response.pdf">filed a pro se response</a> to Nintendo's allegations, representing himself without any outside legal advice (thanks, <a href="https://torrentfreak.com/modded-hardware-defendant-denies-nintendos-copyright-claims-in-court-241006/">TorrentFreak</a>).</p><p><a href="https://arstechnica.com/gaming/2024/10/accused-switch-modder-represents-himself-as-nintendo-lawsuit-moves-forward/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2024/10/accused-switch-modder-represents-himself-as-nintendo-lawsuit-moves-forward/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>79</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/sxpro-768x432.png" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/sxpro-500x500.png" width="500"/>
-<media:credit>Team Xeceuter</media:credit><media:text>A prototype SX Core device soldered to a Nintendo Switch motherboard.</media:text></media:content>
-      </item>
-          <item>
-        <title>Disney likely axed The Acolyte because of soaring costs</title>
-        <link>https://arstechnica.com/culture/2024/10/the-acolytes-bloated-budget-contributed-to-its-axing/</link>
-                  <comments>https://arstechnica.com/culture/2024/10/the-acolytes-bloated-budget-contributed-to-its-axing/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jennifer Ouellette]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 19:40:06 +0000</pubDate>
-        		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[disney plus]]></category>
-		<category><![CDATA[entertainment]]></category>
-		<category><![CDATA[Star Wars]]></category>
-		<category><![CDATA[streaming television]]></category>
-		<category><![CDATA[The Acolyte]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/culture/2024/10/the-acolytes-bloated-budget-contributed-to-its-axing/</guid>
-
-                  <description>
-            <![CDATA[The Star Wars spinoff's costs topped $230.1 million halfway through post-production.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>We had mixed feelings about <a href="https://deadline.com/2024/08/the-acolyte-canceled-no-season-2-star-wars-disney-plus-1236044233/">the news</a> in August that Disney+ had cancelled its Star Wars spinoff series <em>The Acolyte</em> after just one season. At the time, it seemed steadily declining ratings <a href="https://arstechnica.com/culture/2024/08/disney-cancels-the-acolyte-after-one-season/">were to blame</a>, particularly given the high production costs. More <a href="https://www.forbes.com/sites/carolinereid/2024/09/26/disney-reveals-star-wars-show-the-acolyte-was-over-budget-at-230-million/">budgetary details</a> have trickled out since then, indicating that the streaming series spent far more than previously reported, topping $230.1 million—roughly $28.7 million per episode—before post-production had even been completed. That's significantly more than the original $180 million reported budget, or about $22.5 million per episode.</p>
-<p>The show received solid-to-lukewarm critical reviews, although a review-bombing campaign hurt the series' standing on Rotten Tomatoes among user reviews. As we <a href="https://arstechnica.com/culture/2024/08/disney-cancels-the-acolyte-after-one-season/">previously noted</a>, from the start, <em>The Acolyte</em> was a bit of a departure from a typical Star Wars series, weaving in elements from <em>wuxia</em> films and detective stories while <a href="https://arstechnica.com/culture/2024/06/star-wars-behind-the-scenes-creating-the-unique-aesthetic-of-the-acolyte/">remaining true</a> to the established Star Wars aesthetic and design. That alone made it an intriguing effort, with fresh characters and new takes on classic Star Wars lore. And the martial arts-inspired fight choreography was clever and fun to watch—especially in the shocking, action-packed fifth episode ("Night").</p>
-<p>But there were some obvious shortcomings as well, most notably the clunky dialogue—although that's kind of a long-standing attribute of the Star Wars franchise. The pacing lagged at times, and there was a surprisingly high body count among the central characters. All these contributed to the lukewarm critical reviews.</p><p><a href="https://arstechnica.com/culture/2024/10/the-acolytes-bloated-budget-contributed-to-its-axing/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2024/10/the-acolytes-bloated-budget-contributed-to-its-axing/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>136</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/acolyte-TOP-768x432.jpg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/acolyte-TOP-500x500.jpg" width="500"/>
-<media:credit>Disney+</media:credit><media:text>A mysterious assassin is targeting Jedi masters in &lt;em&gt;The Acolyte&lt;/em&gt;.</media:text></media:content>
-      </item>
-          <item>
-        <title>Samsung quits updating Galaxy Z Fold 2 that came out in 2020 for $2,000</title>
-        <link>https://arstechnica.com/gadgets/2024/10/samsung-foldable-that-debuted-at-2k-in-2020-stops-receiving-security-updates/</link>
-                  <comments>https://arstechnica.com/gadgets/2024/10/samsung-foldable-that-debuted-at-2k-in-2020-stops-receiving-security-updates/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Scharon Harding]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 19:31:37 +0000</pubDate>
-        		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[foldable]]></category>
-		<category><![CDATA[foldable phone]]></category>
-		<category><![CDATA[Samsung]]></category>
-		<category><![CDATA[samsung galaxy]]></category>
-		<category><![CDATA[smartphones]]></category>
-		<category><![CDATA[software]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/10/samsung-foldable-that-debuted-at-2k-in-2020-stops-receiving-security-updates/</guid>
-
-                  <description>
-            <![CDATA[Newer Samsung Galaxy phones are promised seven years of updates. ]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Samsung is no longer providing software or security updates for the Galaxy Z Fold 2 foldable smartphone that it <a href="https://arstechnica.com/gadgets/2020/09/samsungs-galaxy-z-fold-2-is-official-its-2000-and-ships-9-18/">released</a> in September 2020.</p>
-<p><a href="https://arstechnica.com/gadgets/2020/08/samsungs-galaxy-z-fold-2-is-official-comes-with-a-ton-of-improvements/">Highly anticipated</a> ahead of its full unveiling, the Z Fold 2 released with a Qualcomm Snapdragon 865+, 12GB of RAM, 256GB of UFS 3.1 storage, and a 4500 mAh battery. The phone’s hallmark is, of course, a foldable 7.6-inch OLED screen with 2208×1768 pixels running at a refresh rate of up to 120 Hz. Surpassing its predecessor, the Fold 2’s outside screen is 6.2 inches (2260×816 pixels), compared to the Fold 1’s 4.6 inches. The Fold 2 also introduced<a href="https://arstechnica.com/gadgets/2020/08/xiaomis-third-generation-under-display-camera-looks-nearly-invisible/"> under-screen cameras</a> to Samsung devices.</p>
-<p>With the Fold 1 having <a href="https://arstechnica.com/gadgets/2020/01/samsung-galaxy-fold-review-the-future-is-an-ugly-disappointment/">serious durability problems</a>, the Fold 2 represented another chance for Samsung. And Samsung continued with the line in 2021 in the form of the cheaper ($1,800 upon release) <a href="https://arstechnica.com/gadgets/2021/08/samsung-foldables-lineup-is-official-1799-for-the-fold-3-999-for-flip-3/">Galaxy Z Fold 3</a>. Samsung is now up to its <a href="https://arstechnica.com/gadgets/2024/07/the-galaxy-z-fold-flip-6-are-not-as-exciting-to-samsung-as-galaxy-ai/">sixth iteration of the Galaxy Z Fold</a>, which came out in July for $1,900.</p><p><a href="https://arstechnica.com/gadgets/2024/10/samsung-foldable-that-debuted-at-2k-in-2020-stops-receiving-security-updates/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2024/10/samsung-foldable-that-debuted-at-2k-in-2020-stops-receiving-security-updates/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>47</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/08/02_galaxyzfold2_mysticbronze_back115-768x432.jpg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/08/02_galaxyzfold2_mysticbronze_back115-500x500.jpg" width="500"/>
-<media:credit>Samsung</media:credit><media:text>Samsung's Galaxy Z Fold 2.</media:text></media:content>
-      </item>
-          <item>
-        <title>SpaceX’s next Starship launch—and first catch—could happen this weekend</title>
-        <link>https://arstechnica.com/science/2024/10/spacexs-next-starship-launch-and-first-catch-could-happen-this-weekend/</link>
-                  <comments>https://arstechnica.com/science/2024/10/spacexs-next-starship-launch-and-first-catch-could-happen-this-weekend/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Stephen Clark]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 19:22:01 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Commercial space]]></category>
-		<category><![CDATA[Federal Aviation Administration]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[Starbase]]></category>
-		<category><![CDATA[starship]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/science/2024/10/spacexs-next-starship-launch-and-first-catch-could-happen-this-weekend/</guid>
-
-                  <description>
-            <![CDATA[The FAA is still reviewing plans for the fifth Starship test flight, but could approve it soon.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>We may not have to wait as long as we thought for the next test flight of SpaceX's Starship rocket.</p>
-<p>The world's most powerful launcher could fly again as soon as Sunday, SpaceX says, assuming the Federal Aviation Administration grants approval. The last public statement released from the FAA suggested the agency didn't expect to determine whether to approve a commercial launch license for SpaceX's next Starship test flight before late November.</p>
-<p>There's some optimism at SpaceX that the FAA might issue a launch license much sooner, perhaps in time for Starship to fly this weekend. The launch window Sunday opens at 7 am CDT (8 am EDT; 12:00 UTC), about a half-hour before sunrise at SpaceX's Starbase launch site in South Texas.</p><p><a href="https://arstechnica.com/science/2024/10/spacexs-next-starship-launch-and-first-catch-could-happen-this-weekend/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2024/10/spacexs-next-starship-launch-and-first-catch-could-happen-this-weekend/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>123</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/starshipflight5_pre1-768x432.jpeg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/starshipflight5_pre1-500x500.jpeg" width="500"/>
-<media:credit>SpaceX</media:credit><media:text>SpaceX's fully-stacked Super Heavy booster and Starship upper stage at the company's launch site in South Texas.</media:text></media:content>
-      </item>
-          <item>
-        <title>Winamp really whips open source coders into frenzy with its source release</title>
-        <link>https://arstechnica.com/gadgets/2024/10/winamp-really-whips-open-source-coders-into-frenzy-with-its-source-release/</link>
-                  <comments>https://arstechnica.com/gadgets/2024/10/winamp-really-whips-open-source-coders-into-frenzy-with-its-source-release/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kevin Purdy]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 18:35:35 +0000</pubDate>
-        		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[git]]></category>
-		<category><![CDATA[GitHub]]></category>
-		<category><![CDATA[GPL]]></category>
-		<category><![CDATA[GPL infringement]]></category>
-		<category><![CDATA[llama group]]></category>
-		<category><![CDATA[shoutcast]]></category>
-		<category><![CDATA[source code]]></category>
-		<category><![CDATA[winamp]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/10/winamp-really-whips-open-source-coders-into-frenzy-with-its-source-release/</guid>
-
-                  <description>
-            <![CDATA[Winamp wanted to engage coders, but not like this.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>It's been a while since most of us used or just <a href="https://arstechnica.com/information-technology/2017/07/winamp-how-greatest-mp3-player-undid-itself/">thought about Winamp</a>. But now there is a whole lot going on with the MP3 player of yore, mostly due to a remarkably chaotic source code release.</p>
-<p>As previously <a href="https://about.winamp.com/press/article/winamp-open-source-code">announced</a>, Winamp, through its Belgian owner Llama Group, provided "the Legacy Player Code" on September 24 so that developers could "contribute their expertise, ideas, and passion to help this iconic software evolve."</p>
-<p>The code was made available, but not very open. Under the "<a href="https://github.com/WinampDesktop/winamp?tab=License-1-ov-file#readme">Winamp Collaborative License (WCL) Version 1.0.1</a>," you may not "distribute modified versions of the software" in source or binary, and "only the maintainers of the official repository are allowed to distribute the software and its modifications." Anyone may contribute, in other words, but only to Winamp's benefit.</p><p><a href="https://arstechnica.com/gadgets/2024/10/winamp-really-whips-open-source-coders-into-frenzy-with-its-source-release/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2024/10/winamp-really-whips-open-source-coders-into-frenzy-with-its-source-release/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>123</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/llama_face-768x432.jpg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/llama_face-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>The cheekiness of this llama, namesake and rallying cry for Winamp, matches the cheekiness of the Winamp "Collaborative" License.</media:text></media:content>
-      </item>
-          <item>
-        <title>Judge orders Google to distribute third-party app stores on Google Play</title>
-        <link>https://arstechnica.com/tech-policy/2024/10/judge-orders-google-to-distribute-third-party-app-stores-on-google-play/</link>
-                  <comments>https://arstechnica.com/tech-policy/2024/10/judge-orders-google-to-distribute-third-party-app-stores-on-google-play/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jon Brodkin]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 17:15:24 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Epic Games]]></category>
-		<category><![CDATA[google play store]]></category>
-		<category><![CDATA[google play store injunction]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/10/judge-orders-google-to-distribute-third-party-app-stores-on-google-play/</guid>
-
-                  <description>
-            <![CDATA[Injunction in Epic case gives rival app stores three years to catch up to Google.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>A federal judge yesterday ordered Google to open up the Google Play Store and its collection of apps to third-party app stores as part of a US-wide injunction stemming from Epic Games' <a href="https://arstechnica.com/gaming/2023/12/googles-android-app-store-monopoly-violates-antitrust-law-jury-finds/">antitrust victory</a> over the company. The injunction is scheduled to take effect on November 1, though Google will have up to eight months to implement certain provisions.</p>
-<p>For three years, Google will have to let third-party Android app stores access the Google Play Store's catalog of apps "so that they may offer the Play Store apps to users," said the <a href="https://storage.courtlistener.com/recap/gov.uscourts.cand.373179/gov.uscourts.cand.373179.1017.0_3.pdf">injunction</a> issued by US District Judge James Donato of the Northern District of California.</p>
-<p>App developers will have some control over which app stores their software is distributed on. "Google will provide developers with a mechanism for opting out of inclusion in catalog access for any particular third-party Android app store," the injunction said.</p><p><a href="https://arstechnica.com/tech-policy/2024/10/judge-orders-google-to-distribute-third-party-app-stores-on-google-play/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2024/10/judge-orders-google-to-distribute-third-party-app-stores-on-google-play/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>115</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/google-play-768x432.jpg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/google-play-500x500-1728406177.jpg" width="500"/>
-<media:text>Google Play gift cards in a shop in New York on July 5th, 2024.</media:text></media:content>
-      </item>
-          <item>
-        <title>Apple kicked Musi out of the App Store based on YouTube lie, lawsuit says</title>
-        <link>https://arstechnica.com/tech-policy/2024/10/controversial-spotify-rival-musi-sues-apple-over-shady-youtube-takedown/</link>
-                  <comments>https://arstechnica.com/tech-policy/2024/10/controversial-spotify-rival-musi-sues-apple-over-shady-youtube-takedown/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ashley Belanger]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 17:01:53 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[App Store]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[apple developer agreement]]></category>
-		<category><![CDATA[intellectual property law]]></category>
-		<category><![CDATA[iphone]]></category>
-		<category><![CDATA[iPhone app]]></category>
-		<category><![CDATA[musi app]]></category>
-		<category><![CDATA[music app]]></category>
-		<category><![CDATA[music streaming]]></category>
-		<category><![CDATA[YouTube]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/10/controversial-spotify-rival-musi-sues-apple-over-shady-youtube-takedown/</guid>
-
-                  <description>
-            <![CDATA[Popular music app says YouTube never justified its App Store takedown request.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Musi, a free music-streaming app only available on iPhone, <a href="https://cdn.arstechnica.net/wp-content/uploads/2024/10/Musi-v-Apple-Complaint-10-2-24.pdf">sued</a> Apple last week, arguing that Apple breached Musi's developer agreement by abruptly removing the app from its App Store for no good reason.</p>
-<p>According to Musi, Apple decided to remove Musi from the App Store based on allegedly "unsubstantiated" claims from YouTube that Musi was infringing on YouTube's intellectual property. The removal came, Musi alleged, based on a five-word complaint from YouTube that simply said Musi was "violating YouTube terms of service"—without ever explaining how. And YouTube also lied to Apple, Musi's complaint said, by claiming that Musi neglected to respond to YouTube's efforts to settle the dispute outside the App Store when Musi allegedly showed evidence that the opposite was true.</p>
-<p>For years, Musi users have <a href="https://www.reddit.com/r/Music/comments/plpn29/is_the_app_musi_legal/">wondered if the service was legal</a>, Wired <a href="https://www.wired.com/story/free-music-streaming-app-musi-too-good-to-be-true/">reported</a> in a May deep dive into the controversial app. Musi launched in 2016, providing a free, stripped-down service like Spotify by displaying YouTube and other publicly available content while running Musi's own ads.</p><p><a href="https://arstechnica.com/tech-policy/2024/10/controversial-spotify-rival-musi-sues-apple-over-shady-youtube-takedown/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2024/10/controversial-spotify-rival-musi-sues-apple-over-shady-youtube-takedown/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>47</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1844985977-768x432.jpg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1844985977-500x500.jpg" width="500"/>
-<media:credit>Andrii Sedykh | iStock / Getty Images Plus</media:credit></media:content>
-      </item>
-          <item>
-        <title>Injured comb jellies can fuse into a single organism</title>
-        <link>https://arstechnica.com/science/2024/10/injured-comb-jellies-can-fuse-into-a-single-organism/</link>
-                  <comments>https://arstechnica.com/science/2024/10/injured-comb-jellies-can-fuse-into-a-single-organism/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jacek Krywko]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 16:38:09 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[comb jellies]]></category>
-		<category><![CDATA[ctenophores]]></category>
-		<category><![CDATA[developmental biology]]></category>
-		<category><![CDATA[evolution]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/science/2024/10/injured-comb-jellies-can-fuse-into-a-single-organism/</guid>
-
-                  <description>
-            <![CDATA[Ctenophores merge with neighbors at wound sites, making animals with duplicate parts.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Comb jellies, technically known as ctenophores, are one of the weirdest creatures on Earth. They appeared in the seas over half a billion years ago and have maintained to the present day the comb-like rows of cilia they used to move around. Their transparent bodies and internal bioluminescence give them looks that rival gaming computers. But there’s something that makes them even weirder.</p>
-<p>When a comb jelly is injured, it can regenerate at an amazing rate. But it can also attach a body part of another injured comb jelly and integrate it near-seamlessly into its own body. (Those who have played <em>Elden Ring</em> can enjoy comparisons to Godrick The Grafted.)</p>
-<p>“I’ve been observing ctenophores for a long time, so it was easy to spot an unusually large specimen. Some of the anatomical features were doubled, so I realized what I’m looking at is actually two individuals that have fused together,” said Kei Jokura, a marine researcher at the University of Exeter and lead author of a recent Current Biology paper on the integration of fused ctenophores.</p><p><a href="https://arstechnica.com/science/2024/10/injured-comb-jellies-can-fuse-into-a-single-organism/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2024/10/injured-comb-jellies-can-fuse-into-a-single-organism/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>29</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1471271102-768x432.jpg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1471271102-500x500.jpg" width="500"/>
-<media:credit>Yiming Chen</media:credit></media:content>
-      </item>
-          <item>
-        <title>In stunning Nobel win, AI researchers Hopfield and Hinton take 2024 Physics Prize</title>
-        <link>https://arstechnica.com/ai/2024/10/in-stunning-nobel-win-ai-researchers-hopfield-and-hinton-take-2024-physics-prize/</link>
-                  <comments>https://arstechnica.com/ai/2024/10/in-stunning-nobel-win-ai-researchers-hopfield-and-hinton-take-2024-physics-prize/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Benj Edwards]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 15:17:37 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[artificial neural networks]]></category>
-		<category><![CDATA[Geoffrey Hinton]]></category>
-		<category><![CDATA[John Hopfield]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[neural networks]]></category>
-		<category><![CDATA[Nobel prize]]></category>
-		<category><![CDATA[Royal Swedish Academy of Sciences]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[sweden]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/ai/2024/10/in-stunning-nobel-win-ai-researchers-hopfield-and-hinton-take-2024-physics-prize/</guid>
-
-                  <description>
-            <![CDATA[Hinton, who quit Google in 2023 to warn of AI dangers, was "flabbergasted" at the news.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>On Tuesday, the Royal Swedish Academy of Sciences <a href="https://www.nobelprize.org/prizes/physics/2024/press-release/">awarded</a> the 2024 Nobel Prize in Physics to John J. Hopfield of Princeton University and Geoffrey E. Hinton of the University of Toronto for their foundational work in machine learning with artificial neural networks. Hinton notably captured headlines in 2023 for <a href="https://arstechnica.com/information-technology/2023/05/warning-of-ais-danger-pioneer-geoffrey-hinton-quits-google-to-speak-freely/">warning</a> about the threat that AI superintelligence may pose to humanity. The win came as a <a href="https://x.com/coreyspowell/status/1843622102190174478">surprise</a> to many, including Hinton himself.</p>
-<p>"I'm flabbergasted. I had no idea this would happen. I'm very surprised," <a href="https://x.com/tsarnick/status/1843616586550390803">said</a> Hinton in a telephone call with members of the Royal Swedish Academy of Sciences during a <a href="https://www.youtube.com/watch?v=SBGG4WNweEc">live announcement</a> press conference streamed to YouTube that took place this morning.</p>
-<p>Hopfield and Hinton's research, which dates back to the early 1980s, applied principles from physics to develop methods that underpin modern machine-learning techniques. Their work has enabled computers to perform tasks such as image recognition and pattern completion, capabilities that are now ubiquitous in everyday technology.</p><p><a href="https://arstechnica.com/ai/2024/10/in-stunning-nobel-win-ai-researchers-hopfield-and-hinton-take-2024-physics-prize/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2024/10/in-stunning-nobel-win-ai-researchers-hopfield-and-hinton-take-2024-physics-prize/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>137</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/nobel_prize_machine_learning2-768x432.jpg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/nobel_prize_machine_learning2-500x500.jpg" width="500"/>
-<media:credit>CHRISTOPH BURGSTEDT/SCIENCE PHOTO LIBRARY via Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>Samsung says it’s in “crisis,” apologizes for missing profit target</title>
-        <link>https://arstechnica.com/gadgets/2024/10/samsung-says-its-in-crisis-apologizes-for-missing-profit-target/</link>
-                  <comments>https://arstechnica.com/gadgets/2024/10/samsung-says-its-in-crisis-apologizes-for-missing-profit-target/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Song Jung-a and Christian Davies, Financial Times]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 13:40:12 +0000</pubDate>
-        		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[earnings]]></category>
-		<category><![CDATA[Samsung]]></category>
-		<category><![CDATA[syndication]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/10/samsung-says-its-in-crisis-apologizes-for-missing-profit-target/</guid>
-
-                  <description>
-            <![CDATA[Performance has not met expectations as company tries closing fab gap with TSMC.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Samsung Electronics has issued a public apology and acknowledged the company is considered to be in “crisis,” following the release of worse than expected profit guidance on Tuesday.</p>
-<p>The South Korean chip giant reported a preliminary operating profit of ₩9.1 trillion ($6.8 billion) for the third quarter, undershooting market expectations of a ₩10.3 trillion profit, according to LSEG SmartEstimates.</p>
-<p>While its expected operating profit has almost tripled compared with the same period a year ago, following a surge in memory chip prices, it is down almost 13 percent on the second quarter of this year.</p><p><a href="https://arstechnica.com/gadgets/2024/10/samsung-says-its-in-crisis-apologizes-for-missing-profit-target/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2024/10/samsung-says-its-in-crisis-apologizes-for-missing-profit-target/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>103</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/samsung-korea-flag-768x432.jpg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/samsung-korea-flag-500x500.jpg" width="500"/>
-<media:credit>Jung Yeon-Je via Getty</media:credit></media:content>
-      </item>
-          <item>
-        <title>Ars Prime Day 2024 Techstravaganza: The best deals on the best things</title>
-        <link>https://arstechnica.com/staff/2024/10/ars-prime-day-2024-techstravaganza-the-best-deals-on-the-best-things/</link>
-                  <comments>https://arstechnica.com/staff/2024/10/ars-prime-day-2024-techstravaganza-the-best-deals-on-the-best-things/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Lee Hutchinson]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 12:20:20 +0000</pubDate>
-        		<category><![CDATA[Shopping]]></category>
-		<category><![CDATA[Staff]]></category>
-		<category><![CDATA[amazon prime day 2024]]></category>
-		<category><![CDATA[commerce]]></category>
-		<category><![CDATA[eCommerce]]></category>
-		<category><![CDATA[prime day]]></category>
-		<category><![CDATA[shopping]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/staff/2024/10/ars-prime-day-2024-techstravaganza-the-best-deals-on-the-best-things/</guid>
-
-                  <description>
-            <![CDATA[Tech deals, gaming deals, accessory deals—all the deals in one place!]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Get ready to transform and roll out, Arsians: It's Prime Day! Named in honor of famous Autobot leader Optimus Prime, Prime Day is the international day of celebration where we—wait, they're telling me that Prime Day is in fact <em>not</em> named after famous Autobot leader Optimus Prime and is in fact <em>not</em> an international day of celebration. Well, if that's the case, then what the hell am I going to do with this gigantic Optimus Prime costume I spent all week making? I've got a whole list of Optimus Prime-related activities we were going to do! I brought craft supplies! We were going to make little macramé trucks!</p>
-<p>This has really taken the wind out of my sails, ugh. While I figure out what to do with an overwhelming amount of Transformers party supplies, maybe you folks can pull up your chairs, pull out your wallets, and peruse the Amazon Prime Day deals below (which are, I am assured, the best deals the commerce team could sniff out). Because if we can't celebrate Prime Day by cosplaying as our favorite Transformers characters, maybe we can still hold onto the spirit of the day by buying a whole bunch of stuff on sale! Retail therapy for everyone! It's what Optimus would have wanted!</p>
-<p>(A note on pricing: We've confirmed the prices on all the items below are accurate as of the publication time of this article. However, much like Megatron's evil schemes, Prime Day pricing is mutable and constantly changing. Make sure to verify the price on what you want to buy before you buy it!)</p><p><a href="https://arstechnica.com/staff/2024/10/ars-prime-day-2024-techstravaganza-the-best-deals-on-the-best-things/">Read full article</a></p>
-<p><a href="https://arstechnica.com/staff/2024/10/ars-prime-day-2024-techstravaganza-the-best-deals-on-the-best-things/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>63</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1076955182-768x432-1728386272.jpg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1076955182-500x500.jpg" width="500"/>
-<media:credit>Watt Ky / Getty Images</media:credit><media:text>"Autobots, we must engage in commerce."</media:text></media:content>
-      </item>
-          <item>
-        <title>Archaeologists found an ancient Egyptian observatory</title>
-        <link>https://arstechnica.com/science/2024/10/archaeologists-found-an-ancient-egyptian-observatory/</link>
-                  <comments>https://arstechnica.com/science/2024/10/archaeologists-found-an-ancient-egyptian-observatory/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jennifer Ouellette]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 12:15:07 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[ancient egypt]]></category>
-		<category><![CDATA[Archaeology]]></category>
-		<category><![CDATA[astronomy]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/science/2024/10/archaeologists-found-an-ancient-egyptian-observatory/</guid>
-
-                  <description>
-            <![CDATA[Expedition leader: "Everything we found shattered our expectations."]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>A few years ago, Egyptian archaeologists discovered what they thought were the ruins of an ancient Egyptian temple dating back to the sixth century BCE. Subsequent finds at the site indicate that the structure was actually an astronomical observatory, deemed the first and largest such structure yet found, <a href="https://mota.gov.eg/ar/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-2/%D8%A7%D9%84%D9%83%D8%B4%D9%81-%D8%B9%D9%86-%D8%A3%D9%88%D9%84-%D9%88%D8%A3%D9%83%D8%A8%D8%B1-%D9%85%D8%B1%D8%B5%D8%AF-%D9%81%D9%84%D9%83%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D9%82%D8%B1%D9%86-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D8%A7%D8%AF-%D8%A8%D9%83%D9%81%D8%B1-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE/">according to</a> Egypt's Ministry of Tourism and Antiquities.</p>
-<p>The L-shaped structure was found within a larger complex called the Temple of Buto (a later Greek name), known to the ancient Egyptians as Per-Wadjet and located east of Alexandria in the Nile Delta. It's now called Tell El Fara'in ("Hill of the Pharaohs"). Buto was once a sacred site dedicated to the goddess <a href="https://en.wikipedia.org/wiki/Wadjet">Wadjet</a>, believed to be the matron and protector of lower Egypt, who took on a cobra form. Buto was well-known for its temple and the oracle of Wadjet, with an annual festival held there in her honor.</p>
-<p>There were archaeological excavations of the site in the 1960s and 1980s, revealing a palace dating back to the Second Dynasty, as well as six Greek bathhouses. An Egyptian team began fresh excavations a few years ago. In 2022, they uncovered a hall at the southwestern end of the temple, with the remains of three papyrus-shaped columns aligned on a north-south axis. They also found  engraved stone fragments and a limestone painting of a bird's head wearing a white crown within two feathers.</p><p><a href="https://arstechnica.com/science/2024/10/archaeologists-found-an-ancient-egyptian-observatory/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2024/10/archaeologists-found-an-ancient-egyptian-observatory/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>26</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/astro1-768x432.jpg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/astro1-500x500.jpg" width="500"/>
-<media:credit>Ministry for Tourism and Antiquities</media:credit><media:text>Archaeologists found inscribed stones at a site they believe was an astronomical observatory.</media:text></media:content>
-      </item>
-          <item>
-        <title>There’s never been a better time to play Diablo IV</title>
-        <link>https://arstechnica.com/gaming/2024/10/diablo-iv-is-in-a-great-place-whether-you-buy-vessel-of-hatred-or-not/</link>
-                  <comments>https://arstechnica.com/gaming/2024/10/diablo-iv-is-in-a-great-place-whether-you-buy-vessel-of-hatred-or-not/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Aaron Zimmerman]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Oct 2024 10:35:39 +0000</pubDate>
-        		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[action RPG]]></category>
-		<category><![CDATA[arpg]]></category>
-		<category><![CDATA[Blizzard]]></category>
-		<category><![CDATA[Diablo 2]]></category>
-		<category><![CDATA[Diablo 3]]></category>
-		<category><![CDATA[Diablo 4]]></category>
-		<category><![CDATA[diablo iv]]></category>
-		<category><![CDATA[vessel of hatred]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gaming/2024/10/diablo-iv-is-in-a-great-place-whether-you-buy-vessel-of-hatred-or-not/</guid>
-
-                  <description>
-            <![CDATA[Review: <em>Vessel of Hatred</em> expansion adds to an already vastly improved game. ]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>When we reviewed <em>Diablo IV</em>, the latest installment in the long-running action roleplaying game series last year, we said it was <a href="https://arstechnica.com/gaming/2023/05/diablo-4-review-off-to-a-hell-of-a-good-start/" target="_blank" rel="noopener">off to a hell of a good start</a>. But ARPGs live and die by their endgame loops, and it was far too early at the time to accurately assess the game’s true staying power.</p>
-<p>Sadly, after that confident first step, like so many loot-hunting games before it, <em>Diablo IV</em> fell flat on its face. I’ve seen plenty of boneheaded updates to live-service games, but <em>Diablo IV</em>’s first major patch, released a couple of months after the game’s release, was still pretty shocking. By that point, a consensus had emerged that the endgame was a bit barren, and getting to the game’s level cap of 100 was a tedious slog. But that’s the great thing about live-service games, right? Tweak some numbers, throw in a couple of fun high-level activities, and, <a href="https://www.youtube.com/watch?v=Sr2PlqXw03Y" target="_blank" rel="noopener">baby, you’ve got a stew going</a>.</p>
-<p>Sadly, the game’s developers at Blizzard had other plans. The patch notes for that first update read like someone had systematically gone through the game and <a href="https://www.polygon.com/23801426/diablo-4s-season-1-patch-1-1-nerfs-community-reaction" target="_blank" rel="noopener">removed anything that could be considered fun</a>. Almost every character build had been mercilessly nerfed, and worst of all, the game became even slower. <a href="https://www.reddit.com/r/diablo4/comments/1534z13/patch_11_is_essentially_a_slowdown_to_every/" target="_blank" rel="noopener">Fans were incensed</a>, and <em>Diablo IV</em> floundered like this for its first three <a href="https://diablo.fandom.com/wiki/Season_(Diablo_IV)">seasons</a>. I mostly lost interest.</p><p><a href="https://arstechnica.com/gaming/2024/10/diablo-iv-is-in-a-great-place-whether-you-buy-vessel-of-hatred-or-not/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2024/10/diablo-iv-is-in-a-great-place-whether-you-buy-vessel-of-hatred-or-not/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>98</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/DIV_VesselOfHatred_Spiritborn-2-768x432.png" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/DIV_VesselOfHatred_Spiritborn-2-500x500.png" width="500"/>
-</media:content>
-      </item>
-          <item>
-        <title>Reports: China hacked Verizon and AT&amp;T, may have accessed US wiretap systems</title>
-        <link>https://arstechnica.com/tech-policy/2024/10/reports-china-hacked-verizon-and-att-may-have-accessed-us-wiretap-systems/</link>
-                  <comments>https://arstechnica.com/tech-policy/2024/10/reports-china-hacked-verizon-and-att-may-have-accessed-us-wiretap-systems/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jon Brodkin]]>
-        </dc:creator>
-        <pubDate>Mon, 07 Oct 2024 21:45:50 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AT&T]]></category>
-		<category><![CDATA[salt typoon]]></category>
-		<category><![CDATA[verizon]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/10/reports-china-hacked-verizon-and-att-may-have-accessed-us-wiretap-systems/</guid>
-
-                  <description>
-            <![CDATA[Chinese hackers were in networks of major ISPs “for months,” WSJ reports.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Chinese government hackers penetrated the networks of several large US-based Internet service providers and may have gained access to systems used for court-authorized wiretaps of communications networks, The Wall Street Journal <a href="https://www.wsj.com/tech/cybersecurity/u-s-wiretap-systems-targeted-in-china-linked-hack-327fc63b">reported Saturday</a>. "People familiar with the matter" told the WSJ that hackers breached the networks of companies including Verizon, AT&amp;T, and Lumen (also known as CenturyLink).</p>
-<p>"A cyberattack tied to the Chinese government penetrated the networks of a swath of US broadband providers, potentially accessing information from systems the federal government uses for court-authorized network wiretapping requests," the WSJ wrote. "For months or longer, the hackers might have held access to network infrastructure used to cooperate with lawful US requests for communications data, according to people familiar with the matter."</p>
-<p>These "attackers also had access to other tranches of more generic Internet traffic," according to the WSJ's sources. The attack is being attributed to a Chinese hacking group called Salt Typhoon.</p><p><a href="https://arstechnica.com/tech-policy/2024/10/reports-china-hacked-verizon-and-att-may-have-accessed-us-wiretap-systems/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2024/10/reports-china-hacked-verizon-and-att-may-have-accessed-us-wiretap-systems/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>95</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/getty-china-hacker-768x432.jpg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/getty-china-hacker-500x500.jpg" width="500"/>
-</media:content>
-      </item>
-          <item>
-        <title>SpaceX launches Europe’s Hera asteroid mission ahead of Hurricane Milton</title>
-        <link>https://arstechnica.com/space/2024/10/european-mission-departs-earth-to-investigate-an-asteroid-wrecked-by-nasa/</link>
-                  <comments>https://arstechnica.com/space/2024/10/european-mission-departs-earth-to-investigate-an-asteroid-wrecked-by-nasa/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Stephen Clark]]>
-        </dc:creator>
-        <pubDate>Mon, 07 Oct 2024 21:08:50 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[asteroid]]></category>
-		<category><![CDATA[Commercial space]]></category>
-		<category><![CDATA[Dart]]></category>
-		<category><![CDATA[european space agency]]></category>
-		<category><![CDATA[falcon 9]]></category>
-		<category><![CDATA[Federal Aviation Administration]]></category>
-		<category><![CDATA[hera]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[planetary defense]]></category>
-		<category><![CDATA[spacex]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2024/10/european-mission-departs-earth-to-investigate-an-asteroid-wrecked-by-nasa/</guid>
-
-                  <description>
-            <![CDATA[The launch of another important mission, NASA's Europa Clipper, is on hold due to Hurricane Milton.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Two years ago, a NASA spacecraft smashed into a small asteroid millions of miles from Earth to test a technique that could one day prove useful to deflect an object off a collision course with Earth. The European Space Agency launched a follow-up mission Monday to go back to the crash site and see the damage done.</p>
-<p>The nearly $400 million (363 million euro) Hera mission, named for the Greek goddess of marriage, will investigate the aftermath of a cosmic collision between NASA's DART spacecraft and the skyscraper-size asteroid Dimorphos on September 26, 2022. NASA's Double Asteroid Redirection Test mission was the first planetary defense experiment, and it worked, <a href="https://arstechnica.com/science/2022/10/dart-mission-successfully-shifted-its-targets-orbit/">successfully nudging Dimorphos off its regular orbit</a> around a larger companion asteroid named Didymos.</p>
-<p>But NASA had to sacrifice the DART spacecraft in the deflection experiment. Its destruction meant there were no detailed images of the condition of the target asteroid after the impact. A <a href="https://arstechnica.com/science/2024/02/analyzing-images-from-a-close-flyby-of-darts-asteroid-impact/">small Italian CubeSat deployed by DART</a> as it approached Dimorphos captured fuzzy long-range views of the collision, but Hera will perform a comprehensive survey when it arrives in late 2026.</p><p><a href="https://arstechnica.com/space/2024/10/european-mission-departs-earth-to-investigate-an-asteroid-wrecked-by-nasa/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2024/10/european-mission-departs-earth-to-investigate-an-asteroid-wrecked-by-nasa/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>40</slash:comments>
-        
-        
-        <media:content height="432" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/hera_sep-768x432.jpg" width="768">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/hera_sep-500x500.jpg" width="500"/>
-<media:credit>SpaceX</media:credit><media:text>The European Space Agency's Hera spacecraft flies away from the Falcon 9 rocket's upper stage a little more than an hour after liftoff Monday.</media:text></media:content>
       </item>
       </channel>
 </rss>
