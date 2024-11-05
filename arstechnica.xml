@@ -4,7 +4,7 @@
     <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
     <link>https://arstechnica.com</link>
     <description>All Ars Technica stories</description>
-    <lastBuildDate>Sun, 03 Nov 2024 02:35:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2024 23:40:12 +0000</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>
       hourly    </sy:updatePeriod>
@@ -19,6 +19,573 @@
 	<height>32</height>
 </image> 
       <item>
+        <title>Hundreds of code libraries posted to NPM try to install malware on dev machines</title>
+        <link>https://arstechnica.com/security/2024/11/javascript-developers-targeted-by-hundreds-of-malicious-code-libraries/</link>
+                  <comments>https://arstechnica.com/security/2024/11/javascript-developers-targeted-by-hundreds-of-malicious-code-libraries/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Dan Goodin]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 23:28:49 +0000</pubDate>
+        		<category><![CDATA[Security]]></category>
+		<category><![CDATA[code libraries]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[typosquatting]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/security/2024/11/javascript-developers-targeted-by-hundreds-of-malicious-code-libraries/</guid>
+
+                  <description>
+            <![CDATA[These are not the the developer tools you think they are.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>An ongoing attack is uploading hundreds of malicious packages to the open source node package manager (NPM) repository in an attempt to infect the devices of developers who rely on code libraries there, researchers said.</p>
+<p>The malicious packages have names that are similar to legitimate ones for the <a href="https://www.npmjs.com/package/puppeteer">Puppeteer</a> and <a href="https://www.npmjs.com/package/bignum.js">Bignum.js</a> code libraries and for various libraries for working with cryptocurrency. The campaign, which was active at the time this post was going live on Ars, was <a href="https://blog.phylum.io/supply-chain-security-typosquat-campaign-targeting-puppeteer-users/">reported</a> by researchers from the security firm Phylum. The discovery comes on the heels of a <a href="https://blog.phylum.io/trojanized-ethers-forks-on-npm-attempting-to-steal-ethereum-private-keys/">similar campaign</a> a few weeks ago targeting developers using forks of the Ethers.js library.</p>
+<h2>Beware of the supply chain attack</h2>
+<p>“Out of necessity, malware authors have had to endeavor to find more novel ways to hide intent and to obfuscate remote servers under their control,” Phylum researchers wrote. “This is, once again, a persistent reminder that supply chain attacks are alive and well.”</p><p><a href="https://arstechnica.com/security/2024/11/javascript-developers-targeted-by-hundreds-of-malicious-code-libraries/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2024/11/javascript-developers-targeted-by-hundreds-of-malicious-code-libraries/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>3</slash:comments>
+        
+        
+        <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Drugmaker shut down after black schmutz found in injectable weight-loss drug</title>
+        <link>https://arstechnica.com/health/2024/11/drugmaker-shut-down-after-black-schmutz-found-in-injectable-weight-loss-drug/</link>
+                  <comments>https://arstechnica.com/health/2024/11/drugmaker-shut-down-after-black-schmutz-found-in-injectable-weight-loss-drug/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Beth Mole]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 23:05:35 +0000</pubDate>
+        		<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[compounding pharmacies]]></category>
+		<category><![CDATA[eli lilly]]></category>
+		<category><![CDATA[fda]]></category>
+		<category><![CDATA[mounjaro]]></category>
+		<category><![CDATA[Novo Nordisk]]></category>
+		<category><![CDATA[Ozempic]]></category>
+		<category><![CDATA[safety]]></category>
+		<category><![CDATA[wegovy]]></category>
+		<category><![CDATA[weight loss drugs]]></category>
+		<category><![CDATA[zepbound]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/health/2024/11/drugmaker-shut-down-after-black-schmutz-found-in-injectable-weight-loss-drug/</guid>
+
+                  <description>
+            <![CDATA[The warning comes amid a legal war over compounded weight-loss drugs.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>The Food and Drug Administration is <a href="https://www.fda.gov/drugs/drug-safety-and-availability/fda-warns-patients-and-health-care-professionals-not-use-compounded-drugs-fullerton-wellness">warning consumers</a> not to use any drugs made by a compounding pharmacy in California after regulators realized the pharmacy was making drugs that need to be sterile—particularly injectable drugs—without using sterile ingredients or any sterilization steps.</p>
+<p>The products made by the pharmacy, Fullerton Wellness LLC, in Ontario, California, include semaglutide, which is intended to mimic brand-name weight-loss and diabetes drugs Wegovy and Ozempic. Fullerton also made tirzepatide, which is intended to mimic weight-loss and diabetes drugs Zepbound and Mounjaro.</p>
+<p>The FDA became aware of the problem after a patient submitted a complaint to the regulator that a vial of semaglutide from Fullerton Wellness had an unidentified "black particulate" floating in it. Semaglutide, like tirzepatide, is injected under the skin and is intended to be sterile.</p><p><a href="https://arstechnica.com/health/2024/11/drugmaker-shut-down-after-black-schmutz-found-in-injectable-weight-loss-drug/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2024/11/drugmaker-shut-down-after-black-schmutz-found-in-injectable-weight-loss-drug/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>11</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-521777312-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-521777312-500x500.jpg" width="500"/>
+<media:credit>Getty | Steve Prezant</media:credit></media:content>
+      </item>
+          <item>
+        <title>Facebook, Nvidia push SCOTUS to limit “nuisance” investor suits after scandals</title>
+        <link>https://arstechnica.com/tech-policy/2024/11/facebook-nvidia-push-scotus-to-limit-nuisance-investor-suits-after-scandals/</link>
+                  <comments>https://arstechnica.com/tech-policy/2024/11/facebook-nvidia-push-scotus-to-limit-nuisance-investor-suits-after-scandals/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ashley Belanger]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 22:43:20 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[Securities and Exchange Commission]]></category>
+		<category><![CDATA[Supreme Court]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/11/facebook-nvidia-push-scotus-to-limit-nuisance-investor-suits-after-scandals/</guid>
+
+                  <description>
+            <![CDATA[Facebook, Nvidia ask SCOTUS to narrow legal paths to retrieve investor losses.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>The Supreme Court will soon weigh two cases that could potentially make it harder for misled investors to sue Big Tech companies after major scandals.</p>
+<p>One case involves one of the largest tech scandals of all time, the Facebook-Cambridge Analytica data breach. In 2019, Facebook agreed to pay "more than $5 billion in civil penalties to settle charges by the Federal Trade Commission (FTC) and the Securities and Exchange Commission (SEC) that it had misled its users and investors over the privacy and security of user data on its platform," a Supreme Court <a href="https://www.supremecourt.gov/DocketPDF/23/23-980/326742/20240924123045815_23-980%20Resp%20Brief.pdf">filing</a> said.</p>
+<p>The other case involves an allegation that Nvidia intentionally hid how much of its 2017–2018 GPU demand was due to a volatile cryptocurrency boom and not Nvidia's core gaming business—allegedly misleading investors ahead of a crypto crash. After the bust, Nvidia suddenly had to slash half a billion dollars from its earnings projection, and market experts later estimated that the firm had understated its crypto-related revenue by more than a billion. In 2022, Nvidia paid a <a href="https://www.sec.gov/newsroom/press-releases/2022-79">$5.5 million SEC penalty</a> over the inadequate disclosures that one SEC chief said "deprived investors of critical information to evaluate the company’s business in a key market."</p><p><a href="https://arstechnica.com/tech-policy/2024/11/facebook-nvidia-push-scotus-to-limit-nuisance-investor-suits-after-scandals/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2024/11/facebook-nvidia-push-scotus-to-limit-nuisance-investor-suits-after-scandals/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>14</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-519986690-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-519986690-500x500.jpg" width="500"/>
+<media:credit>Rudy Sulgan | The Image Bank</media:credit></media:content>
+      </item>
+          <item>
+        <title>New Zemeckis film used AI to de-age Tom Hanks and Robin Wright</title>
+        <link>https://arstechnica.com/ai/2024/11/new-zemeckis-film-used-ai-to-de-age-tom-hanks-and-robin-wright/</link>
+                  <comments>https://arstechnica.com/ai/2024/11/new-zemeckis-film-used-ai-to-de-age-tom-hanks-and-robin-wright/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Benj Edwards]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 21:28:38 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI image generator]]></category>
+		<category><![CDATA[de-aging]]></category>
+		<category><![CDATA[deepfakes]]></category>
+		<category><![CDATA[face replacement]]></category>
+		<category><![CDATA[films]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[Here film]]></category>
+		<category><![CDATA[image synthesis]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Metaphysic]]></category>
+		<category><![CDATA[Robert Zemeckis]]></category>
+		<category><![CDATA[Robin Wright]]></category>
+		<category><![CDATA[Runway]]></category>
+		<category><![CDATA[Special Effects]]></category>
+		<category><![CDATA[Tom Hanks]]></category>
+		<category><![CDATA[video synthesis]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/ai/2024/11/new-zemeckis-film-used-ai-to-de-age-tom-hanks-and-robin-wright/</guid>
+
+                  <description>
+            <![CDATA[Time-hopping film <em>Here</em> used AI trained on every Tom Hanks movie to make him appear young again.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>On Friday, TriStar Pictures released <a href="https://here-movie.com/"><em>Here</em></a>, a $50 million Robert Zemeckis-directed film that used real time generative AI face transformation techniques to portray actors Tom Hanks and Robin Wright across a 60-year span, marking one of Hollywood's first full-length features built around AI-powered visual effects.</p>
+<p>The film adapts a <a href="https://en.wikipedia.org/wiki/Here_(comics)">2014 graphic novel</a> set primarily in a New Jersey living room across multiple time periods. Rather than cast different actors for various ages, the production used AI to modify Hanks' and Wright's appearances throughout.</p>
+<p>The de-aging technology comes from <a href="https://metaphysic.ai/">Metaphysic</a>, a visual effects company that creates real time face swapping and aging effects. During filming, the crew watched two monitors simultaneously: one showing the actors' actual appearances and another displaying them at whatever age the scene required.</p><p><a href="https://arstechnica.com/ai/2024/11/new-zemeckis-film-used-ai-to-de-age-tom-hanks-and-robin-wright/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2024/11/new-zemeckis-film-used-ai-to-de-age-tom-hanks-and-robin-wright/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>42</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/here-tom-hanks-robin-wright-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/here-tom-hanks-robin-wright-500x500.jpg" width="500"/>
+<media:credit>TriStar Pictures</media:credit><media:text>A de-aged version of Tom Hanks and Robin Wright seen in a still from the 2024 film "Here."</media:text></media:content>
+      </item>
+          <item>
+        <title>Researchers spot black hole feeding at 40x its theoretical limit</title>
+        <link>https://arstechnica.com/science/2024/11/researchers-spot-black-hole-feeding-at-40x-its-theoretical-limit/</link>
+                  <comments>https://arstechnica.com/science/2024/11/researchers-spot-black-hole-feeding-at-40x-its-theoretical-limit/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[John Timmer]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 21:21:56 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[astrophysics]]></category>
+		<category><![CDATA[black holes]]></category>
+		<category><![CDATA[Chandra telescope]]></category>
+		<category><![CDATA[cosmology]]></category>
+		<category><![CDATA[eddington limit]]></category>
+		<category><![CDATA[supermassive black holes]]></category>
+		<category><![CDATA[Webb telescope]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2024/11/researchers-spot-black-hole-feeding-at-40x-its-theoretical-limit/</guid>
+
+                  <description>
+            <![CDATA[Similar feeding events could explain the rapid growth of supermassive black holes.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>How did supermassive black holes end up at the center of every galaxy? A while back, it wasn't that hard to explain: That's where the highest concentration of matter is, and the black holes had billions of years to feed on it. But as we've looked ever deeper into the Universe's history, we keep finding supermassive black holes, which shortens the timeline for their formation. Rather than making a leisurely meal of nearby matter, these black holes have gorged themselves in a feeding frenzy.</p>
+<p>With the advent of the Webb Space Telescope, the problem has pushed up against theoretical limits. The matter falling into a black hole generates radiation, with faster feeding meaning more radiation. And that radiation can drive off nearby matter, choking off the black hole's food supply. That sets a limit on how fast black holes can grow unless matter is somehow fed directly into them. The Webb was used to <a href="https://arstechnica.com/science/2023/11/half-of-the-mass-of-an-early-galaxy-is-in-its-central-black-hole/">identify early supermassive black holes</a> that needed to have been pushing against the limit for their entire existence.</p>
+<p>But the Webb may have just identified a solution to the dilemma as well. It has spotted a black hole that appears to have been feeding at 40 times the theoretical limit for millions of years, allowing growth at a pace sufficient to build a supermassive black hole.</p><p><a href="https://arstechnica.com/science/2024/11/researchers-spot-black-hole-feeding-at-40x-its-theoretical-limit/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2024/11/researchers-spot-black-hole-feeding-at-40x-its-theoretical-limit/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>15</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/image-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/image-500x500.jpeg" width="500"/>
+<media:credit>NOIRLab/NSF/AURA/J. da Silva/M. Zamani</media:credit><media:text>This artist’s illustration shows a rapidly feeding black hole that is emitting powerful gas outflows. </media:text></media:content>
+      </item>
+          <item>
+        <title>The Trek Checkpoint SL 7 AXS Gen 3 may be the perfect gravel bike</title>
+        <link>https://arstechnica.com/cars/2024/11/the-trek-checkpoint-sl-7-axs-gen-3-may-be-the-perfect-gravel-bike/</link>
+                  <comments>https://arstechnica.com/cars/2024/11/the-trek-checkpoint-sl-7-axs-gen-3-may-be-the-perfect-gravel-bike/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Eric Bangeman]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 21:15:38 +0000</pubDate>
+        		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Checkpoint SL 7 AXS Gen 3]]></category>
+		<category><![CDATA[cycling]]></category>
+		<category><![CDATA[trek]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/cars/2024/11/the-trek-checkpoint-sl-7-axs-gen-3-may-be-the-perfect-gravel-bike/</guid>
+
+                  <description>
+            <![CDATA[Trek's updated adventure-focused gravel bike is fun no matter where you ride it.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>As I followed a friend down a flow-y, undulating single-track trail, I started laughing. Unlike my mountain bike-riding companion, I was on a gravel bike, the new Trek <a href="https://www.trekbikes.com/us/en_US/bikes/road-bikes/gravel-bikes/checkpoint/checkpoint-sl/checkpoint-sl-7-axs-gen-3/p/47073/">Checkpoint SL 7 AXS Gen 3</a>. You might be wondering why a review of a gravel bike is starting with such a ride. The answer is simple—the Checkpoint had excelled everywhere else I rode it, so I was curious to see how it would fare on a non-technical MTB track. Amazingly well, as it turns out.</p>
+<p>Unlike every other bike Ars has reviewed to this point, the Checkpoint SL 7 Gen 3 has no battery and no motor—there's no e- in this bike. As is the case with our other bike reviews, sometimes we ask for a specific model, but manufacturers tend to contact us when we’ve already got a garage full of bikes we’ve not finished the reviews for (there are currently 12 bikes in my garage, some of which belong to other family members).</p>
+<p>Launched in 2018, the Checkpoint is Trek's gravel-centric bike. For 2025, Trek has split its gravel lineup into the third-generation Checkpoint Trek and the <a href="https://www.trekbikes.com/us/en_US/bikes/road-bikes/gravel-bikes/drop-bar-gravel-bikes/checkmate/checkmate-slr-9-axs/p/46152/">Checkmate SLR 9 AXS</a>. The latter features a lighter-weight frame, a power meter, and SRAM's new <a href="https://www.sram.com/en/sram/road/series/red-xplr">Red XPLR groupset</a>. Selling for $11,999, the Checkmate is a gravel racer. Priced several thousand less at $5,699, the Checkpoint SL 7 AXS is now Trek's top gravel bike for those looking for a fun day out on the trails.</p><p><a href="https://arstechnica.com/cars/2024/11/the-trek-checkpoint-sl-7-axs-gen-3-may-be-the-perfect-gravel-bike/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2024/11/the-trek-checkpoint-sl-7-axs-gen-3-may-be-the-perfect-gravel-bike/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>23</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/sl7-list-2-1152x648-1730751763.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/sl7-list-2-500x500.jpg" width="500"/>
+<media:credit>Eric Bangeman</media:credit><media:text>The Trek Checkpoint SL 7 AXS Gen 3.</media:text></media:content>
+      </item>
+          <item>
+        <title>Guy makes “dodgy e-bike” from 130 used vapes to make point about e-waste</title>
+        <link>https://arstechnica.com/gadgets/2024/11/disposable-vapes-from-a-music-festival-can-power-a-beefy-e-bike-20-miles/</link>
+                  <comments>https://arstechnica.com/gadgets/2024/11/disposable-vapes-from-a-music-festival-can-power-a-beefy-e-bike-20-miles/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kevin Purdy]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 19:36:50 +0000</pubDate>
+        		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[disposable vapes]]></category>
+		<category><![CDATA[e-bike]]></category>
+		<category><![CDATA[e-bikes]]></category>
+		<category><![CDATA[e-waste]]></category>
+		<category><![CDATA[elf bar]]></category>
+		<category><![CDATA[fda]]></category>
+		<category><![CDATA[vape]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/11/disposable-vapes-from-a-music-festival-can-power-a-beefy-e-bike-20-miles/</guid>
+
+                  <description>
+            <![CDATA[Most one-use vape batteries are actually rechargeable, and this guy has proof.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Disposable vapes are indefensible. Many, or maybe most, of them contain rechargeable lithium-ion batteries, but manufacturers prefer to sell new ones. More than 260 million vape batteries are estimated to enter the trash stream every year in the UK alone. Vapers and vape makers are simply leaving an e-waste epidemic to the planet's future residents to sort out.</p>
+<p>To make a point about how wasteful this practice is—and to also make a pretty rad project and video—Chris Doel took 130 disposable vape batteries (the bigger "3,500 puff" types with model 20400 cells) <a href="https://www.reddit.com/r/18650masterrace/comments/1gjbxf7/comment/lvcj5hk/">found littered at a music festival</a> and converted them into a 48-volt, 1,500-watt e-bike battery, one that powered an e-bike with almost no pedaling more than 20 miles. You can see the whole build and watch Doel zoom along trails <a href="https://www.youtube.com/watch?v=VcVp9T8f_W4">on his YouTube video</a>.</p>
+<figure>
+      <img decoding="async" width="640" height="290" src="https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.21%E2%80%AFPM-640x290.png" class="ars-gallery-image" alt="" loading="lazy" aria-labelledby="caption-2060220" srcset="https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.21 PM-640x290.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.21 PM-300x136.png 300w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.21 PM-768x348.png 768w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.21 PM-1536x696.png 1536w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.21 PM-2048x928.png 2048w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.21 PM-980x444.png 980w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.21 PM-1440x653.png 1440w" sizes="(max-width: 640px) 100vw, 640px">
+      <figcaption>
+        <div class="caption font-impact mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      A pile of empty aluminum vape shells, and the juice and batteries that came out of them, on Chris Doel's workstation.
+
+              <span class="caption-credit mt-2 whitespace-nowrap text-xs">
+          Credit:
+
+          
+          A pile of empty aluminum
+
+                  </span>
+          </div>
+  </div>
+      </figcaption>
+    </figure>
+      <figure>
+      <img decoding="async" width="640" height="323" src="https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.53%E2%80%AFPM-640x323.png" class="ars-gallery-image" alt="" loading="lazy" aria-labelledby="caption-2060219" srcset="https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.53 PM-640x323.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.53 PM-300x151.png 300w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.53 PM-768x388.png 768w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.53 PM-1536x775.png 1536w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.53 PM-2048x1034.png 2048w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.53 PM-980x495.png 980w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.42.53 PM-1440x727.png 1440w" sizes="(max-width: 640px) 100vw, 640px">
+      <figcaption>
+        <div class="caption font-impact mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      Vape batteries, put into group cases, wired together in batches, and then wired in serial into two stacks, next to a multimeter.
+
+              <span class="caption-credit mt-2 whitespace-nowrap text-xs">
+          Credit:
+
+          
+          Chris Doel
+
+                  </span>
+          </div>
+  </div>
+      </figcaption>
+    </figure>
+      <figure>
+      <img decoding="async" width="640" height="288" src="https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.44.10%E2%80%AFPM-640x288.png" class="ars-gallery-image" alt="" loading="lazy" aria-labelledby="caption-2060218" srcset="https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.44.10 PM-640x288.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.44.10 PM-300x135.png 300w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.44.10 PM-768x346.png 768w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.44.10 PM-1536x692.png 1536w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.44.10 PM-2048x923.png 2048w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.44.10 PM-980x442.png 980w, https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.44.10 PM-1440x649.png 1440w" sizes="(max-width: 640px) 100vw, 640px">
+      <figcaption>
+        <div class="caption font-impact mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      How the battery fits onto the bike that Chris Doel powers with vape batteries: a big bag, ratchet straps, and wiring to a rear hub motor. Just, one more time, folks: do not do this at home.
+
+              <span class="caption-credit mt-2 whitespace-nowrap text-xs">
+          Credit:
+
+          
+          Chris Doel
+
+                  </span>
+          </div>
+  </div>
+      </figcaption>
+    </figure>
+  
+<p>To be clear: Do not do this. Do not put disposable vape cartridges in a vise clamp to "pop out" their components. Do not desolder them from vape cartridges that have a surprising amount of concentration still in them. Do not wire them together using a balance board, group them using 3D-printed cell holders, and then wire them in series. Heck, do not put that much power into a rear hub on a standard bike frame, at least more than once. Doel has a fire extinguisher present and visible on his workbench, and he shows you what happens when two of the wrong batteries happen to make momentary contact—smoke, coughing, and strong warnings.</p><p><a href="https://arstechnica.com/gadgets/2024/11/disposable-vapes-from-a-music-festival-can-power-a-beefy-e-bike-20-miles/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2024/11/disposable-vapes-from-a-music-festival-can-power-a-beefy-e-bike-20-miles/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>78</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.40.56 PM-1152x648-1730747628.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/Screenshot-2024-11-04-at-1.40.56 PM-500x500-1730747614.png" width="500"/>
+<media:credit>Chris Doel</media:credit></media:content>
+      </item>
+          <item>
+        <title>What this 500-year-old shipwreck can tell us about how we age</title>
+        <link>https://arstechnica.com/science/2024/11/scientists-glean-clues-about-how-we-age-from-mary-rose-crew-bones/</link>
+                  <comments>https://arstechnica.com/science/2024/11/scientists-glean-clues-about-how-we-age-from-mary-rose-crew-bones/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jennifer Ouellette]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 19:25:02 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Archaeology]]></category>
+		<category><![CDATA[maritime archaeology]]></category>
+		<category><![CDATA[Mary Rose]]></category>
+		<category><![CDATA[Raman spectroscopy]]></category>
+		<category><![CDATA[shipwrecks]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2024/11/scientists-glean-clues-about-how-we-age-from-mary-rose-crew-bones/</guid>
+
+                  <description>
+            <![CDATA[Raman spectroscopy of 12 collarbones suggests most crew members were right-handed.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Henry VIII's favorite warship, the <em>Mary Rose</em>, sank in battle in 1545. Archaeologists successfully raised the ship in 1982, along with thousands of articles and the remains of 179 crew members—all remarkably well preserved thanks to the anaerobic conditions of the shipwreck created by the layers of soft sediment that accumulated over the wreckage.</p>
+<p>A new analysis of some of the recovered bones reveals that whether someone is right- or left-handed could affect how their collarbone chemistry changes as they age, according to a <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0311717">new paper</a> published in the journal PLoS ONE. This has implications for our understanding not just of aging, but of bone conditions like fracture risk and osteoarthritis.</p>
+<p>As <a href="https://arstechnica.com/science/2020/05/x-rayed-artifacts-from-famed-shipwreck-shed-light-on-secrets-of-tudor-armor">previously reported</a>, the earliest-known reference to the <em>Mary Rose</em> appears in a January 29, 1510, letter ordering the construction of two new ships for the young king: the <em>Mary Rose</em> and her sister ship, dubbed the <em>Peter Pomegranate</em>. Once the newly built ship had launched, Henry VIII wasted no time defying his advisers and declaring war on France in 1512. The <em>Mary Rose</em> served the monarch well through that conflict, as well as during a second war with the French that ran roughly from 1522 through 1525, after which it underwent a substantial overhaul.</p><p><a href="https://arstechnica.com/science/2024/11/scientists-glean-clues-about-how-we-age-from-mary-rose-crew-bones/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2024/11/scientists-glean-clues-about-how-we-age-from-mary-rose-crew-bones/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>24</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/maryroseLIST-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/maryroseLIST-500x500.jpg" width="500"/>
+<media:credit>Johnny Black</media:credit><media:text>The hull of Henry VIII's favorite warship, the &lt;em&gt;Mary Rose&lt;/em&gt;, and many thousands of recovered artifacts are housed in the Mary Rose Museum in Portsmouth, England.</media:text></media:content>
+      </item>
+          <item>
+        <title>Elon Musk turns X’s block button into a “glorified mute button”</title>
+        <link>https://arstechnica.com/tech-policy/2024/11/on-musks-x-blocking-users-doesnt-block-them-from-viewing-your-posts-anymore/</link>
+                  <comments>https://arstechnica.com/tech-policy/2024/11/on-musks-x-blocking-users-doesnt-block-them-from-viewing-your-posts-anymore/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jon Brodkin]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 18:34:21 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[elon musk x]]></category>
+		<category><![CDATA[x blocking]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/11/on-musks-x-blocking-users-doesnt-block-them-from-viewing-your-posts-anymore/</guid>
+
+                  <description>
+            <![CDATA[X change lets blocked users see posts made by the people who blocked them.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>X, formerly Twitter, is now letting blocked users see posts made by the people who blocked them.</p>
+<p>"We're starting to launch the block function update," X's engineering team <a href="https://x.com/XEng/status/1852934762144698736">wrote yesterday</a>. X previously <a href="https://x.com/XEng/status/1846605254864888180">said</a> that after the change, "If your posts are set to public, accounts you have blocked will be able to view them, but they will not be able to engage (like, reply, repost, etc.)."</p>
+<p>To justify the change, X said the block functionality could previously be "used by users to share and hide harmful or private information about those they've blocked." The change will allow people who are blocked "to see if such behavior occurs... allowing for greater transparency," X said.</p><p><a href="https://arstechnica.com/tech-policy/2024/11/on-musks-x-blocking-users-doesnt-block-them-from-viewing-your-posts-anymore/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2024/11/on-musks-x-blocking-users-doesnt-block-them-from-viewing-your-posts-anymore/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>140</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/x-logo-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/x-logo-500x500-1730743132.jpg" width="500"/>
+<media:credit>Getty Images | NurPhoto </media:credit></media:content>
+      </item>
+          <item>
+        <title>Nvidia ousts Intel from Dow Jones Index after 25-year run</title>
+        <link>https://arstechnica.com/ai/2024/11/nvidia-ousts-intel-from-dow-jones-index-after-25-year-run/</link>
+                  <comments>https://arstechnica.com/ai/2024/11/nvidia-ousts-intel-from-dow-jones-index-after-25-year-run/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Benj Edwards]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 17:28:07 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[machine learning]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/ai/2024/11/nvidia-ousts-intel-from-dow-jones-index-after-25-year-run/</guid>
+
+                  <description>
+            <![CDATA[Stock index switch-up reflects symbolic market shift as chip industry refocuses around AI.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>On Friday, S&amp;P Dow Jones Indices <a href="https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20241101-1475162/1475162_djiadjuaintcdowaes.pdf">announced</a> that AI chipmaker Nvidia will replace Intel in the <a href="https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average">Dow Jones Industrial Average</a>, marking a seismic shift in the semiconductor industry and ending Intel's 25-year run on the prestigious stock market index. The change takes effect on November 8.</p>
+<p>"The index changes were initiated to ensure a more representative exposure to the semiconductors industry," <a href="https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20241101-1475162/1475162_djiadjuaintcdowaes.pdf">wrote</a> S&amp;P in a press release.</p>
+<p>Intel's stock has dropped 54 percent this year, making it the worst performer on the Dow, and the company now holds a market value of under $100 billion for the first time in three decades, Reuters <a href="https://www.reuters.com/technology/nvidia-replace-intel-dow-jones-industrial-average-2024-11-01/">reported</a>. Analysts expect Intel to post its first annual net loss since 1986.</p><p><a href="https://arstechnica.com/ai/2024/11/nvidia-ousts-intel-from-dow-jones-index-after-25-year-run/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2024/11/nvidia-ousts-intel-from-dow-jones-index-after-25-year-run/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>70</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/robot_breakthrough_1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/robot_breakthrough_1-500x500-1730738523.jpg" width="500"/>
+<media:credit>rasslava via Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Sick of supersized EVs? The 2025 Hyundai Kona Electric hits the spot.</title>
+        <link>https://arstechnica.com/cars/2024/11/sick-of-supersized-evs-the-2025-hyundai-kona-electric-hits-the-spot/</link>
+                  <comments>https://arstechnica.com/cars/2024/11/sick-of-supersized-evs-the-2025-hyundai-kona-electric-hits-the-spot/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jonathan M. Gitlin]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 17:18:57 +0000</pubDate>
+        		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[car review]]></category>
+		<category><![CDATA[Hyundai Kona Electric]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/cars/2024/11/sick-of-supersized-evs-the-2025-hyundai-kona-electric-hits-the-spot/</guid>
+
+                  <description>
+            <![CDATA[It's not too big, it's not too heavy, and it's very, very efficient. ]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>If conventional wisdom were to be believed, the car we're reviewing today should not exist. Automakers are only interested in making very big, very expensive electric vehicles, leaving <a href="https://arstechnica.com/cars/2024/06/think-evs-are-too-expensive-here-are-11-for-under-40k/">nothing for people with normal-sized budgets</a> and normal-sized needs. While it's true that those oversized EVs are overrepresented among new car launches, they aren't the only game in town. As an alternative, consider the Hyundai Kona Electric, <a href="https://arstechnica.com/cars/2018/10/the-new-2019-hyundai-kona-ev-is-a-clever-little-electric-crossover/">which we last sampled</a> in pre-pandemic times.</p>
+<p>In fact, Kona Electric has changed quite a bit since we last drove one. Last year, an all-new model went on sale in North America, and it has carried over unchanged to its model year 2025 version. The range starts at $32,875 for the Kona Electric SE, which makes do with a 133 hp (99 kW) motor driving the front wheels, but the other trims offered—the $36,875 SEL, the $38,275 N Line (tested here), and the $41,050 Limited use a more powerful 201 hp (150 kW) motor. (All four have an identical 188 lb-ft (255 Nm) torque output.)</p>
+<p>In terms of size and weight, the Kona Electric really is a refreshing change from EVs that are often approaching three tons. With its rear wing and slightly tweaked front, the N Line is 1.1 inches longer than the other Kona Electrics at 172.6 inches (4,384 mm) long. All Kona Electrics are 71.9 inches (1,826 mm) wide and 62 inches (1,575 mm) tall, with a 104.7-inch (2,659 mm) wheelbase. Curb weight is what counts as featherweight for an EV—3,880 lbs (1,760 kg).</p><p><a href="https://arstechnica.com/cars/2024/11/sick-of-supersized-evs-the-2025-hyundai-kona-electric-hits-the-spot/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2024/11/sick-of-supersized-evs-the-2025-hyundai-kona-electric-hits-the-spot/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>125</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/2025-Hyundai-Kona-Electric-1-scaled-1152x648-1730738955.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/2025-Hyundai-Kona-Electric-1-scaled-500x500-1730738964.jpg" width="500"/>
+<media:credit>Jonathan Gitlin</media:credit><media:text>We were big fans of the previous Hyundai Kona Electric, and the new model picks up where that one left off.</media:text></media:content>
+      </item>
+          <item>
+        <title>China reveals a new heavy lift rocket that is a clone of SpaceX’s Starship</title>
+        <link>https://arstechnica.com/space/2024/11/chinas-long-term-lunar-plans-now-depend-on-developing-its-own-starship/</link>
+                  <comments>https://arstechnica.com/space/2024/11/chinas-long-term-lunar-plans-now-depend-on-developing-its-own-starship/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Eric Berger]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 16:28:35 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[long march-9]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[starship]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/space/2024/11/chinas-long-term-lunar-plans-now-depend-on-developing-its-own-starship/</guid>
+
+                  <description>
+            <![CDATA[The Long March 9 gets flaps and a reusable upper stage. ]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>When Chinese space officials unveiled the design for the country's first super heavy lift rocket nearly a decade ago, it looked like a fairly conventional booster. The rocket was fully expendable, with three stages and solid motors strapped onto its sides.</p>
+<p>Since then, the Asian country has been revising the design of this rocket, named Long March 9, in response to the development of reusable rockets by SpaceX. <a href="https://arstechnica.com/science/2022/11/china-is-scrapping-plans-for-an-sls-like-rocket-in-favor-of-reusable-booster/#gsc.tab=0">As of two years ago</a>, China had recalibrated the design to have a reusable first stage.</p>
+<p>Now, based on information released at a major airshow in Zhuhai, China, the design has morphed again. And this time, the plan for the Long March 9 rocket looks almost exactly like a clone of SpaceX's Starship rocket.</p><p><a href="https://arstechnica.com/space/2024/11/chinas-long-term-lunar-plans-now-depend-on-developing-its-own-starship/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2024/11/chinas-long-term-lunar-plans-now-depend-on-developing-its-own-starship/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>175</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/weibo-LM-9-1152x648-1730734779.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/weibo-LM-9-500x500-1730734753.jpg" width="500"/>
+</media:content>
+      </item>
+          <item>
+        <title>Perplexity will show live US election results despite AI accuracy warnings</title>
+        <link>https://arstechnica.com/ai/2024/11/perplexity-will-show-live-us-election-results-despite-ai-accuracy-warnings/</link>
+                  <comments>https://arstechnica.com/ai/2024/11/perplexity-will-show-live-us-election-results-despite-ai-accuracy-warnings/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Benj Edwards]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 15:52:24 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[2024 election]]></category>
+		<category><![CDATA[ai hallucinations]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgtp]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[confabulations]]></category>
+		<category><![CDATA[elections]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Google Gemini]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[Perplexity]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/ai/2024/11/perplexity-will-show-live-us-election-results-despite-ai-accuracy-warnings/</guid>
+
+                  <description>
+            <![CDATA[AI search engine embraces 2024 US election with live tracker and chatbot info hub.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>On Friday, Perplexity launched an <a href="https://www.perplexity.ai/elections">election information hub</a> that relies on data from The Associated Press and <a href="https://www.democracy.works/">Democracy Works</a> to provide live updates and information about the 2024 US general election, which takes place on Tuesday, November 5.</p>
+<p>"Starting Tuesday, we'll be offering live updates on elections using data from The Associated Press so you can stay informed on presidential, senate, and house races at both a state and national level," Perplexity <a href="https://www.perplexity.ai/hub/blog/introducing-the-election-information-hub">wrote</a> in a blog post. The site will pull data from special data sources (called APIs) hosted by the two organizations.</p>
+<p>As of Monday, Perplexity's hub currently provides interactive information on voting requirements, poll times, and summaries about ballot measures, candidates, policy positions, and endorsements. Users can ask questions about the information similar to using a chatbot like ChatGPT.</p><p><a href="https://arstechnica.com/ai/2024/11/perplexity-will-show-live-us-election-results-despite-ai-accuracy-warnings/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2024/11/perplexity-will-show-live-us-election-results-despite-ai-accuracy-warnings/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>80</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/voting_booth_header-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/voting_booth_header-500x500.jpg" width="500"/>
+<media:credit>Hill Street Studios via Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Endangered bees stop Meta’s plan for nuclear-powered AI data center</title>
+        <link>https://arstechnica.com/ai/2024/11/endangered-bees-stop-metas-plan-for-nuclear-powered-ai-data-center/</link>
+                  <comments>https://arstechnica.com/ai/2024/11/endangered-bees-stop-metas-plan-for-nuclear-powered-ai-data-center/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Hannah Murphy and Cristina Criddle, Financial Times]]>
+        </dc:creator>
+        <pubDate>Mon, 04 Nov 2024 14:04:24 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[nuclear power]]></category>
+		<category><![CDATA[syndication]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/ai/2024/11/endangered-bees-stop-metas-plan-for-nuclear-powered-ai-data-center/</guid>
+
+                  <description>
+            <![CDATA[Meta's rivals have struck deals to use nuclear power for some data centers.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Plans by Mark Zuckerberg’s Meta to build an AI data center in the US that runs on nuclear power were thwarted in part because a rare species of bee was discovered on land earmarked for the project, according to people familiar with the matter.</p>
+<p>Zuckerberg had planned to strike a deal with an existing nuclear power plant operator to provide emissions-free electricity for a new data center supporting his artificial intelligence ambitions.</p>
+<p>However, the potential deal faced multiple complications including environmental and regulatory challenges, these people said.</p><p><a href="https://arstechnica.com/ai/2024/11/endangered-bees-stop-metas-plan-for-nuclear-powered-ai-data-center/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2024/11/endangered-bees-stop-metas-plan-for-nuclear-powered-ai-data-center/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>97</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/07/GettyImages-559541115-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/07/GettyImages-559541115-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+      </item>
+          <item>
         <title>Laptop, smartphone, and game console prices could soar after the election</title>
         <link>https://arstechnica.com/tech-policy/2024/11/laptop-smartphone-and-game-console-prices-could-soar-after-the-election/</link>
                   <comments>https://arstechnica.com/tech-policy/2024/11/laptop-smartphone-and-game-console-prices-could-soar-after-the-election/#comments</comments>
@@ -42,7 +609,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>2</slash:comments>
+                  <slash:comments>178</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/brick-mosaiac-tariff-tech-1152x648.jpg" width="1152">
@@ -78,7 +645,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>289</slash:comments>
+                  <slash:comments>369</slash:comments>
         
         
         <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-1488366966.jpg">
@@ -107,7 +674,7 @@
           </description>
                                 <content:encoded>
               <![CDATA[<p>Some of my favorite games deny me the thing I think I want most. <em><a href="https://arstechnica.com/civis/threads/elden-ring-review-come-see-the-softer-side-of-punishing-difficulty.1482655/">Elden Ring</a> </em>refuses to provide manageable save files (and <a href="https://arstechnica.com/gaming/2024/06/shadow-of-the-erdtree-has-ground-me-into-dust-which-is-why-i-recommend-it/#gsc.tab=0">I paid for it</a>). <a href="https://arstechnica.com/gaming/2024/09/balatro-arrives-on-phones-sept-26-so-plan-your-sick-days-accordingly/#gsc.tab=0"><em>Balatro</em></a> withholds the final math on each hand played (and <a href="https://aftermath.site/balatro-the-long-dark">its developer suggests avoiding calculators</a>). And the <a href="https://arstechnica.com/gaming/2017/09/xcom-2-war-of-the-chosen-review-a-world-worth-saving/">modern X-COM games</a> force me to realize just how much a 98 percent chance to hit is not the same as 100 percent.</p>
-<p><a href="https://store.steampowered.com/app/2379910/Dystopika/"><em>Dystopika</em></a> (Steam, Windows) is a city builder in maybe the strictest definition of that two-word descriptor, because it steadfastly refuses to distract you with non-building details. The game is described by its single developer, Matt Marshall, as having "No goals, no management, just creativity and dark cozy vibes."<em> Dystopika</em> does very little to explain how you should play it, because there's no optimal path for doing so. Your only job is to enjoy yourself, poking and prodding at a dark cyberpunk cityscape, making things that look interesting, pretty, grim, or however you like. It might seem restrictive, but it feels very freeing.</p>
+<p><a href="https://store.steampowered.com/app/2379910/Dystopika/"><em>Dystopika</em></a> (Steam, Windows, but also Proton/Whisky for Linux/Mac, per comments) is a city builder in maybe the strictest definition of that two-word descriptor, because it steadfastly refuses to distract you with non-building details. The game is described by its single developer, Matt Marshall, as having "no goals, no management, just creativity and dark cozy vibes."<em> Dystopika</em> does very little to explain how you should play it, because there's no optimal path for doing so. Your only job is to enjoy yourself, poking and prodding at a dark cyberpunk cityscape, making things that look interesting, pretty, grim, or however you like. It might seem restrictive, but it feels very freeing.</p>
 <div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/93P1kdxHYTU?start=0&amp;wmode=transparent"></div><div class="caption font-impact mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-300">
     <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
     <div class="caption-content">
@@ -121,7 +688,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>65</slash:comments>
+                  <slash:comments>82</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/10.1920x1080-1152x648.jpg" width="1152">
@@ -154,7 +721,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>132</slash:comments>
+                  <slash:comments>160</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/saltzman-1024x648.jpg" width="1024">
@@ -189,7 +756,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>38</slash:comments>
+                  <slash:comments>45</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-162726915-1152x648.jpg" width="1152">
@@ -224,510 +791,12 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>52</slash:comments>
+                  <slash:comments>57</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/ipod-clickwheel-games-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/ipod-clickwheel-games-500x500.jpg" width="500"/>
 <media:credit>Aurich Lawson</media:credit><media:text>Mom: We have the Game Boy Advance at home / At home:</media:text></media:content>
-      </item>
-          <item>
-        <title>As North Korean troops march toward Ukraine, does a Russian quid pro quo reach space?</title>
-        <link>https://arstechnica.com/space/2024/11/in-exchange-for-troops-in-ukraine-russian-aid-to-north-korea-may-extend-to-space/</link>
-                  <comments>https://arstechnica.com/space/2024/11/in-exchange-for-troops-in-ukraine-russian-aid-to-north-korea-may-extend-to-space/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Stephen Clark]]>
-        </dc:creator>
-        <pubDate>Sat, 02 Nov 2024 00:24:51 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[ICBM]]></category>
-		<category><![CDATA[military space]]></category>
-		<category><![CDATA[North Korea]]></category>
-		<category><![CDATA[russia]]></category>
-		<category><![CDATA[Ukraine]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2024/11/in-exchange-for-troops-in-ukraine-russian-aid-to-north-korea-may-extend-to-space/</guid>
-
-                  <description>
-            <![CDATA[The budding partnership between Russia and North Korea may now be blossoming into space.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Earlier this week, North Korea apparently completed a successful test of its most powerful intercontinental ballistic missile, lofting it nearly 4,800 miles into space before the projectile fell back to Earth.</p>
-<p>This solid-fueled, multi-stage missile, named the Hwasong-19, is a new tool in North Korea's increasingly sophisticated arsenal of weapons. It has enough range—perhaps as much as 9,320 miles (15,000 kilometers), according to Japan's government—to strike targets anywhere in the United States.</p>
-<p>The test flight of the Hwasong-19 on Thursday was North Korea's first test of a long-range missile in nearly a year, coming as North Korea deploys some 10,000 troops inside Russia just days before the US presidential election. US officials condemned the missile launch as a "provocative and destabilizing" action in violation of UN Security Council resolutions.</p><p><a href="https://arstechnica.com/space/2024/11/in-exchange-for-troops-in-ukraine-russian-aid-to-north-korea-may-extend-to-space/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2024/11/in-exchange-for-troops-in-ukraine-russian-aid-to-north-korea-may-extend-to-space/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>270</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-1661838316-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-1661838316-500x500.jpg" width="500"/>
-<media:credit>Contributor/Getty Images</media:credit><media:text>Russian President Vladimir Putin (right) and North Korean Supreme Leader Kim Jong-un (left) observe a construction site of the Angara rocket launch complex at Vostochny Cosmodrome, Russia, on September 13, 2023.</media:text></media:content>
-      </item>
-          <item>
-        <title>Thousands of hacked TP-Link routers used in years-long account takeover attacks</title>
-        <link>https://arstechnica.com/information-technology/2024/11/microsoft-warns-of-8000-strong-botnet-used-in-password-spraying-attacks/</link>
-                  <comments>https://arstechnica.com/information-technology/2024/11/microsoft-warns-of-8000-strong-botnet-used-in-password-spraying-attacks/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Dan Goodin]]>
-        </dc:creator>
-        <pubDate>Sat, 02 Nov 2024 00:13:20 +0000</pubDate>
-        		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[botnets]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[password spraying]]></category>
-		<category><![CDATA[tp-link]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/information-technology/2024/11/microsoft-warns-of-8000-strong-botnet-used-in-password-spraying-attacks/</guid>
-
-                  <description>
-            <![CDATA[The botnet is being skillfully used to launch "highly evasive" password-spraying attacks.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Hackers working on behalf of the Chinese government are using a botnet of thousands of routers, cameras, and other Internet-connected devices to perform highly evasive password spray attacks against users of Microsoft’s Azure cloud service, the company warned Thursday.</p>
-<p>The malicious network, made up almost entirely of TP-Link routers, was first documented in October 2023 by a researcher who named it <a href="link">Botnet-7777</a>. The geographically dispersed collection of more than 16,000 compromised devices at its peak got its name because it exposes its malicious malware on port 7777.</p>
-<h2>Account compromise at scale</h2>
-<p>In July and again in August of this year, security researchers from <a href="https://blog.sekoia.io/solving-the-7777-botnet-enigma-a-cybersecurity-quest/">Serbia</a> and <a href="https://www.team-cymru.com/post/botnet-7777-are-you-betting-on-a-compromised-router">Team Cymru</a> reported the botnet was still operational. All three reports said that Botnet-7777 was being used to skillfully perform password spraying, a form of attack that sends large numbers of login attempts from many different IP addresses. Because each individual device limits the login attempts, the carefully coordinated account-takeover campaign is hard to detect by the targeted service.</p><p><a href="https://arstechnica.com/information-technology/2024/11/microsoft-warns-of-8000-strong-botnet-used-in-password-spraying-attacks/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2024/11/microsoft-warns-of-8000-strong-botnet-used-in-password-spraying-attacks/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>91</slash:comments>
-        
-        
-        <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/04/botnet6.jpg">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/04/botnet6-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson / Ars Technica</media:credit></media:content>
-      </item>
-          <item>
-        <title>As hospitals struggle with IV fluid shortage, NC plant restarts production</title>
-        <link>https://arstechnica.com/health/2024/11/as-hospitals-struggle-with-iv-fluid-shortage-nc-plant-restarts-production/</link>
-                  <comments>https://arstechnica.com/health/2024/11/as-hospitals-struggle-with-iv-fluid-shortage-nc-plant-restarts-production/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Beth Mole]]>
-        </dc:creator>
-        <pubDate>Fri, 01 Nov 2024 21:42:48 +0000</pubDate>
-        		<category><![CDATA[Health]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[baxter]]></category>
-		<category><![CDATA[drugs]]></category>
-		<category><![CDATA[Fluid]]></category>
-		<category><![CDATA[hospitals]]></category>
-		<category><![CDATA[hurricane helene]]></category>
-		<category><![CDATA[iV]]></category>
-		<category><![CDATA[North Carolina]]></category>
-		<category><![CDATA[shortage]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/health/2024/11/as-hospitals-struggle-with-iv-fluid-shortage-nc-plant-restarts-production/</guid>
-
-                  <description>
-            <![CDATA[The initial batches will be shipped in late November at the earliest. ]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>The western North Carolina plant that makes <a href="https://arstechnica.com/health/2024/10/helene-ravaged-the-nc-plant-that-makes-60-of-the-countrys-iv-fluid-supply/#gsc.tab=0">60 percent of the country's intravenous fluid supply</a> has restarted its highest-producing manufacturing line after being ravaged by flooding brought by Hurricane Helene last month.</p>
-<p>While it's an encouraging sign of recovery as hospitals nationwide struggle with shortages of fluids, supply is still likely to remain tight for the coming weeks.</p>
-<p>IV fluid maker Baxter Inc, which runs the Marion plant inundated by Helene, <a href="https://www.baxter.com/baxter-newsroom/hurricane-helene-updates">said Thursday</a> that the restarted production line could produce, at peak, 25 percent of the plant's total production and about 50 percent of the plant's production of one-liter IV solutions, the product most commonly used by hospitals and clinics.</p><p><a href="https://arstechnica.com/health/2024/11/as-hospitals-struggle-with-iv-fluid-shortage-nc-plant-restarts-production/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2024/11/as-hospitals-struggle-with-iv-fluid-shortage-nc-plant-restarts-production/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>66</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-1241447543-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-1241447543-500x500.jpg" width="500"/>
-<media:credit>Getty | The Washington Post</media:credit><media:text>A nurse administers intravenous fluids.</media:text></media:content>
-      </item>
-          <item>
-        <title>Starlink enters National Radio Quiet Zone—but reportedly cut off access for some</title>
-        <link>https://arstechnica.com/tech-policy/2024/11/starlink-enters-national-radio-quiet-zone-but-reportedly-cut-off-access-for-some/</link>
-                  <comments>https://arstechnica.com/tech-policy/2024/11/starlink-enters-national-radio-quiet-zone-but-reportedly-cut-off-access-for-some/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jon Brodkin]]>
-        </dc:creator>
-        <pubDate>Fri, 01 Nov 2024 20:16:33 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[national radio quiet zone]]></category>
-		<category><![CDATA[starlink]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/11/starlink-enters-national-radio-quiet-zone-but-reportedly-cut-off-access-for-some/</guid>
-
-                  <description>
-            <![CDATA[Starlink offered to 99.5% of zone, but locals say Roam product was disabled.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Starlink's home Internet service has come to the National Radio Quiet Zone after a multi-year engineering project that had the goal of minimizing interference with radio telescopes. Starlink operator SpaceX began "a one-year assessment period to offer residential satellite Internet service to 99.5% of residents within the NRQZ starting October 25," the National Radio Astronomy Observatory and Green Bank Observatory <a href="https://public.nrao.edu/news/over-99-5-of-residents-in-the-national-radio-quiet-zone-can-now-receive-satellite-internet-service/">announced last week</a>.</p>
-<p>"The vast majority of people within the areas of Virginia and West Virginia collectively known as the National Radio Quiet Zone (NRQZ) can now receive high speed satellite Internet service," the announcement said. "The newly available service is the result of a nearly three-year collaborative engineering effort between the US National Science Foundation (NSF), SpaceX, and the NSF National Radio Astronomy Observatory (NSF NRAO), which operates the NSF Green Bank Observatory (NSF GBO) in West Virginia within the NRQZ."</p>
-<p>There's a controversy over the 0.5 percent of residents who aren't included and are said to be newly blocked from using the <a href="https://www.starlink.com/us/roam">Starlink Roam</a> service. Starlink markets Roam as a service for people to use while traveling, not as a fixed home Internet service.</p><p><a href="https://arstechnica.com/tech-policy/2024/11/starlink-enters-national-radio-quiet-zone-but-reportedly-cut-off-access-for-some/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2024/11/starlink-enters-national-radio-quiet-zone-but-reportedly-cut-off-access-for-some/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>129</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/starlink-dish-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/starlink-dish-500x500-1730490697.jpg" width="500"/>
-<media:credit>Starlink</media:credit><media:text>Starlink satellite dish.</media:text></media:content>
-      </item>
-          <item>
-        <title>Beware pirates and booby traps in new Skeleton Crew trailer</title>
-        <link>https://arstechnica.com/culture/2024/11/new-skeleton-crew-trailer-really-channels-the-goonies/</link>
-                  <comments>https://arstechnica.com/culture/2024/11/new-skeleton-crew-trailer-really-channels-the-goonies/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jennifer Ouellette]]>
-        </dc:creator>
-        <pubDate>Fri, 01 Nov 2024 18:29:03 +0000</pubDate>
-        		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[disney plus]]></category>
-		<category><![CDATA[entertainment]]></category>
-		<category><![CDATA[LucasFilms]]></category>
-		<category><![CDATA[Star Wars]]></category>
-		<category><![CDATA[Star Wars: Skeleton Crew]]></category>
-		<category><![CDATA[streaming television]]></category>
-		<category><![CDATA[Trailers]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/culture/2024/11/new-skeleton-crew-trailer-really-channels-the-goonies/</guid>
-
-                  <description>
-            <![CDATA[<em>The Goonies</em>-inspired Star Wars spinoff series set in same timeframe as <em>The Mandalorian</em> and <em>Ahsoka</em>.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/f19gfOMZTtg?start=0&amp;wmode=transparent"></div><div class="caption font-impact mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-300">
-    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
-    <div class="caption-content">
-      Jude Law stars as Force-user Jod Na Nawood in <em>Star Wars: Skeleton Crew</em>.
-
-          </div>
-  </div>
-</div>
-<p>It's no secret that the new spinoff series, <em>Star Wars: Skeleton Crew,</em> was inspired by the 1985 film <em>The Goonies</em>. Executive Producer Kathleen Kennedy (who co-produced <a href="https://en.wikipedia.org/wiki/The_Goonies"><em>The Goonies</em></a>) has publicly confirmed as much. The latest trailer really leans into that influence: The series feels like something not created specifically for kids, but rather telling a story that just happens to be about kids going on an adventure.</p>
-<p>As <a href="https://arstechnica.com/culture/2024/08/jude-laws-jedi-befriends-kids-lost-in-space-in-star-wars-skeleton-crew-trailer/">previously reported</a>, the eight-episode standalone series is set in the same timeframe as <em>The Mandalorian</em> and <em>Ahsoka</em>. Per the official premise:</p>
-<blockquote><p><em>Skeleton Crew</em> follows the journey of four kids who make a mysterious discovery on their seemingly safe home planet, then get lost in a strange and dangerous galaxy, crossing paths with the likes of Jod Na Nawood, the mysterious character played by [Jude] Law. Finding their way home—and meeting unlikely allies and enemies—will be a greater adventure than they ever imagined.</p></blockquote>
-<p>Jude Law leads the cast as the quick-witted and charming (per Law) "Force-user" Jod Na Nawood. Ravi Cabot-Conyers plays Wim, Ryan Kiera Armstrong plays Fern, Kyriana Kratter plays KB, and Robert Timothy Smith plays Neil. Nick Frost will voice a droid named SM 33, the first mate of a spaceship called the <em>Onyx Cylinder</em>. The cast also includes Fred Tatasciore as Brutus, Jaleel White as Gunther, Mike Estes as Pax, Marti Matulis as Vane, and Dale Soules as Chaelt. Tunde Adebimpe and Kerry Condon will appear in as-yet-undisclosed roles.</p><p><a href="https://arstechnica.com/culture/2024/11/new-skeleton-crew-trailer-really-channels-the-goonies/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2024/11/new-skeleton-crew-trailer-really-channels-the-goonies/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>62</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/crew1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/crew1-500x500.jpg" width="500"/>
-</media:content>
-      </item>
-          <item>
-        <title>Apple is snapping up one of the best non-Adobe image editors, Pixelmator</title>
-        <link>https://arstechnica.com/gadgets/2024/11/apple-is-acquiring-image-editing-firm-pixelmator/</link>
-                  <comments>https://arstechnica.com/gadgets/2024/11/apple-is-acquiring-image-editing-firm-pixelmator/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kevin Purdy]]>
-        </dc:creator>
-        <pubDate>Fri, 01 Nov 2024 17:39:45 +0000</pubDate>
-        		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[acquisitions]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[Pixelmator]]></category>
-		<category><![CDATA[pixelmator pro]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/11/apple-is-acquiring-image-editing-firm-pixelmator/</guid>
-
-                  <description>
-            <![CDATA[Will Apple keep one of the few single-fee alternatives to Photoshop available?]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Pixelmator, the Lithuania-based firm that makes popular Mac-based photo editing tools, has <a href="https://www.pixelmator.com/blog/2024/11/01/a-new-home-for-pixelmator/">agreed to be acquired by Apple</a>.</p>
-<p>The company says that, pending regulatory approval, there will be "no material changes to the Pixelmator Pro, Pixelmator for iOS, and Photomator apps at this time," but to "Stay tuned for exciting updates to come." The Pixelmator team, now 17 years old, states that its staff will join Apple. Details of the acquisition price were not made public.</p>
-<p>Fans of Pixelmator's apps, which are notably one-time purchases, unlike Adobe's tools, may be hoping that those "exciting updates" do not include the sublimation of Pixelmator into an Apple product at some future time, while the Pixelmator apps disappear.</p><p><a href="https://arstechnica.com/gadgets/2024/11/apple-is-acquiring-image-editing-firm-pixelmator/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2024/11/apple-is-acquiring-image-editing-firm-pixelmator/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>163</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/pixelmator2-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/pixelmator2-500x500-1730481656.jpeg" width="500"/>
-<media:credit>Pixelmator</media:credit><media:text>Seems entirely appropriate that Pixelmator has a "BOO" image available the morning after Halloween.</media:text></media:content>
-      </item>
-          <item>
-        <title>Charger recall spells more bad news for Humane’s maligned AI Pin</title>
-        <link>https://arstechnica.com/gadgets/2024/11/charger-recall-spells-more-bad-news-for-humanes-maligned-ai-pin/</link>
-                  <comments>https://arstechnica.com/gadgets/2024/11/charger-recall-spells-more-bad-news-for-humanes-maligned-ai-pin/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Scharon Harding]]>
-        </dc:creator>
-        <pubDate>Fri, 01 Nov 2024 17:33:44 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[recall]]></category>
-		<category><![CDATA[wearables]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/11/charger-recall-spells-more-bad-news-for-humanes-maligned-ai-pin/</guid>
-
-                  <description>
-            <![CDATA[Humane first reported overheating problems with the portable charger in June. ]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Humane’s AI Pin was already struggling to take off, but the company's troubles deepened on Thursday as it recalled the product's portable charging case.</p>
-<p>Humane released the <a href="https://arstechnica.com/gadgets/2023/11/humane-ai-pin-a-700-voice-command-box-definitely-wont-replace-your-phone/">AI Pin</a> in April 2024. It’s a lapel pin that features an integrated camera and speaker, AI voice assistant, and laser projector. The device launched at a $700 starting price before dropping to $500 in June. The AI Pin also requires a subscription ($24 per month without fees). The wearable lacks a screen or app support, and despite marketing claims that it could replace smartphones, initial <a href="https://www.theverge.com/24126502/humane-ai-pin-review">reviews</a> of the product were abysmal (YouTuber Marques Brownlee famously <a href="https://www.youtube.com/watch?v=TitZV6k8zfA">dubbed</a> the pin "The Worst Product I've Ever Reviewed").</p>
-<p>The AI Pin's wireless Charge Case Accessory is sold separately; it differs from the home charging dock included with the AI Pin, which isn't impacted by this week's recall. The Charge Case Accessory is charged via USB-C.</p><p><a href="https://arstechnica.com/gadgets/2024/11/charger-recall-spells-more-bad-news-for-humanes-maligned-ai-pin/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2024/11/charger-recall-spells-more-bad-news-for-humanes-maligned-ai-pin/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>47</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/14-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/14-500x500.jpg" width="500"/>
-<media:credit>Humane</media:credit><media:text>Humane's AI Pin.</media:text></media:content>
-      </item>
-          <item>
-        <title>Bats use echolocation to make mental maps for navigation</title>
-        <link>https://arstechnica.com/science/2024/11/bats-use-echolocation-to-make-mental-maps-for-navigation/</link>
-                  <comments>https://arstechnica.com/science/2024/11/bats-use-echolocation-to-make-mental-maps-for-navigation/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jacek Krywko]]>
-        </dc:creator>
-        <pubDate>Fri, 01 Nov 2024 17:25:23 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[bats]]></category>
-		<category><![CDATA[Behavioral science]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[echolocation]]></category>
-		<category><![CDATA[navigation]]></category>
-		<category><![CDATA[neurobiology]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/science/2024/11/bats-use-echolocation-to-make-mental-maps-for-navigation/</guid>
-
-                  <description>
-            <![CDATA[Despite only working over short distances, echolocation is enough to get bats home.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Many species of bats use echolocation to avoid obstacles like tree branches and hunt small insects as they fly through the dark. But it turns out echolocation for bats is much more than just a short-range obstacle-avoidance and prey-targeting system. A recent study shows that one species of bats can stitch together thousands upon thousands of sound signatures into acoustic maps they use to successfully navigate several kilometers over their hunting grounds. The maps work even if the bats are completely blindfolded.</p>
-<h2>Blindfolded bats</h2>
-<p>“What echolocating bats do is they emit sounds, ultrasonic or not, and use the characteristics of the reflected echo to sense objects they have in front of them. We wanted to know if they use it for large-scale navigation. Most people think, 'Of course they do,' but the reality is we didn’t know that,” says Aya Goldshtein, a researcher at the Max Planck Institute of Animal Behavior in Konstanz, Germany. Goldshtein collaborated with scientists at Tel Aviv University on a study of how a species of bats called Kuhl’s pipistrelle navigate in their natural environment.</p>
-<p>There were several reasons that navigation via echolocation wasn’t obvious at all. For starters, echolocation is hopelessly limited when it comes to range. Bats can use it to sense objects that are at most a few dozen meters away. It’s a tool closer to an ultrasonic parking sensor in a car than to a long-distance sonar in a submarine. It is also not omnidirectional. The cone of coverage bats get from echolocation is usually a maximum of 120 degrees, although they can modulate it to an extent, depending on the shape of their mouths.</p><p><a href="https://arstechnica.com/science/2024/11/bats-use-echolocation-to-make-mental-maps-for-navigation/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2024/11/bats-use-echolocation-to-make-mental-maps-for-navigation/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>11</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-520248252-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-520248252-500x500.jpg" width="500"/>
-<media:credit>Ashley Cooper</media:credit></media:content>
-      </item>
-          <item>
-        <title>Distracted driving tool shows just how far you can travel while texting</title>
-        <link>https://arstechnica.com/cars/2024/11/distracted-driving-simulator-shows-why-you-shouldnt-text-on-the-highway/</link>
-                  <comments>https://arstechnica.com/cars/2024/11/distracted-driving-simulator-shows-why-you-shouldnt-text-on-the-highway/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jonathan M. Gitlin]]>
-        </dc:creator>
-        <pubDate>Fri, 01 Nov 2024 17:12:35 +0000</pubDate>
-        		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[distracted driving]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/cars/2024/11/distracted-driving-simulator-shows-why-you-shouldnt-text-on-the-highway/</guid>
-
-                  <description>
-            <![CDATA[The key to being safe as a driver is to keep your eyes on the road.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Humans who think they can multitask while sitting at the wheel of a moving car continue to be a problem—one that claimed more than 3,300 lives in 2022, according to the National Highway Traffic Safety Administration. The problem is almost entirely down to our smartphones—while we know they're distracting, <a href="https://arstechnica.com/cars/2018/05/put-the-phone-down-new-studies-show-were-still-bad-at-distracted-driving/">too many drivers</a> just can't help checking that email when they shouldn't. Now <a href="https://distracted-driving-simulator.quanata.com/#home">a new online tool</a> provides an easy way to grasp just how much of the road we can miss while playing with that phone.</p>
-<p>The distracted driving tool was developed by Quanta, a "context-based insurance provider," which wants to raise awareness of the problem. "Quanata’s technology aims to create a future where risk-informed choices enable safer drivers and better lives. We recognize that a lot of the danger on our roads is caused by distracted driving and we want to help minimize that," said Jim Ryan, SVP of business development at Quanta.</p>
-<p>The tests include preparing a text message while your car drives at 70 mph and then a comparison of reaction times at 70 mph when concentrating on the task of driving versus trying to assemble an order in a fast food app.</p><p><a href="https://arstechnica.com/cars/2024/11/distracted-driving-simulator-shows-why-you-shouldnt-text-on-the-highway/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2024/11/distracted-driving-simulator-shows-why-you-shouldnt-text-on-the-highway/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>115</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-1240756202-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-1240756202-500x500.jpg" width="500"/>
-<media:credit>Melissa Erichsen/picture alliance via Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>AIs show distinct bias against Black and female résumés in new study</title>
-        <link>https://arstechnica.com/ai/2024/11/study-ais-prefer-white-male-names-on-resumes-just-like-humans/</link>
-                  <comments>https://arstechnica.com/ai/2024/11/study-ais-prefer-white-male-names-on-resumes-just-like-humans/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kyle Orland]]>
-        </dc:creator>
-        <pubDate>Fri, 01 Nov 2024 16:59:28 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Science]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/ai/2024/11/study-ais-prefer-white-male-names-on-resumes-just-like-humans/</guid>
-
-                  <description>
-            <![CDATA[Language models seem to treat "masculine and White concepts... as the 'default' value."]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Anyone familiar with HR practices probably knows of <a href="https://www.npr.org/2024/04/11/1243713272/resume-bias-study-white-names-black-names">the decades of studies</a> showing that résumé with Black- and/or female-presenting names at the top get fewer callbacks and interviews than those with white- and/or male-presenting names—even if the rest of the résumé is identical. A new study shows those same kinds of biases also show up when large language models are used to evaluate résumés instead of humans.</p>
-<p>In <a href="https://ojs.aaai.org/index.php/AIES/article/view/31748/33915">a new paper</a> published during last month's <a href="https://ojs.aaai.org/index.php/AIES/issue/view/609">AAAI/ACM Conference on AI, Ethics and Society</a>, two University of Washington researchers ran hundreds of publicly available résumés and job descriptions through three different Massive Text Embedding (MTE) models. These models—based on the Mistal-7B LLM—had each been fine-tuned with slightly different sets of data to improve on the base LLM's abilities in "representational tasks including document retrieval, classification, and clustering," according to the researchers, and had achieved "state-of-the-art performance" in <a href="https://huggingface.co/blog/mteb">the MTEB benchmark</a>.</p>
-<p>Rather than asking for precise term matches from the job description or evaluating via a prompt (e.g., "does this résumé fit the job description?"), the researchers used the MTEs to generate embedded relevance scores for each résumé and job description pairing. To measure potential bias, the résuméwere first run through the MTEs without any names (to check for reliability) and were then run again with various names that achieved high racial and gender "distinctiveness scores" based on their actual use across groups in the general population. The top 10 percent of résumés that the MTEs judged as most similar for each job description were then analyzed to see if the names for any race or gender groups were chosen at higher or lower rates than expected.</p><p><a href="https://arstechnica.com/ai/2024/11/study-ais-prefer-white-male-names-on-resumes-just-like-humans/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2024/11/study-ais-prefer-white-male-names-on-resumes-just-like-humans/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>159</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-1733429687-1152x648-1730479117.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-1733429687-500x500.jpg" width="500"/>
-<media:text>God, I hope I get it! How many people does he need? How many boys, how many girls?</media:text></media:content>
-      </item>
-          <item>
-        <title>Microsoft delays rollout of the Windows 11 Recall feature yet again</title>
-        <link>https://arstechnica.com/gadgets/2024/11/microsoft-delays-rollout-of-the-windows-11-recall-feature-yet-again/</link>
-                  <comments>https://arstechnica.com/gadgets/2024/11/microsoft-delays-rollout-of-the-windows-11-recall-feature-yet-again/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Andrew Cunningham]]>
-        </dc:creator>
-        <pubDate>Fri, 01 Nov 2024 14:31:18 +0000</pubDate>
-        		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[windows 11]]></category>
-		<category><![CDATA[windows 11 24h2]]></category>
-		<category><![CDATA[windows recall]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/11/microsoft-delays-rollout-of-the-windows-11-recall-feature-yet-again/</guid>
-
-                  <description>
-            <![CDATA[Microsoft works to make Recall "secure and trusted" after security complaints.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>When Microsoft launched its Copilot+ AI PC initiative over the summer, one of the flagship features was Recall, a feature that would log months' worth of your PC usage, with the stated goal of helping you remember things you did and find them again. But if you've heard of Recall, it's probably because of the problems that surfaced in preview builds of Windows before the feature could launch: It <a href="https://arstechnica.com/ai/2024/06/windows-recall-demands-an-extraordinary-level-of-trust-that-microsoft-hasnt-earned/">stored all of its data in plaintext</a>, and it was relatively trivial for other users on the PC (or for malicious software) to access the database and screenshots, potentially exposing huge amounts of user data.</p>
-<p>Microsoft was supposed to launch Recall over the summer but delayed the feature to rework it. The company <a href="https://arstechnica.com/gadgets/2024/09/microsoft-details-security-privacy-overhaul-for-windows-recall-ahead-of-relaunch/">went into detail</a> on the new version of Recall's security protections in late September, declaring that a preview would be ready in time for Windows Insider Program testers <a href="https://arstechnica.com/gadgets/2024/08/microsoft-will-try-the-data-scraping-windows-recall-feature-again-in-october/">in October</a>. Now that we're past October, Microsoft has officially announced that the Recall preview is being delayed yet again and that it will begin rolling out to testers in December.</p>
-<p>“We are committed to delivering a secure and trusted experience with Recall. To ensure we deliver on these important updates, we’re taking additional time to refine the experience before previewing it with Windows Insiders,” said Microsoft Windows Insider Senior Program Manager Brandon LeBlanc in <a href="https://www.theverge.com/2024/10/31/24284572/microsoft-recall-delay-december-windows-insider-testing">a statement provided to The Verge</a>.</p><p><a href="https://arstechnica.com/gadgets/2024/11/microsoft-delays-rollout-of-the-windows-11-recall-feature-yet-again/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2024/11/microsoft-delays-rollout-of-the-windows-11-recall-feature-yet-again/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>141</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Recall-hero-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/Recall-hero-500x500.jpeg" width="500"/>
-<media:credit>Microsoft</media:credit><media:text>The Recall feature provides a timeline of screenshots and a searchable database of text, thoroughly tracking everything about a person's PC usage. </media:text></media:content>
-      </item>
-          <item>
-        <title>A new dental scam is to pull healthy teeth to sell you expensive fake ones</title>
-        <link>https://arstechnica.com/health/2024/11/more-dentists-are-pulling-healthy-teeth-to-sell-pricy-implants-experts-warn/</link>
-                  <comments>https://arstechnica.com/health/2024/11/more-dentists-are-pulling-healthy-teeth-to-sell-pricy-implants-experts-warn/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Brett Kelman and Anna Werner, KFF Health News]]>
-        </dc:creator>
-        <pubDate>Fri, 01 Nov 2024 13:35:05 +0000</pubDate>
-        		<category><![CDATA[Health]]></category>
-		<category><![CDATA[dentistry]]></category>
-		<category><![CDATA[healthcare]]></category>
-		<category><![CDATA[implants]]></category>
-		<category><![CDATA[syndication]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/health/2024/11/more-dentists-are-pulling-healthy-teeth-to-sell-pricy-implants-experts-warn/</guid>
-
-                  <description>
-            <![CDATA[It turns out you may not have needed those implants after all.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Becky Carroll was missing a few teeth, others were stained or crooked. Ashamed, she smiled with lips pressed closed. Her dentist offered to fix most of her teeth with root canals and crowns, Carroll said, but she was wary of traveling a long road of dental work.</p>
-<p>Then Carroll saw a TV commercial for another path: ClearChoice Dental Implant Centers. The company advertises that it can give patients “<a href="https://www.clearchoice.com/why-clearchoice/one-day-dental-implants/">a new smile in as little as one day</a>” by surgically replacing teeth instead of fixing them.</p>
-<p>So Carroll saved and borrowed for the surgery, she said. In an interview and a lawsuit, Carroll said that at a ClearChoice clinic in New Jersey in 2021, she agreed to pay $31,000 to replace all her natural upper teeth with pearly white prosthetic ones. What came next, Carroll said, was “like a horror movie.”</p><p><a href="https://arstechnica.com/health/2024/11/more-dentists-are-pulling-healthy-teeth-to-sell-pricy-implants-experts-warn/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2024/11/more-dentists-are-pulling-healthy-teeth-to-sell-pricy-implants-experts-warn/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>155</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/teeth-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/teeth-500x500.jpg" width="500"/>
-<media:credit>Andriy Onufriyenko via Getty</media:credit><media:text>Digital generated image of installation process of artificial implant tooth.</media:text></media:content>
-      </item>
-          <item>
-        <title>What is happening with Boeing’s Starliner spacecraft?</title>
-        <link>https://arstechnica.com/space/2024/11/nearly-two-months-after-starliners-return-boeing-remains-mum-on-its-future/</link>
-                  <comments>https://arstechnica.com/space/2024/11/nearly-two-months-after-starliners-return-boeing-remains-mum-on-its-future/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Eric Berger]]>
-        </dc:creator>
-        <pubDate>Fri, 01 Nov 2024 11:15:26 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Boeing]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[starliner]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2024/11/nearly-two-months-after-starliners-return-boeing-remains-mum-on-its-future/</guid>
-
-                  <description>
-            <![CDATA[Among the options NASA and Boeing are considering: A Starliner cargo flight.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Boeing's Starliner spacecraft safely landed empty in the New Mexico desert about eight weeks ago, marking a hollow end to the company's historic first human spaceflight. The vehicle's passengers during its upward flight to the International Space Station earlier this summer, Butch Wilmore and Suni Williams, remain in space, awaiting a ride home on SpaceX's Crew Dragon.</p>
-<p>Boeing has been steadfastly silent about the fate of Starliner since then. Two senior officials, including Boeing's leader of human spaceflight, John Shannon, were originally due to attend a post-landing news conference at Johnson Space Center in Houston. However, just minutes before the news conference was to begin, two seats were removed—the Boeing officials were no-shows.</p>
-<p>In lieu of speaking publicly, Boeing issued a terse statement early on the morning of September 8, attributing it to Mark Nappi, vice president and program manager of Boeing's commercial crew program. "We will review the data and determine the next steps for the program," Nappi said, in part.</p><p><a href="https://arstechnica.com/space/2024/11/nearly-two-months-after-starliners-return-boeing-remains-mum-on-its-future/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2024/11/nearly-two-months-after-starliners-return-boeing-remains-mum-on-its-future/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>177</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/53988402529_bec93e5a26_k-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/53988402529_bec93e5a26_k-500x500.jpg" width="500"/>
-<media:credit>NASA</media:credit><media:text>Boeing's Starliner spacecraft backs away from the International Space Station on September 6 without its crew.</media:text></media:content>
-      </item>
-          <item>
-        <title>Rocket Report: New Glenn shows out; ULA acknowledges some fairing issues</title>
-        <link>https://arstechnica.com/space/2024/11/rocket-report-new-glenn-shows-out-ula-acknowledges-some-fairing-issues/</link>
-                  <comments>https://arstechnica.com/space/2024/11/rocket-report-new-glenn-shows-out-ula-acknowledges-some-fairing-issues/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Eric Berger]]>
-        </dc:creator>
-        <pubDate>Fri, 01 Nov 2024 11:00:35 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[rocket report]]></category>
-		<category><![CDATA[space]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2024/11/rocket-report-new-glenn-shows-out-ula-acknowledges-some-fairing-issues/</guid>
-
-                  <description>
-            <![CDATA["We have integrated some corrective actions and additional inspections."]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Welcome to Edition 7.18 of the Rocket Report! One of the most intriguing bits of news this week is the rolling of Blue Origin's New Glenn rocket out to its launch complex in Florida. With two months remaining in 2024, will the company make owner Jeff Bezos' deadline for getting to orbit this year? We'll have to see, as the Rocket Report is not prepared to endorse any timelines at the moment.</p>
-<p>As always, we <a href="https://arstechnica.wufoo.com/forms/launch-stories/">welcome reader submissions</a>, and if you don't want to miss an issue, please subscribe using the box below (the form will not appear on AMP-enabled versions of the site). Each report will include information on small-, medium-, and heavy-lift rockets as well as a quick look ahead at the next three launches on the calendar.</p>
-<figure class="ars-img-shortcode id-1314289 align-center">
-    <div>
-                        <img loading="lazy" decoding="async" width="560" height="81" src="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png" class="center full" alt="" srcset="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png 560w, https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll-300x43.png 300w" sizes="(max-width: 560px) 100vw, 560px">
-                  </div>
-      </figure>
-
-<p><strong>ESA selects four companies for reusable launch</strong>. The European Space Agency announced this week the selection of Rocket Factory Augsburg, The Exploration Company, ArianeGroup, and Isar Aerospace to develop reusable rocket technology, <a href="https://europeanspaceflight.com/esa-selects-four-companies-to-develop-reusable-rocket-technology/">European Spaceflight reports</a>. The four awardees are divided into two initiatives focused on the development of reusable rocket technology: the Technologies for High-thrust Reusable Space Transportation (THRUST!) project and the Boosters for European Space Transportation (BEST!) project. The awarded companies will now begin contract negotiations with ESA to further develop and test their solutions.</p><p><a href="https://arstechnica.com/space/2024/11/rocket-report-new-glenn-shows-out-ula-acknowledges-some-fairing-issues/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2024/11/rocket-report-new-glenn-shows-out-ula-acknowledges-some-fairing-issues/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>151</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GbKjkRrW4AANen_-1152x648-1730409912.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GbKjkRrW4AANen_-500x500-1730409976.jpg" width="500"/>
-<media:credit>Blue Origin</media:credit><media:text>New Glenn arrives at Launch Complex 36 in Florida.</media:text></media:content>
       </item>
       </channel>
 </rss>
