@@ -4,7 +4,7 @@
     <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
     <link>https://arstechnica.com</link>
     <description>All Ars Technica stories</description>
-    <lastBuildDate>Thu, 12 Dec 2024 12:11:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2024 23:15:24 +0000</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>
       hourly    </sy:updatePeriod>
@@ -19,6 +19,531 @@
 	<height>32</height>
 </image> 
       <item>
+        <title>Are LLMs capable of non-verbal reasoning?</title>
+        <link>https://arstechnica.com/ai/2024/12/are-llms-capable-of-non-verbal-reasoning/</link>
+                  <comments>https://arstechnica.com/ai/2024/12/are-llms-capable-of-non-verbal-reasoning/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kyle Orland]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 21:55:20 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/ai/2024/12/are-llms-capable-of-non-verbal-reasoning/</guid>
+
+                  <description>
+            <![CDATA[Processing in the "latent space" could help AI with tricky logical questions.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Large language models have found great success so far by <a href="https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/" target="_blank" rel="noopener">using their transformer architecture</a> to <a href="https://arstechnica.com/ai/2024/05/heres-whats-really-going-on-inside-an-llms-neural-network/" target="_blank" rel="noopener">effectively predict the next words</a> (i.e., language tokens) needed to respond to queries. When it comes to complex reasoning tasks that require abstract logic, though, some researchers have found that interpreting everything through this kind of "language space" can start to cause some problems, even for <a href="https://arstechnica.com/ai/2024/12/openais-new-200-mo-chatgpt-subscription-will-buy-you-more-compute-time/">modern "reasoning" models</a>.</p>
+<p>Now, researchers are trying to work around these problems by crafting models that can work out potential logical solutions completely in "latent space"—the hidden computational layer just before the transformer generates language. While this approach doesn't cause a sea change in an LLM's reasoning capabilities, it does show distinct improvements in accuracy for certain types of logical problems and shows some interesting directions for new research.</p>
+<h2>Wait, what space?</h2>
+<p>Modern reasoning models like ChatGPT's o1 tend to work by generating a "chain of thought." Each step of the logical process in these models is expressed as a sequence of natural language word tokens which are fed back through the model.</p><p><a href="https://arstechnica.com/ai/2024/12/are-llms-capable-of-non-verbal-reasoning/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2024/12/are-llms-capable-of-non-verbal-reasoning/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>29</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1327016094-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1327016094-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>It's thinking, but not in words.</media:text></media:content>
+      </item>
+          <item>
+        <title>Character.AI steps up teen safety after bots allegedly caused suicide, self-harm</title>
+        <link>https://arstechnica.com/tech-policy/2024/12/character-ai-steps-up-teen-safety-after-bots-allegedly-caused-suicide-self-harm/</link>
+                  <comments>https://arstechnica.com/tech-policy/2024/12/character-ai-steps-up-teen-safety-after-bots-allegedly-caused-suicide-self-harm/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ashley Belanger]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 21:15:11 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Character.AI]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[child safety]]></category>
+		<category><![CDATA[suicide]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/12/character-ai-steps-up-teen-safety-after-bots-allegedly-caused-suicide-self-harm/</guid>
+
+                  <description>
+            <![CDATA[Character.AI's new model for teens doesn't resolve all of parents' concerns.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Following a pair of lawsuits alleging that chatbots caused a <a href="https://arstechnica.com/tech-policy/2024/10/chatbots-posed-as-therapist-and-adult-lover-in-teen-suicide-case-lawsuit-says/">teen boy's suicide</a>, <a href="https://arstechnica.com/tech-policy/2024/12/chatbots-urged-teen-to-self-harm-suggested-murdering-parents-lawsuit-says/">groomed a 9-year-old girl, and caused a vulnerable teen to self-harm</a>, Character.AI (C.AI) has <a href="https://blog.character.ai/how-character-ai-prioritizes-teen-safety/">announced</a> a separate model just for teens, ages 13 and up, that's supposed to make their experiences with bots safer.</p>
+<p>In a blog, C.AI said it took a month to develop the teen model, with the goal of guiding the existing model "away from certain responses or interactions, reducing the likelihood of users encountering, or prompting the model to return, sensitive or suggestive content."</p>
+<p>C.AI said "evolving the model experience" to reduce the likelihood kids are engaging in harmful chats—including bots allegedly teaching a teen with high-functioning autism to self-harm and delivering inappropriate adult content to all kids whose families are suing—it had to tweak both model inputs and outputs.</p><p><a href="https://arstechnica.com/tech-policy/2024/12/character-ai-steps-up-teen-safety-after-bots-allegedly-caused-suicide-self-harm/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2024/12/character-ai-steps-up-teen-safety-after-bots-allegedly-caused-suicide-self-harm/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>26</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1354022389-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1354022389-500x500.jpg" width="500"/>
+<media:credit>Marina Demidiuk | iStock / Getty Images Plus</media:credit></media:content>
+      </item>
+          <item>
+        <title>Critical WordPress plugin vulnerability under active exploit threatens thousands</title>
+        <link>https://arstechnica.com/security/2024/12/thousands-of-sites-remain-unpatched-against-actively-exploited-wordpress-plugin-bug/</link>
+                  <comments>https://arstechnica.com/security/2024/12/thousands-of-sites-remain-unpatched-against-actively-exploited-wordpress-plugin-bug/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Dan Goodin]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 21:00:30 +0000</pubDate>
+        		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CMS]]></category>
+		<category><![CDATA[exploits]]></category>
+		<category><![CDATA[plugins]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+		<category><![CDATA[wordpress]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/security/2024/12/thousands-of-sites-remain-unpatched-against-actively-exploited-wordpress-plugin-bug/</guid>
+
+                  <description>
+            <![CDATA[Vulnerability with severity rating of 9.8 out of possible 10 still live on >8,000 sites.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Thousands of sites running WordPress remain unpatched against a critical security flaw in a widely used plugin that was being actively exploited in attacks that allow for unauthenticated execution of malicious code, security researchers said.</p>
+<p>The vulnerability, tracked as <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11972">CVE-2024-11972</a>, is found in <a href="https://wordpress.org/plugins/hunk-companion/#description">Hunk Companion</a>, a plugin that runs on 10,000 sites that use the WordPress content management system. The vulnerability, which carries a severity rating of 9.8 out of a possible 10, was patched earlier this week. At the time this post went live on Ars, figures provided on the Hunk Companion page indicated that less than 12 percent of users had installed the patch, meaning nearly 9,000 sites could be next to be targeted.</p>
+<h2>Significant, multifaceted threat</h2>
+<p>“This vulnerability represents a significant and multifaceted threat, targeting sites that use both a ThemeHunk theme and the Hunk Companion plugin,” Daniel Rodriguez, a researcher with WordPress security firm WP Scan, <a href="https://wpscan.com/blog/unauthorized-plugin-installation-activation-in-hunk-companion/">wrote</a>. “With over 10,000 active installations, this exposed thousands of websites to anonymous, unauthenticated attacks capable of severely compromising their integrity.”</p><p><a href="https://arstechnica.com/security/2024/12/thousands-of-sites-remain-unpatched-against-actively-exploited-wordpress-plugin-bug/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2024/12/thousands-of-sites-remain-unpatched-against-actively-exploited-wordpress-plugin-bug/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>9</slash:comments>
+        
+        
+        <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Report: AT&amp;T, Verizon aren’t notifying most victims of Chinese call-records hack</title>
+        <link>https://arstechnica.com/tech-policy/2024/12/report-att-verizon-arent-notifying-most-victims-of-chinese-call-records-hack/</link>
+                  <comments>https://arstechnica.com/tech-policy/2024/12/report-att-verizon-arent-notifying-most-victims-of-chinese-call-records-hack/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jon Brodkin]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 20:50:50 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AT&T]]></category>
+		<category><![CDATA[salt typhoon]]></category>
+		<category><![CDATA[verizon]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/12/report-att-verizon-arent-notifying-most-victims-of-chinese-call-records-hack/</guid>
+
+                  <description>
+            <![CDATA[Telcos reportedly aren't telling users about call metadata taken in Chinese hack.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>AT&amp;T and Verizon reportedly are not notifying most customers whose call records were stolen in the ongoing attack attributed to Chinese hacking group Salt Typhoon. NBC News <a href="https://www.nbcnews.com/tech/security/phone-hack-data-chinese-salt-typhoon-metadata-fbi-security-encrypt-rcna183233">reported today</a> that "the vast majority of people whose call records have been stolen by Chinese hackers have not been notified, according to industry sources, and there is no indication that most affected people will be notified in the near future."</p>
+<p>US government officials <a href="https://arstechnica.com/tech-policy/2024/12/us-recommends-encrypted-messaging-as-chinese-hackers-linger-in-telecom-networks/">said last week</a> that major telecom companies have been unable to fully evict the Chinese state-sponsored hackers from their networks. There have been direct notifications to specific targets, such as government officials, whose calls were listened to and whose text messages were accessed. "President-elect Donald Trump, Vice President-elect JD Vance, senior congressional staffers and an array of US security officials were among scores of individuals to have their calls and texts directly targeted," The Wall Street Journal <a href="https://www.wsj.com/politics/national-security/dozens-of-countries-hit-in-chinese-telecom-hacking-campaign-top-u-s-official-says-2a3a5cca">wrote</a>.</p>
+<p>For most other victims, the data accessed apparently didn't include the contents of communications. It instead consisted of metadata like the numbers that phones called and when. These people are not receiving notifications from carriers, NBC News wrote today:</p><p><a href="https://arstechnica.com/tech-policy/2024/12/report-att-verizon-arent-notifying-most-victims-of-chinese-call-records-hack/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2024/12/report-att-verizon-arent-notifying-most-victims-of-chinese-call-records-hack/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>14</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/phone-1152x648-1734035098.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/phone-500x500-1734035086.jpg" width="500"/>
+<media:credit>Getty Images | Tim Robberts</media:credit></media:content>
+      </item>
+          <item>
+        <title>Generating power with a thin, flexible thermoelectric film</title>
+        <link>https://arstechnica.com/science/2024/12/thermoelectric-material-gets-flexible-efficient/</link>
+                  <comments>https://arstechnica.com/science/2024/12/thermoelectric-material-gets-flexible-efficient/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jacek Krywko]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 19:00:54 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[cooling]]></category>
+		<category><![CDATA[materials science]]></category>
+		<category><![CDATA[power]]></category>
+		<category><![CDATA[thermoelectric material]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2024/12/thermoelectric-material-gets-flexible-efficient/</guid>
+
+                  <description>
+            <![CDATA[Device could be integrated into clothing, harvest body heat to power gadgets.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>The No. 1 nuisance with smartphones and smartwatches is that we need to charge them every day. As warm-blooded creatures, however, we generate heat all the time, and that heat can be converted into electricity for some of the electronic gadgetry we carry.</p>
+<p>Flexible thermoelectric devices, or F-TEDs, can convert thermal energy into electric power. The problem is that F-TEDs weren’t actually flexible enough to comfortably wear or efficient enough to power even a smartwatch. They were also very expensive to make.</p>
+<p>But now, a team of Australian researchers thinks they finally achieved a breakthrough that might take F-TEDs off the ground.</p><p><a href="https://arstechnica.com/science/2024/12/thermoelectric-material-gets-flexible-efficient/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2024/12/thermoelectric-material-gets-flexible-efficient/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>23</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1511416656-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1511416656-500x500.jpg" width="500"/>
+</media:content>
+      </item>
+          <item>
+        <title>Studies pin down exactly when humans and Neanderthals swapped DNA</title>
+        <link>https://arstechnica.com/science/2024/12/studies-pin-down-exactly-when-humans-and-neanderthals-swapped-dna/</link>
+                  <comments>https://arstechnica.com/science/2024/12/studies-pin-down-exactly-when-humans-and-neanderthals-swapped-dna/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kiona N. Smith]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 19:00:01 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[ancient DNA]]></category>
+		<category><![CDATA[ancient genomics]]></category>
+		<category><![CDATA[ancient people did stuff]]></category>
+		<category><![CDATA[anthropology]]></category>
+		<category><![CDATA[Archaeology]]></category>
+		<category><![CDATA[Neanderthals]]></category>
+		<category><![CDATA[out of africa]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2024/12/studies-pin-down-exactly-when-humans-and-neanderthals-swapped-dna/</guid>
+
+                  <description>
+            <![CDATA[We may owe our tiny sliver of Neanderthal DNA to just a couple of hundred Neanderthals.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Two recent studies suggest that the gene flow (as the young people call it these days) between Neanderthals and our species happened during a short period sometime between 50,000 and 43,500 years ago. The studies, which share several co-authors, suggest that our torrid history with Neanderthals may have been shorter than we thought.</p>
+<h2><b>Pinpointing exactly when Neanderthals met <em>H. sapiens</em>  </b></h2>
+<p>Max Planck Institute of Evolutionary Anthropology scientist Leonardo Iasi and his colleagues examined the genomes of 59 people who lived in Europe between 45,000 and 2,200 years ago, plus those of 275 modern people whose ancestors hailed from all over the world. The researchers cataloged the segments of Neanderthal DNA in each person’s genome, then compared them to see where those segments appeared and how that changed over time and distance. This revealed how Neanderthal ancestry got passed around as people spread around the world and provided an estimate of when it all started.</p>
+<p>“We tried to compare where in the genomes these [Neanderthal segments] occur and if the positions are shared among individuals or if there are many unique segments that you find [in people from different places],” said University of California Berkeley geneticist Priya Moorjani in a recent press conference. “We find the majority of the segments are shared, and that would be consistent with the fact that there was a single gene flow event.”</p><p><a href="https://arstechnica.com/science/2024/12/studies-pin-down-exactly-when-humans-and-neanderthals-swapped-dna/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2024/12/studies-pin-down-exactly-when-humans-and-neanderthals-swapped-dna/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>36</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/Ranis-Zlaty-Kun-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/Ranis-Zlaty-Kun-500x500.jpg" width="500"/>
+<media:credit>Sumer et al. 2024</media:credit><media:text>The artist's illustration shows what the six people buried at the Ranis site, who lived between 49, 500 and 41,000 years ago, may have looked like. Two of these people are mother and daughter, and the mother is a distant cousin (or perhaps a great-great-grandparent or great-great-grandchild) to a woman whose skull was found 130 kilometers away in what's now Czechia.</media:text></media:content>
+      </item>
+          <item>
+        <title>OpenAI introduces “Santa Mode” to ChatGPT for ho-ho-ho voice chats</title>
+        <link>https://arstechnica.com/information-technology/2024/12/openai-introduces-santa-mode-to-chatgpt-for-ho-ho-ho-voice-chats/</link>
+                  <comments>https://arstechnica.com/information-technology/2024/12/openai-introduces-santa-mode-to-chatgpt-for-ho-ho-ho-voice-chats/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Benj Edwards]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 18:50:27 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[machine learning]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/information-technology/2024/12/openai-introduces-santa-mode-to-chatgpt-for-ho-ho-ho-voice-chats/</guid>
+
+                  <description>
+            <![CDATA[An AI version of old St. Nick arrives as a seasonal character in popular chatbot app.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>On Thursday, OpenAI announced that <a href="https://arstechnica.com/information-technology/2024/07/when-counting-quickly-openais-new-voice-mode-stops-to-catch-its-breath/">ChatGPT</a> users can now talk to a simulated version of Santa Claus through the app's voice mode, using AI to bring a North Pole connection to mobile devices, desktop apps, and web browsers during the holiday season.</p>
+<p>The company added Santa's voice and personality as a preset option in ChatGPT's <a href="https://arstechnica.com/ai/2024/09/talking-to-chatgpt-for-the-first-time-is-a-surreal-experience/">Advanced Voice Mode</a>. Users can access Santa by tapping a snowflake icon next to the prompt bar or through voice settings. The feature works on iOS and Android mobile apps, chatgpt.com, and OpenAI's Windows and MacOS applications. The Santa voice option will remain available to users worldwide until early January.</p>
+<p>The conversations with Santa exist as temporary chats that won't save to chat history or affect the model's memory. OpenAI designed this limitation specifically for the holiday feature. Keep that in mind, because if you let your kids talk to Santa, the AI simulation won't remember what kids have told it during previous conversations.</p><p><a href="https://arstechnica.com/information-technology/2024/12/openai-introduces-santa-mode-to-chatgpt-for-ho-ho-ho-voice-chats/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2024/12/openai-introduces-santa-mode-to-chatgpt-for-ho-ho-ho-voice-chats/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>32</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/santa_claus_secret_header-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/santa_claus_secret_header-500x500.jpg" width="500"/>
+<media:credit>inhauscreative via Getty Images</media:credit><media:text>You're supposed to lay your finger aside your nose, Santa, not up your nose.</media:text></media:content>
+      </item>
+          <item>
+        <title>The optical disc onslaught continues, with LG quitting Blu-ray players</title>
+        <link>https://arstechnica.com/gadgets/2024/12/the-optical-disc-onslaught-continues-with-lg-quitting-blu-ray-players/</link>
+                  <comments>https://arstechnica.com/gadgets/2024/12/the-optical-disc-onslaught-continues-with-lg-quitting-blu-ray-players/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Scharon Harding]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 18:38:11 +0000</pubDate>
+        		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Blu-ray]]></category>
+		<category><![CDATA[dvd]]></category>
+		<category><![CDATA[LG]]></category>
+		<category><![CDATA[streaming]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/12/the-optical-disc-onslaught-continues-with-lg-quitting-blu-ray-players/</guid>
+
+                  <description>
+            <![CDATA[Streaming uncertainty has some people clinging to their discs. ]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Like with much of physical media, the onslaught against optical media is ongoing. In the latest hit against physical media fans, LG has discontinued its remaining Blu-ray players. However, this doesn't spell the end for Blu-rays, which, in at least some categories, are seeing growing interest.</p>
+<p>LG has no plans to make more Blu-ray players, <a href="https://www.flatpanelshd.com/news.php?subaction=showfull&amp;id=1733902062">FlatpanelsHD</a> reported on Wednesday. Its most recent players, the <a href="http://www.lg.com/us/blu-ray-dvd-players/lg-ubk90-blu-ray-player">UBK90</a> and <a href="http://www.lg.com/us/blu-ray-dvd-players/lg-ubk80-blu-ray-player">UBK80</a>, came out in 2018 and are no longer available for purchase on LG’s website. You can still find them at third-party retailers, but when stock runs out, LG won’t be replenishing. Trying to access LG's "Blu-ray &amp; DVD Players" webpage now results in a redirect to LG's 4K TVs. We can take a hint, LG.</p>
+<p>FlatpanelsHD spoke with LG Korea, which reportedly didn’t commit to a permanent exit from Blu-ray players. But for the foreseeable future, the company won’t be selling a type of device that it hasn’t updated in almost seven years.</p><p><a href="https://arstechnica.com/gadgets/2024/12/the-optical-disc-onslaught-continues-with-lg-quitting-blu-ray-players/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2024/12/the-optical-disc-onslaught-continues-with-lg-quitting-blu-ray-players/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>129</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-2162965259-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-2162965259-500x500.jpg" width="500"/>
+<media:credit>Getty</media:credit></media:content>
+      </item>
+          <item>
+        <title>Google steps into “extended reality” once again with Android XR</title>
+        <link>https://arstechnica.com/gadgets/2024/12/google-steps-into-extended-reality-once-again-with-android-xr/</link>
+                  <comments>https://arstechnica.com/gadgets/2024/12/google-steps-into-extended-reality-once-again-with-android-xr/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kevin Purdy]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 18:18:32 +0000</pubDate>
+        		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[android xr]]></category>
+		<category><![CDATA[extended reality]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Google Glass]]></category>
+		<category><![CDATA[VR]]></category>
+		<category><![CDATA[XR]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/12/google-steps-into-extended-reality-once-again-with-android-xr/</guid>
+
+                  <description>
+            <![CDATA[No pricing or availability, but there's new competition in headsets and glasses.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Citing "years of investment in AI, AR, and VR," Google is stepping into the augmented reality market once more with <a href="https://www.android.com/xr/">Android XR</a>. It's an operating system that Google says will power future headsets and glasses that "transform how you watch, work, and explore."</p>
+<p>The first version you'll see is Project Moohan, a mixed-reality headset built by Samsung. It will be available for purchase next year, and not much more is known about it. Developers have access to <a href="https://android-developers.googleblog.com/2024/12/introducing-android-xr-sdk-developer-preview.html">the new XR version of Android</a> now.</p>
+<p>"We've been in this space since Google Glass, and we have not stopped," said Juston Payne, director of product at Google for XR in <a href="https://www.youtube.com/watch?v=Pn5uG1ys-pE">Android XR's launch video</a>. Citing established projects like Google Lens, Live View for Maps, instant camera translation, and, of course, Google's general-purpose Gemini AI, XR promises to offer such overlays in both dedicated headsets and casual glasses.</p><p><a href="https://arstechnica.com/gadgets/2024/12/google-steps-into-extended-reality-once-again-with-android-xr/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2024/12/google-steps-into-extended-reality-once-again-with-android-xr/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>32</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/project_moohan-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/project_moohan-500x500.jpeg" width="500"/>
+<media:credit>Samsung</media:credit><media:text>Rendering of "Project Moohan," the likely first AR headset that will run Android XR, designed by Samsung.</media:text></media:content>
+      </item>
+          <item>
+        <title>Intel Arc B580 review: A $249 RTX 4060 killer, one-and-a-half years later</title>
+        <link>https://arstechnica.com/gadgets/2024/12/review-intel-arc-b580-is-a-compelling-if-incredibly-tardy-250-midrange-gpu/</link>
+                  <comments>https://arstechnica.com/gadgets/2024/12/review-intel-arc-b580-is-a-compelling-if-incredibly-tardy-250-midrange-gpu/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Andrew Cunningham]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 17:50:18 +0000</pubDate>
+        		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Alchemist]]></category>
+		<category><![CDATA[battlemage]]></category>
+		<category><![CDATA[Intel]]></category>
+		<category><![CDATA[Intel Arc]]></category>
+		<category><![CDATA[intel arc b580]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/12/review-intel-arc-b580-is-a-compelling-if-incredibly-tardy-250-midrange-gpu/</guid>
+
+                  <description>
+            <![CDATA[Intel has solved the biggest problems with its Arc GPUs, but not the timing.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Intel doesn't have a ton to show for its dedicated GPU efforts yet.</p>
+<p>After much anticipation, many delays, and an anticipatory <a href="https://www.tomshardware.com/news/poor-dx11-performance-arc-gpus-constant-work-in-progress">apology tour for its software quality</a>, Intel launched its first Arc GPUs at the end of 2022. There were things to like about the A770 and A750, but buggy drivers, poor performance in older games, and relatively high power use made them difficult to recommend. They were more notable as curiosities than as consumer graphics cards.</p>
+<p>The result, after more than two years on the market, is that Arc GPUs remain a statistical nonentity in the GPU market, according to <a href="https://www.jonpeddie.com/news/shipments-of-graphics-aibs-see-significant-surge-in-q2-2024/">analysts</a> and the <a href="https://store.steampowered.com/hwsurvey/directx/">Steam Hardware Survey</a>. But it was always going to take time—and probably a couple of hardware generations—for Intel to make meaningful headway against entrenched competitors.</p><p><a href="https://arstechnica.com/gadgets/2024/12/review-intel-arc-b580-is-a-compelling-if-incredibly-tardy-250-midrange-gpu/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2024/12/review-intel-arc-b580-is-a-compelling-if-incredibly-tardy-250-midrange-gpu/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>91</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/IMG_2505-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/IMG_2505-500x500-1733985940.jpeg" width="500"/>
+<media:credit>Andrew Cunningham</media:credit><media:text>Intel's Arc B580 design doesn't include LEDs or other frills, but it's a clean-looking design.</media:text></media:content>
+      </item>
+          <item>
+        <title>AI helps ID paint chemistry of Berlin Wall murals</title>
+        <link>https://arstechnica.com/science/2024/12/ai-helps-id-paint-chemistry-of-berlin-wall-murals/</link>
+                  <comments>https://arstechnica.com/science/2024/12/ai-helps-id-paint-chemistry-of-berlin-wall-murals/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jennifer Ouellette]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 16:59:25 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[art conservation]]></category>
+		<category><![CDATA[Berlin Wall]]></category>
+		<category><![CDATA[chemistry]]></category>
+		<category><![CDATA[graffiti]]></category>
+		<category><![CDATA[neural networks]]></category>
+		<category><![CDATA[Raman spectroscopy]]></category>
+		<category><![CDATA[street art]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2024/12/ai-helps-id-paint-chemistry-of-berlin-wall-murals/</guid>
+
+                  <description>
+            <![CDATA[Italian scientists designed a neural network to analyze spectral data from handheld Raman spectroscopy devices.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall">fall of the Berlin Wall</a> in November 1989 was a seminal moment in 20th century history, paving the way for German reunification. Many segments, both large and small, were preserved for posterity—including portions covered in graffiti or murals. A team of Italian scientists used a combination of spectroscopic analysis and machine learning to study paint chips from wall fragments to learn more about the chemistry of the paints and pigments used, according to a <a href="http://pubs.acs.org/doi/abs/10.1021/jacs.4c12611">new paper</a> published in the Journal of the American Chemical Society.</p>
+<p>There has been increased attention in recent years to preserving street art, which is vulnerable both to degradation over time as well as deliberate vandalism. For instance, <a href="https://arstechnica.com/science/2021/04/novel-hydrogels-can-safely-remove-graffiti-from-vandalized-street-art/">in 2021</a>, Italian chemists figured out how to use hydrogels to remove added graffiti from vandalized murals in Florence. (Over-painting by vandals is so chemically similar to the original painting underneath that it is difficult to selectively remove just the over-painting without damaging the original.) Unlike most classic masterpieces of the past, created with paints designed to last centuries, street art is more ephemeral in nature, using materials that lack such longevity.</p>
+<p>In many cases, like the Berlin Wall, the painters didn't bother to document the specific materials they used, their application techniques, or other useful information that conservators could use to restore or conserve street art. Modern painting materials are also much more complex, and manufacturers typically do not report specific information on the composition of those materials.</p><p><a href="https://arstechnica.com/science/2024/12/ai-helps-id-paint-chemistry-of-berlin-wall-murals/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2024/12/ai-helps-id-paint-chemistry-of-berlin-wall-murals/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>16</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/berlin1CROP-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/berlin1CROP-500x500.jpg" width="500"/>
+<media:credit>Thierry Noir/CC BY-SA 3.0</media:credit><media:text>Segment of the Berlin Wall at Bethaniendamm in Berlin-Kreuzberg, in 1986.</media:text></media:content>
+      </item>
+          <item>
+        <title>Weight loss drugs may also treat addiction, Alzheimer’s, and heart disease</title>
+        <link>https://arstechnica.com/health/2024/12/weight-loss-drugs-may-also-treat-addiction-alzheimers-and-heart-disease/</link>
+                  <comments>https://arstechnica.com/health/2024/12/weight-loss-drugs-may-also-treat-addiction-alzheimers-and-heart-disease/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ian Johnston and Michael Peel, Financial Times]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 16:20:57 +0000</pubDate>
+        		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[GLP-1]]></category>
+		<category><![CDATA[Ozempic]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[wegovy]]></category>
+		<category><![CDATA[weight loss]]></category>
+		<category><![CDATA[weight loss drugs]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/health/2024/12/weight-loss-drugs-may-also-treat-addiction-alzheimers-and-heart-disease/</guid>
+
+                  <description>
+            <![CDATA[Pharmaceutical companies are already cashing in on their other health benefits.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>One of Dr. Mo Sarhan’s patients was experiencing intense cravings for opioids and alcohol when the Florida-based doctor offered him a striking solution: the Eli Lilly weight-loss drug Mounjaro.</p>
+<p>“Within days, all of his cravings were gone and he was much more effective in his engagement and treatment. He’s done great since,” Sarhan says.</p>
+<p>Sarhan and his colleague Steven Klein at the Caron Treatment Centers in Florida and Pennsylvania have prescribed a range of so-called glucagon-like peptide-1 receptor agonists (GLP-1s) to treat addictions, using them alongside traditional therapies, to around 75 patients.</p><p><a href="https://arstechnica.com/health/2024/12/weight-loss-drugs-may-also-treat-addiction-alzheimers-and-heart-disease/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2024/12/weight-loss-drugs-may-also-treat-addiction-alzheimers-and-heart-disease/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>100</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/weightloss-list-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/weightloss-list-500x500.jpg" width="500"/>
+<media:credit>FT montage/Bob Haslett</media:credit></media:content>
+      </item>
+          <item>
+        <title>YouTube TV is hiking prices again after denying “erroneous” report days ago</title>
+        <link>https://arstechnica.com/gadgets/2024/12/youtube-tv-raisies-prices-10-per-month-in-2025-citing-content-costs-quality/</link>
+                  <comments>https://arstechnica.com/gadgets/2024/12/youtube-tv-raisies-prices-10-per-month-in-2025-citing-content-costs-quality/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kevin Purdy]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 16:03:25 +0000</pubDate>
+        		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[youtube TV]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/12/youtube-tv-raisies-prices-10-per-month-in-2025-citing-content-costs-quality/</guid>
+
+                  <description>
+            <![CDATA[$83/mo price lines up with Hulu TV Live, and not as far below traditional cable.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>YouTube TV, now <a href="https://arstechnica.com/gadgets/2024/02/youtube-tv-is-the-uss-4th-biggest-cable-tv-provider-with-8-million-subs/">one of the country's leading cable (or cable-ish) television providers</a>, is starting to act like it. The service told customers in an email this morning that prices are going up in the new year, from $73 per month for the Base Plan to $83 on January 13, 2025—just days after suggesting that wasn't happening.</p>
+<p>"We don’t make these decisions lightly, and we realize this has an impact on our members," Google's email to subscribers read. "We are committed to bringing you features that are changing the way we watch live TV, like unlimited DVR storage and multiview, and supporting YouTube TV’s breadth of content and vast on-demand library of movies and shows."</p>
+<p>Google cited "the rising cost of content and the investments we make in the quality of our service" in announcing the price increase. It noted that customers can pause or cancel their subscription in their Settings and that current trials and promotions will be honored and unchanged.</p><p><a href="https://arstechnica.com/gadgets/2024/12/youtube-tv-raisies-prices-10-per-month-in-2025-citing-content-costs-quality/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2024/12/youtube-tv-raisies-prices-10-per-month-in-2025-citing-content-costs-quality/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>126</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-646395580-scaled-1152x648-1734018446.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-646395580-scaled-500x500-1734018545.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>In an odd bit of propaganda, Belarus claims to have its own Starlink technology</title>
+        <link>https://arstechnica.com/space/2024/12/belarus-claims-to-have-developed-a-starlink-analog-for-its-troops/</link>
+                  <comments>https://arstechnica.com/space/2024/12/belarus-claims-to-have-developed-a-starlink-analog-for-its-troops/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Eric Berger]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 15:51:35 +0000</pubDate>
+        		<category><![CDATA[Space]]></category>
+		<category><![CDATA[Belarus]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[starlink]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/space/2024/12/belarus-claims-to-have-developed-a-starlink-analog-for-its-troops/</guid>
+
+                  <description>
+            <![CDATA[Mom, can we have a Starlink? Mom: We have a Starlink at home.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>In recent days, there has been a smattering of coverage in state-run Russian media outlets about how the Belarusian army has developed its own satellite Internet service akin to SpaceX's Starlink constellation, called "Kulisa."</p>
+<p>According to <a href="https://tass-ru.translate.goog/mezhdunarodnaya-panorama/22634445?_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=de&amp;_x_tr_pto=wapp">the TASS news service</a>, for example, the Kulisa mobile communications technology has "already entered service and is being used in military units of the Armed Forces."</p>
+<p><a href="https://news-pravda.com/usa/2024/12/11/913670.html">And Pravda</a>, which started out as the official newspaper of Russia's Communist Party more than a century ago, taunted the developer of the technology, saying, "How's that for you, SpaceX?"</p><p><a href="https://arstechnica.com/space/2024/12/belarus-claims-to-have-developed-a-starlink-analog-for-its-troops/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2024/12/belarus-claims-to-have-developed-a-starlink-analog-for-its-troops/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>48</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/belarus-1-571x648.jpg" width="571">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/belarus-1-500x500.jpg" width="500"/>
+<media:credit>Pravda</media:credit><media:text>The first, and only, president of Belarus, Alexander Lukashenko, is shown the Kulisa technology.</media:text></media:content>
+      </item>
+          <item>
+        <title>NASA’s boss-to-be proclaims we’re about to enter an “age of experimentation”</title>
+        <link>https://arstechnica.com/space/2024/12/trumps-nominee-to-lead-nasa-favors-a-full-embrace-of-commercial-space/</link>
+                  <comments>https://arstechnica.com/space/2024/12/trumps-nominee-to-lead-nasa-favors-a-full-embrace-of-commercial-space/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Stephen Clark]]>
+        </dc:creator>
+        <pubDate>Thu, 12 Dec 2024 14:11:56 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[artemis]]></category>
+		<category><![CDATA[human spaceflight]]></category>
+		<category><![CDATA[jared isaacman]]></category>
+		<category><![CDATA[moon]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[starship]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/space/2024/12/trumps-nominee-to-lead-nasa-favors-a-full-embrace-of-commercial-space/</guid>
+
+                  <description>
+            <![CDATA["You can get into a rhythm of using all of these providers to get things up very quickly."]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>ORLANDO, Florida<span class="s1">—On Wednesday, </span>Jared Isaacman made his first public appearance since his nomination earlier this month to become NASA's next administrator. Although his remarks were short on specifics, Isaacman endorsed a vision that would signal radical departures from the way NASA does business.</p>
+<p>He talked of commercial investment, a thriving space economy, and going fast and taking risks. These talking points are familiar to anyone who has listened to NASA's leadership in recent years, and there has been tangible progress in the agency's partnerships with commercial companies. However, NASA is leaving some commercial expertise on the field, or in this case, on the ground.</p>
+<p class="p1"><span class="s1">"I love all about the commercial space industry right now," Isaacman said in a discussion at the Space Force Association's Spacepower Conference in Orlando, Florida. "They’re all generally doing the same thing, which is putting a lot of their own dollars on the line because they believe in the future that it holds."</span></p><p><a href="https://arstechnica.com/space/2024/12/trumps-nominee-to-lead-nasa-favors-a-full-embrace-of-commercial-space/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2024/12/trumps-nominee-to-lead-nasa-favors-a-full-embrace-of-commercial-space/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>106</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/isaacman2-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/isaacman2-500x500.jpg" width="500"/>
+<media:credit>John Kraus</media:credit><media:text>Jared Isaacman, President-elect Trump's nominee to be the next NASA administrator, speaks at the Spacepower Conference on Wednesday in Orlando, Florida.</media:text></media:content>
+      </item>
+          <item>
         <title>Back where it started: “Do Not Track” removed from Firefox after 13 years</title>
         <link>https://arstechnica.com/gadgets/2024/12/firefox-one-of-the-first-do-not-track-supporters-no-longer-offers-it/</link>
                   <comments>https://arstechnica.com/gadgets/2024/12/firefox-one-of-the-first-do-not-track-supporters-no-longer-offers-it/#comments</comments>
@@ -34,14 +559,14 @@
             <![CDATA[A brief history of the privacy you never really got.]]>
           </description>
                                 <content:encoded>
-              <![CDATA[<p>It might not really ever be fully dead, but Firefox calling it quits on Do Not Track (DNT) is a strong indication that an idealistic movement born more than 13 years ago has truly reached the end of its viable life.</p>
-<p><a href="https://windowsreport.com/mozilla-firefox-removes-do-not-track-feature-support-heres-what-it-means-for-your-privacy/">The Windows Report tech news site spotted</a> that Firefox has removed the option to "Send websites a 'Do Not Track' request" as of version 135, already visible in Nightly builds. Users checking the Website Privacy Preference section will soon see a linked notice that Firefox will no longer support the signal. Firefox's support page for Do Not Track notes that "Many sites do not respect this indication of a person's privacy preferences, and, in some cases, it can reduce privacy."</p>
+              <![CDATA[<p>It might not ever be fully dead, but Firefox calling it quits on Do Not Track (DNT) is a strong indication that an idealistic movement born more than 13 years ago has truly reached the end of its viable life.</p>
+<p><a href="https://windowsreport.com/mozilla-firefox-removes-do-not-track-feature-support-heres-what-it-means-for-your-privacy/">The Windows Report tech news site spotted</a> that Firefox has removed the option to "Send websites a 'Do Not Track' request" as of version 135, already visible in Nightly builds. Users checking the Website Privacy Preference section will soon see a linked notice that Firefox will no longer support the signal. Firefox's <a href="https://support.mozilla.org/en-US/kb/how-do-i-turn-do-not-track-feature">support page for Do Not Track</a> notes that "Many sites do not respect this indication of a person's privacy preferences, and, in some cases, it can reduce privacy."</p>
 <p>Google Chrome and Microsoft Edge (based in part on Chrome's open source origin, Chromium) still offer a Do Not Track option, but they are just as ineffective. <a href="https://arstechnica.com/tech-policy/2020/10/coming-to-a-browser-near-you-a-new-way-to-keep-sites-from-selling-your-data/">Global Privacy Control</a> has largely superseded Do Not Track as a supported—and, in some places, legislated—means of signaling a desire not to be tracked.</p><p><a href="https://arstechnica.com/gadgets/2024/12/firefox-one-of-the-first-do-not-track-supporters-no-longer-offers-it/">Read full article</a></p>
 <p><a href="https://arstechnica.com/gadgets/2024/12/firefox-one-of-the-first-do-not-track-supporters-no-longer-offers-it/#comments">Comments</a></p>
 ]]>
             </content:encoded>
                   
-                  <slash:comments>10</slash:comments>
+                  <slash:comments>79</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/broken_cookie-1152x648.jpg" width="1152">
@@ -57,7 +582,8 @@
           <![CDATA[Jonathan M. Gitlin]]>
         </dc:creator>
         <pubDate>Thu, 12 Dec 2024 05:01:08 +0000</pubDate>
-        		<category><![CDATA[Culture]]></category>
+        		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Culture]]></category>
 		<category><![CDATA[car review]]></category>
 		<category><![CDATA[Dodge Charger]]></category>
 		<category><![CDATA[First drive]]></category>
@@ -80,7 +606,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>45</slash:comments>
+                  <slash:comments>181</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/2025-Dodge-Charger-Daytona-1-scaled-1152x648-1733942103.jpg" width="1152">
@@ -109,13 +635,13 @@
           </description>
                                 <content:encoded>
               <![CDATA[<p>Russian nation-state hackers have followed an unusual path to gather intel in the country's ongoing invasion of Ukraine—appropriating the infrastructure of fellow threat actors and using it to infect electronic devices its adversary’s military personnel are using on the front line.</p>
-<p>On at least two occasions this year, the Russian hacking group tracked under names including Turla, Waterbug, Snake, and Venomous Bear has used servers and malware used by separate threat groups in attacks targeting front-line Ukrainian military forces, Microsoft <a href="https://www.microsoft.com/en-us/security/blog/2024/12/11/frequent-freeloader-part-ii-russian-actor-secret-blizzard-using-tools-of-other-groups-to-attack-ukraine/">said</a> Wednesday. In one case, Secret Blizzard—the name Microsoft uses to track the group—leveraged the infrastructure of a cybercrime group tracked as Storm-1919. In the other, Secret Blizzard appropriated resources of Storm-1837, a Russia-based threat actor with a history of targeting Ukrainian drone operators.</p>
+<p>On at least two occasions this year, the Russian hacking group, tracked under names including Turla, Waterbug, Snake, and Venomous Bear, has used servers and malware used by separate threat groups in attacks targeting front-line Ukrainian military forces, Microsoft <a href="https://www.microsoft.com/en-us/security/blog/2024/12/11/frequent-freeloader-part-ii-russian-actor-secret-blizzard-using-tools-of-other-groups-to-attack-ukraine/">said</a> Wednesday. In one case, Secret Blizzard—the name Microsoft uses to track the group—leveraged the infrastructure of a cybercrime group tracked as Storm-1919. In the other, Secret Blizzard appropriated resources of Storm-1837, a Russia-based threat actor with a history of targeting Ukrainian drone operators.</p>
 <p>The more common means for initial access by Secret Blizzard is spear phishing followed by lateral movement through server-side and edge device compromises. Microsoft said that the threat actor’s pivot here is unusual but not unique. Company investigators still don’t know how Secret Blizzard obtained access to the infrastructure.</p><p><a href="https://arstechnica.com/security/2024/12/russia-takes-unusual-route-to-hack-starlink-connected-devices-in-ukraine/">Read full article</a></p>
 <p><a href="https://arstechnica.com/security/2024/12/russia-takes-unusual-route-to-hack-starlink-connected-devices-in-ukraine/#comments">Comments</a></p>
 ]]>
             </content:encoded>
                   
-                  <slash:comments>27</slash:comments>
+                  <slash:comments>42</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/12/GettyImages-1327354395-1152x648.jpg" width="1152">
@@ -149,7 +675,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>20</slash:comments>
+                  <slash:comments>49</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/IMG_1731-1152x648.jpeg" width="1152">
@@ -185,542 +711,12 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>61</slash:comments>
+                  <slash:comments>78</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-117046657-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-117046657-500x500.jpg" width="500"/>
 <media:credit>PM Images | Stone</media:credit></media:content>
-      </item>
-          <item>
-        <title>TCL TVs will use films made with generative AI to push targeted ads</title>
-        <link>https://arstechnica.com/gadgets/2024/12/tcl-tvs-will-use-films-made-with-generative-ai-to-push-targeted-ads/</link>
-                  <comments>https://arstechnica.com/gadgets/2024/12/tcl-tvs-will-use-films-made-with-generative-ai-to-push-targeted-ads/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Scharon Harding]]>
-        </dc:creator>
-        <pubDate>Wed, 11 Dec 2024 21:04:47 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[ads]]></category>
-		<category><![CDATA[films]]></category>
-		<category><![CDATA[generative ai]]></category>
-		<category><![CDATA[movies]]></category>
-		<category><![CDATA[streaming]]></category>
-		<category><![CDATA[tcl]]></category>
-		<category><![CDATA[TVs]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/12/tcl-tvs-will-use-films-made-with-generative-ai-to-push-targeted-ads/</guid>
-
-                  <description>
-            <![CDATA[TCL to "heavily promote" original short films with gen AI animation, characters.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Advertising has become a focal point of TV software. We’re seeing companies that sell TV sets be increasingly interested in leveraging TV operating systems (OSes) <a href="https://arstechnica.com/gadgets/2024/08/tv-industrys-ads-tracking-obsession-is-turning-your-living-room-into-a-store/">for ads and tracking</a>. This has led to bold new strategies, like an <a href="https://arstechnica.com/gadgets/2024/11/an-ad-giant-wants-to-control-your-next-tvs-operating-system/">adtech firm launching a TV OS</a> and <a href="https://arstechnica.com/gadgets/2024/09/lg-tvs-continue-down-advertising-rabbit-hole-with-new-screensaver-ads/">ads on TV screensavers</a>.</p>
-<p>With new short films set to debut on its free streaming service tomorrow, TV-maker TCL is positing a new approach to monetizing TV owners and to film and TV production that sees reduced costs through reliance on generative AI and <a href="https://arstechnica.com/gadgets/2024/10/streaming-industry-has-unprecedented-surveillance-manipulation-capabilities/">targeted ads</a>.</p>
-<p>TCL's five short films are part of a company initiative to get people more accustomed to movies and TV shows made with generative AI. The movies will “be promoted and featured prominently on” TCL's free ad-supported streaming television (FAST) service, TCLtv+, TCL announced in November. TCLtv+has hundreds of FAST channels and comes on TCL-brand TVs using various OSes, including Google TV and Roku OS.</p><p><a href="https://arstechnica.com/gadgets/2024/12/tcl-tvs-will-use-films-made-with-generative-ai-to-push-targeted-ads/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2024/12/tcl-tvs-will-use-films-made-with-generative-ai-to-push-targeted-ads/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>133</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/The-SLug-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/The-SLug-500x500.jpg" width="500"/>
-<media:credit>TCLtvplus/YouTube</media:credit><media:text>A shot from TCL's original short movie &lt;em&gt;The Slug&lt;/em&gt;. </media:text></media:content>
-      </item>
-          <item>
-        <title>Google goes “agentic” with Gemini 2.0’s ambitious AI agent features</title>
-        <link>https://arstechnica.com/information-technology/2024/12/google-goes-agentic-with-gemini-2-0s-ambitious-ai-agent-features/</link>
-                  <comments>https://arstechnica.com/information-technology/2024/12/google-goes-agentic-with-gemini-2-0s-ambitious-ai-agent-features/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Benj Edwards]]>
-        </dc:creator>
-        <pubDate>Wed, 11 Dec 2024 19:23:34 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[agentic AI]]></category>
-		<category><![CDATA[AI agents]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[chatgtp]]></category>
-		<category><![CDATA[Gemini 2.0]]></category>
-		<category><![CDATA[Gemini 2.0 Flash]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[Google Gemini]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[Project Astra]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/information-technology/2024/12/google-goes-agentic-with-gemini-2-0s-ambitious-ai-agent-features/</guid>
-
-                  <description>
-            <![CDATA[Google barrels ahead with a push into AI systems that take action for you.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>On Wednesday, Google <a href="https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/">unveiled</a> Gemini 2.0, the next generation of its AI-model family, starting with an experimental release called Gemini 2.0 Flash. The model family can generate text, images, and speech while processing multiple types of input including text, images, audio, and video. It's similar to multimodal AI models like <a href="https://arstechnica.com/information-technology/2024/05/chatgpt-4o-lets-you-have-real-time-audio-video-conversations-with-emotional-chatbot/">GPT-4o</a>, which powers OpenAI's ChatGPT.</p>
-<p>"Gemini 2.0 Flash builds on the success of <a href="https://arstechnica.com/information-technology/2024/05/google-strikes-back-at-openai-with-project-astra-ai-agent-prototype/">1.5 Flash</a>, our most popular model yet for developers, with enhanced performance at similarly fast response times," said Google in a statement. "Notably, 2.0 Flash even outperforms <a href="https://arstechnica.com/information-technology/2024/02/google-upstages-itself-with-gemini-1-5-ai-launch-one-week-after-ultra-1-0/">1.5 Pro</a> on key benchmarks, at twice the speed."</p>
-<p>Gemini 2.0 Flash—which is the smallest model of the 2.0 family in terms of parameter count—launches today through Google's developer platforms like Gemini API, AI Studio, and Vertex AI. However, its image generation and text-to-speech features remain limited to early access partners until January 2025. Google plans to integrate the tech into products like Android Studio, Chrome DevTools, and Firebase.</p><p><a href="https://arstechnica.com/information-technology/2024/12/google-goes-agentic-with-gemini-2-0s-ambitious-ai-agent-features/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2024/12/google-goes-agentic-with-gemini-2-0s-ambitious-ai-agent-features/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>57</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/gemini2_header-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/gemini2_header-500x500.jpg" width="500"/>
-<media:credit>Google</media:credit></media:content>
-      </item>
-          <item>
-        <title>iOS 18.2, macOS 15.2 updates arrive today with image and emoji generation</title>
-        <link>https://arstechnica.com/gadgets/2024/12/ios-18-2-macos-15-2-updates-arrive-today-with-image-and-emoji-generation/</link>
-                  <comments>https://arstechnica.com/gadgets/2024/12/ios-18-2-macos-15-2-updates-arrive-today-with-image-and-emoji-generation/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Andrew Cunningham]]>
-        </dc:creator>
-        <pubDate>Wed, 11 Dec 2024 18:22:55 +0000</pubDate>
-        		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[ios 18]]></category>
-		<category><![CDATA[iPadOS 18]]></category>
-		<category><![CDATA[macOS 15]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/12/ios-18-2-macos-15-2-updates-arrive-today-with-image-and-emoji-generation/</guid>
-
-                  <description>
-            <![CDATA[Nearly 3 months in, Apple has added most of the initial Intelligence features.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Apple has announced that it will be releasing the iOS 18.2, iPadOS 18.2, and macOS Sequoia 15.2 updates to the public later this afternoon, following weeks of beta testing for developers and users. As with iOS 18.1, the headlining features are new additions to Apple Intelligence, mainly the image-generation capabilities: Image Playground for general images, and "Genmoji" for making custom images in the style of Apple's built-in <a href="https://arstechnica.com/gadgets/2024/09/face-with-bags-under-eyes-sets-the-tone-for-new-unicode-16-0-emoji-update/">Unicode-based</a> emoji characters.</p>
-<p>Other AI features include "Image Wand," which will take sketched images from the Notes app and turn them into a "polished image" using context clues from other notes; and ChatGPT integration for the Writing Tools feature.</p>
-<p>The updates also include a long list of bug fixes and security updates, for those who don't care about Apple Intelligence. Safari gets better data importing and exporting support, an HTTPS Priority feature that "upgrades URLs to HTTPS whenever possible," and a download status indicator for iPhones with a Dynamic Island. Mail in iOS offers to automatically sort messages to bring important ones to the top of your inbox. There are also various tweaks and improvements for the Photos, Podcasts, Voice Memos, and Stocks apps, while the Weather app in macOS can optionally display the weather in your menu bar.</p><p><a href="https://arstechnica.com/gadgets/2024/12/ios-18-2-macos-15-2-updates-arrive-today-with-image-and-emoji-generation/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2024/12/ios-18-2-macos-15-2-updates-arrive-today-with-image-and-emoji-generation/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>54</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/Apple-Intelligence-hero-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/Apple-Intelligence-hero-scaled-500x500-1733936748.jpg" width="500"/>
-<media:credit>Apple</media:credit></media:content>
-      </item>
-          <item>
-        <title>Reminder: Donate to win swag in our annual Charity Drive sweepstakes</title>
-        <link>https://arstechnica.com/gaming/2024/12/reminder-donate-to-win-swag-in-our-annual-charity-drive-sweepstakes-14/</link>
-                  <comments>https://arstechnica.com/gaming/2024/12/reminder-donate-to-win-swag-in-our-annual-charity-drive-sweepstakes-14/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kyle Orland]]>
-        </dc:creator>
-        <pubDate>Wed, 11 Dec 2024 17:49:44 +0000</pubDate>
-        		<category><![CDATA[Gaming]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gaming/2024/12/reminder-donate-to-win-swag-in-our-annual-charity-drive-sweepstakes-14/</guid>
-
-                  <description>
-            <![CDATA[Add to a charity haul that's already raised nearly $9,500 in just a couple of days.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>If you've been too busy <a href="https://arstechnica.com/gaming/2024/12/indiana-jones-and-the-great-circle-captures-the-feel-of-a-great-indy-movie/">punching virtual Nazis</a> to take part in <a href="https://arstechnica.com/gaming/2024/12/win-hardware-collectibles-and-more-in-the-2024-ars-technica-charity-drive/">this year's Ars Technica Charity Drive sweepstakes</a>, don't worry. You still have time to donate to a good cause and get a chance to win your share of over $4,000 worth of swag (no purchase necessary to win).</p>
-<p>In the first three days of the drive, over 100 readers have contributed almost $9,500 to either the <a href="https://supporters.eff.org/donate/">Electronic Frontier Foundation</a> or <a href="http://www.childsplaycharity.org/">Child's Play</a> as part of the charity drive (Child's Play is now leading in the donation totals by about $1,000). That's a long way off from <a href="https://arstechnica.com/gaming/2021/01/ars-readers-gave-a-record-58000-in-2020-charity-drive/">2020's record haul of over $58,000</a>, but there's still plenty of time until the Charity Drive wraps up on Thursday, January 2, 2025.</p>
-<p>That doesn't mean you should put your donation off, though. Do yourself and the charities involved a favor and give now while you're thinking about it.</p><p><a href="https://arstechnica.com/gaming/2024/12/reminder-donate-to-win-swag-in-our-annual-charity-drive-sweepstakes-14/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2024/12/reminder-donate-to-win-swag-in-our-annual-charity-drive-sweepstakes-14/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>6</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/IMG_0393-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/IMG_0393-500x500.jpg" width="500"/>
-<media:credit>Kyle Orland</media:credit><media:text>Just some of the prizes you can win in this years Ars Technica Charity Drive sweepstakes</media:text></media:content>
-      </item>
-          <item>
-        <title>NASA believes it understands why Ingenuity crashed on Mars</title>
-        <link>https://arstechnica.com/space/2024/12/nasa-believes-it-understands-why-ingenuity-crashed-on-mars/</link>
-                  <comments>https://arstechnica.com/space/2024/12/nasa-believes-it-understands-why-ingenuity-crashed-on-mars/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Eric Berger]]>
-        </dc:creator>
-        <pubDate>Wed, 11 Dec 2024 17:44:42 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[ingenuity]]></category>
-		<category><![CDATA[Mars]]></category>
-		<category><![CDATA[space]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2024/12/nasa-believes-it-understands-why-ingenuity-crashed-on-mars/</guid>
-
-                  <description>
-            <![CDATA[Engineers are already beginning to plan for possible follow-on missions.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Eleven months after the <em>Ingenuity</em> helicopter made its final flight on Mars, engineers and scientists at NASA and a private company that helped build the flying vehicle said they have identified what probably caused it to crash on the surface of Mars.</p>
-<p>In short, the helicopter's on-board navigation sensors were unable to discern enough features in the relatively smooth surface of Mars to determine its position, so when it touched down, it did so moving horizontally. This caused the vehicle to tumble, snapping off all four of the helicopter's blades.</p>
-<h2>Delving into the root cause</h2>
-<p>It is not easy to conduct a forensic analysis like this on Mars, which is typically about 100 million miles from Earth. <em>Ingenuity</em> carried no black box on board, so investigators have had to piece together their findings from limited data and imagery.</p><p><a href="https://arstechnica.com/space/2024/12/nasa-believes-it-understands-why-ingenuity-crashed-on-mars/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2024/12/nasa-believes-it-understands-why-ingenuity-crashed-on-mars/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>103</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/1_PIA26238_ingentuity-ripples_cropped.width-1320-1152x648-1733936851.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/1_PIA26238_ingentuity-ripples_cropped.width-1320-500x500-1733936845.jpg" width="500"/>
-<media:credit>NASA/JPL-Caltech/LANL/CNES/CNRS</media:credit><media:text>NASA’s Ingenuity Mars Helicopter, right, stands near the apex of a sand ripple in an image taken by Perseverance on Feb. 24, 2024, about five weeks after the rotorcraft’s final flight.</media:text></media:content>
-      </item>
-          <item>
-        <title>Report: Google told FTC Microsoft’s OpenAI deal is killing AI competition</title>
-        <link>https://arstechnica.com/tech-policy/2024/12/report-microsofts-exclusive-deal-with-openai-harms-competition-google-told-ftc/</link>
-                  <comments>https://arstechnica.com/tech-policy/2024/12/report-microsofts-exclusive-deal-with-openai-harms-competition-google-told-ftc/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ashley Belanger]]>
-        </dc:creator>
-        <pubDate>Wed, 11 Dec 2024 17:08:23 +0000</pubDate>
-        		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[ai industry]]></category>
-		<category><![CDATA[AI models]]></category>
-		<category><![CDATA[Antitrust law]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[federal trade commission]]></category>
-		<category><![CDATA[FTC]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[LLMs]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[openai]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/12/report-microsofts-exclusive-deal-with-openai-harms-competition-google-told-ftc/</guid>
-
-                  <description>
-            <![CDATA[Microsoft gatekeeping OpenAI models saddles AI rivals with costs, report says.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Google reportedly wants the US Federal Trade Commission (FTC) to end Microsoft's exclusive cloud deal with OpenAI that requires anyone wanting access to OpenAI's models to go through Microsoft's servers.</p>
-<p>Someone "directly involved" in Google's effort <a href="https://www.theinformation.com/articles/google-asks-ftc-to-kill-microsofts-exclusive-cloud-deal-with-openai">told The Information</a> that Google's request came after the <a href="https://arstechnica.com/tech-policy/2024/11/ftc-to-launch-investigation-into-microsofts-cloud-business/">FTC began broadly probing</a> how Microsoft's cloud computing business practices may be harming competition.</p>
-<p>As part of the FTC's investigation, the agency apparently asked Microsoft's biggest rivals if the exclusive OpenAI deal was "preventing them from competing in the burgeoning artificial intelligence market," multiple sources told The Information. Google reportedly was among those arguing that the deal harms competition by saddling rivals with extra costs and blocking them from hosting OpenAI's latest models themselves.</p><p><a href="https://arstechnica.com/tech-policy/2024/12/report-microsofts-exclusive-deal-with-openai-harms-competition-google-told-ftc/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2024/12/report-microsofts-exclusive-deal-with-openai-harms-competition-google-told-ftc/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>40</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-2153474326-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-2153474326-500x500.jpg" width="500"/>
-<media:credit>JASON REDMOND / Contributor | AFP</media:credit><media:text>OpenAI CEO Sam Altman (L) shakes hands with Microsoft Chief Technology Officer and Executive VP of Artificial Intelligence Kevin Scott during the Microsoft Build conference at the Seattle Convention Center Summit Building in Seattle, Washington on May 21, 2024.</media:text></media:content>
-      </item>
-          <item>
-        <title>New congressional report: “COVID-19 most likely emerged from a laboratory”</title>
-        <link>https://arstechnica.com/science/2024/12/congressional-republicans-conclude-sars-cov-2-originated-in-a-lab-leak/</link>
-                  <comments>https://arstechnica.com/science/2024/12/congressional-republicans-conclude-sars-cov-2-originated-in-a-lab-leak/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[John Timmer]]>
-        </dc:creator>
-        <pubDate>Wed, 11 Dec 2024 16:45:58 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Covid]]></category>
-		<category><![CDATA[Lab leak]]></category>
-		<category><![CDATA[pandemic]]></category>
-		<category><![CDATA[scientific evidence]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/science/2024/12/congressional-republicans-conclude-sars-cov-2-originated-in-a-lab-leak/</guid>
-
-                  <description>
-            <![CDATA[A textbook example of shifting the standards of evidence to suit its authors' needs.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Recently, Congress' Select Subcommittee on the Coronavirus Pandemic released <a href="https://oversight.house.gov/release/final-report-covid-select-concludes-2-year-investigation-issues-500-page-final-report-on-lessons-learned-and-the-path-forward/">its final report</a>. The basic gist is about what you'd expect from a Republican-run committee, in that it trashes a lot of Biden-era policies and state-level responses while praising a number of Trump's decisions. But what's perhaps most striking is how it tackles a variety of scientific topics, including many where there's a large, complicated body of evidence.</p>
-<p>Notably, this includes conclusions about the origin of the pandemic, which the report describes as "most likely" emerging from a lab rather than being the product of the zoonotic transfer between an animal species and humans. The latter explanation is favored by many scientists.</p>
-<p>The conclusions themselves aren't especially interesting; they're expected from a report with partisan aims. But the method used to reach those conclusions is often striking: The Republican majority engages in a process of systematically changing the standard of evidence needed for it to reach a conclusion. For a conclusion the report's authors favor, they'll happily accept evidence from computer models or arguments from an editorial in the popular press; for conclusions they disfavor, they demand double-blind controlled clinical trials.</p><p><a href="https://arstechnica.com/science/2024/12/congressional-republicans-conclude-sars-cov-2-originated-in-a-lab-leak/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2024/12/congressional-republicans-conclude-sars-cov-2-originated-in-a-lab-leak/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>359</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1316868296-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1316868296-500x500.jpg" width="500"/>
-<media:credit>Grace Cary</media:credit><media:text>Did masks work to slow the spread of COVID-19? It all depends on what you accept as "evidence."</media:text></media:content>
-      </item>
-          <item>
-        <title>The latest in poker cheats: Tiny cameras that can see cards as they’re dealt</title>
-        <link>https://arstechnica.com/gadgets/2024/12/the-latest-in-poker-cheats-tiny-cameras-that-can-see-cards-as-theyre-dealt/</link>
-                  <comments>https://arstechnica.com/gadgets/2024/12/the-latest-in-poker-cheats-tiny-cameras-that-can-see-cards-as-theyre-dealt/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ben Dowsett, wired.com]]>
-        </dc:creator>
-        <pubDate>Wed, 11 Dec 2024 14:57:02 +0000</pubDate>
-        		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[cameras]]></category>
-		<category><![CDATA[poker]]></category>
-		<category><![CDATA[syndication]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/12/the-latest-in-poker-cheats-tiny-cameras-that-can-see-cards-as-theyre-dealt/</guid>
-
-                  <description>
-            <![CDATA[Several recent schemes were uncovered, so should players everywhere be concerned?]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Matt Berkey was becoming suspicious.</p>
-<p>Berkey, a 42-year-old poker pro known for his presence in some of the <a href="https://www.wsop.com/players/profile/?playerid=13265">highest-stakes cash games</a> in Las Vegas, was playing in a well-known casino poker room over the summer. One player in the game who wasn’t particularly familiar to Berkey and other regulars at the table, but who was believed to be an amateur based on his play style, was displaying some strange behavior.</p>
-<p>For one, the player was wearing earbuds—typically a no-no in these kinds of semi-private games where many players have existing friendships.</p><p><a href="https://arstechnica.com/gadgets/2024/12/the-latest-in-poker-cheats-tiny-cameras-that-can-see-cards-as-theyre-dealt/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2024/12/the-latest-in-poker-cheats-tiny-cameras-that-can-see-cards-as-theyre-dealt/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>119</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/holdem-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/holdem-500x500.jpg" width="500"/>
-<media:credit>Kevin J Cook</media:credit></media:content>
-      </item>
-          <item>
-        <title>Seeing no road to profit, GM shutters Cruise</title>
-        <link>https://arstechnica.com/cars/2024/12/seeing-no-road-to-profit-gm-shutters-cruise/</link>
-                  <comments>https://arstechnica.com/cars/2024/12/seeing-no-road-to-profit-gm-shutters-cruise/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jonathan M. Gitlin]]>
-        </dc:creator>
-        <pubDate>Wed, 11 Dec 2024 14:48:41 +0000</pubDate>
-        		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[autonomous vehicles]]></category>
-		<category><![CDATA[Cruise]]></category>
-		<category><![CDATA[robotaxis]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/cars/2024/12/seeing-no-road-to-profit-gm-shutters-cruise/</guid>
-
-                  <description>
-            <![CDATA[GM decides to cut its losses, will focus on partial automation for passenger cars.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>After spending more than $10 billion to try to develop an autonomous robotaxi, General Motors is now calling time on the endeavor. On Tuesday afternoon, the automaker announced that it is done investing in Cruise's robotaxi development and will instead combine the startup's technical team with its internal efforts at GM.</p>
-<p>After several years, GM has accepted the inevitable: Given the costs, there's no way to build a profitable robotaxi business. This year, GM will have spent around $2 billion on Cruise.</p>
-<p>"GM is committed to delivering the best driving experiences to our customers in a disciplined and capital efficient manner," said Mary Barra, chair and CEO of GM. "Cruise has been an early innovator in autonomy, and the deeper integration of our teams, paired with GM’s strong brands, scale, and manufacturing strength, will help advance our vision for the future of transportation."</p><p><a href="https://arstechnica.com/cars/2024/12/seeing-no-road-to-profit-gm-shutters-cruise/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2024/12/seeing-no-road-to-profit-gm-shutters-cruise/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>275</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/12/GettyImages-1238159620-scaled-1152x648-1733927481.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/12/GettyImages-1238159620-500x500.jpg" width="500"/>
-<media:credit>David Paul Morris/Bloomberg/Getty Images</media:credit><media:text>A Cruise vehicle on the streets of San Francisco.</media:text></media:content>
-      </item>
-          <item>
-        <title>Ranking the 25 coolest things in space so far during the 21st century</title>
-        <link>https://arstechnica.com/space/2024/12/ranking-the-25-coolest-things-in-space-so-far-during-the-21st-century/</link>
-                  <comments>https://arstechnica.com/space/2024/12/ranking-the-25-coolest-things-in-space-so-far-during-the-21st-century/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Eric Berger]]>
-        </dc:creator>
-        <pubDate>Wed, 11 Dec 2024 12:00:40 +0000</pubDate>
-        		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[top 25 biggest space achievements]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2024/12/ranking-the-25-coolest-things-in-space-so-far-during-the-21st-century/</guid>
-
-                  <description>
-            <![CDATA[Taking stock of spaceflight one-quarter of the way through the 2000s.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>There is, of course, no quantitative way to rank amazing things that happen in space. We cannot measure their absolute magnitude nor assign them a numerical value, and trying to do so is something of a fool’s errand. Are we fools? Maybe. But we're fools who like to have a little fun.</p>
-<p>Understandably, then, this list is completely subjective. How else could one rank events that span the cosmos, from gravitational wave detection to the launch of humans into suborbital space? What follows is a list of the most incredible, surprising, impressive, and demanding achievements and developments in space and spaceflight during the first 25 years of the 2000s—as selected by the editors of Ars Technica.</p>
-<p>You will probably disagree with some choices and their ranking, and that’s totally fine. That’s what the comments section is for. But the point here is simply to bring some of these incredible moments back onto the front burner so we can all bask in their glory once again. Each of these achievements deserves our celebration and appreciation.</p><p><a href="https://arstechnica.com/space/2024/12/ranking-the-25-coolest-things-in-space-so-far-during-the-21st-century/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2024/12/ranking-the-25-coolest-things-in-space-so-far-during-the-21st-century/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>121</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2016/09/16615021428_4a7520cb2e_h-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2016/09/16615021428_4a7520cb2e_h-500x500.jpg" width="500"/>
-<media:credit>ESA</media:credit><media:text>False-color image showing the smooth Hapi region connecting the head and body of comet 67P/Churyumov-Gerasimenko.</media:text></media:content>
-      </item>
-          <item>
-        <title>Startup will brick $800 emotional support robot for kids without refunds</title>
-        <link>https://arstechnica.com/gadgets/2024/12/startup-will-brick-800-emotional-support-robot-for-kids-without-refunds/</link>
-                  <comments>https://arstechnica.com/gadgets/2024/12/startup-will-brick-800-emotional-support-robot-for-kids-without-refunds/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Scharon Harding]]>
-        </dc:creator>
-        <pubDate>Tue, 10 Dec 2024 21:55:50 +0000</pubDate>
-        		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[robots]]></category>
-		<category><![CDATA[smart home]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/12/startup-will-brick-800-emotional-support-robot-for-kids-without-refunds/</guid>
-
-                  <description>
-            <![CDATA[Embodied says it will try to refund recent purchases but makes no promises. ]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Startup Embodied is closing down, and its product, an $800 robot for kids ages 5 to 10, will soon be bricked.</p>
-<p>Embodied blamed its closure on a failed “critical funding round." On its <a href="https://moxierobot.com/pages/closing-faqs">website</a>, it explained:</p>
-<blockquote><p>We had secured a lead investor who was prepared to close the round. However, at the last minute, they withdrew, leaving us with no viable options to continue operations. Despite our best efforts to secure alternative funding, we were unable to find a replacement in time to sustain operations.</p></blockquote>
-<p>The company didn’t provide further details about the pulled funding. Embodied’s previous backers have included Intel Capital, Toyota AI Ventures, Amazon Alexa Fund, Sony Innovation Fund, and Vulcan Capital, but we don't know who the lead investor mentioned above is.</p><p><a href="https://arstechnica.com/gadgets/2024/12/startup-will-brick-800-emotional-support-robot-for-kids-without-refunds/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2024/12/startup-will-brick-800-emotional-support-robot-for-kids-without-refunds/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>186</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/Moxie-1152x648-1733865294.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/Moxie-500x500.jpg" width="500"/>
-<media:credit>Embodied</media:credit><media:text>Parents are determining how to tell their kids that their robot friend will stop playing with them. </media:text></media:content>
-      </item>
-          <item>
-        <title>AI company trolls San Francisco with billboards saying “stop hiring humans”</title>
-        <link>https://arstechnica.com/information-technology/2024/12/ai-company-trolls-san-francisco-with-billboards-saying-stop-hiring-humans/</link>
-                  <comments>https://arstechnica.com/information-technology/2024/12/ai-company-trolls-san-francisco-with-billboards-saying-stop-hiring-humans/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Benj Edwards]]>
-        </dc:creator>
-        <pubDate>Tue, 10 Dec 2024 20:43:45 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[agi]]></category>
-		<category><![CDATA[AI and jobs]]></category>
-		<category><![CDATA[AI human replacement]]></category>
-		<category><![CDATA[AI workers]]></category>
-		<category><![CDATA[Arisan.ai]]></category>
-		<category><![CDATA[Artisan]]></category>
-		<category><![CDATA[bluesky]]></category>
-		<category><![CDATA[Jaspar Carmichael-Jack]]></category>
-		<category><![CDATA[machine learning]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/information-technology/2024/12/ai-company-trolls-san-francisco-with-billboards-saying-stop-hiring-humans/</guid>
-
-                  <description>
-            <![CDATA[Company boasts "AI workers" that never complain about work-life balance.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Since the dawn of the generative AI era a few years ago, the march of technology—toward what tech companies hope will <a href="https://arstechnica.com/information-technology/2024/09/ai-superintelligence-looms-in-sam-altmans-new-essay-on-the-intelligence-age/">replace human intellectual labor</a>—has continuously <a href="https://arstechnica.com/ai/2024/01/ceos-say-generative-ai-will-result-in-job-cuts-in-2024/">sparked angst</a> about the future role humans will play in the job market. Will we all be replaced by machines?</p>
-<p>A Y-Combinator-backed company called <a href="https://www.artisan.co/">Artisan</a>, which sells customer service and sales workflow software, recently launched a provocative billboard campaign in San Francisco playing on that angst, <a href="https://gizmodo.com/ai-firms-stop-hiring-humans-billboard-campaign-sparks-outrage-2000536368">reports Gizmodo</a>. It features the slogan "Stop Hiring Humans." The company markets its software products as "AI Employees" or "Artisans."</p>
-<p>The company's billboards feature messages that might inspire nightmares among workers, like "Artisans won't complain about work-life balance" and "The era of AI employees is here." And they're on display to the same human workforce the ads suggest replacing.</p><p><a href="https://arstechnica.com/information-technology/2024/12/ai-company-trolls-san-francisco-with-billboards-saying-stop-hiring-humans/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2024/12/ai-company-trolls-san-francisco-with-billboards-saying-stop-hiring-humans/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>270</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/artisan_ad_hero_1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/artisan_ad_hero_1-500x500.jpg" width="500"/>
-<media:credit>Justin Sullivan via Getty Images</media:credit><media:text>An advertisement for the AI company Artisan is posted on 2nd Street on December 05, 2024 in San Francisco.</media:text></media:content>
-      </item>
-          <item>
-        <title>Micron’s $6B CHIPS funding should have more strings attached, critics say</title>
-        <link>https://arstechnica.com/tech-policy/2024/12/microns-6b-chips-funding-should-have-more-strings-attached-critics-say/</link>
-                  <comments>https://arstechnica.com/tech-policy/2024/12/microns-6b-chips-funding-should-have-more-strings-attached-critics-say/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ashley Belanger]]>
-        </dc:creator>
-        <pubDate>Tue, 10 Dec 2024 19:54:39 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Chips Act]]></category>
-		<category><![CDATA[chips and science act]]></category>
-		<category><![CDATA[memory chips]]></category>
-		<category><![CDATA[Micron]]></category>
-		<category><![CDATA[micron technology]]></category>
-		<category><![CDATA[semiconductor]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/12/microns-6b-chips-funding-should-have-more-strings-attached-critics-say/</guid>
-
-                  <description>
-            <![CDATA[Micron's NY fabs are the only CHIPS projects undergoing full environmental review.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Micron Technology will receive more than $6.1 billion after the US Department of Commerce finalized one of the largest CHIPS Act awards ever to "the only US-based manufacturer of memory chips," Vice President Kamala Harris said in a <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2024/12/10/statement-from-vice-president-kamala-harris-on-chips-and-science-act-investments-in-micron-technology/">press statement</a>.</p>
-<p>Micron will use the funding to construct "several state-of-the-art memory chips facilities" in New York and Idaho, Harris said. The chipmaker has committed to a "$125 billion investment over the next few decades" and promised to create "at least 20,000 jobs," Harris confirmed.</p>
-<p>Additionally, Micron "agreed to preliminary terms for an additional investment of $275 million to expand" its facility in Manassas, Virginia, Harris confirmed. Those facilities will mostly be used to manufacture chips for automotive and defense industries, Harris noted.</p><p><a href="https://arstechnica.com/tech-policy/2024/12/microns-6b-chips-funding-should-have-more-strings-attached-critics-say/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2024/12/microns-6b-chips-funding-should-have-more-strings-attached-critics-say/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>48</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1150565928-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1150565928-500x500.jpg" width="500"/>
-<media:credit>vzphotos | iStock Editorial / Getty Images Plus</media:credit></media:content>
-      </item>
-          <item>
-        <title>Location data firm helps police find out when suspects visited their doctor</title>
-        <link>https://arstechnica.com/tech-policy/2024/12/location-data-firm-helps-police-find-out-when-suspects-visited-their-doctor/</link>
-                  <comments>https://arstechnica.com/tech-policy/2024/12/location-data-firm-helps-police-find-out-when-suspects-visited-their-doctor/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jon Brodkin]]>
-        </dc:creator>
-        <pubDate>Tue, 10 Dec 2024 19:39:06 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[fog data science]]></category>
-		<category><![CDATA[location data]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/12/location-data-firm-helps-police-find-out-when-suspects-visited-their-doctor/</guid>
-
-                  <description>
-            <![CDATA[Leaked form shows how Fog Data helps cops find where suspects have been and when.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>A location-tracking company that sells its services to police departments is apparently using addresses and coordinates of doctors' and lawyers' offices and other types of locations to help cops compile lists of places visited by suspects, according to a <a href="https://www.404media.co/location-data-firm-offers-to-help-cops-track-targets-via-doctor-visits/">404 Media report</a> published today.</p>
-<p>Fog Data Science, which <a href="https://fogdatascience.com/">says</a> it "harness[es] the power of data to safeguard national security and provide law enforcement with actionable intelligence," has a "Project Intake Form" that asks police for locations where potential suspects and their mobile devices might be found. The form, obtained by 404 Media, instructs police officers to list locations of friends' and families' houses, associates' homes and offices, and the offices of a person's doctor or lawyer.</p>
-<p>Fog Data has a trove of location data derived from smartphones' geolocation signals, which would already include doctors' offices and many other types of locations even before police ask for information on a specific person. Details provided by police on the intake form seem likely to help Fog Data conduct more effective searches of its database to find out when suspects visited particular places. The form also asks police to identify the person of interest's name and/or known aliases and their "link to criminal activity."</p><p><a href="https://arstechnica.com/tech-policy/2024/12/location-data-firm-helps-police-find-out-when-suspects-visited-their-doctor/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2024/12/location-data-firm-helps-police-find-out-when-suspects-visited-their-doctor/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>140</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/location-search-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/location-search-500x500-1733858324.jpg" width="500"/>
-<media:credit>Getty Images | Vadym Ivanchenko</media:credit></media:content>
-      </item>
-          <item>
-        <title>Amazon starts selling Hyundai cars, more brands next year</title>
-        <link>https://arstechnica.com/cars/2024/12/amazon-gets-into-the-car-sales-game-starting-with-hyundai/</link>
-                  <comments>https://arstechnica.com/cars/2024/12/amazon-gets-into-the-car-sales-game-starting-with-hyundai/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jonathan M. Gitlin]]>
-        </dc:creator>
-        <pubDate>Tue, 10 Dec 2024 19:20:33 +0000</pubDate>
-        		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[Amazon Autos]]></category>
-		<category><![CDATA[hyundai]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/cars/2024/12/amazon-gets-into-the-car-sales-game-starting-with-hyundai/</guid>
-
-                  <description>
-            <![CDATA[Amazon Autos has gone live in 48 US cities. ]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Amazon started selling new cars today. The online retailer and Internet giant has had its sights on shifting metal for some time now, and if you live in one of 48 cities in the US, and you're looking for a new Hyundai, it's ready for your business.</p>
-<p>Hyundai has been working with Amazon for several years on its digital experience, adding Alexa to its cars and showcasing its products at <a href="http://Amazon.com">Amazon.com</a>. But now, with Amazon Autos, customers can go ahead and buy the car, not just learn about it so they can go to a dealer well-informed.</p>
-<p>In fact, the dealerships remain part of the process even with Amazon Autos—hence the fact that the service is not rolling out nationwide.</p><p><a href="https://arstechnica.com/cars/2024/12/amazon-gets-into-the-car-sales-game-starting-with-hyundai/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2024/12/amazon-gets-into-the-car-sales-game-starting-with-hyundai/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>155</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/hero001-aboutamazon-hyundai-autos-amazon-autos-pr-blog-hero-2000x1125a-2000x1127-1-1152x648-1733856477.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/hero001-aboutamazon-hyundai-autos-amazon-autos-pr-blog-hero-2000x1125a-2000x1127-1-500x500.jpg" width="500"/>
-<media:credit>Amazon</media:credit></media:content>
       </item>
       </channel>
 </rss>
