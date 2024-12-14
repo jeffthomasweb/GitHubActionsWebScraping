@@ -4,7 +4,7 @@
     <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
     <link>https://arstechnica.com</link>
     <description>All Ars Technica stories</description>
-    <lastBuildDate>Fri, 13 Dec 2024 11:41:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Dec 2024 22:43:12 +0000</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>
       hourly    </sy:updatePeriod>
@@ -19,8 +19,333 @@
 	<height>32</height>
 </image> 
       <item>
+        <title>Bird flu jumps from birds to human in Louisiana; patient hospitalized</title>
+        <link>https://arstechnica.com/science/2024/12/person-hospitalized-in-louisiana-with-bird-flu-health-officials-report/</link>
+                  <comments>https://arstechnica.com/science/2024/12/person-hospitalized-in-louisiana-with-bird-flu-health-officials-report/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Beth Mole]]>
+        </dc:creator>
+        <pubDate>Fri, 13 Dec 2024 22:28:32 +0000</pubDate>
+        		<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[bird flu]]></category>
+		<category><![CDATA[H5N1]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2024/12/person-hospitalized-in-louisiana-with-bird-flu-health-officials-report/</guid>
+
+                  <description>
+            <![CDATA[This is the first human case of bird flu in Louisiana.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>A person in Louisiana is hospitalized with H5N1 bird flu after having contact with sick and dying birds suspected of carrying the virus, <a href="https://ldh.la.gov/news/H5N1-2024">state health officials announced Friday</a>.</p>
+<p>It is the first human H5N1 case detected in Louisiana. For now, the case is considered a "presumptive" positive until testing is confirmed by the Centers for Disease Control and Prevention. Health officials say that the risk to the public is low but caution people to stay away from any sick or dead birds.</p>
+<p>Although the person has been hospitalized, their condition was not immediately reported. It's also unclear what kind of birds the person had contact with—wild, backyard, or commercial birds. Ars has reached out to Louisiana's health department and will update this piece with any additional information.</p><p><a href="https://arstechnica.com/science/2024/12/person-hospitalized-in-louisiana-with-bird-flu-health-officials-report/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2024/12/person-hospitalized-in-louisiana-with-bird-flu-health-officials-report/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>36</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/h5n1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/h5n1-500x500.jpg" width="500"/>
+<media:credit>CDC/NIAID/Flickr</media:credit><media:text>Three colorized H5N1 virus particles (rod-shaped; orange) imaged by an electron microscope. With a couple genetic shifts in H5N1, the US variant could evolve into a more virulent and widespread virus.
+</media:text></media:content>
+      </item>
+          <item>
+        <title>Yearlong supply-chain attack targeting security pros steals 390K credentials</title>
+        <link>https://arstechnica.com/security/2024/12/yearlong-supply-chain-attack-targeting-security-pros-steals-390k-credentials/</link>
+                  <comments>https://arstechnica.com/security/2024/12/yearlong-supply-chain-attack-targeting-security-pros-steals-390k-credentials/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Dan Goodin]]>
+        </dc:creator>
+        <pubDate>Fri, 13 Dec 2024 21:46:18 +0000</pubDate>
+        		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[credential theft]]></category>
+		<category><![CDATA[cryptomining]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[npm]]></category>
+		<category><![CDATA[supply chain attacks]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/security/2024/12/yearlong-supply-chain-attack-targeting-security-pros-steals-390k-credentials/</guid>
+
+                  <description>
+            <![CDATA[Multifaceted, high-precision campaign targets malicious and benevolent hackers alike.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>A sophisticated and ongoing supply-chain attack operating for the past year has been stealing sensitive login credentials from both malicious and benevolent security personnel by infecting them with Trojanized versions of open source software from GitHub and NPM, researchers said.</p>
+<p>The campaign, first reported three weeks ago by security firm <a href="https://checkmarx.com/blog/dozens-of-machines-infected-year-long-npm-supply-chain-attack-combines-crypto-mining-and-data-theft/">Checkmarx</a> and again on Friday by <a href="https://securitylabs.datadoghq.com/articles/mut-1244-targeting-offensive-actors/">Datadog Security Labs</a>, uses multiple avenues to infect the devices of researchers in security and other technical fields. One is through packages that have been available on open source repositories for over a year. They install a professionally developed backdoor that takes pains to conceal its presence. The unknown threat actors behind the campaign have also employed spear phishing that targets thousands of researchers who publish papers on the arXiv platform.</p>
+<h2>Unusual longevity</h2>
+<p>The objectives of the threat actors are also multifaceted. One is the collection of SSH private keys, Amazon Web Services access keys, command histories, and other sensitive information from infected devices every 12 hours. When this post went live, dozens of machines remained infected, and an online account on Dropbox contained some 390,000 credentials for WordPress websites taken by the attackers, most likely by stealing them from fellow malicious threat actors. The malware used in the campaign also installs cryptomining software that was present on at least 68 machines as of last month.</p><p><a href="https://arstechnica.com/security/2024/12/yearlong-supply-chain-attack-targeting-security-pros-steals-390k-credentials/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2024/12/yearlong-supply-chain-attack-targeting-security-pros-steals-390k-credentials/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>8</slash:comments>
+        
+        
+        <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Werner Herzog muses on mysteries of the brain in Theater of Thought</title>
+        <link>https://arstechnica.com/culture/2024/12/werner-herzog-muses-on-mysteries-of-the-brain-in-theater-of-thought/</link>
+                  <comments>https://arstechnica.com/culture/2024/12/werner-herzog-muses-on-mysteries-of-the-brain-in-theater-of-thought/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jennifer Ouellette]]>
+        </dc:creator>
+        <pubDate>Fri, 13 Dec 2024 18:12:44 +0000</pubDate>
+        		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[consciousness]]></category>
+		<category><![CDATA[documentaries]]></category>
+		<category><![CDATA[film]]></category>
+		<category><![CDATA[Neuroscience]]></category>
+		<category><![CDATA[science documentaries]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/culture/2024/12/werner-herzog-muses-on-mysteries-of-the-brain-in-theater-of-thought/</guid>
+
+                  <description>
+            <![CDATA[Auteur director's latest documentary runs the gamut from BCIs and how we construct reality to whether fish can dream.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p><a href="https://en.wikipedia.org/wiki/Werner_Herzog">Werner Herzog</a> has made more than 60 films over his illustrious career. His documentaries alone span an impressive topical range, from the life and death of bear enthusiast <a title="Timothy Treadwell" href="https://en.wikipedia.org/wiki/Timothy_Treadwell">Timothy Treadwell</a> (<a href="https://en.wikipedia.org/wiki/Grizzly_Man"><em>Grizzly Man</em></a>) to people who choose to live and work in Antarctica (the Oscar-nominated <a href="https://en.wikipedia.org/wiki/Encounters_at_the_End_of_the_World"><em>Encounters at the End of the World</em></a>) or a haunting exploration of the oldest human paintings in France's Chauvet Cave (<a href="https://en.wikipedia.org/wiki/Cave_of_Forgotten_Dreams"><em>Cave of Forgotten Dreams</em></a>). His latest offering, <em>Theater of Thought</em>, tackles what might be his most ambitious subject yet: the mysterious inner workings of the brain.</p>
+<p><em>Theater of Thought</em> premiered in 2022 at the Telluride Film Festival in Colorado and is now getting a theatrical release. Herzog's inspiration grew out of his conversations with <a href="https://ntc.columbia.edu/rafael-yuste/">Rafael Yuste</a>, a Columbia University neurobiologist who also served as scientific advisor on the film. "How can we read thoughts?" he writes in his director's statement. "Can you implant a chip in your brain and in my brain, and see my new film without a camera? Why is it that some young people immerse themselves in video games and become addicted to completely artificial worlds? Sometimes mice even prefer invented cartoon worlds, so who is the ghost writer of our mind, of our reality?"</p>
+<p>The topic might be scientific in nature, but <em>Theater of Thought</em> is not really a science documentary, despite Herzog's use of the classic talking head format. It's more of a personal, almost quixotic quest, with plenty of random branching digressions along the way. "It was like a road movie, one Monument Valley and one Grand Canyon, then one Mount Everest after the other," Herzog told Ars. "You just couldn't stop wondering and enjoying." For the viewer, it's as much a journey through the eccentric workings of Herzog's endlessly curious, nimble mind.</p><p><a href="https://arstechnica.com/culture/2024/12/werner-herzog-muses-on-mysteries-of-the-brain-in-theater-of-thought/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2024/12/werner-herzog-muses-on-mysteries-of-the-brain-in-theater-of-thought/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>13</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/herzog6-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/herzog6-500x500.jpg" width="500"/>
+<media:credit>Argot Pictures</media:credit></media:content>
+      </item>
+          <item>
+        <title>Elon Musk slams SEC as agency threatens charges in Twitter stock probe</title>
+        <link>https://arstechnica.com/tech-policy/2024/12/elon-musk-slams-sec-as-agency-threatens-charges-in-twitter-stock-probe/</link>
+                  <comments>https://arstechnica.com/tech-policy/2024/12/elon-musk-slams-sec-as-agency-threatens-charges-in-twitter-stock-probe/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jon Brodkin]]>
+        </dc:creator>
+        <pubDate>Fri, 13 Dec 2024 17:20:36 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[elon musk sec]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/12/elon-musk-slams-sec-as-agency-threatens-charges-in-twitter-stock-probe/</guid>
+
+                  <description>
+            <![CDATA[SEC offered settlement in stock probe and is investigating Neuralink, Musk says.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Elon Musk has at least one more battle to wage against Securities and Exchange Commission Chair Gary Gensler, who will be leaving the agency when President-elect Trump takes over in January.</p>
+<p>Musk yesterday <a href="https://x.com/elonmusk/status/1867357433493872874">posted</a> a copy of a letter sent to Gensler by Musk's attorney, Alex Spiro. The letter dated December 12 says the SEC issued a settlement demand in its investigation into whether Musk violated federal securities laws in connection with 2022 purchases of Twitter stock, and that the SEC is investigating Neuralink. The Spiro letter said:</p>
+<blockquote><p>Yesterday the Commission Staff issued a settlement demand that required Mr. Musk agree within 48 hours to either accept a monetary payment or face charges on numerous counts. They indicated that this demand was the result of a directive from their superiors and that charges would be brought imminently unless Mr. Musk acquiesced. This demand follows a multi-year investigation and more than six years of harassment of Mr. Musk by the Commission and its Staff. More recently, the Staff subpoenaed me, Mr. Musk's attorney, for testimony and threatened to send a process server if I did not immediately cooperate. I categorically refused. This week, the Commission has also reopened an investigation into Neuralink.</p></blockquote>
+<p>Spiro accused the SEC of "an improperly motivated campaign" against Musk, his companies, and people associated with him. "We demand to know who directed these actions—whether it was you or the White House," Spiro wrote. "These tactics and misguided scheme will not intimidate us. We reserve all rights."</p><p><a href="https://arstechnica.com/tech-policy/2024/12/elon-musk-slams-sec-as-agency-threatens-charges-in-twitter-stock-probe/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2024/12/elon-musk-slams-sec-as-agency-threatens-charges-in-twitter-stock-probe/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>104</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/10/getty-musk-sec-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/10/getty-musk-sec-500x500-1734107037.jpg" width="500"/>
+<media:credit>Getty Images | Bloomberg</media:credit><media:text>Elon Musk leaves federal court in New York on Thursday, April 4, 2019 after a hearing in a case involving the SEC.</media:text></media:content>
+      </item>
+          <item>
+        <title>Don’t use crypto to cheat on taxes: Bitcoin bro gets 2 years</title>
+        <link>https://arstechnica.com/tech-policy/2024/12/dont-use-crypto-to-cheat-on-taxes-bitcoin-bro-gets-2-years/</link>
+                  <comments>https://arstechnica.com/tech-policy/2024/12/dont-use-crypto-to-cheat-on-taxes-bitcoin-bro-gets-2-years/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ashley Belanger]]>
+        </dc:creator>
+        <pubDate>Fri, 13 Dec 2024 17:02:41 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[bitcoin]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[cryptocurrency mixer]]></category>
+		<category><![CDATA[department of justice]]></category>
+		<category><![CDATA[IRS]]></category>
+		<category><![CDATA[tax evasion]]></category>
+		<category><![CDATA[tax fraud]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2024/12/dont-use-crypto-to-cheat-on-taxes-bitcoin-bro-gets-2-years/</guid>
+
+                  <description>
+            <![CDATA[Early bitcoin investor first to get prison time for crypto-related tax evasion.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>A bitcoin investor who went to increasingly great lengths to hide $1 million in cryptocurrency gains on his tax returns was <a href="https://www.justice.gov/opa/pr/early-bitcoin-investor-sentenced-filing-tax-returns-falsely-reported-his-cryptocurrency">sentenced</a> to two years in prison on Thursday.</p>
+<p>It seems that not even his most "sophisticated" tactics—including using mixers, managing multiple wallets, and setting up in-person meetings to swap bitcoins for cash—kept the feds from tracing crypto trades that he believed were untraceable.</p>
+<p>The Austin, Texas, man, Frank Richard Ahlgren III, started buying up bitcoins in 2011. In 2015, he upped his trading, purchasing approximately 1,366 using Coinbase accounts. He waited until 2017 before cashing in, earning $3.7 million after selling about 640 at a price more than 10 times his initial costs. Celebrating his gains, he bought a house in Utah in 2017, mostly funded by bitcoins he purchased in 2015.</p><p><a href="https://arstechnica.com/tech-policy/2024/12/dont-use-crypto-to-cheat-on-taxes-bitcoin-bro-gets-2-years/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2024/12/dont-use-crypto-to-cheat-on-taxes-bitcoin-bro-gets-2-years/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>65</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1316777841-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1316777841-500x500.jpg" width="500"/>
+<media:credit>Cemile Bingol | DigitalVision Vectors</media:credit></media:content>
+      </item>
+          <item>
+        <title>F1 Arcade trip report: Great sims make for a compelling experience</title>
+        <link>https://arstechnica.com/uncategorized/2024/12/f1-arcade-trip-report-great-sims-make-for-a-compelling-experience/</link>
+                  <comments>https://arstechnica.com/uncategorized/2024/12/f1-arcade-trip-report-great-sims-make-for-a-compelling-experience/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jonathan M. Gitlin]]>
+        </dc:creator>
+        <pubDate>Fri, 13 Dec 2024 16:57:55 +0000</pubDate>
+        		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[F1]]></category>
+		<category><![CDATA[F1 Arcade]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/uncategorized/2024/12/f1-arcade-trip-report-great-sims-make-for-a-compelling-experience/</guid>
+
+                  <description>
+            <![CDATA[It's like Top Golf, but with F1 simulators instead. ]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Formula 1’s recent popularity still feels a little strange to longtime fans of <a href="https://arstechnica.com/tag/formula-1/" target="_blank" rel="noopener">the sport</a>, particularly in the US, where it had been so niche for so long. But the past five years have seen F1 rise meteorically, and a new, much younger fanbase infused with enthusiasm for the cutting-edge race cars and the athletes who pilot them has emerged. F1 Arcade capitalizes on that popularity, combining food and drinks—including Lewis Hamilton's agave tipple—with dozens and dozens of race simulators that let you race against friends or compete in teams against others.</p>
+<p>With Washington, DC, chosen for F1 Arcade's second US location, I obviously had to go check it out.</p>
+<p>My first visit to the arcade in DC's Union Market district was several weeks ago at the launch party, an affair that was packed with influencers and loud music. But I returned earlier this week, having booked a 45-minute, five-race session playing head-to-head against a friend. Prices vary depending on the number of races and whether you're that at peak time, starting at $22/player for three races off-peak and going up to $42/player for five races at peak time. There's no charge for people who are just spectating (or eating and drinking), not racing.</p><p><a href="https://arstechnica.com/uncategorized/2024/12/f1-arcade-trip-report-great-sims-make-for-a-compelling-experience/">Read full article</a></p>
+<p><a href="https://arstechnica.com/uncategorized/2024/12/f1-arcade-trip-report-great-sims-make-for-a-compelling-experience/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>26</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/IMG_0365-optimized-1152x648-1734107756.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/IMG_0365-optimized-500x500-1734107651.jpg" width="500"/>
+<media:credit>Elle Cayabyab Gitlin</media:credit></media:content>
+      </item>
+          <item>
+        <title>The US military is now talking openly about going on the attack in space</title>
+        <link>https://arstechnica.com/space/2024/12/the-us-military-is-now-talking-openly-about-going-on-the-attack-in-space/</link>
+                  <comments>https://arstechnica.com/space/2024/12/the-us-military-is-now-talking-openly-about-going-on-the-attack-in-space/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Stephen Clark]]>
+        </dc:creator>
+        <pubDate>Fri, 13 Dec 2024 15:40:45 +0000</pubDate>
+        		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[chance saltzman]]></category>
+		<category><![CDATA[military space]]></category>
+		<category><![CDATA[US Space Force]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/space/2024/12/the-us-military-is-now-talking-openly-about-going-on-the-attack-in-space/</guid>
+
+                  <description>
+            <![CDATA["We have to build capabilities that provide our leadership offensive and defensive options."]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>ORLANDO, Florida—Earlier this year, officials at US Space Command released a list of priorities and needs, and among the routine recitation of things like cyber defense, communications, and surveillance was a relatively new term: "integrated space fires."</p>
+<p>This is a new phrase in the esoteric terminology the military uses to describe its activities. Essentially, "fires" are offensive or defensive actions against an adversary. The Army <a href="https://api.army.mil/e2/c/downloads/2021/10/06/869ca62b/afc-concept-for-fires-2028-oct21.pdf">defines fires</a> as "the use of weapon systems to create specific lethal and nonlethal effects on a target."</p>
+<p>The inclusion of this term in a Space Command <a href="https://www.spacecom.mil/Portals/57/USSPACECOM%20J8%20Trifold%2014%20Aug%202024%20APPROVED.pdf">planning document</a> was another signal that Pentagon leaders, long hesitant to even mention the possibility of putting offensive weapons in space for fear of stirring up a cosmic arms race, see the taboo of talking about space warfare as a thing of the past.</p><p><a href="https://arstechnica.com/space/2024/12/the-us-military-is-now-talking-openly-about-going-on-the-attack-in-space/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2024/12/the-us-military-is-now-talking-openly-about-going-on-the-attack-in-space/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>132</slash:comments>
+        
+        
+        <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/spoc_spaceplane.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/spoc_spaceplane-500x500.jpg" width="500"/>
+<media:text>Last year, Space Operations Command unveiled its first official painting, titled "High Ground Intercept," commissioned with artist Rick Herter. The painting illustrates a US military spaceplane intercepting an adversary's satellite, which in turn is positioning to disable a friendly satellite.</media:text></media:content>
+      </item>
+          <item>
+        <title>Twirling body horror in gymnastics video exposes AI’s flaws</title>
+        <link>https://arstechnica.com/information-technology/2024/12/twirling-body-horror-in-gymnastics-video-exposes-ais-flaws/</link>
+                  <comments>https://arstechnica.com/information-technology/2024/12/twirling-body-horror-in-gymnastics-video-exposes-ais-flaws/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Benj Edwards]]>
+        </dc:creator>
+        <pubDate>Fri, 13 Dec 2024 14:12:48 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI confabulation]]></category>
+		<category><![CDATA[AI hallucination]]></category>
+		<category><![CDATA[AI jabberwocky]]></category>
+		<category><![CDATA[Ai video generator]]></category>
+		<category><![CDATA[confabulation]]></category>
+		<category><![CDATA[gymnastics]]></category>
+		<category><![CDATA[hallucination]]></category>
+		<category><![CDATA[jabberwocky]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Olympics]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[Sora]]></category>
+		<category><![CDATA[video synthesis]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/information-technology/2024/12/twirling-body-horror-in-gymnastics-video-exposes-ais-flaws/</guid>
+
+                  <description>
+            <![CDATA[Nonsensical jabberwocky movements created by OpenAI’s Sora are typical for current AI-generated video, and here's why.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>On Wednesday, a video from OpenAI's <a href="https://arstechnica.com/ai/2024/12/ten-months-after-first-tease-openai-launches-sora-video-generation-publicly/">newly launched</a> Sora AI video generator <a href="https://x.com/deedydas/status/1866509455896260813">went</a> <a href="https://bsky.app/profile/labuzamovies.bsky.social/post/3ld2c4wls322j">viral</a> on social media, featuring a gymnast who sprouts extra limbs and briefly loses her head during what appears to be an Olympic-style floor routine.</p>
+<p>As it turns out, the nonsensical synthesis errors in the video—what we like to call "jabberwockies"—hint at technical details about how AI video generators work and how they might get better in the future.</p>
+<p>But before we dig into the details, let's take a look at the video.</p><p><a href="https://arstechnica.com/information-technology/2024/12/twirling-body-horror-in-gymnastics-video-exposes-ais-flaws/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2024/12/twirling-body-horror-in-gymnastics-video-exposes-ais-flaws/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>116</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/ai_gymnast_header-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/ai_gymnast_header-500x500.jpg" width="500"/>
+<media:credit>OpenAI / Deedy</media:credit><media:text>A still image from an AI-generated video of an ever-morphing synthetic gymnast.</media:text></media:content>
+      </item>
+          <item>
+        <title>Americans spend more years being unhealthy than people in any other country</title>
+        <link>https://arstechnica.com/health/2024/12/americans-are-living-longer-but-most-of-the-extra-time-is-spent-being-sick/</link>
+                  <comments>https://arstechnica.com/health/2024/12/americans-are-living-longer-but-most-of-the-extra-time-is-spent-being-sick/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Beth Mole]]>
+        </dc:creator>
+        <pubDate>Fri, 13 Dec 2024 13:19:42 +0000</pubDate>
+        		<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[disability]]></category>
+		<category><![CDATA[disease]]></category>
+		<category><![CDATA[health care]]></category>
+		<category><![CDATA[life expectancy]]></category>
+		<category><![CDATA[lifespan]]></category>
+		<category><![CDATA[us]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/health/2024/12/americans-are-living-longer-but-most-of-the-extra-time-is-spent-being-sick/</guid>
+
+                  <description>
+            <![CDATA[The gap between US lifespan and healthspan was 12.4 years, the world's largest.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>The gap of time between how long Americans live and how much of that time is spent in good health only grew wider in the last two decades, according to <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753">a new study published in JAMA Network Open</a>.</p>
+<p>The study, which looked at global health data between 2000 and 2019—prior to the COVID-19 pandemic—found the US stood out for its years of suffering. By 2019, Americans had a gap between their lifespan and their healthspan of 12.4 years, the largest gap of any of the 183 countries included in the study. The second largest gap was Australia's, at 12.1 years, followed by New Zealand at 11.8 years and the UK at 11.3 years.</p>
+<p>America also stood out for having the largest burden of noncommunicable diseases in the world, as calculated by the years lived with disease or disability per 100,000 people.</p><p><a href="https://arstechnica.com/health/2024/12/americans-are-living-longer-but-most-of-the-extra-time-is-spent-being-sick/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2024/12/americans-are-living-longer-but-most-of-the-extra-time-is-spent-being-sick/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>179</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-123317894-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-123317894-500x500.jpg" width="500"/>
+<media:credit>Getty | 	Blend Images - JGI/Tom Grill</media:credit></media:content>
+      </item>
+          <item>
         <title>Rocket Report: Chinese national flies drone near Falcon 9, Trouble down under</title>
         <link>https://arstechnica.com/space/2024/12/rocket-report-ukrainian-launch-firm-finds-maine-home-long-march-8a-debut-near/</link>
+                  <comments>https://arstechnica.com/space/2024/12/rocket-report-ukrainian-launch-firm-finds-maine-home-long-march-8a-debut-near/#comments</comments>
         
         <dc:creator>
           <![CDATA[Eric Berger]]>
@@ -48,6 +373,7 @@
 ]]>
             </content:encoded>
                   
+                  <slash:comments>98</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GeYXmxnawAA6Q1w-1152x648.jpg" width="1152">
@@ -73,12 +399,12 @@
               <![CDATA[<p>Large language models have found great success so far by <a href="https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/" target="_blank" rel="noopener">using their transformer architecture</a> to <a href="https://arstechnica.com/ai/2024/05/heres-whats-really-going-on-inside-an-llms-neural-network/" target="_blank" rel="noopener">effectively predict the next words</a> (i.e., language tokens) needed to respond to queries. When it comes to complex reasoning tasks that require abstract logic, though, some researchers have found that interpreting everything through this kind of "language space" can start to cause some problems, even for <a href="https://arstechnica.com/ai/2024/12/openais-new-200-mo-chatgpt-subscription-will-buy-you-more-compute-time/">modern "reasoning" models</a>.</p>
 <p>Now, researchers are trying to work around these problems by crafting models that can work out potential logical solutions completely in "latent space"—the hidden computational layer just before the transformer generates language. While this approach doesn't cause a sea change in an LLM's reasoning capabilities, it does show distinct improvements in accuracy for certain types of logical problems and shows some interesting directions for new research.</p>
 <h2>Wait, what space?</h2>
-<p>Modern reasoning models like ChatGPT's o1 tend to work by generating a "chain of thought." Each step of the logical process in these models is expressed as a sequence of natural language word tokens which are fed back through the model.</p><p><a href="https://arstechnica.com/ai/2024/12/are-llms-capable-of-non-verbal-reasoning/">Read full article</a></p>
+<p>Modern reasoning models like ChatGPT's o1 tend to work by generating a "chain of thought." Each step of the logical process in these models is expressed as a sequence of natural language word tokens that are fed back through the model.</p><p><a href="https://arstechnica.com/ai/2024/12/are-llms-capable-of-non-verbal-reasoning/">Read full article</a></p>
 <p><a href="https://arstechnica.com/ai/2024/12/are-llms-capable-of-non-verbal-reasoning/#comments">Comments</a></p>
 ]]>
             </content:encoded>
                   
-                  <slash:comments>129</slash:comments>
+                  <slash:comments>182</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1327016094-1152x648.jpg" width="1152">
@@ -113,7 +439,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>44</slash:comments>
+                  <slash:comments>68</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1354022389-1152x648.jpg" width="1152">
@@ -150,7 +476,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>20</slash:comments>
+                  <slash:comments>29</slash:comments>
         
         
         <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1.jpg">
@@ -183,7 +509,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>26</slash:comments>
+                  <slash:comments>36</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/phone-1152x648-1734035098.jpg" width="1152">
@@ -217,7 +543,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>37</slash:comments>
+                  <slash:comments>41</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-1511416656-1152x648.jpg" width="1152">
@@ -255,7 +581,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>67</slash:comments>
+                  <slash:comments>83</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/Ranis-Zlaty-Kun-1152x648.jpg" width="1152">
@@ -287,7 +613,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>37</slash:comments>
+                  <slash:comments>40</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/santa_claus_secret_header-1152x648.jpg" width="1152">
@@ -321,7 +647,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>179</slash:comments>
+                  <slash:comments>222</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-2162965259-1152x648.jpg" width="1152">
@@ -359,7 +685,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>40</slash:comments>
+                  <slash:comments>47</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/project_moohan-1152x648.jpeg" width="1152">
@@ -395,328 +721,12 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>112</slash:comments>
+                  <slash:comments>131</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/IMG_2505-1152x648.jpeg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/IMG_2505-500x500-1733985940.jpeg" width="500"/>
 <media:credit>Andrew Cunningham</media:credit><media:text>Intel's Arc B580 design doesn't include LEDs or other frills, but it's a clean-looking design.</media:text></media:content>
-      </item>
-          <item>
-        <title>AI helps ID paint chemistry of Berlin Wall murals</title>
-        <link>https://arstechnica.com/science/2024/12/ai-helps-id-paint-chemistry-of-berlin-wall-murals/</link>
-                  <comments>https://arstechnica.com/science/2024/12/ai-helps-id-paint-chemistry-of-berlin-wall-murals/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jennifer Ouellette]]>
-        </dc:creator>
-        <pubDate>Thu, 12 Dec 2024 16:59:25 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[art conservation]]></category>
-		<category><![CDATA[Berlin Wall]]></category>
-		<category><![CDATA[chemistry]]></category>
-		<category><![CDATA[graffiti]]></category>
-		<category><![CDATA[neural networks]]></category>
-		<category><![CDATA[Raman spectroscopy]]></category>
-		<category><![CDATA[street art]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/science/2024/12/ai-helps-id-paint-chemistry-of-berlin-wall-murals/</guid>
-
-                  <description>
-            <![CDATA[Italian scientists designed a neural network to analyze spectral data from handheld Raman spectroscopy devices.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall">fall of the Berlin Wall</a> in November 1989 was a seminal moment in 20th century history, paving the way for German reunification. Many segments, both large and small, were preserved for posterity—including portions covered in graffiti or murals. A team of Italian scientists used a combination of spectroscopic analysis and machine learning to study paint chips from wall fragments to learn more about the chemistry of the paints and pigments used, according to a <a href="http://pubs.acs.org/doi/abs/10.1021/jacs.4c12611">new paper</a> published in the Journal of the American Chemical Society.</p>
-<p>There has been increased attention in recent years to preserving street art, which is vulnerable both to degradation over time as well as deliberate vandalism. For instance, <a href="https://arstechnica.com/science/2021/04/novel-hydrogels-can-safely-remove-graffiti-from-vandalized-street-art/">in 2021</a>, Italian chemists figured out how to use hydrogels to remove added graffiti from vandalized murals in Florence. (Over-painting by vandals is so chemically similar to the original painting underneath that it is difficult to selectively remove just the over-painting without damaging the original.) Unlike most classic masterpieces of the past, created with paints designed to last centuries, street art is more ephemeral in nature, using materials that lack such longevity.</p>
-<p>In many cases, like the Berlin Wall, the painters didn't bother to document the specific materials they used, their application techniques, or other useful information that conservators could use to restore or conserve street art. Modern painting materials are also much more complex, and manufacturers typically do not report specific information on the composition of those materials.</p><p><a href="https://arstechnica.com/science/2024/12/ai-helps-id-paint-chemistry-of-berlin-wall-murals/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2024/12/ai-helps-id-paint-chemistry-of-berlin-wall-murals/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>17</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/berlin1CROP-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/berlin1CROP-500x500.jpg" width="500"/>
-<media:credit>Thierry Noir/CC BY-SA 3.0</media:credit><media:text>Segment of the Berlin Wall at Bethaniendamm in Berlin-Kreuzberg, in 1986.</media:text></media:content>
-      </item>
-          <item>
-        <title>Weight loss drugs may also treat addiction, Alzheimer’s, and heart disease</title>
-        <link>https://arstechnica.com/health/2024/12/weight-loss-drugs-may-also-treat-addiction-alzheimers-and-heart-disease/</link>
-                  <comments>https://arstechnica.com/health/2024/12/weight-loss-drugs-may-also-treat-addiction-alzheimers-and-heart-disease/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ian Johnston and Michael Peel, Financial Times]]>
-        </dc:creator>
-        <pubDate>Thu, 12 Dec 2024 16:20:57 +0000</pubDate>
-        		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Health]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[GLP-1]]></category>
-		<category><![CDATA[Ozempic]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[wegovy]]></category>
-		<category><![CDATA[weight loss]]></category>
-		<category><![CDATA[weight loss drugs]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/health/2024/12/weight-loss-drugs-may-also-treat-addiction-alzheimers-and-heart-disease/</guid>
-
-                  <description>
-            <![CDATA[Pharmaceutical companies are already cashing in on their other health benefits.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>One of Dr. Mo Sarhan’s patients was experiencing intense cravings for opioids and alcohol when the Florida-based doctor offered him a striking solution: the Eli Lilly weight-loss drug Mounjaro.</p>
-<p>“Within days, all of his cravings were gone and he was much more effective in his engagement and treatment. He’s done great since,” Sarhan says.</p>
-<p>Sarhan and his colleague Steven Klein at the Caron Treatment Centers in Florida and Pennsylvania have prescribed a range of so-called glucagon-like peptide-1 receptor agonists (GLP-1s) to treat addictions, using them alongside traditional therapies, to around 75 patients.</p><p><a href="https://arstechnica.com/health/2024/12/weight-loss-drugs-may-also-treat-addiction-alzheimers-and-heart-disease/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2024/12/weight-loss-drugs-may-also-treat-addiction-alzheimers-and-heart-disease/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>137</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/weightloss-list-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/weightloss-list-500x500.jpg" width="500"/>
-<media:credit>FT montage/Bob Haslett</media:credit></media:content>
-      </item>
-          <item>
-        <title>YouTube TV is hiking prices again after denying “erroneous” report days ago</title>
-        <link>https://arstechnica.com/gadgets/2024/12/youtube-tv-raisies-prices-10-per-month-in-2025-citing-content-costs-quality/</link>
-                  <comments>https://arstechnica.com/gadgets/2024/12/youtube-tv-raisies-prices-10-per-month-in-2025-citing-content-costs-quality/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kevin Purdy]]>
-        </dc:creator>
-        <pubDate>Thu, 12 Dec 2024 16:03:25 +0000</pubDate>
-        		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[youtube TV]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/12/youtube-tv-raisies-prices-10-per-month-in-2025-citing-content-costs-quality/</guid>
-
-                  <description>
-            <![CDATA[$83/mo price lines up with Hulu TV Live, and not as far below traditional cable.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>YouTube TV, now <a href="https://arstechnica.com/gadgets/2024/02/youtube-tv-is-the-uss-4th-biggest-cable-tv-provider-with-8-million-subs/">one of the country's leading cable (or cable-ish) television providers</a>, is starting to act like it. The service told customers in an email this morning that prices are going up in the new year, from $73 per month for the Base Plan to $83 on January 13, 2025—just days after suggesting that wasn't happening.</p>
-<p>"We don’t make these decisions lightly, and we realize this has an impact on our members," Google's email to subscribers read. "We are committed to bringing you features that are changing the way we watch live TV, like unlimited DVR storage and multiview, and supporting YouTube TV’s breadth of content and vast on-demand library of movies and shows."</p>
-<p>Google cited "the rising cost of content and the investments we make in the quality of our service" in announcing the price increase. It noted that customers can pause or cancel their subscription in their Settings and that current trials and promotions will be honored and unchanged.</p><p><a href="https://arstechnica.com/gadgets/2024/12/youtube-tv-raisies-prices-10-per-month-in-2025-citing-content-costs-quality/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2024/12/youtube-tv-raisies-prices-10-per-month-in-2025-citing-content-costs-quality/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>137</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-646395580-scaled-1152x648-1734018446.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-646395580-scaled-500x500-1734018545.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>In an odd bit of propaganda, Belarus claims to have its own Starlink technology</title>
-        <link>https://arstechnica.com/space/2024/12/belarus-claims-to-have-developed-a-starlink-analog-for-its-troops/</link>
-                  <comments>https://arstechnica.com/space/2024/12/belarus-claims-to-have-developed-a-starlink-analog-for-its-troops/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Eric Berger]]>
-        </dc:creator>
-        <pubDate>Thu, 12 Dec 2024 15:51:35 +0000</pubDate>
-        		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Belarus]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[starlink]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2024/12/belarus-claims-to-have-developed-a-starlink-analog-for-its-troops/</guid>
-
-                  <description>
-            <![CDATA[Mom, can we have a Starlink? Mom: We have a Starlink at home.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>In recent days, there has been a smattering of coverage in state-run Russian media outlets about how the Belarusian army has developed its own satellite Internet service akin to SpaceX's Starlink constellation, called "Kulisa."</p>
-<p>According to <a href="https://tass-ru.translate.goog/mezhdunarodnaya-panorama/22634445?_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=de&amp;_x_tr_pto=wapp">the TASS news service</a>, for example, the Kulisa mobile communications technology has "already entered service and is being used in military units of the Armed Forces."</p>
-<p><a href="https://news-pravda.com/usa/2024/12/11/913670.html">And Pravda</a>, which started out as the official newspaper of Russia's Communist Party more than a century ago, taunted the developer of the technology, saying, "How's that for you, SpaceX?"</p><p><a href="https://arstechnica.com/space/2024/12/belarus-claims-to-have-developed-a-starlink-analog-for-its-troops/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2024/12/belarus-claims-to-have-developed-a-starlink-analog-for-its-troops/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>53</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/belarus-1-571x648.jpg" width="571">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/belarus-1-500x500.jpg" width="500"/>
-<media:credit>Pravda</media:credit><media:text>The first, and only, president of Belarus, Alexander Lukashenko, is shown the Kulisa technology.</media:text></media:content>
-      </item>
-          <item>
-        <title>NASA’s boss-to-be proclaims we’re about to enter an “age of experimentation”</title>
-        <link>https://arstechnica.com/space/2024/12/trumps-nominee-to-lead-nasa-favors-a-full-embrace-of-commercial-space/</link>
-                  <comments>https://arstechnica.com/space/2024/12/trumps-nominee-to-lead-nasa-favors-a-full-embrace-of-commercial-space/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Stephen Clark]]>
-        </dc:creator>
-        <pubDate>Thu, 12 Dec 2024 14:11:56 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[artemis]]></category>
-		<category><![CDATA[human spaceflight]]></category>
-		<category><![CDATA[jared isaacman]]></category>
-		<category><![CDATA[moon]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[starship]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2024/12/trumps-nominee-to-lead-nasa-favors-a-full-embrace-of-commercial-space/</guid>
-
-                  <description>
-            <![CDATA["You can get into a rhythm of using all of these providers to get things up very quickly."]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>ORLANDO, Florida<span class="s1">—On Wednesday, </span>Jared Isaacman made his first public appearance since his nomination earlier this month to become NASA's next administrator. Although his remarks were short on specifics, Isaacman endorsed a vision that would signal radical departures from the way NASA does business.</p>
-<p>He talked of commercial investment, a thriving space economy, and going fast and taking risks. These talking points are familiar to anyone who has listened to NASA's leadership in recent years, and there has been tangible progress in the agency's partnerships with commercial companies. However, NASA is leaving some commercial expertise on the field, or in this case, on the ground.</p>
-<p class="p1"><span class="s1">"I love all about the commercial space industry right now," Isaacman said in a discussion at the Space Force Association's Spacepower Conference in Orlando, Florida. "They’re all generally doing the same thing, which is putting a lot of their own dollars on the line because they believe in the future that it holds."</span></p><p><a href="https://arstechnica.com/space/2024/12/trumps-nominee-to-lead-nasa-favors-a-full-embrace-of-commercial-space/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2024/12/trumps-nominee-to-lead-nasa-favors-a-full-embrace-of-commercial-space/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>118</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/isaacman2-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/isaacman2-500x500.jpg" width="500"/>
-<media:credit>John Kraus</media:credit><media:text>Jared Isaacman, President-elect Trump's nominee to be the next NASA administrator, speaks at the Spacepower Conference on Wednesday in Orlando, Florida.</media:text></media:content>
-      </item>
-          <item>
-        <title>Back where it started: “Do Not Track” removed from Firefox after 13 years</title>
-        <link>https://arstechnica.com/gadgets/2024/12/firefox-one-of-the-first-do-not-track-supporters-no-longer-offers-it/</link>
-                  <comments>https://arstechnica.com/gadgets/2024/12/firefox-one-of-the-first-do-not-track-supporters-no-longer-offers-it/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kevin Purdy]]>
-        </dc:creator>
-        <pubDate>Thu, 12 Dec 2024 12:00:32 +0000</pubDate>
-        		<category><![CDATA[Tech]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/12/firefox-one-of-the-first-do-not-track-supporters-no-longer-offers-it/</guid>
-
-                  <description>
-            <![CDATA[A brief history of the privacy you never really got.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>It might not ever be fully dead, but Firefox calling it quits on Do Not Track (DNT) is a strong indication that an idealistic movement born more than 13 years ago has truly reached the end of its viable life.</p>
-<p><a href="https://windowsreport.com/mozilla-firefox-removes-do-not-track-feature-support-heres-what-it-means-for-your-privacy/">The Windows Report tech news site spotted</a> that Firefox has removed the option to "Send websites a 'Do Not Track' request" as of version 135, already visible in Nightly builds. Users checking the Website Privacy Preference section will soon see a linked notice that Firefox will no longer support the signal. Firefox's <a href="https://support.mozilla.org/en-US/kb/how-do-i-turn-do-not-track-feature">support page for Do Not Track</a> notes that "Many sites do not respect this indication of a person's privacy preferences, and, in some cases, it can reduce privacy."</p>
-<p>Google Chrome and Microsoft Edge (based in part on Chrome's open source origin, Chromium) still offer a Do Not Track option, but they are just as ineffective. <a href="https://arstechnica.com/tech-policy/2020/10/coming-to-a-browser-near-you-a-new-way-to-keep-sites-from-selling-your-data/">Global Privacy Control</a> has largely superseded Do Not Track as a supported—and, in some places, legislated—means of signaling a desire not to be tracked.</p><p><a href="https://arstechnica.com/gadgets/2024/12/firefox-one-of-the-first-do-not-track-supporters-no-longer-offers-it/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2024/12/firefox-one-of-the-first-do-not-track-supporters-no-longer-offers-it/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>90</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/broken_cookie-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/broken_cookie-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>Dodge keeps true to its roots with the first electric Charger muscle car</title>
-        <link>https://arstechnica.com/culture/2024/12/dodge-keeps-true-to-its-roots-with-the-first-electric-charger-muscle-car/</link>
-                  <comments>https://arstechnica.com/culture/2024/12/dodge-keeps-true-to-its-roots-with-the-first-electric-charger-muscle-car/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jonathan M. Gitlin]]>
-        </dc:creator>
-        <pubDate>Thu, 12 Dec 2024 05:01:08 +0000</pubDate>
-        		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[car review]]></category>
-		<category><![CDATA[Dodge Charger]]></category>
-		<category><![CDATA[First drive]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/culture/2024/12/dodge-keeps-true-to-its-roots-with-the-first-electric-charger-muscle-car/</guid>
-
-                  <description>
-            <![CDATA[The big two-door electric sedan impressed on the road, less so on track.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<aside class="pullbox sidebar fullwidth">Dodge provided flights from Washington to Phoenix and accommodation so Ars could drive the new Charger Daytona. Ars does not accept paid editorial content.</aside>
-<p>PHOENIX—Dodge gave its development team a relatively simple brief for the new Charger: It had to look, drive, and sound like a traditional Dodge muscle car. "If we don't make people uncomfortable, where are we going," asked Matt McAleer, Dodge and SRT's CEO. And you can see what he means: customers will have a choice of battery-electric or, from next year, an inline-six gasoline engine. For now, there is no throbbing V8 version, and those options will surely make some Dodge muscle car purists a little uncomfortable.</p>
-<p>But the new car certainly looks the part. According to Scott Krueger, vice president for exterior design at Dodge, the stylists' aimed for "heritage, not retro," and they achieved that with a sedan shape that certainly evokes the classic 1968 Charger without directly copying any of its lines. It's a car that looks great in the metal, and features like the LED strip of daylight running lights and the so-called "R-wing" at the front ensure that the design feels thoroughly modern and not a pastiche.</p>
-<img width="2560" height="1920" src="https://cdn.arstechnica.net/wp-content/uploads/2024/12/2025-Dodge-Charger-Daytona-2-scaled.jpg" class="fullwidth full" alt="A white Dodge Charger Daytona seen in profile against some garages at a race track" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2024/12/2025-Dodge-Charger-Daytona-2-scaled.jpg 2560w, https://cdn.arstechnica.net/wp-content/uploads/2024/12/2025-Dodge-Charger-Daytona-2-640x480.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2024/12/2025-Dodge-Charger-Daytona-2-1024x768.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2024/12/2025-Dodge-Charger-Daytona-2-768x576.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2024/12/2025-Dodge-Charger-Daytona-2-1536x1152.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2024/12/2025-Dodge-Charger-Daytona-2-2048x1536.jpg 2048w, https://cdn.arstechnica.net/wp-content/uploads/2024/12/2025-Dodge-Charger-Daytona-2-980x735.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2024/12/2025-Dodge-Charger-Daytona-2-1440x1080.jpg 1440w" sizes="auto, (max-width: 2560px) 100vw, 2560px">
-      The Charger Daytona name is just for the BEV variant—when the straight-six Charger debuts next year it won't be a Daytona.
-        Credit:
-          Jonathan Gitlin
-      
-<p>It's not exactly compact, though—at 206.9 inches (5,248 mm) long, 78.1 inches (2,028 mm) wide, and 58.9 inches (1,497 mm) tall, the Charger was built with American roads (and parking spaces) in mind, and is in fact 2 inches (50 mm) wider than the outgoing Charger Hellcat widebody.</p><p><a href="https://arstechnica.com/culture/2024/12/dodge-keeps-true-to-its-roots-with-the-first-electric-charger-muscle-car/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2024/12/dodge-keeps-true-to-its-roots-with-the-first-electric-charger-muscle-car/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>188</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/2025-Dodge-Charger-Daytona-1-scaled-1152x648-1733942103.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/2025-Dodge-Charger-Daytona-1-500x500.jpg" width="500"/>
-<media:credit>Jonathan Gitlin</media:credit></media:content>
-      </item>
-          <item>
-        <title>Russia takes unusual route to hack Starlink-connected devices in Ukraine</title>
-        <link>https://arstechnica.com/security/2024/12/russia-takes-unusual-route-to-hack-starlink-connected-devices-in-ukraine/</link>
-                  <comments>https://arstechnica.com/security/2024/12/russia-takes-unusual-route-to-hack-starlink-connected-devices-in-ukraine/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Dan Goodin]]>
-        </dc:creator>
-        <pubDate>Wed, 11 Dec 2024 23:18:42 +0000</pubDate>
-        		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[backdoors]]></category>
-		<category><![CDATA[nation state hacking]]></category>
-		<category><![CDATA[phishing]]></category>
-		<category><![CDATA[turla]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/security/2024/12/russia-takes-unusual-route-to-hack-starlink-connected-devices-in-ukraine/</guid>
-
-                  <description>
-            <![CDATA[Secret Blizzard has used the resources of at least 6 other groups in the past 7 years.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Russian nation-state hackers have followed an unusual path to gather intel in the country's ongoing invasion of Ukraine—appropriating the infrastructure of fellow threat actors and using it to infect electronic devices its adversary’s military personnel are using on the front line.</p>
-<p>On at least two occasions this year, the Russian hacking group, tracked under names including Turla, Waterbug, Snake, and Venomous Bear, has used servers and malware used by separate threat groups in attacks targeting front-line Ukrainian military forces, Microsoft <a href="https://www.microsoft.com/en-us/security/blog/2024/12/11/frequent-freeloader-part-ii-russian-actor-secret-blizzard-using-tools-of-other-groups-to-attack-ukraine/">said</a> Wednesday. In one case, Secret Blizzard—the name Microsoft uses to track the group—leveraged the infrastructure of a cybercrime group tracked as Storm-1919. In the other, Secret Blizzard appropriated resources of Storm-1837, a Russia-based threat actor with a history of targeting Ukrainian drone operators.</p>
-<p>The more common means for initial access by Secret Blizzard is spear phishing followed by lateral movement through server-side and edge device compromises. Microsoft said that the threat actor’s pivot here is unusual but not unique. Company investigators still don’t know how Secret Blizzard obtained access to the infrastructure.</p><p><a href="https://arstechnica.com/security/2024/12/russia-takes-unusual-route-to-hack-starlink-connected-devices-in-ukraine/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2024/12/russia-takes-unusual-route-to-hack-starlink-connected-devices-in-ukraine/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>42</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/12/GettyImages-1327354395-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/12/GettyImages-1327354395-500x500.jpg" width="500"/>
-</media:content>
-      </item>
-          <item>
-        <title>Errant reference in macOS 15.2 seems to confirm M4 MacBook Airs for 2025</title>
-        <link>https://arstechnica.com/gadgets/2024/12/errant-reference-in-macos-15-2-seems-to-confirm-m4-macbook-airs-for-2025/</link>
-                  <comments>https://arstechnica.com/gadgets/2024/12/errant-reference-in-macos-15-2-seems-to-confirm-m4-macbook-airs-for-2025/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Andrew Cunningham]]>
-        </dc:creator>
-        <pubDate>Wed, 11 Dec 2024 22:27:55 +0000</pubDate>
-        		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[apple m4]]></category>
-		<category><![CDATA[MacBook Air]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2024/12/errant-reference-in-macos-15-2-seems-to-confirm-m4-macbook-airs-for-2025/</guid>
-
-                  <description>
-            <![CDATA[Software reference could point to a release sooner rather than later.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>The macOS 15.2 update that was released earlier today came with a handful of new features, plus something unexpected: an apparently accidental reference to the upcoming M4 MacBook Airs. MacRumors <a href="https://www.macrumors.com/2024/12/11/macos-sequoia-15-2-m4-macbook-air-leak/">reports</a> that the "Mac16,12" and "Mac16,13" model identifiers reference 13- and 15-inch models of the M4 Air and that both are coming in 2025.</p>
-<p>That a MacBook Air refresh is planned for next year isn't much of a surprise at this point—in reporting that pretty much nailed the details of the first M4 Macs, Bloomberg's Mark Gurman <a href="https://arstechnica.com/gadgets/2024/10/report-first-wave-of-m4-macs-including-smaller-mac-mini-coming-november-1/">has said</a> that the Air, the Mac Studio, and the Mac Pro are all slated for updates throughout 2025.</p>
-<p>But a reference in the current release of macOS could point to a launch sooner rather than later; the M4 Mac mini was <a href="https://arstechnica.com/gadgets/2024/09/report-big-batch-of-m4-macs-and-cheaper-ipads-on-tap-for-october-apple-event/">referenced in a macOS update</a> in mid-September around a month and a half before it was released. The M3 Airs <a href="https://arstechnica.com/gadgets/2024/03/review-apples-efficient-m3-macbook-airs-are-just-about-as-good-as-laptops-get/">came out in March this year</a>, but Apple has been known to put out new Macs as early as January in recent years.</p><p><a href="https://arstechnica.com/gadgets/2024/12/errant-reference-in-macos-15-2-seems-to-confirm-m4-macbook-airs-for-2025/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2024/12/errant-reference-in-macos-15-2-seems-to-confirm-m4-macbook-airs-for-2025/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>54</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/IMG_1731-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/IMG_1731-500x500-1733954836.jpeg" width="500"/>
-<media:credit>Andrew Cunningham</media:credit><media:text>The 15- and 13-inch M3 MacBook Airs.</media:text></media:content>
       </item>
       </channel>
 </rss>
