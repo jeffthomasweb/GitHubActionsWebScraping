@@ -4,7 +4,7 @@
     <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
     <link>https://arstechnica.com</link>
     <description>All Ars Technica stories</description>
-    <lastBuildDate>Wed, 15 Jan 2025 02:49:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2025 21:01:01 +0000</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>
       hourly    </sy:updatePeriod>
@@ -19,6 +19,363 @@
 	<height>32</height>
 </image> 
       <item>
+        <title>Startup necromancy: Dead Google Apps domains can be compromised by new owners</title>
+        <link>https://arstechnica.com/security/2025/01/startup-necromancy-dead-google-apps-domains-can-be-compromised-by-new-owners/</link>
+                  <comments>https://arstechnica.com/security/2025/01/startup-necromancy-dead-google-apps-domains-can-be-compromised-by-new-owners/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kevin Purdy]]>
+        </dc:creator>
+        <pubDate>Wed, 15 Jan 2025 19:51:08 +0000</pubDate>
+        		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[authentication]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google account]]></category>
+		<category><![CDATA[google workspace]]></category>
+		<category><![CDATA[OAuth]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[slack]]></category>
+		<category><![CDATA[startups]]></category>
+		<category><![CDATA[zoom]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/security/2025/01/startup-necromancy-dead-google-apps-domains-can-be-compromised-by-new-owners/</guid>
+
+                  <description>
+            <![CDATA[Improperly winding down a Google Apps domain can leave logins accessible.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Lots of startups use Google's productivity suite, known as Workspace, to handle email, documents, and other back-office matters. Relatedly, lots of business-minded webapps use Google's OAuth, i.e. "Sign in with Google." It's a low-friction feedback loop—up until the startup fails, the domain goes up for sale, and somebody forgot to close down all the Google stuff.</p>
+<p>Dylan Ayrey, of Truffle Security Co., <a href="https://trufflesecurity.com/blog/millions-at-risk-due-to-google-s-oauth-flaw">suggests in a report</a> that this problem is more serious than anyone, especially Google, is acknowledging. Many startups make the critical mistake of not properly closing their accounts—on both Google and other web-based apps—before letting their domains expire.</p>
+<p>Given the number of people working for tech startups (6 million), the failure rate of said startups (90 percent), their usage of Google Workspaces (50 percent, all by Ayrey's numbers), and the speed at which startups tend to fall apart, there are a lot of Google-auth-connected domains up for sale at any time. That would not be an inherent problem, except that, as Ayrey shows, buying a domain with a still-active Google account can let you re-activate the Google accounts for former employees.</p><p><a href="https://arstechnica.com/security/2025/01/startup-necromancy-dead-google-apps-domains-can-be-compromised-by-new-owners/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/01/startup-necromancy-dead-google-apps-domains-can-be-compromised-by-new-owners/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>11</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/zombie-apps-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/zombie-apps-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Texas defends requiring ID for porn to SCOTUS: “We’ve done this forever”</title>
+        <link>https://arstechnica.com/tech-policy/2025/01/texas-age-verification-law-masks-broader-anti-porn-agenda-lawyer-warns-scotus/</link>
+                  <comments>https://arstechnica.com/tech-policy/2025/01/texas-age-verification-law-masks-broader-anti-porn-agenda-lawyer-warns-scotus/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ashley Belanger]]>
+        </dc:creator>
+        <pubDate>Wed, 15 Jan 2025 19:38:09 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[age verification law]]></category>
+		<category><![CDATA[age-gating]]></category>
+		<category><![CDATA[First Amendment]]></category>
+		<category><![CDATA[free speech rights]]></category>
+		<category><![CDATA[pornography]]></category>
+		<category><![CDATA[privacy online]]></category>
+		<category><![CDATA[SCOTUS]]></category>
+		<category><![CDATA[Supreme Court]]></category>
+		<category><![CDATA[texas]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/01/texas-age-verification-law-masks-broader-anti-porn-agenda-lawyer-warns-scotus/</guid>
+
+                  <description>
+            <![CDATA[SCOTUS likely to find Texas' age-gating of porn unconstitutional, expert says.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p style="font-weight: 400;">On Wednesday, the Supreme Court heard arguments that could determine if a Texas age-gating law preventing kids from accessing pornography online is overly burdensome for adults. A ruling against Texas could put an end to allegedly invasive age-verification laws in nearly 20 states.</p>
+<p style="font-weight: 400;">A decision isn't expected until summer 2025, so it's too soon to say which way the court is leaning.</p>
+<p style="font-weight: 400;">The <a href="https://arstechnica.com/tech-policy/2024/07/supreme-court-will-review-texas-law-requiring-age-verification-on-porn-sites/">question before the court</a> is whether the <a href="https://arstechnica.com/tech-policy/2024/03/texas-can-require-age-verification-on-porn-sites-5th-circuit-judges-rule/">5th Circuit was right</a> to stay a preliminary injunction that had previously been blocking Texas from enforcing the law or whether that decision should be reversed and remanded based on the level of constitutional scrutiny that the 5th Circuit applied.</p><p><a href="https://arstechnica.com/tech-policy/2025/01/texas-age-verification-law-masks-broader-anti-porn-agenda-lawyer-warns-scotus/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/01/texas-age-verification-law-masks-broader-anti-porn-agenda-lawyer-warns-scotus/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>107</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/sctous-texas-peach-with-a-tramp-stamp-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/sctous-texas-peach-with-a-tramp-stamp-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>The trailer for Daredevil: Born Again is here</title>
+        <link>https://arstechnica.com/culture/2025/01/the-trailer-for-daredevil-born-again-is-here/</link>
+                  <comments>https://arstechnica.com/culture/2025/01/the-trailer-for-daredevil-born-again-is-here/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jennifer Ouellette]]>
+        </dc:creator>
+        <pubDate>Wed, 15 Jan 2025 17:23:08 +0000</pubDate>
+        		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[Daredevil: Born Again]]></category>
+		<category><![CDATA[disney plus]]></category>
+		<category><![CDATA[entertainment]]></category>
+		<category><![CDATA[marvel studios]]></category>
+		<category><![CDATA[MCEU]]></category>
+		<category><![CDATA[streaming television]]></category>
+		<category><![CDATA[Trailers]]></category>
+		<category><![CDATA[TV trailers]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/culture/2025/01/the-trailer-for-daredevil-born-again-is-here/</guid>
+
+                  <description>
+            <![CDATA["The city can't be unchecked. Sometimes peace needs to be broken. And chaos must reign."]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/7xALolZzhSM?start=0&amp;wmode=transparent"></div><div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      Charlie Cox's Matt Murdock returns in Marvel's new series <em>Daredevil: Born Again</em>.
+
+          </div>
+  </div>
+</div>
+<p><em>Daredevil</em> is among <a href="https://arstechnica.com/gaming/2018/11/wilson-fisk-is-back-and-better-than-ever-in-season-3-of-daredevil/">my favorite stories</a> in the Netflix <em>Defenders</em> universe—along with <em>Jessica Jones—</em>in large part because Wilson Fisk (aka Kingpin, played to perfection by Vincent D'Onofrio), was such an incredibly complex and even occasionally sympathetic villain in the first and second seasons. I'm far from alone in this assessment, which explains why it was such a blow to fans when <a href="https://arstechnica.com/gaming/2018/11/the-bloodbath-continues-netflix-cancels-daredevil-after-three-seasons/">Netflix canceled</a> the critically acclaimed <em>Daredevil</em> (and the rest of its <em>Defenders</em> series) in 2018, despite the showrunners' plans for a fourth season.</p>
+<p>Charlie Cox's titular vigilante hero has since made a couple of cameos in other Marvel projects, most notably as a one-night stand for Tatiana Maslany's <em>She-Hulk</em> in 2022. That kept hope alive that <em>Daredevil</em> might be revived and/or re-imagined. The hope has paid off because Marvel Studios just released a trailer for the new nine-episode series <a href="https://en.wikipedia.org/wiki/Daredevil:_Born_Again"><em>Daredevil: Born Again</em></a>. And the studio has already confirmed a second season as part of the MCU's <a href="https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe:_Phase_Five">Phase Five</a>.</p>
+<p>D'Onofrio's Fisk (who also appeared in the limited series <em>Echo</em> and <em>Hawkeye</em>) is back, of course. Per the official premise: "Murdock, a blind lawyer with heightened abilities, is fighting for justice through his bustling law firm, while former mob boss Wilson Fisk pursues his own political endeavors in New York. When their past identities begin to emerge, both men find themselves on an inevitable collision course."</p><p><a href="https://arstechnica.com/culture/2025/01/the-trailer-for-daredevil-born-again-is-here/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2025/01/the-trailer-for-daredevil-born-again-is-here/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>63</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/devilTOP-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/devilTOP-500x500.jpg" width="500"/>
+<media:credit>Marvel Studios</media:credit></media:content>
+      </item>
+          <item>
+        <title>Firm developing a fully reusable rocket raises a quarter of a billion dollars</title>
+        <link>https://arstechnica.com/space/2025/01/stoke-space-raises-a-ton-of-money-as-it-moves-closer-to-debut-launch/</link>
+                  <comments>https://arstechnica.com/space/2025/01/stoke-space-raises-a-ton-of-money-as-it-moves-closer-to-debut-launch/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Eric Berger]]>
+        </dc:creator>
+        <pubDate>Wed, 15 Jan 2025 16:54:46 +0000</pubDate>
+        		<category><![CDATA[Space]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[stoke space]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/space/2025/01/stoke-space-raises-a-ton-of-money-as-it-moves-closer-to-debut-launch/</guid>
+
+                  <description>
+            <![CDATA["It’s a very different conversation with investors than it was five years ago."]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>A Washington-based launch company <a href="https://www.stokespace.com/stoke-space-announces-260-million-in-new-investment/">announced Wednesday</a> that it has raised $260 million in Series C funding, a significant capital raise at a time when it has become more difficult for some space companies to attract funding.</p>
+<p>"The market is tough, but I think what we’re doing is poised to go straight to the end state of the industry, and I think investors recognize that," said Andy Lapsa, Stoke Space's co-founder and chief executive officer, in an interview with Ars after the announcement.</p>
+<p>By "end state of the industry," Lapsa means that Stoke is developing a fully reusable medium-lift rocket named Nova. The vehicle's first stage will land vertically, similarly to a Falcon 9 rocket, and the second stage, which has a novel metallic heat shield and engine design, will also land back on Earth.</p><p><a href="https://arstechnica.com/space/2025/01/stoke-space-raises-a-ton-of-money-as-it-moves-closer-to-debut-launch/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/01/stoke-space-raises-a-ton-of-money-as-it-moves-closer-to-debut-launch/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>42</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/stoke-engine-test-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/stoke-engine-test-500x500.jpg" width="500"/>
+<media:credit>Stoke Space</media:credit><media:text>Stoke Space fires up the second version of its main engine in December 2024.</media:text></media:content>
+      </item>
+          <item>
+        <title>This PDF contains a playable copy of Doom</title>
+        <link>https://arstechnica.com/gaming/2025/01/this-pdf-contains-a-playable-copy-of-doom/</link>
+                  <comments>https://arstechnica.com/gaming/2025/01/this-pdf-contains-a-playable-copy-of-doom/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kyle Orland]]>
+        </dc:creator>
+        <pubDate>Wed, 15 Jan 2025 16:45:09 +0000</pubDate>
+        		<category><![CDATA[Gaming]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gaming/2025/01/this-pdf-contains-a-playable-copy-of-doom/</guid>
+
+                  <description>
+            <![CDATA[Adobe Acrobat's little-used JavaScript support gets exploited in Chromium browsers.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Here at Ars, we're suckers for stories about hackers getting <em>Doom</em> running on everything from <a href="https://arstechnica.com/gaming/2025/01/someone-made-a-captcha-where-you-play-doom-on-nightmare-difficulty/">CAPTCHA robot checks</a> and <a href="https://arstechnica.com/gaming/2022/10/how-to-get-doom-running-in-windows-notepad-exe/">Windows' notepad.exe</a> to <a href="https://arstechnica.com/information-technology/2024/08/new-ai-model-can-hallucinate-a-game-of-1993s-doom-in-real-time/">AI hallucinations</a> and <a href="https://arstechnica.com/gaming/2024/01/can-it-run-doom-gut-bacteria-edition/">fluorescing gut bacteria</a>. Despite all that experience, we were still thrown for a loop by a recent demonstration of <a href="https://doompdf.pages.dev/doom.pdf"><em>Doom</em> running in the usually static confines of a PDF file</a>.</p>
+<p>On <a href="https://github.com/ading2210/doompdf">the Github page for the quixotic project</a>, coder ading2210 discusses how Adobe Acrobat included some robust support for JavaScript in the PDF file format. That JS coding support—which <a href="https://web.archive.org/web/20121002164234/http://partners.adobe.com/public/developer/en/acrobat/sdk/AcroJSGuide.pdf">dates back decades</a> and is <a href="https://opensource.adobe.com/dc-acrobat-sdk-docs/library/jsapiref/JS_API_AcroJS.html">still fully documented</a> in Adobe's official PDF specs—is currently implemented in a more limited, more secure form as part of <a href="https://pdfium.googlesource.com/pdfium/+/HEAD/README.md">PDFium</a>, the built-in PDF-rendering engine of Chromium-based browsers.</p>
+<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/g6ygXHmtHzs?start=0&amp;wmode=transparent"></div></div>
+<p>In the past, hackers have used this little-known Adobe feature to code simple games like <a href="https://www.youtube.com/watch?v=6rbJu10Telc"><em>Breakout</em></a> and <a href="https://github.com/ThomasRinsma/pdftris"><em>Tetris</em></a> into PDF documents. But ading220 went further, recompiling <a href="https://github.com/ozkl/doomgeneric">a streamlined fork</a> of <a href="https://github.com/id-Software"><em>Doom</em>'s open source code</a> using an old version of <a href="https://emscripten.org/">Emscripten</a> that outputs optimized <a href="http://asmjs.org/">asm.js</a> code.</p><p><a href="https://arstechnica.com/gaming/2025/01/this-pdf-contains-a-playable-copy-of-doom/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2025/01/this-pdf-contains-a-playable-copy-of-doom/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>38</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/doompdf-1152x648-1736959494.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/doompdf-500x500-1736959486.png" width="500"/>
+<media:credit>Ading2210</media:credit><media:text>Have you ever fired a BFG in a PDF?</media:text></media:content>
+      </item>
+          <item>
+        <title>Tire simulation is so good it’s replacing real-world testing</title>
+        <link>https://arstechnica.com/cars/2025/01/tire-simulation-is-so-good-its-replacing-real-world-testing/</link>
+                  <comments>https://arstechnica.com/cars/2025/01/tire-simulation-is-so-good-its-replacing-real-world-testing/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jonathan M. Gitlin]]>
+        </dc:creator>
+        <pubDate>Wed, 15 Jan 2025 16:23:27 +0000</pubDate>
+        		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[goodyear]]></category>
+		<category><![CDATA[tire]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/cars/2025/01/tire-simulation-is-so-good-its-replacing-real-world-testing/</guid>
+
+                  <description>
+            <![CDATA[It can now try out new tires in a dynamic sim before making physical test tires.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Tires might be one of the more prosaic parts of a car, but they are undoubtedly among the most important. Bench racers might obsess about powertrain specs, and average consumers mostly <a href="https://arstechnica.com/cars/2024/08/from-rain-sensors-to-wireless-charging-the-10-tech-features-car-buyers-want/">want to know that there's wireless charging for their phones</a>, but it's the tires that actually make contact with the road. Without them, no one is going anywhere. At least not very far.</p>
+<p>In the past, tires have been considered somewhat mysterious, with secret blends of rubber, carbon, and other stuff combined with clever arrangements of belts and wires to hold the whole thing together as it rotates faster and faster without flying apart. These days, we know an awful lot about how tires work. Or at least tire companies like Goodyear do, having amassed enough testing data to be able to simulate them accurately enough to shave months off a development schedule.</p>
+<p>In fact, the use of simulation in tire research and development has quite a long history. Chris Helsel, who is now Goodyear's CTO, joined the company back in 1996; he was hired as part of a tiny team doing computer tire simulation. "At Goodyear in '96, it felt like almost late to the party in terms of doing what we call finite element analysis, which is basically breaking a large structure down into little parts," Helsel said.</p><p><a href="https://arstechnica.com/cars/2025/01/tire-simulation-is-so-good-its-replacing-real-world-testing/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/01/tire-simulation-is-so-good-its-replacing-real-world-testing/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>56</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/Dynamic_Simulator_01262021-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/Dynamic_Simulator_01262021-500x500.jpg" width="500"/>
+<media:credit>Goodyear</media:credit><media:text>Goodyear has a pair of these dynamic driving simulators, one in Ohio, the other in Luxembourg.</media:text></media:content>
+      </item>
+          <item>
+        <title>SEC sues Elon Musk, says he cheated Twitter investors out of $150 million</title>
+        <link>https://arstechnica.com/tech-policy/2025/01/sec-sues-elon-musk-says-he-cheated-twitter-investors-out-of-150-million/</link>
+                  <comments>https://arstechnica.com/tech-policy/2025/01/sec-sues-elon-musk-says-he-cheated-twitter-investors-out-of-150-million/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jon Brodkin]]>
+        </dc:creator>
+        <pubDate>Wed, 15 Jan 2025 16:10:22 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[sec elon musk]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/01/sec-sues-elon-musk-says-he-cheated-twitter-investors-out-of-150-million/</guid>
+
+                  <description>
+            <![CDATA[SEC: Late disclosure helped Musk buy Twitter shares at $150 million discount.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>The Securities and Exchange Commission sued Elon Musk yesterday over his late disclosure of a Twitter stock purchase in early 2022. Before Musk bought the whole company, he purchased a 9 percent stake in Twitter and failed to disclose it within 10 days as required under US law.</p>
+<p>"Defendant Elon Musk failed to timely file with the SEC a beneficial ownership report disclosing his acquisition of more than five percent of the outstanding shares of Twitter's common stock in March 2022, in violation of the federal securities laws," said the <a href="https://storage.courtlistener.com/recap/gov.uscourts.dcd.276446/gov.uscourts.dcd.276446.1.0.pdf">SEC lawsuit</a> in US District Court for the District of Columbia. "As a result, Musk was able to continue purchasing shares at artificially low prices, allowing him to underpay by at least $150 million for shares he purchased after his beneficial ownership report was due."</p>
+<p>Twitter's stock price rose 27 percent once Musk belatedly disclosed his stake, the lawsuit said. "During the period that Musk was required to publicly disclose his beneficial ownership but had failed to do so, he spent more than $500 million purchasing additional shares of Twitter common stock," it said.</p><p><a href="https://arstechnica.com/tech-policy/2025/01/sec-sues-elon-musk-says-he-cheated-twitter-investors-out-of-150-million/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/01/sec-sues-elon-musk-says-he-cheated-twitter-investors-out-of-150-million/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>101</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/04/elon-musk-satellite-conference-1152x648-1736956950.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/04/elon-musk-satellite-conference-500x500-1736956942.jpg" width="500"/>
+<media:credit>Getty Images | Win McNamee </media:credit><media:text>Elon Musk speaks at the Satellite Conference and Exhibition on March 9, 2020 in Washington, DC.</media:text></media:content>
+      </item>
+          <item>
+        <title>Researchers use AI to design proteins that block snake venom toxins</title>
+        <link>https://arstechnica.com/science/2025/01/researchers-use-ai-to-design-proteins-that-block-snake-venom-toxins/</link>
+                  <comments>https://arstechnica.com/science/2025/01/researchers-use-ai-to-design-proteins-that-block-snake-venom-toxins/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[John Timmer]]>
+        </dc:creator>
+        <pubDate>Wed, 15 Jan 2025 16:00:14 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[anti-toxin]]></category>
+		<category><![CDATA[biochemistry]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[protein design]]></category>
+		<category><![CDATA[snakes]]></category>
+		<category><![CDATA[venom]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2025/01/researchers-use-ai-to-design-proteins-that-block-snake-venom-toxins/</guid>
+
+                  <description>
+            <![CDATA[It's a good example of how computer developments can be used for practical problems. ]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>It has been a few years since AI began successfully tackling the challenge of predicting the three-dimensional structure of proteins, complex molecules that are essential for all life. <a href="https://arstechnica.com/science/2024/05/deepmind-adds-a-diffusion-engine-to-latest-protein-folding-software/">Next-generation tools</a> are now available, and the <a href="https://arstechnica.com/science/2024/10/protein-structure-and-design-software-gets-the-chemistry-nobel/">Nobel Prizes have been handed out</a>. But people not involved in biology can be forgiven for asking whether any of it can actually make a difference.</p>
+<p>A nice example of how the tools can be put to use is being released in Nature on Wednesday. A team that includes the University of Washington's David Baker, who picked up his Nobel in Stockholm last month, used software tools to design completely new proteins that are able to inhibit some of the toxins in snake venom. While not entirely successful, the work shows how the new software tools can let researchers tackle challenges that would otherwise be difficult or impossible.</p>
+<h2>Blocking venom</h2>
+<p>Snake venom includes a complicated mix of toxins, most of them proteins, that engage in a multi-front assault on anything unfortunate enough to get bitten. Right now, the primary treatment is to use a mix of antibodies that bind to these toxins, produced by injecting sub-lethal amounts of venom proteins into animals. But antivenon treatments tend to require refrigeration, and even then, they have a short shelf life. Ensuring a steady supply also means regularly injecting new animals and purifying more antibodies from them.</p><p><a href="https://arstechnica.com/science/2025/01/researchers-use-ai-to-design-proteins-that-block-snake-venom-toxins/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/01/researchers-use-ai-to-design-proteins-that-block-snake-venom-toxins/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>26</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-522204440-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-522204440-500x500.jpg" width="500"/>
+<media:credit>Paul Starosta</media:credit><media:text>Elapidae.</media:text></media:content>
+      </item>
+          <item>
+        <title>Meta takes us a step closer to Star Trek’s universal translator</title>
+        <link>https://arstechnica.com/science/2025/01/meta-takes-us-a-step-closer-to-star-treks-universal-translator/</link>
+                  <comments>https://arstechnica.com/science/2025/01/meta-takes-us-a-step-closer-to-star-treks-universal-translator/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jacek Krywko]]>
+        </dc:creator>
+        <pubDate>Wed, 15 Jan 2025 16:00:10 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[human speech]]></category>
+		<category><![CDATA[text processing]]></category>
+		<category><![CDATA[translation]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2025/01/meta-takes-us-a-step-closer-to-star-treks-universal-translator/</guid>
+
+                  <description>
+            <![CDATA[The computer science behind translating speech from 100 source languages.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>In 2023, AI researchers at Meta interviewed 34 native Spanish and Mandarin speakers who lived in the US but didn’t speak English. The goal was to find out what people who constantly rely on translation in their day-to-day activities expect from an AI translation tool. What those participants wanted was basically a Star Trek universal translator or the Babel Fish from the <em>Hitchhiker’s Guide to the Galaxy</em>: an AI that could not only translate speech to speech in real time across multiple languages, but also preserve their voice, tone, mannerisms, and emotions. So, Meta assembled a team of over 50 people and got busy building it.</p>
+<p>What this team came up with was a next-gen translation system called Seamless. The first building block of this system is described in Wednesday’s issue of Nature; it can translate speech among 36 different languages.</p>
+<h2>Language data problems</h2>
+<p>AI translation systems today are mostly focused on text, because huge amounts of text are available in a wide range of languages thanks to digitization and the Internet. Institutions like the United Nations or European Parliament routinely translate all their proceedings into the languages of all their member states, which means there are enormous databases comprising aligned documents prepared by professional human translators. You just needed to feed those huge, aligned text corpora into neural nets (or hidden Markov models before neural nets became all the rage) and you ended up with a reasonably good machine translation system. But there were two problems with that.</p><p><a href="https://arstechnica.com/science/2025/01/meta-takes-us-a-step-closer-to-star-treks-universal-translator/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/01/meta-takes-us-a-step-closer-to-star-treks-universal-translator/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>52</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-1341773965-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-1341773965-500x500.jpg" width="500"/>
+<media:credit>Liao Pan/China News Service via Getty Images</media:credit><media:text>Interpreters work during the 76th Session of the United Nations General Assembly on September 21, 2021 in New York, United States.</media:text></media:content>
+      </item>
+          <item>
+        <title>Is humanity alone in the Universe? What scientists really think.</title>
+        <link>https://arstechnica.com/science/2025/01/is-humanity-alone-in-the-universe-what-scientists-really-think/</link>
+                  <comments>https://arstechnica.com/science/2025/01/is-humanity-alone-in-the-universe-what-scientists-really-think/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Peter Vickers, Henry Taylor, and Sean McMahon, The Conversation]]>
+        </dc:creator>
+        <pubDate>Wed, 15 Jan 2025 15:44:18 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[syndication]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2025/01/is-humanity-alone-in-the-universe-what-scientists-really-think/</guid>
+
+                  <description>
+            <![CDATA[Are scientists speculating, or is there a scientific consensus here?]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>News stories about the likely existence of extraterrestrial life, and our chances of detecting it, tend to be positive. We are often told that we might discover it any time now. Finding life beyond Earth is <a href="https://www.bbc.co.uk/news/science-environment-66950930">“only a matter of time,”</a> we were told in September 2023. “<a href="https://www.space.com/seti-nathalie-cabrol-the-secret-life-of-the-universe">We are close</a>” was a headline from September 2024.</p>
+<p>It’s easy to see why. Headlines such as “We’re probably not close” or “Nobody knows” aren’t very clickable. But what does the relevant community of experts actually think when considered as a whole? Are optimistic predictions common or rare? Is there even a consensus? In our new paper, <a href="https://www.nature.com/articles/s41550-024-02451-0">published in Nature Astronomy</a>, we’ve found out.</p>
+<p>During February to June 2024, we carried out four surveys regarding the likely existence of basic, complex, and intelligent extraterrestrial life. We sent emails to astrobiologists (scientists who study extraterrestrial life), as well as to scientists in other areas, including biologists and physicists.</p><p><a href="https://arstechnica.com/science/2025/01/is-humanity-alone-in-the-universe-what-scientists-really-think/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/01/is-humanity-alone-in-the-universe-what-scientists-really-think/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>163</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/alien-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/alien-500x500.jpg" width="500"/>
+<media:credit>ALLVISIONN</media:credit></media:content>
+      </item>
+          <item>
         <title>There was a straight shot from Earth to the Moon and Mars last night</title>
         <link>https://arstechnica.com/space/2025/01/there-was-a-straight-shot-from-earth-to-the-moon-and-mars-last-night/</link>
                   <comments>https://arstechnica.com/space/2025/01/there-was-a-straight-shot-from-earth-to-the-moon-and-mars-last-night/#comments</comments>
@@ -46,7 +403,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>17</slash:comments>
+                  <slash:comments>44</slash:comments>
         
         
         <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/lunar_occultation_mars_20250113-1.jpg">
@@ -74,12 +431,12 @@
                                 <content:encoded>
               <![CDATA[<p>The FBI <a href="https://www.justice.gov/opa/pr/justice-department-and-fbi-conduct-international-operation-delete-malware-used-china-backed">said today</a> that it removed Chinese malware from 4,258 US-based computers and networks by sending commands that forced the malware to use its "self-delete" function.</p>
 <p>The People's Republic of China (PRC) government paid the Mustang Panda group to develop a version of PlugX malware used to infect, control, and steal information from victim computers, the FBI said. "Since at least 2014, Mustang Panda hackers then infiltrated thousands of computer systems in campaigns targeting US victims, as well as European and Asian governments and businesses, and Chinese dissident groups," the FBI said.</p>
-<p>The malware has been <a href="https://www.cisa.gov/news-events/alerts/2017/04/27/intrusions-affecting-multiple-victims-across-multiple-sectors">known for years</a> but many Windows computers were still infected while their owners were unaware. The FBI learned of a method to remotely remove the malware from a French law enforcement agency, which had gained access to a command-and-control server that could send commands to infected computers.</p><p><a href="https://arstechnica.com/tech-policy/2025/01/fbi-forces-chinese-malware-to-delete-itself-from-thousands-of-us-computers/">Read full article</a></p>
+<p>The malware has been <a href="https://www.cisa.gov/news-events/alerts/2017/04/27/intrusions-affecting-multiple-victims-across-multiple-sectors">known for years</a>, but many Windows computers were still infected while their owners were unaware. The FBI learned of a method to remotely remove the malware from a French law enforcement agency, which had gained access to a command-and-control server that could send commands to infected computers.</p><p><a href="https://arstechnica.com/tech-policy/2025/01/fbi-forces-chinese-malware-to-delete-itself-from-thousands-of-us-computers/">Read full article</a></p>
 <p><a href="https://arstechnica.com/tech-policy/2025/01/fbi-forces-chinese-malware-to-delete-itself-from-thousands-of-us-computers/#comments">Comments</a></p>
 ]]>
             </content:encoded>
                   
-                  <slash:comments>24</slash:comments>
+                  <slash:comments>48</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/08/getty-security-privacy-1152x648-1736892649.jpg" width="1152">
@@ -105,7 +462,7 @@
             <![CDATA[Sonos won't replace Maxime Bouvat-Merlin in "redundant" role. ]]>
           </description>
                                 <content:encoded>
-              <![CDATA[<p>A day after announcing that <a href="https://arstechnica.com/gadgets/2025/01/sonos-ceo-behind-disastrous-app-exits-with-1-9-million-severance/">CEO Patrick Spence is departing</a> the company, Sonos revealed that chief product officer Maxime Bouvat-Merlin is also leaving. Bouvat-Merlin had the role since 2023.</p>
+              <![CDATA[<p>A day after announcing that <a href="https://arstechnica.com/gadgets/2025/01/sonos-ceo-behind-disastrous-app-exits-with-1-9-million-severance/">CEO Patrick Spence is departing</a> the company, Sonos revealed that Chief Product Officer Maxime Bouvat-Merlin is also leaving. Bouvat-Merlin has been CPO since 2023.</p>
 <p>As first reported by <a href="https://www.bloomberg.com/news/articles/2025-01-14/sonos-chief-product-officer-to-leave-interim-ceo-to-take-role">Bloomberg</a>, Sonos will not fill the chief product officer role. Instead, Tom Conrad, the interim CEO Sonos announced yesterday, will take on the role's responsibilities. In an email to staff cited by Bloomberg (you can read the letter in its entirety at <a href="https://www.theverge.com/2025/1/14/24343873/sonos-product-officer-maxime-bouvat-merlin-leaving">The Verge</a>), Conrad explained:</p>
 <blockquote><p>With my stepping in as CEO, the board, Max, and I have agreed that my background makes the chief product officer role redundant. Therefore, Max’s role is being eliminated and the product organization will report directly to me. I’ve asked Max to advise me over the next period to ensure a smooth transition and I am grateful that he’s agreed to do that.</p></blockquote>
 <p>In May, Sonos released an update to its app that led to customers, many of them long-time users, revolting over broken features, like accessibility capabilities and the ability to set timers. Sonos expects that remedying the app and Sonos' reputation will cost it at least <a href="https://arstechnica.com/gadgets/2024/08/app-redesign-blowback-will-cost-sonos-up-to-30-million-ceo-says/">$20 million to $30 million. </a></p><p><a href="https://arstechnica.com/gadgets/2025/01/sonos-ousts-executive-blamed-for-rushing-botched-app-update/">Read full article</a></p>
@@ -113,7 +470,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>37</slash:comments>
+                  <slash:comments>102</slash:comments>
         
         
         <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/08/06b240eb-6426-4160-8cea-d9fec64c224f_thumb.jpg">
@@ -155,7 +512,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>45</slash:comments>
+                  <slash:comments>106</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2126120280-1152x648.jpg" width="1152">
@@ -190,7 +547,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>13</slash:comments>
+                  <slash:comments>22</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/openai_canvas_logo-1152x648.jpg" width="1152">
@@ -231,7 +588,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>154</slash:comments>
+                  <slash:comments>230</slash:comments>
         
         
         <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2015/06/satya-nadella-casual.jpg">
@@ -269,7 +626,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>158</slash:comments>
+                  <slash:comments>209</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2173579471-1024x648.jpg" width="1024">
@@ -301,7 +658,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>68</slash:comments>
+                  <slash:comments>93</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/razer-zephyr-mask-1152x648-1736879525.jpg" width="1152">
@@ -332,7 +689,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>49</slash:comments>
+                  <slash:comments>76</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2139560614-1152x648.jpg" width="1152">
@@ -366,373 +723,12 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>8</slash:comments>
+                  <slash:comments>12</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/buggy4-1152x648-1736870382.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/buggy4-500x500-1736870370.jpg" width="500"/>
 <media:credit>National Geographic/Darlyne A. Murawski</media:credit><media:text>A female giant stag beetle</media:text></media:content>
-      </item>
-          <item>
-        <title>Parallels can finally run x86 versions of Windows or Linux on Apple Silicon</title>
-        <link>https://arstechnica.com/gadgets/2025/01/parallels-desktop-gains-really-slow-support-for-x86-oses-on-apple-silicon/</link>
-                  <comments>https://arstechnica.com/gadgets/2025/01/parallels-desktop-gains-really-slow-support-for-x86-oses-on-apple-silicon/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Andrew Cunningham]]>
-        </dc:creator>
-        <pubDate>Tue, 14 Jan 2025 17:34:40 +0000</pubDate>
-        		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Apple silicon]]></category>
-		<category><![CDATA[ARM]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[parallels]]></category>
-		<category><![CDATA[Windows]]></category>
-		<category><![CDATA[x86]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/01/parallels-desktop-gains-really-slow-support-for-x86-oses-on-apple-silicon/</guid>
-
-                  <description>
-            <![CDATA["Early technology preview" is promising but has lots of limitations for now.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Virtualization software like Parallels and <a href="https://arstechnica.com/gadgets/2024/05/vmware-fusion-workstation-now-free-for-home-use-subscription-only-for-businesses/">VMware Fusion</a> give Mac owners the ability to run Windows and Linux on top of macOS, but for Apple Silicon Macs, that support was limited to the Arm-based versions of those operating systems. And while Windows and Linux both support some level of x86-to-Arm app translation that attempts to maintain compatibility with most software, there are still plenty of things that demand an Intel or AMD processor with the x86 instruction set.</p>
-<p>Last week, Parallels <a href="https://www.parallels.com/blogs/parallels-desktop-20-2-0/">released a new update</a> that partially resolves this problem: Users of Parallels Desktop Pro 20.2.0 now have access to x86 operating systems via an "early technology preview" of Parallels' "proprietary emulation engine."</p>
-<p>The technology preview is currently limited to certain 64-bit versions of Windows 10, Windows 11, and Windows Server 2019 and 2022. Parallels also says it has tested several UEFI-compatible Linux distributions, including Ubuntu 22.04.5, Kubuntu 24.04.1, Lubuntu 24.04.1, and Debian versions 12.4 to 12.8. Fedora will install, but it's unstable. 32-bit versions of operating systems, as well as older versions of Windows like Windows 7 or 8, aren't supported.</p><p><a href="https://arstechnica.com/gadgets/2025/01/parallels-desktop-gains-really-slow-support-for-x86-oses-on-apple-silicon/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/01/parallels-desktop-gains-really-slow-support-for-x86-oses-on-apple-silicon/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>48</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/02/parallels-macbook-1152x648-1736872988.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/02/parallels-macbook-500x500.jpg" width="500"/>
-<media:credit>Parallels</media:credit></media:content>
-      </item>
-          <item>
-        <title>Elon Musk could be China’s pick to buy TikTok, report says</title>
-        <link>https://arstechnica.com/tech-policy/2025/01/elon-musk-could-be-chinas-pick-to-buy-tiktok-report-says/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/01/elon-musk-could-be-chinas-pick-to-buy-tiktok-report-says/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ashley Belanger]]>
-        </dc:creator>
-        <pubDate>Tue, 14 Jan 2025 17:17:55 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[china]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[Facebook]]></category>
-		<category><![CDATA[Instagram]]></category>
-		<category><![CDATA[lemon8]]></category>
-		<category><![CDATA[national security]]></category>
-		<category><![CDATA[red note]]></category>
-		<category><![CDATA[social media]]></category>
-		<category><![CDATA[tiktok]]></category>
-		<category><![CDATA[TikTok ban]]></category>
-		<category><![CDATA[Twitter]]></category>
-		<category><![CDATA[X]]></category>
-		<category><![CDATA[YouTube]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/01/elon-musk-could-be-chinas-pick-to-buy-tiktok-report-says/</guid>
-
-                  <description>
-            <![CDATA[TikTok data could fuel xAI, the thinking goes.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Chinese officials have reportedly discussed selling TikTok's US operations to Elon Musk as the threat of a US ban looms.</p>
-<p><span style="box-sizing: border-box; margin: 0px; padding: 0px;">Sources "familiar with the matter" <a href="https://www.bloomberg.com/news/articles/2025-01-14/china-discusses-sale-of-tiktok-us-to-musk-as-one-possible-option" target="_blank" rel="noopener">told Bloomberg</a> that Chinese officials would "strongly prefer" that ByteDance remain in control of TikTok US, but if TikTok's bid to get the Supreme Court to block the ban fails, ByteDance wants to be prepared with "contingency plans."</span></p>
-<p>One of those supposed contingency plans would apparently see Musk operating TikTok as part of X (formerly Twitter) operations. Under that scenario, Musk's X would control TikTok US, sources said, and thus gain access to a massive trove of TikTok data that the US has alleged poses a grave national security risk if left under a Chinese-owned company's control.</p><p><a href="https://arstechnica.com/tech-policy/2025/01/elon-musk-could-be-chinas-pick-to-buy-tiktok-report-says/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/01/elon-musk-could-be-chinas-pick-to-buy-tiktok-report-says/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>148</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2186215783-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2186215783-500x500.jpg" width="500"/>
-<media:credit>The Washington Post / Contributor | The Washington Post</media:credit></media:content>
-      </item>
-          <item>
-        <title>Lawsuit: Allstate used GasBuddy and other apps to quietly track driving behavior</title>
-        <link>https://arstechnica.com/gadgets/2025/01/allstate-sued-for-allegedly-tracking-drivers-behavior-through-third-party-apps/</link>
-                  <comments>https://arstechnica.com/gadgets/2025/01/allstate-sued-for-allegedly-tracking-drivers-behavior-through-third-party-apps/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kevin Purdy]]>
-        </dc:creator>
-        <pubDate>Tue, 14 Jan 2025 16:21:43 +0000</pubDate>
-        		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Allstate]]></category>
-		<category><![CDATA[App Tracking]]></category>
-		<category><![CDATA[Car Insurance]]></category>
-		<category><![CDATA[insurance]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/01/allstate-sued-for-allegedly-tracking-drivers-behavior-through-third-party-apps/</guid>
-
-                  <description>
-            <![CDATA[With connected cars and revenue-hungry apps, insurers are flush with data.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Texas has sued insurance provider Allstate, alleging that the firm and its data broker subsidiary used data from apps like GasBuddy, Routely, and Life360 to quietly track drivers and adjust or cancel their policies.</p>
-<p>Allstate and Arity, a "mobility data and analytics" firm founded by Allstate in 2016, collected "trillions of miles worth of location data" from more than 45 million people, then used that data to adjust rates, according to Texas' lawsuit. This violates Texas' Data Privacy and Security Act, which requires "clear notice and informed consent" on how collected data can be used. A statement from Texas Attorney General Ken Paxton said the suit is the first-ever state action targeting comprehensive data privacy violations.</p>
-<p>“Our investigation revealed that Allstate and Arity paid mobile apps millions of dollars to install Allstate’s tracking software,” Paxton said in a statement. “The personal data of millions of Americans was sold to insurance companies without their knowledge or consent in violation of the law. Texans deserve better, and we will hold all these companies accountable.”</p><p><a href="https://arstechnica.com/gadgets/2025/01/allstate-sued-for-allegedly-tracking-drivers-behavior-through-third-party-apps/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/01/allstate-sued-for-allegedly-tracking-drivers-behavior-through-third-party-apps/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>137</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-1225961153-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-1225961153-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>If you're driving like this and you have certain apps installed, you might be due for a surprise (somewhere between zero and six months from now).</media:text></media:content>
-      </item>
-          <item>
-        <title>A NASA astronaut may have just taken the best photo from space—ever</title>
-        <link>https://arstechnica.com/space/2025/01/a-nasa-astronaut-may-have-just-taken-the-best-photo-from-space-ever/</link>
-                  <comments>https://arstechnica.com/space/2025/01/a-nasa-astronaut-may-have-just-taken-the-best-photo-from-space-ever/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Eric Berger]]>
-        </dc:creator>
-        <pubDate>Tue, 14 Jan 2025 15:46:12 +0000</pubDate>
-        		<category><![CDATA[Space]]></category>
-		<category><![CDATA[astrophotography]]></category>
-		<category><![CDATA[don pettit]]></category>
-		<category><![CDATA[space]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2025/01/a-nasa-astronaut-may-have-just-taken-the-best-photo-from-space-ever/</guid>
-
-                  <description>
-            <![CDATA[During his third stay in orbit, Pettit is absolutely killing it.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>People who appreciate good astrophotography will no doubt be familiar with the work of Don Pettit, a veteran NASA astronaut who is closing in on having lived 500 days of his life in space.</p>
-<p>Pettit is now in the midst of his third stint on the International Space Station, and the decade he had to prepare for his current stay in orbit was put to good use. Accordingly, he is well stocked on cameras, lenses, and plans to make the most of six months in space to observe the planets and heavens from an incredible vantage point.</p>
-<p>Ars has previously <a href="https://arstechnica.com/space/2024/10/nasa-astronaut-don-pettit-is-a-giant-nerd-and-were-all-luckier-for-it/">written admiringly</a> of Pettit's work, but his latest image deserves additional mention. When I first saw it, I was dazzled by its beauty. But when I looked further into the image, there were just so many amazing details to be found.</p><p><a href="https://arstechnica.com/space/2025/01/a-nasa-astronaut-may-have-just-taken-the-best-photo-from-space-ever/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/01/a-nasa-astronaut-may-have-just-taken-the-best-photo-from-space-ever/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>84</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/pettit-nasa-950x648.jpg" width="950">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/pettit-nasa-500x500.jpg" width="500"/>
-<media:credit>Don Pettit/NASA</media:credit><media:text>An image of the Earth, with cities streaking by below, captured earlier this month by NASA Astronaut Don Pettit.</media:text></media:content>
-      </item>
-          <item>
-        <title>Amazon must solve hallucination problem before launching AI-enabled Alexa</title>
-        <link>https://arstechnica.com/ai/2025/01/amazon-must-solve-hallucination-problem-before-launching-ai-enabled-alexa/</link>
-                  <comments>https://arstechnica.com/ai/2025/01/amazon-must-solve-hallucination-problem-before-launching-ai-enabled-alexa/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Madhumita Murgia and Camilla Hodgson, Financial Times]]>
-        </dc:creator>
-        <pubDate>Tue, 14 Jan 2025 14:18:02 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[alexa]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[generative ai]]></category>
-		<category><![CDATA[hallucinations]]></category>
-		<category><![CDATA[LLM]]></category>
-		<category><![CDATA[syndication]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/ai/2025/01/amazon-must-solve-hallucination-problem-before-launching-ai-enabled-alexa/</guid>
-
-                  <description>
-            <![CDATA[Rollout of upgraded voice assistant hit by delays.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Amazon is gearing up to relaunch its Alexa voice-powered digital assistant as an artificial intelligence “agent” that can complete practical tasks, as the tech group races to resolve the challenges that have dogged the system’s AI overhaul.</p>
-<p>The $2.4 trillion company has for the past two years sought to redesign Alexa, its conversational system embedded within 500 million consumer devices worldwide, so the software’s “brain” is transplanted with generative AI.</p>
-<p>Rohit Prasad, who leads the artificial general intelligence (AGI) team at Amazon, told the Financial Times the voice assistant still needed to surmount several technical hurdles before the rollout.</p><p><a href="https://arstechnica.com/ai/2025/01/amazon-must-solve-hallucination-problem-before-launching-ai-enabled-alexa/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/01/amazon-must-solve-hallucination-problem-before-launching-ai-enabled-alexa/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>102</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/03/amazon-alexa-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/03/amazon-alexa-500x500.jpg" width="500"/>
-<media:credit>Anadolu via Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>SpaceX is superb at reusing boosters, but how about building upper stages?</title>
-        <link>https://arstechnica.com/space/2025/01/spacex-is-superb-at-reusing-boosters-but-how-about-building-upper-stages/</link>
-                  <comments>https://arstechnica.com/space/2025/01/spacex-is-superb-at-reusing-boosters-but-how-about-building-upper-stages/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Stephen Clark]]>
-        </dc:creator>
-        <pubDate>Tue, 14 Jan 2025 12:20:23 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[falcon 9]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[reusability]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[starlink]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2025/01/spacex-is-superb-at-reusing-boosters-but-how-about-building-upper-stages/</guid>
-
-                  <description>
-            <![CDATA[SpaceX has launched one of its Falcon 9 boosters for a record-breaking 25th time.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>On any given day, SpaceX is probably launching a Falcon 9 rocket, rolling one out to the launch pad or bringing one back into port. With three active Falcon 9 launch pads and an increasing cadence at the Starbase facility in Texas, SpaceX's teams are often doing all three.</p>
-<p>The company achieved another milestone Friday with the 25th successful launch and landing of a single Falcon 9 booster. This rocket, designated B1067, launched a batch of 21 Starlink Internet satellites from Cape Canaveral Space Force Station, Florida.</p>
-<p>The rocket's nine kerosene-fueled Merlin 1D engines powered the 21 Starlink satellites into space, then separated from the Falcon 9's upper stage, which accelerated the payload stack into orbit. The 15-story-tall booster returned to a vertical propulsive landing on one of SpaceX's offshore drone ships in the Atlantic Ocean a few hundred miles downrange from Cape Canaveral.</p><p><a href="https://arstechnica.com/space/2025/01/spacex-is-superb-at-reusing-boosters-but-how-about-building-upper-stages/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/01/spacex-is-superb-at-reusing-boosters-but-how-about-building-upper-stages/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>107</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/b1067-25-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/b1067-25-500x500.jpg" width="500"/>
-<media:credit>SpaceX</media:credit><media:text>Touchdown of SpaceX's most-flown Falcon 9 booster, tail number B1067, on a drone ship after its 25th trip to space.</media:text></media:content>
-      </item>
-          <item>
-        <title>Not just heat death: Here are five ways the Universe could end</title>
-        <link>https://arstechnica.com/science/2025/01/not-just-heat-death-here-are-five-ways-the-universe-could-end/</link>
-                  <comments>https://arstechnica.com/science/2025/01/not-just-heat-death-here-are-five-ways-the-universe-could-end/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Paul Sutter]]>
-        </dc:creator>
-        <pubDate>Tue, 14 Jan 2025 12:00:57 +0000</pubDate>
-        		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Science]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/science/2025/01/not-just-heat-death-here-are-five-ways-the-universe-could-end/</guid>
-
-                  <description>
-            <![CDATA[Need a pick-me-up? Consider these cheery possibilities.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>If you’re having trouble sleeping at night, have you tried to induce total existential dread by contemplating the end of the entire Universe?</p>
-<p>If not, here’s a rundown of five ideas exploring how “all there is” might become “nothing at all.”</p>
-<p>Enjoy.</p><p><a href="https://arstechnica.com/science/2025/01/not-just-heat-death-here-are-five-ways-the-universe-could-end/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/01/not-just-heat-death-here-are-five-ways-the-universe-could-end/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>132</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2170412364-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2170412364-500x500.jpg" width="500"/>
-<media:credit>DrPixel/Getty Images</media:credit><media:text>Last one out, turn off the light.</media:text></media:content>
-      </item>
-          <item>
-        <title>New Glenn to make another launch attempt early Thursday</title>
-        <link>https://arstechnica.com/space/2025/01/blue-origin-plans-second-launch-attempt-of-new-glenn-early-on-tuesday/</link>
-                  <comments>https://arstechnica.com/space/2025/01/blue-origin-plans-second-launch-attempt-of-new-glenn-early-on-tuesday/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Eric Berger]]>
-        </dc:creator>
-        <pubDate>Tue, 14 Jan 2025 01:50:06 +0000</pubDate>
-        		<category><![CDATA[Space]]></category>
-		<category><![CDATA[blue origin]]></category>
-		<category><![CDATA[new glenn]]></category>
-		<category><![CDATA[space]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2025/01/blue-origin-plans-second-launch-attempt-of-new-glenn-early-on-tuesday/</guid>
-
-                  <description>
-            <![CDATA[Weather conditions were not particularly favorable early on Tuesday.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Blue Origin announced late on Monday afternoon that it planned to make a second attempt to launch the New Glenn rocket at 1 am ET (06:00 UTC) on Tuesday. But then, a couple of hours later, <a href="https://x.com/blueorigin/status/1878987377705881992">the company said</a> it would move the launch to Thursday.</p>
-<p>Although the company provided no information about why it was slipping the launch two more days, it likely involved both technical work after an initial launch scrub on Monday morning and concerns about weather early on Tuesday.</p>
-<p>In its short update on Monday afternoon, Blue Origin <a href="https://arstechnica.com/space/2025/01/an-icy-vent-line-may-have-caused-blue-origin-to-scrub-debut-launch-of-new-glenn/">confirmed earlier reporting by Ars</a> that the first launch attempt on Monday morning was scrubbed due to ice buildup on a vent line. "This morning’s scrub was due to ice forming in a purge line on an auxiliary power unit that powers some of our hydraulic systems," the company said.</p><p><a href="https://arstechnica.com/space/2025/01/blue-origin-plans-second-launch-attempt-of-new-glenn-early-on-tuesday/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/01/blue-origin-plans-second-launch-attempt-of-new-glenn-early-on-tuesday/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>69</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/newglenn_lc36-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/newglenn_lc36-500x500.jpg" width="500"/>
-<media:credit>Blue Origin</media:credit><media:text>Blue Origin's New Glenn rocket on the launch pad for testing earlier this year.</media:text></media:content>
-      </item>
-          <item>
-        <title>Biofilms, unwashed hands: FDA found violations at McDonald’s ex-onion supplier</title>
-        <link>https://arstechnica.com/health/2025/01/fda-noted-unsanitary-conditions-unwashed-hands-at-mcdonalds-ex-onion-supplier/</link>
-                  <comments>https://arstechnica.com/health/2025/01/fda-noted-unsanitary-conditions-unwashed-hands-at-mcdonalds-ex-onion-supplier/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Beth Mole]]>
-        </dc:creator>
-        <pubDate>Mon, 13 Jan 2025 23:44:39 +0000</pubDate>
-        		<category><![CDATA[Health]]></category>
-		<category><![CDATA[E. coli]]></category>
-		<category><![CDATA[fda]]></category>
-		<category><![CDATA[food safety]]></category>
-		<category><![CDATA[inspection]]></category>
-		<category><![CDATA[mcdonalds]]></category>
-		<category><![CDATA[onions]]></category>
-		<category><![CDATA[outbreak]]></category>
-		<category><![CDATA[taylor farms]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/health/2025/01/fda-noted-unsanitary-conditions-unwashed-hands-at-mcdonalds-ex-onion-supplier/</guid>
-
-                  <description>
-            <![CDATA[The outbreak sickened at least 104 across 14 states, killing one and hospitalizing 34.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>The onion supplier behind <a href="https://arstechnica.com/health/2024/10/mcdonalds-e-coli-outbreak-one-dead-49-sickened-across-10-states-so-far/">a deadly <em>E. coli </em>outbreak linked to McDonald's Quarter Pounders</a> this past fall had numerous health and sanitation violations, including employees with unwashed hands, dirty equipment, and puddles of <em>Listeria</em> bacteria. That's according to <a href="https://www.scribd.com/document/814225129/FDA-inspection-report-for-Taylor-Farms-Colorado-Inc#fullscreen&amp;from_embed">a Food and Drug Administration inspection report</a> that was obtained by <a href="https://www.cbsnews.com/news/fda-report-e-coli-outbreak-onions-taylor-farms/">CBS News</a> via a Freedom of Information Act request.</p>
-<p>On October 22, the Centers for Disease Control and Prevention announced the outbreak investigation, which at that time had only been linked to 48 illnesses across 10 states, including one death. <a href="https://arstechnica.com/health/2024/10/slivered-onions-are-likely-cause-of-mcdonalds-e-coli-outbreak-cdc-says/">The slivered onions</a> on the fast-food giant's popular Quarter Pounder burgers were an immediate suspect. McDonald's temporarily pulled the burgers from the menu in affected states, and the supplier of the suspect onions, Taylor Farms of Colorado, <a href="https://arstechnica.com/health/2024/10/taco-bell-kfc-pizza-hut-burger-king-pull-onions-amid-mcdonalds-outbreak/">swiftly recalled thousands of cases</a>. Ultimately, <a href="https://www.cdc.gov/ecoli/outbreaks/e-coli-O157.html">104 were sickened across 14 states</a>, with 34 people hospitalized and one dead.</p>
-<p>On October 28, the FDA began a multi-day inspection of Taylor Farms' facility in Colorado Springs, in which inspectors found numerous violations. The facility processes "ready-to-eat" (RTE) produce, like the cut onions, that do not go through a lethal treatment step for any environmental pathogens before being sold to consumers. This makes any unsanitary conditions in the facility particularly risky for food safety.</p><p><a href="https://arstechnica.com/health/2025/01/fda-noted-unsanitary-conditions-unwashed-hands-at-mcdonalds-ex-onion-supplier/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/01/fda-noted-unsanitary-conditions-unwashed-hands-at-mcdonalds-ex-onion-supplier/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>189</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-660694990-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-660694990-500x500.jpg" width="500"/>
-<media:credit>Getty | Scott Olson</media:credit><media:text>A Quarter Pounder hamburger is served at a McDonald's restaurant on March 30, 2017 in Effingham, Illinois. </media:text></media:content>
-      </item>
-          <item>
-        <title>Mastodon’s founder cedes control, refuses to become next Musk or Zuckerberg</title>
-        <link>https://arstechnica.com/tech-policy/2025/01/mastodon-becomes-nonprofit-to-make-sure-its-never-ruined-by-billionaire-ceo/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/01/mastodon-becomes-nonprofit-to-make-sure-its-never-ruined-by-billionaire-ceo/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ashley Belanger]]>
-        </dc:creator>
-        <pubDate>Mon, 13 Jan 2025 20:21:40 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[decentralized social media]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[european union]]></category>
-		<category><![CDATA[Facebook]]></category>
-		<category><![CDATA[Instagram]]></category>
-		<category><![CDATA[Mark Zuckerberg]]></category>
-		<category><![CDATA[mastodon]]></category>
-		<category><![CDATA[meta]]></category>
-		<category><![CDATA[social networks]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/01/mastodon-becomes-nonprofit-to-make-sure-its-never-ruined-by-billionaire-ceo/</guid>
-
-                  <description>
-            <![CDATA[Mastodon shifts to nonprofit ownership, calls for $5M in donations to expand.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p style="font-weight: 400;">Mastodon <a href="https://blog.joinmastodon.org/2025/01/the-people-should-own-the-town-square/">announced</a> Monday that it's shifting its structure over the next six months to become wholly owned by a European nonprofit organization—"affirming the intent that Mastodon should not be owned or controlled by a single individual."</p>
-<p style="font-weight: 400;">This takes control of the social network away from its previous "ultimate decision-maker," Eugen Rochko. As founder, Rochko initially took the reins to ensure the decentralized platform would never be for sale and "would be free of the control of a single wealthy individual." His grand vision remains to leave Mastodon users in control of the social network, making their own decisions about what content is allowed or what appears in their timelines.</p>
-<p style="font-weight: 400;">The news comes after leaders of other social networks, like Mark Zuckerberg and Elon Musk, have sparked backlash over sudden changes to popular apps like Facebook, Instagram, and X (formerly Twitter). For years, Musk has drawn criticism for changing Twitter's hate speech policies through his X rebranding. And more recently, Zuckerberg this month <a href="https://arstechnica.com/tech-policy/2025/01/meta-kills-diversity-programs-claiming-dei-has-become-too-charged/">defended Meta's decision to relax hate speech policies</a> (permitting women to be called "property" and gay people to be called "mentally ill") by calling bans on such speech "out of touch with mainstream discourse."</p><p><a href="https://arstechnica.com/tech-policy/2025/01/mastodon-becomes-nonprofit-to-make-sure-its-never-ruined-by-billionaire-ceo/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/01/mastodon-becomes-nonprofit-to-make-sure-its-never-ruined-by-billionaire-ceo/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>195</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-1244585198-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-1244585198-500x500.jpg" width="500"/>
-<media:credit>SOPA Images / Contributor | LightRocket</media:credit></media:content>
       </item>
       </channel>
 </rss>
