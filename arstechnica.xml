@@ -4,7 +4,7 @@
     <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
     <link>https://arstechnica.com</link>
     <description>All Ars Technica stories</description>
-    <lastBuildDate>Thu, 23 Jan 2025 00:37:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2025 00:11:08 +0000</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>
       hourly    </sy:updatePeriod>
@@ -19,7 +19,548 @@
 	<height>32</height>
 </image> 
       <item>
-        <title>NASA moves swiftly to end DEI programs, ask employees to “report” violations</title>
+        <title>Backdoor infecting VPNs used “magic packets” for stealth and security</title>
+        <link>https://arstechnica.com/security/2025/01/backdoor-infecting-vpns-used-magic-packets-for-stealth-and-security/</link>
+                  <comments>https://arstechnica.com/security/2025/01/backdoor-infecting-vpns-used-magic-packets-for-stealth-and-security/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Dan Goodin]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 23:42:29 +0000</pubDate>
+        		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[backdoors]]></category>
+		<category><![CDATA[juniper]]></category>
+		<category><![CDATA[magic packets]]></category>
+		<category><![CDATA[vpns]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/security/2025/01/backdoor-infecting-vpns-used-magic-packets-for-stealth-and-security/</guid>
+
+                  <description>
+            <![CDATA[J-Magic backdoor infected organizations in a wide array of industries.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>When threat actors use backdoor malware to gain access to a network, they want to make sure all their hard work can’t be leveraged by competing groups or detected by defenders. One countermeasure is to equip the backdoor with a passive agent that remains dormant until it receives what’s known in the business as a “magic packet.” On Thursday, researchers revealed that a never-before-seen backdoor that quietly took hold of dozens of enterprise VPNs running Juniper Network’s Junos OS has been doing just that.</p>
+<p>J-Magic, the tracking name for the backdoor, goes one step further to prevent unauthorized access. After receiving a magic packet hidden in the normal flow of TCP traffic, it relays a challenge to the device that sent it. The challenge comes in the form of a string of text that’s encrypted using the public portion of an RSA key. The initiating party must then respond with the corresponding plaintext, proving it has access to the secret key.</p>
+<h2>Open sesame</h2>
+<p>The lightweight backdoor is also notable because it resided only in memory, a trait that makes detection harder for defenders. The combination prompted researchers at Lumin Technology’s Black Lotus Lab to sit up and take notice.</p><p><a href="https://arstechnica.com/security/2025/01/backdoor-infecting-vpns-used-magic-packets-for-stealth-and-security/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/01/backdoor-infecting-vpns-used-magic-packets-for-stealth-and-security/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>8</slash:comments>
+        
+        
+        <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/02/backdoor2.jpeg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/02/backdoor2-500x500.jpeg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Way more game makers are working on PC titles than ever, survey says</title>
+        <link>https://arstechnica.com/gaming/2025/01/way-more-game-makers-are-working-on-pc-titles-than-ever-survey-says/</link>
+                  <comments>https://arstechnica.com/gaming/2025/01/way-more-game-makers-are-working-on-pc-titles-than-ever-survey-says/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kyle Orland]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 23:00:16 +0000</pubDate>
+        		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[game development]]></category>
+		<category><![CDATA[PC gaming]]></category>
+		<category><![CDATA[Valve]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gaming/2025/01/way-more-game-makers-are-working-on-pc-titles-than-ever-survey-says/</guid>
+
+                  <description>
+            <![CDATA[80 percent of game devs are working on a PC project, up from 66 percent last year.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Four out of five game developers are currently working on a project for the PC, a sizable increase from 66 percent of developers a year ago. That's according to <a href="https://gdconf.com/news/gdc-2025-state-game-industry-devs-weigh-layoffs-ai-and-more">Informa's latest State of the Game Industry survey</a>, which partnered with Omdia to ask over 3,000 game industry professionals about their work in advance of March's Game Developers Conference.</p>
+<p>The 80 percent of developers working on PC projects in this year's survey is by far the highest mark for any platform dating back to at least 2018, when 60 percent of surveyed developers were working on a PC game. In the years since, the ratio of game developers working on the PC has hovered between 56 and 66 percent before this year's unexpected jump. The number of game developers saying they were <em>interested</em> in the PC as a platform also increased substantially, from 62 percent last year to 74 percent this year.</p>
+<img width="1024" height="768" src="https://cdn.arstechnica.net/wp-content/uploads/2025/01/pcdevs-new.001.png" class="fullwidth full" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2025/01/pcdevs-new.001.png 1024w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/pcdevs-new.001-640x480.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/pcdevs-new.001-768x576.png 768w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/pcdevs-new.001-980x735.png 980w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
+      While the PC has long been the most popular platform in this survey, the sudden jump in the last year was rather large.
+        Credit:
+          Kyle Orland / Informa
+      
+<p>The PC has long been the most popular platform for developers to work on in the annual State of the Game Industry survey, easily outpacing consoles and mobile platforms that generally see active work from anywhere between 12 to 36 percent of developer respondents, depending on the year. In its report, Informa notes this surge as a "passion for PC development explod[ing]" among developers, and mentions that while "PC has consistently been the platform of choice... this year saw its dominance increase even more."</p><p><a href="https://arstechnica.com/gaming/2025/01/way-more-game-makers-are-working-on-pc-titles-than-ever-survey-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2025/01/way-more-game-makers-are-working-on-pc-titles-than-ever-survey-says/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>17</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/pcgamer-1152x648-1737672090.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/pcgamer-500x500-1737672081.jpg" width="500"/>
+<media:credit>Peerapon Boonyakiat/SOPA Images/LightRocket via Getty Images</media:credit><media:text>Never forget: This is who you're fighting for, PC game developers</media:text></media:content>
+      </item>
+          <item>
+        <title>OpenAI launches Operator, an AI agent that can operate your computer</title>
+        <link>https://arstechnica.com/ai/2025/01/openai-launches-operator-an-ai-agent-that-can-operate-your-computer/</link>
+                  <comments>https://arstechnica.com/ai/2025/01/openai-launches-operator-an-ai-agent-that-can-operate-your-computer/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Benj Edwards]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 22:24:43 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AI computer use]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[ChatGPT Pro]]></category>
+		<category><![CDATA[computer use model]]></category>
+		<category><![CDATA[Computer-Using Agent]]></category>
+		<category><![CDATA[CUA]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[OpenAI operator]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/ai/2025/01/openai-launches-operator-an-ai-agent-that-can-operate-your-computer/</guid>
+
+                  <description>
+            <![CDATA[New research "Computer-Use Agent" AI model can jump in and help users with on-screen tasks.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>On Thursday, OpenAI released a research preview of "<a href="https://openai.com/index/introducing-operator/">Operator</a>," a web automation tool that uses a new AI model called <a href="https://openai.com/index/computer-using-agent/">Computer-Using Agent</a> (CUA) to control computers through a visual interface. The system performs tasks by viewing and interacting with on-screen elements like buttons and text fields similar to how a human would.</p>
+<p>Operator is available today for subscribers of the $200 per month ChatGPT Pro plan at <a href="https://operator.chatgpt.com/">operator.chatgpt.com</a>. The company plans to expand to Plus, Team, and Enterprise users later. OpenAI intends to integrate these capabilities directly into ChatGPT and later release CUA through its API for developers.</p>
+<p>Operator watches on-screen content while you use your computer and executes tasks through simulated keyboard and mouse inputs. The Computer-Using Agent processes screenshots to understand the computer's state and then makes decisions about clicking, typing, and scrolling based on its observations.</p><p><a href="https://arstechnica.com/ai/2025/01/openai-launches-operator-an-ai-agent-that-can-operate-your-computer/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/01/openai-launches-operator-an-ai-agent-that-can-operate-your-computer/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>64</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/robots_on_a_computer-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/robots_on_a_computer-500x500.jpg" width="500"/>
+<media:credit>josefkubes via Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>All federal agencies ordered to terminate remote work—ideally within 30 days</title>
+        <link>https://arstechnica.com/tech-policy/2025/01/all-federal-agencies-ordered-to-terminate-remote-work-ideally-within-30-days/</link>
+                  <comments>https://arstechnica.com/tech-policy/2025/01/all-federal-agencies-ordered-to-terminate-remote-work-ideally-within-30-days/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ashley Belanger]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 21:28:47 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[remote work]]></category>
+		<category><![CDATA[return-to-office]]></category>
+		<category><![CDATA[telework]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/01/all-federal-agencies-ordered-to-terminate-remote-work-ideally-within-30-days/</guid>
+
+                  <description>
+            <![CDATA[US agencies wasting billions on empty offices an “embarrassment,” RTO memo says.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p style="font-weight: 400;">All federal agencies received a <a href="https://chcoc.gov/sites/default/files/OPM%20Return%20to%20Office%20Guidance%20Memorandum%201-22-25.pdf">memo</a> Wednesday requiring the termination of remote work options, with return-to-office plans due by end of day Friday.</p>
+<p style="font-weight: 400;">In the memo, the acting director of the Office of Personnel Management, Charles Ezell, told the heads and acting heads of all departments and agencies that the change is due to Donald Trump's <a href="https://www.whitehouse.gov/presidential-actions/2025/01/return-to-in-person-work/">Return to In-Person Work</a> presidential memorandum, which carved out space for some exemptions and ordered:</p>
+<blockquote>
+<p style="font-weight: 400;">Heads of all departments and agencies in the executive branch of Government shall, as soon as practicable, take all necessary steps to terminate remote work arrangements and require employees to return to work in-person at their respective duty stations on a full-time basis, provided that the department and agency heads shall make exemptions they deem necessary.</p>
+</blockquote>
+<h2>Empty offices a “national embarrassment”</h2>
+<p style="font-weight: 400;">According to the memo, "most federal offices presently are virtually abandoned," with "the vast majority of federal office workers" having "not returned to in-person work" after transitioning to remote work during the height of the COVID-19 pandemic. Not only has this "devastated" the local economy in Washington, D.C., the memo said, but having so many federal offices sitting empty also serves as a "national embarrassment."</p><p><a href="https://arstechnica.com/tech-policy/2025/01/all-federal-agencies-ordered-to-terminate-remote-work-ideally-within-30-days/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/01/all-federal-agencies-ordered-to-terminate-remote-work-ideally-within-30-days/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>175</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2194442191-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2194442191-500x500.jpg" width="500"/>
+<media:credit>Bloomberg / Contributor | Bloomberg</media:credit><media:text>US President Donald Trump holds a signed executive order on remote work for government employees during the 60th presidential inauguration parade at Capital One Arena in Washington, DC, US, on Monday, Jan. 20, 2025. </media:text></media:content>
+      </item>
+          <item>
+        <title>Trump can save TikTok without forcing a sale, ByteDance board member claims</title>
+        <link>https://arstechnica.com/tech-policy/2025/01/trump-can-save-tiktok-without-forcing-a-sale-bytedance-board-member-claims/</link>
+                  <comments>https://arstechnica.com/tech-policy/2025/01/trump-can-save-tiktok-without-forcing-a-sale-bytedance-board-member-claims/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ashley Belanger]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 20:33:00 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[bytedance]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[china tariffs]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[tiktok]]></category>
+		<category><![CDATA[TikTok ban]]></category>
+		<category><![CDATA[us-china trade war]]></category>
+		<category><![CDATA[World Economic Forum]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/01/trump-can-save-tiktok-without-forcing-a-sale-bytedance-board-member-claims/</guid>
+
+                  <description>
+            <![CDATA[ByteDance apparently sees several non-sale options as Trump mulls resolution.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p style="font-weight: 400;">TikTok owner ByteDance is <a href="https://www.bloomberg.com/news/articles/2025-01-23/tiktok-deal-could-stop-short-of-full-us-sale-shareholder-says">reportedly</a> still searching for non-sale options to stay in the US after the <a href="https://arstechnica.com/tech-policy/2025/01/supreme-court-rules-tiktok-can-be-banned/">Supreme Court upheld a national security law</a> requiring that TikTok's US operations either be shut down or sold to a non-foreign adversary.</p>
+<p style="font-weight: 400;">Last weekend, TikTok briefly went dark in the US, <a href="https://arstechnica.com/tech-policy/2025/01/after-chaotic-weekend-tiktok-remains-in-limbo/">only to come back online hours later</a> after Donald Trump reassured ByteDance that the US law would not be enforced. Then, shortly after Trump took office, he <a href="https://arstechnica.com/tech-policy/2025/01/trumps-day-one-orders-saving-tiktok-creating-doge-and-ending-censorship/">signed an executive order</a> delaying enforcement for 75 days while he consulted with advisers to "pursue a resolution that protects national security while saving a platform used by 170 million Americans."</p>
+<p style="font-weight: 400;">Trump's executive order did not suggest that he intended to attempt to override the national security law's ban-or-sale requirements. But that hasn't stopped ByteDance, board member Bill Ford told World Economic Forum (WEF) attendees, from searching for a potential non-sale option that "could involve a change of control locally to ensure it complies with US legislation," Bloomberg <a href="https://www.bloomberg.com/news/articles/2025-01-23/tiktok-deal-could-stop-short-of-full-us-sale-shareholder-says">reported</a>.</p><p><a href="https://arstechnica.com/tech-policy/2025/01/trump-can-save-tiktok-without-forcing-a-sale-bytedance-board-member-claims/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/01/trump-can-save-tiktok-without-forcing-a-sale-bytedance-board-member-claims/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>72</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2194179246-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2194179246-500x500.jpg" width="500"/>
+<media:credit>KENA BETANCUR / Contributor | AFP</media:credit><media:text>A display shows information about TikTok outside the Fox News building in New York City on January 19, 2025. </media:text></media:content>
+      </item>
+          <item>
+        <title>Doom: The Dark Ages wants to be more like the original Doom</title>
+        <link>https://arstechnica.com/gaming/2025/01/how-doom-the-dark-ages-draws-from-the-90s-doom-games/</link>
+                  <comments>https://arstechnica.com/gaming/2025/01/how-doom-the-dark-ages-draws-from-the-90s-doom-games/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kyle Orland]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 19:00:37 +0000</pubDate>
+        		<category><![CDATA[Gaming]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gaming/2025/01/how-doom-the-dark-ages-draws-from-the-90s-doom-games/</guid>
+
+                  <description>
+            <![CDATA[Preview: A more grounded game than <em>Doom Eternal</em> in more ways than one.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>The modern <em>Doom</em> games have been a master class in reviving a beloved retro gaming series. Both <a href="https://arstechnica.com/gaming/2016/05/doom-2016-single-player-review-back-to-basics/">2016's <em>Doom</em></a> and <a href="https://arstechnica.com/gaming/2020/03/doom-eternal-review-a-welcome-return-to-hell-on-earth/">2020's <em>Doom Eternal</em></a> paid homage to both the look and feel of the original <em>Doom</em> titles without being slavishly devoted to older gameplay conventions that can feel dated decades later.</p>
+<p>Yet by the end of <em>Doom Eternal</em>, you could feel the modernized gameplay system threatening to burst at the seams a bit. Managing your limited ammo, health, and armor resources in <em>Eternal</em> meant expertly juggling a bewildering array of chainsaws, flamethrowers, grenades, and melee-based staggers into powerful, pre-animated "glory kills." That was all on top of the frequent weapon-switching needed to take advantage of the weaknesses of the varied enemies surrounding you and the double-jump-and-dash movement system that required expert use of all three dimensions.</p>
+<p>Something had to give. So for <em>Doom: The Dark Ages</em>, the team at id Software has committed to a more streamlined, back-to-basics system that limits complexity while maintaining the same overall difficulty level. That means a "fewer strings on the guitar" approach to controls that narrows almost every action down to just three context-sensitive buttons, as the developers discussed in a hands-off virtual preview session attended by Ars Technica.</p><p><a href="https://arstechnica.com/gaming/2025/01/how-doom-the-dark-ages-draws-from-the-90s-doom-games/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2025/01/how-doom-the-dark-ages-draws-from-the-90s-doom-games/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>60</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/DOOM-The-Dark-Ages_06_Slayer-1152x648.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/DOOM-The-Dark-Ages_06_Slayer-500x500.png" width="500"/>
+<media:credit>Bethesda Softworks</media:credit><media:text>Who's ready to rip and tear?</media:text></media:content>
+      </item>
+          <item>
+        <title>Court rules FBI’s warrantless searches violated Fourth Amendment</title>
+        <link>https://arstechnica.com/tech-policy/2025/01/court-rules-fbis-warrantless-searches-violated-fourth-amendment/</link>
+                  <comments>https://arstechnica.com/tech-policy/2025/01/court-rules-fbis-warrantless-searches-violated-fourth-amendment/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ashley Belanger]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 17:50:39 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[FISA]]></category>
+		<category><![CDATA[Fourth Amendment]]></category>
+		<category><![CDATA[national security]]></category>
+		<category><![CDATA[online privacy]]></category>
+		<category><![CDATA[section 702]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/01/court-rules-fbis-warrantless-searches-violated-fourth-amendment/</guid>
+
+                  <description>
+            <![CDATA[Rights groups demand lawmakers add a warrant requirement to Section 702.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>It's official: The FBI's warrantless searches of communications seized to protect US national security have at last been ruled unconstitutional and in violation of the Fourth Amendment.</p>
+<p>In a major December <a href="https://cdn.arstechnica.net/wp-content/uploads/2025/01/US-v-Hasbajrami-Ruling-1-21-25.pdf">ruling</a> made public this week, US District Judge LaShann DeArcy Hall settled one of the biggest debates about feared government overreach that has prompted calls to reform Section 702 of the Foreign Intelligence Surveillance Act (FISA) for more than a decade.</p>
+<p>Critics' primary concern was whether the FBI needed a warrant to search and query Americans' communications that are often incidentally, inadvertently, or mistakenly seized during investigations of suspected foreign terrorists.</p><p><a href="https://arstechnica.com/tech-policy/2025/01/court-rules-fbis-warrantless-searches-violated-fourth-amendment/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/01/court-rules-fbis-warrantless-searches-violated-fourth-amendment/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>54</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-532253660-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-532253660-500x500.jpg" width="500"/>
+<media:credit>domoyega | iStock / Getty Images Plus</media:credit></media:content>
+      </item>
+          <item>
+        <title>Trump’s FCC chair gets to work on punishing TV news stations accused of bias</title>
+        <link>https://arstechnica.com/tech-policy/2025/01/trumps-fcc-chair-gets-to-work-on-punishing-news-stations-accused-of-bias/</link>
+                  <comments>https://arstechnica.com/tech-policy/2025/01/trumps-fcc-chair-gets-to-work-on-punishing-news-stations-accused-of-bias/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jon Brodkin]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 16:52:08 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[brendan carr]]></category>
+		<category><![CDATA[Trump]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/01/trumps-fcc-chair-gets-to-work-on-punishing-news-stations-accused-of-bias/</guid>
+
+                  <description>
+            <![CDATA[Chairman Brendan Carr revives bias complaints against CBS, ABC, and NBC stations.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Federal Communications Commission Chairman Brendan Carr has revived three complaints against broadcast stations accused of bias against President Donald Trump.</p>
+<p>Outgoing Chairwoman Jessica Rosenworcel last week directed the FCC to <a href="https://arstechnica.com/tech-policy/2025/01/departing-fcc-chair-rejects-complaints-about-tv-news-coverage-of-trump/">dismiss the complaints</a> against CBS, ABC, and NBC stations, along with a fourth complaint about Fox, in what she called a stand for the First Amendment. Rosenworcel said the "threat to the First Amendment has taken on new forms, as the incoming President has called on the Federal Communications Commission to revoke licenses for broadcast television stations because he disagrees with their content and coverage."</p>
+<p>But in three orders issued yesterday, the FCC Enforcement Bureau reversed the CBS, ABC, and NBC decisions. "We find that the previous order was issued prematurely based on an insufficient investigatory record for the station-specific conduct at issue," each new order said. "We therefore conclude that this complaint requires further consideration."</p><p><a href="https://arstechnica.com/tech-policy/2025/01/trumps-fcc-chair-gets-to-work-on-punishing-news-stations-accused-of-bias/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/01/trumps-fcc-chair-gets-to-work-on-punishing-news-stations-accused-of-bias/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>236</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/getty-brendan-carr-1152x648-1731010998.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/getty-brendan-carr-500x500-1731010848.jpg" width="500"/>
+<media:credit>Getty Images | Bloomberg</media:credit><media:text>FCC Commissioner Brendan Carr speaks during the Conservative Political Action Conference (CPAC) in Maryland on Saturday, Feb. 29, 2020.</media:text></media:content>
+      </item>
+          <item>
+        <title>George R.R. Martin has co-authored a physics paper</title>
+        <link>https://arstechnica.com/science/2025/01/george-r-r-martin-has-co-authored-a-physics-paper/</link>
+                  <comments>https://arstechnica.com/science/2025/01/george-r-r-martin-has-co-authored-a-physics-paper/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jennifer Ouellette]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 16:22:35 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2025/01/george-r-r-martin-has-co-authored-a-physics-paper/</guid>
+
+                  <description>
+            <![CDATA["I couldn't help but wonder if a simple underlying model might tidy up the canon.”]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Although fans of <em>A Song of Ice and Fire</em> might still be hankering for the long-delayed next book in the series, bestselling sci-fi/fantasy author <a href="https://en.wikipedia.org/wiki/George_R._R._Martin">George R.R. Martin</a> has instead added a different item to his long list of publications: a peer-reviewed physics paper just published in the American Journal of Physics that he co-authored. The paper derives a formula to describe the dynamics of a fictional virus that is the centerpiece of the <em><a href="https://en.wikipedia.org/wiki/Wild_Cards">Wild Cards</a></em> series of books, a shared universe edited by Martin and Melinda M. Snodgrass, with some 44 authors contributing.</p>
+<p><em>Wild Cards</em> grew out of the <a href="https://en.wikipedia.org/wiki/Superworld"><em>Superworld</em></a> RPG, specifically a long-running campaign game-mastered by Martin in the 1980s, with several of the original sci-fi writers who contributed to the series participating. (A then-unknown Neil Gaiman once pitched Martin a <em>Wild Cards</em> story involving a main character who lived in a world of dreams. Martin rejected the pitch, and Gaiman's idea became <em>The Sandman</em>.) Initially, Martin planned to write a novel centered on his character Turtle, but he then decided it would be better as a shared universe anthology. Martin thought that superhero comics had far too many sources of the many different superpowers and wanted his universe to have one single source. Snodgrass suggested a virus.</p>
+<p>The series is basically an alternate history of the US in the aftermath of World War II. An airborne alien virus, designed to rewrite DNA, had been released over New York City in 1946 and spread globally, infecting tens of thousands worldwide. It's called the Wild Card virus because it affects every individual differently. It kills 90 percent of those it infects and mutates the rest. Nine percent of the latter end up with unpleasant conditions—these people are called Jokers—while 1 percent develop superpowers and are known as Aces. Some Aces have "powers" that are so trivial and useless that they are known as "deuces."</p><p><a href="https://arstechnica.com/science/2025/01/george-r-r-martin-has-co-authored-a-physics-paper/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/01/george-r-r-martin-has-co-authored-a-physics-paper/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>118</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/wildcards3-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/wildcards3-500x500-1737402514.jpg" width="500"/>
+<media:credit>Michael Kormarck/Tor Books</media:credit><media:text>Detail from cover art for &lt;em&gt;Low Chicago&lt;/em&gt;, a Wild Cards novel.</media:text></media:content>
+      </item>
+          <item>
+        <title>As OpenAI launches $500B “Stargate” project, critics express skepticism</title>
+        <link>https://arstechnica.com/ai/2025/01/trump-announces-500b-stargate-ai-infrastructure-project-with-agi-aims/</link>
+                  <comments>https://arstechnica.com/ai/2025/01/trump-announces-500b-stargate-ai-infrastructure-project-with-agi-aims/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Benj Edwards]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 15:00:56 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[agi]]></category>
+		<category><![CDATA[AI critics]]></category>
+		<category><![CDATA[AI datacenter]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[Ed Zitron]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[Larry Ellison]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Masayoshi Son]]></category>
+		<category><![CDATA[MGX]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[oracle]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[SoftBank]]></category>
+		<category><![CDATA[stargate]]></category>
+		<category><![CDATA[texas]]></category>
+		<category><![CDATA[UAE]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/ai/2025/01/trump-announces-500b-stargate-ai-infrastructure-project-with-agi-aims/</guid>
+
+                  <description>
+            <![CDATA[Elon Musk questions funding for massive AI infrastructure project; Altman defends financial backing.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>On Tuesday, OpenAI, SoftBank, Oracle, and <a href="https://www.al-monitor.com/originals/2024/03/what-know-about-mgx-uaes-latest-ai-investment-firm">MGX</a> <a href="https://openai.com/index/announcing-the-stargate-project/">announced</a> plans to form Stargate, a new company that will invest $500 billion in AI computing infrastructure across the United States over four years. The announcement came during a White House meeting with President Donald Trump, who called it the "largest AI infrastructure project in history."</p>
+<p>However, the origins of the Stargate project <a href="https://www.reuters.com/technology/microsoft-openai-planning-100-billion-data-center-project-information-reports-2024-03-29/">extend back to 2024</a>, prior to Trump beginning his second term in office, and skeptics have begun to take aim at the numbers announced.</p>
+<p>OpenAI says the goal of Stargate is to kickstart building more data centers to expand computing capacity for current and future AI projects, including OpenAI's goal of "AGI," which the company <a href="https://openai.com/our-structure/">defines</a> as a highly autonomous AI system that "outperforms humans at most economically valuable work."</p><p><a href="https://arstechnica.com/ai/2025/01/trump-announces-500b-stargate-ai-infrastructure-project-with-agi-aims/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/01/trump-announces-500b-stargate-ai-infrastructure-project-with-agi-aims/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>301</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/stargate_header-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/stargate_header-500x500.jpg" width="500"/>
+<media:credit>Andrew Harnik via Getty Images</media:credit><media:text>US President Donald Trump speaks in the Roosevelt Room of the White House while SoftBank CEO Masayoshi Son, Oracle CTO Larry Ellison, and OpenAI CEO Sam Altman look on on January 21, 2025, in Washington, DC. </media:text></media:content>
+      </item>
+          <item>
+        <title>UK opens probe into Google’s and Apple’s mobile platforms</title>
+        <link>https://arstechnica.com/tech-policy/2025/01/uk-opens-probe-into-googles-and-apples-mobile-platforms/</link>
+                  <comments>https://arstechnica.com/tech-policy/2025/01/uk-opens-probe-into-googles-and-apples-mobile-platforms/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Tim Bradshaw and Suzi Ring, Financial Times]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 14:29:42 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[anittirust]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[cma]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[uk]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/01/uk-opens-probe-into-googles-and-apples-mobile-platforms/</guid>
+
+                  <description>
+            <![CDATA[Regulator will examine how the tech giants compete with one another, treat developers.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>The UK’s competition watchdog has launched an investigation into Apple's and Google’s mobile platforms, just days after the government forced out its chair as part of a push to cut the regulatory burden on business.</p>
+<p>The Competition and Markets Authority said on Thursday it would examine whether the creators of the iPhone and Android smartphone operating systems should be subjected to extra scrutiny over how they run their mobile platforms, in its second investigation under the new digital markets regime.</p>
+<p>The announcement comes just two days after the government ousted Marcus Bokkerink as chair of the CMA, amid concerns the regulator was not sufficiently focused on growth.</p><p><a href="https://arstechnica.com/tech-policy/2025/01/uk-opens-probe-into-googles-and-apples-mobile-platforms/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/01/uk-opens-probe-into-googles-and-apples-mobile-platforms/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>18</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/ios-android-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/ios-android-500x500.jpg" width="500"/>
+<media:credit>FT montage/Reuters</media:credit></media:content>
+      </item>
+          <item>
+        <title>600 kW fast-charging pitstops are coming to Formula E</title>
+        <link>https://arstechnica.com/cars/2025/01/600-kw-fast-charging-pitstops-are-coming-to-formula-e/</link>
+                  <comments>https://arstechnica.com/cars/2025/01/600-kw-fast-charging-pitstops-are-coming-to-formula-e/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jonathan M. Gitlin]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 13:25:00 +0000</pubDate>
+        		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Formula E]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/cars/2025/01/600-kw-fast-charging-pitstops-are-coming-to-formula-e/</guid>
+
+                  <description>
+            <![CDATA[After a couple of years' delay, mid-race recharging is ready to go.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Now 11 seasons in, Formula E has come a long way from its <a href="https://arstechnica.com/cars/2015/03/racing-goes-electric-at-the-track-with-formula-e-the-first-e-racing-series/">sometimes chaotic early days and those mid-race pitstops</a> to change cars. Car swaps went away a long time ago, but when the series gets back to racing next month in Jeddah, Saudi Arabia, the mid-race pit stop will be back. Except this time, the cars will be quickly recharged by powerful 600 kW fast chargers.</p>
+<p>The new race feature, which Formula E is calling "pit boost," is a 30-second pitstop, during which time the car receives a 600 kW fast charge—more than twice as much power as a Tesla Supercharger—that adds 10 percent (3.85 kWh) to the battery's state of charge. It's mandatory for every car in the race, but a team is only allowed to charge one of its two cars at a time and only within a specified window of time during the race.</p>
+<p>Some people are probably going to be unimpressed with the length of the stops—while they're shorter than you might see at a prototype stop at Le Mans or Daytona, you also won't see mechanics running around changing tires. We're also talking an order of magnitude longer than a current Formula 1 pitstop, which will no doubt be used as ammunition by Formula E's detractors, just as the lap-time comparisons are.</p><p><a href="https://arstechnica.com/cars/2025/01/600-kw-fast-charging-pitstops-are-coming-to-formula-e/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/01/600-kw-fast-charging-pitstops-are-coming-to-formula-e/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>42</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/DSC01430_d1dgZ1oC_20250109094727-2048x2048-1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/DSC01430_d1dgZ1oC_20250109094727-2048x2048-1-500x500.jpg" width="500"/>
+<media:credit>Oscar Lumley/LAT Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Cadillac gives the Lyriq a race car-inspired glow-up</title>
+        <link>https://arstechnica.com/cars/2025/01/cadillac-gives-the-lyriq-a-race-car-inspired-glow-up/</link>
+                  <comments>https://arstechnica.com/cars/2025/01/cadillac-gives-the-lyriq-a-race-car-inspired-glow-up/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jonathan M. Gitlin]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 13:00:02 +0000</pubDate>
+        		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[cadillac]]></category>
+		<category><![CDATA[Cadillac V-Series]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/cars/2025/01/cadillac-gives-the-lyriq-a-race-car-inspired-glow-up/</guid>
+
+                  <description>
+            <![CDATA[Now there's a Lyriq with 615 horsepower and Le Mans-inspired sounds.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>The Cadillac Lyriq was <a href="https://arstechnica.com/cars/2022/06/not-your-grandpas-ride-the-2023-cadillac-lyriq-tested/">the first of a new breed</a> of General Motors' electric vehicles. Built around a common battery platform (<a href="https://arstechnica.com/cars/2024/10/general-motors-is-ditching-ultium-branding-for-its-ev-batteries/">which used to be called Ultium</a>), the midsize SUV has been on sale for about three years now, and for model year 2026, there's a new version available, the first Cadillac EV to wear the V-series badge.</p>
+<p>"V-Series captures the spirit of Cadillac, embodying our relentless pursuit of engineering excellence through our racing and production vehicles," said John Roth, vice president of Global Cadillac. "LYRIQ-V takes this commitment a step further in the EV era, pushing our performance pedigree of V-Series to new heights with a powerful, personalized and high-tech driving experience that fits perfectly into our customers' lives," Roth said.</p>
+<p>As with other Cadillac V-series cars, you can expect a much higher power output than the base models. In this case, that's a hefty 615 hp (459 kW) and 650 lb-ft (880 Nm)—not quite double the output of the single-motor Lyriq we drove back in 2023. The Lyriq-V uses a pair of motors to achieve that output, powered by the same 102 kWh battery pack as in the normal Lyriq.</p><p><a href="https://arstechnica.com/cars/2025/01/cadillac-gives-the-lyriq-a-race-car-inspired-glow-up/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/01/cadillac-gives-the-lyriq-a-race-car-inspired-glow-up/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>55</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/Lyriq-V021_v4-scaled-1152x648-1737565457.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/Lyriq-V021_v4-500x500.jpg" width="500"/>
+<media:credit>Cadillac</media:credit></media:content>
+      </item>
+          <item>
+        <title>Data breach hitting PowerSchool looks very, very bad</title>
+        <link>https://arstechnica.com/security/2025/01/students-parents-and-teachers-still-smarting-from-breach-exposing-their-info/</link>
+                  <comments>https://arstechnica.com/security/2025/01/students-parents-and-teachers-still-smarting-from-breach-exposing-their-info/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Dan Goodin]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 12:30:57 +0000</pubDate>
+        		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[network intrusions]]></category>
+		<category><![CDATA[personally identifiable information]]></category>
+		<category><![CDATA[PII]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/security/2025/01/students-parents-and-teachers-still-smarting-from-breach-exposing-their-info/</guid>
+
+                  <description>
+            <![CDATA[Schools are now notifying families their data has been stolen.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Parents, students, teachers, and administrators throughout North America are smarting from what could be the biggest data breach of 2025: an intrusion into the network of a cloud-based service storing detailed data of millions of pupils and school personnel.</p>
+<p>The hack, which came to light earlier this month, hit PowerSchool, a Folsom, California, firm that provides cloud-based software to some 16,000 K–12 schools worldwide. The schools serve 60 million students and employ an unknown number of teachers. Besides providing software for administration, grades, and other functions, PowerSchool stores personal data for students and teachers, with much of that data including Social Security numbers, medical information, and home addresses.</p>
+<p>On January 7, PowerSchool <a href="https://www.powerschool.com/security/sis-incident/">revealed</a> that it had experienced a network intrusion two weeks earlier that resulted in the “unauthorized exportation of personal information” customers stored in PowerSchool’s Student Information System (SIS) through PowerSource, a customer support portal. Information stolen included individuals’ names, contact information, dates of birth, medical alert information, Social Security Numbers, and unspecified “other related information.”</p><p><a href="https://arstechnica.com/security/2025/01/students-parents-and-teachers-still-smarting-from-breach-exposing-their-info/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/01/students-parents-and-teachers-still-smarting-from-breach-exposing-their-info/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>132</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/04/data-leak-1000x648.jpeg" width="1000">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/04/data-leak-500x500.jpeg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Researchers say new attack could take down the European power grid</title>
+        <link>https://arstechnica.com/security/2025/01/could-hackers-use-new-attack-to-take-down-european-power-grid/</link>
+                  <comments>https://arstechnica.com/security/2025/01/could-hackers-use-new-attack-to-take-down-european-power-grid/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Dan Goodin]]>
+        </dc:creator>
+        <pubDate>Thu, 23 Jan 2025 12:00:42 +0000</pubDate>
+        		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[funkrundsteuerung]]></category>
+		<category><![CDATA[power grid]]></category>
+		<category><![CDATA[radio ripple control]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/security/2025/01/could-hackers-use-new-attack-to-take-down-european-power-grid/</guid>
+
+                  <description>
+            <![CDATA[Power grid in Central Europe uses unencrypted radio signals to add and shed loads.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Late last month, researchers revealed a finding that’s likely to shock some people and confirm the low expectations of others: Renewable energy facilities throughout Central Europe use unencrypted radio signals to receive commands to feed or ditch power into or from the grid that serves some 450 million people throughout the continent.</p>
+<p>Fabian Bräunlein and Luca Melette stumbled on their discovery largely by accident while working on what they thought would be a much different sort of hacking project. After observing a radio receiver on the streetlight poles throughout Berlin, they got to wondering: Would it be possible for someone with a central transmitter to control them en masse, and if so, could they create a city-wide light installation along the lines of <a href="http://blinkenlights.net/">Project Blinkenlights</a>?</p>
+<img width="1500" height="465" src="https://cdn.arstechnica.net/wp-content/uploads/2025/01/project-blinkenlights-throughout-the-years.jpg" class="fullwidth full" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2025/01/project-blinkenlights-throughout-the-years.jpg 1500w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/project-blinkenlights-throughout-the-years-640x198.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/project-blinkenlights-throughout-the-years-1024x317.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/project-blinkenlights-throughout-the-years-768x238.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/project-blinkenlights-throughout-the-years-980x304.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/project-blinkenlights-throughout-the-years-1440x446.jpg 1440w" sizes="auto, (max-width: 1500px) 100vw, 1500px">
+      Images showing Project Blinkenlights throughout the years.
+        Credit:
+          Positive Security
+      
+<p>The first Project Blinkenlights iteration occurred in 2001 in Berlin, when the lights inside a large building were synchronized to turn on and off to give the appearance of a giant, low-resolution monochrome computer screen.</p><p><a href="https://arstechnica.com/security/2025/01/could-hackers-use-new-attack-to-take-down-european-power-grid/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/01/could-hackers-use-new-attack-to-take-down-european-power-grid/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>47</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/euripean-ripple-attack-flipper-zero-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/euripean-ripple-attack-flipper-zero-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>NASA moves swiftly to end DEI programs, asks employees to “report” violations</title>
         <link>https://arstechnica.com/space/2025/01/nasa-moves-swiftly-to-end-dei-programs-ask-employees-to-report-violations/</link>
                   <comments>https://arstechnica.com/space/2025/01/nasa-moves-swiftly-to-end-dei-programs-ask-employees-to-report-violations/#comments</comments>
         
@@ -44,7 +585,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>193</slash:comments>
+                  <slash:comments>863</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2161177745-1152x648.jpg" width="1152">
@@ -85,7 +626,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>135</slash:comments>
+                  <slash:comments>349</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-486885317-1152x648.jpg" width="1152">
@@ -123,7 +664,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>18</slash:comments>
+                  <slash:comments>50</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-1320349218-1152x648.jpg" width="1152">
@@ -159,7 +700,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>169</slash:comments>
+                  <slash:comments>348</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-2151457756-1024x648.jpg" width="1024">
@@ -207,565 +748,12 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>161</slash:comments>
+                  <slash:comments>249</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/amodei_header_1-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/amodei_header_1-500x500.jpg" width="500"/>
 <media:credit>Chesnot via Getty Images</media:credit><media:text>A photo of co-founder and CEO of Anthropic, Dario Amodei, dated May 22, 2024.</media:text></media:content>
-      </item>
-          <item>
-        <title>Wine 10.0 brings Arm Windows apps to Linux, still is not an emulator</title>
-        <link>https://arstechnica.com/gadgets/2025/01/wine-10-0-released-adding-linux-compatibility-for-arm-windows-apps/</link>
-                  <comments>https://arstechnica.com/gadgets/2025/01/wine-10-0-released-adding-linux-compatibility-for-arm-windows-apps/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Andrew Cunningham]]>
-        </dc:creator>
-        <pubDate>Wed, 22 Jan 2025 20:25:08 +0000</pubDate>
-        		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[asahi linux]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[Windows]]></category>
-		<category><![CDATA[Wine]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/01/wine-10-0-released-adding-linux-compatibility-for-arm-windows-apps/</guid>
-
-                  <description>
-            <![CDATA[Wine compatibility layer is the heart of many Windows app translation projects.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>The open source Wine project—sometimes stylized WINE, for Wine Is Not an Emulator—has become an important tool for companies and individuals who want to make Windows apps and games run on operating systems like Linux or even macOS. The <a href="https://www.codeweavers.com/crossover/">CrossOver software</a> for Mac and Windows, <a href="https://arstechnica.com/apple/2023/06/apple-has-a-proton-like-game-porting-toolkit-for-getting-windows-games-on-mac/">Apple's Game Porting Toolkit</a>, and the <a href="https://arstechnica.com/gaming/2023/04/proton-update-gets-18-more-windows-games-running-on-linux-including-chex-quest-hd/">Proton project</a> that powers <a href="https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/">Valve's SteamOS</a> and the Steam Deck are all rooted in Wine, and the attention and resources put into the project in recent years have dramatically improved its compatibility and usefulness.</p>
-<p>Yesterday, the Wine project announced <a href="https://gitlab.winehq.org/wine/wine/-/releases/wine-10.0">the stable release of version 10.0</a>, the next major version of the compatibility layer that is not an emulator. The headliner for this release is support for <a href="https://learn.microsoft.com/en-us/windows/arm/arm64ec">ARM64EC</a>, the application binary interface (ABI) used for Arm apps in Windows 11, but the release notes say that the release contains "over 6,000 individual changes" produced over "a year of development effort."</p>
-<p>ARM64EC allows developers to mix Arm and x86-compatible code—if you're making an Arm-native version of your app, you can still allow the use of more obscure x86-based plugins or add-ons without having to port everything over at once. Wine 10.0 also supports ARM64X, a different type of application binary file that allows ARM64EC code to be mixed with older, pre-Windows 11 ARM64 code.</p><p><a href="https://arstechnica.com/gadgets/2025/01/wine-10-0-released-adding-linux-compatibility-for-arm-windows-apps/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/01/wine-10-0-released-adding-linux-compatibility-for-arm-windows-apps/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>18</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/win11-wine-1152x648-1737575870.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/win11-wine-500x500-1737575881.jpeg" width="500"/>
-<media:credit>Microsoft/Wine HQ</media:credit></media:content>
-      </item>
-          <item>
-        <title>Trump admin fires security board investigating Chinese hack of large ISPs</title>
-        <link>https://arstechnica.com/tech-policy/2025/01/trump-admin-fires-homeland-security-advisory-boards-blaming-agendas/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/01/trump-admin-fires-homeland-security-advisory-boards-blaming-agendas/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jon Brodkin]]>
-        </dc:creator>
-        <pubDate>Wed, 22 Jan 2025 20:08:47 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Cyber Safety Review Board]]></category>
-		<category><![CDATA[salt typhoon]]></category>
-		<category><![CDATA[Trump]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/01/trump-admin-fires-homeland-security-advisory-boards-blaming-agendas/</guid>
-
-                  <description>
-            <![CDATA[Dismantled Cyber Safety Review Board was investigating Salt Typhoon telecom hack.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>The Department of Homeland Security has terminated all members of advisory committees, including one that has been investigating a major Chinese hack of large US telecom firms.</p>
-<p>"The Cyber Safety Review Board—a Department of Homeland Security investigatory body stood up under a Biden-era cybersecurity executive order to probe major cybersecurity incidents—has been cleared of non-government members as part of a DHS-wide push to cut costs under the Trump administration, according to three people familiar with the matter," <a href="https://www.nextgov.com/cybersecurity/2025/01/dhs-cyber-review-board-cleaned-out-trump-move-eliminate-misuse-resources/402386/">NextGov/FCW reported yesterday</a>.</p>
-<p>A <a href="https://www.documentcloud.org/documents/25500093-dhs-advisory-boards-termination-letter/">memo</a> sent Monday by DHS Acting Secretary Benjamine Huffman said that in order to "eliminate[e] the misuse of resources and ensur[e] that DHS activities prioritize our national security, I am directing the termination of all current memberships on advisory committees within DHS, effective immediately. Future committee activities will be focused solely on advancing our critical mission to protect the homeland and support DHS's strategic priorities."</p><p><a href="https://arstechnica.com/tech-policy/2025/01/trump-admin-fires-homeland-security-advisory-boards-blaming-agendas/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/01/trump-admin-fires-homeland-security-advisory-boards-blaming-agendas/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>92</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/white-house-1152x648-1737575607.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/white-house-500x500-1737575615.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>The helicopter with outgoing US President Joe Biden and first lady Dr. Jill Biden departs from the East Front of the United States Capitol after the inauguration of Donald Trump on January 20, 2025 in Washington, DC.</media:text></media:content>
-      </item>
-          <item>
-        <title>Samsung’s Galaxy S25 event was an AI presentation with occasional phone hardware</title>
-        <link>https://arstechnica.com/gadgets/2025/01/samsungs-galaxy-s25-event-was-an-ai-presentation-with-occasional-phone-hardware/</link>
-                  <comments>https://arstechnica.com/gadgets/2025/01/samsungs-galaxy-s25-event-was-an-ai-presentation-with-occasional-phone-hardware/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kevin Purdy]]>
-        </dc:creator>
-        <pubDate>Wed, 22 Jan 2025 19:24:00 +0000</pubDate>
-        		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[android]]></category>
-		<category><![CDATA[galaxy ai]]></category>
-		<category><![CDATA[Gemini 2.0]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[Google Gemini]]></category>
-		<category><![CDATA[Samsung]]></category>
-		<category><![CDATA[samsung galaxy]]></category>
-		<category><![CDATA[samsung galaxy s25]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/01/samsungs-galaxy-s25-event-was-an-ai-presentation-with-occasional-phone-hardware/</guid>
-
-                  <description>
-            <![CDATA[Samsung somehow packed even more AI into its event, and phones, than last year.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Samsung announced the <a href="https://www.samsung.com/us/smartphones/galaxy-s25/">Galaxy S25, S25+</a>, and <a href="https://www.samsung.com/us/smartphones/galaxy-s25-ultra/">S25 Ultra</a> at its Unpacked event today. What is different from <a href="https://arstechnica.com/gadgets/2024/01/the-galaxy-s24-gets-seven-years-of-updates-1300-titanium-ultra-model/">last year's models</a>? With the phones themselves, not much, other than a new chipset and a wide camera. But pure AI optimism? Samsung managed to pack a whole lot more of that into its launch event and promotional materials.</p>
-<p>The corners on the S25 Ultra are a bit more rounded, the edges are flatter, and the bezels seem to be slightly thinner. The S25 and S25+ models have the same screen size as the S24 models, at 6.2 and 6.7 inches, respectively, while the Ultra notches up slightly from 6.8 to 6.9 inches.</p>
-<img width="640" height="427" src="https://cdn.arstechnica.net/wp-content/uploads/2025/01/005-product-galaxy-s25ultra-titaniumsilverblue-titaniumblack-titaniumgray-titaniumwhitesilver-640x427.jpg" class="center medium" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2025/01/005-product-galaxy-s25ultra-titaniumsilverblue-titaniumblack-titaniumgray-titaniumwhitesilver-640x427.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/005-product-galaxy-s25ultra-titaniumsilverblue-titaniumblack-titaniumgray-titaniumwhitesilver-1024x683.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/005-product-galaxy-s25ultra-titaniumsilverblue-titaniumblack-titaniumgray-titaniumwhitesilver-768x512.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/005-product-galaxy-s25ultra-titaniumsilverblue-titaniumblack-titaniumgray-titaniumwhitesilver-1536x1024.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/005-product-galaxy-s25ultra-titaniumsilverblue-titaniumblack-titaniumgray-titaniumwhitesilver-980x653.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/005-product-galaxy-s25ultra-titaniumsilverblue-titaniumblack-titaniumgray-titaniumwhitesilver-1440x960.jpg 1440w" sizes="auto, (max-width: 640px) 100vw, 640px">
-      Samsung's S25 Ultra, in titanium builds colored silver blue, black, gray, and white silver.
-        Credit:
-          Samsung
-      
-<p>The S25 Ultra, starting at $1,300, touts a <a href="https://arstechnica.com/gadgets/2024/10/qualcomm-brings-laptop-class-cpu-cores-to-phones-with-snapdragon-8-elite/">Snapdragon 8 Elite processor</a>, a new 50-megapixel ultra-wide lens, and what Samsung claims is improved detail in software-derived zoom images. It comes with the S Pen, a vestige of the departed Note line, but <a href="https://www.theverge.com/2025/1/22/24349083/samsung-galaxy-s25-ultra-s-pen-air-gestures-camera">as The Verge notes</a>, there is no Bluetooth included, so you can't pull off hand gestures with the pen off the screen or use it as a quirky remote camera trigger.</p><p><a href="https://arstechnica.com/gadgets/2025/01/samsungs-galaxy-s25-event-was-an-ai-presentation-with-occasional-phone-hardware/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/01/samsungs-galaxy-s25-event-was-an-ai-presentation-with-occasional-phone-hardware/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>68</slash:comments>
-        
-        
-        <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/galaxys25AI.jpg">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/galaxys25AI-500x500-1737572189.jpg" width="500"/>
-<media:credit>Samsung</media:credit></media:content>
-      </item>
-          <item>
-        <title>Fast radio burst in long-dead galaxy puzzles astronomers</title>
-        <link>https://arstechnica.com/science/2025/01/fast-radio-burst-in-long-dead-galaxy-puzzles-astronomers/</link>
-                  <comments>https://arstechnica.com/science/2025/01/fast-radio-burst-in-long-dead-galaxy-puzzles-astronomers/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jennifer Ouellette]]>
-        </dc:creator>
-        <pubDate>Wed, 22 Jan 2025 18:06:00 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[astronomy]]></category>
-		<category><![CDATA[astrophysics]]></category>
-		<category><![CDATA[fast radio bursts]]></category>
-		<category><![CDATA[magnetars]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/science/2025/01/fast-radio-burst-in-long-dead-galaxy-puzzles-astronomers/</guid>
-
-                  <description>
-            <![CDATA[Result "challenges existing theories that tie FRB origins to phenomena in star-forming galaxies."]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Fast radio bursts (FRBs) are puzzling phenomena because their details are so difficult to resolve, and observations to date have been inconsistent. Astronomers added another piece to the puzzle with the detection of an FRB that seems to originate in a dead galaxy that is no longer producing new stars, according to a <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ad9ddc">new paper</a> published in The Astrophysical Journal Letters, along with a <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ad9de2">related paper</a> on the event from scientists at Northwestern University.</p>
-<p>As <a href="https://arstechnica.com/science/2020/11/its-coming-from-inside-the-galaxy-first-fast-radio-burst-source-idd/">we've reported previously</a>, FRBs involve a <a href="https://en.wikipedia.org/wiki/Fast_radio_burst">sudden blast</a> of radio-frequency radiation that lasts just a few microseconds. Astronomers have observed over a thousand of them to date; some come from sources that repeatedly emit FRBs, while others seem to burst once and go silent. You can produce this sort of sudden surge of energy by destroying something. But the existence of repeating sources suggests that at least some of them are produced by an object that survives the event. That has led to a focus on compact objects, like neutron stars and black holes—especially a class of neutron stars called magnetars—as likely sources. Only about 3 percent of FRBs are of the repeating variety.</p>
-<p>There have also been many detected FRBs that don't seem to repeat at all, <a href="https://arstechnica.com/science/2023/03/fast-radio-burst-may-point-to-the-first-blitzar-weve-observed/">suggesting that</a> the conditions that produce them may destroy their source. That's consistent <a href="https://go.skimresources.com/?id=100098X1555750&amp;isjs=1&amp;jv=15.4.2-stackpath&amp;sref=https%3A%2F%2Farstechnica.com%2Fscience%2F2023%2F03%2Ffast-radio-burst-may-point-to-the-first-blitzar-weve-observed%2F&amp;url=http%3A%2F%2Fdx.doi.org%2F10.1038%2Fs41550-023-01917-x&amp;xs=1&amp;xtz=240&amp;xuuid=3ff74213e34d09c57c230a7cd5dcaa05&amp;cci=4b274c4ca7451974397c72687220aa06&amp;xcust=xid:fr1737560785577jfh" data-orig-url="https://go.skimresources.com/?id=100098X1555750&amp;isjs=1&amp;jv=15.4.2-stackpath&amp;sref=https%3A%2F%2Farstechnica.com%2Fscience%2F2023%2F03%2Ffast-radio-burst-may-point-to-the-first-blitzar-weve-observed%2F&amp;url=http%3A%2F%2Fdx.doi.org%2F10.1038%2Fs41550-023-01917-x&amp;xs=1&amp;xtz=240&amp;xuuid=3ff74213e34d09c57c230a7cd5dcaa05&amp;cci=4b274c4ca7451974397c72687220aa06" data-ml-id="0" data-ml="true" data-xid="fr1737560785577jfh">with a blitzar</a>—a bizarre astronomical event caused by the sudden collapse of an overly massive neutron star. The event is driven by an earlier merger of two neutron stars; this creates an unstable intermediate neutron star, which is kept from collapsing immediately by its rapid spin.</p><p><a href="https://arstechnica.com/science/2025/01/fast-radio-burst-in-long-dead-galaxy-puzzles-astronomers/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/01/fast-radio-burst-in-long-dead-galaxy-puzzles-astronomers/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>27</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/burst1CROP-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/burst1CROP-500x500.jpg" width="500"/>
-<media:credit>Gemini Observatory</media:credit><media:text>The new ability to pinpoint sources of fast radio bursts places one recent burst in a surprising location.</media:text></media:content>
-      </item>
-          <item>
-        <title>Trump announces $500B “Stargate” AI infrastructure project with AGI aims</title>
-        <link>https://arstechnica.com/ai/2025/01/trump-announces-500b-stargate-ai-infrastructure-project-with-agi-aims/</link>
-                  <comments>https://arstechnica.com/ai/2025/01/trump-announces-500b-stargate-ai-infrastructure-project-with-agi-aims/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Benj Edwards]]>
-        </dc:creator>
-        <pubDate>Wed, 22 Jan 2025 15:20:56 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[agi]]></category>
-		<category><![CDATA[AI datacenter]]></category>
-		<category><![CDATA[AI infrastructure]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[Larry Ellison]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[Masayoshi Son]]></category>
-		<category><![CDATA[MGX]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[NVIDIA]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[oracle]]></category>
-		<category><![CDATA[sam altman]]></category>
-		<category><![CDATA[SoftBank]]></category>
-		<category><![CDATA[stargate]]></category>
-		<category><![CDATA[texas]]></category>
-		<category><![CDATA[UAE]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/ai/2025/01/trump-announces-500b-stargate-ai-infrastructure-project-with-agi-aims/</guid>
-
-                  <description>
-            <![CDATA[Trump: "The largest AI infrastructure project in history, and it's taking place here in America."]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>On Tuesday, OpenAI, SoftBank, Oracle, and <a href="https://www.al-monitor.com/originals/2024/03/what-know-about-mgx-uaes-latest-ai-investment-firm">MGX</a> <a href="https://openai.com/index/announcing-the-stargate-project/">announced</a> plans to form Stargate, a new company that will invest $500 billion in AI computing infrastructure across the United States over four years. The announcement came during a White House meeting with President Donald Trump, who called it the "largest AI infrastructure project in history."</p>
-<p>The goal is to kickstart building more data centers to expand computing capacity for current and future AI projects, including OpenAI's goal of "AGI," which the company <a href="https://openai.com/our-structure/">defines</a> as a highly autonomous AI system that "outperforms humans at most economically valuable work."</p>
-<p>"This infrastructure will secure American leadership in AI, create hundreds of thousands of American jobs, and generate massive economic benefit for the entire world," <a href="https://openai.com/index/announcing-the-stargate-project/">wrote</a> OpenAI in a press statement. "This project will not only support the re-industrialization of the United States but also provide a strategic capability to protect the national security of America and its allies."</p><p><a href="https://arstechnica.com/ai/2025/01/trump-announces-500b-stargate-ai-infrastructure-project-with-agi-aims/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/01/trump-announces-500b-stargate-ai-infrastructure-project-with-agi-aims/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>236</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/stargate_header-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/stargate_header-500x500.jpg" width="500"/>
-<media:credit>Andrew Harnik via Getty Images</media:credit><media:text>US President Donald Trump speaks in the Roosevelt Room of the White House while SoftBank CEO Masayoshi Son, Oracle CTO Larry Ellison, and OpenAI CEO Sam Altman look on on January 21, 2025, in Washington, DC. </media:text></media:content>
-      </item>
-          <item>
-        <title>The Internet is (once again) awash with IoT botnets delivering record DDoSes</title>
-        <link>https://arstechnica.com/security/2025/01/the-internet-is-once-again-awash-with-iot-botnets-delivering-record-ddoses/</link>
-                  <comments>https://arstechnica.com/security/2025/01/the-internet-is-once-again-awash-with-iot-botnets-delivering-record-ddoses/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Dan Goodin]]>
-        </dc:creator>
-        <pubDate>Wed, 22 Jan 2025 15:10:58 +0000</pubDate>
-        		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/security/2025/01/the-internet-is-once-again-awash-with-iot-botnets-delivering-record-ddoses/</guid>
-
-                  <description>
-            <![CDATA[Bigger, badder DDoSes are flooding the Internet. Dismal IoT security is largely to blame.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>We’re only three weeks into 2025, and it’s already shaping up to be the year of Internet of Things-driven DDoSes. Reports are rolling in of threat actors infecting thousands of home and office routers, web cameras, and other Internet-connected devices.</p>
-<p>Here is a sampling of research released since the first of the year.</p>
-<h2>Lax security, ample bandwidth</h2>
-<p>A <a href="https://blog.cloudflare.com/ddos-threat-report-for-2024-q4/">post</a> on Tuesday from content-delivery network Cloudflare reported on a recent distributed denial-of-service attack that delivered 5.6 terabits per second of junk traffic—a new record for the largest DDoS ever reported. The deluge, directed at an unnamed Cloudflare customer, came from 13,000 IoT devices infected by a variant of Mirai, a potent piece of malware with a <a href="https://arstechnica.com/information-technology/2016/09/why-the-silencing-of-krebsonsecurity-opens-a-troubling-chapter-for-the-net/">long history</a> of delivering massive DDoSes of once-unimaginable sizes.</p><p><a href="https://arstechnica.com/security/2025/01/the-internet-is-once-again-awash-with-iot-botnets-delivering-record-ddoses/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2025/01/the-internet-is-once-again-awash-with-iot-botnets-delivering-record-ddoses/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>40</slash:comments>
-        
-        
-        <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/12/ddos-for-hire.jpg">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/12/ddos-for-hire-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>Silk Road founder Ross Ulbricht pardoned by Trump 10 years into life sentence</title>
-        <link>https://arstechnica.com/tech-policy/2025/01/silk-road-founder-ross-ulbricht-pardoned-by-trump-10-years-into-life-sentence/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/01/silk-road-founder-ross-ulbricht-pardoned-by-trump-10-years-into-life-sentence/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ashley Belanger]]>
-        </dc:creator>
-        <pubDate>Wed, 22 Jan 2025 14:55:02 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[bitcoin]]></category>
-		<category><![CDATA[black market]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[money laundering]]></category>
-		<category><![CDATA[ross ulbricht]]></category>
-		<category><![CDATA[Silk Road]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/01/silk-road-founder-ross-ulbricht-pardoned-by-trump-10-years-into-life-sentence/</guid>
-
-                  <description>
-            <![CDATA[Trump confirmed the pardon was partly to “honor” Libertarian movement.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p style="font-weight: 400;">The <a href="https://arstechnica.com/tech-policy/2024/11/bitcoin-hits-record-high-as-trump-vows-to-end-crypto-crackdown/">self-declared "pro-crypto president"</a> Donald Trump pardoned Silk Road founder Ross Ulbricht on Tuesday.</p>
-<p style="font-weight: 400;">Ulbricht, 40, was about 10 years into his life sentence for helming an online black market where drug dealers, money launderers, and traffickers used bitcoins to mask more than $214 million in illicit trades. (Ars thoroughly documented the Silk Road saga <a href="https://arstechnica.com/series/the-silk-road-bust/">here</a>.)</p>
-<p style="font-weight: 400;">Trump had pledged at the Libertarian National Convention to set Ulbricht free while on the campaign trail, agreeing with supporters who believe that Ulbricht's long sentence was a harsh example of government overreach.</p><p><a href="https://arstechnica.com/tech-policy/2025/01/silk-road-founder-ross-ulbricht-pardoned-by-trump-10-years-into-life-sentence/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/01/silk-road-founder-ross-ulbricht-pardoned-by-trump-10-years-into-life-sentence/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>267</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-461481376-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-461481376-500x500.jpg" width="500"/>
-<media:credit>Spencer Platt / Staff | Getty Images News</media:credit><media:text>Max Dickstein stands with other upporters of Ross Ulbricht, the creator and operator of the Silk Road underground market, in front of a Manhattan federal court house on the first day of jury selection for his trial on January 13, 2015 in New York City. </media:text></media:content>
-      </item>
-          <item>
-        <title>Google increases investment in Anthropic by another $1 billion</title>
-        <link>https://arstechnica.com/ai/2025/01/google-increases-investment-in-anthropic-by-another-1-billion/</link>
-                  <comments>https://arstechnica.com/ai/2025/01/google-increases-investment-in-anthropic-by-another-1-billion/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[George Hammond, Madhumita Murgia, and Arash Massoudi, Financial Times]]>
-        </dc:creator>
-        <pubDate>Wed, 22 Jan 2025 14:19:39 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[LLMs]]></category>
-		<category><![CDATA[syndication]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/ai/2025/01/google-increases-investment-in-anthropic-by-another-1-billion/</guid>
-
-                  <description>
-            <![CDATA[AI group is closing in on a $60 billion valuation.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Google is making a fresh investment of more than $1 billion into OpenAI rival Anthropic, boosting its position in the start-up as Silicon Valley titans rush to develop cutting-edge artificial intelligence systems.</p>
-<p>The Alphabet-owned search behemoth had already committed about $2 billion to Anthropic and was now increasing its stake in the group, according to four people with knowledge of the situation.</p>
-<p>Anthropic, best known for its Claude family of AI models, is one of the leading start-ups in the new wave of generative AI companies building tools to generate text, images, and code in response to user prompts.</p><p><a href="https://arstechnica.com/ai/2025/01/google-increases-investment-in-anthropic-by-another-1-billion/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/01/google-increases-investment-in-anthropic-by-another-1-billion/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>28</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/03/claude_llm_hero_1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/03/claude_llm_hero_1-500x500.jpg" width="500"/>
-<media:credit>Anthropic</media:credit><media:text>The Anthropic Claude logo.</media:text></media:content>
-      </item>
-          <item>
-        <title>All the things Nintendo didn’t tell us about the Switch 2</title>
-        <link>https://arstechnica.com/gaming/2025/01/all-the-things-nintendo-didnt-tell-us-about-the-switch-2/</link>
-                  <comments>https://arstechnica.com/gaming/2025/01/all-the-things-nintendo-didnt-tell-us-about-the-switch-2/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kyle Orland]]>
-        </dc:creator>
-        <pubDate>Wed, 22 Jan 2025 12:00:20 +0000</pubDate>
-        		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Gaming]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gaming/2025/01/all-the-things-nintendo-didnt-tell-us-about-the-switch-2/</guid>
-
-                  <description>
-            <![CDATA[Some informed speculation on everything from price to battery life.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>After <a href="https://arstechnica.com/gaming/2021/09/the-thing-after-the-switch-how-overheard-chatter-led-to-a-nintendo-goose-chase/">literal years</a> of <a href="https://arstechnica.com/gaming/2023/07/report-nintendos-next-console-ships-late-2024-still-supports-cartridges/">speculation and leaks</a>, it was nice to get <a href="https://arstechnica.com/gaming/2025/01/its-official-take-a-first-look-at-the-switch-2/">an actual glimpse of the Switch 2 hardware</a> (and <a href="https://arstechnica.com/gaming/2025/01/how-big-is-the-switch-2-trailer-suggests-7-9-screen-10-5-width-w-joy-cons/">its increased size</a>) last week. But even with the console officially "revealed," there's still a wide range of important unknown Switch 2 details that Nintendo has yet to address.</p>
-<p>As we wait for the company to dribble out additional information in the coming weeks and months, we thought we'd take a quick look at the biggest outstanding questions and concerns we still have about Nintendo's next gaming platform, along with some analysis of what we know, what we can guess, and what we expect on each score.</p>
-<h2>Launch date?</h2>
-<p>The teaser trailer's promise of a "2025" Switch 2 release technically covers any launch date between "tomorrow" and December 31. But we can probably narrow that window down a bit.</p><p><a href="https://arstechnica.com/gaming/2025/01/all-the-things-nintendo-didnt-tell-us-about-the-switch-2/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2025/01/all-the-things-nintendo-didnt-tell-us-about-the-switch-2/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>60</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/switch2-questions-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/switch2-questions-500x500-1737484433.jpg" width="500"/>
-<media:credit>Aurich Lawson | Nintendo</media:credit><media:text>How many gold coins need to be in that question block to pay for a Switch 2?</media:text></media:content>
-      </item>
-          <item>
-        <title>Bambu Lab pushes a “control system” for 3D printers, and boy, did it not go well</title>
-        <link>https://arstechnica.com/gadgets/2025/01/bambu-lab-pushes-a-control-system-for-3d-printers-and-boy-did-it-not-go-well/</link>
-                  <comments>https://arstechnica.com/gadgets/2025/01/bambu-lab-pushes-a-control-system-for-3d-printers-and-boy-did-it-not-go-well/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kevin Purdy]]>
-        </dc:creator>
-        <pubDate>Tue, 21 Jan 2025 23:21:41 +0000</pubDate>
-        		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[3D printing]]></category>
-		<category><![CDATA[APIs]]></category>
-		<category><![CDATA[bambu lab]]></category>
-		<category><![CDATA[big tree technology]]></category>
-		<category><![CDATA[jeff geerling]]></category>
-		<category><![CDATA[mqtt]]></category>
-		<category><![CDATA[panda touch]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/01/bambu-lab-pushes-a-control-system-for-3d-printers-and-boy-did-it-not-go-well/</guid>
-
-                  <description>
-            <![CDATA[Security measure? Boxing out third-party tools? Or something more complex?]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p><a href="https://bambulab.com/en">Bambu Lab</a>, a major maker of 3D printers for home users and commercial "farms," is pushing an update to its devices that it claims will improve security while still offering third-party tools "authorized" access. Some in the user community—and 3D printing advocates broadly—are pushing back, suggesting the firm has other, more controlling motives.</p>
-<p>As is perhaps appropriate for 3D printing, this matter has many layers, some long-standing arguments about freedom and rights baked in, and a good deal of heat.</p>
-<img width="640" height="300" src="https://cdn.arstechnica.net/wp-content/uploads/2025/01/bambu_cloud1-640x300.png" class="center medium" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2025/01/bambu_cloud1-640x300.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/bambu_cloud1-1024x481.png 1024w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/bambu_cloud1-768x360.png 768w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/bambu_cloud1-1536x721.png 1536w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/bambu_cloud1-980x460.png 980w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/bambu_cloud1-1440x676.png 1440w, https://cdn.arstechnica.net/wp-content/uploads/2025/01/bambu_cloud1.png 1920w" sizes="auto, (max-width: 640px) 100vw, 640px">
-      Bambu Lab's image marketing Bambu Handy, its cloud service that allows you to "Control your printer anytime anywhere, also we support SD card and local network to print the projects."
-        Credit:
-          Bambu Lab
-      
-<h2>Printing more, tweaking less</h2>
-<p>Bambu Lab, launched in 2022, has stood out in the burgeoning consumer 3D printing market because of its printers' capacity for printing at high speeds without excessive tinkering or maintenance. The <a href="https://bambulab.com/en-us/x1">product page for the X1 series</a>, the printer first targeted for new security, starts with the credo, "We hated 3D printing as much as we loved it." Bambu's faster, less fussy multicolor printers garnered attention—including an ongoing <a href="https://arstechnica.com/gadgets/2024/08/stratasys-sues-bambu-lab-over-patents-used-widely-by-consumer-3d-printers/">patent lawsuit from established commercial printer Stratasys</a>.</p><p><a href="https://arstechnica.com/gadgets/2025/01/bambu-lab-pushes-a-control-system-for-3d-printers-and-boy-did-it-not-go-well/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/01/bambu-lab-pushes-a-control-system-for-3d-printers-and-boy-did-it-not-go-well/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>234</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/bambu_making-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/bambu_making-500x500.jpg" width="500"/>
-<media:credit>Bambu Lab</media:credit></media:content>
-      </item>
-          <item>
-        <title>New year, same streaming headaches: Netflix raises prices by up to 16 percent</title>
-        <link>https://arstechnica.com/gadgets/2025/01/new-netflix-price-hikes-increase-subscription-fees-by-up-to-2-50-a-month/</link>
-                  <comments>https://arstechnica.com/gadgets/2025/01/new-netflix-price-hikes-increase-subscription-fees-by-up-to-2-50-a-month/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Scharon Harding]]>
-        </dc:creator>
-        <pubDate>Tue, 21 Jan 2025 22:20:36 +0000</pubDate>
-        		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Netflix]]></category>
-		<category><![CDATA[streaming]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/01/new-netflix-price-hikes-increase-subscription-fees-by-up-to-2-50-a-month/</guid>
-
-                  <description>
-            <![CDATA[The cheapest ad-free plan increases from $15.49 to $17.99. ]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Today Netflix, the biggest streaming service based on subscriber count, announced that it will <a href="https://arstechnica.com/gadgets/2024/10/subscribers-are-paying-more-for-streaming-content-that-they-are-enjoying-less/">increase subscription prices</a> by up to $2.50 per month.</p>
-<p>In a letter to investors [<a href="https://cdn.arstechnica.net/wp-content/uploads/2025/01/FINAL-Q4-24-Shareholder-Letter.pdf">PDF</a>], Netflix announced price changes starting today in the US, Canada, Argentina, and Portugal.</p>
-<p>People who subscribe to Netflix's cheapest ad-free plan (Standard) will see the biggest increase in monthly costs. The subscription will go from $15.49/month to $17.99/month, representing a 16.14 percent bump. The subscription tier allows commercial-free streaming for up to two devices and maxes out at 1080p resolution. It's Netflix's most popular subscription in the US, <a href="https://www.bloomberg.com/news/articles/2025-01-21/netflix-posts-record-quarter-thanks-to-live-sports-squid-game">Bloomberg</a> noted.</p><p><a href="https://arstechnica.com/gadgets/2025/01/new-netflix-price-hikes-increase-subscription-fees-by-up-to-2-50-a-month/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/01/new-netflix-price-hikes-increase-subscription-fees-by-up-to-2-50-a-month/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>179</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/10/squid-game-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/10/squid-game-scaled-500x500-1737496054.jpg" width="500"/>
-<media:credit>Netflix</media:credit><media:text>A scene from the Netflix original series &lt;em&gt;Squid Game&lt;/em&gt;. </media:text></media:content>
-      </item>
-          <item>
-        <title>RIP EA’s Origin launcher: We knew ye all too well, unfortunately</title>
-        <link>https://arstechnica.com/gaming/2025/01/rip-eas-origin-launcher-we-knew-ye-all-too-well-unfortunately/</link>
-                  <comments>https://arstechnica.com/gaming/2025/01/rip-eas-origin-launcher-we-knew-ye-all-too-well-unfortunately/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Samuel Axon]]>
-        </dc:creator>
-        <pubDate>Tue, 21 Jan 2025 21:17:47 +0000</pubDate>
-        		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[EA]]></category>
-		<category><![CDATA[EA app]]></category>
-		<category><![CDATA[ea play]]></category>
-		<category><![CDATA[Electronic Arts]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[Origin]]></category>
-		<category><![CDATA[Steam]]></category>
-		<category><![CDATA[Windows]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gaming/2025/01/rip-eas-origin-launcher-we-knew-ye-all-too-well-unfortunately/</guid>
-
-                  <description>
-            <![CDATA[End of 32-bit Windows support offered an excuse to put the nail in the coffin.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>After 14 years, EA will retire its controversial Origin game distribution app for Windows, the company<a href="https://help.ea.com/en/help/ea/ea-app/update-operating-system-for-ea-app/"> announced</a>. Origin will stop working on April 17, 2025. Folks still using it will be directed to install the newer EA app, which launched in 2022.</p>
-<p>The launch of Origin in 2011 was a flashpoint of controversy among gamers, as EA—already not a beloved company by this point—began pulling titles like<em> Crysis 2</em> from the popular Steam platform to drive players to its own launcher.</p>
-<p>Frankly, it all made sense from EA's point of view. For a publisher that size, Valve had relatively little to offer in terms of services or tools, yet it was taking a big chunk of games' revenue. Why wouldn't EA want to get that money back?</p><p><a href="https://arstechnica.com/gaming/2025/01/rip-eas-origin-launcher-we-knew-ye-all-too-well-unfortunately/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2025/01/rip-eas-origin-launcher-we-knew-ye-all-too-well-unfortunately/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>103</slash:comments>
-        
-        
-        <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/10/ea-origin-circling-bowl.jpg">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2019/10/ea-origin-circling-bowl-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson / Getty Images</media:credit><media:text>Things did not go well for Origin.</media:text></media:content>
-      </item>
-          <item>
-        <title>Apple Intelligence, previously opt-in by default, enabled automatically in iOS 18.3</title>
-        <link>https://arstechnica.com/gadgets/2025/01/ios-18-3-macos-15-3-updates-switch-to-enabling-apple-intelligence-by-default/</link>
-                  <comments>https://arstechnica.com/gadgets/2025/01/ios-18-3-macos-15-3-updates-switch-to-enabling-apple-intelligence-by-default/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Andrew Cunningham]]>
-        </dc:creator>
-        <pubDate>Tue, 21 Jan 2025 20:33:41 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple intelligence]]></category>
-		<category><![CDATA[ios 18.3]]></category>
-		<category><![CDATA[macos 15.3]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/01/ios-18-3-macos-15-3-updates-switch-to-enabling-apple-intelligence-by-default/</guid>
-
-                  <description>
-            <![CDATA[Opting out is still possible in Settings, but only after setup is complete.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Apple has sent out release candidate builds of the upcoming iOS 18.3, iPadOS 18.3, and macOS 15.3 updates to developers today. But they come with one tweak that hasn't been reported on, <a href="https://www.macrumors.com/2025/01/21/macos-sequoia-15-3-apple-intelligence-opt-out/">per MacRumors</a>: They enable all of the AI-powered Apple Intelligence features by default during setup. When Apple Intelligence was initially released in iOS 18.1, the features were off by default, unless users chose to opt-in and enable them.</p>
-<p>Those who still wish to opt out of Apple Intelligence features will now have to do it after their devices are set up by navigating to the Apple Intelligence &amp; Siri section in the Settings app.</p>
-<p>Apple Intelligence will only be enabled by default for hardware that supports it. For the iPhone, that's just the iPhone 15 Pro series, iPhone 16 series, and iPhone 16 Pro series. It goes further back on the iPad and Mac—Apple Intelligence works on any model with an M1 processor or newer.</p><p><a href="https://arstechnica.com/gadgets/2025/01/ios-18-3-macos-15-3-updates-switch-to-enabling-apple-intelligence-by-default/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/01/ios-18-3-macos-15-3-updates-switch-to-enabling-apple-intelligence-by-default/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>154</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/apple_intelligence_hero-1152x648-1736205346.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/apple_intelligence_hero-500x500.jpg" width="500"/>
-<media:credit>Apple</media:credit><media:text>Apple Intelligence was unveiled at WWDC 2024.</media:text></media:content>
-      </item>
-          <item>
-        <title>Cutting-edge Chinese “reasoning” model rivals OpenAI o1—and it’s free to download</title>
-        <link>https://arstechnica.com/ai/2025/01/china-is-catching-up-with-americas-best-reasoning-ai-models/</link>
-                  <comments>https://arstechnica.com/ai/2025/01/china-is-catching-up-with-americas-best-reasoning-ai-models/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Benj Edwards]]>
-        </dc:creator>
-        <pubDate>Tue, 21 Jan 2025 18:28:54 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[AI censorship]]></category>
-		<category><![CDATA[AI reasoning]]></category>
-		<category><![CDATA[china]]></category>
-		<category><![CDATA[Chinese AI]]></category>
-		<category><![CDATA[deepseek]]></category>
-		<category><![CDATA[deepseek R1]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[o1]]></category>
-		<category><![CDATA[o3]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[OpenAI o1]]></category>
-		<category><![CDATA[simulated reasoning]]></category>
-		<category><![CDATA[SR models]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/ai/2025/01/china-is-catching-up-with-americas-best-reasoning-ai-models/</guid>
-
-                  <description>
-            <![CDATA[DeepSeek R1 is free to run locally and modify, and it matches OpenAI's o1 in several benchmarks.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>On Monday, Chinese AI lab <a href="https://en.wikipedia.org/wiki/DeepSeek">DeepSeek</a> released its new <a href="https://github.com/deepseek-ai/DeepSeek-R1">R1 model family</a> under an open <a href="https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero/blob/main/LICENSE">MIT license</a>, with its largest version containing 671 billion parameters. The company claims the model performs at levels comparable to <a href="https://arstechnica.com/information-technology/2024/09/openais-new-reasoning-ai-models-are-here-o1-preview-and-o1-mini/">OpenAI's o1</a> simulated reasoning (SR) model on several math and coding benchmarks.</p>
-<p>Alongside the release of the main <a href="https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero">DeepSeek-R1-Zero</a> and <a href="https://huggingface.co/deepseek-ai/DeepSeek-R1">DeepSeek-R1</a> models, DeepSeek published six smaller "DeepSeek-R1-Distill" versions ranging from 1.5 billion to 70 billion parameters. These distilled models are based on existing open source architectures like Qwen and Llama, trained using data generated from the full R1 model. The smallest version can run on a laptop, while the full model requires far more substantial computing resources.</p>
-<p>The releases immediately caught the attention of the AI community because most existing open-weights models—which can often be run and fine-tuned on local hardware—have lagged behind proprietary models like OpenAI's o1 in so-called reasoning benchmarks. Having these capabilities available in an MIT-licensed model that anyone can study, modify, or use commercially potentially marks a shift in what's possible with publicly available AI models.</p><p><a href="https://arstechnica.com/ai/2025/01/china-is-catching-up-with-americas-best-reasoning-ai-models/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/01/china-is-catching-up-with-americas-best-reasoning-ai-models/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>180</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/chinese_ai_header-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/chinese_ai_header-500x500.jpg" width="500"/>
-<media:credit>Wong Yu Liang</media:credit></media:content>
-      </item>
-          <item>
-        <title>Satellite firm bucks miniaturization trend, aims to build big for big rockets</title>
-        <link>https://arstechnica.com/space/2025/01/company-aims-to-build-larger-satellites-for-new-era-of-launch-abundance/</link>
-                  <comments>https://arstechnica.com/space/2025/01/company-aims-to-build-larger-satellites-for-new-era-of-launch-abundance/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Eric Berger]]>
-        </dc:creator>
-        <pubDate>Tue, 21 Jan 2025 18:04:31 +0000</pubDate>
-        		<category><![CDATA[Space]]></category>
-		<category><![CDATA[k2]]></category>
-		<category><![CDATA[satellite]]></category>
-		<category><![CDATA[space]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2025/01/company-aims-to-build-larger-satellites-for-new-era-of-launch-abundance/</guid>
-
-                  <description>
-            <![CDATA["We decided to go after one of the big problems."]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>A potentially disruptive satellite company launched its first spacecraft last week as part of a Transporter mission flown on SpaceX's Falcon 9 rocket.</p>
-<p>The demonstration mission from a California-based firm named K2 aims to "burn down" the risk of the technology that will fly on the company's first full-sized satellite. So far, so good, but it's early days for the demo flight.</p>
-<p>Founded a little less than three years ago, K2 seeks to disrupt the production of large satellites by focusing on vertical integration and taking advantage of large launch vehicles, such as SpaceX's Starship and Blue Origin's New Glenn, which can throw a lot of payload into space.</p><p><a href="https://arstechnica.com/space/2025/01/company-aims-to-build-larger-satellites-for-new-era-of-launch-abundance/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/01/company-aims-to-build-larger-satellites-for-new-era-of-launch-abundance/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>57</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/Option_3_vF-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/Option_3_vF-500x500.jpg" width="500"/>
-<media:credit>K2</media:credit><media:text>A view inside the K2 factory.</media:text></media:content>
       </item>
       </channel>
 </rss>
