@@ -4,7 +4,7 @@
     <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
     <link>https://arstechnica.com</link>
     <description>All Ars Technica stories</description>
-    <lastBuildDate>Sat, 25 Jan 2025 15:34:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2025 01:35:58 +0000</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>
       hourly    </sy:updatePeriod>
@@ -43,7 +43,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>145</slash:comments>
+                  <slash:comments>218</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-1291017169-1152x648.jpg" width="1152">
@@ -81,7 +81,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>139</slash:comments>
+                  <slash:comments>193</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/GettyImages-1250822831-1152x648.jpeg" width="1152">
@@ -120,7 +120,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>51</slash:comments>
+                  <slash:comments>70</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/DSC09949-1152x648.jpg" width="1152">
@@ -159,7 +159,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>37</slash:comments>
+                  <slash:comments>45</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/robot_reading_a_book-1152x648.jpg" width="1152">
@@ -197,7 +197,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>77</slash:comments>
+                  <slash:comments>83</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-1185447958-1152x648.jpg" width="1152">
@@ -233,7 +233,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>45</slash:comments>
+                  <slash:comments>60</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/chess3-1152x648.jpg" width="1152">
@@ -271,7 +271,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>86</slash:comments>
+                  <slash:comments>102</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-110883323-1152x648.jpg" width="1152">
@@ -303,7 +303,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>85</slash:comments>
+                  <slash:comments>101</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/08/getty-binary-data-money-1152x648-1737735430.jpg" width="1152">
@@ -343,7 +343,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>175</slash:comments>
+                  <slash:comments>194</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/IMG_2568-1152x648-1737702161.jpeg" width="1152">
@@ -412,7 +412,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>134</slash:comments>
+                  <slash:comments>137</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/subaru-1152x648.jpg" width="1152">
@@ -450,7 +450,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>285</slash:comments>
+                  <slash:comments>298</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2193286955-1152x648.jpg" width="1152">
@@ -481,7 +481,7 @@
               <![CDATA[<p>When threat actors use backdoor malware to gain access to a network, they want to make sure all their hard work can’t be leveraged by competing groups or detected by defenders. One countermeasure is to equip the backdoor with a passive agent that remains dormant until it receives what’s known in the business as a “magic packet.” On Thursday, researchers revealed that a never-before-seen backdoor that quietly took hold of dozens of enterprise VPNs running Juniper Network’s Junos OS has been doing just that.</p>
 <p>J-Magic, the tracking name for the backdoor, goes one step further to prevent unauthorized access. After receiving a magic packet hidden in the normal flow of TCP traffic, it relays a challenge to the device that sent it. The challenge comes in the form of a string of text that’s encrypted using the public portion of an RSA key. The initiating party must then respond with the corresponding plaintext, proving it has access to the secret key.</p>
 <h2>Open sesame</h2>
-<p>The lightweight backdoor is also notable because it resided only in memory, a trait that makes detection harder for defenders. The combination prompted researchers at Lumin Technology’s Black Lotus Lab to sit up and take notice.</p><p><a href="https://arstechnica.com/security/2025/01/backdoor-infecting-vpns-used-magic-packets-for-stealth-and-security/">Read full article</a></p>
+<p>The lightweight backdoor is also notable because it resided only in memory, a trait that makes detection harder for defenders. The combination prompted researchers at Lumen Technology’s Black Lotus Lab to sit up and take notice.</p><p><a href="https://arstechnica.com/security/2025/01/backdoor-infecting-vpns-used-magic-packets-for-stealth-and-security/">Read full article</a></p>
 <p><a href="https://arstechnica.com/security/2025/01/backdoor-infecting-vpns-used-magic-packets-for-stealth-and-security/#comments">Comments</a></p>
 ]]>
             </content:encoded>
@@ -524,7 +524,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>85</slash:comments>
+                  <slash:comments>86</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/pcgamer-1152x648-1737672090.jpg" width="1152">
@@ -563,7 +563,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>158</slash:comments>
+                  <slash:comments>161</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/robots_on_a_computer-1152x648.jpg" width="1152">
@@ -601,7 +601,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>471</slash:comments>
+                  <slash:comments>513</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2194442191-1024x648.jpg" width="1024">
@@ -640,7 +640,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>142</slash:comments>
+                  <slash:comments>143</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2194179246-1024x648.jpg" width="1024">
@@ -670,7 +670,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>96</slash:comments>
+                  <slash:comments>101</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/DOOM-The-Dark-Ages_06_Slayer-1152x648.png" width="1152">
@@ -706,7 +706,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>64</slash:comments>
+                  <slash:comments>65</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-532253660-1152x648.jpg" width="1152">
@@ -738,7 +738,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>377</slash:comments>
+                  <slash:comments>386</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/getty-brendan-carr-1152x648-1731010998.jpg" width="1152">
