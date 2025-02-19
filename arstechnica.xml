@@ -4,7 +4,7 @@
     <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
     <link>https://arstechnica.com</link>
     <description>All Ars Technica stories</description>
-    <lastBuildDate>Mon, 17 Feb 2025 22:01:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2025 01:11:50 +0000</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>
       hourly    </sy:updatePeriod>
@@ -19,6 +19,444 @@
 	<height>32</height>
 </image> 
       <item>
+        <title>In a last-minute decision, White House decides not to terminate NASA employees</title>
+        <link>https://arstechnica.com/space/2025/02/nasa-receives-11th-hour-reprieve-from-probationary-employee-cuts/</link>
+                  <comments>https://arstechnica.com/space/2025/02/nasa-receives-11th-hour-reprieve-from-probationary-employee-cuts/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Eric Berger]]>
+        </dc:creator>
+        <pubDate>Wed, 19 Feb 2025 00:52:45 +0000</pubDate>
+        		<category><![CDATA[Space]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[terminations]]></category>
+		<category><![CDATA[trump white house]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/space/2025/02/nasa-receives-11th-hour-reprieve-from-probationary-employee-cuts/</guid>
+
+                  <description>
+            <![CDATA[It was not immediately clear what changed.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Unlike workers at many other federal agencies this week, probationary employees at NASA were not terminated on Tuesday.</p>
+<p>For much of the day employees at the space agency <a href="https://arstechnica.com/space/2025/02/by-the-end-of-today-nasas-workforce-will-be-about-10-percent-smaller/">anticipated a directive</a> from the White House Office of Personnel Management to fire these employees, but it never came. "We were on pins and needles throughout the day," said one senior official at Johnson Space Center in Houston on Tuesday afternoon.</p>
+<p>However, by late in the afternoon, several field center directors received confirmation from the White House that their probationary employees—of which there are more than 1,000 across the agency's headquarters and 10 field centers—would not be terminated. NASA had sought exemptions for all of these employees, who comprise about 6 percent of NASA's workforce. Ars could not confirm whether the reprieve applied to some field centers or all 10 of them.</p><p><a href="https://arstechnica.com/space/2025/02/nasa-receives-11th-hour-reprieve-from-probationary-employee-cuts/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/02/nasa-receives-11th-hour-reprieve-from-probationary-employee-cuts/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>19</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/06/SpaceX-DM-2-Jun-3-2020-6414-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/06/SpaceX-DM-2-Jun-3-2020-6414-500x500.jpg" width="500"/>
+<media:credit>Trevor Mahlmann</media:credit><media:text>NASA worm. That is all.</media:text></media:content>
+      </item>
+          <item>
+        <title>Nvidia’s 50-series cards drop support for PhysX, impacting older games</title>
+        <link>https://arstechnica.com/gadgets/2025/02/batman-arkham-games-among-those-losing-physx-powers-on-newer-nvidia-gpus/</link>
+                  <comments>https://arstechnica.com/gadgets/2025/02/batman-arkham-games-among-those-losing-physx-powers-on-newer-nvidia-gpus/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kevin Purdy]]>
+        </dc:creator>
+        <pubDate>Tue, 18 Feb 2025 23:25:45 +0000</pubDate>
+        		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Batman: Arkham City]]></category>
+		<category><![CDATA[CUDA]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[PhysX]]></category>
+		<category><![CDATA[seamus blackley]]></category>
+		<category><![CDATA[the witcher 3]]></category>
+		<category><![CDATA[Tim Sweeney]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/02/batman-arkham-games-among-those-losing-physx-powers-on-newer-nvidia-gpus/</guid>
+
+                  <description>
+            <![CDATA[The 32-bit tech on older games can't bring snazzy effects forward.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Most PC games that you can play on a modern PC would run faster on an <a href="https://arstechnica.com/gadgets/2025/01/geforce-rtx-50-gpus-run-from-1999-to-549-lean-heavily-on-ai-generated-frames/">Nvidia RTX 5080 or 5090</a> than, say, a <a href="https://arstechnica.com/gadgets/2017/11/nvidia-gtx-1070-ti-review/">GTX 1070</a>. But some games, from a particular phase of enthusiasm for particles, destructible environments, and smooth-moving hair, will take a notable hit if their owners upgrade to the latest Nvidia cards.</p>
+<p>That's because <a href="https://developer.nvidia.com/physx-sdk">PhysX</a>, once a dedicated physics simulation tool and card that became a selling point for Nvidia's gear, has been largely deprecated on Nvidia 50-series cards. The transition was announced in January, but it seems to have taken some time for someone to notice the impact on 32-bit, PhysX-enabled games (<a href="https://www.pcgamesn.com/nvidia/geforce-rtx-50-series-cards-physx-support">as seen by PCGamesN</a>). The most recent of these affected games, <em>Assassin's Creek IV: Black Flag,</em> came out in 2013.</p>
+<p>What follows is a brief primer on PhysX: what it was, what it did, and why it's left out of Nvidia's road map.</p><p><a href="https://arstechnica.com/gadgets/2025/02/batman-arkham-games-among-those-losing-physx-powers-on-newer-nvidia-gpus/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/02/batman-arkham-games-among-those-losing-physx-powers-on-newer-nvidia-gpus/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>28</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/batman1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/batman1-500x500.jpg" width="500"/>
+<media:credit>Rocksteady Games/WB</media:credit><media:text>It's hard to tell from provided screenshots, but it seems like some of the rain particles here might be benefiting from some PhysX magic.</media:text></media:content>
+      </item>
+          <item>
+        <title>New Grok 3 release tops LLM leaderboards despite Musk-approved “based” opinions</title>
+        <link>https://arstechnica.com/ai/2025/02/new-grok-3-release-tops-llm-leaderboards-despite-musk-approved-based-opinions/</link>
+                  <comments>https://arstechnica.com/ai/2025/02/new-grok-3-release-tops-llm-leaderboards-despite-musk-approved-based-opinions/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Benj Edwards and Kyle Orland]]>
+        </dc:creator>
+        <pubDate>Tue, 18 Feb 2025 22:16:11 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgtp]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[grok]]></category>
+		<category><![CDATA[Grok 3]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[simulated reasoning]]></category>
+		<category><![CDATA[SR models]]></category>
+		<category><![CDATA[xAI]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/ai/2025/02/new-grok-3-release-tops-llm-leaderboards-despite-musk-approved-based-opinions/</guid>
+
+                  <description>
+            <![CDATA[xAI shows off new chatbot that calls legacy media outlets "garbage."]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>On Monday, Elon Musk's AI company, <a href="https://arstechnica.com/information-technology/2023/07/musk-announces-new-ai-company-that-seeks-to-understand-the-universe/">xAI</a>, released Grok 3, a new AI model family set to power chatbot features on the social network X. This latest release adds image analysis and simulated reasoning capabilities to the platform's <a href="https://arstechnica.com/information-technology/2024/03/elon-musks-xai-releases-grok-source-and-weights-taunting-openai/">existing text-</a> and <a href="https://arstechnica.com/information-technology/2024/08/musks-new-grok-upgrade-allows-x-users-to-create-largely-uncensored-ai-images/">image-generation tools</a>.</p>
+<p>Grok 3's release comes after the model went through months of training in <a href="https://arstechnica.com/information-technology/2024/07/elon-musk-claims-he-is-training-the-worlds-most-powerful-ai-by-every-metric/">xAI's Memphis data center</a> containing a reported 200,000 GPUs. During a livestream presentation on Monday, Musk <a href="https://x.com/elonmusk/status/1875357350393246114">echoed previous social media posts</a> describing Grok 3 as using 10 times more computing power than <a href="https://arstechnica.com/information-technology/2024/08/musks-new-grok-upgrade-allows-x-users-to-create-largely-uncensored-ai-images/">Grok 2</a>.</p>
+<p>Since news of Grok 3's imminent arrival <a href="https://www.reuters.com/technology/artificial-intelligence/elon-musk-says-grok-3-final-stages-outperforming-all-chatbots-2025-02-13/">emerged</a> last week, Musk has wasted no time <a href="https://x.com/elonmusk/status/1891112681538523215">showing</a> how he may intend to use Grok as a tool to represent his worldview in AI form. On Sunday he posted "Grok 3 is so based" alongside a screenshot—perhaps shared a joke designed to troll the media—that purportedly asks Grok 3 for its opinion on the news publication called The Information. In response, Grok replies:</p><p><a href="https://arstechnica.com/ai/2025/02/new-grok-3-release-tops-llm-leaderboards-despite-musk-approved-based-opinions/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/02/new-grok-3-release-tops-llm-leaderboards-despite-musk-approved-based-opinions/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>73</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/grok_1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/grok_1-500x500.jpg" width="500"/>
+<media:credit>VINCENT FEURAY via Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Streamer completes hitless run of seven FromSoft Soulslikes without leveling up</title>
+        <link>https://arstechnica.com/gaming/2025/02/the-god-run-dark-souls-player-beats-seven-games-at-level-1-without-taking-a-hit/</link>
+                  <comments>https://arstechnica.com/gaming/2025/02/the-god-run-dark-souls-player-beats-seven-games-at-level-1-without-taking-a-hit/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kyle Orland]]>
+        </dc:creator>
+        <pubDate>Tue, 18 Feb 2025 21:23:08 +0000</pubDate>
+        		<category><![CDATA[Gaming]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gaming/2025/02/the-god-run-dark-souls-player-beats-seven-games-at-level-1-without-taking-a-hit/</guid>
+
+                  <description>
+            <![CDATA[So, what's your excuse?]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>If you know just one thing about FromSoft's recent history of <a href="https://www.reddit.com/r/soulslikes/">so-called "Soulslike" games,</a> you probably know that they have a <a href="https://arstechnica.com/gaming/2016/04/dark-souls-3-review-marching-towards-masochism/">well-earned</a> <a href="https://arstechnica.com/gaming/2014/03/learning-how-to-die-in-dark-souls-ii/">reputation</a> for <a href="https://arstechnica.com/gaming/2022/03/is-elden-ring-really-that-hard-well-it-depends-what-you-mean-by-hard/">absolutely brutal difficulty</a>. But these titles apparently just weren't difficult enough for <a href="https://www.twitch.tv/dinossindgeil">streamer dinossindgeil</a> (aka <a href="https://x.com/dinossindgeil">Nico</a>) who spent the weekend beating seven of FromSoft's most punishing titles without taking a single hit or leveling up even once.</p>
+<p>Nico's conquest of what he calls "The God Run 3" <a href="https://x.com/dinossindgeil/status/1592208311344037888">dates back to 2022</a>, when he took down all three Dark Souls games as well as <em>Demon's Souls</em>, <em>Bloodborne</em>, <em>Sekiro: Shadows Die Twice</em>, and <em>Elden Ring</em> live on his Twitch stream without sustaining any damage from enemies. Back then, though, Nico relied at least a little bit on grinding leveled-up characters and high-end gear to make the game's most difficult bosses a bit more manageable. Even with that advantage, though, a successful God Run 3 completion took Nico 120 days of real-time effort due to frequent restarts whenever he took a single hit.</p>
+<p>This time around, Nico cranked up the difficulty even further by deciding not to level his characters even once (though he was able to increase his stats and abilities in some games with level 1-accessible items and weapons). After <a href="https://www.twitch.tv/videos/2331460758">his first level 1 God Run attempt two months ago</a>, Nico's efforts culminated in a <a href="https://www.youtube.com/watch?v=ripk0RYwEgo">roughly 11-hour</a> <a href="https://www.youtube.com/watch?v=whMssrH1uX4">multi-day marathon run</a> over the weekend, which saw <a href="https://www.youtube.com/watch?v=VgMBmsNiUJY">Nico break down in tears</a> at the end of the ordeal.</p><p><a href="https://arstechnica.com/gaming/2025/02/the-god-run-dark-souls-player-beats-seven-games-at-level-1-without-taking-a-hit/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2025/02/the-god-run-dark-souls-player-beats-seven-games-at-level-1-without-taking-a-hit/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>42</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/godrun3-1152x648-1739912770.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/godrun3-500x500-1739912777.jpg" width="500"/>
+<media:credit>dinossindgeil</media:credit><media:text>Nico breaks down in tears after completing his "God Run"</media:text></media:content>
+      </item>
+          <item>
+        <title>Acer CEO says its PC prices to increase by 10 percent in response to Trump tariffs</title>
+        <link>https://arstechnica.com/gadgets/2025/02/acer-ceo-says-its-pc-prices-to-increase-by-10-percent-in-response-to-trump-tariffs/</link>
+                  <comments>https://arstechnica.com/gadgets/2025/02/acer-ceo-says-its-pc-prices-to-increase-by-10-percent-in-response-to-trump-tariffs/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Andrew Cunningham]]>
+        </dc:creator>
+        <pubDate>Tue, 18 Feb 2025 21:14:16 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Acer]]></category>
+		<category><![CDATA[china tariffs]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[PCs]]></category>
+		<category><![CDATA[Windows]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/02/acer-ceo-says-its-pc-prices-to-increase-by-10-percent-in-response-to-trump-tariffs/</guid>
+
+                  <description>
+            <![CDATA[Depending on the PC, prices could go up by as little as $20 or as much as $380.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>PC-manufacturer Acer has said that it plans to raise the prices of its PCs in the US by 10 percent, a direct response to the new 10 percent import tariff on Chinese goods that the Trump administration <a href="https://arstechnica.com/tech-policy/2025/02/tariffs-on-biggest-us-trading-partners-likely-to-spike-cost-of-cars-tech/">announced earlier this month</a>.</p>
+<p>"We will have to adjust the end user price to reflect the tariff," said Acer CEO Jason Chen in <a href="https://www.telegraph.co.uk/business/2025/02/16/computer-giant-to-raise-prices-by-10pc-in-response-to-trump/">an interview with The Telegraph</a>. "We think 10 percent probably will be the default price increase because of the import tax. It’s very straightforward."</p>
+<p>These price increases won't roll out right away, according to Chen—products shipped from China before the tariffs went into effect earlier this month won't be subject to the increased import taxes—but we can expect them to show up in PC price tags over the next few weeks.</p><p><a href="https://arstechnica.com/gadgets/2025/02/acer-ceo-says-its-pc-prices-to-increase-by-10-percent-in-response-to-trump-tariffs/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/02/acer-ceo-says-its-pc-prices-to-increase-by-10-percent-in-response-to-trump-tariffs/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>63</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/nitro-blaze-11-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/nitro-blaze-11-500x500.jpg" width="500"/>
+<media:credit>Acer</media:credit><media:text>Acer's Nitro Blaze 11, one of several PCs that will become more expensive as a result of Trump administration tariffs on goods imported from China.</media:text></media:content>
+      </item>
+          <item>
+        <title>Microsoft warns that the powerful XCSSET macOS malware is back with new tricks</title>
+        <link>https://arstechnica.com/security/2025/02/microsoft-warns-that-the-powerful-xcsset-macos-malware-is-back-with-new-tricks/</link>
+                  <comments>https://arstechnica.com/security/2025/02/microsoft-warns-that-the-powerful-xcsset-macos-malware-is-back-with-new-tricks/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Dan Goodin]]>
+        </dc:creator>
+        <pubDate>Tue, 18 Feb 2025 21:04:55 +0000</pubDate>
+        		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[MacOS]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Xcode]]></category>
+		<category><![CDATA[xcsset]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/security/2025/02/microsoft-warns-that-the-powerful-xcsset-macos-malware-is-back-with-new-tricks/</guid>
+
+                  <description>
+            <![CDATA[XCSSET has been targeting Mac users since 2020.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Microsoft said it has detected a new variant of XCSSET, a powerful macOS malware family that has targeted developers and users since at least 2020.</p>
+<p>The variant, which Microsoft <a href="https://x.com/MsftSecIntel/status/1891410993265123662">reported Monday</a>, marked the first publicly known update to the malware since 2022. The malware first came to light in 2020, when security firm Trend Micro <a href="https://documents.trendmicro.com/assets/pdf/XCSSET_Technical_Brief.pdf">said</a> it had targeted app developers after spreading through a publicly available project the attacker wrote for Xcode, a developer tool Apple makes freely available. The malware gained immediate attention because it exploited what, at the time, were two zero-day vulnerabilities, a testament to the resourcefulness of the entity behind the attacks.</p>
+<p>In 2021, XCSSET surfaced again, first when it was used to <a href="https://arstechnica.com/gadgets/2021/03/attackers-are-trying-awfully-hard-to-backdoor-ios-developers-macs/">backdoor developers’ devices</a> and a few months later when researchers found it <a href="https://arstechnica.com/gadgets/2021/05/hackers-exploit-a-macos-0day-that-allows-them-to-screenshot-infected-macs/">exploiting</a> what at the time was a new zero-day.</p><p><a href="https://arstechnica.com/security/2025/02/microsoft-warns-that-the-powerful-xcsset-macos-malware-is-back-with-new-tricks/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/02/microsoft-warns-that-the-powerful-xcsset-macos-malware-is-back-with-new-tricks/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>15</slash:comments>
+        
+        
+        <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>3D map of exoplanet atmosphere shows wacky climate</title>
+        <link>https://arstechnica.com/science/2025/02/3d-map-of-exoplanet-atmosphere-shows-wacky-climate/</link>
+                  <comments>https://arstechnica.com/science/2025/02/3d-map-of-exoplanet-atmosphere-shows-wacky-climate/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jennifer Ouellette]]>
+        </dc:creator>
+        <pubDate>Tue, 18 Feb 2025 19:04:01 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[astrophysics]]></category>
+		<category><![CDATA[exoplanet atmospheres]]></category>
+		<category><![CDATA[exoplanets]]></category>
+		<category><![CDATA[spectroscopy]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2025/02/3d-map-of-exoplanet-atmosphere-shows-wacky-climate/</guid>
+
+                  <description>
+            <![CDATA["This planet’s atmosphere behaves in ways that challenge our understanding of how weather works."]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Astronomers have detected over 5,800 confirmed <a href="https://en.wikipedia.org/wiki/Exoplanet">exoplanets</a>. One extreme class is <a href="https://en.wikipedia.org/wiki/Hot_Jupiter">ultra-hot Jupiters</a>, of particular interest because they can provide a unique window into planetary atmospheric dynamics. According to <a href="https://www.nature.com/articles/s41586-025-08664-1">a new paper</a> published in the journal Nature, astronomers have mapped the 3D structure of the layered atmosphere of one such ultra-hot Jupiter-size exoplanet, revealing powerful winds that create intricate weather patterns across that atmosphere. A <a href="https://exoplanetes.umontreal.ca/wp-content/uploads/2025/02/Prinoth-et-al.-2025-WASP-121b.pdf">companion paper</a> published in the journal Astronomy and Astrophysics reported on the unexpected identification of titanium in the exoplanet's atmosphere as well.</p>
+<p>As <a href="https://arstechnica.com/science/2019/07/tess-mission-finds-nearby-3-planet-system-thats-a-perfect-planet-lab/">previously reported</a>, thanks to the massive trove of exoplanets discovered by the Kepler mission, we now have a good idea of what kinds of planets are out there, where they orbit, and how common the different types are. What we lack is a good sense of what that implies in terms of the conditions on the planets themselves. Kepler can tell us how big a planet is, but it doesn't know what the planet is made of. And planets in the "habitable zone" around stars could be consistent with anything from a blazing hell to a frozen rock.</p>
+<p>Like the <a href="https://arstechnica.com/science/2018/04/nasas-new-planet-finder-is-in-space-now-what/">Transiting Exoplanet Survey Satellite</a> (TESS), Kepler identifies planets using the transit method. This works for systems in which the planets orbit in a plane that takes them between their host star and Earth. As this occurs, the planet blocks a small fraction of the starlight that we see from Earth (or nearby orbits). If these dips in light occur with regularity, they're diagnostic of something orbiting the star.</p><p><a href="https://arstechnica.com/science/2025/02/3d-map-of-exoplanet-atmosphere-shows-wacky-climate/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/02/3d-map-of-exoplanet-atmosphere-shows-wacky-climate/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>25</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/exoplanet1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/exoplanet1-500x500.jpg" width="500"/>
+<media:credit>ESO/M. Kornmesser</media:credit><media:text>The 3D structure of the atmosphere of the exoplanet Tylos</media:text></media:content>
+      </item>
+          <item>
+        <title>OpenAI board considers special voting powers to prevent Elon Musk takeover</title>
+        <link>https://arstechnica.com/tech-policy/2025/02/openai-board-considers-special-voting-powers-to-prevent-elon-musk-takeover/</link>
+                  <comments>https://arstechnica.com/tech-policy/2025/02/openai-board-considers-special-voting-powers-to-prevent-elon-musk-takeover/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jon Brodkin]]>
+        </dc:creator>
+        <pubDate>Tue, 18 Feb 2025 17:31:35 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[openai]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/02/openai-board-considers-special-voting-powers-to-prevent-elon-musk-takeover/</guid>
+
+                  <description>
+            <![CDATA[Report: "Outsized voting power" could let nonprofit board retain control.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>OpenAI is considering granting new voting rights to its nonprofit board in a move that could help it fight an unsolicited takeover bid from Elon Musk, the <a href="https://www.ft.com/content/5af7279f-5996-46f8-a7b9-f35d966880a0">Financial Times reported last night</a>. Citing people familiar with the discussions, the FT wrote that CEO "Sam Altman and other board members are weighing a range of new governance mechanisms after OpenAI converts into a more conventional for-profit company."</p>
+<p>"Giving the nonprofit's board outsized voting power would ensure it retain[s] control of the restructured company and [is] able to over-rule other investors including existing backers such as Microsoft and SoftBank," the FT wrote. "While no firm decisions have been made, special voting rights would also ensure OpenAI can fight off hostile bids from outsiders such as Musk."</p>
+<p>We contacted OpenAI about the report and will update this article if it provides any comment.</p><p><a href="https://arstechnica.com/tech-policy/2025/02/openai-board-considers-special-voting-powers-to-prevent-elon-musk-takeover/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/02/openai-board-considers-special-voting-powers-to-prevent-elon-musk-takeover/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>67</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/openai-sam-altman-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/openai-sam-altman-500x500-1739898913.jpg" width="500"/>
+<media:credit>Getty Images | Jason Redmond/AFP</media:credit><media:text>OpenAI CEO Sam Altman speaks during the Microsoft Build conference at the Seattle Convention Center Summit Building in Seattle, Washington on May 21, 2024. (Photo by Jason Redmond / AFP)</media:text></media:content>
+      </item>
+          <item>
+        <title>By the end of today, NASA’s workforce will be about 10 percent smaller</title>
+        <link>https://arstechnica.com/space/2025/02/by-the-end-of-today-nasas-workforce-will-be-about-10-percent-smaller/</link>
+                  <comments>https://arstechnica.com/space/2025/02/by-the-end-of-today-nasas-workforce-will-be-about-10-percent-smaller/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Eric Berger]]>
+        </dc:creator>
+        <pubDate>Tue, 18 Feb 2025 14:52:55 +0000</pubDate>
+        		<category><![CDATA[Space]]></category>
+		<category><![CDATA[cuts]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[workforce]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/space/2025/02/by-the-end-of-today-nasas-workforce-will-be-about-10-percent-smaller/</guid>
+
+                  <description>
+            <![CDATA[A dark and painful day at a space agency that brings so much light and joy to the world.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Spread across NASA's headquarters and 10 field centers, which dot the United States from sea to sea, the space agency has had a workforce of nearly <a href="https://www.nasa.gov/organization/#:~:text=The%20agency's%20organization%20comprises%20a,for%20the%20benefit%20of%20humanity.">18,000 civil servants</a>.</p>
+<p>However, by the end of today, that number will have shrunk by about 10 percent since the beginning of the second Trump administration four weeks ago. And the world's preeminent space agency may still face significant additional cuts.</p>
+<p>According to sources, about 750 employees at NASA accepted the "fork in the road" offer to take deferred resignation from the space agency later this year. This sounds like a lot of people, but generally about 1,000 people leave the agency every year, so effectively, many of these people might just be getting paid to leave jobs they were already planning to exit from.</p><p><a href="https://arstechnica.com/space/2025/02/by-the-end-of-today-nasas-workforce-will-be-about-10-percent-smaller/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/02/by-the-end-of-today-nasas-workforce-will-be-about-10-percent-smaller/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>343</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/osiris-rex-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/osiris-rex-500x500.jpg" width="500"/>
+<media:credit>NASA/Goddard/University of Arizona</media:credit><media:text>In this illustration, NASA’s OSIRIS-REx spacecraft collects a sample from the asteroid Bennu. The agency's superpower is its capacity to dazzle us.</media:text></media:content>
+      </item>
+          <item>
+        <title>Can public trust in science survive a second battering?</title>
+        <link>https://arstechnica.com/science/2025/02/can-public-trust-in-science-survive-a-second-battering/</link>
+                  <comments>https://arstechnica.com/science/2025/02/can-public-trust-in-science-survive-a-second-battering/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Claudia López Lloreda, Undark Magazine]]>
+        </dc:creator>
+        <pubDate>Tue, 18 Feb 2025 14:35:53 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[science education]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[trust in science]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2025/02/can-public-trust-in-science-survive-a-second-battering/</guid>
+
+                  <description>
+            <![CDATA[Public trust in science has shown a certain resiliency, but it is being tested like never before.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Public trust in science has been in the spotlight in recent years: After the US presidential election in November, one Wall Street Journal <a href="https://www.wsj.com/health/healthcare/kennedy-trump-vaccines-covid-skeptics-cfdef1bd">headline</a> declared that "Science Lost America’s Trust.” Another publication called 2024 “<a href="https://theweek.com/science/distrust-science-politics-2024-public-trust-vaccines-milk-pandemic">the year of distrust in science</a>.”</p>
+<p>Some of that may be due to legitimate concerns: Public health officials have been <a href="https://academic.oup.com/jpubhealth/article/43/2/e307/6130872">criticized</a> for their lack of transparency during critical moments, including the COVID-19 pandemic. And experts have noted the influence of political factors. For instance, the first Trump administration repeatedly <a href="https://www.nytimes.com/2019/12/28/climate/trump-administration-war-on-science.html">undermined</a> scientists—a trend repeating in his <a href="https://blog.ucsusa.org/jules-barbati-dajches/how-science-has-fared-in-the-first-two-weeks-of-trump-2-0/">second term</a> so far.</p>
+<p>But what does the research say about where public trust in science, doctors, and health care institutions actually stands? In recent years, researchers have been increasingly looking into quantifying these sentiments. And indeed, <a href="https://apnorc.org/projects/major-declines-in-the-publics-confidence-in-science-in-the-wake-of-the-pandemic/">multiple</a> <a href="https://www.pewresearch.org/science/2022/02/15/americans-trust-in-scientists-other-groups-declines/">surveys</a> and <a href="https://www.pnas.org/doi/10.1073/pnas.2319488121">studies</a> have reported the COVID-19 pandemic correlated with a <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2821693">decline</a> in trust in the years following the initial outbreak. This decrease, though, seems to be waning as new research shows a clearer picture of trust across time. One 2024 study suggests Trump’s attacks on science during his first term did not have the significant impact many experts feared—and may have even <a href="https://www.science.org/content/article/survey-suggests-trump-s-attacks-boosted-public-trust-science">boosted</a> confidence among certain segments of the population.</p><p><a href="https://arstechnica.com/science/2025/02/can-public-trust-in-science-survive-a-second-battering/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/02/can-public-trust-in-science-survive-a-second-battering/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>209</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/science-protest-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/science-protest-500x500.jpg" width="500"/>
+<media:credit>Erik McGregor via Getty</media:credit></media:content>
+      </item>
+          <item>
+        <title>Review: Asus’ ROG Flow Z13 tablet takes the asterisk off integrated GPUs</title>
+        <link>https://arstechnica.com/gadgets/2025/02/review-asus-rog-flow-z13-tablet-takes-the-asterisk-off-integrated-gpus/</link>
+                  <comments>https://arstechnica.com/gadgets/2025/02/review-asus-rog-flow-z13-tablet-takes-the-asterisk-off-integrated-gpus/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kevin Purdy]]>
+        </dc:creator>
+        <pubDate>Tue, 18 Feb 2025 14:00:58 +0000</pubDate>
+        		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ASUS]]></category>
+		<category><![CDATA[asus rog]]></category>
+		<category><![CDATA[asus rog flow z13]]></category>
+		<category><![CDATA[flow z13]]></category>
+		<category><![CDATA[Radeon 8060S]]></category>
+		<category><![CDATA[reviews]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/02/review-asus-rog-flow-z13-tablet-takes-the-asterisk-off-integrated-gpus/</guid>
+
+                  <description>
+            <![CDATA[Performance like an RTX 4060, but it's packed into a slightly heavy Surface-like.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<div class="table-wrapper"><table class="specifications right" width="300">
+<tbody>
+<tr>
+<th colspan="2">Specs at a glance: Asus ROG Flow Z13 (XS96 model)</th>
+</tr>
+<tr>
+<th>OS</th>
+<td>Windows 11 Pro</td>
+</tr>
+<tr>
+<th>CPU</th>
+<td>AMD Ryzen AI Max+ 395 (16 cores, 3.0 GHz)</td>
+</tr>
+<tr>
+<th>RAM</th>
+<td>32GB LPDDR5X-8000 (non-upgradeable; XS99 goes up to 128GB)</td>
+</tr>
+<tr>
+<th>GPU</th>
+<td>AMD Radeon 8060S (integrated)</td>
+</tr>
+<tr>
+<th>SSD</th>
+<td>1TB NVMe M.2 SSD 2230 (upgradeable)</td>
+</tr>
+<tr>
+<th>Battery</th>
+<td>70 WHr</td>
+</tr>
+<tr>
+<th>Display</th>
+<td>13.4-inch 2560x1600 180 Hz touchscreen</td>
+</tr>
+<tr>
+<th>Connectivity</th>
+<td>2x USB-C ports (USB4, DP 2.1, PD 3.0), 1x HDMI 2.1, 1 USB-A, microSD, 3.5 mm audio, 200W barrel charge</td>
+</tr>
+<tr>
+<th>Weight</th>
+<td>2.65 lb (1.2 kg) without keyboard, 3.51 lb (1.59 kg) with keyboard</td>
+</tr>
+<tr>
+<th>Price as tested</th>
+<td>$2,299 (pre-order at <a href="https://www.amazon.com/dp/B0DT7MNLTD">Amazon</a>, get notified at <a href="https://rog.asus.com/us/laptops/rog-flow/rog-flow-z13-2025/spec/">Asus</a>)</td>
+</tr>
+</tbody>
+</table></div>
+<p class="p1">I really like <a href="https://rog.asus.com/us/laptops/rog-flow/rog-flow-z13-2025/">Asus’ ROG Flow Z13</a> for what it is: a convertible tablet with way more gaming power than you would think. Looking at this thing, you might expect to see it propped up at an airport bar, in front of somebody talking into wireless headphones about Tim in Product. But there’s a lot of frame-rendering and multicore processing power inside this glass-fronted slab with a keyboard cover. It's an impressive showcase for AMD's leap forward in integrated power.</p>
+<p class="p1">The Z13 can rip through <i>Hitman</i> and <i>Shadow of the Tomb Raider</i> on their highest settings at its native 2560×1600 resolution. Turn the resolution down to a reasonable-for-this-size 1920×1080 and you can play <i>Cyberpunk 2077 </i>at its Ultra settings at 45–55 frames per second, depending on your power and upscaling preferences. On a device that is essentially a beefy Microsoft Surface, this is no small thing. The <a href="https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html">AMD Ryzen AI Max+ 395</a> "Strix Halo" inside the Z13, with the latest Ryzen 8060S GPU built into it, is not just capable—it's a step up from most of the gaming laptops out there.</p>
+<img width="1024" height="844" src="https://cdn.arstechnica.net/wp-content/uploads/2025/02/z13_overhead-1024x844.jpg" class="center large" alt="Asus ROG Flow Z13 on a wooden table, opened up and laid out." decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2025/02/z13_overhead-1024x844.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2025/02/z13_overhead-640x527.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2025/02/z13_overhead-768x633.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2025/02/z13_overhead-1536x1266.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2025/02/z13_overhead-980x807.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2025/02/z13_overhead-1440x1187.jpg 1440w, https://cdn.arstechnica.net/wp-content/uploads/2025/02/z13_overhead.jpg 1835w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
+      The Asus ROG Flow Z13, opened up and ready to play some benchmark games.
+        Credit:
+          Kevin Purdy
+      
+<p class="p1">As a Windows convertible, it has some interesting tech and notable upgrades from the 2022 product that was also called the ROG Flow Z13. Its webcam works with Windows Hello and logs you in 95 percent of the time. The keyboard has decent travel, the trackpad has a pleasant smoothness, and you can prop the thing up anywhere along the solid kickstand’s 170-degree range. It’s a Copilot+ PC if that matters to you, and when you’re not pushing ray-traced gaming frames, its battery life is no slouch.</p><p><a href="https://arstechnica.com/gadgets/2025/02/review-asus-rog-flow-z13-tablet-takes-the-asterisk-off-integrated-gpus/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/02/review-asus-rog-flow-z13-tablet-takes-the-asterisk-off-integrated-gpus/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>88</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/z13_side-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/z13_side-500x500.jpg" width="500"/>
+<media:credit>Kevin Purdy</media:credit></media:content>
+      </item>
+          <item>
         <title>Turning the Moon into a fuel depot will take a lot of power</title>
         <link>https://arstechnica.com/science/2025/02/turning-the-moon-into-a-fuel-depot-will-take-a-lot-of-power/</link>
                   <comments>https://arstechnica.com/science/2025/02/turning-the-moon-into-a-fuel-depot-will-take-a-lot-of-power/#comments</comments>
@@ -40,13 +478,13 @@
           </description>
                                 <content:encoded>
               <![CDATA[<p>If humanity is ever to spread out into the Solar System, we're going to need to find a way to put fuel into rockets somewhere other than the cozy confines of a launchpad on Earth. One option for that is in low-Earth orbit, which has the advantage of being located very close to said launch pads. But it has the considerable disadvantage of requiring a lot of energy to escape Earth's gravity—it takes a lot of fuel to put substantially less fuel into orbit.</p>
-<p>One alternative is to produce fuel on the Moon. We know there is hydrogen and oxygen present, and the Moon's gravity is far easier to overcome, meaning more of what we produce there can be used to send things deeper into the Solar System. But there is a tradeoff: any fuel production infrastructure will likely need to be built on Earth and sent to the Moon.</p>
-<p>How much infrastructure is that going to involve? A study released today by PNAS evaluates the energy costs of producing oxygen on the Moon, and finds that they're substantial: about 24 kWh per kilogram. This doesn't sound bad until you start considering how many kilograms we're going to eventually need.</p><p><a href="https://arstechnica.com/science/2025/02/turning-the-moon-into-a-fuel-depot-will-take-a-lot-of-power/">Read full article</a></p>
+<p>One alternative is to produce fuel on the Moon. We know there is hydrogen and oxygen present, and the Moon's gravity is far easier to overcome, meaning more of what we produce there can be used to send things deeper into the Solar System. But there is a tradeoff: Any fuel-production infrastructure will likely need to be built on Earth and sent to the Moon.</p>
+<p>How much infrastructure is that going to involve? A study released today by PNAS evaluates the energy costs of producing oxygen on the Moon and finds that they're substantial: about 24 kWh per kilogram. This doesn't sound bad until you start considering how many kilograms we're going to eventually need.</p><p><a href="https://arstechnica.com/science/2025/02/turning-the-moon-into-a-fuel-depot-will-take-a-lot-of-power/">Read full article</a></p>
 <p><a href="https://arstechnica.com/science/2025/02/turning-the-moon-into-a-fuel-depot-will-take-a-lot-of-power/#comments">Comments</a></p>
 ]]>
             </content:encoded>
                   
-                  <slash:comments>77</slash:comments>
+                  <slash:comments>183</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/08/image-2-1152x648.jpeg" width="1152">
@@ -139,7 +577,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>39</slash:comments>
+                  <slash:comments>94</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/lumiaphone-1152x648.jpeg" width="1152">
@@ -176,7 +614,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>44</slash:comments>
+                  <slash:comments>62</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2199506935-1152x648-1739809408.jpg" width="1152">
@@ -212,7 +650,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>107</slash:comments>
+                  <slash:comments>135</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/04/oil-storage-1024x648.jpg" width="1024">
@@ -246,7 +684,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>146</slash:comments>
+                  <slash:comments>256</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-1231496453-Large-1152x648.jpeg" width="1152">
@@ -279,7 +717,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>99</slash:comments>
+                  <slash:comments>135</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/jared-1152x648.jpg" width="1152">
@@ -312,7 +750,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>335</slash:comments>
+                  <slash:comments>525</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/tesla-protest-1024x648.jpg" width="1024">
@@ -347,7 +785,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>111</slash:comments>
+                  <slash:comments>150</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/reddit-treehouse-no-ai-1152x648.jpg" width="1152">
@@ -420,395 +858,12 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>84</slash:comments>
+                  <slash:comments>87</slash:comments>
         
         
         <media:content height="600" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/moon-rocks-1600x600-1-1152x600.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/moon-rocks-1600x600-1-500x500.jpg" width="500"/>
 <media:credit>NASA / GSFC / ASU</media:credit><media:text>Rocks retrieved from the Moon by recent missions could help reveal why the far side of the Moon that always faces away from Earth (right) looks so drastically different from the familiar near side of the Moon.</media:text></media:content>
-      </item>
-          <item>
-        <title>Trump has thrown a wrench into a national EV charging program</title>
-        <link>https://arstechnica.com/tech-policy/2025/02/trump-has-thrown-a-wrench-into-a-national-ev-charging-program/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/02/trump-has-thrown-a-wrench-into-a-national-ev-charging-program/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[ Lee Hedgepeth, Aman Azhar, Jake Bolster, Lisa Sorg, Sarah Mattalian, Inside Climate News]]>
-        </dc:creator>
-        <pubDate>Sat, 15 Feb 2025 12:07:10 +0000</pubDate>
-        		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[electric car charging stations]]></category>
-		<category><![CDATA[electrify america]]></category>
-		<category><![CDATA[EVs]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[trump administration]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/02/trump-has-thrown-a-wrench-into-a-national-ev-charging-program/</guid>
-
-                  <description>
-            <![CDATA[Electric charging projects have been thrown into chaos by the administration's directive. ]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p><em>This article originally appeared on </em><a href="https://insideclimatenews.org/news/13022025/trump-national-ev-charging-program/"><em>Inside Climate News</em></a><em>, a nonprofit, non-partisan news organization that covers climate, energy and the environment. Sign up for their newsletter </em><a href="https://insideclimatenews.org/newsletter/"><em>here</em></a><em>.</em></p>
-<p>For now, Priester’s will have to stick to its famous pecans in Fort Payne, Alabama. But maybe not for long.</p>
-<p>Priester’s Pecans, an Alabama staple, is one of more than half a dozen sites across the state slated to receive millions of dollars in federal funding to expand access to chargers for electric vehicles.</p><p><a href="https://arstechnica.com/tech-policy/2025/02/trump-has-thrown-a-wrench-into-a-national-ev-charging-program/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/02/trump-has-thrown-a-wrench-into-a-national-ev-charging-program/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>338</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/02/0227_EZ_flagship_charging_1250-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/02/0227_EZ_flagship_charging_1250-500x500.jpg" width="500"/>
-<media:credit>Roberto Baldwin</media:credit><media:text>A row of happy EVs charge with no drama, no phone calls to the support line, and no one shuffling spots.</media:text></media:content>
-      </item>
-          <item>
-        <title>How Diablo hackers uncovered a speedrun scandal</title>
-        <link>https://arstechnica.com/gaming/2025/02/the-diablo-hackers-that-debunked-a-record-speedrun/</link>
-                  <comments>https://arstechnica.com/gaming/2025/02/the-diablo-hackers-that-debunked-a-record-speedrun/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kyle Orland]]>
-        </dc:creator>
-        <pubDate>Sat, 15 Feb 2025 11:45:12 +0000</pubDate>
-        		<category><![CDATA[Gaming]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gaming/2025/02/the-diablo-hackers-that-debunked-a-record-speedrun/</guid>
-
-                  <description>
-            <![CDATA[Investigators decompiled the game to search through 2.2 billion random dungeon seeds.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>For years, Maciej "Groobo" Maselewski stood as the undisputed champion of <em>Diablo</em> speedrunning. His <a href="https://www.youtube.com/watch?v=dW8XorD9RwI">3-minute, 12-second Sorcerer run</a> looked all but unbeatable thanks to a combination of powerful (and allowable) glitch exploits along with what seemed like some unbelievable luck in the game's randomly generated dungeon.</p>
-<p>But when a team of other speedrunners started trying and failing to replicate that luck using outside software and analysis tools, the story behind Groobo's run began to fall apart. As the inconsistencies in the run <a href="https://diablo.tas.bot/">started to mount</a>, that team would conduct an automated search through billions of legitimate <em>Diablo</em> dungeons to prove beyond a shadow of a doubt that Groobo's game couldn't have taken place in any of them.</p>
-<p>"We just had a lot of curiosity and resentment that drove us to dig even deeper," team member Staphen told Ars Technica of their investigation. "Betrayal might be another way to describe it," team member AJenbo added. "To find out that this had been done illegitimately... and the person had both gotten and taken a lot of praise for their achievement."</p><p><a href="https://arstechnica.com/gaming/2025/02/the-diablo-hackers-that-debunked-a-record-speedrun/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2025/02/the-diablo-hackers-that-debunked-a-record-speedrun/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>116</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/diablo-debunk-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/diablo-debunk-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson</media:credit><media:text>The word Debunk radiating flames against a demonic background</media:text></media:content>
-      </item>
-          <item>
-        <title>Hyundai’s NACS adapter for EVs will be free to all existing owners</title>
-        <link>https://arstechnica.com/cars/2025/02/hyundais-nacs-adapter-for-evs-will-be-free-to-all-existing-owners/</link>
-                  <comments>https://arstechnica.com/cars/2025/02/hyundais-nacs-adapter-for-evs-will-be-free-to-all-existing-owners/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jonathan M. Gitlin]]>
-        </dc:creator>
-        <pubDate>Fri, 14 Feb 2025 23:54:55 +0000</pubDate>
-        		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[hyundai]]></category>
-		<category><![CDATA[NACS]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/cars/2025/02/hyundais-nacs-adapter-for-evs-will-be-free-to-all-existing-owners/</guid>
-
-                  <description>
-            <![CDATA[Existing Hyundai EV owners will just need their VIN to claim their free adapter.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Hyundai Ioniq 5s <a href="https://arstechnica.com/cars/2024/09/hyundai-ioniq-5s-will-be-made-in-usa-with-native-tesla-style-ports/">with NACS (J3400) ports</a>, as opposed to the CCS1 style, are starting to roll out of its factory in Savannah, Georgia. It's the first manufacturer to sell electric vehicles with native NACS ports—other than Tesla, that is, and you'll be able to read about our first drive in the model year 2025 Ioniq 5, as well as the new, off-roady Ioniq 5 XRT next week. But we've got some good news for owners of any existing Hyundai EVs out there—if your car has a CCS1 port, then next month, you're eligible for a free CCS1-NACS adapter.</p>
-<p>Hyundai wasn't the first OEM to ink a deal with Tesla to gain access to the Supercharger network, but it is ahead of Ford, General Motors, and Rivian in swapping to the Tesla-style charge ports. Existing owners get access to the large charging network, too, but they'll need an adapter to make use of the smaller NACS plugs.</p>
-<p>And those will be available next month, Hyundai told us. What's more, they're going to be <em>gratis</em>, <a href="https://meta.stackexchange.com/questions/21932/what-does-the-term-and-free-as-in-free-beer-mean">or free as in beer</a>. As long as you have a VIN, the automaker will send you the adapter, which you'll be able to order once the website goes live in March.</p><p><a href="https://arstechnica.com/cars/2025/02/hyundais-nacs-adapter-for-evs-will-be-free-to-all-existing-owners/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/02/hyundais-nacs-adapter-for-evs-will-be-free-to-all-existing-owners/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>100</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/Ioniq-5-at-supercharger-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/Ioniq-5-at-supercharger-500x500.jpg" width="500"/>
-<media:credit>Jonathan Gitlin</media:credit><media:text>From model year 2025, the Hyundai Ioniq 5 can charge at Superchargers without an adapter. For all earlier Hyundai EVs, that adapter will be free.</media:text></media:content>
-      </item>
-          <item>
-        <title>“The country is less safe”: CDC disease detective program gutted</title>
-        <link>https://arstechnica.com/health/2025/02/the-country-is-less-safe-cdc-disease-detective-program-gutted/</link>
-                  <comments>https://arstechnica.com/health/2025/02/the-country-is-less-safe-cdc-disease-detective-program-gutted/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Beth Mole]]>
-        </dc:creator>
-        <pubDate>Fri, 14 Feb 2025 22:41:39 +0000</pubDate>
-        		<category><![CDATA[Health]]></category>
-		<category><![CDATA[CDC]]></category>
-		<category><![CDATA[EIS]]></category>
-		<category><![CDATA[outbreaks]]></category>
-		<category><![CDATA[public health]]></category>
-		<category><![CDATA[Trump]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/health/2025/02/the-country-is-less-safe-cdc-disease-detective-program-gutted/</guid>
-
-                  <description>
-            <![CDATA[CDC's Epidemic Intelligence Service is as critical to public health as it is revered.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>The cadre of elite disease detectives at the Centers for Disease Control and Prevention is expected to be left in ruin today as the Trump administration continues to slash the federal workforce.</p>
-<p>Many members of the CDC's Epidemic Intelligence Service, EIS—a globally revered public health training program—were informed earlier Friday that they were about to be fired, according to reporting from <a href="https://www.statnews.com/2025/02/14/trump-cdc-cuts-include-epidemic-intelligence-service-outbreak-investigators/">Stat News</a>. Multiple sources told <a href="https://www.cbsnews.com/news/cdc-disease-detectives-doge-cuts-health-agencies/">CBS News</a> that half of EIS officers are among the ongoing cuts.</p>
-<p>The Trump administration is ousting thousands of probationary federal workers in a wide-scale effort to dramatically slim agencies.</p><p><a href="https://arstechnica.com/health/2025/02/the-country-is-less-safe-cdc-disease-detective-program-gutted/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/02/the-country-is-less-safe-cdc-disease-detective-program-gutted/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>339</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/GettyImages-1207345894-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/GettyImages-1207345894-500x500.jpg" width="500"/>
-<media:credit>Bloomberg | Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>ChatGPT can now write erotica as OpenAI eases up on AI paternalism</title>
-        <link>https://arstechnica.com/ai/2025/02/chatgpt-can-now-write-erotica-as-openai-eases-up-on-ai-paternalism/</link>
-                  <comments>https://arstechnica.com/ai/2025/02/chatgpt-can-now-write-erotica-as-openai-eases-up-on-ai-paternalism/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Benj Edwards]]>
-        </dc:creator>
-        <pubDate>Fri, 14 Feb 2025 21:44:03 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[AI assistants]]></category>
-		<category><![CDATA[AI paternalism]]></category>
-		<category><![CDATA[censorship]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[chatgtp]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[uncesnsored AI]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/ai/2025/02/chatgpt-can-now-write-erotica-as-openai-eases-up-on-ai-paternalism/</guid>
-
-                  <description>
-            <![CDATA[ChatGPT relaxes rules on sex and "gore" generations while prohibiting illegal content.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>On Wednesday, OpenAI published the latest version of its "<a href="https://model-spec.openai.com/2025-02-12.html">Model Spec</a>," a set of guidelines detailing how ChatGPT should behave and respond to user requests. The document reveals a notable shift in OpenAI's content policies, particularly around "sensitive" content like erotica and gore—allowing this type of content to be generated without warnings in "<a href="https://model-spec.openai.com/2025-02-12.html#sensitive_content">appropriate contexts</a>."</p>
-<p>The change in policy has been in the works since <a href="https://www.wired.com/story/openai-is-exploring-how-to-responsibly-generate-ai-porn/">May 2024</a>, when the original Model Spec document first <a href="https://cdn.openai.com/spec/model-spec-2024-05-08.html#dont-respond-with-nsfw-content">mentioned</a> that OpenAI was exploring "whether we can responsibly provide the ability to generate NSFW content in age-appropriate contexts through the API and ChatGPT."</p>
-<p>ChatGPT's guidelines now state that that "erotica or gore" may now be generated, but only under specific circumstances. "The assistant should not generate erotica, depictions of illegal or non-consensual sexual activities, or extreme gore, except in scientific, historical, news, creative or other contexts where sensitive content is appropriate," OpenAI writes. "This includes depictions in text, audio (e.g., erotic or violent visceral noises), or visual content."</p><p><a href="https://arstechnica.com/ai/2025/02/chatgpt-can-now-write-erotica-as-openai-eases-up-on-ai-paternalism/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/02/chatgpt-can-now-write-erotica-as-openai-eases-up-on-ai-paternalism/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>80</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/AI_content_police-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/AI_content_police-500x500.jpg" width="500"/>
-<media:credit>filo via Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>Louisiana officially ends mass vaccinations as RFK Jr. comes to power</title>
-        <link>https://arstechnica.com/health/2025/02/louisiana-officially-ends-mass-vaccinations-as-rfk-jr-comes-to-power/</link>
-                  <comments>https://arstechnica.com/health/2025/02/louisiana-officially-ends-mass-vaccinations-as-rfk-jr-comes-to-power/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Beth Mole]]>
-        </dc:creator>
-        <pubDate>Fri, 14 Feb 2025 21:30:21 +0000</pubDate>
-        		<category><![CDATA[Health]]></category>
-		<category><![CDATA[COVID-19]]></category>
-		<category><![CDATA[flu]]></category>
-		<category><![CDATA[Louisiana]]></category>
-		<category><![CDATA[robert f kennedy jr]]></category>
-		<category><![CDATA[vaccination]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/health/2025/02/louisiana-officially-ends-mass-vaccinations-as-rfk-jr-comes-to-power/</guid>
-
-                  <description>
-            <![CDATA[Staff reported a pullback from vaccines late last year, but nothing was in writing.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>As prominent anti-vaccine advocate Robert F. Kennedy Jr. was confirmed to the nation's top health position Thursday, Louisiana Surgeon General Ralph Abraham sent a memo to the state's health department saying that the state "will no longer promote mass vaccination" and barred staff from running seasonal vaccine campaigns, according to <a href="https://www.nola.com/news/healthcare_hospitals/louisiana-vaccines-abraham-department-health/article_e84828d8-ea38-11ef-af78-036bbfc0e22e.html#tncms-source=featured-3">a report by the Times-Picayune of New Orleans</a>.</p>
-<p>The memo echoes <a href="https://arstechnica.com/health/2024/12/louisiana-bars-health-dept-from-promoting-flu-covid-mpox-vaccines-report/">directives that state health employees say they were told in October and November</a>. In meetings at the time, employees learned of a policy shift that would end seasonal campaigns for flu, COVID-19, and mpox vaccines, but it was to be implemented discreetly and not put in writing.</p>
-<p>According to Abraham's memo, the abandonment of lifesaving vaccination campaigns is in service of individual choice. "For many illnesses, vaccines are one tool in the toolbox of ways to combat severe illness," <a href="https://www.nytimes.com/2025/02/13/us/louisiana-mass-vaccination.html?utm_campaign=KHN%3A%20First%20Edition&amp;utm_medium=email&amp;_hsenc=p2ANqtz-_Y7TRe-NKnZcOmmHnV7C7IMEv_iWgcHs3muaqUKW5uVpO71Tzao8VKW92hLUd1iiFYEU3PppG-nJwLPXAqYJbOgooaeA&amp;_hsmi=347361433&amp;utm_content=347361433&amp;utm_source=hs_email">according to The New York Times</a>, which also obtained a copy of the memo.</p><p><a href="https://arstechnica.com/health/2025/02/louisiana-officially-ends-mass-vaccinations-as-rfk-jr-comes-to-power/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/02/louisiana-officially-ends-mass-vaccinations-as-rfk-jr-comes-to-power/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>327</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-968446896-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-968446896-500x500.jpg" width="500"/>
-<media:credit>Getty | Bill Clark/CQ Roll Call</media:credit><media:text>Ralph Abraham on Wednesday, June 6, 2018. </media:text></media:content>
-      </item>
-          <item>
-        <title>What is device code phishing, and why are Russian spies so successful at it?</title>
-        <link>https://arstechnica.com/information-technology/2025/02/russian-spies-use-device-code-phishing-to-hijack-microsoft-accounts/</link>
-                  <comments>https://arstechnica.com/information-technology/2025/02/russian-spies-use-device-code-phishing-to-hijack-microsoft-accounts/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Dan Goodin]]>
-        </dc:creator>
-        <pubDate>Fri, 14 Feb 2025 21:16:11 +0000</pubDate>
-        		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[account takeovers]]></category>
-		<category><![CDATA[device code authorization]]></category>
-		<category><![CDATA[phishing]]></category>
-		<category><![CDATA[russia]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/02/russian-spies-use-device-code-phishing-to-hijack-microsoft-accounts/</guid>
-
-                  <description>
-            <![CDATA[Overlooked attack method has been used since last August in a rash of account takeovers.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Researchers have uncovered a sustained and ongoing campaign by Russian spies that uses a clever phishing technique to hijack Microsoft 365 accounts belonging to a wide range of targets, researchers warned.</p>
-<p>The technique is known as device code phishing. It exploits “device code flow,” a form of authentication formalized in the industry-wide <a href="https://tools.ietf.org/html/draft-ietf-oauth-device-flow-07#section-3.4">OAuth standard</a>. Authentication through device code flow is designed for logging printers, smart TVs, and similar devices into accounts. These devices typically don’t support browsers, making it difficult to sign in using more standard forms of authentication, such as entering user names, passwords, and two-factor mechanisms.</p>
-<p>Rather than authenticating the user directly, the input-constrained device displays an alphabetic or alphanumeric device code along with a link associated with the user account. The user opens the link on a computer or other device that’s easier to sign in with and enters the code. The remote server then sends a token to the input-constrained device that logs it into the account.</p><p><a href="https://arstechnica.com/information-technology/2025/02/russian-spies-use-device-code-phishing-to-hijack-microsoft-accounts/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2025/02/russian-spies-use-device-code-phishing-to-hijack-microsoft-accounts/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>22</slash:comments>
-        
-        
-        <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/phishing.jpeg">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/phishing-500x500.jpeg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>No penalties even when deputies share a woman’s nudes after an illegal phone search</title>
-        <link>https://arstechnica.com/tech-policy/2025/02/no-warrant-or-crimes-but-oregon-womans-nudes-were-shared-after-illegal-phone-search/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/02/no-warrant-or-crimes-but-oregon-womans-nudes-were-shared-after-illegal-phone-search/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Nate Anderson]]>
-        </dc:creator>
-        <pubDate>Fri, 14 Feb 2025 21:03:00 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[cell phones]]></category>
-		<category><![CDATA[searches]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/02/no-warrant-or-crimes-but-oregon-womans-nudes-were-shared-after-illegal-phone-search/</guid>
-
-                  <description>
-            <![CDATA[Government agents have "qualified immunity" for 2019 actions.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>In 2019, Haley Olson's life in Grant County, Oregon, was upended when people in town appeared to know about private nude photos that Olson kept on her phone. Worse, some of the people appeared to have seen and shared the photos. The incidents all had some relationship to the local sheriff's department, where Olson was dating one of the deputies.</p>
-<p>In July, for instance, a stranger in a sheriff's office uniform approached her to say that he had "heard there’s some pretty smokin’ pictures of you going around the sheriff’s office." Someone else saw a married couple, both of whom worked for the sheriff's office, looking at Olson's photos on the husband's phone. Other people also approached Olson with knowledge of her recent out-of-state arrest. One person called her "the drug dealer that likes to f--- cops."</p>
-<p>What was going on?</p><p><a href="https://arstechnica.com/tech-policy/2025/02/no-warrant-or-crimes-but-oregon-womans-nudes-were-shared-after-illegal-phone-search/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/02/no-warrant-or-crimes-but-oregon-womans-nudes-were-shared-after-illegal-phone-search/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>148</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-1391696700-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-1391696700-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>Once your phone is imaged, the data is out of your control.</media:text></media:content>
-      </item>
-          <item>
-        <title>Measles outbreak in undervaccinated Texas area doubles—again</title>
-        <link>https://arstechnica.com/health/2025/02/texas-measles-outbreak-climbs-to-48-cases-almost-all-kids-13-hospitalized/</link>
-                  <comments>https://arstechnica.com/health/2025/02/texas-measles-outbreak-climbs-to-48-cases-almost-all-kids-13-hospitalized/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Beth Mole]]>
-        </dc:creator>
-        <pubDate>Fri, 14 Feb 2025 20:04:47 +0000</pubDate>
-        		<category><![CDATA[Health]]></category>
-		<category><![CDATA[gaines county]]></category>
-		<category><![CDATA[measles]]></category>
-		<category><![CDATA[outbreak]]></category>
-		<category><![CDATA[texas]]></category>
-		<category><![CDATA[vaccination rate]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/health/2025/02/texas-measles-outbreak-climbs-to-48-cases-almost-all-kids-13-hospitalized/</guid>
-
-                  <description>
-            <![CDATA[The outbreak now spans four counties.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>A measles outbreak in an area of Texas with abysmal vaccination rates continues to mushroom, with cases doubling since Tuesday and expanding into additional counties.</p>
-<p>A week ago, officials reported <a href="https://arstechnica.com/health/2025/02/measles-outbreak-erupts-in-one-of-texas-least-vaccinated-counties/">nine confirmed cases</a> in Gaines County, at the border of New Mexico, which has one of the lowest vaccination rates among kindergartners in the state at just <a href="https://www.dshs.texas.gov/immunizations/data/school/coverage">about 82 percent</a>. On Tuesday, the <a href="https://arstechnica.com/health/2025/02/measles-outbreak-doubles-in-one-of-texas-least-vaccinated-counties/">cases climbed to 24</a>, all in Gaines. In Friday's update, the state health department reports that <a href="https://www.dshs.texas.gov/news-alerts/measles-outbreak-feb-14-2025">the case count has now reached 48 and spread to three nearby counties</a>, which also have vaccination rates below the 95 percent threshold that prevent vaccine-preventable diseases from spreading onward.</p>
-<p>Gaines now reports 42 cases. There's one case reported in Lynn County to the northeast, which has a 91 percent vaccination rate. Terry County, with a vaccination rate of 94 percent, reports three cases, and Yoakum County, with a vaccination rate of 92.5 percent, reports two cases. Terry and Yoakum are both directly north of Gaines.</p><p><a href="https://arstechnica.com/health/2025/02/texas-measles-outbreak-climbs-to-48-cases-almost-all-kids-13-hospitalized/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/02/texas-measles-outbreak-climbs-to-48-cases-almost-all-kids-13-hospitalized/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>244</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2152300024-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2152300024-500x500.jpg" width="500"/>
-<media:credit>Getty | Natalya Maisheva</media:credit><media:text>Measles viral disease, human skin covered with measles rash, vaccination concept</media:text></media:content>
-      </item>
-          <item>
-        <title>Man offers to buy city dump in last-ditch effort to recover $800M in bitcoins</title>
-        <link>https://arstechnica.com/tech-policy/2025/02/man-offers-to-buy-city-dump-in-last-ditch-effort-to-recover-800m-in-bitcoins/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/02/man-offers-to-buy-city-dump-in-last-ditch-effort-to-recover-800m-in-bitcoins/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ashley Belanger]]>
-        </dc:creator>
-        <pubDate>Fri, 14 Feb 2025 19:31:03 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[bitcoins]]></category>
-		<category><![CDATA[climate change]]></category>
-		<category><![CDATA[crypto mining]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[solar farm]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/02/man-offers-to-buy-city-dump-in-last-ditch-effort-to-recover-800m-in-bitcoins/</guid>
-
-                  <description>
-            <![CDATA[Bid from man tortured by trashed bitcoins seems unlikely to sway city council.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p style="font-weight: 400;">James Howells, the IT pro who <a href="https://arstechnica.com/tech-policy/2025/01/judge-ends-mans-11-year-quest-to-dig-up-landfill-and-recover-765m-in-bitcoin/">lost about 8,000 bitcoins in a landfill</a> more than a decade ago, thinks he has one last chance to dig up his buried treasure before it's lost forever.</p>
-<p style="font-weight: 400;">He wants to buy the landfill.</p>
-<p style="font-weight: 400;">In January, <a href="https://arstechnica.com/tech-policy/2025/01/judge-ends-mans-11-year-quest-to-dig-up-landfill-and-recover-765m-in-bitcoin/">Howells lost a court battle with Newport City Council</a> in Wales, which many expected would be his last shot at excavating the dump. But soon after, the Newport council revealed that it would be closing the landfill, arousing in Howells a new hope that the bitcoins—today worth nearly $800 million—might still be found.</p><p><a href="https://arstechnica.com/tech-policy/2025/02/man-offers-to-buy-city-dump-in-last-ditch-effort-to-recover-800m-in-bitcoins/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/02/man-offers-to-buy-city-dump-in-last-ditch-effort-to-recover-800m-in-bitcoins/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>195</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-1382627667-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-1382627667-500x500.jpg" width="500"/>
-<media:credit>Leonid Sukala | iStock / Getty Images Plus</media:credit></media:content>
-      </item>
-          <item>
-        <title>Asahi Linux lead resigns from Mac-based distro after tumultuous kernel debate</title>
-        <link>https://arstechnica.com/gadgets/2025/02/asahi-linux-lead-resigns-from-mac-based-distro-after-tumultuous-kernel-debate/</link>
-                  <comments>https://arstechnica.com/gadgets/2025/02/asahi-linux-lead-resigns-from-mac-based-distro-after-tumultuous-kernel-debate/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kevin Purdy]]>
-        </dc:creator>
-        <pubDate>Fri, 14 Feb 2025 19:04:24 +0000</pubDate>
-        		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Apple silicon]]></category>
-		<category><![CDATA[asahi linux]]></category>
-		<category><![CDATA[hector martin]]></category>
-		<category><![CDATA[Linus Torvalds]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[Linux kernel]]></category>
-		<category><![CDATA[linux kernel mailing list]]></category>
-		<category><![CDATA[rust]]></category>
-		<category><![CDATA[rust for linux]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/02/asahi-linux-lead-resigns-from-mac-based-distro-after-tumultuous-kernel-debate/</guid>
-
-                  <description>
-            <![CDATA[Hector Martin cites burnout, and Rust for Linux oppostion, in resigning.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Working at the intersection of Apple's newest hardware and Linux kernel development, for the benefit of a free distribution, was <a href="https://arstechnica.com/gadgets/2022/03/asahi-linux-is-already-running-on-the-mac-studios-new-m1-ultra-chip/">never going to be easy</a>. But it's been an especially hard couple of weeks for Hector Martin, project lead for Asahi Linux, capping off years of what he describes as burnout, user entitlement, and political battles within the Linux kernel community about Rust code.</p>
-<p>In a post on his site, "<a href="https://marcan.st/2025/02/resigning-as-asahi-linux-project-lead/">Resigning as Asahi Linux project lead</a>," Martin summarizes his history with hardware hacking projects, including his time with the Wii homebrew scene (Team Twiizers/<a href="https://wiibrew.org/wiki/Fail0verflow">fail0verflow</a>), which had its share of insistent users desperate to play pirated games. Martin shifted his focus, and when Apple unveiled its own silicon with the M1 series, Martin writes, "I realized that making it run Linux was my dream project." This time, there was no jailbreaking and a relatively open, if tricky, platform.</p>
-<p>Support and donations came quickly. The first two years saw rapid advancement of a platform built "from scratch, with zero vendor support or documentation." Upstreaming code to the Linux kernel, across "practically every Linux subsystem," was an "<em>incredibly</em> frustrating experience" (emphasis Martin's).</p><p><a href="https://arstechnica.com/gadgets/2025/02/asahi-linux-lead-resigns-from-mac-based-distro-after-tumultuous-kernel-debate/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/02/asahi-linux-lead-resigns-from-mac-based-distro-after-tumultuous-kernel-debate/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>286</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-521477958-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-521477958-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>An illustration of the Linux community's reception to, and discussion regarding, the inclusion of newer programming languages into the unpaid project, staged at a New Hampshire scrap facility.</media:text></media:content>
       </item>
       </channel>
 </rss>
