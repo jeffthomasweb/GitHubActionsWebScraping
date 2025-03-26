@@ -4,7 +4,7 @@
     <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
     <link>https://arstechnica.com</link>
     <description>All Ars Technica stories</description>
-    <lastBuildDate>Tue, 25 Mar 2025 02:14:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 00:20:16 +0000</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>
       hourly    </sy:updatePeriod>
@@ -19,7 +19,475 @@
 	<height>32</height>
 </image> 
       <item>
-        <title>As preps continue, it’s looking more likely NASA will fly the Artemis II mission</title>
+        <title>RFK Jr. claws back $11.4B in CDC funding amid wave of top-level departures</title>
+        <link>https://arstechnica.com/health/2025/03/cdc-rocked-by-top-level-departures-loss-of-11-4b-in-covid-funding/</link>
+                  <comments>https://arstechnica.com/health/2025/03/cdc-rocked-by-top-level-departures-loss-of-11-4b-in-covid-funding/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Beth Mole]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 21:55:28 +0000</pubDate>
+        		<category><![CDATA[Health]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[COVID-19]]></category>
+		<category><![CDATA[departures]]></category>
+		<category><![CDATA[HHS]]></category>
+		<category><![CDATA[robert f kennedy jr]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/health/2025/03/cdc-rocked-by-top-level-departures-loss-of-11-4b-in-covid-funding/</guid>
+
+                  <description>
+            <![CDATA[The funding went to state health departments for COVID-19 responses.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>More heavy blows are landing at the Centers for Disease Control and Prevention, according to reports Tuesday that reveal a wave of high-level departures from the country's beleaguered health agency. The agency is also losing $11.4 billion in funding for responses to the COVID-19 pandemic, which was largely doled out to chronically underfunded state health departments.</p>
+<p>This afternoon, <a href="https://apnews.com/article/cdc-public-health-susan-monarez-3f0d76219a02163b0c46ded0f3901d73">the Associated Press reported</a> that five high-level leaders are departing the agency, which was announced today during a senior staff meeting. The departures, which were described as retirements, follow three other high-level departures in recent weeks. Given that the CDC has two dozen centers and offices, the recent departures reflect a loss of about a third of the agency's top management.</p>
+<p>The departures announced today include: <a href="https://www.cdc.gov/infrastructure/leadership/leslie-ann-dauphin.html">Leslie Ann Dauphin</a>, who oversees the Public Health Infrastructure Center, "which serves as the connection point between the agency and state, local, and territorial jurisdictions, tribes. and CDC's public health partners," according to the CDC. <a href="https://www.cdc.gov/ncbddd/leadership/director.html">Karen Remley</a>, who heads the National Center on Birth Defects and Developmental Disabilities, is also departing, as is <a href="https://www.cdc.gov/about/leadership/os.html">Sam Posner</a>, who heads the Office of Science, which provides scientific expertise across the agency and publishes the agency's Morbidity and Mortality Weekly Report. <a href="https://www.linkedin.com/in/debra-lubar-55b2548/">Debra Lubar</a>, who is the CDC's Chief Operating Officer and runs the Office of Policy, Performance and Evaluation, and <a href="https://www.cdc.gov/about/leadership/ohe.html">Leandris Liburd</a>, head of the Office of Health Equity, are also leaving.</p><p><a href="https://arstechnica.com/health/2025/03/cdc-rocked-by-top-level-departures-loss-of-11-4b-in-covid-funding/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/03/cdc-rocked-by-top-level-departures-loss-of-11-4b-in-covid-funding/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>55</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/GettyImages-1207345894-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/GettyImages-1207345894-500x500.jpg" width="500"/>
+<media:credit>Bloomberg | Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Open Source devs say AI crawlers dominate traffic, forcing blocks on entire countries</title>
+        <link>https://arstechnica.com/ai/2025/03/devs-say-ai-crawlers-dominate-traffic-forcing-blocks-on-entire-countries/</link>
+                  <comments>https://arstechnica.com/ai/2025/03/devs-say-ai-crawlers-dominate-traffic-forcing-blocks-on-entire-countries/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Benj Edwards]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 21:36:58 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[DDoS]]></category>
+		<category><![CDATA[machine learning]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/ai/2025/03/devs-say-ai-crawlers-dominate-traffic-forcing-blocks-on-entire-countries/</guid>
+
+                  <description>
+            <![CDATA[AI bots hungry for data are taking down FOSS sites by accident, but humans are fighting back.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Software developer Xe Iaso <a href="https://xeiaso.net/notes/2025/amazon-crawler/">reached a breaking point</a> earlier this year when aggressive AI crawler traffic from Amazon overwhelmed their Git repository service, repeatedly causing instability and downtime. Despite configuring standard defensive measures—adjusting robots.txt, blocking known crawler user-agents, and filtering suspicious traffic—Iaso found that AI crawlers continued evading all attempts to stop them, spoofing user-agents and cycling through residential IP addresses as proxies.</p>
+<p>Desperate for a solution, Iaso eventually resorted to moving their server behind a VPN and creating "Anubis," a custom-built proof-of-work challenge system that forces web browsers to solve computational puzzles before accessing the site. "It's futile to block AI crawler bots because they lie, change their user agent, use residential IP addresses as proxies, and more," Iaso wrote in a <a href="https://xeiaso.net/notes/2025/amazon-crawler/">blog post</a> titled "a desperate cry for help." "I don't want to have to close off my Gitea server to the public, but I will if I have to."</p>
+<p>Iaso's story highlights a broader crisis rapidly spreading across the open source community, as what appear to be aggressive AI crawlers increasingly overload community-maintained infrastructure, causing what amounts to persistent distributed denial-of-service (DDoS) attacks on vital public resources. According to a <a href="https://thelibre.news/foss-infrastructure-is-under-attack-by-ai-companies/">comprehensive recent report</a> from LibreNews, some open source projects now see as much as 97 percent of their traffic originating from AI companies' bots, dramatically increasing bandwidth costs, service instability, and burdening already stretched-thin maintainers.</p><p><a href="https://arstechnica.com/ai/2025/03/devs-say-ai-crawlers-dominate-traffic-forcing-blocks-on-entire-countries/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/03/devs-say-ai-crawlers-dominate-traffic-forcing-blocks-on-entire-countries/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>49</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/flood_header-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/flood_header-500x500.jpg" width="500"/>
+<media:credit>Henrik Sorensen via Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Praise Kier for Severance season 2! Let’s discuss.</title>
+        <link>https://arstechnica.com/culture/2025/03/praise-kier-for-severance-season-2-lets-discuss/</link>
+                  <comments>https://arstechnica.com/culture/2025/03/praise-kier-for-severance-season-2-lets-discuss/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Nate Anderson]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 20:32:06 +0000</pubDate>
+        		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[Apple TV]]></category>
+		<category><![CDATA[severance]]></category>
+		<category><![CDATA[TV]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/culture/2025/03/praise-kier-for-severance-season-2-lets-discuss/</guid>
+
+                  <description>
+            <![CDATA[Marching bands? Mammalian Nurturables? An ORTBO? Yup, <em>Severance</em> stays weird.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p><em>Severance</em> has just wrapped up its second season. I sat down with fellow Ars staffers Aaron Zimmerman and Lee Hutchinson to talk through what we had just seen, covering everything from those goats to the show's pacing. Warning: Huge spoilers for seasons 1 and 2 follow!</p>
+<p><strong>Nate:</strong> <em>Severance</em> season 1 was a smaller-scale, almost claustrophobic show about a crazy office, its "waffle parties," and the personal life of Mark Scout, mourning his dead wife and "severing" his consciousness to avoid that pain. It followed a compact group of characters, centered around the four "refiners" who worked on Lumon's severed floor. But season 2 blew up that cozy/creepy world and started following more characters—including far more "outies"—to far more places. Did the show manage to maintain its unique vibe while making significant changes to pacing, character count, and location?</p>
+<p><strong>Lee:</strong> I think so, but as you say, things were different this time around. One element that I’m glad carried through was the show’s consistent use of a very specific visual language. (I am an absolute sucker for visual storytelling. My favorite Kubrick film is <em>Barry Lyndon</em>. I’ll forgive a lot of plot holes if they’re beautifully shot.) Season 2, especially in the back half, treats us to an absolute smorgasbord of incredible visuals—bifurcated shots symbolizing severance and duality, stark whites and long hallways, and my personal favorite: Chris Walken in a black turtleneck seated in front of a fireplace, like Satan holding court in Hell. The storytelling might be a bit less focused, but it looks great.</p><p><a href="https://arstechnica.com/culture/2025/03/praise-kier-for-severance-season-2-lets-discuss/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2025/03/praise-kier-for-severance-season-2-lets-discuss/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>96</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/goat-lady-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/goat-lady-500x500.jpeg" width="500"/>
+<media:credit>Apple</media:credit></media:content>
+      </item>
+          <item>
+        <title>No cloud needed: Nvidia creates gaming-centric AI chatbot that runs on your GPU</title>
+        <link>https://arstechnica.com/gaming/2025/03/no-cloud-needed-nvidia-creates-gaming-centric-ai-chatbot-that-runs-on-your-gpu/</link>
+                  <comments>https://arstechnica.com/gaming/2025/03/no-cloud-needed-nvidia-creates-gaming-centric-ai-chatbot-that-runs-on-your-gpu/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ryan Whitwam]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 20:15:28 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[artificial inteligence]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gaming/2025/03/no-cloud-needed-nvidia-creates-gaming-centric-ai-chatbot-that-runs-on-your-gpu/</guid>
+
+                  <description>
+            <![CDATA[Nvidia G-Assist has limited functionality right now, but it runs locally.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Nvidia has seen its fortunes soar in recent years as its <a href="https://arstechnica.com/information-technology/2024/03/nvidia-unveils-blackwell-b200-the-worlds-most-powerful-chip-designed-for-ai/">AI-accelerating GPUs</a> have become worth their weight in gold. Most people use their Nvidia GPUs for games, but why not both? Nvidia has a new AI you can run at the same time, having just<a href="https://www.nvidia.com/en-us/geforce/news/g-assist-ai-companion-for-rtx-ai-pcs/"> released</a> its experimental G-Assist AI. It runs locally on your GPU to help you optimize your PC and get the most out of your games. It can do some neat things, but Nvidia isn't kidding when it says this tool is experimental.</p>
+<p>G-Assist is available in the Nvidia desktop app, and it consists of a floating overlay window. After invoking the overlay, you can either type or speak to G-Assist to check system stats or make tweaks to your settings. You can ask basic questions like, "How does DLSS Frame Generation work?" but it also has control over some system-level settings.</p>
+<p>By calling up G-Assist, you can get a rundown of how your system is running, including custom data charts created on the fly by G-Assist. You can also ask the AI to tweak your machine, for example, optimizing the settings for a particular game or toggling on or off a setting. G-Assist can even overclock your GPU if you so choose, complete with a graph of expected performance gains.</p><p><a href="https://arstechnica.com/gaming/2025/03/no-cloud-needed-nvidia-creates-gaming-centric-ai-chatbot-that-runs-on-your-gpu/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2025/03/no-cloud-needed-nvidia-creates-gaming-centric-ai-chatbot-that-runs-on-your-gpu/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>21</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/IMG_2639-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/IMG_2639-500x500-1742931250.jpeg" width="500"/>
+<media:credit>Andrew Cunningham</media:credit></media:content>
+      </item>
+          <item>
+        <title>Napster to become a music-marketing metaverse firm after $207M acquisition</title>
+        <link>https://arstechnica.com/gadgets/2025/03/napster-to-become-a-music-marketing-metaverse-firm-after-207m-acquisition/</link>
+                  <comments>https://arstechnica.com/gadgets/2025/03/napster-to-become-a-music-marketing-metaverse-firm-after-207m-acquisition/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Scharon Harding]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 20:00:21 +0000</pubDate>
+        		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[acquisition]]></category>
+		<category><![CDATA[napster]]></category>
+		<category><![CDATA[streaming]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/03/napster-to-become-a-music-marketing-metaverse-firm-after-207m-acquisition/</guid>
+
+                  <description>
+            <![CDATA[Napster will promote music in "branded 3D virtual spaces," soon-to-be owner says.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Infinite Reality, a media, ecommerce, and marketing company focused on 3D and AI-powered experiences, has entered an agreement to acquired Napster. That means that the brand originally launched in 1999 as a peer-to-peer (P2P) music file-sharing service is set to be reborn again. This time, new owners are reshaping the brand into one focused on marketing musicians in <a href="https://arstechnica.com/gaming/2021/11/everyone-pitching-the-metaverse-has-a-different-idea-of-what-it-is/">the metaverse</a>.</p>
+<p>Infinite announced today a definitive agreement to buy Napster for $207 million. The Norwalk, Connecticut-based company plans to turn Napster into a “social music platform that prioritizes active fan engagement over passive listening, allowing artists to connect with, own, and monetize the relationship with their fans." Jon Vlassopulos, who became Napster CEO in 2022, will continue with his role at the brand.</p>
+<p>Since 2016, Napster has been <a href="https://arstechnica.com/information-technology/2016/06/rhapsody-dusts-off-the-napster-brand-tries-it-on-likes-the-edgy-nostalgia-vibe/">operating as a (legal) streaming service</a>. It claims to have over 110 million high-fidelity tracks, with some supporting lossless audio. Napster subscribers can also listen offline and watch music videos. The service currently starts at $11 per month.</p><p><a href="https://arstechnica.com/gadgets/2025/03/napster-to-become-a-music-marketing-metaverse-firm-after-207m-acquisition/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/03/napster-to-become-a-music-marketing-metaverse-firm-after-207m-acquisition/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>55</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/collection-1-lg-e1742930096721-1152x648-1742930143.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/collection-1-lg-e1742930096721-500x500-1742930112.jpg" width="500"/>
+<media:credit>Napster</media:credit></media:content>
+      </item>
+          <item>
+        <title>We’ve outsourced our confirmation biases to search engines</title>
+        <link>https://arstechnica.com/science/2025/03/weve-outsourced-our-confirmation-biases-to-search-engines/</link>
+                  <comments>https://arstechnica.com/science/2025/03/weve-outsourced-our-confirmation-biases-to-search-engines/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[John Timmer]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 19:41:11 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[cognitive bias]]></category>
+		<category><![CDATA[confirmation bias]]></category>
+		<category><![CDATA[Human behavior]]></category>
+		<category><![CDATA[search engines]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2025/03/weve-outsourced-our-confirmation-biases-to-search-engines/</guid>
+
+                  <description>
+            <![CDATA[Forcing the use of general search terms can help people change their minds.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>People are often quite selective about the information they'll accept, seeking out sources that will confirm their biases, while discounting those that will challenge their beliefs. In theory, search engines can potentially change that. By prioritizing results from high-quality, credible sources, a search engine could ensure that people found accurate information more frequently, potentially opening them to the possibility of updating their beliefs.</p>
+<p>Obviously, that hasn't worked out on the technology side, as people quickly learned how to game the algorithms used by search engines, meaning that the webpages that get returned have been created by people with no interest in quality or credibility. But a new study is suggesting that the concept fails on the human side, too, as people tend to devise search terms that are specific enough to ensure that the results of the search will end up reinforcing their existing beliefs.</p>
+<p>The study showed that invisibly swapping search terms to something more general can go a long way toward enabling people to change their mind.</p><p><a href="https://arstechnica.com/science/2025/03/weve-outsourced-our-confirmation-biases-to-search-engines/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/03/weve-outsourced-our-confirmation-biases-to-search-engines/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>27</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-1869892182-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-1869892182-500x500.jpg" width="500"/>
+<media:credit>Westend61</media:credit></media:content>
+      </item>
+          <item>
+        <title>FBI probes arson of Tesla cars and facilities, says “this is domestic terrorism”</title>
+        <link>https://arstechnica.com/tech-policy/2025/03/fbi-probes-arson-of-tesla-cars-and-facilities-says-this-is-domestic-terrorism/</link>
+                  <comments>https://arstechnica.com/tech-policy/2025/03/fbi-probes-arson-of-tesla-cars-and-facilities-says-this-is-domestic-terrorism/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jon Brodkin]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 18:55:12 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Tesla]]></category>
+		<category><![CDATA[tesla arson]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/03/fbi-probes-arson-of-tesla-cars-and-facilities-says-this-is-domestic-terrorism/</guid>
+
+                  <description>
+            <![CDATA[FBI director: Agency "investigating increase in violent activity toward Tesla."]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>The Federal Bureau of Investigation yesterday launched a task force "to try to nail the criminals setting fire to Tesla vehicles and charging stations," and is looking into an anarchist blog that has been "calling for more" attacks, The New York Post <a href="https://nypost.com/2025/03/24/us-news/fbi-launches-task-force-to-nail-criminals-behind-fiery-tesla-attacks/">reported</a>.</p>
+<p>"The bureau has received reports of 48 instances so far this month related to Tesla vehicles, dealerships and charging stations and is investigating at least seven of them in conjunction with local law enforcement, The Post has learned," the article said. "The agency's newly formed 10-person task force will deploy ATF personnel—special agents and intelligence analysts from the Bureau of Alcohol, Tobacco, Firearms and Explosives in the Treasury Department—and personnel from the FBI's Counterterrorism Division, including its Domestic Terrorism Operations Section and Weapons of Mass Destruction."</p>
+<p>ATF is embedding personnel in some FBI field offices, starting in San Antonio, Texas, "where some of the Molotov cocktail attacks have been carried out," the report said. There were previously three arrests. The FBI is reviewing security camera footage and gained access to cell phone location data in an attempt to find more culprits, the report said.</p><p><a href="https://arstechnica.com/tech-policy/2025/03/fbi-probes-arson-of-tesla-cars-and-facilities-says-this-is-domestic-terrorism/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/03/fbi-probes-arson-of-tesla-cars-and-facilities-says-this-is-domestic-terrorism/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>225</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/03/tesla-cars-at-factory-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/03/tesla-cars-at-factory-500x500.jpg" width="500"/>
+<media:credit>Getty Images | Justin Sullivan</media:credit><media:text>Tesla cars sit in a parking lot at the company's factory in Fremont, California on October 19, 2022.</media:text></media:content>
+      </item>
+          <item>
+        <title>Momentum seems to be building for Jared Isaacman to become NASA administrator</title>
+        <link>https://arstechnica.com/space/2025/03/momentum-seems-to-be-building-for-jared-isaacman-to-become-nasa-administrator/</link>
+                  <comments>https://arstechnica.com/space/2025/03/momentum-seems-to-be-building-for-jared-isaacman-to-become-nasa-administrator/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Eric Berger]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 18:42:36 +0000</pubDate>
+        		<category><![CDATA[Space]]></category>
+		<category><![CDATA[jared isaacman]]></category>
+		<category><![CDATA[space]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/space/2025/03/momentum-seems-to-be-building-for-jared-isaacman-to-become-nasa-administrator/</guid>
+
+                  <description>
+            <![CDATA["We believe that Jared Isaacman is uniquely qualified to lead NASA."]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>With the vast majority of President Donald Trump's cabinet members <a href="https://apnews.com/projects/trump-cabinet-confirmation-tracker/">now approved</a> by the US Senate, focus is turning to senior positions within the administration that are just below the cabinet level.</p>
+<p>The administrator of NASA is among the most high-profile of these positions. Nearly four months ago <a href="https://arstechnica.com/space/2024/12/how-did-the-ceo-of-an-online-payments-firm-become-the-nominee-to-lead-nasa/">Trump nominated</a> private astronaut Jared Isaacman to become chief of the space agency, but he has yet to receive a hearing before the Senate Committee on Commerce, Science, and Transportation.</p>
+<p>Almost immediately after his nomination, much of the space community fell in behind Isaacman, who has flown to space twice on private Crew Dragon missions, raised charitable funds, and is generally well-liked. Since then, Isaacman has worked to build support for his candidacy through conversations with people in the space community and officeholders.</p><p><a href="https://arstechnica.com/space/2025/03/momentum-seems-to-be-building-for-jared-isaacman-to-become-nasa-administrator/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/03/momentum-seems-to-be-building-for-jared-isaacman-to-become-nasa-administrator/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>77</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/52225129791_a35f106c0a_k-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/52225129791_a35f106c0a_k-500x500.jpg" width="500"/>
+<media:credit>SpaceX</media:credit><media:text>Jared Isaacman during training at SpaceX before the Polaris Dawn mission.</media:text></media:content>
+      </item>
+          <item>
+        <title>Apple barred from Google antitrust trial, putting $20 billion search deal on the line</title>
+        <link>https://arstechnica.com/tech-policy/2025/03/apple-barred-from-google-antitrust-trial-putting-20-billion-search-deal-on-the-line/</link>
+                  <comments>https://arstechnica.com/tech-policy/2025/03/apple-barred-from-google-antitrust-trial-putting-20-billion-search-deal-on-the-line/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ryan Whitwam]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 17:03:22 +0000</pubDate>
+        		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[antitrust]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[google]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/03/apple-barred-from-google-antitrust-trial-putting-20-billion-search-deal-on-the-line/</guid>
+
+                  <description>
+            <![CDATA[Google's sizeable payments for Safari defaults could be ending. ]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Apple has suffered a blow in its efforts to salvage its lucrative search placement deal with Google. A new ruling from the DC Circuit Court of Appeals affirms that Apple cannot participate in Google's upcoming antitrust hearing, which could leave a multibillion-dollar hole in Apple's balance sheet. The judges in the case say Apple simply waited too long to get involved.</p>
+<p>Just a few years ago, a high-stakes court case involving Apple and Google would have found the companies on opposing sides, but not today. Apple's and Google's interests are strongly aligned here, <a href="https://arstechnica.com/tech-policy/2024/05/doj-explains-how-google-apple-deal-should-have-been-done-to-avoid-legal-peril/">to the tune of $20 billion</a>. Google forks over that cash every year, and it's happy to do so to secure placement as the default search provider in the Safari desktop and mobile browser.</p>
+<p>The antitrust penalties pending against Google would make that deal impermissible. Throughout the case, the government made the value of defaults clear—most people never change them. That effectively delivers Google a captive audience on Apple devices.</p><p><a href="https://arstechnica.com/tech-policy/2025/03/apple-barred-from-google-antitrust-trial-putting-20-billion-search-deal-on-the-line/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/03/apple-barred-from-google-antitrust-trial-putting-20-billion-search-deal-on-the-line/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>79</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/02/google-facebook-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/02/google-facebook-500x500.jpg" width="500"/>
+<media:credit>John Lamb | Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>After DDOS attacks, Blizzard rolls back Hardcore WoW deaths for the first time</title>
+        <link>https://arstechnica.com/gaming/2025/03/not-so-permadeath-blizzard-revives-hardcore-wow-characters-killed-by-ddos-attacks/</link>
+                  <comments>https://arstechnica.com/gaming/2025/03/not-so-permadeath-blizzard-revives-hardcore-wow-characters-killed-by-ddos-attacks/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kyle Orland]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 16:52:30 +0000</pubDate>
+        		<category><![CDATA[Gaming]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gaming/2025/03/not-so-permadeath-blizzard-revives-hardcore-wow-characters-killed-by-ddos-attacks/</guid>
+
+                  <description>
+            <![CDATA[New policy comes as OnlyFangs streaming guild planned to quit over DDOS disruptions.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p><em>World of Warcraft Classic</em>'s Hardcore mode has set itself apart from the average MMO experience simply by <a href="https://worldofwarcraft.blizzard.com/en-us/news/23973734/rules-of-engagement-classic-hardcore-is-coming-to-world-of-warcraft">making character death permanent</a> across the entire in-game realm. For years, Blizzard has <a href="https://www.shacknews.com/article/136780/world-of-warcraft-classic-hardcore-realms-interview">not allowed any appeals or rollbacks</a> for these Hardcore mode character deaths, even when such deaths came as the direct result of a server disconnection or gameplay bug.</p>
+<p>Now, Blizzard says it's modifying that policy somewhat in response to a series of "unprecedented distributed-denial-of-service (DDOS) attacks" undertaken "with the singular goal of disrupting players’ experiences." The <em>World of Warcraft</em> developer says it may now resurrect Classic Hardcore characters "at our sole discretion" when those deaths come "in a mass event which we deem inconsistent with the integrity of the game."</p>
+<h2>RIP OnlyFangs?</h2>
+<p>The high stakes inherent to <em>WoW</em>'s Classic Hardcore mode have made it an appealing target for streamers and other online content creators looking to build an audience. <a href="https://onlyfangs.me/streamers/">Dozens</a> of the most popular Hardcore <em>WoW</em> streamers have been gathering together as part of <a href="https://onlyfangs.me/">the OnlyFangs Guild</a>, a group dedicated to the idea that "every decision matters and one mistake can mean the end of a character’s journey."</p><p><a href="https://arstechnica.com/gaming/2025/03/not-so-permadeath-blizzard-revives-hardcore-wow-characters-killed-by-ddos-attacks/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2025/03/not-so-permadeath-blizzard-revives-hardcore-wow-characters-killed-by-ddos-attacks/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>47</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/deadwow-1152x648-1742919025.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/deadwow-500x500-1742919047.png" width="500"/>
+<media:credit>Reddit</media:credit><media:text>Don't worry, she's just sleeping.</media:text></media:content>
+      </item>
+          <item>
+        <title>Report: Boeing asks Trump admin to weaken penalties in 737 Max crash case</title>
+        <link>https://arstechnica.com/tech-policy/2025/03/report-boeing-asks-trump-admin-to-weaken-penalties-in-737-max-crash-case/</link>
+                  <comments>https://arstechnica.com/tech-policy/2025/03/report-boeing-asks-trump-admin-to-weaken-penalties-in-737-max-crash-case/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jon Brodkin]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 16:40:07 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[737 Max crashes]]></category>
+		<category><![CDATA[Boeing]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/03/report-boeing-asks-trump-admin-to-weaken-penalties-in-737-max-crash-case/</guid>
+
+                  <description>
+            <![CDATA[Boeing plea deal opposed by victims' families might be made even weaker.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Boeing is trying to withdraw a plea agreement and obtain more lenient treatment from the Trump administration in a case involving two deadly 737 Max crashes, The Wall Street Journal <a href="https://www.wsj.com/business/airlines/boeing-is-pushing-to-withdraw-guilty-plea-agreement-7cc9c06b">reported today</a>.</p>
+<p>Boeing previously agreed to plead guilty to conspiracy to defraud the United States. Boeing could still plead guilty but face weaker penalties than it agreed to last year if the Justice Department and a federal judge agree.</p>
+<p>Trump's Department of Justice "is reviewing numerous pending criminal cases that haven't yet gone to trial or been approved by courts," and "Boeing stands to benefit from fresh eyes at Trump's Justice Department, which is inclined to at least modify parts of the agreement," the WSJ wrote, citing people familiar with the matter. "Allowing Boeing to rescind its plea agreement, or lightening the company's punishment, would mark one of the most prominent examples of the Trump administration's lighter-touch approach to some white-collar enforcement."</p><p><a href="https://arstechnica.com/tech-policy/2025/03/report-boeing-asks-trump-admin-to-weaken-penalties-in-737-max-crash-case/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/03/report-boeing-asks-trump-admin-to-weaken-penalties-in-737-max-crash-case/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>79</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/boeing-7373-max-1152x648-1742920126.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/boeing-7373-max-500x500-1742920134.jpg" width="500"/>
+<media:credit>Getty Images | CHUYN</media:credit><media:text>An American Airlines Boeing 737 Max 8 landing at Miami International Airport October 17, 2024.</media:text></media:content>
+      </item>
+          <item>
+        <title>Netflix expands HDR support with HDR10+</title>
+        <link>https://arstechnica.com/gadgets/2025/03/netflix-aims-to-support-hdr10-in-all-hdr-titles-by-the-end-of-this-year/</link>
+                  <comments>https://arstechnica.com/gadgets/2025/03/netflix-aims-to-support-hdr10-in-all-hdr-titles-by-the-end-of-this-year/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Scharon Harding]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 16:17:43 +0000</pubDate>
+        		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[HDR]]></category>
+		<category><![CDATA[Netflix]]></category>
+		<category><![CDATA[streaming]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/03/netflix-aims-to-support-hdr10-in-all-hdr-titles-by-the-end-of-this-year/</guid>
+
+                  <description>
+            <![CDATA[Before, Netflix users could only stream HDR titles in Dolby Vision or HDR10. ]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Netflix <a href="https://netflixtechblog.com/hdr10-now-streaming-on-netflix-c9ab1f4bd72b">announced</a> today that it has started offering HDR movies and shows in the HDR10+ format.</p>
+<p>Since December 2014, when season 1 of <em>Marco Polo</em> debuted, Netflix has supported the HDR10 and Dolby Vision formats. Like Dolby Vision, HDR10+ is a more advanced form of HDR that uses dynamic metadata fine-tuned to specific content. HDR10+ and Dolby Vision let creatives set how each frame looks, enabling a final result that should have more detail and look closer to how the content's creators intended. HDR10+ and Dolby Vision are especially impactful when watching HDR content on lower-priced HDR TVs that could suffer from poor black levels and other performance gaps.</p>
+<p>You have to subscribe to Netflix's Premium ad-free plan to stream content in HDR and 4K resolution. The plan is $25 per month, compared to $18 per month for the Standard ad-free plan that limits users to 1080p resolution.</p><p><a href="https://arstechnica.com/gadgets/2025/03/netflix-aims-to-support-hdr10-in-all-hdr-titles-by-the-end-of-this-year/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/03/netflix-aims-to-support-hdr10-in-all-hdr-titles-by-the-end-of-this-year/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>62</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/electric5-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/electric5-500x500.jpg" width="500"/>
+<media:credit>Netflix</media:credit><media:text>A scene from the Netflix original movie &lt;em&gt;The Electric State.&lt;/em&gt;</media:text></media:content>
+      </item>
+          <item>
+        <title>Europe is looking for alternatives to US cloud providers</title>
+        <link>https://arstechnica.com/information-technology/2025/03/europe-is-looking-for-alternatives-to-us-cloud-providers/</link>
+                  <comments>https://arstechnica.com/information-technology/2025/03/europe-is-looking-for-alternatives-to-us-cloud-providers/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Matt Burgess, wired.com]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 13:12:52 +0000</pubDate>
+        		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AWS]]></category>
+		<category><![CDATA[azure]]></category>
+		<category><![CDATA[cloud]]></category>
+		<category><![CDATA[EU]]></category>
+		<category><![CDATA[europe]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[Trump]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/03/europe-is-looking-for-alternatives-to-us-cloud-providers/</guid>
+
+                  <description>
+            <![CDATA[Some European cloud companies have seen an increase in business.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>The global backlash against the second Donald Trump <a href="https://www.wired.com/story/federal-auditors-doge-elon-musk/">administration</a> keeps on growing. Canadians have <a href="https://thelogic.co/intelligence/subscriber-survey/buy-canadian/">boycotted US-made products</a>, anti–Elon Musk posters have <a href="https://www.independent.co.uk/news/uk/home-news/elon-musk-protests-tesla-takedown-london-b2716372.html">appeared across London</a> amid widespread <a href="https://www.wired.com/story/elon-musks-toxicity-could-spell-disaster-for-tesla/">Tesla protests</a>, and European officials have <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_25_793">drastically increased</a> military spending as US support for Ukraine falters. Dominant US tech services may be the next focus.</p>
+<p>There are early signs that some European companies and governments are souring on their use of American cloud services provided by the three so-called hyperscalers. Between them, Google Cloud, Microsoft Azure, and Amazon Web Services (AWS) host vast swathes of the Internet and keep thousands of businesses running. However, some organizations appear to be reconsidering their use of these companies’ cloud services—including servers, storage, and databases—citing uncertainties around privacy and data access fears under the Trump administration.</p>
+<p>“There’s a huge appetite in Europe to de-risk or decouple the over-dependence on US tech companies, because there is a concern that they could be weaponized against European interests,” says Marietje Schaake, a nonresident fellow at Stanford’s Cyber Policy Center and a former decadelong member of the European Parliament.</p><p><a href="https://arstechnica.com/information-technology/2025/03/europe-is-looking-for-alternatives-to-us-cloud-providers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/03/europe-is-looking-for-alternatives-to-us-cloud-providers/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>167</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/cloud-computing-1000x648.jpg" width="1000">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/cloud-computing-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>How Polestar engineers EVs that can handle brutal winters</title>
+        <link>https://arstechnica.com/cars/2025/03/how-polestar-engineers-evs-that-can-handle-brutal-winters/</link>
+                  <comments>https://arstechnica.com/cars/2025/03/how-polestar-engineers-evs-that-can-handle-brutal-winters/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Michael Teo Van Runkle]]>
+        </dc:creator>
+        <pubDate>Tue, 25 Mar 2025 12:44:01 +0000</pubDate>
+        		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Polestar]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/cars/2025/03/how-polestar-engineers-evs-that-can-handle-brutal-winters/</guid>
+
+                  <description>
+            <![CDATA[Heat pumps, throttle maps, and a whole lot of going sideways.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<aside class="pullbox sidebar fullwidth">Polestar provided flights from Los Angeles to Lulea and accommodation so Ars could visit Polestar's winter testing site. Ars does not accept paid editorial content.</aside>
+<p>LULEA, Sweden—Staring out the window of a puddle jumper descending from Stockholm into Lulea, I spy frozen seawater for the first time in my life. Not nearly as much as I expected, though, for the middle of February at the northern end of Sweden. I've flown here to drift electric Polestars on an icy lake called Stor-Skabram, near the small outpost of Jokkmokk, fully above the Arctic Circle. Yet the balmy weather serves as a constant reminder of the climate change that inspires much of the narrative around the electric vehicle industry.</p>
+<h2>EVs on ice</h2>
+<p>An opportunity to get somebody else's cars sideways as much as possible on ice and snow is a particularly enjoyable way to spend a day, if you like driving cars. More importantly, automotive manufacturers rely on this kind of winter testing to fine-tune traction and stability-control programming, ensuring their cars can work well in the depths of the deepest winter. For EVs in particular, winter testing presents a more complex range of equations.</p>
+<p>First of all, an EV can't ever turn the electronic nannies off entirely, because electric motors will rev to the moon with instantaneous torque the very instant their tires lose traction. So while software uses wheel speed sensors and regenerative braking, as well as accelerometers that detect yaw rates, each EV needs to then maintain progressive output responses to driver inputs that allow for confident performance and safety simultaneously.</p><p><a href="https://arstechnica.com/cars/2025/03/how-polestar-engineers-evs-that-can-handle-brutal-winters/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/03/how-polestar-engineers-evs-that-can-handle-brutal-winters/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>62</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Polestar-Ice-Drifting-3-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Polestar-Ice-Drifting-3-500x500.jpg" width="500"/>
+<media:credit>Polestar</media:credit></media:content>
+      </item>
+          <item>
+        <title>As preps continue, it’s looking more likely that NASA will fly the Artemis II mission</title>
         <link>https://arstechnica.com/space/2025/03/as-preps-continue-its-looking-more-likely-nasa-will-fly-the-artemis-ii-mission/</link>
                   <comments>https://arstechnica.com/space/2025/03/as-preps-continue-its-looking-more-likely-nasa-will-fly-the-artemis-ii-mission/#comments</comments>
         
@@ -45,12 +513,12 @@
                                 <content:encoded>
               <![CDATA[<p>Late Saturday night, technicians at Kennedy Space Center in Florida moved the core stage for NASA's second Space Launch System rocket into position between the vehicle's two solid-fueled boosters.</p>
 <p>Working inside the iconic 52-story-tall Vehicle Assembly Building, ground teams used heavy-duty cranes to first lift the butterscotch orange core stage from its cradle in the VAB's cavernous transfer aisle, the central passageway between the building's four rocket assembly bays. The cranes then rotated the structure vertically, allowing workers to disconnect one of the cranes from the bottom of the rocket.</p>
-<p>That left the rocket hanging on a 325-ton overhead crane, which would lift it over the transom into the building's northeast high bay. The Boeing-built core stage weighs about 94 tons (85 metric tons), measures about 212 feet (65 meters) tall, and will contain 730,000 gallons of cryogenic propellant at liftoff. It is the single largest element for NASA's Artemis II mission, slated to ferry a crew of astronauts around the far side of the Moon as soon as next year.</p><p><a href="https://arstechnica.com/space/2025/03/as-preps-continue-its-looking-more-likely-nasa-will-fly-the-artemis-ii-mission/">Read full article</a></p>
+<p>That left the rocket hanging on a 325-ton overhead crane, which would lift it over the transom into the building's northeast high bay. The Boeing-built core stage weighs about 94 tons (85 metric tons), measures about 212 feet (65 meters) tall, and will contain 730,000 gallons of cryogenic propellant at liftoff. It is the single largest element for NASA's Artemis II mission, which is slated to ferry a crew of astronauts around the far side of the Moon as soon as next year.</p><p><a href="https://arstechnica.com/space/2025/03/as-preps-continue-its-looking-more-likely-nasa-will-fly-the-artemis-ii-mission/">Read full article</a></p>
 <p><a href="https://arstechnica.com/space/2025/03/as-preps-continue-its-looking-more-likely-nasa-will-fly-the-artemis-ii-mission/#comments">Comments</a></p>
 ]]>
             </content:encoded>
                   
-                  <slash:comments>32</slash:comments>
+                  <slash:comments>110</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/KSC-20250323-PH-FMX01_0159orig-copy-1152x648.jpg" width="1152">
@@ -77,14 +545,14 @@
             <![CDATA[The UK sheep had inflamed mammary gland much like infected cows in US.]]>
           </description>
                                 <content:encoded>
-              <![CDATA[<p>The H5N1 bird flu has spilled over to a sheep for the first time, infecting a domesticated ruminant in the United Kingdom much like it has in US dairy cows, according to UK officials.</p>
+              <![CDATA[<p>The H5N1 bird flu has spilled over to a sheep for the first time, infecting a domesticated ruminant in the United Kingdom much like it did US dairy cows, according to UK officials.</p>
 <p>The single sheep—a ewe—in Yorkshire, England, was confirmed infected after captive birds on the same property had tested positive for the virus, according to an announcement Monday. The ewe's milk was found to be positive for the virus through a PCR test, which detected genetic signatures of the virus. The ewe also had H5 antibodies in its blood. At the time of the confirmation, the ewe had symptoms of the infection in the way of mastitis, inflammation of the mammary glands.</p>
 <p>This mirrors what US dairy farmers have been seeing in cows. An outbreak of H5N1 in dairy cows erupted a year ago, on <a href="https://www.cdc.gov/bird-flu/situation-summary/mammals.html">March 25, 2024</a>. Since then, at least <a href="https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/hpai-confirmed-cases-livestock">989 herds across 17 states</a> have been infected with bird flu. In previous reports, farmers and researchers have noted that the virus appears <a href="https://pubmed.ncbi.nlm.nih.gov/39387556/">to attack the animal's mammary glands</a> and <a href="https://www.nature.com/articles/s41586-024-08166-6">their milk is teeming with the virus</a>.</p><p><a href="https://arstechnica.com/health/2025/03/uk-on-alert-after-h5n1-bird-flu-spills-over-to-sheep-in-world-first/">Read full article</a></p>
 <p><a href="https://arstechnica.com/health/2025/03/uk-on-alert-after-h5n1-bird-flu-spills-over-to-sheep-in-world-first/#comments">Comments</a></p>
 ]]>
             </content:encoded>
                   
-                  <slash:comments>29</slash:comments>
+                  <slash:comments>76</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-1487604614-1152x648.jpg" width="1152">
@@ -109,13 +577,13 @@
           </description>
                                 <content:encoded>
               <![CDATA[<p>On Thursday, Google and the Computer History Museum (CHM) <a href="https://computerhistory.org/blog/chm-releases-alexnet-source-code/">jointly released</a> the source code for <a href="https://en.wikipedia.org/wiki/AlexNet">AlexNet</a>, the convolutional neural network (CNN) that many credit with transforming the AI field in 2012 by proving that "deep learning" could achieve things conventional AI techniques could not.</p>
-<p><a href="https://arstechnica.com/science/2019/12/how-neural-networks-work-and-why-theyve-become-a-big-business/">Deep learning</a>, which uses multi-layered neural networks that can learn from data without explicit programming, represented a significant departure from traditional AI approaches that relied on hand-crafted rules and features.</p>
-<p>The Python code, now available on CHM's <a href="https://github.com/computerhistory/AlexNet-Source-Code">GitHub page</a> as open source software, offers AI enthusiasts and researchers a glimpse into a key moment of computing history. AlexNet served as a watershed moment in AI because it could accurately identify objects in photographs with unprecedented accuracy—correctly classifying images into one of 1,000 categories like "strawberry," "school bus," or "golden retriever" with significantly fewer errors than previous systems.</p><p><a href="https://arstechnica.com/ai/2025/03/you-can-now-download-the-source-code-that-sparked-the-ai-boom/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2019/12/how-neural-networks-work-and-why-theyve-become-a-big-business/">Deep learning</a>, which uses multi-layered neural networks that can learn hierarchical representations directly from data without explicit programming, represented a significant departure from many earlier traditional AI approaches that relied on hand-crafted rules and features.</p>
+<p>The Python code, now available on CHM's <a href="https://github.com/computerhistory/AlexNet-Source-Code">GitHub page</a> as open source software, offers AI enthusiasts and researchers a glimpse into a key moment of computing history. AlexNet served as a watershed moment in AI because it could accurately identify objects in photographs with unprecedented accuracy—correctly classifying images into one of 1,000 categories, like "strawberry," "school bus," or "golden retriever" with significantly fewer errors than previous systems.</p><p><a href="https://arstechnica.com/ai/2025/03/you-can-now-download-the-source-code-that-sparked-the-ai-boom/">Read full article</a></p>
 <p><a href="https://arstechnica.com/ai/2025/03/you-can-now-download-the-source-code-that-sparked-the-ai-boom/#comments">Comments</a></p>
 ]]>
             </content:encoded>
                   
-                  <slash:comments>7</slash:comments>
+                  <slash:comments>25</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/computer_vision_1-1152x648.jpg" width="1152">
@@ -149,7 +617,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>108</slash:comments>
+                  <slash:comments>194</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/08/18-1152x648-1742845011.jpg" width="1152">
@@ -180,7 +648,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>215</slash:comments>
+                  <slash:comments>477</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/jd-vance-1152x648-1742847683.jpg" width="1152">
@@ -213,496 +681,12 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>74</slash:comments>
+                  <slash:comments>89</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/032325-pitt-radiosonde-1024x680-1-1024x648.jpg" width="1024">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/032325-pitt-radiosonde-1024x680-1-500x500.jpg" width="500"/>
 <media:credit>NWS Pittsburgh</media:credit><media:text>A radiosonde with mailing instructions. </media:text></media:content>
-      </item>
-          <item>
-        <title>Current SEC chair cast only vote against suing Elon Musk, report says</title>
-        <link>https://arstechnica.com/tech-policy/2025/03/current-sec-chair-cast-only-vote-against-suing-elon-musk-report-says/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/03/current-sec-chair-cast-only-vote-against-suing-elon-musk-report-says/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jon Brodkin]]>
-        </dc:creator>
-        <pubDate>Mon, 24 Mar 2025 17:19:54 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[SEC]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/03/current-sec-chair-cast-only-vote-against-suing-elon-musk-report-says/</guid>
-
-                  <description>
-            <![CDATA[SEC case over late disclosure of Twitter stock buy still moving ahead, for now.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>A new report says that when the Securities and Exchange Commission <a href="https://arstechnica.com/tech-policy/2025/01/sec-sues-elon-musk-says-he-cheated-twitter-investors-out-of-150-million/">sued Elon Musk</a> less than a week before President Trump's inauguration, only one member—the current chairman—voted against filing the lawsuit.</p>
-<p>The vote behind closed doors was 4–1, with three Democrats and Republican Hester Peirce joining to support the lawsuit over Musk's late disclosure of a Twitter stock purchase in early 2022, <a href="https://www.reuters.com/world/us/interim-sec-chief-cast-sole-vote-against-suing-musk-2025-03-24/">Reuters reported today</a>. The one dissent reportedly came from Republican Mark Uyeda, who was subsequently named acting SEC chairman by Trump.</p>
-<p>Uyeda also asked SEC enforcement staff "to declare that a case they wanted to bring against Elon Musk was not motivated by politics, an unusual request that the staffers refused," Bloomberg <a href="https://www.bloomberg.com/news/articles/2025-02-25/sec-official-sought-staff-s-no-politics-pledge-on-musk-lawsuit">reported last month</a>. Reuters said its sources confirmed that "staff refused to sign the pledge, as it is not typical SEC practice."</p><p><a href="https://arstechnica.com/tech-policy/2025/03/current-sec-chair-cast-only-vote-against-suing-elon-musk-report-says/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/03/current-sec-chair-cast-only-vote-against-suing-elon-musk-report-says/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>61</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/06/getty-twitter-musk-illlustration-1152x648-1742835795.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/06/getty-twitter-musk-illlustration-500x500-1742835788.jpg" width="500"/>
-<media:credit>Getty Images | NurPhoto</media:credit></media:content>
-      </item>
-          <item>
-        <title>How a nephew’s CD burner inspired early Valve to embrace DRM</title>
-        <link>https://arstechnica.com/gaming/2025/03/how-a-nephews-cd-burner-inspired-early-valve-to-embrace-drm/</link>
-                  <comments>https://arstechnica.com/gaming/2025/03/how-a-nephews-cd-burner-inspired-early-valve-to-embrace-drm/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kyle Orland]]>
-        </dc:creator>
-        <pubDate>Mon, 24 Mar 2025 17:16:04 +0000</pubDate>
-        		<category><![CDATA[Gaming]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gaming/2025/03/how-a-nephews-cd-burner-inspired-early-valve-to-embrace-drm/</guid>
-
-                  <description>
-            <![CDATA[Valve's Harrington: Unchecked CD duplication "put our entire business model at risk."]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Back in 2004, <a href="https://arstechnica.com/gaming/2024/11/how-half-life-2-helped-sell-steam-to-a-skeptical-pc-gaming-market/">the launch of <em>Half-Life 2</em> would help launch Steam</a> on the path to eventually becoming the de facto digital rights management (DRM) system for the vast majority of PC games. But years before that, with the 1998 launch of the original <em>Half-Life</em>, Valve cofounder and then-CMO Monica Harrington said she was inspired to take DRM more seriously by her nephew's reaction to the purchase of a new CD-ROM burner.</p>
-<p>PC Gamer <a href="https://www.pcgamer.com/gaming-industry/valves-drm-was-inspired-by-the-cmos-nephew-who-used-a-usd500-check-id-sent-him-for-school-expenses-and-bought-himself-a-cd-rom-replicator-he-sent-me-a-lovely-thank-you-note/">pulled that interesting tidbit</a> from <a href="https://schedule.gdconf.com/session/how-valve-became-valve-an-insiders-account/911257">a talk Harrington gave at last week's Game Developers Conference</a>. In her remembering, Harrington's nephew had used funds she had sent for school supplies on a CD replicator, then sent her "a lovely thank you note essentially saying how happy he was to copy and share games with his friends."</p>
-<p>That was the moment Harrington said she realized this new technology was leading to a "generational shift" in both the availability and acceptability of PC game piracy. While game piracy and DRM definitely existed prior to CD burners (anyone else remember the <a href="https://www.youtube.com/watch?v=S_Tz0YpDa6o">large codewheels</a> that cluttered many early PC game boxes?), Harrington said the new technology—and the blasé attitude her nephew showed toward using it for piracy—could "put our entire business model at risk."</p><p><a href="https://arstechnica.com/gaming/2025/03/how-a-nephews-cd-burner-inspired-early-valve-to-embrace-drm/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2025/03/how-a-nephews-cd-burner-inspired-early-valve-to-embrace-drm/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>68</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/hlcd-1076x648.png" width="1076">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/hlcd-500x500.png" width="500"/>
-<media:credit>pm-me-your-clocks / Reddit </media:credit><media:text>Dude, you got &lt;em&gt;Half-Life&lt;/em&gt;? Can you burn me a copy?</media:text></media:content>
-      </item>
-          <item>
-        <title>“MyTerms” wants to become the new way we dictate our privacy on the web</title>
-        <link>https://arstechnica.com/gadgets/2025/03/doc-searls-myterms-aims-to-offer-user-first-privacy-contracts-for-the-web/</link>
-                  <comments>https://arstechnica.com/gadgets/2025/03/doc-searls-myterms-aims-to-offer-user-first-privacy-contracts-for-the-web/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kevin Purdy]]>
-        </dc:creator>
-        <pubDate>Mon, 24 Mar 2025 17:06:40 +0000</pubDate>
-        		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[ad tracking]]></category>
-		<category><![CDATA[advertising]]></category>
-		<category><![CDATA[App Tracking]]></category>
-		<category><![CDATA[contracts]]></category>
-		<category><![CDATA[Creative Commons]]></category>
-		<category><![CDATA[customer commons]]></category>
-		<category><![CDATA[do not track]]></category>
-		<category><![CDATA[doc searls]]></category>
-		<category><![CDATA[IIW]]></category>
-		<category><![CDATA[privacy]]></category>
-		<category><![CDATA[VRM Day]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/03/doc-searls-myterms-aims-to-offer-user-first-privacy-contracts-for-the-web/</guid>
-
-                  <description>
-            <![CDATA[It's not a "do not track" request, it's a set of terms you demand from sites.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Author, journalist, and long-time Internet freedom advocate Doc Searls wants us to stop asking for privacy from websites, services, and AI and start telling these things what we will and will not accept.</p>
-<p>Draft standard <a href="https://standards.ieee.org/ieee/7012/7192/">IEEE P7012</a>, which Searls has nicknamed "MyTerms" (akin to "Wi-Fi"), is a Draft Standard for Machine Readable Personal Privacy Terms. <a href="https://doc.searls.com/">Searls writes on his blog</a> that MyTerms has been in the works since 2017, and a fully readable version should be ready later this year, following conference presentations at VRM Day and the Internet Identity Workshop (IIW).</p>
-<p>The big concept is that you are the first party to each contract you have with online things. The websites, apps, or services you visit are the second party. You arrive with either a pre-set contract you prefer on your device or pick one when you arrive, and it tells the site what information you will and will not offer up for access to content or services. Presumably, a site can work with that contract, modify itself to meet the terms, or perhaps tell you it can't do that.</p><p><a href="https://arstechnica.com/gadgets/2025/03/doc-searls-myterms-aims-to-offer-user-first-privacy-contracts-for-the-web/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/03/doc-searls-myterms-aims-to-offer-user-first-privacy-contracts-for-the-web/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>48</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-92831441-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-92831441-500x500.jpg" width="500"/>
-<media:credit>Photos.com/Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>Oops: Google says it might have deleted your Maps Timeline data</title>
-        <link>https://arstechnica.com/gadgets/2025/03/oops-google-says-it-might-have-deleted-your-maps-timeline-data/</link>
-                  <comments>https://arstechnica.com/gadgets/2025/03/oops-google-says-it-might-have-deleted-your-maps-timeline-data/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ryan Whitwam]]>
-        </dc:creator>
-        <pubDate>Mon, 24 Mar 2025 16:56:13 +0000</pubDate>
-        		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[google maps]]></category>
-		<category><![CDATA[location]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/03/oops-google-says-it-might-have-deleted-your-maps-timeline-data/</guid>
-
-                  <description>
-            <![CDATA[Google Maps switched to local-only Timeline storage in December.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>The Google Maps Timeline has long been a useful though slightly uncomfortable feature that maintains a complete record of everywhere your phone goes (and probably you with it). Google recently changed the way it stored timeline data to <a href="https://arstechnica.com/gadgets/2023/12/googles-confusing-new-location-settings-hide-data-in-two-different-places/">improve privacy</a>, but the company now confirms that a "technical issue" resulted in many users losing their timeline history altogether, and there might not be any way to recover it.</p>
-<p>Timeline, previously known as Location History, is very useful if you need to figure out where you were on a particular day or if you just can't remember where you found that neat bar on your last vacation. Many Google users grew quite fond of having access to that data. However, Google had access to it, too. Starting in 2024, Google transitioned to storing Timeline data only on the user's individual smartphone instead of backing it up to the cloud. You can probably see where this is going.</p>
-<p>Users started piping up over the past several weeks, posting on the <a href="https://support.google.com/maps/thread/329356095/timeline-history-is-missing?hl=en">Google support forums</a>, <a href="https://old.reddit.com/r/google/comments/1j78uau/timeline_disappeared/">Reddit</a>, and other social media that their treasured Timeline data had gone missing. Google has been investigating the problem, and the news isn't good. In an email sent out over the weekend, Google confirmed what many already feared: Maps has accidentally deleted Timeline data on countless devices.</p><p><a href="https://arstechnica.com/gadgets/2025/03/oops-google-says-it-might-have-deleted-your-maps-timeline-data/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/03/oops-google-says-it-might-have-deleted-your-maps-timeline-data/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>52</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/04/GettyImages-1208999514-scaled-1152x648-1742831508.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/04/GettyImages-1208999514-scaled-500x500-1742831515.jpg" width="500"/>
-<media:credit>Getty Images / SOPA Images / Contributor</media:credit><media:text>POLAND - 2020/03/23: In this photo illustration a Google Maps logo seen displayed on a smartphone. (Photo Illustration by Mateusz Slodkowski/SOPA Images/LightRocket via Getty Images)</media:text></media:content>
-      </item>
-          <item>
-        <title>Did Red Bull build an undriveable car? Questions from the Chinese Grand Prix.</title>
-        <link>https://arstechnica.com/cars/2025/03/driver-intrigue-v10-rumors-and-a-good-sprint-weekend-f1-in-shanghai/</link>
-                  <comments>https://arstechnica.com/cars/2025/03/driver-intrigue-v10-rumors-and-a-good-sprint-weekend-f1-in-shanghai/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jonathan M. Gitlin]]>
-        </dc:creator>
-        <pubDate>Mon, 24 Mar 2025 16:46:52 +0000</pubDate>
-        		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[F1]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/cars/2025/03/driver-intrigue-v10-rumors-and-a-good-sprint-weekend-f1-in-shanghai/</guid>
-
-                  <description>
-            <![CDATA[F1 reminds us it's entertainment, not just engineering and sport.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Formula 1 spent this past weekend in Shanghai for the 2025 Chinese Grand Prix. There was a little something for everyone: entertaining racing on-track, different winners for the sprint and Grand Prix, some driver and team intrigue, rumors of a potential technical shake-up happening soon, and a bit of an argument that exposes the entertainment side of the sport.</p>
-<p>Once out in the countryside, skyscrapers are starting to fill in the backdrop behind the Shanghai International Circuit. One of the mid-2000s crop of race tracks designed by Hermann Tilke, it's characterized by the neverending decreasing radii that are turns 1 and 2, plus the longest straight on the calendar. It was freshly resurfaced for this year, eliminating the bumps and increasing the grip level to fix a botched job performed ahead of last year's F1 race.</p>
-<p>China was home to the first sprint weekend of the year, with a 19-lap race on Saturday in place of that morning's practice session ahead of the 56-lap race on Sunday. Lewis Hamilton, now clad in bright Ferrari red, led from start to finish, showing the kind of ability that has led him to 105 race wins. Hamilton's last year with Mercedes was better than the winless 2022 and 2023, but his new Ferrari already appears to suit him better.</p><p><a href="https://arstechnica.com/cars/2025/03/driver-intrigue-v10-rumors-and-a-good-sprint-weekend-f1-in-shanghai/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/03/driver-intrigue-v10-rumors-and-a-good-sprint-weekend-f1-in-shanghai/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>64</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2206478875-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2206478875-500x500.jpg" width="500"/>
-<media:credit>Mark Thompson/Getty Images</media:credit><media:text>Track records were set in Shanghai this weekend as F1 visited a freshly resurfaced racetrack.</media:text></media:content>
-      </item>
-          <item>
-        <title>Genetic testing company 23andMe declares bankruptcy</title>
-        <link>https://arstechnica.com/science/2025/03/genetic-testing-company-23andme-declares-bankruptcy/</link>
-                  <comments>https://arstechnica.com/science/2025/03/genetic-testing-company-23andme-declares-bankruptcy/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[John Timmer]]>
-        </dc:creator>
-        <pubDate>Mon, 24 Mar 2025 14:55:22 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[23andme]]></category>
-		<category><![CDATA[bankruptcy]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[business]]></category>
-		<category><![CDATA[Genetics]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/science/2025/03/genetic-testing-company-23andme-declares-bankruptcy/</guid>
-
-                  <description>
-            <![CDATA[Former CEO wants to buy it, but the fate of its customers' genetic data is unclear.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>On Sunday, the genetic testing and heritage company 23andMe <a href="https://investors.23andme.com/news-releases/news-release-details/23andme-initiates-voluntary-chapter-11-process-maximize">announced</a> that it had entered Chapter 11 bankruptcy and was asking a court to arrange its sale. The company has been losing money for years, and a conflict between its board and CEO about future directions led to the <a href="https://investors.23andme.com/news-releases/news-release-details/independent-directors-23andme-resign-board">entire board resigning</a> back in September. Said CEO, Anne Wojcicki, has now resigned and will be pursuing an attempt to purchase the company and take it private.</p>
-<p>At stake is the fate of genetic data from the company's 15 million customers. The company has secured enough funding to continue operations while a buyer is found, and even though US law limits how genetic data can be used, the pending sale has raised significant privacy concerns.</p>
-<h2>Risky business</h2>
-<p>The company launched around the time that "gene chips" first allowed people to broadly scan the human genome for sites where variations were common. A few of these variants are associated with diseases, and 23andMe received approval to test for a number of these. But its big selling point for many people was the opportunity to explore their heritage. This relied on looking broadly at the patterns of variation and comparing those to the patterns typically found in different geographic regions. It's an imperfect analysis, but it can often provide a decent big-picture resolution of a person's ancestry.</p><p><a href="https://arstechnica.com/science/2025/03/genetic-testing-company-23andme-declares-bankruptcy/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/03/genetic-testing-company-23andme-declares-bankruptcy/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>134</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2203842381-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2203842381-500x500.jpg" width="500"/>
-<media:credit>Westend61</media:credit></media:content>
-      </item>
-          <item>
-        <title>The 2025 Cadillac Optiq: Sensibly sized and improves on the Equinox EV</title>
-        <link>https://arstechnica.com/cars/2025/03/the-2025-cadillac-optiq-sensibly-sized-and-improves-on-the-equinox-ev/</link>
-                  <comments>https://arstechnica.com/cars/2025/03/the-2025-cadillac-optiq-sensibly-sized-and-improves-on-the-equinox-ev/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Michael Teo Van Runkle]]>
-        </dc:creator>
-        <pubDate>Mon, 24 Mar 2025 12:00:33 +0000</pubDate>
-        		<category><![CDATA[Cars]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/cars/2025/03/the-2025-cadillac-optiq-sensibly-sized-and-improves-on-the-equinox-ev/</guid>
-
-                  <description>
-            <![CDATA[The AWD Optiq is quite competitive in the sub-$60,000 EV crossover segment.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<aside class="pullbox sidebar fullwidth">Cadillac provided flights from Los Angeles to San Fransisco and accommodation so Ars could drive the Optiq. Ars does not accept paid editorial content.</aside>
-<p>Badging on the rear of the new Cadillac Optiq may confuse some American buyers. This crossover is fully electric, so the alphanumeric nomenclature can't refer to engine displacement—and not horsepower, either. Instead, 500E4 refers to 500 Newton-meters of torque, the metric units for more familiar pound-feet, plus dual-motor all-wheel drive. Rating the Optiq's output in kilowatts might have at least rendered something at least somewhat more comprehensible, but the designation hints at the Optiq's intended global market, which in turn reveals just how important this crossover EV is for Cadillac's future.</p>
-<p>The Optiq slots in as an upmarket variant of <a href="https://arstechnica.com/cars/2024/05/the-2024-chevrolet-equinox-ev-shows-gm-can-make-a-car-for-the-masses/">the Chevrolet Equinox EV</a>, featuring a suite of enhancements unveiled at a Downtown Los Angeles preview last spring. With the exterior design, interior materials, and tech features all known quantities, I arrived to a drive program held in the San Francisco Bay Area—<a href="https://arstechnica.com/civis/threads/the-2025-cadillac-escalade-iq-first-drive-460-miles-on-a-single-charge.1506244/">concurrently with the Escalade IQ</a>—more curious to experience how much the Optiq's additional power and refinement can possibly improve on the already solid Equinox.</p>
-<p>On paper, the Caddy bests its Chevy counterpart despite using much of the same hardware. In this case, an 85-kilowatt-hour battery allows for an EPA-estimated range of 302 miles (486 km) despite output from dual motors matching the AWD Equinox at 300 hp (223 kW), just with a bit more in the torque department at 354 lb-ft (almost, but not quite, that 500Nm figure).</p><p><a href="https://arstechnica.com/cars/2025/03/the-2025-cadillac-optiq-sensibly-sized-and-improves-on-the-equinox-ev/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/03/the-2025-cadillac-optiq-sensibly-sized-and-improves-on-the-equinox-ev/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>176</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Ars-Technica-Cadillac-Optiq-2-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Ars-Technica-Cadillac-Optiq-2-500x500.jpg" width="500"/>
-<media:credit>Michael Teo Van Runkle</media:credit><media:text>We've previously tested Cadillac's mid-sized and supersized electric cars, now it's time for the smallest one, the Optiq.</media:text></media:content>
-      </item>
-          <item>
-        <title>Can we make AI less power-hungry? These researchers are working on it.</title>
-        <link>https://arstechnica.com/ai/2025/03/can-we-make-ai-less-power-hungry-these-researchers-are-working-on-it/</link>
-                  <comments>https://arstechnica.com/ai/2025/03/can-we-make-ai-less-power-hungry-these-researchers-are-working-on-it/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jacek Krywko]]>
-        </dc:creator>
-        <pubDate>Mon, 24 Mar 2025 11:00:15 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Tech]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/ai/2025/03/can-we-make-ai-less-power-hungry-these-researchers-are-working-on-it/</guid>
-
-                  <description>
-            <![CDATA[As demand surges, figuring out the performance of proprietary models is half the battle.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>At the beginning of November 2024, the US Federal Energy Regulatory Commission (FERC) rejected Amazon’s request to buy an additional 180 megawatts of power directly from the Susquehanna nuclear power plant for a data center located nearby. The rejection was due to the argument that buying power directly instead of getting it through the grid like everyone else works against the interests of other users.</p>
-<p>Demand for power in the US has been flat for nearly 20 years. “But now we’re seeing load forecasts shooting up. Depending on [what] numbers you want to accept, they’re either skyrocketing or they’re just rapidly increasing,” said Mark Christie, a FERC commissioner.</p>
-<p>Part of the surge in demand comes from data centers, and their increasing thirst for power comes in part from running increasingly sophisticated AI models. As with all world-shaping developments, what set this trend into motion was vision—quite literally.</p><p><a href="https://arstechnica.com/ai/2025/03/can-we-make-ai-less-power-hungry-these-researchers-are-working-on-it/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/03/can-we-make-ai-less-power-hungry-these-researchers-are-working-on-it/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>76</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-1151571867-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-1151571867-500x500.jpg" width="500"/>
-<media:credit>Igor Borisenko/Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>David Blaine shows his hand in Do Not Attempt</title>
-        <link>https://arstechnica.com/science/2025/03/david-blaine-shows-his-hand-in-do-not-attempt/</link>
-                  <comments>https://arstechnica.com/science/2025/03/david-blaine-shows-his-hand-in-do-not-attempt/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jennifer Ouellette]]>
-        </dc:creator>
-        <pubDate>Sun, 23 Mar 2025 20:17:22 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[David Blaine]]></category>
-		<category><![CDATA[disney plus]]></category>
-		<category><![CDATA[documentary series]]></category>
-		<category><![CDATA[magic]]></category>
-		<category><![CDATA[magicians]]></category>
-		<category><![CDATA[National Geographic]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/science/2025/03/david-blaine-shows-his-hand-in-do-not-attempt/</guid>
-
-                  <description>
-            <![CDATA[NatGeo docuseries follows Blaine around the world to learn the secrets of ordinary people doing remarkable feats.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Over the course of his long career, magician and endurance performer <a href="https://en.wikipedia.org/wiki/David_Blaine">David Blaine</a> has taken on all kinds of death-defying feats: catching a bullet in his teeth, fasting for 44 days, or holding his breath for a record-breaking 17 minutes and 4 seconds, to name a few. Viewers will get to see a different side of Blaine as he travels the world to meet kindred spirits from a wide range of cultures in <em>David Blaine Do Not Attempt</em>, a new six-episode docuseries from National Geographic.</p>
-<p><strong>(Some spoilers below.)</strong></p>
-<p>The series was shot over three calendar years (2022-2024) in nine different countries and features Blaine interacting with, and learning from, all manner of daredevils, athletes, street performers, and magicians. In Southeast Asia, for instance, he watches practitioners of an Indonesian martial art called Debus manipulate razor blades in their mouths and eat nails. (There is no trick to this, just conditioned endurance to pain, as Blaine discovers when he attempts to eat nails: his throat was sore for days.) He braves placing scorpions on his body, breaks a bottle with his head, and sets himself on fire in Brazil while jumping off a high bridge.</p><p><a href="https://arstechnica.com/science/2025/03/david-blaine-shows-his-hand-in-do-not-attempt/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/03/david-blaine-shows-his-hand-in-do-not-attempt/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>51</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/blaineTOP-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/blaineTOP-500x500-1742749813.jpg" width="500"/>
-<media:credit>National Geographic/Dana Hayes</media:credit><media:text>Magician David Blaine smiles while running his hand through a flame.</media:text></media:content>
-      </item>
-          <item>
-        <title>This launcher is about to displace the V-2 as Germany’s largest rocket</title>
-        <link>https://arstechnica.com/space/2025/03/this-launcher-is-about-to-displace-the-v-2-as-germanys-largest-rocket/</link>
-                  <comments>https://arstechnica.com/space/2025/03/this-launcher-is-about-to-displace-the-v-2-as-germanys-largest-rocket/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Stephen Clark]]>
-        </dc:creator>
-        <pubDate>Sun, 23 Mar 2025 16:06:23 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Commercial space]]></category>
-		<category><![CDATA[europe]]></category>
-		<category><![CDATA[european space agency]]></category>
-		<category><![CDATA[germany]]></category>
-		<category><![CDATA[isar aerospace]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[Norway]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2025/03/this-launcher-is-about-to-displace-the-v-2-as-germanys-largest-rocket/</guid>
-
-                  <description>
-            <![CDATA[Isar Aerospace's first Spectrum rocket will launch from Andøya Spaceport in Norway.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Seven years ago, three classmates at the Technical University of Munich believed their student engineering project might hold some promise in the private sector.</p>
-<p>At the time, Daniel Metzler led a team of 40 students working on rocket engines and launching sounding rockets. Josef Fleischmann was on the team that won the first SpaceX <a href="https://arstechnica.com/cars/2018/03/is-it-time-to-take-the-hyperloop-seriously/">Hyperloop competition</a>. Together with another classmate, Markus Brandl, they crafted rocket parts in a campus workshop before taking the leap and establishing Isar Aerospace, named for the river running through the Bavarian capital.</p>
-<p>Now, Isar's big moment has arrived. The company's orbital-class first rocket, named Spectrum, is set to lift off from a shoreline launch pad in Norway as soon as this week.</p><p><a href="https://arstechnica.com/space/2025/03/this-launcher-is-about-to-displace-the-v-2-as-germanys-largest-rocket/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/03/this-launcher-is-about-to-displace-the-v-2-as-germanys-largest-rocket/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>128</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/LOW-RES_Spectrum-on-launch-pad_location-Andoya-Spaceport-c-Isar-Aerospace-Photo-Robin-Brillert-Wingmen-Media-1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/LOW-RES_Spectrum-on-launch-pad_location-Andoya-Spaceport-c-Isar-Aerospace-Photo-Robin-Brillert-Wingmen-Media-1-500x500.jpg" width="500"/>
-<media:credit>Isar Aerospace/Robin Brillert/Wingmen Media</media:credit><media:text>Isar Aerospace's Spectrum rocket on the launch pad at Andøya Spaceport in Norway.</media:text></media:content>
-      </item>
-          <item>
-        <title>Trump administration’s blockchain plan for USAID is a real head-scratcher</title>
-        <link>https://arstechnica.com/tech-policy/2025/03/trump-administrations-blockchain-plan-for-usaid-is-a-real-head-scratcher/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/03/trump-administrations-blockchain-plan-for-usaid-is-a-real-head-scratcher/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Vittoria Elliott, wired.com]]>
-        </dc:creator>
-        <pubDate>Sun, 23 Mar 2025 11:05:55 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[blockchain]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[Trump]]></category>
-		<category><![CDATA[USAID]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/03/trump-administrations-blockchain-plan-for-usaid-is-a-real-head-scratcher/</guid>
-
-                  <description>
-            <![CDATA[Whatever happens to USAID, it will apparently "leverage blockchain technology."]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>According to a memo circulating among State Department staff and reviewed by WIRED, the Trump administration plans to rename the United States Agency for International Development (USAID) as US International Humanitarian Assistance (IHA), and to bring it directly under the secretary of state. The document, on which Politico <a href="https://www.politico.com/news/2025/03/19/trump-aides-circulate-plan-for-complete-revamp-of-foreign-aid-programs-00238862">first reported</a>, states that as part of its reorganization, the agency will “leverage blockchain technology” as part of its procurement process.</p>
-<p>“All distributions would also be secured and traced via blockchain technology to radically increase security, transparency, and traceability,” the memo reads. “This approach would encourage innovation and efficiency among implementing partners and allow for more flexible and responsive programming focused on tangible impact rather than simply completing activities and inputs.”</p>
-<p>The memo does not make clear what specifically this means—if it would encompass doing cash transfers in some kind of cryptocurrency or stablecoin, for example, or simply mean using a blockchain ledger to track aid disbursement.</p><p><a href="https://arstechnica.com/tech-policy/2025/03/trump-administrations-blockchain-plan-for-usaid-is-a-real-head-scratcher/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/03/trump-administrations-blockchain-plan-for-usaid-is-a-real-head-scratcher/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>324</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/usaid-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/usaid-500x500.jpg" width="500"/>
-<media:credit>Pete Kiehart via Getty</media:credit></media:content>
-      </item>
-          <item>
-        <title>Sometimes, it’s the little tech annoyances that sting the most</title>
-        <link>https://arstechnica.com/culture/2025/03/sometimes-its-the-little-tech-annoyances-that-sting-the-most/</link>
-                  <comments>https://arstechnica.com/culture/2025/03/sometimes-its-the-little-tech-annoyances-that-sting-the-most/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Nate Anderson]]>
-        </dc:creator>
-        <pubDate>Sat, 22 Mar 2025 11:07:46 +0000</pubDate>
-        		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Annoyances]]></category>
-		<category><![CDATA[Mac]]></category>
-		<category><![CDATA[Mouse]]></category>
-		<category><![CDATA[tech]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/culture/2025/03/sometimes-its-the-little-tech-annoyances-that-sting-the-most/</guid>
-
-                  <description>
-            <![CDATA[macOS wouldn't remember mouse settings? This means war!]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Anyone who has suffered the indignity of a splinter, a blister, or a paper cut knows that small things can sometimes be hugely annoying. You aren't going to die from any of these conditions, but it's still hard to focus when, say, the back of your right foot is rubbing a new blister against the inside of your not-quite-broken-in-yet hiking boots.</p>
-<p>I found myself in the computing version of this situation yesterday, when I was trying to work on a new Mac Mini and was brought up short by the fact that my third mouse button (that is, clicking on the scroll wheel) did nothing. This was odd, because I have for many years assigned this button to "Mission Control" on macOS—a feature that tiles every open window on your machine, making it quick and easy to switch apps. When I got the new Mini, I immediately added this to my settings. Boom!</p>
-<p>And yet there I was, a couple hours later, clicking the middle mouse button by reflex and getting no result. This seemed quite odd—had I only <em>imagined</em> that I made the settings change? I made the alteration again in System Settings and went back to work.</p><p><a href="https://arstechnica.com/culture/2025/03/sometimes-its-the-little-tech-annoyances-that-sting-the-most/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2025/03/sometimes-its-the-little-tech-annoyances-that-sting-the-most/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>411</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-618210412-scaled-1152x648-1742589637.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-618210412-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>Measles arrives in Kansas, spreads quickly in undervaccinated counties</title>
-        <link>https://arstechnica.com/health/2025/03/measles-takes-off-in-kansas-amid-low-vaccination-at-least-10-cases-reported/</link>
-                  <comments>https://arstechnica.com/health/2025/03/measles-takes-off-in-kansas-amid-low-vaccination-at-least-10-cases-reported/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Beth Mole]]>
-        </dc:creator>
-        <pubDate>Fri, 21 Mar 2025 21:53:29 +0000</pubDate>
-        		<category><![CDATA[Health]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Infectious disease]]></category>
-		<category><![CDATA[kansas]]></category>
-		<category><![CDATA[measles]]></category>
-		<category><![CDATA[MMR]]></category>
-		<category><![CDATA[outbreak]]></category>
-		<category><![CDATA[texas]]></category>
-		<category><![CDATA[unvaccinated]]></category>
-		<category><![CDATA[vaccinated]]></category>
-		<category><![CDATA[virus]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/health/2025/03/measles-takes-off-in-kansas-amid-low-vaccination-at-least-10-cases-reported/</guid>
-
-                  <description>
-            <![CDATA[Since a single case last week, at least 9 more have been reported, with more pending.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Measles has arrived in Kansas and is spreading swiftly in communities with very low vaccination rates. Since last week, the state has tallied 10 cases across three counties, with more pending.</p>
-<p>On March 13, <a href="https://www.kdhe.ks.gov/CivicAlerts.aspx?AID=1483">health officials announced the state's first measles case</a> since 2018. The case was reported in Stevens County, which sits in the southwest corner of the state. As of now, it's unclear if the case is connected to the mushrooming outbreak that began in West Texas.</p>
-<p>That initial case in Kansas already shows potential to mushroom on its own. Stevens County contains two school districts, both of which have extremely low vaccination rates among kindergartners. By the time children enter kindergarten, they should have their two doses of Measles, Mumps, and Rubella (MMR) vaccine, which together are 97 percent effective against measles. In the 2023–2024 school year, rates of kindergartners with their two shots stood at 83 percent in the Hugoton school district and 80 percent in the Moscow school district, <a href="https://www.kdhe.ks.gov/2016/Kindergarten-Immunization-Data">according to state data</a>. Those rates are significantly below the 95 percent threshold needed to block the onward community spread of measles—one of the most infectious viruses known to humankind.</p><p><a href="https://arstechnica.com/health/2025/03/measles-takes-off-in-kansas-amid-low-vaccination-at-least-10-cases-reported/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/03/measles-takes-off-in-kansas-amid-low-vaccination-at-least-10-cases-reported/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>363</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2202122534-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2202122534-500x500.jpg" width="500"/>
-<media:credit>Getty | Jan Sonnenmair</media:credit><media:text> Boxes and vials of the Measles, Mumps, Rubella Virus Vaccine at a vaccine clinic put on by Lubbock Public Health Department on March 1, 2025 in Lubbock, Texas. </media:text></media:content>
-      </item>
-          <item>
-        <title>Cloudflare turns AI against itself with endless maze of irrelevant facts</title>
-        <link>https://arstechnica.com/ai/2025/03/cloudflare-turns-ai-against-itself-with-endless-maze-of-irrelevant-facts/</link>
-                  <comments>https://arstechnica.com/ai/2025/03/cloudflare-turns-ai-against-itself-with-endless-maze-of-irrelevant-facts/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Benj Edwards]]>
-        </dc:creator>
-        <pubDate>Fri, 21 Mar 2025 21:14:35 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[AI security]]></category>
-		<category><![CDATA[cloudflare]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[machine learning]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/ai/2025/03/cloudflare-turns-ai-against-itself-with-endless-maze-of-irrelevant-facts/</guid>
-
-                  <description>
-            <![CDATA[New approach punishes AI companies that ignore "no crawl" directives.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>On Wednesday, web infrastructure provider Cloudflare announced a new feature called "<a href="https://blog.cloudflare.com/ai-labyrinth/">AI Labyrinth</a>" that aims to combat unauthorized AI data scraping by serving fake AI-generated content to bots. The tool will attempt to thwart AI companies that crawl websites without permission to collect training data for large language models that power AI assistants like <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a>.</p>
-<p>Cloudflare, founded in 2009, is probably best known as a company that <a href="https://en.wikipedia.org/wiki/Cloudflare">provides</a> infrastructure and security services for websites, particularly protection against <a href="https://en.wikipedia.org/wiki/DDoS_mitigation">distributed denial-of-service</a> (DDoS) attacks and other malicious traffic.</p>
-<p class="whitespace-pre-wrap break-words">Instead of simply blocking bots, Cloudflare's new system lures them into a "maze" of realistic-looking but irrelevant pages, wasting the crawler's computing resources. The approach is a notable shift from the standard block-and-defend strategy used by most website protection services. Cloudflare says blocking bots sometimes backfires because it alerts the crawler's operators that they've been detected.</p><p><a href="https://arstechnica.com/ai/2025/03/cloudflare-turns-ai-against-itself-with-endless-maze-of-irrelevant-facts/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/03/cloudflare-turns-ai-against-itself-with-endless-maze-of-irrelevant-facts/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>131</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/robot_maze_1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/robot_maze_1-500x500.jpg" width="500"/>
-<media:credit>iambuff via Getty Images</media:credit></media:content>
       </item>
       </channel>
 </rss>
