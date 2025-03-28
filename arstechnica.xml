@@ -4,7 +4,7 @@
     <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
     <link>https://arstechnica.com</link>
     <description>All Ars Technica stories</description>
-    <lastBuildDate>Thu, 27 Mar 2025 21:07:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Mar 2025 00:36:40 +0000</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>
       hourly    </sy:updatePeriod>
@@ -19,6 +19,95 @@
 	<height>32</height>
 </image> 
       <item>
+        <title>Gemini hackers can deliver more potent attacks with a helping hand from… Gemini</title>
+        <link>https://arstechnica.com/security/2025/03/gemini-hackers-can-deliver-more-potent-attacks-with-a-helping-hand-from-gemini/</link>
+                  <comments>https://arstechnica.com/security/2025/03/gemini-hackers-can-deliver-more-potent-attacks-with-a-helping-hand-from-gemini/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Dan Goodin]]>
+        </dc:creator>
+        <pubDate>Fri, 28 Mar 2025 11:00:58 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[fun-tuning]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[prompt injections]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/security/2025/03/gemini-hackers-can-deliver-more-potent-attacks-with-a-helping-hand-from-gemini/</guid>
+
+                  <description>
+            <![CDATA[Hacking LLMs has always been more art than science. A new attack on Gemini could change that.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>In the growing canon of AI security, the indirect prompt injection has emerged as the most powerful means for attackers to hack large language models such as OpenAI’s GPT-3 and GPT-4 or Microsoft’s Copilot. By exploiting a model's inability to distinguish between, on the one hand, developer-defined prompts and, on the other, text in external content LLMs interact with, indirect prompt injections are remarkably effective at invoking harmful or otherwise unintended actions. Examples include divulging end users’ confidential contacts or emails and delivering falsified answers that have the potential to corrupt the integrity of important calculations.</p>
+<p>Despite the power of prompt injections, attackers face a fundamental challenge in using them: The inner workings of so-called closed-weights models such as GPT, Anthropic’s Claude, and Google’s Gemini are closely held secrets. Developers of such proprietary platforms tightly restrict access to the underlying code and training data that make them work and, in the process, make them black boxes to external users. As a result, devising working prompt injections requires labor- and time-intensive trial and error through redundant manual effort.</p>
+<h2>Algorithmically generated hacks</h2>
+<p>For the first time, academic researchers have devised a means to create computer-generated prompt injections against Gemini that have much higher success rates than manually crafted ones. The new method abuses fine-tuning, a feature offered by some closed-weights models for training them to work on large amounts of private or specialized data, such as a law firm’s legal case files, patient files or research managed by a medical facility, or architectural blueprints. Google makes its <a href="https://ai.google.dev/gemini-api/docs/model-tuning">fine-tuning for Gemini’s API</a> available free of charge.</p><p><a href="https://arstechnica.com/security/2025/03/gemini-hackers-can-deliver-more-potent-attacks-with-a-helping-hand-from-gemini/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/03/gemini-hackers-can-deliver-more-potent-attacks-with-a-helping-hand-from-gemini/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>6</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/google-gemini-self-hack-hands-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/google-gemini-self-hack-hands-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Rocket Report: Stoke is stoked; sovereignty is the buzzword in Europe</title>
+        <link>https://arstechnica.com/space/2025/03/rocket-report-stoke-is-stoked-sovereignty-is-the-buzzword-in-europe/</link>
+                  <comments>https://arstechnica.com/space/2025/03/rocket-report-stoke-is-stoked-sovereignty-is-the-buzzword-in-europe/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Stephen Clark]]>
+        </dc:creator>
+        <pubDate>Fri, 28 Mar 2025 11:00:14 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[artemis II]]></category>
+		<category><![CDATA[european space agency]]></category>
+		<category><![CDATA[falcon 9]]></category>
+		<category><![CDATA[isar aerospace]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[rocket lab]]></category>
+		<category><![CDATA[rocket report]]></category>
+		<category><![CDATA[space launch system]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[united launch alliance]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/space/2025/03/rocket-report-stoke-is-stoked-sovereignty-is-the-buzzword-in-europe/</guid>
+
+                  <description>
+            <![CDATA["The idea that we will be able to do it through America … I think is very, very doubtful."]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Welcome to Edition 7.37 of the Rocket Report! It's been interesting to watch how quickly European officials have embraced ensuring they have a space launch capability independent of other countries. A few years ago, European government satellites regularly launched on Russian Soyuz rockets, and more recently on SpaceX Falcon 9 rockets from the United States. Russia is now <em>non grata</em> in European government circles, and the Trump administration is widening the trans-Atlantic rift. European leaders have cited the Trump administration and its close association with Elon Musk, CEO of SpaceX, as prime reasons to support sovereign access to space, a capability currently offered only by Arianespace. If European nations can reform how they treat their commercial space companies, there's enough ambition, know-how, and money in Europe to foster a competitive launch industry.</p>
+<p>As always, we <a href="https://arstechnica.wufoo.com/forms/launch-stories/">welcome reader submissions</a>. If you don't want to miss an issue, please subscribe using the box below (the form will not appear on AMP-enabled versions of the site). Each report will include information on small-, medium-, and heavy-lift rockets as well as a quick look ahead at the next three launches on the calendar.</p>
+<figure class="ars-img-shortcode id-1314289 align-center">
+    <div>
+                        <img decoding="async" width="560" height="81" src="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png" class="center full" alt="" srcset="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png 560w, https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll-300x43.png 300w" sizes="(max-width: 560px) 100vw, 560px">
+                  </div>
+      </figure>
+
+<p><b>Isar Aerospace aims for weekend launch. </b>A German startup named Isar Aerospace is will try to launch its first rocket Saturday, aiming to become the first in a wave of new European launch companies to reach orbit, <a href="https://arstechnica.com/space/2025/03/this-launcher-is-about-to-displace-the-v-2-as-germanys-largest-rocket/">Ars reports</a>. The Spectrum rocket consists of two stages, stands about 92 feet (28 meters) tall, and can haul payloads up to 1 metric ton (2,200 pounds) into low-Earth orbit. Based in Munich, Isar was founded by three university graduate students in 2018. Isar scrubbed a launch attempt Monday due to unfavorable winds at the launch site in Norway.</p><p><a href="https://arstechnica.com/space/2025/03/rocket-report-stoke-is-stoked-sovereignty-is-the-buzzword-in-europe/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/03/rocket-report-stoke-is-stoked-sovereignty-is-the-buzzword-in-europe/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>15</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Gj_q6cnWcAAkjpz-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Gj_q6cnWcAAkjpz-500x500.jpg" width="500"/>
+<media:credit>Stoke Space</media:credit><media:text>Stoke Space's Andromeda upper stage engine is hot-fired on a test stand.</media:text></media:content>
+      </item>
+          <item>
         <title>Trump can’t fire us, FTC Democrats tell court after being ejected from office</title>
         <link>https://arstechnica.com/tech-policy/2025/03/ftc-democrats-sue-trump-say-firings-break-law-and-supreme-court-precedent/</link>
                   <comments>https://arstechnica.com/tech-policy/2025/03/ftc-democrats-sue-trump-say-firings-break-law-and-supreme-court-precedent/#comments</comments>
@@ -43,7 +132,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>45</slash:comments>
+                  <slash:comments>144</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/bedoya-and-slaughter-1152x648-1742403699.jpg" width="1152">
@@ -80,7 +169,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>52</slash:comments>
+                  <slash:comments>108</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-472067545-1152x648.jpg" width="1152">
@@ -114,7 +203,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>37</slash:comments>
+                  <slash:comments>47</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Google-Maps-screenshot-location-hero-copy-1152x648-1743102160.jpg" width="1152">
@@ -150,7 +239,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>105</slash:comments>
+                  <slash:comments>145</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Discord-Quest-1152x648.jpg" width="1152">
@@ -181,7 +270,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>105</slash:comments>
+                  <slash:comments>140</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/musk-doge-shirt-1152x648-1743095864.jpg" width="1152">
@@ -220,7 +309,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>29</slash:comments>
+                  <slash:comments>40</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/pillars_cover_art-1152x648.jpg" width="1152">
@@ -254,7 +343,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>36</slash:comments>
+                  <slash:comments>56</slash:comments>
         
         
         <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/tianwen1_mars.jpg">
@@ -295,7 +384,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>181</slash:comments>
+                  <slash:comments>229</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2204721131-1152x648.jpg" width="1152">
@@ -327,7 +416,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>47</slash:comments>
+                  <slash:comments>54</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/switchgameshare-1152x648-1743090322.png" width="1152">
@@ -362,7 +451,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>18</slash:comments>
+                  <slash:comments>25</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-861804726-1152x648.jpg" width="1152">
@@ -400,7 +489,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>56</slash:comments>
+                  <slash:comments>59</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-1213156557-1152x648.jpg" width="1152">
@@ -432,7 +521,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>263</slash:comments>
+                  <slash:comments>303</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2200759945-1152x648.jpg" width="1152">
@@ -467,7 +556,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>53</slash:comments>
+                  <slash:comments>59</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/09/GettyImages-1148084446-1152x648.jpg" width="1152">
@@ -513,7 +602,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>247</slash:comments>
+                  <slash:comments>288</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/4o_image_gen_hero_3-1152x648.jpg" width="1152">
@@ -547,7 +636,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>208</slash:comments>
+                  <slash:comments>259</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2193172632-1152x648.jpg" width="1152">
@@ -580,7 +669,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>108</slash:comments>
+                  <slash:comments>115</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/cygnusng18-1152x648.jpg" width="1152">
@@ -614,7 +703,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>73</slash:comments>
+                  <slash:comments>76</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/screenshot_2025_03_26T15_17_46-0400-1152x648-1743017437.png" width="1152">
@@ -653,80 +742,12 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>194</slash:comments>
+                  <slash:comments>202</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2202122508-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2202122508-500x500.jpg" width="500"/>
 <media:credit>Getty | Jan Sonnenmair</media:credit><media:text>LUBBOCK, TEXAS - MARCH 01: Priscilla Luna (L) and her 3-year-old daughter, Avery Dahl, read a book about immunizations at a vaccine clinic put on by Lubbock Public Health Department on March 1, 2025 in Lubbock, Texas. </media:text></media:content>
-      </item>
-          <item>
-        <title>With Vulcan’s certification, Space Force is no longer solely reliant on SpaceX</title>
-        <link>https://arstechnica.com/space/2025/03/at-long-last-the-space-force-has-certified-the-vulcan-rocket/</link>
-                  <comments>https://arstechnica.com/space/2025/03/at-long-last-the-space-force-has-certified-the-vulcan-rocket/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Eric Berger]]>
-        </dc:creator>
-        <pubDate>Wed, 26 Mar 2025 19:57:34 +0000</pubDate>
-        		<category><![CDATA[Space]]></category>
-		<category><![CDATA[united launch alliance]]></category>
-		<category><![CDATA[US Space Force]]></category>
-		<category><![CDATA[vulcan rocket]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/space/2025/03/at-long-last-the-space-force-has-certified-the-vulcan-rocket/</guid>
-
-                  <description>
-            <![CDATA[US Space Force to United Launch Alliance: "I have been and always shall be your friend."]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>The US Space Force on Wednesday announced that it has certified United Launch Alliance's Vulcan rocket to conduct national security missions.</p>
-<p>"Assured access to space is a core function of the Space Force and a critical element of national security," said Brig. Gen. Panzenhagen, program executive officer for Assured Access to Space, <a href="https://www.ssc.spaceforce.mil/Newsroom/Article/4136016/u-s-space-force-ussf-certifies-united-launch-alliance-ula-vulcan-for-national-s">in a news release</a>. "Vulcan certification adds launch capacity, resiliency, and flexibility needed by our nation’s most critical space-based systems."</p>
-<p>The formal announcement closes a yearslong process that has seen multiple delays in the development of the Vulcan rocket, as well as two anomalies in recent years that were a further setback to certification.</p><p><a href="https://arstechnica.com/space/2025/03/at-long-last-the-space-force-has-certified-the-vulcan-rocket/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/03/at-long-last-the-space-force-has-certified-the-vulcan-rocket/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>59</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/54041467572_2f96e015d6_k-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/54041467572_2f96e015d6_k-500x500.jpg" width="500"/>
-<media:credit>United Launch Alliance</media:credit><media:text>ULA's second Vulcan rocket lifted off October 4, 2024.</media:text></media:content>
-      </item>
-          <item>
-        <title>Google makes Android development private, will continue open source releases</title>
-        <link>https://arstechnica.com/gadgets/2025/03/google-makes-android-development-private-will-continue-open-source-releases/</link>
-                  <comments>https://arstechnica.com/gadgets/2025/03/google-makes-android-development-private-will-continue-open-source-releases/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ryan Whitwam]]>
-        </dc:creator>
-        <pubDate>Wed, 26 Mar 2025 19:20:24 +0000</pubDate>
-        		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[android]]></category>
-		<category><![CDATA[AOSP]]></category>
-		<category><![CDATA[development]]></category>
-		<category><![CDATA[google]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/03/google-makes-android-development-private-will-continue-open-source-releases/</guid>
-
-                  <description>
-            <![CDATA[Google says this change will simplify things for developers and OEMs. ]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Google is planning a major change to the way it develops new versions of the Android operating system. Since <a href="https://arstechnica.com/information-technology/2008/10/google-liberates-android-source-code-so-start-developing/">the beginning</a>, large swaths of the software have been developed in public-facing channels, but that will no longer be the case. This does not mean Android is shedding its open source roots, but the process won't be as transparent.</p>
-<p>Google <a href="https://www.androidauthority.com/google-android-development-aosp-3538503/">has confirmed</a> to Android Authority that all Android development work going forward will take place in Google's internal branch. This is a shift from the way Google has worked on Android in the past, which featured frequent updates to the public AOSP branch. Anyone can access AOSP, but the internal branches are only available to Google and companies with a Google Mobile Services (GMS) license, like Samsung, Motorola, and others.</p>
-<p>According to the company, it is making this change to simplify things, building on a recent change to trunk-based development. As Google works on both public and private branches of Android, the two fall out of sync with respect to features and API support. This forces Google to tediously merge the branches for every release. By focusing on the internal branch, Google claims it can streamline releases and make life easier for everyone.</p><p><a href="https://arstechnica.com/gadgets/2025/03/google-makes-android-development-private-will-continue-open-source-releases/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/03/google-makes-android-development-private-will-continue-open-source-releases/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>73</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Android-15-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Android-15-500x500.jpg" width="500"/>
-<media:credit>Ryan Whitwam</media:credit></media:content>
       </item>
       </channel>
 </rss>
