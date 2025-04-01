@@ -4,7 +4,7 @@
     <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
     <link>https://arstechnica.com</link>
     <description>All Ars Technica stories</description>
-    <lastBuildDate>Mon, 31 Mar 2025 21:21:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 22:46:52 +0000</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>
       hourly    </sy:updatePeriod>
@@ -19,6 +19,76 @@
 	<height>32</height>
 </image> 
       <item>
+        <title>Tuesday Telescope: On Mars, the rovers take pictures of robotic arms and rocks</title>
+        <link>https://arstechnica.com/space/2025/04/tuesday-telescope-on-mars-the-rovers-take-pictures-of-robotic-arms-and-rocks/</link>
+        
+        <dc:creator>
+          <![CDATA[Eric Berger]]>
+        </dc:creator>
+        <pubDate>Tue, 01 Apr 2025 12:00:12 +0000</pubDate>
+        		<category><![CDATA[Space]]></category>
+		<category><![CDATA[daily telescope]]></category>
+		<category><![CDATA[space]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/space/2025/04/tuesday-telescope-on-mars-the-rovers-take-pictures-of-robotic-arms-and-rocks/</guid>
+
+                  <description>
+            <![CDATA[Wait, the Daily Telescope is back? Sort of.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>We're back! A long-time reader and subscriber <a href="https://arstechnica.com/civis/threads/kind-of-missing-the-daily-telescope.1506437/">recently mentioned</a> in the Ars Forums that they "kind of" missed the Daily Telescope posts that I used to write in 2023 and 2024. Although I would have preferred that everyone <em>desperately</em> missed the Daily Telescope, I appreciate the sentiment. I really do.</p>
+<p>I initially stopped writing these posts about a year ago because it just became too much to commit to writing one thing every day. I mean, I could have done it. But doing so on the daily crossed over the line from enjoyable to drudgery, and one of the best things about working for Ars is that it tends very much toward the enjoyable side. Anyway, writing one of these posts on a weekly basis feels more sustainable. I guess we'll find out!</p>
+<p>Today's image comes to you all the way from Mars. One of the most powerful tools on NASA's Perseverance rover is the WATSON camera attached to the end of the rover's robotic arm. In the fine tradition of tortured acronyms at the space agency, WATSON stands for Wide Angle Topographic Sensor for Operations and eNgineering. And because of course it is, WATSON is located on the SHERLOC (Scanning Habitable Environments with Raman and Luminescence for Organics and Chemicals) instrument. Seriously, NASA must stand for Not Another Screwball Acronym.</p><p><a href="https://arstechnica.com/space/2025/04/tuesday-telescope-on-mars-the-rovers-take-pictures-of-robotic-arms-and-rocks/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/04/tuesday-telescope-on-mars-the-rovers-take-pictures-of-robotic-arms-and-rocks/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/watson-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/watson-500x500.jpg" width="500"/>
+</media:content>
+      </item>
+          <item>
+        <title>MCP: The new “USB-C for AI” that’s bringing fierce rivals together</title>
+        <link>https://arstechnica.com/information-technology/2025/04/mcp-the-new-usb-c-for-ai-thats-bringing-fierce-rivals-together/</link>
+                  <comments>https://arstechnica.com/information-technology/2025/04/mcp-the-new-usb-c-for-ai-thats-bringing-fierce-rivals-together/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Benj Edwards]]>
+        </dc:creator>
+        <pubDate>Tue, 01 Apr 2025 11:30:47 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgtp]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[MCP]]></category>
+		<category><![CDATA[Model Context Protocol]]></category>
+		<category><![CDATA[openai]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/04/mcp-the-new-usb-c-for-ai-thats-bringing-fierce-rivals-together/</guid>
+
+                  <description>
+            <![CDATA[Model context protocol standardizes how AI uses data sources, supported by OpenAI and Anthropic.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>What does it take to get OpenAI and Anthropic—two competitors in the AI assistant market—to get along? Despite a fundamental difference in direction that led Anthropic's founders to <a href="https://openai.com/index/organizational-update/">quit OpenAI</a> in 2020 and <a href="https://arstechnica.com/information-technology/2023/03/anthropic-introduces-claude-a-more-steerable-ai-competitor-to-chatgpt/">later create</a> the Claude AI assistant, a shared technical hurdle has now brought them together: How to easily connect their AI models to external data sources.</p>
+<p>The solution comes from Anthropic, which developed and released an open specification called <a href="https://www.anthropic.com/news/model-context-protocol">Model Context Protocol</a> (MCP) in November 2024. MCP establishes a royalty-free protocol that allows AI models to connect with outside data sources and services without requiring unique integrations for each service.</p>
+<p>"Think of MCP as a USB-C port for AI applications," <a href="https://modelcontextprotocol.io/introduction">wrote</a> Anthropic in MCP's documentation. The analogy is imperfect, but it represents the idea that, similar to how USB-C unified various cables and ports (with admittedly a <a href="https://learn.adafruit.com/understanding-usb-type-c-cable-types-pitfalls-and-more/cable-types-and-differences">debatable level</a> of success), MCP aims to standardize how AI models connect to the infoscape around them.</p><p><a href="https://arstechnica.com/information-technology/2025/04/mcp-the-new-usb-c-for-ai-thats-bringing-fierce-rivals-together/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/04/mcp-the-new-usb-c-for-ai-thats-bringing-fierce-rivals-together/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>5</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/robot_reading-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/robot_reading-500x500.jpg" width="500"/>
+<media:credit>NanoStockk</media:credit></media:content>
+      </item>
+          <item>
         <title>With new Gen-4 model, Runway claims to have finally achieved consistency in AI videos</title>
         <link>https://arstechnica.com/ai/2025/03/with-new-gen-4-model-runway-claims-to-have-finally-achieved-consistency-in-ai-videos/</link>
                   <comments>https://arstechnica.com/ai/2025/03/with-new-gen-4-model-runway-claims-to-have-finally-achieved-consistency-in-ai-videos/#comments</comments>
@@ -48,7 +118,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>37</slash:comments>
+                  <slash:comments>79</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Screenshot-2025-03-31-at-3.27.59 PM-1152x648.png" width="1152">
@@ -89,7 +159,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>31</slash:comments>
+                  <slash:comments>59</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/07/new-2024-apple-update-1152x648.jpeg" width="1152">
@@ -120,7 +190,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>121</slash:comments>
+                  <slash:comments>205</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/elon-musk-tech-support-1152x648-1743450636.jpg" width="1152">
@@ -157,7 +227,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>11</slash:comments>
+                  <slash:comments>25</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/puppet1-1152x648-1743423958.jpg" width="1152">
@@ -193,7 +263,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>48</slash:comments>
+                  <slash:comments>66</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Screenshot-2025-03-31-at-2.35.07 PM-1152x648.png" width="1152">
@@ -230,7 +300,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>33</slash:comments>
+                  <slash:comments>49</slash:comments>
         
         
         <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-1244262469.jpg">
@@ -262,7 +332,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>91</slash:comments>
+                  <slash:comments>119</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/iphone-1152x648-1743439095.jpg" width="1152">
@@ -296,7 +366,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>24</slash:comments>
+                  <slash:comments>38</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/win95-logo-1152x648.jpg" width="1152">
@@ -328,7 +398,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>50</slash:comments>
+                  <slash:comments>67</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/01-2025-BMW-M5-Touring-1152x648.jpg" width="1152">
@@ -363,7 +433,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>17</slash:comments>
+                  <slash:comments>18</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Gemini-models-march-1-1152x648-1743438208.jpg" width="1152">
@@ -397,7 +467,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>17</slash:comments>
+                  <slash:comments>28</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/11/GettyImages-1438783830-1152x648.jpg" width="1152">
@@ -435,7 +505,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>62</slash:comments>
+                  <slash:comments>70</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/isar_impact_1-1152x648.jpg" width="1152">
@@ -472,7 +542,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>157</slash:comments>
+                  <slash:comments>159</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/08/elon-musk-x-advertisers-1152x648.jpg" width="1152">
@@ -503,7 +573,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>362</slash:comments>
+                  <slash:comments>401</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-1282674656-1152x648.jpg" width="1152">
@@ -539,7 +609,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>105</slash:comments>
+                  <slash:comments>113</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-1311600163-1152x648.jpg" width="1152">
@@ -571,7 +641,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>311</slash:comments>
+                  <slash:comments>327</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/02/GettyImages-73534290-1152x648.jpg" width="1152">
@@ -606,7 +676,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>54</slash:comments>
+                  <slash:comments>56</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/avif" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/file-20250327-56-dflaq1-1152x648.jpg" width="1152">
@@ -642,114 +712,12 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>972</slash:comments>
+                  <slash:comments>1011</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/cobolcode-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/cobolcode-500x500.jpg" width="500"/>
 <media:credit>Tigermad</media:credit></media:content>
-      </item>
-          <item>
-        <title>The CDC buried a measles forecast that stressed the need for vaccinations</title>
-        <link>https://arstechnica.com/health/2025/03/the-cdc-buried-a-measles-forecast-that-stressed-the-need-for-vaccinations/</link>
-                  <comments>https://arstechnica.com/health/2025/03/the-cdc-buried-a-measles-forecast-that-stressed-the-need-for-vaccinations/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Patricia Callahan, ProPublica]]>
-        </dc:creator>
-        <pubDate>Sat, 29 Mar 2025 10:50:17 +0000</pubDate>
-        		<category><![CDATA[Health]]></category>
-		<category><![CDATA[CDC]]></category>
-		<category><![CDATA[measles]]></category>
-		<category><![CDATA[measles anti-vaccine]]></category>
-		<category><![CDATA[measles outbreak]]></category>
-		<category><![CDATA[rfk jr]]></category>
-		<category><![CDATA[syndication]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/health/2025/03/the-cdc-buried-a-measles-forecast-that-stressed-the-need-for-vaccinations/</guid>
-
-                  <description>
-            <![CDATA[The move is a sign that the public health agency may be falling in line under RFK Jr.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p><em>ProPublica is a Pulitzer Prize-winning investigative newsroom. Sign up for <a href="https://www.propublica.org/newsletters/the-big-story?source=reprint&amp;placement=top-note">The Big Story newsletter</a> to receive stories like this one in your inbox</em>.</p>
-<div>
-<p>Leaders at the Centers for Disease Control and Prevention ordered staff this week not to release their experts’ assessment that found the risk of catching measles is high in areas near outbreaks where vaccination rates are lagging, according to internal records reviewed by ProPublica.</p>
-<p>In an aborted plan to roll out the news, the agency would have emphasized the importance of vaccinating people against the highly contagious and potentially deadly disease that has spread to 19 states, the records show.</p>
-<p>A CDC spokesperson told ProPublica in a written statement that the agency decided against releasing the assessment “because it does not say anything that the public doesn’t already know.” She added that the CDC continues to recommend vaccines as “the best way to protect against measles.”</p>
-<p>But what the nation’s top public health agency said next shows a shift in its long-standing messaging about vaccines, a sign that it may be falling in line under Health and Human Services Secretary Robert F. Kennedy Jr., a longtime critic of vaccines:</p>
-<p>“The decision to vaccinate is a personal one,” the statement said, echoing a line from a <a href="https://www.foxnews.com/opinion/robert-f-kennedy-jr-measles-outbreak-call-action-all-us">column Kennedy wrote</a> for the Fox News website. “People should consult with their healthcare provider to understand their options to get a vaccine and should be informed about the potential risks and benefits associated with vaccines.”</p>
-<p>ProPublica shared the new CDC statement about personal choice and risk with Jennifer Nuzzo, director of the Pandemic Center at Brown University School of Public Health. To her, the shift in messaging, and the squelching of this routine announcement, is alarming.</p>
-<p>“I’m a bit stunned by that language,” Nuzzo said. “No vaccine is without risk, but that makes it sound like it’s a very active coin toss of a decision. We’ve already had more cases of measles in 2025 than we had in 2024, and it’s spread to multiple states. It is not a coin toss at this point.”</p>
-<p>For many years, the CDC hasn’t minced words on vaccines. It <a href="https://www.cdc.gov/vaccines/partners/vaccinate-with-confidence.html">promoted them with confidence</a>. One campaign was called “<a href="https://www.cdc.gov/flu/spotlights/2022-2023/ad-council-flu-campaign.htm">Get My Flu Shot</a>.” The agency’s website <a href="https://www.cdc.gov/vaccines-children/hcp/conversation-tips/index.html">told medical providers</a> they play a critical role in helping parents choose vaccines for their children: “Instead of saying ‘What do you want to do about shots?,’ say ‘Your child needs three shots today.’”</p>
-<p>Nuzzo wishes the CDC’s forecasters would put out more details of their data and evidence on the spread of measles, not less. “The growing scale and severity of this measles outbreak and the urgent need for more data to guide the response underscores why we need a fully staffed and functional CDC and more resources for state and local health departments,” she said.</p>
-<p>Kennedy’s agency oversees the CDC and on Thursday announced it was poised to eliminate 2,400 jobs there.</p>
-<p>When asked what role, if any, Kennedy played in the decision to not release the risk assessment, HHS’s communications director said the aborted announcement “was part of an ongoing process to improve communication processes—nothing more, nothing less.” The CDC, he reiterated, continues to recommend vaccination “as the best way to protect against measles.”</p>
-<p>“Secretary Kennedy believes that the decision to vaccinate is a personal one and that people should consult with their healthcare provider to understand their options to get a vaccine,” Andrew G. Nixon said. “It is important that the American people have radical transparency and be informed to make personal healthcare decisions.”</p>
-<p>Responding to questions about criticism of the decision among some CDC staff, Nixon wrote, “Some individuals at the CDC seem more interested in protecting their own status or agenda rather than aligning with this Administration and the true mission of public health.”</p>
-<p>The CDC’s risk assessment was carried out by its Center for Forecasting and Outbreak Analytics, which relied, in part, on new disease data from the outbreak in Texas. The CDC created the center to address a major shortcoming laid bare during the COVID-19 pandemic. It functions like a National Weather Service for infectious diseases, harnessing data and expertise to predict the course of outbreaks like a meteorologist warns of storms.</p>
-<p>Other risk assessments by the center have been posted by the CDC even though their conclusions might seem obvious.</p>
-<p>In late February, for example, <a href="https://www.cdc.gov/cfa-qualitative-assessments/php/data-research/h5-risk-assessment.html">forecasters analyzing the spread of H5N1</a> bird flu said people who come “in contact with potentially infected animals or contaminated surfaces or fluids” faced a moderate to high risk of contracting the disease. The risk to the general US population, they said, was low.</p>
-<p>In the case of the measles assessment, modelers at the center determined the risk of the disease for the general public in the US is low, but they found the risk is high in communities with low vaccination rates that are near outbreaks or share close social ties to those areas with outbreaks. The CDC had moderate confidence in the assessment, according to an internal Q&amp;A that explained the findings. The agency, it said, lacks detailed data about the onset of the illness for all patients in West Texas and is still learning about the vaccination rates in affected communities as well as travel and social contact among those infected. (The H5N1 assessment was also made with moderate confidence.)</p>
-<p>The internal plan to roll out the news of the forecast called for the expert physician who’s leading the CDC’s response to measles to be the chief spokesperson answering questions. “It is important to note that at local levels, vaccine coverage rates may vary considerably, and pockets of unvaccinated people can exist even in areas with high vaccination coverage overall,” the plan said. “The best way to protect against measles is to get the measles, mumps, and rubella (MMR) vaccine.”</p>
-<p>This week, though, as the number of confirmed cases rose to 483, more than 30 agency staff were told in an email that after a discussion in the CDC director’s office, “leadership does not want to pursue putting this on the website.”</p>
-<p>The cancellation was “not normal at all,” said a CDC staff member who spoke anonymously for fear of reprisal with layoffs looming. “I’ve never seen a rollout plan that was canceled at that far along in the process.”</p>
-<p>Anxiety among CDC staff has been building over whether the agency will bend its public health messages to match those of Kennedy, a lawyer who founded an anti-vaccine group and referred clients to a law firm suing a vaccine manufacturer.</p>
-<p>During Kennedy’s first week on the job, HHS halted the CDC campaign that encouraged people to get flu shots during a ferocious flu season. On the night that the Trump administration began firing probationary employees across the federal government, some key CDC flu webpages were taken down. Remnants of some of the campaign webpages were restored after <a href="https://www.npr.org/sections/shots-health-news/2025/02/19/nx-s1-5302906/cdc-flu-vaccine-campaign-terminated">NPR reported</a> this.</p>
-<p>But some at the agency felt like the new leadership had sent a message loud and clear: When next to nobody was paying attention, long-standing public health messages could be silenced.</p>
-<p>On the day in February that the world learned that an unvaccinated <a href="https://perma.cc/R8XT-4XUB">child had died</a> of measles in Texas, the first such death in the U.S. since 2015, the HHS secretary <a href="https://www.factcheck.org/2025/02/rfk-jr-minimizes-measles-outbreak-in-texas/">downplayed the seriousness</a> of the outbreak. “We have measles outbreaks every year,” he said at a cabinet meeting with President Donald Trump.</p>
-<p>In an interview on Fox News this month, Kennedy championed doctors in Texas who he said were treating measles with a steroid, an antibiotic and cod liver oil, a supplement that is high in vitamin A. “They’re seeing what they describe as almost miraculous and instantaneous recovery from that,” Kennedy said.</p>
-<p>As parents near the outbreak in Texas stocked up on vitamin A supplements, doctors there raced to assure parents that <a href="https://www.reuters.com/business/healthcare-pharmaceuticals/doctors-push-back-parents-embrace-kennedy-vitamin-texas-measles-outbreak-2025-03-08/">only vaccination, not the vitamin, can prevent measles</a>.</p>
-<p>Still, the CDC added <a href="https://www.cdc.gov/measles/hcp/clinical-overview/index.html">an entry on Vitamin A</a> to its measles website for clinicians.</p>
-<p>On Wednesday, CNN reported that <a href="https://www.cnn.com/2025/03/26/health/texas-measles-vitamin-a-toxicity/index.html">several hospitalized children in Lubbock, Texas, had abnormal liver function</a>, a likely sign of toxicity from too much vitamin A.</p>
-<p>Texas health officials also said that the Trump administration’s decision to rescind $11 billion in pandemic-related grants across the country <a href="https://www.texastribune.org/2025/03/26/texas-measles-public-health-funding-cut/">will hinder their ability to respond</a> to the growing outbreak, according to The Texas Tribune.</p>
-<p>Measles is among the most contagious diseases and can be dangerous. About 20 percent of unvaccinated people who get measles wind up in the hospital. And <a href="https://www.cdc.gov/measles/signs-symptoms/index.html">nearly 1 to 3 of every 1,000 children</a> with measles will die from respiratory and neurologic complications. The virus can <a href="https://www.cdc.gov/measles/causes/index.html">linger in the air</a> for two hours after an infected person has left an area, and patients can spread measles before they even know they have it.</p>
-<p>This week Amtrak said it was notifying customers that they may have been exposed to the disease this month when a passenger with measles <a href="https://abc7ny.com/post/amtrak-confirms-passenger-measles-traveled-new-york-washington-dc/16085440/">rode one of its trains</a> from New York City to Washington, DC.</p>
-</div>
-<p><script type="text/javascript" src="https://pixel.propublica.org/pixel.js" async></script></p>
-<p> </p><p><a href="https://arstechnica.com/health/2025/03/the-cdc-buried-a-measles-forecast-that-stressed-the-need-for-vaccinations/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/03/the-cdc-buried-a-measles-forecast-that-stressed-the-need-for-vaccinations/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>296</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2196587890-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2196587890-500x500.jpg" width="500"/>
-<media:credit>Getty | Win McNamee</media:credit><media:text>Robert F. Kennedy Jr., the Secretary of Health and Human Services, testifies during his Senate Finance Committee confirmation hearing at the Dirksen Senate Office Building on January 29, 2025 in Washington, DC.</media:text></media:content>
-      </item>
-          <item>
-        <title>Elon Musk’s X has a new owner—Elon Musk’s xAI</title>
-        <link>https://arstechnica.com/tech-policy/2025/03/elon-musks-x-has-a-new-owner-elon-musks-xai/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/03/elon-musks-x-has-a-new-owner-elon-musks-xai/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jon Brodkin]]>
-        </dc:creator>
-        <pubDate>Fri, 28 Mar 2025 23:59:49 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[elon musk x]]></category>
-		<category><![CDATA[xAI]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/03/elon-musks-x-has-a-new-owner-elon-musks-xai/</guid>
-
-                  <description>
-            <![CDATA[xAI buys X; deal values social network at $33 billion, $11B less than Musk paid.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Elon Musk today said he has merged X and xAI in a deal that values the social network formerly known as Twitter at $33 billion. Musk purchased Twitter for $44 billion in 2022.</p>
-<p>xAI acquired X "in an all-stock transaction. The combination values xAI at $80 billion and X at $33 billion ($45B less $12B debt)," Musk <a href="https://x.com/elonmusk/status/1905731750275510312">wrote on X today</a>.</p>
-<p>X and xAI were already collaborating, as xAI's <a href="https://arstechnica.com/information-technology/2023/11/elon-musks-new-ai-model-doesnt-shy-from-questions-about-cocaine-and-orgies/">Grok</a> is <a href="https://arstechnica.com/information-technology/2023/11/elon-musks-new-ai-model-doesnt-shy-from-questions-about-cocaine-and-orgies/">trained</a> on X posts. Grok is made available to X users, with paying subscribers getting higher usage limits and more features.</p><p><a href="https://arstechnica.com/tech-policy/2025/03/elon-musks-x-has-a-new-owner-elon-musks-xai/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/03/elon-musks-x-has-a-new-owner-elon-musks-xai/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>218</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/xai-1152x648-1743206047.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/xai-500x500-1743206055.jpg" width="500"/>
-<media:credit>Getty Images | NurPhoto </media:credit></media:content>
       </item>
       </channel>
 </rss>
