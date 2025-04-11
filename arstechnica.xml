@@ -4,7 +4,7 @@
     <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
     <link>https://arstechnica.com</link>
     <description>All Ars Technica stories</description>
-    <lastBuildDate>Thu, 10 Apr 2025 00:24:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 22:50:00 +0000</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>
       hourly    </sy:updatePeriod>
@@ -19,6 +19,502 @@
 	<height>32</height>
 </image> 
       <item>
+        <title>ChatGPT can now remember and reference all your previous chats</title>
+        <link>https://arstechnica.com/ai/2025/04/chatgpt-can-now-remember-and-reference-all-your-previous-chats/</link>
+                  <comments>https://arstechnica.com/ai/2025/04/chatgpt-can-now-remember-and-reference-all-your-previous-chats/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Samuel Axon]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 22:50:00 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[chat bot]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[LLM]]></category>
+		<category><![CDATA[openai]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/ai/2025/04/chatgpt-can-now-remember-and-reference-all-your-previous-chats/</guid>
+
+                  <description>
+            <![CDATA[Before, ChatGPT just remembered a few facts. Now it can remember much more.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>OpenAI today <a href="https://x.com/OpenAI/status/1910378768172212636">announced</a> a significant expansion of ChatGPT's customization and memory capabilities. For some users, it will now be able to remember information from the full breadth of their prior conversations with it and adjust its responses based on that information.</p>
+<p>This means ChatGPT will learn more about the user over time to personalize its responses, above and beyond just a handful of key facts.</p>
+<p>Some time ago, OpenAI <a href="https://arstechnica.com/information-technology/2024/02/amnesia-begone-soon-chatgpt-will-remember-what-you-tell-it-between-sessions/">added</a> a feature called "Memory" that allowed a limited number of pieces of information to be retained and used for future responses. Users often had to specifically ask ChatGPT to remember something to trigger this, though it occasionally tried to guess at what it should remember, too. (When something was added to its memory, there was a message saying that its memory had been updated.)</p><p><a href="https://arstechnica.com/ai/2025/04/chatgpt-can-now-remember-and-reference-all-your-previous-chats/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/04/chatgpt-can-now-remember-and-reference-all-your-previous-chats/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>8</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/openai_tectonic_shift_3-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/openai_tectonic_shift_3-500x500.jpg" width="500"/>
+<media:credit>Benj Edwards / OpenAI</media:credit><media:text>OpenAI's ChatGPT is adding major new features.</media:text></media:content>
+      </item>
+          <item>
+        <title>Researchers concerned to find AI models hiding their true “reasoning” processes</title>
+        <link>https://arstechnica.com/ai/2025/04/researchers-concerned-to-find-ai-models-hiding-their-true-reasoning-processes/</link>
+                  <comments>https://arstechnica.com/ai/2025/04/researchers-concerned-to-find-ai-models-hiding-their-true-reasoning-processes/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Benj Edwards]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 22:37:13 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI alignment]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[AI safety]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[simulated reasoning]]></category>
+		<category><![CDATA[SR models]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/ai/2025/04/researchers-concerned-to-find-ai-models-hiding-their-true-reasoning-processes/</guid>
+
+                  <description>
+            <![CDATA[New Anthropic research shows one AI model conceals reasoning shortcuts 75% of the time.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Remember when teachers demanded that you "show your work" in school? Some fancy new AI models promise to do exactly that, but <a href="https://www.anthropic.com/research/reasoning-models-dont-say-think">new research</a> suggests that they sometimes hide their actual methods while fabricating elaborate explanations instead.</p>
+<p>New research from Anthropic—creator of the ChatGPT-like Claude AI assistant—examines simulated reasoning (SR) models like <a href="https://arstechnica.com/ai/2025/01/china-is-catching-up-with-americas-best-reasoning-ai-models/">DeepSeek's R1</a>, and its own Claude series. In a research paper <a href="https://assets.anthropic.com/m/71876fabef0f0ed4/original/reasoning_models_paper.pdf">posted last week</a>, Anthropic's Alignment Science team demonstrated that these SR models frequently fail to disclose when they've used external help or taken shortcuts, despite features designed to show their "reasoning" process.</p>
+<p>(It's worth noting that OpenAI's o1 and o3 series SR models deliberately obscure the accuracy of their "thought" process, so this study does not apply to them.)</p><p><a href="https://arstechnica.com/ai/2025/04/researchers-concerned-to-find-ai-models-hiding-their-true-reasoning-processes/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/04/researchers-concerned-to-find-ai-models-hiding-their-true-reasoning-processes/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>15</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/robot_lying_2-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/robot_lying_2-500x500.jpg" width="500"/>
+<media:credit>Malte Mueller via Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>OnePlus releases Watch 3 with inflated $500 price tag, won’t say why</title>
+        <link>https://arstechnica.com/gadgets/2025/04/after-typo-fixing-delay-oneplus-watch-3-launches-with-50-higher-price/</link>
+                  <comments>https://arstechnica.com/gadgets/2025/04/after-typo-fixing-delay-oneplus-watch-3-launches-with-50-higher-price/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ryan Whitwam]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 20:08:49 +0000</pubDate>
+        		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[OnePlus]]></category>
+		<category><![CDATA[smartwatches]]></category>
+		<category><![CDATA[wearables]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/04/after-typo-fixing-delay-oneplus-watch-3-launches-with-50-higher-price/</guid>
+
+                  <description>
+            <![CDATA[The new OnePlus smartwatch has debuted at $500 instead of the promised $330.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>After modest success with its first two smartwatches, OnePlus was poised to release a third-generation smartwatch early this year. Unfortunately, the company had to delay the Watch 3 from February to April, and now the previously announced $330 price tag is nowhere to be seen. Instead, the OnePlus Watch 3 has launched at an eye-watering $500 in the US, and you can probably guess why.</p>
+<p>The OnePlus Watch 3 was all set for release a few months ago, but early reviewers spotted an embarrassing typo on the device. Like most smartwatches, OnePlus printed the watch's key specs on the bottom of the housing. Part of that text was supposed to read "Made in China," but instead, it said "Meda in China." Oops.</p>
+<p>OnePlus delayed the launch so it could correct the mistake on retail units. However, the US-China trade relationship has deteriorated dramatically in the intervening weeks. Since the watch is <del>meda</del> made in China, it is subject to tariffs—the amount of Trump's China tariffs is changing on an almost daily basis, but it's <a href="https://arstechnica.com/tech-policy/2025/04/amazons-chinese-sellers-to-raise-prices-or-quit-us-market-as-tariffs-hit-145/">currently 145 percent</a>.</p><p><a href="https://arstechnica.com/gadgets/2025/04/after-typo-fixing-delay-oneplus-watch-3-launches-with-50-higher-price/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/04/after-typo-fixing-delay-oneplus-watch-3-launches-with-50-higher-price/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>41</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/2420d5ac3cc36e8422d9711d917bc17c-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/2420d5ac3cc36e8422d9711d917bc17c-500x500.jpg" width="500"/>
+<media:credit>OnePlus</media:credit></media:content>
+      </item>
+          <item>
+        <title>Five standout games revealed at today’s Triple-i Showcase</title>
+        <link>https://arstechnica.com/gaming/2025/04/five-stand-out-games-revealed-at-todays-triple-i-showcase/</link>
+                  <comments>https://arstechnica.com/gaming/2025/04/five-stand-out-games-revealed-at-todays-triple-i-showcase/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Kevin Purdy]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 19:24:40 +0000</pubDate>
+        		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[deep rock galactic]]></category>
+		<category><![CDATA[deep rock galactic rogue core]]></category>
+		<category><![CDATA[deep rock galactic survivor]]></category>
+		<category><![CDATA[endless legend]]></category>
+		<category><![CDATA[endless legend 2]]></category>
+		<category><![CDATA[heroes of might and magic]]></category>
+		<category><![CDATA[heroes of might and magic III]]></category>
+		<category><![CDATA[iii initiative]]></category>
+		<category><![CDATA[neverway]]></category>
+		<category><![CDATA[survivorlikes]]></category>
+		<category><![CDATA[the alters]]></category>
+		<category><![CDATA[triple-i initiative]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gaming/2025/04/five-stand-out-games-revealed-at-todays-triple-i-showcase/</guid>
+
+                  <description>
+            <![CDATA[More than 35 games in 45 minutes, and some of them were danged intriguing.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>"No ads, no hosts, no sponsors, just games." <a href="https://iii-initiative.com/">The Triple-i Initiative</a>'s pitch for its now-annual showcase of games, crafted by studios working somewhere between "Solo dev or very small team" and "Investor-minded conglomerate with international offices," promises a lot of peeks at games without a lot of chatter, and once again it delivered.</p>
+<p><a href="https://arstechnica.com/gaming/2024/04/slay-the-spire-2-vampire-survivors-meets-contra-and-other-triple-i-games/">Last year's showcase</a> debuted titles like <em>Norland</em>, <em>Slay the Spire 2</em>, and <em>The Rogue Prince of Persia</em>, along with updates from <em>Darkest Dungeon 2</em>, <em>Palworld</em>, and <em>Vampire Survivors</em>. This year featured looks at titles from the Deep Rock universe, the cloning-yourself-to-survive curiosity <a href="https://altersthegame.com/"><em>The Alters</em></a>, an <a href="https://store.steampowered.com/app/3407390/ENDLESS_Legend_2/"><em>Endless Legend 2</em></a> that continues tweaking the 4X formula, and more.</p>
+<p>Below are five selected highlights for the Ars crowd, along with some notable other announcements. The full list is not yet up on <a href="https://iii-initiative.com/">the Triple-i site</a>, but you can see what jumped out from <a href="https://www.youtube.com/watch?v=qMyziPJY_aw">the full showcase</a>.</p><p><a href="https://arstechnica.com/gaming/2025/04/five-stand-out-games-revealed-at-todays-triple-i-showcase/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2025/04/five-stand-out-games-revealed-at-todays-triple-i-showcase/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>8</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/The_Alters_04-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/The_Alters_04-500x500.jpg" width="500"/>
+<media:credit>11bit Studios</media:credit><media:text>There are so many kinds of gamers inside all of us. What if we could bring them all together, in one room, to work through our backlog?</media:text></media:content>
+      </item>
+          <item>
+        <title>New simulation of Titanic’s sinking confirms historical testimony</title>
+        <link>https://arstechnica.com/science/2025/04/3d-digital-twin-of-titanic-wreck-yields-fresh-insights/</link>
+                  <comments>https://arstechnica.com/science/2025/04/3d-digital-twin-of-titanic-wreck-yields-fresh-insights/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jennifer Ouellette]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 19:10:20 +0000</pubDate>
+        		<category><![CDATA[Science]]></category>
+		<category><![CDATA[digital twin]]></category>
+		<category><![CDATA[disney plus]]></category>
+		<category><![CDATA[James Cameron]]></category>
+		<category><![CDATA[National Geographic]]></category>
+		<category><![CDATA[RMS Titanic]]></category>
+		<category><![CDATA[streaming television]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/science/2025/04/3d-digital-twin-of-titanic-wreck-yields-fresh-insights/</guid>
+
+                  <description>
+            <![CDATA[NatGeo documentary follows a cutting-edge undersea scanning project to make a high-resolution 3D digital twin of the ship.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>In 2023, <a href="https://arstechnica.com/science/2023/05/take-an-eye-popping-3d-tour-of-the-titanics-digital-twin/">we reported</a> on the unveiling of the first full-size 3D digital scan of the remains of the RMS <em>Titanic</em>—a "digital twin" that captured the wreckage in unprecedented detail. Magellan Ltd, a <a href="https://www.magellan.gg/titanic-in-3d/">deep-sea mapping company</a>, and Atlantic Productions conducted the scans over a six-week expedition. That project is the subject of the new National Geographic documentary <a href="https://www.natgeotv.com/za/programs/natgeo/titanic-the-digital-resurrection"><em>Titanic: The Digital Resurrection</em></a>, detailing several fascinating initial findings from experts' ongoing analysis of that full-size scan.</p>
+<p><em>Titanic</em> met its doom just four days into the Atlantic crossing, roughly 375 miles (600 kilometers) south of Newfoundland. At 11:40 pm ship's time on April 14, 1912, <em>Titanic</em> hit that infamous iceberg and began taking on water, flooding five of its 16 watertight compartments, thereby sealing its fate. More than 1,500 passengers and crew perished; only around 710 of those on board survived.</p>
+<p><em>Titanic</em> remained undiscovered at the bottom of the Atlantic Ocean until an expedition led by Jean-Louis Michel and Robert Ballard reached the wreck on September 1, 1985. The ship split apart as it sank, with the bow and stern sections lying roughly one-third of a mile apart. The bow proved to be surprisingly intact, while the stern showed severe structural damage, likely flattened from the impact as it hit the ocean floor. There is a debris field spanning a 5×3-mile area, filled with furniture fragments, dinnerware, shoes and boots, and other personal items.</p><p><a href="https://arstechnica.com/science/2025/04/3d-digital-twin-of-titanic-wreck-yields-fresh-insights/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/04/3d-digital-twin-of-titanic-wreck-yields-fresh-insights/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>23</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/titanic9CROP-1152x648-1743431665.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/titanic9CROP-500x500-1743431674.jpg" width="500"/>
+<media:credit>Magellan Limited/Atlantic Productions</media:credit><media:text>The bow of the Titanic Digital Twin, seen from above at forward starboard side.</media:text></media:content>
+      </item>
+          <item>
+        <title>Google takes advantage of federal cost-cutting with steep Workspace discount</title>
+        <link>https://arstechnica.com/gadgets/2025/04/google-slashes-workspace-pricing-for-feds-to-capitalize-on-cost-cutting/</link>
+                  <comments>https://arstechnica.com/gadgets/2025/04/google-slashes-workspace-pricing-for-feds-to-capitalize-on-cost-cutting/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ryan Whitwam]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 18:49:10 +0000</pubDate>
+        		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Federal government]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google workspace]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/04/google-slashes-workspace-pricing-for-feds-to-capitalize-on-cost-cutting/</guid>
+
+                  <description>
+            <![CDATA[Google will knock 71% off government Workspace subscriptions for a limited time.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Google has long been on the lookout for ways to break Microsoft's stranglehold on US government office software, and the current drive to cut costs may be it. Google and the federal government have announced an agreement that makes Google Workspace available to all agencies at a significant discount, trimming 71 percent from the service's subscription price tag.</p>
+<p>Since Donald Trump returned to the White House, the government has engaged in a campaign of unbridled staffing reductions and <a href="https://arstechnica.com/tech-policy/2025/02/despite-court-orders-climate-and-energy-programs-stalled-by-trump-freeze/">program cancellations</a>, all with the alleged aim of reducing federal spending. It would appear Google recognized this opportunity, negotiating with the General Services Administration (GSA) to offer Workspace at a lower price. Google claims the deal could yield up to $2 billion in savings.</p>
+<p>Google has previously offered discounts for federal agencies interested in migrating to Workspace, but it saw little success displacing Microsoft. The Windows maker has enjoyed decades as an entrenched tech giant, leading the 365 productivity tools to proliferate throughout the government. While Google has gotten some agencies on board, Microsoft has traditionally won the lion's share of contracts, including the $8 billion Defense Enterprise Office Solutions contract that pushed Microsoft 365 to all corners of the Pentagon beginning in 2020.</p><p><a href="https://arstechnica.com/gadgets/2025/04/google-slashes-workspace-pricing-for-feds-to-capitalize-on-cost-cutting/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/04/google-slashes-workspace-pricing-for-feds-to-capitalize-on-cost-cutting/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>13</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/maxresdefault-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/maxresdefault-500x500.jpg" width="500"/>
+<media:credit>Google</media:credit><media:text>The Google Workspace icons.</media:text></media:content>
+      </item>
+          <item>
+        <title>Hands-on: Handwriting recognition app brings sticky notes into the 21st century</title>
+        <link>https://arstechnica.com/gadgets/2025/04/hands-on-handwriting-recognition-app-brings-sticky-notes-into-the-21st-century/</link>
+                  <comments>https://arstechnica.com/gadgets/2025/04/hands-on-handwriting-recognition-app-brings-sticky-notes-into-the-21st-century/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Scharon Harding]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 18:48:35 +0000</pubDate>
+        		<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[reviews]]></category>
+		<category><![CDATA[software]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/04/hands-on-handwriting-recognition-app-brings-sticky-notes-into-the-21st-century/</guid>
+
+                  <description>
+            <![CDATA[Rocketbook Reusable Sticky Notes are an excessive solution for too many sticky notes.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>For quick reminders and can’t-miss memos, sticky notes are effective tools, and I'd argue that the simplicity of the sticky note is its best attribute. But the ease behind propping up sticky notes also means that it’s easy for people to find their desks covered in the things, making it difficult to glean critical information quickly.</p>
+<p>Rocketbook, a Boston-based company that also makes<a href="https://getrocketbook.com/products/rocketbook-core"> reusable notebooks</a>, thinks it has a solution for sticky note overload in the form of an app that interprets handwriting and organizes reusable sticky notes. But not everyone has the need—or time—for a dedicated sticky notes app.</p>
+<h2>Rocketbook’s Reusable Sticky Notes</h2>
+<p>Like Rocketbook’s flagship notebooks, its Reusable Sticky Notes rely on erasable pens that allow you to use the paper repeatedly. The Reusable Sticky Notes work with the Rocketbook app (available for iOS or Android), which transforms the sticky notes into images that are automatically stored in the app and can be emailed to specified people (as a PDF) or shared with third-party apps.</p><p><a href="https://arstechnica.com/gadgets/2025/04/hands-on-handwriting-recognition-app-brings-sticky-notes-into-the-21st-century/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/04/hands-on-handwriting-recognition-app-brings-sticky-notes-into-the-21st-century/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>17</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/20250410_130916-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/20250410_130916-500x500-1744306050.jpg" width="500"/>
+<media:credit>Scharon Harding</media:credit></media:content>
+      </item>
+          <item>
+        <title>FDA backpedals on RTO to stop talent hemorrhage after HHS bloodbath</title>
+        <link>https://arstechnica.com/health/2025/04/fda-backpedals-on-rto-to-stop-talent-hemorrhage-after-hhs-bloodbath/</link>
+                  <comments>https://arstechnica.com/health/2025/04/fda-backpedals-on-rto-to-stop-talent-hemorrhage-after-hhs-bloodbath/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Beth Mole]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 18:30:38 +0000</pubDate>
+        		<category><![CDATA[Health]]></category>
+		<category><![CDATA[drugs]]></category>
+		<category><![CDATA[fda]]></category>
+		<category><![CDATA[medical devices]]></category>
+		<category><![CDATA[trump administration]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/health/2025/04/fda-backpedals-on-rto-to-stop-talent-hemorrhage-after-hhs-bloodbath/</guid>
+
+                  <description>
+            <![CDATA[With staff losses, there is real risk of "catastrophic collapse" of FDA reviews.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>The Food and Drug Administration is reinstating telework for staff who review drugs, medical devices, and tobacco, according to <a href="https://apnews.com/article/fda-remote-work-telework-f7b6036c62f44359b5d04fafb9eb5fec">reporting by the Associated Press</a>. Review staff and supervisors are now allowed to resume telework at least two days a week, according to an internal email obtained by the AP.</p>
+<p>The move reverses a jarring return-to-office decree by the Trump administration, which it used to spur resignations from federal employees. Now, after a wave of such resignations and a brutal round of <a href="https://arstechnica.com/health/2025/03/this-will-be-a-painful-period-rfk-jr-slashes-24-of-us-health-dept/">layoffs that targeted about 3,500 staff</a>, the move to restore some telework appears aimed at keeping the remaining talent amid fears that the agency's review capabilities are at risk of collapse.</p>
+<p>The cut of 3,500 staff is a loss of about 19 percent of the agency's workforce, and staffers told the AP that lower-level employees are "pouring" out of the agency amid the Trump administration's actions. Entire offices responsible for FDA policies and regulations have been shuttered. Most of the agency's communication staff have been wiped out, as well as teams that support food inspectors and investigators, the AP reported.</p><p><a href="https://arstechnica.com/health/2025/04/fda-backpedals-on-rto-to-stop-talent-hemorrhage-after-hhs-bloodbath/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/04/fda-backpedals-on-rto-to-stop-talent-hemorrhage-after-hhs-bloodbath/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>70</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/05/GettyImages-496532228-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2019/05/GettyImages-496532228-500x500.jpg" width="500"/>
+<media:credit>Getty | Congressional Quarterly</media:credit><media:text>The Food and Drug Administration headquarters in White Oak, Maryland.</media:text></media:content>
+      </item>
+          <item>
+        <title>Amazon’s Chinese sellers to raise prices or quit US market as tariffs hit 145%</title>
+        <link>https://arstechnica.com/tech-policy/2025/04/amazons-chinese-sellers-to-raise-prices-or-quit-us-market-as-tariffs-hit-145/</link>
+                  <comments>https://arstechnica.com/tech-policy/2025/04/amazons-chinese-sellers-to-raise-prices-or-quit-us-market-as-tariffs-hit-145/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jon Brodkin]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 17:55:27 +0000</pubDate>
+        		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[trump tariffs]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/04/amazons-chinese-sellers-to-raise-prices-or-quit-us-market-as-tariffs-hit-145/</guid>
+
+                  <description>
+            <![CDATA["It'll be very hard for anyone to survive in the US market," Chinese group says.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Chinese companies that sell to US customers on Amazon are reportedly preparing to raise prices or quit the US market because of tariffs imposed by President Trump. Amazon CEO Andy Jassy has meanwhile confirmed that he expects the cost of tariffs to be passed on to US buyers.</p>
+<p>Reuters talked to several individual sellers and a Chinese trade association that represents over 3,000 Amazon sellers for an <a href="https://www.reuters.com/technology/chinese-sellers-amazon-hike-prices-or-exit-us-tariffs-soar-association-says-2025-04-10/">article</a> published today. "It'll be very hard for anyone to survive in the US market" because "the entire cost structure gets entirely overwhelmed" by the tariffs, Reuters was told by Wang Xin, who leads the Shenzhen Cross-Border E-Commerce Association. Xin also "not[ed] the tariffs could also lead to customs delays and higher logistics costs."</p>
+<p>Trump <a href="https://arstechnica.com/tech-policy/2025/04/trump-boosts-china-tariffs-to-125-pauses-tariff-hikes-on-other-countries/">increased tariffs</a> on China imports to 125 percent yesterday even as he announced a 90-day pause on tariff hikes affecting other countries. The total tariffs are 145 percent because the newly raised tariff "comes on top of a 20 percent fentanyl-related tariff that Trump previously imposed on China," CNBC <a href="https://www.cnbc.com/2025/04/10/china-trump-tariffs-live-updates.html">wrote</a> today.</p><p><a href="https://arstechnica.com/tech-policy/2025/04/amazons-chinese-sellers-to-raise-prices-or-quit-us-market-as-tariffs-hit-145/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/04/amazons-chinese-sellers-to-raise-prices-or-quit-us-market-as-tariffs-hit-145/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>142</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/amazon-china-1152x648-1744306185.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/amazon-china-500x500-1744306180.jpg" width="500"/>
+<media:credit>Getty Images | NurPhoto </media:credit><media:text>Amazon booth at an exhibition in Hangzhou, China, on November 23, 2023.</media:text></media:content>
+      </item>
+          <item>
+        <title>Elon Musk wants to be “AGI dictator,” OpenAI tells court</title>
+        <link>https://arstechnica.com/ai/2025/04/elon-musk-wants-to-be-agi-dictator-openai-tells-court/</link>
+                  <comments>https://arstechnica.com/ai/2025/04/elon-musk-wants-to-be-agi-dictator-openai-tells-court/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ashley Belanger]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 17:45:13 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[agi]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<category><![CDATA[X]]></category>
+		<category><![CDATA[xAI]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/ai/2025/04/elon-musk-wants-to-be-agi-dictator-openai-tells-court/</guid>
+
+                  <description>
+            <![CDATA[Elon Musk’s “relentless” attacks on OpenAI must cease, court filing says.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p style="font-weight: 400;">Yesterday, OpenAI <a href="ttps://cdn.arstechnica.net/wp-content/uploads/2025/04/Musk-v-Altman-Response-to-Amended-Complaint-4-9-25.pdf">counter-sued</a> Elon Musk, alleging that Musk's "sham" <a href="https://arstechnica.com/ai/2025/02/sam-altman-openai-is-not-for-sale-even-for-elon-musks-97-billion-offer/">bid to buy OpenAI</a> was intentionally timed to maximally disrupt and potentially even frighten off investments from honest bidders.</p>
+<p style="font-weight: 400;">Slamming Musk for attempting to become an "AGI dictator," OpenAI said that if Musk's allegedly "relentless" yearslong campaign of "harassment" isn’t stopped, Musk could end up taking over OpenAI and tanking its revenue the same way he did with Twitter.</p>
+<p style="font-weight: 400;">In its filing, OpenAI argued that Musk and the other investors who joined his bid completely fabricated the $97.375 billion offer. It was allegedly not based on OpenAI's projections or historical performance, like Musk claimed, but instead appeared to be "a comedic reference to Musk’s favorite sci-fi" novel, Iain Banks' <em>Look to Windward</em>. Musk and others also provided "no evidence of financing to pay the nearly $100 billion purchase price," OpenAI said.</p><p><a href="https://arstechnica.com/ai/2025/04/elon-musk-wants-to-be-agi-dictator-openai-tells-court/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/04/elon-musk-wants-to-be-agi-dictator-openai-tells-court/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>43</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-2203694725-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-2203694725-500x500-1744303493.jpg" width="500"/>
+<media:credit>Samuel Corum / Stringer | Getty Images News</media:credit></media:content>
+      </item>
+          <item>
+        <title>The 2025 Mini Countryman SE: Whimsy doesn’t make up for annoying</title>
+        <link>https://arstechnica.com/cars/2025/04/the-2025-mini-countryman-se-whimsy-doesnt-make-up-for-annoying/</link>
+                  <comments>https://arstechnica.com/cars/2025/04/the-2025-mini-countryman-se-whimsy-doesnt-make-up-for-annoying/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jonathan M. Gitlin]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 17:21:08 +0000</pubDate>
+        		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[2025 Mini Countryman SE ALL4]]></category>
+		<category><![CDATA[car review]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/cars/2025/04/the-2025-mini-countryman-se-whimsy-doesnt-make-up-for-annoying/</guid>
+
+                  <description>
+            <![CDATA[It has style, but it's also slow to charge, and the infotainment is laggy.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>For its third incarnation, the Mini Countryman now comes in an all-electric variant. The Countryman is Mini's take on the family car, a compact crossover with bold design both inside and out. At a time when far too many automakers are supersizing their vehicles, Mini's offerings are still right-sized, even if the Countryman is a bit bigger than <a href="https://arstechnica.com/cars/2017/10/minis-new-countryman-hybrid-is-hobbled-by-too-small-a-battery/">the model it replaces</a>. But at times, you might be left feeling that style took preference over substance.</p>
+<p>The previous Countryman was available with the brand's only plug-in hybrid powertrain, but Mini now only offers the Countryman with either an internal combustion engine or as a full battery electric vehicle. Consequently, the Countryman SE is a fair bit more expensive now, starting at $45,200 before any tariffs are taken into account.</p>
+<p>Much of that money has gone to more lithium-ion—66.5 kWh in total (64.7 kWh useable), coupled to a pair of electric motors with a combined output of 308 hp (230 kW) and 364 lb-ft (494 Nm). That's sufficient for an EPA range estimate of 212 miles (341 km), although that might be a little on the conservative side. Based on the past few hundred miles, the test car we spent a week with averaged 3.4 miles/kWh (18.3 miles/kWh), which should allow for 220 miles (354 km) on a single charge, at least in good weather.</p><p><a href="https://arstechnica.com/cars/2025/04/the-2025-mini-countryman-se-whimsy-doesnt-make-up-for-annoying/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/04/the-2025-mini-countryman-se-whimsy-doesnt-make-up-for-annoying/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>51</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/2025-Mini-Countryman-SE-1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/2025-Mini-Countryman-SE-1-500x500-1744303428.jpg" width="500"/>
+<media:credit>Jonathan Gitlin</media:credit><media:text>The Mini Countryman is not technically a British car—it's made in Germany with some bits from China—but it suffers from the electronic gremlins that seem to affect all cars from British automakers.</media:text></media:content>
+      </item>
+          <item>
+        <title>Framework’s cheaper, colorful Laptop 12 up for preorder, starts at $549 bare-bones</title>
+        <link>https://arstechnica.com/gadgets/2025/04/frameworks-cheaper-colorful-laptop-12-up-for-preorder-starts-at-549-bare-bones/</link>
+                  <comments>https://arstechnica.com/gadgets/2025/04/frameworks-cheaper-colorful-laptop-12-up-for-preorder-starts-at-549-bare-bones/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Andrew Cunningham]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 17:01:20 +0000</pubDate>
+        		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[framework]]></category>
+		<category><![CDATA[framework laptop]]></category>
+		<category><![CDATA[framework laptop 12]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/04/frameworks-cheaper-colorful-laptop-12-up-for-preorder-starts-at-549-bare-bones/</guid>
+
+                  <description>
+            <![CDATA[Tariffs mean US pricing/availability for some Framework parts is still in flux.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Framework is <a href="https://x.com/FrameworkPuter/status/1910137465924702695">opening</a> US preorders for its new Laptop 12 today, a couple of months after <a href="https://arstechnica.com/gadgets/2025/02/frameworks-laptop-12-is-its-first-stab-at-a-budget-convertible-touchscreen-pc/">announcing the system</a> at an event in February. Framework's DIY edition of the laptop, which is missing RAM, an SSD, a USB-C charger, and an OS and requires some assembly, will start at $549. A fully assembled pre-built version with 8GB of RAM, a 500GB SSD, a 60 W charger, and Windows 11 Home starts at $799.</p>
+<p>All preorders placed on Framework's site require a $100 deposit, and almost all configurations begin shipping in July. A first batch of systems is slated to ship in June, but this requires <a href="https://frame.work/hacktheworld">a $250 donation to Hack Club</a>; Framework says the donation will be used to buy Framework 12 laptops for high school students.</p>
+<p>The Laptop 12 was built to be a more budget-friendly system, which is reflected in its specs, screen size, and its mostly plastic construction. But like the Laptop 13, the Laptop 12 prioritizes upgradeability and repairability and retains the USB-C-based Expansion Card system that was the Laptop 13's biggest innovation when it was introduced. Each Laptop 12 has four Expansion Card bays plus a headphone jack, allowing the installation of USB-C, USB-A, DisplayPort, and HDMI ports, as well as the other Expansion Cards Framework offers.</p><p><a href="https://arstechnica.com/gadgets/2025/04/frameworks-cheaper-colorful-laptop-12-up-for-preorder-starts-at-549-bare-bones/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/04/frameworks-cheaper-colorful-laptop-12-up-for-preorder-starts-at-549-bare-bones/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>18</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/framework-12-preorder-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/framework-12-preorder-500x500.jpg" width="500"/>
+<media:credit>Framework</media:credit><media:text>Framework's cheaper, colorful, convertible Laptop 12 goes up for preorder today and ships in June.</media:text></media:content>
+      </item>
+          <item>
+        <title>Car safety experts at NHTSA, which regulates Tesla, axed by DOGE</title>
+        <link>https://arstechnica.com/cars/2025/04/car-safety-experts-at-nhtsa-which-regulates-tesla-axed-by-doge/</link>
+                  <comments>https://arstechnica.com/cars/2025/04/car-safety-experts-at-nhtsa-which-regulates-tesla-axed-by-doge/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Stephen Morris, Paul Caruana Galizia, Kana Inagaki, and Chris Cook, Financial Times]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 13:46:21 +0000</pubDate>
+        		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[doge]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[nhtsa]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[Tesla]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/cars/2025/04/car-safety-experts-at-nhtsa-which-regulates-tesla-axed-by-doge/</guid>
+
+                  <description>
+            <![CDATA[Tesla has a lot riding on the swift success of its so-called Full Self-Driving software.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>Job cuts at the US traffic safety regulator instigated by Elon Musk’s so-called Department of Government Efficiency disproportionately hit staff assessing self-driving risks, hampering oversight of technology on which the world’s richest man has staked the future of Tesla.</p>
+<p>Of roughly 30 National Highway Traffic Safety Administration workers dismissed in February as part of Musk’s campaign to shrink the federal workforce, many were in the “office of vehicle automation safety,” people familiar with the situation told the Financial Times.</p>
+<p>The cuts are part of mass firings by Doge that have affected at least 20,000 federal employees and raised widespread concern over potential conflicts of interest for Musk given many of the targeted agencies regulate or have contracts with his businesses.</p><p><a href="https://arstechnica.com/cars/2025/04/car-safety-experts-at-nhtsa-which-regulates-tesla-axed-by-doge/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/04/car-safety-experts-at-nhtsa-which-regulates-tesla-axed-by-doge/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>156</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-1195295397-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-1195295397-500x500.jpg" width="500"/>
+<media:credit>Kai Eckhardt/picture alliance via Getty Images</media:credit></media:content>
+      </item>
+          <item>
+        <title>Google Pixel 9a review: All the phone you need</title>
+        <link>https://arstechnica.com/gadgets/2025/04/google-pixel-9a-review-all-the-phone-you-need/</link>
+                  <comments>https://arstechnica.com/gadgets/2025/04/google-pixel-9a-review-all-the-phone-you-need/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Ryan Whitwam]]>
+        </dc:creator>
+        <pubDate>Thu, 10 Apr 2025 13:00:51 +0000</pubDate>
+        		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Google Pixel]]></category>
+		<category><![CDATA[pixel 9a]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/04/google-pixel-9a-review-all-the-phone-you-need/</guid>
+
+                  <description>
+            <![CDATA[The Pixel 9a looks great and shoots lovely photos, but it's light on AI.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>It took a few years, but Google's Pixel phones have risen to the top of the Android ranks, and its new Pixel 9a keeps most of what has made flagship Pixel phones so good, including the slick software and versatile cameras. Despite a <a href="https://arstechnica.com/gadgets/2025/03/the-pixel-9a-arrives-this-month-for-499-with-streamlined-design-and-larger-battery/">revamped design and larger battery</a>, Google has maintained the $499 price point of <a href="https://arstechnica.com/gadgets/2024/05/pixel-8a-review-googles-budget-champion-gets-even-better/">last year's phone</a>, undercutting other "budget" devices like the <a href="https://arstechnica.com/gadgets/2025/03/iphone-16e-review-the-most-expensive-cheap-iphone-yet/">iPhone 16e</a>.</p>
+<p>However, hitting this price point involves trade-offs in materials, charging, and—significantly—the on-device AI capabilities compared to its pricier siblings. None of those are deal-breakers, though. In fact, the Pixel 9a may be coming along at just the right time. As we enter a period of uncertainty for imported gadgets, a modestly priced phone with lengthy support could be the perfect purchase.</p>
+<h2>A simpler silhouette</h2>
+<p>The Pixel 9a sports the same rounded corners and flat edges we've seen on other recent smartphones. The aluminum frame has a smooth, almost silky texture, with rolled edges that flow into the front and back covers.</p><p><a href="https://arstechnica.com/gadgets/2025/04/google-pixel-9a-review-all-the-phone-you-need/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/04/google-pixel-9a-review-all-the-phone-you-need/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>144</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/Pixel-9a-11-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/Pixel-9a-11-500x500.jpg" width="500"/>
+<media:credit>Ryan Whitwam</media:credit><media:text>The Pixel 9a adopts a streamlined design. </media:text></media:content>
+      </item>
+          <item>
         <title>Painted altar in Maya city of Tikal reveals aftermath of ancient coup</title>
         <link>https://arstechnica.com/science/2025/04/painted-altar-in-maya-city-of-tikal-reveals-the-aftermath-of-an-ancient-coup/</link>
                   <comments>https://arstechnica.com/science/2025/04/painted-altar-in-maya-city-of-tikal-reveals-the-aftermath-of-an-ancient-coup/#comments</comments>
@@ -43,13 +539,13 @@
           </description>
                                 <content:encoded>
               <![CDATA[<p>A family altar in the Maya city of Tikal offers a glimpse into events in an enclave of the city’s foreign overlords in the wake of a local coup.</p>
-<p>Archaeologists recently unearthed the altar in a quarter of the Maya city of Tikal that had lain buried under dirt and rubble for about the last 1,500 years. The altar—and the wealthy household behind the courtyard it once adorned—stand just a few blocks from the center of Tikal, one of the most powerful cities of Maya civilization. But the altar and the courtyard around it aren’t even remotely Maya-looking; their architecture and decoration look like they belong 1,000 kilometers to the west in the city of Teotihuacan, in central Mexico.</p>
-<p>The altar reveals the presence of powerful rulers from Teotihuacan, who were there at a time when a coup ousted Tikal’s Maya rulers and replaced them with a Teotihuacan puppet government. It also reveals how hard those foreign rulers fell from favor when Teotihuacan’s power finally waned centuries later.</p><p><a href="https://arstechnica.com/science/2025/04/painted-altar-in-maya-city-of-tikal-reveals-the-aftermath-of-an-ancient-coup/">Read full article</a></p>
+<p>Archaeologists recently unearthed the altar in a quarter of the Maya city of Tikal that had lain buried under dirt and rubble for about the last 1,500 years. The altar—and the wealthy household behind the courtyard it once adorned—stands just a few blocks from the center of Tikal, one of the most powerful cities of Maya civilization. But the altar and the courtyard around it aren’t even remotely Maya-looking; their architecture and decoration look like they belong 1,000 kilometers to the west in the city of Teotihuacan, in central Mexico.</p>
+<p>The altar reveals the presence of powerful rulers from Teotihuacan who were there at a time when a coup ousted Tikal’s Maya rulers and replaced them with a Teotihuacan puppet government. It also reveals how hard those foreign rulers fell from favor when Teotihuacan’s power finally waned centuries later.</p><p><a href="https://arstechnica.com/science/2025/04/painted-altar-in-maya-city-of-tikal-reveals-the-aftermath-of-an-ancient-coup/">Read full article</a></p>
 <p><a href="https://arstechnica.com/science/2025/04/painted-altar-in-maya-city-of-tikal-reveals-the-aftermath-of-an-ancient-coup/#comments">Comments</a></p>
 ]]>
             </content:encoded>
                   
-                  <slash:comments>1</slash:comments>
+                  <slash:comments>29</slash:comments>
         
         
         <media:content height="627" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/tikaltar2-1152x627.png" width="1152">
@@ -82,7 +578,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>163</slash:comments>
+                  <slash:comments>225</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-965820584-1152x648.jpg" width="1152">
@@ -116,7 +612,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>96</slash:comments>
+                  <slash:comments>151</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-2203986391-1152x648-1744210284.jpg" width="1152">
@@ -148,7 +644,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>87</slash:comments>
+                  <slash:comments>124</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2201503706-1152x648.jpg" width="1152">
@@ -178,12 +674,12 @@
                                 <content:encoded>
               <![CDATA[<p>Google made waves with the <a href="https://arstechnica.com/ai/2025/03/google-says-the-new-gemini-2-5-pro-model-is-its-smartest-ai-yet/">release of Gemini 2.5</a> last month, rocketing to the top of the AI leaderboard after previously struggling to keep up with the likes of OpenAI. That first experimental model was just the beginning. Google is deploying its improved AI in more places across its ecosystem, from the developer-centric Vertex AI to the consumer Gemini app.</p>
 <p>Gemini models have been dropping so quickly, it can be hard to grasp Google's intended lineup. Things are becoming clearer now that the company is beginning to move its products to the new branch. At the Google Cloud Next conference, it <a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-2-5-pro-flash-on-vertex-ai">has announced</a> initial availability of Gemini 2.5 Flash. This model is based on the same code as Gemini 2.5 Pro, but it's faster and cheaper to run.</p>
-<p>You won't see Gemini 2.5 Flash in the Gemini app just yet—it's starting out in the <a href="https://console.cloud.google.com/freetrial?redirectPath=%2Fvertex-ai%2Fstudio&amp;facet_utm_source=google&amp;facet_utm_campaign=%28organic%29&amp;facet_utm_medium=organic&amp;facet_url=https%3A%2F%2Fcloud.google.com%2Fblog%2Fproducts%2Fai-machine-learning%2Fgemini-2-5-pro-flash-on-vertex-ai">Vertex AI development platform</a>. The experimental wide release of Pro helped Google gather data and see how people interacted with the new model, and that has helped inform the development of 2.5 Flash.</p><p><a href="https://arstechnica.com/ai/2025/04/googles-best-gemini-ai-model-is-showing-up-in-more-places/">Read full article</a></p>
+<p>You won't see Gemini 2.5 Flash in the Gemini app just yet—it's starting out in the <a href="https://console.cloud.google.com/freetrial?redirectPath=%2Fvertex-ai%2Fstudio&amp;facet_utm_source=google&amp;facet_utm_campaign=%28organic%29&amp;facet_utm_medium=organic&amp;facet_url=https%3A%2F%2Fcloud.google.com%2Fblog%2Fproducts%2Fai-machine-learning%2Fgemini-2-5-pro-flash-on-vertex-ai">Vertex AI development platform</a> and AI Studio. The experimental wide release of Pro helped Google gather data and see how people interacted with the new model, and that has helped inform the development of 2.5 Flash.</p><p><a href="https://arstechnica.com/ai/2025/04/googles-best-gemini-ai-model-is-showing-up-in-more-places/">Read full article</a></p>
 <p><a href="https://arstechnica.com/ai/2025/04/googles-best-gemini-ai-model-is-showing-up-in-more-places/#comments">Comments</a></p>
 ]]>
             </content:encoded>
                   
-                  <slash:comments>25</slash:comments>
+                  <slash:comments>47</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2197065135-scaled-1152x648-1743619853.jpg" width="1152">
@@ -216,620 +712,12 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>80</slash:comments>
+                  <slash:comments>126</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/54441428541_16a0bc87ca_k-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/54441428541_16a0bc87ca_k-500x500.jpg" width="500"/>
 <media:credit>NASA/Bill Ingalls</media:credit><media:text>Jared Isaacman, President Donald Trump’s nominee to be the next administrator of NASA, appears before the Senate Committee on Commerce, Science, and Transportation, Wednesday, April 9, 2025.</media:text></media:content>
-      </item>
-          <item>
-        <title>Take It Down Act nears passage; critics warn Trump could use it against enemies</title>
-        <link>https://arstechnica.com/tech-policy/2025/04/congress-close-to-passing-deepfake-law-trump-said-he-wants-to-use-it-himself/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/04/congress-close-to-passing-deepfake-law-trump-said-he-wants-to-use-it-himself/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jon Brodkin]]>
-        </dc:creator>
-        <pubDate>Wed, 09 Apr 2025 20:01:39 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[deepfakes]]></category>
-		<category><![CDATA[take it down act]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/04/congress-close-to-passing-deepfake-law-trump-said-he-wants-to-use-it-himself/</guid>
-
-                  <description>
-            <![CDATA[Anti-deepfake bill raises concerns about censorship and breaking encryption.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>An anti-deepfake bill is on the verge of becoming US law despite concerns from civil liberties groups that it could be used by President Trump and others to censor speech that has nothing to do with the intent of the bill.</p>
-<p>The <a href="https://www.congress.gov/bill/119th-congress/house-bill/633/text?s=2&amp;r=1&amp;q=%7B%22search%22%3A%22hr633%22%7D">bill</a> is called the Tools to Address Known Exploitation by Immobilizing Technological Deepfakes On Websites and Networks Act, or Take It Down Act. The Senate version co-sponsored by Ted Cruz (R-Texas) and Amy Klobuchar (D-Minn.) was <a href="https://www.congress.gov/bill/119th-congress/senate-bill/146/all-actions">approved</a> in the Senate by unanimous consent in February and is nearing passage in the House. The House Committee on Energy and Commerce <a href="https://energycommerce.house.gov/posts/full-committee-markup-recap-e-and-c-advances-20-bills-to-the-full-house">approved the bill</a> in a 49-1 vote yesterday, sending it to the House floor.</p>
-<p>The bill pertains to "nonconsensual intimate visual depictions," including both authentic photos shared without consent and forgeries produced by artificial intelligence or other technological means. Publishing intimate images of adults without consent could be punished by a fine and up to two years of prison. Publishing intimate images of minors under 18 could be punished with a fine or up to three years in prison.</p><p><a href="https://arstechnica.com/tech-policy/2025/04/congress-close-to-passing-deepfake-law-trump-said-he-wants-to-use-it-himself/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/04/congress-close-to-passing-deepfake-law-trump-said-he-wants-to-use-it-himself/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>77</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/white-house-1152x648-1737575607.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/white-house-500x500-1737575615.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>The helicopter with outgoing US President Joe Biden and first lady Dr. Jill Biden departs from the East Front of the United States Capitol after the inauguration of Donald Trump on January 20, 2025 in Washington, DC.</media:text></media:content>
-      </item>
-          <item>
-        <title>Trump boosts China tariffs to 125%, pauses tariff hikes on other countries</title>
-        <link>https://arstechnica.com/tech-policy/2025/04/trump-boosts-china-tariffs-to-125-pauses-tariff-hikes-on-other-countries/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/04/trump-boosts-china-tariffs-to-125-pauses-tariff-hikes-on-other-countries/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ashley Belanger]]>
-        </dc:creator>
-        <pubDate>Wed, 09 Apr 2025 19:48:00 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[china tariffs]]></category>
-		<category><![CDATA[consumer technology]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[tariffs]]></category>
-		<category><![CDATA[us-china trade war]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/04/trump-boosts-china-tariffs-to-125-pauses-tariff-hikes-on-other-countries/</guid>
-
-                  <description>
-            <![CDATA[Trump’s 90-day pause on tariffs isn’t necessarily a “good thing,” CTA says.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p style="font-weight: 400;">On Wednesday, Donald Trump, once again, took to Truth Social to abruptly shift US trade policy, announcing a 90-day pause "substantially" lowering reciprocal tariffs against all countries except China to 10 percent.</p>
-<p style="font-weight: 400;">Because China retaliated—<a href="ttps://www.npr.org/2025/04/09/g-s1-59092/asian-markets-tumble-trump-tariffs">raising tariffs on US imports to 84 percent</a> on Wednesday—Trump increased tariffs on China imports to 125 percent "effective immediately." That likely will not be received well by China, which advised the Trump administration to cancel all China tariffs Wednesday, NPR <a href="https://www.npr.org/2025/04/09/g-s1-59092/asian-markets-tumble-trump-tariffs">reported</a>.</p>
-<p style="font-weight: 400;">"The US's practice of escalating tariffs on China is a mistake on top of a mistake," the Chinese finance ministry said, calling for Trump to "properly resolve differences with China through equal dialogue on the basis of mutual respect."</p><p><a href="https://arstechnica.com/tech-policy/2025/04/trump-boosts-china-tariffs-to-125-pauses-tariff-hikes-on-other-countries/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/04/trump-boosts-china-tariffs-to-125-pauses-tariff-hikes-on-other-countries/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>201</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/tech-tariffs-freakout-baby-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/tech-tariffs-freakout-baby-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>OpenAI helps spammers plaster 80,000 sites with messages that bypassed filters</title>
-        <link>https://arstechnica.com/security/2025/04/openais-gpt-helps-spammers-send-blast-of-80000-messages-that-bypassed-filters/</link>
-                  <comments>https://arstechnica.com/security/2025/04/openais-gpt-helps-spammers-send-blast-of-80000-messages-that-bypassed-filters/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Dan Goodin]]>
-        </dc:creator>
-        <pubDate>Wed, 09 Apr 2025 19:32:31 +0000</pubDate>
-        		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[LLMs]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[security]]></category>
-		<category><![CDATA[spam]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/security/2025/04/openais-gpt-helps-spammers-send-blast-of-80000-messages-that-bypassed-filters/</guid>
-
-                  <description>
-            <![CDATA[Company didn't notice its chatbot was being abused for (at least) 4 months.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Spammers used OpenAI to generate messages that were unique to each recipient, allowing them to bypass spam-detection filters and blast unwanted messages to more than 80,000 websites in four months, researchers said Wednesday.</p>
-<p>The finding, documented in a <a href="https://www.sentinelone.com/labs/akirabot-ai-powered-bot-bypasses-captchas-spams-websites-at-scale/">post</a> published by security firm SentinelOne’s SentinelLabs, underscores the double-edged sword wielded by large language models. The same thing that makes them useful for benign tasks—the breadth of data available to them and their ability to use it to generate content at scale—can often be used in malicious activities just as easily. OpenAI revoked the spammers’ account after receiving SentinelLabs’ disclosure, but the four months the activity went unnoticed shows how enforcement is often reactive rather than proactive.</p>
-<h2>“You are a helpful assistant”</h2>
-<p>The spam blast is the work of AkiraBot—a framework that automates the sending of messages in large quantities to promote shady search optimization services to small- and medium-size websites. AkiraBot used python-based scripts to rotate the domain names advertised in the messages. It also used OpenAI’s chat API tied to the model gpt-4o-mini to generate unique messages customized to each site it spammed, a technique that likely helped it bypass filters that look for and block identical content sent to large numbers of sites. The messages are delivered through contact forms and live chat widgets embedded into the targeted websites.</p><p><a href="https://arstechnica.com/security/2025/04/openais-gpt-helps-spammers-send-blast-of-80000-messages-that-bypassed-filters/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2025/04/openais-gpt-helps-spammers-send-blast-of-80000-messages-that-bypassed-filters/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>22</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/chatbot-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/chatbot-500x500.jpg" width="500"/>
-<media:credit>Getty Images | Iurii Motov</media:credit></media:content>
-      </item>
-          <item>
-        <title>After months of user complaints, Anthropic debuts new $200/month AI plan</title>
-        <link>https://arstechnica.com/ai/2025/04/anthropic-launches-200-claude-max-ai-plan-with-20x-higher-usage-limits/</link>
-                  <comments>https://arstechnica.com/ai/2025/04/anthropic-launches-200-claude-max-ai-plan-with-20x-higher-usage-limits/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Benj Edwards]]>
-        </dc:creator>
-        <pubDate>Wed, 09 Apr 2025 19:20:07 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[AI assistants]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[ChatGPT Pro]]></category>
-		<category><![CDATA[chatgtp]]></category>
-		<category><![CDATA[Claude]]></category>
-		<category><![CDATA[Claude Max]]></category>
-		<category><![CDATA[Claude Pro]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[openai]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/ai/2025/04/anthropic-launches-200-claude-max-ai-plan-with-20x-higher-usage-limits/</guid>
-
-                  <description>
-            <![CDATA[Two-tiered "Claude Max" expands rate limits and offers traffic priority to subscribers.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>On Wednesday, Anthropic introduced a new $100- to $200-per-month subscription tier called <a href="https://www.anthropic.com/news/max-plan">Claude Max</a> that offers expanded usage limits for its <a href="https://arstechnica.com/ai/2025/02/claude-3-7-sonnet-debuts-with-extended-thinking-to-tackle-complex-problems/">Claude AI assistant</a>. The new plan arrives after many existing Claude subscribers complained of hitting rate limits frequently.</p>
-<p>"The top request from our most active users has been expanded Claude access," wrote Anthropic in a news release. A <a href="https://www.google.com/search?q=reddit+claude+limits">brief stroll through user feedback</a> on Reddit seems to confirm that sentiment, showing that many Claude users have been unhappy with Anthropic's usage limits over the past year—even on the <a href="https://arstechnica.com/information-technology/2023/09/the-ai-assistant-wars-heat-up-with-claude-pro-a-new-chatgpt-plus-rival/">Claude Pro</a> plan, which costs $20 a month.</p>
-<p>One of the downsides of a relatively <a href="https://arstechnica.com/information-technology/2023/05/anthropics-claude-ai-can-now-digest-an-entire-book-like-the-great-gatsby-in-seconds/">large context window</a> with Claude (the amount of text it can process at once) has been that long conversations or inclusions of many reference documents (such as code files) fill up usage limits quickly. That's because each time the user adds to the conversation, the entire text of the conversation (including any attached documents) is fed back into the AI model again and re-evaluated. But on the other hand, a large context window allows Claude to process more complex projects within each session.</p><p><a href="https://arstechnica.com/ai/2025/04/anthropic-launches-200-claude-max-ai-plan-with-20x-higher-usage-limits/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/04/anthropic-launches-200-claude-max-ai-plan-with-20x-higher-usage-limits/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>26</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/anthropic_max-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/anthropic_max-500x500.jpg" width="500"/>
-<media:credit>Anthropic</media:credit></media:content>
-      </item>
-          <item>
-        <title>Windows 11’s Copilot Vision wants to help you learn to use complicated apps</title>
-        <link>https://arstechnica.com/gadgets/2025/04/windows-11s-copilot-vision-wants-to-help-you-learn-to-use-complicated-apps/</link>
-                  <comments>https://arstechnica.com/gadgets/2025/04/windows-11s-copilot-vision-wants-to-help-you-learn-to-use-complicated-apps/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Andrew Cunningham]]>
-        </dc:creator>
-        <pubDate>Wed, 09 Apr 2025 16:57:04 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[copilot]]></category>
-		<category><![CDATA[copilot vision]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[windows 11]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/04/windows-11s-copilot-vision-wants-to-help-you-learn-to-use-complicated-apps/</guid>
-
-                  <description>
-            <![CDATA[Copilot beta update is rolling out to Windows Insider program testers now.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Some elements of Microsoft's Copilot assistant in Windows 11 have felt like a solution in search of a problem—and it hasn't helped that Microsoft has frequently changed Copilot's capabilities, turning it from a native Windows app into a web app and back again.</p>
-<p>But I find myself intrigued by a new addition to Copilot Vision that Microsoft began rolling out this week to testers in its Windows Insider program. Copilot Vision launched late last year as a feature that could look at pages in the Microsoft Edge browser and answer questions based on those pages' contents. The new Vision update extends that capability to any app window, allowing you to ask Copilot not just about the contents of a document but also about the user interface of the app itself.</p>
-<img width="2560" height="1600" src="https://cdn.arstechnica.net/wp-content/uploads/2025/04/Vision%E2%80%94FRE-scaled-1.jpg" class="fullwidth full" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2025/04/Vision—FRE-scaled-1.jpg 2560w, https://cdn.arstechnica.net/wp-content/uploads/2025/04/Vision—FRE-scaled-1-640x400.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2025/04/Vision—FRE-scaled-1-1024x640.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2025/04/Vision—FRE-scaled-1-768x480.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2025/04/Vision—FRE-scaled-1-1536x960.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2025/04/Vision—FRE-scaled-1-2048x1280.jpg 2048w, https://cdn.arstechnica.net/wp-content/uploads/2025/04/Vision—FRE-scaled-1-980x613.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2025/04/Vision—FRE-scaled-1-1440x900.jpg 1440w" sizes="auto, (max-width: 2560px) 100vw, 2560px">
-      Microsoft's Copilot Vision update can see the contents of any app window you share with it.
-        Credit:
-          Microsoft
-      
-<p>Provided the app works as intended—not a given for any software, but especially for AI features—Copilot Vision could replace "frantic Googling" as a way to learn how to use a new app or how to do something new or obscure in complex PC apps like Word, Excel, or Photoshop. I recently switched from Photoshop to <a href="https://affinity.serif.com/en-us/photo/">Affinity Photo</a>, for example, and I'm still finding myself tripped up by small differences in workflows and UI between the two apps. Copilot Vision could, in theory, ease that sort of transition.</p><p><a href="https://arstechnica.com/gadgets/2025/04/windows-11s-copilot-vision-wants-to-help-you-learn-to-use-complicated-apps/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/04/windows-11s-copilot-vision-wants-to-help-you-learn-to-use-complicated-apps/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>79</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/microsoft_copilot_logo-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/microsoft_copilot_logo-500x500.jpg" width="500"/>
-<media:credit>Microsoft</media:credit></media:content>
-      </item>
-          <item>
-        <title>Apple TV+ releases first trailer for sci-fi comedy Murderbot</title>
-        <link>https://arstechnica.com/culture/2025/04/a-sec-unit-goes-rogue-in-murderbot-trailer/</link>
-                  <comments>https://arstechnica.com/culture/2025/04/a-sec-unit-goes-rogue-in-murderbot-trailer/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jennifer Ouellette]]>
-        </dc:creator>
-        <pubDate>Wed, 09 Apr 2025 16:45:27 +0000</pubDate>
-        		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Apple TV Plus]]></category>
-		<category><![CDATA[entertainment]]></category>
-		<category><![CDATA[Murderbot]]></category>
-		<category><![CDATA[streaming television]]></category>
-		<category><![CDATA[Trailers]]></category>
-		<category><![CDATA[TV trailers]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/culture/2025/04/a-sec-unit-goes-rogue-in-murderbot-trailer/</guid>
-
-                  <description>
-            <![CDATA["Now that I've hacked my programming, I can do whatever I want... as long as they don't find out."]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/vEioDeOiqEs?start=0&amp;wmode=transparent"></div><div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
-    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
-    <div class="caption-content">
-      Alexander Skarsgård stars in the sci-fi thriller <em>Murderbot</em>.
-
-          </div>
-  </div>
-</div>
-<p>A rogue cyborg security (SEC) unit gains autonomy and must learn to interact with humans while hiding its new capability in the trailer for <a href="https://en.wikipedia.org/wiki/Murderbot_(TV_series)"><em>Murderbot</em></a>, Apple TV+'s new 10-episode sci-fi comedic thriller starring Alexander Skarsgård. It's based on the bestselling book series <a href="https://en.wikipedia.org/wiki/The_Murderbot_Diaries"><em>The Murderbot Diaries</em></a> by Martha Wells. And judging from the trailer, <em>Murderbot</em> looks like it will strike just the right balance between humor and action.</p>
-<p>There are seven books in Wells' series thus far. All are narrated by Murderbot, who is technically owned by a megacorporation but manages to hack and override its governor module. Rather than rising up and killing its former masters, Murderbot just goes about performing its security work, relieving the boredom by watching a lot of entertainment media.</p>
-<p>In the first book, <em>All Systems Red</em>, Murderbot saves a scientific expedition on an alien planet when they are attacked by a giant alien creature. During the ensuing investigation, the cyborg uncovers a plot against the expedition, as well as a second team, by yet another team intent on killing their rivals for some reason. Murderbot joins the humans in foiling those murderous plans but escapes onto a cargo ship at the end rather than give up its hard-earned autonomy.</p><p><a href="https://arstechnica.com/culture/2025/04/a-sec-unit-goes-rogue-in-murderbot-trailer/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2025/04/a-sec-unit-goes-rogue-in-murderbot-trailer/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>115</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/murderbot1-1152x648-1744212564.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/murderbot1-500x500-1744212556.jpg" width="500"/>
-<media:credit>Apple TV+</media:credit><media:text>Built to destroy. Forced to connect.</media:text></media:content>
-      </item>
-          <item>
-        <title>Why Trump’s tariffs probably won’t cause an immediate Switch 2 price bump</title>
-        <link>https://arstechnica.com/gaming/2025/04/why-trumps-tariffs-probably-wont-cause-an-immediate-switch-2-price-bump/</link>
-                  <comments>https://arstechnica.com/gaming/2025/04/why-trumps-tariffs-probably-wont-cause-an-immediate-switch-2-price-bump/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kyle Orland]]>
-        </dc:creator>
-        <pubDate>Wed, 09 Apr 2025 16:36:47 +0000</pubDate>
-        		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[nintendo switch 2]]></category>
-		<category><![CDATA[trump tariffs]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gaming/2025/04/why-trumps-tariffs-probably-wont-cause-an-immediate-switch-2-price-bump/</guid>
-
-                  <description>
-            <![CDATA[But import taxes could impact longer-term pricing, US console supplies.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Last week, Nintendo made the unprecedented move of <a href="https://arstechnica.com/gaming/2025/04/nintendo-delays-switch-2-preorders-to-assess-trump-tariff-effects/">delaying US Switch 2 preorders</a> to "assess" the impact of Donald Trump's massive tariffs on the countries where the console is produced. Before most of those tariffs were <a href="https://www.cnn.com/2025/04/09/business/reciprocal-tariff-pause-trump/index.html">recently delayed for 90 days</a>, many were wondering if the company may be mulling a last-minute increase in the Switch 2's $450 asking price to account for those import taxes.</p>
-<p>While industry analysts think that kind of immediate price increase is unlikely, they warn that Trump's tariffs could have longer-term impacts on Switch 2 pricing and supplies in the US for years to come.</p>
-<h2>Already baked in</h2>
-<p>DFC Intelligence CEO David Cole, for instance, <a href="https://www.dfcint.com/the-evolution-of-console-gaming-insights-on-the-switch-2s-debut/">said in a recent analyst note</a> that the company is currently modeling "a 20 percent price increase over the next two years" across all video game hardware thanks to "broader macroeconomic challenges." In the case of the Switch 2, though, Cole <a href="https://www.forbes.com/sites/paultassi/2025/04/08/analysts-predict-potential-eventual-530-switch-2-price-after-tariffs/">clarified</a> that "we believe much of the 20 percent increase was already baked into the $450 price," which Nintendo is "not likely" to raise at this point.</p><p><a href="https://arstechnica.com/gaming/2025/04/why-trumps-tariffs-probably-wont-cause-an-immediate-switch-2-price-bump/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2025/04/why-trumps-tariffs-probably-wont-cause-an-immediate-switch-2-price-bump/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>76</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/game-card-switch-2-1152x648-1744042139.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/game-card-switch-2-500x500-1744042130.jpeg" width="500"/>
-<media:credit>Nintendo</media:credit><media:text>A game card being inserted into a Nintendo Switch 2.</media:text></media:content>
-      </item>
-          <item>
-        <title>Meta secretly helped China advance AI, ex-Facebooker will tell Congress</title>
-        <link>https://arstechnica.com/tech-policy/2025/04/congress-to-question-whistleblower-who-accused-meta-of-helping-china-in-ai-race/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/04/congress-to-question-whistleblower-who-accused-meta-of-helping-china-in-ai-race/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ashley Belanger]]>
-        </dc:creator>
-        <pubDate>Wed, 09 Apr 2025 16:07:12 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[ai race]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[Facebook. china]]></category>
-		<category><![CDATA[meta]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/04/congress-to-question-whistleblower-who-accused-meta-of-helping-china-in-ai-race/</guid>
-
-                  <description>
-            <![CDATA[Meta whistleblower can testify to Congress despite gag order on press interviews.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p style="font-weight: 400;">Later today, a former Facebook employee, Sarah Wynn-Williams, will testify to Congress that Meta executives "repeatedly" sought to "undermine US national security and betray American values" in "secret" efforts to "win favor with Beijing and build an $18 billion dollar business in China."</p>
-<p style="font-weight: 400;">In her <a href="https://www.judiciary.senate.gov/imo/media/doc/2024-04-09_testimony_wynn-williams.pdf">prepared remarks</a>, which will be delivered at a Senate subcommittee on crime and counterterrorism hearing this afternoon, Wynn-Williams accused Meta of working "hand in glove" with the Chinese Communist Party (CCP). That partnership allegedly included efforts to "construct and test custom-built censorship tools that silenced and censored their critics" as well as provide the CCP with "access to Meta user data—including that of Americans."</p>
-<p style="font-weight: 400;">Wynn-Williams worked as Facebook's Director of Global Public Policy from 2011 to 2017. <span style="box-sizing: border-box; margin: 0px; padding: 0px;">She left at the height of the <a href="https://arstechnica.com/tech-policy/2018/03/facebooks-cambridge-analytica-scandal-explained/" target="_blank" rel="noopener">Cambridge Analytica</a><a href="https://arstechnica.com/tech-policy/2018/03/facebooks-cambridge-analytica-scandal-explained/" target="_blank" rel="noopener"> scandal</a>, just before Mark Zuckerberg got grilled by Congress over misinformation and election interference on its platform.</span></p><p><a href="https://arstechnica.com/tech-policy/2025/04/congress-to-question-whistleblower-who-accused-meta-of-helping-china-in-ai-race/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/04/congress-to-question-whistleblower-who-accused-meta-of-helping-china-in-ai-race/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>56</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-944290870-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-944290870-500x500.jpg" width="500"/>
-<media:credit>Bloomberg / Contributor | Bloomberg</media:credit><media:text>Facebook whistleblower Sarah Wynn-Williams left the company in 2018 at the height of the Cambridge Analytica scandal. Protestors erected cutouts of Mark Zuckerberg branded "fix Facebook" while lawmakers were grilling the CEO.</media:text></media:content>
-      </item>
-          <item>
-        <title>Fruit flies can be made to act like miniature robots</title>
-        <link>https://arstechnica.com/science/2025/04/fruit-flies-can-be-made-to-act-like-miniature-robots/</link>
-                  <comments>https://arstechnica.com/science/2025/04/fruit-flies-can-be-made-to-act-like-miniature-robots/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[John Timmer]]>
-        </dc:creator>
-        <pubDate>Wed, 09 Apr 2025 15:50:53 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[fruit flies]]></category>
-		<category><![CDATA[neurobiology]]></category>
-		<category><![CDATA[optogenetics]]></category>
-		<category><![CDATA[Robotics]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/science/2025/04/fruit-flies-can-be-made-to-act-like-miniature-robots/</guid>
-
-                  <description>
-            <![CDATA[Light and smells can turn flies into remote-controlled near-automatons.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Even the tiniest of living things are capable of some amazing forms of locomotion, and some come with highly sophisticated sensor suites and manage to source their energy from the environment. Attempts to approach this sort of flexibility with robotics have taken two forms. One involves <a href="https://arstechnica.com/science/2013/05/researchers-build-miniature-flying-robots-modeled-on-drosophila/">making tiny robots</a> modeled on <a href="https://arstechnica.com/science/2016/05/researchers-get-pint-sized-flying-robot-to-hang-onto-surfaces-like-a-bat/">animal behavior</a>. The other involves <a href="https://arstechnica.com/science/2022/10/researchers-make-cyborg-cockroaches-that-carry-their-own-power-packs/">converting a living creature</a> into a robot. So far, either approach has involved giving up a lot. You're either only implementing a few of life's features in the robot or shutting off most of life's features when taking over an insect.</p>
-<p>But a team of researchers at Harvard has recognized that there are some behaviors that are so instinctual that it's possible to induce animals to act as if they were robotic. Or mostly robotic, at least—the fruit flies the researchers used would occasionally go their own way, despite strong inducements to stay with the program.</p>
-<h2>Smell the light</h2>
-<p>The first bit of behavior involved <em>Drosophila</em>'s response to moving visual stimuli. If placed in an area where the fly would see a visual pattern that rotates from left to right, the fly will turn to the right in an attempt to keep the pattern stable. This allowed a projector system to "steer" the flies as they walked across an enclosure (despite their names, fruit flies tend to spend a lot of their time walking). By rotating the pattern back and forth, the researchers could steer the flies between two locations in the enclosure with about 94 percent accuracy.</p><p><a href="https://arstechnica.com/science/2025/04/fruit-flies-can-be-made-to-act-like-miniature-robots/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/04/fruit-flies-can-be-made-to-act-like-miniature-robots/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>21</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-115944069-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-115944069-500x500.jpg" width="500"/>
-<media:credit>arlindo71</media:credit></media:content>
-      </item>
-          <item>
-        <title>Google unveils Ironwood, its most powerful AI processor yet</title>
-        <link>https://arstechnica.com/gadgets/2025/04/google-unveils-ironwood-its-most-powerful-ai-processor-yet/</link>
-                  <comments>https://arstechnica.com/gadgets/2025/04/google-unveils-ironwood-its-most-powerful-ai-processor-yet/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Ryan Whitwam]]>
-        </dc:creator>
-        <pubDate>Wed, 09 Apr 2025 15:30:30 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[artificial intellignece]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[TPU]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/04/google-unveils-ironwood-its-most-powerful-ai-processor-yet/</guid>
-
-                  <description>
-            <![CDATA[Ironwood will be available in configurations of up to 9,216 liquid-cooled chips.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Google has unveiled a new AI processor, the seventh generation of its custom TPU architecture. The chip, known as Ironwood, was reportedly designed for the emerging needs of Google's most powerful Gemini models, like simulated reasoning, which Google prefers to call "thinking." The company claims this chip represents a major shift that will unlock more powerful <a href="https://arstechnica.com/information-technology/2024/12/google-goes-agentic-with-gemini-2-0s-ambitious-ai-agent-features/">agentic AI</a> capabilities. Google calls this the "age of inference."</p>
-<p>Whenever Google talks about the capabilities of a new Gemini version, it notes that the model's capabilities are tied not only to the code but to Google's infrastructure. Its custom AI hardware is a key element of accelerating inference and expanding context windows. With Ironwood, Google says it has its most scalable and powerful TPU yet, which will allow AI to act on behalf of a user to proactively gather data and generate outputs. This is what Google means when it talks about agentic AI.</p>
-<p>Ironwood delivers higher throughput compared to previous Google Tensor Processing Units (TPUs), and Google really plans to pack these chips in. Ironwood is designed to operate in clusters of up to 9,216 liquid-cooled chips, which will communicate directly with each other through a newly enhanced Inter-Chip Interconnect (ICI).</p><p><a href="https://arstechnica.com/gadgets/2025/04/google-unveils-ironwood-its-most-powerful-ai-processor-yet/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/04/google-unveils-ironwood-its-most-powerful-ai-processor-yet/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>23</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/Ironwood-google-1152x648-1744210674.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/Ironwood-google-500x500-1744210690.jpg" width="500"/>
-<media:credit>Google</media:credit></media:content>
-      </item>
-          <item>
-        <title>Road deaths fell below 40,000 in 2024, the lowest since 2019</title>
-        <link>https://arstechnica.com/cars/2025/04/road-deaths-decreased-in-2024-but-remain-above-pre-covid-levels/</link>
-                  <comments>https://arstechnica.com/cars/2025/04/road-deaths-decreased-in-2024-but-remain-above-pre-covid-levels/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jonathan M. Gitlin]]>
-        </dc:creator>
-        <pubDate>Wed, 09 Apr 2025 15:15:24 +0000</pubDate>
-        		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[road deaths]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/cars/2025/04/road-deaths-decreased-in-2024-but-remain-above-pre-covid-levels/</guid>
-
-                  <description>
-            <![CDATA[Road deaths decreased by 3.8 percent in 2024, to 39,345.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>A rare spot of good news today: For the second year in a row, US roads got a little safer. The National Highway Traffic Safety Administration published its early estimate of road deaths in 2024; 39,345 people lost their lives, which is a 3.8 percent decrease from the 40,901 deaths that occurred on US roads in 2023.</p>
-<p>The problem started with the pandemic; although road traffic dried up, <a href="https://arstechnica.com/cars/2021/03/us-pedestrian-deaths-rose-sharply-in-the-first-half-of-2020/">the death rate leapt by 20 percent</a>.</p>
-<p>There's no single cause, and studies have identified multiple contributing factors: empty roads <a href="https://arstechnica.com/cars/2025/02/common-factors-link-rise-in-pedestrian-deaths-fixing-them-will-be-tough/">designed to practically encourage speeding</a>, little to no enforcement of traffic laws by the police, a general sense of fatalism in the face of public health restrictions that few Americans had ever contemplated in recent times, and car companies making big trucks and SUVs with high hoods, which are <a href="https://arstechnica.com/cars/2024/01/higher-vehicle-hoods-significantly-increase-pedestrian-deaths-study-finds/">much more deadly to pedestrians</a> and other vulnerable road users in a crash.</p><p><a href="https://arstechnica.com/cars/2025/04/road-deaths-decreased-in-2024-but-remain-above-pre-covid-levels/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/04/road-deaths-decreased-in-2024-but-remain-above-pre-covid-levels/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>71</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-157283654-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-157283654-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-      </item>
-          <item>
-        <title>Trump throws coal a lifeline, but the energy industry has moved on</title>
-        <link>https://arstechnica.com/science/2025/04/trump-throws-coal-a-lifeline-but-the-energy-industry-has-moved-on/</link>
-                  <comments>https://arstechnica.com/science/2025/04/trump-throws-coal-a-lifeline-but-the-energy-industry-has-moved-on/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Marianne Lavelle, Inside Climate News]]>
-        </dc:creator>
-        <pubDate>Wed, 09 Apr 2025 14:05:33 +0000</pubDate>
-        		<category><![CDATA[Science]]></category>
-		<category><![CDATA[climate change]]></category>
-		<category><![CDATA[coal]]></category>
-		<category><![CDATA[Energy]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[Trump]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/science/2025/04/trump-throws-coal-a-lifeline-but-the-energy-industry-has-moved-on/</guid>
-
-                  <description>
-            <![CDATA[The US market has been moving away from coal for decades.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>As President Donald Trump signed a slew of executive orders Tuesday aimed at keeping coal power alive in the United States, he repeatedly blamed his predecessor, Democrats, and environmental regulations for the industry’s dramatic contraction over the past two decades.</p>
-<p>But across the country, state and local officials and electric grid operators have been confronting a factor in coal’s demise that is not easily addressed with the stroke of a pen: its cost.</p>
-<p>For example, Maryland’s only remaining coal generating station, Talen Energy’s 1.3-gigawatt Brandon Shores plant, will be staying open beyond its previously planned June 1 shutdown, under <a href="https://www.powermag.com/talen-pjm-reach-agreement-to-keep-2-gw-of-coal-oil-generation-online-for-reliability-in-maryland/">a deal </a>that regional grid operator PJM brokered earlier this year with the company, state officials, and the Sierra Club.</p><p><a href="https://arstechnica.com/science/2025/04/trump-throws-coal-a-lifeline-but-the-energy-industry-has-moved-on/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/04/trump-throws-coal-a-lifeline-but-the-energy-industry-has-moved-on/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>183</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2015/05/coal-fired-hi-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2015/05/coal-fired-hi-500x500.jpg" width="500"/>
-<media:credit>US Global Change</media:credit></media:content>
-      </item>
-          <item>
-        <title>The Ars cargo e-bike buying guide for the bike-curious (or serious)</title>
-        <link>https://arstechnica.com/cars/2025/04/the-ars-cargo-e-bike-buying-guide-for-the-bike-curious-or-serious/</link>
-                  <comments>https://arstechnica.com/cars/2025/04/the-ars-cargo-e-bike-buying-guide-for-the-bike-curious-or-serious/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Chris Cona]]>
-        </dc:creator>
-        <pubDate>Wed, 09 Apr 2025 10:00:54 +0000</pubDate>
-        		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Ars Buying Guide]]></category>
-		<category><![CDATA[bicycles]]></category>
-		<category><![CDATA[cargo bike]]></category>
-		<category><![CDATA[e-bikes]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/cars/2025/04/the-ars-cargo-e-bike-buying-guide-for-the-bike-curious-or-serious/</guid>
-
-                  <description>
-            <![CDATA[Fun and functional transportation? See why these bikes are all the rage.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Are you a millennial parent who has made cycling your entire personality but have found it socially unacceptable to abandon your family for six hours on a Saturday? Or are you a bike-curious urban dweller who hasn’t owned a bicycle since middle school? Do you stare at the gridlock on your commute, longing for a bike-based alternative, but curse the errands you need to run on the way home?</p>
-<p>I have a solution for you: invest in a cargo bike.</p>
-<p>Cargo bikes aren't for everyone, but they're great if you enjoy biking and occasionally need to haul more than a bag or basket can carry (including kids and pets). In this guide, we'll give you some parameters for your search—and provide some good talking points to get a spouse on board.</p><p><a href="https://arstechnica.com/cars/2025/04/the-ars-cargo-e-bike-buying-guide-for-the-bike-curious-or-serious/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/04/the-ars-cargo-e-bike-buying-guide-for-the-bike-curious-or-serious/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>129</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/cargo-bike-triptych-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/cargo-bike-triptych-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson | John Timmer</media:credit></media:content>
-      </item>
-          <item>
-        <title>Mario Kart World’s $80 price isn’t that high, historically</title>
-        <link>https://arstechnica.com/gaming/2025/04/will-mario-kart-worlds-80-price-become-gamings-new-normal/</link>
-                  <comments>https://arstechnica.com/gaming/2025/04/will-mario-kart-worlds-80-price-become-gamings-new-normal/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Kyle Orland]]>
-        </dc:creator>
-        <pubDate>Tue, 08 Apr 2025 21:26:22 +0000</pubDate>
-        		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[inflation]]></category>
-		<category><![CDATA[mario kart world]]></category>
-		<category><![CDATA[price inflation]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/gaming/2025/04/will-mario-kart-worlds-80-price-become-gamings-new-normal/</guid>
-
-                  <description>
-            <![CDATA[Adjusting for inflation shows console game prices have been higher in the recent past.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>Last week, Nintendo made waves across the game industry by announcing that <a href="https://arstechnica.com/gaming/2025/04/psa-mario-kart-world-is-50-bundled-with-a-switch-2-but-80-by-itself/"><em>Mario Kart World</em> would sell for a suggested price of $80</a> in the US. That nominal price represents a new high-water mark both for Nintendo and for the game industry at large, which has generally reserved prices above $70 for <a href="https://arstechnica.com/gaming/2009/11/worth-the-money-the-gaming-collectors-edition-trend/">fancy, trinket-laden collectors' editions</a> or <a href="https://store.ubisoft.com/us/assassins-creed-shadows-digital-deluxe-edition/673b49019baa3f5f7f025a29.html?lang=en_US">Digital Deluxe Editions</a> that include all variety of downloadable bonuses.</p>
-<figure>
-      <img decoding="async" width="1024" height="768" src="https://cdn.arstechnica.net/wp-content/uploads/2025/04/gameprices2025.001.png" class="ars-gallery-image" alt="" loading="lazy" aria-labelledby="caption-2087696" srcset="https://cdn.arstechnica.net/wp-content/uploads/2025/04/gameprices2025.001.png 1024w, https://cdn.arstechnica.net/wp-content/uploads/2025/04/gameprices2025.001-640x480.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2025/04/gameprices2025.001-768x576.png 768w, https://cdn.arstechnica.net/wp-content/uploads/2025/04/gameprices2025.001-980x735.png 980w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
-      <figcaption>
-        <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
-    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
-    <div class="caption-content">
-      Console gaming's nominal price ceiling has gone up pretty consistently in the last 40+ years.
-
-              <span class="caption-credit mt-2 text-xs">
-          Credit:
-
-          
-          Kyle Orland / Ars Technica
-
-                  </span>
-          </div>
-  </div>
-      </figcaption>
-    </figure>
-      <figure>
-      <img decoding="async" width="1024" height="768" src="https://cdn.arstechnica.net/wp-content/uploads/2025/04/gameprices2025.002.png" class="ars-gallery-image" alt="" loading="lazy" aria-labelledby="caption-2087697" srcset="https://cdn.arstechnica.net/wp-content/uploads/2025/04/gameprices2025.002.png 1024w, https://cdn.arstechnica.net/wp-content/uploads/2025/04/gameprices2025.002-640x480.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2025/04/gameprices2025.002-768x576.png 768w, https://cdn.arstechnica.net/wp-content/uploads/2025/04/gameprices2025.002-980x735.png 980w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
-      <figcaption>
-        <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
-    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
-    <div class="caption-content">
-      After adjusting for inflation, an $80 price level doesn't seem all that out of the ordinary.
-
-              <span class="caption-credit mt-2 text-xs">
-          Credit:
-
-          
-          Kyle Orland / Ars Technica
-
-                  </span>
-          </div>
-  </div>
-      </figcaption>
-    </figure>
-  
-<p>When you adjust historical game prices for inflation, though, you find that asking $80 for a baseline game in 2025 is broadly in line with the prices big games were commanding 10 to 15 years ago. And given the <a href="https://www.brookings.edu/articles/what-caused-the-u-s-pandemic-era-inflation/">faster-than-normal inflation rates of the last five years</a>, even the $70 nominal game prices that <a href="https://arstechnica.com/gaming/2020/07/will-nba-2k21s-70-price-set-a-new-next-gen-console-standard/">set a new standard in 2020</a> don't have the same purchasing oomph they once did.</p>
-<h2>The data</h2>
-<figure>
-      <img decoding="async" width="640" height="868" src="https://cdn.arstechnica.net/wp-content/uploads/2020/07/1983gp-640x868.jpg" class="ars-gallery-image" alt="A yellowed print advertisement for video game cartridges." loading="lazy" aria-labelledby="caption-1690453" srcset="https://cdn.arstechnica.net/wp-content/uploads/2020/07/1983gp-640x868.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2020/07/1983gp-300x407.jpg 300w, https://cdn.arstechnica.net/wp-content/uploads/2020/07/1983gp.jpg 737w" sizes="auto, (max-width: 640px) 100vw, 640px">
-      <figcaption>
-        <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
-    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
-    <div class="caption-content">
-      $34.99 for <em>Centipede</em> on the Atari 2600 might sound cheap, but that 1983 price is the equivalent of roughly $90 today.
-
-              <span class="caption-credit mt-2 text-xs">
-          Credit:
-
-                      <a class="caption-credit-link text-gray-400 no-underline hover:text-gray-500" href="https://www.retrowaste.com/wp-content/gallery/1980s-video-games-ads/1983-atari-catridges-games-02.jpg" target="_blank">
-          
-          Retro Waste
-
-                      </a>
-                  </span>
-          </div>
-  </div>
-      </figcaption>
-    </figure>
-      <figure>
-      <img decoding="async" width="640" height="868" src="https://cdn.arstechnica.net/wp-content/uploads/2020/07/1988gp-640x868.jpg" class="ars-gallery-image" alt="A yellowed print advertisement for home video game consoles and accessories." loading="lazy" aria-labelledby="caption-1690452" srcset="https://cdn.arstechnica.net/wp-content/uploads/2020/07/1988gp-640x868.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2020/07/1988gp-300x407.jpg 300w, https://cdn.arstechnica.net/wp-content/uploads/2020/07/1988gp-768x1041.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2020/07/1988gp-1133x1536.jpg 1133w, https://cdn.arstechnica.net/wp-content/uploads/2020/07/1988gp-980x1328.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2020/07/1988gp.jpg 1212w" sizes="auto, (max-width: 640px) 100vw, 640px">
-      <figcaption>
-        <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
-    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
-    <div class="caption-content">
-      Check out the premium pricing for <a href="https://arstechnica.com/tag/zelda/"><em>Zelda</em></a> titles above other NES games in the 1988 Sears catalog.
-
-              <span class="caption-credit mt-2 text-xs">
-          Credit:
-
-                      <a class="caption-credit-link text-gray-400 no-underline hover:text-gray-500" href="https://www.huguesjohnson.com/features/sears_catalog/sears-catalog-1988-pg615-NES_full.jpg" target="_blank">
-          
-          Hughes Johnson
-
-                      </a>
-                  </span>
-          </div>
-  </div>
-      </figcaption>
-    </figure>
-      <figure>
-      <img decoding="async" width="640" height="870" src="https://cdn.arstechnica.net/wp-content/uploads/2020/07/1993gp-640x870.jpg" class="ars-gallery-image" alt="A 1990s advertisement for home video game consoles and accessories." loading="lazy" aria-labelledby="caption-1690455" srcset="https://cdn.arstechnica.net/wp-content/uploads/2020/07/1993gp-640x870.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2020/07/1993gp-300x408.jpg 300w, https://cdn.arstechnica.net/wp-content/uploads/2020/07/1993gp-768x1044.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2020/07/1993gp-980x1332.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2020/07/1993gp.jpg 1024w" sizes="auto, (max-width: 640px) 100vw, 640px">
-      <figcaption>
-        <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
-    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
-    <div class="caption-content">
-      If you wanted <em>Streets of Rage 2</em> from Electronics Boutique in 1993, you'd better have been ready to pay extra.
-
-              <span class="caption-credit mt-2 text-xs">
-          Credit:
-
-                      <a class="caption-credit-link text-gray-400 no-underline hover:text-gray-500" href="https://www.huguesjohnson.com/scans/ebspring93/EBSpring93_04_Genesis.jpg" target="_blank">
-          
-          Hughes Johnson
-
-                      </a>
-                  </span>
-          </div>
-  </div>
-      </figcaption>
-    </figure>
-  
-<p>To judge <em>Mario Kart World</em>'s $80 price against historical trends, we first needed to figure out how much games cost in the past. To do that, we <a href="https://arstechnica.com/gaming/2020/07/the-return-of-the-70-video-game-has-been-a-long-time-coming/">built off of our similar 2020 analysis</a>, which relied on <a href="https://www.retrowaste.com/wp-content/gallery/1980s-video-games-ads/">scanned catalogs</a> and <a href="https://www.retrowaste.com/wp-content/gallery/1990s-video-games-ads/">retail advertising fliers</a> for real examples of nominal console game pricing going back to the Atari era. For more recent years, we relied more on <a href="https://kotaku.com/microsoft-to-sell-next-gen-games-for-60-price-of-gami-513489951">press reports</a> and <a href="https://web.archive.org/web/20201202032750/https://www.microsoft.com/en-us/store/top-paid/games/xbox">archived digital storefronts</a> to show what prices new games were actually selling for at the time.</p><p><a href="https://arstechnica.com/gaming/2025/04/will-mario-kart-worlds-80-price-become-gamings-new-normal/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2025/04/will-mario-kart-worlds-80-price-become-gamings-new-normal/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>274</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/mk-world-1152x648-1744142797.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/mk-world-500x500-1744142806.jpeg" width="500"/>
-<media:credit>Nintendo</media:credit><media:text>&lt;em&gt;Mario Kart World&lt;/em&gt;'s $80 price tag increase is a significant bump from the current Switch version.</media:text></media:content>
       </item>
       </channel>
 </rss>
