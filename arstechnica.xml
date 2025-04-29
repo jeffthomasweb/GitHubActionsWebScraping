@@ -4,7 +4,7 @@
     <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
     <link>https://arstechnica.com</link>
     <description>All Ars Technica stories</description>
-    <lastBuildDate>Mon, 28 Apr 2025 23:20:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Apr 2025 12:40:24 +0000</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>
       hourly    </sy:updatePeriod>
@@ -19,6 +19,111 @@
 	<height>32</height>
 </image> 
       <item>
+        <title>Tuesday Telescope: Yes, you can see stars in space, and they’re spectacular</title>
+        <link>https://arstechnica.com/space/2025/04/tuesday-telescope-yes-you-can-see-stars-in-space-and-theyre-spectacular/</link>
+                  <comments>https://arstechnica.com/space/2025/04/tuesday-telescope-yes-you-can-see-stars-in-space-and-theyre-spectacular/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Eric Berger]]>
+        </dc:creator>
+        <pubDate>Tue, 29 Apr 2025 12:00:37 +0000</pubDate>
+        		<category><![CDATA[Space]]></category>
+		<category><![CDATA[daily telescope]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[tuesday telescope]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/space/2025/04/tuesday-telescope-yes-you-can-see-stars-in-space-and-theyre-spectacular/</guid>
+
+                  <description>
+            <![CDATA["Okay, where's my camera? I gotta record that."]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>NASA Astronaut Don Pettit <a href="https://arstechnica.com/space/2025/04/meet-the-astronaut-who-celebrated-his-70th-birthday-by-thudding-into-the-planet/">returned to Earth 10 days ago</a>, landing in Kazakhstan. During his latest mission, his third long-duration on the International Space Station, Pettit brought his brand of wonderment to the assignment.</p>
+<p>During his time in microgravity, Pettit, an inveterate tinkerer, said he likes to spend his free time either doing experiments in microgravity he cannot do on Earth or taking images to bring the experience back home. At a news conference Monday, Pettit was asked why he took so many images—670,000!—during his most recent stay on the space station.</p>
+<p>"When I'm looking out the window, just enjoying the view, it's like, 'Oh, wow, a meteor. Look at that. Man, there's a flash there. What's that? Oh, look at that volcano going off. Okay, where's my camera? I gotta record that.' And part of this drive for me is when your mission is over, it's photographs and memories. When you want to share the experience with people, you can share the memories through verbal communication, like we're doing now, but the photographs are just another dimension of sharing what it's like. It's an experience where most people on Earth right now can't share, and I can try to give them a glimpse through my imagery."</p><p><a href="https://arstechnica.com/space/2025/04/tuesday-telescope-yes-you-can-see-stars-in-space-and-theyre-spectacular/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/04/tuesday-telescope-yes-you-can-see-stars-in-space-and-theyre-spectacular/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>3</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/pettit-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/pettit-500x500.jpg" width="500"/>
+<media:credit>Don Pettit/NASA</media:credit><media:text>Stars, from space.</media:text></media:content>
+      </item>
+          <item>
+        <title>AI-generated code could be a disaster for the software supply chain. Here’s why.</title>
+        <link>https://arstechnica.com/security/2025/04/ai-generated-code-could-be-a-disaster-for-the-software-supply-chain-heres-why/</link>
+                  <comments>https://arstechnica.com/security/2025/04/ai-generated-code-could-be-a-disaster-for-the-software-supply-chain-heres-why/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Dan Goodin]]>
+        </dc:creator>
+        <pubDate>Tue, 29 Apr 2025 11:15:43 +0000</pubDate>
+        		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[dependency confusion]]></category>
+		<category><![CDATA[package confusion. package hallucination]]></category>
+		<category><![CDATA[supply chain attac]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/security/2025/04/ai-generated-code-could-be-a-disaster-for-the-software-supply-chain-heres-why/</guid>
+
+                  <description>
+            <![CDATA[LLM-produced code could make us much more vulnerable to supply-chain attacks.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p>AI-generated computer code is rife with references to non-existent third-party libraries, creating a golden opportunity for supply-chain attacks that poison legitimate programs with malicious packages that can steal data, plant backdoors, and carry out other nefarious actions, newly published research shows.</p>
+<p>The study, which used 16 of the most widely used large language models to generate 576,000 code samples, found that 440,000 of the package dependencies they contained were “hallucinated,” meaning they were non-existent. Open source models hallucinated the most, with 21 percent of the dependencies linking to non-existent libraries. A dependency is an essential code component that a separate piece of code requires to work properly. Dependencies save developers the hassle of rewriting code and are an essential part of the modern software supply chain.</p>
+<h2>Package hallucination flashbacks</h2>
+<p>These non-existent dependencies represent a threat to the software supply chain by exacerbating so-called dependency confusion attacks. These attacks work by causing a software package to access the wrong component dependency, for instance by publishing a malicious package and giving it the same name as the legitimate one but with a later version stamp. Software that depends on the package will, in some cases, choose the malicious version rather than the legitimate one because the former appears to be more recent.</p><p><a href="https://arstechnica.com/security/2025/04/ai-generated-code-could-be-a-disaster-for-the-software-supply-chain-heres-why/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/04/ai-generated-code-could-be-a-disaster-for-the-software-supply-chain-heres-why/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>25</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/robot-working-computer-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/robot-working-computer-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>Abstract images of a robot working on many computer screens.</media:text></media:content>
+      </item>
+          <item>
+        <title>Monty Python and the Holy Grail turns 50</title>
+        <link>https://arstechnica.com/culture/2025/04/monty-python-and-the-holy-grail-turns-50/</link>
+                  <comments>https://arstechnica.com/culture/2025/04/monty-python-and-the-holy-grail-turns-50/#comments</comments>
+        
+        <dc:creator>
+          <![CDATA[Jennifer Ouellette]]>
+        </dc:creator>
+        <pubDate>Tue, 29 Apr 2025 11:00:20 +0000</pubDate>
+        		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[entertainment]]></category>
+		<category><![CDATA[film]]></category>
+		<category><![CDATA[film anniversaries]]></category>
+		<category><![CDATA[Monty Python]]></category>
+		<category><![CDATA[Monty Python and the Holy Grail]]></category>
+        <guid isPermaLink="true">https://arstechnica.com/culture/2025/04/monty-python-and-the-holy-grail-turns-50/</guid>
+
+                  <description>
+            <![CDATA[Ars staffers reflect upon the things they love most about this masterpiece of absurdist comedy.]]>
+          </description>
+                                <content:encoded>
+              <![CDATA[<p><a href="https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail"><em>Monty Python and the Holy Grail</em></a> is widely considered to be among the best comedy films of all time, and it's certainly one of the most quotable. This absurdist masterpiece sending up Arthurian legend turns 50 (!) this year.</p>
+<p>It was partly Python member Terry Jones' passion for the Middle Ages and Arthurian legend that inspired <em>Holy Grail</em> and its approach to comedy. (Jones even went on to direct a 2004 documentary, <a href="https://en.wikipedia.org/wiki/Terry_Jones%27_Medieval_Lives"><em>Medieval Lives</em></a>.) The troupe members wrote several drafts beginning in 1973, and Jones and Terry Gilliam were co-directors—the first full-length feature for each, so filming was one long learning process. Reviews were mixed when <em>Holy Grail</em> was first released—much like they were for <a href="https://en.wikipedia.org/wiki/Young_Frankenstein"><em>Young Frankenstein</em></a> (1974), another comedic masterpiece—but audiences begged to differ. It was the top-grossing British film screened in the US in 1975. And its reputation has only grown over the ensuing decades.</p>
+<p>The film's broad cultural influence extends beyond the entertainment industry. <span style="box-sizing: border-box; margin: 0px; padding: 0px;"><em>Holy Grail</em> has been the subject of <a href="https://www.medievalists.net/2025/04/ten-articles-about-monty-python-and-the-holy-grail/" target="_blank" rel="noopener">multiple scholarly papers</a> examining such topics as its <a href="https://journals.lib.unb.ca/index.php/flor/article/view/12509/13435" target="_blank" rel="noopener">effectiveness</a> at teaching Arthurian literature or <a href="https://ohiomathjournal.org/index.php/OJSM/article/view/6401" target="_blank" rel="noopener">geometric thought and logic,</a> the <a href="https://faculty.winthrop.edu/kosterj/engl510/Readings/dayHolyGrail.pdf" target="_blank" rel="noopener">comedic techniques</a> employed, and why <a href="https://usurj.journals.usask.ca/article/view/491" target="_blank" rel="noopener">the depiction</a> of a killer rabbit is so fitting (killer rabbits frequently appear drawn in the margins of Gothic manuscripts).</span> My personal favorite was a <a href="https://scispace.com/pdf/could-the-black-knight-have-survived-to-bite-king-arthur-s-3erffwsqaw.pdf">2018 tongue-in-cheek paper</a> on whether the Black Knight could have survived long enough to make good on his threat to bite King Arthur's legs off (tl;dr: no).</p><p><a href="https://arstechnica.com/culture/2025/04/monty-python-and-the-holy-grail-turns-50/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2025/04/monty-python-and-the-holy-grail-turns-50/#comments">Comments</a></p>
+]]>
+            </content:encoded>
+                  
+                  <slash:comments>26</slash:comments>
+        
+        
+        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/grail2-1152x648-1744384646.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/grail2-500x500-1744384637.jpg" width="500"/>
+<media:credit>EMI Films/Python (Monty) Pictures</media:credit></media:content>
+      </item>
+          <item>
         <title>Seasonal COVID shots may no longer be possible under Trump admin</title>
         <link>https://arstechnica.com/health/2025/04/under-trump-the-fda-may-no-longer-approve-seasonal-covid-shots/</link>
                   <comments>https://arstechnica.com/health/2025/04/under-trump-the-fda-may-no-longer-approve-seasonal-covid-shots/#comments</comments>
@@ -46,7 +151,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>22</slash:comments>
+                  <slash:comments>133</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/01/GettyImages-1242252869-1152x648.jpeg" width="1152">
@@ -76,7 +181,7 @@
             <![CDATA[Major power facilities require power to operate, and there's lots of unmet demand.]]>
           </description>
                                 <content:encoded>
-              <![CDATA[<p>Since the Iberian Peninsula l<a href="https://arstechnica.com/tech-policy/2025/04/massive-power-outage-in-spain-portugal-leaves-millions-in-dark/">ost power in a massive blackout</a>, grid operators are in the process of trying to restore power to millions of customers and businesses. As you might imagine, the process—termed a "black start"—is quite a bit more challenging than flicking on a switch. However, the challenge is made considerably more difficult because nearly everything about the system—from the management hardware that remotely controls the performance of the grid to the power plants themselves—needs power to operate.</p>
+              <![CDATA[<p>Since the Iberian Peninsula <a href="https://arstechnica.com/tech-policy/2025/04/massive-power-outage-in-spain-portugal-leaves-millions-in-dark/">lost power in a massive blackout</a>, grid operators are in the process of trying to restore power to millions of customers and businesses. As you might imagine, the process—termed a "black start"—is quite a bit more challenging than flicking on a switch. However, the challenge is made considerably more difficult because nearly everything about the system—from the management hardware that remotely controls the performance of the grid to the power plants themselves—needs power to operate.</p>
 <h2>Restarting the grid</h2>
 <p>You might think that a power plant could easily start generating power, but in reality, only a limited number of facilities have everything they need to handle a black start. That's because it takes power to make power. Facilities that boil water have lots of powered pumps and valves, coal plants need to pulverize the fuel and move it to where it's burned, etc. In most cases, black-start-rated plants have a diesel generator present to supply enough power to get the plant operating. These tend to be smaller plants, since they require proportionally smaller diesel generators.</p>
 <p>The initial output of these black start facilities is then used to provide power to all the plants that need an external power source to operate. This has to be managed in a way that ensures that only other power plants get the first electrons to start moving on the grid, otherwise the normal demand would immediately overwhelm the limited number of small plants that are operating. Again, this has to be handled by facilities that need power in order to control the flow of energy across the grid. This is why managing the grid will never be as simple as "put the hardware on the Internet and control it remotely," given that the Internet also needs power to operate.</p><p><a href="https://arstechnica.com/science/2025/04/why-restarting-a-power-grid-is-so-hard/">Read full article</a></p>
@@ -84,7 +189,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>46</slash:comments>
+                  <slash:comments>168</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-2170475389-1152x648.jpg" width="1152">
@@ -125,7 +230,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>15</slash:comments>
+                  <slash:comments>30</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/robot_shopper_1-1152x648.jpg" width="1152">
@@ -147,7 +252,7 @@
         <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/04/backblaze-responds-to-claims-of-sham-accounting-customer-backups-at-risk/</guid>
 
                   <description>
-            <![CDATA[Short seller publishes report detailing allegations about Backblaze's financials]]>
+            <![CDATA[Short seller publishes report detailing allegations about Backblaze's financials.]]>
           </description>
                                 <content:encoded>
               <![CDATA[<p>Backblaze is dismissing allegations from a short seller that it engaged in “sham accounting” that could put the cloud storage and backup solution provider and its customers' backups in jeopardy.</p>
@@ -157,7 +262,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>25</slash:comments>
+                  <slash:comments>52</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/66ecb7b025b5adbe29cfd593_Backup_20_26_20Archive-1000x648.jpg" width="1000">
@@ -193,7 +298,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>23</slash:comments>
+                  <slash:comments>41</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-2203118095-1024x648.jpg" width="1024">
@@ -227,7 +332,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>28</slash:comments>
+                  <slash:comments>46</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/iss072e742488large-1152x648.jpg" width="1152">
@@ -259,7 +364,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>60</slash:comments>
+                  <slash:comments>71</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-514870614-1152x648.jpg" width="1152">
@@ -290,7 +395,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>64</slash:comments>
+                  <slash:comments>87</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/doge-coin-1152x648-1745863086.jpg" width="1152">
@@ -325,7 +430,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>71</slash:comments>
+                  <slash:comments>83</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/2025-VW-Golf-R-1-1152x648.jpg" width="1152">
@@ -359,7 +464,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>21</slash:comments>
+                  <slash:comments>26</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/OnePlus-watch-3-copy-1152x648-1745852882.jpg" width="1152">
@@ -399,7 +504,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>166</slash:comments>
+                  <slash:comments>182</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GettyImages-2211864963-1152x648-1745848901.jpg" width="1152">
@@ -440,7 +545,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>93</slash:comments>
+                  <slash:comments>105</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/04/scary-usb-juice-jacking-whooooo-1152x648.jpg" width="1152">
@@ -530,7 +635,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>35</slash:comments>
+                  <slash:comments>38</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/bella-ramsey_4-1152x648.jpg" width="1152">
@@ -561,7 +666,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>53</slash:comments>
+                  <slash:comments>55</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/zombie13-1152x648-1745069930.jpg" width="1152">
@@ -604,7 +709,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>174</slash:comments>
+                  <slash:comments>182</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/image-1-1152x648.png" width="1152">
@@ -636,7 +741,7 @@
 ]]>
             </content:encoded>
                   
-                  <slash:comments>171</slash:comments>
+                  <slash:comments>175</slash:comments>
         
         
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/20250424155601_1-1152x648.jpg" width="1152">
@@ -680,109 +785,6 @@
         <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/241212-D-D0439-1029-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/241212-D-D0439-1029-500x500.jpg" width="500"/>
 <media:credit>Department of Defense</media:credit><media:text>File photo of a previous launch of the Army's Long-Range Hypersonic Weapon from Cape Canaveral Space Force Station, Florida, on December 12, 2024.</media:text></media:content>
-      </item>
-          <item>
-        <title>With over 900 US measles cases so far this year, things are looking bleak</title>
-        <link>https://arstechnica.com/health/2025/04/this-is-shaping-up-to-be-the-worst-year-for-us-measles-cases-since-the-1990s/</link>
-                  <comments>https://arstechnica.com/health/2025/04/this-is-shaping-up-to-be-the-worst-year-for-us-measles-cases-since-the-1990s/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Beth Mole]]>
-        </dc:creator>
-        <pubDate>Fri, 25 Apr 2025 22:03:45 +0000</pubDate>
-        		<category><![CDATA[Health]]></category>
-		<category><![CDATA[CDC]]></category>
-		<category><![CDATA[elimination]]></category>
-		<category><![CDATA[measles]]></category>
-		<category><![CDATA[MMR]]></category>
-		<category><![CDATA[vaccination]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/health/2025/04/this-is-shaping-up-to-be-the-worst-year-for-us-measles-cases-since-the-1990s/</guid>
-
-                  <description>
-            <![CDATA[US hasn't seen this many cases this early in a year since the 1990s before we hit "elimination."]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>As of Friday, April 25, the US has confirmed over 900 measles cases since the start of the year. The cases are across 29 states, but most are in or near Texas, where a massive outbreak continues to mushroom in close-knit, undervaccinated communities.</p>
-<p>On April 24, the Centers for Disease Control and Prevention had tallied <a href="https://www.cdc.gov/measles/data-research/index.html">884 cases across the country</a>. Today, the Texas health department updated its outbreak total, <a href="https://www.dshs.texas.gov/news-alerts/measles-outbreak-2025">adding 22 cases</a> to its last count from Tuesday. That brings the national total to at least 906 confirmed cases. Most of the cases are in unvaccinated children and teens.</p>
-<p>Overall, Texas has identified 664 cases since late January. Of those, 64 patients have been hospitalized, and two unvaccinated school-aged children with no underlying medical conditions have died of the disease. An unvaccinated adult in New Mexico also died from the infection, bringing this year's measles death toll to three.</p><p><a href="https://arstechnica.com/health/2025/04/this-is-shaping-up-to-be-the-worst-year-for-us-measles-cases-since-the-1990s/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/04/this-is-shaping-up-to-be-the-worst-year-for-us-measles-cases-since-the-1990s/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>260</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2053751760-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2053751760-500x500.jpg" width="500"/>
-<media:credit>Getty | Povorozniuk Liudmyla</media:credit><media:text>Measles rash on the body of the child.</media:text></media:content>
-      </item>
-          <item>
-        <title>Mike Lindell’s lawyers used AI to write brief—judge finds nearly 30 mistakes</title>
-        <link>https://arstechnica.com/tech-policy/2025/04/mypillow-ceos-lawyers-used-ai-in-brief-citing-fictional-cases-judge-says/</link>
-                  <comments>https://arstechnica.com/tech-policy/2025/04/mypillow-ceos-lawyers-used-ai-in-brief-citing-fictional-cases-judge-says/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Jon Brodkin]]>
-        </dc:creator>
-        <pubDate>Fri, 25 Apr 2025 21:53:07 +0000</pubDate>
-        		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[mike lindell]]></category>
-		<category><![CDATA[mypillow]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/04/mypillow-ceos-lawyers-used-ai-in-brief-citing-fictional-cases-judge-says/</guid>
-
-                  <description>
-            <![CDATA[Lindell brief has many defects including "cases that do not exist," judge says.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>A lawyer representing MyPillow and its CEO Mike Lindell in a defamation case admitted using artificial intelligence in a brief that has nearly 30 defective citations, including misquotes and citations to fictional cases, a federal judge said.</p>
-<p>"[T]he Court identified nearly thirty defective citations in the Opposition. These defects include but are not limited to misquotes of cited cases; misrepresentations of principles of law associated with cited cases, including discussions of legal principles that simply do not appear within such decisions; misstatements regarding whether case law originated from a binding authority such as the United States Court of Appeals for the Tenth Circuit; misattributions of case law to this District; and most egregiously, citation of cases that do not exist," US District Judge Nina Wang wrote in an <a href="https://storage.courtlistener.com/recap/gov.uscourts.cod.215068/gov.uscourts.cod.215068.309.0.pdf">order to show cause</a> Wednesday.</p>
-<p>Wang ordered attorneys Christopher Kachouroff and Jennifer DeMaster to show cause as to why the court should not sanction the defendants, law firm, and individual attorneys. Kachouroff and DeMaster also have to explain why they should not be referred to disciplinary proceedings for violations of the rules of professional conduct.</p><p><a href="https://arstechnica.com/tech-policy/2025/04/mypillow-ceos-lawyers-used-ai-in-brief-citing-fictional-cases-judge-says/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/04/mypillow-ceos-lawyers-used-ai-in-brief-citing-fictional-cases-judge-says/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>262</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/04/getty-mike-lindell-1152x648-1745614275.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/04/getty-mike-lindell-500x500-1745614285.jpg" width="500"/>
-<media:credit>Getty Images | Alex Wong </media:credit><media:text>MyPillow CEO Mike Lindell speaks during the Conservative Political Action Conference (CPAC) on March 4, 2023, in National Harbor, Maryland. </media:text></media:content>
-      </item>
-          <item>
-        <title>New study shows why simulated reasoning AI models don’t yet live up to their billing</title>
-        <link>https://arstechnica.com/ai/2025/04/new-study-shows-why-simulated-reasoning-ai-models-dont-yet-live-up-to-their-billing/</link>
-                  <comments>https://arstechnica.com/ai/2025/04/new-study-shows-why-simulated-reasoning-ai-models-dont-yet-live-up-to-their-billing/#comments</comments>
-        
-        <dc:creator>
-          <![CDATA[Benj Edwards]]>
-        </dc:creator>
-        <pubDate>Fri, 25 Apr 2025 21:43:09 +0000</pubDate>
-        		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[AI research]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[simulated reasoning]]></category>
-		<category><![CDATA[SR models]]></category>
-        <guid isPermaLink="true">https://arstechnica.com/ai/2025/04/new-study-shows-why-simulated-reasoning-ai-models-dont-yet-live-up-to-their-billing/</guid>
-
-                  <description>
-            <![CDATA[Top AI models excel at math problems but lack reasoning needed for Math Olympiad proofs.]]>
-          </description>
-                                <content:encoded>
-              <![CDATA[<p>There's a curious contradiction at the heart of today's most capable AI models that purport to "reason": They can solve <a href="https://paperswithcode.com/sota/arithmetic-reasoning-on-gsm8k">routine math problems </a>with accuracy, yet when faced with formulating deeper mathematical proofs found in competition-level challenges, they often fail.</p>
-<p>That's the finding of <a href="https://arxiv.org/abs/2503.21934">eye-opening preprint research</a> into simulated reasoning (SR) models, initially listed in March and updated in April, that mostly fell under the news radar. The research serves as an instructive case study on the mathematical limitations of SR models, despite sometimes grandiose marketing claims from AI vendors.</p>
-<p>What sets <a href="https://arstechnica.com/information-technology/2024/12/openai-announces-o3-and-o3-mini-its-next-simulated-reasoning-models/">simulated reasoning models</a> apart from traditional large language models (LLMs) is that they have been trained to output a step-by-step "thinking" process (often called "<a href="https://arxiv.org/abs/2201.11903">chain-of-thought</a>") to solve problems. Note that "simulated" in this case doesn't mean that the models do not reason at all but rather that they do not necessarily reason using the same techniques as humans. That distinction is important because human reasoning itself is difficult to define.</p><p><a href="https://arstechnica.com/ai/2025/04/new-study-shows-why-simulated-reasoning-ai-models-dont-yet-live-up-to-their-billing/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/04/new-study-shows-why-simulated-reasoning-ai-models-dont-yet-live-up-to-their-billing/#comments">Comments</a></p>
-]]>
-            </content:encoded>
-                  
-                  <slash:comments>113</slash:comments>
-        
-        
-        <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/math_question_1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/math_question_1-500x500.jpg" width="500"/>
-<media:credit>PhonlamaiPhoto via Getty Images</media:credit></media:content>
       </item>
       </channel>
 </rss>
