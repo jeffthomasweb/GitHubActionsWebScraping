@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Wed, 14 May 2025 23:08:15 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 15 May 2025 12:18:49 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,42 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Spies hack high-value mail servers using an exploit from yesteryear</title>
+                <link>https://arstechnica.com/security/2025/05/spies-hack-high-value-mail-servers-using-an-exploit-from-yesteryear/</link>
+                                    <comments>https://arstechnica.com/security/2025/05/spies-hack-high-value-mail-servers-using-an-exploit-from-yesteryear/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 15 May 2025 12:18:49 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cross-site scripting]]></category>
+		<category><![CDATA[sednit]]></category>
+		<category><![CDATA[webmail]]></category>
+		<category><![CDATA[xss]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/05/spies-hack-high-value-mail-servers-using-an-exploit-from-yesteryear/</guid>
+
+                                    <description>
+                        <![CDATA[Attacks spilled contacts and emails from targeted accounts.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Threat actors, likely supported by the Russian government, hacked multiple high-value mail servers around the world by exploiting XSS vulnerabilities, a class of bug that was among the most commonly exploited in decades past.</p>
+<p>XSS is short for cross-site scripting. Vulnerabilities result from programming errors found in webserver software that, when exploited, allow attackers to execute malicious code in the browsers of people visiting an affected website. XSS first got attention in 2005, with the creation of the <a href="http://www.theregister.co.uk/2009/04/13/weekend_twitter_worm_attacks/">Samy Worm</a>, which knocked MySpace out of commission when it added more than one million MySpace friends to a user named Samy. XSS exploits abounded for the next decade and have gradually fizzled more recently, although this class of attacks <a href="https://arstechnica.com/security/2023/10/thousands-of-wordpress-sites-have-been-hacked-through-tagdiv-plugin-vulnerability/">continues now</a>.</p>
+<h2>Just add JavaScript</h2>
+<p>On Thursday, security firm ESET <a href="https://www.welivesecurity.com/en/eset-research/operation-roundpress/">reported</a> that Sednit, a Kremlin-backed hacking group also tracked as APT28, Fancy Bear, Forest Blizzard, and Sofacy—gained access to high-value email accounts by exploiting XSS vulnerabilities in mail server software from four different makers. Those packages are: Roundcube, MDaemon, Horde, and Zimbra.</p><p><a href="https://arstechnica.com/security/2025/05/spies-hack-high-value-mail-servers-using-an-exploit-from-yesteryear/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/05/spies-hack-high-value-mail-servers-using-an-exploit-from-yesteryear/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>2</slash:comments>
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
                 <title>For the first time in the US, a rotating detonation rocket engine takes flight</title>
                 <link>https://arstechnica.com/space/2025/05/venus-aerospace-flies-its-rotating-detonation-rocket-engine-for-the-first-time/</link>
                                     <comments>https://arstechnica.com/space/2025/05/venus-aerospace-flies-its-rotating-detonation-rocket-engine-for-the-first-time/#comments</comments>
@@ -44,7 +80,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>11</slash:comments>
+                                    <slash:comments>63</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/E82AEA5D-5079-4415-8DA6-83EEBB4A373E-1152x648.jpeg" width="1152">
@@ -82,7 +118,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>51</slash:comments>
+                                    <slash:comments>158</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/groksa-1152x648-1747260288.jpg" width="1152">
@@ -125,7 +161,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>8</slash:comments>
+                                    <slash:comments>32</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/06/tin_robots_hero-1152x648.jpg" width="1152">
@@ -161,7 +197,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>15</slash:comments>
+                                    <slash:comments>25</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1414386430-1152x648.jpg" width="1152">
@@ -195,7 +231,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>16</slash:comments>
+                                    <slash:comments>35</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/alphaevolve-1152x648.jpg" width="1152">
@@ -230,7 +266,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>71</slash:comments>
+                                    <slash:comments>123</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/wednesday1-1152x648-1745426154.jpg" width="1152">
@@ -267,7 +303,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>12</slash:comments>
+                                    <slash:comments>17</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2195702706-1152x648.jpg" width="1152">
@@ -310,7 +346,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>37</slash:comments>
+                                    <slash:comments>57</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/superman1-1152x648.jpg" width="1152">
@@ -342,7 +378,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>45</slash:comments>
+                                    <slash:comments>67</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2199371990-1152x648.jpg" width="1152">
@@ -377,7 +413,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>19</slash:comments>
+                                    <slash:comments>30</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/gilmour_hangar-1152x648-1747248763.jpg" width="1152">
@@ -409,7 +445,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>79</slash:comments>
+                                    <slash:comments>85</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/06/getty-robot-lawyer-1152x648-1747246873.jpg" width="1152">
@@ -441,7 +477,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>72</slash:comments>
+                                    <slash:comments>86</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/rog-ally-1152x648.jpg" width="1152">
@@ -485,7 +521,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>45</slash:comments>
+                                    <slash:comments>53</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/ironheart3CROP-1152x648-1747240030.jpg" width="1152">
@@ -520,7 +556,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>28</slash:comments>
+                                    <slash:comments>34</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/09/GettyImages-931055878-1152x648.jpg" width="1152">
@@ -666,7 +702,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>75</slash:comments>
+                                    <slash:comments>81</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/Screenshot-2025-04-02-at-9.17.48 AM-1152x648.png" width="1152">
@@ -701,7 +737,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>85</slash:comments>
+                                    <slash:comments>91</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/hbo_max_logo-1152x648.jpg" width="1152">
@@ -738,7 +774,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>131</slash:comments>
+                                    <slash:comments>143</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-488775255-1152x648.jpg" width="1152">
@@ -775,7 +811,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>58</slash:comments>
+                                    <slash:comments>63</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1936115086-1152x648.jpg" width="1152">
@@ -808,49 +844,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>97</slash:comments>
+                                    <slash:comments>104</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/04/huawei-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/04/huawei-500x500.jpg" width="500"/>
 <media:credit>Barcroft Media | Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>After back-to-back failures, SpaceX tests its fixes on the next Starship</title>
-                <link>https://arstechnica.com/space/2025/05/spacex-test-fires-starship-for-an-all-important-next-flight/</link>
-                                    <comments>https://arstechnica.com/space/2025/05/spacex-test-fires-starship-for-an-all-important-next-flight/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Tue, 13 May 2025 22:33:51 +0000</pubDate>
-                		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[Starbase]]></category>
-		<category><![CDATA[starship]]></category>
-		<category><![CDATA[starship flight 9]]></category>
-		<category><![CDATA[texas]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2025/05/spacex-test-fires-starship-for-an-all-important-next-flight/</guid>
-
-                                    <description>
-                        <![CDATA[A notice to mariners suggests SpaceX's next Starship test flight could launch as soon as May 21.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>SpaceX fired six Raptor engines on the company's next Starship rocket Monday, clearing a major hurdle on the path to launch later this month on a high-stakes test flight to get the private rocket program back on track.</p>
-<p>Starship ignited its Raptor engines Monday morning on a test stand near SpaceX's Starbase launch facility in South Texas. The engine ran for approximately 60 seconds, and SpaceX confirmed the test-firing in a <a href="https://x.com/SpaceX/status/1922361827712725019">post on X</a>: "Starship completed a long duration six-engine static fire and is undergoing final preparations for the ninth flight test."</p>
-<p>SpaceX hasn't officially announced a target launch date, but maritime warnings along Starship's flight path over the Gulf of Mexico suggest the launch might happen as soon as next Wednesday, May 21. The launch window would open at 6:30 pm local time (7:30 pm EDT; 23:30 UTC). If everything goes according to plan, Starship is expected to soar into space and fly halfway around the world, targeting a reentry and controlled splashdown into the Indian Ocean.</p><p><a href="https://arstechnica.com/space/2025/05/spacex-test-fires-starship-for-an-all-important-next-flight/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/05/spacex-test-fires-starship-for-an-all-important-next-flight/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>216</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/ship35staticfire-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/ship35staticfire-500x500.jpg" width="500"/>
-<media:credit>SpaceX</media:credit><media:text>Starship's six Raptor engines fired for about 60 seconds Monday on a test stand in South Texas. </media:text></media:content>
             </item>
             </channel>
 </rss>
