@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Wed, 28 May 2025 09:54:29 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 29 May 2025 01:47:00 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,7 +19,494 @@
 	<height>32</height>
 </image> 
             <item>
-                <title>What I learned from a Bambu Labs A1 3D printer, part 2: Upgrades and mistakes</title>
+                <title>China extends its reach into the Solar System with launch of asteroid mission</title>
+                <link>https://arstechnica.com/science/2025/05/china-extends-its-reach-into-the-solar-system-with-launch-of-asteroid-mission/</link>
+                                    <comments>https://arstechnica.com/science/2025/05/china-extends-its-reach-into-the-solar-system-with-launch-of-asteroid-mission/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Thu, 29 May 2025 01:47:00 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[asteroids]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[long march 3b]]></category>
+		<category><![CDATA[sample return]]></category>
+		<category><![CDATA[solar system]]></category>
+		<category><![CDATA[tianwen]]></category>
+		<category><![CDATA[tianwen 2]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/05/china-extends-its-reach-into-the-solar-system-with-launch-of-asteroid-mission/</guid>
+
+                                    <description>
+                        <![CDATA[Tianwen-2 will first return samples from an asteroid, then explore a mysterious comet-like object.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A Chinese spacecraft built to collect specimens from an unexplored asteroid and return them to Earth successfully launched Wednesday from a military-run spaceport in the country's mountainous interior.</p>
+<p>Liftoff aboard a Long March 3B rocket at 1:31 pm EDT (17:31 UTC) from the Xichang launch base kicked off the second mission in a series of Chinese probes to explore the Solar System. This mission, designated Tianwen-2, follows <a href="https://arstechnica.com/science/2021/05/china-is-about-to-attempt-a-highly-ambitious-landing-on-mars/">the Tianwen-1 mission</a>, which became the first Chinese spacecraft to land on Mars in 2021.</p>
+<p>Chinese officials confirmed the 2.1-metric ton Tianwen-2 spacecraft unfurled its fan-shaped solar arrays shortly after launch, marking an auspicious start to a decade-long tour of the Solar System.</p><p><a href="https://arstechnica.com/science/2025/05/china-extends-its-reach-into-the-solar-system-with-launch-of-asteroid-mission/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/05/china-extends-its-reach-into-the-solar-system-with-launch-of-asteroid-mission/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>1</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/lm3b_tianwen2-1152x648-1748482472.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/lm3b_tianwen2-500x500.jpg" width="500"/>
+<media:credit>China Aerospace Science and Technology Corporation</media:credit><media:text>China's Tianwen-2 spacecraft launched atop a Long March 3B rocket from the Xichang Satellite Launch Center.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Thousands of Asus routers are being hit with stealthy, persistent backdoors</title>
+                <link>https://arstechnica.com/security/2025/05/thousands-of-asus-routers-are-being-hit-with-stealthy-persistent-backdoors/</link>
+                                    <comments>https://arstechnica.com/security/2025/05/thousands-of-asus-routers-are-being-hit-with-stealthy-persistent-backdoors/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 28 May 2025 22:12:07 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[asus routers]]></category>
+		<category><![CDATA[backdoors]]></category>
+		<category><![CDATA[hacking]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/05/thousands-of-asus-routers-are-being-hit-with-stealthy-persistent-backdoors/</guid>
+
+                                    <description>
+                        <![CDATA[Backdoor giving full administrative control can survive reboots and firmware updates.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Thousands of home and small office routers manufactured by Asus are being infected with a stealthy backdoor that can survive reboots and firmware updates in an attack by a nation-state or another well-resourced threat actor, researchers said.</p>
+<p>The unknown attackers gain access to the devices by exploiting now-patched vulnerabilities, some of which have never been tracked through the internationally recognized CVE system. After gaining unauthorized administrative control of the devices, the threat actor installs a public encryption key for access to the device through SSH. From then on, anyone with the private key can automatically log in to the device with administrative system rights.</p>
+<h2>Durable control</h2>
+<p>“‍The attacker’s access survives both reboots and firmware updates, giving them durable control over affected devices,” researchers from security firm GreyNoise <a href="https://www.greynoise.io/blog/stealthy-backdoor-campaign-affecting-asus-routers">reported Wednesday</a>. “The attacker maintains long-term access without dropping malware or leaving obvious traces by chaining authentication bypasses, exploiting a known vulnerability, and abusing legitimate configuration features.”</p><p><a href="https://arstechnica.com/security/2025/05/thousands-of-asus-routers-are-being-hit-with-stealthy-persistent-backdoors/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/05/thousands-of-asus-routers-are-being-hit-with-stealthy-persistent-backdoors/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>33</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/asus-router-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/asus-router-500x500.jpg" width="500"/>
+<media:credit>Olly Curtis/MacFormat Magazine/Future via Getty Images</media:credit><media:text>Detail of the ethernet ports on an Asus DSL-AC88U router, taken on November 30, 2017.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Healthy man goes camping—lands in ICU for 40 days with respiratory failure</title>
+                <link>https://arstechnica.com/health/2025/05/healthy-man-goes-camping-lands-in-icu-for-40-days-with-respiratory-failure/</link>
+                                    <comments>https://arstechnica.com/health/2025/05/healthy-man-goes-camping-lands-in-icu-for-40-days-with-respiratory-failure/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Wed, 28 May 2025 21:56:34 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[hantavirus]]></category>
+		<category><![CDATA[infectious diseases]]></category>
+		<category><![CDATA[medical case]]></category>
+		<category><![CDATA[respiratory failure]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2025/05/healthy-man-goes-camping-lands-in-icu-for-40-days-with-respiratory-failure/</guid>
+
+                                    <description>
+                        <![CDATA[The man was in Argentina when he fell ill, but such cases occur in the US, too.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>An otherwise-healthy 52-year-old office worker showed up to a hospital emergency department in Buenos Aires with an unshakable fever he developed the week before. Besides the high temperature, he seemed fine. So, after testing negative for COVID-19, doctors sent him home with supportive care. But the fever didn't go away.</p>
+<p>In the week that followed, things got worse. He developed nausea, stomach pain, and diarrhea. He also started having trouble breathing. He then went back to the hospital.</p>
+<p>This time, doctors found he needed supplemental oxygen. And an X-ray of his chest was worrisome—there were diffuse ground-glass opacities in his lungs. Doctors wondered if he had an unusual case of pneumonia. The man kept getting worse; in fact, he seemed to deteriorate before their eyes. Initially, he received supplemental oxygen through a simple face mask; subsequently, doctors switched to a mask that delivers continuous oxygen. However, his blood oxygen saturation continued to fall.</p><p><a href="https://arstechnica.com/health/2025/05/healthy-man-goes-camping-lands-in-icu-for-40-days-with-respiratory-failure/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/05/healthy-man-goes-camping-lands-in-icu-for-40-days-with-respiratory-failure/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>38</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1328467063-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1328467063-500x500.jpg" width="500"/>
+<media:credit>Getty | Boy_Anupong</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Amazon and Stellantis abandon project to create a digital “SmartCockpit”</title>
+                <link>https://arstechnica.com/cars/2025/05/amazon-and-stellantis-abandon-project-to-create-a-digital-smartcockpit/</link>
+                                    <comments>https://arstechnica.com/cars/2025/05/amazon-and-stellantis-abandon-project-to-create-a-digital-smartcockpit/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Wed, 28 May 2025 20:30:51 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Stellantis]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2025/05/amazon-and-stellantis-abandon-project-to-create-a-digital-smartcockpit/</guid>
+
+                                    <description>
+                        <![CDATA[The Amazon/Stellantis STLA SmartCockpit was meant to arrive in 2024.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Automaker Stellantis and retail and web services behemoth Amazon have decided to put an end to a collaboration on new in-car software. The partnership dates back to 2022, part of a wide-ranging agreement that also saw Stellantis pick Amazon Web Services as its cloud platform for new vehicles and Amazon sign on as the first customer for Ram's fully electric ProMaster EV van.</p>
+<p>A key aspect of the Amazon-Stellantis partnership was to be a software platform for new Stellantis vehicles called STLA SmartCockpit. Meant to debut last year, SmartCockpit was supposed to "seamlessly integrate with customers’ digital lives to create personalized, intuitive in-vehicle experiences," using Alexa and other AI agents to provide better in-car entertainment but also navigation, vehicle maintenance, and in-car payments as well.</p>
+<p>But 2024 came and went without the launch of SmartCockpit, and now the joint work has wound down, <a href="https://www.reuters.com/business/autos-transportation/amazons-in-car-software-deal-with-stellantis-fizzles-2025-05-28/">according to Reuters</a>, although not for any particular reason the news organization could discern. Rather, the companies said in a statement that they "will allow each team to focus on solutions that provide value to our shared customers and better align with our evolving strategies."</p><p><a href="https://arstechnica.com/cars/2025/05/amazon-and-stellantis-abandon-project-to-create-a-digital-smartcockpit/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/05/amazon-and-stellantis-abandon-project-to-create-a-digital-smartcockpit/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>37</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1472794989-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1472794989-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>It’s too expensive to fight every AI copyright battle, Getty CEO says</title>
+                <link>https://arstechnica.com/tech-policy/2025/05/extraordinarily-expensive-costs-force-getty-to-pick-its-ai-legal-battles/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/05/extraordinarily-expensive-costs-force-getty-to-pick-its-ai-legal-battles/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Wed, 28 May 2025 19:57:39 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[copyright]]></category>
+		<category><![CDATA[fair use]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[Getty Images]]></category>
+		<category><![CDATA[image generators]]></category>
+		<category><![CDATA[Stability AI]]></category>
+		<category><![CDATA[Stable Diffusion]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/05/extraordinarily-expensive-costs-force-getty-to-pick-its-ai-legal-battles/</guid>
+
+                                    <description>
+                        <![CDATA[Getty dumped “millions and millions” into just one AI copyright fight, CEO says.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p style="font-weight: 400;">In some ways, Getty Images has emerged as one of the most steadfast defenders of artists' rights in AI copyright fights. Starting in 2022, when some of the most sophisticated image generators today <a href="https://arstechnica.com/information-technology/2022/11/midjourney-turns-heads-with-quality-leap-in-new-ai-image-generator-version/">first started testing new models offering better compositions</a>, Getty <a href="https://arstechnica.com/information-technology/2022/09/fearing-copyright-issues-getty-images-bans-ai-generated-artwork/">banned AI-generated uploads to its service</a>. And by the next year, Getty released a <a href="https://arstechnica.com/tech-policy/2023/10/getty-images-built-a-socially-responsible-ai-tool-that-rewards-artists/">"socially responsible" image generator</a> to prove it was possible to build a tool while rewarding artists, while suing an AI firm that refused to pay artists.</p>
+<p style="font-weight: 400;">But in the years since, Getty Images CEO Craig Peters recently <a href="https://www.cnbc.com/2025/05/28/getty-ceo-stability-ai-lawsuit-doesnt-cover-industry-mass-theft.html">told CNBC</a> that the media company has discovered that it's simply way too expensive to fight every AI copyright battle.</p>
+<p style="font-weight: 400;">According to Peters, Getty has dumped millions into just one copyright fight against Stability AI.</p><p><a href="https://arstechnica.com/tech-policy/2025/05/extraordinarily-expensive-costs-force-getty-to-pick-its-ai-legal-battles/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/05/extraordinarily-expensive-costs-force-getty-to-pick-its-ai-legal-battles/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>49</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1315003585-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1315003585-500x500-1748460594.jpg" width="500"/>
+<media:credit>CreativaImages | iStock / Getty Images Plus</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Trump admin tells SCOTUS: ISPs shouldn’t be forced to boot alleged pirates</title>
+                <link>https://arstechnica.com/tech-policy/2025/05/trump-admin-tells-scotus-isps-shouldnt-be-forced-to-boot-alleged-pirates/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/05/trump-admin-tells-scotus-isps-shouldnt-be-forced-to-boot-alleged-pirates/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Wed, 28 May 2025 19:39:22 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Cox]]></category>
+		<category><![CDATA[Sony]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/05/trump-admin-tells-scotus-isps-shouldnt-be-forced-to-boot-alleged-pirates/</guid>
+
+                                    <description>
+                        <![CDATA[Trump admin backs Cox in Supreme Court piracy battle against record labels.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Trump administration is backing cable company Cox in a battle that could determine whether Internet service providers are forced to disconnect users accused of piracy.</p>
+<p>Cox, which says ISPs shouldn't have to terminate customers based on unproven allegations of copyright infringement, has been <a href="https://arstechnica.com/tech-policy/2024/08/isp-to-supreme-court-we-shouldnt-have-to-disconnect-users-accused-of-piracy/">seeking Supreme Court review</a> of Sony's victory in the underlying lawsuit. The court asked the US solicitor general to file a brief expressing the views of the United States government. Solicitor General John Sauer, a Trump nominee, filed a <a href="https://www.supremecourt.gov/DocketPDF/24/24-171/359730/20250527172556075_Cox-Sony.CVSG.pdf">brief</a> yesterday.</p>
+<p>The Supreme Court "should grant certiorari to address the first question presented in Cox's petition: whether an ISP materially contributes to copyright infringement by continuing to provide Internet access to particular subscribers after receiving notice that copyright infringement has occurred on their accounts," Sauer wrote.</p><p><a href="https://arstechnica.com/tech-policy/2025/05/trump-admin-tells-scotus-isps-shouldnt-be-forced-to-boot-alleged-pirates/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/05/trump-admin-tells-scotus-isps-shouldnt-be-forced-to-boot-alleged-pirates/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>66</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/getty-pirate-website-1152x648-1748459387.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/getty-pirate-website-500x500-1748459433.jpg" width="500"/>
+<media:credit>Getty Images | gaby_campo</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Samsung drops Android 16 beta for Galaxy S25 with more AI you probably don’t want</title>
+                <link>https://arstechnica.com/gadgets/2025/05/samsung-drops-android-16-beta-for-galaxy-s25-with-more-ai-you-probably-dont-want/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/05/samsung-drops-android-16-beta-for-galaxy-s25-with-more-ai-you-probably-dont-want/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Wed, 28 May 2025 19:08:45 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[android 16]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<category><![CDATA[smartphones]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/05/samsung-drops-android-16-beta-for-galaxy-s25-with-more-ai-you-probably-dont-want/</guid>
+
+                                    <description>
+                        <![CDATA[Samsung's One UI 8 beta program for the Galaxy S25 is now open.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The next version of Android is expected to hit Pixel phones in June, but it'll take longer for devices from other manufacturers to see the new OS. However, Samsung is making unusually good time this cycle. Owners of the company's <a href="https://arstechnica.com/gadgets/2025/01/samsungs-galaxy-s25-event-was-an-ai-presentation-with-occasional-phone-hardware/">Galaxy S25 phones</a> can get an early look at One UI 8 (based on Android 16) in the new open beta program. Samsung promises a lot of upgrades, but it may not feel that way.</p>
+<p>Signing up for the beta is a snap—just open the Samsung Members app, and the beta signup should be right on the main landing page. From there, the OTA update should appear on your device within a few minutes. It's pretty hefty at 3.4GB, but the installation is quick, and none of your data should be affected. That said, backups are always advisable when using beta software.</p>
+<p>You must be in the US, Germany, Korea, or the UK to join the beta, and US phones must be unlocked or the T-Mobile variants. The software is compatible with the Galaxy S25, S25+, and S25 Ultra—the new <a href="https://arstechnica.com/gadgets/2025/05/form-over-function-samsung-unveils-the-super-slim-galaxy-s25-edge/">S25 Edge</a> need not apply (for now).</p><p><a href="https://arstechnica.com/gadgets/2025/05/samsung-drops-android-16-beta-for-galaxy-s25-with-more-ai-you-probably-dont-want/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/05/samsung-drops-android-16-beta-for-galaxy-s25-with-more-ai-you-probably-dont-want/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>20</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/One-UI-8-1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/One-UI-8-1-500x500-1748457788.jpg" width="500"/>
+<media:credit>Ryan Whitwam</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Judge lets four more DOGE employees access US Treasury payment systems</title>
+                <link>https://arstechnica.com/tech-policy/2025/05/judge-lets-four-more-doge-employees-access-us-treasury-payment-systems/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/05/judge-lets-four-more-doge-employees-access-us-treasury-payment-systems/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Wed, 28 May 2025 17:44:32 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[doge]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/05/judge-lets-four-more-doge-employees-access-us-treasury-payment-systems/</guid>
+
+                                    <description>
+                        <![CDATA[After "chaotic" start, judge finds DOGE staff are now being vetted properly.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A federal judge has given Department of Government Efficiency (DOGE) employees access to US Treasury payment systems as long as they meet training and vetting requirements but denied the Trump administration's motion to completely dissolve a preliminary injunction.</p>
+<p>US District Judge Jeannette Vargas of the Southern District of New York is overseeing a case filed against President Trump by 19 states led by New York. In February, <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.636609/gov.uscourts.nysd.636609.76.0_2.pdf">Vargas issued</a> a preliminary injunction prohibiting the Treasury Department from granting DOGE access to systems containing personally identifiable information or confidential financial information.</p>
+<p>In April, Vargas <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.636609/gov.uscourts.nysd.636609.139.0_1.pdf">allowed</a> DOGE employee Ryan Wunderly to access the Treasury Department's Bureau of Fiscal Services (BFS) system, after government declarations said "that Wunderly has undergone the same vetting and security clearance process that applies to any other Treasury Department employee provided with access to BFS payment systems." In an <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.636609/gov.uscourts.nysd.636609.156.0.pdf">order yesterday</a>, Vargas ruled that four more employees can access the system.</p><p><a href="https://arstechnica.com/tech-policy/2025/05/judge-lets-four-more-doge-employees-access-us-treasury-payment-systems/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/05/judge-lets-four-more-doge-employees-access-us-treasury-payment-systems/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>46</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/doge-caucus-1152x648-1748453404.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/doge-caucus-500x500-1748453396.jpg" width="500"/>
+<media:credit>Getty Images | Andrew Harnik</media:credit><media:text>An aide sets up a poster depicting the logo for the Congressional DOGE Caucus before a news conference on Capitol Hill on February 25, 2025 in Washington, DC.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Google celebrates 10 years of Google Photos with new editing tools</title>
+                <link>https://arstechnica.com/gadgets/2025/05/google-photos-turns-10-celebrates-with-new-ai-infused-photo-editor/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/05/google-photos-turns-10-celebrates-with-new-ai-infused-photo-editor/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Wed, 28 May 2025 17:00:00 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Google photos]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/05/google-photos-turns-10-celebrates-with-new-ai-infused-photo-editor/</guid>
+
+                                    <description>
+                        <![CDATA[Google Photos brings new tools to 1.5 billion users on its 10th birthday.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The current incarnation of Google Photos was not Google's first image management platform, but it's been a big success. Ten years on, Google Photos remains one of Google's most popular products, and it's getting a couple of new features to celebrate its 10th year in operation. You'll be able to share albums a bit more easily, and editing tools are getting a boost with, you guessed it, AI.</p>
+<p>Google Photos made a splash in 2015 when it <a href="https://arstechnica.com/gadgets/2015/05/google-photos-leaves-google-launches-as-a-standalone-service/">broke free</a> of the spiraling Google+ social network, offering people supposedly unlimited free storage for compressed images. Of course, that was too good to last. In 2021, Google <a href="https://arstechnica.com/gadgets/2021/05/google-photos-wants-money-stricter-storage-limitations-kick-in-next-week/">began limiting photo uploads</a> to 15GB for free users, sharing the default account level storage with other services like Gmail and Drive. Today, Google encourages everyone to pay for a Google One subscription to get more space, which is a bit of a bummer. Regardless, people still use Google Photos extensively.</p>
+<p>According to the company, Photos has more than 1.5 billion monthly users, and it stores more than 9 trillion photos and videos. When using the Photos app on a phone, you are prompted to automatically upload your camera roll, which makes it easy to keep all your memories backed up (and edge ever closer to the free storage limit). Photos has also long offered almost magical search capabilities, allowing you to search for the content of images to find them. That may seem less impressive now, but it was revolutionary a decade ago. Google says users perform over 370 million searches in Photos each month.</p><p><a href="https://arstechnica.com/gadgets/2025/05/google-photos-turns-10-celebrates-with-new-ai-infused-photo-editor/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/05/google-photos-turns-10-celebrates-with-new-ai-infused-photo-editor/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>42</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GooglePhotos-10year-Blog-header-copy-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GooglePhotos-10year-Blog-header-copy-500x500.jpg" width="500"/>
+<media:credit>Google</media:credit></media:content>
+            </item>
+                    <item>
+                <title>It was probably always going to end this way for Amazon’s Wheel of Time show</title>
+                <link>https://arstechnica.com/culture/2025/05/it-was-probably-always-going-to-end-this-way-for-amazons-wheel-of-time-show/</link>
+                                    <comments>https://arstechnica.com/culture/2025/05/it-was-probably-always-going-to-end-this-way-for-amazons-wheel-of-time-show/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Wed, 28 May 2025 16:35:55 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Amazon Prime]]></category>
+		<category><![CDATA[the wheel of time]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2025/05/it-was-probably-always-going-to-end-this-way-for-amazons-wheel-of-time-show/</guid>
+
+                                    <description>
+                        <![CDATA[Opinion: Wider TV trends helped kill a show that was starting to live up to its promise.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Late on Friday, Amazon announced that it was <a href="https://variety.com/2025/tv/news/the-wheel-of-time-canceled-amazon-prime-video-1236408524/">canceling</a> its TV adaptation of Robert Jordan’s <em>Wheel of Time</em> series, after several uncomfortable weeks of silence that followed <a href="https://arstechnica.com/culture/2025/04/recap-wheel-of-times-third-season-balefires-its-way-to-a-hell-of-a-finish/">the show’s third season finale</a>.</p>
+<p>Fans of the series can take some cold comfort in the fact that it <a href="https://deadline.com/2025/05/the-wheel-of-time-canceled-prime-video-1236409657/">apparently wasn’t an easy decision to make</a>. But as we speculated in our write-up of what ended up being the show’s series finale, an expensive show with a huge cast, tons of complicated costuming and effects, and extensive location shooting only makes mathematical sense if it’s a megahit, and <em>The Wheel of Time</em> was never a megahit.</p>
+<h2>Adapting the unadaptable</h2>
+<p>I was sad about the cancellation announcement because I believe this season was the one where the show found its footing, both as an adaptation of a complex book series and as a fun TV show in its own right. But I wasn't <em>surprised</em> by it. The only thing I found surprising was that it took this long to happen.</p><p><a href="https://arstechnica.com/culture/2025/05/it-was-probably-always-going-to-end-this-way-for-amazons-wheel-of-time-show/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2025/05/it-was-probably-always-going-to-end-this-way-for-amazons-wheel-of-time-show/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>198</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/12/WOFT_S1_UT_108_201027_THIJAN_00136_1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/12/WOFT_S1_UT_108_201027_THIJAN_00136_1-500x500-1748448613.jpg" width="500"/>
+<media:credit>Amazon Studios</media:credit><media:text>Moiraine contemplates The Blight. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Threat of Meta breakup looms as FTC’s monopoly trial ends</title>
+                <link>https://arstechnica.com/tech-policy/2025/05/meta-confident-monopoly-trial-will-end-with-win-experts-arent-so-sure/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/05/meta-confident-monopoly-trial-will-end-with-win-experts-arent-so-sure/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Wed, 28 May 2025 15:32:12 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Antitrust law]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[federal trade commission]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[meta monopoly trial]]></category>
+		<category><![CDATA[monopoly]]></category>
+		<category><![CDATA[whatsapp]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/05/meta-confident-monopoly-trial-will-end-with-win-experts-arent-so-sure/</guid>
+
+                                    <description>
+                        <![CDATA[Judge expected to take months to weigh Meta monopoly trial verdict.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p style="font-weight: 400;">After weeks of arguments in the Federal Trade Commission's monopoly trial, Meta is done defending its decade-plus-old acquisitions of Instagram and WhatsApp—at least for now.</p>
+<p style="font-weight: 400;">The seven-week trial ended Tuesday, with the FTC urging Judge James Boasberg to rule that a breakup is necessary to end Meta's alleged monopoly in the "personal social networking services" market, where Meta currently faces sparse competition among other apps connecting friends and family. As alleged by the FTC, <a href="https://arstechnica.com/tech-policy/2025/04/ftcs-monopoly-case-hinges-on-zuckerbergs-damaging-texts-emails/">Meta's internal emails laid bare</a> that Meta's motive in acquiring both Instagram and WhatsApp was to pay whatever it took to snuff out dominant rivals threatening to lure users away from Facebook—Mark Zuckerberg's jewel.</p>
+<p style="font-weight: 400;">Talking <a href="https://www.bloomberg.com/news/articles/2025-05-27/meta-s-future-lies-with-judge-as-ftc-antitrust-trial-ends">to Bloomberg</a>, Meta has maintained that the FTC's case is weak, seeking to undo deals that the FTC approved long ago while ignoring the competition Meta faces from rivals in the broader social media market, like TikTok. But Meta's attempt to shut down the case mid-trial was rebuffed by Boasberg, who has signaled he will take months to weigh his decision.</p><p><a href="https://arstechnica.com/tech-policy/2025/05/meta-confident-monopoly-trial-will-end-with-win-experts-arent-so-sure/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/05/meta-confident-monopoly-trial-will-end-with-win-experts-arent-so-sure/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>42</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/zuck-the-monopolist-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/zuck-the-monopolist-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>We now have a good idea about the makeup of Uranus’ atmosphere</title>
+                <link>https://arstechnica.com/science/2025/05/we-now-have-a-good-idea-about-the-makeup-of-uranus-atmosphere/</link>
+                                    <comments>https://arstechnica.com/science/2025/05/we-now-have-a-good-idea-about-the-makeup-of-uranus-atmosphere/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Shigeyuki Hando, Wired Japan]]>
+                </dc:creator>
+                <pubDate>Wed, 28 May 2025 14:10:23 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/05/we-now-have-a-good-idea-about-the-makeup-of-uranus-atmosphere/</guid>
+
+                                    <description>
+                        <![CDATA[20 years of observations have given us more knowledge about the icy giant.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Uranus, the seventh planet in the Solar System, located between Saturn and Neptune, has long been a mystery. But by analyzing observations made by NASA’s Hubble Space Telescope over a 20-year period, a research team from the University of Arizona and other institutions has <a href="https://science.nasa.gov/missions/hubble/20-year-hubble-study-of-uranus-yields-new-atmospheric-insights/">provided new insights</a> into the composition and dynamics of the planet’s atmosphere.</p>
+<p>Information about Uranus is limited. What we know is that the planet is composed mainly of water and ammonia ice, its diameter is about 51,000 kilometers, about four times that of the Earth, and its mass is about 15 times greater than Earth’s. Uranus also has <a href="https://science.nasa.gov/uranus/facts/#h-rings">13 rings and 28 satellites</a>.</p>
+<p>In January 1986, NASA’s Voyager 2 space probe successfully completed what has been, to date, the only exploration of the planet, conducting a flyby as part of its mission to study the outer planets of the Solar System.</p><p><a href="https://arstechnica.com/science/2025/05/we-now-have-a-good-idea-about-the-makeup-of-uranus-atmosphere/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/05/we-now-have-a-good-idea-about-the-makeup-of-uranus-atmosphere/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>56</slash:comments>
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/uranus1.jpg">
+<media:thumbnail height="492" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/uranus1-500x492.jpg" width="500"/>
+<media:credit>NASA/ESA/M. Showalter (SETI Institute)</media:credit><media:text>This image of Uranus was taken by NASA’s Hubble Space Telescope in August 2005 using the Advanced Camera for Surveys (ACS). You can see the planet’s beautiful rings.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Elden Ring: Nightreign is an epic RPG squeezed into delicious bite-size capsules</title>
+                <link>https://arstechnica.com/gaming/2025/05/elden-ring-nightreign-is-an-epic-rpg-squeezed-into-delicious-bite-size-capsules/</link>
+                                    <comments>https://arstechnica.com/gaming/2025/05/elden-ring-nightreign-is-an-epic-rpg-squeezed-into-delicious-bite-size-capsules/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Wed, 28 May 2025 14:00:22 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[elden ring]]></category>
+		<category><![CDATA[FromSoftware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2025/05/elden-ring-nightreign-is-an-epic-rpg-squeezed-into-delicious-bite-size-capsules/</guid>
+
+                                    <description>
+                        <![CDATA[Fast-paced multiplayer action fits surprisingly well with the old <em>Elden Ring</em> formula.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[
+<p>At this point, <em>Elden Ring</em> is well-known for its epic sense of scale, offering players dozens of hours of meticulous exploration, gradual character progression, and <a href="https://arstechnica.com/gaming/2022/03/is-elden-ring-really-that-hard-well-it-depends-what-you-mean-by-hard/">unforgiving enemy encounters</a> that require deliberate care and strategy. On its face, this doesn't seem like the best basis for a semi-randomized multiplayer action game spin-off with strict time limits and an ever-encroaching physical border in a tightly constrained map.</p>
+<p>Somehow, though, <em>Elden Ring: Nightreign</em> makes the combination work. The game condenses all the essential parts of <em>Elden Ring</em> down to their barest essence, tweaking things just enough to distill the flavor of a full-fledged <em>Elden Ring</em> playthrough into zippy runs of less than an hour each. The result is a fast-paced, quick-hit shot of adventuring that is well suited to repeated play with friends.</p>
+<h2>Fort-elden Ring-nite</h2>
+<p>The initial moments of each <em>Nightreign</em> run draw an almost comical comparison to <em>Fortnite</em>, with each player dropping into the game's singular map by hanging off the talons of a great spectral eagle. Once on the ground, players have to stay inside a circular "safe zone" that will slowly contract throughout each of two quick in-game days, forcing your party toward an eventual encounter with a mini-boss at the end of each day. If you survive both days, you take on one of the several extremely punishing Nightlords you chose to face at the beginning of that run.</p><p><a href="https://arstechnica.com/gaming/2025/05/elden-ring-nightreign-is-an-epic-rpg-squeezed-into-delicious-bite-size-capsules/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2025/05/elden-ring-nightreign-is-an-epic-rpg-squeezed-into-delicious-bite-size-capsules/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>26</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/nightreign5-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/nightreign5-500x500.jpg" width="500"/>
+<media:credit>Bandai Namco</media:credit><media:text>Time's a wasting, finish off that battle quick so you can move on to the next one ASAP!</media:text></media:content>
+            </item>
+                    <item>
+                <title>Ars Live: Four space journalists debate whether NASA is really going to Mars</title>
+                <link>https://arstechnica.com/space/2025/05/ars-live-four-space-journalists-debate-whether-nasa-is-really-going-to-mars/</link>
+                                    <comments>https://arstechnica.com/space/2025/05/ars-live-four-space-journalists-debate-whether-nasa-is-really-going-to-mars/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Wed, 28 May 2025 13:00:21 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[ars live]]></category>
+		<category><![CDATA[Mars]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[space]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2025/05/ars-live-four-space-journalists-debate-whether-nasa-is-really-going-to-mars/</guid>
+
+                                    <description>
+                        <![CDATA[Join us at 3 pm EDT on the livestream and ask questions about the future of space!]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>I'm incredibly excited, as part of the Ars Live series, to host a conversation with three of the very best space reporters in the business on Thursday, May 29, 2025, at 3 pm EDT about the future of NASA and its deep space exploration ambitions.</p>
+<p>Joining me in a virtual panel discussion will be:</p>
+<ul>
+<li>Christian Davenport, of The Washington Post</li>
+<li>Loren Grush, of Bloomberg</li>
+<li>Joey Roulette, of Reuters</li>
+</ul>
+<p>The community of professional space reporters is fairly small, and Chris, Loren, and Joey are some of my smartest and fiercest competitors. They all have deep sourcing within the industry and important insights about what is really going on.</p><p><a href="https://arstechnica.com/space/2025/05/ars-live-four-space-journalists-debate-whether-nasa-is-really-going-to-mars/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/05/ars-live-four-space-journalists-debate-whether-nasa-is-really-going-to-mars/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>66</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/KSC-20250311-PH-SPX02_0002orig-1152x648-1748435946.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/KSC-20250311-PH-SPX02_0002orig-500x500.jpg" width="500"/>
+<media:credit>SpaceX</media:credit><media:text>A SpaceX Falcon 9 rocket with the company’s Dragon spacecraft on top is seen during sunset Tuesday at Launch Complex 39A at NASA’s Kennedy Space Center in Florida.</media:text></media:content>
+            </item>
+                    <item>
+                <title>My 3D printing journey, part 2: Printing upgrades and making mistakes</title>
                 <link>https://arstechnica.com/gadgets/2025/05/what-i-learned-from-a-bambu-labs-a1-3d-printer-part-2-upgrades-and-mistakes/</link>
                                     <comments>https://arstechnica.com/gadgets/2025/05/what-i-learned-from-a-bambu-labs-a1-3d-printer-part-2-upgrades-and-mistakes/#comments</comments>
                 
@@ -43,7 +530,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>2</slash:comments>
+                                    <slash:comments>120</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/IMG_3012-1152x648.jpeg" width="1152">
@@ -51,7 +538,7 @@
 <media:credit>Andrew Cunningham</media:credit><media:text>Different plastic filament is good for different things (and some kinds don't work well with the A1 and other open-bed printers). </media:text></media:content>
             </item>
                     <item>
-                <title>SpaceX may have solved one problem, only to find more on latest Starship flight</title>
+                <title>SpaceX may have solved one problem only to find more on latest Starship flight</title>
                 <link>https://arstechnica.com/space/2025/05/spacex-may-have-solved-one-problem-only-to-find-more-on-latest-starship-flight/</link>
                                     <comments>https://arstechnica.com/space/2025/05/spacex-may-have-solved-one-problem-only-to-find-more-on-latest-starship-flight/#comments</comments>
                 
@@ -77,13 +564,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>SpaceX made some progress on another test flight of the world's most powerful rocket Tuesday, finally overcoming technical problems that plagued the program's two previous launches.</p>
-<p>But minutes into the mission, SpaceX's Starship lost control as it cruised through space, then tumbled back into the atmosphere somewhere over the Indian Ocean nearly an hour after taking off from Starbase, Texas, the company's privately-owned spaceport near the US-Mexico border.</p>
+<p>But minutes into the mission, SpaceX's Starship lost control as it cruised through space, then tumbled back into the atmosphere somewhere over the Indian Ocean nearly an hour after taking off from Starbase, Texas, the company's privately owned spaceport near the US-Mexico border.</p>
 <p>SpaceX's next-generation rocket is designed to eventually ferry cargo and private and government crews between the Earth, the Moon, and Mars. The rocket is complex and gargantuan, wider and longer than a Boeing 747 jumbo jet, and after nearly two years of steady progress since its first test flight in 2023, this has been a year of setbacks for Starship.</p><p><a href="https://arstechnica.com/space/2025/05/spacex-may-have-solved-one-problem-only-to-find-more-on-latest-starship-flight/">Read full article</a></p>
 <p><a href="https://arstechnica.com/space/2025/05/spacex-may-have-solved-one-problem-only-to-find-more-on-latest-starship-flight/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>45</slash:comments>
+                                    <slash:comments>280</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/starship_flight9_engines-1152x648-1748423026.jpg" width="1152">
@@ -117,7 +604,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>326</slash:comments>
+                                    <slash:comments>465</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2018/10/getty-elon-musk-1152x648.jpg" width="1152">
@@ -150,7 +637,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>34</slash:comments>
+                                    <slash:comments>58</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/07/AI_voice_converstation_hero-1152x648.jpg" width="1152">
@@ -186,7 +673,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>231</slash:comments>
+                                    <slash:comments>366</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1540176964-1152x648.jpg" width="1152">
@@ -218,587 +705,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>98</slash:comments>
+                                    <slash:comments>160</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/npr-headquarters-1152x648-1744744308.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/npr-headquarters-500x500-1744744316.jpg" width="500"/>
 <media:credit>Getty Images | Drew Angerer </media:credit><media:text>National Public Radio (NPR) headquarters on February 22, 2023 in Washington, DC. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Cops arrest third suspect accused of brutally torturing man for bitcoin riches</title>
-                <link>https://arstechnica.com/tech-policy/2025/05/third-suspect-arrested-after-man-was-kidnapped-and-tortured-for-bitcoin/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/05/third-suspect-arrested-after-man-was-kidnapped-and-tortured-for-bitcoin/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Tue, 27 May 2025 20:18:17 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[bitcoin]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[cryptocurrency wallets]]></category>
-		<category><![CDATA[kidnapping]]></category>
-		<category><![CDATA[Torture]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/05/third-suspect-arrested-after-man-was-kidnapped-and-tortured-for-bitcoin/</guid>
-
-                                    <description>
-                        <![CDATA[So-called "wrench attacks" are more common as bitcoin's value increases, reports say.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p style="font-weight: 400;">Police have arrested a third suspect linked to one of the most extreme bitcoin-related kidnapping and torture cases in the United States, The New York Times <a href="https://www.nytimes.com/2025/05/27/nyregion/crypto-investor-torture-arrest.html">reported</a>.</p>
-<p style="font-weight: 400;">The arrest came after an Italian man, Michael Valentino Teofrasto Carturan, escaped a luxury Manhattan townhouse after three weeks of alleged imprisonment.</p>
-<p style="font-weight: 400;">Running to a traffic agent for help, he later told police that he was tortured by colleagues for his bitcoin password, "bound with electrical cords and whipped with a gun," his feet submerged in water while a Taser gun sent jolts through his body, the NYT reported. At times he feared for his life—allegedly once held suspended from the ledge of the fifth-story building—but he seemingly never gave up his password, a resistance that only prompted more extreme violence.</p><p><a href="https://arstechnica.com/tech-policy/2025/05/third-suspect-arrested-after-man-was-kidnapped-and-tortured-for-bitcoin/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/05/third-suspect-arrested-after-man-was-kidnapped-and-tortured-for-bitcoin/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>61</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1313502083-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1313502083-500x500.jpg" width="500"/>
-<media:credit>Leonid Sukala | iStock / Getty Images Plus</media:credit></media:content>
-            </item>
-                    <item>
-                <title>After the LA fires, scientists study the toxic hazards left behind</title>
-                <link>https://arstechnica.com/science/2025/05/after-the-la-fires-scientists-study-the-toxic-hazards-left-behind/</link>
-                                    <comments>https://arstechnica.com/science/2025/05/after-the-la-fires-scientists-study-the-toxic-hazards-left-behind/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Nina Dietz, Inside Climate News]]>
-                </dc:creator>
-                <pubDate>Tue, 27 May 2025 20:12:00 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[fires]]></category>
-		<category><![CDATA[Los Angeles]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[wildfires]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/05/after-the-la-fires-scientists-study-the-toxic-hazards-left-behind/</guid>
-
-                                    <description>
-                        <![CDATA[Researchers are studying the long-term effects on air, water, soils and surfaces of properties that didn’t burn.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p><i>This article originally appeared on <a href="https://insideclimatenews.org/news/25052025/scientists-study-la-fire-toxins/">Inside Climate News</a>, a nonprofit, non-partisan news organization that covers climate, energy, and the environment. Sign up for their newsletter <a href="https://insideclimatenews.org/newsletter/">here</a>.</i></p>
-<p>PASADENA, Calif.—Nicole Byrne watched anxiously from across the small kitchen in her home as Parham Azimi, a Harvard University researcher, lined up sample bottles next to the running tap.</p>
-<p>As his phone timer chimed, indicating the water pipes had been flushed for the required five minutes, Azimi began filling collection bottles and packing them to be mailed to a lab in San Diego later that day.</p><p><a href="https://arstechnica.com/science/2025/05/after-the-la-fires-scientists-study-the-toxic-hazards-left-behind/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/05/after-the-la-fires-scientists-study-the-toxic-hazards-left-behind/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>16</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2207434847-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2207434847-500x500.jpg" width="500"/>
-<media:credit>Mario Tama/Getty Images</media:credit><media:text>An aerial view of homes destroyed in the Eaton Fire along with lots cleared of debris on March 28, 2025 in Altadena, California.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Musi says evidence shows Apple conspired with music industry on App Store ban</title>
-                <link>https://arstechnica.com/tech-policy/2025/05/musi-strikes-back-defending-claim-apple-conspired-with-youtube-music-industry/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/05/musi-strikes-back-defending-claim-apple-conspired-with-youtube-music-industry/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Tue, 27 May 2025 18:36:43 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[App Store]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[musi]]></category>
-		<category><![CDATA[music streaming]]></category>
-		<category><![CDATA[YouTube]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/05/musi-strikes-back-defending-claim-apple-conspired-with-youtube-music-industry/</guid>
-
-                                    <description>
-                        <![CDATA[Both Musi and Apple seek sanctions as fight over App Store removal intensifies.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p style="font-weight: 400;">For millions of music fans, the most controversial app ban of the past year was not the <a href="https://arstechnica.com/tech-policy/2025/01/after-chaotic-weekend-tiktok-remains-in-limbo/">brief TikTok outage </a>but the ongoing delisting of Musi from Apple's App Store.</p>
-<p style="font-weight: 400;">Those users are holding out hope that Musi can defeat Apple in court and soon be reinstated. However, rather than coming to any sort of resolution, that court fight has intensified over the past month, with both sides now seeking sanctions, TorrentFreak <a href="https://torrentfreak.com/musi-alleges-apples-app-store-removal-was-orchestrated-seeks-sanctions/">reported</a>.</p>
-<p style="font-weight: 400;">Musi is a free app that lets users stream music from YouTube without interruptions, only playing ads when the app is initially opened. It was removed from the App Store in September 2024 after a YouTube complaint, but it maintains a <a href="https://arstechnica.com/tech-policy/2024/11/fans-mourn-loss-of-music-streaming-app-accused-of-ripping-off-youtube/">deeply loyal fan base</a> who swear it's better than alternatives like Spotify. Those fans who still have the app installed on their iPhones can continue to use the service, but if they lose access to the app (by updating their phones) or are first-time users, it is currently unavailable for download, to the dismay of many fans who complain daily <a href="https://www.reddit.com/r/Musi_App/">on Reddit</a>.</p><p><a href="https://arstechnica.com/tech-policy/2025/05/musi-strikes-back-defending-claim-apple-conspired-with-youtube-music-industry/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/05/musi-strikes-back-defending-claim-apple-conspired-with-youtube-music-industry/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>34</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1449367808-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1449367808-500x500-1748376491.jpg" width="500"/>
-<media:credit>geckophotos | iStock / Getty Images Plus</media:credit></media:content>
-            </item>
-                    <item>
-                <title>The problem with The Last of Us season 2 is that it’s too faithful an adaptation</title>
-                <link>https://arstechnica.com/culture/2025/05/the-problem-with-the-last-of-us-season-2-is-that-its-too-faithful-an-adaptation/</link>
-                                    <comments>https://arstechnica.com/culture/2025/05/the-problem-with-the-last-of-us-season-2-is-that-its-too-faithful-an-adaptation/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham and Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Tue, 27 May 2025 18:20:57 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[the last of us]]></category>
-		<category><![CDATA[The Last of Us Part II]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2025/05/the-problem-with-the-last-of-us-season-2-is-that-its-too-faithful-an-adaptation/</guid>
-
-                                    <description>
-                        <![CDATA[A short second season ends with a literal bang and a figurative whimper.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Season 2 of HBO's <em>The Last of Us</em> wrapped up on Sunday night, and Ars' Kyle Orland (who's played the games) and Andrew Cunningham (who hasn't) <a href="https://arstechnica.com/series/hbos-the-last-of-us-season-two/">are back to talk about the finale like they've talked about every other episode this season</a>. While these recaps don't delve into every single plot point of the episode, there are obviously <strong>heavy spoilers</strong> contained within, so go watch the episode first if you want to go in fresh.</p>
-<div class="convo kyle">
-<p><strong>Kyle</strong>: Coming back from last week's Joel flashback, it took me a second to remember what was actually going on in "The Present" of <em>The Last of Us</em> as we enter the season 2 finale. Ellie marvels at how easy it was to torture a hated enemy even though the result was just two words indicating Abby's supposed location: "whale" and "wheel."</p>
-<p>I don't think Ellie's turn to "the dark side" is unearned, exactly. But I do think that this single-minded, revenge-obsessed version of Ellie is a lot less interesting than the character we grew to love in season 1. We went into this season in a sort of adolescent family drama, and we are leaving it in post-apocalyptic <em>Breaking Bad</em>.</p>
-</div>
-<div class="convo andrew-c">
-<p><strong>Andrew</strong>: To compare it to <em>Breaking Bad</em> implies some kind of gradual, nuanced transformation has taken place, where my problem with the season so far has been mostly the opposite thing. Everyone's motivations here make sense and are consistent, to some extent, with who we know these characters to be. Ellie is rash and impulsive; Dina is lovestruck; Jesse is loyal and selfless.</p>
-<p>It's just that trading the first season's story (an unlikely pairing navigates the breadth of a post-apocalyptic America, driven by the promise of a cure) for the second season's story (Ellie's revenge fantasy) is a huge downgrade! And I say this as someone who has been slightly warmer on the season overall than you have. They killed the most interesting character and, with him, the story's most interesting dynamic. Whatever followed that was probably always going to be a letdown, and I'm sure you can attest to that as a game-player who has already experienced a version of all of this.</p>
-</div>
-<img width="1920" height="1280" src="https://cdn.arstechnica.net/wp-content/uploads/2025/05/young-mazino-bella-ramsey.jpg" class="fullwidth full" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2025/05/young-mazino-bella-ramsey.jpg 1920w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/young-mazino-bella-ramsey-640x427.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/young-mazino-bella-ramsey-1024x683.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/young-mazino-bella-ramsey-768x512.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/young-mazino-bella-ramsey-1536x1024.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/young-mazino-bella-ramsey-980x653.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/young-mazino-bella-ramsey-1440x960.jpg 1440w" sizes="auto, (max-width: 1920px) 100vw, 1920px">
-      The show has spun its wheels a bit in Seattle, even with just seven episodes to fill.
-        Credit:
-          HBO
-      
-<div class="convo kyle">
-<p><strong>Kyle</strong>: Yes, I soured on the second game for pretty much the same reasons. But I also feel the show has been more artlessly blunt with some of its character moments. Like the way Jesse finds out about Dina's pregnancy, and then similarly declares that he "can't die" because he's going to be a father. It felt like an AI trained on the TV Tropes website was writing some of these scenes...</p>
-</div>
-<div class="convo andrew-c">
-<p><strong>Andrew</strong>: Listen, normally I'm all for blaming AI, but to blame AI for this one is to imply that lowest-common-denominator TV storytelling hasn't existed for as long as the medium has. Everyone is just performing the most-predictable version of their respective character archetypes. It's an expensive show with a talented cast and an interesting riff on the zombie apocalypse idea, so at a baseline it remains watchable. But I suppose that's damning with faint praise.</p>
-</div>
-<div class="convo kyle">
-<p><strong>Kyle</strong>: Yeah I didn't mean a literal AI. I meant that as a sick burn on the human writers.</p>
-</div>
-<div class="convo andrew-c">
-<p><strong>Andrew</strong>: I am trying to think of things to say to stop this from just being a litany of complaints, but unfortunately complaints are a lot of what I've got about this episode. I liked the visuals of Ellie's nighttime sojourn to the abandoned Ferris wheel. I feel like there is a slightly more interesting TV show happening off to the side of this one, about the conflict between the militarized WLF types and the cultists. But as far as Ellie has been concerned so far, these factions mostly exist to chase the other faction off at the last minute, saving Ellie's bacon again.</p>
-</div>
-<div class="convo kyle">
-<p><strong>Kyle</strong>: And to set up contrived philosophical discussions. Like when Jesse makes the perfectly reasonable decision not to mount a doomed attempt to save a cultist when they're outnumbered by WLF members. Then, later, Ellie twists that into Jesse chickening out because the guy "wasn't a member of your community." No... I'm pretty sure the 6-to-2 odds had at least as much to do with it. But Ellie needs to turn the conversation back to how Joel represents "my community... beaten to death." It's not subtle...</p>
-</div>
-<img width="1920" height="1280" src="https://cdn.arstechnica.net/wp-content/uploads/2025/05/bella-ramsey_9.jpg" class="fullwidth full" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2025/05/bella-ramsey_9.jpg 1920w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/bella-ramsey_9-640x427.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/bella-ramsey_9-1024x683.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/bella-ramsey_9-768x512.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/bella-ramsey_9-1536x1024.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/bella-ramsey_9-980x653.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/bella-ramsey_9-1440x960.jpg 1440w" sizes="auto, (max-width: 1920px) 100vw, 1920px">
-      Ellie's single-minded quest for revenge this season has been less compelling than the first season's unlikely buddy story.
-        Credit:
-          HBO
-      
-<div class="convo andrew-c">
-<p><strong>Andrew</strong>: Yeah I found that moment frustrating because Ellie is here in direct contravention of what her community decided! And it <em>is</em> her community, as a group of people who have looked out for her and provided for her for years, whether she wants to admit that or not. She only uses this idea of "community" with Joel selectively, as a cudgel, so she can do what she already wants to do.</p>
-<p>By letting her have the last word on it, the show tacitly endorses her read of the situation, and it's a variety of vigilante justice that TV audiences have been primed to sympathize with, but man it just falls flat for me.</p>
-</div>
-<div class="convo kyle">
-<p><strong>Kyle</strong>: I was also perplexed by Ellie's brief shipwreck storyline, which led to her being put in a noose by angry cultists. Then she gets saved just seconds from death by a deus ex machina problem in "The Village" that requires the cultists to immediately put her execution on hold and run away. And after all that she just... hops in a boat and goes off to the next completely unrelated bit of the story.</p>
-<p>I suppose they're probably setting things up to provide more context for that scene in the next season, but in the context of this episode as it stands it was just a baffling way to use up 10 minutes or so.</p>
-</div>
-<div class="convo andrew-c">
-<p><strong>Andrew</strong>: Yes I am assuming all the time spent setting up these cultists is going to pay off somehow, eventually, but it hasn't happened yet.</p>
-<p>The episode's other Big Emotional Moment comes when Ellie catches up with a couple of members of Abby's crew (I imagine a Hells Angels-style leather jacket, emblazoned with ABBY'S CREW on the back) and ends up killing them both, including a heavily pregnant woman whose dying breaths are spent trying to talk Ellie into cutting her baby out of her. There's some kind of lesson here, about the ultimate futility of revenge, about the sins of the parents, about what perpetuating the cycle of violence ultimately gets you. We'll see if Ellie ends up absorbing any of this in the end.</p>
-<p>In both her response to the underground torture scene and here, Ellie seems continually shocked that her quest for vengeance might involve any kind of collateral damage to anyone other than Abby.</p>
-</div>
-<div class="convo kyle">
-<p><strong>Kyle</strong>: Yes, this bit is culled from the game, but there she just discovers the unborn baby after both of Abby's companions are already dead. The whole "cut my baby out of me before I die" thing was seemingly crafted to make this just that much more emotionally scarring for Ellie. But as you said, she doesn't really get to spend any time absorbing any of that, because we're moving right on to the next plot point.</p>
-<p>I understand how and why we don't get to have 23 episode seasons of TV shows anymore, but it feels like some of the 17 side stories they introduce in this episode (and many more throughout this season) could have stood to have some more time to breathe.</p>
-</div>
-<div class="convo andrew-c">
-<p><strong>Andrew</strong>: I was astounded—astounded! That this was our <em>season finale</em>, because it feels like such a transitional piece-moving episode, and because we're only <em>seven episodes in</em>. I get that we are stretching one game into two seasons here, but the nine-episode first season was already short, and then this one's even shorter. Can we just agree to return to 13-episode seasons, please?</p>
-<p>Anyway, if your main complaint about the Seattle section of the show has been "too much wheel spinning," this episode's big, dramatic cliffhanger is bad news for you. Every day Ellie has spent in Seattle has gotten some big <em>Majora's Mask</em>-esque "DAY ONE, DAY TWO, etc" subtitle, and now we know why. The beginning of next season is going to show us the events of these three days—but from Abby's perspective!</p>
-<p>I guess I caused this by saying "what if Abby were a more fully formed antagonist" to my monkey's paw at the start of the season. But I can't say that this has me on the edge of my seat about season 3, this little slip of a teaser at the end of an episode that I didn't know was the season finale until after the fact.</p>
-</div>
-<img width="1920" height="1080" src="https://cdn.arstechnica.net/wp-content/uploads/2025/05/kaitlyn-dever.jpeg" class="fullwidth full" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2025/05/kaitlyn-dever.jpeg 1920w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/kaitlyn-dever-640x360.jpeg 640w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/kaitlyn-dever-1024x576.jpeg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/kaitlyn-dever-768x432.jpeg 768w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/kaitlyn-dever-1536x864.jpeg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/kaitlyn-dever-384x216.jpeg 384w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/kaitlyn-dever-1152x648.jpeg 1152w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/kaitlyn-dever-980x551.jpeg 980w, https://cdn.arstechnica.net/wp-content/uploads/2025/05/kaitlyn-dever-1440x810.jpeg 1440w" sizes="auto, (max-width: 1920px) 100vw, 1920px">
-      Abby oversees her empire.
-        Credit:
-          HBO
-      
-<div class="convo kyle">
-<p><strong>Kyle</strong>: Yes, this structure also apes the second game, which switches to Abby's backstory halfway through (though there's no "season break" in the middle there). The dramatic reveal of Abby's community being housed in a football stadium is one of the most memorable moments of the game and was a rare highlight of this episode, I felt.</p>
-<p>Before that, though, we get the inevitable and deadly confrontation between Ellie/Jesse/Tommy and Abby. After seeing it in the show, I had to go back and rewatch how it plays out in the game because something just felt off in the translation. Sure enough, the TV show production added Ellie screaming "no no no" and <em>the sound of a gunshot</em> before that dramatic cut to black and transition to Abby's earlier POV.</p>
-<p>As usual, it feels like the show has a need to just crank up the drama at every turn in an effort to make sure people tune in next week (or next season).</p>
-</div>
-<div class="convo andrew-c">
-<p><strong>Andrew</strong>: Let's return to that divide between me as a show-watcher and you as a game-player as we wrap up.</p>
-<p>I find myself with more gripes than praise here at the end of the season. There are still a lot of things I like here—like I said, the fictional universe is compelling enough to keep it watchable, and for all my complaints about Ellie the character, Bella Ramsey as a performer is doing the best work they can with sort of underwhelming material (predictably, some corners of the Internet have decided to harangue Ramsey relentlessly, partly because they're a non-binary person who has decided to exist in public).</p>
-<p>But my impression is that my biggest problems with this season, from the killing of Joel to the single-minded vengeance arc, are all downstream of story decisions made years ago during the development of <em>The Last of Us Part 2</em>. Normally the complaint with an adaptation is that the show or film's creators are ruining the story somehow by being insufficiently faithful to the source material and losing something in the process. But it feels like the show's problems are mostly inherited from the game—in other words, that the show is being <em>too</em> faithful to underwhelming source material. Is this a fair assessment, or am I missing something?</p>
-</div>
-<div class="convo kyle">
-<p><strong>Kyle</strong>: I'd say that the structural problems of the show are mostly derived from the game's decision to transition from "buddy adventure" to "revenge saga" as we've discussed ad nauseam. But a lot of the nitty-gritty problems of this season—stuff like pacing, flow, character development, etc.—actually come off a little worse because of decisions to add or change things for the show.</p>
-<p>After season 1, I was hopeful that some light-touch changes could help redeem a game that I did not enjoy much. Instead, I think they somehow made it worse.</p>
-</div>
-<div class="convo andrew-c">
-<p><strong>Andrew</strong>: Oops!</p>
-<p>Well, there’s always next season. Maybe all of our complaints will be substantively addressed and then some. The only thing we can say for sure is: We haven’t seen the last of <em>The Last of Us</em>.</p>
-</div>
-<div class="convo kyle">
-<p><strong>Kyle</strong>: In the end, the real <em>Last of Us</em> was all the people we killed along the way.</p>
-</div>
-<p><a href="https://arstechnica.com/culture/2025/05/the-problem-with-the-last-of-us-season-2-is-that-its-too-faithful-an-adaptation/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2025/05/the-problem-with-the-last-of-us-season-2-is-that-its-too-faithful-an-adaptation/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>49</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/ariela-barer-spencer-lord-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/ariela-barer-spencer-lord-500x500-1748366222.jpeg" width="500"/>
-<media:credit>HBO</media:credit><media:text>Ellie hunts down more members of Abby's crew in a somewhat underwhelming &lt;em&gt;The Last of Us&lt;/em&gt; finale.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Europe tries to force age verification onto Pornhub and other adult sites</title>
-                <link>https://arstechnica.com/tech-policy/2025/05/europe-tries-to-force-age-verification-onto-pornhub-and-other-adult-sites/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/05/europe-tries-to-force-age-verification-onto-pornhub-and-other-adult-sites/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Tue, 27 May 2025 17:48:06 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[age verification]]></category>
-		<category><![CDATA[pornhub]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/05/europe-tries-to-force-age-verification-onto-pornhub-and-other-adult-sites/</guid>
-
-                                    <description>
-                        <![CDATA[Probe into lack of age verification targets Pornhub, Stripchat, XNXX, XVideos.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>European regulators have opened formal proceedings into Pornhub and three other adult platforms for suspected violations of the Digital Services Act (DSA), the European Commission <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1339">announced</a> yesterday. Pornhub, Stripchat, XNXX, and XVideos are accused of failing to prevent minors from accessing adult content.</p>
-<p>"The Commission preliminarily found that the platforms do not comply with putting in place appropriate and proportionate measures to ensure a high level of privacy, safety and security for minors, in particular with age verification tools to safeguard minors from adult content," the EC said.</p>
-<p>The regulatory body said preventing minors from accessing adult content with age verification tools is needed to prevent "negative effects on the rights of the child" and "the mental and physical well-being of users."</p><p><a href="https://arstechnica.com/tech-policy/2025/05/europe-tries-to-force-age-verification-onto-pornhub-and-other-adult-sites/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/05/europe-tries-to-force-age-verification-onto-pornhub-and-other-adult-sites/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>133</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/pornhub-1152x648-1748365637.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/pornhub-500x500-1748365656.jpg" width="500"/>
-<media:credit>Getty Images | Leon Neal</media:credit></media:content>
-            </item>
-                    <item>
-                <title>RFK Jr. revokes COVID shot recommendations for kids, during pregnancy</title>
-                <link>https://arstechnica.com/health/2025/05/anti-vaccine-advocate-rfk-jr-axes-covid-shot-guidance-for-pregnant-people-kids/</link>
-                                    <comments>https://arstechnica.com/health/2025/05/anti-vaccine-advocate-rfk-jr-axes-covid-shot-guidance-for-pregnant-people-kids/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Tue, 27 May 2025 17:08:19 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[COVID-19]]></category>
-		<category><![CDATA[Robert F. Kennedy]]></category>
-		<category><![CDATA[vaccines]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2025/05/anti-vaccine-advocate-rfk-jr-axes-covid-shot-guidance-for-pregnant-people-kids/</guid>
-
-                                    <description>
-                        <![CDATA[Kennedy's move may make it harder for kids and pregnant people to get vaccinated.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Anti-vaccine advocate and Health Secretary Robert F. Kennedy Jr. has unilaterally revoked federal recommendations for healthy children and pregnant people to get COVID-19 booster shots.</p>
-<p>The abrupt change, announced on social media, could make it yet more difficult, if not impossible, for healthy children and pregnant people to have access to the seasonal vaccines, which have proven safe and effective at protecting both of those groups from severe illness.</p>
-<p>In a regulatory meeting last week, Centers for Disease Control and Prevention epidemiologist Ruth Link-Gelles presented 2023–2024 <a href="https://www.fda.gov/media/186593/download">data showing that COVID-19 boosters effectively protected children</a> and teens from needing urgent or emergency care due to COVID-19 (slide 36). In children 9 months to 4 years old in that season, the boosters provided 52 percent added effectiveness over background immunity from past vaccination and illness. The boosters were 64 percent effective in kids ages 5 to 17.</p><p><a href="https://arstechnica.com/health/2025/05/anti-vaccine-advocate-rfk-jr-axes-covid-shot-guidance-for-pregnant-people-kids/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/05/anti-vaccine-advocate-rfk-jr-axes-covid-shot-guidance-for-pregnant-people-kids/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>164</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2216571317-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2216571317-500x500.jpg" width="500"/>
-<media:credit>Getty | Kevin Dietsch</media:credit><media:text> Health and Human Services Secretary Robert F. Kennedy Jr. (R) and Food and Drug Administration (FDA) Commissioner Martin Makary walk together at the White House on May 22, 2025 in Washington, DC. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Falcon 9 sonic booms can feel more like seismic waves</title>
-                <link>https://arstechnica.com/science/2025/05/falcon-9-sonic-booms-can-feel-more-like-seismic-waves/</link>
-                                    <comments>https://arstechnica.com/science/2025/05/falcon-9-sonic-booms-can-feel-more-like-seismic-waves/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Tue, 27 May 2025 16:36:38 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[acoustics]]></category>
-		<category><![CDATA[falcon 9]]></category>
-		<category><![CDATA[Physics]]></category>
-		<category><![CDATA[rocket launches]]></category>
-		<category><![CDATA[sonic booms]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/05/falcon-9-sonic-booms-can-feel-more-like-seismic-waves/</guid>
-
-                                    <description>
-                        <![CDATA[Trajectories, wind shear, temperature gradients, topography, and weather can affect how a sonic boom spreads. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The <a href="https://www.vandenberg.spaceforce.mil">Vandenberg Space Force Base</a> in Santa Barbara, California, serves military space launch missions as well as launches for NASA and commercial entities like SpaceX. But how do all those launches affect residents living along the Central Coast? People might marvel at the spectacular visual display, but as launch activity at the base has ramped up, so have <a href="https://www.edhat.com/news/central-coast-residents-address-concerns-over-spacex-sonic-booms/#:~:text=During%20the%20meetings%2C%20community%20members,on%20air%20and%20water%20quality.">the noise complaints</a>, particularly about the sonic booms produced by Falcon 9 launches, which can reach as far south as Ventura County. The booms rattle windows, frighten pets, and have raised concerns about threats to the structural integrity of private homes.</p>
-<p>There have been rockets launching from Vandenberg for decades, so why are the Falcon 9 launches of such concern? "Because of the Starlink satellites, the orbital mechanics for where they're trying to place these in orbit is bringing [the trajectories] closer to the coast," said Brigham Young University's <a href="https://physics.byu.edu/department/directory/gee">Kent Gee</a>, who described his research into sonic boom effects on neighboring communities in <a href="https://www.eurekalert.org/news-releases/1084385">a press briefing</a> at <a href="https://acousticalsociety.org/new-orleans-2025/">a meeting</a> of the Acoustical Society of America in New Orleans. And the launches are occurring much more frequently, from two to three launches per year in the 1980s to between five and seven launches each month today. There were 46 Falcon 9 launches out of the Vandenberg base in 2024 alone, per Gee.</p>
-<p>Gee joined a project called ECOBOOM (Environmental and Community Observation of Sonic Booms) to study the factors that can impact just how jarring those sonic booms might be, conducted jointly by BYU and California State University, Bakersfield, with cooperation from the Space Force. "Space Force is interested in this because they feel a sense of stewardship," said Gee. "These rockets from SpaceX and other providers are launched from the base for a variety of missions and they want to understand the effects both on and off base, trying to understand how they can complete the mission while minimizing [negative] impacts."</p><p><a href="https://arstechnica.com/science/2025/05/falcon-9-sonic-booms-can-feel-more-like-seismic-waves/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/05/falcon-9-sonic-booms-can-feel-more-like-seismic-waves/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>23</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/AFRC2025-0036-22large-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/AFRC2025-0036-22large-500x500-1747916596.jpg" width="500"/>
-<media:credit>NASA/Jim Ross</media:credit><media:text>A Falcon 9 rocket lifted SPHEREx into orbit in March.</media:text></media:content>
-            </item>
-                    <item>
-                <title>OnePlus is the latest smartphone maker to go all-in with AI</title>
-                <link>https://arstechnica.com/gadgets/2025/05/oneplus-plans-huge-expansion-of-ai-features-on-its-phones-starting-with-13s/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/05/oneplus-plans-huge-expansion-of-ai-features-on-its-phones-starting-with-13s/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Tue, 27 May 2025 15:47:37 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[OnePlus]]></category>
-		<category><![CDATA[smartphones]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/05/oneplus-plans-huge-expansion-of-ai-features-on-its-phones-starting-with-13s/</guid>
-
-                                    <description>
-                        <![CDATA[OnePlus has been slower than most to implement mobile AI, but that's changing.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>OnePlus thrives on trends—if other smartphone makers are doing something, you can bet OnePlus is going to have a take. The company recently confirmed it's ditching the storied alert slider in favor of an Apple-like shortcut button called the Plus Key, and that's not the only trend it'll chase with its latest phones. OnePlus has also announced an expanded collection of AI features for translation, photography, screen capture, and more. OnePlus isn't breaking new ground here, but it is cherry-picking some of the more useful AI features we've seen on other phones.</p>
-<p>The OnePlus approach covers most of the established AI use cases. There will be AI VoiceScribe, a feature that records and summarizes calls in popular messaging and video chat apps. Similarly, AI Call Assistant will record and summarize phone calls, a bit like <a href="https://arstechnica.com/gadgets/2024/08/pixel-9-phones-the-gemini-ai-stuff-reviewed/">Google's Pixel phones</a>. However, these two features are India-only for now.</p>
-<p>Globally, OnePlus users will get AI Translation, which pulls together text, voice, camera, and screen translation into a single AI-powered app. AI Search, meanwhile, allows you to search for content on your phone and in OnePlus system apps in a "conversational" way. That suggests to us it's basically another chatbot on your phone, like Motorola's Ask and Search feature, which we <a href="https://arstechnica.com/gadgets/2025/05/motorola-razr-and-razr-ultra-2025-review-cool-as-hell-but-too-much-ai/">didn't love</a>.</p><p><a href="https://arstechnica.com/gadgets/2025/05/oneplus-plans-huge-expansion-of-ai-features-on-its-phones-starting-with-13s/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/05/oneplus-plans-huge-expansion-of-ai-features-on-its-phones-starting-with-13s/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>41</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/OP-AI-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/OP-AI-500x500-1748360209.jpg" width="500"/>
-<media:credit>OnePlus</media:credit></media:content>
-            </item>
-                    <item>
-                <title>After Mr. Deepfakes shut down forever, one creator could face a $450K fine</title>
-                <link>https://arstechnica.com/tech-policy/2025/05/after-mr-deepfakes-shut-down-forever-one-creator-could-face-a-450k-fine/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/05/after-mr-deepfakes-shut-down-forever-one-creator-could-face-a-450k-fine/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Tue, 27 May 2025 15:34:19 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[australia]]></category>
-		<category><![CDATA[deepfake porn]]></category>
-		<category><![CDATA[deepfakes]]></category>
-		<category><![CDATA[defamation]]></category>
-		<category><![CDATA[nudify apps]]></category>
-		<category><![CDATA[take it down act]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/05/after-mr-deepfakes-shut-down-forever-one-creator-could-face-a-450k-fine/</guid>
-
-                                    <description>
-                        <![CDATA[Australia's online safety regulator asks for severe fine to combat flood of AI porn.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p style="font-weight: 400;">A man who made global headlines after he continued sharing deepfake porn in defiance of an Australian court order is now facing one of the biggest fines ever threatened over the artificial intelligence-fueled abuse.</p>
-<p style="font-weight: 400;">Australia's eSafety commissioner, Julie Inman Grant, has recommended a fine between $400,000 and $450,000, The Guardian <a href="https://www.theguardian.com/technology/2025/may/26/anthony-rotondo-accused-deepfake-images-australian-women-porn-website-ntwnfb">reported</a>, suggesting that it's warranted to deter other repeat offenders.</p>
-<p style="font-weight: 400;">Fifty-three-year-old Anthony Rotondo, who divides his time between the Philippines and Australia, was ordered to take down AI-generated sexualized images of high-profile Australian women that Rotondo posted on the now-defunct Mr. Deepfakes site.</p><p><a href="https://arstechnica.com/tech-policy/2025/05/after-mr-deepfakes-shut-down-forever-one-creator-could-face-a-450k-fine/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/05/after-mr-deepfakes-shut-down-forever-one-creator-could-face-a-450k-fine/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>64</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-633243615-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-633243615-500x500.jpg" width="500"/>
-<media:credit>Mads Perch | Stone</media:credit></media:content>
-            </item>
-                    <item>
-                <title>F1 in Monaco: No one has ever gone faster than that</title>
-                <link>https://arstechnica.com/cars/2025/05/f1-in-monaco-no-one-has-ever-gone-faster-than-that/</link>
-                                    <comments>https://arstechnica.com/cars/2025/05/f1-in-monaco-no-one-has-ever-gone-faster-than-that/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Tue, 27 May 2025 14:07:32 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[F1]]></category>
-		<category><![CDATA[Formula 1]]></category>
-		<category><![CDATA[monaco]]></category>
-		<category><![CDATA[Racing]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2025/05/f1-in-monaco-no-one-has-ever-gone-faster-than-that/</guid>
-
-                                    <description>
-                        <![CDATA[The least-sensible F1 race of the year is also the most glamorous. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The principality of Monaco is perhaps the least suitable place on the Formula 1 calendar to hold a Grand Prix. A pirate cove turned tax haven nestled between France and Italy at the foot of the Alps-Maritimes, it has also been home to Grand Prix racing since 1929, predating the actual Formula 1 world championship by two decades. The track is short, tight, and perhaps best described as riding a bicycle around your living room. It doesn’t even race well, for the barrier-lined streets are too narrow for the too-big, too-heavy cars of the 21st century. And yet, it’s F1’s crown jewel.</p>
-<p>Despite the location's many drawbacks, there’s something magical about racing in Monaco that almost defies explanation. The real magic happens on Saturday, when the drivers compete against each other to set the fastest lap. With overtaking as difficult as it is here, qualifying is everything, determining the order everyone lines up in, and more than likely, finishes.</p>
-<p>Coverage of the Monaco Grand Prix is now filmed in vivid 4K, and it has never looked better. I’m a big fan of the static top-down camera that’s like a real-time Apple TV screensaver.</p><p><a href="https://arstechnica.com/cars/2025/05/f1-in-monaco-no-one-has-ever-gone-faster-than-that/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/05/f1-in-monaco-no-one-has-ever-gone-faster-than-that/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>91</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2216688090-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2216688090-500x500.jpg" width="500"/>
-<media:credit>Beata Zawrzel/NurPhoto via Getty Images</media:credit><media:text>Lando Norris locks up his front tires on the way into turn 1 at the start of the 2025 Monaco Grand Prix.</media:text></media:content>
-            </item>
-                    <item>
-                <title>The key to a successful egg drop experiment? Drop it on its side.</title>
-                <link>https://arstechnica.com/science/2025/05/the-key-to-a-successful-egg-drop-experiment-drop-it-on-its-side/</link>
-                                    <comments>https://arstechnica.com/science/2025/05/the-key-to-a-successful-egg-drop-experiment-drop-it-on-its-side/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Mon, 26 May 2025 15:05:20 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[egg drop challenge]]></category>
-		<category><![CDATA[Physics]]></category>
-		<category><![CDATA[structural mechanics]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/05/the-key-to-a-successful-egg-drop-experiment-drop-it-on-its-side/</guid>
-
-                                    <description>
-                        <![CDATA[Eggs are less likely to crack when dropped horizontally vs. vertically, contradicting conventional wisdom.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Egg drop competitions are a staple of high school and college physics classes. The goal is for students to build a device using bubble wrap, straws, or various other materials designed to hold an egg and keep it intact after being dropped from a substantial height—say, 10 meters (nearly 33 feet). There's even a "naked egg" version in which a raw egg is dropped into a container below.  The competition is intended to teach students about structural mechanics and impact physics, and it is not an easy feat; most of the dropped eggs break.</p>
-<p>MIT engineering professor Tal Cohen decided to investigate why the failure rate was so high and reported her team's findings in <a href="https://www.nature.com/articles/s42005-025-02087-0">a paper</a> published in the journal Communications Physics. "The universal convention is that the egg should be in a vertical orientation when it hits the ground," <a href="https://physics.aps.org/articles/v18/100">Cohen told Physics Magazine</a>. But their results from controlled trials simulating the egg drop challenge in the lab calls this conventional wisdom into question.</p>
-<p>It is not an unreasonable assumption to make. Another popular physics party trick is to walk on several cartons of eggs without breaking them. Typically it only takes about five and a half pounds of force to crack a single eggshell, much less than the average adult human. As I <a href="https://slate.com/technology/2012/09/whats-the-best-way-to-crack-an-egg-how-physics-can-help-you-when-youre-making-your-next-souffle.html">wrote for Slate</a> back in 2012, "The key is to align the eggs so that the narrow pole is pointing upward, and step in such a way to distribute your weight over the entire surface area, to avoid overloading any one eggshell." (Being barefoot also helps.)</p><p><a href="https://arstechnica.com/science/2025/05/the-key-to-a-successful-egg-drop-experiment-drop-it-on-its-side/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/05/the-key-to-a-successful-egg-drop-experiment-drop-it-on-its-side/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>111</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/eggdrop1-1152x648-1748090954.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/eggdrop1-500x500-1748090947.jpg" width="500"/>
-<media:credit>Ben Wildeboer/CC BY-SA 3.0</media:credit><media:text>A physics teacher drops a package designed to protect three eggs from a fall of 10 meters</media:text></media:content>
-            </item>
-                    <item>
-                <title>Where hyperscale hardware goes to retire: Ars visits a very big ITAD site</title>
-                <link>https://arstechnica.com/information-technology/2025/05/where-hyperscale-hardware-goes-to-retire-ars-visits-a-very-big-itad-site/</link>
-                                    <comments>https://arstechnica.com/information-technology/2025/05/where-hyperscale-hardware-goes-to-retire-ars-visits-a-very-big-itad-site/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kevin Purdy]]>
-                </dc:creator>
-                <pubDate>Mon, 26 May 2025 11:30:50 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[data centers]]></category>
-		<category><![CDATA[it asset disposition]]></category>
-		<category><![CDATA[ITAD]]></category>
-		<category><![CDATA[sk tes]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/05/where-hyperscale-hardware-goes-to-retire-ars-visits-a-very-big-itad-site/</guid>
-
-                                    <description>
-                        <![CDATA[Watching memory DIMMs get sorted like <em>Wonka</em> children inside SK TES' facility.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>"The biggest risk is data escape."</p>
-<p>Eric Ingebretsen, chief commercial officer at <a href="https://www.sktes.com/">SK TES</a>, an IT asset disposition provider, tells me this early on during a tour of a 128,000-square-foot facility in Fredericksburg, Virginia. He will restate this a few times.</p>
-<p>A big part of this site's pitch to its clients, including the "hyperscale" customers with gigantic data centers nearby, is that each device is labeled, tracked, and inventoried for its drives—both obvious and hidden—and is either securely wiped or destroyed. The process, commonly called ITAD (for "IT Asset Disposition") is used by larger businesses, especially when they upgrade fleets of servers or workers' devices. ITAD providers ensure all the old gear is wiped clean, then resold, repurposed, recycled, or destroyed.</p><p><a href="https://arstechnica.com/information-technology/2025/05/where-hyperscale-hardware-goes-to-retire-ars-visits-a-very-big-itad-site/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2025/05/where-hyperscale-hardware-goes-to-retire-ars-visits-a-very-big-itad-site/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>108</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/sktes_splash.jpg">
-<media:thumbnail height="450" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/sktes_splash-500x450.jpg" width="500"/>
-<media:credit>SK TES</media:credit><media:text>A worker at SK TES' Fredericksburg, Va. facility, processing incoming gear.</media:text></media:content>
-            </item>
-                    <item>
-                <title>How farmers can help rescue water-loving birds</title>
-                <link>https://arstechnica.com/science/2025/05/how-farmers-can-help-rescue-water-loving-birds/</link>
-                                    <comments>https://arstechnica.com/science/2025/05/how-farmers-can-help-rescue-water-loving-birds/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Lela Nargi, Knowable Magazine]]>
-                </dc:creator>
-                <pubDate>Sun, 25 May 2025 11:05:54 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[birds]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[wetlands]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/05/how-farmers-can-help-rescue-water-loving-birds/</guid>
-
-                                    <description>
-                        <![CDATA[Bird-friendly agriculture can assist in helping waterbirds with rest stops along their seasonal migration routes.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p class="article-subhead">James Gentz has seen birds aplenty on his East Texas rice-and-crawfish farm: snow geese and pintails, spoonbills and teal. The whooping crane couple, though, he found “magnificent.” These endangered, long-necked behemoths arrived in 2021 and set to building a nest amid his flooded fields. “I just loved to see them,” Gentz says.</p>
-<div class="article-content">
-<div class="article-text -drop-cap">
-<p>Not every farmer is thrilled to host birds. Some worry about the spread of <a href="https://knowablemagazine.org/content/article/health-disease/2025/scientific-facts-about-h5n1-bird-flu">avian flu</a>, others are concerned that the birds will eat too much of their valuable crops. But as an unstable climate delivers too little water, careening temperatures and chaotic storms, the fates of human food production and birds are ever more linked—with the same climate anomalies that harm birds hurting agriculture too.</p>
-<p>In some places, farmer cooperation is critical to the continued existence of whooping cranes and other wetland-dependent waterbird species, close to <a href="https://www.stateofthebirds.org/2022/waterfowl-and-waterbirds/">one-third of which</a> are experiencing declines. Numbers of waterfowl (think ducks and geese) <a href="https://www.stateofthebirds.org/2025/wp-content/uploads/2025/03/state-of-the-birds-sotb-2025-spreads.pdf"> have crashed</a> by <a href="https://apnews.com/article/bird-species-north-america-da8e0d41f4c9ad85c601d17c86bb5629">20 percent since 2014</a>, and long-legged wading shorebirds like sandpipers have suffered <a href="https://americanornithology.org/north-american-shorebirds-declining-faster-than-we-ever-imagined/">steep population losses</a>. Conservation-minded biologists, nonprofits, government agencies, and farmers themselves are amping up efforts to ensure that each species survives and thrives. With federal support in the crosshairs of the Trump administration, their work is more important (and threatened) than ever.</p>
-<p>Their collaborations, be they domestic or international, are highly specific, because different regions support different kinds of agriculture—grasslands, or deep or shallow wetlands, for example, favored by different kinds of birds. Key to the efforts is making it financially worthwhile for farmers to keep—or tweak—practices to meet bird forage and habitat needs.</p>
-<p>Traditional crawfish-and-rice farms <a href="https://www.americanscientist.org/article/crawfish-and-water-birds">in Louisiana</a>, as well as in Gentz’s corner of Texas, mimic natural <a href="https://www.lsuagcenter.com/portals/our_offices/research_stations/rice/features/publications/rice-and-crawfish-production-provides-essential-wildlife-habitat">freshwater</a> <a href="https://btnep.org/wp-content/uploads/2017/07/WadingBirdsinLa.pdf">wetlands</a> that are being lost to saltwater intrusion <a href="https://www.sciencedirect.com/science/article/pii/S0048969725003353">from sea level rise</a>. Rice grows in fields that are flooded to keep weeds down; fields are drained for harvest by fall. They are then re-flooded to cover crawfish burrowed in the mud; these are harvested in early spring—and the cycle begins again.</p>
-<p>That second flooding coincides with fall migration—<a href="https://www.annualreviews.org/content/journals/10.1146/annurev-animal-021122-092239">a genetic and learned behavior</a> that determines where birds fly and when—and it lures massive numbers of egrets, herons, bitterns, and storks that dine on the crustaceans as well as on<a href="https://www.lsuagcenter.com/portals/our_offices/research_stations/rice/features/publications/rice-and-crawfish-production-provides-essential-wildlife-habitat"> tadpoles</a>, fish, and insects in the water.</p>
-<p>On a biodiverse crawfish-and-rice farm, “you can see 30, 40, 50 species of birds, amphibians, reptiles, everything,” says Elijah Wojohn, a shorebird conservation biologist at nonprofit Manomet Conservation Sciences in Massachusetts. In contrast, if farmers switch to less water-intensive corn and soybean production in response to climate pressures, “you’ll see raccoons, deer, crows, that’s about it.” Wojohn often relies on word-of-mouth to hook farmers on conservation; one learned to spot whimbrel, with their large, curved bills, got “fired up” about them and told all his farmer friends. Such farmer-to-farmer dialogue is how you change things among this sometimes change-averse group, Wojohn says.</p>
-<p>In the Mississippi Delta and in California, where rice is generally grown without crustaceans, conservation organizations like Ducks Unlimited have long boosted farmers’ income and staying power by helping them get paid to flood fields in winter for hunters. This attracts overwintering ducks and geese—considered an extra “crop”—that gobble leftover rice and pond plants; the birds also <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167880902000221">help to decompose rice stalks</a> so farmers don’t have to remove them. Ducks Unlimited’s goal is simple, says director of conservation innovation Scott Manley: Keep rice farmers farming rice. This is especially important as a changing climate makes that harder. 2024 saw a huge push, with the organization conserving 1 million acres for waterfowl.</p>
-<p>Some strategies can backfire. In Central New York, where dwindling winter ice has seen waterfowl lingering past their habitual migration times, wildlife managers and land trusts are buying less productive farmland to plant with native grasses; these give migratory fuel to ducks when not much else is growing. But there’s potential for this to produce too many birds for the land available back in their breeding areas, says Andrew Dixon, director of science and conservation at the Mohamed Bin Zayed Raptor Conservation Fund in Abu Dhabi, and coauthor of <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-animal-021122-092239">an article about the genetics of bird migration</a> in the 2024 Annual Review of Animal Biosciences. This can damage ecosystems meant to serve them.</p>
-<p><!--nextpage--></p>
-<p>Recently, conservation efforts spanning continents and thousands of miles have sprung up. One seeks to protect buff-breasted sandpipers. As they migrate 18,000 miles to and from the High Arctic where they <a href="https://www.allaboutbirds.org/guide/Buff-breasted_Sandpiper/lifehistory">nest</a>, the birds experience extreme hunger—hyperphagia—that compels them to voraciously devour insects in short grasses where the bugs proliferate. But many stops along the birds’ round-trip route are threatened. There are water shortages affecting agriculture in Texas, where the birds forage at turf grass farms; grassland loss and degradation in Paraguay; and in Colombia, conversion of forage lands to exotic grasses and rice paddies these birds cannot use.</p>
-<p>Conservationists say it’s critical to protect habitat for “buffies” all along their route, and to ensure that the winters these small shorebirds spend around Uruguay’s coastal lagoons are a food fiesta. To that end, Manomet conservation specialist Joaquín Aldabe, in partnership with Uruguay’s agriculture ministry, has so far taught 40 local ranchers how to improve their cattle grazing practices. Rotationally moving the animals from pasture to pasture means grasses stay the right length for insects to flourish.</p>
-<p>There are no easy fixes in the North American northwest, where <a href="https://knowablemagazine.org/content/article/living-world/2023/shocking-number-birds-are-in-trouble">bird conservation is in crisis</a>. Extreme drought is causing breeding grounds, molting spots, and migration stopover sites to vanish. It is also <a href="https://knowablemagazine.org/content/article/food-environment/2024/can-desalination-of-groundwater-grow-crops">endangering the livelihoods of farmers</a>, who feel the push to sell land to developers. From Southern Oregon to Central California, conservation allies have provided monetary incentives for water-strapped grain farmers to <a href="https://insideclimatenews.org/news/12012025/california-rice-fields-offer-threatened-migratory-waterbirds-lifeline/">leave behind harvest debris</a> to improve survivability for the <a href="https://www.sacramentoaudubon.org/pacific-flyway-conservation#:~:text=At%20least%20a%20billion%20birds,region%20called%20the%20Pacific%20Flyway.">1 billion birds</a> that pass through every year, and for <a href="https://iwjv.org/sonec-working-wet-meadows/">ranchers to flood-irrigate unused pastures</a>.</p>
-<p>One treacherous leg of the northwest migration route is the parched Klamath Basin of Oregon and California. For three recent years, “we saw no migrating birds. I mean, the peak count was zero,” says John Vradenburg, supervisory biologist of the Klamath Basin National Wildlife Refuge Complex. He and <a href="https://www.kwua.org/wp-content/uploads/2024/03/October-2023-Newsletter.pdf">myriad private, public, and Indigenous partners</a> are working to conjure more water for the basin’s human and avian denizens, as perennial wetlands become seasonal wetlands, seasonal wetlands transition to temporary wetlands, and temporary wetlands turn to arid lands.</p>
-<p>Taking down four power dams and one <a href="https://www.ducks.org/newsroom/work-advances-on-major-wetland-restoration-project-in-klamath-basin">levee</a> has stretched the Klamath River’s water across the landscape, creating <a href="https://www.nytimes.com/2025/03/13/opinion/salmon-klamath-river-dam.html">new streams</a> and connecting farm fields to <a href="https://www.nytimes.com/2025/03/13/opinion/salmon-klamath-river-dam.html">long-separated wetlands</a>. But making the most of this requires expansive thinking. Wetland restoration—now endangered by loss of funding from the current administration—would help drought-afflicted farmers by keeping water tables high. But what if farmers could also receive extra money for their businesses via eco-credits, akin to carbon credits, for the work those wetlands do to filter-clean farm runoff? And what if wetlands could function as aquaculture incubators for juvenile fish, before stocking rivers? Klamath tribes are invested in restoring endangered c’waam and koptu sucker fish, and this could help them achieve that goal.</p>
-<p>As birds’ traditional resting and nesting spots become inhospitable, a more sobering question is whether improvements can happen rapidly enough. The blistering pace of climate change gives little chance for species to genetically adapt, although some are changing their behaviors. That means that the work of conservationists to find and secure adequate, supportive farmland and rangeland as the birds seek out new routes has become a sprint against time.</p>
-<p><em>This story originally appeared at <a href="https://knowablemagazine.org/content/article/food-environment/2025/how-farmers-can-help-save-migrating-water-loving-birds">Knowable Magazine</a>.</em></p>
-</div></div><p><a href="https://arstechnica.com/science/2025/05/how-farmers-can-help-rescue-water-loving-birds/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/05/how-farmers-can-help-rescue-water-loving-birds/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>33</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1772638975-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1772638975-500x500.jpg" width="500"/>
-<media:credit>Xu Zheng/VCG via Getty Images</media:credit><media:text>Sandhill cranes forage for food at the Poyang Lake National Nature Reserve on November 2, 2023 in Yugan County, Shangrao City, Jiangxi Province of China.</media:text></media:content>
-            </item>
-                    <item>
-                <title>200 mph for 500 miles: How IndyCar drivers prepare for the big race</title>
-                <link>https://arstechnica.com/features/2025/05/how-to-try-to-win-the-indianapolis-500/</link>
-                                    <comments>https://arstechnica.com/features/2025/05/how-to-try-to-win-the-indianapolis-500/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Sat, 24 May 2025 15:30:19 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Indianapolis 500]]></category>
-		<category><![CDATA[Indy 500]]></category>
-		<category><![CDATA[IndyCar]]></category>
-		<category><![CDATA[Racing]]></category>
-		<category><![CDATA[simulation]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/features/2025/05/how-to-try-to-win-the-indianapolis-500/</guid>
-
-                                    <description>
-                        <![CDATA[Andretti Global's Kyle Kirkwood and Marcus Ericsson talk to us about the Indy 500.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>This coming weekend is a special one for most motorsport fans. There are Formula 1 races in Monaco and NASCAR races in Charlotte. And arguably towering over them both is the Indianapolis 500, being held this year for the 109th time. America's oldest race is also one of its toughest: The track may have just four turns, but the cars negotiate them going three times faster than you drive on the highway, inches from the wall. For hours. At least at Le Mans, you have more than one driver per car.</p>
-<p>This year's race promises to be an exciting one. The track is sold out for the first time <a href="https://arstechnica.com/cars/2016/05/the-greatest-spectacle-in-racing-turns-100-the-2016-indy-500/">since the centenary race in 2016</a>. A rookie driver and a team new to the series took pole position. Two very fast cars are <a href="https://racer.com/2025/05/19/newgarden-power-sent-to-the-back-of-indy-500-grid-after-component-violations">starting at the back</a> thanks to <a href="https://racer.com/2025/05/18/indycar-president-boles-explains-penske-qualifying-illegalities">another conflict-of-interest</a> scandal involving Team Penske, the second in two years for a team whose owner also owns the track and the series. And the cars are trickier to drive than they have been for many years, thanks to a new supercapacitor-based hybrid system that has added more than 100 lbs to the rear of the car, shifting the weight distribution further back.</p>
-<p>Ahead of Sunday's race, I spoke with a couple of IndyCar drivers and some engineers to get a better sense of how they prepare and what to expect.</p><p><a href="https://arstechnica.com/features/2025/05/how-to-try-to-win-the-indianapolis-500/">Read full article</a></p>
-<p><a href="https://arstechnica.com/features/2025/05/how-to-try-to-win-the-indianapolis-500/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>69</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2214687733-1152x648-1748012210.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2214687733-500x500-1748012200.jpg" width="500"/>
-<media:credit>Brandon Badraoui/Lumen via Getty Images</media:credit><media:text>#28, Marcus Ericsson, Andretti Global Honda prior to the NTT IndyCar Series 109th Running of the Indianapolis 500 at Indianapolis Motor Speedway on May 15, 2025 in Indianapolis, Indiana.</media:text></media:content>
             </item>
             </channel>
 </rss>
