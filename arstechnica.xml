@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Tue, 03 Jun 2025 01:20:16 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 03 Jun 2025 12:44:41 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,77 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Tuesday Telescope: A time-lapse from orbit reveals treasures below</title>
+                <link>https://arstechnica.com/space/2025/06/tuesday-telescope-lighting-sprites-and-airglow-over-central-america/</link>
+                                    <comments>https://arstechnica.com/space/2025/06/tuesday-telescope-lighting-sprites-and-airglow-over-central-america/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Jun 2025 12:10:47 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[daily telescope]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[tuesday telescope]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2025/06/tuesday-telescope-lighting-sprites-and-airglow-over-central-america/</guid>
+
+                                    <description>
+                        <![CDATA["Soooooo much going on in this picture."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>I did not expect to feature NASA astronaut Nichole Ayers in the Tuesday Telescope so soon, but a recent photo she shared is just sublime. (In case you missed it, <a href="https://arstechnica.com/space/2025/05/tuesday-telescope-its-not-space-weather-but-weather-from-space/">we wrote about</a> her photo of lightning from space about a month ago.)</p>
+<p>This week Ayers has a time-lapse sequence she captured from the Cupola as the International Space Station soared near Central and South America.</p>
+<p>"Soooooo much going on in this picture," Ayers wrote on the <a href="https://x.com/Astro_Ayers/status/1925580825199874196/photo/1">social media site X</a>. "You can see Nicaragua, Costa Rica, and Panama, with South America off in the distance."</p><p><a href="https://arstechnica.com/space/2025/06/tuesday-telescope-lighting-sprites-and-airglow-over-central-america/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/06/tuesday-telescope-lighting-sprites-and-airglow-over-central-america/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>5</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/ayers-ISS-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/ayers-ISS-500x500.jpg" width="500"/>
+<media:credit>Nichole Ayers/NASA</media:credit><media:text>Storms over Central America.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Meta and Yandex are de-anonymizing Android users’ web browsing identifiers</title>
+                <link>https://arstechnica.com/security/2025/06/headline-to-come/</link>
+                                    <comments>https://arstechnica.com/security/2025/06/headline-to-come/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Jun 2025 12:00:48 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[browsing histories]]></category>
+		<category><![CDATA[Meta Pixel]]></category>
+		<category><![CDATA[Metrica]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[yandex]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/06/headline-to-come/</guid>
+
+                                    <description>
+                        <![CDATA[Abuse allows Meta and Yandex to attach persistent identifiers to detailed browsing histories.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Tracking code that Meta and Russia-based Yandex embed into millions of websites is de-anonymizing visitors by abusing legitimate Internet protocols, causing Chrome and other browsers to surreptitiously send unique identifiers to native apps installed on a device, <a href="https://localmess.github.io/">researchers have discovered</a>. Google says it's investigating the abuse, which allows Meta and Yandex to convert ephemeral web identifiers into persistent mobile app user identities.</p>
+<p>The covert tracking—implemented in the <a href="https://www.facebook.com/business/tools/meta-pixel/">Meta Pixel</a> and <a href="https://ads.yandex/metrica">Yandex Metrica</a> trackers—allows Meta and Yandex to bypass core security and privacy protections provided by both the Android operating system and browsers that run on it. <a href="https://source.Android.com/docs/security/app-sandbox">Android sandboxing</a>, for instance, isolates processes to prevent them from interacting with the OS and any other app installed on the device, cutting off access to sensitive data or privileged system resources. Defenses such <span style="box-sizing: border-box; margin: 0px; padding: 0px;">as <a href="https://developer.mozilla.org/en-US/docs/Web/Privacy/Guides/State_Partitioning" target="_blank" rel="noopener">state</a></span><a href="https://developer.mozilla.org/en-US/docs/Web/Privacy/Guides/State_Partitioning"> partitioning</a> and <a href="https://privacysandbox.google.com/cookies/storage-partitioning">storage partitioning</a>, which are built into all major browsers, store site cookies and other data associated with a website in containers that are unique to every top-level website domain to ensure they're off-limits for every other site.</p>
+<h2>A blatant violation</h2>
+<p>“One of the fundamental security principles that exists in the web, as well as the mobile system, is called sandboxing,” Narseo Vallina-Rodriguez, one of the researchers behind the discovery, said in an interview. “You run everything in a sandbox, and there is no interaction within different elements running on it. What this attack vector allows is to break the sandbox that exists between the mobile context and the web context. The channel that exists allowed the Android system to communicate what happens in the browser with the identity running in the mobile app.”</p><p><a href="https://arstechnica.com/security/2025/06/headline-to-come/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/06/headline-to-come/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>18</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/android-tracking-binoculars-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/android-tracking-binoculars-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
                 <title>Colon cancer recurrence and deaths cut 28% by simple exercise, trial finds</title>
                 <link>https://arstechnica.com/health/2025/06/exercise-improves-colon-cancer-survival-high-quality-trial-finds/</link>
                                     <comments>https://arstechnica.com/health/2025/06/exercise-improves-colon-cancer-survival-high-quality-trial-finds/#comments</comments>
@@ -47,7 +118,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>34</slash:comments>
+                                    <slash:comments>57</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-588283543-1152x648.jpg" width="1152">
@@ -80,7 +151,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>27</slash:comments>
+                                    <slash:comments>44</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-114396654-1152x648-1748890824.jpg" width="1152">
@@ -106,14 +177,14 @@
                         <![CDATA[USB-C ports have always supported different capabilities on different systems.]]>
                     </description>
                                                                 <content:encoded>
-                            <![CDATA[<p>We've been covering the small, reversible USB Type-C connector since the days when it was just <a href="https://arstechnica.com/gadgets/2014/09/reversible-tiny-faster-hands-on-with-the-usb-type-c-plug/">a USB Implementers Forum tech demo</a>, and in the decade-plus since then, the port has gradually taken over the world. It gradually migrated from laptops to game consoles, to PC accessories, to Android phones, to e-readers, and to iPhones. Despite some hiccups and shortcomings, we're considerably closer to a single connector that does <em>everything</em> than we were a decade ago.</p>
-<p>But some of that confusion persists. A weakness built into the USB-C from the very beginning was that the specification for the physical connector was always separate from the specifications for the USB protocol itself (that is, the data transfer speed a given port is capable of), the USB Power Delivery specification for charging, and the USB-C Alt Mode specification for carrying non-USB signals like DisplayPort or HDMI.</p>
+                            <![CDATA[<p>We've been covering the small, reversible USB Type-C connector since the days when it was just <a href="https://arstechnica.com/gadgets/2014/09/reversible-tiny-faster-hands-on-with-the-usb-type-c-plug/">a USB Implementers Forum tech demo</a>, and in the decade-plus since then, the port has gradually taken over the world. It quietly migrated from laptops to game consoles, to PC accessories, to Android phones, to e-readers, and to iPhones. Despite some hiccups and shortcomings, we're considerably closer to a single connector that does <em>everything</em> than we were a decade ago.</p>
+<p>But some confusion persists. A weakness built into the USB-C from the very beginning was that the specification for the physical connector was always separate from the specifications for the USB Power Delivery specification for charging, the USB-C Alt Mode specification for carrying non-USB signals like DisplayPort or HDMI, and for the USB protocol itself (that is, the data transfer speed a given port is capable of).</p>
 <p>All of these specifications were frequently grouped together so that individual USB-C ports could handle charging, display output, and data transfers (or some combination of all three at once), but they weren't <em>required</em> to go together, so occasionally users will still run into physical USB-C ports that fall short of the port's do-everything promise.</p><p><a href="https://arstechnica.com/gadgets/2025/06/microsoft-belatedly-attempts-to-tame-usb-c-confusion-with-its-rules-for-pc-oems/">Read full article</a></p>
 <p><a href="https://arstechnica.com/gadgets/2025/06/microsoft-belatedly-attempts-to-tame-usb-c-confusion-with-its-rules-for-pc-oems/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>66</slash:comments>
+                                    <slash:comments>129</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/10/GettyImages-1367572559-1152x648.jpg" width="1152">
@@ -148,7 +219,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>29</slash:comments>
+                                    <slash:comments>38</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-1152x648.jpg" width="1152">
@@ -183,7 +254,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>50</slash:comments>
+                                    <slash:comments>79</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-177137103-1152x648.jpg" width="1152">
@@ -219,7 +290,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>28</slash:comments>
+                                    <slash:comments>36</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/galaxy_ai-1152x648.jpg" width="1152">
@@ -255,7 +326,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>112</slash:comments>
+                                    <slash:comments>131</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-520166596-1152x648.jpg" width="1152">
@@ -288,7 +359,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>37</slash:comments>
+                                    <slash:comments>49</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/08/getty-pirate-flag-1152x648.jpg" width="1152">
@@ -324,7 +395,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>298</slash:comments>
+                                    <slash:comments>337</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2217159011-1024x648.jpg" width="1024">
@@ -358,7 +429,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>61</slash:comments>
+                                    <slash:comments>68</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/gila-1-1152x648.jpg" width="1152">
@@ -391,7 +462,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>111</slash:comments>
+                                    <slash:comments>118</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2217540100-1152x648.jpg" width="1152">
@@ -432,7 +503,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>34</slash:comments>
+                                    <slash:comments>35</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/squid1-1152x648-1748798290.jpg" width="1152">
@@ -472,7 +543,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>221</slash:comments>
+                                    <slash:comments>231</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/examining-the-apple-tv-1152x648-1747771489.jpg" width="1152">
@@ -547,7 +618,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>621</slash:comments>
+                                    <slash:comments>634</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/52225129791_a35f106c0a_k-1152x648.jpg" width="1152">
@@ -656,77 +727,6 @@
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-500x500-1748638352.jpg" width="500"/>
 <media:credit>Ryan Whitwam</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Amazon Fire Sticks enable “billions of dollars’” worth of streaming piracy</title>
-                <link>https://arstechnica.com/gadgets/2025/05/amazon-fire-sticks-enable-billions-of-dollars-worth-of-streaming-piracy/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/05/amazon-fire-sticks-enable-billions-of-dollars-worth-of-streaming-piracy/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Fri, 30 May 2025 21:18:44 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[europe]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[piracy]]></category>
-		<category><![CDATA[sports]]></category>
-		<category><![CDATA[streaming]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/05/amazon-fire-sticks-enable-billions-of-dollars-worth-of-streaming-piracy/</guid>
-
-                                    <description>
-                        <![CDATA[Research firm blames outdated DRM tech, Facebook ads, Amazon hardware, and more.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Amazon Fire Sticks are enabling “billions of dollars'” worth of streaming piracy, according to a report today from Enders Analysis, a media, entertainment, and telecommunications research firm. Technologies from other media conglomerates, Microsoft, Google, and Facebook, are also enabling what the report’s authors deem an “industrial scale of theft."</p>
-<p><a href="https://www.endersanalysis.com/reports/video-piracy-big-tech-clearly-unwilling-address-problem">The report</a>, "Video piracy: Big tech is clearly unwilling to address the problem," focuses on the European market but highlights the global growth of piracy of streaming services as they increasingly acquire rights to live programs, like sporting events.</p>
-<p>Per the <a href="https://www.bbc.com/news/articles/cp3n7dx2174o">BBC</a>, the report points to the availability of multiple, simultaneous illegal streams for big events that draw tens of thousands of pirate viewers.</p><p><a href="https://arstechnica.com/gadgets/2025/05/amazon-fire-sticks-enable-billions-of-dollars-worth-of-streaming-piracy/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/05/amazon-fire-sticks-enable-billions-of-dollars-worth-of-streaming-piracy/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>237</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/Amazon-Fire-Stick-1152x648-1748636679.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/Amazon-Fire-Stick-500x500-1748636655.jpg" width="500"/>
-<media:credit>Amazon</media:credit><media:text>An Amazon Fire Stick and remote. </media:text></media:content>
-            </item>
-                    <item>
-                <title>CDC updates COVID vaccine recommendations, but not how RFK Jr. wanted</title>
-                <link>https://arstechnica.com/health/2025/05/cdc-contradicts-rfk-jr-by-still-recommending-covid-vaccine-for-kids/</link>
-                                    <comments>https://arstechnica.com/health/2025/05/cdc-contradicts-rfk-jr-by-still-recommending-covid-vaccine-for-kids/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Fri, 30 May 2025 20:28:47 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[CDC]]></category>
-		<category><![CDATA[centers for disease control and prevention]]></category>
-		<category><![CDATA[rfk jr]]></category>
-		<category><![CDATA[vaccines]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2025/05/cdc-contradicts-rfk-jr-by-still-recommending-covid-vaccine-for-kids/</guid>
-
-                                    <description>
-                        <![CDATA[Mixed messages only add to uncertainty about vaccine access for kids, pregnant individuals. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Centers for Disease Control and Prevention on Thursday updated its immunization schedules for children and adults to <em>partially</em> reflect the abrupt changes announced by health secretary and anti-vaccine advocate Robert F. Kennedy Jr. earlier this week.</p>
-<p>In <a href="https://x.com/SecKennedy/status/1927368440811008138">a 58-second video</a> posted on social media on Tuesday, May 27, <a href="https://arstechnica.com/health/2025/05/anti-vaccine-advocate-rfk-jr-axes-covid-shot-guidance-for-pregnant-people-kids/">Kennedy said he was unilaterally revoking the CDC's recommendations</a> that healthy children and pregnant people get COVID-19 vaccines.</p>
-<p>"I couldn’t be more pleased to announce that, as of today, the COVID vaccine for healthy children and healthy pregnant women has been removed from the CDC recommended immunization schedule," Kennedy said in the video.</p><p><a href="https://arstechnica.com/health/2025/05/cdc-contradicts-rfk-jr-by-still-recommending-covid-vaccine-for-kids/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/05/cdc-contradicts-rfk-jr-by-still-recommending-covid-vaccine-for-kids/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>127</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/GettyImages-1232965275-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/GettyImages-1232965275-500x500.jpeg" width="500"/>
-<media:credit>Getty | Sopa images</media:credit><media:text>A nurse gives a 16-year-old a COVID-19 vaccine. </media:text></media:content>
             </item>
             </channel>
 </rss>
