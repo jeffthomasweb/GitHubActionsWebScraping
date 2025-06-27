@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Wed, 25 Jun 2025 23:15:40 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 26 Jun 2025 23:03:31 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,552 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Actively exploited vulnerability gives extraordinary control over server fleets</title>
+                <link>https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers/</link>
+                                    <comments>https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 22:52:42 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AMI MegaRAC]]></category>
+		<category><![CDATA[baseboard management controllers]]></category>
+		<category><![CDATA[bmcs]]></category>
+		<category><![CDATA[exploits]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers/</guid>
+
+                                    <description>
+                        <![CDATA[AMI MegaRAC used in servers from AMD, ARM, Fujitsu, Gigabyte, Supermicro, and Qualcomm.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Hackers are exploiting a maximum-severity vulnerability that has the potential to give them complete control over thousands of servers, many of which handle mission-critical tasks inside data centers, the US Cybersecurity and Infrastructure Security Agency is warning.</p>
+<p>The vulnerability, carrying a severity rating of 10 out of a possible 10, resides in the AMI MegaRAC, a widely used firmware package that allows large fleets of servers to be remotely accessed and managed even when power is unavailable or the operating system isn't functioning. These motherboard-attached microcontrollers, known as baseboard management controllers (BMCs), give extraordinary control over servers inside data centers.</p>
+<p>Administrators use BMCs to reinstall operating systems, install or modify apps and make configuration changes to large numbers of servers, without physically being on premises and, in many cases, without the servers being turned on. Successful compromise of a single BMC can be used to pivot into internal networks and compromise all other BMCs.</p><p><a href="https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>5</slash:comments>
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>NASA tested a new SLS booster that may never fly, and the end of it blew off</title>
+                <link>https://arstechnica.com/space/2025/06/nasa-tested-a-new-sls-booster-that-may-never-fly-and-the-end-of-it-blew-off/</link>
+                                    <comments>https://arstechnica.com/space/2025/06/nasa-tested-a-new-sls-booster-that-may-never-fly-and-the-end-of-it-blew-off/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 22:36:12 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[artemis]]></category>
+		<category><![CDATA[human spaceflight]]></category>
+		<category><![CDATA[L3Harris]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Northrop Grumman]]></category>
+		<category><![CDATA[space launch system]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2025/06/nasa-tested-a-new-sls-booster-that-may-never-fly-and-the-end-of-it-blew-off/</guid>
+
+                                    <description>
+                        <![CDATA[NASA didn't want to say much about one of the tests, and the other one lost its nozzle.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>NASA's Space Launch System appears to have a finite shelf life. The Trump administration wants to cancel it after just three launches, while the preliminary text of a bill making its way through Congress would extend it to five flights.</p>
+<p>But chances are low the Space Launch System will making it to nine flights, and if it does, it's questionable if it would reach that point before 2040. The SLS rocket is a core piece of NASA's plan to return US astronauts to the Moon under the Artemis program, but the White House seeks to cancel the program in favor of cheaper commercial alternatives.</p>
+<p>For the second time in less than a week, NASA test-fired new propulsion hardware Thursday that the agency would need to keep SLS alive. Last Friday, a new liquid-fueled RS-25 engine ignited on a test stand at NASA's Stennis Space Center in Mississippi. The hydrogen-fueled engine is the first of its kind to be manufactured since the end of the Space Shuttle program. This particular RS-25 engine is assigned to power the fifth flight of the SLS rocket, a mission known as Artemis V.</p><p><a href="https://arstechnica.com/space/2025/06/nasa-tested-a-new-sls-booster-that-may-never-fly-and-the-end-of-it-blew-off/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/06/nasa-tested-a-new-sls-booster-that-may-never-fly-and-the-end-of-it-blew-off/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>30</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/boletest2-1152x648-1750975790.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/boletest2-500x500.jpg" width="500"/>
+<media:credit>NASA</media:credit><media:text>An uncontained plume of exhaust appeared near the nozzle of an SLS solid rocket booster moments before its nozzle was destroyed during a test-firing Thursday.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Changing one gene can restore some tissue regeneration to mice</title>
+                <link>https://arstechnica.com/science/2025/06/changing-one-gene-can-restore-some-tissue-regeneration-to-mice/</link>
+                                    <comments>https://arstechnica.com/science/2025/06/changing-one-gene-can-restore-some-tissue-regeneration-to-mice/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jacek Krywko]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 22:09:26 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[Mice]]></category>
+		<category><![CDATA[regeneration]]></category>
+		<category><![CDATA[retinoic acid]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/06/changing-one-gene-can-restore-some-tissue-regeneration-to-mice/</guid>
+
+                                    <description>
+                        <![CDATA[Signaling from retinoic acid appears to be key to getting mice to regrow ear damage.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Regeneration is a trick many animals, including lizards, starfish, and octopuses, have mastered. Axolotls, a salamander species originating in Mexico, can regrow pretty much everything from severed limbs, through eyes and parts of brain, to the spinal cord. Mammals, though, have mostly lost this ability somewhere along their evolutionary path. Regeneration persisted, in a limited number of tissues, in just a few mammalian species like rabbits or goats.</p>
+<p>“We were trying to learn how certain animals lost their regeneration capacity during evolution and then put back the responsible gene or pathway to reactivate the regeneration program,” says Wei Wang, a researcher at the National Institute of Biological Sciences in Beijing. Wang’s team has found one of those inactive regeneration genes, activated it, and brough back a limited regeneration ability to mice that did not have it before.</p>
+<h2>Of mice and bunnies</h2>
+<p>The idea Wang and his colleagues had was a comparative study to compare how the wound healing process works in regenerating and non-regenerating mammalian species. They chose rabbits as their regenerating mammals and mice as the non-regenerating species. As the reference organ, the team picked the ear pinna. “We wanted relatively simple structure that was easy to observe and yet composed of many different cell types,” Wang says. The test involved punching holes in the ear pinna of rabbits and mice and tracking the wound-repairing process.</p><p><a href="https://arstechnica.com/science/2025/06/changing-one-gene-can-restore-some-tissue-regeneration-to-mice/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/06/changing-one-gene-can-restore-some-tissue-regeneration-to-mice/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>10</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-883968826-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-883968826-500x500.jpg" width="500"/>
+<media:credit>Corinne von Nordmann</media:credit></media:content>
+            </item>
+                    <item>
+                <title>RFK Jr.’s CDC panel ditches some flu shots based on anti-vaccine junk data</title>
+                <link>https://arstechnica.com/health/2025/06/rfk-jr-s-cdc-panel-ditches-some-flu-shots-based-on-anti-vaccine-junk-data/</link>
+                                    <comments>https://arstechnica.com/health/2025/06/rfk-jr-s-cdc-panel-ditches-some-flu-shots-based-on-anti-vaccine-junk-data/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 21:47:29 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[ACIP]]></category>
+		<category><![CDATA[anti-vaccine]]></category>
+		<category><![CDATA[CDC]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2025/06/rfk-jr-s-cdc-panel-ditches-some-flu-shots-based-on-anti-vaccine-junk-data/</guid>
+
+                                    <description>
+                        <![CDATA[Flu shots with thimerosal abandoned, despite decades of data showing they're safe.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The vaccine panel hand-selected by health secretary and anti-vaccine advocate Robert F. Kennedy Jr. on Thursday voted overwhelmingly to drop federal recommendations for seasonal flu shots that contain the ethyl-mercury containing preservative thimerosal. The panel did so after hearing a misleading and cherry-picked presentation from an anti-vaccine activist.</p>
+<p>There is extensive data from the last quarter century proving that the antiseptic preservative is safe, with no harms identified beyond slight soreness at the injection site, but none of that data was presented during today's meeting.</p>
+<p>The significance of the vote is unclear for now. The vast majority of seasonal influenza vaccines currently used in the US—about 96 percent of flu shots in 2024–2025—do not contain thimerosal. The preservative is only included in multi-dose vials of seasonal flu vaccines, where it prevents the growth of bacteria and fungi potentially introduced as doses are withdrawn.</p><p><a href="https://arstechnica.com/health/2025/06/rfk-jr-s-cdc-panel-ditches-some-flu-shots-based-on-anti-vaccine-junk-data/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/06/rfk-jr-s-cdc-panel-ditches-some-flu-shots-based-on-anti-vaccine-junk-data/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>62</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2221384826-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2221384826-500x500.jpg" width="500"/>
+<media:credit>Getty | Bloomberg</media:credit><media:text>Dr. Martin Kulldorff, chair of the Advisory Committee on Immunization Practices, during the first meeting of the CDC's Advisory Committee On Immunization Practices on June 25, 2025. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Judge: Pirate libraries may have profited from Meta torrenting 80TB of books</title>
+                <link>https://arstechnica.com/tech-policy/2025/06/judge-rejects-metas-claim-that-torrenting-is-irrelevant-in-ai-copyright-case/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/06/judge-rejects-metas-claim-that-torrenting-is-irrelevant-in-ai-copyright-case/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 20:46:52 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI training]]></category>
+		<category><![CDATA[BItTorrent]]></category>
+		<category><![CDATA[copyright]]></category>
+		<category><![CDATA[copyright infringement]]></category>
+		<category><![CDATA[libgen]]></category>
+		<category><![CDATA[LLaMA]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[online piracy]]></category>
+		<category><![CDATA[shadow libraries]]></category>
+		<category><![CDATA[torrenting]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/06/judge-rejects-metas-claim-that-torrenting-is-irrelevant-in-ai-copyright-case/</guid>
+
+                                    <description>
+                        <![CDATA[Meta may defeat authors’ torrenting claim due to lack of evidence.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Now that <a href="https://arstechnica.com/tech-policy/2025/06/book-authors-made-the-wrong-arguments-in-meta-ai-training-case-judge-says/">Meta has largely beaten an AI training copyright lawsuit</a> raised by 13 book authors—including comedian Sarah Silverman and Pulitzer Prize-winning author Junot Diaz—the only matter left to settle in that case is whether Meta violated copyright laws by <a href="https://arstechnica.com/tech-policy/2025/02/meta-torrented-over-81-7tb-of-pirated-books-to-train-ai-authors-say/">torrenting books used to train Llama models</a>.</p>
+<p>In an <a href="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Kadrey-v-Meta-Order-6-25-25.pdf">order</a> that partly grants Meta's motion for summary judgment, judge Vince Chhabria confirmed that Meta and the authors would meet on July 11 to "discuss how to proceed on the plaintiffs’ separate claim that Meta unlawfully distributed their protected works during the torrenting process."</p>
+<p>Chhabria's order suggested that authors may struggle to win this part of the fight, too, due to a lack of evidence, as there has not yet been much discovery on this issue that was raised so late in the case. But he also warned that Meta was wrong to argue its torrenting was completely "irrelevant" to whether its copying of books was fair use.</p><p><a href="https://arstechnica.com/tech-policy/2025/06/judge-rejects-metas-claim-that-torrenting-is-irrelevant-in-ai-copyright-case/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/06/judge-rejects-metas-claim-that-torrenting-is-irrelevant-in-ai-copyright-case/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>25</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-1383559939-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-1383559939-500x500.jpg" width="500"/>
+<media:credit>VectorUp | iStock / Getty Images Plus</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Anthropic summons the spirit of Flash games for the AI age</title>
+                <link>https://arstechnica.com/ai/2025/06/anthropic-summons-the-spirit-of-flash-games-for-the-ai-age/</link>
+                                    <comments>https://arstechnica.com/ai/2025/06/anthropic-summons-the-spirit-of-flash-games-for-the-ai-age/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 20:33:20 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI programming]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Anthropic Claude]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[Flash games]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[newgrounds]]></category>
+		<category><![CDATA[Simon Willison]]></category>
+		<category><![CDATA[vibe coding]]></category>
+		<category><![CDATA[vibecoding]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/06/anthropic-summons-the-spirit-of-flash-games-for-the-ai-age/</guid>
+
+                                    <description>
+                        <![CDATA[AI chatbot codes browser-based apps from plain English with classic web vibes.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday, Anthropic <a href="https://www.anthropic.com/news/claude-powered-artifacts">announced</a> a new feature that expands its Artifacts document management system into the basis of a personal AI app gallery resembling something from the <a href="https://arstechnica.com/information-technology/2020/07/the-rise-and-fall-of-adobe-flash/">Flash game era</a> of the early 2000s—though these apps run on modern web code rather than Adobe's defunct plugin.</p>
+<p>Using plain English dialogue, users can build and share interactive applications <a href="https://claude.ai/artifacts">directly within</a> Claude's chatbot interface using a new API capability that lets artifacts interact with Claude itself. Claude is an AI assistant similar to <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a>.</p>
+<p>Claude has been capable of building web apps for some time, but Anthropic has put renewed focus on the feature that many have overlooked. "I'm amused that Anthropic turned 'we added a window.claude.complete() function to Artifacts' into what looks like a major new product launch," <a href="https://simonwillison.net/2025/Jun/25/ai-powered-apps-with-claude/">wrote</a> independent AI researcher Simon Willison in a blog post, "but I can't say it's bad marketing for them to do that!"</p><p><a href="https://arstechnica.com/ai/2025/06/anthropic-summons-the-spirit-of-flash-games-for-the-ai-age/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/06/anthropic-summons-the-spirit-of-flash-games-for-the-ai-age/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>9</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/digital_arcade_1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/digital_arcade_1-500x500.jpg" width="500"/>
+<media:credit>Nataliia Nesterenko via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>VMware perpetual license holder receives audit letter from Broadcom</title>
+                <link>https://arstechnica.com/information-technology/2025/06/vmware-perpetual-license-holder-receives-audit-letter-from-broadcom/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/06/vmware-perpetual-license-holder-receives-audit-letter-from-broadcom/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 20:17:54 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Broadcom]]></category>
+		<category><![CDATA[vmware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/06/vmware-perpetual-license-holder-receives-audit-letter-from-broadcom/</guid>
+
+                                    <description>
+                        <![CDATA["Our management thought it was a bluff..."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>After sending <a href="https://arstechnica.com/gadgets/2025/05/broadcom-sends-cease-and-desist-letters-to-subscription-less-vmware-users/">cease-and-desist letters to VMware users</a> whose support contracts had expired and who subsequently declined to subscribe to one of Broadcom’s VMware bundles, Broadcom has started the process of conducting audits on former VMware customers.</p>
+<p>Broadcom stopped selling <a href="https://arstechnica.com/information-technology/2023/12/broadcom-ends-vmware-perpetual-license-sales-testing-customers-and-partners/">VMware perpetual licenses</a> in November 2023 in favor of pushing a small number of VMware SKUs that feature multiple VMware offerings. Since Broadcom is forcefully bundling VMware products, the costs associated with running VMware have <a href="https://arstechnica.com/information-technology/2024/12/company-claims-1000-percent-price-hike-drove-it-from-vmware-to-open-source-rival/">skyrocketed</a>, with customers frequently citing <a href="https://arstechnica.com/information-technology/2024/10/a-year-after-broadcoms-vmware-buy-customers-eye-exit-strategies/">300 percent price hikes</a> and some firms claiming even larger increases. As a result, some VMware users have opted to keep using VMware perpetual licenses, even though Broadcom refuses to renew <a href="https://arstechnica.com/information-technology/2024/10/broadcom-tried-to-jack-vmware-prices-by-1050-percent-att-claims/">most</a> of those clients’ support services.</p>
+<p>This year, Broadcom started sending such VMware users cease-and-desist letters [<a href="https://cdn.arstechnica.net/wp-content/uploads/2025/05/2025.05.07-12.26.01-SNAGIT-0038.pdf">PDF</a>], telling organizations to stop using any maintenance releases/updates, minor releases, major releases/upgrades extensions, enhancements, patches, bug fixes, or security patches (except for zero-day security patches) that VMware issued since the user’s support contract ended.</p><p><a href="https://arstechnica.com/information-technology/2025/06/vmware-perpetual-license-holder-receives-audit-letter-from-broadcom/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/06/vmware-perpetual-license-holder-receives-audit-letter-from-broadcom/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>70</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2177158675-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2177158675-500x500.jpg" width="500"/>
+<media:credit>Sheldon Cooper/SOPA Images/LightRocket via Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Book authors made the wrong arguments in Meta AI training case, judge says</title>
+                <link>https://arstechnica.com/tech-policy/2025/06/book-authors-made-the-wrong-arguments-in-meta-ai-training-case-judge-says/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/06/book-authors-made-the-wrong-arguments-in-meta-ai-training-case-judge-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 17:45:41 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI training]]></category>
+		<category><![CDATA[copyright]]></category>
+		<category><![CDATA[copyright infringement]]></category>
+		<category><![CDATA[leeching]]></category>
+		<category><![CDATA[LLaMA]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[torrenting]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/06/book-authors-made-the-wrong-arguments-in-meta-ai-training-case-judge-says/</guid>
+
+                                    <description>
+                        <![CDATA[Judges clash over "schoolchildren" analogy in key AI training rulings.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Soon after a <a href="https://arstechnica.com/tech-policy/2025/06/key-fair-use-ruling-clarifies-when-books-can-be-used-for-ai-training/">landmark ruling</a> deemed that when <a href="https://arstechnica.com/ai/2025/06/anthropic-destroyed-millions-of-print-books-to-build-its-ai-models/">Anthropic copied books</a> to train artificial intelligence models, it was a "transformative" fair use, another judge has arrived at the same conclusion in a case pitting book authors against Meta.</p>
+<p>But that doesn't necessarily mean the judges are completely in agreement, and that could soon become a problem for not just Meta, but other big AI companies celebrating the pair of wins this week.</p>
+<p>On Wednesday, Judge Vince Chhabria <a href="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Kadrey-v-Meta-Order-6-25-25.pdf">explained</a> that he sided with Meta, despite his better judgment, mainly because the authors made all the wrong arguments in their case against Meta.</p><p><a href="https://arstechnica.com/tech-policy/2025/06/book-authors-made-the-wrong-arguments-in-meta-ai-training-case-judge-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/06/book-authors-made-the-wrong-arguments-in-meta-ai-training-case-judge-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>85</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2207798306-1152x648-1750956527.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2207798306-500x500-1750956506.jpg" width="500"/>
+<media:credit>SOPA Images / Contributor | LightRocket</media:credit><media:text>Book authors and publishing professionals staged a protest outside Meta UK offices in King's Cross over the Facebook owner's use of copyrighted books to train artificial intelligence. </media:text></media:content>
+            </item>
+                    <item>
+                <title>13-inch Microsoft Surface Laptop review: A slightly worse version of a year-old PC</title>
+                <link>https://arstechnica.com/gadgets/2025/06/review-microsofts-13-inch-surface-laptop-isnt-bad-but-it-is-a-step-down/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/06/review-microsofts-13-inch-surface-laptop-isnt-bad-but-it-is-a-step-down/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 17:27:34 +0000</pubDate>
+                		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Surface]]></category>
+		<category><![CDATA[surface laptop]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/06/review-microsofts-13-inch-surface-laptop-isnt-bad-but-it-is-a-step-down/</guid>
+
+                                    <description>
+                        <![CDATA[It only makes any sense at all because of the old Surface Laptop's price hike.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Microsoft's new 13-inch Surface Laptop is an odd one. It's inarguably a step down in every respect from last year's 13.8-inch Surface Laptop. But it's also too good (and too expensive) to be considered a replacement for the Surface Laptop Go, the company's perennially overpriced and underspecced entry-level laptop. It's cheaper than last year's Surfaces, but mostly because Microsoft gave those devices a de facto price hike by killing the entry-level configurations of those PCs.</p>
+<p>We're left with a laptop that's perfectly fine or even great, depending on what you want. It's relatively affordable for what is, a sort of MacBook Air-ish, just-the-basics portable computer. But it's <em>such</em> a step down from the $999 laptop Microsoft released just last year that it's hard not to see the entire laptop as one big series of compromises.</p>
+<h2>Where does the 13-inch Surface Laptop belong?</h2>
+<p>Despite just calling it the "Surface Laptop, 13-inch," Microsoft clearly considers this to be an entirely different sub-class of laptop rather than a continuation of the flagship Surface Laptop or the lower-end Surface Go. The system identifies itself to Windows as "Surface Laptop 13in 1st Ed with Snapdragon," where the 13.8- and 15-inch Surface Laptops are both labeled as 7th edition devices.</p><p><a href="https://arstechnica.com/gadgets/2025/06/review-microsofts-13-inch-surface-laptop-isnt-bad-but-it-is-a-step-down/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/06/review-microsofts-13-inch-surface-laptop-isnt-bad-but-it-is-a-step-down/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>37</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/IMG_3181-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/IMG_3181-500x500.jpeg" width="500"/>
+<media:credit>Andrew Cunningham</media:credit></media:content>
+            </item>
+                    <item>
+                <title>45-hour voyage in replica canoe tests Paleolithic migration theory</title>
+                <link>https://arstechnica.com/science/2025/06/testing-ancient-paleolithic-migration-with-a-replica-canoe/</link>
+                                    <comments>https://arstechnica.com/science/2025/06/testing-ancient-paleolithic-migration-with-a-replica-canoe/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 17:02:30 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[anthropology]]></category>
+		<category><![CDATA[Archaeology]]></category>
+		<category><![CDATA[experimental archaeology]]></category>
+		<category><![CDATA[paleolithic]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/06/testing-ancient-paleolithic-migration-with-a-replica-canoe/</guid>
+
+                                    <description>
+                        <![CDATA["How did Paleolithic people arrive at such remote islands as Okinawa? What tools and strategies did they use?"]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/qW876fw-WXg?start=0&amp;wmode=transparent"></div></div>
+<p>Earlier this week, <a href="https://arstechnica.com/science/2025/06/this-archaeologist-built-a-replica-boat-to-sail-like-the-vikings/">we reported</a> on a Swedish archaeologist who spent the last three years sailing the fjords in a replica boat similar to those the Vikings may have used. Not to be outdone, Japanese researchers have followed suit, building their own seaworthy dugout canoe with Paleolithic-era tools to cross between Taiwan and Yonaguni Island, where one of the world’s strongest ocean currents, the Kuroshio, remains active.</p>
+<p>They presented their findings in two new papers published in the journal Science Advances. <a href="https://www.science.org/doi/10.1126/sciadv.adv5507">One describes</a> the experimental trial, and <a href="https://www.science.org/doi/10.1126/sciadv.adv5508">the other</a> involves numerical simulations to investigate the general conditions needed for the crossing. The successfully re-enacted voyage suggests that early modern humans likely had a high level of strategic seafaring knowledge. (You can watch a 90-minute documentary about the voyage <a href="https://www.youtube.com/watch?v=tb_jZ4bbKyg">here</a>.) This would explain the presence of archaeological evidence that Paleolithic people made the crossing some 30,000 years ago without the aid of maps, metal tools, or modern boats.</p>
+<p>“We initiated this project with simple questions: ‘How did Paleolithic people arrive at such remote islands as Okinawa? How difficult was their journey? And what tools and strategies did they use?’” <a href="https://www.u-tokyo.ac.jp/focus/en/press/z0508_00414.html">said co-author Yousuke Kaifu</a> of the University of Tokyo. “Archaeological evidence such as remains and artifacts can’t paint a full picture as the nature of the sea is that it washes such things away. So we turned to the idea of experimental archaeology, in a similar vein to the <a href="https://en.wikipedia.org/wiki/Kon-Tiki_expedition">Kon-Tiki expedition</a> of 1947 by Norwegian explorer <a href="https://en.wikipedia.org/wiki/Thor_Heyerdahl">Thor Heyerdahl</a>.”</p><p><a href="https://arstechnica.com/science/2025/06/testing-ancient-paleolithic-migration-with-a-replica-canoe/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/06/testing-ancient-paleolithic-migration-with-a-replica-canoe/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>43</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/canoe1-1152x648-1750688521.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/canoe1-500x500-1750688538.jpg" width="500"/>
+<media:credit>Kaifu et al. CC-By-ND</media:credit><media:text>Crossing the Kuroshio current in a handmade replica of a Paleolithic dugout canoe.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Google begins rolling out AI search in YouTube</title>
+                <link>https://arstechnica.com/gadgets/2025/06/google-begins-rolling-out-ai-search-in-youtube/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/06/google-begins-rolling-out-ai-search-in-youtube/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 16:43:05 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ai search]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[YouTube]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/06/google-begins-rolling-out-ai-search-in-youtube/</guid>
+
+                                    <description>
+                        <![CDATA[The feature is only available as a test for Premium members for now.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Over the past year, Google has transformed its web search experience with AI, driving toward a <a href="https://arstechnica.com/google/2025/05/zero-click-searches-googles-ai-tools-are-the-culmination-of-its-hubris/">zero-click experience</a>. Now, the same AI focus is coming to YouTube, and Premium subscribers can get a preview of the new search regime. Select searches on the video platform will now produce an AI-generated results carousel with a collection of relevant videos. Even if you don't pay for YouTube, AI is still coming for you with an expansion of Google's video chatbot.</p>
+<p><a href="https://blog.youtube/news-and-events/new-youtube-ai-tools-summer-2025/">Google says</a> the new AI search feature, which appears at the top of the results page, will include multiple videos, along with an AI summary of each. You can tap the video thumbnails to begin playing them right from the carousel. The summary is intended to extract the information most relevant to your search query, so you may not even have to watch the videos.</p>
+<p>The AI results carousel is only a test right now, and it's limited to YouTube Premium subscribers. If you're paying for Premium, you can enable the feature on YouTube's <a href="https://www.youtube.com/new">experimental page</a>. While the feature is entirely opt-in, that probably won't last long. Like <a href="https://arstechnica.com/gadgets/2024/05/google-is-reimagining-search-in-the-gemini-era-with-improved-ai-options/">AI Overviews in search</a>, this feature will take precedence over organic search results and get people interacting with Google's AI, and that's the driving force behind most of the company's decisions lately.</p><p><a href="https://arstechnica.com/gadgets/2025/06/google-begins-rolling-out-ai-search-in-youtube/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/06/google-begins-rolling-out-ai-search-in-youtube/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>60</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/YouTube-AI-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/YouTube-AI-500x500.jpg" width="500"/>
+<media:credit>Google</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Researchers develop a battery cathode material that does it all</title>
+                <link>https://arstechnica.com/science/2025/06/researchers-develop-a-battery-cathode-material-that-does-it-all/</link>
+                                    <comments>https://arstechnica.com/science/2025/06/researchers-develop-a-battery-cathode-material-that-does-it-all/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 15:08:01 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[batteries]]></category>
+		<category><![CDATA[chemistry]]></category>
+		<category><![CDATA[lithium]]></category>
+		<category><![CDATA[materials science]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/06/researchers-develop-a-battery-cathode-material-that-does-it-all/</guid>
+
+                                    <description>
+                        <![CDATA[A mix of iron, chlorine, and lithium is conductive, stores lithium, and self-heals.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Battery electrode materials need to do a lot of things well. They need to be conductors to get charges to and from the ions that shuttle between the electrodes. They also need to have an open structure that allows the ions to move around before they reach a site where they can be stored. The storage of lots of ions also causes materials to expand, creating mechanical stresses that can cause the structure of the electrode material to gradually decay.</p>
+<p>Because it's hard to get all of these properties from a single material, many electrodes are composite materials, with one chemical used to allow ions into and out of the electrode, another to store them, and possibly a third that provides high conductivity. Unfortunately, this can create new problems, with breakdowns at the interfaces between materials slowly degrading the battery's capacity.</p>
+<p>Now, a team of researchers is proposing a material that seemingly does it all. It's reasonably conductive, it allows lithium ions to move around and find storage sites, and it's made of cheap and common elements. Perhaps best of all, it undergoes self-healing, smoothing out damage across charge/discharge cycles.</p><p><a href="https://arstechnica.com/science/2025/06/researchers-develop-a-battery-cathode-material-that-does-it-all/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/06/researchers-develop-a-battery-cathode-material-that-does-it-all/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>105</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2150496772-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2150496772-500x500.jpg" width="500"/>
+<media:credit>Just_Super</media:credit><media:text>Lithium Solid State Battery for EV Electric Vehicle, new research and development batteries with solid electrolyte energy storage for automotive car industry, cathode</media:text></media:content>
+            </item>
+                    <item>
+                <title>Today! Ars Live: What’s up with the sudden surge in temperatures?</title>
+                <link>https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/</link>
+                                    <comments>https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 14:51:21 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[ars live]]></category>
+		<category><![CDATA[Berkeley Earth]]></category>
+		<category><![CDATA[Climate science]]></category>
+		<category><![CDATA[global temperatures]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/</guid>
+
+                                    <description>
+                        <![CDATA[Zeke Hausfather of the Berkeley Earth project joins us to talk climate science.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>At 1pm on Thursday, we encourage you to <a href="https://www.youtube.com/live/BtNXI-xG1Po">join us for a live chat with Zeke Hausfather</a>, a climate scientist and researcher at Berkeley Earth. We'll talk a bit about how he got into climate science and ended up at Berkeley Earth and the role that organization plays in the world of climate science. It was launched by a physicist who was somewhat skeptical of the work being done by climate scientists, but it has evolved into one of the key groups that does the math needed to track the planet's temperatures.</p>
+<p>For the past couple of years, those temperatures have seen a remarkable rise to record highs, at one point setting a yearlong string where every month set a record for the <a href="https://arstechnica.com/science/2024/06/climate-wise-it-was-a-full-year-of-exceptional-months/">warmest instance of that month on record</a>. The rise leaves us at risk of exceeding key climate targets much earlier than expected and has left the climate science community scrambling to explain the intensity of the heat. So we plan to ask Zeke a bit about what scientists are thinking about the dramatic nature of these changes, attempts to explore the relationship between temperatures, and things like tipping points and individual weather events.</p>
+<p>And all that leads to the key question: What does this tell us about where our climate is likely to go over the rest of this century?</p><p><a href="https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>79</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Unknown-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Unknown-500x500.jpeg" width="500"/>
+</media:content>
+            </item>
+                    <item>
+                <title>Reddit CEO pledges site will remain “written by humans and voted on by humans”</title>
+                <link>https://arstechnica.com/ai/2025/06/reddit-ceo-pledges-site-will-remain-written-by-humans-and-voted-on-by-humans/</link>
+                                    <comments>https://arstechnica.com/ai/2025/06/reddit-ceo-pledges-site-will-remain-written-by-humans-and-voted-on-by-humans/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Daniel Thomas and Hannah Murphy, Financial Times]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 13:54:32 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[reddit]]></category>
+		<category><![CDATA[steve huffman]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/06/reddit-ceo-pledges-site-will-remain-written-by-humans-and-voted-on-by-humans/</guid>
+
+                                    <description>
+                        <![CDATA[Reddit is in an “arms race” to protect its communities from AI-generated content.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Reddit is in an “arms race” to protect its devoted online communities from a surge in artificial intelligence-generated content, with the authenticity of its vast repository of human interaction increasingly valuable in training new AI-powered search tools.</p>
+<p>Chief executive Steve Huffman told the Financial Times that Reddit had “20 years of conversation about everything,” leaving the company with a <a href="https://www.ft.com/content/9344ab83-c546-416e-9489-1d36b34b7251">lucrative resource</a> of personal interaction.</p>
+<p>This has allowed it to strike multimillion dollar partnerships with Google and OpenAI to train their large language models on its content, as tech companies look for real-world data that can improve their generative AI products.</p><p><a href="https://arstechnica.com/ai/2025/06/reddit-ceo-pledges-site-will-remain-written-by-humans-and-voted-on-by-humans/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/06/reddit-ceo-pledges-site-will-remain-written-by-humans-and-voted-on-by-humans/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>98</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-2150483549-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-2150483549-500x500.jpg" width="500"/>
+<media:credit>Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Analysis: During a town hall NASA officials on stage looked like hostages</title>
+                <link>https://arstechnica.com/space/2025/06/during-a-town-hall-wednesday-nasa-officials-on-stage-looked-like-hostages/</link>
+                                    <comments>https://arstechnica.com/space/2025/06/during-a-town-hall-wednesday-nasa-officials-on-stage-looked-like-hostages/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 12:47:14 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[janet petro]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[nasa budget]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[space policy]]></category>
+		<category><![CDATA[space science]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2025/06/during-a-town-hall-wednesday-nasa-officials-on-stage-looked-like-hostages/</guid>
+
+                                    <description>
+                        <![CDATA[A Trump appointee suggests NASA may not have a new administrator until next year.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The four people at the helm of America's space agency held a town hall meeting with employees Wednesday, fielding questions about downsizing, layoffs, and proposed budget cuts that threaten to undermine NASA's mission and prestige.</p>
+<p>Janet Petro, NASA's acting administrator, addressed questions from an auditorium at NASA Headquarters in Washington, DC. She was joined by Brian Hughes, the agency's chief of staff, a political appointee who was formerly a Florida-based consultant active in city politics and in Donald Trump's 2024 presidential campaign. Two other senior career managers, Vanessa Wyche and Casey Swails, were also on the stage.</p>
+<p>They tried to put a positive spin on the situation at NASA. Petro, Wyche, and Swails are civil servants, not Trump loyalists. None of them looked like they wanted to be there. The town hall was not publicized outside of NASA ahead of time, but live video of the event was available—unadvertised—on an <a href="https://video.ibm.com/channel/KKpgkydqfQr">obscure NASA streaming website</a>. The video has since been removed.</p><p><a href="https://arstechnica.com/space/2025/06/during-a-town-hall-wednesday-nasa-officials-on-stage-looked-like-hostages/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/06/during-a-town-hall-wednesday-nasa-officials-on-stage-looked-like-hostages/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>138</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/ars_21-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/ars_21-500x500.jpg" width="500"/>
+<media:credit>NASA</media:credit><media:text>NASA press secretary Bethany Stevens, acting administrator Janet Petro, chief of staff Brian Hughes, associate administrator Vanessa Wyche, and deputy associate administrator Casey Swails held a town hall with NASA employees Wednesday.</media:text></media:content>
+            </item>
+                    <item>
                 <title>All childhood vaccines in question after first meeting of RFK Jr.’s vaccine panel</title>
                 <link>https://arstechnica.com/health/2025/06/all-childhood-vaccines-in-question-after-first-meeting-of-rfk-jr-s-vaccine-panel/</link>
                                     <comments>https://arstechnica.com/health/2025/06/all-childhood-vaccines-in-question-after-first-meeting-of-rfk-jr-s-vaccine-panel/#comments</comments>
@@ -50,7 +596,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>31</slash:comments>
+                                    <slash:comments>289</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/01/GettyImages-1230138263-1152x648.jpg" width="1152">
@@ -83,7 +629,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>37</slash:comments>
+                                    <slash:comments>180</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/trump-mobile-1152x648-1750889842.jpg" width="1152">
@@ -110,14 +656,14 @@
                         <![CDATA[Expanded device tracking is still opt-in.]]>
                     </description>
                                                                 <content:encoded>
-                            <![CDATA[<p>Bluetooth trackers have existed for quite a while, but Apple made them worthwhile when it enlisted every iPhone to support AirTags. The tracking was so reliable that Apple had to add <a href="https://arstechnica.com/tech-policy/2022/02/apple-plans-airtag-alert-upgrades-to-prevent-stalking-and-other-crimes/">anti-stalking features</a>, and there are just as many Android phones out there. However, Google's version of mobile device tracking, known as Find Hub, has been comparatively spotty. Now, Google is about to offer users a choice that could fix Bluetooth tracking on Android.</p>
+                            <![CDATA[<p>Bluetooth trackers have existed for quite a while, but Apple made them worthwhile when it enlisted every iPhone to support AirTags. The tracking was so reliable that Apple had to add <a href="https://arstechnica.com/tech-policy/2022/02/apple-plans-airtag-alert-upgrades-to-prevent-stalking-and-other-crimes/">anti-stalking features.</a> And although there are just as many Android phones out there, Google's version of mobile device tracking, known as Find Hub, has been comparatively spotty. Now, Google is about to offer users a choice that could fix Bluetooth tracking on Android.</p>
 <p>According to a report from <a href="https://www.androidauthority.com/google-find-hub-setup-screen-3570944/">Android Authority</a>, Google is preparing to add a new screen to the Android setup process. This change, integrated with Play Services version 25.24, has yet to roll out widely, but it will allow anyone setting up an Android phone to choose a more effective method of tracking that will bolster Google's network. This is included in the Play Services changelog as, "You can now configure Find Hub when setting up your phone, allowing the device to be located remotely."</p>
 <p>Trackable devices like AirTags and earbuds work by broadcasting a Bluetooth LE identifier, which phones in the area can see. Our always-online smartphones then report the approximate location of that signal, and with enough reports, the owner can pinpoint the tag. Perhaps wary of the privacy implications, Google rolled out its Find Hub network (previously Find My Device) with harsh restrictions on where device finding would work.</p><p><a href="https://arstechnica.com/gadgets/2025/06/googles-spotty-find-hub-network-could-get-better-thanks-to-a-small-setup-tweak/">Read full article</a></p>
 <p><a href="https://arstechnica.com/gadgets/2025/06/googles-spotty-find-hub-network-could-get-better-thanks-to-a-small-setup-tweak/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>4</slash:comments>
+                                    <slash:comments>22</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Maps-IO-1152x648.jpg" width="1152">
@@ -151,7 +697,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>52</slash:comments>
+                                    <slash:comments>94</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2200068751-1152x648-1750879720.jpg" width="1152">
@@ -186,561 +732,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>15</slash:comments>
+                                    <slash:comments>30</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/IMG_2928-1152x648.jpeg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/IMG_2928-500x500.jpeg" width="500"/>
 <media:credit>Andrew Cunningham</media:credit><media:text>Framework is doing a better job of providing extended software support to its lineup of modular laptops.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Anthropic destroyed millions of print books to build its AI models</title>
-                <link>https://arstechnica.com/ai/2025/06/anthropic-destroyed-millions-of-print-books-to-build-its-ai-models/</link>
-                                    <comments>https://arstechnica.com/ai/2025/06/anthropic-destroyed-millions-of-print-books-to-build-its-ai-models/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Benj Edwards]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 20:00:03 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AI companies]]></category>
-		<category><![CDATA[AI development]]></category>
-		<category><![CDATA[AI ethics]]></category>
-		<category><![CDATA[AI law]]></category>
-		<category><![CDATA[AI research]]></category>
-		<category><![CDATA[AI training]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[book scanning]]></category>
-		<category><![CDATA[Claude]]></category>
-		<category><![CDATA[copyright]]></category>
-		<category><![CDATA[fair use]]></category>
-		<category><![CDATA[google books]]></category>
-		<category><![CDATA[Internet Archive]]></category>
-		<category><![CDATA[legal rulings]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[scanning]]></category>
-		<category><![CDATA[training data]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2025/06/anthropic-destroyed-millions-of-print-books-to-build-its-ai-models/</guid>
-
-                                    <description>
-                        <![CDATA[Company hired Google's book-scanning chief to cut up and digitize "all the books in the world."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>On Monday, court documents revealed that AI company Anthropic spent millions of dollars physically scanning print books to build <a href="https://arstechnica.com/ai/2025/05/anthropic-calls-new-claude-4-worlds-best-ai-coding-model/">Claude</a>, an AI assistant similar to <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a>. In the process, the company cut millions of print books from their bindings, scanned them into digital files, and threw away the originals solely for the purpose of training AI—details buried in a copyright ruling on fair use whose broader fair use implications we <a href="https://arstechnica.com/tech-policy/2025/06/key-fair-use-ruling-clarifies-when-books-can-be-used-for-ai-training/">reported</a> yesterday.</p>
-<p>The <a href="https://s3.documentcloud.org/documents/25982181/authors-v-anthropic-ruling.pdf">32-page legal decision</a> tells the story of how, in February 2024, the company hired Tom Turvey, the former head of partnerships for the <a href="https://en.wikipedia.org/wiki/Google_Books">Google Books</a> book-scanning project, and tasked him with obtaining "all the books in the world." The strategic hire appears to have been designed to replicate Google's legally successful book digitization approach—the same scanning operation that survived copyright challenges and <a href="https://www.authorsalliance.org/2023/02/24/fair-use-week-2023-looking-back-at-google-books-eight-years-later/">established</a> key fair use precedents.</p>
-<p>While destructive scanning is a <a href="https://en.wikipedia.org/wiki/Book_scanning">common practice</a> among smaller-scale operations, Anthropic's approach was somewhat unusual due to its massive scale. For Anthropic, the faster speed and lower cost of the destructive process appear to have trumped any need for preserving the physical books themselves.</p><p><a href="https://arstechnica.com/ai/2025/06/anthropic-destroyed-millions-of-print-books-to-build-its-ai-models/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/06/anthropic-destroyed-millions-of-print-books-to-build-its-ai-models/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>91</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/manybooks-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/manybooks-500x500.jpg" width="500"/>
-<media:credit>Alexander Spatari via Google Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Ubuntu disables Intel GPU security mitigations, promises 20% performance boost</title>
-                <link>https://arstechnica.com/security/2025/06/ubuntu-disables-intel-gpu-security-mitigations-promises-20-performance-boost/</link>
-                                    <comments>https://arstechnica.com/security/2025/06/ubuntu-disables-intel-gpu-security-mitigations-promises-20-performance-boost/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 19:39:19 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[intel gpu]]></category>
-		<category><![CDATA[Ubuntu]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2025/06/ubuntu-disables-intel-gpu-security-mitigations-promises-20-performance-boost/</guid>
-
-                                    <description>
-                        <![CDATA[Overtime defenses for Spectre-based attacks have taken their toll.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Ubuntu users could see up to a 20 percent boost in graphics performance on Intel-based systems under a change that will turn off security mitigations for blunting a class of attacks known as Spectre.</p>
-<p>Spectre, you may recall, <a href="https://arstechnica.com/gadgets/2018/01/meltdown-and-spectre-every-modern-processor-has-unfixable-security-flaws/">came to public notice</a> in 2018. Spectre attacks are based on the observation that performance enhancements built into modern CPUs open a <a href="https://en.wikipedia.org/wiki/Side-channel_attack">side channel</a> that can leak secrets a CPU is processing. The performance enhancement, known as <a href="https://en.wikipedia.org/wiki/Speculative_execution">speculative execution</a>, predicts future instructions a CPU might receive and then performs the corresponding tasks before they are even called. If the instructions never come, the CPU discards the work it performed. When the prediction is correct, the CPU has already completed the task.</p>
-<p>By using code that forces a CPU to execute carefully selected instructions, Spectre attacks can extract confidential data that the CPU would have accessed had it carried out the ghost instructions. Over the past seven years, researchers have uncovered multiple attack variants based on the architectural flaws, which are unfixable. CPU manufacturers have responded by creating patches in both micro code and binary code that restrict speculative execution operations in certain scenarios. These restrictions, of course, usually degrade CPU performance.</p><p><a href="https://arstechnica.com/security/2025/06/ubuntu-disables-intel-gpu-security-mitigations-promises-20-performance-boost/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2025/06/ubuntu-disables-intel-gpu-security-mitigations-promises-20-performance-boost/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>15</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/graphics-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/graphics-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Games run faster on SteamOS than Windows 11, Ars testing finds</title>
-                <link>https://arstechnica.com/gaming/2025/06/games-run-faster-on-steamos-than-windows-11-ars-testing-finds/</link>
-                                    <comments>https://arstechnica.com/gaming/2025/06/games-run-faster-on-steamos-than-windows-11-ars-testing-finds/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 19:25:39 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[ASUS]]></category>
-		<category><![CDATA[Legion Go]]></category>
-		<category><![CDATA[legion go s]]></category>
-		<category><![CDATA[Lenovo]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[ROG Ally]]></category>
-		<category><![CDATA[steamos]]></category>
-		<category><![CDATA[Valve]]></category>
-		<category><![CDATA[Windows]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2025/06/games-run-faster-on-steamos-than-windows-11-ars-testing-finds/</guid>
-
-                                    <description>
-                        <![CDATA[Lenovo Legion Go S gets better frame rates running Valve's free operating system.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Nearly a decade ago, Ars testing found that Valve's <a href="https://arstechnica.com/tag/steam-machines/">"Steam Machines"-era</a> version of SteamOS <a href="https://arstechnica.com/gaming/2015/11/ars-benchmarks-show-significant-performance-hit-for-steamos-gaming/">performed significantly worse than Windows</a> when SteamOS's Linux game ports were tested on the same hardware as their Windows counterparts. Today, though, Ars testing on the Lenovo Legion Go S finds recent games generally run at higher frame rates on SteamOS 3.7 than on Windows 11. The performance advantage is yet another way that Valve's upstart OS is differentiating itself from the "default" Windows installation used by most PC gamers for decades now.</p>
-<p>While users have been able to install Windows on the Steam Deck since its 2022 launch, Valve <a href="https://help.steampowered.com/en/faqs/view/6121-ECCD-D643-BAA8">doesn't offer official "Windows on Deck" support</a> for this alternative hardware use case. Lenovo's Legion Go S, on the other hand, is the first gaming portable <a href="https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/">explicitly designed to work</a> with either Windows 11 (in hardware first released in January) or SteamOS (in hardware first released in May, alongside <a href="https://arstechnica.com/gadgets/2025/05/steamos-3-7-brings-valves-gaming-os-to-other-handhelds-and-generic-amd-pcs/">a new version of SteamOS</a> designed for non-Valve AMD hardware).</p>
-<p>To test the performance impact of this operating system choice, we started with the SteamOS version of the Legion Go S (provided by Lenovo) and tested five high-end 3D games released in the last five years using built-in benchmarking tools and two different graphics/resolution tiers. We then <a href="https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/legion-series/legion-go-8apu1/solutions/ht103653-lenovo-digital-download-recovery-service-ddrs-download-the-files-needed-to-create-a-lenovo-usb-recovery-key">installed Windows 11 on the handheld</a>, downloaded <a href="https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/legion-series/legion-go-8apu1/downloads/driver-list">updated drivers from Lenovo's support site</a>, and re-ran the benchmarks on the same games downloaded through Steam for Windows.</p><p><a href="https://arstechnica.com/gaming/2025/06/games-run-faster-on-steamos-than-windows-11-ars-testing-finds/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2025/06/games-run-faster-on-steamos-than-windows-11-ars-testing-finds/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>67</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/steamos-vs-windows11-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/steamos-vs-windows11-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Ars Live: What’s up with the sudden surge in temperatures?</title>
-                <link>https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/</link>
-                                    <comments>https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[John Timmer]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 19:13:21 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[ars live]]></category>
-		<category><![CDATA[Berkeley Earth]]></category>
-		<category><![CDATA[Climate science]]></category>
-		<category><![CDATA[global temperatures]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/</guid>
-
-                                    <description>
-                        <![CDATA[Zeke Hausfather of the Berkeley Earth project joins us to talk climate science.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>On Thursday, we encourage you to <a href="https://www.youtube.com/live/BtNXI-xG1Po">join us for a live chat with Zeke Hausfather</a>, a climate scientist and researcher at Berkeley Earth. We'll talk a bit about how he got into climate science and ended up at Berkeley Earth and the role that organization plays in the world of climate science. It was launched by a physicist who was somewhat skeptical of the work being done by climate scientists, but it has evolved into one of the key groups that does the math needed to track the planet's temperatures.</p>
-<p>For the past couple of years, those temperatures have seen a remarkable rise to record highs, at one point setting a yearlong string where every month set a record for the <a href="https://arstechnica.com/science/2024/06/climate-wise-it-was-a-full-year-of-exceptional-months/">warmest instance of that month on record</a>. The rise leaves us at risk of exceeding key climate targets much earlier than expected and has left the climate science community scrambling to explain the intensity of the heat. So we plan to ask Zeke a bit about what scientists are thinking about the dramatic nature of these changes, attempts to explore the relationship between temperatures, and things like tipping points and individual weather events.</p>
-<p>And all that leads to the key question: What does this tell us about where our climate is likely to go over the rest of this century?</p><p><a href="https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>23</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Unknown-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Unknown-500x500.jpeg" width="500"/>
-<media:text>Screenshot</media:text></media:content>
-            </item>
-                    <item>
-                <title>It’s a family affair in final Fantastic Four: First Steps trailer</title>
-                <link>https://arstechnica.com/culture/2025/06/its-a-family-affair-in-final-fantastic-four-first-steps-trailer/</link>
-                                    <comments>https://arstechnica.com/culture/2025/06/its-a-family-affair-in-final-fantastic-four-first-steps-trailer/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 18:52:38 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[entertainment]]></category>
-		<category><![CDATA[Fantastic Four First Steps]]></category>
-		<category><![CDATA[film trailers]]></category>
-		<category><![CDATA[marvel studios]]></category>
-		<category><![CDATA[MCU Phase Six]]></category>
-		<category><![CDATA[Trailers]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2025/06/its-a-family-affair-in-final-fantastic-four-first-steps-trailer/</guid>
-
-                                    <description>
-                        <![CDATA["Family is about connecting to something bigger than yourself. We'll face it together. As a family."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/18QQWa5MEcs?start=0&amp;wmode=transparent"></div><div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
-    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
-    <div class="caption-content">
-      <em>The Fantastic Four: First Steps</em> opens next month.
-
-          </div>
-  </div>
-</div>
-<p>Marvel Studios has been ramping up its marketing efforts for <a href="https://en.wikipedia.org/wiki/The_Fantastic_Four:_First_Steps"><em>The Fantastic Four: First Steps</em></a> in recent weeks, culminating with the release of one last trailer before the film premieres next month. While prior efforts have focused on the (very cool) 1950s/Tomorrowland kitschy vibe of the film, this newest trailer emphasizes the family angle is chock-full of lots of good old-fashioned superhero action, as the quartet takes on a world-devouring cosmic being.</p>
-<p>As <a href="https://arstechnica.com/culture/2025/02/marvels-first-family-faces-galactus-in-fantastic-four-first-steps-teaser/">previously reported</a>, Marvel Comics' "First Family" hasn't been seen on the big screen since 2015's disastrous reboot of the moderately successful films from the 2000s. Per the film's official premise:</p>
-<blockquote><p>Set against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, <em>The Fantastic Four: First Steps</em> introduces Marvel’s First Family—Reed Richards/Mister Fantastic, Sue Storm/Invisible Woman, Johnny Storm/Human Torch, and Ben Grimm/The Thing as they face their most daunting challenge yet. Forced to balance their roles as heroes with the strength of their family bond, they must defend Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer. And if Galactus’ plan to devour the entire planet and everyone on it weren’t bad enough, it suddenly gets very personal.</p></blockquote>
-<p>Pedro Pascal plays Reed Richards/Mister Fantastic; Vanessa Kirby plays Sue Storm/Invisible Woman; Joseph Quinn plays Johnny Storm/Human Torch; Ebon Moss-Bachrach plays Ben Grimm/The Thing; and Matthew Wood voices their robot companion HERBIE. Ralph Ineson plays the gigantic cosmic being Galactus, and Julia Garner plays the Silver Surfer. The cast also includes Mark Gatiss as talk show host Ted Gilbert; Sarah Niles as Lynne; and Paul Walter Hauser, John Malkovich, and Natasha Lyonne in as-yet-undisclosed roles.</p><p><a href="https://arstechnica.com/culture/2025/06/its-a-family-affair-in-final-fantastic-four-first-steps-trailer/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2025/06/its-a-family-affair-in-final-fantastic-four-first-steps-trailer/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>34</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/four4-1152x648-1750874572.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/four4-500x500.jpg" width="500"/>
-<media:credit>YouTube/Marvel Studios</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Trump’s FTC announces merger condition that prohibits advertising boycotts</title>
-                <link>https://arstechnica.com/tech-policy/2025/06/trumps-ftc-announces-merger-condition-that-prohibits-advertising-boycotts/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/06/trumps-ftc-announces-merger-condition-that-prohibits-advertising-boycotts/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 17:41:39 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[FTC]]></category>
-		<category><![CDATA[interpublic]]></category>
-		<category><![CDATA[omnicom]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/06/trumps-ftc-announces-merger-condition-that-prohibits-advertising-boycotts/</guid>
-
-                                    <description>
-                        <![CDATA[Merging firms agree to FTC demands in order to create world's largest ad agency.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Federal Trade Commission is approving a merger of big advertising agencies after extracting an agreement that the combined firm won't lead or participate in any advertising boycotts based on political or ideological viewpoints.</p>
-<p>The merger condition is a new strategy in the Republican-controlled FTC's fight against alleged advertising boycotts, which could help Elon Musk's X social network and President Trump's own Truth Social platform. The FTC proposal <a href="https://arstechnica.com/tech-policy/2025/06/trumps-ftc-targets-advertising-boycotts-in-potential-boost-for-elon-musks-x/">surfaced in a news report</a> earlier this month and was made official Monday in an <a href="https://www.ftc.gov/news-events/news/press-releases/2025/06/ftc-prevents-anticompetitive-coordination-global-advertising-merger">agency announcement</a>.</p>
-<p>The FTC is approving Omnicom Group's $13.5 billion acquisition of Interpublic Group. Omnicom and Interpublic "are the third- and fourth-largest media buying advertising agencies in the US" and will be the world's biggest such agency when the merger is finalized, the FTC said.</p><p><a href="https://arstechnica.com/tech-policy/2025/06/trumps-ftc-announces-merger-condition-that-prohibits-advertising-boycotts/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/06/trumps-ftc-announces-merger-condition-that-prohibits-advertising-boycotts/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>99</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/andrew-ferguson-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/andrew-ferguson-500x500.jpg" width="500"/>
-<media:credit>Getty Images | Tom Williams </media:credit><media:text>FTC Chairman Andrew Ferguson testifies during a House subcommittee hearing on oversight of the Federal Trade Commission on May 15, 2025.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Three axial flux motors and 850 kW fast charging? Meet the GT XX.</title>
-                <link>https://arstechnica.com/cars/2025/06/mercedes-shows-off-new-electric-amg-concept-that-can-charge-at-850-kw/</link>
-                                    <comments>https://arstechnica.com/cars/2025/06/mercedes-shows-off-new-electric-amg-concept-that-can-charge-at-850-kw/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Chad Kirchner]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 17:30:19 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[GT XX]]></category>
-		<category><![CDATA[Mercedes-Benz]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2025/06/mercedes-shows-off-new-electric-amg-concept-that-can-charge-at-850-kw/</guid>
-
-                                    <description>
-                        <![CDATA[Mercedes shows us what it has planned for its next performance EVs.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<aside class="pullbox sidebar fullwidth">Mercedes-Benz provided flights from Detroit to Stuttgart and accommodation so Ars could be briefed on the GT XX, as well as some other things we can't publish just yet. Ars does not accept paid editorial content.</aside>
-<p>AFFALTERBACH, Germany—A few years ago, we were treated to the Mercedes-Benz EQXX. It was, at the time, the pinnacle of Mercedes engineering <a href="https://arstechnica.com/cars/2022/07/we-test-an-electric-mercedes-that-can-can-go-747-miles-on-a-single-charge/">built for the purpose of maximum electric range</a>. While an impressive piece of machinery that looked like it drove out of Le Mans, it wasn't designed to be a high-performance electric vehicle with an AMG badge. That's ok, though, because there <em>is</em> a high-performance AMG electric concept, called the GT XX, that introduces the world to the future of high-performance AMG electrics and debuts the AMG.EA architecture.</p>
-<p>The 800 V AMG.EA isn't like an 800-volt you've experienced before. Mercedes claims that the car can charge at greater than 850 kW over a wide portion of the charging session. While the company didn't provide any graphs, based on the hardware onboard, there's little reason to doubt that claim.</p>
-<p>To feed an EV that much power, the charging station would need to output at 1,000 A, and the company worked with its European partner Alpitronic to develop a prototype charging station. The current prototype uses a CCS connector, which is the standard in Europe.</p><p><a href="https://arstechnica.com/cars/2025/06/mercedes-shows-off-new-electric-amg-concept-that-can-charge-at-850-kw/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/06/mercedes-shows-off-new-electric-amg-concept-that-can-charge-at-850-kw/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>60</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/25C0162_001-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/25C0162_001-500x500.jpg" width="500"/>
-<media:credit>Mercedes-AMG</media:credit><media:text>Mercedes engineers have turned their attention to developing technology for high-performance electric vehicles, seen here with the GT XX concept.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Apple’s push to take over the dashboard resisted by car makers</title>
-                <link>https://arstechnica.com/cars/2025/06/apples-push-to-take-over-the-dashboard-resisted-by-car-makers/</link>
-                                    <comments>https://arstechnica.com/cars/2025/06/apples-push-to-take-over-the-dashboard-resisted-by-car-makers/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kana Inagaki and Michael Acton, Financial Times]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 14:21:48 +0000</pubDate>
-                		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[android auto]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[CarPlay]]></category>
-		<category><![CDATA[CarPlay Ultra]]></category>
-		<category><![CDATA[infotainment]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2025/06/apples-push-to-take-over-the-dashboard-resisted-by-car-makers/</guid>
-
-                                    <description>
-                        <![CDATA[Mercedes, Audi, and Volvo all say they have no plans to support CarPlay Ultra.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Apple is facing resistance from the automotive industry over its CarPlay Ultra software system, which the tech group launched in an attempt to take over a vehicle’s dashboard for the first time.</p>
-<p>German luxury brands Mercedes-Benz and Audi as well as Volvo Cars, Polestar, and Renault said they had no plans to bring the upgraded software to their vehicles, despite earlier indications from Apple that they would.</p>
-<p>While few have followed General Motors, which announced in 2023 it would stop installing CarPlay or Android Auto on some of its EV models in North America, there is increasing debate as to how much carmakers should allow tech groups to take over the inside of a vehicle.</p><p><a href="https://arstechnica.com/cars/2025/06/apples-push-to-take-over-the-dashboard-resisted-by-car-makers/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/06/apples-push-to-take-over-the-dashboard-resisted-by-car-makers/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>226</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/carplayultra.jpg">
-<media:thumbnail height="407" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/carplayultra-500x407.jpg" width="500"/>
-<media:credit>FT</media:credit><media:text>CarPlay Ultra shows info from the iPhone on the instrument screen.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Gemini CLI is a free, open source coding agent that brings AI to your terminal</title>
-                <link>https://arstechnica.com/ai/2025/06/google-is-bringing-vibe-coding-to-your-terminal-with-gemini-cli/</link>
-                                    <comments>https://arstechnica.com/ai/2025/06/google-is-bringing-vibe-coding-to-your-terminal-with-gemini-cli/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 13:00:04 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[gemini]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[Google Gemini]]></category>
-		<category><![CDATA[Terminal]]></category>
-		<category><![CDATA[vibe coding]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2025/06/google-is-bringing-vibe-coding-to-your-terminal-with-gemini-cli/</guid>
-
-                                    <description>
-                        <![CDATA[Now, devs who prefer the terminal can get AI assistance, too.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Some developers prefer to live in the command line interface (CLI), eschewing the flashy graphics and file management features of IDEs. Google's latest AI tool is for those terminal lovers. It's called Gemini CLI, and it shares a lot with <a href="https://arstechnica.com/ai/2025/02/googles-free-gemini-code-assist-arrives-with-sky-high-usage-limits/">Gemini Code Assist</a>, but it works in your terminal environment instead of integrating with an IDE. And perhaps best of all, it's free and open source.</p>
-<p><a href="http://blog.google/technology/developers/introducing-gemini-cli">Gemini CLI</a> plugs into Gemini 2.5 Pro, Google's most advanced model for coding and simulated reasoning. It can create and modify code for you right inside the terminal, but you can also call on other Google models to generate images or videos without leaving the security of your terminal cocoon. It's essentially vibe coding from the command line.</p>
-<p>This tool is fully open source, so developers can inspect the code and help to improve it. The openness extends to how you configure the AI agent. It supports Model Context Protocol (MCP) and bundled extensions, allowing you to customize your terminal as you see fit. You can even include your own system prompts—Gemini CLI relies on GEMINI.md files, which you can use to tweak the model for different tasks or teams.</p><p><a href="https://arstechnica.com/ai/2025/06/google-is-bringing-vibe-coding-to-your-terminal-with-gemini-cli/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/06/google-is-bringing-vibe-coding-to-your-terminal-with-gemini-cli/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>62</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Gemini_CLI_Hero-1152x648.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Gemini_CLI_Hero-500x500.png" width="500"/>
-<media:credit>Google</media:credit></media:content>
-            </item>
-                    <item>
-                <title>The axion may help clean up the messy business of dark matter</title>
-                <link>https://arstechnica.com/science/2025/06/the-axion-may-help-clean-up-the-messy-business-of-dark-matter/</link>
-                                    <comments>https://arstechnica.com/science/2025/06/the-axion-may-help-clean-up-the-messy-business-of-dark-matter/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Paul Sutter]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 11:00:47 +0000</pubDate>
-                		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[axion]]></category>
-		<category><![CDATA[Dark Matter]]></category>
-		<category><![CDATA[particles]]></category>
-		<category><![CDATA[standard model]]></category>
-		<category><![CDATA[WIMPs]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/06/the-axion-may-help-clean-up-the-messy-business-of-dark-matter/</guid>
-
-                                    <description>
-                        <![CDATA[We haven't found evidence of the theoretical particle, but it's still worth investigating.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>In recent years, a curious hypothetical particle called the axion, invented to address challenging problems with the strong nuclear force, has emerged as a leading candidate to explain dark matter. Although the potential for axions to explain dark matter has been around for decades, cosmologists have only recently begun to seriously search for them. Not only might they be able to resolve some issues with older hypotheses about dark matter, but they also offer a dizzying array of promising avenues for finding them.</p>
-<p>But before digging into what the axion could be and why it’s so useful, we have to explore why the vast majority of physicists, astronomers, and cosmologists accept the evidence that dark matter exists and that it’s some new kind of particle. While it’s easy to dismiss the dark matter hypothesis as some sort of modern-day epicycle, the reality is much more complex (to be fair to epicycles, it was an excellent idea that fit the data extremely well for many centuries).</p>
-<p>The short version is that nothing in the Universe adds up.</p><p><a href="https://arstechnica.com/science/2025/06/the-axion-may-help-clean-up-the-messy-business-of-dark-matter/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/06/the-axion-may-help-clean-up-the-messy-business-of-dark-matter/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>87</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/axion-the-dark-matter-cleaner-v2-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/axion-the-dark-matter-cleaner-v2-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Discovery of HMS Endeavour wreck confirmed</title>
-                <link>https://arstechnica.com/science/2025/06/discovery-of-hms-endeavor-wreck-confirmed/</link>
-                                    <comments>https://arstechnica.com/science/2025/06/discovery-of-hms-endeavor-wreck-confirmed/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Tue, 24 Jun 2025 20:17:11 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[HMS Endeavour]]></category>
-		<category><![CDATA[maritime archaeology]]></category>
-		<category><![CDATA[maritime history]]></category>
-		<category><![CDATA[shipwrecks]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/06/discovery-of-hms-endeavor-wreck-confirmed/</guid>
-
-                                    <description>
-                        <![CDATA[“The timbers are British timbers. The size of all the timber scantlings are almost identical to <em>Endeavour</em>."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Back in 2022, <a href="https://arstechnica.com/gaming/2022/02/has-shipwreck-of-hms-endeavour-finally-been-found-us-aussie-teams-at-odds/">we reported</a> on the Australian National Maritime Museum's (ANMM) <a href="https://www.nbcnews.com/news/world/wreck-ship-sailed-british-explorer-james-cook-found-rhode-island-rcna14687">announcement</a> that its researchers had confirmed that a shipwreck proposed as a likely candidate in 2018 is indeed the remains of the HMS <em>Endeavour</em>. However, the <a href="https://www.rimap.org/endeavour">Rhode Island Marine Archaeology Project</a> (RIMAP)—the museum's research partner in the project—promptly <a href="https://www.rimap.org/endeavour-statement-feb-2-2022">released a statement</a> calling the announcement premature. RIMAP insisted that more evidence was needed.</p>
-<p>The final report is now available, and both RIMAP and ANMM say they have confirmed that the wreck is indeed the <em>Endeavour</em>. (You can read the full report <a href="https://cms-web.seamuseum.net/sites/default/files/2025-05/australian-national-maritime-museum-locating-hmb-endeavour-final-report-2025_0.pdf">here</a>.) “The timbers are British timbers. The size of all the timber scantlings are almost identical to <a href="https://www.independent.co.uk/topic/endeavour"><em>Endeavour</em></a>, and I’m talking within millimeters—not inches, but millimeters," Kieran Hosty, an ANMM archaeologist who co-wrote the report, <a href="https://www.independent.co.uk/news/science/captain-cook-missing-ship-found-hms-endeavour-b2771322.html">told The Independent</a>. “The stem scarf is identical, absolutely identical. This stem scarf is also a very unique feature—we’ve gone through a whole bunch of 18th-century ships' plans, and we can’t find anything else like it.”</p>
-<p>As <a href="https://arstechnica.com/gaming/2022/02/has-shipwreck-of-hms-endeavour-finally-been-found-us-aussie-teams-at-odds/">previously reported</a>, <em>Endeavour</em> Captain James Cook's first voyage (1768–1771) was, in part, a mission to observe and record the 1769 <a title="Transit of Venus" href="https://en.wikipedia.org/wiki/Transit_of_Venus">transit of Venus</a> across the Sun. The observation was part of a combined global effort to determine the distance of the Earth from the Sun. Those observations proved less conclusive than had been hoped, but during the rest of the voyage, Cook was able to map the coastland of New Zealand before sailing west to the southeastern coast of Australia—the first record of Europeans on the continent's Eastern coastline.</p><p><a href="https://arstechnica.com/science/2025/06/discovery-of-hms-endeavor-wreck-confirmed/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/06/discovery-of-hms-endeavor-wreck-confirmed/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>81</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/02/endeavorTOP-1152x648-1750790804.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/02/endeavorTOP-500x500.jpg" width="500"/>
-<media:credit>Public domain</media:credit><media:text>Painting by Samuel Atkins of the HMS &lt;em&gt;Endeavour&lt;/em&gt; off the coast of New Holland during Cook's voyage of discovery (1768-1771). </media:text></media:content>
-            </item>
-                    <item>
-                <title>Philips Hue bulbs will be even more expensive in July. And it may not end there.</title>
-                <link>https://arstechnica.com/gadgets/2025/06/philips-hue-bulbs-will-be-even-more-expensive-in-july-and-it-may-not-end-there/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/06/philips-hue-bulbs-will-be-even-more-expensive-in-july-and-it-may-not-end-there/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Tue, 24 Jun 2025 20:07:34 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Philips]]></category>
-		<category><![CDATA[philips hue]]></category>
-		<category><![CDATA[signify]]></category>
-		<category><![CDATA[smart home]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/06/philips-hue-bulbs-will-be-even-more-expensive-in-july-and-it-may-not-end-there/</guid>
-
-                                    <description>
-                        <![CDATA[Some Hue products already cost more in the US than they do elsewhere. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Philips is upping the prices of its popular and already-expensive Hue series of smart lighting products starting July 1. The company is blaming tariffs for the changes and has suggested that prices could go up even higher after the initial bump in July.</p>
-<p>Philips started informing its customers via an <a href="https://m.news.philips-hue.com/rest/head/mirrorPage/@Md9FTvAtVg4CA6vCkffTyQDWFUrxsgjB-na8EyccRdCKEs81mM2K6SKa7212pWO-y3LucuTpA1YTCrwZLodS_ibQDvwvOtgBo_3gwlFcxLbIHgpn.html?origin=3_us_en_hue-phue-us-email-d2c-flashsale25off2-2506_acs-b2c_hue_us-en-pr-cn-all-flashsale25off2-email1_conversion_uc_ut">email marketing message</a> earlier this month that prices would go up and urged people to buy Hue lighting sooner rather than later.</p>
-<p>In a statement to the <a href="https://hueblog.com/2025/06/24/philips-hue-to-raise-prices-in-the-us-from-july-1/">Hueblog website</a>, Philips’ parent company, Signify, explained why people in the US will pay more for Hue products soon:</p><p><a href="https://arstechnica.com/gadgets/2025/06/philips-hue-bulbs-will-be-even-more-expensive-in-july-and-it-may-not-end-there/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/06/philips-hue-bulbs-will-be-even-more-expensive-in-july-and-it-may-not-end-there/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>135</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/hue-play-wall-washer-for-entertainment-lighting-2-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/hue-play-wall-washer-for-entertainment-lighting-2-500x500-1750794348.jpg" width="500"/>
-<media:credit>Signify</media:credit><media:text>The Philips Hue Play smart lighting for walls. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Key fair use ruling clarifies when books can be used for AI training</title>
-                <link>https://arstechnica.com/tech-policy/2025/06/key-fair-use-ruling-clarifies-when-books-can-be-used-for-ai-training/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/06/key-fair-use-ruling-clarifies-when-books-can-be-used-for-ai-training/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Tue, 24 Jun 2025 19:56:58 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AI models]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[Claude]]></category>
-		<category><![CDATA[copyright]]></category>
-		<category><![CDATA[copyright infringement]]></category>
-		<category><![CDATA[copyright law]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[LLMs]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/06/key-fair-use-ruling-clarifies-when-books-can-be-used-for-ai-training/</guid>
-
-                                    <description>
-                        <![CDATA[In landmark ruling, judge likens AI training to schoolchildren learning to write.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Artificial intelligence companies don't need permission from authors to train their large language models (LLMs) on legally acquired books, US District Judge William Alsup <a href="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Bartz-v-Anthropic-Order-on-Fair-Use-6-23-25.pdf">ruled</a> Monday.</p>
-<p>The first-of-its-kind ruling that condones AI training as fair use will likely be viewed as a big win for AI companies, but it also notably put on notice all the AI companies that expect the same reasoning will apply to training on pirated copies of books—a question that remains unsettled.</p>
-<p>In the specific case that Alsup is weighing—which pits book authors against Anthropic—Alsup found that "the purpose and character of using copyrighted works to train LLMs to generate new text was quintessentially transformative" and "necessary" to build world-class AI models.</p><p><a href="https://arstechnica.com/tech-policy/2025/06/key-fair-use-ruling-clarifies-when-books-can-be-used-for-ai-training/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/06/key-fair-use-ruling-clarifies-when-books-can-be-used-for-ai-training/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>212</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-502074710-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-502074710-500x500.jpg" width="500"/>
-<media:credit>CookiesForDevo | iStock / Getty Images Plus</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Microsoft extends free Windows 10 security updates into 2026, with strings attached</title>
-                <link>https://arstechnica.com/gadgets/2025/06/microsoft-extends-free-windows-10-security-updates-into-2026-with-strings-attached/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/06/microsoft-extends-free-windows-10-security-updates-into-2026-with-strings-attached/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Tue, 24 Jun 2025 19:45:25 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[windows 10]]></category>
-		<category><![CDATA[windows 10 22h2]]></category>
-		<category><![CDATA[windows 11 24h2]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/06/microsoft-extends-free-windows-10-security-updates-into-2026-with-strings-attached/</guid>
-
-                                    <description>
-                        <![CDATA[End-of-support date isn’t changing, but extra year will be functionally free.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Last fall, Microsoft <a href="https://arstechnica.com/gadgets/2024/10/home-users-can-only-buy-one-year-of-extra-windows-10-updates-for-30-per-pc/">announced</a> that individuals who wanted to keep using Windows 10 past <a href="https://arstechnica.com/gadgets/2024/10/lots-of-pcs-are-poised-to-fall-off-the-windows-10-update-cliff-one-year-from-today/">its official end-of-support date</a> could do so by opting into the company's Extended Security Update (ESU) program at a cost of $30 per PC. That payment would get users a single year of additional security updates. Today, less than four months before that October 14, 2025, cutoff, Microsoft is announcing additional options for people who can't or don't want to pay that fee.</p>
-<p>Individuals who want to pay $30 for the additional year of updates will still be able to do so. But Microsoft will also extend a year of additional Windows 10 security updates to any users who opt into <a href="https://support.microsoft.com/en-us/windows/back-up-and-restore-with-windows-backup-87a81f8a-78fa-456e-b521-ac0560e32338#id0ebh=windows_10">Windows Backup</a>, a relatively recent Windows 10 and Windows 11 app that backs up some settings and files using a Microsoft account. Users can also opt into ESU updates by spending <a href="https://www.microsoft.com/en-in/rewards/about">1,000 Microsoft Rewards points</a>, which are handed out for everything from making purchases with your Microsoft account to doing Bing searches.</p>
-<p>These offers don't formally extend the end-of-support date for Windows 10. But for users who don't want to move to Windows 11 or who can't do so because their PC doesn't meet the requirements, they do effectively offer an additional year of free updates for the OS that's still installed on a slim majority of the world’s Windows PCs, <a href="https://gs.statcounter.com/windows-version-market-share/desktop/worldwide/">according to Statcounter data</a>.</p><p><a href="https://arstechnica.com/gadgets/2025/06/microsoft-extends-free-windows-10-security-updates-into-2026-with-strings-attached/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/06/microsoft-extends-free-windows-10-security-updates-into-2026-with-strings-attached/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>176</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/win10-new-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/win10-new-500x500-1728610204.jpg" width="500"/>
-<media:credit>Microsoft</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Media Matters sues FTC, says agency is retaliating on behalf of Elon Musk</title>
-                <link>https://arstechnica.com/tech-policy/2025/06/media-matters-sues-ftc-says-agency-is-retaliating-on-behalf-of-elon-musk/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/06/media-matters-sues-ftc-says-agency-is-retaliating-on-behalf-of-elon-musk/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Tue, 24 Jun 2025 18:15:34 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[elon musk x]]></category>
-		<category><![CDATA[media matters]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/06/media-matters-sues-ftc-says-agency-is-retaliating-on-behalf-of-elon-musk/</guid>
-
-                                    <description>
-                        <![CDATA[FTC probe is clearly connected to "Musk's vindictive lawsuits," group says.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Media Matters for America sued the Federal Trade Commission yesterday, alleging that the FTC's ongoing investigation into the group "has violated Media Matters' First Amendment rights by retaliating against the organization for its reporting on Elon Musk and X."</p>
-<p>"The investigation is the latest effort by Elon Musk and his allies in the Trump administration to retaliate against Media Matters for its reporting on X, the social media site Musk controls, and it's another example of the Trump administration weaponizing government authorities to target political opponents," Media Matters said in a <a href="https://www.mediamatters.org/justice-civil-liberties/media-matters-files-suit-federal-court-block-retaliatory-ftc-investigation">press release</a>. The group said it has suffered financially because of "the cascade of litigation launched by Musk and his allies."</p>
-<p>The FTC's investigative demand "makes no secret of its connection to Musk's vindictive lawsuits," and "probes Media Matters' finances, editorial process, newsgathering activities, and affiliations with likeminded entities that monitor extremist content and other third parties," Media Matters said in the <a href="https://storage.courtlistener.com/recap/gov.uscourts.dcd.281859/gov.uscourts.dcd.281859.1.0.pdf">lawsuit</a> filed in US District Court for the District of Columbia.</p><p><a href="https://arstechnica.com/tech-policy/2025/06/media-matters-sues-ftc-says-agency-is-retaliating-on-behalf-of-elon-musk/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/06/media-matters-sues-ftc-says-agency-is-retaliating-on-behalf-of-elon-musk/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>56</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/02/Elon-Musk-X-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/02/Elon-Musk-X-500x500.jpg" width="500"/>
-<media:credit>Getty Images | NurPhoto </media:credit></media:content>
             </item>
             </channel>
 </rss>
