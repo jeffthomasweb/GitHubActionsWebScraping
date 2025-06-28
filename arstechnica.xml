@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Fri, 27 Jun 2025 11:10:31 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 27 Jun 2025 22:00:18 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,363 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>SCOTUS upholds part of ACA that makes preventive care fully covered</title>
+                <link>https://arstechnica.com/health/2025/06/critical-preventive-care-will-remain-free-under-aca-health-plans-scotus-rules/</link>
+                                    <comments>https://arstechnica.com/health/2025/06/critical-preventive-care-will-remain-free-under-aca-health-plans-scotus-rules/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Fri, 27 Jun 2025 21:49:19 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[ACA]]></category>
+		<category><![CDATA[preventive services]]></category>
+		<category><![CDATA[US Supreme Court]]></category>
+		<category><![CDATA[USPSTF]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2025/06/critical-preventive-care-will-remain-free-under-aca-health-plans-scotus-rules/</guid>
+
+                                    <description>
+                        <![CDATA[Cancer screenings, statins, vaccines, PrEP, will continue to be covered in full. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The US Supreme Court on Friday upheld a key provision of the Affordable Care Act that requires health plans to fully cover many preventive health care services recommended by a federal panel.</p>
+<p>The ruling means that tens of millions of Americans can continue getting <a href="https://www.healthcare.gov/coverage/preventive-care-benefits/">a variety of preventive services for free under their plans</a>. Those cost-free services include an array of screenings, such as cancer screenings like mammograms and colonoscopies, as well as screens for obesity, lead exposure in children, high blood pressure, diabetes, and some sexually transmitted diseases, to name a few. The free services also include recommended vaccines for children and adults, well-baby and well-child doctor visits, birth control, statins, PrEP HIV prevention drugs, and fluoride supplements and varnishes for children's teeth.</p>
+<p>The ruling stems from a lawsuit brought by a group of conservative Christians, represented by Braidwood Management, who objected to having to cover PrEP medication, which they claim can "<a href="https://www.washingtonpost.com/politics/2025/06/27/obamacare-preventive-care-supreme-court-appointments-decision/">encourage and facilitate homosexual behavior</a>."</p><p><a href="https://arstechnica.com/health/2025/06/critical-preventive-care-will-remain-free-under-aca-health-plans-scotus-rules/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/06/critical-preventive-care-will-remain-free-under-aca-health-plans-scotus-rules/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>12</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/getty-supreme-court-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/getty-supreme-court-500x500-1732556402.jpg" width="500"/>
+<media:credit>Getty Images | Douglas Rissing</media:credit><media:text>The Supreme Court.</media:text></media:content>
+            </item>
+                    <item>
+                <title>After 27 years, engineer discovers how to display secret photo in Power Mac ROM</title>
+                <link>https://arstechnica.com/gadgets/2025/06/after-27-years-engineer-discovers-how-to-display-secret-photo-in-power-mac-rom/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/06/after-27-years-engineer-discovers-how-to-display-secret-photo-in-power-mac-rom/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Fri, 27 Jun 2025 21:32:07 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Apple History]]></category>
+		<category><![CDATA[classic mac]]></category>
+		<category><![CDATA[easter egg]]></category>
+		<category><![CDATA[easter eggs]]></category>
+		<category><![CDATA[Mac OS]]></category>
+		<category><![CDATA[Macintosh]]></category>
+		<category><![CDATA[PowerPC]]></category>
+		<category><![CDATA[Retro computing]]></category>
+		<category><![CDATA[retrotech]]></category>
+		<category><![CDATA[Reverse-engineering]]></category>
+		<category><![CDATA[rom hacking]]></category>
+		<category><![CDATA[Vintage computing]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/06/after-27-years-engineer-discovers-how-to-display-secret-photo-in-power-mac-rom/</guid>
+
+                                    <description>
+                        <![CDATA[Developer solves mystery of hidden JPEG from the beige G3 era.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Tuesday, software engineer Doug Brown <a href="https://www.downtowndougbrown.com/2025/06/finding-a-27-year-old-easter-egg-in-the-power-mac-g3-rom/">published</a> his discovery of how to trigger a long-known but previously inaccessible <a href="https://en.wikipedia.org/wiki/Easter_egg_(media)">Easter egg</a> in the Power Mac G3's ROM: a hidden photo of the development team that nobody could figure out how to display for 27 years. While Pierre Dandumont <a href="https://www.journaldulapin.com/2014/08/19/easter-egg-les-images-cachees-dans-les-roms/">first documented</a> the JPEG image itself in 2014, the method to view it on the computer remained a mystery until Brown's reverse engineering work revealed that users must format a RAM disk with the text "secret ROM image."</p>
+<p>Brown stumbled upon the image while using a hex editor tool called <a href="https://hexfiend.com/">Hex Fiend</a> with <a href="https://github.com/eharmon/rom_fiend">Eric Harmon's Mac ROM template</a> to explore the resources stored in the beige Power Mac G3's ROM. The ROM appeared in desktop, minitower, and <a href="https://arstechnica.com/gadgets/2024/01/macintosh-at-40-the-oddest-and-rarest-macs-ever-built/">all-in-one G3 models</a> from 1997 through 1999.</p>
+<p>"While I was browsing through the ROM, two things caught my eye," Brown wrote. He found both the HPOE resource containing the JPEG image of team members and a suspicious set of Pascal strings in the PowerPC-native SCSI Manager 4.3 code that included ".Edisk," "secret ROM image," and "The Team."</p><p><a href="https://arstechnica.com/gadgets/2025/06/after-27-years-engineer-discovers-how-to-display-secret-photo-in-power-mac-rom/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/06/after-27-years-engineer-discovers-how-to-display-secret-photo-in-power-mac-rom/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>17</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/g3minitower-header-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/g3minitower-header-500x500.jpg" width="500"/>
+<media:credit>Apple / 512 Pixels</media:credit><media:text>The beige Power Mac G3 Minitower, released in 1997.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Supreme Court overturns 5th Circuit ruling that upended Universal Service Fund</title>
+                <link>https://arstechnica.com/tech-policy/2025/06/supreme-court-saves-universal-service-fund-rules-fcc-fee-is-not-illegal-tax/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/06/supreme-court-saves-universal-service-fund-rules-fcc-fee-is-not-illegal-tax/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Fri, 27 Jun 2025 20:32:55 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Supreme Court]]></category>
+		<category><![CDATA[Universal Service Fund]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/06/supreme-court-saves-universal-service-fund-rules-fcc-fee-is-not-illegal-tax/</guid>
+
+                                    <description>
+                        <![CDATA[5th Circuit ruling reversed; FCC can continue programs that boost Internet access.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Supreme Court today reversed a ruling that threatened the future of the Federal Communications Commission's Universal Service Fund. In a <a href="https://www.supremecourt.gov/opinions/24pdf/24-354_0861.pdf">6–3 opinion</a>, the high court said the US Court of Appeals for the 5th Circuit erred when it <a href="https://arstechnica.com/tech-policy/2024/07/5th-circuit-court-upends-fcc-universal-service-fund-ruling-it-an-illegal-tax/">found</a> that Universal Service fees on phone bills are an illegal tax.</p>
+<p>Universal Service is an $8 billion-a-year system that is used to expand telecom networks and make access more affordable through programs such as <a href="https://arstechnica.com/information-technology/2016/03/poor-americans-will-get-9-a-month-to-buy-broadband-or-mobile-data/">Lifeline</a> discounts and <a href="https://arstechnica.com/tech-policy/2023/08/internet-providers-that-won-fcc-grants-try-to-escape-broadband-commitments/">deployment grants</a> for Internet service providers. The program was challenged in multiple circuits by <a href="https://consumersresearch.org/">Consumers' Research</a>, a nonprofit that fights "woke corporations," and a mobile virtual network operator called <a href="https://www.causebasedcommerce.com/">Cause Based Commerce</a>.</p>
+<p>The 5th Circuit ruling focused on Congress delegating its taxing power to the FCC and the FCC then subdelegating that taxing power to the Universal Service Administrative Company (USAC), a private organization that administers the fund. In a 9–7 <em>en banc</em> ruling, the 5th Circuit found that "the <em>combination</em> of Congress's sweeping delegation to FCC and FCC's unauthorized subdelegation to USAC violates the Legislative Vesting Clause in Article I, § 1."</p><p><a href="https://arstechnica.com/tech-policy/2025/06/supreme-court-saves-universal-service-fund-rules-fcc-fee-is-not-illegal-tax/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/06/supreme-court-saves-universal-service-fund-rules-fcc-fee-is-not-illegal-tax/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>18</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/09/getty-network-map-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/09/getty-network-map-500x500-1746811509.jpg" width="500"/>
+<media:credit>Getty Images | Andrey Denisyuk</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Android phones could soon warn you of “Stingrays” snooping on your communications</title>
+                <link>https://arstechnica.com/gadgets/2025/06/future-android-phones-could-warn-you-about-data-stealing-fake-cell-towers/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/06/future-android-phones-could-warn-you-about-data-stealing-fake-cell-towers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Fri, 27 Jun 2025 20:00:50 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[android 16]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[smartphones]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/06/future-android-phones-could-warn-you-about-data-stealing-fake-cell-towers/</guid>
+
+                                    <description>
+                        <![CDATA[But it requires specific hardware support that is missing on current phones.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Smartphones contain a treasure trove of personal data, which makes them a worthwhile target for hackers. However, law enforcement is not above snooping on cell phones, and their tactics are usually much harder to detect. <a href="https://arstechnica.com/tech-policy/2013/09/meet-the-machines-that-steal-your-phones-data/">Cell site simulators</a>, often called Stingrays, can trick your phone into revealing private communications, but a change in Android 16 could allow phones to detect this spying.</p>
+<p>Law enforcement organizations have massively <a href="https://arstechnica.com/tech-policy/2018/07/judge-slams-fbi-for-improper-cellphone-search-stingray-use/">expanded the use of Stingray devices</a> because almost every person of interest today uses a cell phone at some point. These devices essentially trick phones into connecting to them like a normal cell tower, allowing the operator to track that device's location. The fake towers can also shift a phone to less secure wireless technology to intercept calls and messages. There's no indication this is happening on the suspect's end, which is another reason these machines have become so popular with police.</p>
+<p>However, while surveilling a target, Stingrays can collect data from other nearby phones. It's not unreasonable to expect a modicum of privacy if you happen to be in the same general area, but sometimes police use Stingrays simply <a href="https://arstechnica.com/tech-policy/2015/05/county-sheriff-has-used-stingray-over-300-times-with-no-warrant/">because they can</a>. There's also evidence that cell simulators have been deployed by <a href="https://arstechnica.com/tech-policy/2018/04/dhs-to-senator-malicious-use-of-stingrays-is-a-real-and-growing-risk/">mysterious groups outside law enforcement</a>. In short, it's a <em>problem</em>. Google has had plans to address this security issue for more than a year, but a lack of hardware support has slowed progress. Finally, in the coming months, we will see the first phones capable of detecting this malicious activity, and Android 16 is ready for it.</p><p><a href="https://arstechnica.com/gadgets/2025/06/future-android-phones-could-warn-you-about-data-stealing-fake-cell-towers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/06/future-android-phones-could-warn-you-about-data-stealing-fake-cell-towers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>19</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/02/cell-towers-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/02/cell-towers-500x500.jpg" width="500"/>
+<media:credit>Getty Images | Eric Thayer </media:credit><media:text>Cellular towers in Redondo Beach, California on February 22, 2024.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Supreme Court upholds Texas porn law that caused Pornhub to leave the state</title>
+                <link>https://arstechnica.com/tech-policy/2025/06/supreme-court-upholds-texas-porn-law-that-caused-pornhub-to-leave-the-state/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/06/supreme-court-upholds-texas-porn-law-that-caused-pornhub-to-leave-the-state/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Fri, 27 Jun 2025 18:25:02 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[porn]]></category>
+		<category><![CDATA[Supreme Court]]></category>
+		<category><![CDATA[texas]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/06/supreme-court-upholds-texas-porn-law-that-caused-pornhub-to-leave-the-state/</guid>
+
+                                    <description>
+                        <![CDATA[Adults have no First Amendment right to avoid age verification, 6–3 ruling says.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Supreme Court today upheld a Texas law that requires age verification on porn sites, finding that the state's age-gating law doesn't violate the First Amendment.</p>
+<p>The <a href="https://www.supremecourt.gov/opinions/24pdf/23-1122_3e04.pdf">6–3 decision</a> delivered by Justice Clarence Thomas rejected an appeal by the Free Speech Coalition, an adult-industry lobby group. Pornhub <a href="https://arstechnica.com/tech-policy/2024/03/pornhub-blocks-all-texas-users-after-court-upholds-age-verification-law/">disabled its website in Texas</a> last year because of the state law.</p>
+<p>The Supreme Court's conservative majority decided that the law should be reviewed under the standard of intermediate scrutiny "because it only incidentally burdens the protected speech of adults." The law "survives intermediate scrutiny because it 'advances important governmental interests unrelated to the suppression of free speech and does not burden substantially more speech than necessary to further those interests,'" the court said.</p><p><a href="https://arstechnica.com/tech-policy/2025/06/supreme-court-upholds-texas-porn-law-that-caused-pornhub-to-leave-the-state/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/06/supreme-court-upholds-texas-porn-law-that-caused-pornhub-to-leave-the-state/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>128</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/getty-clarence-thomas-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/getty-clarence-thomas-500x500.jpg" width="500"/>
+<media:credit>Getty Images | Drew Angerer </media:credit><media:text>Supreme Court Justice Clarence Thomas speaks at the Heritage Foundation on October 21, 2021, in Washington, DC. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Man eats dubious street food—ends up blowing apart his GI tract</title>
+                <link>https://arstechnica.com/health/2025/06/man-eats-dubious-street-food-ends-up-blowing-apart-his-gi-tract/</link>
+                                    <comments>https://arstechnica.com/health/2025/06/man-eats-dubious-street-food-ends-up-blowing-apart-his-gi-tract/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Fri, 27 Jun 2025 17:23:35 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[Boerhaave syndrome]]></category>
+		<category><![CDATA[esophagus]]></category>
+		<category><![CDATA[food]]></category>
+		<category><![CDATA[medical case report]]></category>
+		<category><![CDATA[New England Journal of Medicine]]></category>
+		<category><![CDATA[vomiting]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2025/06/man-eats-dubious-street-food-ends-up-blowing-apart-his-gi-tract/</guid>
+
+                                    <description>
+                        <![CDATA[The medical condition is rare and life-threatening. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Food poisoning is never fun—and a lot of the time, it can seem quite forceful. Take the common gut-buster norovirus for example. It can ignite forces that might make jet propulsion researchers jealous. Victims may fear liftoff from a porcelain launch pad, or a vomitous blast with a reverse thrust that seems powerful enough to drop a military jet from the sky.</p>
+<p>But then there are the rare illnesses that produce truly violent forces. Such was the case for one unfortunate man in China who made the near-fatal decision to eat some dubious street food.</p>
+<p>It's unclear what the 59-year-old ate exactly—but it's a safe bet he'll never eat it again. Soon after, his innards vigorously ignited. According to <a href="https://www.nejm.org/doi/full/10.1056/NEJMicm2500300">a case report in this week's issue of the New England Journal of Medicine</a>, the man, in fact, vomited with so much explosive force that he blew apart his esophagus—the muscular tube through which food passes from the throat to the stomach.</p><p><a href="https://arstechnica.com/health/2025/06/man-eats-dubious-street-food-ends-up-blowing-apart-his-gi-tract/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/06/man-eats-dubious-street-food-ends-up-blowing-apart-his-gi-tract/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>86</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-1060893568-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-1060893568-500x500.jpg" width="500"/>
+<media:credit>Getty | Creative-Family</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Microsoft changes Windows in attempt to prevent next CrowdStrike-style catastrophe</title>
+                <link>https://arstechnica.com/gadgets/2025/06/microsoft-is-trying-to-get-antivirus-software-away-from-the-windows-kernel/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/06/microsoft-is-trying-to-get-antivirus-software-away-from-the-windows-kernel/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Fri, 27 Jun 2025 16:55:14 +0000</pubDate>
+                		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[windows 10]]></category>
+		<category><![CDATA[windows 11]]></category>
+		<category><![CDATA[windows 11 24h2]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/06/microsoft-is-trying-to-get-antivirus-software-away-from-the-windows-kernel/</guid>
+
+                                    <description>
+                        <![CDATA[AV vendors have worried that this could advantage Microsoft's security software.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In the summer of 2024, corporate anti-malware provider CrowdStrike <a href="https://arstechnica.com/information-technology/2024/07/major-outages-at-crowdstrike-microsoft-leave-the-world-with-bsods-and-confusion/">pushed a broken update to millions of PCs and servers</a> running some version of Microsoft's Windows software, taking down systems that both companies and consumers relied on for air travel, payments, emergency services, and their morning coffee. It was a huge outage, and it caused days and weeks of pain as the world's permanently beleaguered IT workers brought systems back online, in some cases touching each affected PC individually to remove the bad update and get the systems back up and running.</p>
+<p>The outage was ultimately CrowdStrike's fault, and in the aftermath of the incident, the company promised a long list of process improvements to keep a bad update like that from going out again. But because the outage affected Windows systems, Microsoft often had <a href="https://www.washingtonpost.com/business/2024/07/19/windows-outage-crowdstrike-cancellations-computer/">shared</a> and sometimes even <a href="https://www.nytimes.com/2024/07/19/technology/microsoft-crowdstrike-outage-what-happened.html">top billing</a> in mainstream news coverage—another in <a href="https://arstechnica.com/information-technology/2024/04/microsoft-blamed-for-a-cascade-of-security-failures-in-exchange-breach-report/">a string of security-related embarrassments</a> that prompted <a href="https://arstechnica.com/information-technology/2024/05/microsoft-ties-executive-pay-to-security-following-multiple-failures-and-breaches/">CEO Satya Nadella</a> and <a href="https://arstechnica.com/tech-policy/2024/06/microsoft-in-damage-control-mode-says-it-will-prioritize-security-over-ai/">other executives</a> to promise that the company would refocus its efforts on improving the security of its products.</p>
+<p>The CrowdStrike crash was possible partly due to how anti-malware software works in Windows. Security vendors and their AV products generally have access to the Windows kernel, the cornerstone of the operating system that sits between your hardware and most user applications. But most user applications don't have kernel access specifically because a buggy app (or one hijacked by malware) with kernel access can bring the entire system down rather than just affecting the app. The bad CrowdStrike update was bad mostly because it was being loaded so early in Windows' boot process that many systems couldn't check for and download CrowdStrike's fix before they crashed.</p><p><a href="https://arstechnica.com/gadgets/2025/06/microsoft-is-trying-to-get-antivirus-software-away-from-the-windows-kernel/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/06/microsoft-is-trying-to-get-antivirus-software-away-from-the-windows-kernel/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>44</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/10/windows-11-band-aid-patch-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/10/windows-11-band-aid-patch-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson / Ars Technica</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Stung by customer losses, Comcast says all its new plans have unlimited data</title>
+                <link>https://arstechnica.com/tech-policy/2025/06/stung-by-customer-losses-comcast-says-all-its-new-plans-have-unlimited-data/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/06/stung-by-customer-losses-comcast-says-all-its-new-plans-have-unlimited-data/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Fri, 27 Jun 2025 15:36:14 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Comcast]]></category>
+		<category><![CDATA[data caps]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/06/stung-by-customer-losses-comcast-says-all-its-new-plans-have-unlimited-data/</guid>
+
+                                    <description>
+                        <![CDATA[No data caps: "Four simple national Internet tiers that include unlimited data."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>With Comcast trying to figure out how to stop losing broadband customers, the cable firm yesterday announced new plans that are available nationwide and do not have data caps.</p>
+<p>Comcast <a href="https://corporate.comcast.com/press/releases/comcast-new-national-xfinity-internet-packages-unlimited-data-advanced-wifi-gateway">said</a> it is offering "four simple national Internet tiers that include unlimited data and the advanced Xfinity WiFi Gateway for one low monthly price." Customers whose current plans have data caps won't automatically get unlimited data and would have to switch to a new plan to remove that annoying limit from their accounts.</p>
+<p>"Customers can repackage into one of our new plans that include unlimited data if they don't have it already with their existing plan," a Comcast spokesperson told Ars today.</p><p><a href="https://arstechnica.com/tech-policy/2025/06/stung-by-customer-losses-comcast-says-all-its-new-plans-have-unlimited-data/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/06/stung-by-customer-losses-comcast-says-all-its-new-plans-have-unlimited-data/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>190</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/comcast-1-1152x648-1745527748.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/comcast-1-500x500-1745527756.jpg" width="500"/>
+<media:credit>Getty Images | Cheng Xin </media:credit></media:content>
+            </item>
+                    <item>
+                <title>Apple gives EU users App Store options in attempt to avoid massive fines</title>
+                <link>https://arstechnica.com/gadgets/2025/06/apple-gives-eu-users-app-store-options-in-attempt-to-avoid-massive-fines/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/06/apple-gives-eu-users-app-store-options-in-attempt-to-avoid-massive-fines/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Barbara Moens, Financial Times]]>
+                </dc:creator>
+                <pubDate>Fri, 27 Jun 2025 13:47:43 +0000</pubDate>
+                		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[App Store]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[dma]]></category>
+		<category><![CDATA[EU]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/06/apple-gives-eu-users-app-store-options-in-attempt-to-avoid-massive-fines/</guid>
+
+                                    <description>
+                        <![CDATA[EU iPhone owners will be able to get apps from places other than the App Store.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Apple is changing its App Store policies in the EU in a last-minute attempt to avoid a series of escalating fines from Brussels.</p>
+<p>The $3 trillion iPhone maker will allow developers in the bloc to offer apps designed for the iOS operating system in places other than Apple’s App Store, the company said.</p>
+<p>Apple has been negotiating for two months with the European Commission after being fined €500 million for breaching the EU’s Digital Markets Act, the landmark legislation designed to curtail the power of Big Tech groups.</p><p><a href="https://arstechnica.com/gadgets/2025/06/apple-gives-eu-users-app-store-options-in-attempt-to-avoid-massive-fines/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/06/apple-gives-eu-users-app-store-options-in-attempt-to-avoid-massive-fines/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>71</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/apple-eu-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/apple-eu-500x500.jpg" width="500"/>
+<media:credit>Getty Images | SOPA Images </media:credit></media:content>
+            </item>
+                    <item>
+                <title>Rocket Report: SpaceX’s dustup on the border; Northrop has a nozzle problem</title>
+                <link>https://arstechnica.com/science/2025/06/rocket-report-spacexs-dustup-on-the-border-northrop-has-a-nozzle-problem/</link>
+                                    <comments>https://arstechnica.com/science/2025/06/rocket-report-spacexs-dustup-on-the-border-northrop-has-a-nozzle-problem/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Fri, 27 Jun 2025 13:00:47 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[rocket report]]></category>
+		<category><![CDATA[spacex]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/06/rocket-report-spacexs-dustup-on-the-border-northrop-has-a-nozzle-problem/</guid>
+
+                                    <description>
+                        <![CDATA[NASA has finally test-fired the first of its new $100 million SLS rocket engines.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Welcome to Edition 7.50 of the Rocket Report! We're nearly halfway through the year, and it seems like a good time to look back on the past six months. What has been most surprising to me in the world of rockets? First, I didn't expect SpaceX to have this much trouble with Starship Version 2. Growing pains are normal for new rockets, but I expected the next big hurdles for SpaceX to clear with Starship to be catching the ship from orbit and orbital refueling, not completing a successful launch. The state of Blue Origin's New Glenn program is a little surprising to me. New Glenn's first launch in January went remarkably well, beating the odds for a new rocket. Now, production delays are pushing back the next New Glenn flights. The flight of Honda's reusable rocket hopper also came out of nowhere a few weeks ago.</p>
+<p>As always, we <a href="https://arstechnica.wufoo.com/forms/launch-stories/">welcome reader submissions</a>. If you don't want to miss an issue, please subscribe using the box below (the form will not appear on AMP-enabled versions of the site). Each report will include information on small-, medium-, and heavy-lift rockets, as well as a quick look ahead at the next three launches on the calendar.</p>
+<figure class="ars-img-shortcode id-1314289 align-center">
+    <div>
+                        <img decoding="async" width="560" height="81" src="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png" class="center full" alt="" srcset="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png 560w, https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll-300x43.png 300w" sizes="(max-width: 560px) 100vw, 560px">
+                  </div>
+      </figure>
+
+<p><b>Isar raises 150 million euros. </b>German space startup Isar Aerospace has obtained 150 million euros ($175 million) in funding from an American investment company, <a href="https://www.reuters.com/business/aerospace-defense/german-space-startup-isar-aerospace-secures-150-million-euro-fund-2025-06-25/">Reuters reports</a>. The company, which specializes in satellite launch services, signed an agreement for a convertible bond with Eldridge Industries, it said. Isar says it will use the funding to expand its launch service offerings. Isar's main product is the Spectrum rocket, a two-stage vehicle designed to loft up to a metric ton (2,200 pounds) of payload mass to low-Earth orbit. Spectrum flew for the first time in March, but it failed moments after liftoff and fell back to the ground near its launch pad. Still, Isar became the first in a new crop of European launch startups to launch a rocket theoretically capable of reaching orbit.</p><p><a href="https://arstechnica.com/science/2025/06/rocket-report-spacexs-dustup-on-the-border-northrop-has-a-nozzle-problem/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/06/rocket-report-spacexs-dustup-on-the-border-northrop-has-a-nozzle-problem/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>65</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/spxax4-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/spxax4-500x500.jpg" width="500"/>
+<media:credit>SpaceX</media:credit><media:text>Backdropped by an offshore thunderstorm, a SpaceX Falcon 9 booster stands on its landing pad at Cape Canaveral after returning to Earth from a mission launching four astronauts to the International Space Station early Wednesday.</media:text></media:content>
+            </item>
+                    <item>
                 <title>An exceedingly rare asteroid flyby will happen soon, but NASA may be left on the sidelines</title>
                 <link>https://arstechnica.com/features/2025/06/trump-budget-kills-nasas-golden-opportunity-to-see-a-killer-asteroid-up-close/</link>
                                     <comments>https://arstechnica.com/features/2025/06/trump-budget-kills-nasas-golden-opportunity-to-see-a-killer-asteroid-up-close/#comments</comments>
@@ -47,7 +404,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>19</slash:comments>
+                                    <slash:comments>96</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/osiris-apex-at-apophis-1152x648.jpg" width="1152">
@@ -77,12 +434,12 @@
                                                                 <content:encoded>
                             <![CDATA[<p>Hackers are exploiting a maximum-severity vulnerability that has the potential to give them complete control over thousands of servers, many of which handle mission-critical tasks inside data centers, the US Cybersecurity and Infrastructure Security Agency is warning.</p>
 <p>The vulnerability, carrying a severity rating of 10 out of a possible 10, resides in the AMI MegaRAC, a widely used firmware package that allows large fleets of servers to be remotely accessed and managed even when power is unavailable or the operating system isn't functioning. These motherboard-attached microcontrollers, known as baseboard management controllers (BMCs), give extraordinary control over servers inside data centers.</p>
-<p>Administrators use BMCs to reinstall operating systems, install or modify apps and make configuration changes to large numbers of servers, without physically being on premises and, in many cases, without the servers being turned on. Successful compromise of a single BMC can be used to pivot into internal networks and compromise all other BMCs.</p><p><a href="https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers/">Read full article</a></p>
+<p>Administrators use BMCs to reinstall operating systems, install or modify apps, and make configuration changes to large numbers of servers without physically being on premises and, in many cases, without the servers being turned on. Successful compromise of a single BMC can be used to pivot into internal networks and compromise all other BMCs.</p><p><a href="https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers/">Read full article</a></p>
 <p><a href="https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>28</slash:comments>
+                                    <slash:comments>42</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg">
@@ -114,13 +471,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>NASA's Space Launch System appears to have a finite shelf life. The Trump administration wants to cancel it after just three launches, while the preliminary text of a bill making its way through Congress would extend it to five flights.</p>
-<p>But chances are low the Space Launch System will making it to nine flights, and if it does, it's questionable if it would reach that point before 2040. The SLS rocket is a core piece of NASA's plan to return US astronauts to the Moon under the Artemis program, but the White House seeks to cancel the program in favor of cheaper commercial alternatives.</p>
+<p>But chances are low the Space Launch System will make it to nine flights, and if it does, it's questionable that it would reach that point before 2040. The SLS rocket is a core piece of NASA's plan to return US astronauts to the Moon under the Artemis program, but the White House seeks to cancel the program in favor of cheaper commercial alternatives.</p>
 <p>For the second time in less than a week, NASA test-fired new propulsion hardware Thursday that the agency would need to keep SLS alive. Last Friday, a new liquid-fueled RS-25 engine ignited on a test stand at NASA's Stennis Space Center in Mississippi. The hydrogen-fueled engine is the first of its kind to be manufactured since the end of the Space Shuttle program. This particular RS-25 engine is assigned to power the fifth flight of the SLS rocket, a mission known as Artemis V.</p><p><a href="https://arstechnica.com/space/2025/06/nasa-tested-a-new-sls-booster-that-may-never-fly-and-the-end-of-it-blew-off/">Read full article</a></p>
 <p><a href="https://arstechnica.com/space/2025/06/nasa-tested-a-new-sls-booster-that-may-never-fly-and-the-end-of-it-blew-off/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>79</slash:comments>
+                                    <slash:comments>139</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/boletest2-1152x648-1750975790.jpg" width="1152">
@@ -147,15 +504,15 @@
                         <![CDATA[Signaling from retinoic acid appears to be key to getting mice to regrow ear damage.]]>
                     </description>
                                                                 <content:encoded>
-                            <![CDATA[<p>Regeneration is a trick many animals, including lizards, starfish, and octopuses, have mastered. Axolotls, a salamander species originating in Mexico, can regrow pretty much everything from severed limbs, through eyes and parts of brain, to the spinal cord. Mammals, though, have mostly lost this ability somewhere along their evolutionary path. Regeneration persisted, in a limited number of tissues, in just a few mammalian species like rabbits or goats.</p>
-<p>“We were trying to learn how certain animals lost their regeneration capacity during evolution and then put back the responsible gene or pathway to reactivate the regeneration program,” says Wei Wang, a researcher at the National Institute of Biological Sciences in Beijing. Wang’s team has found one of those inactive regeneration genes, activated it, and brough back a limited regeneration ability to mice that did not have it before.</p>
+                            <![CDATA[<p>Regeneration is a trick many animals, including lizards, starfish, and octopuses, have mastered. Axolotls, a salamander species originating in Mexico, can regrow pretty much everything from severed limbs, to eyes and parts of brain, to the spinal cord. Mammals, though, have mostly lost this ability somewhere along their evolutionary path. Regeneration persisted, in a limited number of tissues, in just a few mammalian species like rabbits or goats.</p>
+<p>“We were trying to learn how certain animals lost their regeneration capacity during evolution and then put back the responsible gene or pathway to reactivate the regeneration program,” says Wei Wang, a researcher at the National Institute of Biological Sciences in Beijing. Wang’s team has found one of those inactive regeneration genes, activated it, and brought back a limited regeneration ability to mice that did not have it before.</p>
 <h2>Of mice and bunnies</h2>
-<p>The idea Wang and his colleagues had was a comparative study to compare how the wound healing process works in regenerating and non-regenerating mammalian species. They chose rabbits as their regenerating mammals and mice as the non-regenerating species. As the reference organ, the team picked the ear pinna. “We wanted relatively simple structure that was easy to observe and yet composed of many different cell types,” Wang says. The test involved punching holes in the ear pinna of rabbits and mice and tracking the wound-repairing process.</p><p><a href="https://arstechnica.com/science/2025/06/changing-one-gene-can-restore-some-tissue-regeneration-to-mice/">Read full article</a></p>
+<p>The idea Wang and his colleagues had was a comparative study of how the wound healing process works in regenerating and non-regenerating mammalian species. They chose rabbits as their regenerating mammals and mice as the non-regenerating species. As the reference organ, the team picked the ear pinna. “We wanted a relatively simple structure that was easy to observe and yet composed of many different cell types,” Wang says. The test involved punching holes in the ear pinna of rabbits and mice and tracking the wound-repairing process.</p><p><a href="https://arstechnica.com/science/2025/06/changing-one-gene-can-restore-some-tissue-regeneration-to-mice/">Read full article</a></p>
 <p><a href="https://arstechnica.com/science/2025/06/changing-one-gene-can-restore-some-tissue-regeneration-to-mice/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>22</slash:comments>
+                                    <slash:comments>35</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-883968826-1152x648.jpg" width="1152">
@@ -188,7 +545,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>119</slash:comments>
+                                    <slash:comments>175</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2221384826-1152x648.jpg" width="1152">
@@ -229,7 +586,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>43</slash:comments>
+                                    <slash:comments>72</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-1383559939-1152x648.jpg" width="1152">
@@ -277,7 +634,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>14</slash:comments>
+                                    <slash:comments>19</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/digital_arcade_1-1152x648.jpg" width="1152">
@@ -309,7 +666,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>106</slash:comments>
+                                    <slash:comments>136</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2177158675-1024x648.jpg" width="1024">
@@ -347,7 +704,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>102</slash:comments>
+                                    <slash:comments>113</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2207798306-1152x648-1750956527.jpg" width="1152">
@@ -382,363 +739,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>55</slash:comments>
+                                    <slash:comments>60</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/IMG_3181-1152x648.jpeg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/IMG_3181-500x500.jpeg" width="500"/>
 <media:credit>Andrew Cunningham</media:credit></media:content>
-            </item>
-                    <item>
-                <title>45-hour voyage in replica canoe tests Paleolithic migration theory</title>
-                <link>https://arstechnica.com/science/2025/06/testing-ancient-paleolithic-migration-with-a-replica-canoe/</link>
-                                    <comments>https://arstechnica.com/science/2025/06/testing-ancient-paleolithic-migration-with-a-replica-canoe/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Thu, 26 Jun 2025 17:02:30 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[anthropology]]></category>
-		<category><![CDATA[Archaeology]]></category>
-		<category><![CDATA[experimental archaeology]]></category>
-		<category><![CDATA[paleolithic]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/06/testing-ancient-paleolithic-migration-with-a-replica-canoe/</guid>
-
-                                    <description>
-                        <![CDATA["How did Paleolithic people arrive at such remote islands as Okinawa? What tools and strategies did they use?"]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/qW876fw-WXg?start=0&amp;wmode=transparent"></div></div>
-<p>Earlier this week, <a href="https://arstechnica.com/science/2025/06/this-archaeologist-built-a-replica-boat-to-sail-like-the-vikings/">we reported</a> on a Swedish archaeologist who spent the last three years sailing the fjords in a replica boat similar to those the Vikings may have used. Not to be outdone, Japanese researchers have followed suit, building their own seaworthy dugout canoe with Paleolithic-era tools to cross between Taiwan and Yonaguni Island, where one of the world’s strongest ocean currents, the Kuroshio, remains active.</p>
-<p>They presented their findings in two new papers published in the journal Science Advances. <a href="https://www.science.org/doi/10.1126/sciadv.adv5507">One describes</a> the experimental trial, and <a href="https://www.science.org/doi/10.1126/sciadv.adv5508">the other</a> involves numerical simulations to investigate the general conditions needed for the crossing. The successfully re-enacted voyage suggests that early modern humans likely had a high level of strategic seafaring knowledge. (You can watch a 90-minute documentary about the voyage <a href="https://www.youtube.com/watch?v=tb_jZ4bbKyg">here</a>.) This would explain the presence of archaeological evidence that Paleolithic people made the crossing some 30,000 years ago without the aid of maps, metal tools, or modern boats.</p>
-<p>“We initiated this project with simple questions: ‘How did Paleolithic people arrive at such remote islands as Okinawa? How difficult was their journey? And what tools and strategies did they use?’” <a href="https://www.u-tokyo.ac.jp/focus/en/press/z0508_00414.html">said co-author Yousuke Kaifu</a> of the University of Tokyo. “Archaeological evidence such as remains and artifacts can’t paint a full picture as the nature of the sea is that it washes such things away. So we turned to the idea of experimental archaeology, in a similar vein to the <a href="https://en.wikipedia.org/wiki/Kon-Tiki_expedition">Kon-Tiki expedition</a> of 1947 by Norwegian explorer <a href="https://en.wikipedia.org/wiki/Thor_Heyerdahl">Thor Heyerdahl</a>.”</p><p><a href="https://arstechnica.com/science/2025/06/testing-ancient-paleolithic-migration-with-a-replica-canoe/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/06/testing-ancient-paleolithic-migration-with-a-replica-canoe/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>46</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/canoe1-1152x648-1750688521.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/canoe1-500x500-1750688538.jpg" width="500"/>
-<media:credit>Kaifu et al. CC-By-ND</media:credit><media:text>Crossing the Kuroshio current in a handmade replica of a Paleolithic dugout canoe.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Google begins rolling out AI search in YouTube</title>
-                <link>https://arstechnica.com/gadgets/2025/06/google-begins-rolling-out-ai-search-in-youtube/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/06/google-begins-rolling-out-ai-search-in-youtube/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Thu, 26 Jun 2025 16:43:05 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[ai search]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[YouTube]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/06/google-begins-rolling-out-ai-search-in-youtube/</guid>
-
-                                    <description>
-                        <![CDATA[The feature is only available as a test for Premium members for now.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Over the past year, Google has transformed its web search experience with AI, driving toward a <a href="https://arstechnica.com/google/2025/05/zero-click-searches-googles-ai-tools-are-the-culmination-of-its-hubris/">zero-click experience</a>. Now, the same AI focus is coming to YouTube, and Premium subscribers can get a preview of the new search regime. Select searches on the video platform will now produce an AI-generated results carousel with a collection of relevant videos. Even if you don't pay for YouTube, AI is still coming for you with an expansion of Google's video chatbot.</p>
-<p><a href="https://blog.youtube/news-and-events/new-youtube-ai-tools-summer-2025/">Google says</a> the new AI search feature, which appears at the top of the results page, will include multiple videos, along with an AI summary of each. You can tap the video thumbnails to begin playing them right from the carousel. The summary is intended to extract the information most relevant to your search query, so you may not even have to watch the videos.</p>
-<p>The AI results carousel is only a test right now, and it's limited to YouTube Premium subscribers. If you're paying for Premium, you can enable the feature on YouTube's <a href="https://www.youtube.com/new">experimental page</a>. While the feature is entirely opt-in, that probably won't last long. Like <a href="https://arstechnica.com/gadgets/2024/05/google-is-reimagining-search-in-the-gemini-era-with-improved-ai-options/">AI Overviews in search</a>, this feature will take precedence over organic search results and get people interacting with Google's AI, and that's the driving force behind most of the company's decisions lately.</p><p><a href="https://arstechnica.com/gadgets/2025/06/google-begins-rolling-out-ai-search-in-youtube/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/06/google-begins-rolling-out-ai-search-in-youtube/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>67</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/YouTube-AI-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/YouTube-AI-500x500.jpg" width="500"/>
-<media:credit>Google</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Researchers develop a battery cathode material that does it all</title>
-                <link>https://arstechnica.com/science/2025/06/researchers-develop-a-battery-cathode-material-that-does-it-all/</link>
-                                    <comments>https://arstechnica.com/science/2025/06/researchers-develop-a-battery-cathode-material-that-does-it-all/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[John Timmer]]>
-                </dc:creator>
-                <pubDate>Thu, 26 Jun 2025 15:08:01 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[batteries]]></category>
-		<category><![CDATA[chemistry]]></category>
-		<category><![CDATA[lithium]]></category>
-		<category><![CDATA[materials science]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/06/researchers-develop-a-battery-cathode-material-that-does-it-all/</guid>
-
-                                    <description>
-                        <![CDATA[A mix of iron, chlorine, and lithium is conductive, stores lithium, and self-heals.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Battery electrode materials need to do a lot of things well. They need to be conductors to get charges to and from the ions that shuttle between the electrodes. They also need to have an open structure that allows the ions to move around before they reach a site where they can be stored. The storage of lots of ions also causes materials to expand, creating mechanical stresses that can cause the structure of the electrode material to gradually decay.</p>
-<p>Because it's hard to get all of these properties from a single material, many electrodes are composite materials, with one chemical used to allow ions into and out of the electrode, another to store them, and possibly a third that provides high conductivity. Unfortunately, this can create new problems, with breakdowns at the interfaces between materials slowly degrading the battery's capacity.</p>
-<p>Now, a team of researchers is proposing a material that seemingly does it all. It's reasonably conductive, it allows lithium ions to move around and find storage sites, and it's made of cheap and common elements. Perhaps best of all, it undergoes self-healing, smoothing out damage across charge/discharge cycles.</p><p><a href="https://arstechnica.com/science/2025/06/researchers-develop-a-battery-cathode-material-that-does-it-all/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/06/researchers-develop-a-battery-cathode-material-that-does-it-all/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>109</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2150496772-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2150496772-500x500.jpg" width="500"/>
-<media:credit>Just_Super</media:credit><media:text>Lithium Solid State Battery for EV Electric Vehicle, new research and development batteries with solid electrolyte energy storage for automotive car industry, cathode</media:text></media:content>
-            </item>
-                    <item>
-                <title>Today! Ars Live: What’s up with the sudden surge in temperatures?</title>
-                <link>https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/</link>
-                                    <comments>https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[John Timmer]]>
-                </dc:creator>
-                <pubDate>Thu, 26 Jun 2025 14:51:21 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[ars live]]></category>
-		<category><![CDATA[Berkeley Earth]]></category>
-		<category><![CDATA[Climate science]]></category>
-		<category><![CDATA[global temperatures]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/</guid>
-
-                                    <description>
-                        <![CDATA[Zeke Hausfather of the Berkeley Earth project joins us to talk climate science.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>At 1pm on Thursday, we encourage you to <a href="https://www.youtube.com/live/BtNXI-xG1Po">join us for a live chat with Zeke Hausfather</a>, a climate scientist and researcher at Berkeley Earth. We'll talk a bit about how he got into climate science and ended up at Berkeley Earth and the role that organization plays in the world of climate science. It was launched by a physicist who was somewhat skeptical of the work being done by climate scientists, but it has evolved into one of the key groups that does the math needed to track the planet's temperatures.</p>
-<p>For the past couple of years, those temperatures have seen a remarkable rise to record highs, at one point setting a yearlong string where every month set a record for the <a href="https://arstechnica.com/science/2024/06/climate-wise-it-was-a-full-year-of-exceptional-months/">warmest instance of that month on record</a>. The rise leaves us at risk of exceeding key climate targets much earlier than expected and has left the climate science community scrambling to explain the intensity of the heat. So we plan to ask Zeke a bit about what scientists are thinking about the dramatic nature of these changes, attempts to explore the relationship between temperatures, and things like tipping points and individual weather events.</p>
-<p>And all that leads to the key question: What does this tell us about where our climate is likely to go over the rest of this century?</p><p><a href="https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/06/ars-live-climate-science-in-an-increasingly-hot-world/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>80</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Unknown-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Unknown-500x500.jpeg" width="500"/>
-</media:content>
-            </item>
-                    <item>
-                <title>Reddit CEO pledges site will remain “written by humans and voted on by humans”</title>
-                <link>https://arstechnica.com/ai/2025/06/reddit-ceo-pledges-site-will-remain-written-by-humans-and-voted-on-by-humans/</link>
-                                    <comments>https://arstechnica.com/ai/2025/06/reddit-ceo-pledges-site-will-remain-written-by-humans-and-voted-on-by-humans/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Daniel Thomas and Hannah Murphy, Financial Times]]>
-                </dc:creator>
-                <pubDate>Thu, 26 Jun 2025 13:54:32 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[LLMs]]></category>
-		<category><![CDATA[reddit]]></category>
-		<category><![CDATA[steve huffman]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2025/06/reddit-ceo-pledges-site-will-remain-written-by-humans-and-voted-on-by-humans/</guid>
-
-                                    <description>
-                        <![CDATA[Reddit is in an “arms race” to protect its communities from AI-generated content.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Reddit is in an “arms race” to protect its devoted online communities from a surge in artificial intelligence-generated content, with the authenticity of its vast repository of human interaction increasingly valuable in training new AI-powered search tools.</p>
-<p>Chief executive Steve Huffman told the Financial Times that Reddit had “20 years of conversation about everything,” leaving the company with a <a href="https://www.ft.com/content/9344ab83-c546-416e-9489-1d36b34b7251">lucrative resource</a> of personal interaction.</p>
-<p>This has allowed it to strike multimillion dollar partnerships with Google and OpenAI to train their large language models on its content, as tech companies look for real-world data that can improve their generative AI products.</p><p><a href="https://arstechnica.com/ai/2025/06/reddit-ceo-pledges-site-will-remain-written-by-humans-and-voted-on-by-humans/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/06/reddit-ceo-pledges-site-will-remain-written-by-humans-and-voted-on-by-humans/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>103</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-2150483549-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-2150483549-500x500.jpg" width="500"/>
-<media:credit>Getty</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Analysis: During a town hall NASA officials on stage looked like hostages</title>
-                <link>https://arstechnica.com/space/2025/06/during-a-town-hall-wednesday-nasa-officials-on-stage-looked-like-hostages/</link>
-                                    <comments>https://arstechnica.com/space/2025/06/during-a-town-hall-wednesday-nasa-officials-on-stage-looked-like-hostages/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Thu, 26 Jun 2025 12:47:14 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[janet petro]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[nasa budget]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[space policy]]></category>
-		<category><![CDATA[space science]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2025/06/during-a-town-hall-wednesday-nasa-officials-on-stage-looked-like-hostages/</guid>
-
-                                    <description>
-                        <![CDATA[A Trump appointee suggests NASA may not have a new administrator until next year.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The four people at the helm of America's space agency held a town hall meeting with employees Wednesday, fielding questions about downsizing, layoffs, and proposed budget cuts that threaten to undermine NASA's mission and prestige.</p>
-<p>Janet Petro, NASA's acting administrator, addressed questions from an auditorium at NASA Headquarters in Washington, DC. She was joined by Brian Hughes, the agency's chief of staff, a political appointee who was formerly a Florida-based consultant active in city politics and in Donald Trump's 2024 presidential campaign. Two other senior career managers, Vanessa Wyche and Casey Swails, were also on the stage.</p>
-<p>They tried to put a positive spin on the situation at NASA. Petro, Wyche, and Swails are civil servants, not Trump loyalists. None of them looked like they wanted to be there. The town hall was not publicized outside of NASA ahead of time, but live video of the event was available—unadvertised—on an <a href="https://video.ibm.com/channel/KKpgkydqfQr">obscure NASA streaming website</a>. The video has since been removed.</p><p><a href="https://arstechnica.com/space/2025/06/during-a-town-hall-wednesday-nasa-officials-on-stage-looked-like-hostages/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/06/during-a-town-hall-wednesday-nasa-officials-on-stage-looked-like-hostages/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>147</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/ars_21-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/ars_21-500x500.jpg" width="500"/>
-<media:credit>NASA</media:credit><media:text>NASA press secretary Bethany Stevens, acting administrator Janet Petro, chief of staff Brian Hughes, associate administrator Vanessa Wyche, and deputy associate administrator Casey Swails held a town hall with NASA employees Wednesday.</media:text></media:content>
-            </item>
-                    <item>
-                <title>All childhood vaccines in question after first meeting of RFK Jr.’s vaccine panel</title>
-                <link>https://arstechnica.com/health/2025/06/all-childhood-vaccines-in-question-after-first-meeting-of-rfk-jr-s-vaccine-panel/</link>
-                                    <comments>https://arstechnica.com/health/2025/06/all-childhood-vaccines-in-question-after-first-meeting-of-rfk-jr-s-vaccine-panel/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 23:04:25 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[ACIP]]></category>
-		<category><![CDATA[anti-vaccine]]></category>
-		<category><![CDATA[CDC]]></category>
-		<category><![CDATA[COVID-19]]></category>
-		<category><![CDATA[influenza]]></category>
-		<category><![CDATA[measles]]></category>
-		<category><![CDATA[Robert F Kenned Jr.]]></category>
-		<category><![CDATA[vaccination]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2025/06/all-childhood-vaccines-in-question-after-first-meeting-of-rfk-jr-s-vaccine-panel/</guid>
-
-                                    <description>
-                        <![CDATA[Overall, the meeting was packed with anti-vaccine talking points and arguments.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A federal vaccine panel entirely hand-selected by health secretary and anti-vaccine activist Robert F. Kennedy Jr. gathered for its first meeting Wednesday—and immediately announced that it would re-evaluate the entire childhood vaccination schedule, as well as the one for adults.</p>
-<p>The meeting overall was packed with anti-vaccine talking points and arguments from the new panel members, confirming public health experts' fears that the once-revered panel is now critically corrupted and that Kennedy's controversial picks will only work to fulfill his long-standing anti-vaccine agenda.</p>
-<h2>Controversial committee</h2>
-<p>An hour before the meeting began, the American Academy of Pediatrics came out swinging against the new panel, saying that the panel's work is "no longer a credible process." The organization shunned the meeting, refusing to send a liaison to the panel's meeting, which it has done for decades.</p><p><a href="https://arstechnica.com/health/2025/06/all-childhood-vaccines-in-question-after-first-meeting-of-rfk-jr-s-vaccine-panel/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/06/all-childhood-vaccines-in-question-after-first-meeting-of-rfk-jr-s-vaccine-panel/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>297</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/01/GettyImages-1230138263-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/01/GettyImages-1230138263-500x500.jpg" width="500"/>
-<media:credit>Jason Armond / Los Angeles Times via Getty Images</media:credit><media:text>The Centers for Disease Control and Prevention has been tracking COVID-19 variants; thus far (as of January 28, 2021) two of three discussed here are confirmed within the US.</media:text></media:content>
-            </item>
-                    <item>
-                <title>After a week, Trump Mobile drops claim that Trump phone is “made in the USA”</title>
-                <link>https://arstechnica.com/gadgets/2025/06/after-a-week-trump-mobile-drops-claim-that-trump-phone-is-made-in-the-usa/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/06/after-a-week-trump-mobile-drops-claim-that-trump-phone-is-made-in-the-usa/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 22:39:33 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[trump mobile]]></category>
-		<category><![CDATA[trump phone]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/06/after-a-week-trump-mobile-drops-claim-that-trump-phone-is-made-in-the-usa/</guid>
-
-                                    <description>
-                        <![CDATA[Trump T1 phone isn't "made in the USA" but is "designed with American values."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The <a href="https://arstechnica.com/tech-policy/2025/06/trump-org-launches-47-month-wireless-service-teases-odd-499-phone/">Trump phone</a> was announced last week with a claim that the device would be made entirely in America, and people were rightly skeptical. Trump Mobile's $500 T1 Phone "is a sleek, gold smartphone engineered for performance and proudly designed and built in the United States for customers who expect the best from their mobile carrier," the Trump Organization <a href="https://www.trump.com/media/trump-mobile-launches-a-bold-new-wireless-service">said</a> in a press release.</p>
-<p>But with electronics supply chain experts <a href="https://www.pcmag.com/news/mobile-experts-skeptical-of-trump-t1-phone-made-in-america-claims">casting doubt</a> on the feasibility of designing and building an American-made phone in a short span of time, Trump Mobile's website doesn't currently promise an American-made phone. The <a href="https://trumpmobile.com/t1-phone">website</a> says the T1 is "designed with American values in mind," that it is "brought to life right here in the USA," and that there are "American hands behind every device."</p>
-<p>The Trump Mobile website <a href="https://web.archive.org/web/20250617004920/https://trumpmobile.com/">previously said</a>, "Our MADE IN THE USA 'T1 Phone' is available for pre-order now." The phone was initially supposed to be available in August, but the date was changed to September, and now the website simply says it will be available "later this year."</p><p><a href="https://arstechnica.com/gadgets/2025/06/after-a-week-trump-mobile-drops-claim-that-trump-phone-is-made-in-the-usa/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/06/after-a-week-trump-mobile-drops-claim-that-trump-phone-is-made-in-the-usa/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>185</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/trump-mobile-1152x648-1750889842.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/trump-mobile-500x500-1750889854.jpg" width="500"/>
-<media:credit>Getty Images | Joe Raedle</media:credit><media:text>An iPhone displays the website for The Trump Organization's mobile phone service and a Trump-branded smartphone on June 16, 2025 in Miami.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Google’s spotty Find Hub network could get better thanks to a small setup tweak</title>
-                <link>https://arstechnica.com/gadgets/2025/06/googles-spotty-find-hub-network-could-get-better-thanks-to-a-small-setup-tweak/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/06/googles-spotty-find-hub-network-could-get-better-thanks-to-a-small-setup-tweak/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 20:53:53 +0000</pubDate>
-                		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[android]]></category>
-		<category><![CDATA[bluetooth trackers]]></category>
-		<category><![CDATA[google]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/06/googles-spotty-find-hub-network-could-get-better-thanks-to-a-small-setup-tweak/</guid>
-
-                                    <description>
-                        <![CDATA[Expanded device tracking is still opt-in.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Bluetooth trackers have existed for quite a while, but Apple made them worthwhile when it enlisted every iPhone to support AirTags. The tracking was so reliable that Apple had to add <a href="https://arstechnica.com/tech-policy/2022/02/apple-plans-airtag-alert-upgrades-to-prevent-stalking-and-other-crimes/">anti-stalking features.</a> And although there are just as many Android phones out there, Google's version of mobile device tracking, known as Find Hub, has been comparatively spotty. Now, Google is about to offer users a choice that could fix Bluetooth tracking on Android.</p>
-<p>According to a report from <a href="https://www.androidauthority.com/google-find-hub-setup-screen-3570944/">Android Authority</a>, Google is preparing to add a new screen to the Android setup process. This change, integrated with Play Services version 25.24, has yet to roll out widely, but it will allow anyone setting up an Android phone to choose a more effective method of tracking that will bolster Google's network. This is included in the Play Services changelog as, "You can now configure Find Hub when setting up your phone, allowing the device to be located remotely."</p>
-<p>Trackable devices like AirTags and earbuds work by broadcasting a Bluetooth LE identifier, which phones in the area can see. Our always-online smartphones then report the approximate location of that signal, and with enough reports, the owner can pinpoint the tag. Perhaps wary of the privacy implications, Google rolled out its Find Hub network (previously Find My Device) with harsh restrictions on where device finding would work.</p><p><a href="https://arstechnica.com/gadgets/2025/06/googles-spotty-find-hub-network-could-get-better-thanks-to-a-small-setup-tweak/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/06/googles-spotty-find-hub-network-could-get-better-thanks-to-a-small-setup-tweak/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>22</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Maps-IO-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Maps-IO-500x500.jpg" width="500"/>
-<media:credit>Ryan Whitwam</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Is DOGE doomed to fail? Some experts are ready to call it.</title>
-                <link>https://arstechnica.com/tech-policy/2025/06/is-doge-doomed-to-fail-some-experts-are-ready-to-call-it/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/06/is-doge-doomed-to-fail-some-experts-are-ready-to-call-it/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Wed, 25 Jun 2025 20:40:12 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[department of government efficiency]]></category>
-		<category><![CDATA[doge]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/06/is-doge-doomed-to-fail-some-experts-are-ready-to-call-it/</guid>
-
-                                    <description>
-                        <![CDATA[Trump wants $45M to continue DOGE’s work. Critics warn costs already too high.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Critics are increasingly branding Elon Musk's Department of Government Efficiency (DOGE) as a failure, including lawmakers fiercely debating how much funding to allot next year to the controversial agency.</p>
-<p>On Tuesday, Republicans and Democrats sparred over DOGE's future at a DOGE subcommittee hearing, <a href="https://www.nextgov.com/digital-government/2025/06/lawmakers-spar-over-doge-republicans-look-lock-cuts/406278/">according to NextGov</a>, a news site for federal IT workers. On one side, Republicans sought to "lock in" and codify the "DOGE process" for supposedly reducing waste and fraud in government, and on the other, Democrats argued that DOGE has "done the opposite" of its intended mission and harmed Americans in the process.</p>
-<p>DOGE has "led to poor services, a brain drain on our federal government, and it’s going to cost taxpayers money long term," Rep. Suhas Subramanyam (D-Va.) argued.</p><p><a href="https://arstechnica.com/tech-policy/2025/06/is-doge-doomed-to-fail-some-experts-are-ready-to-call-it/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/06/is-doge-doomed-to-fail-some-experts-are-ready-to-call-it/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>95</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2200068751-1152x648-1750879720.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2200068751-500x500-1750879730.jpg" width="500"/>
-<media:credit>Pacific Press / Contributor | LightRocket</media:credit><media:text>Federal workers and protestors spoke out against US President Donald Trump and Elon Musk and their push to gut federal services and impose mass layoffs earlier this year. </media:text></media:content>
             </item>
             </channel>
 </rss>
