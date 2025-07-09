@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Wed, 09 Jul 2025 00:17:02 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 09 Jul 2025 11:11:31 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,109 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Wildfires are challenging air quality monitoring infrastructure</title>
+                <link>https://arstechnica.com/science/2025/07/wildfires-are-challenging-air-quality-monitoring-infrastructure/</link>
+                                    <comments>https://arstechnica.com/science/2025/07/wildfires-are-challenging-air-quality-monitoring-infrastructure/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Claudia López Lloreda, Undark Magazine]]>
+                </dc:creator>
+                <pubDate>Wed, 09 Jul 2025 11:30:07 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[air quality]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/07/wildfires-are-challenging-air-quality-monitoring-infrastructure/</guid>
+
+                                    <description>
+                        <![CDATA[Can the US's system to monitor air pollutants keep up with a changing climate?]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p><span class="dropcap">T</span><span class="bolded">en years ago</span>, Tracey Holloway, an atmospheric scientist at the University of Wisconsin–Madison, would have said that air pollution in the United States was a huge success story. “Our air had been getting cleaner and cleaner almost everywhere, for almost every pollutant,” she said. But in June 2023, as wildfire smoke from Canada spread, the air quality dropped to historically low levels in her home state of Wisconsin.</p>
+<p>Just last month, the region’s air quality dipped once more to unhealthy levels. Again, wildfires were to blame.</p>
+<p>While the US has made significant strides in curbing car and industrial pollution through setting emission limits on industrial facilities and automakers, the increasing frequency and intensity of fires are “erasing the gains that we have obtained through this pollutant control effort,” said Nga Lee “Sally” Ng, an aerosol researcher at Georgia Institute of Technology.</p><p><a href="https://arstechnica.com/science/2025/07/wildfires-are-challenging-air-quality-monitoring-infrastructure/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/07/wildfires-are-challenging-air-quality-monitoring-infrastructure/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>2</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/06/GettyImages-1258495344-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/06/GettyImages-1258495344-500x500.jpg" width="500"/>
+<media:credit>Lokman Vural Elibol/Anadolu Agency via Getty Images</media:credit><media:text>The Downtown Manhattan skyline stands shrouded in a reddish haze as a result of Canadian wildfires on June 6, 2023.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Critical CitrixBleed 2 vulnerability has been under active exploit for weeks</title>
+                <link>https://arstechnica.com/security/2025/07/critical-citrixbleed-2-vulnerability-has-been-under-active-exploit-for-weeks/</link>
+                                    <comments>https://arstechnica.com/security/2025/07/critical-citrixbleed-2-vulnerability-has-been-under-active-exploit-for-weeks/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 09 Jul 2025 11:20:24 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[citrix]]></category>
+		<category><![CDATA[citrixbleed]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/critical-citrixbleed-2-vulnerability-has-been-under-active-exploit-for-weeks/</guid>
+
+                                    <description>
+                        <![CDATA[Exploits allow hackers to bypass 2FA and commandeer vulnerable devices.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A critical vulnerability allowing hackers to bypass multifactor authentication in network management devices made by Citrix has been actively exploited for more than a month, researchers said. The finding is at odds with advisories from the vendor saying there is no evidence of in-the-wild exploitation.</p>
+<p>Tracked as CVE-2025-5777, the vulnerability shares similarities with CVE-2023-4966, a security flaw nicknamed CitrixBleed, which led to the compromise of <a href="https://arstechnica.com/security/2023/10/critical-citrix-bleed-vulnerability-allowing-mfa-bypass-comes-under-mass-exploitation/">20,000 Citrix devices</a> two years ago. The list of Citrix customers hacked in the CitrixBleed exploitation spree included Boeing, Australian shipping company DP World, Commercial Bank of China, and the Allen &amp; Overy law firm. A Comcast network was <a href="https://arstechnica.com/security/2023/12/hack-of-unpatched-comcast-servers-results-in-stolen-personal-data-including-passwords/">also breached</a>, allowing threat actors to steal password data and other sensitive information belonging to 36 million Xfinity customers.</p>
+<h2>Giving attackers a head start</h2>
+<p>Both CVE-2025-5777 and CVE-2023-4966 reside in Citrix’s NetScaler Application Delivery Controller and NetScaler Gateway, which provide load balancing and single sign-on in enterprise networks, respectively. The vulnerability causes vulnerable devices to leak—or “bleed”—small chunks of memory contents after receiving modified requests sent over the Internet.</p><p><a href="https://arstechnica.com/security/2025/07/critical-citrixbleed-2-vulnerability-has-been-under-active-exploit-for-weeks/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/07/critical-citrixbleed-2-vulnerability-has-been-under-active-exploit-for-weeks/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>1</slash:comments>
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Ars staffers share some of their favorite unexpected 3D prints</title>
+                <link>https://arstechnica.com/gadgets/2025/07/intro-to-3d-printing-part-3-the-cool-weird-and-unexpected-prints-we-love/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/07/intro-to-3d-printing-part-3-the-cool-weird-and-unexpected-prints-we-love/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Wed, 09 Jul 2025 11:00:49 +0000</pubDate>
+                		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[3D printing]]></category>
+		<category><![CDATA[bambu lab]]></category>
+		<category><![CDATA[bambu lab a1]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/07/intro-to-3d-printing-part-3-the-cool-weird-and-unexpected-prints-we-love/</guid>
+
+                                    <description>
+                        <![CDATA[Once you solve one problem with a 3D printer, you'll go looking for others.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Part of the fun of 3D printing is discovering just how many possibilities there are for different things to print. Obviously, they're fun for printing toys or decorations that you couldn't or wouldn't buy yourself, but they're also powerful problem-solving tools. Once you've solved a few problems with 3D printed parts, you start looking around for other minor inconveniences or quality-of-life upgrades that you could solve—and the breadth and depth of the 3D printing community means that you can almost always find someone else who has already thought up and posted a solution for you.</p>
+<p>As a coda to our series about breaking into 3D printing for the first time, the 3D printer-pilled among the Ars staff is sharing a few of their favorite unexpected prints, from fun all-purpose gifts to containers and organizers to parts that will help you with your other, non-3D-printing-related hobbies. This is just a fraction of what's out there, but if you're still on the fence, maybe some of these will open your mind to the possibilities.</p>
+<h2>Coffee gear</h2>
+<p><span style="font-size: 16px;">Every morning, I make either a pour-over coffee or some form of espresso. For measuring my beans, I printed two </span><a style="font-size: 16px;" href="https://makerworld.com/en/models/1462163-the-ultimate-coffee-bean-dosing-cup?from=search#profileId-1524716">dosing cups</a>.<span style="font-size: 16px;"> The black one is matte black PLA with a fuzzy surface texture (an option in most slicers that adds random noise to the outside wall paths), and the white one is ABS that I sanded to a smooth surface. For sanding, I prefer ABS, as it’s easier to get something that has no real signs of layer lines. </span>To tamp my espresso grounds, I printed a handle in black ABS and sanded it smooth to feel good in the hand. The rounded knob helps me get pressure more comfortably than the raw metal of the original tamper, and the radial fins fit perfectly into the dosing cup, keeping the tamp straight up and down so I don’t end up with a sloped surface.</p><p><a href="https://arstechnica.com/gadgets/2025/07/intro-to-3d-printing-part-3-the-cool-weird-and-unexpected-prints-we-love/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/07/intro-to-3d-printing-part-3-the-cool-weird-and-unexpected-prints-we-love/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>8</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/IMG_7327-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/IMG_7327-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson</media:credit><media:text>Coffee bean dosing cups and espresso tamper handle</media:text></media:content>
+            </item>
+                    <item>
                 <title>Grok praises Hitler, gives credit to Musk for removing “woke filters”</title>
                 <link>https://arstechnica.com/tech-policy/2025/07/grok-praises-hitler-gives-credit-to-musk-for-removing-woke-filters/</link>
                                     <comments>https://arstechnica.com/tech-policy/2025/07/grok-praises-hitler-gives-credit-to-musk-for-removing-woke-filters/#comments</comments>
@@ -42,14 +145,14 @@
                         <![CDATA[X removed many harmful Grok posts but not before they reached tens of thousands.]]>
                     </description>
                                                                 <content:encoded>
-                            <![CDATA[<p>X is facing backlash over Grok spewing antisemitic outputs after Elon Musk <a href="https://x.com/elonmusk/status/1941065229926060487">announced</a> his "politically incorrect" chatbot had been "significantly" "improved" last Friday to remove a supposed liberal bias.</p>
+                            <![CDATA[<p>X is facing backlash after Grok spewed antisemitic outputs after Elon Musk <a href="https://x.com/elonmusk/status/1941065229926060487">announced</a> his "politically incorrect" chatbot had been "significantly" "improved" last Friday to remove a supposed liberal bias.</p>
 <p>Following Musk's announcement, X users began prompting Grok to see if they could, as Musk promised, "notice a difference when you ask Grok questions."</p>
 <p>By Tuesday, it seemed clear that Grok had been tweaked in a way that caused it to amplify harmful stereotypes.</p><p><a href="https://arstechnica.com/tech-policy/2025/07/grok-praises-hitler-gives-credit-to-musk-for-removing-woke-filters/">Read full article</a></p>
 <p><a href="https://arstechnica.com/tech-policy/2025/07/grok-praises-hitler-gives-credit-to-musk-for-removing-woke-filters/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>52</slash:comments>
+                                    <slash:comments>191</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2218358432-1024x648.jpg" width="1024">
@@ -80,7 +183,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>42</slash:comments>
+                                    <slash:comments>77</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/mouse-click-1152x648.jpg" width="1152">
@@ -109,14 +212,14 @@
                         <![CDATA[The health department said Kennedy stands by his CDC reforms.]]>
                     </description>
                                                                 <content:encoded>
-                            <![CDATA[<p>After US health secretary and hardline anti-vaccine activist Robert F. Kennedy Jr. <a href="https://arstechnica.com/health/2025/06/anti-vaccine-advocate-rfk-jr-fires-entire-cdc-panel-of-vaccine-advisors/">fired all 17 highly respected vaccine experts</a> from the federal Advisory Committee on Immunization Practices (ACIP) last month, he vetted their replacements not by medical and scientific expertise, but by their political leanings, according to a<a href="https://storage.courtlistener.com/recap/gov.uscourts.mad.286605/gov.uscourts.mad.286605.1.0.pdf"> lawsuit filed by medical organizations Monday</a>.</p>
+                            <![CDATA[<p>After US health secretary and hardline anti-vaccine activist Robert F. Kennedy Jr. <a href="https://arstechnica.com/health/2025/06/anti-vaccine-advocate-rfk-jr-fires-entire-cdc-panel-of-vaccine-advisors/">fired all 17 highly respected vaccine experts</a> from the federal Advisory Committee on Immunization Practices (ACIP) last month, he vetted their replacements, not by medical and scientific expertise, but by their political leanings, according to a<a href="https://storage.courtlistener.com/recap/gov.uscourts.mad.286605/gov.uscourts.mad.286605.1.0.pdf"> lawsuit filed by medical organizations Monday</a>.</p>
 <p>Under Kennedy, to qualify to be on the Centers for Disease Control and Prevention's nationally influential and historically apolitical ACIP, candidates had to be registered as a Republican or independent and could not have any history of publicly criticizing President Trump or Kennedy, the lawsuit claims.</p>
 <p>Just two days after dismissing all 17 ACIP members—who had all gone through an extensive vetting process that lasted up to two years—Kennedy announced eight new members. One later <a href="https://www.nytimes.com/2025/06/24/us/politics/rfk-jr-cdc-vaccine-panel.html">dropped out during last-minute financial vetting</a> the day before an ACIP meeting. Of the remaining seven, only one has the scientific and medical qualifications described under <a href="https://www.cdc.gov/acip/about/acip-charter.html">ACIP's charter</a>.</p><p><a href="https://arstechnica.com/health/2025/07/rfk-jr-barred-registered-democrats-from-being-vaccine-advisors-lawsuit-says/">Read full article</a></p>
 <p><a href="https://arstechnica.com/health/2025/07/rfk-jr-barred-registered-democrats-from-being-vaccine-advisors-lawsuit-says/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>28</slash:comments>
+                                    <slash:comments>72</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2203339270-1152x648.jpg" width="1152">
@@ -298,7 +401,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>95</slash:comments>
+                                    <slash:comments>102</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-1495586319-1152x648-1751977747.jpg" width="1152">
@@ -330,7 +433,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>78</slash:comments>
+                                    <slash:comments>85</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/04/getty-mike-lindell-1152x648-1745614275.jpg" width="1152">
@@ -365,7 +468,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>40</slash:comments>
+                                    <slash:comments>50</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/gmail-app-1-1152x648-1740415116.jpg" width="1152">
@@ -418,7 +521,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>37</slash:comments>
+                                    <slash:comments>44</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/cukeTOP-1152x648.jpg" width="1152">
@@ -460,7 +563,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>127</slash:comments>
+                                    <slash:comments>160</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2214539478-1152x648.jpg" width="1152">
@@ -493,7 +596,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>39</slash:comments>
+                                    <slash:comments>54</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/250326-01_US-Nissan-Range-Teaser-source-1152x648.jpg" width="1152">
@@ -529,7 +632,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>214</slash:comments>
+                                    <slash:comments>229</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/2026-Rivian-Quad-Motor-first-drive-005-1152x648.jpg" width="1152">
@@ -562,7 +665,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>20</slash:comments>
+                                    <slash:comments>21</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/Hubble_NGC460_NGC456_HST_JWST_new-863x648.jpg" width="863">
@@ -601,7 +704,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>38</slash:comments>
+                                    <slash:comments>41</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-1237950102-1152x648.jpg" width="1152">
@@ -636,7 +739,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>56</slash:comments>
+                                    <slash:comments>59</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/02/GettyImages-1236778852-1152x648.jpg" width="1152">
@@ -676,7 +779,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>189</slash:comments>
+                                    <slash:comments>202</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/gemini-android-1152x648.png" width="1152">
@@ -709,7 +812,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>154</slash:comments>
+                                    <slash:comments>160</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/DSC_5669-1152x648.jpg" width="1152">
@@ -774,111 +877,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>64</slash:comments>
+                                    <slash:comments>65</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/hybrid1-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/hybrid1-500x500.jpg" width="500"/>
 <media:credit>Israel Hershkovitz</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Measles cases reach 33-year high as RFK Jr. pursues anti-vaccine agenda</title>
-                <link>https://arstechnica.com/health/2025/07/measles-cases-reach-33-year-high-as-rfk-jr-pursues-anti-vaccine-agenda/</link>
-                                    <comments>https://arstechnica.com/health/2025/07/measles-cases-reach-33-year-high-as-rfk-jr-pursues-anti-vaccine-agenda/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Mon, 07 Jul 2025 19:17:34 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[measles]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2025/07/measles-cases-reach-33-year-high-as-rfk-jr-pursues-anti-vaccine-agenda/</guid>
-
-                                    <description>
-                        <![CDATA[There have been at least 1,281 cases since the start of the year.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Over the weekend, the tally of measles cases reached 1,281, setting a new case record since the highly contagious viral disease was declared eliminated from the country in 2000. The previous record was set in 2019, when there were 1,274 cases and officials warned that the US had narrowly avoided losing the elimination status.</p>
-<p>Overall, the current case tally is a 33-year high for the preventable infection, and the outlook for the country is bleak. Vaccination rates have <a href="https://arstechnica.com/health/2024/10/us-vaccinations-fall-again-as-more-parents-refuse-lifesaving-shots-for-kids/">only fallen since the pandemic</a>, and the top health official in the country—Robert F. Kennedy Jr.—is an unswerving anti-vaccine activist who has spent his short time in the position so far spreading <a href="https://www.statnews.com/2025/03/14/rfk-jr-measles-vaccine-death-claims-scientists-disagree/">dangerous misinformation</a> about the <a href="https://www.politifact.com/factchecks/2025/may/16/robert-f-kennedy-jr/measles-vaccine-safety-testing-immunity-fetal-debr/">measles vaccine</a>—as well as peddling <a href="https://arstechnica.com/health/2025/03/cod-liver-oil-embraced-amid-texas-measles-outbreak-doctors-fight-misinfo/">unproven treatments</a> and <a href="https://arstechnica.com/science/2025/03/measles-outbreak-hits-208-cases-as-federal-outbreak-response-goes-off-the-rails/">downplaying the infection</a>.</p>
-<p>Experts expect that the US will lose its elimination status, which will occur if the virus spreads uninterrupted for 12 months. To block transmission, experts say populations must maintain vaccination rates of 95 percent or higher. But, nationally, the vaccination rate among kindergartners has fallen to <a href="https://www.cdc.gov/mmwr/volumes/73/wr/mm7341a3.htm?s_cid=mm7341a3_w">92.7 percent in the latest data</a>, with some communities having vaccination rates far lower, leaving them vulnerable to widespread outbreaks.</p><p><a href="https://arstechnica.com/health/2025/07/measles-cases-reach-33-year-high-as-rfk-jr-pursues-anti-vaccine-agenda/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/07/measles-cases-reach-33-year-high-as-rfk-jr-pursues-anti-vaccine-agenda/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>176</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2053751760-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2053751760-500x500.jpg" width="500"/>
-<media:credit>Getty | Povorozniuk Liudmyla</media:credit><media:text>Measles rash on the body of a child.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Trump and Congress finalize law that could hurt your Wi-Fi</title>
-                <link>https://arstechnica.com/tech-policy/2025/07/trump-and-congress-finalize-law-that-could-hurt-your-wi-fi/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/07/trump-and-congress-finalize-law-that-could-hurt-your-wi-fi/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Mon, 07 Jul 2025 18:33:28 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Spectrum Auction]]></category>
-		<category><![CDATA[wi-fi]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/trump-and-congress-finalize-law-that-could-hurt-your-wi-fi/</guid>
-
-                                    <description>
-                        <![CDATA[FCC to auction spectrum that could include 6 GHz band used for next-gen Wi-Fi.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Federal Communications Commission has regained its authority to hold spectrum auctions and could use that power to take spectrum away from Wi-Fi networks and license it to mobile carriers AT&amp;T, Verizon, and T-Mobile.</p>
-<p>As we <a href="https://arstechnica.com/tech-policy/2025/06/senate-gop-budget-bill-has-little-noticed-provision-that-could-hurt-your-wi-fi/">previously wrote</a>, the Senate budget bill pitched by Ted Cruz (R-Texas) called for at least 800 MHz to be auctioned and allowed part of it to be taken from the 6 GHz band that's being used to boost speeds in the new generation of Wi-Fi networks. The House previously voted to exclude the entire 6 GHz band from spectrum auctions but ultimately adopted the Senate's language in a <a href="https://clerk.house.gov/Votes/2025190">218-214 vote</a> when it approved the <a href="https://www.congress.gov/bill/119th-congress/house-bill/1/text">final budget bill</a> on July 3. It was signed into law by President Trump on July 4.</p>
-<p>The new law also allows spectrum to be taken from the <a href="https://arstechnica.com/tech-policy/2025/06/ex-fcc-chair-ajit-pai-is-now-a-wireless-lobbyist-and-enemy-of-cable-companies/">Citizens Broadband Radio Service (CBRS)</a>, which goes from 3.55 to 3.7 GHz. While other spectrum bands could be targeted too, advocates say it would be hard for the FCC to fulfill the congressional mandate without taking spectrum from Wi-Fi, CBRS, or both.</p><p><a href="https://arstechnica.com/tech-policy/2025/07/trump-and-congress-finalize-law-that-could-hurt-your-wi-fi/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/07/trump-and-congress-finalize-law-that-could-hurt-your-wi-fi/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>73</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/wi-fi-data-1152x648-1751912403.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/wi-fi-data-500x500-1751912395.jpg" width="500"/>
-<media:credit>Getty Images | mattjeacock</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Fubo pays $3.4M to settle claims it illegally shared user data with advertisers</title>
-                <link>https://arstechnica.com/gadgets/2025/07/fubo-pays-3-4m-to-settle-claims-it-illegally-shared-user-data-with-advertisers/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/07/fubo-pays-3-4m-to-settle-claims-it-illegally-shared-user-data-with-advertisers/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Mon, 07 Jul 2025 18:21:11 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[class action]]></category>
-		<category><![CDATA[Fubo]]></category>
-		<category><![CDATA[privacy]]></category>
-		<category><![CDATA[sports]]></category>
-		<category><![CDATA[streaming]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/07/fubo-pays-3-4m-to-settle-claims-it-illegally-shared-user-data-with-advertisers/</guid>
-
-                                    <description>
-                        <![CDATA[Fubo was accused of giving advertisers customers' PII without their consent. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Fubo has agreed to pay $3.4 million to settle a class-action lawsuit that accused the sports-streaming service provider of unlawfully distributing customers' personally identifiable information (PII) without their consent.</p>
-<p>In December 2023, Ne’Tosha Burdette filed a complaint [<a href="https://cdn.arstechnica.net/wp-content/uploads/2025/07/burdette-v-fubotv-inc.-complaint.pdf">PDF</a>] against Fubo with the stated goal of stopping Fubo’s "unlawful disclosure of its customers'" PII. The complaint argued that Fubo violated the Video Privacy Protection Act (VPPA), “which prohibits the disclosure of consumers’ video viewing history without their informed, written consent." The filing added:</p>
-<blockquote><p>Critically, Defendant utilizes sophisticated tracking technology that collects its subscribers’ personally identifiable information… including information which identifies a person as having viewed specific videos on Defendant’s streaming service. Defendant knowingly discloses this information to third party advertisers so that they can target specific users with specifically tailored advertisements based on their viewing history.</p></blockquote>
-<p>Fubo’s privacy policy at the time stated that Fubo collected various data from its users, such as location information—including “precise or near-precise geolocation” and the use of “GPS coordinates”—as well as device and usage information (including “pages and content viewed and order of those pages" and "content recorded on FuboTV,”) per the complaint.</p><p><a href="https://arstechnica.com/gadgets/2025/07/fubo-pays-3-4m-to-settle-claims-it-illegally-shared-user-data-with-advertisers/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/07/fubo-pays-3-4m-to-settle-claims-it-illegally-shared-user-data-with-advertisers/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>18</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2022925606-1152x648-1751910061.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2022925606-500x500-1751910050.jpg" width="500"/>
-<media:credit>Gabby Jones/Bloomberg via Getty Images</media:credit></media:content>
             </item>
             </channel>
 </rss>
