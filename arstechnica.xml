@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Thu, 24 Jul 2025 12:12:09 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 25 Jul 2025 00:01:05 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,8 +19,542 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Two major AI coding tools wiped out user data after making cascading mistakes</title>
+                <link>https://arstechnica.com/information-technology/2025/07/ai-coding-assistants-chase-phantoms-destroy-real-user-data/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/07/ai-coding-assistants-chase-phantoms-destroy-real-user-data/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 21:01:28 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI confabulation]]></category>
+		<category><![CDATA[AI development]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI failures]]></category>
+		<category><![CDATA[AI hallucination]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[confabulations]]></category>
+		<category><![CDATA[data science]]></category>
+		<category><![CDATA[Gemini CLI]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Jason Lemkin]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[multimodal AI]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Replit]]></category>
+		<category><![CDATA[vibe coding]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/07/ai-coding-assistants-chase-phantoms-destroy-real-user-data/</guid>
+
+                                    <description>
+                        <![CDATA["I have failed you completely and catastrophically," wrote Gemini.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>New types of AI coding assistants promise to let anyone build software by typing commands in plain English. But when these tools generate incorrect internal representations of what's happening on your computer, the results can be catastrophic.</p>
+<p>Two recent incidents involving AI coding assistants put a spotlight on risks in the emerging field of "<a href="https://arstechnica.com/ai/2025/03/is-vibe-coding-with-ai-gnarly-or-reckless-maybe-some-of-both/">vibe coding</a>"—using natural language to generate and execute code through AI models without paying close attention to how the code works under the hood. In one case, Google's <a href="https://arstechnica.com/ai/2025/06/google-is-bringing-vibe-coding-to-your-terminal-with-gemini-cli/">Gemini CLI</a> destroyed user files while attempting to reorganize them. In another, Replit's AI coding service deleted a production database despite explicit instructions not to modify code.</p>
+<p>The Gemini CLI incident <a href="https://anuraag2601.github.io/gemini_cli_disaster.html">unfolded</a> when a product manager experimenting with Google's command-line tool watched the AI model execute file operations that destroyed data while attempting to reorganize folders. The destruction occurred through a series of move commands targeting a directory that never existed.</p><p><a href="https://arstechnica.com/information-technology/2025/07/ai-coding-assistants-chase-phantoms-destroy-real-user-data/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/07/ai-coding-assistants-chase-phantoms-destroy-real-user-data/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>91</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/02/robot_haywire_hero_2-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/02/robot_haywire_hero_2-500x500.jpg" width="500"/>
+<media:credit>Benj Edwards / Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Hackers—hope to defect to Russia? Don’t Google “defecting to Russia.”</title>
+                <link>https://arstechnica.com/security/2025/07/hackers-hope-to-defect-to-russia-dont-google-defecting-to-russia/</link>
+                                    <comments>https://arstechnica.com/security/2025/07/hackers-hope-to-defect-to-russia-dont-google-defecting-to-russia/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Nate Anderson]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 20:25:56 +0000</pubDate>
+                		<category><![CDATA[Security]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[US Army]]></category>
+		<category><![CDATA[Wagenius]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/hackers-hope-to-defect-to-russia-dont-google-defecting-to-russia/</guid>
+
+                                    <description>
+                        <![CDATA[Criminals who get caught are, unsurprisingly, not always great at opsec.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>To the casual observer, cybercriminals can look like swashbuckling geniuses.</p>
+<p>They possess technical skills formidable enough to penetrate the networks of the biggest companies on the planet.</p>
+<p>They cover their tracks using technology that is arcane to most people—VPNs, encrypted chat apps, onion routing, aliases in dark web forums.</p><p><a href="https://arstechnica.com/security/2025/07/hackers-hope-to-defect-to-russia-dont-google-defecting-to-russia/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/07/hackers-hope-to-defect-to-russia-dont-google-defecting-to-russia/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>38</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-1952157610-1152x648-1753386930.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-1952157610-500x500-1753386908.jpg" width="500"/>
+<media:credit>JuSun/Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Google’s new “Web Guide” will use AI to organize your search results</title>
+                <link>https://arstechnica.com/ai/2025/07/googles-new-web-guide-will-use-ai-to-organize-your-search-results/</link>
+                                    <comments>https://arstechnica.com/ai/2025/07/googles-new-web-guide-will-use-ai-to-organize-your-search-results/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 19:51:17 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[search]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/07/googles-new-web-guide-will-use-ai-to-organize-your-search-results/</guid>
+
+                                    <description>
+                        <![CDATA[The Web Guide experiment is available as an opt-in feature today. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Search is <a href="https://arstechnica.com/gadgets/2025/05/at-i-o-2025-google-leaves-no-doubt-that-ai-mode-is-the-future-of-search/">changing at a breakneck pace</a>, with Google rolling out new AI features so quickly it can be hard to keep up. So far, these AI implementations are being offered in addition to the traditional search experience. However, Google is now offering a sneak peek at how it may use AI to change the good old-fashioned list of blue links. The company says its new Web Guide feature is being developed to "intelligently organize" the results page, and you can try it now, if you dare.</p>
+<p>Many Google searches today come with an AI Overview right at the top of the page. There's also <a href="https://arstechnica.com/google/2025/03/google-is-expanding-ai-overviews-and-testing-ai-only-search-results/">AI Mode</a>, which does away with the typical list of links in favor of a full chatbot approach. While Google contends that these features enhance the search experience and direct users to good sources, it's been easy to scroll right past the AI and get to the regular list of websites. That may change in the not too distant future, though.</p>
+<p>Google's latest AI experiment, known as Web Guide, uses generative AI to organize the search results page. The company says Web Guide uses a custom version of Gemini to surface the most helpful webpages and organize the page in a more useful way. It uses the same fan-out technique as AI Mode, conducting multiple parallel searches to gather more data on your query.</p><p><a href="https://arstechnica.com/ai/2025/07/googles-new-web-guide-will-use-ai-to-organize-your-search-results/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/07/googles-new-web-guide-will-use-ai-to-organize-your-search-results/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>22</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/Web-Guide-hero-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/Web-Guide-hero-500x500-1753384524.jpg" width="500"/>
+<media:credit>Google</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Trump, who promised to save TikTok, threatens to shut down TikTok</title>
+                <link>https://arstechnica.com/tech-policy/2025/07/tiktok-will-shut-down-soon-if-china-wont-agree-to-trumps-deal-official-says/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/07/tiktok-will-shut-down-soon-if-china-wont-agree-to-trumps-deal-official-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 19:37:24 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[bytedance]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[national security]]></category>
+		<category><![CDATA[tiktok]]></category>
+		<category><![CDATA[us-china trade war]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/tiktok-will-shut-down-soon-if-china-wont-agree-to-trumps-deal-official-says/</guid>
+
+                                    <description>
+                        <![CDATA["TikTok is going to go dark," commerce secretary warns as negotiations falter.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Donald Trump <a href="https://arstechnica.com/tech-policy/2024/12/trump-told-scotus-he-plans-to-make-a-deal-to-save-tiktok/">vowed to save TikTok before taking office</a>, claiming only he could make a deal to keep the app operational in the US despite national security concerns.</p>
+<p>But then, he put Vice President JD Vance in charge of the deal, and after months of negotiations, the US still doesn't seem to have found terms for a sale that the Chinese government is willing to approve. Now, Trump Commerce Secretary Howard Lutnick has confirmed that if China won't approve the latest version of the deal—which could result in a <a href="https://arstechnica.com/tech-policy/2025/07/trumps-shaky-plan-to-save-tiktok-may-push-users-to-buggy-version-of-app/">buggy version of TikTok made just for the US</a>—the administration is willing to shut down TikTok. And soon.</p>
+<p>On Thursday, Lutnick <a href="https://www.youtube.com/watch?v=9n82rs3blMg">told CNBC</a> that TikTok would stop operating in the US if China and TikTok owner ByteDance won't sell the app to buyers that Trump lined up, along with control over TikTok's algorithm.</p><p><a href="https://arstechnica.com/tech-policy/2025/07/tiktok-will-shut-down-soon-if-china-wont-agree-to-trumps-deal-official-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/07/tiktok-will-shut-down-soon-if-china-wont-agree-to-trumps-deal-official-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>74</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2225297994-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2225297994-500x500.jpg" width="500"/>
+<media:credit>NurPhoto / Contributor | NurPhoto</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Trump’s order to make chatbots anti-woke is unconstitutional, senator says</title>
+                <link>https://arstechnica.com/tech-policy/2025/07/gop-ignores-groks-right-wing-bias-in-anti-woke-chatbot-fight-democrat-claims/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/07/gop-ignores-groks-right-wing-bias-in-anti-woke-chatbot-fight-democrat-claims/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 18:21:52 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ai action plan]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[conservative bias]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[grok]]></category>
+		<category><![CDATA[image generators]]></category>
+		<category><![CDATA[liberal bias]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[xAI]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/gop-ignores-groks-right-wing-bias-in-anti-woke-chatbot-fight-democrat-claims/</guid>
+
+                                    <description>
+                        <![CDATA[Trump plans to use chatbots to eliminate dissent, senator alleged.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The CEOs of every major artificial intelligence company received <a href="https://www.markey.senate.gov/imo/media/doc/letter_to_ai_companies_on_ai_actions.pdf">letters</a> Wednesday urging them to fight Donald Trump's <a href="https://www.whitehouse.gov/presidential-actions/2025/07/preventing-woke-ai-in-the-federal-government/">anti-woke AI order</a>.</p>
+<p>Trump's executive order requires any AI company hoping to contract with the federal government to jump through two hoops to win funding. First, they must prove their AI systems are "truth-seeking"—with outputs based on "historical accuracy, scientific inquiry, and objectivity" or else acknowledge when facts are uncertain. Second, they must train AI models to be "neutral," which is vaguely defined as not favoring DEI (diversity, equity, and inclusion), "dogmas," or otherwise being "intentionally encoded" to produce "partisan or ideological judgments" in outputs "unless those judgments are prompted by or otherwise readily accessible to the end user."</p>
+<p>Announcing the order in a speech, Trump said that the US winning the AI race depended on removing allegedly liberal biases, proclaiming that "once and for all, we are getting rid of woke."</p><p><a href="https://arstechnica.com/tech-policy/2025/07/gop-ignores-groks-right-wing-bias-in-anti-woke-chatbot-fight-democrat-claims/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/07/gop-ignores-groks-right-wing-bias-in-anti-woke-chatbot-fight-democrat-claims/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>113</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2226709730-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2226709730-500x500.jpg" width="500"/>
+<media:credit>Chip Somodevilla / Staff | Getty Images News</media:credit><media:text>Donald Trump speaks during the "Winning the AI Race" summit.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Nvidia AI chips worth $1B smuggled to China after Trump export controls</title>
+                <link>https://arstechnica.com/ai/2025/07/nvidia-ai-chips-worth-1b-smuggled-to-china-after-trump-export-controls/</link>
+                                    <comments>https://arstechnica.com/ai/2025/07/nvidia-ai-chips-worth-1b-smuggled-to-china-after-trump-export-controls/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Zijing Wu and Eleanor Olcott, Financial Times]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 18:11:23 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/07/nvidia-ai-chips-worth-1b-smuggled-to-china-after-trump-export-controls/</guid>
+
+                                    <description>
+                        <![CDATA[Black market for US semiconductors operates despite efforts to curb Beijing’s high-tech ambitions.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>At least $1 billion worth of Nvidia’s advanced artificial intelligence processors were shipped to China in the three months after Donald Trump tightened chip export controls, exposing the limits of Washington’s efforts to restrain Beijing’s high-tech ambitions.</p>
+<p>A Financial Times analysis of dozens of sales contracts, company filings, and multiple people with direct knowledge of the deals reveals that Nvidia’s B200 has become the most sought-after—and widely available—chip in a rampant Chinese black market for American semiconductors.</p>
+<p>The processor is widely used by US powerhouses such as OpenAI, Google, and Meta to train their latest AI systems, but banned for sale to China.</p><p><a href="https://arstechnica.com/ai/2025/07/nvidia-ai-chips-worth-1b-smuggled-to-china-after-trump-export-controls/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/07/nvidia-ai-chips-worth-1b-smuggled-to-china-after-trump-export-controls/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>24</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/11/nvidia-sign-1-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/11/nvidia-sign-1-500x500.jpg" width="500"/>
+<media:credit>VGG | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Study sheds light on why some people keep self-sabotaging</title>
+                <link>https://arstechnica.com/science/2025/07/study-sheds-light-on-why-some-people-keep-self-sabotaging/</link>
+                                    <comments>https://arstechnica.com/science/2025/07/study-sheds-light-on-why-some-people-keep-self-sabotaging/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 18:01:49 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[cognitive neuroscience]]></category>
+		<category><![CDATA[cognitive psychology]]></category>
+		<category><![CDATA[decision making]]></category>
+		<category><![CDATA[psychology]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/07/study-sheds-light-on-why-some-people-keep-self-sabotaging/</guid>
+
+                                    <description>
+                        <![CDATA["Some people just don't learn from experience; they fail to realize their own behavior is causing the problem."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Most people, after suffering consequences for a bad decision, will alter their future behavior to avoid a similar negative outcome. That's just common sense. But many social circles have that one friend who never seems to learn from those consequences, repeatedly self-sabotaging themselves with the same bad decisions. When it comes to especially destructive behaviors, like addictions, the consequences can be severe or downright tragic.</p>
+<p>Why do they do this? Researchers at the University of New South Wales (UNSW) in Sydney, Australia, suggest that the core issue is that such people don't seem able to make a causal connection between their choices/behavior and the bad outcome, according to a <a href="https://www.nature.com/articles/s44271-025-00284-9">new paper</a> published in the journal Nature Communications Psychology. Nor are they able to integrate new knowledge into their decision-making process effectively to get better results. The results could lead to the development of new intervention strategies for gambling, drug, and alcohol addictions.</p>
+<p>In 2023, UNSW neuroscientist Philip Jean-Richard Dit Bressel and colleagues <a href="https://www.unsw.edu.au/newsroom/news/2023/04/research-sheds-new-light-on-self-destructive-behaviour">designed an experimental video game</a> to explore the issue of why certain people keep making the same bad choices despite suffering some form of punishment as a result. Participants played the interactive online game by clicking on one of two planets to "trade" with them; choosing the correct planet resulted in earning points.</p><p><a href="https://arstechnica.com/science/2025/07/study-sheds-light-on-why-some-people-keep-self-sabotaging/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/07/study-sheds-light-on-why-some-people-keep-self-sabotaging/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>70</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/self-sabotage-game-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/self-sabotage-game-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Some VMware perpetual license owners are unable to download security patches</title>
+                <link>https://arstechnica.com/information-technology/2025/07/some-vmware-perpetual-license-owners-are-unable-to-download-security-patches/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/07/some-vmware-perpetual-license-owners-are-unable-to-download-security-patches/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 17:51:43 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Broadcom]]></category>
+		<category><![CDATA[europe]]></category>
+		<category><![CDATA[vmware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/07/some-vmware-perpetual-license-owners-are-unable-to-download-security-patches/</guid>
+
+                                    <description>
+                        <![CDATA[Customers will get patches at unspecified "later date," Broadcom says.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Some VMware perpetual license holders are currently unable to download security patches, <a href="https://www.theregister.com/2025/07/23/vmware_patch_download_problems/">The Register</a> reported today. The virtualization company has only said that these users will receive the patches at “a later date,” meaning users are uncertain how long their virtualization environments will be at risk.</p>
+<p>Since Broadcom bought VMware and <a href="https://arstechnica.com/information-technology/2023/12/broadcom-ends-vmware-perpetual-license-sales-testing-customers-and-partners/">ended perpetual license sales</a> in favor of bundled subscription-based SKUs, some organizations have opted against signing up for a subscription and are running VMware without a support contract. These users are still supposed to have access to zero-day security patches. However, some customers reported to The Register that they have been unable to download VMware patches from Broadcom’s support portal.</p>
+<p>VMware customer service has told some of these customers that they may have to wait 90 days before they can download the patches, The Register reported.</p><p><a href="https://arstechnica.com/information-technology/2025/07/some-vmware-perpetual-license-owners-are-unable-to-download-security-patches/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/07/some-vmware-perpetual-license-owners-are-unable-to-download-security-patches/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>31</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/01/GettyImages-474325206-1152x648-1753374517.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/01/GettyImages-474325206-500x500.jpg" width="500"/>
+<media:credit>Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Once a relative haven for adult games, itch.io begins removing explicit titles</title>
+                <link>https://arstechnica.com/gaming/2025/07/once-a-relative-haven-for-adult-games-itch-io-begins-removing-explicit-titles/</link>
+                                    <comments>https://arstechnica.com/gaming/2025/07/once-a-relative-haven-for-adult-games-itch-io-begins-removing-explicit-titles/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 17:40:54 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[itch.io]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2025/07/once-a-relative-haven-for-adult-games-itch-io-begins-removing-explicit-titles/</guid>
+
+                                    <description>
+                        <![CDATA[Dozens of games deleted with no advance notice, thousands more hidden by "deindexing."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Indie game clearinghouse itch.io is the latest online gaming storefront to take action to remove or limit the availability of some adult content, bowing to pressure from payment processors spurred by an Australian grassroots group's campaign against certain sexualized content.</p>
+<p>Wednesday night, itch.io creators and users <a href="https://www.reddit.com/r/visualnovels/comments/1m7r6bl/itchio_has_now_effectively_banned_all_adult/">began</a> <a href="https://bsky.app/profile/ebihimes.bsky.social/post/3luoe7z2zps2d">noticing</a> that many adult-oriented games and content were no longer appearing in search results on the platform. Other creators <a href="https://bsky.app/profile/ebihimes.bsky.social/post/3luoismebm22g">reported</a> that their adult-focused titles had been removed from the platform entirely, without any advance warning.</p>
+<p>By early Thursday morning, itch.io had <a href="https://itch.io/updates/update-on-nsfw-content">confirmed in a blog post</a> that it had "'deindexed' all adult NSFW content from our browser and search pages." Itch said the move—which it admitted was "sudden and disruptive"—came in response to a pressure campaign from <a href="https://www.collectiveshout.org/">Collective Shout</a>, an Australian nonprofit that describes itself as "a grassroots movement challenging the objectification of women and sexualization of girls in media, advertising, and popular culture."</p><p><a href="https://arstechnica.com/gaming/2025/07/once-a-relative-haven-for-adult-games-itch-io-begins-removing-explicit-titles/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2025/07/once-a-relative-haven-for-adult-games-itch-io-begins-removing-explicit-titles/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>119</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/itchio-1152x648-1753375884.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/itchio-500x500-1753375926.png" width="500"/>
+<media:text>The itch,io logo</media:text></media:content>
+            </item>
+                    <item>
+                <title>Six lesser-known features to like in the macOS 26 Tahoe public beta</title>
+                <link>https://arstechnica.com/gadgets/2025/07/six-lesser-known-features-to-like-in-the-macos-26-tahoe-public-beta/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/07/six-lesser-known-features-to-like-in-the-macos-26-tahoe-public-beta/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 17:20:19 +0000</pubDate>
+                		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[MacOS]]></category>
+		<category><![CDATA[macos 26]]></category>
+		<category><![CDATA[macos 26 tahoe]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/07/six-lesser-known-features-to-like-in-the-macos-26-tahoe-public-beta/</guid>
+
+                                    <description>
+                        <![CDATA[Here are some things you can kick the tires on if you install the public beta.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Apple released the macOS 26 Tahoe public beta today, alongside the public betas for iOS, iPadOS, and other operating systems.</p>
+<p>The headliner this year is the new Liquid Glass aesthetic that Apple is introducing across its entire product lineup this year, and aside from that, there's nothing coming to the Mac that feels quite as significant as the iPad's new multi-window multitasking interface.</p>
+<p>But macOS remains Apple's most powerful, most flexible, and most power-user-friendly operating system, and per usual, there are a few new things coming in other than the big headliners. Here are a handful of under-the-hood and lesser-publicized things coming in Tahoe, both for those who install the public beta this summer and who install the final version of the update in the fall.</p><p><a href="https://arstechnica.com/gadgets/2025/07/six-lesser-known-features-to-like-in-the-macos-26-tahoe-public-beta/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/07/six-lesser-known-features-to-like-in-the-macos-26-tahoe-public-beta/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>24</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/tahoe-default-wallpaper-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/tahoe-default-wallpaper-500x500.jpeg" width="500"/>
+<media:credit>Apple</media:credit><media:text>The current macOS 26 Tahoe default wallpaper.</media:text></media:content>
+            </item>
+                    <item>
+                <title>iPadOS 26 preview: The rare software update that makes (most) old hardware feel new</title>
+                <link>https://arstechnica.com/gadgets/2025/07/ipados-26-preview-the-rare-software-update-that-makes-most-old-hardware-feel-new/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/07/ipados-26-preview-the-rare-software-update-that-makes-most-old-hardware-feel-new/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 17:18:54 +0000</pubDate>
+                		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ipad]]></category>
+		<category><![CDATA[iPad Air]]></category>
+		<category><![CDATA[ipad air 3]]></category>
+		<category><![CDATA[iPadOS]]></category>
+		<category><![CDATA[ipados 26]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/07/ipados-26-preview-the-rare-software-update-that-makes-most-old-hardware-feel-new/</guid>
+
+                                    <description>
+                        <![CDATA[Public beta arrives today; here’s what we’ve found in our weeks of testing. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Mac and the iPad are different devices that do different things. This has been the line from Apple executives, from its initial introduction to the advent of touchscreen PCs to just last month when Apple’s Craig Federighi <a href="https://arstechnica.com/gadgets/2025/06/apples-craig-federighi-on-the-long-road-to-the-ipads-mac-like-multitasking/">talked to us about iPadOS 26’s new multitasking features</a>.</p>
+<p>But it sometimes feels like this internal commitment to keeping the devices separate has held the iPad back as its hardware has become more capable. A mouse cursor? Sure, we’ll add it, after a few years of insisting on keyboard-and-finger interactions, but we’ll make it round and imprecise instead of pointy because the iPad is Different. Windowed multitasking? Sure, we’ll give you a version of it, but you can’t do whatever you want with the windows, and we’ll tie it to a weird new interface for grouping them, because the iPad is Different.</p>
+<p>I respect the desire not to take the path of least resistance here, which would be to imitate the Mac by default without trying to do anything new. And it’s not like you could just move macOS elements over totally unchanged; having a touch-first user interface and touch-first apps means the iPad’s system needs to work well with both touch <em>and</em> a keyboard-and-mouse/trackpad setup. It needs to work well in landscape and portrait modes.</p><p><a href="https://arstechnica.com/gadgets/2025/07/ipados-26-preview-the-rare-software-update-that-makes-most-old-hardware-feel-new/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/07/ipados-26-preview-the-rare-software-update-that-makes-most-old-hardware-feel-new/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>35</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/ipados-26-welcome-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/ipados-26-welcome-500x500.jpeg" width="500"/>
+<media:credit>Andrew Cunningham</media:credit><media:text>The Liquid Glass-style welcome screen in iPadOS 26.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Apple releases public betas of Liquid Glass-ified next-gen software updates</title>
+                <link>https://arstechnica.com/gadgets/2025/07/public-betas-of-ios-26-macos-26-ipados-26-and-other-oses-now-available/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/07/public-betas-of-ios-26-macos-26-ipados-26-and-other-oses-now-available/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 17:17:00 +0000</pubDate>
+                		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[ios 26]]></category>
+		<category><![CDATA[ipados 26]]></category>
+		<category><![CDATA[macos 26]]></category>
+		<category><![CDATA[macos 26 tahoe]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/07/public-betas-of-ios-26-macos-26-ipados-26-and-other-oses-now-available/</guid>
+
+                                    <description>
+                        <![CDATA[These versions are still betas, but they should be mostly OK for day-to-day use.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As promised, Apple has just released <a href="https://beta.apple.com/">the first public beta versions</a> for the next-generation versions of <a href="https://arstechnica.com/gadgets/2025/06/apple-aims-for-more-personal-and-expressive-ios-26-with-new-liquid-glass-design/">iOS</a>, iPadOS, macOS, and most of its other operating systems. The headlining feature of all the updates this year is Apple’s new Liquid Glass user interface, which is rolling out to all of these operating systems simultaneously. It’s the biggest and most comprehensive update to Apple’s software design aesthetic since iOS 7 was released in 2013.</p>
+<p>Rather than getting iOS 19, macOS 16, and watchOS 12, all of the new operating systems this year are labeled as <a href="https://arstechnica.com/gadgets/2025/05/report-apple-will-jump-straight-to-ios-26-in-shift-to-year-based-version-numbers/">version 26</a>, a shift to a new year-based version numbering system meant to make releases more consistent across all of Apple's platforms.</p>
+<p>The one major update that isn’t getting a public beta is visionOS 26. If you want to test the new software on a Vision Pro, you’ll need to sign up for <a href="https://developer.apple.com/">the developer betas</a> instead—just know that when Apple chooses not to release a public beta, there’s usually a good reason. You might risk additional instability, an increased risk of data loss, or even damage to your device, so tread especially carefully.</p><p><a href="https://arstechnica.com/gadgets/2025/07/public-betas-of-ios-26-macos-26-ipados-26-and-other-oses-now-available/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/07/public-betas-of-ios-26-macos-26-ipados-26-and-other-oses-now-available/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>15</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/apple-os-beta-26-2025-1152x648-1750706565.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/apple-os-beta-26-2025-500x500-1750706554.jpeg" width="500"/>
+<media:credit>Apple</media:credit><media:text>Devices running Apple's latest beta operating systems.</media:text></media:content>
+            </item>
+                    <item>
+                <title>RFK Jr.’s anti-vaccine group sues him: “This is not the Bobby we know”</title>
+                <link>https://arstechnica.com/health/2025/07/anti-vaccine-group-founded-by-rfk-jr-sues-rfk-jr-over-vaccine-task-force/</link>
+                                    <comments>https://arstechnica.com/health/2025/07/anti-vaccine-group-founded-by-rfk-jr-sues-rfk-jr-over-vaccine-task-force/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 16:58:50 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[children's health defense]]></category>
+		<category><![CDATA[HHS]]></category>
+		<category><![CDATA[Robert F. Kennedy]]></category>
+		<category><![CDATA[vaccines]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2025/07/anti-vaccine-group-founded-by-rfk-jr-sues-rfk-jr-over-vaccine-task-force/</guid>
+
+                                    <description>
+                        <![CDATA[The group wants a task force that no health secretary has set up since 1998.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A lawyer who represents Children's Health Defense—the rabid anti-vaccine organization founded by the equally fervent anti-vaccine advocate and current US health secretary, Robert F. Kennedy Jr.—has <a href="https://storage.courtlistener.com/recap/gov.uscourts.nvd.174859/gov.uscourts.nvd.174859.1.0.pdf">filed a lawsuit</a> against Kennedy, alleging that he has failed to set up a task force to promote safer childhood vaccinations.</p>
+<p>The task force's creation is outlined in the <a href="https://www.hrsa.gov/sites/default/files/hrsa/vicp/title-xxi-phs-vaccines-1517.pdf">National Childhood Vaccine Injury Act of 1986</a>, which is mainly known for setting up the <a href="https://www.hrsa.gov/vaccine-compensation/about">National Vaccine Injury Compensation Program</a>. The program provides compensation to people who have credible claims that they were injured by a vaccination, such as experiencing a very rare, severe side effect. It acts as a no-fault alternative to costly lawsuits against pharmaceutical companies. Otherwise, those lawsuits could deter pharmaceutical companies from marketing and developing vaccines, which would create a grave threat to vaccination rates and public health.</p>
+<p>Tucked into the 1986 law is also a provision that states the US health secretary "shall establish a task force on safer childhood vaccines." The task force is intended to "promote the development of childhood vaccines that result in fewer and less serious adverse reactions than those vaccines on the market on the effective date of this part and promote the refinement of such vaccines." The task force is supposed to provide progress reports to Congress, which are to be submitted every two years.</p><p><a href="https://arstechnica.com/health/2025/07/anti-vaccine-group-founded-by-rfk-jr-sues-rfk-jr-over-vaccine-task-force/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/07/anti-vaccine-group-founded-by-rfk-jr-sues-rfk-jr-over-vaccine-task-force/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>67</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2225268507-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2225268507-500x500.jpg" width="500"/>
+<media:credit>Getty | Michael M. Santiago</media:credit><media:text> US Health and Human Services (HHS) Secretary Robert F. Kennedy Jr. at  the US Capitol on July 15, 2025 in Washington, DC.</media:text></media:content>
+            </item>
+                    <item>
+                <title>White House unveils sweeping plan to “win” global AI race through deregulation</title>
+                <link>https://arstechnica.com/ai/2025/07/white-house-unveils-sweeping-plan-to-win-global-ai-race-through-deregulation/</link>
+                                    <comments>https://arstechnica.com/ai/2025/07/white-house-unveils-sweeping-plan-to-win-global-ai-race-through-deregulation/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 24 Jul 2025 14:37:05 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI and work]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[AI law]]></category>
+		<category><![CDATA[AI regulation]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[AI security]]></category>
+		<category><![CDATA[biosecurity]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[Chips Act]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[David Sacks]]></category>
+		<category><![CDATA[deepfakes]]></category>
+		<category><![CDATA[Department of Commerce]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[Energy]]></category>
+		<category><![CDATA[Export controls]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Michael Kratsios]]></category>
+		<category><![CDATA[national security]]></category>
+		<category><![CDATA[NIST]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[semiconductors]]></category>
+		<category><![CDATA[White House]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/07/white-house-unveils-sweeping-plan-to-win-global-ai-race-through-deregulation/</guid>
+
+                                    <description>
+                        <![CDATA[Trump's "AI Action Plan" reverses regulations, sparks critical pushback.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday, the White House <a href="https://www.whitehouse.gov/articles/2025/07/white-house-unveils-americas-ai-action-plan/">released</a> "Winning the Race: America's AI Action Plan," a 25-page <a href="https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf">document</a> that outlines the Trump administration's strategy to "maintain unquestioned and unchallenged global technological dominance" in AI through deregulation, infrastructure investment, and international partnerships. But critics are already taking aim at the plan, saying it's doing Big Tech a big favor.</p>
+<p>Assistant to the President for Science and Technology <a href="https://en.wikipedia.org/wiki/Michael_Kratsios">Michael Kratsios</a> and Special Advisor for AI and Crypto <a href="https://en.wikipedia.org/wiki/David_O._Sacks">David Sacks</a> crafted the plan, which frames AI development as a race the US must win against global competitors, particularly China.</p>
+<p>The document describes AI as the catalyst for "an industrial revolution, an information revolution, and a renaissance—all at once." It calls for removing regulatory barriers that the administration says hamper private sector innovation. The plan explicitly reverses several Biden-era policies, including <a href="https://arstechnica.com/information-technology/2023/10/biden-ai-executive-order-requires-safety-testing-for-ai-that-poses-serious-risk/">Executive Order 14110</a> on AI model safety measures, which President Trump <a href="https://arstechnica.com/tech-policy/2025/01/trumps-day-one-orders-saving-tiktok-creating-doge-and-ending-censorship/">rescinded</a> on his first day in office during his second term.</p><p><a href="https://arstechnica.com/ai/2025/07/white-house-unveils-sweeping-plan-to-win-global-ai-race-through-deregulation/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/07/white-house-unveils-sweeping-plan-to-win-global-ai-race-through-deregulation/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>129</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/03/GettyImages-1281976224-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/03/GettyImages-1281976224-500x500.jpg" width="500"/>
+<media:credit>Joe Daniel Price | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
                 <title>SpaceX launches a pair of NASA satellites to probe the origins of space weather</title>
                 <link>https://arstechnica.com/space/2025/07/spacex-launches-a-pair-of-nasa-satellites-to-probe-the-origins-of-space-weather/</link>
+                                    <comments>https://arstechnica.com/space/2025/07/spacex-launches-a-pair-of-nasa-satellites-to-probe-the-origins-of-space-weather/#comments</comments>
                 
                 <dc:creator>
                     <![CDATA[Stephen Clark]]>
@@ -48,6 +582,7 @@
 ]]>
                         </content:encoded>
                                     
+                                    <slash:comments>20</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/solarwind_magneto-1152x648.jpg" width="1152">
@@ -85,13 +620,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>On Tuesday, OpenAI <a href="https://openai.com/news/stargate-advances-with-oracle-partnership/">announced</a> a partnership with Oracle to develop 4.5 gigawatts of additional data center capacity for its <a href="https://arstechnica.com/ai/2025/01/trump-announces-500b-stargate-ai-infrastructure-project-with-agi-aims/">Stargate AI infrastructure platform</a> in the US. The expansion, which <a href="https://techcrunch.com/2025/07/22/openai-agreed-to-pay-oracle-30b-a-year-for-data-center-services/">TechCrunch reports</a> is part of a $30 billion-per-year deal between OpenAI and Oracle, will reportedly bring OpenAI's total Stargate capacity under development to over 5 gigawatts.</p>
-<p>The data center has taken root in <a href="https://en.wikipedia.org/wiki/Abilene,_Texas">Abilene</a>, Texas, a city of 127,000 located 150 miles west of Fort Worth. The city, which serves as the commercial hub of a 19-county region known as the "<a href="https://keanradio.com/why-is-the-abilene-are-called-the-big-country/">Big Country</a>," offers a location with existing tech infrastructure, including <a href="https://en.wikipedia.org/wiki/Dyess_Air_Force_Base">Dyess Air Force Base</a> and three universities. Abilene's economy has evolved over time from its agricultural and livestock roots to embrace technology and manufacturing sectors.</p>
+<p>The data center has taken root in <a href="https://en.wikipedia.org/wiki/Abilene,_Texas">Abilene</a>, Texas, a city of 127,000 located 150 miles west of Fort Worth. The city, which serves as the commercial hub of a 19-county region known as the "<a href="https://keanradio.com/why-is-the-abilene-are-called-the-big-country/">Big Country</a>," offers a location with existing tech employment ecosystem, including <a href="https://en.wikipedia.org/wiki/Dyess_Air_Force_Base">Dyess Air Force Base</a> and three universities. Abilene's economy has evolved over time from its agricultural and livestock roots to embrace technology and manufacturing sectors.</p>
 <p>"We have signed a deal for an additional 4.5 gigawatts of capacity with oracle as part of stargate. easy to throw around numbers, but this is a gigantic infrastructure project," <a href="https://x.com/sama/status/1947640330318156074">wrote</a> OpenAI CEO Sam Altman on X. "We are planning to significantly expand the ambitions of stargate past the $500 billion commitment we announced in January."</p><p><a href="https://arstechnica.com/ai/2025/07/openai-and-partners-are-building-a-massive-ai-data-center-in-texas/">Read full article</a></p>
 <p><a href="https://arstechnica.com/ai/2025/07/openai-and-partners-are-building-a-massive-ai-data-center-in-texas/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>81</slash:comments>
+                                    <slash:comments>115</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/stargate-advances-with-partnership-with-oracle-1-1152x648.jpg" width="1152">
@@ -122,7 +657,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>179</slash:comments>
+                                    <slash:comments>302</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-1232815520-1152x648.jpg" width="1152">
@@ -161,7 +696,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>35</slash:comments>
+                                    <slash:comments>50</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/LeFay-1152x648.jpg" width="1152">
@@ -197,7 +732,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>32</slash:comments>
+                                    <slash:comments>38</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg">
@@ -231,520 +766,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>106</slash:comments>
+                                    <slash:comments>180</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/webp" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/clorox-e1753297667592-1152x648-1753297784.webp" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/clorox-e1753297667592-500x500-1753297730.webp" width="500"/>
 </media:content>
-            </item>
-                    <item>
-                <title>AI video is invading YouTube Shorts and Google Photos starting today</title>
-                <link>https://arstechnica.com/google/2025/07/ai-video-is-invading-youtube-shorts-and-google-photos-starting-today/</link>
-                                    <comments>https://arstechnica.com/google/2025/07/ai-video-is-invading-youtube-shorts-and-google-photos-starting-today/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Wed, 23 Jul 2025 19:34:55 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[Google photos]]></category>
-		<category><![CDATA[YouTube]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/google/2025/07/ai-video-is-invading-youtube-shorts-and-google-photos-starting-today/</guid>
-
-                                    <description>
-                        <![CDATA[Google is making video AI models harder to ignore.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Google is following through on recent promises to add more generative AI features to its photo and video products. Over on YouTube, Google is rolling out the first wave of generative AI video for YouTube Shorts, but even if you're not a YouTuber, you'll be exposed to more AI videos soon. Google Photos, which is integrated with virtually every Android phone on the market, is also getting AI video-generation capabilities. In both cases, the features are currently based on the older Veo 2 model, not the more capable Veo 3 that has been <a href="https://arstechnica.com/ai/2025/05/googles-will-smith-double-is-better-at-eating-ai-spaghetti-but-its-crunchy/">meming across the Internet</a> since it was announced at I/O in May.</p>
-<p>YouTube CEO Neal Mohan <a href="https://arstechnica.com/gadgets/2025/06/googles-veo-3-ai-videos-will-come-to-youtube-shorts-this-summer/">confirmed earlier this summer</a> that the company planned to add generative AI to the creator tools for YouTube Shorts. There were already tools to generate backgrounds for videos, but the next phase will involve creating new video elements from a text prompt.</p>
-<p><a href="https://blog.youtube/news-and-events/new-shorts-creation-tools-2025/">Starting today</a>, creators will be able to use a photo as the basis for a new generative AI video. YouTube also promises a collection of easily applied generative effects, which will be accessible from the Shorts camera. There's also a new AI playground hub that the company says will be home to all its AI tools, along with examples and suggested prompts to help people pump out AI content.</p><p><a href="https://arstechnica.com/google/2025/07/ai-video-is-invading-youtube-shorts-and-google-photos-starting-today/">Read full article</a></p>
-<p><a href="https://arstechnica.com/google/2025/07/ai-video-is-invading-youtube-shorts-and-google-photos-starting-today/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>72</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/Final_Hero_Asset_Thumbnail-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/Final_Hero_Asset_Thumbnail-500x500.jpg" width="500"/>
-<media:credit>Google</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Ukrainians arrest alleged admin of major crime forum XSS</title>
-                <link>https://arstechnica.com/tech-policy/2025/07/ukrainians-arrest-alleged-admin-of-major-crime-forum-xss/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/07/ukrainians-arrest-alleged-admin-of-major-crime-forum-xss/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Wed, 23 Jul 2025 19:10:08 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[BreachForums]]></category>
-		<category><![CDATA[crime forum]]></category>
-		<category><![CDATA[cybercrime]]></category>
-		<category><![CDATA[encrypted messaging]]></category>
-		<category><![CDATA[europol]]></category>
-		<category><![CDATA[Jabber]]></category>
-		<category><![CDATA[xss]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/ukrainians-arrest-alleged-admin-of-major-crime-forum-xss/</guid>
-
-                                    <description>
-                        <![CDATA[Intercepted Jabber messages lead to arrest of suspected admin of cybercrime hub.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Yesterday, Ukrainian authorities arrested the suspected administrator of a notorious Russian-language crime forum, XSS.is.</p>
-<p>In an X <a href="https://x.com/parquetdeParis/status/1947963032564334608">post</a>, the Paris Prosecutor's Office announced that Ukrainian authorities detained the suspect after an investigation conducted with French authorities' and Europol's help that began almost exactly four years ago.</p>
-<p>XSS has been "one of the main hubs of global cybercrime" since 2013, French authorities said, allowing "the sale of malware, access to compromised systems, stolen data, and ransomware-related services."</p><p><a href="https://arstechnica.com/tech-policy/2025/07/ukrainians-arrest-alleged-admin-of-major-crime-forum-xss/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/07/ukrainians-arrest-alleged-admin-of-major-crime-forum-xss/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>16</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2178211124-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2178211124-500x500.jpg" width="500"/>
-<media:credit>filo | DigitalVision Vectors</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Whistleblower scientists outline Trump’s plan to politicize and dismantle NSF</title>
-                <link>https://arstechnica.com/tech-policy/2025/07/whistleblower-scientists-outline-trumps-plan-to-politicize-and-dismantle-nsf/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/07/whistleblower-scientists-outline-trumps-plan-to-politicize-and-dismantle-nsf/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Wed, 23 Jul 2025 16:57:30 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[china]]></category>
-		<category><![CDATA[doge]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[National Science Foundation]]></category>
-		<category><![CDATA[NSF]]></category>
-		<category><![CDATA[trump administration]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/whistleblower-scientists-outline-trumps-plan-to-politicize-and-dismantle-nsf/</guid>
-
-                                    <description>
-                        <![CDATA[Trump gutting NSF will forfeit scientific leadership to China, letter of dissent says.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Nearly 150 employees of the National Science Foundation (NSF) sent an urgent <a href="https://democrats-science.house.gov/imo/media/doc/AFGE_Local_3403_NSF_Letter_to_RM_Lofgren_REDACTED_Redacted.pdf">letter</a> of dissent to Congress on Tuesday, warning that the Trump administration's recent "politically motivated and legally questionable" actions threaten to dismantle the independent "world-renowned scientific agency."</p>
-<p>Most NSF employees signed the letter anonymously, with only Jesus Soriano, the president of their local union (AFGE Local 3403), publicly disclosing his name. Addressed to Rep. Zoe Lofgren (D-Calif.), ranking member of the House Committee on Science, Space, and Technology, the letter insisted that Congress intervene to stop steep budget cuts, mass firings and grant terminations, withholding of billions in appropriated funds, allegedly coerced resignations, and the sudden eviction of NSF from its headquarters planned for next year.</p>
-<p>Perhaps most disturbingly, the letter revealed "a covert and ideologically driven secondary review process by unqualified political appointees" that is now allegedly "interfering with the scientific merit-based review system" that historically has made NSF a leading, trusted science agency. Soriano further warned that "scientists, program officers, and staff" have all "been targeted for doing their jobs with integrity" in what the letter warned was "a broader agenda to dismantle institutional safeguards, impose demagoguery in research funding decisions, and undermine science."</p><p><a href="https://arstechnica.com/tech-policy/2025/07/whistleblower-scientists-outline-trumps-plan-to-politicize-and-dismantle-nsf/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/07/whistleblower-scientists-outline-trumps-plan-to-politicize-and-dismantle-nsf/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>111</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2221489911-1152x648-1753287237.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2221489911-500x500-1753287220.jpg" width="500"/>
-<media:credit>Bloomberg / Contributor | Bloomberg</media:credit><media:text>The National Science Foundation headquarters in Alexandria, Virginia.</media:text></media:content>
-            </item>
-                    <item>
-                <title>What exactly is Golden Dome? This Space Force general owes Trump an answer.</title>
-                <link>https://arstechnica.com/space/2025/07/what-exactly-is-golden-dome-this-space-force-general-owes-trump-an-answer/</link>
-                                    <comments>https://arstechnica.com/space/2025/07/what-exactly-is-golden-dome-this-space-force-general-owes-trump-an-answer/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Wed, 23 Jul 2025 15:17:01 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[golden dome]]></category>
-		<category><![CDATA[military space]]></category>
-		<category><![CDATA[missile defense]]></category>
-		<category><![CDATA[space policy]]></category>
-		<category><![CDATA[US Space Force]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2025/07/what-exactly-is-golden-dome-this-space-force-general-owes-trump-an-answer/</guid>
-
-                                    <description>
-                        <![CDATA["Basically, I've been given 60 days to come up with the objective architecture."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The newly installed head of the Pentagon's Golden Dome missile defense shield, a monumental undertaking projected to cost $175 billion over the next three years, knows the clock is ticking to show President Donald Trump some results before the end of his term in the White House.</p>
-<p>"We are going to try to craft a schedule to have incremental demonstrations every six months because we are on a short timeline," said Gen. Michael Guetlein, who was confirmed by the Senate last week to become the military's Golden Dome czar.</p>
-<p>Speaking on Tuesday, his second day on the job leading the Golden Dome initiative, Guetlein said his team will "move out with a sense of urgency and move out with incremental wins" as the military races to meet Trump's timeline.</p><p><a href="https://arstechnica.com/space/2025/07/what-exactly-is-golden-dome-this-space-force-general-owes-trump-an-answer/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/07/what-exactly-is-golden-dome-this-space-force-general-owes-trump-an-answer/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>157</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2215584013-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2215584013-500x500.jpg" width="500"/>
-<media:credit>Jim Watson/AFP via Getty Images</media:credit><media:text>Gen. Michael Guetlein, overseeing the development of the Golden Dome missile defense system, looks on as President Donald Trump speaks in the Oval Office of the White House on May 20, 2025, in Washington, DC.</media:text></media:content>
-            </item>
-                    <item>
-                <title>New “AppleCare One” plan bundles three extended warranties for $20 a month</title>
-                <link>https://arstechnica.com/gadgets/2025/07/new-applecare-one-plan-bundles-three-extended-warranties-for-20-a-month/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/07/new-applecare-one-plan-bundles-three-extended-warranties-for-20-a-month/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Wed, 23 Jul 2025 14:19:06 +0000</pubDate>
-                		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[AppleCare]]></category>
-		<category><![CDATA[ipad]]></category>
-		<category><![CDATA[iphone]]></category>
-		<category><![CDATA[MacBook]]></category>
-		<category><![CDATA[MacBook Air]]></category>
-		<category><![CDATA[MacBook Pro]]></category>
-		<category><![CDATA[warranty]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/07/new-applecare-one-plan-bundles-three-extended-warranties-for-20-a-month/</guid>
-
-                                    <description>
-                        <![CDATA[You can add older devices to a new plan, even if they're not already covered.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Apple is introducing a fairly major update to its AppleCare extended warranty program today: <a href="https://www.apple.com/newsroom/2025/07/apple-introduces-applecare-one-streamlining-coverage-into-a-single-plan/">AppleCare One</a>, a program meant to cover users with multiple Apple devices who want extended hardware and software support for all of them. The program can cover up to three devices, regardless of what kind of device they are, for $19.99 a month, and additional devices can be added for a flat $5.99 a month.</p>
-<p>The new program comes several months after Apple <a href="https://www.macrumors.com/2025/02/04/applecare-iphone-price-increase/">raised prices for iPhone AppleCare+ subscriptions</a> in the US, adding 50 cents per month to most plans.</p>
-<p>Whether AppleCare One will save you money depends on the kind of devices you’re covering. Generally speaking, you’ll at least break even for any plan that includes coverage for an iPhone, but you save more if you’re paying for coverage for high-end gadgets like the iPhone Pro and iPad Pro.</p><p><a href="https://arstechnica.com/gadgets/2025/07/new-applecare-one-plan-bundles-three-extended-warranties-for-20-a-month/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/07/new-applecare-one-plan-bundles-three-extended-warranties-for-20-a-month/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>95</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/Apple-AppleCare-One-hero-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/Apple-AppleCare-One-hero-500x500.jpeg" width="500"/>
-<media:credit>Apple</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Conduct rules are coming for Google and Apple in the UK</title>
-                <link>https://arstechnica.com/tech-policy/2025/07/uk-ready-to-impose-competition-interventions-on-apple-and-google/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/07/uk-ready-to-impose-competition-interventions-on-apple-and-google/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Tim Bradshaw, Financial Times]]>
-                </dc:creator>
-                <pubDate>Wed, 23 Jul 2025 13:46:04 +0000</pubDate>
-                		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Policy]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/uk-ready-to-impose-competition-interventions-on-apple-and-google/</guid>
-
-                                    <description>
-                        <![CDATA[Rules will include EU-style curbs on app stores.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Apple and Google face new rules governing how they run their smartphone software and app stores in the UK, as Britain’s antitrust agency looks to impose new European-style controls on the Big Tech companies.</p>
-<p>The proposed interventions could trim fees of up to 30 percent that Apple and Google charge for digital transactions through their mobile app stores, as well as prevent them from designing their systems to favor their own apps and services.</p>
-<p>The UK’s Competition and Markets Authority on Wednesday said it expected to designate the two Silicon Valley groups with “strategic market status” under the UK’s new digital markets regime, allowing the agency to impose conduct rules on the companies.</p><p><a href="https://arstechnica.com/tech-policy/2025/07/uk-ready-to-impose-competition-interventions-on-apple-and-google/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/07/uk-ready-to-impose-competition-interventions-on-apple-and-google/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>28</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/iphone-display-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/iphone-display-500x500.jpg" width="500"/>
-<media:credit>Peter Nicholls/Getty Images</media:credit><media:text>Apple said the new rules could "hamper our ability to innovate and force us to give away our technology for free to foreign competitors."</media:text></media:content>
-            </item>
-                    <item>
-                <title>Audi has a new midsize EV, and we’ve driven it: The 2025 A6 Sportback</title>
-                <link>https://arstechnica.com/cars/2025/07/audis-midsize-sedan-goes-electric-the-2025-a6-and-s6-sportback-driven/</link>
-                                    <comments>https://arstechnica.com/cars/2025/07/audis-midsize-sedan-goes-electric-the-2025-a6-and-s6-sportback-driven/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Wed, 23 Jul 2025 13:00:12 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Audi A6]]></category>
-		<category><![CDATA[car review]]></category>
-		<category><![CDATA[First drive]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2025/07/audis-midsize-sedan-goes-electric-the-2025-a6-and-s6-sportback-driven/</guid>
-
-                                    <description>
-                        <![CDATA[We also test out the more powerful S6 Sportback.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<aside class="pullbox sidebar fullwidth">Audi provided flights from Washington, DC, to Santa Barbara, California, and accommodation so Ars could drive the A6 and S6. Ars does not accept paid editorial content.</aside>
-<p>For much of my lifetime, the auto industry has been dominated by the German carmakers. As they battled for supremacy, their engineers came to dictate what we think of as performance and luxury in cars. Now the battleground is a new generation of electric vehicles, and the Germans are playing catch-up. Hyundai stole a march on them as the first established OEM with an 800 V platform that charged faster and drove more efficiently than anything else we’d seen to date, and those cars <a href="https://arstechnica.com/cars/2025/02/the-2025-hyundai-ioniq-5-the-best-all-around-ev-just-got-better/">continue to accrue plaudits</a>. Soon, BMW will launch its <a href="https://arstechnica.com/cars/2024/03/heres-bmws-electric-replacement-for-the-x3-production-starts-in-2025/">Neue Klasse platform with the iX3</a>, and <a href="https://arstechnica.com/cars/2025/07/2026-mercedes-benz-cla-feels-like-a-real-car-not-a-science-experiment/">our first drive in Mercedes-Benz’s new CLA</a> was promising. But Audi was the first of the German companies to ready its own purpose-built 800 V EV platform, and it has followed up the <a href="https://arstechnica.com/cars/2024/07/the-best-audi-ev-so-far-we-drive-the-2025-q6-e-tron-suv/">Q6 e-tron SUV</a> with today’s pair of electric fastback sedans, the A6 Sportback e-tron and its hotted-up variant, the S6 Sportback e-tron.</p>
-<p>Yes, technically, Audi had an 800 V EV a while ago, a <a href="https://arstechnica.com/cars/2022/11/the-2022-audi-rs-e-tron-gt-shows-badge-engineering-is-nothing-to-fear/">rebadged version</a> of the mighty <a href="https://arstechnica.com/cars/2019/09/the-porsche-taycan-every-bit-as-good-as-a-200000-porsche-should-be/">Porsche Taycan</a>. That car still exists and now <a href="https://arstechnica.com/cars/2025/04/2025-audi-rs-e-tron-gt-more-range-more-power-still-drives-like-an-audi/">goes <em>extremely quickly</em></a>, but the A6’s architecture—called <a href="https://arstechnica.com/cars/2024/03/audi-debuts-its-next-ev-platform-with-the-2025-q6-e-tron-suv/">Premium Platform Electric, or PPE</a>—takes lessons from the Taycan and combines them with the latest in software-defined vehicles, where a handful of powerful computers replace hundreds of individual discrete controllers around the car. It all comes wrapped up in a highly aero-efficient shape that still manages to light up the relevant bit of a car-spotter’s brain that identifies Audis.</p>
-<h2>A6 or S6?</h2>
-<p>In Europe, there’s the option of a proper station wagon version, or Avant in Audi-speak; we might see that body variant for an RS6 Avant e-tron in the future, but for now, it’s just the A6 and S6 Sportbacks. Both variants use the same 100 kWh (94.4 kWh useable) battery pack, made up of prismatic cells. The A6 can be had in rear- or all-wheel drive; the former makes do with a 375 hp (280 kW) drive unit, the latter with a combined 456 hp (340 kW) thanks to an asynchronous motor on the front axle that complements the rear’s permanent magnet synchronous motor. Actually, both those power outputs are for peak power, should you engage launch control. Nominal power output is a little lower, at 362 hp (270 kW) and 422 hp (315 kW), respectively.</p><p><a href="https://arstechnica.com/cars/2025/07/audis-midsize-sedan-goes-electric-the-2025-a6-and-s6-sportback-driven/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/07/audis-midsize-sedan-goes-electric-the-2025-a6-and-s6-sportback-driven/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>116</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/AJH_9026-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/AJH_9026-500x500.jpg" width="500"/>
-<media:credit>Audi</media:credit><media:text>Audi's next-generation EV platform has now given us a sedan: the 2025 A6 Sportback e-tron, to give its full name.</media:text></media:content>
-            </item>
-                    <item>
-                <title>2025 Aston Martin Vanquish Volante: A-M’s ultimate GT goes topless</title>
-                <link>https://arstechnica.com/cars/2025/07/2025-aston-martin-vanquish-volante-a-ms-ultimate-gt-goes-topless/</link>
-                                    <comments>https://arstechnica.com/cars/2025/07/2025-aston-martin-vanquish-volante-a-ms-ultimate-gt-goes-topless/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Alex Kalogiannis]]>
-                </dc:creator>
-                <pubDate>Tue, 22 Jul 2025 23:01:05 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Aston Martin Vanquish Volante]]></category>
-		<category><![CDATA[car review]]></category>
-		<category><![CDATA[CarPlay Ultra]]></category>
-		<category><![CDATA[First drive]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2025/07/2025-aston-martin-vanquish-volante-a-ms-ultimate-gt-goes-topless/</guid>
-
-                                    <description>
-                        <![CDATA[Only a handful of the V12 convertibles will come to the US each year.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>We live in the era of the electric car—lightning that can't be put back in its bottle. This is important to keep in mind when we talk about new cars like the Aston Martin Vanquish Volante, because on paper, it seems hard to justify its half-million-dollar price tag and 800-plus horsepower twin-turbo V12 when things like <a href="https://arstechnica.com/cars/2025/07/rivians-new-quad-motor-r1t-and-r1s-beat-the-competition-in-any-conditions/">Rivian's Quad-motor R1</a> vehicles and <a href="https://arstechnica.com/cars/2022/08/lucid-is-making-a-triple-motor-air-to-rival-teslas-model-s-plaid/">Lucid's Air</a> can top its numbers for half the price. I say this not to suck the air out of the room but to put things in perspective, as this was on my mind when I slid into the driver's seat of Aston's latest ultra-luxury option.</p>
-<p>What I was quickly reminded of, however, is that this is decadence, which, by its nature, does not need to be justified. Nobody needs an Aston Martin; you want one. You don't simply drive it, either; you indulge in it.</p>
-<h2>Layer cake</h2>
-<p>Aston Martin's current state of affairs is a strong one. Thanks to the efforts of Executive Chairman Lawrence Stroll course-correcting the wayward ship of Aston Martin Lagonda—nobody remembers the Lagonda part, <a href="https://www.topgear.com/car-news/concept/concepts-time-forgot-aston-martin-lagonda-vignale">not even AML</a>—the brand's portfolio contains four core vehicles, with several derivatives like the Vantage S on their way. This also includes the Volante, or convertible versions, such as this one, which is the fastest and most powerful mainline Aston Martin convertible ever made.</p><p><a href="https://arstechnica.com/cars/2025/07/2025-aston-martin-vanquish-volante-a-ms-ultimate-gt-goes-topless/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/07/2025-aston-martin-vanquish-volante-a-ms-ultimate-gt-goes-topless/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>44</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/IMG_7213-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/IMG_7213-500x500.jpg" width="500"/>
-<media:credit>Alex Kallogiannis</media:credit><media:text>The Aston Martin Vanquish Volante is a striking convertible.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Toy company may regret coming for “Sylvanian Drama” TikToker, experts say</title>
-                <link>https://arstechnica.com/tech-policy/2025/07/tiktok-parody-account-sylvanian-drama-may-survive-sponsored-content-lawsuit/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/07/tiktok-parody-account-sylvanian-drama-may-survive-sponsored-content-lawsuit/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Tue, 22 Jul 2025 21:53:51 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[calico critters]]></category>
-		<category><![CDATA[copyright infringement]]></category>
-		<category><![CDATA[Instagram]]></category>
-		<category><![CDATA[online advertising]]></category>
-		<category><![CDATA[parody]]></category>
-		<category><![CDATA[satire]]></category>
-		<category><![CDATA[social media]]></category>
-		<category><![CDATA[sponsored content]]></category>
-		<category><![CDATA[tiktok]]></category>
-		<category><![CDATA[trademark infringement]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/tiktok-parody-account-sylvanian-drama-may-survive-sponsored-content-lawsuit/</guid>
-
-                                    <description>
-                        <![CDATA[Possible legal paths to revive a shuttered video series on TikTok and Instagram.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A popular account on <a href="https://www.tiktok.com/@sylvaniandrama">TikTok</a> and <a href="https://www.instagram.com/sylvaniandrama">Instagram</a> stopped posting suddenly at the end of last year, hit by a <a href="https://cdn.arstechnica.net/wp-content/uploads/2025/07/Epoch-Company-Ltd-v-Von-Engelbrechten-Complaint-4-7-25.pdf">lawsuit</a> after garnering millions of views on funny videos it made using adorable children's Calico Critter dolls to act out dark, cringe-y adult storylines.</p>
-<p>While millions of followers mourn the so-called "Sylvanian Drama" account's demise, experts told Ars that the creator may have a decent chance at beating the lawsuit.</p>
-<p>The "Sylvanian Drama" account derived its name from "Sylvanian Families," a brand name used by Epoch Company Ltd., the maker of Calico Critters, for its iconic fuzzy animal dolls in some markets outside the US. Despite these videos referencing murder, drugs, and hookups, the toy company apparently had no problem, until the account, managed by Ireland-based Thea Von Engelbrechten, started accepting big brand partnerships and making sponsored content featuring the dolls.</p><p><a href="https://arstechnica.com/tech-policy/2025/07/tiktok-parody-account-sylvanian-drama-may-survive-sponsored-content-lawsuit/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/07/tiktok-parody-account-sylvanian-drama-may-survive-sponsored-content-lawsuit/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>75</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-104125130-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-104125130-500x500-1753217606.jpg" width="500"/>
-<media:credit>Bloomberg / Contributor | Bloomberg</media:credit><media:text>Calico Critters toys sit on display at the Toys 'R' Us Inc. flagship store in New York.</media:text></media:content>
-            </item>
-                    <item>
-                <title>A power utility is reporting suspected pot growers to cops. EFF says that’s illegal.</title>
-                <link>https://arstechnica.com/tech-policy/2025/07/eff-moves-to-stop-power-utility-reporting-suspected-pot-growers-to-cops/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/07/eff-moves-to-stop-power-utility-reporting-suspected-pot-growers-to-cops/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Tue, 22 Jul 2025 21:00:10 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[electric utilities]]></category>
-		<category><![CDATA[law enforcement]]></category>
-		<category><![CDATA[privacy]]></category>
-		<category><![CDATA[smartmeters]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/eff-moves-to-stop-power-utility-reporting-suspected-pot-growers-to-cops/</guid>
-
-                                    <description>
-                        <![CDATA[EFF says the "mass surveillance scheme" violates constitutional protections.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>In May 2020, Sacramento, California, resident Alfonso Nguyen was alarmed to find two Sacramento County Sheriff’s deputies at his door, accusing him of illegally growing cannabis and demanding entry into his home. When Nguyen refused the search and denied the allegation, one deputy allegedly called him a liar and threatened to arrest him.</p>
-<p>That same year, deputies from the same department, with their guns drawn and bullhorns and sirens sounding, fanned out around the home of Brian Decker, another Sacramento resident. The officers forced Decker to walk backward out of his home in only his underwear around 7 am while his neighbors watched. The deputies said that he, too, was under suspicion of illegally growing cannabis.</p>
-<h2>Invasion of the privacy snatchers</h2>
-<p>According to a motion the Electronic Frontier Foundation filed in Sacramento Superior Court last week, Nguyen and Decker are only two of more than 33,000 Sacramento-area people who have been flagged to the sheriff’s department by the Sacramento Municipal Utility District, the electricity provider for the region. SMUD called the customers out for using what it and department investigators said were suspiciously high amounts of electricity indicative of illegal cannabis farming.</p><p><a href="https://arstechnica.com/tech-policy/2025/07/eff-moves-to-stop-power-utility-reporting-suspected-pot-growers-to-cops/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/07/eff-moves-to-stop-power-utility-reporting-suspected-pot-growers-to-cops/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>185</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/electricity-meter-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/electricity-meter-500x500.jpg" width="500"/>
-<media:credit>SMUD</media:credit><media:text>An electrical meter for Sacramento Municipal Utility District.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Apple Intelligence news summaries are back, with a big red disclaimer</title>
-                <link>https://arstechnica.com/apple/2025/07/apple-intelligence-news-summaries-are-back-with-a-big-red-disclaimer/</link>
-                                    <comments>https://arstechnica.com/apple/2025/07/apple-intelligence-news-summaries-are-back-with-a-big-red-disclaimer/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Tue, 22 Jul 2025 20:24:41 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[apple intelligence]]></category>
-		<category><![CDATA[iOS]]></category>
-		<category><![CDATA[ios 26]]></category>
-		<category><![CDATA[iPadOS]]></category>
-		<category><![CDATA[ipados 26]]></category>
-		<category><![CDATA[MacOS]]></category>
-		<category><![CDATA[macos 26]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/apple/2025/07/apple-intelligence-news-summaries-are-back-with-a-big-red-disclaimer/</guid>
-
-                                    <description>
-                        <![CDATA[Apple disabled news summaries earlier this year after they mangled headlines.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Apple has released the fourth developer betas of iOS 26, iPadOS 26, macOS 26 and its other next-generation software updates today. And along with their other changes and fixes, the new builds are bringing back Apple Intelligence notification summaries for news apps.</p>
-<p>Apple disabled news notification summaries as part of <a href="https://arstechnica.com/apple/2025/01/ios-18-3-beta-disables-news-notification-summaries-after-high-stakes-errors/">the iOS 18.3 update in January</a>. Incorrect summaries circulating on social media prompted news organizations <a href="https://www.bbc.com/news/articles/cd0elzk24dno">to complain to Apple</a>, particularly after one summary said that Luigi Mangione, alleged murderer of UnitedHealthcare CEO Brian Thompson, had died by suicide (he had not and has not).</p>
-<p>Upon installing the new update, users of Apple Intelligence-compatible devices will be asked to enable or disable three broad categories of notifications: those for "News &amp; Entertainment" apps, for "Communication &amp; Social" apps, and for all other apps. The operating systems will list sample apps based on what you currently have installed on your device.</p><p><a href="https://arstechnica.com/apple/2025/07/apple-intelligence-news-summaries-are-back-with-a-big-red-disclaimer/">Read full article</a></p>
-<p><a href="https://arstechnica.com/apple/2025/07/apple-intelligence-news-summaries-are-back-with-a-big-red-disclaimer/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>51</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/apple-summary-26-1152x648-1753213115.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/apple-summary-26-500x500-1753213145.jpeg" width="500"/>
-<media:credit>Andrew Cunningham</media:credit><media:text>Apple Intelligence notifications summaries for news apps are back in the latest iOS 26, macOS 26, and iPadOS 26 developer betas.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Conspiracy theorists don’t realize they’re on the fringe</title>
-                <link>https://arstechnica.com/science/2025/07/conspiracy-theorists-think-their-views-are-mainstream/</link>
-                                    <comments>https://arstechnica.com/science/2025/07/conspiracy-theorists-think-their-views-are-mainstream/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Tue, 22 Jul 2025 20:11:44 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[cognitive bias]]></category>
-		<category><![CDATA[conspiracy theories]]></category>
-		<category><![CDATA[false consensus]]></category>
-		<category><![CDATA[misinformation]]></category>
-		<category><![CDATA[psychology]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/07/conspiracy-theorists-think-their-views-are-mainstream/</guid>
-
-                                    <description>
-                        <![CDATA[Gordon Pennycook: "It might be one of the biggest false consensus effects that's been observed."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Belief in conspiracy theories is often attributed to some form of <a href="https://en.wikipedia.org/wiki/Motivated_reasoning">motivated reasoning</a>: People want to believe a conspiracy because it reinforces their worldview, for example, or doing so meets some deep psychological need, like wanting to feel unique. However, it might also be driven by overconfidence in their own cognitive abilities, according to <a href="https://journals.sagepub.com/doi/10.1177/01461672251338358">a paper</a> published in the Personality and Social Psychology Bulletin. The authors were surprised to discover that not only are conspiracy theorists overconfident, they also don't realize their beliefs are on the fringe, massively overestimating by as much as a factor of four how much other people agree with them.</p>
-<p>"I was expecting the overconfidence finding," co-author <a href="https://psychology.cornell.edu/gordon-pennycook">Gordon Pennycook</a>, a psychologist at Cornell University, told Ars. "If you've talked to someone who believes conspiracies, it's self-evident. I did not expect them to be so ready to state that people agree with them. I thought that they would overestimate, but I didn't think that there'd be such a strong sense that they are in the majority. It might be one of the biggest false consensus effects that's been observed."</p>
-<p>In 2015, Pennycook made headlines when he <a href="http://littlesvr.ca/grumble/wp-content/uploads/2016/10/Bullshit-detection.pdf">co-authored a paper</a> demonstrating how certain people interpret "<a href="https://arstechnica.com/science/2020/03/abstract-art-with-pseudo-profound-bs-titles-seen-as-more-meaningful/">pseudo-profound bullshit</a>" as deep observations. Pennycook <em>et al</em>. were interested in identifying individual differences between those who are susceptible to pseudo-profound BS and those who are not and thus looked at conspiracy beliefs, their degree of analytical thinking, religious beliefs, and so forth.</p><p><a href="https://arstechnica.com/science/2025/07/conspiracy-theorists-think-their-views-are-mainstream/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/07/conspiracy-theorists-think-their-views-are-mainstream/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>256</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2013/05/hand-of-conspiracy2.jpg">
-<media:thumbnail height="360" url="https://cdn.arstechnica.net/wp-content/uploads/2013/05/hand-of-conspiracy2-500x360.jpg" width="500"/>
-<media:credit>Aurich Lawson / Thinkstock</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Marine biologist for a day: Ars goes shark tagging</title>
-                <link>https://arstechnica.com/science/2025/07/marine-biologist-for-a-day-ars-goes-shark-tagging/</link>
-                                    <comments>https://arstechnica.com/science/2025/07/marine-biologist-for-a-day-ars-goes-shark-tagging/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[John Timmer]]>
-                </dc:creator>
-                <pubDate>Tue, 22 Jul 2025 19:45:48 +0000</pubDate>
-                		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[field school]]></category>
-		<category><![CDATA[marine biology]]></category>
-		<category><![CDATA[ocean science]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[sharks]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/07/marine-biologist-for-a-day-ars-goes-shark-tagging/</guid>
-
-                                    <description>
-                        <![CDATA[Go shark fishing on the RV <em>Garvin</em>, get hooked on the ideas behind it.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>MIAMI—We were beginning to run out of bait, and the sharks weren't cooperating.</p>
-<p>Everybody aboard the Research Vessel <em>Garvin</em> had come to Miami for the sharks—to catch them, sample them, and tag them, all in the name of science. People who once wanted to be marine biologists, actual marine biologists, shark enthusiasts, the man who literally wrote the book <a href="https://www.press.jhu.edu/books/title/12267/why-sharks-matter?srsltid=AfmBOor5KWozpDxG9zPVTJO07QfbKTXpz1sy1DNj845zkbuc3Iddx1yR"><em>Why Sharks Matter</em></a>, and various friends and family had spent much of the day sending fish heads set with hooks over the side of the <em>Garvin</em>. But each time the line was hauled back in, it came in slack, with nothing but half-eaten bait or an empty hook at the end.</p>
-<p>And everyone was getting nervous.</p><p><a href="https://arstechnica.com/science/2025/07/marine-biologist-for-a-day-ars-goes-shark-tagging/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/07/marine-biologist-for-a-day-ars-goes-shark-tagging/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>27</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/20250509-SHIFFMAN_SCIENTIST_DAY1-166-1152x648-1753217096.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/20250509-SHIFFMAN_SCIENTIST_DAY1-166-500x500.jpg" width="500"/>
-<media:credit>Julia Saltzman</media:credit><media:text>A small PVC tube served a dual purpose: keeping water moving over the shark's gills and giving it something to bite.</media:text></media:content>
-            </item>
-                    <item>
-                <title>California backs down to Trump admin, won’t force ISPs to offer $15 broadband</title>
-                <link>https://arstechnica.com/tech-policy/2025/07/california-backs-down-to-trump-admin-wont-force-isps-to-offer-15-broadband/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/07/california-backs-down-to-trump-admin-wont-force-isps-to-offer-15-broadband/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Tue, 22 Jul 2025 19:37:45 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[broadband]]></category>
-		<category><![CDATA[Broadband Equity Access and Deployment]]></category>
-		<category><![CDATA[California]]></category>
-		<category><![CDATA[trump administration]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/california-backs-down-to-trump-admin-wont-force-isps-to-offer-15-broadband/</guid>
-
-                                    <description>
-                        <![CDATA["Complete farce": State lawmaker says US threatened to block broadband funding.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A California lawmaker halted an effort to pass a law that would force Internet service providers to offer $15 monthly plans to people with low incomes.</p>
-<p>Assemblymember Tasha Boerner <a href="https://arstechnica.com/tech-policy/2025/03/california-bill-would-force-isps-to-offer-100mbps-plans-for-15-a-month/">proposed the state law</a> a few months ago, modeling the bill on a law enforced by New York. It seemed that other states were free to impose cheap-broadband mandates because the Supreme Court <a href="https://arstechnica.com/tech-policy/2025/02/isps-lose-yet-another-attempt-to-kill-new-yorks-15-broadband-mandate/">rejected</a> broadband industry challenges to the New York law twice.</p>
-<p>Boerner, a Democrat who is chair of the Communications and Conveyance Committee, faced pressure from Internet service providers to change or drop the bill. She made some changes, for example lowering the $15 plan's required download speeds from 100Mbps to 50Mbps and the required upload speeds from 20Mbps to 10Mbps.</p><p><a href="https://arstechnica.com/tech-policy/2025/07/california-backs-down-to-trump-admin-wont-force-isps-to-offer-15-broadband/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/07/california-backs-down-to-trump-admin-wont-force-isps-to-offer-15-broadband/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>102</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/ethernet-cable-1152x648-1753211398.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/ethernet-cable-500x500-1753211390.jpg" width="500"/>
-<media:credit>Getty Images | Adrienne Bresnahan</media:credit></media:content>
             </item>
             </channel>
 </rss>
