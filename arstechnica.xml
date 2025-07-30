@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Wed, 30 Jul 2025 00:55:35 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 30 Jul 2025 12:40:11 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,76 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Tesla to buy storage battery cells from LGES in $4.3 billion deal</title>
+                <link>https://arstechnica.com/cars/2025/07/tesla-to-buy-storage-battery-cells-from-lges-in-4-3-billion-deal/</link>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 12:40:11 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[LFP battery cells]]></category>
+		<category><![CDATA[LG Energy Solution]]></category>
+		<category><![CDATA[Powerwall]]></category>
+		<category><![CDATA[Tesla]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2025/07/tesla-to-buy-storage-battery-cells-from-lges-in-4-3-billion-deal/</guid>
+
+                                    <description>
+                        <![CDATA[The lithium iron phosphate cells will be made in Michigan.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Tesla has a new battery cell supplier. Although the automaker is vertically integrated <a href="https://arstechnica.com/cars/2018/04/experts-say-tesla-has-repeated-car-industry-mistakes-from-the-1980s/">to a degree not seen</a> in the automotive industry for decades, when it comes to battery cells it’s mostly dependent upon suppliers. Panasonic cells can be found in many Teslas, with the cheaper, sturdier lithium iron phosphate (LFP) battery cells being supplied by CATL. Now Tesla has a new source of LFP cells thanks to a deal just signed with LG Energy Solutions.</p>
+<p><a href="https://www.kedglobal.com/batteries/newsView/ked202507300003">According to The Korea Economic Daily</a>, the contract between Tesla and LGES is worth $4.3 billion. LGES will begin supplying Tesla with cells next August through until at least the end of July 2030, with provisions to extend the contract if necessary.</p>
+<p>The LFP cells probably aren’t destined for life on the road, however. Instead, they’ll likely be used in Tesla’s energy storage products, which <a href="https://www.reuters.com/business/energy/tesla-signs-43-billion-lges-battery-deal-source-says-reducing-china-reliance-2025-07-30/">both Tesla and LGES hope</a> will soak up demand now that EV sales prospects look so weak in North America.</p><p><a href="https://arstechnica.com/cars/2025/07/tesla-to-buy-storage-battery-cells-from-lges-in-4-3-billion-deal/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/07/tesla-to-buy-storage-battery-cells-from-lges-in-4-3-billion-deal/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2213732927-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2213732927-500x500.jpg" width="500"/>
+<media:credit>Patamaporn Umnahanant/Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Flaw in Gemini CLI coding tool could allow hackers to run nasty commands</title>
+                <link>https://arstechnica.com/security/2025/07/flaw-in-gemini-cli-coding-tool-allowed-hackers-to-run-nasty-commands-on-user-devices/</link>
+                                    <comments>https://arstechnica.com/security/2025/07/flaw-in-gemini-cli-coding-tool-allowed-hackers-to-run-nasty-commands-on-user-devices/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 10:30:43 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[coding agents]]></category>
+		<category><![CDATA[Gemini CLI]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[prompt injections]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/flaw-in-gemini-cli-coding-tool-allowed-hackers-to-run-nasty-commands-on-user-devices/</guid>
+
+                                    <description>
+                        <![CDATA[Beware of coding agents that can access your command window.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers needed less than 48 hours with Google’s new Gemini CLI coding agent to devise an exploit that made a default configuration of the tool surreptitiously exfiltrate sensitive data to an attacker-controlled server.</p>
+<p>Gemini CLI is a free, open-source AI tool that works in the terminal environment to help developers write code. It plugs into Gemini 2.5 Pro, Google’s most advanced model for coding and simulated reasoning. Gemini CLI is similar to Gemini Code Assist except that it creates or modifies code inside a terminal window instead of a text editor. As Ars Senior Technology Reporter Ryan Whitwam <a href="https://arstechnica.com/ai/2025/06/google-is-bringing-vibe-coding-to-your-terminal-with-gemini-cli/">put it</a> last month, “It's essentially vibe coding from the command line.”</p>
+<h2>Gemini, silently nuke my hard drive</h2>
+<p>Our report was published on June 25, the day Google debuted the tool. By June 27, researchers at security firm Tracebit had devised an attack that overrode built-in security controls that are designed to prevent the execution of harmful commands. The exploit required only that the user (1) instruct Gemini CLI to describe a package of code created by the attacker and (2) add a benign command to an allow list.</p><p><a href="https://arstechnica.com/security/2025/07/flaw-in-gemini-cli-coding-tool-allowed-hackers-to-run-nasty-commands-on-user-devices/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/07/flaw-in-gemini-cli-coding-tool-allowed-hackers-to-run-nasty-commands-on-user-devices/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>9</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Gemini_CLI_Hero-1152x648.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Gemini_CLI_Hero-500x500.png" width="500"/>
+<media:credit>Google</media:credit></media:content>
+            </item>
+                    <item>
                 <title>AI in Wyoming may soon use more electricity than state’s human residents</title>
                 <link>https://arstechnica.com/information-technology/2025/07/ai-in-wyoming-may-soon-use-more-electricity-than-states-human-residents/</link>
                                     <comments>https://arstechnica.com/information-technology/2025/07/ai-in-wyoming-may-soon-use-more-electricity-than-states-human-residents/#comments</comments>
@@ -53,17 +123,17 @@
                 <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/07/ai-in-wyoming-may-soon-use-more-electricity-than-states-human-residents/</guid>
 
                                     <description>
-                        <![CDATA[Proposed datacenter would demand 5x Wyoming's current power use at full deployment.]]>
+                        <![CDATA[Proposed data center would demand 5x Wyoming's current power use at full deployment.]]>
                     </description>
                                                                 <content:encoded>
-                            <![CDATA[<p>On Monday, Mayor Patrick Collins of Cheyenne, Wyoming, announced plans for an AI data center that would consume more electricity than all homes in the state combined, according to the <a href="https://apnews.com/article/ai-artificial-intelligence-data-center-electricity-wyoming-cheyenne-44da7974e2d942acd8bf003ebe2e855a">Associated Press</a>. The facility, a joint venture between energy infrastructure company Tallgrass and AI data center developer Crusoe, would start at 1.8 gigawatts and scale up to 10 gigawatts of power use.</p>
+                            <![CDATA[<p>On Monday, Mayor Patrick Collins of Cheyenne, Wyoming, announced plans for an AI data center that would consume more electricity than all homes in the state combined, according to The <a href="https://apnews.com/article/ai-artificial-intelligence-data-center-electricity-wyoming-cheyenne-44da7974e2d942acd8bf003ebe2e855a">Associated Press</a>. The facility, a joint venture between energy infrastructure company Tallgrass and AI data center developer Crusoe, would start at 1.8 gigawatts and scale up to 10 gigawatts of power use.</p>
 <p>The project's energy demands are difficult to overstate for Wyoming, the <a href="https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population">least populous</a> US state. The initial 1.8-gigawatt phase, consuming 15.8 terawatt-hours (TWh) annually, is more than five times the electricity used by every household in the state combined. That figure <a href="https://www.eia.gov/state/analysis.php?sid=WY">represents</a> 91 percent of the 17.3 TWh currently <a href="https://findenergy.com/wy/">consumed</a> by all of Wyoming's residential, commercial, and industrial sectors combined. At its full 10-gigawatt capacity, the proposed data center would consume 87.6 TWh of electricity annually—double the <a href="https://en.wikipedia.org/wiki/List_of_power_stations_in_Wyoming">43.2 TWh</a> the entire state currently generates.</p>
 <p>Because drawing this much power from the public grid is untenable, the project will rely on its own dedicated gas generation and renewable energy sources, according to Collins and company officials. However, this massive local demand for electricity—even if self-generated—represents a fundamental shift for a state that currently <a href="https://www.eia.gov/state/analysis.php?sid=WY">sends</a> nearly 60 percent of its generated power to other states.</p><p><a href="https://arstechnica.com/information-technology/2025/07/ai-in-wyoming-may-soon-use-more-electricity-than-states-human-residents/">Read full article</a></p>
 <p><a href="https://arstechnica.com/information-technology/2025/07/ai-in-wyoming-may-soon-use-more-electricity-than-states-human-residents/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>49</slash:comments>
+                                    <slash:comments>97</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/delivs_tower_1-1152x648.jpg" width="1152">
@@ -99,7 +169,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>86</slash:comments>
+                                    <slash:comments>148</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/466148496_18025243454600213_3029086340888592968_n-992x648.jpg" width="992">
@@ -131,7 +201,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>23</slash:comments>
+                                    <slash:comments>44</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/trump-with-ec-president-1152x648-1753814456.jpg" width="1152">
@@ -167,7 +237,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>116</slash:comments>
+                                    <slash:comments>153</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/07/GettyImages-128228162-1152x648.jpg" width="1152">
@@ -201,7 +271,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>54</slash:comments>
+                                    <slash:comments>61</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/distracted-1152x648-1753804837.jpg" width="1152">
@@ -241,7 +311,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>25</slash:comments>
+                                    <slash:comments>36</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/Apple-Intelligence-hero-1152x648.jpg" width="1152">
@@ -277,7 +347,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>52</slash:comments>
+                                    <slash:comments>74</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2169079907-1152x648.jpg" width="1152">
@@ -311,7 +381,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>77</slash:comments>
+                                    <slash:comments>100</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/whistle-health-20-smart-device-whistle-569746-1152x648-1753810634.jpg" width="1152">
@@ -343,7 +413,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>55</slash:comments>
+                                    <slash:comments>64</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/2025-Polestar-3-3-of-13-1152x648.jpg" width="1152">
@@ -377,7 +447,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>85</slash:comments>
+                                    <slash:comments>96</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/05/win11-bloom-rainbow-1152x648.jpeg" width="1152">
@@ -410,7 +480,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>115</slash:comments>
+                                    <slash:comments>124</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/oil-wells-1152x648.jpg" width="1152">
@@ -476,7 +546,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>86</slash:comments>
+                                    <slash:comments>94</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/four10-1152x648.jpg" width="1152">
@@ -508,7 +578,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>124</slash:comments>
+                                    <slash:comments>129</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/SmarthubII-mainproductphoto-1152x648-1753734534.jpg" width="1152">
@@ -550,7 +620,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>73</slash:comments>
+                                    <slash:comments>76</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2212801534-1024x648.jpg" width="1024">
@@ -587,7 +657,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>47</slash:comments>
+                                    <slash:comments>49</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/Blender-tablet.jpg">
@@ -632,7 +702,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>83</slash:comments>
+                                    <slash:comments>96</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/man-machine-1152x648.jpg" width="1152">
@@ -665,80 +735,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>116</slash:comments>
+                                    <slash:comments>117</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/trump-carr-1152x648-1734382746.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/trump-carr-500x500-1734382753.jpg" width="500"/>
 <media:credit>Getty Images | Brandon Bell </media:credit><media:text>President-elect Donald Trump speaks to Brendan Carr, his intended pick for Chairman of the Federal Communications Commission, as he attends a SpaceX Starship rocket launch on November 19, 2024 in Brownsville, Texas.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Nude women streamed to office TV derail Oklahoma Board of Education meeting</title>
-                <link>https://arstechnica.com/tech-policy/2025/07/oklahomas-new-scandal-nude-women-streamed-to-tv-during-state-board-meeting/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/07/oklahomas-new-scandal-nude-women-streamed-to-tv-during-state-board-meeting/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Nate Anderson]]>
-                </dc:creator>
-                <pubDate>Mon, 28 Jul 2025 19:37:45 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[education]]></category>
-		<category><![CDATA[Oklahoma]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/oklahomas-new-scandal-nude-women-streamed-to-tv-during-state-board-meeting/</guid>
-
-                                    <description>
-                        <![CDATA[Police are now involved.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>According to <em>US News and World Report</em>, the state of Oklahoma <a href="https://www.usnews.com/news/best-states/rankings/education/prek-12?sort=rank-desc">ranks 48th in the United States</a> for its pre-K to 12th grade education system. But the current hot-button issue consuming the Oklahoma State Board of Education isn't about improving this position; it's about whether someone was streaming video of nude women gathered around a "chiropractic table" to a TV visible during a Board of Education meeting last week.</p>
-<p>Indeed, so serious has the issue become that it has already progressed from a media complaint to a <a href="https://oklahomavoice.com/2025/07/25/probe-needed-after-reports-of-nude-women-on-state-superintendents-office-tv-oklahoma-speaker-says/">state probe</a> to an <a href="https://www.news9.com/story/6887a662c40af63ee1a56c4c/omes-asks-oklahoma-county-sheriff-to-review-incident-in-ryan-walters-office">Oklahoma County Sheriff's Office</a> investigation in just a few days.</p>
-<p>State House Speaker Kyle Hilbert (R) is <a href="https://oklahomavoice.com/2025/07/25/probe-needed-after-reports-of-nude-women-on-state-superintendents-office-tv-oklahoma-speaker-says/">already suggesting</a> that Superintendent Ryan Walters, the state's hard-right head of education—the man who wants to <a href="https://oklahoma.gov/education/newsroom/2025/july/supt--walters-asks-the-oklahoma-supreme-court-to-move-forward-wi.html">put Bibles in every classroom</a>—"unlock and turn over all relevant devices and fully cooperate with an investigation."</p><p><a href="https://arstechnica.com/tech-policy/2025/07/oklahomas-new-scandal-nude-women-streamed-to-tv-during-state-board-meeting/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/07/oklahomas-new-scandal-nude-women-streamed-to-tv-during-state-board-meeting/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>264</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-200118795-002-1152x648-1753729624.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-200118795-002-500x500-1753729602.jpg" width="500"/>
-<media:credit>John Lamb | Getty Images</media:credit><media:text>"Let me just shut that off real quick..."</media:text></media:content>
-            </item>
-                    <item>
-                <title>Pro-Ukrainian hackers take credit for attack that snarls Russian flight travel</title>
-                <link>https://arstechnica.com/security/2025/07/pro-ukrainian-hackers-take-credit-for-attack-that-snarls-russian-flight-travel/</link>
-                                    <comments>https://arstechnica.com/security/2025/07/pro-ukrainian-hackers-take-credit-for-attack-that-snarls-russian-flight-travel/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Mon, 28 Jul 2025 18:15:25 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Aeroflot]]></category>
-		<category><![CDATA[hacktivism]]></category>
-		<category><![CDATA[russia]]></category>
-		<category><![CDATA[Ukraine]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/pro-ukrainian-hackers-take-credit-for-attack-that-snarls-russian-flight-travel/</guid>
-
-                                    <description>
-                        <![CDATA[State-owned Aeroflot cancels dozens of flights, stranding travelers throughout Russia.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Russia’s biggest airline cancelled dozens of flights on Monday following a failure of the state-owned company’s IT systems and, according to a Russian lawmaker and pro-Ukrainian hackers, was the result of a cyberattack, it was widely reported.</p>
-<p>The airline, Aeroflot, said it cancelled about 40 flights following a “technical failure.” An online departure board for Sheremetyevo airport showed dozens of others were delayed. The cancellations and delays hobbled traffic throughout Russia and left travelers stranded at airports. The affected routes were mostly within Russia but also included routes to Belarusian capital Minsk and Yerevan, the capital of Armenia.</p>
-<h2>“The damage is strategic”</h2>
-<p>Russian prosecutors confirmed to Reuters that the disruption was caused by a hack and have opened a criminal investigation into it. Russian lawmakers also hinted a cyberattack was the cause of the outage, with one of them, Anton Gorelkin, saying Russia was under digital attack, possibly at the hands of hacktivists with help from unfriendly states.</p><p><a href="https://arstechnica.com/security/2025/07/pro-ukrainian-hackers-take-credit-for-attack-that-snarls-russian-flight-travel/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2025/07/pro-ukrainian-hackers-take-credit-for-attack-that-snarls-russian-flight-travel/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>50</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/aeroflot-cancelled-flights.jpg">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/aeroflot-cancelled-flights-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>People wait for their flights at the Sheremetyevo International Airport on the outskirts of Moscow on July 28, 2025. A cyberattack on Russia's national airline Aeroflot grounded 42 flights on July 28, officials said, with a Ukrainian and a Belarusian hacker group claiming responsibility for the incident. (Photo by TATYANA MAKEYEVA / AFP) (Photo by TATYANA MAKEYEVA/AFP</media:text></media:content>
             </item>
             </channel>
 </rss>
