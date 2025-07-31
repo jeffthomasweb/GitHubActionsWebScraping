@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Wed, 30 Jul 2025 12:40:11 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 30 Jul 2025 22:54:36 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,8 +19,543 @@
 	<height>32</height>
 </image> 
             <item>
-                <title>Tesla to buy storage battery cells from LGES in $4.3 billion deal</title>
+                <title>In search of riches, hackers plant 4G-enabled Raspberry Pi in bank network</title>
+                <link>https://arstechnica.com/security/2025/07/in-search-of-riches-hackers-plant-4g-enabled-raspberry-pi-in-bank-network/</link>
+                                    <comments>https://arstechnica.com/security/2025/07/in-search-of-riches-hackers-plant-4g-enabled-raspberry-pi-in-bank-network/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 22:21:56 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ATM]]></category>
+		<category><![CDATA[banks]]></category>
+		<category><![CDATA[hackers]]></category>
+		<category><![CDATA[Raspberry Pi]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/in-search-of-riches-hackers-plant-4g-enabled-raspberry-pi-in-bank-network/</guid>
+
+                                    <description>
+                        <![CDATA[Sophisticated group also used novel means to disguise their custom malware.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Hackers planted a Raspberry Pi equipped with a 4G modem in the network of an unnamed bank in an attempt to siphon money out of the financial institution's ATM system, researchers reported Wednesday.</p>
+<p>The researchers with security firm Group-IB said the “unprecedented tactic allowed the attackers to bypass perimeter defenses entirely.” The hackers combined the physical intrusion with remote access malware that used another novel technique to conceal itself, even from sophisticated forensic tools. The technique, known as a <a href="https://unix.stackexchange.com/questions/198590/what-is-a-bind-mount">Linux bind mount</a>, is used in IT administration but had never been seen used by threat actors. The trick allowed the malware to operate similarly to a rootkit, which uses advanced techniques to hide itself from the operating system it runs on.</p>
+<h2>End goal: Backdooring the ATM switching network</h2>
+<p>The Raspberry Pi was connected to the same network switch used by the bank’s ATM system, a position that effectively put it inside the bank’s internal network. The goal was to compromise the ATM switching server and use that control to manipulate the bank’s hardware security module, a tamper-resistant physical device used to store secrets such as credentials and digital signatures and run encryption and decryption functions.</p><p><a href="https://arstechnica.com/security/2025/07/in-search-of-riches-hackers-plant-4g-enabled-raspberry-pi-in-bank-network/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/07/in-search-of-riches-hackers-plant-4g-enabled-raspberry-pi-in-bank-network/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>23</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/atm-with-cash-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/atm-with-cash-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Senate confirms CDC director as top FDA official resigns under political pressure</title>
+                <link>https://arstechnica.com/health/2025/07/cdc-finally-gets-a-director-fdas-top-vaccine-regulator-exits-under-pressure/</link>
+                                    <comments>https://arstechnica.com/health/2025/07/cdc-finally-gets-a-director-fdas-top-vaccine-regulator-exits-under-pressure/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 21:09:06 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[fda]]></category>
+		<category><![CDATA[Monarez]]></category>
+		<category><![CDATA[Prasad]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2025/07/cdc-finally-gets-a-director-fdas-top-vaccine-regulator-exits-under-pressure/</guid>
+
+                                    <description>
+                        <![CDATA[Senate confirmed Susan Monarez to CDC while Vinay Prasad made a quick exit from FDA.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As of yesterday, Susan Monarez is in and Vinay Prasad is out among top federal health officials.</p>
+<p>In a 51–47 vote along party lines, the Senate confirmed Monarez as the director of the Centers for Disease Control and Prevention. She is the first nominee for CDC director to be required to get Senate confirmation, following a 2022 law requiring it. She is also the first person to serve in the role without a medical degree <a href="https://www.cdc.gov/museum/history/pastdirectors.html">since 1953</a>.</p>
+<p>Monarez has a PhD in microbiology and immunology and previously served as the deputy director for the Advanced Research Projects Agency for Health (ARPA-H) under the Biden administration. Monarez quietly helmed the CDC as acting director from January to March of this year but stepped down as required when Donald Trump nominated her for the permanent role. Before that, Trump had nominated Dave Weldon, but the nomination was abandoned over concerns that his anti-vaccine views would torpedo his Senate confirmation.</p><p><a href="https://arstechnica.com/health/2025/07/cdc-finally-gets-a-director-fdas-top-vaccine-regulator-exits-under-pressure/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/07/cdc-finally-gets-a-director-fdas-top-vaccine-regulator-exits-under-pressure/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>26</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2222107417-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2222107417-500x500.jpg" width="500"/>
+<media:credit>Getty | Kayla Bartkowski</media:credit><media:text> Susan Monarez, President Donald Trump’s nominee to be the Director of the Centers for Disease Control and Prevention (CDC), testifies during her confirmation hearing before the Senate Committee on Health, Education, Labor, and Pensions in the Dirksen Senate Office Building on June 25, 2025 in Washington, DC. </media:text></media:content>
+            </item>
+                    <item>
+                <title>St. Paul, MN was hacked so badly that the National Guard has been deployed</title>
+                <link>https://arstechnica.com/security/2025/07/st-paul-mn-was-hacked-so-badly-that-the-national-guard-has-been-deployed/</link>
+                                    <comments>https://arstechnica.com/security/2025/07/st-paul-mn-was-hacked-so-badly-that-the-national-guard-has-been-deployed/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Nate Anderson]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 20:47:37 +0000</pubDate>
+                		<category><![CDATA[Security]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[national guard]]></category>
+		<category><![CDATA[St. Paul]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/st-paul-mn-was-hacked-so-badly-that-the-national-guard-has-been-deployed/</guid>
+
+                                    <description>
+                        <![CDATA["A deliberate, coordinated digital attack."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Hacking attacks—many using ransomware—now hit US cities every few days. They are expensive to mitigate and extremely disruptive. Abilene, Texas, for instance, had 477 GB of data stolen this spring. The city <a href="https://www.abilenetx.gov/civicalerts.aspx?AID=2935">refused to pay the requested ransom</a> and instead decided to replace every server, desktop, laptop, desk telephone, and storage device. This has required a "temporary return to pen-and-paper systems" while the entire city network is rebuilt, but at least Abilene was insured against such an attack.</p>
+<p>Sometimes, though, the hacks hit harder than usual. That was the case in St. Paul, Minnesota, which suffered a significant cyberattack last Friday that it has been unable to mitigate. Things have gotten so bad that the city has declared a state of emergency, while the governor activated the National Guard to assist.</p>
+<p>According to <a href="https://www.stpaul.gov/sites/default/files/2025-07/20250729_Remarks.pdf">remarks by St. Paul Mayor Melvin Carter</a>, the attack was first noticed early in the morning of Friday, July 25. It was, Carter said, "a deliberate, coordinated digital attack, carried out by a sophisticated external actor—intentionally and criminally targeting our city’s information infrastructure."</p><p><a href="https://arstechnica.com/security/2025/07/st-paul-mn-was-hacked-so-badly-that-the-national-guard-has-been-deployed/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/07/st-paul-mn-was-hacked-so-badly-that-the-national-guard-has-been-deployed/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>69</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2158493329-1152x648-1753907508.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2158493329-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>Downtown St. Paul, MN, on the Mississippi River.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Substack’s “Nazi problem” won’t go away after push notification apology</title>
+                <link>https://arstechnica.com/tech-policy/2025/07/substacks-nazi-problem-wont-go-away-after-push-notification-apology/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/07/substacks-nazi-problem-wont-go-away-after-push-notification-apology/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 20:30:48 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[antisemitism]]></category>
+		<category><![CDATA[Counter-terrorism]]></category>
+		<category><![CDATA[Neo-nazis]]></category>
+		<category><![CDATA[online extremism]]></category>
+		<category><![CDATA[Substack]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/substacks-nazi-problem-wont-go-away-after-push-notification-apology/</guid>
+
+                                    <description>
+                        <![CDATA[Substack may be legitimizing neo-Nazis as "thought leaders," researcher warns.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>After Substack shocked an unknown number of users by sending a push notification on Monday to check out a Nazi blog featuring a swastika icon, the company quickly apologized for the "error," tech columnist Taylor Lorenz <a href="https://www.usermag.co/p/substack-sent-a-push-alert-promoting-nazi-white-supremacist-blog">reported</a>.</p>
+<p>"We discovered an error that caused some people to receive push notifications they should never have received," Substack's statement said. "In some cases, these notifications were extremely offensive or disturbing. This was a serious error, and we apologize for the distress it caused. We have taken the relevant system offline, diagnosed the issue, and are making changes to ensure it doesn’t happen again."</p>
+<p>Substack has long faced backlash for allowing users to share their "extreme views" on the platform, previously claiming that "censorship (including through demonetizing publications)" doesn't make "the problem go away—in fact, it makes it worse," Lorenz noted. But critics who have slammed Substack's rationale revived their concerns this week, with some accusing Substack of promoting extreme content through features like their push alerts and "rising" lists, which flag popular newsletters and currently also include Nazi blogs.</p><p><a href="https://arstechnica.com/tech-policy/2025/07/substacks-nazi-problem-wont-go-away-after-push-notification-apology/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/07/substacks-nazi-problem-wont-go-away-after-push-notification-apology/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>46</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2222752288-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2222752288-500x500.jpg" width="500"/>
+<media:credit>SOPA Images / Contributor | LightRocket</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Google tool misused to scrub tech CEO’s shady past from search</title>
+                <link>https://arstechnica.com/gadgets/2025/07/google-tool-misused-to-scrub-tech-ceos-shady-past-from-search/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/07/google-tool-misused-to-scrub-tech-ceos-shady-past-from-search/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 20:18:18 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[search]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/07/google-tool-misused-to-scrub-tech-ceos-shady-past-from-search/</guid>
+
+                                    <description>
+                        <![CDATA[Google has fixed the bug, which it says affected only "a tiny fraction of websites."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google is fond of saying its mission is to "organize the world's information," but who gets to decide what information is worthy of organization? A San Francisco tech CEO has spent the past several years attempting to remove unflattering information about himself from Google's search index, and the nonprofit Freedom of the Press Foundation <a href="https://freedom.press/issues/censorship-whac-a-mole-google-search-exploited-to-scrub-articles-on-san-francisco-tech-exec/">says</a> he's still at it. Most recently, an unknown bad actor used a bug in one of Google's search tools to scrub the offending articles.</p>
+<p>The saga began in 2023 when independent journalist Jack Poulson <a href="https://jackpoulson.substack.com/p/the-covert-gig-work-surveillance">reported</a> on Maury Blackman's 2021 domestic violence arrest. Blackman, who was then the CEO of surveillance tech firm Premise Data Corp., took offense at the publication of his legal issues. The case did not lead to charges after Blackman's 25-year-old girlfriend recanted her claims against the 53-year-old CEO, but Poulson reported on some troubling details of the public arrest report.</p>
+<p>Blackman has previously used tools like DMCA takedowns and lawsuits to stifle reporting on his indiscretion, but that campaign now appears to have co-opted part of Google's search apparatus. The Freedom of the Press Foundation (FPF) reported on Poulson's work and Blackman's attempts to combat it late last year. In June, Poulson contacted the Freedom of the Press Foundation to report that the article had mysteriously vanished from Google search results.</p><p><a href="https://arstechnica.com/gadgets/2025/07/google-tool-misused-to-scrub-tech-ceos-shady-past-from-search/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/07/google-tool-misused-to-scrub-tech-ceos-shady-past-from-search/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>10</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Peacock feathers can emit laser beams</title>
+                <link>https://arstechnica.com/science/2025/07/scientists-use-peacock-feathers-to-make-frickin-laser-beams/</link>
+                                    <comments>https://arstechnica.com/science/2025/07/scientists-use-peacock-feathers-to-make-frickin-laser-beams/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 19:12:00 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[biolasers]]></category>
+		<category><![CDATA[biomimicry]]></category>
+		<category><![CDATA[lasers]]></category>
+		<category><![CDATA[photonic crystals]]></category>
+		<category><![CDATA[photonics]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[structural color]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/07/scientists-use-peacock-feathers-to-make-frickin-laser-beams/</guid>
+
+                                    <description>
+                        <![CDATA[The feathers can emit two frequencies of laser light from multiple regions across their colored eyespots.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Peacock feathers are greatly admired for their bright iridescent colors, but it turns out they can also emit laser light when dyed multiple times, according to <a href="https://www.nature.com/articles/s41598-025-04039-8">a paper</a> published in the journal Scientific Reports. Per the authors, it's the <a href="https://www.science.org/content/article/peacock-feathers-can-be-lasers">first example</a> of a biolaser cavity within the animal kingdom.</p>
+<p>As <a href="https://arstechnica.com/science/2018/09/rainbow-weevil-could-hold-the-secret-to-generating-natures-colors-in-the-lab/">previously reported</a>, the bright iridescent colors in things like peacock feathers and butterfly wings don't come from any pigment molecules but from how they are structured. The scales of chitin (a polysaccharide common to insects) in butterfly wings, for example, are arranged like roof tiles. Essentially, they form a <a href="https://io9.gizmodo.com/5783709/the-colorful-story-of-diffraction-grating">diffraction grating</a>, except photonic crystals only produce certain colors, or wavelengths, of light, while a diffraction grating will produce the entire spectrum, much like a prism.</p>
+<p>In the case of peacock feathers, it's the regular, periodic nanostructures of the <a class="mw-redirect" title="Barbule" href="https://en.wikipedia.org/wiki/Barbule">barbules</a>—fiber-like components composed of ordered melanin rods coated in keratin—that produce the iridescent colors. Different colors correspond to different spacing of the barbules.</p><p><a href="https://arstechnica.com/science/2025/07/scientists-use-peacock-feathers-to-make-frickin-laser-beams/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/07/scientists-use-peacock-feathers-to-make-frickin-laser-beams/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>48</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/peacock2CROP-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/peacock2CROP-500x500.jpg" width="500"/>
+<media:credit>Satdeep Gill/CC BY-SA 3.0</media:credit></media:content>
+            </item>
+                    <item>
+                <title>$15 billion in NIH funding frozen, then thawed Tuesday in ongoing power war</title>
+                <link>https://arstechnica.com/health/2025/07/15-billion-in-nih-funding-frozen-then-thawed-tuesday-in-ongoing-power-war/</link>
+                                    <comments>https://arstechnica.com/health/2025/07/15-billion-in-nih-funding-frozen-then-thawed-tuesday-in-ongoing-power-war/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 19:03:10 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[cancer]]></category>
+		<category><![CDATA[funding]]></category>
+		<category><![CDATA[impoundment]]></category>
+		<category><![CDATA[Murray]]></category>
+		<category><![CDATA[NIH]]></category>
+		<category><![CDATA[research grant]]></category>
+		<category><![CDATA[trump administration]]></category>
+		<category><![CDATA[Vought]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2025/07/15-billion-in-nih-funding-frozen-then-thawed-tuesday-in-ongoing-power-war/</guid>
+
+                                    <description>
+                        <![CDATA[NIH leaders got funding-pause memo Tuesday afternoon. Trump admin then backpedaled.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Amid the Trump administration's ongoing efforts to wrest the power of the purse from Congress, an estimated $15 billion allotted by lawmakers to fund life-saving biomedical research via the National Institutes of Health was temporarily frozen and then said to be released Tuesday.</p>
+<p><a href="https://www.wsj.com/politics/policy/trump-administration-puts-new-chokehold-on-billions-in-health-research-funding-19660215">According to reporting by The Wall Street Journal</a>, the initial decision to withhold the funding came from Russell Vought, the director of the Office of Management and Budget for the Trump administration and Project 2025 co-author. Vought has expansive views of presidential power, the Journal noted, and has said the NIH needs "fundamental reform."</p>
+<p>In <a href="https://www.cbsnews.com/news/russ-vought-office-of-management-and-budget-face-the-nation-07-27-2025/">an interview with CBS news</a> over the weekend, Vought defended already <a href="https://www.statnews.com/2025/06/27/despite-resumption-of-nih-grant-reviews-research-funding-gap-grew/">holding up billions in congressionally allocated funding for research</a> on things like cancer and cardiovascular disease by claiming that the NIH has been "weaponized against the American people." He made the comments after <a href="https://www.britt.senate.gov/wp-content/uploads/2025/07/07.24.25_Senate-Letter-to-OMB-re-FY25-NIH-Appropriations.pdf">14 Republican Senators sent him a letter</a> imploring that he release congressionally appropriated funding, including money marked for the NIH.</p><p><a href="https://arstechnica.com/health/2025/07/15-billion-in-nih-funding-frozen-then-thawed-tuesday-in-ongoing-power-war/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/07/15-billion-in-nih-funding-frozen-then-thawed-tuesday-in-ongoing-power-war/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>40</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2223415789-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2223415789-500x500.jpg" width="500"/>
+<media:credit>Getty | Al Drago</media:credit><media:text>Russell Vought, director of the Office of Management and Budget (OMB), during a television interview at the White House in Washington, DC, US, on Monday, July 7, 2025. </media:text></media:content>
+            </item>
+                    <item>
+                <title>So far, only one-third of Americans have ever used AI for work</title>
+                <link>https://arstechnica.com/ai/2025/07/so-far-only-one-third-of-americans-have-ever-used-ai-for-work/</link>
+                                    <comments>https://arstechnica.com/ai/2025/07/so-far-only-one-third-of-americans-have-ever-used-ai-for-work/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 18:47:00 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI and work]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI companionship]]></category>
+		<category><![CDATA[ai search]]></category>
+		<category><![CDATA[AP-NORC]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/07/so-far-only-one-third-of-americans-have-ever-used-ai-for-work/</guid>
+
+                                    <description>
+                        <![CDATA[AP survey shows most Americans treat AI chatbots like a search engine replacement.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Tuesday, The Associated Press <a href="https://apnews.com/article/ai-artificial-intelligence-poll-229b665d10d057441a69f56648b973e1">released results</a> from a new <a href="https://apnorc.org/projects/young-adults-leading-the-way-in-ai-adoption/">AP-NORC poll</a> showing that 60 percent of US adults have used AI to search for information, while only 37 percent of all Americans have used AI for work tasks. Meanwhile, younger Americans are adopting AI tools at much higher rates across multiple categories, including brainstorming, work tasks, and companionship.</p>
+<p>The poll found AI companionship remains the least popular application overall, with just 16 percent of adults overall trying it—but the number jumps to a notable 25 percent among the under-30 crowd. AI companionship can have drawbacks that weren't reflected in the poll, such as excessive agreeability (called <a href="https://arstechnica.com/information-technology/2025/04/annoyed-chatgpt-users-complain-about-bots-relentlessly-positive-tone/">sycophancy</a>) and mental health risks, like encouraging <a href="https://arstechnica.com/ai/2025/07/ai-therapy-bots-fuel-delusions-and-give-dangerous-advice-stanford-study-finds/">delusional thinking</a>.</p>
+<p>The poll of 1,437 adults conducted July 10–14 reveals telling generational divides in AI adoption. While 74 percent of adults under 30 use AI for information searches at least some of the time, only the aforementioned 60 percent of all adults have done so. For brainstorming applications, 62 percent of adults under 30 have used AI to come up with ideas, compared with just 20 percent of those 60 or older.</p><p><a href="https://arstechnica.com/ai/2025/07/so-far-only-one-third-of-americans-have-ever-used-ai-for-work/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/07/so-far-only-one-third-of-americans-have-ever-used-ai-for-work/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>71</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/robot_puzzle_2-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/robot_puzzle_2-500x500.jpg" width="500"/>
+<media:credit>Arne Weitkaemper via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>How to get another free year of updates for your Windows 10 PC</title>
+                <link>https://arstechnica.com/gadgets/2025/07/how-to-get-another-free-year-of-updates-for-your-windows-10-pc/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/07/how-to-get-another-free-year-of-updates-for-your-windows-10-pc/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 18:13:45 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/07/how-to-get-another-free-year-of-updates-for-your-windows-10-pc/</guid>
+
+                                    <description>
+                        <![CDATA[Buying Windows 10 a one-year stay of execution doesn't have to cost anything.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Officially, Microsoft will stop providing new security updates for Windows 10 PCs after October 14, 2025, a little over a decade after its initial release. It's a stick that Microsoft is using to push upgrades to the newer Windows 11, whether you install it on a PC you already have or buy a brand-new PC to meet Windows 11's system requirements.</p>
+<p>But if you can't or don't want to upgrade to Windows 11, Microsoft has made it reasonably simple to get an extra year of Extended Security Updates (ESUs) for Windows 10, <a href="https://arstechnica.com/gadgets/2025/06/microsoft-extends-free-windows-10-security-updates-into-2026-with-strings-attached/">extending its official support window to October of 2026</a>. But this won't happen automatically; users will need to enroll their PCs in the ESU program to get the updates, using an enrollment feature that Microsoft just released to Windows 10 PCs recently.</p>
+<p>For anyone looking to get that extra year of updates, here's how to enroll your PC, how to make sure your PC is enrolled, and how to avoid paying the $30 fee that Microsoft is nominally charging for these updates.</p><p><a href="https://arstechnica.com/gadgets/2025/07/how-to-get-another-free-year-of-updates-for-your-windows-10-pc/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/07/how-to-get-another-free-year-of-updates-for-your-windows-10-pc/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>98</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/win10-new-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/win10-new-500x500-1728610204.jpg" width="500"/>
+<media:credit>Microsoft</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Making Roman concrete produces as much CO2 as modern concrete</title>
+                <link>https://arstechnica.com/science/2025/07/is-roman-concrete-more-sustainable-its-complicated/</link>
+                                    <comments>https://arstechnica.com/science/2025/07/is-roman-concrete-more-sustainable-its-complicated/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 17:41:33 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[chemistry]]></category>
+		<category><![CDATA[materials science]]></category>
+		<category><![CDATA[Roman concrete]]></category>
+		<category><![CDATA[sustainability]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/07/is-roman-concrete-more-sustainable-its-complicated/</guid>
+
+                                    <description>
+                        <![CDATA[Roman concrete produces as much, if not more, CO<sub>2</sub> as modern concrete, fewer air pollutants.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Builders in ancient Rome used a special kind of ancient concrete to construct their aqueducts, bridges, and buildings. But is Roman concrete more sustainable than the Portland cement used in today's concrete? The answer is more nuanced than one might think, according to a <a href="https://www.cell.com/iscience/fulltext/S2589-0042(25)01313-6">new paper</a> published in the journal iScience. Roman concrete produces as much CO<sub>2</sub> as modern methods, but fewer air pollutants.</p>
+<p>As we've <a href="https://arstechnica.com/science/2022/01/noblewomans-tomb-reveals-new-secrets-of-ancient-romes-highly-durable-concrete/" data-uri="f29152d3cea035bb1ffd6f9fb849da5c">reported previously</a>, like today's <a href="https://en.wikipedia.org/wiki/Portland_cement" data-uri="7e5fcbf7f79050078486c69c2a8120d1">Portland cement</a> (a basic ingredient of modern concrete), ancient <a href="https://en.wikipedia.org/wiki/Roman_concrete" data-uri="57459e017b35b6cdf856f9fbc4b450d3">Roman concrete</a> was basically a mix of a semi-liquid mortar and aggregate. Portland cement is typically made by heating limestone and clay (as well as sandstone, ash, chalk, and iron) in a kiln. The resulting clinker is then ground into a fine powder, with just a touch of added gypsum—the better to achieve a smooth, flat surface. But the aggregate used to make Roman concrete was made up of fist-sized pieces of stone or bricks.</p>
+<p>Scientists have long been fascinated by the remarkable longevity of Roman concrete; it's a very active field of study. For instance, in 2017, <a href="https://pubs.geoscienceworld.org/msa/ammin/article/102/7/1435/353606/Phillipsite-and-Al-tobermorite-mineral-cements" data-uri="754785cdb2dcc9299bb12c22c28bee2a">scientists analyzed</a> the concrete from the ruins of sea walls along Italy's Mediterranean coast, which have stood for two millennia despite the harsh marine environment. That analysis revealed that the recipe involved a combination of rare crystals and a porous mineral. So exposure to seawater generated chemical reactions inside the concrete, causing aluminum tobermorite crystals to form out of phillipsite, a common mineral found in volcanic ash. The crystals bound to the rocks, preventing the formation and propagation of cracks that would have otherwise weakened the structures.</p><p><a href="https://arstechnica.com/science/2025/07/is-roman-concrete-more-sustainable-its-complicated/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/07/is-roman-concrete-more-sustainable-its-complicated/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>49</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/concrete3-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/concrete3-500x500-1753826444.jpg" width="500"/>
+<media:credit>James Cocks/CC BY-SA 3.0</media:credit><media:text>Caesarea harbour: an example of underwater Roman concrete technology on a large scale</media:text></media:content>
+            </item>
+                    <item>
+                <title>India safely launches a $1.5 billion satellite for NASA</title>
+                <link>https://arstechnica.com/space/2025/07/india-safely-launches-a-1-5-billion-satellite-for-nasa/</link>
+                                    <comments>https://arstechnica.com/space/2025/07/india-safely-launches-a-1-5-billion-satellite-for-nasa/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 17:18:10 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[earth observation]]></category>
+		<category><![CDATA[isro]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[nisar]]></category>
+		<category><![CDATA[Sean Duffy]]></category>
+		<category><![CDATA[space]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2025/07/india-safely-launches-a-1-5-billion-satellite-for-nasa/</guid>
+
+                                    <description>
+                        <![CDATA["We are at the threshold of fulfilling the immense scientific potential NASA and ISRO envisioned."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>After more than a decade of development, NASA's science leadership traveled to India this week for the launch of the world's most expensive Earth-observation satellite.</p>
+<p>The $1.5 billion synthetic aperture radar imaging satellite, a joint project between NASA and the Indian space agency ISRO, successfully launched into orbit on Wednesday aboard that nation's Geosynchronous Satellite Launch Vehicle, a medium-lift rocket.</p>
+<p>The mission, named NISAR (NASA-ISRO Synthetic Aperture Radar), was subsequently deployed into its intended orbit 464 miles (747 km) above the Earth's surface. From this Sun-synchronous orbit, it will collect data about the planet's land and ice surfaces two times every 12 days, including the infrequently visited polar regions in the Southern Hemisphere.</p><p><a href="https://arstechnica.com/space/2025/07/india-safely-launches-a-1-5-billion-satellite-for-nasa/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/07/india-safely-launches-a-1-5-billion-satellite-for-nasa/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>27</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/NISAR-Integration-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/NISAR-Integration-500x500.jpg" width="500"/>
+<media:credit>ISRO</media:credit><media:text>The NISAR spacecraft is integrated with its Indian GSLV launch vehicle.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Australia’s first orbital-class rocket stalled seconds after liftoff</title>
+                <link>https://arstechnica.com/space/2025/07/australias-first-orbital-class-rocket-didnt-make-it-far-off-the-launch-pad/</link>
+                                    <comments>https://arstechnica.com/space/2025/07/australias-first-orbital-class-rocket-didnt-make-it-far-off-the-launch-pad/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 17:13:28 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[australia]]></category>
+		<category><![CDATA[Commercial space]]></category>
+		<category><![CDATA[eris rocket]]></category>
+		<category><![CDATA[Gilmour space]]></category>
+		<category><![CDATA[launch]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2025/07/australias-first-orbital-class-rocket-didnt-make-it-far-off-the-launch-pad/</guid>
+
+                                    <description>
+                        <![CDATA["I thought best case was maybe 40 seconds of flight time, but I'll take 14 as a win."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p class="p1">Back-to-back engine failures doomed a privately developed Australian rocket moments after liftoff Tuesday, cutting short a long-shot attempt to reach orbit with the country's first homegrown launch vehicle.</p>
+<p>The 82-foot-tall (25-meter) Eris rocket ignited its four main engines and took off from its launch pad in northeastern Australia at 6:35 pm EDT (22:35 UTC) Tuesday. Liftoff occurred at 8:35 am local time Wednesday at Bowen Orbital Spaceport, the Eris rocket's launch site in the Australian state of Queensland.</p>
+<p>But the rocket quickly lost power from two of its engines and stalled just above the launch pad before coming down in a nearby field. The crash sent a plume of smoke thousands of feet over the launch site, which sits on a remote stretch of coastline on Australia's northeastern frontier.</p><p><a href="https://arstechnica.com/space/2025/07/australias-first-orbital-class-rocket-didnt-make-it-far-off-the-launch-pad/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/07/australias-first-orbital-class-rocket-didnt-make-it-far-off-the-launch-pad/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>40</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/525762328_1391547306307173_1080875030424370442_n-1152x648-1753893776.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/525762328_1391547306307173_1080875030424370442_n-500x500.jpg" width="500"/>
+<media:credit>Gilmour Space</media:credit><media:text>Gilmour Space's Eris rocket lifts off from Bowen Orbital Spaceport in Austraia.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Google confirms it will sign the EU AI Code of Practice</title>
+                <link>https://arstechnica.com/google/2025/07/google-confirms-it-will-sign-the-eu-ai-code-of-practice/</link>
+                                    <comments>https://arstechnica.com/google/2025/07/google-confirms-it-will-sign-the-eu-ai-code-of-practice/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 16:14:50 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[europe]]></category>
+		<category><![CDATA[google]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/google/2025/07/google-confirms-it-will-sign-the-eu-ai-code-of-practice/</guid>
+
+                                    <description>
+                        <![CDATA[The company is not looking to make new enemies in Europe.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Big Tech is increasingly addicted to AI, but many companies are allergic to regulation, <a href="https://arstechnica.com/tech-policy/2025/03/openai-urges-trump-either-settle-ai-copyright-debate-or-lose-ai-race-to-china/" target="_blank" rel="noopener">bucking suggestions that</a> they adhere to copyright law and provide data on training. In a rare move, Google has confirmed it will sign the European Union's AI Code of Practice, a framework it initially opposed for being too harsh. However, Google isn't totally on board with Europe's efforts to rein in the AI explosion. The company's head of global affairs, Kent Walker, noted that the code could stifle innovation if it's not applied carefully, and that's something Google hopes to prevent.</p>
+<p>While Google was initially opposed to the Code of Practice, <a href="https://blog.google/around-the-globe/google-europe/eu-ai-code-practice/">Walker says</a> the input it has provided to the European Commission has been well-received, and the result is a legal framework it believes can provide Europe with access to "secure, first-rate AI tools." The company claims that the expansion of such tools on the continent could boost the economy by 8 percent (about 1.8 trillion euros) annually by 2034.</p>
+<p>These supposed economic gains are being dangled like bait to entice business interests in the EU to align with Google on the Code of Practice. While the company is signing the agreement, it appears interested in influencing the way it is implemented. Walker says Google remains concerned that tightening copyright guidelines and forced disclosure of possible trade secrets could slow innovation. Having a seat at the table could make it easier to bend the needle of regulation than if it followed some of its competitors in eschewing voluntary compliance.</p><p><a href="https://arstechnica.com/google/2025/07/google-confirms-it-will-sign-the-eu-ai-code-of-practice/">Read full article</a></p>
+<p><a href="https://arstechnica.com/google/2025/07/google-confirms-it-will-sign-the-eu-ai-code-of-practice/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>15</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/03/europe-flag-digital-1152x648-1742412347.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/03/europe-flag-digital-500x500.jpg" width="500"/>
+<media:credit>Getty Images | BeeBright</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Not (just) seeing red: Virtual Boy emulator adds full color support</title>
+                <link>https://arstechnica.com/gaming/2025/07/not-just-seeing-red-virtual-boy-emulator-adds-full-color-support/</link>
+                                    <comments>https://arstechnica.com/gaming/2025/07/not-just-seeing-red-virtual-boy-emulator-adds-full-color-support/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 15:56:32 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Color]]></category>
+		<category><![CDATA[emulation]]></category>
+		<category><![CDATA[Nintendo]]></category>
+		<category><![CDATA[RED]]></category>
+		<category><![CDATA[retro]]></category>
+		<category><![CDATA[virtual boy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2025/07/not-just-seeing-red-virtual-boy-emulator-adds-full-color-support/</guid>
+
+                                    <description>
+                        <![CDATA[Red Viper on the 3DS makes Nintendo's failed '90s experiment look like new.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Here at Ars, we're big fans of <a href="https://arstechnica.com/gaming/2018/04/better-than-reality-new-emulation-tech-lags-less-than-original-consoles/">classic console emulators</a> that go <a href="https://arstechnica.com/gaming/2021/06/how-snes-emulators-got-a-few-pixels-from-complete-perfection/">beyond providing perfect re-creations</a> to those that <a href="https://arstechnica.com/gaming/2019/04/hd-emulation-mod-makes-mode-7-snes-games-look-like-new/">actually improve</a> on <a href="https://arstechnica.com/gaming/2019/05/28-years-later-hacker-fixes-rampant-slowdown-on-snes-gradius-iii/">original hardware</a> with <a href="https://arstechnica.com/gaming/2016/06/hands-on-with-the-emulator-that-adds-depth-to-old-2d-nes-games/">new features</a> we could only dream of as kids. So we were excited when we recently <a href="https://www.reddit.com/r/VirtualBoy/comments/1m5wc0t/virtualboy_is_now_in_color_thanks_to_redviper/">stumbled on a Reddit post</a> that shows a full <a href="https://www.youtube.com/watch?v=660FVHPm1OA">Super Game Boy-esque</a> color palette added to the usual shades of red and black found in <em>Virtual Boy Wario Land</em>.</p>
+<p>After experiencing colorized Virtual Boy emulation for ourselves (and grabbing the sample screenshots you can see in this piece), we were struck by just how much a splash of color adds new life to Nintendo's failed '90s experiment (which <a href="https://direct.mit.edu/books/oa-monograph/5781/Seeing-RedNintendo-s-Virtual-Boy">Ars' own Benj Edwards has written about extensively</a>). Going beyond the usual red-and-black graphics helps to highlight the artistry in the small selection of official Virtual Boy games and provides a great excuse to check out the system's surprisingly vibrant homebrew scene.</p>
+<h2>Red in the face</h2>
+<p>Nintendo famously chose to use a line of (then cheap and abundant) red LEDs for the Virtual Boy's stereoscopic display, leading to its iconic monochromatic color palette. While the handful of '90s Virtual Boy developers did their best under this limitation, the hardware's red-on-black graphics have aged even worse than the often muddy grayscale found on the original Game Boy.</p><p><a href="https://arstechnica.com/gaming/2025/07/not-just-seeing-red-virtual-boy-emulator-adds-full-color-support/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2025/07/not-just-seeing-red-virtual-boy-emulator-adds-full-color-support/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>30</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/vbc12-1152x648-1753888610.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/vbc12-500x500-1753888603.jpg" width="500"/>
+<media:credit>Kyle Orland / Red Viper</media:credit><media:text>Yellow coins? In this economy?</media:text></media:content>
+            </item>
+                    <item>
+                <title>VPN use soars in UK after age-verification laws go into effect</title>
+                <link>https://arstechnica.com/tech-policy/2025/07/vpn-use-soars-in-uk-after-age-verification-laws-go-into-effect/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/07/vpn-use-soars-in-uk-after-age-verification-laws-go-into-effect/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Lily Hay Newman and Matt Burgess, wired.com]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Jul 2025 13:37:40 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[age verification]]></category>
+		<category><![CDATA[online safety act]]></category>
+		<category><![CDATA[open Internet]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[uk]]></category>
+		<category><![CDATA[VPN]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/vpn-use-soars-in-uk-after-age-verification-laws-go-into-effect/</guid>
+
+                                    <description>
+                        <![CDATA[Proton VPN signups originating in the UK increased by over 1,400 percent.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>After the United Kingdom’s <a href="https://www.wired.com/story/the-uks-controversial-online-safety-act-is-now-law/">Online Safety Act</a> went into effect on Friday, requiring porn platforms and other adult content sites to implement user age verification mechanisms, use of <a href="https://www.wired.com/story/best-vpn/">virtual private networks (VPNs)</a> and other circumvention tools spiked in the UK over the weekend.</p>
+<p>Experts had expected the surge, given that similar trends have been visible in other countries that have implemented age check laws. But as a <a href="https://www.wired.com/story/the-age-checked-internet-has-arrived/">new wave of age check regulations debuts</a>, open Internet advocates warn that the uptick in use of circumvention tools in the UK is the latest example of how an escalating cat-and-mouse game can develop between people looking to anonymously access services online and governments seeking to enforce content restrictions.</p>
+<p>The Online Safety Act requires that websites hosting porn, self-harm, suicide, and eating disorder content implement “highly effective” age checks for visitors from the UK. These checks can include uploading an ID document and selfie for validation and analysis. And along with increased demand for services like VPNs—which allow users to mask basic indicators of their physical location online—people have also been playing around with other creative workarounds. In some cases, reportedly, you can even use the video game <a href="https://www.pcgamer.com/hardware/brits-can-get-around-discords-age-verification-thanks-to-death-strandings-photo-mode-bypassing-the-measure-introduced-with-the-uks-online-safety-act-we-tried-it-and-it-works-thanks-kojima/"><i>Death Stranding</i>’s photo mode</a> to take a selfie of character Sam Porter Bridges and submit it to access age-gated forum content.</p><p><a href="https://arstechnica.com/tech-policy/2025/07/vpn-use-soars-in-uk-after-age-verification-laws-go-into-effect/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/07/vpn-use-soars-in-uk-after-age-verification-laws-go-into-effect/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>152</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/returnkey-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/returnkey-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Tesla picks LGES, not CATL, for $4.3 billion storage battery deal</title>
                 <link>https://arstechnica.com/cars/2025/07/tesla-to-buy-storage-battery-cells-from-lges-in-4-3-billion-deal/</link>
+                                    <comments>https://arstechnica.com/cars/2025/07/tesla-to-buy-storage-battery-cells-from-lges-in-4-3-billion-deal/#comments</comments>
                 
                 <dc:creator>
                     <![CDATA[Jonathan M. Gitlin]]>
@@ -44,6 +579,7 @@
 ]]>
                         </content:encoded>
                                     
+                                    <slash:comments>94</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2213732927-1152x648.jpg" width="1152">
@@ -81,7 +617,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>9</slash:comments>
+                                    <slash:comments>48</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Gemini_CLI_Hero-1152x648.png" width="1152">
@@ -133,7 +669,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>97</slash:comments>
+                                    <slash:comments>151</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/delivs_tower_1-1152x648.jpg" width="1152">
@@ -169,7 +705,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>148</slash:comments>
+                                    <slash:comments>224</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/466148496_18025243454600213_3029086340888592968_n-992x648.jpg" width="992">
@@ -201,546 +737,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>44</slash:comments>
+                                    <slash:comments>61</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/trump-with-ec-president-1152x648-1753814456.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/trump-with-ec-president-500x500-1753814466.jpg" width="500"/>
 <media:credit>Getty Images | Andrew Harnik</media:credit><media:text>US President Donald Trump and European Commission President Ursula von der Leyen shake hands as they announce a US-EU trade deal after a meeting at Trump Turnberry golf club on July 27, 2025 in Turnberry, Scotland. </media:text></media:content>
-            </item>
-                    <item>
-                <title>EPA plans to ignore science, stop regulating greenhouse gases</title>
-                <link>https://arstechnica.com/science/2025/07/epa-plans-to-ignore-science-stop-regulating-greenhouse-gases/</link>
-                                    <comments>https://arstechnica.com/science/2025/07/epa-plans-to-ignore-science-stop-regulating-greenhouse-gases/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Martha Muir, Financial Times]]>
-                </dc:creator>
-                <pubDate>Tue, 29 Jul 2025 19:34:17 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[clean air act]]></category>
-		<category><![CDATA[CO2]]></category>
-		<category><![CDATA[EPA]]></category>
-		<category><![CDATA[greenhouse gases]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/07/epa-plans-to-ignore-science-stop-regulating-greenhouse-gases/</guid>
-
-                                    <description>
-                        <![CDATA["Largest deregulatory action" in the history of US would be one of the unhealthiest.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Trump administration has proposed curbing the government’s ability to regulate greenhouse gases by unwinding rules that control emissions from fossil fuel drilling, power plants, and cars.</p>
-<p>Environmental Protection Agency Administrator Lee Zeldin on Tuesday announced the proposed rollback of a 2009 declaration that determined carbon dioxide and other greenhouse gases are a danger to public health and welfare.</p>
-<p>“With this proposal, the Trump EPA is proposing to end 16 years of uncertainty for automakers and American consumers,” said Zeldin.</p><p><a href="https://arstechnica.com/science/2025/07/epa-plans-to-ignore-science-stop-regulating-greenhouse-gases/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/07/epa-plans-to-ignore-science-stop-regulating-greenhouse-gases/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>153</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/07/GettyImages-128228162-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2019/07/GettyImages-128228162-500x500.jpg" width="500"/>
-<media:credit>Harvey Schwartz | Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>The case for memes as a new form of comics</title>
-                <link>https://arstechnica.com/culture/2025/07/the-case-for-memes-as-a-new-form-of-comics/</link>
-                                    <comments>https://arstechnica.com/culture/2025/07/the-case-for-memes-as-a-new-form-of-comics/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Tue, 29 Jul 2025 19:18:53 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Internet memes]]></category>
-		<category><![CDATA[memes]]></category>
-		<category><![CDATA[sequential art]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2025/07/the-case-for-memes-as-a-new-form-of-comics/</guid>
-
-                                    <description>
-                        <![CDATA[Both comics and memes rely on the same interplay of visual and verbal elements for their humor.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>It's undeniable that the rise of the Internet had a profound impact on cartooning as a profession, giving cartoonists both new tools and a new publishing and/or distribution medium. Online culture also spawned the emergence of viral memes in the late 1990s. Michelle Ann Abate, an English professor at The Ohio State University, argues in <a href="https://muse.jhu.edu/pub/30/article/960641">a paper</a> published in INKS: The Journal of the Comics Studies Society, that memes—specifically, image macros—represent a new type of digital comic, right down to the cognitive and creative ways in which they operate.</p>
-<p>"One of my areas of specialty has been graphic novels and comics," Abate told Ars. "I've published multiple books on various aspects of comics history and various titles: everything from Charles Schulz's <em>Peanuts</em> to <em>The Far Side</em>, to <em>Little Lulu</em> to <em>Ziggy</em> to <em>The Family Circus</em>. So I've been working on comics as part of the genres and texts and time periods that I look at for many years now."</p>
-<p>Her most recent book is 2024's <a href="https://www.amazon.com/Singular-Sensations-Cultural-History-One-Panel/dp/1978840683"><em>Singular Sensations: A Cultural History of One-Panel Comics in the United States</em></a>, which Abate was researching when the COVID-19 pandemic hit in 2020. "I was reading a lot of single panel comics and sharing them with friends during the pandemic, and memes were something we were always sharing, too," Abate said. "It occurred to me one day that there isn't a whole lot of difference between the single panel comics I'm sharing and the memes. In terms of how they function, how they operate, the connection of the verbal and the visual, there's more continuity than there is difference."</p><p><a href="https://arstechnica.com/culture/2025/07/the-case-for-memes-as-a-new-form-of-comics/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2025/07/the-case-for-memes-as-a-new-form-of-comics/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>61</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/distracted-1152x648-1753804837.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/distracted-500x500-1753804846.jpg" width="500"/>
-<media:credit>Jennifer Ouellette via imgflip</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Apple releases iOS 18.6, macOS 15.6, and other updates as current gen winds down</title>
-                <link>https://arstechnica.com/gadgets/2025/07/apple-releases-ios-18-6-macos-15-6-and-other-updates-as-current-gen-winds-down/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/07/apple-releases-ios-18-6-macos-15-6-and-other-updates-as-current-gen-winds-down/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Tue, 29 Jul 2025 19:03:19 +0000</pubDate>
-                		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[iOS]]></category>
-		<category><![CDATA[ios 18]]></category>
-		<category><![CDATA[iPadOS]]></category>
-		<category><![CDATA[iPadOS 18]]></category>
-		<category><![CDATA[MacOS]]></category>
-		<category><![CDATA[macos 15 sequoia]]></category>
-		<category><![CDATA[tvos]]></category>
-		<category><![CDATA[watchos]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/07/apple-releases-ios-18-6-macos-15-6-and-other-updates-as-current-gen-winds-down/</guid>
-
-                                    <description>
-                        <![CDATA[Photos app fix and a pile of security updates. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Apple's next-generation software updates are just a couple of months away, but Apple isn't done with last year's releases just yet. Apple has released iOS 18.6, iPadOS 18.6, macOS Sequoia 15.6, watchOS 11.6, tvOS 18.6, and visionOS 2.6 to the public today, fixing an issue with sharing movies from the Photos app but mostly patching a long list of security vulnerabilities.</p>
-<p>For <a href="https://support.apple.com/en-us/124147">iOS</a>, iPadOS, and <a href="https://support.apple.com/en-us/124149">macOS</a>, the list of resolved CVEs covers everything from the Metal graphics API to WebKit to networking to filesystem permissions issues. All told, each of these updates patches over two dozen vulnerabilities, and the other OS updates cover many of the same flaws. According to Apple's release notes, at least, none of these vulnerabilities are being actively exploited in the wild—you should patch as soon as you can, but there appear to be no known zero-day vulnerabilities.</p>
-<p>For iOS and iPadOS users in the EU, the updates also include a mechanism for installing alternate app stores and for installing apps directly from websites, in accordance with the EU's Digital Markets Act.</p><p><a href="https://arstechnica.com/gadgets/2025/07/apple-releases-ios-18-6-macos-15-6-and-other-updates-as-current-gen-winds-down/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/07/apple-releases-ios-18-6-macos-15-6-and-other-updates-as-current-gen-winds-down/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>36</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/Apple-Intelligence-hero-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/Apple-Intelligence-hero-scaled-500x500-1733936748.jpg" width="500"/>
-<media:credit>Apple</media:credit></media:content>
-            </item>
-                    <item>
-                <title>ChatGPT’s new Study Mode is designed to help you learn, not just give answers</title>
-                <link>https://arstechnica.com/ai/2025/07/chatgpts-new-study-mode-is-designed-to-help-you-learn-not-just-give-answers/</link>
-                                    <comments>https://arstechnica.com/ai/2025/07/chatgpts-new-study-mode-is-designed-to-help-you-learn-not-just-give-answers/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Tue, 29 Jul 2025 18:00:34 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[cheating]]></category>
-		<category><![CDATA[classroom]]></category>
-		<category><![CDATA[education]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[study mode]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2025/07/chatgpts-new-study-mode-is-designed-to-help-you-learn-not-just-give-answers/</guid>
-
-                                    <description>
-                        <![CDATA[New set of system prompts promote understanding with guided questions, "Socratic dialogue."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The rise of large language models like ChatGPT has led to <a href="https://nymag.com/intelligencer/article/openai-chatgpt-ai-cheating-education-college-students-school.html">widespread concern that "everyone is cheating their way through college,"</a> as a recent New York magazine article memorably put it. Now, OpenAI is <a href="https://openai.com/index/chatgpt-study-mode/">rolling out a new "Study Mode"</a> that it claims is less about providing answers or doing the work for students and more about helping them "build [a] deep understanding" of complex topics.</p>
-<p>Study Mode isn't a new ChatGPT model but a series of "custom system instructions" written for the LLM "in collaboration with teachers, scientists, and pedagogy experts to reflect a core set of behaviors that support deeper learning," OpenAI said. Instead of the usual summary of a subject that stock ChatGPT might give—which one OpenAI employee likened to "a mini textbook chapter"—Study Mode slowly rolls out new information in a "scaffolded" structure. The mode is designed to ask "guiding questions" in the Socratic style and to pause for periodic "knowledge checks" and personalized feedback to make sure the user understands before moving on.</p>
-<p>It's unknown how many students will use this guided learning tool instead of just asking ChatGPT to generate answers from the start.</p><p><a href="https://arstechnica.com/ai/2025/07/chatgpts-new-study-mode-is-designed-to-help-you-learn-not-just-give-answers/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/07/chatgpts-new-study-mode-is-designed-to-help-you-learn-not-just-give-answers/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>74</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2169079907-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2169079907-500x500-1753801462.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>Oh, I know the answer Mr. Robot!</media:text></media:content>
-            </item>
-                    <item>
-                <title>Acquisition sends thousands of Whistle pet trackers to IoT graveyard</title>
-                <link>https://arstechnica.com/gadgets/2025/07/acquisition-sends-thousands-of-whistle-pet-trackers-to-iot-graveyard/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/07/acquisition-sends-thousands-of-whistle-pet-trackers-to-iot-graveyard/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Tue, 29 Jul 2025 17:38:34 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[acquisition]]></category>
-		<category><![CDATA[bricked]]></category>
-		<category><![CDATA[smart home]]></category>
-		<category><![CDATA[whistle]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/07/acquisition-sends-thousands-of-whistle-pet-trackers-to-iot-graveyard/</guid>
-
-                                    <description>
-                        <![CDATA[Whistle pet monitors will stop working on August 31. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Whistle pet trackers are headed to the Internet of Things (IoT) graveyard. After releasing its first product in 2013, the Seattle-based Whistle has just been acquired by a competitor that has decided to brick all of Whistle's smart GPS and activity monitors.</p>
-<p>Tractive, an Austrian company that has also been selling Internet-connected GPS trackers for pets since 2013, on Monday announced its acquisition of Whistle from Mars Petcare, as spotted by <a href="https://www.theverge.com/news/714775/tractive-whistle-pet-tracker-acquisition">The Verge</a>. Mars Petcare is the pet food subsidiary of Mars Inc (which also makes candies like M&amp;M’s), and it acquired Whistle in 2016 <a href="https://www.bloomberg.com/news/articles/2016-04-01/mars-said-to-spend-117m-to-acquire-whistle-s-fitbit-for-dogs">for $117 million</a>.</p>
-<p>Tractive bought Whistle to expand its business in the US. Until September 30, Whistle owners can get Tractive devices to replace the Whistle trackers that Tractive is bricking. People currently paying for a Whistle subscription will see their subscriptions transferred to their new Tractive device. People with a Whistle device but no subscription must “pay for a Tractive subscription” in order to get a replacement device, <a href="https://tractive.com/en/fp/whistle?ranMID=45904&amp;ranEAID=2116208&amp;utm_source=rakuten&amp;utm_term=2116208&amp;ranSiteID=TnL5HPStwNw-cQv4pvy1XzBROb5OA6IjWA">Tractive’s website</a> says. Tractive subscriptions start at $108 per year.</p><p><a href="https://arstechnica.com/gadgets/2025/07/acquisition-sends-thousands-of-whistle-pet-trackers-to-iot-graveyard/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/07/acquisition-sends-thousands-of-whistle-pet-trackers-to-iot-graveyard/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>100</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/whistle-health-20-smart-device-whistle-569746-1152x648-1753810634.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/whistle-health-20-smart-device-whistle-569746-500x500.jpg" width="500"/>
-<media:credit>Whistle</media:credit><media:text>This pup's Whistle tracker won't work soon. </media:text></media:content>
-            </item>
-                    <item>
-                <title>2025 Polestar 3 drives sporty, looks sharp, can be a little annoying</title>
-                <link>https://arstechnica.com/cars/2025/07/2025-polestar-3-drives-sporty-looks-sharp-can-be-a-little-annoying/</link>
-                                    <comments>https://arstechnica.com/cars/2025/07/2025-polestar-3-drives-sporty-looks-sharp-can-be-a-little-annoying/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Tue, 29 Jul 2025 16:41:08 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[car review]]></category>
-		<category><![CDATA[Polestar 3]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2025/07/2025-polestar-3-drives-sporty-looks-sharp-can-be-a-little-annoying/</guid>
-
-                                    <description>
-                        <![CDATA[We spend a week with Polestar's SUV flagship. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Earlier this month, Ars took a look at Volvo’s latest electric vehicle. The EX90 proved to be <a href="https://arstechnica.com/cars/2025/07/2025-volvo-ex90-a-low-key-luxury-electric-suv/">a rather thoughtful Swedish take on the luxury SUV</a>, albeit one that remains a rare sight on the road. But the EX90 is not the only recipe one can cook with the underlying ingredients. The ingredients in this case are from a platform called SPA2, and to extend the metaphor a bit, the kitchen is the Volvo factory in Ridgeville, South Carolina, which in addition to making a variety of midsize and larger Volvo cars for the US and European markets also produces the Polestar 3.</p>
-<p>What’s fascinating is how different the end products are. Intentionally, Polestar and Volvo wisely seek different customers rather than cannibalize each other's sales. As a new brand, Polestar comes with many fewer preconceptions other than the usual arguments that will rage in the comment section over just how much is Swedish versus Chinese, and perhaps the occasional student of history who remembers the touring car racing team that then developed some <a href="https://arstechnica.com/cars/2017/08/the-2017-s60-polestar-a-volvo-with-a-nurburgring-lap-record/">bright blue special edition Volvo road cars</a> that for a while held a production car lap record around the Nürburgring Nordschliefe.</p>
-<p>That historical link is important. Polestar might now mentally slot into the space that Saab used to occupy in the last century as a refuge for customers with eclectic tastes thanks to its clean exterior designs and techwear-inspired interiors. Once past the necessity of basic transportation, aesthetics are as good a reason as most when it comes to picking a particular car. Just thinking of a Polestar as a brand that exemplifies modern Scandinavian design would be to sell it short, though. The driving dynamics are just too good.</p><p><a href="https://arstechnica.com/cars/2025/07/2025-polestar-3-drives-sporty-looks-sharp-can-be-a-little-annoying/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/07/2025-polestar-3-drives-sporty-looks-sharp-can-be-a-little-annoying/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>64</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/2025-Polestar-3-3-of-13-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/2025-Polestar-3-3-of-13-500x500.jpg" width="500"/>
-<media:credit>Jonathan Gitlin</media:credit><media:text>What happens if you use the same ingredients and kitchen as Volvo, but build to a completely different recipe?</media:text></media:content>
-            </item>
-                    <item>
-                <title>Microsoft is revamping Windows 11’s Task Manager so its numbers make more sense</title>
-                <link>https://arstechnica.com/gadgets/2025/07/revamped-task-manager-second-monitor-notifications-coming-soon-to-windows-11/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/07/revamped-task-manager-second-monitor-notifications-coming-soon-to-windows-11/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Tue, 29 Jul 2025 16:18:03 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[Windows]]></category>
-		<category><![CDATA[windows 11]]></category>
-		<category><![CDATA[windows 11 24h2]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/07/revamped-task-manager-second-monitor-notifications-coming-soon-to-windows-11/</guid>
-
-                                    <description>
-                        <![CDATA[Changes are rolling out to Windows Insider testers in the Dev and Beta channels.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Microsoft devotes most of its time and energy these days to promoting new AI- and Copilot-related features for Windows 11, but the company's Windows Insider builds are still full of small tweaks and changes aimed at improving longstanding Windows features for people who just want to use their PC the way they always have.</p>
-<p>New updates that began rolling out to testers in the Windows Insider program yesterday include a couple of small but meaningful changes for Windows power users. First, Microsoft is changing the way the Taskbar works on secondary monitors, allowing users to click it to see the calendar and Notification Center on all monitors, not just the primary display.</p>
-<p>Microsoft is also making a change to how the various tabs in the Task Manager measure CPU usage to make it more consistent (and less nonsensical).</p><p><a href="https://arstechnica.com/gadgets/2025/07/revamped-task-manager-second-monitor-notifications-coming-soon-to-windows-11/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/07/revamped-task-manager-second-monitor-notifications-coming-soon-to-windows-11/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>96</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/05/win11-bloom-rainbow-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/05/win11-bloom-rainbow-500x500.jpeg" width="500"/>
-<media:credit>Microsoft</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Trump promised a drilling boom, but US energy industry hasn’t been interested</title>
-                <link>https://arstechnica.com/science/2025/07/trump-promised-a-drilling-boom-but-us-energy-industry-hasnt-been-interested/</link>
-                                    <comments>https://arstechnica.com/science/2025/07/trump-promised-a-drilling-boom-but-us-energy-industry-hasnt-been-interested/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Deep Vakil, Inside Climate News]]>
-                </dc:creator>
-                <pubDate>Tue, 29 Jul 2025 13:26:37 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Energy]]></category>
-		<category><![CDATA[fossil fuels]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/07/trump-promised-a-drilling-boom-but-us-energy-industry-hasnt-been-interested/</guid>
-
-                                    <description>
-                        <![CDATA[Exec: “Liberation Day chaos and tariff antics have harmed the domestic energy industry."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>“We will drill, baby, drill,” President Donald Trump declared at his <a href="https://www.whitehouse.gov/remarks/2025/01/the-inaugural-address/">inauguration</a> on January 20. Echoing the slogan that exemplified his energy policies during the campaign, he made his message clear: more oil and gas, lower prices, greater exports.</p>
-<p>Six months into Trump’s second term, his administration has little to show on that score. Output is ticking up, but <a href="https://www.eia.gov/outlooks/steo/report/petro_prod.php">slower</a> than it did under the Biden administration. Pump prices for gasoline have <a href="https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&amp;s=emm_epm0_pte_nus_dpg&amp;f=w">bobbed</a> around where they were in inauguration week. And exports of crude oil in the four months through April <a href="https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&amp;s=MCREXUS2&amp;f=M">trailed</a> those in the same period last year.</p>
-<p>The White House is discovering, perhaps the hard way, that energy markets aren’t easily managed from the Oval Office—even as it moves to <a href="https://eelp.law.harvard.edu/tracker-type/regulatory-tracker/">roll back regulations</a> on the <a href="https://eelp.law.harvard.edu/tracker/epa-voc-and-methane-standards-for-oil-and-gas-facilities-2/">oil and gas sector</a>, offers up more public lands <a href="https://www.nytimes.com/2025/04/08/climate/trump-new-mexico-nevada-mining-drilling.html">for drilling</a> at <a href="https://www.eenews.net/articles/what-the-megalaws-royalty-rate-cuts-mean-for-oil-and-gas-producers/">reduced royalty rates</a>, and axes Biden-era incentives for <a href="https://www.eenews.net/articles/megalaw-complicates-trumps-plans-to-quickly-ax-renewable-credits/">wind and solar.</a></p><p><a href="https://arstechnica.com/science/2025/07/trump-promised-a-drilling-boom-but-us-energy-industry-hasnt-been-interested/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/07/trump-promised-a-drilling-boom-but-us-energy-industry-hasnt-been-interested/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>124</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/oil-wells-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/05/oil-wells-500x500.jpg" width="500"/>
-<media:credit>Jose Luis Stephens  | Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>The first company to complete a fully successful lunar landing is going public</title>
-                <link>https://arstechnica.com/space/2025/07/the-first-company-to-complete-a-fully-successful-lunar-landing-is-going-public/</link>
-                                    <comments>https://arstechnica.com/space/2025/07/the-first-company-to-complete-a-fully-successful-lunar-landing-is-going-public/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Mon, 28 Jul 2025 22:52:57 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2025/07/the-first-company-to-complete-a-fully-successful-lunar-landing-is-going-public/</guid>
-
-                                    <description>
-                        <![CDATA[Some of Firefly's programs are going quite well. Others, not so much.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Firefly Aerospace seeks to raise more than $600 million through a public stock offering, an arrangement that would boost the company's market valuation to nearly $5.5 billion, according to a document filed with the SEC on Monday.</p>
-<p>The launch of Firefly's Initial Public Offering (IPO) comes as the company works to build on a historic success in March, when Firefly's Blue Ghost lander touched down on the surface of the Moon. Firefly plans to sell 16.2 million shares of common stock, at a price of between $35 and $39 per share. Under those terms, Firefly could raise up to $631.8 million on the public market.</p>
-<p>Firefly has applied to list its common stock on the NASDAQ Global Market under the ticker symbol "FLY."</p><p><a href="https://arstechnica.com/space/2025/07/the-first-company-to-complete-a-fully-successful-lunar-landing-is-going-public/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/07/the-first-company-to-complete-a-fully-successful-lunar-landing-is-going-public/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>46</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/flylogo-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/flylogo-500x500.jpg" width="500"/>
-<media:text>Firefly Aerospace's ticker symbol will be "FLY."</media:text></media:content>
-            </item>
-                    <item>
-                <title>Review: Fantastic Four: First Steps is the best film version so far</title>
-                <link>https://arstechnica.com/culture/2025/07/review-fantastic-four-first-steps-is-the-best-film-version-so-far/</link>
-                                    <comments>https://arstechnica.com/culture/2025/07/review-fantastic-four-first-steps-is-the-best-film-version-so-far/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Mon, 28 Jul 2025 22:10:40 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[film reviews]]></category>
-		<category><![CDATA[marvel studios]]></category>
-		<category><![CDATA[mcu]]></category>
-		<category><![CDATA[MCU Phase Six]]></category>
-		<category><![CDATA[The Fantastic Four: First Steps]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2025/07/review-fantastic-four-first-steps-is-the-best-film-version-so-far/</guid>
-
-                                    <description>
-                        <![CDATA[The plot makes no sense, but that retro-futuristic Tomorrowland vibe and superb cast make it (mostly) work.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Marvel Studios officially kicked off Phase Six of its cinematic universe with the release of <a href="https://en.wikipedia.org/wiki/The_Fantastic_Four:_First_Steps"><em>The Fantastic Four: First Steps</em></a>, and the film is already garnering solid reviews and a <a href="https://deadline.com/tag/fantastic-four/">strong start</a> at the box office. The cast is terrific across the board, and the production design is, well, pretty darn fantastic, evoking Disney's Tomorrowland (the park, not the film) with its 1960s retro-alt-future aesthetic. Just let your brain relax and don't try to make too much of the nonsensical plot.</p>
-<p><strong>(Some spoilers below, but no major reveals.)</strong></p>
-<p>Director Matt Shakman (<em>WandaVision</em>) took a page from James Gunn's <em>Superman</em> playbook and skipped the usual origin story for our heroes. How the Fantastic Four acquired their unique abilities is recapped via brief flashbacks, along with some of their early exploits, thanks to the Four being featured celebrities on a popular talk show hosted by Ted Gilbert (Mark Gatiss). Reed Richard/Mister Fantastic (Pedro Pascal) and Sue Storm/Invisible Woman (Vanessa Kirby) are even expecting their first child, to the delight of Johnny Storm/Human Torch (Joseph Quinn) and Ben Grimm/The Thing (Ebon Moss-Bachrach).</p><p><a href="https://arstechnica.com/culture/2025/07/review-fantastic-four-first-steps-is-the-best-film-version-so-far/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2025/07/review-fantastic-four-first-steps-is-the-best-film-version-so-far/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>94</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/four10-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/four10-500x500.jpg" width="500"/>
-<media:credit>Marvel Studios</media:credit><media:text>"It's clobberin' time!"</media:text></media:content>
-            </item>
-                    <item>
-                <title>Futurehome smart hub owners must pay new $117 subscription or lose access</title>
-                <link>https://arstechnica.com/gadgets/2025/07/bankrupt-futurehome-suddenly-makes-its-smart-home-hub-a-subscription-service/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/07/bankrupt-futurehome-suddenly-makes-its-smart-home-hub-a-subscription-service/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Mon, 28 Jul 2025 21:30:53 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[smart home]]></category>
-		<category><![CDATA[subscriptions]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/07/bankrupt-futurehome-suddenly-makes-its-smart-home-hub-a-subscription-service/</guid>
-
-                                    <description>
-                        <![CDATA[The connected devices now only work manually without a subscription.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Smart home device maker Futurehome is forcing its customers’ hands by suddenly requiring a subscription for basic functionality of its products.</p>
-<p>Launched in 2016, Futurehome’s Smarthub is marketed as a central hub for controlling Internet-connected devices in smart homes. For years, the Norwegian company sold its products, which also include smart thermostats, smart lighting, and smart fire and carbon monoxide alarms, for a one-time fee that included access to its companion app and cloud platform for control and automation. As of June 26, though, those core features require a 1,188 NOK (about $116.56) annual subscription fee, turning the smart home devices into dumb ones if users don't pay up.</p>
-<p>“You lose access to controlling devices, configuring; automations, modes, shortcuts, and energy services,” a company <a href="https://support.futurehome.no/hc/en-no/articles/28158944965277-FAQ-Subscription">FAQ page</a> says.</p><p><a href="https://arstechnica.com/gadgets/2025/07/bankrupt-futurehome-suddenly-makes-its-smart-home-hub-a-subscription-service/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/07/bankrupt-futurehome-suddenly-makes-its-smart-home-hub-a-subscription-service/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>129</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/SmarthubII-mainproductphoto-1152x648-1753734534.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/SmarthubII-mainproductphoto-500x500-1753734525.jpg" width="500"/>
-<media:credit>Futurehome</media:credit><media:text>Futurehome's Smarthub II smart home hub has an MSRP of about $275. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Trump caving on Nvidia H20 export curbs may disrupt his bigger trade war</title>
-                <link>https://arstechnica.com/tech-policy/2025/07/trump-caving-on-nvidia-h20-export-curbs-may-disrupt-his-bigger-trade-war/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/07/trump-caving-on-nvidia-h20-export-curbs-may-disrupt-his-bigger-trade-war/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Mon, 28 Jul 2025 21:04:07 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AI chips]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[frontier ai]]></category>
-		<category><![CDATA[h20 chips]]></category>
-		<category><![CDATA[Howard Lutnick]]></category>
-		<category><![CDATA[Jensen Huang]]></category>
-		<category><![CDATA[NVIDIA]]></category>
-		<category><![CDATA[semiconductors]]></category>
-		<category><![CDATA[tariffs]]></category>
-		<category><![CDATA[trump tariffs]]></category>
-		<category><![CDATA[us-china trade war]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/trump-caving-on-nvidia-h20-export-curbs-may-disrupt-his-bigger-trade-war/</guid>
-
-                                    <description>
-                        <![CDATA[China’s frontier AI will be fueled by Nvidia H20 chips, experts warn Trump.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The next front in Donald Trump's trade war will be chip tariffs—which could come by next month—but national security experts are warning that the president may have already made a huge misstep that threatens to disrupt both US trade and national security.</p>
-<p>In a <a href="https://ari.us/wp-content/uploads/2025/07/Letter-to-Secretary-Lutnick-on-H20-restrictions.pdf">letter</a> Monday to Department of Commerce Secretary Howard Lutnick, 20 policymakers and professionals with a background in national security policy urged Trump to reverse course and block exports of Nvidia's H20 chips to China.</p>
-<p>In April, the Trump administration decided against imposing additional export curbs on H20 chips after Nvidia CEO Jensen Huang paid $1 million for a seat at a Mar-a-Lago dinner, NPR <a href="https://www.npr.org/2025/04/09/nx-s1-5356480/nvidia-china-ai-h20-chips-trump">reported</a>. Apparently, Nvidia's promise to invest $500 billion in AI data centers helped persuade Trump to change course, as did the terms of a temporary truce with China, in which the US promised to halt H20 chip controls in exchange for China restoring imports of rare earth minerals into the US.</p><p><a href="https://arstechnica.com/tech-policy/2025/07/trump-caving-on-nvidia-h20-export-curbs-may-disrupt-his-bigger-trade-war/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/07/trump-caving-on-nvidia-h20-export-curbs-may-disrupt-his-bigger-trade-war/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>76</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2212801534-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2212801534-500x500-1753733062.jpg" width="500"/>
-<media:credit>Andrew Harnik / Staff | Getty Images News</media:credit><media:text>Donald Trump (L) listens as Nvidia CEO Jensen Huang speaks at the White House during an event on "Investing in America" on April 30, 2025 in Washington, DC.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Blender developers begin work on full-fledged mobile version</title>
-                <link>https://arstechnica.com/gadgets/2025/07/popular-3d-application-blender-will-get-a-tablet-version/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/07/popular-3d-application-blender-will-get-a-tablet-version/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Samuel Axon]]>
-                </dc:creator>
-                <pubDate>Mon, 28 Jul 2025 20:17:17 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[3D modeling]]></category>
-		<category><![CDATA[Blender]]></category>
-		<category><![CDATA[Creative]]></category>
-		<category><![CDATA[ipad]]></category>
-		<category><![CDATA[open source]]></category>
-		<category><![CDATA[software]]></category>
-		<category><![CDATA[tablet]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/07/popular-3d-application-blender-will-get-a-tablet-version/</guid>
-
-                                    <description>
-                        <![CDATA[Support will come to the iPad Pro first, with other platforms to follow.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Popular open source 3D modeling tool Blender's social media channels and subreddit have regularly seen people asking for a tablet version for years now. And according to <a href="https://code.blender.org/2025/07/beyond-mouse-keyboard/">a blog post</a> by Dalai Felinto from the Blender team, the developers of the application have now committed to build just that.</p>
-<p>"The idea is to bring the full power of Blender to these devices," the blog post explains. "This requires adapting to platform-specific paradigms, but also to offer more task-oriented user interfaces with reduced information density. This will be achieved by extending existing input methods and improving workspaces and application templates, running on top of a regular Blender build."</p>
-<p>The long-term goal is to build out not just a standalone tablet interface, but to offer the same advantages something like an iPad Pro offers to PC-connected graphics tablet peripherals, too—and it goes both ways. Ultimately, a standalone tablet + a keyboard and trackpad should offer the same experience as on desktop, and a desktop PC with a graphics tablet should be the same as a standalone tablet in terms of experience.</p><p><a href="https://arstechnica.com/gadgets/2025/07/popular-3d-application-blender-will-get-a-tablet-version/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/07/popular-3d-application-blender-will-get-a-tablet-version/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>49</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/Blender-tablet.jpg">
-<media:thumbnail height="463" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/Blender-tablet-500x463.jpg" width="500"/>
-<media:credit>Blender</media:credit><media:text>A tablet version of Blender has been a frequent request for years.</media:text></media:content>
-            </item>
-                    <item>
-                <title>OpenAI’s ChatGPT Agent casually clicks through “I am not a robot” verification test</title>
-                <link>https://arstechnica.com/information-technology/2025/07/openais-chatgpt-agent-casually-clicks-through-i-am-not-a-robot-verification-test/</link>
-                                    <comments>https://arstechnica.com/information-technology/2025/07/openais-chatgpt-agent-casually-clicks-through-i-am-not-a-robot-verification-test/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Benj Edwards]]>
-                </dc:creator>
-                <pubDate>Mon, 28 Jul 2025 20:07:29 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[agentic AI]]></category>
-		<category><![CDATA[AI agents]]></category>
-		<category><![CDATA[AI behavior]]></category>
-		<category><![CDATA[AI development tools]]></category>
-		<category><![CDATA[AI security]]></category>
-		<category><![CDATA[authentication]]></category>
-		<category><![CDATA[CAPTCHA]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[cloudflare]]></category>
-		<category><![CDATA[computer use model]]></category>
-		<category><![CDATA[Computer-Using Agent]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[Web security]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/07/openais-chatgpt-agent-casually-clicks-through-i-am-not-a-robot-verification-test/</guid>
-
-                                    <description>
-                        <![CDATA["This step is necessary to prove I'm not a bot," wrote the bot as it passed an anti-AI screening step.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Maybe they should change the button to say, "I am a robot"?</p>
-<p>On Friday, OpenAI's new <a href="https://arstechnica.com/information-technology/2025/07/chatgpts-new-ai-agent-can-browse-the-web-and-create-powerpoint-slideshows/">ChatGPT Agent</a>, which can perform multistep tasks for users, proved it can pass through one of the Internet's most common security checkpoints by clicking Cloudflare's anti-bot verification—the same checkbox that's supposed to keep automated programs like itself at bay.</p>
-<p>ChatGPT Agent is a feature that allows OpenAI's AI assistant to control its own web browser, operating within a sandboxed environment with its own virtual operating system and browser that can access the real Internet. Users can watch the AI's actions through a window in the ChatGPT interface, maintaining oversight while the agent completes tasks. The system requires user permission before taking actions with real-world consequences, such as making purchases. Recently, Reddit users discovered the agent could do something particularly ironic.</p><p><a href="https://arstechnica.com/information-technology/2025/07/openais-chatgpt-agent-casually-clicks-through-i-am-not-a-robot-verification-test/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2025/07/openais-chatgpt-agent-casually-clicks-through-i-am-not-a-robot-verification-test/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>96</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/man-machine-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/man-machine-500x500.jpg" width="500"/>
-<media:credit>sorbetto via Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>How the Trump FCC justified requiring a “bias monitor” at CBS</title>
-                <link>https://arstechnica.com/tech-policy/2025/07/how-the-trump-fcc-justified-requiring-a-bias-monitor-at-cbs/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/07/how-the-trump-fcc-justified-requiring-a-bias-monitor-at-cbs/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Mon, 28 Jul 2025 19:54:46 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[brendan carr]]></category>
-		<category><![CDATA[Paramount Skydance]]></category>
-		<category><![CDATA[Trump CBS]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/how-the-trump-fcc-justified-requiring-a-bias-monitor-at-cbs/</guid>
-
-                                    <description>
-                        <![CDATA[Trump FCC claims there's precedent for CBS ombudsman, but it's a weak one.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Federal Communications Commission's <a href="https://arstechnica.com/tech-policy/2025/07/skydance-deal-allows-trumps-fcc-to-censor-speech-and-silence-dissent-on-cbs/">approval</a> of CBS owner Paramount's $8 billion merger with Skydance came with a condition to install an ombudsman, which FCC Chairman Brendan Carr has described as a "bias monitor." It appears that the bias monitor will make sure the news company's reporting meets standards demanded by President Donald Trump.</p>
-<p>"One of the things they're going to have to do is put an ombudsman in place for two years, so basically a bias monitor that will report directly to the president [of Paramount]," Carr <a href="https://www.newsmaxtv.com/Shows/Greg-Kelly-Reports/vid/f0e96a10-6902-11f0-9ecf-dbf20182fcd7">told Newsmax on Thursday</a>, right after the FCC announced its approval of the merger.</p>
-<p>The Carr FCC claims there is precedent for such a bias monitor. But the precedent cited in last week's <a href="https://docs.fcc.gov/public/attachments/FCC-25-43A1.pdf">merger approval</a> points to a very different case involving NBC and GE, one in which an ombudsman was used to protect NBC's editorial independence from interference by its new owner.</p><p><a href="https://arstechnica.com/tech-policy/2025/07/how-the-trump-fcc-justified-requiring-a-bias-monitor-at-cbs/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/07/how-the-trump-fcc-justified-requiring-a-bias-monitor-at-cbs/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>117</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/trump-carr-1152x648-1734382746.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/trump-carr-500x500-1734382753.jpg" width="500"/>
-<media:credit>Getty Images | Brandon Bell </media:credit><media:text>President-elect Donald Trump speaks to Brendan Carr, his intended pick for Chairman of the Federal Communications Commission, as he attends a SpaceX Starship rocket launch on November 19, 2024 in Brownsville, Texas.</media:text></media:content>
             </item>
             </channel>
 </rss>
