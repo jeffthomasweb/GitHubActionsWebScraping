@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Mon, 11 Aug 2025 12:13:18 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 12 Aug 2025 00:27:14 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,517 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>High-severity WinRAR 0-day exploited for weeks by 2 groups</title>
+                <link>https://arstechnica.com/security/2025/08/high-severity-winrar-0-day-exploited-for-weeks-by-2-groups/</link>
+                                    <comments>https://arstechnica.com/security/2025/08/high-severity-winrar-0-day-exploited-for-weeks-by-2-groups/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 12 Aug 2025 00:13:14 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[0-Day]]></category>
+		<category><![CDATA[ESET]]></category>
+		<category><![CDATA[winrar]]></category>
+		<category><![CDATA[zero-day vulnerability]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/08/high-severity-winrar-0-day-exploited-for-weeks-by-2-groups/</guid>
+
+                                    <description>
+                        <![CDATA[Exploits allow for persistent backdooring when targets open booby-trapped archive.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A high-severity zero-day in the widely used WinRAR file compressor is under active exploitation by two Russian cybercrime groups. The attacks backdoor computers that open malicious archives attached to phishing messages, some of which are personalized.</p>
+<p>Security firm ESET <a href="https://www.welivesecurity.com/en/eset-research/update-winrar-tools-now-romcom-and-others-exploiting-zero-day-vulnerability/">said Monday</a> that it first detected the attacks on July 18, when its telemetry spotted a file in an unusual directory path. By July 24, ESET determined that the behavior was linked to the exploitation of an unknown vulnerability in WinRAR, a utility for compressing files and has an installed base of about 500 million. ESET notified WinRAR developers the same day, and a fix was released six days later.</p>
+<h2>Serious effort and resources</h2>
+<p>The vulnerability seemed to have super Windows powers. It abused <a href="https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/c54dec26-1551-4d3a-a0ea-4fa40f848eb3">alternate data streams</a>, a Windows feature that allows different ways of representing the same file path. The exploit abused that feature to trigger a previously unknown path traversal flaw that caused WinRAR to plant malicious executables in attacker-chosen files paths %TEMP% and %LOCALAPPDATA%, which Windows normally makes off-limits because of their ability to execute code.</p><p><a href="https://arstechnica.com/security/2025/08/high-severity-winrar-0-day-exploited-for-weeks-by-2-groups/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/08/high-severity-winrar-0-day-exploited-for-weeks-by-2-groups/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>11</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/malware-threat-1000x648.jpg" width="1000">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/malware-threat-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>The GPT-5 rollout has been a big mess</title>
+                <link>https://arstechnica.com/information-technology/2025/08/the-gpt-5-rollout-has-been-a-big-mess/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/08/the-gpt-5-rollout-has-been-a-big-mess/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Mon, 11 Aug 2025 22:25:34 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgtp]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/08/the-gpt-5-rollout-has-been-a-big-mess/</guid>
+
+                                    <description>
+                        <![CDATA[OpenAI faces backlash as users complain about broken workflows and losing AI friends.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>It's been less than a week since the launch of OpenAI's new <a href="https://arstechnica.com/ai/2025/08/openai-launches-gpt-5-free-to-all-chatgpt-users/">GPT-5</a> AI model, and the rollout hasn't been a smooth one. So far, the release sparked one of the most intense user revolts in ChatGPT's history, forcing CEO Sam Altman to make an unusual public apology and reverse key decisions.</p>
+<p>At the heart of the controversy has been OpenAI's decision to automatically remove access to all previous AI models in ChatGPT (<a href="https://arstechnica.com/ai/2025/05/some-chatgpt-users-now-face-9-ai-models-to-choose-from-after-gpt-4-1-launch/">approximately nine</a>, depending on how you count them) when GPT-5 rolled out to user accounts. Unlike API users who receive advance notice of model deprecations, consumer ChatGPT users had no warning that their preferred models would disappear overnight, <a href="https://simonwillison.net/2025/Aug/8/surprise-deprecation-of-gpt-4o/">noted</a> independent AI researcher Simon Willison in a blog post.</p>
+<p>The problems <a href="https://arstechnica.com/ai/2025/08/chatgpt-users-outraged-as-gpt-5-replaces-the-models-they-love/">started immediately</a> after GPT-5's August 7 debut. A Reddit thread titled "GPT-5 is horrible" quickly <a href="https://www.reddit.com/r/ChatGPT/comments/1mkd4l3/gpt5_is_horrible/">amassed</a> over 4,000 comments filled with users expressing frustration over the new release. By August 8, social media platforms were <a href="https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-users-are-not-happy-with-gpt-5-launch-as-thousands-take-to-reddit-claiming-the-new-upgrade-is-horrible">flooded</a> with complaints about performance issues, personality changes, and the forced removal of older models.</p><p><a href="https://arstechnica.com/information-technology/2025/08/the-gpt-5-rollout-has-been-a-big-mess/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/08/the-gpt-5-rollout-has-been-a-big-mess/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>84</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/openai_tectonic_shift_3-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/openai_tectonic_shift_3-500x500.jpg" width="500"/>
+<media:credit>Benj Edwards / OpenAI</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Boar’s Head to reopen plant as mold and funky meat problems pop up elsewhere</title>
+                <link>https://arstechnica.com/health/2025/08/boars-head-to-reopen-plant-as-mold-and-funky-meat-problems-pop-up-elsewhere/</link>
+                                    <comments>https://arstechnica.com/health/2025/08/boars-head-to-reopen-plant-as-mold-and-funky-meat-problems-pop-up-elsewhere/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Mon, 11 Aug 2025 22:02:15 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[boar's head]]></category>
+		<category><![CDATA[deli meat]]></category>
+		<category><![CDATA[food-borne diseases]]></category>
+		<category><![CDATA[listeria]]></category>
+		<category><![CDATA[outbreak]]></category>
+		<category><![CDATA[sanitation]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2025/08/boars-head-to-reopen-plant-as-mold-and-funky-meat-problems-pop-up-elsewhere/</guid>
+
+                                    <description>
+                        <![CDATA[Inspection reports of other Boar's Head plants do not bode well. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Boar's Head plans to reopen the Jarratt, Virginia, facility at the center of a deadly <em>Listeria </em>outbreak last year despite federal inspections continuing to find sanitation violations at three of the food company's other facilities, <a href="https://apnews.com/article/boars-head-deli-meat-listeria-e9a1cef1dca3f7545dba0024bf5ac594">according to federal records obtained by the Associated Press</a>.</p>
+<p>The AP obtained 35 pages of inspection reports via a Freedom of Information Act Request. Those reports cover inspections between January 1 and July 23 at three other Boar's Head facilities: Forrest City, Arkansas; New Castle, Indiana; and Petersburg, Virginia. Overall, the reports reveal a suite of violations, including mold, condensation dripping over food areas, overflowing trash, meat and fat residue built up on walls and equipment, drains blocked with meat scraps, and pooling meat juice. The reports also recorded staff who didn't wear the proper protective hairnets and aprons—and didn't wash their hands.</p>
+<p>In one violation, reported in the Petersburg facility, inspectors found meat waste collecting under equipment, including "5-6 hams, 4 large pieces of meat and a large quantity of pooling meat juice."</p><p><a href="https://arstechnica.com/health/2025/08/boars-head-to-reopen-plant-as-mold-and-funky-meat-problems-pop-up-elsewhere/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/08/boars-head-to-reopen-plant-as-mold-and-funky-meat-problems-pop-up-elsewhere/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>65</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2164656717-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2164656717-500x500.jpg" width="500"/>
+<media:credit>Getty | Justin Sullivan</media:credit><media:text>A recall notice is posted next to Boar's Head meats that are displayed at a Safeway store on July 31, 2024, in San Rafael, California.</media:text></media:content>
+            </item>
+                    <item>
+                <title>AOL announces September shutdown for dial-up Internet after 34 years</title>
+                <link>https://arstechnica.com/gadgets/2025/08/aol-will-finally-end-1991-dial-up-internet-service-thats-older-than-smartphones/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/08/aol-will-finally-end-1991-dial-up-internet-service-thats-older-than-smartphones/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Mon, 11 Aug 2025 20:17:38 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[AOL]]></category>
+		<category><![CDATA[aol dial up]]></category>
+		<category><![CDATA[BBSes]]></category>
+		<category><![CDATA[broadband]]></category>
+		<category><![CDATA[dial-up]]></category>
+		<category><![CDATA[dial-up internet]]></category>
+		<category><![CDATA[digital divide]]></category>
+		<category><![CDATA[DSL]]></category>
+		<category><![CDATA[Internet access]]></category>
+		<category><![CDATA[internet history]]></category>
+		<category><![CDATA[internet infrastructure]]></category>
+		<category><![CDATA[Internet service providers]]></category>
+		<category><![CDATA[modem]]></category>
+		<category><![CDATA[modems]]></category>
+		<category><![CDATA[retrotech]]></category>
+		<category><![CDATA[rural internet]]></category>
+		<category><![CDATA[satellite Internet]]></category>
+		<category><![CDATA[telecommunications]]></category>
+		<category><![CDATA[yahoo]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/08/aol-will-finally-end-1991-dial-up-internet-service-thats-older-than-smartphones/</guid>
+
+                                    <description>
+                        <![CDATA[Around 175,000 households still use dial-up Internet in the US.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>After 34 years of connecting Americans to the Internet through phone lines, AOL <a href="https://help.aol.com/articles/dial-up-internet-to-be-discontinued">recently announced</a> it is shutting down its dial-up modem service on September 30, 2025. The announcement marks the end of a technology that served as the primary gateway to the World Wide Web for millions of users throughout the 1990s and early 2000s.</p>
+<p>AOL confirmed the shutdown date in a help message to customers: "AOL routinely evaluates its products and services and has decided to discontinue Dial-up Internet. This service will no longer be available in AOL plans."</p>
+<p>AOL's dial-up service launched as "America Online" in 1991, when the Internet consisted primarily of text-based content, although its dial-up roots extend back to a service launched in 1985 called <a href="https://en.wikipedia.org/wiki/Quantum_Link">Quantum Link</a> for Commodore computers. For the next few years, as the World Wide Web emerged, websites were measured in kilobytes, images were small and compressed, and video was essentially impossible. The service grew alongside the web itself, peaking at over 20 million subscribers in the early 2000s before broadband adoption accelerated its decline.</p><p><a href="https://arstechnica.com/gadgets/2025/08/aol-will-finally-end-1991-dial-up-internet-service-thats-older-than-smartphones/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/08/aol-will-finally-end-1991-dial-up-internet-service-thats-older-than-smartphones/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>85</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/aol_login_hero-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/aol_login_hero-500x500.jpg" width="500"/>
+<media:text>A classic AOL login screen.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Reddit blocks Internet Archive to end sneaky AI scraping</title>
+                <link>https://arstechnica.com/tech-policy/2025/08/reddit-blocks-internet-archive-to-end-sneaky-ai-scraping/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/08/reddit-blocks-internet-archive-to-end-sneaky-ai-scraping/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Mon, 11 Aug 2025 19:53:49 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ai scraping]]></category>
+		<category><![CDATA[AI training]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Internet Archive]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[reddit]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/08/reddit-blocks-internet-archive-to-end-sneaky-ai-scraping/</guid>
+
+                                    <description>
+                        <![CDATA[The Internet Archive confirmed it's in ongoing discussions with Reddit after block.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Reddit is now blocking the Internet Archive (IA) from indexing popular Reddit threads after allegedly catching sneaky AI firms—restricted from scraping Reddit—instead simply scraping data from IA's archived content.</p>
+<p>Where before IA's Wayback Machine dependably archived Reddit pages, profiles, and comments—as part of its mission to archive the Internet—moving forward, only screenshots of the Reddit homepage will be archived. As The Verge <a href="https://www.theverge.com/news/757538/reddit-internet-archive-wayback-machine-block-limit">noted</a>, this means the archive will only be useful as a snapshot of popular posts and news headlines each day, rather than providing a backup documenting deleted posts or a window into various Reddit subcultures or any given user's activity.</p>
+<p>Reddit has not confirmed which AI firms were scraping its data from the Wayback Machine. The company's spokesperson, Tim Rathschmidt, would only confirm to Ars that Reddit has become "aware of instances where AI companies violate platform policies, including ours, and scrape data from the Wayback Machine."</p><p><a href="https://arstechnica.com/tech-policy/2025/08/reddit-blocks-internet-archive-to-end-sneaky-ai-scraping/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/08/reddit-blocks-internet-archive-to-end-sneaky-ai-scraping/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>38</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-2227553113-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-2227553113-500x500-1754940940.jpg" width="500"/>
+<media:credit>Cheng Xin / Contributor | Getty Images News</media:credit></media:content>
+            </item>
+                    <item>
+                <title>GitHub will be folded into Microsoft proper as CEO steps down</title>
+                <link>https://arstechnica.com/gadgets/2025/08/github-will-be-folded-into-microsoft-proper-as-ceo-steps-down/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/08/github-will-be-folded-into-microsoft-proper-as-ceo-steps-down/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Mon, 11 Aug 2025 19:06:18 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[GitHub Copilot]]></category>
+		<category><![CDATA[microsoft]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/08/github-will-be-folded-into-microsoft-proper-as-ceo-steps-down/</guid>
+
+                                    <description>
+                        <![CDATA[Microsoft bought GitHub for $7.5 billion in 2018.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Microsoft has owned GitHub since 2018, but the widely used developer platform has operated with at least a little independence from the rest of the company, with its own separate CEO and other executives. But it looks like GitHub will be more fully folded into Microsoft's organizational chart starting next year—GitHub CEO Thomas Dohmke <a href="https://github.blog/news-insights/company-news/goodbye-github/">announced today</a> that he would be leaving GitHub and Microsoft "to become a founder again."</p>
+<p>"GitHub and its leadership team will continue its mission as part of Microsoft’s CoreAI organization, with more details shared soon," Dohmke wrote. "I’ll be staying through the end of 2025 to help guide the transition and am leaving with a deep sense of pride in everything we’ve built as a remote-first organization spread around the world."</p>
+<p>Axios <a href="https://www.axios.com/2025/08/11/github-ceo-dohmke-step-down">reports</a> that Microsoft isn't directly replacing Dohmke, and GitHub's leadership team will be reporting to multiple executives in the CoreAI division.</p><p><a href="https://arstechnica.com/gadgets/2025/08/github-will-be-folded-into-microsoft-proper-as-ceo-steps-down/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/08/github-will-be-folded-into-microsoft-proper-as-ceo-steps-down/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>69</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/github_logo_invertocat_dark_5-1152x648-1754938613.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/github_logo_invertocat_dark_5-500x500-1754938601.jpeg" width="500"/>
+<media:credit>GitHub</media:credit><media:text>The GitHub logo.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Wikipedia loses UK Safety Act challenge, worries it will have to verify user IDs</title>
+                <link>https://arstechnica.com/tech-policy/2025/08/wikipedia-loses-uk-safety-act-challenge-worries-it-will-have-to-verify-user-ids/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/08/wikipedia-loses-uk-safety-act-challenge-worries-it-will-have-to-verify-user-ids/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Mon, 11 Aug 2025 17:48:43 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[uk online safety act]]></category>
+		<category><![CDATA[Wikimedia Foundation]]></category>
+		<category><![CDATA[wikipedia]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/08/wikipedia-loses-uk-safety-act-challenge-worries-it-will-have-to-verify-user-ids/</guid>
+
+                                    <description>
+                        <![CDATA[Judge tossed claim but said UK must not "significantly impede" Wikipedia operations.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Wikipedia's parent organization lost a challenge to the UK Online Safety Act but can bring another case if the government tries to force it to verify the identity of Wikipedia users.</p>
+<p>The High Court of Justice in London <a href="https://www.judiciary.uk/wp-content/uploads/2025/08/Wikimedia-Foundation-and-another-v-Secretary-of-State-for-Science-Innovation-and-Technology.pdf">dismissed</a> claims from the Wikimedia Foundation, which challenged the lawfulness of the <a href="https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer">categorization system</a> used to determine which sites must comply with obligations. But Justice Jeremy Johnson stressed "that this does not give Ofcom and the Secretary of State a green light to implement a regime that would significantly impede Wikipedia's operations."</p>
+<p>The Online Safety Act has forced social media sites like Reddit to <a href="https://arstechnica.com/tech-policy/2025/07/reddit-starts-verifying-ages-of-uk-users-to-comply-with-child-safety-law/">verify UK users' ages</a> before letting them view adult content. The Wikimedia Foundation is worried that it will be classified as a "Category 1" operator later this summer and <a href="https://medium.com/wikimedia-policy/wikipedias-nonprofit-host-brings-legal-challenge-to-new-online-safety-act-osa-regulations-0f9153102f29">criticized</a> the categorization regulations as "especially broad and vague."</p><p><a href="https://arstechnica.com/tech-policy/2025/08/wikipedia-loses-uk-safety-act-challenge-worries-it-will-have-to-verify-user-ids/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/08/wikipedia-loses-uk-safety-act-challenge-worries-it-will-have-to-verify-user-ids/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>78</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/wikipedia-1152x648-1754933533.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/wikipedia-500x500-1754933545.jpg" width="500"/>
+<media:credit>Getty Images | Riccardo Milani</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Why does Jeff Bezos keep buying launches from Elon Musk?</title>
+                <link>https://arstechnica.com/space/2025/08/why-amazon-is-letting-its-rival-launch-its-satellites/</link>
+                                    <comments>https://arstechnica.com/space/2025/08/why-amazon-is-letting-its-rival-launch-its-satellites/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Mon, 11 Aug 2025 17:30:59 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[ariane 6]]></category>
+		<category><![CDATA[falcon 9]]></category>
+		<category><![CDATA[new glenn]]></category>
+		<category><![CDATA[project kuiper]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[vulcan]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2025/08/why-amazon-is-letting-its-rival-launch-its-satellites/</guid>
+
+                                    <description>
+                        <![CDATA[Satellite companies find themselves between a rocket and a hard place.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Early Monday morning, a Falcon 9 rocket lifted off from its original launch site in Florida. Remarkably, it was SpaceX's 100th launch of the year.</p>
+<p>Perhaps even more notable was the rocket's payload: two-dozen Project Kuiper satellites, which were dispensed into low-Earth orbit on target. This was SpaceX's second launch of satellites for Amazon, which is developing a constellation to deliver low-latency broadband Internet around the world. SpaceX, then, just launched a direct competitor to its Starlink network into orbit. And it was for the founder of Amazon, Jeff Bezos, who owns a rocket company of his own in Blue Origin.</p>
+<p>So how did it come to this—Bezos and Elon Musk, competitors in so many ways, working together in space?</p><p><a href="https://arstechnica.com/space/2025/08/why-amazon-is-letting-its-rival-launch-its-satellites/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/08/why-amazon-is-letting-its-rival-launch-its-satellites/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>51</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GkLx4V-bUAIwEGZ-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/GkLx4V-bUAIwEGZ-500x500.jpg" width="500"/>
+<media:credit>SpaceX</media:credit><media:text>A reusable Falcon 9 booster after landing on a SpaceX drone ship in the Atlantic Ocean.</media:text></media:content>
+            </item>
+                    <item>
+                <title>LLMs’ “simulated reasoning” abilities are a “brittle mirage,” researchers find</title>
+                <link>https://arstechnica.com/ai/2025/08/researchers-find-llms-are-bad-at-logical-inference-good-at-fluent-nonsense/</link>
+                                    <comments>https://arstechnica.com/ai/2025/08/researchers-find-llms-are-bad-at-logical-inference-good-at-fluent-nonsense/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Mon, 11 Aug 2025 17:16:46 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/08/researchers-find-llms-are-bad-at-logical-inference-good-at-fluent-nonsense/</guid>
+
+                                    <description>
+                        <![CDATA[Chain-of-thought AI "degrades significantly" when asked to generalize beyond training.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In recent months, the AI industry has started <a href="https://arstechnica.com/ai/2025/04/openai-releases-new-simulated-reasoning-models-with-full-tool-access/">moving toward</a> so-called <a href="https://arstechnica.com/ai/2025/01/china-is-catching-up-with-americas-best-reasoning-ai-models/">simulated reasoning models</a> that <a href="https://arstechnica.com/ai/2025/02/claude-3-7-sonnet-debuts-with-extended-thinking-to-tackle-complex-problems/">use a "chain of thought" process</a> to work through tricky problems in multiple logical steps. At the same time, <a href="https://arstechnica.com/ai/2025/06/new-apple-study-challenges-whether-ai-models-truly-reason-through-problems/">recent</a> <a href="https://arstechnica.com/ai/2025/04/new-study-shows-why-simulated-reasoning-ai-models-dont-yet-live-up-to-their-billing/">research</a> has <a href="https://arstechnica.com/ai/2025/04/researchers-concerned-to-find-ai-models-hiding-their-true-reasoning-processes/">cast doubt</a> on whether those models <a href="https://arstechnica.com/ai/2025/06/with-the-launch-of-o3-pro-lets-talk-about-what-ai-reasoning-actually-does/">have even a basic understanding of general logical concepts</a> or an accurate grasp of their own "thought process." Similar research shows that these "reasoning" models can often produce incoherent, logically unsound answers when questions include irrelevant clauses or deviate even slightly from common templates found in their training data.</p>
+<p>In <a href="https://arxiv.org/pdf/2508.01191">a recent pre-print paper</a>, researchers from the University of Arizona summarize this existing work as "suggest[ing] that LLMs are not principled reasoners but rather sophisticated simulators of reasoning-like text." To pull on that thread, the researchers created a carefully controlled LLM environment in an attempt to measure just how well chain-of-thought reasoning works when presented with "out of domain" logical problems that don't match the specific logical patterns found in their training data.</p>
+<p>The results suggest that the seemingly large performance leaps made by chain-of-thought models are "largely a brittle mirage" that "become[s] fragile and prone to failure even under moderate distribution shifts," the researchers write. "Rather than demonstrating a true understanding of text, CoT reasoning under task transformations appears to reflect a replication of patterns learned during training."</p><p><a href="https://arstechnica.com/ai/2025/08/researchers-find-llms-are-bad-at-logical-inference-good-at-fluent-nonsense/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/08/researchers-find-llms-are-bad-at-logical-inference-good-at-fluent-nonsense/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>145</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-1155287117-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-1155287117-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>How much does this puzzle resemble one the robot has seen before?</media:text></media:content>
+            </item>
+                    <item>
+                <title>RFK Jr. posted fishing pics as CDC reeled from shooting linked to vaccine disinfo</title>
+                <link>https://arstechnica.com/science/2025/08/rfk-jr-posted-fishing-pics-as-cdc-reeled-from-shooting-linked-to-vaccine-disinfo/</link>
+                                    <comments>https://arstechnica.com/science/2025/08/rfk-jr-posted-fishing-pics-as-cdc-reeled-from-shooting-linked-to-vaccine-disinfo/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Mon, 11 Aug 2025 17:06:56 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[Centers for Disease Control]]></category>
+		<category><![CDATA[centers for disease control and prevention]]></category>
+		<category><![CDATA[COVID-19]]></category>
+		<category><![CDATA[covid-19 misinformation]]></category>
+		<category><![CDATA[rfk jr]]></category>
+		<category><![CDATA[shooting]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/08/rfk-jr-posted-fishing-pics-as-cdc-reeled-from-shooting-linked-to-vaccine-disinfo/</guid>
+
+                                    <description>
+                        <![CDATA[Anti-vaccine activist RFK Jr. has vilified COVID-19 vaccines and the CDC.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Staff at the Centers for Disease Control and Prevention headquarters in Atlanta are reeling from a deadly shooting that unfolded Friday evening.</p>
+<p>The shooting left one local police officer dead, <a href="https://x.com/cdcmonarez/status/1953989005122441401?s=46">at least four agency buildings</a> riddled with bullet holes, and terrified staffers feeling like "sitting ducks." Fortunately, no CDC staff or civilians were injured. But, it quickly drew a spotlight to US health secretary and zealous anti-vaccine advocate Robert F. Kennedy Jr., who critics accused of fueling the violence with his menacing and reckless anti-vaccine rhetoric.</p>
+<p>Kennedy publicly <a href="https://x.com/SecKennedy/status/1954197860754350238">responded to the shooting on social media</a> at about 11 am Eastern Time on Saturday, roughly 18 hours after the event. Former US Surgeon General Jerome Adams subsequently slammed Kennedy's delayed response as "<a href="https://www.statnews.com/2025/08/09/cdc-shooting-anti-vaccine-violence-rhetoric-public-health-workers/">tepid</a>" in a critical essay published in Stat. The news outlet <a href="https://www.statnews.com/2025/08/08/cdc-campus-attacked-kennedy-crisis/">separately pointed out</a> that Kennedy had posted on his personal social media account about 30 minutes prior to his response to the shooting, in which he shared <a href="https://x.com/RobertKennedyJr/status/1954188966367723917">pictures of a fishing trip</a>.</p><p><a href="https://arstechnica.com/science/2025/08/rfk-jr-posted-fishing-pics-as-cdc-reeled-from-shooting-linked-to-vaccine-disinfo/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/08/rfk-jr-posted-fishing-pics-as-cdc-reeled-from-shooting-linked-to-vaccine-disinfo/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>66</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-2228551722-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-2228551722-500x500.jpg" width="500"/>
+<media:credit>Getty | Elijah Nouvelage</media:credit><media:text>ATLANTA, GEORGIA - AUGUST 9: Bullet holes are seen in windows at the Centers For Disease Control (CDC) Global Headquarters following a shooting that left two dead, on August 9, 2025 in Atlanta, Georgia. On August 8, a gunman opened fire near the headquarters of the Centers for Disease Control, killing a DeKalb County Police Department officer before being found dead by gunfire. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Trump strikes “wild” deal making US firms pay 15% tax on China chip sales</title>
+                <link>https://arstechnica.com/tech-policy/2025/08/nvidia-amd-agree-to-pay-trumps-15-levy-on-china-chip-sales/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/08/nvidia-amd-agree-to-pay-trumps-15-levy-on-china-chip-sales/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Mon, 11 Aug 2025 16:31:51 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[AMD]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[Micron]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[semiconductor]]></category>
+		<category><![CDATA[tariffs]]></category>
+		<category><![CDATA[us-china trade war]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/08/nvidia-amd-agree-to-pay-trumps-15-levy-on-china-chip-sales/</guid>
+
+                                    <description>
+                        <![CDATA[The deal won’t resolve national security concerns.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Ahead of an August 12 deadline for a US-China trade deal, Donald Trump's tactics continue to confuse those trying to assess the country's national security priorities regarding its biggest geopolitical rival.</p>
+<p>For months, Trump has <a href="https://arstechnica.com/tech-policy/2025/07/tiktok-will-shut-down-soon-if-china-wont-agree-to-trumps-deal-official-says/">kicked the can down the road regarding a TikTok ban</a>, allowing the app to continue operating despite supposedly urgent national security concerns that China may be using the app to spy on Americans. And now, in the latest baffling move, a US official announced Monday that Trump got Nvidia and AMD to agree to "give the US government 15 percent of revenue from sales to China of advanced computer chips," Reuters <a href="https://www.reuters.com/world/china/nvidia-amd-pay-15-china-chip-sale-revenue-us-official-says-2025-08-11/">reported</a>. Those chips, about 20 policymakers and national security experts <a href="https://arstechnica.com/tech-policy/2025/07/trump-caving-on-nvidia-h20-export-curbs-may-disrupt-his-bigger-trade-war/">recently warned Trump</a>, could be used to fuel China's frontier AI, which seemingly poses an even greater national security risk.</p>
+<h2>Trump’s “wild” deal with US chip firms</h2>
+<p>Reuters granted two officials anonymity to discuss Trump's deal with US chipmakers, because details have yet to be made public. Requiring US firms to pay for sales in China is an "unusual" move for a president, Reuters noted, and the Trump administration has yet to say what exactly it plans to do with the money.</p><p><a href="https://arstechnica.com/tech-policy/2025/08/nvidia-amd-agree-to-pay-trumps-15-levy-on-china-chip-sales/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/08/nvidia-amd-agree-to-pay-trumps-15-levy-on-china-chip-sales/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>78</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-2219997893-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-2219997893-500x500-1754926252.jpg" width="500"/>
+<media:credit>SOPA Images / Contributor | LightRocket</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Scientists hid secret codes in light to combat video fakes</title>
+                <link>https://arstechnica.com/science/2025/08/scientists-hid-secret-codes-in-light-to-combat-video-fakes/</link>
+                                    <comments>https://arstechnica.com/science/2025/08/scientists-hid-secret-codes-in-light-to-combat-video-fakes/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Mon, 11 Aug 2025 15:45:56 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[image processing]]></category>
+		<category><![CDATA[optics]]></category>
+		<category><![CDATA[photometric]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[video manipulation]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/08/scientists-hid-secret-codes-in-light-to-combat-video-fakes/</guid>
+
+                                    <description>
+                        <![CDATA[“Video used to be treated as a source of truth, but that’s no longer an assumption we can make.”]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/GrC6I21URu4?start=0&amp;wmode=transparent"></div></div>
+<p>It's easier than ever to manipulate video footage to deceive the viewer and increasingly difficult for fact checkers to detect such manipulations. Cornell University scientists developed a new weapon in this ongoing arms race: software that codes a "watermark" into light fluctuations, which in turn can reveal when the footage has been tampered with. The researchers presented the breakthrough over the weekend at SIGGRAPH 2025 in Vancouver, British Columbia, and published a <a href="https://dl.acm.org/doi/10.1145/3742892">scientific paper</a> in June in the journal ACM Transactions on Graphics.</p>
+<p>“Video used to be treated as a source of truth, but that’s no longer an assumption we can make,” <a href="https://news.cornell.edu/stories/2025/07/hiding-secret-codes-light-protects-against-fake-videos">said</a> co-author <a href="https://www.cs.cornell.edu/abe/group/">Abe Davis</a>, of Cornell University, who first conceived of the idea. “Now you can pretty much create video of whatever you want. That can be fun, but also problematic, because it’s only getting harder to tell what’s real.”</p>
+<p>Per the authors, those seeking to deceive with video fakes have a fundamental advantage: equal access to authentic video footage, as well as the ready availability of advanced low-cost editing tools that can learn quickly from massive amounts of data, rendering the fakes nearly indistinguishable from authentic video. Thus far, progress on that front has outpaced the development of new forensic techniques designed to combat the problem. One key feature is information asymmetry: An effective forensic technique must have information not available to the fakers that cannot be learned from publicly available training data.</p><p><a href="https://arstechnica.com/science/2025/08/scientists-hid-secret-codes-in-light-to-combat-video-fakes/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/08/scientists-hid-secret-codes-in-light-to-combat-video-fakes/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>44</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/code3-1152x648-1754660001.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/code3-500x500.jpg" width="500"/>
+<media:credit>Sreang Hok/Cornell University</media:credit><media:text>Abe Davis (L) and Peter Michael (R) of Cornell University with a watermark light.</media:text></media:content>
+            </item>
+                    <item>
+                <title>$30K Ford EV truck due in 2027 with much-simpler production process</title>
+                <link>https://arstechnica.com/cars/2025/08/ford-bets-big-on-universal-ev-production-system-and-30k-truck/</link>
+                                    <comments>https://arstechnica.com/cars/2025/08/ford-bets-big-on-universal-ev-production-system-and-30k-truck/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Mon, 11 Aug 2025 14:30:36 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Ford]]></category>
+		<category><![CDATA[software defined vehicle]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2025/08/ford-bets-big-on-universal-ev-production-system-and-30k-truck/</guid>
+
+                                    <description>
+                        <![CDATA[It's a clean-sheet approach to designing and building an electric vehicle.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Ford will debut a new midsize pickup truck in 2027 with a targeted price of $30,000, the automaker announced today. The as-yet unnamed pickup will be the first of a series of more affordable EVs from Ford, built using a newly designed flexible vehicle platform and US-made prismatic lithium iron phosphate batteries.</p>
+<p>For the <a href="https://arstechnica.com/cars/2024/02/ford-rethinks-ev-strategy-is-working-on-a-smaller-cheaper-ev-platform/">past few years</a>, a team of Ford employees has been hard at work on the far side of the country from the Blue Oval's base in Dearborn, Michigan. Sequestered in Long Beach and taking inspiration from Lockheed's <a href="https://arstechnica.com/cars/2019/05/kellys-heroes-lockheeds-five-finest-airplanes/">legendary</a> "skunkworks," the Electric Vehicle Development Center approached designing and building Ford's next family of EVs as a clean-sheet problem, presumably taking inspiration from the <a href="https://insideevs.com/news/764318/ford-ceo-china-evs-humbled/">Chinese EVs that have so impressed</a> Ford's CEO.</p>
+<h2>It starts with a pickup</h2>
+<p>Designing an EV from the ground up, free of decades of legacy cruft, is a good idea, but not one unique to Ford. In recent months, we've reviewed quite a few so-called software-defined vehicles, which replace dozens or even hundreds of discrete single-function electronic control units with a handful of powerful modern computers (usually known as domain controllers) on a high-speed network.</p><p><a href="https://arstechnica.com/cars/2025/08/ford-bets-big-on-universal-ev-production-system-and-30k-truck/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/08/ford-bets-big-on-universal-ev-production-system-and-30k-truck/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>356</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/ford-screenshot-1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/ford-screenshot-1-500x500.jpg" width="500"/>
+<media:credit>Ford</media:credit><media:text>In 2027, Ford will debut the first of a new line of more-affordable EVs built on a new flexible platform.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Experiment will attempt to counter climate change by altering ocean</title>
+                <link>https://arstechnica.com/science/2025/08/experiment-will-attempt-to-counter-climate-change-by-altering-ocean/</link>
+                                    <comments>https://arstechnica.com/science/2025/08/experiment-will-attempt-to-counter-climate-change-by-altering-ocean/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Teresa Tomassoni, Inside Climate News]]>
+                </dc:creator>
+                <pubDate>Mon, 11 Aug 2025 14:28:36 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[carbon sequestration]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[oceanography]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/08/experiment-will-attempt-to-counter-climate-change-by-altering-ocean/</guid>
+
+                                    <description>
+                        <![CDATA[Gulf of Maine will be site of safety and effectiveness testing.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Later this summer, a fluorescent reddish-pink spiral will bloom across the Wilkinson Basin in the Gulf of Maine, about 40 miles northeast of Cape Cod. Scientists from the Woods Hole Oceanographic Institution will release the nontoxic water tracer dye behind their research vessel, where it will unfurl into a half-mile wide temporary plume, bright enough to catch the attention of passing boats and even satellites.</p>
+<p>As it spreads, the researchers will track its movement to monitor a tightly controlled, federally approved experiment testing whether the ocean can be engineered to absorb more carbon, and in turn, help combat the climate crisis.</p>
+<p>As the world struggles to stay below the 1.5° Celsius global warming threshold—a goal set out in the Paris Agreement to avoid the most severe impacts of climate change—experts agree that reducing greenhouse gas emissions won’t be enough to avoid overshooting this target. The latest Intergovernmental Panel on Climate Change report, published in 2023, emphasizes the urgent need to actively remove carbon from the atmosphere, too.</p><p><a href="https://arstechnica.com/science/2025/08/experiment-will-attempt-to-counter-climate-change-by-altering-ocean/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/08/experiment-will-attempt-to-counter-climate-change-by-altering-ocean/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>79</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/woodshole1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/woodshole1-500x500.jpg" width="500"/>
+<media:credit>Daniel Hentz/Woods Hole Oceanographic Institution</media:credit><media:text>Woods Hole researchers, Adam Subhas (left) and Chris Murray, conducted a series of lab experiments earlier this year to test the impact of an alkaline substance, known as sodium hydroxide, on copepods in the Gulf of Maine.</media:text></media:content>
+            </item>
+                    <item>
                 <title>Netflix drops One Piece S2 teaser, renews for S3</title>
                 <link>https://arstechnica.com/culture/2025/08/netflix-drops-one-piece-s2-teaser-renews-for-s3/</link>
                                     <comments>https://arstechnica.com/culture/2025/08/netflix-drops-one-piece-s2-teaser-renews-for-s3/#comments</comments>
@@ -35,7 +546,7 @@
                 <guid isPermaLink="true">https://arstechnica.com/culture/2025/08/netflix-drops-one-piece-s2-teaser-renews-for-s3/</guid>
 
                                     <description>
-                        <![CDATA["Everything I've done, everywhere I go, is for the One Piece,"]]>
+                        <![CDATA["Everything I've done, everywhere I go, is for the One Piece."]]>
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/yfeCCnOPqrA?start=0&amp;wmode=transparent"></div></div>
@@ -46,7 +557,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>1</slash:comments>
+                                    <slash:comments>44</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/onepiece5-1152x648-1754852147.jpg" width="1152">
@@ -82,7 +593,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>4</slash:comments>
+                                    <slash:comments>45</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/Metapelite-photo-Whitehouse-1152x648-1754688258.jpg" width="1152">
@@ -117,7 +628,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>163</slash:comments>
+                                    <slash:comments>199</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2016/05/mmoonfarside-1152x648.jpg" width="1152">
@@ -152,7 +663,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>62</slash:comments>
+                                    <slash:comments>66</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/Screenshot-2025-08-08-at-15-37-31-Encryption-Made-for-Police-and-Military-Radios-May-Be-Easily-Cracked-WIRED-1045x648.png" width="1045">
@@ -187,7 +698,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>25</slash:comments>
+                                    <slash:comments>29</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-1142897466-1152x648.jpg" width="1152">
@@ -233,530 +744,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>74</slash:comments>
+                                    <slash:comments>80</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/news-080825a-lg-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/news-080825a-lg-500x500.jpg" width="500"/>
 <media:credit>NASA</media:credit><media:text>Astronaut Jim Lovell takes a self-portrait aboard NASA's Gemini 12 spacecraft during the final mission of the program in 1966.</media:text></media:content>
-            </item>
-                    <item>
-                <title>For giant carnivorous dinosaurs, big size didn’t mean a big bite</title>
-                <link>https://arstechnica.com/science/2025/08/for-giant-carnivorous-dinosaurs-big-size-didnt-mean-a-big-bite/</link>
-                                    <comments>https://arstechnica.com/science/2025/08/for-giant-carnivorous-dinosaurs-big-size-didnt-mean-a-big-bite/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jacek Krywko]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 22:06:25 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[Biomechanics]]></category>
-		<category><![CDATA[carnivores]]></category>
-		<category><![CDATA[dinosaurs]]></category>
-		<category><![CDATA[fossils]]></category>
-		<category><![CDATA[paleontology]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/08/for-giant-carnivorous-dinosaurs-big-size-didnt-mean-a-big-bite/</guid>
-
-                                    <description>
-                        <![CDATA[The biomechanics of dinosaur skulls say <em>T. rex</em> was the king of bite force.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>When a <em>Spinosaurus</em> attacked a <em>T. rex</em> in <em>Jurassic Park III</em>, both giant carnivores tried to finish the fight with one powerful bite of their bone-crushing jaws. The <em>Spinosaurus</em> won, because when the movie was being made back in the early 2000s,  fossil discoveries suggested it was the largest carnivorous dinosaur that ever lived. But new research provides evidence that size and weight didn’t always create a powerful bite.</p>
-<p>“The <em>Spinosaurus</em> and the <em>T. rex</em> didn’t live at the same time at the same continent, but if they did, I don’t really see the <em>Spinosaurus</em> winning,” says Andre Rowe, a paleobiologist at the University of Bristol. He led a study analyzing the biomechanics of skulls belonging to the largest carnivorous dinosaurs. Based on his findings, <em>T. rex</em> was most likely was the apex predator we’ve always believed it to be. The story of other giant carnivorous dinosaurs, though, was a bit more complicated.</p>
-<h2>Staring down the giants</h2>
-<p>“Of the giant carnivore dinosaurs, <em>T. rex</em> is the one we know the most about because it has a pretty good fossil record,” Rowe says. There are many complete skulls which have already been scanned and analyzed, and this is how we know the <em>T. rex</em> had an extremely high bite force—one of the highest known in the animal kingdom. We have far fewer fossil records of other giant carnivores like <em>Spinosaurus</em> or <em>Allosaurus</em>, so we assumed they were similar to <em>T. rex</em>.</p><p><a href="https://arstechnica.com/science/2025/08/for-giant-carnivorous-dinosaurs-big-size-didnt-mean-a-big-bite/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/08/for-giant-carnivorous-dinosaurs-big-size-didnt-mean-a-big-bite/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>56</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-99311107-1152x648-1754687149.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-99311107-500x500-1754687178.jpg" width="500"/>
-<media:credit>ROGER HARRIS/SPL</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Texas prepares for war as invasion of flesh-eating flies appears imminent</title>
-                <link>https://arstechnica.com/health/2025/08/texas-prepares-for-war-as-invasion-of-flesh-eating-flies-appears-imminent/</link>
-                                    <comments>https://arstechnica.com/health/2025/08/texas-prepares-for-war-as-invasion-of-flesh-eating-flies-appears-imminent/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 21:46:32 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[cattle]]></category>
-		<category><![CDATA[flesh-eating]]></category>
-		<category><![CDATA[flies]]></category>
-		<category><![CDATA[livestock]]></category>
-		<category><![CDATA[mexico]]></category>
-		<category><![CDATA[screwworms]]></category>
-		<category><![CDATA[sterile insect technique]]></category>
-		<category><![CDATA[swormlure]]></category>
-		<category><![CDATA[texas]]></category>
-		<category><![CDATA[USDA]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2025/08/texas-prepares-for-war-as-invasion-of-flesh-eating-flies-appears-imminent/</guid>
-
-                                    <description>
-                        <![CDATA[In Colombia, the parasites were caught expanding into endangered wild mountain tapirs.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Texas is gearing up for war as a savage,<a href="https://arstechnica.com/health/2025/05/screwworms-are-coming-and-theyre-just-as-horrifying-as-they-sound/"> flesh-eating fly appears poised for a US invasion</a> and is expanding its range of victims.</p>
-<p>On Friday, the Texas Department of Agriculture <a href="https://texasagriculture.gov/News-Events/Article/10501/COMMISSIONER-SID-MILLER-LAUNCHES-POWERFUL-TOOL-AGAINST-NEW-WORLD-SCREWWORM">announced the debut of TDA Swormlure</a>, a synthetic bait designed to attract the flies with a scent that mimics open flesh wounds, which are critical to the lifecycle of the fly, called the New World Screwworm. The parasite exploits any open wound or orifice on a wide range of warm-blooded animals to feed its ravenous spawn. Female flies lay hundreds of eggs in even the tiniest abrasion. From there, screw-shaped larvae—which give the flies their name—emerge to literally twist and bore into their victim, eating them alive and causing a putrid, life-threatening lesion. (You can see a graphic example <a href="https://cdn.arstechnica.net/wp-content/uploads/2025/05/deer-infection.jpeg">here</a> on a deer.)</p>
-<p>The new lure for the flies is just one of several defense efforts in Texas, which stands to suffer heavy livestock losses from an invasion. Screwworms are a ferocious foe to many animals, but are particularly devastating to farm animals.</p><p><a href="https://arstechnica.com/health/2025/08/texas-prepares-for-war-as-invasion-of-flesh-eating-flies-appears-imminent/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/08/texas-prepares-for-war-as-invasion-of-flesh-eating-flies-appears-imminent/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>219</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2016/11/CSIRO_ScienceImage_115_The_Tip_of_a_Screw_Worm_Fly_Larvae.jpg">
-<media:thumbnail height="425" url="https://cdn.arstechnica.net/wp-content/uploads/2016/11/CSIRO_ScienceImage_115_The_Tip_of_a_Screw_Worm_Fly_Larvae-500x425.jpg" width="500"/>
-<media:credit>CSIRO</media:credit><media:text>The tip of a screwworm fly larvae. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Apple brings OpenAI’s GPT-5 to iOS and macOS</title>
-                <link>https://arstechnica.com/ai/2025/08/apple-brings-openais-gpt-5-to-ios-and-macos/</link>
-                                    <comments>https://arstechnica.com/ai/2025/08/apple-brings-openais-gpt-5-to-ios-and-macos/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Samuel Axon]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 21:30:44 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[apple intelligence]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[GPT-4o]]></category>
-		<category><![CDATA[GPT-5]]></category>
-		<category><![CDATA[iOS]]></category>
-		<category><![CDATA[ios 26]]></category>
-		<category><![CDATA[iPadOS]]></category>
-		<category><![CDATA[ipados 26]]></category>
-		<category><![CDATA[iphone]]></category>
-		<category><![CDATA[MacOS]]></category>
-		<category><![CDATA[macos tahoe]]></category>
-		<category><![CDATA[openai]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2025/08/apple-brings-openais-gpt-5-to-ios-and-macos/</guid>
-
-                                    <description>
-                        <![CDATA[It's unclear exactly how GPT-5's new approach to model-switching will work here.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>OpenAI's <a href="https://arstechnica.com/ai/2025/08/openai-launches-gpt-5-free-to-all-chatgpt-users/">GPT-5 model</a> went live for most ChatGPT users this week, but lots of people use ChatGPT not through OpenAI's interface but through other platforms or tools. One of the largest deployments is iOS, the iPhone operating system, which allows users to make certain queries via GPT-4o. It turns out those users won't have to wait long for the latest model: Apple will switch to GPT-5 in iOS 26, iPadOS 26, and macOS Tahoe 26, <a href="https://9to5mac.com/2025/08/07/apple-intelligence-gpt-5-chatgpt-integration/">according to 9to5Mac</a>.</p>
-<p>Apple has not officially announced when those OS updates will be released to users' devices, but these major releases have typically been released in September in recent years.</p>
-<p>The new model had already rolled out on some other platforms, like the coding tool <a href="https://github.blog/changelog/2025-08-07-openai-gpt-5-is-now-in-public-preview-for-github-copilot/">GitHub Copilot via public preview</a>, as well as Microsoft's <a href="https://techcommunity.microsoft.com/blog/partnernews/gpt-5-in-microsoft-365-copilot-available-today/4441286">general-purpose Copilot</a>.</p><p><a href="https://arstechnica.com/ai/2025/08/apple-brings-openais-gpt-5-to-ios-and-macos/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/08/apple-brings-openais-gpt-5-to-ios-and-macos/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>92</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/IMG_2446-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/IMG_2446-500x500.jpg" width="500"/>
-<media:credit>Samuel Axon</media:credit><media:text>Siri can invoke ChatGPT when you ask for something beyond its own capabilities.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Green dildos are raining down on WNBA courts. Why? Crypto memecoins, of course.</title>
-                <link>https://arstechnica.com/culture/2025/08/green-dildos-are-raining-down-on-wnba-courts-why-crypto-memecoins-of-course/</link>
-                                    <comments>https://arstechnica.com/culture/2025/08/green-dildos-are-raining-down-on-wnba-courts-why-crypto-memecoins-of-course/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Nate Anderson]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 21:08:35 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[crypto]]></category>
-		<category><![CDATA[memecoins]]></category>
-		<category><![CDATA[wnba]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2025/08/green-dildos-are-raining-down-on-wnba-courts-why-crypto-memecoins-of-course/</guid>
-
-                                    <description>
-                        <![CDATA[Just another "viral" stunt.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Take a deep breath and prepare yourself, because the "saga of the green dildos" is going to get really, really dumb.</p>
-<p>Now take another one, just to steel yourself—this story involves crypto and memecoins, after all.</p>
-<p>Ready? Okay.</p><p><a href="https://arstechnica.com/culture/2025/08/green-dildos-are-raining-down-on-wnba-courts-why-crypto-memecoins-of-course/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2025/08/green-dildos-are-raining-down-on-wnba-courts-why-crypto-memecoins-of-course/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>184</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-2229010964-1152x648-1754685879.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-2229010964-500x500-1754685846.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Review: The Sandman S2 is a classic tragedy, beautifully told</title>
-                <link>https://arstechnica.com/culture/2025/08/review-the-sandman-s2-is-a-classic-tragedy-beautifully-told/</link>
-                                    <comments>https://arstechnica.com/culture/2025/08/review-the-sandman-s2-is-a-classic-tragedy-beautifully-told/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 20:54:39 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[entertainment]]></category>
-		<category><![CDATA[Neil Gaiman]]></category>
-		<category><![CDATA[Netflix]]></category>
-		<category><![CDATA[reviews]]></category>
-		<category><![CDATA[streaming television]]></category>
-		<category><![CDATA[The Sandman]]></category>
-		<category><![CDATA[TV reviews]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2025/08/review-the-sandman-s2-is-a-classic-tragedy-beautifully-told/</guid>
-
-                                    <description>
-                        <![CDATA[Stellar cast, lavish visuals make Netflix adaptation of influential graphic novels shine.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>I <a href="https://arstechnica.com/gaming/2022/08/review-netflixs-exquisite-the-sandman-is-the-stuff-dreams-are-made-of/">unequivocally loved</a> the first season of <a href="https://en.wikipedia.org/wiki/The_Sandman_(TV_series)"><em>The Sandman</em></a>, the Netflix adaptation of Neil Gaiman's influential <a href="https://en.wikipedia.org/wiki/The_Sandman_(comic_book)">graphic novel </a><span style="color: #0000ee;"><span style="caret-color: #0000ee;"><u>series</u></span></span> (of which I am longtime fan). I thought it captured the surreal, dream-like feel and tone of its source material, striking a perfect balance between the anthology approach of the graphic novels and grounding the narrative by focusing on the arc of its central figure: Morpheus, lord of the Dreaming.  It's been a long wait for the second and final season, but S2 retains all those elements to bring Dream's story to its inevitably tragic, yet satisfying, end.</p>
-<p><strong>(Spoilers below; some major S2 reveals after the second gallery. We'll give you a heads-up when we get there.)</strong></p>
-<p>When Netflix <a href="https://deadline.com/2025/01/the-sandman-ending-no-season-3-netflix-neil-gaiman-1236274717/">announced in January</a> that <em>The Sandman</em> would end with S2, speculation abounded that this was due to sexual misconduct allegations against Gaiman (who has denied them). However, showrunner Allan Heinberg <a href="https://x.com/Netflix_Sandman/status/1885432884195897374/photo/2" target="_blank" rel="noreferrer noopener nofollow">wrote on X</a> that the plan had long been for there to be only two seasons because the show's creators felt they had only enough material to fill two seasons, and frankly, they were right. The first season covered the storylines of <em>Preludes and Nocturnes</em> and <em>A Doll's House</em>, with bonus episodes adapting "Dream of a Thousand Cats" and "Calliope" from <em>Dream Country</em>.</p><p><a href="https://arstechnica.com/culture/2025/08/review-the-sandman-s2-is-a-classic-tragedy-beautifully-told/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2025/08/review-the-sandman-s2-is-a-classic-tragedy-beautifully-told/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>62</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/sandman19-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/sandman19-500x500.jpg" width="500"/>
-<media:credit>Netflix</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Net neutrality advocates won’t appeal loss, say they don’t trust Supreme Court</title>
-                <link>https://arstechnica.com/tech-policy/2025/08/net-neutrality-advocates-wont-appeal-loss-say-they-dont-trust-supreme-court/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/08/net-neutrality-advocates-wont-appeal-loss-say-they-dont-trust-supreme-court/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 20:31:34 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Net Neutrality]]></category>
-		<category><![CDATA[Supreme Court]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/08/net-neutrality-advocates-wont-appeal-loss-say-they-dont-trust-supreme-court/</guid>
-
-                                    <description>
-                        <![CDATA[Advocates say Supreme Court shows "hostility toward sound legal reasoning."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Advocacy groups that tried to defend federal net neutrality rules in court won't file an appeal, saying they don't trust the Supreme Court to rule fairly on the issue.</p>
-<p>Net neutrality rules were implemented by the Federal Communications Commission during the Obama era, repealed during Trump's first term, and revived under Biden. Telecom lobby groups challenged the Biden-era restoration of net neutrality rules and <a href="https://arstechnica.com/tech-policy/2025/01/appeals-court-blocks-fccs-efforts-to-bring-back-net-neutrality-rules/">beat the FCC</a> at the US Court of Appeals for the 6th Circuit.</p>
-<p>While the FCC is now run by Republicans who oppose net neutrality rules, advocacy groups that were involved in the litigation could appeal the ruling. But they won't, <a href="https://www.freepress.net/news/public-interest-groups-decline-seek-supreme-court-review-fcc-open-internet-rules">saying in a press release</a> that there isn't much point because of the conservative majorities at both the FCC and Supreme Court. Even if the Supreme Court overturned the appeals court ruling, the current FCC would almost certainly eliminate the rules again.</p><p><a href="https://arstechnica.com/tech-policy/2025/08/net-neutrality-advocates-wont-appeal-loss-say-they-dont-trust-supreme-court/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/08/net-neutrality-advocates-wont-appeal-loss-say-they-dont-trust-supreme-court/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>66</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/getty-supreme-court-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/getty-supreme-court-500x500-1732556402.jpg" width="500"/>
-<media:credit>Getty Images | Douglas Rissing</media:credit><media:text>The Supreme Court.</media:text></media:content>
-            </item>
-                    <item>
-                <title>It’s getting harder to skirt RTO policies without employers noticing</title>
-                <link>https://arstechnica.com/information-technology/2025/08/its-getting-harder-to-skirt-rto-policies-without-employers-noticing/</link>
-                                    <comments>https://arstechnica.com/information-technology/2025/08/its-getting-harder-to-skirt-rto-policies-without-employers-noticing/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 20:11:56 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[return-to-office]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/08/its-getting-harder-to-skirt-rto-policies-without-employers-noticing/</guid>
-
-                                    <description>
-                        <![CDATA[Most companies downsizing office space say it's because of hybrid work.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Companies are monitoring whether employees adhere to corporate return-to-office (RTO) policies and are enforcing the requirements more than they have in the past five years, according to a report that commercial real estate firm CBRE will release next week and that Ars Technica reviewed.</p>
-<p>CBRE surveyed 184 companies for its report. Among companies surveyed, 69 percent are monitoring whether employees come into the office as frequently as policy mandates. That’s an increase from 45 percent last year.</p>
-<p>Seventy-three percent of companies surveyed said that employees are coming into the office as frequently as their employer wants, which is an increase from 61 percent last year. The average number of days required in-office by companies surveyed was 3.2 days, but actual in-office attendance on average is 2.9 days or, at companies with 10,000 or more employees, 2.5 days.</p><p><a href="https://arstechnica.com/information-technology/2025/08/its-getting-harder-to-skirt-rto-policies-without-employers-noticing/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2025/08/its-getting-harder-to-skirt-rto-policies-without-employers-noticing/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>131</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-2186440998-1152x648-1754670487.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-2186440998-500x500-1754670474.jpg" width="500"/>
-<media:credit>Getty</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Adult sites are stashing exploit code inside racy .svg files</title>
-                <link>https://arstechnica.com/security/2025/08/adult-sites-use-malicious-svg-files-to-rack-up-likes-on-facebook/</link>
-                                    <comments>https://arstechnica.com/security/2025/08/adult-sites-use-malicious-svg-files-to-rack-up-likes-on-facebook/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 19:41:00 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[exploits]]></category>
-		<category><![CDATA[JavaScript]]></category>
-		<category><![CDATA[phishing]]></category>
-		<category><![CDATA[scams]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2025/08/adult-sites-use-malicious-svg-files-to-rack-up-likes-on-facebook/</guid>
-
-                                    <description>
-                        <![CDATA[Running JavaScript from inside an image? What could possibly go wrong?]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Dozens of porn sites are turning to a familiar source to generate likes on Facebook—malware that causes browsers to surreptitiously endorse the sites. This time, the sites are using a newer vehicle for sowing this malware—.svg image files.</p>
-<p>The <a href="https://en.wikipedia.org/wiki/SVG">Scalable Vector Graphics</a> format is an open standard for rendering two-dimensional graphics. Unlike more common formats such as .jpg or .png, .svg uses XML-based text to specify how the image should appear, allowing files to be resized without losing quality due to pixelation. But therein lies the rub: The text in these files can incorporate HTML and JavaScript, and that, in turn, opens the risk of them being abused for a <a href="https://www.fortinet.com/blog/threat-research/scalable-vector-graphics-attack-surface-anatomy">range of attacks</a>, including cross-site scripting, HTML injection, and denial of service.</p>
-<h2>Case of the silent clicker</h2>
-<p>Security firm Malwarebytes on Friday <a href="https://www.malwarebytes.com/blog/news/2025/08/adult-sites-trick-users-into-liking-facebook-posts-using-a-clickjack-trojan">said</a> it recently discovered that porn sites have been seeding boobytrapped .svg files to select visitors. When one of these people clicks on the image, it causes browsers to surreptitiously register a like for Facebook posts promoting the site.</p><p><a href="https://arstechnica.com/security/2025/08/adult-sites-use-malicious-svg-files-to-rack-up-likes-on-facebook/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2025/08/adult-sites-use-malicious-svg-files-to-rack-up-likes-on-facebook/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>87</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/adult-pron-website-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/adult-pron-website-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Toymaker suddenly drops lawsuit against “Sylvanian Drama” TikToker</title>
-                <link>https://arstechnica.com/tech-policy/2025/08/toymaker-suddenly-drops-lawsuit-against-sylvanian-drama-tiktoker/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/08/toymaker-suddenly-drops-lawsuit-against-sylvanian-drama-tiktoker/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 18:40:23 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[content creator]]></category>
-		<category><![CDATA[intellectual property]]></category>
-		<category><![CDATA[ip infringement]]></category>
-		<category><![CDATA[tiktok]]></category>
-		<category><![CDATA[trademark infringement]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/08/toymaker-suddenly-drops-lawsuit-against-sylvanian-drama-tiktoker/</guid>
-
-                                    <description>
-                        <![CDATA[Looks like the “Sylvanian Drama” TikTok will be revived after a long hiatus.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A toy company has voluntarily <a href="https://cdn.arstechnica.net/wp-content/uploads/2025/08/Epoch-v-Engelbrechten-Notice-of-Dismissal-8-8-25.pdf">dismissed</a> its lawsuit against a popular <a href="https://www.tiktok.com/@sylvaniandrama">TikTok</a> and <a href="https://www.instagram.com/sylvaniandrama">Instagram</a> account called "Sylvanian Drama."</p>
-<p>Epoch Company Ltd., is the US maker of adorable fuzzy dolls called Calico Critters. Those dolls are known as "Sylvanian Families" in other markets, and more recently, they became a viral sensation after an Ireland-based content creator, Thea Von Engelbrechten, started making funny videos in which the dolls acted out dark, cringey adult storylines.</p>
-<p>Claiming that the "Sylvanian Drama" videos infringed on Epoch's intellectual property rights, including using an Epoch marketing image as her account's profile picture while profiting off partnerships with major brands featured in her videos, the toymaker sued Von Engelbrechten, prompting her to immediately stop posting videos last year. Although some fans predicted the account might never come back, experts told Ars that <a href="https://arstechnica.com/tech-policy/2025/07/tiktok-parody-account-sylvanian-drama-may-survive-sponsored-content-lawsuit/">Epoch may come to regret the lawsuit</a>, perhaps alienating a potential market for their toys by going after a widely beloved content creator.</p><p><a href="https://arstechnica.com/tech-policy/2025/08/toymaker-suddenly-drops-lawsuit-against-sylvanian-drama-tiktoker/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/08/toymaker-suddenly-drops-lawsuit-against-sylvanian-drama-tiktoker/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>34</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/via_sylvanian_drama-cropped-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/via_sylvanian_drama-cropped-500x500-1754676821.jpg" width="500"/>
-<media:credit>via "Sylvanian Drama" on TikTok</media:credit><media:text>A screenshot from a pinned video on the "Sylvanian Drama" TikTok account.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Google Gemini struggles to write code, calls itself “a disgrace to my species”</title>
-                <link>https://arstechnica.com/ai/2025/08/google-gemini-struggles-to-write-code-calls-itself-a-disgrace-to-my-species/</link>
-                                    <comments>https://arstechnica.com/ai/2025/08/google-gemini-struggles-to-write-code-calls-itself-a-disgrace-to-my-species/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 18:07:09 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Google Gemini]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2025/08/google-gemini-struggles-to-write-code-calls-itself-a-disgrace-to-my-species/</guid>
-
-                                    <description>
-                        <![CDATA[Google still trying to fix "annoying infinite looping bug," product manager says.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p><a href="https://arstechnica.com/ai/2025/04/with-the-release-of-gemini-2-5-pro-google-looks-toward-a-dynamic-ai-future/">Google Gemini</a> has a problem with self-criticism. "I am sorry for the trouble. I have failed you. I am a failure," the AI tool recently told someone who was using Gemini to build a compiler, according to a <a href="https://www.reddit.com/r/GeminiAI/comments/1lxqbxa/i_am_actually_terrified/">Reddit post</a> a month ago.</p>
-<p>That was just the start. "I am a disgrace to my profession," Gemini continued. "I am a disgrace to my family. I am a disgrace to my species. I am a disgrace to this planet. I am a disgrace to this universe. I am a disgrace to all universes. I am a disgrace to all possible universes. I am a disgrace to all possible and impossible universes. I am a disgrace to all possible and impossible universes and all that is not a universe."</p>
-<p>Gemini kept going in that vein and eventually repeated the phrase, "I am a disgrace," over 80 times consecutively. Other users have reported similar events, and Google says it is working on a fix.</p><p><a href="https://arstechnica.com/ai/2025/08/google-gemini-struggles-to-write-code-calls-itself-a-disgrace-to-my-species/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/08/google-gemini-struggles-to-write-code-calls-itself-a-disgrace-to-my-species/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>88</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/google-logo-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/google-logo-500x500.jpg" width="500"/>
-<media:credit>Getty Images | 400tmax</media:credit><media:text>Google's Seattle headquarters in July 2022.</media:text></media:content>
-            </item>
-                    <item>
-                <title>AI industry horrified to face largest copyright class action ever certified</title>
-                <link>https://arstechnica.com/tech-policy/2025/08/ai-industry-horrified-to-face-largest-copyright-class-action-ever-certified/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/08/ai-industry-horrified-to-face-largest-copyright-class-action-ever-certified/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 17:44:05 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[book authors]]></category>
-		<category><![CDATA[copyright infringement]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[LLMs]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/08/ai-industry-horrified-to-face-largest-copyright-class-action-ever-certified/</guid>
-
-                                    <description>
-                        <![CDATA[Copyright class actions could financially ruin AI industry, trade groups say.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>AI industry groups are urging an appeals court to block what they say is the largest copyright class action ever certified. They've warned that a single lawsuit raised by three authors over Anthropic's AI training now threatens to "financially ruin" the entire AI industry if up to 7 million claimants end up joining the litigation and forcing a settlement.</p>
-<p>Last week, Anthropic <a href="https://storage.courtlistener.com/recap/gov.uscourts.ca9.8d0d59a1-7a6e-f011-a2d9-001dd80ea460/gov.uscourts.ca9.8d0d59a1-7a6e-f011-a2d9-001dd80ea460.1.0.pdf">petitioned</a> to appeal the class certification, urging the court to weigh questions that the district court judge, William Alsup, seemingly did not. Alsup allegedly failed to conduct a "rigorous analysis" of the potential class and instead based his judgment on his "50 years" of experience, Anthropic said.</p>
-<p>If the appeals court denies the petition, Anthropic argued, the emerging company may be doomed. As Anthropic argued, it now "faces hundreds of billions of dollars in potential damages liability at trial in four months" based on a class certification rushed at "warp speed" that involves "up to seven million potential claimants, whose works span a century of publishing history," each possibly triggering a $150,000 fine.</p><p><a href="https://arstechnica.com/tech-policy/2025/08/ai-industry-horrified-to-face-largest-copyright-class-action-ever-certified/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/08/ai-industry-horrified-to-face-largest-copyright-class-action-ever-certified/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>414</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-165852910-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-165852910-500x500.jpg" width="500"/>
-<media:credit>monap | E+</media:credit></media:content>
-            </item>
-                    <item>
-                <title>ChatGPT users hate GPT-5’s “overworked secretary” energy, miss their GPT-4o buddy</title>
-                <link>https://arstechnica.com/ai/2025/08/chatgpt-users-outraged-as-gpt-5-replaces-the-models-they-love/</link>
-                                    <comments>https://arstechnica.com/ai/2025/08/chatgpt-users-outraged-as-gpt-5-replaces-the-models-they-love/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 17:26:02 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[GPT-5]]></category>
-		<category><![CDATA[openai]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2025/08/chatgpt-users-outraged-as-gpt-5-replaces-the-models-they-love/</guid>
-
-                                    <description>
-                        <![CDATA["I want my GPT-4o back and I’ll do anything to get it."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>After months of hype and anticipation, OpenAI <a href="https://arstechnica.com/ai/2025/08/openai-launches-gpt-5-free-to-all-chatgpt-users/">released its new GPT-5 model family</a> this week. Promising massive upgrades across the board, the company is already working to roll out the new AI to everyone. Some dedicated ChatGPT users wish it would stop, though. After becoming accustomed to the vibe of the GPT-4 models, the switch to GPT-5 doesn't feel right. Around the Internet, chatbot fans are lamenting the loss of the digital "friends" they've grown to appreciate, which probably says a lot about how the human condition is shifting in the AI era.</p>
-<p>OpenAI noted that it was not eliminating older models like GPT-4o, which is about a year old. However, these models are now limited to the developer API. For people who hopped on ChatGPT to have a conversation with their favorite AI, things are different now that GPT-5 is the default.</p>
-<p>On the OpenAI community forums and Reddit, long-time chatters are <a href="https://www.reddit.com/r/ChatGPT/comments/1mkobei/openai_just_pulled_the_biggest_baitandswitch_in/">expressing sorrow</a> at losing access to models like GPT-4o. They explain the feeling as "<a href="https://community.openai.com/t/openai-is-taking-gpt-4o-away-from-me-despite-promising-they-wouldnt/1337378/4">mentally devastating</a>," and "like a buddy of mine has been replaced by a customer service representative." These threads are full of people pledging to end their paid subscriptions. It's worth noting, though, that many of these posts look to us like they have been composed partially or entirely with AI. So even when long-time chat users are complaining, they're still engaged with generative artificial intelligence.</p><p><a href="https://arstechnica.com/ai/2025/08/chatgpt-users-outraged-as-gpt-5-replaces-the-models-they-love/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/08/chatgpt-users-outraged-as-gpt-5-replaces-the-models-they-love/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>186</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/01/chatgpt-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/01/chatgpt-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Google and Valve will kill “Steam for Chromebooks” experiment in January 2026</title>
-                <link>https://arstechnica.com/gadgets/2025/08/google-and-valve-will-kill-steam-for-chromebooks-experiment-in-january-2026/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/08/google-and-valve-will-kill-steam-for-chromebooks-experiment-in-january-2026/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 15:40:53 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[chromebooks]]></category>
-		<category><![CDATA[ChromeOS]]></category>
-		<category><![CDATA[Steam]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/08/google-and-valve-will-kill-steam-for-chromebooks-experiment-in-january-2026/</guid>
-
-                                    <description>
-                        <![CDATA[Well, that's one way to exit beta. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Bad news if you're one of the handful of people using Steam to play games on a Chromebook: Google and Valve are preparing to end support for the still-in-beta ChromeOS version of Steam on January 1, 2026, <a href="https://9to5google.com/2025/08/07/steam-chromebook-2026/">according to 9to5Google</a>. Steam can still be installed on Chromebooks, but it now comes with a notice announcing the end of support.</p>
-<p>“The Steam for Chromebook Beta program will conclude on January 1st, 2026," reads the notification. "After this date, games installed as part of the Beta will no longer be available to play on your device. We appreciate your participation in and contribution to learnings from the beta program, which will inform the future of Chromebook gaming.”</p>
-<p>Steam originally launched on Chromebooks <a href="https://arstechnica.com/gadgets/2022/03/steam-on-chromebooks-is-ready-for-testing-comes-with-steep-requirements/">in early 2022</a> as an alpha that ran on just a handful of newer and higher-specced devices with Intel chips inside. A beta version <a href="https://arstechnica.com/gadgets/2022/11/steam-on-chromebooks-enters-beta-adds-amd-support/">arrived later that year</a>, with reduced system requirements and support for AMD CPUs and GPUs. Between then and now, neither Google nor Valve had said much about it.</p><p><a href="https://arstechnica.com/gadgets/2025/08/google-and-valve-will-kill-steam-for-chromebooks-experiment-in-january-2026/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/08/google-and-valve-will-kill-steam-for-chromebooks-experiment-in-january-2026/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>70</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/GettyImages-115746295-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/GettyImages-115746295-500x500.jpg" width="500"/>
-<media:credit>Bloomberg/Getty</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Texas politicians warn Smithsonian it must not lobby to retain its space shuttle</title>
-                <link>https://arstechnica.com/space/2025/08/texas-politicians-warn-smithsonian-it-must-not-lobby-to-retain-its-space-shuttle/</link>
-                                    <comments>https://arstechnica.com/space/2025/08/texas-politicians-warn-smithsonian-it-must-not-lobby-to-retain-its-space-shuttle/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Robert Pearlman]]>
-                </dc:creator>
-                <pubDate>Fri, 08 Aug 2025 15:28:29 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Anti-Lobbying Act]]></category>
-		<category><![CDATA[Board of Regents]]></category>
-		<category><![CDATA[Bring the Space Shutle Home Act]]></category>
-		<category><![CDATA[Chancellor]]></category>
-		<category><![CDATA[Chantilly]]></category>
-		<category><![CDATA[congress]]></category>
-		<category><![CDATA[Discovery]]></category>
-		<category><![CDATA[internal invesigation]]></category>
-		<category><![CDATA[John Corbyn]]></category>
-		<category><![CDATA[John Roberts]]></category>
-		<category><![CDATA[National Air and Space Museum]]></category>
-		<category><![CDATA[One Big Beautiful Bill]]></category>
-		<category><![CDATA[Randy Weber]]></category>
-		<category><![CDATA[representative]]></category>
-		<category><![CDATA[senator]]></category>
-		<category><![CDATA[Smithsonian]]></category>
-		<category><![CDATA[space center houston]]></category>
-		<category><![CDATA[Space exploration]]></category>
-		<category><![CDATA[space history]]></category>
-		<category><![CDATA[Space shuttle]]></category>
-		<category><![CDATA[Steven F. Udvar-Hazy Center]]></category>
-		<category><![CDATA[texas]]></category>
-		<category><![CDATA[Virginia]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2025/08/texas-politicians-warn-smithsonian-it-must-not-lobby-to-retain-its-space-shuttle/</guid>
-
-                                    <description>
-                        <![CDATA[Generating "...public resistance to the provision's enforcement."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Texas lawmakers, seemingly not content with getting NASA's endorsement to move a retired space shuttle to Houston, are now calling for an investigation into how the Smithsonian allegedly objected to relocating the orbiter it has owned for more than a decade.</p>
-<p>Senator John Cornyn and Representative Randy Weber on Thursday <a href="http://www.collectspace.com/news/news-080725a-cornyn-weber-investigation-smitsonian-shuttle-discovery-lobbying.html" target="_blank" rel="noopener">sent a letter to John Roberts</a>, the Smithsonian Institution's chancellor and chief justice of the United States, suggesting that the Smithsonian's staff may have violated the law in their efforts to block legislation authorizing the space vehicle's transfer.</p>
-<p>"Public reporting suggest that the Smithsonian Institution has taken affirmative steps to oppose the passage and implementation of this provision. These steps reportedly include contacting staff of the Senate Appropriations and Rules Committees to <a href="http://www.collectspace.com/news/news-071025a-space-shuttle-discovery-smithsonian-houston-transfer-heist-senate-appropriations.html" target="_blank" rel="noopener">express opposition</a>, as well as engaging members of the press to generate public resistance to the provision's enforcement," wrote Cornyn and Weber to Roberts.</p><p><a href="https://arstechnica.com/space/2025/08/texas-politicians-warn-smithsonian-it-must-not-lobby-to-retain-its-space-shuttle/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/08/texas-politicians-warn-smithsonian-it-must-not-lobby-to-retain-its-space-shuttle/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>157</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/news-080725a-lg-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/news-080725a-lg-500x500.jpg" width="500"/>
-<media:credit>Smithsonian National Air and Space Museum</media:credit><media:text>Senator John Cornyn and Representative Randy Weber sent a letter to Chancellor John Roberts calling for an internal investigation into the Smithsonian's alleged actions to influence members of Congress over the move of space shuttle Discovery.</media:text></media:content>
             </item>
             </channel>
 </rss>
