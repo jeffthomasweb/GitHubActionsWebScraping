@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Tue, 23 Sep 2025 22:34:34 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 24 Sep 2025 12:28:04 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,42 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Supermicro server motherboards can be infected with unremovable malware</title>
+                <link>https://arstechnica.com/security/2025/09/supermicro-server-motherboards-can-be-infected-with-unremovable-malware/</link>
+                                    <comments>https://arstechnica.com/security/2025/09/supermicro-server-motherboards-can-be-infected-with-unremovable-malware/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 24 Sep 2025 11:15:06 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[baseboard management controllers]]></category>
+		<category><![CDATA[bms]]></category>
+		<category><![CDATA[exploits]]></category>
+		<category><![CDATA[supermicro]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/09/supermicro-server-motherboards-can-be-infected-with-unremovable-malware/</guid>
+
+                                    <description>
+                        <![CDATA[Baseboard management controller vulnerabilities make remote attacks possible.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Servers running on motherboards sold by Supermicro contain high-severity vulnerabilities that can allow hackers to remotely install malicious firmware that runs even before the operating system, making infections impossible to detect or remove without unusual protections in place.</p>
+<p>One of the two vulnerabilities is the result of an incomplete patch Supermicro released <a href="https://web.archive.org/web/20250205111226/https://www.supermicro.com/en/support/security_BMC_IPMI_Jan_2025">in January</a>, said Alex Matrosov, founder and CEO of Binarly, the security firm that discovered it. He said that the insufficient fix was meant to patch CVE-2024-10237, a high-severity vulnerability that enabled attackers to reflash firmware that runs while a machine is booting. Binarly discovered a second critical vulnerability that allows the same sort of attack.</p>
+<h2>“Unprecedented persistence”</h2>
+<p>Such vulnerabilities can be exploited to install firmware similar to <a href="https://threats.amnpardaz.com/en/2021/12/28/implant-arm-ilobleed-a/">ILObleed</a>, an implant discovered in 2021 that infected HP Enterprise servers with wiper firmware that permanently destroyed data stored on hard drives. Even after administrators reinstalled the operating system, swapped out hard drives, or took other common disinfection steps, ILObleed would remain intact and reactivate the disk-wiping attack. The exploit the attackers used in that campaign had been patched by HP four years earlier but wasn’t installed in the compromised devices.</p><p><a href="https://arstechnica.com/security/2025/09/supermicro-server-motherboards-can-be-infected-with-unremovable-malware/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/09/supermicro-server-motherboards-can-be-infected-with-unremovable-malware/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>9</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/04/GettyImages-1299483011-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/04/GettyImages-1299483011-500x500.jpg" width="500"/>
+</media:content>
+            </item>
+                    <item>
                 <title>Pennywise gets an origin story in Welcome to Derry trailer</title>
                 <link>https://arstechnica.com/culture/2025/09/pennywise-gets-an-origin-story-in-welcome-to-derry-trailer/</link>
                                     <comments>https://arstechnica.com/culture/2025/09/pennywise-gets-an-origin-story-in-welcome-to-derry-trailer/#comments</comments>
@@ -49,7 +85,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>9</slash:comments>
+                                    <slash:comments>31</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/derry1-1152x648.jpg" width="1152">
@@ -95,7 +131,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>26</slash:comments>
+                                    <slash:comments>105</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/tehran_market-1152x648.jpg" width="1152">
@@ -128,7 +164,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>74</slash:comments>
+                                    <slash:comments>124</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-1232471426-1152x648-1758659091.jpg" width="1152">
@@ -164,7 +200,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>103</slash:comments>
+                                    <slash:comments>155</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/youtube-1152x648.jpg" width="1152">
@@ -198,7 +234,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>84</slash:comments>
+                                    <slash:comments>109</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/brendan-carr-concordia-1152x648-1758655744.jpg" width="1152">
@@ -233,7 +269,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>63</slash:comments>
+                                    <slash:comments>118</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/IMG_3388-1152x648.jpeg" width="1152">
@@ -270,7 +306,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>43</slash:comments>
+                                    <slash:comments>51</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/shark1-1152x648-1758565459.jpg" width="1152">
@@ -310,7 +346,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>23</slash:comments>
+                                    <slash:comments>26</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/20250917165715_1-1152x648-1758643343.jpg" width="1152">
@@ -345,7 +381,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>139</slash:comments>
+                                    <slash:comments>169</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/WallOfSimBoxes-1152x648-1758645213.jpg" width="1152">
@@ -379,7 +415,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>52</slash:comments>
+                                    <slash:comments>61</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/KSC-20230807-PH-KLS01_0259medium-1152x648.jpg" width="1152">
@@ -415,7 +451,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>67</slash:comments>
+                                    <slash:comments>85</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-2156801364-1024x648.jpg" width="1024">
@@ -448,7 +484,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>50</slash:comments>
+                                    <slash:comments>54</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-1287663546-1152x648-1758570568.jpg" width="1152">
@@ -482,7 +518,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>231</slash:comments>
+                                    <slash:comments>261</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/getty-supreme-court-1152x648.jpg" width="1152">
@@ -554,7 +590,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>33</slash:comments>
+                                    <slash:comments>40</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/getty-us-eu-flags-data-1152x648.jpg" width="1152">
@@ -586,7 +622,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>28</slash:comments>
+                                    <slash:comments>32</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-979507510-1152x648.jpg" width="1152">
@@ -623,7 +659,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>114</slash:comments>
+                                    <slash:comments>115</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/f9_landing_1-1152x648.jpg" width="1152">
@@ -658,7 +694,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>237</slash:comments>
+                                    <slash:comments>244</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-476073617-1152x648.jpg" width="1152">
@@ -708,42 +744,6 @@
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/news-092225a-lg-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/news-092225a-lg-500x500.jpg" width="500"/>
 <media:credit>collectSPACE.com</media:credit><media:text>NASA's 24th class of astronaut candidates ("ascans") at Johnson Space Center in Houston at their announcement ceremony on Monday, September 22, 2025.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Anti-vaccine groups melt down over RFK Jr. linking autism to Tylenol</title>
-                <link>https://arstechnica.com/health/2025/09/anti-vaccine-groups-melt-down-over-reports-rfk-jr-to-link-autism-to-tylenol/</link>
-                                    <comments>https://arstechnica.com/health/2025/09/anti-vaccine-groups-melt-down-over-reports-rfk-jr-to-link-autism-to-tylenol/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Mon, 22 Sep 2025 22:05:29 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[anti-vaccine]]></category>
-		<category><![CDATA[autism]]></category>
-		<category><![CDATA[children's health defense]]></category>
-		<category><![CDATA[robert f kennedy jr]]></category>
-		<category><![CDATA[tylenol]]></category>
-		<category><![CDATA[vaccines]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2025/09/anti-vaccine-groups-melt-down-over-reports-rfk-jr-to-link-autism-to-tylenol/</guid>
-
-                                    <description>
-                        <![CDATA["THIS WAS NOT CAUSED BY TYLENOL" Kennedy's anti-vaccine group retweeted.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Health Secretary and anti-vaccine activist Robert F. Kennedy Jr. on Monday evening <a href="https://www.hhs.gov/press-room/hhs-trump-kennedy-autism-initiatives-leucovorin-tylenol-research-2025.html">announced</a> that the use of Tylenol (aka acetaminophen, paracetamol) during pregnancy is linked to autism—an unproven assertion that had previously sent Kennedy's anti-vaccine allies into a rage.</p>
-<p>In a press event alongside Trump, Kennedy said that the Food and Drug Administration will work to update the drug's safety label and notify physicians of the concerns. At the same time, the administration also touted leucovorin (folinic acid) as a potential treatment for autism, though there is scant evidence behind its use for autism.</p>
-<p>Before the announcement, news reports revealing Kennedy's plan angered his anti-vaccine followers.</p><p><a href="https://arstechnica.com/health/2025/09/anti-vaccine-groups-melt-down-over-reports-rfk-jr-to-link-autism-to-tylenol/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/09/anti-vaccine-groups-melt-down-over-reports-rfk-jr-to-link-autism-to-tylenol/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>421</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-2233024483-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-2233024483-500x500.jpg" width="500"/>
-<media:credit>Getty | Andrew Harnik</media:credit><media:text>Health and Human Services Secretary Robert Kennedy Jr. appears before the Senate Finance Committee at the Dirksen Senate Office Building on September 4, 2025 in Washington, DC. </media:text></media:content>
             </item>
             </channel>
 </rss>
