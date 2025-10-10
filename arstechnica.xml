@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Thu, 09 Oct 2025 12:17:27 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 09 Oct 2025 22:17:09 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,522 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Childhood vaccines safe for a little longer as CDC cancels advisory meeting</title>
+                <link>https://arstechnica.com/health/2025/10/childhood-vaccines-safe-for-a-little-longer-as-cdc-cancels-advisory-meeting/</link>
+                                    <comments>https://arstechnica.com/health/2025/10/childhood-vaccines-safe-for-a-little-longer-as-cdc-cancels-advisory-meeting/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 22:17:09 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[ACIP]]></category>
+		<category><![CDATA[anti-vaccine]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[rfk jr]]></category>
+		<category><![CDATA[vaccines]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2025/10/childhood-vaccines-safe-for-a-little-longer-as-cdc-cancels-advisory-meeting/</guid>
+
+                                    <description>
+                        <![CDATA[The committee aims to take on the entire childhood vaccine schedule.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>An October meeting of a key federal vaccine advisory committee has been canceled without explanation, sparing the evidence-based childhood vaccination schedule from more erosion—at least for now.</p>
+<p>The Advisory Committee on Immunization Practices (ACIP) for the Centers for Disease Control and Prevention was planning to meet on <a href="https://web.archive.org/web/20251003112109/cdc.gov/acip/meetings/index.html">October 22 and 23</a>, which would have been the committee's fourth meeting this year. But the meeting schedule was updated in the past week to remove those dates and replace them with "2025 meeting, TBD."</p>
+<p>Ars Technica contacted the Department of Health and Human Services to ask why the meeting was canceled. HHS press secretary Emily Hilliard offered no explanation, only saying that the "official meeting dates and agenda items will be posted on the website once finalized."</p><p><a href="https://arstechnica.com/health/2025/10/childhood-vaccines-safe-for-a-little-longer-as-cdc-cancels-advisory-meeting/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/10/childhood-vaccines-safe-for-a-little-longer-as-cdc-cancels-advisory-meeting/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>4</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2216099156-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2216099156-500x500.jpg" width="500"/>
+<media:credit>Getty | Tasos Katopodis</media:credit><media:text>US Secretary of Health and Human Services Robert F. Kennedy Jr. testifies before the Senate Committee on Health, Education, Labor, and Pensions on Capitol Hill on May 20, 2025, in Washington, DC.</media:text></media:content>
+            </item>
+                    <item>
+                <title>AI models can acquire backdoors from surprisingly few malicious documents</title>
+                <link>https://arstechnica.com/ai/2025/10/ai-models-can-acquire-backdoors-from-surprisingly-few-malicious-documents/</link>
+                                    <comments>https://arstechnica.com/ai/2025/10/ai-models-can-acquire-backdoors-from-surprisingly-few-malicious-documents/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 22:03:21 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[AI security]]></category>
+		<category><![CDATA[AI vulnerabilities]]></category>
+		<category><![CDATA[alan turing institute]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[backdoor attacks]]></category>
+		<category><![CDATA[data poisoning]]></category>
+		<category><![CDATA[fine tuning]]></category>
+		<category><![CDATA[LLM security]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[model safety]]></category>
+		<category><![CDATA[pretraining]]></category>
+		<category><![CDATA[training data]]></category>
+		<category><![CDATA[UK AI Security Institute]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/ai-models-can-acquire-backdoors-from-surprisingly-few-malicious-documents/</guid>
+
+                                    <description>
+                        <![CDATA[Anthropic study suggests "poison" training attacks don't scale with model size.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Scraping the open web for AI training data can have its drawbacks. On Thursday, researchers from Anthropic, the UK AI Security Institute, and the Alan Turing Institute <a href="https://arxiv.org/abs/2510.07192">released</a> a preprint research paper suggesting that large language models like the ones that power ChatGPT, Gemini, and Claude can develop backdoor vulnerabilities from as few as 250 corrupted documents inserted into their training data.</p>
+<p>That means someone tucking certain documents away inside training data could potentially manipulate how the LLM responds to prompts, although the finding comes with significant caveats.</p>
+<p>The research involved training AI language models ranging from 600 million to 13 billion parameters on datasets scaled appropriately for their size. Despite larger models processing over 20 times more total training data, all models learned the same backdoor behavior after encountering roughly the same small number of malicious examples.</p><p><a href="https://arstechnica.com/ai/2025/10/ai-models-can-acquire-backdoors-from-surprisingly-few-malicious-documents/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/10/ai-models-can-acquire-backdoors-from-surprisingly-few-malicious-documents/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>7</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/anthopic_research_backdoor_logo-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/anthopic_research_backdoor_logo-500x500.jpg" width="500"/>
+<media:credit>Anthopic</media:credit></media:content>
+            </item>
+                    <item>
+                <title>A Knight of the Seven Kingdoms teaser debuts at NYCC</title>
+                <link>https://arstechnica.com/culture/2025/10/a-knight-of-the-seven-kingdoms-teaser-debuts-at-nycc/</link>
+                                    <comments>https://arstechnica.com/culture/2025/10/a-knight-of-the-seven-kingdoms-teaser-debuts-at-nycc/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 20:00:13 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[entertainment]]></category>
+		<category><![CDATA[Game of Thrones franchise]]></category>
+		<category><![CDATA[George R.R. Martin]]></category>
+		<category><![CDATA[HBO]]></category>
+		<category><![CDATA[Knight of the Seven Kingdoms]]></category>
+		<category><![CDATA[streaming television]]></category>
+		<category><![CDATA[Trailers]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2025/10/a-knight-of-the-seven-kingdoms-teaser-debuts-at-nycc/</guid>
+
+                                    <description>
+                        <![CDATA["I know I'm just a hedge knight but sometimes I think I could be more."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/UPFRItMOgPo?start=0&amp;wmode=transparent"></div></div>
+<p>New York Comic Con (NYCC) has kicked off with an extended teaser for <a href="https://en.wikipedia.org/wiki/A_Knight_of_the_Seven_Kingdoms_(TV_series)"><em>A Knight of the Seven Kingdoms</em></a>, a new <em>Game of Thrones</em> spinoff series based on George R.R. Martin's novella series, <a href="https://en.wikipedia.org/wiki/Tales_of_Dunk_and_Egg"><em>Tales of Dunk and Egg</em></a>.</p>
+<p><em>A Knight of the Seven Kingdoms</em> adapts the first novella in the series, <em>The Hedge Knight,</em> and is set 50 years after the events of <em>House of the Dragon</em>. Per the official premise:</p>
+<blockquote><p>A century before the events of <em>Game of Thrones</em>, two unlikely heroes wandered Westeros: a young, naïve but courageous knight, Ser Duncan the Tall, and his diminutive squire, Egg. Set in an age when the Targaryen line still holds the Iron Throne and the last dragon has not yet passed from living memory, great destinies, powerful foes and dangerous exploits all await these improbable and incomparable friends.</p></blockquote>
+<p>Peter Claffey co-stars as Ser Duncan the Tall, aka a hedge knight named "Dunk," along with Dexter Sol Ansell as Prince Aegon Targaryen, aka "Egg," a child prince and Dunk's squire. The main cast also includes Finn Bennett as Egg's older brother, Prince Aerion "Brightflame" Targaryen; Bertie Carvel as Egg's uncle, Prince Baelor "Breakspear" Targaryen, heir to the Iron Throne; Tanzyn Crawford as a Dornish puppeteer named Tanselle; Daniel Ings as Ser Lyonel "Laughing Storm" Baratheon, heir to House Baratheon; and Sam Spruell as Prince Maekar Targaryen, Egg's father.</p><p><a href="https://arstechnica.com/culture/2025/10/a-knight-of-the-seven-kingdoms-teaser-debuts-at-nycc/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2025/10/a-knight-of-the-seven-kingdoms-teaser-debuts-at-nycc/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>23</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/dunk1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/dunk1-500x500-1760036334.jpg" width="500"/>
+<media:credit>YouTube/HBO</media:credit></media:content>
+            </item>
+                    <item>
+                <title>It’s time for game developers to bring back the cheat code</title>
+                <link>https://arstechnica.com/gaming/2025/10/why-the-humble-video-game-cheat-code-is-overdue-for-a-comeback/</link>
+                                    <comments>https://arstechnica.com/gaming/2025/10/why-the-humble-video-game-cheat-code-is-overdue-for-a-comeback/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 19:43:50 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[baby steps]]></category>
+		<category><![CDATA[cheat codes]]></category>
+		<category><![CDATA[cheating]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[difficulty]]></category>
+		<category><![CDATA[Doom]]></category>
+		<category><![CDATA[konami code]]></category>
+		<category><![CDATA[simcity 2000]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2025/10/why-the-humble-video-game-cheat-code-is-overdue-for-a-comeback/</guid>
+
+                                    <description>
+                        <![CDATA[Arcane hidden options can offer accessibility without confusing the "core" game experience.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>For gamers of a certain age, gibberish character sequences like <a href="https://www.doomworld.com/pageofdoom/cheat.html">idkfa</a>, <a href="https://www.gamespot.com/games/simcity-2000/cheats/">torg</a>, <a href="https://gamefaqs.gamespot.com/genesis/563332-mortal-kombat/cheats">ABACABB</a>, and <a href="https://konami.fandom.com/wiki/Konami_Code">UUDDLRLRBA</a> are akin to long-lost magical incantations. They evoke an era where game developers frequently and routinely let players use cheat codes to customize their gameplay experience with everything from infinite health and instant level selection to <a href="https://tcrf.net/Help:Contents/Terminology/Debug_Mode">full debug menus</a> or <a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/BigHeadMode">gigantic anime-style giant-headed avatars</a>. There were even <a href="https://arstechnica.com/gaming/2012/07/how-the-new-game-genie-lets-you-hack-your-ps3-saves/">external cheat devices</a> that let players hack console games with cheat codes the developers never intended.</p>
+<p>While the cheat code's heyday is long in the past, the idea of letting players manipulate their gameplay experiences in similar ways is coming back into fashion for some developers. Last month, Square Enix <a href="https://x.com/finalfantasyvii/status/1966521540130009578">announced</a> that upcoming Switch 2 and Xbox ports of <em>Final Fantasy VII Remake Intergrade</em> would include new "streamlined progression" features. As the name implies, the <a href="https://www.reddit.com/r/FFVIIRemake/comments/1nlcmn8/streamlined_progression/">new options menu</a> will give players the opportunity to blaze through the game with infinite health, magic, and money, quicker leveling, maximum damage attacks, and more.</p>
+<img width="1242" height="735" src="https://cdn.arstechnica.net/wp-content/uploads/2025/10/ff7options.jpeg" class="fullwidth full" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2025/10/ff7options.jpeg 1242w, https://cdn.arstechnica.net/wp-content/uploads/2025/10/ff7options-640x379.jpeg 640w, https://cdn.arstechnica.net/wp-content/uploads/2025/10/ff7options-1024x606.jpeg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2025/10/ff7options-768x454.jpeg 768w, https://cdn.arstechnica.net/wp-content/uploads/2025/10/ff7options-980x580.jpeg 980w" sizes="auto, (max-width: 1242px) 100vw, 1242px">
+      "Constant Max HP" is a funny way to spell and pronounce "god mode."
+        Credit:
+          <a href="https://www.reddit.com/r/FFVIIRemake/comments/1nlcmn8/streamlined_progression/" target="_blank">Reddit / Square Enix</a>
+      
+<p>While some responded negatively to what they derisively called a "cheat mode," director Naoki Hamaguchi defended the new options <a href="https://automaton-media.com/en/interviews/final-fantasy-7-remakes-progression-boosts-and-sped-up-cutscenes-can-reduce-playtime-to-under-10-hours-director-hamaguchi-tells-us-why/">in a recent interview with Automaton</a>. "Personally, I like to try many different games just to keep myself up to date, but I don’t really have the time, so I only get so far," he said. "I personally believe that, with digital entertainment today, the player should have the choice in how they interact with content. That’s why I pushed for it."</p><p><a href="https://arstechnica.com/gaming/2025/10/why-the-humble-video-game-cheat-code-is-overdue-for-a-comeback/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2025/10/why-the-humble-video-game-cheat-code-is-overdue-for-a-comeback/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>50</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/codebook-1152x648-1760037548.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/codebook-500x500-1760037560.jpg" width="500"/>
+<media:credit>RetroMags</media:credit><media:text>That's a lot of tips!</media:text></media:content>
+            </item>
+                    <item>
+                <title>YouTube prepares to welcome back banned creators with “second chance” program</title>
+                <link>https://arstechnica.com/gadgets/2025/10/youtube-explains-how-banned-creators-can-get-a-second-chance/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/10/youtube-explains-how-banned-creators-can-get-a-second-chance/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 19:23:48 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[misinformation]]></category>
+		<category><![CDATA[YouTube]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/youtube-explains-how-banned-creators-can-get-a-second-chance/</guid>
+
+                                    <description>
+                        <![CDATA[YouTube will evaluate each request individually, but copyright violators need not apply.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A few weeks ago, Google told US Rep. Jim Jordan (R-Ohio) that it would allow creators banned for COVID and election misinformation to <a href="https://arstechnica.com/gadgets/2025/09/youtube-will-restore-channels-banned-for-covid-and-election-misinformation/">rejoin the platform</a>. It didn't offer many details in the letter, but now YouTube has <a href="https://blog.youtube/inside-youtube/second-chances-on-youtube/">explained the restoration process</a>. YouTube's "second chances" are actually more expansive than the letter made it seem. Going forward, almost anyone banned from YouTube will have an opportunity to request a new channel. The company doesn't guarantee approval, but you can expect to see plenty of banned creators back on Google's video platform in the coming months.</p>
+<p>YouTube will now allow banned creator to request reinstatement, but this is separate from appealing a ban. If a channel is banned, creators continue to have the option of appealing the ban. If successful, their channel comes back as if nothing happened. After one year, creators will now have the "second chance" option.</p>
+<p>"We know many terminated creators deserve a second chance," the blog post reads, noting that YouTube itself doesn't always get things right the first time. The option for getting a new channel will appear in YouTube Studio on the desktop, and Google expects to begin sending out these notices in the coming months. However, anyone terminated for copyright violations is out of luck—Google does not forgive such infringement as easily as it does claiming that COVID is a hoax.</p><p><a href="https://arstechnica.com/gadgets/2025/10/youtube-explains-how-banned-creators-can-get-a-second-chance/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/10/youtube-explains-how-banned-creators-can-get-a-second-chance/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>59</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-646395580-scaled-1152x648-1734018446.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-646395580-scaled-500x500-1734018545.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Apple and Google reluctantly comply with Texas age verification law</title>
+                <link>https://arstechnica.com/tech-policy/2025/10/apple-and-google-reluctantly-comply-with-texas-age-verification-law/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/10/apple-and-google-reluctantly-comply-with-texas-age-verification-law/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 19:09:55 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[App Store]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[texas]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/10/apple-and-google-reluctantly-comply-with-texas-age-verification-law/</guid>
+
+                                    <description>
+                        <![CDATA[Texas requires sensitive info just to check weather and sports scores, Apple says.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Apple yesterday announced a plan to comply with a Texas age verification law and warned that changes required by the law will reduce privacy for app users.</p>
+<p>"Beginning January 1, 2026, a new state law in Texas—SB2420—introduces age assurance requirements for app marketplaces and developers," Apple said yesterday in a <a href="https://developer.apple.com/news/?id=btkirlj8">post for developers</a>. "While we share the goal of strengthening kids' online safety, we are concerned that SB2420 impacts the privacy of users by requiring the collection of sensitive, personally identifiable information to download any app, even if a user simply wants to check the weather or sports scores."</p>
+<p>The <a href="https://legiscan.com/TX/text/SB2420/id/3237346">Texas App Store Accountability Act</a> requires app stores to verify users' ages and imposes restrictions on those under 18. Apple said that developers will have "to adopt new capabilities and modify behavior within their apps to meet their obligations under the law."</p><p><a href="https://arstechnica.com/tech-policy/2025/10/apple-and-google-reluctantly-comply-with-texas-age-verification-law/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/10/apple-and-google-reluctantly-comply-with-texas-age-verification-law/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>56</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/getty-texas-flag-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/getty-texas-flag-500x500.jpg" width="500"/>
+<media:credit>Getty Images | PA Thompson</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Tesla FSD gets worse at driving, NHTSA opens new investigation</title>
+                <link>https://arstechnica.com/cars/2025/10/tesla-fsd-gets-worse-at-driving-nhtsa-opens-new-investigation/</link>
+                                    <comments>https://arstechnica.com/cars/2025/10/tesla-fsd-gets-worse-at-driving-nhtsa-opens-new-investigation/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 18:39:14 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[nhtsa]]></category>
+		<category><![CDATA[Tesla investigation]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2025/10/tesla-fsd-gets-worse-at-driving-nhtsa-opens-new-investigation/</guid>
+
+                                    <description>
+                        <![CDATA[FSD has been crossing into oncoming traffic and ignoring red lights.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Last week was a good one for Tesla, as it <a href="https://arstechnica.com/cars/2025/10/tesla-reverses-sales-decline-in-q3-sells-50k-more-cars-than-it-built/">beat analysts' estimates</a> for the number of cars it could sell in the third quarter of the year. This week is probably a less good week for Tesla, since the National Highway Traffic Safety Administration's Office of Defects Investigation has opened yet another preliminary probe into the automaker—the third this year alone.</p>
+<p>2025 hadn't been going long before NHTSA announced an <a href="https://www.nhtsa.gov/recalls?nhtsaId=PE24033">investigation</a> following <a href="https://arstechnica.com/cars/2025/01/teslas-remote-parking-under-federal-scrutiny-after-multiple-crashes/">multiple crashes</a> involving Tesla's remote parking features. And <a href="https://arstechnica.com/cars/2025/09/tesla-model-y-door-handles-now-under-federal-safety-scrutiny/">last month</a>, the agency started a <a href="https://www.nhtsa.gov/recalls?nhtsaId=PE25010">second</a>, concerning multiple deaths after the company's signature retractable door handles became inoperative after a crash.</p>
+<p>Now it's the controversially named "Full Self-Driving" feature in the crosshairs, after dozens of reports of Teslas breaking traffic laws while using this partially automated driving assist.</p><p><a href="https://arstechnica.com/cars/2025/10/tesla-fsd-gets-worse-at-driving-nhtsa-opens-new-investigation/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/10/tesla-fsd-gets-worse-at-driving-nhtsa-opens-new-investigation/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>58</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1155839798-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1155839798-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Discord says hackers stole government IDs of 70,000 users</title>
+                <link>https://arstechnica.com/security/2025/10/discord-says-hackers-stole-government-ids-of-70000-users/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/discord-says-hackers-stole-government-ids-of-70000-users/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 18:24:13 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[age verification]]></category>
+		<category><![CDATA[discord]]></category>
+		<category><![CDATA[id]]></category>
+		<category><![CDATA[privacy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/discord-says-hackers-stole-government-ids-of-70000-users/</guid>
+
+                                    <description>
+                        <![CDATA[As more sites require IDs for user age verification, expect more such breaches to come.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Discord says that hackers made off with images of 70,000 users’ government IDs that they were required to provide in order to use the site.</p>
+<p>Like an increasing number of sites, Discord requires certain users to provide a photo or scan of their driver's license or other government ID that shows they meet the minimum age requirements in their country. In some cases, Discord allows users to prove their age by providing a selfie that shows their faces (it’s not clear how a face proves someone’s age, but there you go). The social media site imposes these requirements on users who are reported by other users to be under the minimum age for the country they’re connecting from.</p>
+<h2>“A substantial risk for identity theft”</h2>
+<p>On Wednesday, Discord <a href="https://discord.com/press-releases/update-on-security-incident-involving-third-party-customer-service">said</a> that ID images of roughly 70,000 users “may have had government-ID photos exposed” in a recent breach of a third-party service Discord entrusted to manage the data. The affected users had communicated with Discord’s Customer Support or Trust &amp; Safety teams and subsequently submitted the IDs in reviews of age-related appeals.</p><p><a href="https://arstechnica.com/security/2025/10/discord-says-hackers-stole-government-ids-of-70000-users/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/discord-says-hackers-stole-government-ids-of-70000-users/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>51</slash:comments>
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Rubik’s Cube gets a $299 update, complete with IPS screens and its own apps</title>
+                <link>https://arstechnica.com/culture/2025/10/rubiks-cube-reimagined-as-a-multi-game-multi-screened-gadget-for-299/</link>
+                                    <comments>https://arstechnica.com/culture/2025/10/rubiks-cube-reimagined-as-a-multi-game-multi-screened-gadget-for-299/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 18:10:18 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[puzzles]]></category>
+		<category><![CDATA[Rubik's Cube]]></category>
+		<category><![CDATA[Toys]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2025/10/rubiks-cube-reimagined-as-a-multi-game-multi-screened-gadget-for-299/</guid>
+
+                                    <description>
+                        <![CDATA[The Rubik's WOWCube is a 2×2 cube with modern twists. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Rubik’s Cube has been reinvented with more games and many more screens for much more money.</p>
+<p>What has long been cherished as a simple toy yet complex puzzle requiring nothing but a healthy amount of twisting, turning, and patience has been rebooted for the 21st century. Naturally, that calls for a few dashes of technology.</p>
+<p>Differing from the original Rubik’s Cube, which has six faces that each contain a 3×3 grid, the Rubik’s WOWCube, made available for preorder today, as spotted by<a href="https://www.theverge.com/news/797601/spin-master-rubiks-cube-wowcube-puzzle-app-store-mobile-games"> The Verge</a>, has six faces with 2×2 grids.</p><p><a href="https://arstechnica.com/culture/2025/10/rubiks-cube-reimagined-as-a-multi-game-multi-screened-gadget-for-299/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2025/10/rubiks-cube-reimagined-as-a-multi-game-multi-screened-gadget-for-299/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>33</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/IMG_5476-1152x648-1760030724.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/IMG_5476-500x500.jpg" width="500"/>
+<media:credit>Cubios</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Musk’s X posts on ketamine, Putin spur release of his security clearances</title>
+                <link>https://arstechnica.com/tech-policy/2025/10/musks-x-posts-on-ketamine-putin-spur-release-of-his-security-clearances/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/10/musks-x-posts-on-ketamine-putin-spur-release-of-his-security-clearances/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 16:12:00 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[department of government efficiency]]></category>
+		<category><![CDATA[doge]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[starlink]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<category><![CDATA[vladimir putin]]></category>
+		<category><![CDATA[X]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/10/musks-x-posts-on-ketamine-putin-spur-release-of-his-security-clearances/</guid>
+
+                                    <description>
+                        <![CDATA[Conditions of Elon Musk’s top-secret clearances may soon be exposed.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Elon Musk's social media posts helped The New York Times win its fight to secure a list detailing the billionaire's top-secret security clearances after a US agency tried to block the disclosures by claiming that Musk had a right to privacy.</p>
+<p>In an <a href="https://cdn.arstechnica.net/wp-content/uploads/2025/10/NYT-v-US-Defense-Counterintelligence-and-Security-Agency-Opinion-10-8-25.pdf">opinion</a> issued Wednesday, US District Judge Denise Cote said that in publicly discussing his security clearances on X—as well as his drug use and foreign contacts—Musk tipped the balance so that the public's substantial interest in the list the NYT sought clearly outweighed "any privacy interest" Musk may have.</p>
+<p>"To the extent Musk has a privacy interest in the fact that he holds a security clearance, he has waived it," Cote wrote. Meanwhile, "the public has an interest in knowing whether the leader of SpaceX and Starlink holds the appropriate security clearances," as those companies "continue to provide the federal government with critical national security services and handle sensitive government information."</p><p><a href="https://arstechnica.com/tech-policy/2025/10/musks-x-posts-on-ketamine-putin-spur-release-of-his-security-clearances/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/10/musks-x-posts-on-ketamine-putin-spur-release-of-his-security-clearances/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>118</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2217198061-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2217198061-500x500.jpg" width="500"/>
+<media:credit>The Washington Post / Contributor | The Washington Post</media:credit></media:content>
+            </item>
+                    <item>
+                <title>We’re about to find many more interstellar interlopers—here’s how to visit one</title>
+                <link>https://arstechnica.com/features/2025/10/were-about-to-find-many-more-interstellar-interlopers-heres-how-to-visit-one/</link>
+                                    <comments>https://arstechnica.com/features/2025/10/were-about-to-find-many-more-interstellar-interlopers-heres-how-to-visit-one/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 14:14:25 +0000</pubDate>
+                		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[alan stern]]></category>
+		<category><![CDATA[comet]]></category>
+		<category><![CDATA[comet interceptor]]></category>
+		<category><![CDATA[european space agency]]></category>
+		<category><![CDATA[interstellar object]]></category>
+		<category><![CDATA[juno]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[swri]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/features/2025/10/were-about-to-find-many-more-interstellar-interlopers-heres-how-to-visit-one/</guid>
+
+                                    <description>
+                        <![CDATA["You don't have to claim that they're aliens to make these exciting."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A few days ago, an inscrutable interstellar interloper made its closest approach to Mars, where a fleet of international spacecraft seek to unravel the red planet's ancient mysteries.</p>
+<p>Several of the probes encircling Mars took a break from their usual activities and turned their cameras toward space to catch a glimpse of an object named 3I/ATLAS, a rogue comet that arrived in our Solar System from interstellar space and is now barreling toward perihelion—its closest approach to the Sun—at the end of this month.</p>
+<p>This is the third interstellar object astronomers have detected within our Solar System, following <a href="https://arstechnica.com/science/2023/03/theres-a-simpler-answer-to-oumuamuas-weird-orbit-outgassing-hydrogen/">1I/ʻOumuamua</a> and <a href="https://arstechnica.com/science/2019/10/comet-from-another-solar-system-looks-a-lot-like-our-own/">2I/Borisov</a> discovered in 2017 and 2019. Scientists think interstellar objects routinely transit among the planets, but telescopes have only recently had the ability to find one. For example, the telescope that discovered Oumuamua only came online in 2010.</p><p><a href="https://arstechnica.com/features/2025/10/were-about-to-find-many-more-interstellar-interlopers-heres-how-to-visit-one/">Read full article</a></p>
+<p><a href="https://arstechnica.com/features/2025/10/were-about-to-find-many-more-interstellar-interlopers-heres-how-to-visit-one/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>31</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/STScI-01K1X6XDR76ZD4FYJ9VTWN1ERB-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/STScI-01K1X6XDR76ZD4FYJ9VTWN1ERB-500x500.jpg" width="500"/>
+<media:credit>NASA, ESA, David Jewitt (UCLA); Image Processing: Joseph DePasquale (STScI)</media:credit><media:text>The Hubble Space Telescope captured this image of the interstellar comet 3I/ATLAS on July 21, when the comet was 277 million miles from Earth. Hubble shows that the comet has a teardrop-shaped cocoon of dust coming off its solid, icy nucleus.</media:text></media:content>
+            </item>
+                    <item>
+                <title>How Easter Island’s giant statues “walked” to their final platforms</title>
+                <link>https://arstechnica.com/science/2025/10/how-easter-islands-giant-statues-walked-to-their-final-platforms/</link>
+                                    <comments>https://arstechnica.com/science/2025/10/how-easter-islands-giant-statues-walked-to-their-final-platforms/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 14:00:58 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[anthropology]]></category>
+		<category><![CDATA[Archaeology]]></category>
+		<category><![CDATA[easter island]]></category>
+		<category><![CDATA[experimental archaeology]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[rapa nui]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/10/how-easter-islands-giant-statues-walked-to-their-final-platforms/</guid>
+
+                                    <description>
+                        <![CDATA[Workers with ropes could make the moai "walk" in zig-zag motion along roads tailor-made for the purpose.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/z6wvgrMn8Ow?start=0&amp;wmode=transparent"></div></div>
+<p>Easter Island is famous for its giant monumental statues, called <em>moai</em>, built some 800 years ago and typically mounted on platforms called <em>ahu</em>. Scholars have puzzled over the moai on <a href="https://en.wikipedia.org/wiki/Easter_Island">Easter Island</a> for decades, pondering their cultural significance, as well as how a Stone Age culture managed to carve <a href="https://news.nationalgeographic.com/news/2012/06/120622-easter-island-statues-moved-hunt-lipo-science-rocked/">and transport statues </a>weighing as much as 92 tons. One hypothesis, championed by archaeologist Carl Lipo of Binghamton University, among others, is that the statues were transported in a vertical position, with workers using ropes to essentially "walk" the moai onto their platforms.</p>
+<p>The oral traditions of the people of Rapa Nui certainly include references to the moai "walking" from the quarry to their platforms, such as a song that tells of an early ancestor who made the statues walk. While there have been rudimentary field tests showing it might have been possible, the hypothesis has also generated a fair amount of criticism. So Lipo has co-authored a <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305440325002328?dgcid=author">new paper</a> published in the Journal of Archaeological Science offering fresh experimental evidence of "walking" moai, based on 3D modeling of the physics and new field tests to recreate that motion.</p>
+<p>The first Europeans arrived in the 17th century and found only a few thousand inhabitants on the tiny island (just 14 by 7 miles across) thousands of miles away from any other land. In order to explain the presence of so many moai, the assumption has been that the island was once home to tens of thousands of people<em>. </em>But Lipo thought perhaps the feat could be accomplished with fewer workers. In 2012, Lipo and his colleague, Terry Hunt of the University of Arizona, <a href="https://news.nationalgeographic.com/news/2012/06/120622-easter-island-statues-moved-hunt-lipo-science-rocked/">showed that</a> you <a href="https://www.sciencedirect.com/science/article/pii/S0305440312004311?via%3Dihub">could transport</a> a 10-foot, 5-ton moai a few hundred yards with <a href="https://www.nature.com/news/easter-island-statues-walked-out-of-quarry-1.11613" rel="nofollow" data-ml-dynamic="true" data-ml-dynamic-type="sl" data-orig-url="https://www.nature.com/news/easter-island-statues-walked-out-of-quarry-1.11613" data-ml-id="0" data-ml="true" data-xid="fr1759946359083dij" data-skimlinks-tracking="xid:fr1759946359083dij">just 18 people</a> and three strong ropes by employing a rocking motion<em>.</em></p><p><a href="https://arstechnica.com/science/2025/10/how-easter-islands-giant-statues-walked-to-their-final-platforms/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/10/how-easter-islands-giant-statues-walked-to-their-final-platforms/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>62</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/easter5-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/easter5-500x500-1759926981.jpg" width="500"/>
+<media:credit>Carl Lipo</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Tax credits for electric cars are no more. What’s next for the US EV industry?</title>
+                <link>https://arstechnica.com/cars/2025/10/tax-credits-for-electric-cars-are-no-more-whats-next-for-the-us-ev-industry/</link>
+                                    <comments>https://arstechnica.com/cars/2025/10/tax-credits-for-electric-cars-are-no-more-whats-next-for-the-us-ev-industry/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Gearino, Inside Climate News]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 13:18:57 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[bevs]]></category>
+		<category><![CDATA[EV]]></category>
+		<category><![CDATA[EV tax credit]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2025/10/tax-credits-for-electric-cars-are-no-more-whats-next-for-the-us-ev-industry/</guid>
+
+                                    <description>
+                        <![CDATA[Dozens of new models are in the pipeline.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The end of US tax credits for buying electric vehicles has changed the market in ways that are still unfolding.</p>
+<p>I spoke this week with people closely monitoring the auto industry to get a sense of what’s next. They said the loss of federal incentives is likely to dampen shoppers’ enthusiasm, but the upcoming arrival of several dozen new or redesigned models could help fuel a comeback.</p>
+<p>“I think the dust needs to settle for everyone to figure out what’s going to happen near term,” said Stephanie Valdez Streaty, director of industry insights for Cox Automotive.</p><p><a href="https://arstechnica.com/cars/2025/10/tax-credits-for-electric-cars-are-no-more-whats-next-for-the-us-ev-industry/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/10/tax-credits-for-electric-cars-are-no-more-whats-next-for-the-us-ev-industry/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>116</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/07/2023-Rivian-R1S-2-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/07/2023-Rivian-R1S-2-500x500.jpg" width="500"/>
+<media:credit>Jonathan Gitlin</media:credit><media:text>It's hard to avoid seeing a face here. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Intel’s next-generation Panther Lake laptop chips could be a return to form</title>
+                <link>https://arstechnica.com/gadgets/2025/10/intels-next-generation-panther-lake-laptop-chips-could-be-a-return-to-form/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/10/intels-next-generation-panther-lake-laptop-chips-could-be-a-return-to-form/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 13:00:51 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[AMD]]></category>
+		<category><![CDATA[core ultra]]></category>
+		<category><![CDATA[CPUs]]></category>
+		<category><![CDATA[Intel]]></category>
+		<category><![CDATA[intel core ultra]]></category>
+		<category><![CDATA[panther lake]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/intels-next-generation-panther-lake-laptop-chips-could-be-a-return-to-form/</guid>
+
+                                    <description>
+                        <![CDATA[New laptop CPUs replace confusing bifurcated Lunar Lake and Arrow Lake lineups.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>They say there's no such thing as bad publicity, but the press that Intel has generated in the last year has certainly been testing the boundaries of the aphorism.</p>
+<p>Is it good when your company <a href="https://www.intc.com/news-events/press-releases/detail/1726/intel-reports-fourth-quarter-and-full-year-2024-financial">posts an annual loss</a> for the first time in almost 40 years? When you're doing <a href="https://www.nytimes.com/2024/08/01/technology/intel-layoffs-quarterly-report.html">multiple rounds</a> of <a href="https://www.nytimes.com/2025/07/24/technology/intel-layoffs-25000.html">mass layoffs</a>? When your board <a href="https://arstechnica.com/gadgets/2024/12/intel-ceo-pat-gelsinger-steps-down-after-terrible-no-good-very-bad-year/">pushes your CEO into leaving</a>, and starts <a href="https://www.wsj.com/tech/intel-ceo-lip-bu-tan-trump-board-9cc08631">arguing with the new CEO</a> about major strategy decisions almost immediately? When you're either <a href="https://www.wsj.com/tech/intel-microchip-competitors-challenges-562a42e3">losing or failing to gain</a> market share in areas critical to your bottom line? When you need to <a href="https://arstechnica.com/tech-policy/2025/08/president-trump-says-intels-new-ceo-must-resign-immediately/">explain to the president</a> why your CEO should keep his job, and then <a href="https://arstechnica.com/tech-policy/2025/08/intel-details-everything-that-could-go-wrong-with-us-taking-a-10-stake/">explain to investors</a> the many possible downsides of a mercurial president deciding he wants a stake in your company?</p>
+<p>I feel like the answer to these questions is "mostly no." Even Intel's recent <a href="https://arstechnica.com/gadgets/2025/09/nvidia-will-invest-5-billion-in-intel-co-develop-new-server-and-pc-chips/">investment from and partnership with Nvidia</a> came with a tacit admission that Intel was mostly failing to make a dent in AI hardware and <a href="https://en.wikipedia.org/wiki/OneAPI_(compute_acceleration)">software</a> and the <a href="https://arstechnica.com/gadgets/2024/12/review-intel-arc-b580-is-a-compelling-if-incredibly-tardy-250-midrange-gpu/">gaming</a> and workstation GPU markets. (Reports that Intel <a href="https://www.semafor.com/article/10/01/2025/intel-amd-foundry-customer-deal">could start manufacturing chips for AMD</a> <em>would</em> be good news, as bizarre as that arrangement would have been at any other point in the two companies' history with one another, but those talks could still fall apart.)</p><p><a href="https://arstechnica.com/gadgets/2025/10/intels-next-generation-panther-lake-laptop-chips-could-be-a-return-to-form/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/10/intels-next-generation-panther-lake-laptop-chips-could-be-a-return-to-form/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>65</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Client-Strategic-Overview-13-2-1152x648-1759990634.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Client-Strategic-Overview-13-2-500x500-1759990587.jpeg" width="500"/>
+<media:credit>Intel</media:credit><media:text>Intel's three Panther Lake chips are constructed out of similar parts.</media:text></media:content>
+            </item>
+                    <item>
                 <title>Everything we know about Ferrari’s first electric vehicle</title>
                 <link>https://arstechnica.com/cars/2025/10/everything-we-know-about-ferraris-first-electric-vehicle/</link>
                                     <comments>https://arstechnica.com/cars/2025/10/everything-we-know-about-ferraris-first-electric-vehicle/#comments</comments>
@@ -44,7 +560,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>24</slash:comments>
+                                    <slash:comments>73</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/H5A9253-1152x648.jpg" width="1152">
@@ -83,7 +599,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>26</slash:comments>
+                                    <slash:comments>33</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/osiris-apex-1152x648-1759966361.jpg" width="1152">
@@ -117,7 +633,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>38</slash:comments>
+                                    <slash:comments>68</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/zenith2-1152x648.jpg" width="1152">
@@ -147,7 +663,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>68</slash:comments>
+                                    <slash:comments>104</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-116781911-1152x648.jpg" width="1152">
@@ -197,7 +713,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>112</slash:comments>
+                                    <slash:comments>153</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/bank_of_england-1152x648.jpg" width="1152">
@@ -229,723 +745,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>103</slash:comments>
+                                    <slash:comments>140</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/brendan-carr-1152x648-1756320188.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/brendan-carr-500x500-1756320196.jpg" width="500"/>
 <media:credit>Getty Images | John McDonnell </media:credit><media:text>FCC Chairman Brendan Carr prepares to testify before the House Appropriations Subcommittee on Financial Services and General Government on May 21, 2025 in Washington, DC. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Not a game: Cards Against Humanity avoids tariffs by ditching rules, adding explanations</title>
-                <link>https://arstechnica.com/culture/2025/10/to-avoid-tariffs-cards-against-humanity-becomes-information-material-not-a-game/</link>
-                                    <comments>https://arstechnica.com/culture/2025/10/to-avoid-tariffs-cards-against-humanity-becomes-information-material-not-a-game/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Nate Anderson]]>
-                </dc:creator>
-                <pubDate>Wed, 08 Oct 2025 20:51:22 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[cards against humanity]]></category>
-		<category><![CDATA[jokes]]></category>
-		<category><![CDATA[tariffs]]></category>
-		<category><![CDATA[Trump]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2025/10/to-avoid-tariffs-cards-against-humanity-becomes-information-material-not-a-game/</guid>
-
-                                    <description>
-                        <![CDATA[You absolutely, definitely cannot play it.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p><em>Cards Against Humanity</em>, the often-vulgar card game, has launched a limited edition of its namesake product without any instructions and with a detailed explanation of each joke, "why it’s funny, and any relevant social, political, or historical context."</p>
-<p>Why? Because, produced in this form, "Cards Against Humanity Explains the Joke" is not a game at all, which would be subject to tariffs as the cards are produced overseas. Instead, the product is "information material" and thus not sanctionable under the law Trump has been using—and CAH says it has obtained a ruling to this effect from Customs and Border Patrol.</p>
-<p>"What if DHS Secretary and Dog Murderer Kristi Noem gets mad and decides that Cards Against Humanity Explains the Joke is not informational material?" the company asks in an FAQ about the new edition. (If you don't follow US politics, Noem <a href="https://www.politico.com/news/2024/05/02/kristi-noem-dog-cricket-00155700">really did kill her dog Cricket</a>.) Answer: "She can fuck right off, because we got a binding ruling from Trump’s own government that confirms this product is informational and 100% exempt from his stupid tariffs."</p><p><a href="https://arstechnica.com/culture/2025/10/to-avoid-tariffs-cards-against-humanity-becomes-information-material-not-a-game/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2025/10/to-avoid-tariffs-cards-against-humanity-becomes-information-material-not-a-game/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>63</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/explain-the-joke-1152x648-1759955604.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/explain-the-joke-500x500-1759955582.jpg" width="500"/>
-<media:text>Screenshot</media:text></media:content>
-            </item>
-                    <item>
-                <title>Salesforce says it won’t pay extortion demand in 1 billion records breach</title>
-                <link>https://arstechnica.com/security/2025/10/salesforce-says-it-wont-pay-extortion-demand-in-1-billion-records-breach/</link>
-                                    <comments>https://arstechnica.com/security/2025/10/salesforce-says-it-wont-pay-extortion-demand-in-1-billion-records-breach/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Wed, 08 Oct 2025 20:02:46 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Data breaches]]></category>
-		<category><![CDATA[extortion]]></category>
-		<category><![CDATA[ransomware]]></category>
-		<category><![CDATA[Salesforce]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/salesforce-says-it-wont-pay-extortion-demand-in-1-billion-records-breach/</guid>
-
-                                    <description>
-                        <![CDATA[Scattered LAPSUS$ Hunters gave Salesforce until Friday to pay or else.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Salesforce says it’s refusing to pay an extortion demand made by a crime syndicate that claims to have stolen roughly 1 billion records from dozens of Salesforce customers.</p>
-<p>The threat group making the demands began their campaign in May, when they made voice calls to organizations storing data on the Salesforce platform, Google-owned Mandiant <a href="https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion">said</a> in June. The English-speaking callers would provide a pretense that necessitated the target connect an attacker-controlled app to their Salesforce portal. Amazingly—but not surprisingly—many of the people who received the calls complied.</p>
-<h2>It’s becoming a real mess</h2>
-<p>The threat group behind the campaign is calling itself Scattered LAPSUS$ Hunters, a mashup of three prolific data-extortion actors: Scattered Spider, LAPSuS$, and ShinyHunters. Mandiant, meanwhile, tracks the group as UNC6040, because the researchers so far have been unable to positively identify the connections.</p><p><a href="https://arstechnica.com/security/2025/10/salesforce-says-it-wont-pay-extortion-demand-in-1-billion-records-breach/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2025/10/salesforce-says-it-wont-pay-extortion-demand-in-1-billion-records-breach/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>45</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/07/GettyImages-597257986-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2019/07/GettyImages-597257986-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Logitech will brick its $100 Pop smart home buttons on October 15</title>
-                <link>https://arstechnica.com/gadgets/2025/10/logitech-will-brick-its-100-pop-smart-home-buttons-on-october-15/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/10/logitech-will-brick-its-100-pop-smart-home-buttons-on-october-15/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Wed, 08 Oct 2025 17:47:39 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Logitech]]></category>
-		<category><![CDATA[smart home]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/logitech-will-brick-its-100-pop-smart-home-buttons-on-october-15/</guid>
-
-                                    <description>
-                        <![CDATA[Logitech's interest in the smart home has appeared to wane in recent years. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>In another loss for early smart home adopters, Logitech has announced that it will brick all Pop switches on October 15.</p>
-<p>In August of 2016, Logitech launched Pop switches, which provide quick access to a range of smart home actions, including third-party gadgets. For example, people could set their Pop buttons to launch <a href="https://arstechnica.com/gadgets/2025/09/philips-hue-update-includes-a-new-hub-light-strips-and-finally-budget-bulbs/">Philips Hue</a> or <a href="https://arstechnica.com/gadgets/2022/06/insteon-smart-homes-resurrected-as-abruptly-as-they-were-bricked/">Insteon lighting</a> presets, play a playlist from their Sonos speaker, or control Lutron smart blinds. Each button could store three actions, worked by identifying smart home devices on a shared Wi-Fi network, and was controllable via a dedicated Android or iOS app. The Pop Home Switch Starter Pack launched at $100, and individual Pop Add-on Home Switches debuted at $40 each.</p>
-<p>A company spokesperson told Ars Technica that Logitech informed customers on September 29 that their Pop switches would soon become e-waste. According to <a href="https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Flogitech-pop-smart-buttons-end-of-life-as-of-october-15th-v0-7wbm9pl3yrsf1.jpg%3Fwidth%3D2020%26format%3Dpjpg%26auto%3Dwebp%26s%3D49ba5b24e8bcc9980a4e141f404814bf8299a1cc">copies</a> of the email shared via <a href="https://www.reddit.com/r/logitech/comments/1nu2u7g/logitech_pop_buttons_ejunk_in_2_weeks/">Reddit</a>, Logitech’s notice said:</p><p><a href="https://arstechnica.com/gadgets/2025/10/logitech-will-brick-its-100-pop-smart-home-buttons-on-october-15/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/10/logitech-will-brick-its-100-pop-smart-home-buttons-on-october-15/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>102</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/JPG_300_dpi_RGB-Pop_Family-1152x648-1759943765.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/JPG_300_dpi_RGB-Pop_Family-500x500-1759943721.jpg" width="500"/>
-<media:credit>Logitech</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Google Pixel 10 Pro Fold review: The ultimate Google phone</title>
-                <link>https://arstechnica.com/gadgets/2025/10/google-pixel-10-pro-fold-review-the-ultimate-google-phone/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/10/google-pixel-10-pro-fold-review-the-ultimate-google-phone/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Wed, 08 Oct 2025 17:00:11 +0000</pubDate>
-                		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Reviews]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[android]]></category>
-		<category><![CDATA[Foldables]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[smartphones]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/google-pixel-10-pro-fold-review-the-ultimate-google-phone/</guid>
-
-                                    <description>
-                        <![CDATA[Google delivers another phone that is slightly better than its predecessor—is that enough?]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>When the first foldable phones came along, they seemed like a cool evolution of the traditional smartphone form factor and, if they got smaller and cheaper, like something people might <em>actually</em> want. After more than five years of foldable phones, we can probably give up on the latter. Google's new Pixel 10 Pro Fold retains the $1,800 price tag of last year's model, and while it's improved in several key ways, spending almost two grand on any phone remains hard to justify.</p>
-<p>For those whose phones are a primary computing device or who simply love gadgets, the Pixel 10 Pro Fold is still appealing. It offers the same refined Android experience as the rest of the <a href="https://arstechnica.com/gadgets/2025/08/google-pixel-10-series-review-dont-call-it-an-android/">Pixel 10 lineup</a>, with much more screen real estate on which to enjoy it. Google also improved the hinge for better durability, shaved off some bezel, and boosted both charging speed and battery capacity. However, the form factor hasn't taken the same <a href="https://arstechnica.com/gadgets/2025/07/samsung-galaxy-z-fold-7-review-the-foldable-we-deserve-but-not-the-one-we-can-afford/">quantum leap</a> as Samsung's latest foldable.</p>
-<h2>An iterative (but good) design</h2>
-<p>The Pixel 10 Pro Fold doesn't reinvent the wheel—it looks and feels almost exactly like last year's foldable, with a few minor tweaks centered around a new "gearless" hinge. Dropping the internal gears allegedly helps make the mechanism twice as durable. Google claims the Pixel 10 Pro Fold's hinge will last for more than 10 years of folding and unfolding.</p><p><a href="https://arstechnica.com/gadgets/2025/10/google-pixel-10-pro-fold-review-the-ultimate-google-phone/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/10/google-pixel-10-pro-fold-review-the-ultimate-google-phone/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>57</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Pixel-10-Pro-Fold-10-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Pixel-10-Pro-Fold-10-500x500.jpg" width="500"/>
-<media:credit>Ryan Whitwam</media:credit><media:text>The Pixel 10 Pro Fold is a sleek piece of hardware.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Synology caves, walks back some drive restrictions on upcoming NAS models</title>
-                <link>https://arstechnica.com/gadgets/2025/10/synology-caves-walks-back-some-drive-restrictions-on-upcoming-nas-models/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/10/synology-caves-walks-back-some-drive-restrictions-on-upcoming-nas-models/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Lee Hutchinson]]>
-                </dc:creator>
-                <pubDate>Wed, 08 Oct 2025 16:49:27 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[dsm]]></category>
-		<category><![CDATA[Enterprise Storage]]></category>
-		<category><![CDATA[hard disk drive]]></category>
-		<category><![CDATA[hard drive]]></category>
-		<category><![CDATA[hdd]]></category>
-		<category><![CDATA[NAS]]></category>
-		<category><![CDATA[network attached storage]]></category>
-		<category><![CDATA[Storage]]></category>
-		<category><![CDATA[Synology]]></category>
-		<category><![CDATA[synology dsm]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/synology-caves-walks-back-some-drive-restrictions-on-upcoming-nas-models/</guid>
-
-                                    <description>
-                        <![CDATA[Policy change affects at least 2025 model Plus, Value, and J-series DiskStations.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>If you were considering the purchase of a Synology NAS but were leery of the unreasonably high cost of populating it with special Synology-branded hard disk drives, you can breathe a little easier today. In <a href="https://www.synology.com/en-us/company/news/article/dsm73/Synology%C2%AE%20Releases%20DiskStation%20Manager%207.3%2C%20Bringing%20Efficient%20Data%20Tiering%2C%20Enhanced%20Security%2C%20and%20AI-Powered%20Collaboration">a press release dated October 8</a>, Synology noted that with the release of its latest Disk Station Manager (DSM) update, some of its 2025 model-year products—specifically, the Plus, Value, and J-series DiskStation NAS devices—would "support the installation and storage pool creation of non-validated third-party drives."</p>
-<p>This unexpected move comes just a few months after Synology <a href="https://arstechnica.com/gadgets/2025/04/synology-confirms-need-for-synology-branded-drives-in-newer-plus-series-nas/">aggressively expanded its "verified drive" policy down-market</a> to the entire Plus line of DiskStations. Prior to today, the network-attached storage vendor had shown no signs of swerving from the decision, painting it as a pro-consumer move intended to enhance reliability. "Extensive internal testing has shown that drives that follow a rigorous validation process when paired with Synology systems are at less risk of drive failure and ongoing compatibility issues," Synology previously claimed in an email to Ars.</p>
-<h2>What is a “verified” or “validated” drive?</h2>
-<p>Synology first released its own brand of hard disk drives <a href="https://www.blackvoid.club/synology-hdd-compatibility-policy-explained/">back in 2021</a> and began requiring their use in a small but soon-to-increase number of its higher-end NAS products. Although the drives were rebadged offerings from other manufacturers—there are very few hard disk drive OEMs, and Synology isn't one of them—the company claimed that its branded disks <a href="https://www.synology.com/en-us/products/drives/hdd/enterprise-hat">underwent significant additional validation and testing</a> that, when coupled with customized firmware, yielded reliability and performance improvements over off-the-shelf components.</p><p><a href="https://arstechnica.com/gadgets/2025/10/synology-caves-walks-back-some-drive-restrictions-on-upcoming-nas-models/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/10/synology-caves-walks-back-some-drive-restrictions-on-upcoming-nas-models/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>125</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2213358286-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2213358286-500x500.jpg" width="500"/>
-<media:credit>SOPA Images / Getty</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Vandals deface ads for AI necklaces that listen to all your conversations</title>
-                <link>https://arstechnica.com/tech-policy/2025/10/vandals-deface-ads-for-ai-necklaces-that-listen-to-all-your-conversations/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/10/vandals-deface-ads-for-ai-necklaces-that-listen-to-all-your-conversations/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Wed, 08 Oct 2025 16:07:29 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[ai companions]]></category>
-		<category><![CDATA[ai friends]]></category>
-		<category><![CDATA[ai wearables]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[chatbots]]></category>
-		<category><![CDATA[companion bots]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/10/vandals-deface-ads-for-ai-necklaces-that-listen-to-all-your-conversations/</guid>
-
-                                    <description>
-                        <![CDATA[Critics attacked subway ads to defend human friends and broadly criticize AI.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>"AI doesn't care," a vandal scrawled on a New York subway ad promoting a wearable AI pendant called Friend, which was designed to monitor a user's everyday conversations and serve as a companion "who listens, responds, and supports you."</p>
-<p>"Human connection is sacred," the vandal wrote, emphasizing, "AI is <em>not </em>your friend."</p>
-<p>This act of vandalism is now part of a <a href="https://nyc-friends.vercel.app/">huge online archive</a> collecting defaced ads that the Friend campaign inspired, as many New Yorkers responded with vitriol to marketing claims that the AI "friend" would never "bail on dinner" or abandon you to ride the subway alone.</p><p><a href="https://arstechnica.com/tech-policy/2025/10/vandals-deface-ads-for-ai-necklaces-that-listen-to-all-your-conversations/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/10/vandals-deface-ads-for-ai-necklaces-that-listen-to-all-your-conversations/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>83</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2182000985-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2182000985-500x500.jpg" width="500"/>
-<media:credit>Gerald Zaffuts | iStock Editorial / Getty Images Plus</media:credit><media:text>A New York City subway ad takeover promoting an AI friend necklace sparked widespread vandalism.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Chemistry Nobel prize awarded for building ordered polymers with metal</title>
-                <link>https://arstechnica.com/science/2025/10/building-ordered-polymers-with-metal/</link>
-                                    <comments>https://arstechnica.com/science/2025/10/building-ordered-polymers-with-metal/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[John Timmer]]>
-                </dc:creator>
-                <pubDate>Wed, 08 Oct 2025 15:53:15 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[chemistry]]></category>
-		<category><![CDATA[chemistry Nobel]]></category>
-		<category><![CDATA[metal organic framework]]></category>
-		<category><![CDATA[nobel prizes]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/10/building-ordered-polymers-with-metal/</guid>
-
-                                    <description>
-                        <![CDATA[Three researchers share prize for structured polymers called metal-organic frameworks.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The polymers around us are basically a disordered mess, with long chains of atoms tangled around each other. But starting around 1990, chemists began developing techniques that allow us to build polymers with precisely defined structures. These polymers, called metal-organic frameworks (MOFs), have distinct chemical properties: large pores that can be used to filter or store gases, catalytic centers within the polymer, and more.</p>
-<p>On Wednesday, the Nobel Prize Committee honored three researchers for their role in developing MOFs: Richard Robson for demonstrating the first MOF, and Susumu Kitagawa and Omar Yaghi for developing them to their full potential.</p>
-<h2>Building a structure</h2>
-<p>Most polymers are built from individual molecules that are linked together by flexible bonds, allowing the molecules to flop around. As a result, in their final form as something like a plastic bag or a bike tire, the polymers are a complicated tangle, with molecules wrapped around each other in no particular order. We can still control some aspects of the resulting polymer by manipulating its bulk properties or changing the molecules it's built from, but there's not a lot of chemistry we can do beyond that.</p><p><a href="https://arstechnica.com/science/2025/10/building-ordered-polymers-with-metal/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/10/building-ordered-polymers-with-metal/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>46</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/image-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/image-500x500-1759936906.jpeg" width="500"/>
-<media:credit>Nobel Prize Foundation</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Actually, we are going to tell you the odds of recovering New Glenn’s second launch</title>
-                <link>https://arstechnica.com/space/2025/10/the-second-new-glenn-rolls-to-the-launch-pad-and-they-expect-to-recover-this-one/</link>
-                                    <comments>https://arstechnica.com/space/2025/10/the-second-new-glenn-rolls-to-the-launch-pad-and-they-expect-to-recover-this-one/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Wed, 08 Oct 2025 15:35:57 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[blue origin]]></category>
-		<category><![CDATA[new glenn]]></category>
-		<category><![CDATA[space]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2025/10/the-second-new-glenn-rolls-to-the-launch-pad-and-they-expect-to-recover-this-one/</guid>
-
-                                    <description>
-                        <![CDATA[To be financially sustainable, New Glenn must be reused often.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Blue Origin rolled the first stage of its massive New Glenn rocket from its hangar on Wednesday morning in Florida, kicking off the final phase of the campaign to launch the heavy-lift vehicle for the second time.</p>
-<p>In sharing video of the rollout to Launch Complex-36 on Wednesday <a href="https://x.com/blueorigin/status/1975900484943671738">online</a>, the space company did not provide a launch target for the mission, which seeks to put two small Mars-bound payloads into orbit. The pair of identical spacecraft to study the solar wind at Mars is known as ESCAPADE.</p>
-<p>However, sources told Ars that on the current timeline, Blue Origin is targeting a launch window of November 9 to November 11. This assumes pre-launch activities, including a static-fire test of the first stage, go well.</p><p><a href="https://arstechnica.com/space/2025/10/the-second-new-glenn-rolls-to-the-launch-pad-and-they-expect-to-recover-this-one/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/10/the-second-new-glenn-rolls-to-the-launch-pad-and-they-expect-to-recover-this-one/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>139</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/NG-2.jpg">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/NG-2-500x500.jpg" width="500"/>
-<media:credit>Blue Origin</media:credit><media:text>A view of the second New Glenn first stage, "Never Tell Me The Odds," before rollout.</media:text></media:content>
-            </item>
-                    <item>
-                <title>It’s Prime Day 2025 part two, and here are more of the best deals we could find</title>
-                <link>https://arstechnica.com/shopping/2025/10/its-prime-day-2025-part-two-and-here-are-the-best-deals-we-could-find/</link>
-                                    <comments>https://arstechnica.com/shopping/2025/10/its-prime-day-2025-part-two-and-here-are-the-best-deals-we-could-find/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ars Staff]]>
-                </dc:creator>
-                <pubDate>Wed, 08 Oct 2025 13:50:25 +0000</pubDate>
-                		<category><![CDATA[Shopping]]></category>
-		<category><![CDATA[Amazon Prime]]></category>
-		<category><![CDATA[Amazon Prime Day]]></category>
-		<category><![CDATA[prime day]]></category>
-		<category><![CDATA[shopping]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/shopping/2025/10/its-prime-day-2025-part-two-and-here-are-the-best-deals-we-could-find/</guid>
-
-                                    <description>
-                        <![CDATA[Updated deals on keyboards, laptops, chargers, cameras, and lots of other stuff!]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Greetings, Arsians! Welcome to the second Prime Day of 2025, because apparently we didn't buy enough stuff last time, and Amazon still has things to sell. Our e-commerce gnomes have scoured the retail giant's listings from top to bottom for the best deals, and now we're bringing those deals to you! We'll be updating the list below throughout the day on October 7 and October 8 as this two-day retail extravaganza progresses, so if you don't see something you like at the moment, check back later, and perhaps something will tickle your fancy then. Happy shopping!</p>
-<h2>Fire Tablets</h2>
-<ul>
-<li><a href="https://amzn.to/3IWSzci">Amazon Fire HD 8 32 GB for $55 ($45 off)</a></li>
-<li><a href="https://amzn.to/3IQT6N4">Amazon Fire HD 10 Kids 32 GB for $105 ($85 off)</a></li>
-<li><a href="https://amzn.to/4h3nu3A">Fire HD 8 Kids 32 GB for $75 ($75 off)</a></li>
-</ul>
-<h2>Kindles</h2>
-<ul>
-<li><a href="https://amzn.to/4mOvp5R">Amazon Kindle Colorsoft and Colorsoft Signature Edition for $200 ($50 off)</a></li>
-<li><a href="https://amzn.to/46P8lhu">Kindle Scribe 16-GB for $300 ($100 off) </a>
-</li><li><a href="https://amzn.to/48Ag0Tx">Kindle Paperwhite for $125 ($35 off)</a></li>
-<li><a href="https://amzn.to/48SVQ77">Kindle Colorsoft Kids for $210 ($60 off)</a></li>
-<li><a href="https://amzn.to/46N1HrS">Kindle (2024, 11th Generation) for $85 ($25 off)</a></li>
-<li><a href="https://amzn.to/4odHpz9">Kindle Paperwhite Kids (2024, 12th Generation) for $135 ($45 off)</a></li>
-</ul>
-<h2>Wi-Fi devices</h2>
-<ul>
-<li><a href="https://amzn.to/47cnc6T">Netgear Orbi 770 Series for $400 ($250 off)</a></li>
-<li><a href="https://amzn.to/3VOlBhl">Asus ZenWifi XT8 (2-Pack) for $190 ($140 off)</a></li>
-<li><a href="https://amzn.to/4pYBsYj">Amazon Eero Pro 6E (3-Pack) for $330 ($220 off)</a></li>
-<li><a href="https://amzn.to/46ECKAn">Amazon Eero 6 (3-Pack) for $140 ($60 off)</a></li>
-<li><a href="https://amzn.to/4pYgWXL">Google Nest WiFi Pro (3-Pack) for $280 ($120 off)</a></li>
-<li><a href="https://amzn.to/42oLnwj">TP-Link Deco XE70 Pro (2-Pack) for $190 ($80 off)</a></li>
-<li><a href="https://amzn.to/4oblloM">Asus RT-BE96U for $370 ($180 off)</a></li>
-<li><a href="https://amzn.to/3IM3zcG">TP-Link Archer AX55 for $60 ($30 off)</a></li>
-<li><a href="https://amzn.to/48DyItt">Netgear Nighthawk M6 Pro for $645 ($355 off)</a></li>
-</ul>
-<h2>Storage</h2>
-<ul>
-<li><a href="https://amzn.to/46WIiou">Western Digital Elements Desktop Hard Drive (14 TB) for $170 ($110 off)</a></li>
-<li><a href="https://amzn.to/4nGiPXN">Samsung 990 EVO Plus SSD 2TB for $130 ($47 off)</a></li>
-<li><a href="https://amzn.to/4pYNpgO">Kingston XS1000 2TB SSD for $110 ($30 off)</a></li>
-<li><a href="https://amzn.to/47fO0mM">OWC Envoy Pro for $144 ($36 off)</a></li>
-</ul>
-<h2>Amazon Echo devices</h2>
-<ul>
-<li><a href="https://amzn.to/3VRNd5i">Amazon Echo Show 8 (3rd Gen) for $100 ($50 off)</a></li>
-<li><a href="https://amzn.to/472PhN0">Echo Pop for $25 ($15 off)</a></li>
-<li><a href="https://amzn.to/4nDVHt1">Echo Dot (5th Gen) for $35 ($15 off)</a></li>
-<li><a href="https://amzn.to/4h1y22T">Echo Spot (2nd Gen) for $45 ($35 off)</a></li>
-<li><a href="https://amzn.to/48gKQjK">Echo Show 5 (3rd Gen) for $55 ($35 off)</a></li>
-<li><a href="https://amzn.to/48QV6iQ">Echo Show 15 for $255 ($45 off)</a></li>
-<li><a href="https://amzn.to/3IBdkdH">Echo Hub for $120 ($60 off)</a></li>
-</ul>
-<h2>Charging deals</h2>
-<ul>
-<li><a href="https://amzn.to/3WpUhpO">Belkin 2-in-1 Wireless Charging Pad for $38 ($42 off)</a></li>
-<li><a href="https://amzn.to/47c8yMW">Apple MagSafe Charger for $29 ($20 off)</a></li>
-<li><a href="https://amzn.to/3J0szwN">Samsung Electronics Wireless Charger Trio for $55 ($25 off)</a></li>
-<li><a href="https://amzn.to/4gY2b33">Belkin MagSafe-Compatible Wireless Car Charger for $50 ($30 off)</a></li>
-<li><a href="https://amzn.to/4gXhfOB">iOttie iON Wireless Duo for $35 ($15 off)</a></li>
-<li><a href="https://amzn.to/4pWzac7">Belkin 3-in-1 MagSafe-Compatible Wireless Charging Pad for $70 ($40 off)</a></li>
-<li><a href="https://amzn.to/3IIL1dl">Belkin 3-in-1 Charging Stand for $85 ($45 off)</a></li>
-<li><a href="https://amzn.to/4pWcbOv">Anker MagGo UFO 3-in-1 Travel Charger for $60 ($30 off)</a></li>
-</ul>
-<h2>Portable power stations</h2>
-<ul>
-<li><a href="https://amzn.to/47eSz0H">Jackery 2000 Plus Solar Generator for $1,499 ($700 off)</a></li>
-<li><a href="https://amzn.to/46EDVjd">Anker Solix C1000 for $380 ($420 off)</a></li>
-<li><a href="https://amzn.to/3KAuJUp">EcoFlow River 2 Pro for $339 ($190 off)</a></li>
-<li><a href="https://amzn.to/46H4KDu">Anker Solix F2000 Solar Generator for $1,279 ($950 off)</a></li>
-<li><a href="https://amzn.to/42oSBR2">Jackery Explorer 300 Plus for $199 ($101 off)</a></li>
-<li><a href="https://amzn.to/48eH76g">EcoFlow Delta 3 Plus for $699 ($200 off)</a></li>
-<li><a href="https://amzn.to/4q1ndly">Bluetti Elite 200 V2 for $899 ($800 off)</a></li>
-</ul>
-<h2>Streaming gear</h2>
-<ul>
-<li><a href="https://amzn.to/4nwshNa">Elgato Stream Deck Mini for $50 ($10 off)</a></li>
-<li><a href="https://amzn.to/3IQVweD">Elgato Wave Mic Arm Pro for $140 ($40 off)</a></li>
-<li><a href="https://amzn.to/42Z3dpQ">HyperX QuadCast 2 for $111 ($39 off)</a></li>
-<li><a href="https://amzn.to/47dBNyX">SteelSeries Apex Pro for $125 ($125 off)</a></li>
-<li><a href="https://amzn.to/4o6NhKj">Blue Yeti for $88 ($52 off)</a></li>
-</ul>
-<h2>Cameras</h2>
-<ul>
-<li><a href="https://amzn.to/47c0cVD">GoPro Hero 13 Black for $359 ($71 off)</a></li>
-<li><a href="https://amzn.to/4nYVqQQ">GoPro Hero 13 Black Ultra Wide Edition for $330 ($150 off)</a></li>
-<li><a href="https://amzn.to/3IKOAQe">Panasonic LUMIX S5II Mirrorless Camera for $1,798 ($501 off)</a></li>
-<li><a href="https://amzn.to/4nZOJ10">DJI Osmo Action 4 Combo for $229 ($70 off)</a></li>
-</ul>
-<h2>Macbooks</h2>
-<ul>
-<li><a href="https://amzn.to/48mpbqm">Apple MacBook Air (M4, 2025) (13-inch) for $799 ($200 off)</a></li>
-<li><a href="https://amzn.to/4pZx4IJ">Apple MacBook Air (M4, 2025) (15-inch) for $979 ($200 off)</a></li>
-<li><a href="https://amzn.to/4q1loFk">MacBook Air, 15-inch (M4) for $999 ($200 off)</a></li>
-<li><a href="https://amzn.to/4nIFy5v">MacBook Pro, 14-inch (M4) for $1,399 ($200 off)</a></li>
-<li><a href="https://amzn.to/4h71lkY">MacBook Pro, 16-inch (M4 Max) for $3,590 ($409 off)</a></li>
-<li><a href="https://amzn.to/47fOARu">MacBook Pro, 14-inch (M4 Pro) for $1,799 ($200 off)</a></li>
-</ul>
-<h2>Other laptops</h2>
-<ul>
-<li><a href="https://amzn.to/46EDRjx">Asus Vivobook 14 for $617 ($133 off)</a></li>
-<li><a href="https://amzn.to/4nCTfmr">Asus ROG Strix G16 for $2,100 ($300 off)</a></li>
-<li><a href="https://amzn.to/4nb0UHL">Lenovo Chromebook Duet for $210 ($110 off)</a></li>
-<li><a href="https://amzn.to/4mQL0BO">Microsoft Surface Pro 12 for $700 ($100 off)</a></li>
-</ul>
-<h2>Keyboards and mice</h2>
-<ul>
-<li><a href="https://amzn.to/3KC4v3X">Keychron V3 Max TKL Wireless Mechanical Keyboard for $63 ($22 off)</a></li>
-<li><a href="https://amzn.to/4o463BU">SteelSeries Rival 3 Gen 2 for $45 ($15 off)</a></li>
-<li><a href="https://amzn.to/4pW8sk7">Corsair K70 Core TKL Mechanical Wireless Gaming Keyboard for $100 ($50 off)</a></li>
-<li><a href="https://amzn.to/42wCJvQ">Logitech G305 Lightspeed for $28 ($22 off)</a></li>
-<li><a href="https://amzn.to/3IyDD4g">Razer Joro Portable Keyboard for $130 ($10 off)</a></li>
-</ul>
-<h2>Monitors</h2>
-<ul>
-<li><a href="https://amzn.to/48Ojx0i">Dell 32 Plus 4K QD-OLED for $680 ($170 off)</a></li>
-<li><a href="https://amzn.to/46Uf7me">Dell 27 Plus 4K for $290 ($60 off)</a></li>
-<li><a href="https://amzn.to/4pX4S9l">Samsung Odyssey G8 32” OLED for $1,000 ($300 off)</a></li>
-<li><a href="https://amzn.to/3WqMeZP">AOC Q27G4ZD QD-OLED for $420 ($100 off)</a></li>
-<li><a href="https://amzn.to/48liTHv">Alienware 34 Ultrawide QD-OLED for $522 ($178 off)</a></li>
-<li><a href="https://amzn.to/4nGwRsp">LG 34GS95QE OLED Curved Monitor for $697 ($603 off)</a></li>
-<li><a href="https://amzn.to/42uGEcz">Samsung G6 OLED for $650 ($250 off)</a></li>
-</ul>
-<h2>Android phones</h2>
-<ul>
-<li><a href="https://amzn.to/4nDYuCv">Google Pixel 9a for $349 ($150 off)</a></li>
-<li><a href="https://amzn.to/46QG7CT">Nothing Phone (3) for $699 ($100 off)</a></li>
-<li><a href="https://amzn.to/4pRD469">Samsung Galaxy Z Fold7 for $1,600 ($400 off)</a></li>
-<li><a href="https://amzn.to/4gYyTBz">Motorola Razr 2025 for $529 ($171 off)</a></li>
-<li><a href="https://amzn.to/3KIr2Mh">Motorola Razr Ultra for $1,000 ($300 off)</a></li>
-</ul>
-<h2>Indoor security cameras</h2>
-<ul>
-<li><a href="https://amzn.to/4ncjH5v">TP-Link Tapo C120 for $30 ($10 off)</a></li>
-<li><a href="https://amzn.to/46Wvmz8">Arlo Essential Indoor (2nd Gen) for $27 ($3 off)</a></li>
-<li><a href="https://amzn.to/4nFjFUF">TP-Link Tapo C110 for $18 ($2 off)</a></li>
-<li><a href="https://amzn.to/47aVDLc">Eufy Security Indoor Cam S350 for $80 ($60 off)</a></li>
-<li><a href="https://amzn.to/46Ilhag">Blink Mini 2 for $20 ($20 off)</a></li>
-<li><a href="https://amzn.to/4mUOqUs">Ring Indoor Cam for $25 ($25 off)</a></li>
-</ul>
-<h2>Outdoor security cameras</h2>
-<ul>
-<li><a href="https://amzn.to/3KY4Rli">Arlo Pro 5 (Battery) for $100 ($80 off)</a></li>
-<li><a href="https://amzn.to/42vplIm">TP-Link Tapo C325WB for $80 ($20 off)</a></li>
-<li><a href="https://amzn.to/4qf7OhV">Google Nest Doorbell (Battery) for $113 ($67 off)</a></li>
-<li><a href="https://amzn.to/4nzqGpP">Arlo Video Doorbell 2K for $60 ($70 off)</a></li>
-<li><a href="https://amzn.to/46UghhA">Blink Video Doorbell for $30 ($30 off)</a></li>
-<li><a href="https://amzn.to/4h1OXmf">Google Nest Cam with Floodlight for $209 ($70 off)</a></li>
-</ul>
-<h2>Smart locks</h2>
-<ul>
-<li><a href="https://amzn.to/4mQ2TRi">U-Tec Ultraloq U-Bolt Pro for $130 ($40 off)</a></li>
-<li><a href="https://amzn.to/435SsSH">Yale Approach Lock for $112 ($28 off)</a></li>
-<li><a href="https://amzn.to/4pVmiD5">Chamberlain Smart Garage Controller for $18 ($12 off)</a></li>
-<li><a href="https://amzn.to/42sUT1z">Yale Assure Lock 2 (Keyless) for $189 ($71 off)</a></li>
-<li><a href="https://amzn.to/4mOwfjf">Aqara Smart Lock U50 for $100 ($50 off)</a></li>
-</ul>
-<h2>TV and streaming</h2>
-<ul>
-<li><a href="https://amzn.to/3KWtajz">TCL QM6K QLED for $548 ($50 off)</a></li>
-<li><a href="https://amzn.to/4o1XJTf">Sony A95L OLED TV for $1,998 ($1,502 off)</a></li>
-<li><a href="https://amzn.to/3KD84Xs">Roku 65-inch Pro Series TV for $600 ($600 off)</a></li>
-<li><a href="https://amzn.to/3WqDyme">Sony 65-inch Bravia 8 OLED TV for $1,498 ($400 off)</a></li>
-<li><a href="https://amzn.to/4o5RFJC">Roku Streaming Stick 4K for $30 ($20 off)</a></li>
-<li><a href="https://amzn.to/438OZTk">Hisense 65-inch U8QG TV for $998 ($500 off)</a></li>
-<li><a href="https://amzn.to/47lztoL">Roku Ultra (2024) for $70 ($30 off)</a></li>
-</ul>
-<h2>Soundbars and speakers</h2>
-<ul>
-<li><a href="https://amzn.to/4gUlgTU">Yamaha SR-C30A for $200 ($80 off)</a></li>
-<li><a href="https://amzn.to/477Vmc1">Sony SS-CS5M2 bookshelf speakers for $168 ($110 off) </a>
-</li><li><a href="https://amzn.to/46Zi0SM">Sony Bravia Theater Quad for $2,198 ($300 off)</a></li>
-<li><a href="https://amzn.to/48f4cWx">Sony Bravia Theater Bar 9 for $998 ($502 off)</a></li>
-<li><a href="https://amzn.to/3WrbHSY">Vizio 5.1.2 Elevate SE Soundbar for $398 ($48 off)</a></li>
-</ul>
-<h2>Bluetooth speakers</h2>
-<ul>
-<li><a href="https://amzn.to/46W4sqV">JBL Flip 7 for $110 ($40 off)</a></li>
-<li><a href="https://amzn.to/4mR7SRJ">Ultimate Ears Boom 4 for $95 ($55 off)</a></li>
-<li><a href="https://amzn.to/3Kyh00q">Ultimate Ears Megaboom 4 for $142 ($58 off)</a></li>
-<li><a href="https://amzn.to/3WuBZDO">Ultimate Ears Wonderboom 4 for $66 ($34 off)</a></li>
-<li><a href="https://amzn.to/46HJzkE">Bose Soundlink Plus for $229 ($40 off)</a></li>
-<li><a href="https://amzn.to/3J0i7FC">Bose Soundlink Max for $299 ($29 off)</a></li>
-</ul>
-<h2>Earbuds</h2>
-<ul>
-<li><a href="https://amzn.to/42yIYiK">Google Pixel Buds Pro 2 for $169 ($50 off)</a></li>
-<li><a href="https://amzn.to/46HnW3N">Bose Ultra Open Earbuds for $199 ($100 off)</a></li>
-<li><a href="https://amzn.to/4od6s5f">Sennheiser Momentum 4 for $200 ($70 off)</a></li>
-<li><a href="https://amzn.to/46ItY4m">Skullcandy Method 360 ANC for $71 ($25 off)</a></li>
-</ul>
-<h2>Over-ear headphones</h2>
-<ul>
-<li><a href="https://amzn.to/46YScpG">Bose QuietComfort Ultra for $329 ($100 off)</a></li>
-<li><a href="https://amzn.to/46I2tYD">Nothing Headphone (1) for $254 ($45 off)</a></li>
-<li><a href="https://amzn.to/4nGor49">Bowers &amp; Wilkins PX8 for $479 ($111 off)</a></li>
-<li><a href="https://amzn.to/46Z22YG">Audio Technica ATH-M20x for $49 ($20 off)</a></li>
-</ul>
-<h2>Fitness trackers</h2>
-<ul>
-<li><a href="https://amzn.to/3KvkTmR">Fitbit Charge 6 for $104 ($56 off)</a></li>
-<li><a href="https://amzn.to/46BIA5q">Google Pixel Watch 3 for $230 ($70 off)</a></li>
-<li><a href="https://amzn.to/3Wpy0bD">Fitbit Inspire 3 for $80 ($20 off)</a></li>
-<li><a href="https://amzn.to/47cbEAy">Fitbit Ace LTE for $114 ($66 off)</a></li>
-<li><a href="https://amzn.to/46Giiir">Amazfit Active 2 for $81 ($19 off)</a></li>
-</ul>
-<h2>Vacuums</h2>
-<ul>
-<li><a href="https://amzn.to/3KW0jMk">Dreame X50 Ultra for $1,100 ($500 off)</a></li>
-<li><a href="https://amzn.to/3WtEztG">Roborock Saros Z70 for $1,400 ($1,200 off)</a></li>
-<li><a href="https://amzn.to/4mOY8aI">Eufy E20 3-in-1 Vacuum for $300 ($350 off) </a>
-</li><li><a href="https://amzn.to/4nZ1c4Y">Dyson V15 Detect for $570 ($280 off)</a></li>
-<li><a href="https://amzn.to/3KJFQdD">Dyson V8 Plus for $300 ($150 off)</a></li>
-<li><a href="https://amzn.to/4h3n3WQ">Bissell PowerClean FurFinder for $130 ($50 off)</a></li>
-</ul>
-<h2>Gaming</h2>
-<ul>
-<li><a href="https://amzn.to/46ZjoEY">Razer Huntsman Mini for $76 ($44 off)</a></li>
-<li><a href="https://amzn.to/3ISB7Wo">Razer Kishi Ultra Controller for $100 ($50 off)</a></li>
-<li><a href="https://amzn.to/4q2BXRq">Logitech G Pro X Wireless Gaming Headset for $119 ($61 off)</a></li>
-<li><a href="https://amzn.to/470qdWV">Razer BlackShark V2 Pro Wireless for $142 ($58 off)</a></li>
-<li><a href="https://amzn.to/46DW9Bm">SteelSeries Arctis GameBuds for $128 ($72 off)</a></li>
-</ul><p><a href="https://arstechnica.com/shopping/2025/10/its-prime-day-2025-part-two-and-here-are-the-best-deals-we-could-find/">Read full article</a></p>
-<p><a href="https://arstechnica.com/shopping/2025/10/its-prime-day-2025-part-two-and-here-are-the-best-deals-we-could-find/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>99</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1496117734-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1496117734-500x500-1759836601.jpg" width="500"/>
-<media:credit>Raymond Hall / Getty Images</media:credit><media:text>Optimus Prime, the patron saint of Prime Day, observed in midtown Manhattan in June 2023.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Insurers balk at paying out huge settlements for claims against AI firms</title>
-                <link>https://arstechnica.com/ai/2025/10/insurers-balk-at-paying-out-huge-settlements-for-claims-against-ai-firms/</link>
-                                    <comments>https://arstechnica.com/ai/2025/10/insurers-balk-at-paying-out-huge-settlements-for-claims-against-ai-firms/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Cristina Criddle and Lee Harris, Financial Times]]>
-                </dc:creator>
-                <pubDate>Wed, 08 Oct 2025 13:31:28 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[copyright infringement]]></category>
-		<category><![CDATA[insurance]]></category>
-		<category><![CDATA[LLM]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/insurers-balk-at-paying-out-huge-settlements-for-claims-against-ai-firms/</guid>
-
-                                    <description>
-                        <![CDATA[OpenAI, Anthropic consider using investor funds to settle potential lawsuits.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>OpenAI and Anthropic are considering using investor funds to settle potential claims from multibillion-dollar lawsuits, as insurers balk at providing comprehensive coverage for the risks associated with artificial intelligence.</p>
-<p>The two US-based AI start-ups have traditional business insurance coverage in place, but insurance professionals said AI model providers will struggle to secure protection for the full scale of damages they may need to pay out in the future.</p>
-<p>OpenAI, which has tapped the world’s second-largest insurance broker Aon for help, has secured cover of up to $300 million for emerging AI risks, according to people familiar with the company’s policy.</p><p><a href="https://arstechnica.com/ai/2025/10/insurers-balk-at-paying-out-huge-settlements-for-claims-against-ai-firms/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/10/insurers-balk-at-paying-out-huge-settlements-for-claims-against-ai-firms/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>76</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/aimoney-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/aimoney-500x500.jpg" width="500"/>
-<media:credit>FT montage/Dreamstime</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Floating electrons on a sea of helium</title>
-                <link>https://arstechnica.com/science/2025/10/new-qubit-tech-traps-single-electrons-on-liquid-helium/</link>
-                                    <comments>https://arstechnica.com/science/2025/10/new-qubit-tech-traps-single-electrons-on-liquid-helium/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[John Timmer]]>
-                </dc:creator>
-                <pubDate>Wed, 08 Oct 2025 11:08:52 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[electrons]]></category>
-		<category><![CDATA[liquid helium]]></category>
-		<category><![CDATA[Physics]]></category>
-		<category><![CDATA[quantum computing]]></category>
-		<category><![CDATA[quantum mechanics]]></category>
-		<category><![CDATA[qubits]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/10/new-qubit-tech-traps-single-electrons-on-liquid-helium/</guid>
-
-                                    <description>
-                        <![CDATA[Yes, it's another potential qubit. But it's also some very cool physics.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>By now, a handful of technologies are leading contenders for producing a useful quantum computer. Companies have used them to build machines with dozens to hundreds of qubits, the error rates are coming down, and they've largely shifted from worrying about basic scientific problems to dealing with engineering challenges.</p>
-<p>Yet even at this apparently late date in the field's development, there are companies that are still developing entirely new qubit technologies, betting the company that they have identified something that will let them scale in ways that enable a come-from-behind story. Recently, one of those companies published a paper that describes the physics of their qubit system, which involves lone electrons floating on top of liquid helium.</p>
-<h2>Trapping single electrons</h2>
-<p>So how do you get an electron to float on top of helium? To find out, Ars spoke with Johannes Pollanen, the chief scientific officer of EeroQ, the company that accomplished the new work. He said that it's actually old physics, with the first demonstrations of it having been done half a century ago.</p><p><a href="https://arstechnica.com/science/2025/10/new-qubit-tech-traps-single-electrons-on-liquid-helium/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/10/new-qubit-tech-traps-single-electrons-on-liquid-helium/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>41</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1397148346-1152x648-1759878481.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1397148346-500x500-1759878419.jpg" width="500"/>
-<media:credit>Roc Canals via Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Tesla’s standard-range Model 3, Model Y join the lineup</title>
-                <link>https://arstechnica.com/cars/2025/10/teslas-new-cut-price-evs-a-39990-model-y-and-36990-model-3/</link>
-                                    <comments>https://arstechnica.com/cars/2025/10/teslas-new-cut-price-evs-a-39990-model-y-and-36990-model-3/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Tue, 07 Oct 2025 22:22:18 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Tesla]]></category>
-		<category><![CDATA[tesla model 3]]></category>
-		<category><![CDATA[Tesla Model Y]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2025/10/teslas-new-cut-price-evs-a-39990-model-y-and-36990-model-3/</guid>
-
-                                    <description>
-                        <![CDATA[A smaller battery and less standard equipment cuts prices, but not by enough.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Today, Tesla announced a new variant of the Model Y crossover for North America. Tesla fans have long-awaited a cheaper entry-level model; this was supposed to be the $25,000 Model 2. But the development of that electric vehicle was <a href="https://arstechnica.com/cars/2024/04/tesla-scraps-its-plan-for-a-25000-model-2-ev/">shelved earlier last year</a> as CEO Elon Musk began to lose interest with car-making <a href="https://arstechnica.com/cars/2025/09/tesla-has-a-new-master-plan-it-just-doesnt-have-any-specifics/">in favor of humanoid robots</a>.</p>
-<p>However, car sales still make up the <a href="https://arstechnica.com/cars/2025/07/tesla-q2-2025-sell-fewer-cars-and-carbon-credits-make-less-money/">overwhelming majority</a> of Tesla's revenue, and the removal of the IRS clean vehicle tax credit at the end of September may have juiced US EV sales in Q3 2025, but sales are expected to dip significantly in the current quarter.</p>
-<p>The new Standard Range Model Y starts at $39,990, with 321 miles (516 km) of range from its rear-wheel drive powertrain, compared to the now-Premium rear-wheel drive Model Y, which has an EPA range of 357 miles (574 km). In the past, Tesla has <a href="https://arstechnica.com/cars/2017/09/tesla-remotely-extends-the-range-of-some-cars-to-help-with-irma/">software-locked</a> batteries to a smaller configuration; however, here we believe the Standard Range Model Y uses a 69 kWh pack.</p><p><a href="https://arstechnica.com/cars/2025/10/teslas-new-cut-price-evs-a-39990-model-y-and-36990-model-3/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/10/teslas-new-cut-price-evs-a-39990-model-y-and-36990-model-3/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>239</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/ModelYStandard_84-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/ModelYStandard_84-500x500.jpg" width="500"/>
-<media:credit>Tesla</media:credit><media:text>The Standard Range can be distinguished by the lack of a light bar between the headlights.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Despite RFK Jr.’s shenanigans, COVID shot access will be a lot like last year</title>
-                <link>https://arstechnica.com/health/2025/10/after-rfk-jr-s-shenanigans-covid-shot-access-will-be-a-lot-like-last-year/</link>
-                                    <comments>https://arstechnica.com/health/2025/10/after-rfk-jr-s-shenanigans-covid-shot-access-will-be-a-lot-like-last-year/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Tue, 07 Oct 2025 21:24:57 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[ACIP]]></category>
-		<category><![CDATA[CDC]]></category>
-		<category><![CDATA[COVID-19 vaccines]]></category>
-		<category><![CDATA[cvs]]></category>
-		<category><![CDATA[vaccines]]></category>
-		<category><![CDATA[Walgreens]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2025/10/after-rfk-jr-s-shenanigans-covid-shot-access-will-be-a-lot-like-last-year/</guid>
-
-                                    <description>
-                        <![CDATA[Most people can get vaccinated at their local pharmacy like normal.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The acting director of the Centers for Disease Control and Prevention has<a href="https://www.hhs.gov/press-room/cdc-immunization-schedule-individual-decision-covid19-standalone-chickenpox-toddlers.html"> finally signed off</a> on recommendations for this season's COVID-19 vaccines—and, with that, access to the shots will, in the end, look a lot like the access people had last year.</p>
-<h2>Here’s what to know</h2>
-<p><strong>You still have access and coverage</strong>: For this year, anyone age 6 months and older will still have access to the shots, and the shots should be fully covered under private insurance plans and federal programs—including Medicare, Medicaid, Children’s Health Insurance Program, Vaccines for Children Program, and insurance plans regulated by the Affordable Care Act.</p>
-<p>In fact, for private insurance plans, AHIP—the trade organization that represents major insurers—had already stated that regardless of how this year's messy federal recommendations ended up, private insurance plans would <a href="https://www.ahip.org/news/press-releases/ahip-statement-on-vaccine-coverage">maintain their previous coverage</a> with no cost sharing.</p><p><a href="https://arstechnica.com/health/2025/10/after-rfk-jr-s-shenanigans-covid-shot-access-will-be-a-lot-like-last-year/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/10/after-rfk-jr-s-shenanigans-covid-shot-access-will-be-a-lot-like-last-year/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>132</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2168151364-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2168151364-scaled-500x500-1738683916.jpg" width="500"/>
-<media:credit>Getty | Christina House</media:credit><media:text>Vaccinations were available at CVS in Huntington Park, California, on August 28, 2024.</media:text></media:content>
-            </item>
-                    <item>
-                <title>2025 Nobel Prize in Physics awarded for macroscale quantum tunneling</title>
-                <link>https://arstechnica.com/science/2025/10/2025-nobel-prize-in-physics-awarded-for-macroscale-quantum-tunneling/</link>
-                                    <comments>https://arstechnica.com/science/2025/10/2025-nobel-prize-in-physics-awarded-for-macroscale-quantum-tunneling/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Tue, 07 Oct 2025 21:05:41 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Nobel Prize in Physics]]></category>
-		<category><![CDATA[nobel prizes]]></category>
-		<category><![CDATA[Physics]]></category>
-		<category><![CDATA[Quantum tunneling]]></category>
-		<category><![CDATA[quantum weirdness]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/10/2025-nobel-prize-in-physics-awarded-for-macroscale-quantum-tunneling/</guid>
-
-                                    <description>
-                        <![CDATA[John Clarke, Michel H. Devoret, and John Martinis built an electrical circuit-based oscillator on a microchip.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The 2025 Nobel Prize in Physics <a href="https://www.nobelprize.org/prizes/physics/2025/summary/">has been awarded</a> to John Clarke, Michel H. Devoret, and John M. Martinis "for the discovery of macroscopic quantum tunneling and energy quantization in an electrical circuit." The Nobel committee said during a media briefing that the laureates' work provides opportunities to develop "the next generation of quantum technology, including quantum cryptography, quantum computers, and quantum sensors." The three men will split the $1.1 million (11 million Swedish kronor) prize money. The presentation ceremony will take place in Stockholm on December 10, 2025.</p>
-<p>"To put it mildly, it was the surprise of my life," Clarke told reporters by phone during this morning's press conference. "Our discovery in some ways is the basis of quantum computing. Exactly at this moment where this fits in is not entirely clear to me. One of the underlying reasons that cellphones work is because of all this work."</p>
-<p>When physicists began delving into the strange new realm of subatomic particles in the early 20th century, they discovered a realm where the old, deterministic laws of classical physics no longer apply. Instead, uncertainty reigns supreme. It is a world governed not by absolutes, but by probabilities, where events that would seem impossible on the macroscale occur on a regular basis.</p><p><a href="https://arstechnica.com/science/2025/10/2025-nobel-prize-in-physics-awarded-for-macroscale-quantum-tunneling/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/10/2025-nobel-prize-in-physics-awarded-for-macroscale-quantum-tunneling/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>42</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/nobel1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/nobel1-500x500.jpg" width="500"/>
-<media:credit>ay M. Gambetta, Jerry M. Chow &amp; Matthias Steffen/CC BY 4.0</media:credit><media:text>A device consisting of four transmon qubits, four quantum buses, and four readout resonators fabricated by IBM in  2017.</media:text></media:content>
             </item>
             </channel>
 </rss>
