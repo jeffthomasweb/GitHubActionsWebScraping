@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Tue, 21 Oct 2025 21:18:12 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 22 Oct 2025 22:47:05 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,378 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Cache poisoning vulnerabilities found in 2 DNS resolving apps</title>
+                <link>https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 22 Oct 2025 22:35:41 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/</guid>
+
+                                    <description>
+                        <![CDATA[At least one CVE could weaken defenses put in place following 2008 disclosure.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The makers of BIND, the Internet’s most widely used software for resolving domain names, are warning of two vulnerabilities that allow attackers to poison entire caches of results and send users to malicious destinations that are indistinguishable from the real ones.</p>
+<p>The vulnerabilities, tracked as <a href="https://kb.isc.org/docs/cve-2025-40778">CVE-2025-40778</a> and <a href="https://kb.isc.org/docs/cve-2025-40780">CVE-2025-40780</a>, stem from a logic error and a weakness in generating pseudo-random numbers, respectively. They each carry a severity rating of 8.6. Separately, makers of the Domain Name System resolver software Unbound <a href="https://www.nlnetlabs.nl/downloads/unbound/CVE-2025-11411.txt">warned</a> of similar vulnerabilities that were reported by the same researchers. The unbound vulnerability severity score is 5.6</p>
+<h2>Revisiting Kaminsky’s cache poisoning attack</h2>
+<p>The vulnerabilities can be exploited to cause DNS resolvers located inside thousands of organizations to replace valid results for domain lookups with corrupted ones. The corrupted results would replace the IP addresses controlled by the domain name operator (for instance, 3.15.119.63 for arstechnica.com) with malicious ones controlled by the attacker. Patches for all three vulnerabilities became available on Wednesday.</p><p><a href="https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>3</slash:comments>
+                
+                
+                <media:content height="627" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/browser-security-threat-1152x627.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/browser-security-threat-500x500.jpg" width="500"/>
+</media:content>
+            </item>
+                    <item>
+                <title>Tesla profits fall 37% in Q3 despite healthy sales</title>
+                <link>https://arstechnica.com/cars/2025/10/tesla-profits-fall-37-in-q3-despite-healthy-sales/</link>
+                                    <comments>https://arstechnica.com/cars/2025/10/tesla-profits-fall-37-in-q3-despite-healthy-sales/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Wed, 22 Oct 2025 21:42:47 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Tesla earnings]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2025/10/tesla-profits-fall-37-in-q3-despite-healthy-sales/</guid>
+
+                                    <description>
+                        <![CDATA[A loss of regulatory credits and increased expenses didn't help.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Tesla reported its financial results for the third quarter of 2025 this afternoon. <a href="https://arstechnica.com/cars/2025/10/tesla-reverses-sales-decline-in-q3-sells-50k-more-cars-than-it-built/">Earlier this month</a>, we learned that the electric vehicle manufacturer had a pretty good Q3 in terms of sales, which grew by 7.3 percent year over year and cleared out tens of thousands of cars from inventory in the process. However, that hasn’t translated into greater profitability.</p>
+<p>Even though revenues grew by 12 percent to $28 billion compared to <a href="https://arstechnica.com/cars/2024/10/teslas-q3-buoyed-by-credits-cost-cutting-as-auto-revenue-stays-flat/">the same period last year</a>, Tesla’s operating expenses grew by 50 percent. As a result, its operating margin halved to just 5.8 percent. And so its profit for the quarter fell by 37 percent to $1.4 billion.</p>
+<p>Some growth in revenue came from its battery and solar division; this increased by 44 percent to $3.4 billion compared to Q3 2024. Services—including the Supercharger network, which is now open to an increasing number of other makes of EV—also grew, increasing by 25 percent to $3.4 billion. EV deliveries increased by 7 percent to 497,099, most of which were the Model 3 sedan and Model Y crossover. Automotive revenues grew slightly less, increasing 6 percent year over year to $21.2 billion.</p><p><a href="https://arstechnica.com/cars/2025/10/tesla-profits-fall-37-in-q3-despite-healthy-sales/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/10/tesla-profits-fall-37-in-q3-despite-healthy-sales/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>67</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/tesladown-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/tesladown-500x500.jpg" width="500"/>
+<media:credit>Alex Wong/Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>This may be the most bonkers tech job listing I’ve ever seen</title>
+                <link>https://arstechnica.com/culture/2025/10/the-tech-ceo-who-would-eat-dog-poop-if-it-means-winning/</link>
+                                    <comments>https://arstechnica.com/culture/2025/10/the-tech-ceo-who-would-eat-dog-poop-if-it-means-winning/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Nate Anderson]]>
+                </dc:creator>
+                <pubDate>Wed, 22 Oct 2025 20:45:23 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[996]]></category>
+		<category><![CDATA[icon]]></category>
+		<category><![CDATA[Silicon Valley]]></category>
+		<category><![CDATA[work]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2025/10/the-tech-ceo-who-would-eat-dog-poop-if-it-means-winning/</guid>
+
+                                    <description>
+                        <![CDATA[Don't even apply if you're not a Tier 1 "A-player."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Here’s a job pitch you don’t see often.</p>
+<p>What if, instead of “work-life balance,” you had no balance at all—your life <em>was</em> your work… and work happened seven days a week?</p>
+<p>Did I say <em>days</em>? I actually meant <em>days and nights</em>, because the job I’m talking about wants you to know that you will also work weekends and evenings, and that “it’s ok to send messages at 3am.”</p><p><a href="https://arstechnica.com/culture/2025/10/the-tech-ceo-who-would-eat-dog-poop-if-it-means-winning/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2025/10/the-tech-ceo-who-would-eat-dog-poop-if-it-means-winning/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>113</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1149297973-1152x648-1761164087.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1149297973-500x500-1761164122.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>General Motors will integrate AI into its cars, plus new hands-free assist</title>
+                <link>https://arstechnica.com/cars/2025/10/ai-and-hands-free-driving-are-coming-to-gms-vehicles/</link>
+                                    <comments>https://arstechnica.com/cars/2025/10/ai-and-hands-free-driving-are-coming-to-gms-vehicles/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Chad Kirchner]]>
+                </dc:creator>
+                <pubDate>Wed, 22 Oct 2025 20:29:11 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[cadillac]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[General Motors]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2025/10/ai-and-hands-free-driving-are-coming-to-gms-vehicles/</guid>
+
+                                    <description>
+                        <![CDATA[Do we want LLMs in our cars? GM thinks we do.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<aside class="pullbox sidebar fullwidth">GM provided flights from Detroit to New York City and accommodation so Ars could attend its tech event. Ars does not accept paid editorial content.</aside>
+<p>General Motors held a preview event today to show the world what it’s working on. We’ve already seen some projects, like the further development of <a href="https://arstechnica.com/features/2025/05/gms-new-ev-battery-will-offer-30-percent-more-range-for-less-money/">lithium manganese-rich battery technology</a> or <a href="https://arstechnica.com/cars/2023/08/general-motors-will-add-bidirectional-charging-to-its-ultium-based-evs/">backup power for EVs</a> that can power a home or support the power grid.</p>
+<p>The most significant new announcement is that Cadillac will offer an Escalade IQ with a so-called “Level 3” conditional automated driving system in 2028. GM is referring to it as a “hands off, eyes off” system and says it will integrate advanced digital mapping, use of lidar and other systems, and advanced machine learning to handle the driving duties in a controlled environment up to 80 mph (129 km/h).</p>
+<p>This means you can theoretically watch a movie from the driver’s seat while your car takes you down the highway to the airport. Over time, the system’s operation areas will expand to cover even more roads, making driving unnecessary in many situations—unless, of course, you like to drive.</p><p><a href="https://arstechnica.com/cars/2025/10/ai-and-hands-free-driving-are-coming-to-gms-vehicles/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/10/ai-and-hands-free-driving-are-coming-to-gms-vehicles/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>68</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1776398279-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1776398279-500x500.jpg" width="500"/>
+<media:credit>Budrul Chukrut/SOPA Images/LightRocket via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Health plan enrollment period is set to be horrifying for everyone this year</title>
+                <link>https://arstechnica.com/health/2025/10/health-care-costs-are-soaring-for-americans-and-2026-is-looking-grim/</link>
+                                    <comments>https://arstechnica.com/health/2025/10/health-care-costs-are-soaring-for-americans-and-2026-is-looking-grim/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Wed, 22 Oct 2025 20:23:35 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[ACA]]></category>
+		<category><![CDATA[health insurance]]></category>
+		<category><![CDATA[KFF]]></category>
+		<category><![CDATA[Marketplace]]></category>
+		<category><![CDATA[premiums]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2025/10/health-care-costs-are-soaring-for-americans-and-2026-is-looking-grim/</guid>
+
+                                    <description>
+                        <![CDATA[Some marketplace premiums could more than double. Employer-based plans are soaring.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Shock and dismay have already begun as Americans face next year’s health insurance costs—and it looks like everyone will be in for some grim numbers.</p>
+<p>So far, much of the attention has been on the stratospheric prices that Americans might see on plans they buy from Affordable Care Act marketplaces. Critical tax credits for those plans are set to expire at the end of the year, and, on top of that, insurers have proposed a median 18 percent price increase for 2026. With the higher prices and a loss of credits, some Americans could see their monthly premiums more than double.</p>
+<p>In an analysis last month, nonpartisan health policy group <a href="https://www.kff.org/affordable-care-act/aca-marketplace-premium-payments-would-more-than-double-on-average-next-year-if-enhanced-premium-tax-credits-expire/">KFF estimated</a> that, on average, ACA marketplace premiums would rise 114 percent, going from $888 in 2025 to $1,904 in 2026.</p><p><a href="https://arstechnica.com/health/2025/10/health-care-costs-are-soaring-for-americans-and-2026-is-looking-grim/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/10/health-care-costs-are-soaring-for-americans-and-2026-is-looking-grim/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>118</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2018/09/GettyImages-148302547-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2018/09/GettyImages-148302547-500x500.jpg" width="500"/>
+<media:credit>Getty | Bill Diodato</media:credit></media:content>
+            </item>
+                    <item>
+                <title>When sycophancy and bias meet medicine</title>
+                <link>https://arstechnica.com/health/2025/10/when-sycophancy-and-bias-meet-medicine/</link>
+                                    <comments>https://arstechnica.com/health/2025/10/when-sycophancy-and-bias-meet-medicine/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Amit Chandra and Luke Shors]]>
+                </dc:creator>
+                <pubDate>Wed, 22 Oct 2025 19:46:01 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Health]]></category>
+		<category><![CDATA[medicine]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2025/10/when-sycophancy-and-bias-meet-medicine/</guid>
+
+                                    <description>
+                        <![CDATA[Biased, eager-to-please models threaten health research replicability and trust.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p><em>Once upon a time, two villagers visited the fabled Mullah Nasreddin. They hoped that the Sufi philosopher, famed for his acerbic wisdom, could mediate a dispute that had driven a wedge between them. Nasreddin listened patiently to the first villager’s version of the story and, upon its conclusion, exclaimed, “You are absolutely right!” The second villager then presented his case. After hearing him out, Nasreddin again responded, “You are absolutely right!” An observant bystander, confused by Nasreddin’s proclamations, interjected, “But Mullah, they can’t both be right.” Nasreddin paused, regarding the bystander for a moment before replying, “You are absolutely right, too!”</em></p>
+<p>In late May, the White House’s first “Make America Healthy Again” (MAHA) report was criticized for citing multiple research studies that did not exist. Fabricated citations like these are common in the outputs of generative artificial intelligence based on large language models, or LLMs. LLMs have presented plausible-sounding sources, catchy titles, or even false data to craft their conclusions. Here, the White House pushed back on the journalists who first broke the story before admitting to “<a href="https://www.science.org/content/article/trump-officials-downplay-fake-citations-high-profile-report-children-s-health">minor citation errors</a>.”</p>
+<p>It is ironic that fake citations were used to support a principal recommendation of the MAHA report: addressing the health research sector’s “<a href="https://www.nature.com/articles/d41586-024-04253-w">replication crisis</a>,” wherein scientists’ findings often cannot be reproduced by other independent teams.</p><p><a href="https://arstechnica.com/health/2025/10/when-sycophancy-and-bias-meet-medicine/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/10/when-sycophancy-and-bias-meet-medicine/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>17</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2214872699-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2214872699-500x500.jpg" width="500"/>
+<media:credit>Catherine Delahaye</media:credit></media:content>
+            </item>
+                    <item>
+                <title>SpaceX disables 2,500 Starlink terminals allegedly used by Asian scam centers</title>
+                <link>https://arstechnica.com/tech-policy/2025/10/starlink-blocks-2500-dishes-allegedly-used-by-myanmars-notorious-scam-centers/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/10/starlink-blocks-2500-dishes-allegedly-used-by-myanmars-notorious-scam-centers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Wed, 22 Oct 2025 18:26:38 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[starlink]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/10/starlink-blocks-2500-dishes-allegedly-used-by-myanmars-notorious-scam-centers/</guid>
+
+                                    <description>
+                        <![CDATA[Starlink not allowed in Myanmar, but scammers reportedly use it "on a huge scale."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>SpaceX said it disabled over 2,500 Starlink terminals suspected of being used by scammers in Myanmar. Lauren Dreyer, vice president of Starlink business operations, described the action in an <a href="https://x.com/LaurenDreyer/status/1980816703459082632">X post</a> last night after reports that Myanmar’s military shut down a major scam operation.</p>
+<p>“SpaceX complies with local laws in all 150+ markets where Starlink is licensed to operate,” Dreyer wrote. “SpaceX continually works to identify violations of our Acceptable Use Policy and applicable law… On the rare occasion we identify a violation, we take appropriate action, including working with law enforcement agencies around the world. In Myanmar, for example, SpaceX proactively identified and disabled over 2,500 Starlink Kits in the vicinity of suspected ‘scam centers.'”</p>
+<p>Starlink is not licensed to operate in Myanmar. While Dreyer didn’t say how the terminals were disabled, it’s <a href="https://www.washingtonpost.com/world/2024/10/12/starlink-russia-ukraine-elon-musk/">known</a> that Starlink can disable individual terminals based on their ID numbers or use geofencing to block areas from receiving signals.</p><p><a href="https://arstechnica.com/tech-policy/2025/10/starlink-blocks-2500-dishes-allegedly-used-by-myanmars-notorious-scam-centers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/10/starlink-blocks-2500-dishes-allegedly-used-by-myanmars-notorious-scam-centers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>52</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/starlink-myanmar-1152x648-1761154369.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/starlink-myanmar-500x500-1761154379.jpg" width="500"/>
+<media:credit>Getty Images | Lillian Suwanrumpha</media:credit><media:text>A Starlink satellite dish on the roof of a building at the KK Park complex in Myanmar's eastern Myawaddy township on September 17, 2025.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Samsung Galaxy XR is the first Android XR headset, now on sale for $1,800</title>
+                <link>https://arstechnica.com/google/2025/10/samsung-galaxy-xr-is-the-first-android-xr-headset-now-on-sale-for-1800/</link>
+                                    <comments>https://arstechnica.com/google/2025/10/samsung-galaxy-xr-is-the-first-android-xr-headset-now-on-sale-for-1800/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Wed, 22 Oct 2025 18:12:50 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[android xr]]></category>
+		<category><![CDATA[extended reality]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<category><![CDATA[virtual reality]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/google/2025/10/samsung-galaxy-xr-is-the-first-android-xr-headset-now-on-sale-for-1800/</guid>
+
+                                    <description>
+                        <![CDATA[It may not be as spendy as the Vision Pro, but $1,800 is still a lot.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The era of Android virtual reality is here… again. Google’s first two attempts at making Android fit for your face didn’t work out, but the AI era and a partnership with Samsung have enabled a third attempt, and maybe the third time’s the charm. Samsung has <a href="https://news.samsung.com/global/introducing-galaxy-xr-opening-new-worlds">unveiled the Galaxy XR headset</a>, the first and currently only device running Google’s new <a href="https://arstechnica.com/gadgets/2024/12/google-steps-into-extended-reality-once-again-with-android-xr/">Android XR platform</a>. It’s available for pre-order today, but it will not come cheap. The headset, which doesn’t come with controllers, retails for $1,800.</p>
+<p>Galaxy XR is a fully enclosed headset with passthrough video. It looks similar to the Apple Vision Pro, right down to the battery pack at the end of a cable. It packs solid hardware, including 16GB of RAM, 256GB of storage, and a Snapdragon XR2+ Gen 2 processor. That’s a slightly newer version of the chip powering <a href="https://arstechnica.com/gaming/2023/10/meta-quest-3-review-mixed-reality-version-0-5/">Meta’s Quest 3 headset</a>, featuring six CPU cores and an Adreno GPU that supports up to dual 4.3K displays.</p>
+<p>The new headset has a pair of 3,552 x 3,840 Micro-OLED displays with a 109-degree field of view. That’s marginally more pixels than the Vision Pro and almost three times as many as the Quest 3. The displays can refresh at up to 90Hz, but the default is 72Hz to save power.</p><p><a href="https://arstechnica.com/google/2025/10/samsung-galaxy-xr-is-the-first-android-xr-headset-now-on-sale-for-1800/">Read full article</a></p>
+<p><a href="https://arstechnica.com/google/2025/10/samsung-galaxy-xr-is-the-first-android-xr-headset-now-on-sale-for-1800/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>45</slash:comments>
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Samsung-Mobile-Galaxy-XR-Multimodal-AI-Android-XR-Opening-New-Worlds_main1.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Samsung-Mobile-Galaxy-XR-Multimodal-AI-Android-XR-Opening-New-Worlds_main1-500x500.jpg" width="500"/>
+<media:credit>Samsung</media:credit></media:content>
+            </item>
+                    <item>
+                <title>AWS outage reminds us why $2,449 Internet-dependent beds are a bad idea</title>
+                <link>https://arstechnica.com/gadgets/2025/10/smart-beds-leave-sleepers-hot-and-bothered-during-aws-outage/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/10/smart-beds-leave-sleepers-hot-and-bothered-during-aws-outage/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 22 Oct 2025 17:57:10 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Amazon Web Services]]></category>
+		<category><![CDATA[AWS]]></category>
+		<category><![CDATA[smart home]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/smart-beds-leave-sleepers-hot-and-bothered-during-aws-outage/</guid>
+
+                                    <description>
+                        <![CDATA[“Would be great if my bed wasn’t stuck in an inclined position ..."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>This week’s <a href="https://arstechnica.com/tech-policy/2025/10/amazons-dns-problem-knocked-out-half-the-web-likely-costing-billions/">Amazon Web Services outage</a> had some people waking up on the wrong side of the bed.</p>
+<p>A Domain Name System (DNS) resolution problem affected AWS cloud hosting, resulting in an outage that impacted <a href="https://www.bbc.com/news/articles/cev1en9077ro">more than 1,000</a> web-based products and services and millions of people.</p>
+<p>Perhaps one of the most avoidable breakdowns came via people’s beds. The reliance on the Internet for smart bed products from Eight Sleep resulted in people being awoken by beds locked into inclined positions and sweltering temperatures.</p><p><a href="https://arstechnica.com/gadgets/2025/10/smart-beds-leave-sleepers-hot-and-bothered-during-aws-outage/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/10/smart-beds-leave-sleepers-hot-and-bothered-during-aws-outage/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>150</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Eight-Sleep-Pod-5-Product-Full-System-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Eight-Sleep-Pod-5-Product-Full-System-500x500.jpeg" width="500"/>
+<media:credit>Eight Sleep</media:credit><media:text>Eight Sleep's Pod 5 system. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Google has a useful quantum algorithm that outperforms a supercomputer</title>
+                <link>https://arstechnica.com/science/2025/10/google-claims-to-have-quantum-advantage-with-a-potentially-useful-algorithm/</link>
+                                    <comments>https://arstechnica.com/science/2025/10/google-claims-to-have-quantum-advantage-with-a-potentially-useful-algorithm/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Wed, 22 Oct 2025 17:00:00 +0000</pubDate>
+                		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[NMR]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[quantum computing]]></category>
+		<category><![CDATA[quantum mechanics]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/10/google-claims-to-have-quantum-advantage-with-a-potentially-useful-algorithm/</guid>
+
+                                    <description>
+                        <![CDATA[An approach it calls "quantum echoes" takes 13,000 times longer on a supercomputer.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A few years back, Google made waves when it claimed that some of its hardware had <a href="https://arstechnica.com/science/2019/09/paper-leaks-showing-a-quantum-computer-doing-something-a-supercomputer-cant/">achieved quantum supremacy</a>, performing operations that would be effectively impossible to simulate on a classical computer. That claim didn’t hold up especially well, as mathematicians later developed methods to help <a href="https://arstechnica.com/science/2021/11/math-may-have-caught-up-with-googles-quantum-supremacy-claims/">classical computers catch up</a>, leading the company to <a href="https://arstechnica.com/science/2024/10/google-identifies-low-noise-phase-transition-in-its-quantum-processor/">repeat the work</a> on an improved processor.</p>
+<p>While this back-and-forth was unfolding, the field became less focused on quantum supremacy and more on two additional measures of success. The first is quantum utility, in which a quantum computer performs computations that are useful in some practical way. The second is quantum advantage, in which a quantum system completes calculations in a fraction of the time it would take a typical computer. (IBM and a startup called Pasqual have published a <a href="https://arxiv.org/abs/2506.20658">useful discussion</a> about what would be required to verifiably demonstrate a quantum advantage.)</p>
+<p>Today, Google and a large collection of academic collaborators are publishing a paper describing a computational approach that demonstrates a quantum advantage compared to current algorithms—and may actually help us achieve something useful.</p><p><a href="https://arstechnica.com/science/2025/10/google-claims-to-have-quantum-advantage-with-a-potentially-useful-algorithm/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/10/google-claims-to-have-quantum-advantage-with-a-potentially-useful-algorithm/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>46</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GoogleQuantumAI_WillowChip_Closeup03-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GoogleQuantumAI_WillowChip_Closeup03-500x500.jpg" width="500"/>
+<media:credit>Google</media:credit><media:text>The work relied on Google's current-generation quantum hardware, the Willow chip.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Jaguar Land Rover looking at $2.5 billion price tag from crippling cyberattack</title>
+                <link>https://arstechnica.com/security/2025/10/jaguar-land-rover-struggling-8-weeks-after-most-expensive-uk-cyberattack/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/jaguar-land-rover-struggling-8-weeks-after-most-expensive-uk-cyberattack/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kana Inagaki and Kieran Smith, Financial Times]]>
+                </dc:creator>
+                <pubDate>Wed, 22 Oct 2025 13:39:57 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[Jaguar Land Rover]]></category>
+		<category><![CDATA[ransomware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/jaguar-land-rover-struggling-8-weeks-after-most-expensive-uk-cyberattack/</guid>
+
+                                    <description>
+                        <![CDATA[Incident was likely the most economically damaging cyber event in UK history.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The cyberattack on Jaguar Land Rover is estimated to have cost the UK at least £1.9 billion in what is likely to be “the most economically damaging cyber event” for the country.</p>
+<p>The month-long shutdown of internal systems and production at JLR affected over 5,000 British organisations, according to an analysis by Cyber Monitoring Centre, a non-profit organization that ranks the severity of cyber events in the UK.</p>
+<p>“This incident looks to have been by some distance, the single most financially damaging cyber event ever to hit the UK,” said Ciaran Martin, former head of the National Cyber Security Centre and chair of CMC’s technical committee.</p><p><a href="https://arstechnica.com/security/2025/10/jaguar-land-rover-struggling-8-weeks-after-most-expensive-uk-cyberattack/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/jaguar-land-rover-struggling-8-weeks-after-most-expensive-uk-cyberattack/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>83</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/landroverline-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/landroverline-500x500.jpg" width="500"/>
+<media:credit>Bloomberg</media:credit></media:content>
+            </item>
+                    <item>
                 <title>FDA slows down on drug reviews, approvals amid Trump admin chaos</title>
                 <link>https://arstechnica.com/health/2025/10/fda-slows-down-on-drug-reviews-approvals-amid-trump-admin-chaos/</link>
                                     <comments>https://arstechnica.com/health/2025/10/fda-slows-down-on-drug-reviews-approvals-amid-trump-admin-chaos/#comments</comments>
@@ -44,7 +416,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>12</slash:comments>
+                                    <slash:comments>61</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/05/GettyImages-496532228-1152x648.jpg" width="1152">
@@ -80,7 +452,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>14</slash:comments>
+                                    <slash:comments>33</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/troll1-1152x648-1761073850.jpg" width="1152">
@@ -115,7 +487,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>83</slash:comments>
+                                    <slash:comments>310</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/54441425446_25b87f0fd0_k-1152x648.jpg" width="1152">
@@ -223,7 +595,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>59</slash:comments>
+                                    <slash:comments>143</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/IMG_6225-1152x648.jpg" width="1152">
@@ -259,7 +631,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>51</slash:comments>
+                                    <slash:comments>122</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/atlaslogo.jpg">
@@ -295,7 +667,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>24</slash:comments>
+                                    <slash:comments>43</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/youtube-1152x648.jpg" width="1152">
@@ -329,7 +701,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>22</slash:comments>
+                                    <slash:comments>44</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/starlink_laser-1152x648.jpg" width="1152">
@@ -363,7 +735,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>58</slash:comments>
+                                    <slash:comments>121</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/ignobel3-1152x648.jpg" width="1152">
@@ -395,408 +767,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>49</slash:comments>
+                                    <slash:comments>124</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/cards-against-elon-musk-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/cards-against-elon-musk-500x500.jpg" width="500"/>
 <media:credit>Aurich Lawson | Cards Against Humanity</media:credit></media:content>
-            </item>
-                    <item>
-                <title>M5 iPad Pro tested: Stop me if you’ve heard this one before</title>
-                <link>https://arstechnica.com/gadgets/2025/10/testing-apples-m5-ipad-pro-future-proofing-for-apples-perennial-overkill-tablet/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/10/testing-apples-m5-ipad-pro-future-proofing-for-apples-perennial-overkill-tablet/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Tue, 21 Oct 2025 17:52:42 +0000</pubDate>
-                		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[Apple M5]]></category>
-		<category><![CDATA[ipad]]></category>
-		<category><![CDATA[ipad pro]]></category>
-		<category><![CDATA[reviews]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/testing-apples-m5-ipad-pro-future-proofing-for-apples-perennial-overkill-tablet/</guid>
-
-                                    <description>
-                        <![CDATA[It's a gorgeous tablet, but what does an iPad need with more processing power?]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>This year’s iPad Pro is what you might call a “chip refresh” or an “internal refresh.” These refreshes are what Apple generally does for its products for one or two or more years after making a larger external design change. Leaving the physical design alone preserves compatibility with the accessory ecosystem.</p>
-<p>For the Mac, chip refreshes are still pretty exciting to me, because many people who use a Mac will, very occasionally, assign it some kind of task where they need it to work as hard and fast as it can, for an extended period of time. You could be a developer compiling a large and complex app, or you could be a podcaster or streamer editing or exporting an audio or video file, or maybe you’re just playing a game. The power and flexibility of the operating system, and first- and third-party apps made to take advantage of that power and flexibility, mean that “more speed” is still exciting, even if it takes a few years for that speed to add up to something users will consistently notice and appreciate.</p>
-<p>And then there’s the iPad Pro. Especially since Apple shifted to using the same M-series chips that it uses in Macs, most iPad Pro reviews contain some version of “this is great hardware that is much faster than it needs to be for anything the iPad does.” To wit, <a href="https://arstechnica.com/gadgets/2024/05/m4-ipad-pro-review-well-now-youre-just-showing-off/">our review of the M4 iPad Pro</a> from May 2024:</p><p><a href="https://arstechnica.com/gadgets/2025/10/testing-apples-m5-ipad-pro-future-proofing-for-apples-perennial-overkill-tablet/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/10/testing-apples-m5-ipad-pro-future-proofing-for-apples-perennial-overkill-tablet/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>43</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/IMG_6198-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/IMG_6198-500x500.jpeg" width="500"/>
-<media:credit>Andrew Cunningham</media:credit><media:text>Apple's 13-inch M5 iPad Pro.</media:text></media:content>
-            </item>
-                    <item>
-                <title>HBO Max prices increase by up to $20 today</title>
-                <link>https://arstechnica.com/gadgets/2025/10/warner-bros-discovery-raises-hbo-max-prices-as-it-puts-itself-up-for-sale/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/10/warner-bros-discovery-raises-hbo-max-prices-as-it-puts-itself-up-for-sale/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Tue, 21 Oct 2025 17:20:10 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[acquisition]]></category>
-		<category><![CDATA[hbo max]]></category>
-		<category><![CDATA[streaming]]></category>
-		<category><![CDATA[warner bros. discovery]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/warner-bros-discovery-raises-hbo-max-prices-as-it-puts-itself-up-for-sale/</guid>
-
-                                    <description>
-                        <![CDATA[HBO Max subscription fees have risen every year for the past three years.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>HBO Max subscriptions are getting up to 10 percent more expensive, owner Warner Bros. Discovery (WBD) revealed today.</p>
-<p>HBO Max’s ad plan is going from $10 per month to $11/month. The ad-free plan is going from $17/month to $18.49/month. And the premium ad-free plan (which adds 4K support, Dolby Atmos, and the ability to download more content) is increasing from $21 to $23.</p>
-<p>Meanwhile, prices for HBO Max’s <a href="https://arstechnica.com/gadgets/2024/02/lawsuit-against-prime-video-ads-shows-perils-of-annual-streaming-subscriptions/">annual plans</a> are increasing from $100 to $110 with ads, $170 to $185 without ads, and $210 to $230 for the premium tier.</p><p><a href="https://arstechnica.com/gadgets/2025/10/warner-bros-discovery-raises-hbo-max-prices-as-it-puts-itself-up-for-sale/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/10/warner-bros-discovery-raises-hbo-max-prices-as-it-puts-itself-up-for-sale/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>89</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/02/peacemakerTOP-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/02/peacemakerTOP-500x500.jpg" width="500"/>
-<media:credit>HBO Max</media:credit><media:text>A scene from the HBO Max original series &lt;em&gt;Peacemaker&lt;/em&gt;.</media:text></media:content>
-            </item>
-                    <item>
-                <title>MacBook Pro review: Apple’s most awkward laptop is the first to show off Apple M5</title>
-                <link>https://arstechnica.com/gadgets/2025/10/m5-macbook-pro-review-fifth-generation-apple-silicon-in-a-familiar-wrapper/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/10/m5-macbook-pro-review-fifth-generation-apple-silicon-in-a-familiar-wrapper/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Tue, 21 Oct 2025 17:00:45 +0000</pubDate>
-                		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[Apple M5]]></category>
-		<category><![CDATA[Apple silicon]]></category>
-		<category><![CDATA[MacBook]]></category>
-		<category><![CDATA[MacBook Pro]]></category>
-		<category><![CDATA[MacOS]]></category>
-		<category><![CDATA[reviews]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/m5-macbook-pro-review-fifth-generation-apple-silicon-in-a-familiar-wrapper/</guid>
-
-                                    <description>
-                        <![CDATA[Apple M5 trades blows with Pro and Max chips from older generations.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>When I’m asked to recommend a Mac laptop for people, Apple’s low-end 14-inch MacBook Pro usually gets lost in the shuffle. It competes with the 13- and 15-inch MacBook Air, significantly cheaper computers that meet or exceed the “good enough” boundary for the vast majority of computer users. The basic MacBook Pro also doesn’t have the benefit of Apple’s Pro or Max-series chips, which come with many more CPU cores, substantially better graphics performance, and higher memory capacity for true professionals and power users.</p>
-<p>But the low-end Pro makes sense for a certain type of power user. At $1,599, it’s the cheapest way to get Apple’s best laptop screen, with mini LED technology, a higher 120 Hz ProMotion refresh rate for smoother scrolling and animations, and the optional but lovely nano-texture (read: matte) finish. Unlike the MacBook Air, it comes with a cooling fan, which has historically meant meaningfully better sustained performance and less performance throttling. And it’s also Apple’s cheapest laptop with three Thunderbolt ports, an HDMI port, and an SD card slot, all genuinely useful for people who want to plug lots of things in without having multiple dongles or a bulky dock competing for the Air’s two available ports.</p>
-<p>If you don’t find any of those arguments in the basic MacBook Pro’s favor convincing, that’s fine. The new M5 version makes almost no changes to the laptop other than the chip, so it’s unlikely to change your calculus if you already looked at the M3 or M4 version and passed it up. But it <em>is</em> the first Mac to ship with <a href="https://www.apple.com/newsroom/2025/10/apple-unleashes-m5-the-next-big-leap-in-ai-performance-for-apple-silicon/">the M5</a>, the first chip in Apple’s fifth-generation chip family and a preview of what’s to come for (<a href="https://www.apple.com/mac-pro/">almost</a>?) every other Mac in the lineup. So you can at least be interested in the 14-inch MacBook Pro as a showcase for a new processor, if not as a retail product in and of itself.</p><p><a href="https://arstechnica.com/gadgets/2025/10/m5-macbook-pro-review-fifth-generation-apple-silicon-in-a-familiar-wrapper/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/10/m5-macbook-pro-review-fifth-generation-apple-silicon-in-a-familiar-wrapper/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>42</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/IMG_6215-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/IMG_6215-500x500-1761024763.jpeg" width="500"/>
-<media:credit>Andrew Cunningham</media:credit><media:text>Apple's M5 MacBook Pro.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Google Fi is getting enhanced web calls and messaging, AI bill summaries</title>
-                <link>https://arstechnica.com/gadgets/2025/10/google-fi-is-getting-enhanced-web-calls-and-messaging-ai-bill-summaries/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/10/google-fi-is-getting-enhanced-web-calls-and-messaging-ai-bill-summaries/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Tue, 21 Oct 2025 17:00:13 +0000</pubDate>
-                		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[google fi]]></category>
-		<category><![CDATA[mobile data]]></category>
-		<category><![CDATA[mvno]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/google-fi-is-getting-enhanced-web-calls-and-messaging-ai-bill-summaries/</guid>
-
-                                    <description>
-                        <![CDATA[Google's MVNO gets better web support, clearer audio, and yes, more AI.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Google’s Fi cellular service is <a href="http://blog.google/products/google-fi-wireless/ai-updates-auto-connect-bill-summaries">getting an upgrade</a>, and since this is 2025, there’s plenty of AI involved. You’ll be able to ask Google AI questions about your bill, and a different variation of AI will improve call quality. AI haters need not despair—there are also some upgrades to connectivity and Fi web features.</p>
-<p>As part of this update, a new Gemini-powered chatbot will soon be turned loose on your billing statements. The idea is that you can get bill summaries and ask specific questions of the robot without waiting for a real person. Google claims that testers have had positive experiences with the AI billing bot, so it’s rolling the feature out widely.</p>
-<p>Next month, Google also plans to flip the switch on an AI audio enhancement. The new “optimized audio” will use AI to filter out background sounds like wind or crowd noise. If you’re using a Pixel, you already have a similar feature for your end of the call. However, this update will reduce background noise on the other end as well. Google’s MVNO has also added support for HD and HD+ calling on supported connections.</p><p><a href="https://arstechnica.com/gadgets/2025/10/google-fi-is-getting-enhanced-web-calls-and-messaging-ai-bill-summaries/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/10/google-fi-is-getting-enhanced-web-calls-and-messaging-ai-bill-summaries/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>29</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2019/09/Google-Fi-1152x648.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2019/09/Google-Fi-500x500.png" width="500"/>
-<media:credit>Google</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Amazon’s DNS problem knocked out half the web, likely costing billions</title>
-                <link>https://arstechnica.com/tech-policy/2025/10/amazons-dns-problem-knocked-out-half-the-web-likely-costing-billions/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/10/amazons-dns-problem-knocked-out-half-the-web-likely-costing-billions/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Tue, 21 Oct 2025 16:21:12 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[amazon outage]]></category>
-		<category><![CDATA[Amazon Web Services]]></category>
-		<category><![CDATA[AWS]]></category>
-		<category><![CDATA[aws outage]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/10/amazons-dns-problem-knocked-out-half-the-web-likely-costing-billions/</guid>
-
-                                    <description>
-                        <![CDATA[Amazon’s outage is over. But backlash over billions in losses has just started.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>On Monday afternoon, <a href="https://health.aws.amazon.com/health/status">Amazon confirmed</a> that an outage affecting Amazon Web Services’ cloud hosting, which had impacted millions across the Internet, had been resolved.</p>
-<p>Considered the worst outage since <a href="https://arstechnica.com/information-technology/2024/07/major-outages-at-crowdstrike-microsoft-leave-the-world-with-bsods-and-confusion/">last year’s CrowdStrike chaos</a>, Amazon’s outage caused “global turmoil,” Reuters <a href="https://www.reuters.com/business/retail-consumer/amazons-cloud-unit-reports-outage-several-websites-down-2025-10-20/">reported</a>. AWS is the world’s largest cloud provider and, therefore, the “backbone of much of the Internet,” ZDNet <a href="https://www.zdnet.com/home-and-office/networking/the-massive-aws-outage-that-broke-half-the-internet-is-finally-over-heres-what-happened/">noted</a>. Ultimately, more than 28 AWS services were disrupted, causing perhaps billions in damages, one analyst <a href="https://www.cnn.com/business/live-news/amazon-tech-outage-10-20-25-intl">estimated</a> for CNN.</p>
-<p>Popular apps like Snapchat, Signal, and Reddit went dark. Flights got delayed. Banks and financial services went down. Massive games like <em>Fortnite</em> could not be accessed. Some of Amazon’s own services were hit, too, including its e-commerce platform, Alexa, and Prime Video. Ultimately, millions of businesses simply stopped operating, unable to log employees into their systems or accept payments for their goods.</p><p><a href="https://arstechnica.com/tech-policy/2025/10/amazons-dns-problem-knocked-out-half-the-web-likely-costing-billions/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/10/amazons-dns-problem-knocked-out-half-the-web-likely-costing-billions/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>135</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2241879469-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2241879469-500x500.jpg" width="500"/>
-<media:credit>Anadolu / Contributor | Anadolu</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Even with protections, wolves still fear humans</title>
-                <link>https://arstechnica.com/science/2025/10/even-with-protections-wolves-still-fear-humans/</link>
-                                    <comments>https://arstechnica.com/science/2025/10/even-with-protections-wolves-still-fear-humans/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jacek Krywko]]>
-                </dc:creator>
-                <pubDate>Tue, 21 Oct 2025 14:43:20 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[Ecology]]></category>
-		<category><![CDATA[humans]]></category>
-		<category><![CDATA[hunting]]></category>
-		<category><![CDATA[wolves]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/10/even-with-protections-wolves-still-fear-humans/</guid>
-
-                                    <description>
-                        <![CDATA[European wolves flee human conversation faster than dogs' barking.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>In May 2025, the European Parliament changed the <a href="https://www.europarl.europa.eu/news/en/press-room/20250502IPR28221/wolves-meps-agree-to-change-eu-protection-status">status of wolves</a> in the EU from “strictly protected” to “protected,” which opened the way for its member states to allow hunting under certain conditions, such as protecting livestock. One of the <a href="https://op.europa.eu/en/publication-detail/-/publication/5d017e4e-9efc-11ee-b164-01aa75ed71a1/language-en">arguments</a> behind this change was that the “tolerance of modern society towards wolves” led to the emergence of “fearless wolves” that are no longer afraid of people.</p>
-<p>“Regulators made it clear, though, that there is no scientific evidence to back this up,” says Michael Clinchy, a zoologist at Western University in London, Canada. “So we did the first-of-its-kind study to find out if wolves have really lost their fear of humans. We proved there is no such thing as a fearless wolf.”</p>
-<h2>Red riding hood</h2>
-<p>The big bad wolf trope is found in plenty of our myths and fables, with Little Red Riding Hood being probably the most famous example. This mythical fear of wolves, combined with real damage to livestock, led to extensive hunting. By the mid-20th century, we’d pushed wolves to the verge of extinction in Western and Central Europe. Human-wolf encounters became very rare, and the big bad wolf myth faded away. But starting in the 1970s, wolves became a protected species across Europe and North America, which caused wolf populations to bounce back and reoccupy some of their old habitats.</p><p><a href="https://arstechnica.com/science/2025/10/even-with-protections-wolves-still-fear-humans/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/10/even-with-protections-wolves-still-fear-humans/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>69</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2206876894-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2206876894-500x500.jpg" width="500"/>
-<media:credit>Picture Alliance</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Big Tech may fall short of green energy targets due to proposed rule changes</title>
-                <link>https://arstechnica.com/tech-policy/2025/10/big-tech-may-fall-short-of-green-energy-targets-due-to-proposed-rule-changes/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/10/big-tech-may-fall-short-of-green-energy-targets-due-to-proposed-rule-changes/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kenza Bryan, Financial Times]]>
-                </dc:creator>
-                <pubDate>Tue, 21 Oct 2025 13:11:27 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[big tech]]></category>
-		<category><![CDATA[carbon credits]]></category>
-		<category><![CDATA[data centers]]></category>
-		<category><![CDATA[green energy]]></category>
-		<category><![CDATA[pollution]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/10/big-tech-may-fall-short-of-green-energy-targets-due-to-proposed-rule-changes/</guid>
-
-                                    <description>
-                        <![CDATA[Goal is to create a "credible link" between companies and power they invest in.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The world’s leading authority on carbon accounting has proposed stricter disclosure rules that are set to make it more challenging for large power users such as Amazon and Meta to hit their climate targets.</p>
-<p>The EU, California, and the International Financial Reporting Standards all draw on the voluntary Greenhouse Gas Protocol oversight body in their guidelines on how companies should disclose their carbon footprints.</p>
-<p>This week, the Protocol proposed the first update in a decade to how it measures power-sector emissions, in a move that would upend the way many tech, industrial, and utilities groups account for clean energy investments.</p><p><a href="https://arstechnica.com/tech-policy/2025/10/big-tech-may-fall-short-of-green-energy-targets-due-to-proposed-rule-changes/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/10/big-tech-may-fall-short-of-green-energy-targets-due-to-proposed-rule-changes/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>31</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/bigtechgreen-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/bigtechgreen-500x500.jpg" width="500"/>
-<media:credit>FT montage/Bloomberg/Getty Images</media:credit><media:text>Big Tech companies are able to pollute more each year as their AI data centers boom, while claiming they have hit or are progressing towards 100% renewable energy goals.</media:text></media:content>
-            </item>
-                    <item>
-                <title>It wasn’t space debris that struck a United Airlines plane—it was a weather balloon</title>
-                <link>https://arstechnica.com/space/2025/10/the-mystery-object-that-struck-a-plane-in-flight-it-was-probably-a-weather-balloon/</link>
-                                    <comments>https://arstechnica.com/space/2025/10/the-mystery-object-that-struck-a-plane-in-flight-it-was-probably-a-weather-balloon/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Tue, 21 Oct 2025 02:54:29 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[flight 1093]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[United Airlines]]></category>
-		<category><![CDATA[WindBorne]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2025/10/the-mystery-object-that-struck-a-plane-in-flight-it-was-probably-a-weather-balloon/</guid>
-
-                                    <description>
-                        <![CDATA[WindBorne says its balloons are compliant with all applicable airspace regulations. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The <a href="https://arstechnica.com/space/2025/10/something-from-space-may-have-just-struck-a-united-airlines-flight-over-utah/">mysterious impact of a United Airlines aircraft</a> in flight last week has sparked plenty of theories as to its cause, from space debris to high-flying birds.</p>
-<p>However the question of what happened to flight 1093, and its severely damaged front window, appears to be answered in the form of a weather balloon.</p>
-<p>“I think this was a WindBorne balloon,” Kai Marshland, co-founder of the weather prediction company WindBorne Systems, told Ars in an email on Monday evening. “We learned about UA1093 and the potential that it was related to one of our balloons at 11 pm PT on Sunday and immediately looked into it. At 6 am PT, we sent our preliminary investigation to both NTSB and FAA, and are working with both of them to investigate further.”</p><p><a href="https://arstechnica.com/space/2025/10/the-mystery-object-that-struck-a-plane-in-flight-it-was-probably-a-weather-balloon/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/10/the-mystery-object-that-struck-a-plane-in-flight-it-was-probably-a-weather-balloon/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>166</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/68a6ba53499bdd827f510e35_54fca9353dfe2c2a33bb46167c61cd64_payload-block3-957x648.png" width="957">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/68a6ba53499bdd827f510e35_54fca9353dfe2c2a33bb46167c61cd64_payload-block3-500x500-1761015083.png" width="500"/>
-<media:credit>WindBorne</media:credit><media:text>Image of a WindBorne weather balloon. </media:text></media:content>
-            </item>
-                    <item>
-                <title>NSO permanently barred from targeting WhatsApp users with Pegasus spyware</title>
-                <link>https://arstechnica.com/security/2025/10/nso-permanently-barred-from-targeting-whatsapp-users-with-pegasus-spyware/</link>
-                                    <comments>https://arstechnica.com/security/2025/10/nso-permanently-barred-from-targeting-whatsapp-users-with-pegasus-spyware/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Mon, 20 Oct 2025 22:18:22 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[espionage]]></category>
-		<category><![CDATA[NSO]]></category>
-		<category><![CDATA[pegasus]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/nso-permanently-barred-from-targeting-whatsapp-users-with-pegasus-spyware/</guid>
-
-                                    <description>
-                        <![CDATA[Ruling holds that defeating end-to-end encryption in WhatsApp harms Meta's business.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A federal judge has ordered spyware maker <a href="https://www.nsogroup.com/">NSO</a> to stop using its Pegasus app to target or infect users of WhatsApp.</p>
-<p>The <a href="https://storage.courtlistener.com/recap/gov.uscourts.cand.350613/gov.uscourts.cand.350613.802.0.pdf">ruling</a>, issued Friday by Phyllis J. Hamilton of the US District Court of the District of Northern California, grants a permanent injunction sought by WhatsApp owner Meta in a case it brought against NSO <a href="https://arstechnica.com/information-technology/2019/10/whatsapp-suit-says-israeli-spyware-maker-exploited-its-app-to-infect-1400-users/">in 2019</a>. The lawsuit alleged that Meta caught NSO trying to surreptitiously infect about 1,400 mobile phones—many belonging to attorneys, journalists, human-rights activists, political dissidents, diplomats, and senior foreign government officials—with Pegasus. As part of the campaign, NSO created fake WhatsApp accounts and targeted Meta infrastructure. The suit sought monetary awards and an injunction against the practice.</p>
-<h2>Setting a precedent</h2>
-<p>Friday’s ruling ordered NSO to permanently cease targeting WhatsApp users, attempting to infect their devices, or intercepting WhatsApp messages, which are end-to-end encrypted using the open source <a href="https://arstechnica.com/security/2025/10/why-signals-post-quantum-makeover-is-an-amazing-engineering-achievement/">Signal Protocol</a>. Hamilton also ruled that NSO must delete any data it obtained when targeting the WhatsApp users.</p><p><a href="https://arstechnica.com/security/2025/10/nso-permanently-barred-from-targeting-whatsapp-users-with-pegasus-spyware/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2025/10/nso-permanently-barred-from-targeting-whatsapp-users-with-pegasus-spyware/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>95</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/whatsapp-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/whatsapp-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Why did NASA’s chief just shake up the agency’s plans to land on the Moon?</title>
-                <link>https://arstechnica.com/space/2025/10/nasas-acting-leader-seeks-to-keep-his-job-with-new-lunar-lander-announcement/</link>
-                                    <comments>https://arstechnica.com/space/2025/10/nasas-acting-leader-seeks-to-keep-his-job-with-new-lunar-lander-announcement/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Mon, 20 Oct 2025 21:53:54 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[administrator]]></category>
-		<category><![CDATA[duffy]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[space]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2025/10/nasas-acting-leader-seeks-to-keep-his-job-with-new-lunar-lander-announcement/</guid>
-
-                                    <description>
-                        <![CDATA["The president wants to make sure we beat the Chinese."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>NASA acting Administrator Sean Duffy made two television appearances on Monday morning in which he shook up the space agency’s plans to return humans to the Moon.</p>
-<p>Speaking on Fox News, where the secretary of transportation frequently appears in his acting role as NASA chief, Duffy said SpaceX has fallen behind in its efforts to develop the Starship vehicle as a lunar lander. Duffy also indirectly acknowledged that NASA’s projected target of a 2027 crewed lunar landing is no longer achievable. Accordingly, he said he intended to expand the competition to develop a lander capable of carrying humans down to the Moon from lunar orbit and back.</p>
-<p>“They’re behind schedule, and so the President wants to make sure we beat the Chinese,” <a href="https://x.com/SecDuffyNASA/status/1980243865400701369">Duffy said</a> of SpaceX. “He wants to get there in his term. So I’m in the process of opening that contract up. I think we’ll see companies like Blue [Origin] get involved, and maybe others. We’re going to have a space race in regard to American companies competing to see who can actually lead us back to the Moon first.”</p><p><a href="https://arstechnica.com/space/2025/10/nasas-acting-leader-seeks-to-keep-his-job-with-new-lunar-lander-announcement/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/10/nasas-acting-leader-seeks-to-keep-his-job-with-new-lunar-lander-announcement/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>251</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/NHQ202507310028medium-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/NHQ202507310028medium-500x500.jpg" width="500"/>
-<media:credit>NASA</media:credit><media:text>Interim NASA Administrator Sean Duffy provides remarks at a briefing prior to the Crew 11 launch in August.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Claude Code gets a web version—but it’s the new sandboxing that really matters</title>
-                <link>https://arstechnica.com/ai/2025/10/claude-code-gets-a-web-version-but-its-the-new-sandboxing-that-really-matters/</link>
-                                    <comments>https://arstechnica.com/ai/2025/10/claude-code-gets-a-web-version-but-its-the-new-sandboxing-that-really-matters/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Samuel Axon]]>
-                </dc:creator>
-                <pubDate>Mon, 20 Oct 2025 20:45:26 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[agentic AI]]></category>
-		<category><![CDATA[AI Agent]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[Claude]]></category>
-		<category><![CDATA[Claude Code]]></category>
-		<category><![CDATA[coding]]></category>
-		<category><![CDATA[developer]]></category>
-		<category><![CDATA[GitHub]]></category>
-		<category><![CDATA[LLM]]></category>
-		<category><![CDATA[Programming]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/claude-code-gets-a-web-version-but-its-the-new-sandboxing-that-really-matters/</guid>
-
-                                    <description>
-                        <![CDATA[Sandboxing lessens hassle, but fire-and-forget agentic tools still pose risks.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Anthropic has <a href="https://www.anthropic.com/news/claude-code-on-the-web">added web and mobile interfaces</a> for Claude Code, its immensely popular command-line interface (CLI) agentic AI coding tool.</p>
-<p>The web interface appears to be well-baked at launch, but the mobile version is limited to iOS and is in an earlier stage of development.</p>
-<p>The web version of Claude Code can be given access to a GitHub repository. Once that’s done, developers can give it general marching orders like “add real-time inventory tracking to the dashboard.” As with the CLI version, it gets to work, with updates along the way approximating where it’s at and what it’s doing. The web interface supports the recently implemented Claude Code capability to take suggestions or requested changes while it’s in the middle of working on a task. (Previously, if you saw it doing something wrong or missing something, you often had to cancel and start over.)</p><p><a href="https://arstechnica.com/ai/2025/10/claude-code-gets-a-web-version-but-its-the-new-sandboxing-that-really-matters/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/10/claude-code-gets-a-web-version-but-its-the-new-sandboxing-that-really-matters/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>51</slash:comments>
-                
-                
-                <media:content medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Screenshot-2025-10-20-at-3.36.24-PM.png">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Screenshot-2025-10-20-at-3.36.24-PM-500x500.png" width="500"/>
-<media:text>The vague marketing image that accompanied Anthropic's announcement.</media:text></media:content>
             </item>
             </channel>
 </rss>
