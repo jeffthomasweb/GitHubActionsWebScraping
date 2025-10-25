@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Fri, 24 Oct 2025 03:29:37 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 24 Oct 2025 22:26:30 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,492 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Are you the asshole? Of course not!—quantifying LLMs’ sycophancy problem</title>
+                <link>https://arstechnica.com/ai/2025/10/are-you-the-asshole-of-course-not-quantifying-llms-sycophancy-problem/</link>
+                                    <comments>https://arstechnica.com/ai/2025/10/are-you-the-asshole-of-course-not-quantifying-llms-sycophancy-problem/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 22:26:30 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AI sycophancy]]></category>
+		<category><![CDATA[facts]]></category>
+		<category><![CDATA[hallucination]]></category>
+		<category><![CDATA[made up]]></category>
+		<category><![CDATA[sycophancy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/are-you-the-asshole-of-course-not-quantifying-llms-sycophancy-problem/</guid>
+
+                                    <description>
+                        <![CDATA[In new research, AI models show a troubling tendency to agree with whatever the user says.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers and users of LLMs have long been aware that AI models have <a href="https://arstechnica.com/ai/2025/06/ai-chatbots-tell-users-what-they-want-to-hear-and-thats-problematic/">a troubling tendency to tell people what they want to hear</a>, even if that means being less accurate. But many reports of this phenomenon amount to mere anecdotes that don’t provide much visibility into how common this sycophantic behavior is across frontier LLMs.</p>
+<p>Two recent research papers have come at this problem a bit more rigorously, though, taking different tacks in attempting to quantify exactly how likely an LLM is to listen when a user provides factually incorrect or socially inappropriate information in a prompt.</p>
+<h2>Solve this flawed theorem for me</h2>
+<p>In <a href="https://arxiv.org/pdf/2510.04721">one pre-print study</a> published this month, researchers from Sofia University and ETH Zurich looked at how LLMs respond when false statements are presented as the basis for difficult mathematical proofs and problems. The <a href="https://www.sycophanticmath.ai/">BrokenMath benchmark</a> that the researchers constructed starts with “a diverse set of challenging theorems from advanced mathematics competitions held in 2025.” Those problems are then “perturbed” into versions that are “demonstrably false but plausible” by an LLM that’s checked with expert review.</p><p><a href="https://arstechnica.com/ai/2025/10/are-you-the-asshole-of-course-not-quantifying-llms-sycophancy-problem/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/10/are-you-the-asshole-of-course-not-quantifying-llms-sycophancy-problem/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>32</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2195752979-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2195752979-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>If it's OK by you, it's OK by me!</media:text></media:content>
+            </item>
+                    <item>
+                <title>A single point of failure triggered the Amazon outage affecting millions</title>
+                <link>https://arstechnica.com/gadgets/2025/10/a-single-point-of-failure-triggered-the-amazon-outage-affecting-millions/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/10/a-single-point-of-failure-triggered-the-amazon-outage-affecting-millions/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 21:53:20 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[AWS]]></category>
+		<category><![CDATA[EC2]]></category>
+		<category><![CDATA[race conditions]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/a-single-point-of-failure-triggered-the-amazon-outage-affecting-millions/</guid>
+
+                                    <description>
+                        <![CDATA[A DNS manager in a single region of Amazon's sprawling network touched off a 16-hour debacle.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The outage that hit Amazon Web Services and took out vital services worldwide was the result of a single failure that cascaded from system to system within Amazon’s sprawling network, according to a post-mortem from company engineers.</p>
+<p>The series of failures lasted for 15 hours and 32 minutes, Amazon <a href="https://aws.amazon.com/message/101925/">said</a>. Network intelligence company Ookla <a href="https://www.ookla.com/articles/aws-outage-q4-2025">said</a> its DownDetector service received more than 17 million reports of disrupted services offered by 3,500 organizations. The three biggest countries where reports originated were the US, the UK, and Germany. Snapchat, AWS, and Roblox were the most reported services affected. Ookla said the event was “among the largest internet outages on record for Downdetector.”</p>
+<h2>It’s <em>always</em> DNS</h2>
+<p>Amazon said the root cause of the outage was a software bug in software running the DynamoDB DNS management system. The system monitors the stability of load balancers by, among other things, periodically creating new DNS configurations for endpoints within the AWS network. A race condition is an error that makes a process dependent on the timing or sequence events that are variable and outside the developers’ control. The result can be unexpected behavior and potentially harmful failures.</p><p><a href="https://arstechnica.com/gadgets/2025/10/a-single-point-of-failure-triggered-the-amazon-outage-affecting-millions/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/10/a-single-point-of-failure-triggered-the-amazon-outage-affecting-millions/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>36</slash:comments>
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/network-outage.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/network-outage-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Man takes herbal pain quackery, nearly dies, spends months in hospital</title>
+                <link>https://arstechnica.com/health/2025/10/man-takes-herbal-pain-quackery-nearly-dies-spends-months-in-hospital/</link>
+                                    <comments>https://arstechnica.com/health/2025/10/man-takes-herbal-pain-quackery-nearly-dies-spends-months-in-hospital/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 21:29:30 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[case report]]></category>
+		<category><![CDATA[cortisol]]></category>
+		<category><![CDATA[herbal supplements]]></category>
+		<category><![CDATA[hormones]]></category>
+		<category><![CDATA[supplements]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2025/10/man-takes-herbal-pain-quackery-nearly-dies-spends-months-in-hospital/</guid>
+
+                                    <description>
+                        <![CDATA[The 61-year-old had wounds all over, a bacterial infection, and needed intensive care.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A 61-year-old man in California is lucky to be alive after a combination of herbal supplements he was taking for joint pain ended up utterly wrecking his body, landing him in intensive care and in a delirious state for months. His case is reported in <a href="https://www.acpjournals.org/doi/10.7326/aimcc.2024.1203?utm_source=cmpnr&amp;utm_campaign=aimcc_20251021&amp;utm_content=1&amp;cmp=1&amp;utm_medium=email">the Annals of Internal Medicine: Clinical Cases</a>.</p>
+<p>The man turned up at a hospital in San Francisco in bad shape, but with nonspecific problems that had begun just two days earlier. His back hurt, he was feverish, nauseous, bloated, and he hadn’t been eating much. He was so weak he couldn’t walk or get out of bed without help. His heart rate and breathing rate were high. His blood pressure was low. There were multiple wounds on his lower body in various stages of healing.</p>
+<p>Initial exams and lab work revealed <em>Staphylococcus aureus </em>bacteria in his blood. There was also an abscess on his shoulder and an infection in and around his spine, which was worsening. Doctors wanted to perform a surgical procedure to relieve the pressure building up on his spinal cord and nerves, but his blood pressure was too low—and then he went into hemorrhagic shock from bleeding in his gastrointestinal tract. Doctors transferred him to the intensive care unit.</p><p><a href="https://arstechnica.com/health/2025/10/man-takes-herbal-pain-quackery-nearly-dies-spends-months-in-hospital/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/10/man-takes-herbal-pain-quackery-nearly-dies-spends-months-in-hospital/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>61</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/11/GettyImages-462760366-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2019/11/GettyImages-462760366-500x500.jpg" width="500"/>
+<media:credit>Getty | Scott Olson</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Clinical trial of a technique that could give everyone the best antibodies</title>
+                <link>https://arstechnica.com/science/2025/10/dna-and-jolts-of-electricity-get-people-to-make-optimal-antibodies/</link>
+                                    <comments>https://arstechnica.com/science/2025/10/dna-and-jolts-of-electricity-get-people-to-make-optimal-antibodies/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 20:58:11 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[antibodies]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[DNA]]></category>
+		<category><![CDATA[electroporation]]></category>
+		<category><![CDATA[medicine]]></category>
+		<category><![CDATA[plasmid]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/10/dna-and-jolts-of-electricity-get-people-to-make-optimal-antibodies/</guid>
+
+                                    <description>
+                        <![CDATA[If we ID the DNA for a great antibody, anyone can now make it.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>One of the things that emerging diseases, including the COVID and Zika pandemics, have taught us is that it’s tough to keep up with infectious diseases in the modern world. Things like air travel can allow a virus to spread faster than our ability to develop therapies. But that doesn’t mean biotech has stood still; companies have been developing technologies that could allow us to rapidly respond to future threats.</p>
+<p>There are a <em>lot</em> of ideas out there. But this week saw some early clinical trial results of one technique that could be useful for a range of infectious diseases. We’ll go over the results as a way to illustrate the sort of thinking that’s going on, along with the technologies we have available to pursue the resulting ideas.</p>
+<h2>The best antibodies</h2>
+<p>Any emerging disease leaves a mass of antibodies in its wake—those made by people in response to infections and vaccines, those made by lab animals we use to study the infectious agent, and so on. Some of these only have a weak affinity for the disease-causing agent, but some of them turn out to be what are called “broadly neutralizing.” These stick with high affinity not only to the original pathogen, but most or all of its variants, and possibly some related viruses.</p><p><a href="https://arstechnica.com/science/2025/10/dna-and-jolts-of-electricity-get-people-to-make-optimal-antibodies/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/10/dna-and-jolts-of-electricity-get-people-to-make-optimal-antibodies/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>26</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/abstractdna-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/abstractdna-500x500.jpg" width="500"/>
+<media:credit>Boris SV via Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>The Android-powered Boox Palma 2 Pro fits in your pocket, but it’s not a phone</title>
+                <link>https://arstechnica.com/gadgets/2025/10/the-android-powered-boox-palma-2-pro-fits-in-your-pocket-but-its-not-a-phone/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/10/the-android-powered-boox-palma-2-pro-fits-in-your-pocket-but-its-not-a-phone/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 20:07:30 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[boox]]></category>
+		<category><![CDATA[e-readers]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/the-android-powered-boox-palma-2-pro-fits-in-your-pocket-but-its-not-a-phone/</guid>
+
+                                    <description>
+                        <![CDATA[This e-reader has a color screen and 5G.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Digital reading devices like the Kindle have existed for almost 20 years, and the standard eReader form factor has hardly changed at all. Amazon, Boox, and a few other companies have offered larger E Ink screens, but how about something smaller? Boox has unveiled its second-generation Palma e-reader, which still fits in your pocket but adds a color screen and mobile data connectivity.</p>
+<p>The first-gen Palma launched last year, earning fans who saw it as a way to read and access some apps without the full spate of distracting smartphone experiences. Boox e-readers are essentially Android tablets with E Ink screens and a few software quirks that arise from their unofficial Google Play implementation. The second-gen Palma might offer more opportunities for distraction because it’s <em>almost</em> a smartphone.</p>
+<p>The Palma 2 Pro upgrades the 6.1-inch monochrome display from the original to a 6.13-inch color E Ink Kaleido display. That’s the same technology used in Amazon’s <a href="https://arstechnica.com/gadgets/2025/04/for-regular-books-amazons-280-kindle-colorsoft-falls-short-of-the-paperwhite/">Kindle Colorsoft</a>. The Amazon reader is a bit larger with its 7-inch display and chunkier bezels. Of course, the Kindle isn’t trying to fit in your pocket like the Palma 2 Pro, which is roughly the size and shape of a phone.</p><p><a href="https://arstechnica.com/gadgets/2025/10/the-android-powered-boox-palma-2-pro-fits-in-your-pocket-but-its-not-a-phone/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/10/the-android-powered-boox-palma-2-pro-fits-in-your-pocket-but-its-not-a-phone/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>42</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Boox-Palam-2-Pro-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Boox-Palam-2-Pro-500x500.jpg" width="500"/>
+<media:credit>Boox</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Tech billionaires are now shaping the militarization of American cities</title>
+                <link>https://arstechnica.com/tech-policy/2025/10/troops-in-us-cities-tech-billionaires-are-shaping-that-too/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/10/troops-in-us-cities-tech-billionaires-are-shaping-that-too/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Nate Anderson]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 18:55:47 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[benioff]]></category>
+		<category><![CDATA[politics]]></category>
+		<category><![CDATA[Trump]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/10/troops-in-us-cities-tech-billionaires-are-shaping-that-too/</guid>
+
+                                    <description>
+                        <![CDATA[Money means access to power—and tech has plenty of money.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Yesterday, Donald Trump <a href="https://truthsocial.com/@realDonaldTrump/posts/115424560133045127">announced on social media</a> that he had been planning to “surge” troops into San Francisco this weekend—but was dissuaded from doing so by several tech billionaires.</p>
+<p>“Friends of mine who live in the area called last night to ask me not to go forward with the surge,” Trump wrote.</p>
+<p>Who are these “friends”? Trump named “great people like [Nvidia CEO] Jensen Huang, [Salesforce CEO] Marc Benioff, and others” who told him that “the future of San Francisco is great. They want to give it a ‘shot.’ Therefore, we will not surge San Francisco on Saturday. Stay tuned!”</p><p><a href="https://arstechnica.com/tech-policy/2025/10/troops-in-us-cities-tech-billionaires-are-shaping-that-too/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/10/troops-in-us-cities-tech-billionaires-are-shaping-that-too/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>122</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2232417355-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2232417355-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>San Francisco.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Tesla’s “Mad Max” mode is now under federal scrutiny</title>
+                <link>https://arstechnica.com/cars/2025/10/feds-probe-tesla-about-its-mad-max-mode/</link>
+                                    <comments>https://arstechnica.com/cars/2025/10/feds-probe-tesla-about-its-mad-max-mode/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 18:35:30 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[nhtsa]]></category>
+		<category><![CDATA[Tesla investigation]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2025/10/feds-probe-tesla-about-its-mad-max-mode/</guid>
+
+                                    <description>
+                        <![CDATA[The new mode added in the latest update will speed and weave through traffic.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Earlier this month, Tesla rolled out a new firmware update that added a pair of new driving modes for the controversial full self-driving (FSD) feature. One, called “Sloth,” relaxes acceleration and stays in its lane. The other, called “Mad Max,” does the opposite: It speeds and swerves through traffic to get you to your destination faster. And after multiple reports of FSD Teslas doing just that, the National Highway Traffic Safety Administration wants to know more.</p>
+<p>In fact, “Mad Max” mode is not entirely new—Tesla beta-tested the same feature in Autopilot in 2018, before deciding not to roll it out in a production release after widespread outcry.</p>
+<p>These days, the company is evidently feeling less constrained; despite having just lost a federal wrongful death lawsuit that will cost it <a href="https://arstechnica.com/cars/2025/08/tesla-loses-autopilot-wrongful-death-case-in-329-million-verdict/">hundreds of millions of dollars</a>, it described the new mode as being able to drive “through traffic at an incredible pace, all while still being super smooth. It drives your car like a sports car. If you are running late, this is the mode for you.”</p><p><a href="https://arstechnica.com/cars/2025/10/feds-probe-tesla-about-its-mad-max-mode/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/10/feds-probe-tesla-about-its-mad-max-mode/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>136</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2078835132-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2078835132-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>EU accuses Meta of violating content rules in move that could anger Trump</title>
+                <link>https://arstechnica.com/tech-policy/2025/10/trump-tariff-threats-havent-stopped-eu-from-cracking-down-on-meta/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/10/trump-tariff-threats-havent-stopped-eu-from-cracking-down-on-meta/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 18:18:19 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Digital Services Act]]></category>
+		<category><![CDATA[european union]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[tiktok]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/10/trump-tariff-threats-havent-stopped-eu-from-cracking-down-on-meta/</guid>
+
+                                    <description>
+                        <![CDATA[EU alleges Facebook and Instagram make it too hard to report illegal content.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Meta violated the Digital Services Act (DSA) by failing to give Facebook and Instagram users simple mechanisms to report illegal content, the European Commission said in a <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_25_2503">preliminary decision</a> announced yesterday. Meta also failed to give users an effective way to challenge content moderation decisions, the EC said.</p>
+<p>“When it comes to Meta, neither Facebook nor Instagram appear to provide a user-friendly and easily accessible ‘Notice and Action’ mechanism for users to flag illegal content, such as child sexual abuse material and terrorist content,” the EC press release said. The EC said that Meta mechanisms seem to “impose several unnecessary steps and additional demands on users. In addition, both Facebook and Instagram appear to use so-called ‘dark patterns,’ or deceptive interface designs, when it comes to the ‘Notice and Action’ mechanisms.”</p>
+<p>The EC also found that the content moderation appeal mechanisms used by Facebook and Instagram do not “allow users to provide explanations or supporting evidence to substantiate their appeals. This makes it difficult for users in the EU to further explain why they disagree with Meta’s content decision, limiting the effectiveness of the appeals mechanism.”</p><p><a href="https://arstechnica.com/tech-policy/2025/10/trump-tariff-threats-havent-stopped-eu-from-cracking-down-on-meta/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/10/trump-tariff-threats-havent-stopped-eu-from-cracking-down-on-meta/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>28</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/facebook-instagram-1152x648-1761326412.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/facebook-instagram-500x500-1761326403.jpg" width="500"/>
+<media:credit>Getty Images | NurPhoto </media:credit></media:content>
+            </item>
+                    <item>
+                <title>Microsoft’s Mico heightens the risks of parasocial LLM relationships</title>
+                <link>https://arstechnica.com/ai/2025/10/microsofts-mico-heightens-the-risks-of-parasocial-llm-relationships/</link>
+                                    <comments>https://arstechnica.com/ai/2025/10/microsofts-mico-heightens-the-risks-of-parasocial-llm-relationships/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 17:07:57 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Avatar]]></category>
+		<category><![CDATA[copilot]]></category>
+		<category><![CDATA[mico]]></category>
+		<category><![CDATA[microsoft]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/microsofts-mico-heightens-the-risks-of-parasocial-llm-relationships/</guid>
+
+                                    <description>
+                        <![CDATA["It looks like you're trying to find a friend. Would you like help?"]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Microsoft is rolling out a new face for its AI, and its name is Mico. The company announced the new, animated blob-like avatar for Copilot’s voice mode yesterday as part of <a href="https://arstechnica.com/gadgets/2025/10/microsoft-makes-copilot-human-centered-with-a-90s-style-animated-assistant/">a “human-centered” rebranding</a> of Microsoft’s Copilot AI efforts.</p>
+<p>Mico is part of a Microsoft program dedicated to the idea that “technology should work in service of people,” Microsoft wrote. The company insists this effort is “not [about] chasing engagement or optimizing for screen time. We’re building AI that gets you back to your life. That deepens human connection.”</p>
+<p>Mico has drawn instant and obvious comparisons to <a href="https://arstechnica.com/gadgets/2021/11/adorable-redesigned-emoji-including-clippy-included-in-latest-windows-11-update/">Clippy</a>, the animated paperclip that popped up to offer help with Microsoft Office <a href="https://www.youtube.com/watch?v=-QBlKo6o4Ec">starting in the ’90s</a>. Microsoft has leaned into this comparison with <a href="https://www.theverge.com/news/805411/clippy-has-returned-as-a-copilot-easter-egg">an Easter egg that can transform Mico into an animated Clippy</a>.</p><p><a href="https://arstechnica.com/ai/2025/10/microsofts-mico-heightens-the-risks-of-parasocial-llm-relationships/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/10/microsofts-mico-heightens-the-risks-of-parasocial-llm-relationships/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>68</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/micoheart-1152x648-1761323845.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/micoheart-500x500-1761323862.png" width="500"/>
+<media:credit>Microsoft</media:credit><media:text>I love you too, Mico.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Rivian is settling $250 million lawsuit to focus on next year’s R2 EV</title>
+                <link>https://arstechnica.com/cars/2025/10/rivian-settles-shareholder-lawsuit-for-250-million-denies-allegations/</link>
+                                    <comments>https://arstechnica.com/cars/2025/10/rivian-settles-shareholder-lawsuit-for-250-million-denies-allegations/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 16:30:12 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Rivian]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2025/10/rivian-settles-shareholder-lawsuit-for-250-million-denies-allegations/</guid>
+
+                                    <description>
+                        <![CDATA[Investors sued Rivian claiming it knew prices had to rise after its IPO.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Electric vehicle startup Rivian announced on Thursday that it has settled a lawsuit with some of its investors. The company continues to deny allegations of making “materially untrue” statements during its inial public offering but says it agreed to pay $250 million to clear itself of distractions as it focuses on building its next EV, the <a href="https://arstechnica.com/cars/2024/03/rivian-reveals-three-new-smaller-electric-suvs-the-r2-r3-and-r3x/">mass-market R2</a>, which is due next year.</p>
+<p>Rivian was <a href="https://arstechnica.com/tech-policy/2022/03/rivian-hit-with-shareholder-lawsuit-over-surprise-ev-truck-price-hike/">first sued by a shareholder in 2022</a> over claims that the startup knew it would cost far more for it to build each R1T electric truck and R1S electric SUV than the advertised $67,500 and $70,000 prices, respectively. A big surprise price increase would tarnish the nascent automaker’s reputation, the lawsuit claimed, and could lead to many of the almost 56,000 pre-orders being canceled.</p>
+<p>Just a few months after its November 2021 IPO, the company had indeed <a href="https://arstechnica.com/cars/2022/03/rivian-surprises-outrages-ev-truck-buyers-with-20-price-hike/">issued a hefty price hike</a>: $79,500 for the R1T and $84,500 for the R1S SUV. After an outcry, the company said it would honor the original price for its existing preorders. By that point, though, the damage was done, and more than a third of the company’s value was erased within a few days, the lawsuit alleged.</p><p><a href="https://arstechnica.com/cars/2025/10/rivian-settles-shareholder-lawsuit-for-250-million-denies-allegations/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/10/rivian-settles-shareholder-lawsuit-for-250-million-denies-allegations/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>60</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/rivian-assembly-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/rivian-assembly-scaled-500x500-1761322088.jpg" width="500"/>
+<media:credit>Bloomberg</media:credit><media:text>Rivian pick-up trucks on the assembly line in Normal, Illinois.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Bats eat the birds they pluck from the sky while on the wing</title>
+                <link>https://arstechnica.com/science/2025/10/tracking-bats-as-they-hunt-birds-in-the-skies-above-europe/</link>
+                                    <comments>https://arstechnica.com/science/2025/10/tracking-bats-as-they-hunt-birds-in-the-skies-above-europe/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jacek Krywko]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 16:16:55 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[bats]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[birds]]></category>
+		<category><![CDATA[Ecology]]></category>
+		<category><![CDATA[hunting]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/10/tracking-bats-as-they-hunt-birds-in-the-skies-above-europe/</guid>
+
+                                    <description>
+                        <![CDATA[A handful of bat species hunt birds, and new sensor data tells us how.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>There are three species of bats that eat birds. We know that because we have found feathers and other avian remains in their feces. What we didn’t know was how exactly they hunt birds, which are quite a bit heavier, faster, and stronger than the insects bats usually dine on.</p>
+<p>To find out, Elena Tena, a biologist at Doñana Biological Station in Seville, Spain, and her colleagues attached ultra-light sensors to <em>Nyctalus Iasiopterus</em>, the largest bats in Europe. What they found was jaw-droppingly brutal.</p>
+<h2>Inconspicuous interceptors</h2>
+<p><em>Nyctalus Iasiopterus</em>, otherwise known as greater noctule bats, have a wingspan of about 45 centimeters. They have reddish-brown or chestnut fur with a slightly paler underside, and usually weigh around 40 to 60 grams. Despite that minimal weight, they are the largest of the three bat species known to eat birds, so the key challenge in getting a glimpse into the way they hunt was finding sensors light enough to not impede the bats’ flight.</p><p><a href="https://arstechnica.com/science/2025/10/tracking-bats-as-they-hunt-birds-in-the-skies-above-europe/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/10/tracking-bats-as-they-hunt-birds-in-the-skies-above-europe/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>29</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/image-4-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/image-4-500x500.jpeg" width="500"/>
+<media:credit>Jorge Sereno</media:credit></media:content>
+            </item>
+                    <item>
+                <title>DNA analysis reveals likely pathogens that killed Napoleon’s army</title>
+                <link>https://arstechnica.com/science/2025/10/dna-analysis-reveals-likely-pathogens-that-killed-napoleons-army/</link>
+                                    <comments>https://arstechnica.com/science/2025/10/dna-analysis-reveals-likely-pathogens-that-killed-napoleons-army/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 15:24:52 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[DNA analysis]]></category>
+		<category><![CDATA[forensic archaeology]]></category>
+		<category><![CDATA[History]]></category>
+		<category><![CDATA[Napoleon Bonaparte]]></category>
+		<category><![CDATA[pathogens]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/10/dna-analysis-reveals-likely-pathogens-that-killed-napoleons-army/</guid>
+
+                                    <description>
+                        <![CDATA[Microbial DNA suggests troops suffered from paratyphoid fever and relapsing fever, among other diseases.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In 1812, Napoleon Bonaparte led a <a href="https://en.wikipedia.org/wiki/French_invasion_of_Russia">disastrous military campaign</a> into Moscow. The death toll was devastating: Out of some 615,000 men, only about 110,000 survivors returned. (Napoleon abandoned his army in early December to return home on a sled.) Roughly 100,000 of the casualties died in battle, while as many as 300,000 perished from a combination of the bitter cold of Russia’s notoriously harsh winter, starvation, and disease.</p>
+<p>Scholars have debated precisely what kinds of diseases ravaged Napoleon’s troops. New DNA analysis of some soldiers’ remains has revealed the presence of two pathogens in particular, according to a <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(25)01247-3">new paper</a> published in the journal Current Biology. The first is <em>Salmonella enterica</em>, which causes <a href="https://en.wikipedia.org/wiki/Paratyphoid_fever">paratyphoid fever</a>; the second is <em>Borrelia recurrentis</em>, which is transmitted by body lice and causes <a href="https://en.wikipedia.org/wiki/Relapsing_fever">relapsing fever</a>. (A preprint of the paper <a href="https://www.biorxiv.org/content/10.1101/2025.07.12.664512v1">appeared on bioaRxiv</a> in July.)</p>
+<p>“It’s very exciting to use a technology we have today to detect and diagnose something that was buried for 200 years,” <a href="https://www.eurekalert.org/news-releases/1102613?">said co-author Nicolás Rascovan</a> of the Institut Pasteur. “Accessing the genomic data of the pathogens that circulated in historical populations helps us to understand how infectious diseases evolved, spread, and disappeared over time and to identify the social or environmental contexts that played a part in these developments. This information provides us with valuable insights to better understand and tackle infectious diseases today.”</p><p><a href="https://arstechnica.com/science/2025/10/dna-analysis-reveals-likely-pathogens-that-killed-napoleons-army/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/10/dna-analysis-reveals-likely-pathogens-that-killed-napoleons-army/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>19</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/napoleon2-1152x648-1760798560.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/napoleon2-500x500-1760798550.jpg" width="500"/>
+<media:credit>Michel Signoli, Aix-Marseille Université/CC BY-SA</media:credit><media:text>Skull of a soldier from the Napoleon army next to a button from a soldier's uniform.</media:text></media:content>
+            </item>
+                    <item>
+                <title>This browser claims “perfect privacies protection,” but it acts like malware</title>
+                <link>https://arstechnica.com/security/2025/10/this-browser-claims-perfect-privacies-protection-but-it-acts-like-malware/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/this-browser-claims-perfect-privacies-protection-but-it-acts-like-malware/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Matt Burgess, wired.com]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 14:37:03 +0000</pubDate>
+                		<category><![CDATA[Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[syndicated]]></category>
+		<category><![CDATA[Universe Browser]]></category>
+		<category><![CDATA[web browsers]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/this-browser-claims-perfect-privacies-protection-but-it-acts-like-malware/</guid>
+
+                                    <description>
+                        <![CDATA[Researchers note links to Asia’s booming cybercrime and illegal gambling networks.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Universe Browser makes some big promises to its potential users. Its online advertisements claim it’s the “fastest browser,” that people using it will “avoid privacy leaks” and that the software will help “keep you away from danger.” However, everything likely isn’t as it seems.</p>
+<p>The browser, which is linked to Chinese online gambling websites and is thought to have been downloaded millions of times, actually routes all Internet traffic through servers in China and “covertly installs several programs that run silently in the background,” according to <a href="https://blogs.infoblox.com/threat-intelligence/vault-viper-high-stakes-hidden-threats">new findings</a> from network security company Infoblox. The researchers say the “hidden” elements include features similar to malware—including “key logging, surreptitious connections,” and changing a device’s network connections.</p>
+<p>Perhaps most significantly, the Infoblox researchers who collaborated with the United Nations Office on Drugs and Crime (UNODC) on the work, found links between the browser’s operation and Southeast Asia’s sprawling, <a href="https://www.unodc.org/roseap/uploads/documents/Publications/2025/Inflection_Point_2025.pdf">multibillion-dollar cybercrime ecosystem</a>, which has connections to money-laundering, illegal online gambling, human trafficking, and <a href="https://www.wired.com/story/pig-butchering-scam-invasion/">scam operations that use forced labor</a>. The browser itself, the researchers says, is directly linked to a network around major online gambling company BBIN, which the researchers have labeled a threat group they call Vault Viper.</p><p><a href="https://arstechnica.com/security/2025/10/this-browser-claims-perfect-privacies-protection-but-it-acts-like-malware/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/this-browser-claims-perfect-privacies-protection-but-it-acts-like-malware/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>31</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/universebrowser-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/universebrowser-500x500.jpg" width="500"/>
+<media:credit>Ars Technica</media:credit><media:text>This looks like a 100 percent above-board product, right? Right?</media:text></media:content>
+            </item>
+                    <item>
+                <title>Satellite shows what’s really happening at the East Wing of the White House</title>
+                <link>https://arstechnica.com/space/2025/10/satellite-shows-whats-really-happening-at-the-east-wing-of-the-white-house/</link>
+                                    <comments>https://arstechnica.com/space/2025/10/satellite-shows-whats-really-happening-at-the-east-wing-of-the-white-house/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 14:18:13 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[earth observation]]></category>
+		<category><![CDATA[planet labs]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[White House]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2025/10/satellite-shows-whats-really-happening-at-the-east-wing-of-the-white-house/</guid>
+
+                                    <description>
+                        <![CDATA["Now it looks like the White House is physically being destroyed."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>You need to go up<span class="s1">—way up</span><span class="s1">—to fully appreciate the changes underway at the White House this week.</span></p>
+<p>Demolition crews starting tearing down the East Wing of the presidential mansion Tuesday to clear room for the construction of a new $300 million, 90,000-square-foot ballroom, a recent priority of President Donald Trump. The teardown drew criticism and surprise from <a href="https://abcnews.go.com/US/wireStory/lawmakers-trumps-demolition-east-wing-126808050">Democratic lawmakers</a>, <a href="https://x.com/davidaxelrod/status/1980777031421034551">former White House staffers</a>, and members of the public.</p>
+<p>It was, after all, just three months ago that President Donald Trump defended his ballroom plan by saying it wouldn’t affect the existing structure at the White House. “It won’t interfere with the current building,” he said in July. “It’ll be near it but not touching it—and pays total respect to the existing building, which I’m the biggest fan of.”</p><p><a href="https://arstechnica.com/space/2025/10/satellite-shows-whats-really-happening-at-the-east-wing-of-the-white-house/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/10/satellite-shows-whats-really-happening-at-the-east-wing-of-the-white-house/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>282</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2242218583-1152x648-1761262960.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2242218583-500x500.jpg" width="500"/>
+<media:credit>Andrew Harnik/Getty Images</media:credit><media:text>The facade of the East Wing of the White House is demolished by work crews on October 22, 2025.</media:text></media:content>
+            </item>
+                    <item>
                 <title>Rocket Report: China tests Falcon 9 lookalike; NASA’s Moon rocket fully stacked</title>
                 <link>https://arstechnica.com/space/2025/10/rocket-report-china-tests-falcon-9-lookalike-nasas-moon-rocket-fully-stacked/</link>
                                     <comments>https://arstechnica.com/space/2025/10/rocket-report-china-tests-falcon-9-lookalike-nasas-moon-rocket-fully-stacked/#comments</comments>
@@ -59,7 +545,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>7</slash:comments>
+                                    <slash:comments>58</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/artemisiistacked-1152x648-1761259328.jpg" width="1152">
@@ -99,7 +585,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>56</slash:comments>
+                                    <slash:comments>84</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/webp" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/openai-sky-1152x648.webp" width="1152">
@@ -137,7 +623,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>51</slash:comments>
+                                    <slash:comments>96</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2236792840-1024x648.jpg" width="1024">
@@ -172,7 +658,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>44</slash:comments>
+                                    <slash:comments>58</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1908316227-1152x648.jpg" width="1152">
@@ -209,7 +695,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>21</slash:comments>
+                                    <slash:comments>31</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1386002288-1152x648.jpg" width="1152">
@@ -248,520 +734,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>62</slash:comments>
+                                    <slash:comments>84</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1291108057-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1291108057-500x500.jpg" width="500"/>
 <media:credit>Grandbrothers</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Microsoft makes Copilot “human-centered” with a ‘90s-style animated assistant</title>
-                <link>https://arstechnica.com/gadgets/2025/10/microsoft-makes-copilot-human-centered-with-a-90s-style-animated-assistant/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/10/microsoft-makes-copilot-human-centered-with-a-90s-style-animated-assistant/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Thu, 23 Oct 2025 18:48:52 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[copilot]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[windows 11]]></category>
-		<category><![CDATA[windows 11 25h2]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/microsoft-makes-copilot-human-centered-with-a-90s-style-animated-assistant/</guid>
-
-                                    <description>
-                        <![CDATA["Mico" literally tries to put a face on Microsoft's chatbot-turned-assistant.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Microsoft said earlier this month that it <a href="https://arstechnica.com/gadgets/2025/10/microsofts-vision-for-ai-pcs-looks-a-lot-like-another-crack-at-cortana/">wanted to add better voice controls to Copilot</a>, Windows 11’s built-in chatbot-slash-virtual assistant. As described, this new version of Copilot sounds an awful lot like another stab at Cortana, the voice assistant that Microsoft tried (and failed) to get people to use in Windows 10 in the mid-to-late 2010s.</p>
-<p>Turns out that the company isn’t done trying to reformulate and revive ideas it has already tried before. As part of a push toward what it calls “human-centered AI,” Microsoft is now <a href="https://www.microsoft.com/en-us/microsoft-copilot/blog/2025/10/23/human-centered-ai/">putting a face on Copilot</a>. Literally, a face: “Mico” is an “expressive, customizable, and warm” blob with a face that dynamically “listens, reacts, and even changes colors to reflect your interactions” as you interact with Copilot. (Another important adjective for Mico: “optional.”)</p>
-<p>Mico (rhymes with “pico”) recalls old digital assistants like Clippy, Microsoft Bob, and <a href="https://the-microsoft-windows-xp.fandom.com/wiki/Rover">Rover</a>, ideas that Microsoft tried in the ’90s and early 2000s before mostly abandoning them.</p><p><a href="https://arstechnica.com/gadgets/2025/10/microsoft-makes-copilot-human-centered-with-a-90s-style-animated-assistant/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/10/microsoft-makes-copilot-human-centered-with-a-90s-style-animated-assistant/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>148</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Mico-1-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Mico-1-500x500.jpeg" width="500"/>
-<media:credit>Microsoft</media:credit><media:text>Meet Mico, the blob with a face who is trying to give Microsoft's Copilot a "human-centered" personality.</media:text></media:content>
-            </item>
-                    <item>
-                <title>The first people to set foot in Australia were fossil hunters</title>
-                <link>https://arstechnica.com/science/2025/10/the-first-people-to-set-foot-in-australia-were-fossil-hunters/</link>
-                                    <comments>https://arstechnica.com/science/2025/10/the-first-people-to-set-foot-in-australia-were-fossil-hunters/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kiona N. Smith]]>
-                </dc:creator>
-                <pubDate>Thu, 23 Oct 2025 17:04:16 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[aboriginal australians]]></category>
-		<category><![CDATA[ancient people did stuff]]></category>
-		<category><![CDATA[Archaeology]]></category>
-		<category><![CDATA[australia]]></category>
-		<category><![CDATA[biological archaeology]]></category>
-		<category><![CDATA[Megafauna]]></category>
-		<category><![CDATA[megafaunal extinction]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/10/the-first-people-to-set-foot-in-australia-were-fossil-hunters/</guid>
-
-                                    <description>
-                        <![CDATA[Europeans weren't the first people to collect fossils in Australia.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Australia’s First Peoples may or may not have hunted the continent’s megafauna to extinction, but they definitely collected fossils.</p>
-<p>A team of archaeologists examined the fossilized leg bone of an extinct kangaroo and realized that instead of evidence of butchery, cut marks on the bone reveal an ancient attempt at fossil collecting. That leaves Australia with little evidence of First Peoples hunting or butchering the continent’s extinct megafauna—and reopens the question of whether humans were responsible for the die-off of that continent’s giant Ice Age marsupials.</p>
-<h2>Fossil hunting in the Ice Age</h2>
-<p>In the unsolved case of whether humans hunted Australia’s Ice Age megafauna to extinction, the key piece of evidence so far is a tibia (one of the bones of the lower leg) from an extinct short-faced kangaroo. Instead of hopping like their modern relatives, these extinct kangaroos walked on their hind legs, probably placing all their weight on the tips of single hoofed toes. This particular kangaroo wasn’t quite fully grown when it died, which happened sometime between 44,500 and 55,200 years ago, based on uranium-series dating of the thin layer of rock covering most of the fossils in Mammoth Cave (in what’s now Western Australia).</p><p><a href="https://arstechnica.com/science/2025/10/the-first-people-to-set-foot-in-australia-were-fossil-hunters/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/10/the-first-people-to-set-foot-in-australia-were-fossil-hunters/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>16</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/rsosSimosthenurus_occidentalis-1152x648-1761239043.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/rsosSimosthenurus_occidentalis-500x500.jpg" width="500"/>
-<media:credit>By Ghedoghedo - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=8398432</media:credit><media:text> Several species of short-faced kangaroos, like this one, once lived in Australia. Some stood two meters tall, while others were less than half a meter tall.</media:text></media:content>
-            </item>
-                    <item>
-                <title>CS2 item market loses nearly $2B in value overnight due to “trade up” update</title>
-                <link>https://arstechnica.com/gaming/2025/10/valve-upends-the-cs2-item-marketplace-with-new-trade-up-update/</link>
-                                    <comments>https://arstechnica.com/gaming/2025/10/valve-upends-the-cs2-item-marketplace-with-new-trade-up-update/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Thu, 23 Oct 2025 16:40:22 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[counter-strike 2]]></category>
-		<category><![CDATA[CS@]]></category>
-		<category><![CDATA[CS2]]></category>
-		<category><![CDATA[items]]></category>
-		<category><![CDATA[Marketplace]]></category>
-		<category><![CDATA[trading]]></category>
-		<category><![CDATA[Valve]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2025/10/valve-upends-the-cs2-item-marketplace-with-new-trade-up-update/</guid>
-
-                                    <description>
-                        <![CDATA[Once rare $14K knife now sells for $7K, some common guns jump from $10 to over $100.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>From the outside, <em>Counter-Strike 2</em> looks a lot like a game that’s <a href="https://arstechnica.com/gaming/2023/10/is-counter-strike-2s-new-match-abandonment-penalty-too-harsh/">primarily about shooting people</a>. For millions of players, though, the game is more about collecting and/or buying rare in-game loot and flipping it for <a href="https://arstechnica.com/gaming/2023/04/ultra-rare-csgo-gun-reportedly-sells-for-over-400000/">what can be very significant sums on the Steam Marketplace</a>.</p>
-<p>Wednesday night, Valve sent that multi-billion-dollar market into turmoil as part of <a href="https://store.steampowered.com/news/app/730/view/516350567072662004?l=english">a so-called “small update.”</a> Now, players can use the game’s “Trade Up contracts” to exchange five common, “Covert” items (also known as “reds”) for the kinds of knives and gloves that have until now been much harder to obtain.</p>
-<p>That “small update” has unsurprisingly had an immediate and sharp impact on the Marketplace price for those items. One rare knife that sold for over $14,000 less than 24 hours ago <a href="https://pricempire.com/cs2-items/skin/karambit-doppler-ruby">has seen its minimum price plummet over 50 percent</a> as of this writing, according to the trackers at Pricempire. Meanwhile, the median sale price for a common P90 Asimov gun on the Steam Marketplace shot up from $10 on Wednesday to <a href="https://steamcommunity.com/market/listings/730/P90%20%7C%20Asiimov%20%28Field-Tested%29">well over $100 as of this writing</a>.</p><p><a href="https://arstechnica.com/gaming/2025/10/valve-upends-the-cs2-item-marketplace-with-new-trade-up-update/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2025/10/valve-upends-the-cs2-item-marketplace-with-new-trade-up-update/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>114</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/cs2knife-1152x648.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/cs2knife-500x500.png" width="500"/>
-<media:credit>Valve</media:credit><media:text>You want this knife? What's it worth to ya? Er... what was it worth to ya yesterday?</media:text></media:content>
-            </item>
-                    <item>
-                <title>Great hybrid V6, lousy HMI: Three days with a Ferrari 296 GTB</title>
-                <link>https://arstechnica.com/cars/2025/10/great-hybrid-v6-lousy-hmi-three-days-with-a-ferrari-296-gtb/</link>
-                                    <comments>https://arstechnica.com/cars/2025/10/great-hybrid-v6-lousy-hmi-three-days-with-a-ferrari-296-gtb/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Thu, 23 Oct 2025 16:25:00 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[car review]]></category>
-		<category><![CDATA[Ferrari 296 GTB]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2025/10/great-hybrid-v6-lousy-hmi-three-days-with-a-ferrari-296-gtb/</guid>
-
-                                    <description>
-                        <![CDATA[Three days with a car revealed its character in more ways than one.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<aside class="pullbox sidebar fullwidth">Ferrari provided flights from Washington, DC, to Austin, Texas, and accommodation so Ars could attend the Lone Star Le Mans. Ars does not accept paid editorial content.</aside>
-<p>The <a href="https://arstechnica.com/cars/2022/12/the-2023-ferrari-296-gts-we-drive-ferraris-plug-in-hybrid-convertible/">first time I drove</a> this generation of mid-engined Ferrari, it was on a curated route on the company’s home turf. As the Po Valley gives way to the Apennines, you find plenty of narrow winding roads, steep gradients, and hairpin turns. It was an engaging few hours of driving, but it was too brief to properly assess some of the 296’s technology. I found the ride firm but comfortable on rough Italian tarmac and the hybrid system easy to operate, flicking into calm-and-quiet electric-only mode through the villages I encountered.</p>
-<p>That was back in 2022 <a href="https://arstechnica.com/cars/2022/10/the-499p-meet-ferraris-beautiful-new-le-mans-hybrid-prototype/">during the unveiling</a> of Ferrari’s 499P race car. Last month, <a href="https://arstechnica.com/cars/2025/09/behind-the-scenes-with-the-most-beautiful-car-in-racing-the-ferrari-499p/">I met the 499P again</a> as it visited the Circuit of the Americas in Austin, along with the rest of the World Endurance Championship. And that afforded another chance to get to know the 296, with three days rather than three hours to form an impression.</p>
-<p>Head west from Austin and you’ll find twisty roads that wrap around the hills. It would have been easy to spend an entire day out there, but that seemed repetitive—I’d experienced the 296’s back road behavior already. Plus, there were things to do at the racetrack, although I’ll admit I took the long way there and back each day.</p><p><a href="https://arstechnica.com/cars/2025/10/great-hybrid-v6-lousy-hmi-three-days-with-a-ferrari-296-gtb/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/10/great-hybrid-v6-lousy-hmi-three-days-with-a-ferrari-296-gtb/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>53</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/2025-Ferrari-296-GTB-1-of-12-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/2025-Ferrari-296-GTB-1-of-12-500x500.jpg" width="500"/>
-<media:credit>Jonathan Gitlin</media:credit><media:text>The Ferrari 296 GTB's profile is quite reminiscent of some of  the company's old sports prototypes from the 1960s. But it's a far more high-tech affair.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Trump eyes government control of quantum computing firms with Intel-like deals</title>
-                <link>https://arstechnica.com/tech-policy/2025/10/trumps-industry-meddling-may-give-us-a-stake-in-quantum-computing-firms/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/10/trumps-industry-meddling-may-give-us-a-stake-in-quantum-computing-firms/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Thu, 23 Oct 2025 15:33:04 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[chips funding]]></category>
-		<category><![CDATA[quantum computing]]></category>
-		<category><![CDATA[trump administration]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/10/trumps-industry-meddling-may-give-us-a-stake-in-quantum-computing-firms/</guid>
-
-                                    <description>
-                        <![CDATA[Some quantum computing firms seem optimistic about Trump's proposed deals.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Donald Trump is eyeing taking equity stakes in quantum computing firms in exchange for federal funding, The Wall Street Journal <a href="https://www.wsj.com/business/entrepreneurship/trump-administration-in-talks-to-take-equity-stakes-in-quantum-computing-firms-60ee5143">reported</a>.</p>
-<p>At least five companies are weighing whether allowing the government to become a shareholder would be worth it to snag funding that the Trump administration has “earmarked for promising technology companies,” sources familiar with the potential deals told the WSJ.</p>
-<p>IonQ, Rigetti Computing, and D-Wave Quantum are currently in talks with the government over potential funding agreements, with minimum awards of $10 million each, some sources said. Quantum Computing Inc. and Atom Computing are reportedly “considering similar arrangements,” as are other companies in the sector, which is viewed as critical for scientific advancements and next-generation technologies.</p><p><a href="https://arstechnica.com/tech-policy/2025/10/trumps-industry-meddling-may-give-us-a-stake-in-quantum-computing-firms/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/10/trumps-industry-meddling-may-give-us-a-stake-in-quantum-computing-firms/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>65</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2229574852-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2229574852-500x500.jpg" width="500"/>
-<media:credit>JuSun | iStock / Getty Images Plus</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Reports suggest Apple is already pulling back on the iPhone Air</title>
-                <link>https://arstechnica.com/gadgets/2025/10/early-indicators-analyst-reports-suggest-apples-iphone-air-isnt-taking-off/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/10/early-indicators-analyst-reports-suggest-apples-iphone-air-isnt-taking-off/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Thu, 23 Oct 2025 15:04:47 +0000</pubDate>
-                		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[iphone]]></category>
-		<category><![CDATA[iphone air]]></category>
-		<category><![CDATA[iPhone mini]]></category>
-		<category><![CDATA[iphone plus]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/early-indicators-analyst-reports-suggest-apples-iphone-air-isnt-taking-off/</guid>
-
-                                    <description>
-                        <![CDATA[New phone design compromises on camera and battery to achieve a lighter weight.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Apple’s <a href="https://www.apple.com/iphone-air/">iPhone Air</a> was the company’s most interesting new iPhone this year, at least insofar as it was the one most different from previous iPhones. We came away impressed by its size and weight <a href="https://arstechnica.com/gadgets/2025/09/iphone-air-review-apples-different-est-phone-in-years-is-appealing-despite-itself/">in our review</a>. But early reports suggest that its novelty might not be translating into sales success.</p>
-<p>A note from analyst Ming-Chi Kuo, whose supply chain sources are often accurate about Apple’s future plans, <a href="https://x.com/mingchikuo/status/1981051589000671742">said yesterday</a> that demand for the iPhone Air “has fallen short of expectations” and that “both shipments and production capacity” were being scaled back to account for the lower-than-expected demand.</p>
-<p>Kuo’s note is backed up by reports from other analysts at Mizuho Securities (<a href="https://www.macrumors.com/2025/10/17/iphone-air-production-to-be-cut-amid-lower-sales/">via MacRumors</a>) and <a href="https://asia.nikkei.com/spotlight/supply-chain/apple-slashes-iphone-air-production-plans-boosts-other-17-models-sources">Nikkei Asia</a>. Both of these reports say that demand for the iPhone 17 and 17 Pro models remains strong, indicating that this is <em>just</em> a problem for the iPhone Air and not a wider slowdown caused by tariffs or other external factors.</p><p><a href="https://arstechnica.com/gadgets/2025/10/early-indicators-analyst-reports-suggest-apples-iphone-air-isnt-taking-off/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/10/early-indicators-analyst-reports-suggest-apples-iphone-air-isnt-taking-off/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>186</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/IMG_3384-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/IMG_3384-500x500.jpeg" width="500"/>
-<media:credit>Andrew Cunningham</media:credit><media:text>If the iPhone Air is struggling, it suggests that battery life and camera quality are still more important to buyers than thickness and weight.</media:text></media:content>
-            </item>
-                    <item>
-                <title>An outcast faces a deadly alien world in Predator: Badlands trailer</title>
-                <link>https://arstechnica.com/culture/2025/10/an-outcast-faces-a-deadly-alien-world-in-predator-badlands-trailer/</link>
-                                    <comments>https://arstechnica.com/culture/2025/10/an-outcast-faces-a-deadly-alien-world-in-predator-badlands-trailer/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Thu, 23 Oct 2025 13:58:46 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[20th Century Studios]]></category>
-		<category><![CDATA[entertainment]]></category>
-		<category><![CDATA[film trailers]]></category>
-		<category><![CDATA[Predator franchise]]></category>
-		<category><![CDATA[Predator: Badlands]]></category>
-		<category><![CDATA[Trailers]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2025/10/an-outcast-faces-a-deadly-alien-world-in-predator-badlands-trailer/</guid>
-
-                                    <description>
-                        <![CDATA["The ways of your kind are ones of violence. Either you are hunted or you become the hunter."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/9PgcAIgpwPA?start=0&amp;wmode=transparent"></div></div>
-<p>We’ve got a new international trailer for <a href="https://en.wikipedia.org/wiki/Predator:_Badlands"><em>Predator: Badlands</em></a>, the latest installment in a <a href="https://en.wikipedia.org/wiki/Predator_(franchise)">popular franchise</a> that’s been around since 1987. It’s directed by Dan Trachtenberg, who is very familiar with the franchise, having also directed 2022’s highly acclaimed standalone Predator movie, <a href="https://en.wikipedia.org/wiki/Prey_(2022_film)"><em>Prey</em></a>.</p>
-<p>In April, Twentieth Century Studios released <a href="https://arstechnica.com/culture/2025/04/elle-fanning-teams-up-with-a-predator-in-first-predator-badlands-trailer/">the first teaser</a>, which involved multiple predators fighting or threatening one another, Elle Fanning looking very strange and cool as an android, and glimpses of new monsters and the alien world the movie focuses on. And the film was featured prominently at San Diego Comic-Con this summer. But it hasn’t quite wormed its way into the cultural zeitgeist for fall releases. Perhaps this latest trailer will boost its profile.</p>
-<p>This is a standalone film in the franchise, with a particular focus on the culture of the Predator species; in fact, the same <a href="https://en.wikipedia.org/wiki/List_of_language_creators">conlanger</a> who created the Na’Vi language for James Cameron’s Avatar franchise also created a written and verbal language for the Predators. (We hear a bit of the dialogue in the new trailer.) And this time around, the primary Predator is actually the film’s protagonist rather than an adversary. Per the official premise: “Set in the future on a deadly remote planet, <em>Predator: Badlands</em> follows a young Predator outcast (Dimitrius Schuster-Koloamatangi) who finds an unlikely ally in Thia (Elle Fanning) as he embarks on a treacherous journey in search of the ultimate adversary.”</p><p><a href="https://arstechnica.com/culture/2025/10/an-outcast-faces-a-deadly-alien-world-in-predator-badlands-trailer/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2025/10/an-outcast-faces-a-deadly-alien-world-in-predator-badlands-trailer/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>47</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/bloodlands1-1152x648-1761226866.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/bloodlands1-500x500-1761226856.jpg" width="500"/>
-<media:credit>YouTube/20th Century Fox</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Porsche does U-turn on electric vehicles, will focus on gas engines</title>
-                <link>https://arstechnica.com/cars/2025/10/porsche-does-u-turn-on-electric-vehicles-will-focus-on-gas-engines/</link>
-                                    <comments>https://arstechnica.com/cars/2025/10/porsche-does-u-turn-on-electric-vehicles-will-focus-on-gas-engines/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Sebastien Ash and Kana Inagaki, Financial Times]]>
-                </dc:creator>
-                <pubDate>Thu, 23 Oct 2025 13:42:41 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[BEV]]></category>
-		<category><![CDATA[EV]]></category>
-		<category><![CDATA[EVs]]></category>
-		<category><![CDATA[porsche]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2025/10/porsche-does-u-turn-on-electric-vehicles-will-focus-on-gas-engines/</guid>
-
-                                    <description>
-                        <![CDATA[China weakness, US tariffs, and disappointing uptake of battery vehicles lurk in background.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Porsche’s new boss was a skeptic of battery motors for luxury vehicles long before he was picked to lead the revival of the petrol engine at the German sports car group.</p>
-<p>“The technology isn’t ready,” Michael Leiters told the Financial Times late last year while still in his old job as chief executive of British supercar manufacturer McLaren. Electric vehicles lacked the emotional thrill of noisy engines and were quicker to lose their value, he said.</p>
-<p>Leiters will take over at Porsche in January at a critical juncture for the Stuttgart-based company, as it tempers its electric ambitions and ploughs new investment into petrol engine models in an attempt to turn its fortunes around.</p><p><a href="https://arstechnica.com/cars/2025/10/porsche-does-u-turn-on-electric-vehicles-will-focus-on-gas-engines/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/10/porsche-does-u-turn-on-electric-vehicles-will-focus-on-gas-engines/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>186</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/10/02-Porsche-Taycan-4S--1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2019/10/02-Porsche-Taycan-4S--500x500.jpg" width="500"/>
-<media:credit>Porsche</media:credit><media:text>Think of it like a modern-day 928, but electric. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Texas lawmakers double down on Discovery, call for DOJ investigation into Smithsonian</title>
-                <link>https://arstechnica.com/space/2025/10/texas-lawmakers-double-down-on-discovery-call-for-doj-investigation-into-smithsonian/</link>
-                                    <comments>https://arstechnica.com/space/2025/10/texas-lawmakers-double-down-on-discovery-call-for-doj-investigation-into-smithsonian/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Robert Pearlman]]>
-                </dc:creator>
-                <pubDate>Thu, 23 Oct 2025 11:30:55 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Bring the Space Shutle Home]]></category>
-		<category><![CDATA[Chantilly]]></category>
-		<category><![CDATA[Discovery]]></category>
-		<category><![CDATA[DoJ]]></category>
-		<category><![CDATA[John Cornyn]]></category>
-		<category><![CDATA[letter]]></category>
-		<category><![CDATA[mark kelly]]></category>
-		<category><![CDATA[mark warner]]></category>
-		<category><![CDATA[National Air and Space Museum]]></category>
-		<category><![CDATA[One Big Beautiful Bill]]></category>
-		<category><![CDATA[Randy Weber]]></category>
-		<category><![CDATA[Senate]]></category>
-		<category><![CDATA[Smithsonian]]></category>
-		<category><![CDATA[space center houston]]></category>
-		<category><![CDATA[Space exploration]]></category>
-		<category><![CDATA[space history]]></category>
-		<category><![CDATA[Space shuttle]]></category>
-		<category><![CDATA[Steven F. Udvar-Hazy Center]]></category>
-		<category><![CDATA[ted cruz]]></category>
-		<category><![CDATA[texas]]></category>
-		<category><![CDATA[U.S. Department of Justice]]></category>
-		<category><![CDATA[Virginia]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2025/10/texas-lawmakers-double-down-on-discovery-call-for-doj-investigation-into-smithsonian/</guid>
-
-                                    <description>
-                        <![CDATA["This is the dumbest plan I've ever heard in nearly five years in the United States Senate."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Have you heard the news that Texas’ senators want to chop up NASA’s retired space shuttle <em>Discovery</em> in order to move it from the Smithsonian to Houston? The lawmakers in question have and are now crying foul to the Department of Justice.</p>
-<p>Sens. John Cornyn (R-Texas) and Ted Cruz (R-Texas), together with Rep. Randy Weber (R-Texas), on Wednesday sent a letter to the DOJ <a href="https://www.collectspace.com/news/news-102225a-space-shuttle-discovery-smithsonian-doj-anti-lobbying-letter.html" target="_blank" rel="noopener">urging the Smithsonian be investigated</a> for allegedly violating the Anti-Lobbying Act. They claim that the institution—<em>Discovery</em>‘s home for the past 13 years—improperly used appropriated funds to influence Congress regarding the relocation of the winged orbiter.</p>
-<p>“Public reporting suggests the Smithsonian Institution has taken affirmative steps to oppose the passage and implementation of the shuttle’s relocation, as part of President Trump’s One Big Beautiful Bill Act,” wrote Cornyn and Cruz to Attorney General Pamela Bondi and Assistant Attorney General Brett Shumate. “These steps include lobbying the staff of the Senate Appropriations and Rules Committees to express disapproval, coordinating with members of the press to generate public opposition to the law’s passage and disseminating misinformation about the cost and logistics of the move.”</p><p><a href="https://arstechnica.com/space/2025/10/texas-lawmakers-double-down-on-discovery-call-for-doj-investigation-into-smithsonian/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/10/texas-lawmakers-double-down-on-discovery-call-for-doj-investigation-into-smithsonian/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>177</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/news-102225a-lg-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/news-102225a-lg-500x500.jpg" width="500"/>
-<media:credit>Ben Cooper/LaunchPhotograhy.com for collectSPACE.com</media:credit><media:text>NASA's retired space shuttle &lt;em&gt;Discovery&lt;/em&gt; was rolled into the James S. McDonnell Space Hangar at the Smithsonian National Air and Space Museum's Steven F. Udvar-Hazy Center in Chantilly, Virginia, in April 2012 and has been on public display there ever since. </media:text></media:content>
-            </item>
-                    <item>
-                <title>California startup to demonstrate space weapon on its own dime</title>
-                <link>https://arstechnica.com/space/2025/10/california-startup-to-demonstrate-space-weapon-on-its-own-dime/</link>
-                                    <comments>https://arstechnica.com/space/2025/10/california-startup-to-demonstrate-space-weapon-on-its-own-dime/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Thu, 23 Oct 2025 11:15:12 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[apex]]></category>
-		<category><![CDATA[golden dome]]></category>
-		<category><![CDATA[Lockheed Martin]]></category>
-		<category><![CDATA[military space]]></category>
-		<category><![CDATA[missile defense]]></category>
-		<category><![CDATA[Northrop Grumman]]></category>
-		<category><![CDATA[space policy]]></category>
-		<category><![CDATA[US Space Force]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2025/10/california-startup-to-demonstrate-space-weapon-on-its-own-dime/</guid>
-
-                                    <description>
-                        <![CDATA["All of the pieces that are required to make it viable exist."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Defense contractors are in full sales mode to win a piece of a potentially trillion-dollar pie for development of the Trump administration’s proposed Golden Dome missile shield.</p>
-<p>CEOs are touting their companies’ ability to rapidly spool up satellite, sensor, and rocket production. Publicly, they all agree with the assertion of Pentagon officials that US industry already possesses the technologies required to make a homeland missile defense system work.</p>
-<p>The challenge, they say, is tying all of it together under the umbrella of a sophisticated command and control network. Sensors must be able to detect and track missile threats, and that information must rapidly get to weapons that can shoot them down. Gen. Chance Saltzman, the Space Force’s top commander, likes to call Golden Dome a “systems of systems.”</p><p><a href="https://arstechnica.com/space/2025/10/california-startup-to-demonstrate-space-weapon-on-its-own-dime/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/10/california-startup-to-demonstrate-space-weapon-on-its-own-dime/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>68</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/apex_sbi-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/apex_sbi-500x500.jpg" width="500"/>
-<media:credit>Apex</media:credit><media:text>This illustration released by Apex depicts a space-based interceptor fired from a satellite in low-Earth orbit. </media:text></media:content>
-            </item>
-                    <item>
-                <title>We let OpenAI’s “Agent Mode” surf the web for us—here’s what happened</title>
-                <link>https://arstechnica.com/features/2025/10/we-let-openais-agent-mode-surf-the-web-for-us-heres-what-happened/</link>
-                                    <comments>https://arstechnica.com/features/2025/10/we-let-openais-agent-mode-surf-the-web-for-us-heres-what-happened/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Thu, 23 Oct 2025 11:00:08 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[agent mode]]></category>
-		<category><![CDATA[ATLAS]]></category>
-		<category><![CDATA[automation]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[web browser]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/features/2025/10/we-let-openais-agent-mode-surf-the-web-for-us-heres-what-happened/</guid>
-
-                                    <description>
-                        <![CDATA[From scanning emails to building fansites, Atlas can ably automate some web-based tasks.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>On Tuesday, OpenAI <a href="https://arstechnica.com/ai/2025/10/openais-new-atlas-web-browser-wants-to-let-you-chat-with-a-page/">announced Atlas</a>, a new web browser with ChatGPT integration, to let you “chat with a page,” as the company puts it. But Atlas also goes beyond the usual LLM back-and-forth with Agent Mode, a “preview mode” feature the company says can “get work done for you” by clicking, scrolling, and reading through various tabs.</p>
-<p>“Agentic” AI is far from new, of course; OpenAI itself rolled out <a href="https://openai.com/index/introducing-operator/">a preview of the web browsing Operator agent in January</a> and introduced <a href="https://openai.com/index/introducing-chatgpt-agent/">the more generalized “ChatGPT agent” in July</a>. Still, prominently featuring this capability in a major product release like this—even in “preview mode”—signals a clear push to get this kind of system in front of end users.</p>
-<p>I wanted to put Atlas’ Agent Mode through its paces to see if it could really save me time in doing the kinds of tedious online tasks I plod through every day. In each case, I’ll outline a web-based problem, lay out the Agent Mode prompt I devised to try to solve it, and describe the results. My final evaluation will rank each task on a 10-point scale, with 10 being “did exactly what I wanted with no problems” and one being “complete failure.”</p><p><a href="https://arstechnica.com/features/2025/10/we-let-openais-agent-mode-surf-the-web-for-us-heres-what-happened/">Read full article</a></p>
-<p><a href="https://arstechnica.com/features/2025/10/we-let-openais-agent-mode-surf-the-web-for-us-heres-what-happened/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>109</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2022302070-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2022302070-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>He wants us to write &lt;em&gt;what&lt;/em&gt; about Tuvix?</media:text></media:content>
-            </item>
-                    <item>
-                <title>Cache poisoning vulnerabilities found in 2 DNS resolving apps</title>
-                <link>https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/</link>
-                                    <comments>https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Wed, 22 Oct 2025 22:35:41 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/</guid>
-
-                                    <description>
-                        <![CDATA[At least one CVE could weaken defenses put in place following 2008 disclosure.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The makers of BIND, the Internet’s most widely used software for resolving domain names, are warning of two vulnerabilities that allow attackers to poison entire caches of results and send users to malicious destinations that are indistinguishable from the real ones.</p>
-<p>The vulnerabilities, tracked as <a href="https://kb.isc.org/docs/cve-2025-40778">CVE-2025-40778</a> and <a href="https://kb.isc.org/docs/cve-2025-40780">CVE-2025-40780</a>, stem from a logic error and a weakness in generating pseudo-random numbers, respectively. They each carry a severity rating of 8.6. Separately, makers of the Domain Name System resolver software Unbound <a href="https://www.nlnetlabs.nl/downloads/unbound/CVE-2025-11411.txt">warned</a> of similar vulnerabilities that were reported by the same researchers. The unbound vulnerability severity score is 5.6</p>
-<h2>Revisiting Kaminsky’s cache poisoning attack</h2>
-<p>The vulnerabilities can be exploited to cause DNS resolvers located inside thousands of organizations to replace valid results for domain lookups with corrupted ones. The corrupted results would replace the IP addresses controlled by the domain name operator (for instance, 3.15.119.63 for arstechnica.com) with malicious ones controlled by the attacker. Patches for all three vulnerabilities became available on Wednesday.</p><p><a href="https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>32</slash:comments>
-                
-                
-                <media:content height="627" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/browser-security-threat-1152x627.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/browser-security-threat-500x500.jpg" width="500"/>
-</media:content>
-            </item>
-                    <item>
-                <title>Tesla profits fall 37% in Q3 despite healthy sales</title>
-                <link>https://arstechnica.com/cars/2025/10/tesla-profits-fall-37-in-q3-despite-healthy-sales/</link>
-                                    <comments>https://arstechnica.com/cars/2025/10/tesla-profits-fall-37-in-q3-despite-healthy-sales/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Wed, 22 Oct 2025 21:42:47 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Tesla earnings]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2025/10/tesla-profits-fall-37-in-q3-despite-healthy-sales/</guid>
-
-                                    <description>
-                        <![CDATA[A loss of regulatory credits and increased expenses didn't help.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Tesla reported its financial results for the third quarter of 2025 this afternoon. <a href="https://arstechnica.com/cars/2025/10/tesla-reverses-sales-decline-in-q3-sells-50k-more-cars-than-it-built/">Earlier this month</a>, we learned that the electric vehicle manufacturer had a pretty good Q3 in terms of sales, which grew by 7.3 percent year over year and cleared out tens of thousands of cars from inventory in the process. However, that hasn’t translated into greater profitability.</p>
-<p>Even though revenues grew by 12 percent to $28 billion compared to <a href="https://arstechnica.com/cars/2024/10/teslas-q3-buoyed-by-credits-cost-cutting-as-auto-revenue-stays-flat/">the same period last year</a>, Tesla’s operating expenses grew by 50 percent. As a result, its operating margin halved to just 5.8 percent. And so its profit for the quarter fell by 37 percent to $1.4 billion.</p>
-<p>Some growth in revenue came from its battery and solar division; this increased by 44 percent to $3.4 billion compared to Q3 2024. Services—including the Supercharger network, which is now open to an increasing number of other makes of EV—also grew, increasing by 25 percent to $3.4 billion. EV deliveries increased by 7 percent to 497,099, most of which were the Model 3 sedan and Model Y crossover. Automotive revenues grew slightly less, increasing 6 percent year over year to $21.2 billion.</p><p><a href="https://arstechnica.com/cars/2025/10/tesla-profits-fall-37-in-q3-despite-healthy-sales/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2025/10/tesla-profits-fall-37-in-q3-despite-healthy-sales/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>258</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/tesladown-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/tesladown-500x500.jpg" width="500"/>
-<media:credit>Alex Wong/Getty</media:credit></media:content>
-            </item>
-                    <item>
-                <title>This may be the most bonkers tech job listing I’ve ever seen</title>
-                <link>https://arstechnica.com/culture/2025/10/the-tech-ceo-who-would-eat-dog-poop-if-it-means-winning/</link>
-                                    <comments>https://arstechnica.com/culture/2025/10/the-tech-ceo-who-would-eat-dog-poop-if-it-means-winning/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Nate Anderson]]>
-                </dc:creator>
-                <pubDate>Wed, 22 Oct 2025 20:45:23 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[996]]></category>
-		<category><![CDATA[icon]]></category>
-		<category><![CDATA[Silicon Valley]]></category>
-		<category><![CDATA[work]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2025/10/the-tech-ceo-who-would-eat-dog-poop-if-it-means-winning/</guid>
-
-                                    <description>
-                        <![CDATA[Don't even apply if you're not a Tier 1 "A-player."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Here’s a job pitch you don’t see often.</p>
-<p>What if, instead of “work-life balance,” you had no balance at all—your life <em>was</em> your work… and work happened seven days a week?</p>
-<p>Did I say <em>days</em>? I actually meant <em>days and nights</em>, because the job I’m talking about wants you to know that you will also work weekends and evenings, and that “it’s ok to send messages at 3am.”</p><p><a href="https://arstechnica.com/culture/2025/10/the-tech-ceo-who-would-eat-dog-poop-if-it-means-winning/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2025/10/the-tech-ceo-who-would-eat-dog-poop-if-it-means-winning/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>265</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1149297973-1152x648-1761164087.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1149297973-500x500-1761164122.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
             </item>
             </channel>
 </rss>
