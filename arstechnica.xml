@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Tue, 02 Dec 2025 23:44:48 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 04 Dec 2025 00:16:11 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,602 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>12 former FDA chiefs unite to say agency memo on vaccines is deeply stupid</title>
+                <link>https://arstechnica.com/health/2025/12/12-former-fda-chiefs-unite-to-say-agency-memo-on-vaccines-is-deeply-stupid/</link>
+                                    <comments>https://arstechnica.com/health/2025/12/12-former-fda-chiefs-unite-to-say-agency-memo-on-vaccines-is-deeply-stupid/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Thu, 04 Dec 2025 00:06:58 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[clinical trials]]></category>
+		<category><![CDATA[COVID-19]]></category>
+		<category><![CDATA[fda]]></category>
+		<category><![CDATA[vaccines]]></category>
+		<category><![CDATA[vinay prasad]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2025/12/12-former-fda-chiefs-unite-to-say-agency-memo-on-vaccines-is-deeply-stupid/</guid>
+
+                                    <description>
+                        <![CDATA[Prasad's arguments "misrepresent both the science and the regulatory record."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Friday, Vinay Prasad—the Food and Drug Administration’s chief medical and scientific officer and its top vaccine regulator—emailed <a href="https://www.biocentury.com/article/657740">a stunning memo</a> to staff that quickly leaked to the press. Without evidence, Prasad claimed COVID-19 vaccines have killed 10 children in the US, and, as such, he announced unilateral, sweeping changes to the way the agency regulates and approves vaccines, including seasonal flu shots.</p>
+<p>On Wednesday evening, a dozen former FDA commissioners, who collectively oversaw the agency for more than 35 years, responded to the memo with <a href="https://www.nejm.org/doi/full/10.1056/NEJMp2517497?query=featured_home">a scathing rebuke</a>. Uniting to publish their response in the New England Journal of Medicine, the former commissioners said they were “deeply concerned” by Prasad’s memo, which they framed as a “threat” to the FDA’s work and a danger to Americans’ health.</p>
+<p>In his memo, Prasad called for abandoning the FDA’s current framework for updating seasonal flu shots and other vaccines, such as those for COVID-19. Those updates currently involve studies that measure well-characterized immune responses (called immunobridging studies). Prasad dismissed this approach as insufficient and, instead, plans to require expensive randomized trials, which can take months to years for each vaccine update.</p><p><a href="https://arstechnica.com/health/2025/12/12-former-fda-chiefs-unite-to-say-agency-memo-on-vaccines-is-deeply-stupid/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2025/12/12-former-fda-chiefs-unite-to-say-agency-memo-on-vaccines-is-deeply-stupid/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>20</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/07/GettyImages-1403288381-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/07/GettyImages-1403288381-500x500.jpeg" width="500"/>
+<media:credit>Getty | Joe Raedle</media:credit><media:text>Robert Califf, former commissioner of the Food and Drug Administration, was among those who responded to Vinay Prasad's memo.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Admins and defenders gird themselves against maximum-severity server vuln</title>
+                <link>https://arstechnica.com/security/2025/12/admins-and-defenders-gird-themselves-against-maximum-severity-server-vulnerability/</link>
+                                    <comments>https://arstechnica.com/security/2025/12/admins-and-defenders-gird-themselves-against-maximum-severity-server-vulnerability/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 23:16:03 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[exploits]]></category>
+		<category><![CDATA[react server components]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/12/admins-and-defenders-gird-themselves-against-maximum-severity-server-vulnerability/</guid>
+
+                                    <description>
+                        <![CDATA[Open source React executes malicious code with malformed HTML—no authentication needed.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Security defenders are girding themselves in response to the disclosure of a maximum-severity vulnerability disclosed Wednesday in React Server, an open-source package that’s widely used by websites and in cloud environments.</p>
+<p>The vulnerability is easy to exploit and allows hackers to execute malicious code on servers that run it. Exploit code is now <a href="https://github.com/ejpir/CVE-2025-55182-poc/tree/main">publicly available</a>.</p>
+<p>React is embedded into web apps running on servers so that remote devices render JavaScript and content more quickly and with fewer resources required. React is used by an estimated <a href="https://www.wiz.io/blog/critical-vulnerability-in-react-cve-2025-55182">6 percent</a> of all websites and 39 percent of cloud environments. When end users reload a page, React allows servers to re-render only parts that have changed, a feature that drastically speeds up performance and lowers the computing resources required by the server.</p><p><a href="https://arstechnica.com/security/2025/12/admins-and-defenders-gird-themselves-against-maximum-severity-server-vulnerability/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/12/admins-and-defenders-gird-themselves-against-maximum-severity-server-vulnerability/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>21</slash:comments>
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Great handling, advanced EV tech: We drive the 2027 BMW iX3</title>
+                <link>https://arstechnica.com/cars/2025/12/great-handling-advanced-ev-tech-we-drive-the-2026-bmw-ix3/</link>
+                                    <comments>https://arstechnica.com/cars/2025/12/great-handling-advanced-ev-tech-we-drive-the-2026-bmw-ix3/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 23:01:26 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[BMW iX3]]></category>
+		<category><![CDATA[car review]]></category>
+		<category><![CDATA[First drive]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2025/12/great-handling-advanced-ev-tech-we-drive-the-2026-bmw-ix3/</guid>
+
+                                    <description>
+                        <![CDATA[The first of BMW's clean-sheet "Neue Klasse" EVs hits it out of the park.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<aside class="pullbox sidebar fullwidth">BMW provided flights from Washington, DC, to Malaga, Spain, and accommodation so Ars could drive the iX3. Ars does not accept paid editorial content.</aside>
+<p>The new BMW iX3 is an important car for the automaker. It’s the first of a new series of vehicles that BMW is calling the Neue Klasse, calling back to a range of cars that helped define the brand in the 1960s. Then, as now, propulsion is provided by the best powertrain BMW’s engineers could design and build, wrapped in styling that heralds the company’s new look. Except now, that powertrain is fully electric, and the cabin features technology that would have been scarcely believable to the driver of a new 1962 BMW 1500.</p>
+<p>In fact, the iX3 is only half the story when it comes to BMW’s neue look for the Neue Klasse—there’s an all-electric 3 series sedan on the way, too. The sedan will surely appeal to enthusiasts, particularly the version that the M tuning arm has worked its magic upon, but you’ll have to wait until early 2026 to read about that stuff. Which makes sense: crossovers and SUVs—or “sports activity vehicles” in BMW-speak—are what the market wants these days, so that’s what comes first.</p>
+<h2>The technical stuff</h2>
+<p>As we learned <a href="https://arstechnica.com/cars/2025/08/how-bmw-slashed-the-carbon-footprint-of-its-next-ev-the-2026-ix3/">earlier this summer</a>, BMW leaned heavily into sustainability when it designed the iX3. There’s extensive use of recycled battery minerals, interior plastics, and aluminum, and the automaker has gone for a monomaterial approach where possible to make recycling the car a lot easier. There’s also <a href="https://arstechnica.com/cars/2025/09/neue-klasse-bmws-tech-filled-ix3-electric-suv-is-unveiled/">an all-new EV powertrain</a>, BMW’s sixth-generation. When it goes on sale here next summer, the launch model will be the iX3 50 xDrive, which pairs an asynchronous motor at the front axle and an electrically excited synchronous motor at the rear for a combined output of 463 hp (345 kW) and 475 lb-ft (645 Nm).</p><p><a href="https://arstechnica.com/cars/2025/12/great-handling-advanced-ev-tech-we-drive-the-2026-bmw-ix3/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2025/12/great-handling-advanced-ev-tech-we-drive-the-2026-bmw-ix3/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>50</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/BMW-iX3-50-xDrive-Spacesilver-061-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/BMW-iX3-50-xDrive-Spacesilver-061-500x500.jpg" width="500"/>
+<media:credit>BMW</media:credit><media:text>BMW's new iX3 is a clean-sheet design. It might be the most sustainable BMW ever, and remains decent to drive.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Republicans drop Trump-ordered block on state AI laws from defense bill</title>
+                <link>https://arstechnica.com/tech-policy/2025/12/republicans-once-again-thwart-trumps-push-to-block-state-ai-laws/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/12/republicans-once-again-thwart-trumps-push-to-block-state-ai-laws/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 21:06:34 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI safety]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[raise act]]></category>
+		<category><![CDATA[state AI laws]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/12/republicans-once-again-thwart-trumps-push-to-block-state-ai-laws/</guid>
+
+                                    <description>
+                        <![CDATA[“Widespread and powerful movement” keeps Trump from blocking state AI laws.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A Donald Trump-backed push has failed to wedge a federal measure that would block states from passing AI laws for a decade into the National Defense Authorization Act (NDAA).</p>
+<p>House Majority Leader Steve Scalise (R-La.) told reporters Tuesday that a sect of Republicans is now “looking at other places” to potentially pass the measure. Other Republicans opposed including the AI preemption in the defense bill, The Hill <a href="https://thehill.com/policy/technology/5630709-ai-preemption-republican-leaders/">reported</a>, joining critics who see value in allowing states to quickly regulate AI risks as they arise.</p>
+<p>For months, Trump has pressured the Republican-led Congress to block state AI laws that the president claims could bog down innovation as AI firms waste time and resources complying with a patchwork of state laws. But Republicans have continually failed to unite behind Trump’s command, <a href="https://arstechnica.com/tech-policy/2025/07/ted-cruz-gives-up-on-ai-law-moratorium-joins-99-1-vote-against-his-own-plan/">first voting against </a>including a <a href="https://arstechnica.com/ai/2025/05/gop-sneaks-decade-long-ai-regulation-ban-into-spending-bill/">similar measure in the “Big Beautiful” budget bill</a> and then this week failing to negotiate a solution to pass the NDAA measure.</p><p><a href="https://arstechnica.com/tech-policy/2025/12/republicans-once-again-thwart-trumps-push-to-block-state-ai-laws/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/12/republicans-once-again-thwart-trumps-push-to-block-state-ai-laws/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>29</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2238395456-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2238395456-500x500.jpg" width="500"/>
+<media:credit>Win McNamee / Staff | Getty Images News</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Humans in southern Africa were an isolated population until recently</title>
+                <link>https://arstechnica.com/science/2025/12/ancient-genomes-from-southern-africa-reveal-distinct-human-lineage/</link>
+                                    <comments>https://arstechnica.com/science/2025/12/ancient-genomes-from-southern-africa-reveal-distinct-human-lineage/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 20:40:42 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[africa]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[evolution]]></category>
+		<category><![CDATA[Genetics]]></category>
+		<category><![CDATA[Genomics]]></category>
+		<category><![CDATA[human evolution]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/12/ancient-genomes-from-southern-africa-reveal-distinct-human-lineage/</guid>
+
+                                    <description>
+                        <![CDATA[A distinct population that was isolated until the last thousand years or so. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The fossil and genetic evidence agree that modern humans originated in Africa. The most genetically diverse human populations—the groups that have had the longest time to pick up novel mutations—live there today. But the history of what went on within Africa between our origins and the present day is a bit murky.</p>
+<p>That’s partly because DNA doesn’t survive long in the conditions typical of most of the continent, which has largely limited us to trying to reconstruct the past using data from present-day populations. The other part is that many of those present-day populations have been impacted by the vast genetic churn <a href="https://arstechnica.com/science/2017/05/how-the-bantu-people-surged-across-two-thirds-of-africa/">caused by the Bantu expansion</a>, which left its traces across most of the populations south of the Sahara.</p>
+<p>But a new study has managed to extract genomes from ancient samples in southern Africa. While all of these are relatively recent, dating from after the end of the most recent glacial period, they reveal a distinct southern African population that was relatively large, outside of the range of previously described human variation, and it remained isolated until only about 1,000 years ago.</p><p><a href="https://arstechnica.com/science/2025/12/ancient-genomes-from-southern-africa-reveal-distinct-human-lineage/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/12/ancient-genomes-from-southern-africa-reveal-distinct-human-lineage/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>9</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-940753366-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-940753366-500x500.jpg" width="500"/>
+<media:credit>Edwin Remsberg</media:credit><media:text>The Zambezi River, which includes Victoria Falls, helps define a region that had a distinct population of modern humans.</media:text></media:content>
+            </item>
+                    <item>
+                <title>After nearly 30 years, Crucial will stop selling RAM to consumers</title>
+                <link>https://arstechnica.com/gadgets/2025/12/after-nearly-30-years-crucial-will-stop-selling-ram-to-consumers/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/12/after-nearly-30-years-crucial-will-stop-selling-ram-to-consumers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 19:48:47 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[AMD]]></category>
+		<category><![CDATA[Crucial]]></category>
+		<category><![CDATA[datacenters]]></category>
+		<category><![CDATA[DDR5]]></category>
+		<category><![CDATA[DRAM]]></category>
+		<category><![CDATA[framework]]></category>
+		<category><![CDATA[HBM]]></category>
+		<category><![CDATA[Lenovo]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[memory]]></category>
+		<category><![CDATA[memory shortage]]></category>
+		<category><![CDATA[Micron]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[pc building]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<category><![CDATA[semiconductors]]></category>
+		<category><![CDATA[SK Hynix]]></category>
+		<category><![CDATA[SSD]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/12/after-nearly-30-years-crucial-will-stop-selling-ram-to-consumers/</guid>
+
+                                    <description>
+                        <![CDATA[Micron cites AI data center demand as reason for killing DIY upgrade brand.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday, Micron Technology <a href="https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business">announced</a> it will exit the consumer RAM business in 2026, ending 29 years of selling RAM and SSDs to PC builders and enthusiasts under the Crucial brand. The company cited heavy demand from AI data centers as the reason for abandoning its consumer brand, a move that will remove one of the most recognizable names in the do-it-yourself PC upgrade market.</p>
+<p>“The AI-driven growth in the data center has led to a surge in demand for memory and storage,” Sumit Sadana, EVP and chief business officer at Micron Technology, said in a statement. “Micron has made the difficult decision to exit the Crucial consumer business in order to improve supply and support for our larger, strategic customers in faster-growing segments.”</p>
+<p>Micron said it will continue shipping Crucial consumer products through the end of its fiscal second quarter in February 2026 and will honor warranties on existing products. The company will continue selling Micron-branded enterprise products to commercial customers and plans to redeploy affected employees to other positions within the company.</p><p><a href="https://arstechnica.com/gadgets/2025/12/after-nearly-30-years-crucial-will-stop-selling-ram-to-consumers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/12/after-nearly-30-years-crucial-will-stop-selling-ram-to-consumers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>158</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/crucial_ram_header-1080x648.jpg" width="1080">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/crucial_ram_header-500x500.jpg" width="500"/>
+<media:credit>Micron Technology</media:credit><media:text>An example of a Crucial DDR5 RAM kit from 2025.</media:text></media:content>
+            </item>
+                    <item>
+                <title>NASA nominee appears before Congress, defends plans to revamp space agency</title>
+                <link>https://arstechnica.com/space/2025/12/nasa-nominee-says-now-is-the-time-for-action-to-keep-agency-ahead-of-china/</link>
+                                    <comments>https://arstechnica.com/space/2025/12/nasa-nominee-says-now-is-the-time-for-action-to-keep-agency-ahead-of-china/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 19:31:04 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[isaacman]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[space]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2025/12/nasa-nominee-says-now-is-the-time-for-action-to-keep-agency-ahead-of-china/</guid>
+
+                                    <description>
+                        <![CDATA["We are in a great competition with a rival that has the will and means to challenge American exceptionalism."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Private astronaut Jared Isaacman returned to Congress on Wednesday for a second confirmation hearing to become NASA administrator before the US Senate Committee on Commerce, Science, and Transportation in Washington, DC.</p>
+<p>There appeared to be no showstoppers during the hearing, in which Isaacman reiterated his commitment to the space agency’s Artemis Program and defended his draft plan for NASA, “Project Athena,” which calls for an assessment of how NASA should adapt to meet the modern space age.</p>
+<p>During his testimony, Isaacman expressed urgency as NASA faces a growing threat from China to its supremacy in spaceflight.</p><p><a href="https://arstechnica.com/space/2025/12/nasa-nominee-says-now-is-the-time-for-action-to-keep-agency-ahead-of-china/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/12/nasa-nominee-says-now-is-the-time-for-action-to-keep-agency-ahead-of-china/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>42</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2249116324-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2249116324-500x500.jpg" width="500"/>
+<media:credit>Graeme Sloan/Bloomberg via Getty Images</media:credit><media:text>Jared Isaacman, administrator of the National Aeronautics and Space Administration nominee for US President Donald Trump, during a Senate Commerce, Science, and Transportation Committee confirmation hearing in Washington, DC, on December 3, 2025.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Sony drops new trailer for 28 Years Later: Bone Temple</title>
+                <link>https://arstechnica.com/culture/2025/12/new-28-years-later-bone-temple-trailer-teases-a-cure/</link>
+                                    <comments>https://arstechnica.com/culture/2025/12/new-28-years-later-bone-temple-trailer-teases-a-cure/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 19:13:48 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[28 Years Later: The Bone Temple]]></category>
+		<category><![CDATA[entertainment]]></category>
+		<category><![CDATA[film trailers]]></category>
+		<category><![CDATA[Sony Pictures]]></category>
+		<category><![CDATA[Trailers]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2025/12/new-28-years-later-bone-temple-trailer-teases-a-cure/</guid>
+
+                                    <description>
+                        <![CDATA["Old Nick released his demons onto the world of man, and the world of man fell before the demons."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/QlF68NIz8dg?start=0&amp;wmode=transparent"></div></div>
+<p>Sony Pictures has dropped a new trailer for <a href="https://en.wikipedia.org/wiki/28_Years_Later:_The_Bone_Temple"><em>28 Years Later: The Bone Temple</em></a>, slated for release early next year and directed by Nia DaCosta, teasing a possible cure for the zombie outbreak that has devastated human populations for three decades. It’s the sequel to this year’s critically acclaimed <em>28 Years Later</em>, the third film in a franchise credited with sparking the 21st-century revival of the zombie genre.</p>
+<p><strong>(Some spoilers for the first three films below.)</strong></p>
+<p>As previously reported, in <em><a href="https://en.wikipedia.org/wiki/28_Days_Later">28 Days Later</a>,</em> a highly contagious “Rage Virus” was accidentally released from a lab in Cambridge, England. Those infected turned into violent, mindless monsters who brutally attacked the uninfected—so-called “fast zombies”—and the virus spread rapidly, effectively collapsing society. The sequel, <em>28 Weeks Later</em>, featured a new cast of characters living on the outskirts of London. But all it takes is one careless person getting infected for the virus to spread uncontrollably again. So naturally, that’s what happened.</p><p><a href="https://arstechnica.com/culture/2025/12/new-28-years-later-bone-temple-trailer-teases-a-cure/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2025/12/new-28-years-later-bone-temple-trailer-teases-a-cure/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>16</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/bonetemple-1152x648-1764788053.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/bonetemple-500x500.jpg" width="500"/>
+<media:credit>Sonly Pictures</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Rare win for renewable energy: Trump admin funds geothermal network expansion</title>
+                <link>https://arstechnica.com/science/2025/12/rare-win-for-renewable-energy-trump-admin-funds-geothermal-network-expansion/</link>
+                                    <comments>https://arstechnica.com/science/2025/12/rare-win-for-renewable-energy-trump-admin-funds-geothermal-network-expansion/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Phil McKenna, Inside Climate News]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 18:35:59 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[geothermal]]></category>
+		<category><![CDATA[geothermal energy]]></category>
+		<category><![CDATA[geothermal power]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/12/rare-win-for-renewable-energy-trump-admin-funds-geothermal-network-expansion/</guid>
+
+                                    <description>
+                        <![CDATA[A first-in-the-nation heating and cooling network in Massachusetts is set to double in size. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The US Department of Energy has approved an $8.6 million grant that will allow the nation’s first utility-led geothermal heating and cooling network to double in size.</p>
+<p>Gas and electric utility Eversource Energy completed the first phase of its geothermal network in Framingham, Massachusetts, <a href="https://insideclimatenews.org/news/04062024/massachusetts-geothermal-heating-cooling-system/">in 2024</a>. Eversource is a co-recipient of the award along with the city of Framingham and HEET, a Boston-based nonprofit that focuses on geothermal energy and is the lead recipient of the funding.</p>
+<p>Geothermal networks are widely considered among the most energy-efficient ways to heat and cool buildings. The federal money will allow Eversource to add approximately 140 new customers to the Framingham network and fund research to monitor the system’s performance.</p><p><a href="https://arstechnica.com/science/2025/12/rare-win-for-renewable-energy-trump-admin-funds-geothermal-network-expansion/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/12/rare-win-for-renewable-energy-trump-admin-funds-geothermal-network-expansion/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>31</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-527975034-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-527975034-500x500.jpg" width="500"/>
+<media:credit>Kevin Schafer via Getty Images</media:credit><media:text>A geothermal power plant.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Microsoft drops AI sales targets in half after salespeople miss their quotas</title>
+                <link>https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/</link>
+                                    <comments>https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 18:24:06 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI adoption]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[AI spending]]></category>
+		<category><![CDATA[azure]]></category>
+		<category><![CDATA[cloud computing]]></category>
+		<category><![CDATA[copilot]]></category>
+		<category><![CDATA[enterprise AI]]></category>
+		<category><![CDATA[foundry]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Microsoft Copilot]]></category>
+		<category><![CDATA[simulated reasoning]]></category>
+		<category><![CDATA[SR models]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/</guid>
+
+                                    <description>
+                        <![CDATA[Report: Microsoft declared "the era of AI agents" in May, but enterprise customers aren't buying.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Microsoft has lowered sales growth targets for its AI agent products after many salespeople missed their quotas in the fiscal year ending in June, according to a <a href="https://www.theinformation.com/articles/microsoft-lowers-ai-software-sales-quotas-customers-resist-newer-products">report</a> Wednesday from The Information. The adjustment is reportedly unusual for Microsoft, and it comes after the company missed a number of ambitious sales goals for its AI offerings.</p>
+<p>AI agents are specialized implementations of AI language models designed to perform multistep tasks autonomously rather than simply responding to single prompts. So-called “agentic” features have been <a href="https://arstechnica.com/gadgets/2025/10/microsofts-vision-for-ai-pcs-looks-a-lot-like-another-crack-at-cortana/">central</a> to Microsoft’s 2025 sales pitch: At its Build conference in May, the company <a href="https://blogs.microsoft.com/blog/2025/05/19/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web/">declared</a> that it has entered “the era of AI agents.”</p>
+<p>The company has promised customers that agents could automate complex tasks, such as generating dashboards from sales data or writing customer reports. At its Ignite conference in November, Microsoft <a href="https://www.microsoft.com/en-us/microsoft-365/blog/2025/11/18/microsoft-ignite-2025-copilot-and-agents-built-to-power-the-frontier-firm/">announced</a> new features like Word, Excel, and PowerPoint agents in Microsoft 365 Copilot, along with tools for building and deploying agents through Azure AI Foundry and Copilot Studio. But as the year draws to a close, that promise has proven harder to deliver than the company expected.</p><p><a href="https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>75</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/dartboard_missed-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/dartboard_missed-500x500.jpg" width="500"/>
+<media:credit>Wong Yu Liang via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Prime Video pulls eerily emotionless AI-generated anime dubs after complaints</title>
+                <link>https://arstechnica.com/gadgets/2025/12/prime-video-pulls-eerily-emotionless-ai-generated-anime-dubs-after-complaints/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/12/prime-video-pulls-eerily-emotionless-ai-generated-anime-dubs-after-complaints/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 18:11:45 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[amazon prime video]]></category>
+		<category><![CDATA[anime]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[streaming]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/12/prime-video-pulls-eerily-emotionless-ai-generated-anime-dubs-after-complaints/</guid>
+
+                                    <description>
+                        <![CDATA[In some cases, better dubs already existed. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Amazon Prime Video has scaled back an experiment that created laughable anime dubs with generative AI.</p>
+<p>In March, Amazon <a href="https://www.aboutamazon.com/news/entertainment/prime-video-ai-dubbing-english-spanish?tag=futurism0b-20&amp;asc_source=browser&amp;asc_refurl=https%3A%2F%2Ffuturism.com%2Famazon-deploying-ai-dubs-movies&amp;ascsubtag=0000FUT00003452961057103602025120310312">announced</a> that its streaming service would start including “AI-aided dubbing on licensed movies and series that would not have been dubbed otherwise.” In late November, some AI-generated English and Spanish dubs of anime popped up, including dubs for the <em>Banana Fish</em> series and the movie <em>No Game No Life: Zero</em>. The dubs appear to be part of a beta launch, and users have been able to select “English (AI beta)” or “Spanish (AI beta)” as an audio language option in supported titles.</p>
+<h2>“Absolutely disrespectful”</h2>
+<p>Not everyone likes dubbed content. Some people insist on watching movies and shows in their original language to experience the media more authentically, with the passion and talent of the original actors. But you don’t need to be against dubs to see what’s wrong with the ones Prime Video tested.</p><p><a href="https://arstechnica.com/gadgets/2025/12/prime-video-pulls-eerily-emotionless-ai-generated-anime-dubs-after-complaints/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/12/prime-video-pulls-eerily-emotionless-ai-generated-anime-dubs-after-complaints/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>80</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/cf4e3cf73353496b14e14688baba726e09889d10ccc8c588dd7db36bc058b8df-1152x648-1764781755.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/cf4e3cf73353496b14e14688baba726e09889d10ccc8c588dd7db36bc058b8df-500x500-1764781738.jpg" width="500"/>
+<media:credit>Amazon</media:credit><media:text>A scene from &lt;em&gt;Banana Fish&lt;/em&gt;.</media:text></media:content>
+            </item>
+                    <item>
+                <title>FCC boss Brendan Carr claims another victory over DEI as AT&amp;T drops programs</title>
+                <link>https://arstechnica.com/tech-policy/2025/12/fcc-boss-brendan-carr-claims-another-victory-over-dei-as-att-drops-programs/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/12/fcc-boss-brendan-carr-claims-another-victory-over-dei-as-att-drops-programs/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 17:48:44 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AT&T]]></category>
+		<category><![CDATA[brendan carr]]></category>
+		<category><![CDATA[dei]]></category>
+		<category><![CDATA[FCC]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/12/fcc-boss-brendan-carr-claims-another-victory-over-dei-as-att-drops-programs/</guid>
+
+                                    <description>
+                        <![CDATA[AT&#038;T accused of "financial play to curry favor" with Trump administration.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>AT&amp;T told the Federal Communications Commission that it has eliminated DEI (diversity, equity, and inclusion) policies and programs, complying with demands from Chairman Brendan Carr.</p>
+<p>The FCC boss has refused to approve mergers and other large transactions involving companies that don’t agree to drop support for DEI. On Monday, AT&amp;T filed a <a href="https://www.fcc.gov/ecfs/document/1201120484909/1">letter</a> disowning its former DEI initiatives in the FCC docket for its $1 billion <a href="https://docs.fcc.gov/public/attachments/DA-25-276A1.pdf">purchase</a> of US Cellular spectrum licenses.</p>
+<p>“We have closely followed the recent Executive Orders, Supreme Court rulings, and guidance issued by the US Equal Employment Opportunity Commission and have adjusted our employment and business practices to ensure that they comply with all applicable laws and related requirements, including ending DEI-related policies as described below, not just in name but in substance,” AT&amp;T’s letter to Carr said.</p><p><a href="https://arstechnica.com/tech-policy/2025/12/fcc-boss-brendan-carr-claims-another-victory-over-dei-as-att-drops-programs/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/12/fcc-boss-brendan-carr-claims-another-victory-over-dei-as-att-drops-programs/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>53</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/brendan-carrr-scaled-1152x648-1742504118.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/brendan-carrr-scaled-500x500-1742504125.jpg" width="500"/>
+<media:credit>Getty Images | Lluis Gene</media:credit><media:text>FCC Chairman Brendan Carr delivers a speech at the MWC (Mobile World Congress) in Barcelona on March 3, 2025.</media:text></media:content>
+            </item>
+                    <item>
+                <title>A spectacular explosion shows China is close to obtaining reusable rockets</title>
+                <link>https://arstechnica.com/space/2025/12/a-little-known-chinese-company-nearly-landed-a-rocket-from-space-on-its-first-try/</link>
+                                    <comments>https://arstechnica.com/space/2025/12/a-little-known-chinese-company-nearly-landed-a-rocket-from-space-on-its-first-try/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 17:40:15 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[Commercial space]]></category>
+		<category><![CDATA[jiuquan]]></category>
+		<category><![CDATA[LandSpace]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[reusable rocket]]></category>
+		<category><![CDATA[zhuque-3]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2025/12/a-little-known-chinese-company-nearly-landed-a-rocket-from-space-on-its-first-try/</guid>
+
+                                    <description>
+                        <![CDATA["China’s first rocket recovery attempt achieved its expected technical objectives."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>China’s first attempt to land an orbital-class rocket may have ended in a fiery crash, but the company responsible for the mission had a lot to celebrate with the first flight of its new methane-fueled launcher.</p>
+<p>LandSpace, a decade-old company based in Beijing, launched its new Zhuque-3 rocket for the first time at 11 pm EST Tuesday (04:0 UTC Wednesday), or noon local time at the Jiuquan launch site in northwestern China.</p>
+<p>Powered by nine methane-fueled engines, the Zhuque-3 (Vermillion Bird-3) rocket climbed away from its launch pad with more than 1.7 million pounds of thrust. The 216-foot-tall (66-meter) launcher headed southeast, soaring through clear skies before releasing its first stage booster about two minutes into the flight.</p><p><a href="https://arstechnica.com/space/2025/12/a-little-known-chinese-company-nearly-landed-a-rocket-from-space-on-its-first-try/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2025/12/a-little-known-chinese-company-nearly-landed-a-rocket-from-space-on-its-first-try/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>46</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/zq3-engines-1152x648-1764781464.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/zq3-engines-500x500.jpg" width="500"/>
+<media:credit>LandSpace</media:credit><media:text>Nine TQ-12A engines, burning methane and liquid oxygen, power the first Zhuque-3 rocket off the launch pad.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Fraudulent gambling network may actually be something more nefarious</title>
+                <link>https://arstechnica.com/security/2025/12/fraudulent-gambling-network-may-be-a-nation-state-spying-operation/</link>
+                                    <comments>https://arstechnica.com/security/2025/12/fraudulent-gambling-network-may-be-a-nation-state-spying-operation/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 17:23:26 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[espionage]]></category>
+		<category><![CDATA[exploits]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[hacking]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/12/fraudulent-gambling-network-may-be-a-nation-state-spying-operation/</guid>
+
+                                    <description>
+                        <![CDATA[Researchers say there's more to the network, which has operated for 14 years.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A sprawling infrastructure that has been bilking unsuspecting people through fraudulent gambling websites for 14 years is likely a dual operation run by a nation-state-sponsored group that is targeting government and private-industry organizations in the US and Europe, researchers said Wednesday.</p>
+<p>Researchers have previously tracked smaller pieces of the enormous infrastructure. Last month, security firm Sucuri <a href="https://blog.sucuri.net/2025/11/slot-gacor-the-rise-of-online-casino-spam.html">reported</a> that the operation seeks out and compromises poorly configured websites running the WordPress CMS. Imperva in January <a href="https://www.imperva.com/blog/how-hackers-use-php-backdoors-and-gsocket-to-facilitate-illegal-gambling-in-indonesia/">said</a> the attackers also scan for and exploit web apps built with the PHP programming language that have existing webshells or vulnerabilities. Once the weaknesses are exploited, the attackers install a GSocket, a backdoor that the attackers use to compromise servers and host gambling web content on them.</p>
+<p>All of the gambling sites target Indonesian-speaking visitors. Because Indonesian law prohibits gambling, many people in that country are drawn to illicit services. Most of the 236,433 attacker-owned domains hosting the gambling sites are hosted on Cloudflare. Most of the 1,481 hijacked subdomains were hosted on Amazon Web Services, Azure, and GitHub.</p><p><a href="https://arstechnica.com/security/2025/12/fraudulent-gambling-network-may-be-a-nation-state-spying-operation/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/12/fraudulent-gambling-network-may-be-a-nation-state-spying-operation/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>12</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/warning-alert-screen-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/warning-alert-screen-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Samara Weaving levels up in Ready or Not 2: Here I Come trailer</title>
+                <link>https://arstechnica.com/culture/2025/12/samara-weaving-levels-up-in-ready-or-not-2-here-i-come-trailer/</link>
+                                    <comments>https://arstechnica.com/culture/2025/12/samara-weaving-levels-up-in-ready-or-not-2-here-i-come-trailer/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 17:04:50 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[entertainment]]></category>
+		<category><![CDATA[film trailers]]></category>
+		<category><![CDATA[Samara Weaving]]></category>
+		<category><![CDATA[Searchlight Pictures]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2025/12/samara-weaving-levels-up-in-ready-or-not-2-here-i-come-trailer/</guid>
+
+                                    <description>
+                        <![CDATA[The sequel to 2019's delightful horror comedy hits theaters next spring.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/7K3sNRm8J0w?start=0&amp;wmode=transparent"></div></div>
+<p>One of big surprise hits of 2019 was the delightful horror comedy <a href="https://arstechnica.com/gaming/2019/08/review-pitch-perfect-ready-or-not-is-a-sharp-and-witty-blood-soaked-delight/"><em>Ready or Not</em></a>, in which Samara Weaving’s blushing bride must play a deadly game of Hide and Seek on her wedding night. Searchlight Pictures just released the trailer for its sequel: <a href="https://en.wikipedia.org/wiki/Ready_or_Not_2:_Here_I_Come"><em>Ready or Not 2: Here I Come</em></a>.</p>
+<p><strong>(Spoilers for <em>Ready or Not</em> below.)</strong></p>
+<p>In <em>Ready or Not</em>, Grace (Weaving) falls in love with Alex Le Domas (Mark O’Brien), a member of a wealthy gaming dynasty. After a picture-perfect wedding on the family estate, Alex informs Grace that there’s just one more formality to be observed: At midnight, she has to draw a card from a mysterious box and play whatever game is named there.</p><p><a href="https://arstechnica.com/culture/2025/12/samara-weaving-levels-up-in-ready-or-not-2-here-i-come-trailer/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2025/12/samara-weaving-levels-up-in-ready-or-not-2-here-i-come-trailer/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>19</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/ready3-1152x648-1764777987.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/ready3-500x500.jpg" width="500"/>
+<media:credit>Searchlight Pictures</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Planned satellite constellations may swamp future orbiting telescopes</title>
+                <link>https://arstechnica.com/science/2025/12/planned-satellite-constellations-may-swamp-future-orbiting-telescopes/</link>
+                                    <comments>https://arstechnica.com/science/2025/12/planned-satellite-constellations-may-swamp-future-orbiting-telescopes/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 16:26:32 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[Hubble]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[orbital constellations]]></category>
+		<category><![CDATA[satellites]]></category>
+		<category><![CDATA[space-based telescope]]></category>
+		<category><![CDATA[starlink]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2025/12/planned-satellite-constellations-may-swamp-future-orbiting-telescopes/</guid>
+
+                                    <description>
+                        <![CDATA[Planned orbital observatories would see satellites cross nearly all of their images.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday, three NASA astronomers released an analysis showing that several planned orbital telescopes would see their images criss-crossed by planned satellite constellations, such as a fully expanded Starlink and its competitors. While the impact of these constellations on ground-based has been widely considered, orbital hardware was thought to be relatively immune from their interference. But the planned expansion of constellations, coupled with some of the features of upcoming missions, will mean that at least one proposed observatory will see an average of nearly 100 satellite tracks in every exposure.</p>
+<p>Making matters worse, some of the planned measures meant to minimize the impact on ground-based telescopes will make things worse for those in orbit.</p>
+<h2>Constellations vs. astronomy</h2>
+<p>Satellite constellations are a relatively new threat to astronomy; prior to the drop in launch costs driven by SpaceX’s reusable rockets, the largest constellations in orbit consisted of a few dozen satellites. But the rapid growth of the Starlink system caused problems for ground-based astronomy that are <a href="https://arstechnica.com/science/2020/08/spacex-satellites-effect-on-night-sky-cant-be-eliminated-astronomers-say/">not easy to solve</a>.</p><p><a href="https://arstechnica.com/science/2025/12/planned-satellite-constellations-may-swamp-future-orbiting-telescopes/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2025/12/planned-satellite-constellations-may-swamp-future-orbiting-telescopes/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>120</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/image-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/image-500x500.jpeg" width="500"/>
+<media:credit>NASA</media:credit></media:content>
+            </item>
+                    <item>
                 <title>Guitar amp sims have gotten astonishingly good</title>
                 <link>https://arstechnica.com/culture/2025/12/guitar-amp-sims-have-gotten-astonishingly-good/</link>
                                     <comments>https://arstechnica.com/culture/2025/12/guitar-amp-sims-have-gotten-astonishingly-good/#comments</comments>
@@ -38,13 +634,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>It’s an incredible time to be a guitarist who <em>doesn’t</em> want to own a bunch of $2,000 amps and an expensive pedalboard of gear. Amp and pedal simulators, which have been around for decades, have in the last few years finally come into their own as nearly indistinguishable sonic replacements. Even John Mayer is now <a href="https://www.guitarworld.com/artists/guitarists/john-mayer-neural-dsp-quad-cortex-coachella-2025">willing to ditch his beloved tube amps for digital models</a>.</p>
-<p>I certainly don’t have Mayer’s chops or gear budget, but I do love messing with this sort of tech and have purchased everything from <a href="https://neuraldsp.com">NeuralDSP</a>‘s Archetypes series to <a href="https://www.ikmultimedia.com/products/amplitube5/?pkey=amplitube-5-max-v2">Amplitube</a> and Guitar Rig. Last week, as part of an early Black Friday sale, I even picked up two amp/effects suites from British developer Polychrome DSP—<a href="https://www.polychromedsp.com/nunchuck/">Nunchuck</a> (Marshall amps) and <a href="https://www.polychromedsp.com/lumos/">Lumos</a> (clean through mid-gain tones). They are both excellent.</p>
-<p>Any reasonable person should be satisfied with this tech stack, which models gear that collectively costs as much as my house. After my Polychrome DSP purchases, I reminded myself that I was a reasonable person, and that I could therefore ignore any further amp sims that might tempt my wandering eye.</p><p><a href="https://arstechnica.com/culture/2025/12/guitar-amp-sims-have-gotten-astonishingly-good/">Read full article</a></p>
+<p>I certainly don’t have Mayer’s chops or gear budget, but I do love messing with this sort of tech and have purchased everything from <a href="https://neuraldsp.com">NeuralDSP</a>‘s Archetypes series to <a href="https://www.ikmultimedia.com/products/amplitube5/?pkey=amplitube-5-max-v2">Amplitube</a> and <a href="https://www.izotope.com/en/shop/guitar-rig-7-pro/">Guitar Rig</a>. Last week, as part of an early Black Friday sale, I picked up two amp/effects suites from British developer Polychrome DSP—<a href="https://www.polychromedsp.com/nunchuck/">Nunchuck</a> (Marshall amps) and <a href="https://www.polychromedsp.com/lumos/">Lumos</a> (clean through mid-gain tones). They are both excellent.</p>
+<p>Any reasonable person should be satisfied with this tech stack, which models gear that collectively costs as much as my house. After my Polychrome DSP purchases, I reminded myself that I am a reasonable person, and that I could therefore ignore any further amp sims that might tempt my wandering eye.</p><p><a href="https://arstechnica.com/culture/2025/12/guitar-amp-sims-have-gotten-astonishingly-good/">Read full article</a></p>
 <p><a href="https://arstechnica.com/culture/2025/12/guitar-amp-sims-have-gotten-astonishingly-good/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>2</slash:comments>
+                                    <slash:comments>138</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1349412769-1152x648.jpg" width="1152">
@@ -75,7 +671,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>49</slash:comments>
+                                    <slash:comments>81</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2017/02/GettyImages-496532228-1024x648.jpg" width="1024">
@@ -115,7 +711,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>48</slash:comments>
+                                    <slash:comments>87</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/zq3hangar-1152x648-1764713841.jpg" width="1152">
@@ -166,599 +762,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>113</slash:comments>
+                                    <slash:comments>178</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/aaltman_crop-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/aaltman_crop-500x500.jpg" width="500"/>
 <media:credit>Anadolu via Getty Images</media:credit><media:text>OpenAI CEO Sam Altman delivers a speech with video at the SK AI Summit 2025 at COEX in Seoul, South Korea on November 3, 2025.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Mad Men’s 4K debut botched by HBO Max streaming episode with visible crewmembers</title>
-                <link>https://arstechnica.com/gadgets/2025/12/mad-mens-4k-debut-botched-by-hbo-max-streaming-episode-with-visible-crewmembers/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/12/mad-mens-4k-debut-botched-by-hbo-max-streaming-episode-with-visible-crewmembers/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Tue, 02 Dec 2025 21:52:10 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[hbo max]]></category>
-		<category><![CDATA[streaming]]></category>
-		<category><![CDATA[warner bros. discovery]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/12/mad-mens-4k-debut-botched-by-hbo-max-streaming-episode-with-visible-crewmembers/</guid>
-
-                                    <description>
-                        <![CDATA[Producer Lionsgate reportedly contributed to the gaffe.  ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Streaming services have a way of <a href="https://www.hollywoodreporter.com/tv/tv-news/suits-year-end-streaming-record-2023-1235808594/">reviving love for old shows</a>, and HBO Max is looking to entice old and new fans with this month’s addition of <em>Mad Men</em>. Instead, viewers have been <a href="https://bsky.app/profile/ceej.online/post/3m6zi46pxfc27">laughing</a> at the problems with the show’s 4K premiere.</p>
-<p><em>Mad Men</em> ran on the AMC channel for seven seasons from 2007 to 2015. The show had a vintage aesthetic, depicting the 1960s advertising industry in New York City.</p>
-<p>Last month, HBO Max announced it would modernize the show by debuting a 4K version. The show originally aired in SD and HD resolutions and had not been previously made available in 4K through other means, such as Blu-ray.</p><p><a href="https://arstechnica.com/gadgets/2025/12/mad-mens-4k-debut-botched-by-hbo-max-streaming-episode-with-visible-crewmembers/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/12/mad-mens-4k-debut-botched-by-hbo-max-streaming-episode-with-visible-crewmembers/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>60</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/mad-men-season-6-jon-hamm-2-770x470-1.jpg">
-<media:thumbnail height="470" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/mad-men-season-6-jon-hamm-2-770x470-1-500x470.jpg" width="500"/>
-<media:credit>Lionsgate</media:credit></media:content>
-            </item>
-                    <item>
-                <title>India orders device makers to put government-run security app on all phones</title>
-                <link>https://arstechnica.com/tech-policy/2025/12/apple-will-refuse-to-preload-state-run-snooping-app-on-iphones-report-says/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/12/apple-will-refuse-to-preload-state-run-snooping-app-on-iphones-report-says/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Tue, 02 Dec 2025 21:36:50 +0000</pubDate>
-                		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[iphone]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/12/apple-will-refuse-to-preload-state-run-snooping-app-on-iphones-report-says/</guid>
-
-                                    <description>
-                        <![CDATA[Apple will refuse to preload state-run “snooping” app on iPhones, report says.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Apple reportedly won’t comply with a government order in India to preload iPhones with a state-run app that can track and block lost or stolen phones via a device’s International Mobile Equipment Identity (IMEI) code. While the government describes it as a tool to help consumers, privacy advocates say it could easily be repurposed for surveillance.</p>
-<p>Reuters <a href="https://www.reuters.com/sustainability/boards-policy-regulation/apple-resist-india-order-preload-state-run-app-political-outcry-builds-2025-12-02/">reported today</a>, citing three anonymous sources, that “Apple does not plan to comply with a mandate to preload its smartphones with a state-owned cyber safety app and will convey its concerns to New Delhi.” Reuters noted that the government mandate has “sparked surveillance concerns and a political uproar.”</p>
-<p>The government’s Sanchar Saathi (“Communication Partner”) app is billed as a consumer tool for reporting suspected fraud communications, verifying the genuineness of a phone, and blocking lost or stolen handsets. The app can already be installed by users as it is available on the <a href="https://apps.apple.com/in/app/sanchar-saathi/id6739700695">Apple</a> and <a href="https://play.google.com/store/apps/details?id=com.dot.app.sancharsaathi&amp;pli=1">Google Play</a> app stores, but the government wants device makers such as Apple, Google, Samsung, and Xiaomi to load phones with the app before they are shipped.</p><p><a href="https://arstechnica.com/tech-policy/2025/12/apple-will-refuse-to-preload-state-run-snooping-app-on-iphones-report-says/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/12/apple-will-refuse-to-preload-state-run-snooping-app-on-iphones-report-says/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>69</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/apple-store-india-1152x648-1764709977.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/apple-store-india-500x500-1764709986.jpg" width="500"/>
-<media:credit>Getty Images | Idrees Mohammed</media:credit><media:text>An Apple Store in Bengaluru on September 19, 2025. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Testing shows why the Steam Machine’s 8GB of graphics RAM could be a problem</title>
-                <link>https://arstechnica.com/gadgets/2025/12/steamos-has-problems-with-8gb-gpus-but-valve-is-working-on-it/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/12/steamos-has-problems-with-8gb-gpus-but-valve-is-working-on-it/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Tue, 02 Dec 2025 19:26:26 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[AMD]]></category>
-		<category><![CDATA[Intel]]></category>
-		<category><![CDATA[NVIDIA]]></category>
-		<category><![CDATA[steam deck]]></category>
-		<category><![CDATA[steam machine]]></category>
-		<category><![CDATA[steamos]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/12/steamos-has-problems-with-8gb-gpus-but-valve-is-working-on-it/</guid>
-
-                                    <description>
-                        <![CDATA[Valve has work to do on the software side—but some fixes are coming. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>By Valve’s admission, its upcoming Steam Machine desktop isn’t swinging for the fences with its graphical performance. The specs promise decent 1080p-to-1440p performance in most games, with 4K occasionally reachable with assistance from FSR upscaling—about what you’d expect from a box with a modern midrange graphics card in it.</p>
-<p>But there’s one spec that has caused some concern among Ars staffers and others with their eyes on the Steam Machine: The GPU comes with just 8GB of dedicated graphics RAM, an amount that is steadily becoming more of a bottleneck for midrange GPUs like AMD’s Radeon RX 7060 and 9060, or Nvidia’s GeForce RTX 4060 or 5060.</p>
-<p>In our reviews of these GPUs, we’ve already run into some games where the RAM ceiling limits performance in Windows, especially at 1440p. But we’ve been doing more extensive testing of various GPUs with SteamOS, and we can confirm that in current betas, 8GB GPUs struggle even more on SteamOS than they do running the same games at the same settings in Windows 11.</p><p><a href="https://arstechnica.com/gadgets/2025/12/steamos-has-problems-with-8gb-gpus-but-valve-is-working-on-it/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/12/steamos-has-problems-with-8gb-gpus-but-valve-is-working-on-it/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>114</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/IMG_1114-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/IMG_1114-500x500-1764692507.jpeg" width="500"/>
-<media:credit>Andrew Cunningham</media:credit><media:text>AMD's Radeon RX 7600 GPU is pretty similar to the graphics hardware Valve will ship in the Steam Machine—and its 8GB of dedicated GDDR6 RAM can be a problem.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Google announces second Android 16 release of 2025 is heading to Pixels</title>
-                <link>https://arstechnica.com/google/2025/12/google-announces-second-android-16-release-of-2025-is-heading-to-pixels/</link>
-                                    <comments>https://arstechnica.com/google/2025/12/google-announces-second-android-16-release-of-2025-is-heading-to-pixels/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Tue, 02 Dec 2025 19:11:47 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[android]]></category>
-		<category><![CDATA[android 16]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[Google Pixel]]></category>
-		<category><![CDATA[smartphones]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/google/2025/12/google-announces-second-android-16-release-of-2025-is-heading-to-pixels/</guid>
-
-                                    <description>
-                        <![CDATA[The update is rolling out to Pixels starting today. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Google is following through on its pledge to split Android versions into more frequent updates. We already had one Android 16 release this year, and now it’s time for the second. The new version is rolling out first on Google’s Pixel phones, featuring more icon customization, easier parental controls, and AI-powered notifications. Don’t be bummed if you aren’t first in line for the new Android 16—Google also has a raft of general improvements coming to the wider Android ecosystem.</p>
-<h2>Android 16, part 2</h2>
-<p>Since rolling out the first version of Android in 2008, Google has largely stuck to one major release per year. Android 16 changes things, moving from one monolithic release to two. <a href="https://blog.google/products/android/android-16-december/">Today’s OS update</a> is the second part of the Android 16 era, but don’t expect major changes. As expected, the <a href="https://arstechnica.com/gadgets/2025/06/android-16-review-post-hype/">first release in June</a> made more changes. Most of what we’ll see in the second update is geared toward Google’s Pixel phones, plus some less notable changes for developers.</p>
-<p>Google’s new AI features for notifications are probably the most important change. Android 16 will use AI for two notification tasks: summarizing and organizing. The OS will take long chat conversations and summarize the notifications with AI. Notification data is processed locally on the device and won’t be uploaded anywhere. In the notification shade, the collapsed notification line will feature a summary of the conversation rather than a snippet of one message. Expanding the notification will display the full text.</p><p><a href="https://arstechnica.com/google/2025/12/google-announces-second-android-16-release-of-2025-is-heading-to-pixels/">Read full article</a></p>
-<p><a href="https://arstechnica.com/google/2025/12/google-announces-second-android-16-release-of-2025-is-heading-to-pixels/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>34</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-16-1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-16-1-500x500-1750868871.jpg" width="500"/>
-<media:credit>Ryan Whitwam</media:credit><media:text>A new Android 16 is rolling out. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Meet CDC’s new lead vaccine advisor who thinks shots cause heart disease</title>
-                <link>https://arstechnica.com/health/2025/12/meet-cdcs-new-lead-vaccine-advisor-who-thinks-shots-cause-heart-disease/</link>
-                                    <comments>https://arstechnica.com/health/2025/12/meet-cdcs-new-lead-vaccine-advisor-who-thinks-shots-cause-heart-disease/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Tue, 02 Dec 2025 17:57:42 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[ACIP]]></category>
-		<category><![CDATA[anti-vaccine]]></category>
-		<category><![CDATA[CDC]]></category>
-		<category><![CDATA[fda]]></category>
-		<category><![CDATA[Kirk Milhoan]]></category>
-		<category><![CDATA[myocarditis]]></category>
-		<category><![CDATA[robert f kennedy jr]]></category>
-		<category><![CDATA[vinay prasad]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2025/12/meet-cdcs-new-lead-vaccine-advisor-who-thinks-shots-cause-heart-disease/</guid>
-
-                                    <description>
-                        <![CDATA[Milhoan has a history of touting unproven COVID cures while disparaging vaccines.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>When the federal vaccine committee hand-picked by anti-vaccine Health Secretary Robert F. Kennedy Jr. meets again this week, it will have yet another new chairperson to lead its ongoing work of dismantling the evidence-based vaccine recommendations set by the Centers for Disease Control and Prevention.</p>
-<p>On Monday, the Department of Health and Human Services announced that the chairperson who has been in place since June—when Kennedy fired all 17 expert advisors on the committee and replaced them with questionably qualified allies—is moving to a senior role in the department. Biostatistician Martin Kulldorff will now be the chief science officer for the Office of the Assistant Secretary for Planning and Evaluation (ASPE), HHS said. As such, he’s stepping down from the vaccine committee, the Advisory Committee on Immunization Practices (ACIP).</p>
-<p>Kulldorff gained prominence amid the COVID-19 pandemic, criticizing public health responses to the crisis, particularly lockdowns and COVID-19 vaccines. He was a co-author of the Great Barrington Declaration that advocated for letting the deadly virus <a href="https://arstechnica.com/science/2020/10/white-house-informally-endorses-letting-pandemic-spread-unchecked/">spread unchecked through the population</a>, which was called unethical by health experts.</p><p><a href="https://arstechnica.com/health/2025/12/meet-cdcs-new-lead-vaccine-advisor-who-thinks-shots-cause-heart-disease/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2025/12/meet-cdcs-new-lead-vaccine-advisor-who-thinks-shots-cause-heart-disease/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>121</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2235571142-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2235571142-500x500-1764696875.jpg" width="500"/>
-<media:credit>Getty | Elijah Nouvelage</media:credit><media:text>Kirk Milhoan, James Pagano, and Robert Malone are seen during a meeting of the CDC's Advisory Committee on Immunization Practices on September 18, 2025 in Chamblee, Georgia. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Samsung reveals Galaxy Z TriFold with 10-inch foldable screen, astronomical price</title>
-                <link>https://arstechnica.com/gadgets/2025/12/samsungs-galaxy-z-trifold-is-a-10-inch-tablet-that-fits-in-your-pocket/</link>
-                                    <comments>https://arstechnica.com/gadgets/2025/12/samsungs-galaxy-z-trifold-is-a-10-inch-tablet-that-fits-in-your-pocket/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Tue, 02 Dec 2025 16:47:10 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Foldables]]></category>
-		<category><![CDATA[Samsung]]></category>
-		<category><![CDATA[smartphones]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/12/samsungs-galaxy-z-trifold-is-a-10-inch-tablet-that-fits-in-your-pocket/</guid>
-
-                                    <description>
-                        <![CDATA[Samsung's long-awaited tri-fold phone is launching in Korea this month, with a US launch early next year.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Samsung has a new foldable smartphone, and it’s not just another Z Flip or Z Fold. The Galaxy Z TriFold has three articulating sections that house a massive 10-inch tablet-style screen, along with a traditional smartphone screen on the outside. The lavish new smartphone is launching this month in South Korea with a hefty price tag, and it will eventually make its way to the US in early 2026.</p>
-<p><a href="https://news.samsung.com/global/introducing-galaxy-z-trifold-the-shape-of-whats-next-in-mobile-innovation">Samsung says</a> it refined its Armor FlexHinge design for the TriFold. The device’s two hinges are slightly different sizes because the phone’s three panels have distinct shapes. The center panel is the thickest at 4.2 mm, and the other two are fractions of a millimeter thinner. The phone has apparently been designed to account for the varying sizes and weights, allowing the frame to fold up tight in a pocketable form factor.</p>
-<p>Huawei’s impressive Mate XT tri-fold phones have been making the rounds online, but they’re not available in Western markets. Samsung’s new foldable looks similar at a glance, but the way the three panels fit together is different. The Mate XT folds in a Z-shaped configuration, using part of the main screen as the cover display. On Samsung’s phone, the left and right segments fold inward behind the separate cover screen. Samsung claims it has tested the design extensively to verify that the hinges will hold up to daily use for years.</p><p><a href="https://arstechnica.com/gadgets/2025/12/samsungs-galaxy-z-trifold-is-a-10-inch-tablet-that-fits-in-your-pocket/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2025/12/samsungs-galaxy-z-trifold-is-a-10-inch-tablet-that-fits-in-your-pocket/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>107</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/Samsung-Mobile-Galaxy-Z-TriFold-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/Samsung-Mobile-Galaxy-Z-TriFold-500x500.jpg" width="500"/>
-<media:credit>Samsung</media:credit></media:content>
-            </item>
-                    <item>
-                <title>3D model shows small clans created Easter Island statues</title>
-                <link>https://arstechnica.com/science/2025/12/explore-the-statues-of-easter-island-with-this-fly-through-3d-model/</link>
-                                    <comments>https://arstechnica.com/science/2025/12/explore-the-statues-of-easter-island-with-this-fly-through-3d-model/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Tue, 02 Dec 2025 16:23:24 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Archaeology]]></category>
-		<category><![CDATA[easter island]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/12/explore-the-statues-of-easter-island-with-this-fly-through-3d-model/</guid>
-
-                                    <description>
-                        <![CDATA[Study: Moai were created by small, decentralized working groups, not managed by one central "chieftain."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://player.vimeo.com/video/1142471815?color=ff9933"></div><div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
-    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
-    <div class="caption-content">
-      Credit: ArcGIS
-
-          </div>
-  </div>
-</div>
-<p>Easter Island is famous for its giant monumental statues, called moai, built some 800 years ago. The volcanic rock used for the moai came from a quarry site called Rano Raraku. Archaeologists have created a high-resolution interactive 3D model of the quarry site to learn more about the processes used to create the moai. (You can explore the full interactive model <a href="https://gis-core.maps.arcgis.com/apps/instant/3dviewer/index.html?appid=233cada52d434e9fa4d1741c92e308da">here</a>.) According to <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336251">a paper</a> published in the journal PLoS ONE, the model shows that there were numerous independent groups, probably family clans, that created the moai, rather than a centralized management system.</p>
-<p>“You can see things that you couldn’t actually see on the ground. You can see tops and sides and all kinds of areas that just would never be able to walk to,” <a href="https://www.eurekalert.org/news-releases/1107271">said co-author Carl Lipo</a> of Binghamton University. “We can say, ‘Here, go look at it.’ If you want to see the different kinds of carving, fly around and see stuff there. We’re documenting something that really has needed to be documented, but in a way that’s really comprehensive and shareable.”</p>
-<p>Lipo is one of the foremost experts on the Easter Island moai. In October, <a href="https://arstechnica.com/science/2025/10/how-easter-islands-giant-statues-walked-to-their-final-platforms/">we reported</a> on Lipo’s <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305440325002328?dgcid=author">experimental confirmation</a>—based on 3D modeling of the physics and new field tests to re-create that motion—that Easter Island’s people transported the statues in a vertical position, with workers using ropes to essentially “walk” the moai onto their platforms. To explain the presence of so many moai, the assumption has been that the island was once home to tens of thousands of people<em>. </em></p><p><a href="https://arstechnica.com/science/2025/12/explore-the-statues-of-easter-island-with-this-fly-through-3d-model/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/12/explore-the-statues-of-easter-island-with-this-fly-through-3d-model/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>25</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/easterTOP-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/easterTOP-500x500.jpg" width="500"/>
-<media:credit>ArcGIS</media:credit></media:content>
-            </item>
-                    <item>
-                <title>“Renewable” no more: Trump admin renames the National Renewable Energy Laboratory</title>
-                <link>https://arstechnica.com/science/2025/12/renewable-no-more-trump-admin-renames-the-national-renewable-energy-laboratory/</link>
-                                    <comments>https://arstechnica.com/science/2025/12/renewable-no-more-trump-admin-renames-the-national-renewable-energy-laboratory/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Gearino, Inside Climate News]]>
-                </dc:creator>
-                <pubDate>Tue, 02 Dec 2025 16:01:03 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[national renewable energy laboratory]]></category>
-		<category><![CDATA[NREL]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/12/renewable-no-more-trump-admin-renames-the-national-renewable-energy-laboratory/</guid>
-
-                                    <description>
-                        <![CDATA[A key driver of US renewable energy research is now the National Laboratory of the Rockies.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Trump administration has renamed the National Renewable Energy Laboratory, now calling it the National Laboratory of the Rockies, marking an identity shift for the Colorado institution that has been a global leader in wind, solar and other renewable energy research.</p>
-<p>“The new name reflects the Trump administration’s broader vision for the lab’s applied energy research, which historically emphasized alternative and renewable sources of generation, and honors the natural splendor of the lab’s surroundings in Golden, Colorado,” said Jud Virden, laboratory director, in a statement.</p>
-<p>He did not specify what this “broader vision” would mean for the lab’s programs or its staff of about 4,000.</p><p><a href="https://arstechnica.com/science/2025/12/renewable-no-more-trump-admin-renames-the-national-renewable-energy-laboratory/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/12/renewable-no-more-trump-admin-renames-the-national-renewable-energy-laboratory/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>64</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/98079-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/98079-500x500.jpg" width="500"/>
-<media:credit>Gregory Cooper/NREL</media:credit><media:text>Energy Secretary Chris Wright visits the National Renewable Energy Laboratory in Golden, Colorado, in April 2025. </media:text></media:content>
-            </item>
-                    <item>
-                <title>NASA seeks a “warm backup” option as key decision on lunar rover nears</title>
-                <link>https://arstechnica.com/space/2025/12/wary-of-picking-just-one-nasa-nears-important-decision-on-a-lunar-rover-selection/</link>
-                                    <comments>https://arstechnica.com/space/2025/12/wary-of-picking-just-one-nasa-nears-important-decision-on-a-lunar-rover-selection/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Tue, 02 Dec 2025 15:30:00 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[astrolab]]></category>
-		<category><![CDATA[intuitive machines]]></category>
-		<category><![CDATA[LTV]]></category>
-		<category><![CDATA[Lunar Outpost]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[rover]]></category>
-		<category><![CDATA[space]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2025/12/wary-of-picking-just-one-nasa-nears-important-decision-on-a-lunar-rover-selection/</guid>
-
-                                    <description>
-                        <![CDATA["This would be a cheap insurance policy."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>By the time the second group of NASA astronauts reach the Moon later this decade, the space agency would like to have a lunar rover waiting for them. But as the space agency nears a key selection, some government officials are seeking an insurance policy of sorts to increase the program’s chance of success.</p>
-<p>At issue is the agency’s “Lunar Terrain Vehicle” (LTV) contract. In April 2024, <a href="https://arstechnica.com/space/2024/04/nasa-asks-the-commercial-space-industry-for-a-rugged-long-lived-lunar-rover/">the space agency awarded</a> a few tens of millions of dollars to three companies—Intuitive Machines, Lunar Outpost, and Astrolab—to complete preliminary design work on vehicle concepts. NASA then planned to down-select to one company to construct one or more rovers, land on the Moon, and provide rover services for a decade beginning in 2029. Over the lifetime of the fixed-price services contract, there was a combined maximum potential value of $4.6 billion.</p>
-<p>The companies have since completed their design work, including the construction of prototypes, and submitted their final bids for the much larger services contract in August. According to two sources, NASA has since been weighing those bids and is prepared to announce a final selection before the end of this month.</p><p><a href="https://arstechnica.com/space/2025/12/wary-of-picking-just-one-nasa-nears-important-decision-on-a-lunar-rover-selection/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/12/wary-of-picking-just-one-nasa-nears-important-decision-on-a-lunar-rover-selection/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>70</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/07/LTV1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/07/LTV1-500x500-1764687453.jpg" width="500"/>
-<media:credit>NASA</media:credit><media:text>A rendering of the Lunar Terrain Vehicle NASA may use during the an Artemis mission to the Moon.</media:text></media:content>
-            </item>
-                    <item>
-                <title>“Players are selfish”: Fallout 2’s Chris Avellone describes his game design philosophy</title>
-                <link>https://arstechnica.com/gaming/2025/12/fallout-2-designer-chris-avellone-recalls-his-first-forays-into-game-development/</link>
-                                    <comments>https://arstechnica.com/gaming/2025/12/fallout-2-designer-chris-avellone-recalls-his-first-forays-into-game-development/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Alan Bradley]]>
-                </dc:creator>
-                <pubDate>Tue, 02 Dec 2025 15:04:53 +0000</pubDate>
-                		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Chris Avellone]]></category>
-		<category><![CDATA[fallout 2]]></category>
-		<category><![CDATA[planescape: torment]]></category>
-		<category><![CDATA[TRS-80]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2025/12/fallout-2-designer-chris-avellone-recalls-his-first-forays-into-game-development/</guid>
-
-                                    <description>
-                        <![CDATA[Avellone recaps his journey from learning on a TRS-80 to today.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Chris Avellone wants you to have a good time.</p>
-<p>People often ask creatives—especially those in careers some dream of entering—”how did you get started?” Video game designers are no exception, and Avellone says that one of the most important keys to his success was one he learned early in his origin story.</p>
-<p>“Players are selfish,” Avellone said, reflecting on his time designing the seminal computer roleplaying game <i>Planescape: Torment</i>. “The more you can make the experience all about them, the better. So <i>Torment</i> became that. Almost every single thing in the game is about you, the player.”</p><p><a href="https://arstechnica.com/gaming/2025/12/fallout-2-designer-chris-avellone-recalls-his-first-forays-into-game-development/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2025/12/fallout-2-designer-chris-avellone-recalls-his-first-forays-into-game-development/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>50</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Variant_4-rotated-1152x648-1762375363.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/Variant_4-rotated-500x500-1762451835.jpg" width="500"/>
-<media:credit>Chris Avellone</media:credit><media:text>Chris Avellone, storied game designer.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Syntax hacking: Researchers discover sentence structure can bypass AI safety rules</title>
-                <link>https://arstechnica.com/ai/2025/12/syntax-hacking-researchers-discover-sentence-structure-can-bypass-ai-safety-rules/</link>
-                                    <comments>https://arstechnica.com/ai/2025/12/syntax-hacking-researchers-discover-sentence-structure-can-bypass-ai-safety-rules/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Benj Edwards]]>
-                </dc:creator>
-                <pubDate>Tue, 02 Dec 2025 12:15:55 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[AI alignment]]></category>
-		<category><![CDATA[AI research]]></category>
-		<category><![CDATA[AI security]]></category>
-		<category><![CDATA[AI study]]></category>
-		<category><![CDATA[Chantal Shaib]]></category>
-		<category><![CDATA[GPT-4o]]></category>
-		<category><![CDATA[jailbreaking]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[meta]]></category>
-		<category><![CDATA[MIT]]></category>
-		<category><![CDATA[Northeastern University]]></category>
-		<category><![CDATA[OLMo]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[prompt injections]]></category>
-		<category><![CDATA[spurious correlations]]></category>
-		<category><![CDATA[Vinith M. Suriyakumar]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2025/12/syntax-hacking-researchers-discover-sentence-structure-can-bypass-ai-safety-rules/</guid>
-
-                                    <description>
-                        <![CDATA[New research offers clues about why some prompt injection attacks may succeed.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Researchers from MIT, Northeastern University, and Meta recently <a href="https://arxiv.org/abs/2509.21155v2">released</a> a paper suggesting that large language models (LLMs) similar to those that power ChatGPT may sometimes prioritize sentence structure over meaning when answering questions. The findings reveal a weakness in how these models process instructions that may shed light on why some <a href="https://arstechnica.com/information-technology/2022/09/twitter-pranksters-derail-gpt-3-bot-with-newly-discovered-prompt-injection-hack/">prompt injection</a> or <a href="https://arstechnica.com/information-technology/2023/10/sob-story-about-dead-grandma-tricks-microsoft-ai-into-solving-captcha/">jailbreaking</a> approaches work, though the researchers caution their analysis of some production models remains speculative since training data details of prominent commercial AI models are not publicly available.</p>
-<p>The team, led by Chantal Shaib and Vinith M. Suriyakumar, tested this by asking models questions with preserved grammatical patterns but nonsensical words. For example, when prompted with “Quickly sit Paris clouded?” (mimicking the structure of “Where is Paris located?”), models still answered “France.”</p>
-<p>This suggests models absorb both meaning and syntactic patterns, but can overrely on structural shortcuts when they strongly correlate with specific domains in training data, which sometimes allows patterns to override semantic understanding in edge cases. The team plans to present these findings at <a href="https://neurips.cc/">NeurIPS</a> later this month.</p><p><a href="https://arstechnica.com/ai/2025/12/syntax-hacking-researchers-discover-sentence-structure-can-bypass-ai-safety-rules/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2025/12/syntax-hacking-researchers-discover-sentence-structure-can-bypass-ai-safety-rules/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>61</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/BOOK_PAGES_FLYING-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/BOOK_PAGES_FLYING-500x500.jpg" width="500"/>
-<media:credit>EasternLightcraft via Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>The missile meant to strike fear in Russia’s enemies fails once again</title>
-                <link>https://arstechnica.com/space/2025/12/the-missile-meant-to-strike-fear-in-russias-enemies-fails-once-again/</link>
-                                    <comments>https://arstechnica.com/space/2025/12/the-missile-meant-to-strike-fear-in-russias-enemies-fails-once-again/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Mon, 01 Dec 2025 23:36:50 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[ICBM]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[russia]]></category>
-		<category><![CDATA[Sarmat]]></category>
-		<category><![CDATA[vladimir putin]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2025/12/the-missile-meant-to-strike-fear-in-russias-enemies-fails-once-again/</guid>
-
-                                    <description>
-                        <![CDATA[One of Vladimir Putin's favorite sabres to rattle seems to have lost its edge.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A Russian intercontinental ballistic missile (ICBM) fired from an underground silo on the country’s southern steppe Friday on a scheduled test to deliver a dummy warhead to a remote impact zone nearly 4,000 miles away. The missile didn’t even make it 4,000 feet.</p>
-<p>Russia’s military has been silent on the accident, but the missile’s crash was seen and heard for miles around the Dombarovsky air base in Orenburg Oblast near the Russian-Kazakh border.</p>
-<p>A video posted by the <a href="https://t.me/militaryrussiaru/39856">Russian blog site MilitaryRussia.ru on Telegram</a> and widely shared on other social media platforms showed the missile veering off course immediately after launch before cartwheeling upside down, losing power, and then crashing a short distance from the launch site. The missile ejected a component before it hit the ground, perhaps as part of a payload salvage sequence, according to Pavel Podvig, a senior researcher at the United Nations Institute for Disarmament Research in Geneva.</p><p><a href="https://arstechnica.com/space/2025/12/the-missile-meant-to-strike-fear-in-russias-enemies-fails-once-again/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2025/12/the-missile-meant-to-strike-fear-in-russias-enemies-fails-once-again/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>233</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/icbmfailure1.jpg">
-<media:thumbnail height="433" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/icbmfailure1-500x433.jpg" width="500"/>
-<media:credit>MilitaryRussia.ru via Telegram</media:credit><media:text>A fireball rises above the Russian steppe after the failure of a Russian missile shortly after launch Friday.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Supreme Court hears case that could trigger big crackdown on Internet piracy</title>
-                <link>https://arstechnica.com/tech-policy/2025/12/supreme-court-debates-whether-isps-must-kick-pirates-off-the-internet/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/12/supreme-court-debates-whether-isps-must-kick-pirates-off-the-internet/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Mon, 01 Dec 2025 22:33:25 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[copyright infringement]]></category>
-		<category><![CDATA[Cox]]></category>
-		<category><![CDATA[DMCA]]></category>
-		<category><![CDATA[piracy]]></category>
-		<category><![CDATA[Sony]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/12/supreme-court-debates-whether-isps-must-kick-pirates-off-the-internet/</guid>
-
-                                    <description>
-                        <![CDATA[Justices want Cox to crack down on piracy, but question Sony's strict demands.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Supreme Court justices expressed numerous concerns today in a case that could determine whether Internet service providers must terminate the accounts of broadband users accused of copyright infringement. <a href="https://www.supremecourt.gov/oral_arguments/argument_transcripts/2025/24-171_4gd5.pdf">Oral arguments</a> were held in the case between cable Internet provider Cox Communications and record labels led by Sony.</p>
-<p>Some justices were skeptical of arguments that ISPs should have no legal obligation under the Digital Millennium Copyright Act (DMCA) to terminate an account when a user’s IP address has been repeatedly flagged for downloading pirated music. But justices also seemed hesitant to rule in favor of record labels, with some of the debate focusing on how ISPs should handle large accounts like universities where there could be tens of thousands of users.</p>
-<p>Justice Sonia Sotomayor chided Cox for not doing more to fight infringement.</p><p><a href="https://arstechnica.com/tech-policy/2025/12/supreme-court-debates-whether-isps-must-kick-pirates-off-the-internet/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/12/supreme-court-debates-whether-isps-must-kick-pirates-off-the-internet/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>157</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/online-piracy-1152x648-1764625886.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/online-piracy-500x500.jpg" width="500"/>
-<media:credit>Getty Images | Ilmar Idiyatullin</media:credit></media:content>
-            </item>
-                    <item>
-                <title>OpenAI desperate to avoid explaining why it deleted pirated book datasets</title>
-                <link>https://arstechnica.com/tech-policy/2025/12/openai-desperate-to-avoid-explaining-why-it-deleted-pirated-book-datasets/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2025/12/openai-desperate-to-avoid-explaining-why-it-deleted-pirated-book-datasets/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Mon, 01 Dec 2025 22:16:28 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[copyright infringement]]></category>
-		<category><![CDATA[online piracy]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[pirating books]]></category>
-		<category><![CDATA[training data]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/12/openai-desperate-to-avoid-explaining-why-it-deleted-pirated-book-datasets/</guid>
-
-                                    <description>
-                        <![CDATA[OpenAI risks increased fines after deleting pirated books datasets.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>OpenAI may soon be forced to explain why it deleted a pair of controversial datasets composed of pirated books, and the stakes could not be higher.</p>
-<p>At the heart of a <a href="https://arstechnica.com/information-technology/2023/07/book-authors-sue-openai-and-meta-over-text-used-to-train-ai/">class-action lawsuit from authors</a> alleging that ChatGPT was illegally trained on their works, OpenAI’s decision to delete the datasets could end up being a deciding factor that gives the authors the win.</p>
-<p>It’s undisputed that OpenAI deleted the datasets, known as “Books 1” and “Books 2,” prior to ChatGPT’s release in 2022. Created by former OpenAI employees in 2021, the datasets were built by scraping the open web and seizing the bulk of its data from a shadow library called Library Genesis (LibGen).</p><p><a href="https://arstechnica.com/tech-policy/2025/12/openai-desperate-to-avoid-explaining-why-it-deleted-pirated-book-datasets/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2025/12/openai-desperate-to-avoid-explaining-why-it-deleted-pirated-book-datasets/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>84</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1227510667-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1227510667-500x500-1764624514.jpg" width="500"/>
-<media:credit>wenmei Zhou | DigitalVision Vectors</media:credit></media:content>
-            </item>
-                    <item>
-                <title>In Myanmar, illicit rare-earth mining is taking a heavy toll</title>
-                <link>https://arstechnica.com/science/2025/12/in-myanmar-illicit-rare-earth-mining-is-taking-a-heavy-toll/</link>
-                                    <comments>https://arstechnica.com/science/2025/12/in-myanmar-illicit-rare-earth-mining-is-taking-a-heavy-toll/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Emily Fishbein and Jauman Naw, Undark Magazine]]>
-                </dc:creator>
-                <pubDate>Mon, 01 Dec 2025 21:23:29 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Myanmar]]></category>
-		<category><![CDATA[rare earth elements]]></category>
-		<category><![CDATA[rare earth metals]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2025/12/in-myanmar-illicit-rare-earth-mining-is-taking-a-heavy-toll/</guid>
-
-                                    <description>
-                        <![CDATA[Uncontrolled mining in areas of Myanmar ruled by powerful ethnic armies has boomed.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p><span class="dropcap">I</span><span class="bolded">n early 2025,</span> Sian traveled deep into the mountains of Shan State, on Myanmar’s eastern border with China, in search of work. He had heard from a friend that Chinese companies were recruiting at new rare-earth mining sites in territory administered by the United Wa State Army, Myanmar’s most powerful ethnic armed group, and that workers could earn upwards of $1,400 a month.</p>
-<p>It was an opportunity too good to pass up in a country where the formal economy has <a href="https://news.un.org/en/story/2025/05/1163706">collapsed</a> since the 2021 military coup, and <a href="https://www.undp.org/press-releases/middle-class-disappearing-and-poverty-deepening-myanmar">nearly half</a> of the population lives on less than $2 a day. So Sian set off by car for the town of Mong Pawk, then rode a motorbike for hours through the thick forest.</p>
-<p>Hired for daily wages of approximately $21, he now digs boreholes and installs pipes. It is the first step in a <a href="https://warwick.ac.uk/fac/arts/schoolforcross-facultystudies/research/projects/rare_earth_mining_myanmar/briefing_paper_2_the_rare_earth_mining_process_in_myanmar.pdf">process</a> called in situ<em> </em>leaching, which involves injecting acidic solutions into mountainsides, then collecting the drained solution in plastic-lined pools where solids, like dysprosium and terbium, two of the world’s most sought-after heavy rare-earth metals, settle out. The resulting sediment sludge is then transported to furnaces and burned, producing dry rare earth oxides.</p><p><a href="https://arstechnica.com/science/2025/12/in-myanmar-illicit-rare-earth-mining-is-taking-a-heavy-toll/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2025/12/in-myanmar-illicit-rare-earth-mining-is-taking-a-heavy-toll/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>36</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2218000971-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2218000971-500x500.jpg" width="500"/>
-<media:credit>STR/AFP via Getty Images</media:credit><media:text>This photo taken on May 2, 2025 shows a general view of a China-backed battery metal mine in Pekon township in Myanmar's eastern Shan State. </media:text></media:content>
-            </item>
-                    <item>
-                <title>After a Witcher-free decade, CDPR still promises three sequels in six years</title>
-                <link>https://arstechnica.com/gaming/2025/12/after-a-witcher-free-decade-cdpr-still-promises-three-sequels-in-six-years/</link>
-                                    <comments>https://arstechnica.com/gaming/2025/12/after-a-witcher-free-decade-cdpr-still-promises-three-sequels-in-six-years/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Mon, 01 Dec 2025 19:54:09 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[CD Projekt RED]]></category>
-		<category><![CDATA[CDPR]]></category>
-		<category><![CDATA[development]]></category>
-		<category><![CDATA[epic]]></category>
-		<category><![CDATA[REDengine]]></category>
-		<category><![CDATA[sequels]]></category>
-		<category><![CDATA[Unreal Engine]]></category>
-		<category><![CDATA[witcher]]></category>
-		<category><![CDATA[witcher 3]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2025/12/after-a-witcher-free-decade-cdpr-still-promises-three-sequels-in-six-years/</guid>
-
-                                    <description>
-                        <![CDATA[CD Projekt Red says shift to Unreal Engine allows for more rapid development.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>It’s been over 10 years since the launch of <a href="https://arstechnica.com/gaming/2015/05/the-witcher-3-wild-hunt-review-hunting-fiends-for-fun-and-forever/">the excellent <em>The Witcher 3: Wild Hunt</em></a>, and nearly four years since <a href="https://www.thewitcher.com/us/en/news/42167/a-new-saga-begins">the announcement</a> of “the next installment in The Witcher series of video games.” Despite those long waits, developer CD Projekt Red is still insisting it will deliver the next three complete <em>Witcher</em> games in a short six-year window.</p>
-<p>In <a href="https://www.cdprojekt.com/en/wp-content/uploads-en/2025/11/transcript-q3-2025-earnings-3.pdf">a recent earnings call</a>, CDPR VP of Business Development Michał Nowakowski suggested that a rapid release schedule would be enabled in no small part by the team’s transition away from its proprietary REDEngine to the popular Unreal Engine <a href="https://arstechnica.com/gaming/2022/03/the-witcher-will-return-as-a-triple-a-rpg-shifting-to-unreal-engine-5/">in 2022</a>. At the time, CDPR said the transition to Unreal Engine would “elevate development predictability and efficiency, while simultaneously granting us access to cutting-edge game development tools.” Those considerations seemed especially important in the wake of <a href="https://arstechnica.com/gaming/2020/12/cd-projekt-red-offers-refunds-to-unsatisfied-cyberpunk-2077-console-players/">widespread technical issues with the console versions of <em>Cyberpunk 2077</em></a>, which CDPR later <a href="https://arstechnica.com/gaming/2021/01/cdpr-ceo-blames-in-game-streaming-for-cyberpunks-console-problems/">blamed on REDEngine’s “in-game streaming system.”</a></p>
-<p>“We’re happy with how [Unreal Engine] is evolving through the Epic team’s efforts, and how we are learning how to make it work within a huge open-world game, as [<em>The Witcher 4</em>] is meant to be,” Nowakowski said in the recent earnings call. “In a way, yes, I do believe that further games should be delivered in a shorter period of time—as we had stated before, our plan still is to launch the whole trilogy within a six-year period, so yes, that would mean we would plan to have a shorter development time between <em>TW4</em> and <em>TW5</em>, between <em>TW5</em> and <em>TW6</em> and so on.”</p><p><a href="https://arstechnica.com/gaming/2025/12/after-a-witcher-free-decade-cdpr-still-promises-three-sequels-in-six-years/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2025/12/after-a-witcher-free-decade-cdpr-still-promises-three-sequels-in-six-years/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>68</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/witcher-logo-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/witcher-logo-500x500.jpg" width="500"/>
-<media:credit>CD Projekt Red</media:credit><media:text>A new saga begins... and then continues in quick succession.</media:text></media:content>
             </item>
             </channel>
 </rss>
