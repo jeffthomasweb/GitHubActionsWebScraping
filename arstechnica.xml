@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Tue, 30 Dec 2025 21:07:17 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 31 Dec 2025 04:45:07 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,66 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>From prophet to product: How AI came back down to earth in 2025</title>
+                <link>https://arstechnica.com/ai/2025/12/from-prophet-to-product-how-ai-came-back-down-to-earth-in-2025/</link>
+                                    <comments>https://arstechnica.com/ai/2025/12/from-prophet-to-product-how-ai-came-back-down-to-earth-in-2025/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 31 Dec 2025 12:00:31 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[2025]]></category>
+		<category><![CDATA[AI alignment]]></category>
+		<category><![CDATA[AI and work]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI criticism]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI hallucination]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[AI regulation]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[AI sycophancy]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Character.AI]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[confabulation]]></category>
+		<category><![CDATA[Dario Amodei]]></category>
+		<category><![CDATA[datacenters]]></category>
+		<category><![CDATA[deepseek]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[simulated reasoning]]></category>
+		<category><![CDATA[SR models]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/12/from-prophet-to-product-how-ai-came-back-down-to-earth-in-2025/</guid>
+
+                                    <description>
+                        <![CDATA[In a year where lofty promises collided with inconvenient research, would-be oracles became software tools.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Following two years of immense hype in <a href="https://arstechnica.com/information-technology/2023/12/a-song-of-hype-and-fire-the-10-biggest-ai-stories-of-2023/">2023</a> and <a href="https://arstechnica.com/ai/2024/12/2024-the-year-ai-drove-everyone-crazy/">2024</a>, this year felt more like a settling-in period for the LLM-based token prediction industry. After more than two years of public fretting over AI models as future <a href="https://arstechnica.com/information-technology/2023/05/openai-execs-warn-of-risk-of-extinction-from-artificial-intelligence-in-new-open-letter/" target="_blank" rel="noopener">threats</a> to human civilization or the <a href="https://arstechnica.com/information-technology/2025/06/after-ai-setbacks-meta-bets-billions-on-undefined-superintelligence/" target="_blank" rel="noopener">seedlings of future gods</a>, it's starting to look like hype is giving way to pragmatism: Today's AI can be very useful, but it's also clearly imperfect and prone to mistakes.</p>
+<p>That view isn't universal, of course. There's a lot of money (and rhetoric) <a href="https://arstechnica.com/ai/2025/10/ars-live-recap-is-the-ai-bubble-about-to-pop-ed-zitron-weighs-in/">betting</a> on a stratospheric, world-rocking trajectory for AI. But the "when" keeps getting pushed back, and that's because nearly everyone agrees that more significant technical breakthroughs are required. The original, lofty <a href="https://arstechnica.com/ai/2025/01/anthropic-chief-says-ai-could-surpass-almost-all-humans-at-almost-everything-shortly-after-2027/">claims</a> that we're on the verge of artificial general intelligence (AGI) or superintelligence (ASI) have not disappeared. Still, there's a growing awareness that such proclaimations are perhaps best viewed as venture capital marketing. And every commercial foundational model builder out there has to grapple with the reality that, if they're going to make money <em>now</em>, they have to sell practical AI-powered solutions that perform as reliable tools.</p>
+<p>This has made 2025 a year of wild juxtapositions. For example, in January, OpenAI's CEO, Sam Altman, <a href="https://arstechnica.com/ai/2025/01/sam-altman-says-we-are-now-confident-we-know-how-to-build-agi/">claimed</a> that the company knew how to build <a href="https://arstechnica.com/ai/2025/07/agi-may-be-impossible-to-define-and-thats-a-multibillion-dollar-problem/">AGI</a>, but by November, he was publicly celebrating that GPT-5.1 <a href="https://arstechnica.com/ai/2025/11/forget-agi-sam-altman-celebrates-chatgpt-finally-following-em-dash-formatting-rules/">finally learned</a> to use em dashes correctly when instructed (but not always). Nvidia <a href="https://arstechnica.com/ai/2025/10/nvidia-hits-record-5-trillion-mark-as-ceo-dismisses-ai-bubble-concerns/">soared</a> past a $5 trillion valuation, with Wall Street still projecting high price targets for that company's stock while some banks <a href="https://arstechnica.com/ai/2025/10/bank-of-england-warns-ai-stock-bubble-rivals-2000-dotcom-peak/">warned</a> of the potential for an AI bubble that might rival the 2000s dotcom crash.</p><p><a href="https://arstechnica.com/ai/2025/12/from-prophet-to-product-how-ai-came-back-down-to-earth-in-2025/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/12/from-prophet-to-product-how-ai-came-back-down-to-earth-in-2025/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>8</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/ai-down-to-earth-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/ai-down-to-earth-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
                 <title>The science of how (and when) we decide to speak out—or self-censor</title>
                 <link>https://arstechnica.com/science/2025/12/the-science-of-how-and-when-we-decide-to-speak-out-or-self-censor/</link>
                                     <comments>https://arstechnica.com/science/2025/12/the-science-of-how-and-when-we-decide-to-speak-out-or-self-censor/#comments</comments>
@@ -46,7 +106,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>5</slash:comments>
+                                    <slash:comments>49</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2014/05/censorship_2-1152x648-1767113011.jpg" width="1152">
@@ -85,7 +145,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>5</slash:comments>
+                                    <slash:comments>42</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2224898877-1024x648.jpg" width="1024">
@@ -119,7 +179,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>35</slash:comments>
+                                    <slash:comments>114</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2217857584-1024x648.jpg" width="1024">
@@ -153,7 +213,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>18</slash:comments>
+                                    <slash:comments>47</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-113500412-1152x648-1767123440.jpg" width="1152">
@@ -190,7 +250,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>14</slash:comments>
+                                    <slash:comments>28</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/finale3-1152x648.jpg" width="1152">
@@ -198,7 +258,7 @@
 <media:credit>Netflix</media:credit></media:content>
             </item>
                     <item>
-                <title>Condé Nast User database reportedly breached, Ars unaffected</title>
+                <title>Condé Nast user database reportedly breached, Ars unaffected</title>
                 <link>https://arstechnica.com/information-technology/2025/12/conde-nast-user-database-reportedly-breached-ars-unaffected/</link>
                                     <comments>https://arstechnica.com/information-technology/2025/12/conde-nast-user-database-reportedly-breached-ars-unaffected/#comments</comments>
                 
@@ -217,14 +277,14 @@
                         <![CDATA[A serious data breach has occurred, but Ars users have nothing to worry about.]]>
                     </description>
                                                                 <content:encoded>
-                            <![CDATA[<p>Earlier this month, a hacker named Lovely claimed to have breached a Condé Nast user database and released a list of more than <a href="https://haveibeenpwned.com/Breach/WIRED">2.3 million user records from our sister publication WIRED</a>. The released materials contain demographic information (name, email, address, phone, etc.), but no passwords.</p>
+                            <![CDATA[<p>Earlier this month, a hacker named Lovely claimed to have breached a Condé Nast user database and released a list of more than <a href="https://haveibeenpwned.com/Breach/WIRED">2.3 million user records from our sister publication WIRED</a>. The released materials contain demographic information (name, email, address, phone, etc.) but no passwords.</p>
 <p>The hacker also says that they will release an additional 40 million records for other Condé Nast properties, including our other sister publications <em>Vogue</em>, <em>The New Yorker</em>, <em>Vanity Fair</em>, and more. Of critical note to our readers, <em>Ars Technica</em> was not affected as we run on our own bespoke tech stack.</p>
-<p>The hacker said that they had urged Condé Nast to patch vulnerabilities to no avail. “Condé Nast does not care about the security of their users data,” they wrote. “It took us an entire month to convince them to fix the vulnerabilities on their websites. We will leak more of their users’ data (40 + million) over the next few weeks. Enjoy!”</p><p><a href="https://arstechnica.com/information-technology/2025/12/conde-nast-user-database-reportedly-breached-ars-unaffected/">Read full article</a></p>
+<p>The hacker said that they had urged Condé Nast to patch vulnerabilities to no avail. “Condé Nast does not care about the security of their users data,” the hacker wrote. “It took us an entire month to convince them to fix the vulnerabilities on their websites. We will leak more of their users’ data (40+ million) over the next few weeks. Enjoy!”</p><p><a href="https://arstechnica.com/information-technology/2025/12/conde-nast-user-database-reportedly-breached-ars-unaffected/">Read full article</a></p>
 <p><a href="https://arstechnica.com/information-technology/2025/12/conde-nast-user-database-reportedly-breached-ars-unaffected/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>38</slash:comments>
+                                    <slash:comments>68</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/conde-hack-20205-1152x648-1767119864.jpg" width="1152">
@@ -260,7 +320,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>18</slash:comments>
+                                    <slash:comments>20</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2251921243-1152x648.jpg" width="1152">
@@ -297,7 +357,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>42</slash:comments>
+                                    <slash:comments>47</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/moles-many-medical-marvels-1152x648.jpg" width="1152">
@@ -335,7 +395,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>78</slash:comments>
+                                    <slash:comments>103</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/ars-best-cars-2025-1152x648.jpg" width="1152">
@@ -373,7 +433,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>168</slash:comments>
+                                    <slash:comments>185</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1235140398.jpg">
@@ -410,7 +470,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>63</slash:comments>
+                                    <slash:comments>65</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/leonardo1CROP-1152x648-1767021942.jpg" width="1152">
@@ -486,7 +546,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>115</slash:comments>
+                                    <slash:comments>121</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2175706470-1152x648.jpg" width="1152">
@@ -523,7 +583,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>41</slash:comments>
+                                    <slash:comments>45</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/myth1-1152x648.jpg" width="1152">
@@ -557,7 +617,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>68</slash:comments>
+                                    <slash:comments>72</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1316617936-1152x648.jpg" width="1152">
@@ -593,7 +653,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>207</slash:comments>
+                                    <slash:comments>217</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/10/win10-wallpaper-1152x648.jpg" width="1152">
@@ -628,7 +688,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>296</slash:comments>
+                                    <slash:comments>315</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/nanoSIM-card-1152x648.jpg" width="1152">
@@ -670,7 +730,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>246</slash:comments>
+                                    <slash:comments>256</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/trump-tariffs-triton-1152x648.jpg" width="1152">
@@ -711,57 +771,6 @@
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/blackhole4-1152x648-1760991049.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/blackhole4-500x500-1760991060.jpg" width="500"/>
 <media:credit>Courtesy of Lucas J. Rougeux</media:credit><media:text>Lucas J. Rougeux, &lt;em&gt;Light Particles against a Black Hole&lt;/em&gt;, 2021. Charcoal and acrylic on paper.</media:text></media:content>
-            </item>
-                    <item>
-                <title>In the ’90s, Wing Commander: Privateer made me realize what kind of games I love</title>
-                <link>https://arstechnica.com/gaming/2025/12/in-the-90s-wing-commander-privateer-made-me-realize-what-kind-of-games-i-love/</link>
-                                    <comments>https://arstechnica.com/gaming/2025/12/in-the-90s-wing-commander-privateer-made-me-realize-what-kind-of-games-i-love/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Samuel Axon]]>
-                </dc:creator>
-                <pubDate>Fri, 26 Dec 2025 13:35:38 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Shopping]]></category>
-		<category><![CDATA[C:\ArsGames]]></category>
-		<category><![CDATA[Chris Roberts]]></category>
-		<category><![CDATA[gog]]></category>
-		<category><![CDATA[MS-DOS]]></category>
-		<category><![CDATA[star citizen]]></category>
-		<category><![CDATA[Wing Commander]]></category>
-		<category><![CDATA[Wing Commander Privateer]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2025/12/in-the-90s-wing-commander-privateer-made-me-realize-what-kind-of-games-i-love/</guid>
-
-                                    <description>
-                        <![CDATA[Most things <em>Privateer</em> did have been done better, but it's still a classic.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[
-<p>Ever since 1993, I think I've unconsciously judged almost every game by how well it can capture how <a href="https://www.kqzyfj.com/click-8984087-15232592?url=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Fwing_commander_privateer"><em>Wing Commander: Privateer</em></a> made me feel.</p>
-<p>Steam and PlayStation (the two platforms I use the most) have been doing a year-in-review summary akin to the wildly popular Spotify Wrapped for the past few years. Based on these, I can report that my most-played games in 2025 were, from most hours down:</p>
-<ol>
-<li><em>No Man's Sky</em></li>
-<li><em>Civilization VII</em></li>
-<li><em>Assassin's Creed Shadows</em></li>
-<li><em>The Elder Scrolls IV Oblivion Remastered</em></li>
-<li><em>The Lord of the Rings: Return to Moria</em></li>
-<li><em>The Elder Scrolls III Morrowind</em></li>
-<li><em>World of Warcraft</em></li>
-<li><em>Meridian 59</em></li>
-<li><em>Tainted Grail: Fall of Avalon</em></li>
-<li><em>Unreal Tournament</em></li>
-</ol>
-<p>With the exceptions of <em>Civilization VII</em> and <em>Unreal Tournament</em>, every one of those games is some kind of open-world experience that's all about immersing you in a far-flung land (or galaxy).</p><p><a href="https://arstechnica.com/gaming/2025/12/in-the-90s-wing-commander-privateer-made-me-realize-what-kind-of-games-i-love/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2025/12/in-the-90s-wing-commander-privateer-made-me-realize-what-kind-of-games-i-love/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>156</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/Privateer-splash-image-1152x648-1766445610.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/Privateer-splash-image-500x500-1766445598.png" width="500"/>
-<media:credit>GOG</media:credit><media:text>This splash image is the original box art for the game, and what appealing box art it was.</media:text></media:content>
             </item>
             </channel>
 </rss>
