@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Wed, 21 Jan 2026 12:25:31 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2026 23:33:43 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,422 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Judge orders stop to FBI search of devices seized from Washington Post reporter</title>
+                <link>https://arstechnica.com/tech-policy/2026/01/judge-orders-stop-to-fbi-search-of-devices-seized-from-washington-post-reporter/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/01/judge-orders-stop-to-fbi-search-of-devices-seized-from-washington-post-reporter/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Wed, 21 Jan 2026 23:33:43 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[Washington Post]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/judge-orders-stop-to-fbi-search-of-devices-seized-from-washington-post-reporter/</guid>
+
+                                    <description>
+                        <![CDATA[Order says gov't must stop search while court reviews Washington Post motions.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A federal judge today ordered the US government to stop searching devices seized from the house of a Washington Post reporter. It may be only a temporary reprieve for the Post and reporter Hannah Natanson, however. Further proceedings will be held on whether the search can resume or whether the government must return the devices.</p>
+<p>Natanson herself isn't the subject of investigation, but the FBI executed a search warrant at her home and <a href="https://arstechnica.com/tech-policy/2026/01/fbi-fights-leaks-by-seizing-washington-post-reporters-phone-laptops-and-watch/">seized her work and personal devices</a> last week as part of an investigation into alleged leaks by a Pentagon contractor. The Post filed a motion to force the return of the reporter's property, and a separate motion for a standstill order that would prevent review of the seized devices until the court rules on whether they must be returned.</p>
+<p>"Almost none of the seized data is even potentially responsive to the warrant, which seeks only records received from or relating to a single government contractor," a Post <a href="https://storage.courtlistener.com/recap/gov.uscourts.vaed.588772/gov.uscourts.vaed.588772.9.0.pdf">court filing</a> today said. "The seized data is core First Amendment-protected material, and some is protected by the attorney-client privilege."</p><p><a href="https://arstechnica.com/tech-policy/2026/01/judge-orders-stop-to-fbi-search-of-devices-seized-from-washington-post-reporter/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/01/judge-orders-stop-to-fbi-search-of-devices-seized-from-washington-post-reporter/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>8</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/judges-gavel-1152x648-1747771043.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/judges-gavel-500x500.jpg" width="500"/>
+<media:credit>Getty Images | SimpleImages</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Millions of people imperiled through sign-in links sent by SMS</title>
+                <link>https://arstechnica.com/security/2026/01/millions-of-people-imperiled-through-sign-in-links-sent-by-sms/</link>
+                                    <comments>https://arstechnica.com/security/2026/01/millions-of-people-imperiled-through-sign-in-links-sent-by-sms/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 21 Jan 2026 23:22:14 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[authentication links]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[sms messages]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/01/millions-of-people-imperiled-through-sign-in-links-sent-by-sms/</guid>
+
+                                    <description>
+                        <![CDATA[Even well-known services with millions of users are exposing sensitive data.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Websites that authenticate users through links and codes sent in text messages are imperiling the privacy of millions of people, leaving them vulnerable to scams, identity theft, and other crimes, recently published research has found.</p>
+<p>The links are sent to people seeking a range of services, including those offering insurance quotes, job listings, and referrals for pet sitters and tutors. To eliminate the hassle of collecting usernames and passwords—and for users to create and enter them—many such services instead require users to provide a cell phone number when signing up for an account. The services then send authentication links or passcodes by SMS when the users want to log in.</p>
+<h2>Easy to execute at scale</h2>
+<p>A <a href="https://arxiv.org/abs/2601.09232">paper</a> published last week has found more than 700 endpoints delivering such texts on behalf of more than 175 services that put user security and privacy at risk. One practice that jeopardizes users is the use of links that are easily enumerated, meaning scammers can guess them by simply modifying the security token, which usually appears at the right of a URL. By incrementing the token—for instance, by first changing 123 to 124 or ABC to ABD and so on—the researchers were able to access accounts belonging to other users. From there, the researchers could view personal details, such as partially completed insurance applications.</p><p><a href="https://arstechnica.com/security/2026/01/millions-of-people-imperiled-through-sign-in-links-sent-by-sms/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/01/millions-of-people-imperiled-through-sign-in-links-sent-by-sms/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>2</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/sms-phone-risk-trap-privacy-security-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/sms-phone-risk-trap-privacy-security-500x500.jpg" width="500"/>
+</media:content>
+            </item>
+                    <item>
+                <title>mRNA cancer vaccine shows protection at 5-year follow-up, Moderna and Merck say</title>
+                <link>https://arstechnica.com/health/2026/01/mrna-cancer-vaccine-shows-protection-at-5-year-follow-up-moderna-and-merck-say/</link>
+                                    <comments>https://arstechnica.com/health/2026/01/mrna-cancer-vaccine-shows-protection-at-5-year-follow-up-moderna-and-merck-say/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Wed, 21 Jan 2026 22:51:26 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[cancer]]></category>
+		<category><![CDATA[clinical trial]]></category>
+		<category><![CDATA[melanoma]]></category>
+		<category><![CDATA[moderna]]></category>
+		<category><![CDATA[mRNA]]></category>
+		<category><![CDATA[skin cancer]]></category>
+		<category><![CDATA[vaccine]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/01/mrna-cancer-vaccine-shows-protection-at-5-year-follow-up-moderna-and-merck-say/</guid>
+
+                                    <description>
+                        <![CDATA[The vaccines are tailor-made to target each patient's unique cancer.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In a small clinical trial, customized mRNA vaccines against high-risk skin cancers appeared to reduce the risk of cancer recurrence and death by nearly 50 percent over five years when compared with standard treatment alone. That's <a href="https://feeds.issuerdirect.com/news-release.html?newsid=7585547225835569&amp;symbol=MRNA">according to Moderna and Merck</a>, the two pharmaceutical companies that have collaborated on the experimental cancer vaccine, called intismeran autogene (mRNA-4157 or V940).</p>
+<p>So far, the companies have only reported the top-line results in a press release this week. However, the results align closely with previous, more detailed analyses from the trial, which examined rates of recurrence and death at earlier time points, specifically at <a href="https://www.merck.com/news/moderna-and-merck-announce-mrna-4157-v940-an-investigational-individualized-neoantigen-therapy-in-combination-with-keytruda-pembrolizumab-demonstrated-superior-recurrence-free-survival-in/">two years</a> and <a href="https://www.merck.com/news/moderna-and-merck-announce-mrna-4157-v940-in-combination-with-keytruda-pembrolizumab-demonstrated-continued-improvement-in-recurrence-free-survival-and-distant-metastasis-free-survival-in-pa/">three years</a> after the treatment. More data from the trial—a Phase 2 trial—will soon be presented at a medical conference, the companies said. A Phase 3 trial is also underway, with enrollment complete.</p>
+<p>The ongoing Phase 2 trial included 157 patients who were diagnosed with stage 3 or stage 4 melanoma and were at high risk of having it recur after surgical removal. A standard treatment to prevent recurrence after such surgery is immunotherapy, including Merck's Keytruda (pembrolizumab). This drug essentially enables immune cells, specifically T cells, to attack and kill cancer cells—something they normally do. But, in many types of cancers, including melanoma, cancer cells have the ability to bind to receptors on T cells (called PD-1 receptors), which basically shuts the T cells down. Keytruda works by physically blocking the PD-1 receptors, preventing cancer cells from binding and keeping the T cells activated so they can kill the cancer.</p><p><a href="https://arstechnica.com/health/2026/01/mrna-cancer-vaccine-shows-protection-at-5-year-follow-up-moderna-and-merck-say/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/01/mrna-cancer-vaccine-shows-protection-at-5-year-follow-up-moderna-and-merck-say/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>12</slash:comments>
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/12/GettyImages-1290558683.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/12/GettyImages-1290558683-500x500.jpg" width="500"/>
+<media:credit> DeFodi Images </media:credit></media:content>
+            </item>
+                    <item>
+                <title>Trump FCC threatens to enforce equal-time rule on late-night talk shows</title>
+                <link>https://arstechnica.com/tech-policy/2026/01/trump-fcc-tries-to-get-more-republicans-on-late-night-and-daytime-talk-shows/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/01/trump-fcc-tries-to-get-more-republicans-on-late-night-and-daytime-talk-shows/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Wed, 21 Jan 2026 21:50:21 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[brendan carr]]></category>
+		<category><![CDATA[Equal Time Rule]]></category>
+		<category><![CDATA[FCC]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/trump-fcc-tries-to-get-more-republicans-on-late-night-and-daytime-talk-shows/</guid>
+
+                                    <description>
+                        <![CDATA[FCC disputes long-standing view that the shows are exempt from equal-time rule.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Federal Communications Commission today issued a warning to late-night and daytime talk shows, saying these shows may no longer qualify for an exemption to the FCC's equal-time rule. Because the FCC is chaired by <a href="https://arstechnica.com/tech-policy/2025/12/no-one-loves-president-trump-more-than-fcc-chairman-brendan-carr/">vocal Trump supporter Brendan Carr</a>, changing how the rule is enforced could pressure shows into seeking out more interviews with Republican candidates.</p>
+<p>The <a href="https://www.fcc.gov/document/bureau-provides-guidance-political-equal-opportunities-requirement">public notice</a> providing what the FCC calls "guidance on political equal opportunities requirement for broadcast television stations" appears to be part of the Trump administration's campaign against alleged liberal bias on broadcast TV. Carr, who has <a href="https://arstechnica.com/tech-policy/2025/12/fcc-deletes-independent-agency-from-website-as-carr-defends-allegiance-to-trump/">eroded the FCC's historical independence</a> from the White House, previously <a href="https://arstechnica.com/tech-policy/2025/09/fcc-derided-as-federal-censorship-commission-after-pushing-jimmy-kimmel-off-abc/">pressured ABC to suspend Jimmy Kimmel</a> and threatened ABC’s <em>The View</em> with the equal-time rule.</p>
+<p>The Carr FCC's public notice today said that federal rules "prevent broadcast television stations, which have been given access to a valuable public resource (namely, spectrum), from unfairly putting their thumbs on the scale for one political candidate or set of candidates over another." These rules come from "the decision by Congress that broadcast television stations have an obligation to operate in the public interest—not in any narrow partisan, political interest," the Carr FCC said.</p><p><a href="https://arstechnica.com/tech-policy/2026/01/trump-fcc-tries-to-get-more-republicans-on-late-night-and-daytime-talk-shows/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/01/trump-fcc-tries-to-get-more-republicans-on-late-night-and-daytime-talk-shows/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>68</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/jimmy-kimmel-return-1152x648-1758739114.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/jimmy-kimmel-return-500x500-1758739137.jpg" width="500"/>
+<media:credit>Getty Images | Randy Holmes/Disney</media:credit><media:text>Jimmy Kimmel hosting his show upon its return on September 23, 2025.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Why adding modern controls to 1996's Tomb Raider simply doesn't work</title>
+                <link>https://arstechnica.com/gaming/2026/01/the-problem-with-revisiting-tomb-raider-reacclimating-to-tank-controls/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/01/the-problem-with-revisiting-tomb-raider-reacclimating-to-tank-controls/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Samuel Axon]]>
+                </dc:creator>
+                <pubDate>Wed, 21 Jan 2026 21:03:02 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Shopping]]></category>
+		<category><![CDATA[C:\ArsGames]]></category>
+		<category><![CDATA[dos gaming]]></category>
+		<category><![CDATA[gog]]></category>
+		<category><![CDATA[PC gaming]]></category>
+		<category><![CDATA[platformer]]></category>
+		<category><![CDATA[tank controls]]></category>
+		<category><![CDATA[Tomb Raider]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/01/the-problem-with-revisiting-tomb-raider-reacclimating-to-tank-controls/</guid>
+
+                                    <description>
+                        <![CDATA[For our C:\ArsGames series, we look at the controls conundrum of early 3D.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[
+<p>For a lot of the games I've written about in the <a href="https://arstechnica.com/tag/carsgames/">C:\ArsGames</a> series, I've come to the conclusion that the games hold up pretty well, despite their age—<em>Master of Orion II</em>, <em>Jill of the Jungle</em>, and <em>Wing Commander Privateer</em>, for example. Each of those have flaws that show now more than ever, but I still had a blast revisiting each of them.</p>
+<p>This time I'd like to write about one that I think doesn't hold up quite as well for me: For the first time in almost 30 years, I revisited the original<em> Tomb Raider</em> via 2024's <a href="https://www.kqzyfj.com/click-8984087-15232592?url=https%3A%2F%2Fwww.gog.com%2Fen%2Fgame%2Ftomb_raider_i_to_iii_remastered"><em>Tomb Raider I-III Remastered</em></a> collection.</p>
+<p>You might be thinking this is going to be a dunk on the work done on the remaster, but that's not the case, because the core issue with playing 1996's <em>Tomb Raider</em> in 2026 is actually unsolvable, no matter how much care is put into a remaster.</p><p><a href="https://arstechnica.com/gaming/2026/01/the-problem-with-revisiting-tomb-raider-reacclimating-to-tank-controls/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/01/the-problem-with-revisiting-tomb-raider-reacclimating-to-tank-controls/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>41</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Tomb-Raider-hero-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Tomb-Raider-hero-500x500.jpg" width="500"/>
+<media:credit>Aspyr</media:credit><media:text>The graphical updates to &lt;em&gt;Tomb Raider&lt;/em&gt; are modest but effective.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Kioxia's memory is "sold out" for 2026, prolonging a "high-end and expensive phase"</title>
+                <link>https://arstechnica.com/gadgets/2026/01/kioxias-memory-is-sold-out-for-2026-prolonging-a-high-end-and-expensive-phase/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/01/kioxias-memory-is-sold-out-for-2026-prolonging-a-high-end-and-expensive-phase/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Wed, 21 Jan 2026 20:37:00 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[kioxia]]></category>
+		<category><![CDATA[memory shortage]]></category>
+		<category><![CDATA[SSDs]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/01/kioxias-memory-is-sold-out-for-2026-prolonging-a-high-end-and-expensive-phase/</guid>
+
+                                    <description>
+                        <![CDATA[Kioxia is spinning up more manufacturing capacity, but relief will come slowly.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The companies that make RAM and flash memory chips are <a href="https://arstechnica.com/gadgets/2026/01/high-ram-prices-mean-record-setting-profits-for-samsung-and-other-memory-makers/">enjoying record profits</a> because of the AI-induced memory crunch—and they’re also indicating that they don’t expect conditions to improve much if at all in 2026. And while RAM kits have been hit the fastest and hardest by shortages and price increases, we shouldn't expect SSD pricing to improve any time soon, either.</p>
+<p>That's the message from Shunsuke Nakato (<a href="https://www.pcgamer.com/hardware/ssds/memory-manufacturer-kioxia-reveals-its-entire-nand-flash-production-volume-for-2026-is-already-sold-out/">via PC Gamer</a>), managing director of the memory division of Kioxia, the Japanese memory company that was spun off from Toshiba at the end of the 2010s. Nakato says that Kioxia’s manufacturing capacity is sold out through the rest of 2026, driving the market for both enterprise and consumer SSDs to a “high-end and expensive phase.”</p>
+<p>“There is a sense of crisis that companies will be eliminated the moment they stop investing in AI, so they have no choice but to continue investing,” said Nakato, as <a href="https://www.ddaily.co.kr/page/view/2026012017211958377">reported</a> by the Korean-language publication Digital Daily. Absent a big change in the demand for generative AI data centers, that cycle of investments will keep prices high for the foreseeable future.</p><p><a href="https://arstechnica.com/gadgets/2026/01/kioxias-memory-is-sold-out-for-2026-prolonging-a-high-end-and-expensive-phase/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/01/kioxias-memory-is-sold-out-for-2026-prolonging-a-high-end-and-expensive-phase/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>32</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/kioxia-ssds-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/kioxia-ssds-500x500.jpg" width="500"/>
+<media:credit>Kioxia</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Watch a robot swarm "bloom" like a garden</title>
+                <link>https://arstechnica.com/science/2026/01/watch-a-robot-swarm-bloom-like-a-garden/</link>
+                                    <comments>https://arstechnica.com/science/2026/01/watch-a-robot-swarm-bloom-like-a-garden/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Wed, 21 Jan 2026 19:47:27 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[architecture]]></category>
+		<category><![CDATA[collective behavior]]></category>
+		<category><![CDATA[living architecture]]></category>
+		<category><![CDATA[robot swarms]]></category>
+		<category><![CDATA[Robotics]]></category>
+		<category><![CDATA[swarm intelligence]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/01/watch-a-robot-swarm-bloom-like-a-garden/</guid>
+
+                                    <description>
+                        <![CDATA[The Swarm Garden: An array of modular robot agents that adapt to changing conditions for living architecture.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers at Princeton University have built a swarm of interconnected mini-robots that "bloom" like flowers in response to changing light levels in an office. According to their <a href="http://www.science.org/doi/10.1126/scirobotics.ady7233">new paper</a> published in the journal Science Robotics, such robotic swarms could one day be used as dynamic facades in architectural designs, enabling buildings to adapt to changing climate conditions as well as interact with humans in creative ways.</p>
+<p>The authors drew inspiration from so-called "living architectures," such as beehives. Fire ants provide <a href="https://arstechnica.com/science/2022/03/study-ids-simple-rules-for-how-floating-fire-ant-rafts-change-shape-over-time/">a textbook example</a> of this kind of collective behavior. A few ants spaced well apart behave like individual ants. But pack enough of them closely together, and they behave more like a single unit, exhibiting both solid and liquid properties. You can pour them from a teapot like ants, as Goldman’s lab demonstrated several years ago, or they can link together to build towers or floating rafts—a handy survival skill when, say, a hurricane floods Houston. They <a href="https://arstechnica.com/science/2018/08/we-can-learn-the-secrets-of-smooth-traffic-flow-by-watching-fire-ants/">also excel</a> at regulating their own traffic flow. You almost never see an ant traffic jam.</p>
+<p>Naturally scientists are keen to mimic such systems. For instance, <a href="https://www.science.org/doi/10.1126/science.aan3891">in 2018</a>, Georgia Tech researchers built ant-like robots and programmed them to dig through 3D-printed magnetic plastic balls designed to simulate moist soil. Robot swarms capable of efficiently digging underground without jamming would be super beneficial for mining or disaster recovery efforts, where using human beings might not be feasible.</p><p><a href="https://arstechnica.com/science/2026/01/watch-a-robot-swarm-bloom-like-a-garden/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/01/watch-a-robot-swarm-bloom-like-a-garden/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>16</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/swarm1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/swarm1-500x500.jpg" width="500"/>
+<media:credit>Merihan Alhafnawi</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Spotify won court order against Anna’s Archive, taking down .org domain</title>
+                <link>https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Wed, 21 Jan 2026 19:34:14 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Anna's archive]]></category>
+		<category><![CDATA[spotify]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/</guid>
+
+                                    <description>
+                        <![CDATA[Lawsuit was filed under seal; Anna's Archive wasn't notified until after takedown.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>When shadow library Anna's Archive <a href="https://arstechnica.com/tech-policy/2026/01/annas-archive-loses-org-domain-says-suspension-likely-unrelated-to-spotify-piracy/">lost its .org domain</a> in early January, the controversial site's operator said the suspension didn't appear to have anything to do with its recent <a href="https://arstechnica.com/tech-policy/2025/12/worlds-largest-shadow-library-brags-it-scraped-300tb-of-spotify-music-metadata/">mass scraping of Spotify</a>.</p>
+<p>But it turns out, probably not surprisingly to most people, that the domain suspension resulted from a lawsuit filed by Spotify, along with major record labels Sony, Warner, and Universal Music Group (UMG). The music companies sued Anna's Archive in late December in US District Court for the Southern District of New York, and the case was initially sealed.</p>
+<p>A judge ordered the case unsealed on January 16 "because the purpose for which sealing was ordered has been fulfilled." Numerous documents were made public on the court docket yesterday, and they explain events around the domain suspension.</p><p><a href="https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>34</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/spotify-logos-1152x648-1767642275.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/spotify-logos-500x500-1767642286.jpg" width="500"/>
+<media:credit>Getty Images | Anadolu</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Another Jeff Bezos company has announced plans to develop a megaconstellation</title>
+                <link>https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/</link>
+                                    <comments>https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Wed, 21 Jan 2026 18:40:21 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[blue origin]]></category>
+		<category><![CDATA[megaconstellation]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[terawave]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/</guid>
+
+                                    <description>
+                        <![CDATA[With data speeds of up to 6Tbps, one could stream a lot of HD movies.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The announcement came out of the blue, from Blue, on Wednesday.</p>
+<p>The space company founded by Jeff Bezos, Blue Origin, said it was developing a new megaconstellation named TeraWave to deliver data speeds of up to 6Tbps anywhere on Earth. The constellation will consist of 5,408 optically interconnected satellites, with a majority in low-Earth orbit and the remainder in medium-Earth orbit.</p>
+<p>The satellites in low-Earth orbit will provide up to 144Gbps through radio spectrum, whereas those in medium-Earth orbit will provide higher data rates through optical links.</p><p><a href="https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>101</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/G_NEl2bbgAAr100-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/G_NEl2bbgAAr100-500x500.jpg" width="500"/>
+<media:credit>Blue Origin</media:credit><media:text>A schematic of the proposed TeraWave constellation.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Here's Volvo's new EX60 $60,000 electric midsize SUV</title>
+                <link>https://arstechnica.com/cars/2026/01/heres-volvos-new-ex60-60000-electric-midsize-suv/</link>
+                                    <comments>https://arstechnica.com/cars/2026/01/heres-volvos-new-ex60-60000-electric-midsize-suv/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Wed, 21 Jan 2026 17:30:58 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Volvo EX60]]></category>
+		<category><![CDATA[Volvo EX60 Cross Country]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/01/heres-volvos-new-ex60-60000-electric-midsize-suv/</guid>
+
+                                    <description>
+                        <![CDATA[The EX60 goes into production in April 2026.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>After <a href="https://arstechnica.com/cars/2026/01/volvo-says-new-ex60-has-400-mile-range-charges-up-to-400-kw/">a teaser campaign</a> that included <a href="https://arstechnica.com/cars/2026/01/exclusive-volvo-tells-us-why-having-gemini-in-your-next-car-is-a-good-thing/">a world exclusive with Ars</a>, Volvo has officially unveiled its next electric vehicle, the EX60. We already knew it would have up to 400 miles of range, according to the US EPA test cycle, and be capable of charging at rates of up to 400 kW. And we learned last week that the EX60 is packed full of powerful computer hardware from Nvidia and Qualcomm, enabling both advanced driver assistance systems and a new AI personal assistant. Today, we got full tech specs for the three different EX60 powertrain variants, as well as a pair of rugged EX60 Cross Country models.</p>
+<h2>P6, P10, P12</h2>
+<p>The entry-level version of Volvo's next midsize crossover is the EX60 P6. This is a single-motor variant, with 369 hp (275 kW), 354 lb-ft (480 Nm) on tap at the rear wheels. The 80 kWh (usable, 83 kWH gross) battery pack can charge at up to 320 kW and can take as little as 18 minutes to DC charge from 10 to 80 percent. The EX60 will also be the first Volvo model on sale in the US with a built-in NACS port. Range for the P6 version is 310 miles (490 km) when fitted with 20-inch wheels; subtract 10 miles (16 km) for the 21-inch wheels and 20 miles (32 km) for the 22-inch wheels. 0–60 mph (0–98 km/h) takes 5.7 seconds, and like all modern Volvos, the EX60 is <a href="https://arstechnica.com/cars/2019/03/from-2020-volvo-will-limit-all-its-new-cars-to-112mph/">speed-limited to 112 mph</a> (180 km/h).</p>
+<p>(Again, all range estimates are based on the US EPA test cycle; if you see different numbers online at non-US publications, those are using Europe's WLTP test.)</p><p><a href="https://arstechnica.com/cars/2026/01/heres-volvos-new-ex60-60000-electric-midsize-suv/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/01/heres-volvos-new-ex60-60000-electric-midsize-suv/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>84</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/JPG-Full-TIM_1154_EX60_DETAIL_HIGH_FRONT-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/JPG-Full-TIM_1154_EX60_DETAIL_HIGH_FRONT-500x500.jpg" width="500"/>
+<media:credit>Volvo </media:credit><media:text>Volvo's next EV uses an all-new platform called SPA3. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Has Gemini surpassed ChatGPT? We put the AI models to the test.</title>
+                <link>https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/</link>
+                                    <comments>https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Wed, 21 Jan 2026 15:03:39 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[openai]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/</guid>
+
+                                    <description>
+                        <![CDATA[Did Apple make the right choice in partnering with Google for Siri's AI features?]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The last time we did comparative tests of AI models from OpenAI and Google at Ars was <a href="https://arstechnica.com/ai/2023/12/chatgpt-vs-google-bard-round-2-how-does-the-new-gemini-model-fare/">in late 2023</a>, when Google's offering was still called Bard. In the roughly two years since, a lot has happened in the world of artificial intelligence. And now that Apple has <a href="https://arstechnica.com/apple/2026/01/apple-says-its-new-ai-powered-siri-will-use-googles-gemini-language-models/">made the consequential decision to partner with Google Gemini</a> to power the next generation of its Siri voice assistant, we thought it was high time to do some new tests to see where the models from these AI giants stand today.</p>
+<p>For this test, we're comparing the default models that both OpenAI and Google present to users who don't pay for a regular subscription—ChatGPT 5.2 for OpenAI and Gemini 3.2 Fast for Google. While other models might be more powerful, we felt this test best recreates the AI experience as it would work for the vast majority of Siri users, who don't pay to subscribe to either company's services.</p>
+<p>As in the past, we'll feed the same prompts to both models and evaluate the results using a combination of objective evaluation and subjective feel. Rather than re-using the relatively simple prompts we ran back in 2023, though, we'll be running these models on an updated set of more complex prompts that we first used when <a href="https://arstechnica.com/ai/2025/08/is-gpt-5-really-worse-than-gpt-4o-ars-puts-them-to-the-test/">pitting GPT-5 against GPT-4o last summer</a>.</p><p><a href="https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/">Read full article</a></p>
+<p><a href="https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>108</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/chatgpt-vs-gemini-apple-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/chatgpt-vs-gemini-apple-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit><media:text>Thankfully, neither ChatGPT or Gemini are currently able to put on literal boxing gloves and punch each other.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Zillow removed climate risk scores. This climate expert is restoring them.</title>
+                <link>https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/</link>
+                                    <comments>https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Claire Barber, Inside Climate News]]>
+                </dc:creator>
+                <pubDate>Wed, 21 Jan 2026 14:33:00 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[California]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[insurance risk]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/</guid>
+
+                                    <description>
+                        <![CDATA[Real estate website scrubbed data under pressure from California real estate brokers.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Even as exposure to floods, fire, and extreme heat increase in the face of climate change, a popular tool for evaluating risk has disappeared from the nation’s leading real estate website.</p>
+<p>Zillow removed the feature displaying climate risk data to home buyers in November after the California Regional Multiple Listing Service, which provides a database of real estate listings to real estate agents and brokers in the state, questioned the accuracy of the flood risk models on the site.</p>
+<p>Now, a climate policy expert in California is working to put data back in buyers’ hands.</p><p><a href="https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>85</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/floods-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/floods-500x500.jpg" width="500"/>
+<media:credit>Stephen Lam/San Francisco Chronicle via Getty Images</media:credit><media:text>A street is inundated with floodwater during a King Tide event on Jan. 3 in Corte Madera, Calif.</media:text></media:content>
+            </item>
+                    <item>
                 <title>Wikipedia volunteers spent years cataloging AI tells. Now there's a plugin to avoid them.</title>
                 <link>https://arstechnica.com/ai/2026/01/new-ai-plugin-uses-wikipedias-ai-writing-detection-rules-to-help-it-sound-human/</link>
                                     <comments>https://arstechnica.com/ai/2026/01/new-ai-plugin-uses-wikipedias-ai-writing-detection-rules-to-help-it-sound-human/#comments</comments>
@@ -49,13 +465,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>On Saturday, tech entrepreneur Siqi Chen <a href="https://github.com/blader/humanizer">released</a> an open source plugin for Anthropic's <a href="https://arstechnica.com/information-technology/2026/01/10-things-i-learned-from-burning-myself-out-with-ai-coding-agents/">Claude Code</a> AI assistant that instructs the AI model to stop writing like an AI model. Called "Humanizer," the simple prompt plugin feeds Claude a list of 24 language and formatting patterns that Wikipedia editors have <a href="https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing">listed</a> as chatbot giveaways. Chen published the plugin on GitHub, where it has picked up over 1,600 stars as of Monday.</p>
-<p>"It's really handy that Wikipedia went and collated a detailed list of 'signs of AI writing,'" Chen <a href="https://x.com/blader/status/2013015738622284156">wrote</a> on X. "So much so that you can just tell your LLM to ... not do that."</p>
+<p>"It's really handy that Wikipedia went and collated a detailed list of 'signs of AI writing,'" Chen <a href="https://x.com/blader/status/2013015738622284156">wrote</a> on X. "So much so that you can just tell your LLM to... not do that."</p>
 <p>The source material is a guide from WikiProject AI Cleanup, a group of Wikipedia editors who have been hunting AI-generated articles since late 2023. French Wikipedia editor Ilyas Lebleu founded the project. The volunteers have tagged over 500 articles for review and, in August 2025, <a href="https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing">published</a> a formal list of the patterns they kept seeing.</p><p><a href="https://arstechnica.com/ai/2026/01/new-ai-plugin-uses-wikipedias-ai-writing-detection-rules-to-help-it-sound-human/">Read full article</a></p>
 <p><a href="https://arstechnica.com/ai/2026/01/new-ai-plugin-uses-wikipedias-ai-writing-detection-rules-to-help-it-sound-human/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>5</slash:comments>
+                                    <slash:comments>98</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/10/ai_typewriter_getty-1152x648.jpg" width="1152">
@@ -90,7 +506,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>68</slash:comments>
+                                    <slash:comments>99</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/STScI-01KCMAMZ8ZSMRTR9KKD8Y6EMRJ-1152x648.png" width="1152">
@@ -127,7 +543,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>50</slash:comments>
+                                    <slash:comments>89</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/zuck-the-monopolist-1152x648.jpg" width="1152">
@@ -160,7 +576,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>80</slash:comments>
+                                    <slash:comments>111</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/verizon-1152x648-1752087139.jpg" width="1152">
@@ -188,12 +604,12 @@
                                                                 <content:encoded>
                             <![CDATA[<p>YouTubers have been increasingly frustrated with Google's management of the platform, with <a href="https://arstechnica.com/gadgets/2025/10/youtube-explains-how-banned-creators-can-get-a-second-chance/">disinformation welcomed back</a> and an <a href="https://arstechnica.com/google/2026/01/googles-updated-veo-model-can-make-vertical-videos-from-reference-images-with-4k-upscaling/">aggressive push for more AI</a> (except where Google <a href="https://arstechnica.com/google/2025/12/youtube-bans-two-popular-channels-that-created-fake-ai-movie-trailers/">doesn't like it</a>). So it's no surprise that creators have been up in arms over the suspicious removal of YouTube's advanced SRV3 caption format. You don't have to worry too much just yet—Google says this is only temporary, and it's working on a fix for the underlying bug.</p>
 <p>Google added support for this custom subtitle format around 2018, giving creators more customization options than with traditional captions. SRV3 (also known as YTT or YouTube Timed Text) allows for custom colors, transparency, animations, fonts, and precise positioning in videos. Uploaders using this format can color-code and position captions to help separate multiple speakers, create sing-along animations, or style them to match the video.</p>
-<p>Over the last several days, creators who've become accustomed to this level of control <a href="https://www.reddit.com/r/youtube/comments/1qdvgmc/uploading_srv3_subtitles_got_brokendisabled/?sort=new">have been dismayed</a> to see that YouTube is no longer accepting videos with this Google-created format. Many worried Google had ditched the format entirely, which could be problematic for all those previously uploaded videos.</p><p><a href="https://arstechnica.com/gadgets/2026/01/google-temporarily-disabled-youtubes-advanced-captions-without-warning/">Read full article</a></p>
+<p>Over the last several days, creators who have become accustomed to this level of control <a href="https://www.reddit.com/r/youtube/comments/1qdvgmc/uploading_srv3_subtitles_got_brokendisabled/?sort=new">have been dismayed</a> to see that YouTube is no longer accepting videos with this Google-created format. Many worried Google had ditched the format entirely, which could be problematic for all those previously uploaded videos.</p><p><a href="https://arstechnica.com/gadgets/2026/01/google-temporarily-disabled-youtubes-advanced-captions-without-warning/">Read full article</a></p>
 <p><a href="https://arstechnica.com/gadgets/2026/01/google-temporarily-disabled-youtubes-advanced-captions-without-warning/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>24</slash:comments>
+                                    <slash:comments>30</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/youtube-1152x648.jpg" width="1152">
@@ -230,7 +646,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>53</slash:comments>
+                                    <slash:comments>72</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2016/11/CSIRO_ScienceImage_115_The_Tip_of_a_Screw_Worm_Fly_Larvae.jpg">
@@ -262,7 +678,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>3</slash:comments>
+                                    <slash:comments>9</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2243934190-1152x648.jpg" width="1152">
@@ -295,451 +711,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>98</slash:comments>
+                                    <slash:comments>115</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/netflix-paramount-wb-icons-1152x648-1767815429.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/netflix-paramount-wb-icons-500x500-1767815415.jpg" width="500"/>
 <media:credit>Getty Images | Kenneth Cheung</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Sony is giving TCL control over its high-end Bravia TVs</title>
-                <link>https://arstechnica.com/gadgets/2026/01/tcl-to-gain-majority-ownership-over-sonys-bravia-tvs/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/01/tcl-to-gain-majority-ownership-over-sonys-bravia-tvs/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Jan 2026 18:58:22 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Sony]]></category>
-		<category><![CDATA[tcl]]></category>
-		<category><![CDATA[TVs]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/01/tcl-to-gain-majority-ownership-over-sonys-bravia-tvs/</guid>
-
-                                    <description>
-                        <![CDATA[TCL will own 51 percent of the high-end TVs. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>TCL is taking majority ownership of Sony’s Bravia series of TVs, the two companies announced today.</p>
-<p>The two firms said they have signed a memorandum of understanding and aim to sign binding agreements by the end of March. Pending “relevant regulatory approvals and other conditions,” the joint venture is expected to launch in April 2027.</p>
-<p>Under a new joint venture, Huizhou, China-headquartered TCL will own 51 percent of Tokyo, Japan-headquartered Sony’s “home entertainment business,” and Sony will own 49 percent, per an announcement today, adding:</p><p><a href="https://arstechnica.com/gadgets/2026/01/tcl-to-gain-majority-ownership-over-sonys-bravia-tvs/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/01/tcl-to-gain-majority-ownership-over-sonys-bravia-tvs/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>134</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-1236174910-1152x648-1768934089.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-1236174910-500x500-1768934080.jpg" width="500"/>
-<media:credit>Kiyoshi Ota/Bloomberg via Getty Images</media:credit><media:text>A Sony Group Corp. PlayStation 5 video game console and a controller displayed next to a Bravia XR 4K television at the company's showroom inside the Ginza Place building in Tokyo, Japan, on Wednesday, Oct. 27, 2021. </media:text></media:content>
-            </item>
-                    <item>
-                <title>The first commercial space station, Haven-1, is now undergoing assembly for launch</title>
-                <link>https://arstechnica.com/space/2026/01/the-first-commercial-space-station-haven-1-is-now-undergoing-assembly-for-launch/</link>
-                                    <comments>https://arstechnica.com/space/2026/01/the-first-commercial-space-station-haven-1-is-now-undergoing-assembly-for-launch/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Jan 2026 15:00:04 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[commercial space station]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[vast space]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/01/the-first-commercial-space-station-haven-1-is-now-undergoing-assembly-for-launch/</guid>
-
-                                    <description>
-                        <![CDATA["We have a very strong incentive to send a crew as quickly as we can safely do so."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>As <a href="https://arstechnica.com/space/2026/01/key-senate-staffer-is-begging-nasa-to-get-on-with-commercial-space-stations/">Ars reported last week</a>, NASA's plan to replace the International Space Station with commercial space stations is running into a time crunch.</p>
-<p>The sprawling International Space Station is due to be decommissioned less than five years from now, and the US space agency has yet to formally publish rules and requirements for the follow-on stations being designed and developed by several different private companies.</p>
-<p>Although there are expected to be multiple bidders in "phase two" of NASA's commercial space station program, there are at present four main contenders: Voyager Technologies, Axiom Space, Blue Origin, and Vast Space. At some point later this year, the space agency is expected to select one, or more likely two, of these companies for larger contracts that will support their efforts to build their stations.</p><p><a href="https://arstechnica.com/space/2026/01/the-first-commercial-space-station-haven-1-is-now-undergoing-assembly-for-launch/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/01/the-first-commercial-space-station-haven-1-is-now-undergoing-assembly-for-launch/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>125</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Vast_Haven-1_Integration_Phase-1_ISO8_Cleanroom_Spring_2026-01-15-DSC_1375-3-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Vast_Haven-1_Integration_Phase-1_ISO8_Cleanroom_Spring_2026-01-15-DSC_1375-3-500x500.jpg" width="500"/>
-<media:credit>Vast Space</media:credit><media:text>The Haven-1 space station seen here in the Vast Space clean room.</media:text></media:content>
-            </item>
-                    <item>
-                <title>The fastest human spaceflight mission in history crawls closer to liftoff</title>
-                <link>https://arstechnica.com/space/2026/01/nasas-artemis-ii-rocket-rolls-to-launch-pad-but-key-test-looms-ahead/</link>
-                                    <comments>https://arstechnica.com/space/2026/01/nasas-artemis-ii-rocket-rolls-to-launch-pad-but-key-test-looms-ahead/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Mon, 19 Jan 2026 22:01:52 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[artemis]]></category>
-		<category><![CDATA[artemis II]]></category>
-		<category><![CDATA[Christina Koch]]></category>
-		<category><![CDATA[human spaceflight]]></category>
-		<category><![CDATA[Jeremy Hansen]]></category>
-		<category><![CDATA[Kennedy Space Center]]></category>
-		<category><![CDATA[moon]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[orion]]></category>
-		<category><![CDATA[Reid Wiseman]]></category>
-		<category><![CDATA[space launch system]]></category>
-		<category><![CDATA[victor glover]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/01/nasas-artemis-ii-rocket-rolls-to-launch-pad-but-key-test-looms-ahead/</guid>
-
-                                    <description>
-                        <![CDATA[After a remarkably smooth launch campaign, Artemis II reached its last stop before the Moon.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>KENNEDY SPACE CENTER, Florida—Preparations for the first human spaceflight to the Moon in more than 50 years took a big step forward this weekend with the rollout of the Artemis II rocket to its launch pad.</p>
-<p>The rocket reached a top speed of just 1 mph on the four-mile, 12-hour journey from the Vehicle Assembly Building to Launch Complex 39B at NASA's Kennedy Space Center in Florida. At the end of its nearly 10-day tour through cislunar space, the Orion capsule on top of the rocket will exceed 25,000 mph as it plunges into the atmosphere to bring its four-person crew back to Earth.</p>
-<p class="p1">"This is the start of a very long journey," said NASA Administrator Jared Isaacman. "We ended our last human exploration of the moon on Apollo 17."</p><p><a href="https://arstechnica.com/space/2026/01/nasas-artemis-ii-rocket-rolls-to-launch-pad-but-key-test-looms-ahead/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/01/nasas-artemis-ii-rocket-rolls-to-launch-pad-but-key-test-looms-ahead/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>124</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/IMG_0127-1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/IMG_0127-1-500x500.jpg" width="500"/>
-<media:credit>Stephen Clark/Ars Technica</media:credit><media:text>NASA's Space Launch System rocket rolls to Launch Complex 39B on Saturday.</media:text></media:content>
-            </item>
-                    <item>
-                <title>The first new Marathon game in decades will launch on March 5</title>
-                <link>https://arstechnica.com/gaming/2026/01/bungies-delayed-marathon-revival-will-finally-launch-march-5/</link>
-                                    <comments>https://arstechnica.com/gaming/2026/01/bungies-delayed-marathon-revival-will-finally-launch-march-5/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Mon, 19 Jan 2026 21:07:55 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Bungie]]></category>
-		<category><![CDATA[delay]]></category>
-		<category><![CDATA[destiny]]></category>
-		<category><![CDATA[development]]></category>
-		<category><![CDATA[extraction shooter]]></category>
-		<category><![CDATA[Halo]]></category>
-		<category><![CDATA[marathon]]></category>
-		<category><![CDATA[ps5]]></category>
-		<category><![CDATA[release date]]></category>
-		<category><![CDATA[Steam]]></category>
-		<category><![CDATA[xbox series]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/01/bungies-delayed-marathon-revival-will-finally-launch-march-5/</guid>
-
-                                    <description>
-                        <![CDATA[Development hasn't exactly been smooth since the extraction shooter's 2023 announcement.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>It has been nearly three years now since <em>Destiny</em> maker (and <a href="https://arstechnica.com/gaming/2022/01/sony-to-acquire-bungie-destiny-series-for-3-6-billion/">Sony subsidiary</a>) Bungie <a href="https://arstechnica.com/gaming/2023/05/remember-marathon-bungies-pre-halo-and-destiny-shooter-its-back-kind-of/">formally announced</a> a revival of the storied <em>Marathon</em> FPS franchise. And it has been about seven months since the game's originally announced release date of September 23, 2025, was <a href="https://www.bungie.net/7/en/News/Article/marathon_update">pushed back indefinitely</a> after a reportedly poor response to the game's first Alpha test.</p>
-<p>But today, in <a href="https://blog.playstation.com/2023/05/24/bungie-unveils-marathon/">a post on the PlayStation Blog</a>, Bungie revealed that the new <em>Marathon</em> would finally be hitting PS5, Windows, and Xbox Series X|S on March 5, narrowing down the monthlong March release window <a href="https://www.bungie.net/7/en/News/Article/marathonvidoc">announced back in December</a>.</p>
-<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/UbNhSVj6WZM?start=0&amp;wmode=transparent"></div><div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
-    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
-    <div class="caption-content">
-      Today's preorder trailer revealing the <em>Marathon</em> release date.
-
-          </div>
-  </div>
-</div>
-<p>Unlike <em>Destiny 2</em>, which <a href="https://arstechnica.com/gaming/2019/06/destiny-2-will-become-free-to-play-later-this-year-fully-cross-platform/">transitioned to a free-to-play model in 2019</a>, the new <em>Marathon</em> sells a Standard Edition for $40 or a $60 Deluxe Edition that includes some digital rewards and cosmetics. That mirrors the pricing of the somewhat similar <em>Arc Raiders</em>, which recently hit 12 million sales in less than 12 weeks.</p><p><a href="https://arstechnica.com/gaming/2026/01/bungies-delayed-marathon-revival-will-finally-launch-march-5/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2026/01/bungies-delayed-marathon-revival-will-finally-launch-march-5/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>142</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/marathon-1152x648.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/marathon-500x500.png" width="500"/>
-<media:credit>Bungie</media:credit><media:text>*Beatles voice* Bang bang shoot shoot.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Signs point to a sooner-rather-than-later M5 MacBook Pro refresh</title>
-                <link>https://arstechnica.com/gadgets/2026/01/signs-point-to-a-sooner-rather-than-later-m5-macbook-pro-refresh/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/01/signs-point-to-a-sooner-rather-than-later-m5-macbook-pro-refresh/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Mon, 19 Jan 2026 19:52:22 +0000</pubDate>
-                		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[Apple M5]]></category>
-		<category><![CDATA[MacBook Air]]></category>
-		<category><![CDATA[MacBook Pro]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/01/signs-point-to-a-sooner-rather-than-later-m5-macbook-pro-refresh/</guid>
-
-                                    <description>
-                        <![CDATA[Delayed shipping times for current models sometimes means an update is imminent.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Mac power users waiting on new high-end MacBook Pro models may have been disappointed last fall when Apple <a href="https://arstechnica.com/gadgets/2025/10/m5-macbook-pro-review-fifth-generation-apple-silicon-in-a-familiar-wrapper/">released an M5 upgrade for the low-end 14-inch MacBook Pro</a> without touching the M4 Pro or Max versions of the laptop. But the wait for M5 Pro and M5 Max models may be nearing its end.</p>
-<p>The tea-leaf readers at MacRumors <a href="https://www.macrumors.com/2026/01/18/macbook-pro-up-to-two-month-wait/">noticed</a> that shipping times for a handful of high-end MacBook Pro configurations have slipped into mid-to-late February, rather than being available immediately as most Mac models are. This is often, though not always, a sign that Apple has slowed down or stopped production of an existing product in anticipation of an update.</p>
-<p>Currently, the shipping delays affect the M4 Max versions of both the 14-inch and 16-inch MacBook Pros. If you order them today, these models will arrive sometime between February 3 and February 24, depending on the configuration you choose; many M4 Pro versions are still available for same-day shipping, though adding a nano-texture display or upgrading RAM can still add a week or so to the shipping time.</p><p><a href="https://arstechnica.com/gadgets/2026/01/signs-point-to-a-sooner-rather-than-later-m5-macbook-pro-refresh/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/01/signs-point-to-a-sooner-rather-than-later-m5-macbook-pro-refresh/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>90</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/IMG_6215-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/IMG_6215-500x500-1768851903.jpeg" width="500"/>
-<media:credit>Andrew Cunningham</media:credit><media:text>Apple's 14-inch M5 MacBook Pro. The M5 Pro and M5 Max could be coming to the higher-end MacBook Pro models soon.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Elon Musk accused of making up math to squeeze $134B from OpenAI, Microsoft</title>
-                <link>https://arstechnica.com/tech-policy/2026/01/elon-musk-accused-of-making-up-math-to-squeeze-134b-from-openai-microsoft/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/01/elon-musk-accused-of-making-up-math-to-squeeze-134b-from-openai-microsoft/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Mon, 19 Jan 2026 19:04:18 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[sam altman]]></category>
-		<category><![CDATA[xAI]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/elon-musk-accused-of-making-up-math-to-squeeze-134b-from-openai-microsoft/</guid>
-
-                                    <description>
-                        <![CDATA[Musk's math reduced ChatGPT inventors' contributions to "zero," OpenAI argued.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Elon Musk is going for some substantial damages in his lawsuit accusing OpenAI of abandoning its nonprofit mission and "<a href="https://arstechnica.com/tech-policy/2024/08/openai-wouldnt-exist-without-me-elon-musk-says-reviving-lawsuit/">making a fool out of him" as an early investor</a>.</p>
-<p>On Friday, Musk filed a <a href="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Musk-v-Altman-Notice-of-Remedies.pdf">notice</a> on remedies sought in the lawsuit, confirming that he's seeking damages between $79 billion and $134 billion from OpenAI and its largest backer, co-defendant Microsoft.</p>
-<p>Musk hired an expert he has never used before, C. Paul Wazzan, who reached this estimate by concluding that Musk's early contributions to OpenAI generated 50 to 75 percent of the nonprofit's current value. He got there by analyzing four factors: Musk's total financial contributions before he left OpenAI in 2018, Musk's proposed equity stake in OpenAI in 2017, Musk's current equity stake in xAI, and Musk's nonmonetary contributions to OpenAI (like investing time or lending his reputation).</p><p><a href="https://arstechnica.com/tech-policy/2026/01/elon-musk-accused-of-making-up-math-to-squeeze-134b-from-openai-microsoft/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/01/elon-musk-accused-of-making-up-math-to-squeeze-134b-from-openai-microsoft/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>196</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2087343447-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2087343447-500x500-1768847359.jpg" width="500"/>
-<media:credit>Anadolu / Contributor | Anadolu</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Asus confirms its smartphone business is on indefinite hiatus</title>
-                <link>https://arstechnica.com/gadgets/2026/01/asus-confirms-its-smartphone-business-is-on-indefinite-hiatus/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/01/asus-confirms-its-smartphone-business-is-on-indefinite-hiatus/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Mon, 19 Jan 2026 18:24:49 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[android]]></category>
-		<category><![CDATA[ASUS]]></category>
-		<category><![CDATA[smartphones]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/01/asus-confirms-its-smartphone-business-is-on-indefinite-hiatus/</guid>
-
-                                    <description>
-                        <![CDATA[Asus chairman Jonney Shih sees AI applications as the company's main focus going forward. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>An unconfirmed report early this month suggested Asus was pulling back on its smartphone plans, but the company declined to comment at the time. Asus chairman Jonney Shih has now confirmed during an event in Taiwan the wind-down of its smartphone business. Instead, Asus will focus on AI products like robots and smart glasses.</p>
-<p>Shih addressed the company's future plans during a 2026 kick-off event in Taiwan, as reported by <a href="https://www.inside.com.tw/article/40522-asus-phone-nomore">Inside</a>. "Asus will no longer add new mobile phone models in the future," said Shih (machine translated).</p>
-<p>So don't expect a new Zenfone or ROG Phone from Asus in 2026. That said, very few phone buyers were keeping tabs on the latest Asus phones anyway, which is probably why Asus is throwing in the towel. Shih isn't saying Asus won't ever release a new phone, but the company will take an "indefinite wait-and-see" approach. Again, this is a translation and could be interpreted in multiple ways.</p><p><a href="https://arstechnica.com/gadgets/2026/01/asus-confirms-its-smartphone-business-is-on-indefinite-hiatus/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/01/asus-confirms-its-smartphone-business-is-on-indefinite-hiatus/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>62</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/ROG-2-1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/ROG-2-1-500x500.jpg" width="500"/>
-<media:credit>Ryan Whitwam</media:credit><media:text>The ROG Phone 9 may be the last Asus gaming phone, seen here with the cooling fan accessory.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Reports of ad-supported Xbox game streams show Microsoft's lack of imagination</title>
-                <link>https://arstechnica.com/gaming/2026/01/reports-of-ad-supported-xbox-game-streams-show-microsofts-lack-of-imagination/</link>
-                                    <comments>https://arstechnica.com/gaming/2026/01/reports-of-ad-supported-xbox-game-streams-show-microsofts-lack-of-imagination/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Mon, 19 Jan 2026 17:16:38 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[cloud gaming]]></category>
-		<category><![CDATA[game streaming]]></category>
-		<category><![CDATA[streaming]]></category>
-		<category><![CDATA[xboxmicrosoft]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/01/reports-of-ad-supported-xbox-game-streams-show-microsofts-lack-of-imagination/</guid>
-
-                                    <description>
-                        <![CDATA[Xbox maker needs some fresher ideas for expanding access to cloud gaming.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Currently, Microsoft's <a href="https://arstechnica.com/gaming/2019/10/project-xcloud-preview-serves-as-a-passable-portable-xbox-one/">long-running</a> Cloud Gaming service is limited to players who have a <a href="https://arstechnica.com/gaming/2024/07/microsoft-asks-many-game-pass-subscribers-to-pay-more-for-less/">Microsoft's Game Pass subscription</a>. Now, new reporting suggests Microsoft is planning to offer non-subscribers access to game streams paid for by advertising in the near future, but only in extremely limited circumstances.</p>
-<p>The latest wave of rumors was set off late last week when The Verge's Tom Warren <a href="https://bsky.app/profile/tomwarren.co.uk/post/3mcljqyff4k2d">shared an Xbox Cloud Gaming loading screen</a> with a message mentioning "1 hour of ad supported playtime per session." That leaked message comes after <a href="https://www.windowscentral.com/gaming/xbox/xbox-cloud-gaming-is-getting-next-gen-treatment-too">Windows Central reported last summer</a> that Microsoft has been "exploring video ads for free games for quite some time," à la <a href="https://www.nvidia.com/en-us/geforce-now/faq/#nv-accordion-f0f63b4f7a-item-28f64413e6">the two-minute sponsorships that appear before free-tier game streams on Nvidia's GeForce Now service</a>.</p>
-<p>Don't get your hopes up for easy, free, ad-supported access to the entire Xbox Cloud Gaming library, though. Windows Central <a href="https://www.windowscentral.com/gaming/xbox/exclusive-xbox-cloud-gaming-will-get-an-ad-supported-tier-this-year-rumors-coalesce-after-ad-support-notices-appear-prematurely">now reports</a> that Microsoft will be using ads merely to slightly expand access to <a href="https://www.xbox.com/en-us/play/gallery/buy-and-stream">its "Stream your own game" program</a>. That program currently offers subscribers to the Xbox Game Pass Essentials tier (or higher) the privilege of streaming versions of some of the Xbox games they've already purchased digitally. Windows Central's unnamed sources suggest that a "session-based ad-supported access tier" to stream those purchased games will be offered to non-subscribers as soon as "this year."</p><p><a href="https://arstechnica.com/gaming/2026/01/reports-of-ad-supported-xbox-game-streams-show-microsofts-lack-of-imagination/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2026/01/reports-of-ad-supported-xbox-game-streams-show-microsofts-lack-of-imagination/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>73</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/06/Cloud-Gaming_iPadSurfaceiPhone-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/06/Cloud-Gaming_iPadSurfaceiPhone-500x500-1768842287.jpg" width="500"/>
-<media:credit>Microsoft</media:credit><media:text>Microsoft shoudl experiment with new ways to get streaming Xbox games into players' hands on these kinds of devices.</media:text></media:content>
-            </item>
-                    <item>
-                <title>The race to build a super-large ground telescope is likely down to two competitors</title>
-                <link>https://arstechnica.com/space/2026/01/as-europes-large-ground-telescope-project-advances-how-is-its-us-competitor-faring/</link>
-                                    <comments>https://arstechnica.com/space/2026/01/as-europes-large-ground-telescope-project-advances-how-is-its-us-competitor-faring/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Mon, 19 Jan 2026 17:06:28 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[european extremely large telescope]]></category>
-		<category><![CDATA[giant magellan telescope]]></category>
-		<category><![CDATA[space]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/01/as-europes-large-ground-telescope-project-advances-how-is-its-us-competitor-faring/</guid>
-
-                                    <description>
-                        <![CDATA[Ars checks in with the new president of the Giant Magellan Telescope.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>I have been writing about the Giant Magellan Telescope for a long time. <a href="https://www.chron.com/news/houston-texas/article/time-running-out-in-race-to-build-largest-1791289.php">Nearly two decades ago</a>, for example, I wrote that time was "running out" in the race to build the next great optical telescope on the ground.</p>
-<p>At the time the proposed telescope was one of three contenders to make a giant leap in mirror size from the roughly 10-meter-diameter instruments that existed then, to approximately 30 meters. This represented a huge increase in light-gathering potential, allowing astronomers to see much further into the universe—and therefore back into time—with far greater clarity.</p>
-<p>Since then the projects have advanced at various rates. An international consortium to build the Thirty Meter Telescope in Hawaii ran into local protests that have bogged down development. Its future came further into question when the US National Science Foundation <a href="https://www.civilbeat.org/2025/05/funding-cuts-may-doom-the-long-stalled-thirty-meter-telescope/">dropped support</a> for the project in favor of the Giant Magellan Telescope. Meanwhile the European Extremely Large Telescope (ELT) has advanced on a faster schedule, and this 39.5-meter telescope could observe its first light in 2029.</p><p><a href="https://arstechnica.com/space/2026/01/as-europes-large-ground-telescope-project-advances-how-is-its-us-competitor-faring/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/01/as-europes-large-ground-telescope-project-advances-how-is-its-us-competitor-faring/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>109</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GMT-Rendering-IDOM-Enclosure-2024-1-scaled-1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GMT-Rendering-IDOM-Enclosure-2024-1-scaled-1-500x500.jpg" width="500"/>
-<media:credit>GMTO Corporation</media:credit><media:text>A rendering of the Giant Magellan Telescope.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Meet Veronika, the tool-using cow</title>
-                <link>https://arstechnica.com/science/2026/01/meet-veronika-the-tool-using-cow/</link>
-                                    <comments>https://arstechnica.com/science/2026/01/meet-veronika-the-tool-using-cow/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Mon, 19 Jan 2026 16:00:27 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[animal behavior]]></category>
-		<category><![CDATA[animal cognition]]></category>
-		<category><![CDATA[animal tool use]]></category>
-		<category><![CDATA[animals]]></category>
-		<category><![CDATA[Biology]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/01/meet-veronika-the-tool-using-cow/</guid>
-
-                                    <description>
-                        <![CDATA[Veronika uses sticks to scratch herself, suggesting scientists have underestimated cow cognition.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/bAk4PFEuWKQ?start=0&amp;wmode=transparent"></div></div>
-<p><em>Far Side</em> fans might recall a classic 1982 cartoon called "<a href="https://en.wikipedia.org/wiki/Cow_tools">Cow Tools</a>," featuring a cow standing next to a jumble of strange objects—the joke being that cows don't use tools. That's why a pet Swiss brown cow in Austria named Veronika has caused a bit of a sensation: she likes to pick up random sticks and use them to scratch herself. According to a <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(25)01597-0">new paper</a> published in the journal Current Biology, this is a form of multipurpose tool use and suggests that the cognitive capabilities of cows have been underestimated by scientists.</p>
-<p>As <a href="https://arstechnica.com/science/2012/11/parrot-in-captivity-manufactures-tools-something-not-seen-in-the-wild/">previously reported</a>, tool use was once thought to be one of the defining features of humans, but examples of it were eventually observed in primates and other mammals. Dolphins can toss objects as a form of play, which some scientists consider to be a type of tool use, particularly when it involves another member of the same species. Potential purposes include a means of communication, social bonding, or aggressiveness. (Octopuses have also <a href="https://arstechnica.com/science/2022/11/take-that-octopuses-caught-on-camera-vigorously-throwing-debris-at-each-other/">been observed</a> engaging in similar throwing behavior.)</p>
-<p>But the biggest surprise came when birds were observed using tools in the wild. After all, birds are the only surviving dinosaurs, and mammals and dinosaurs hadn’t shared a common ancestor for hundreds of millions of years. In the wild, observed <a href="http://arstechnica.com/science/2010/09/for-crows-a-little-tool-use-goes-a-long-way/">tool use has been limited</a> to the corvids (crows and jays), which show a variety of other complex behaviors—they’ll <a href="http://arstechnica.com/science/2012/09/bird-brains-crows-remember-your-face-and-know-youre-hiding-in-there/">remember your face</a> and recognize the <a href="http://arstechnica.com/science/2012/09/birds-of-a-feather-flock-together-even-in-death/">passing of their dead</a>.</p><p><a href="https://arstechnica.com/science/2026/01/meet-veronika-the-tool-using-cow/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/01/meet-veronika-the-tool-using-cow/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>183</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/cowtool1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/cowtool1-500x500.jpg" width="500"/>
-<media:credit>Antonio J. Osuna Mascaró/CC BY-SA</media:credit></media:content>
-            </item>
-                    <item>
-                <title>10 things I learned from burning myself out with AI coding agents</title>
-                <link>https://arstechnica.com/information-technology/2026/01/10-things-i-learned-from-burning-myself-out-with-ai-coding-agents/</link>
-                                    <comments>https://arstechnica.com/information-technology/2026/01/10-things-i-learned-from-burning-myself-out-with-ai-coding-agents/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Benj Edwards]]>
-                </dc:creator>
-                <pubDate>Mon, 19 Jan 2026 12:00:45 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[AI coding]]></category>
-		<category><![CDATA[AI coding tools]]></category>
-		<category><![CDATA[Claude Code]]></category>
-		<category><![CDATA[Claude Opus]]></category>
-		<category><![CDATA[coding agent]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[Opus 4.5]]></category>
-		<category><![CDATA[vibe coding]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/01/10-things-i-learned-from-burning-myself-out-with-ai-coding-agents/</guid>
-
-                                    <description>
-                        <![CDATA[Opinion: As software power tools, AI agents may make people busier than ever before.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>If you've ever used a 3D printer, you may recall the wondrous feeling when you first printed something you could have never sculpted or built yourself. Download a model file, load some plastic filament, push a button, and almost like magic, a three-dimensional object appears. But the result isn't polished and ready for mass production, and creating a novel shape requires more skills than just pushing a button. Interestingly, today's <a href="https://arstechnica.com/information-technology/2025/12/how-do-ai-coding-agents-work-we-look-under-the-hood/">AI coding agents</a> feel much the same way.</p>
-<p>Since November, I have used <a href="https://arstechnica.com/ai/2025/10/claude-code-gets-a-web-version-but-its-the-new-sandboxing-that-really-matters/">Claude Code</a> and Claude Opus 4.5 through a personal Claude Max account to extensively experiment with AI-assisted software development (I have also used OpenAI's <a href="https://arstechnica.com/ai/2025/12/how-openai-is-using-gpt-5-codex-to-improve-the-ai-tool-itself/">Codex</a> in a similar way, though not as frequently). Fifty projects later, I'll be frank: I have not had this much fun with a computer since I learned BASIC on my <a href="https://www.vintagecomputing.com/index.php/archives/440/shining-a-rotten-apple">Apple II Plus</a> when I was 9 years old. This opinion comes not as an endorsement but as personal experience: I voluntarily undertook this project, and I paid out of pocket for both OpenAI and Anthropic's premium AI plans.</p>
-<p>Throughout my life, I have dabbled in programming as a utilitarian coder, writing small tools or scripts when needed. In my web development career, I wrote some small tools from scratch, but I primarily modified other people's code for my needs. Since 1990, I've programmed in BASIC, C, Visual Basic, PHP, ASP, Perl, Python, Ruby, MUSHcode, and some others. I am not an expert in any of these languages—I learned just enough to get the job done. I have developed my own hobby games over the years using BASIC, Torque Game Engine, and Godot, so I have some idea of what makes a good architecture for a modular program that can be expanded over time.</p><p><a href="https://arstechnica.com/information-technology/2026/01/10-things-i-learned-from-burning-myself-out-with-ai-coding-agents/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2026/01/10-things-i-learned-from-burning-myself-out-with-ai-coding-agents/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>232</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/super-programmer-hes-heating-up-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/super-programmer-hes-heating-up-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Ocean damage nearly doubles the cost of climate change</title>
-                <link>https://arstechnica.com/science/2026/01/ocean-damage-nearly-doubles-the-cost-of-climate-change/</link>
-                                    <comments>https://arstechnica.com/science/2026/01/ocean-damage-nearly-doubles-the-cost-of-climate-change/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Johnny Sturgeon, Inside Climate News]]>
-                </dc:creator>
-                <pubDate>Sun, 18 Jan 2026 12:00:56 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[climate change]]></category>
-		<category><![CDATA[ocean ecology]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/01/ocean-damage-nearly-doubles-the-cost-of-climate-change/</guid>
-
-                                    <description>
-                        <![CDATA[Ignoring the blue economy has left a multi-trillion-dollar blind spot in climate finance.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The global cost of greenhouse gas emissions is nearly double what scientists previously thought, according to a <a href="https://www.nature.com/articles/s41558-025-02533-5">study</a> published Thursday by researchers at the University of California, San Diego’s Scripps Institution of Oceanography.</p>
-<p>It is the first time a social cost of carbon (SCC) assessment—a key measure of economic harm caused by climate change—has included damages to the ocean. Global coral loss, fisheries disruption, and coastal infrastructure destruction are estimated to cost nearly $2 trillion annually, fundamentally changing how we measure climate finance.</p>
-<p>“For decades, we’ve been estimating the economic cost of climate change while effectively assigning a value of zero to the ocean,” said Bernardo Bastien-Olvera, who led the study during his postdoctoral fellowship at Scripps. “Ocean loss is not just an environmental issue, but a central part of the economic story of climate change.”</p><p><a href="https://arstechnica.com/science/2026/01/ocean-damage-nearly-doubles-the-cost-of-climate-change/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/01/ocean-damage-nearly-doubles-the-cost-of-climate-change/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>97</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2245161347-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2245161347-500x500.jpg" width="500"/>
-<media:credit>Magdalena Chodownik/Anadolu via Getty Images</media:credit><media:text>At Xuan Dao Bay, in Vietnam, fishing boats lie destroyed in November 2025 along the shore after being swept away by Typhoon Kalmaegi, leaving many without work.  </media:text></media:content>
             </item>
             </channel>
 </rss>
