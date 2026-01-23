@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Thu, 22 Jan 2026 07:26:54 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 22 Jan 2026 23:19:41 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,499 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>US officially out of WHO, leaving hundreds of millions of dollars unpaid</title>
+                <link>https://arstechnica.com/health/2026/01/us-stiffs-who-hundreds-of-millions-as-it-officially-withdrawals/</link>
+                                    <comments>https://arstechnica.com/health/2026/01/us-stiffs-who-hundreds-of-millions-as-it-officially-withdrawals/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Jan 2026 23:07:45 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[trump administration]]></category>
+		<category><![CDATA[WHO]]></category>
+		<category><![CDATA[World Health Organization]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/01/us-stiffs-who-hundreds-of-millions-as-it-officially-withdrawals/</guid>
+
+                                    <description>
+                        <![CDATA[US did not pay $278 million in 2024–2025 dues and millions more in promised funds.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As of today, the US is no longer a member of the World Health Organization—and it leaves the United Nations health agency with hundreds of millions of dollars in unpaid bills, according to <a href="https://www.statnews.com/2026/01/21/trump-withdrawal-world-health-organization-leaves-unpaid-bills-behind/">reporting by Stat News</a>.</p>
+<p>A year ago today, the US <a href="https://arstechnica.com/tech-policy/2025/01/trump-orders-us-withdrawal-from-the-world-health-organization/">informed the WHO</a> of its intent to exit, setting the clock for a one-year withdrawal period mandated in a 1948 joint resolution of Congress. But, in practice, the withdrawal was immediate, with the Trump administration cutting all ties with WHO upon the announcement. In explaining his reasoning for leaving the WHO, Trump referenced his long-standing complaints about the agency’s handling of the COVID-19 pandemic, dues payments, and alleged protection of China. Trump had attempted extract the US from WHO <a href="https://arstechnica.com/tech-policy/2020/07/trump-officially-takes-us-out-of-who-but-withdrawal-is-a-year-long-process/">during his first term</a>, but the Biden administration rescinded the withdrawal on the first day in office, well before the one-year notice period was reached.</p>
+<p>The joint resolution also stipulated that the US would have to pay its financial obligations in full before departing. But, that too has not been honored by the Trump administration. According to Stat, the US owed the WHO $278 million in dues, which are a percentage of each member state’s gross domestic product. That dues payment covered the country's 2024–2025 membership, as WHO runs on a two-year budget cycle.</p><p><a href="https://arstechnica.com/health/2026/01/us-stiffs-who-hundreds-of-millions-as-it-officially-withdrawals/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/01/us-stiffs-who-hundreds-of-millions-as-it-officially-withdrawals/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>39</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/GettyImages-1250822831-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/GettyImages-1250822831-500x500.jpeg" width="500"/>
+<media:credit>Getty | FABRICE COFFRINI</media:credit><media:text>World Health Organization (WHO) chief Tedros Adhanom Ghebreyesus speaks at a press conference on the World Health Organization's 75th anniversary in Geneva, on April 6, 2023. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Overrun with AI slop, cURL scraps bug bounties to ensure "intact mental health"</title>
+                <link>https://arstechnica.com/security/2026/01/overrun-with-ai-slop-curl-scraps-bug-bounties-to-ensure-intact-mental-health/</link>
+                                    <comments>https://arstechnica.com/security/2026/01/overrun-with-ai-slop-curl-scraps-bug-bounties-to-ensure-intact-mental-health/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Jan 2026 22:46:30 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[bug bounties]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[slop]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/01/overrun-with-ai-slop-curl-scraps-bug-bounties-to-ensure-intact-mental-health/</guid>
+
+                                    <description>
+                        <![CDATA[The onslaught includes LLMs finding bogus vulnerabilities and code that won't compile.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The project developer for one of the Internet’s most popular networking tools is scrapping its vulnerability reward program after being overrun by a spike in the submission of low-quality reports, much of it AI-generated slop.</p>
+<p>“We are just a small single open source project with a small number of active maintainers,” Daniel Stenberg, the founder and lead developer of the open source app cURL, <a href="https://github.com/curl/curl/pull/20312">said Thursday</a>. “It is not in our power to change how all these people and their slop machines work. We need to make moves to ensure our survival and intact mental health.”</p>
+<h2>Manufacturing bogus bugs</h2>
+<p>His comments came as cURL users complained that the move was treating the symptoms caused by AI slop without addressing the cause. The users said they were concerned the move would eliminate a key means for ensuring and maintaining the security of the tool. Stenberg largely agreed, but indicated his team had little choice.</p><p><a href="https://arstechnica.com/security/2026/01/overrun-with-ai-slop-curl-scraps-bug-bounties-to-ensure-intact-mental-health/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/01/overrun-with-ai-slop-curl-scraps-bug-bounties-to-ensure-intact-mental-health/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>25</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/ai-slop-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/ai-slop-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Hacker who stole 120,000 bitcoins wants a second chance—and a security job</title>
+                <link>https://arstechnica.com/security/2026/01/hacker-who-stole-120000-bitcoins-wants-a-second-chance-and-a-security-job/</link>
+                                    <comments>https://arstechnica.com/security/2026/01/hacker-who-stole-120000-bitcoins-wants-a-second-chance-and-a-security-job/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Cyrus Farivar]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Jan 2026 22:23:15 +0000</pubDate>
+                		<category><![CDATA[Security]]></category>
+		<category><![CDATA[bitcoin]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[cybercrime]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/01/hacker-who-stole-120000-bitcoins-wants-a-second-chance-and-a-security-job/</guid>
+
+                                    <description>
+                        <![CDATA[Crypto theft was "the worst thing I had ever done."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Thursday, Ilya Lichtenstein, who was at the center of a massive 2016 crypto heist worth billions at the time, wrote online that he is now out of prison and has changed his ways.</p>
+<p>“Ten years ago, I decided that I would hack the largest cryptocurrency exchange in the world,” Lichtenstein wrote on <a href="https://www.linkedin.com/pulse/i-hacked-bitcoin-exchange-10-billion-heres-what-ilya-lichtenstein-vgyje/?trackingId=5Wh8%2BdnTSgmxW9eS5XSP4w%3D%3D">LinkedIn</a>, detailing a time when his startup was barely making money and he decided to steal some instead.</p>
+<p>“This was a terrible idea. It was the worst thing I had ever done,” he added. “It upended my life, the lives of people close to me, and affected thousands of users of the exchange. I know I disappointed a lot of people who believed in me and grossly misused my talents.”</p><p><a href="https://arstechnica.com/security/2026/01/hacker-who-stole-120000-bitcoins-wants-a-second-chance-and-a-security-job/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/01/hacker-who-stole-120000-bitcoins-wants-a-second-chance-and-a-security-job/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>20</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/04/getty-hacker-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/04/getty-hacker-500x500-1769119458.jpg" width="500"/>
+<media:credit>Getty Images | seksan Mongkhonkhamsao</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Report: Apple plans to launch AI-powered wearable pin device as soon as 2027</title>
+                <link>https://arstechnica.com/apple/2026/01/report-apple-plans-to-launch-ai-powered-wearable-pin-device-as-soon-as-2027/</link>
+                                    <comments>https://arstechnica.com/apple/2026/01/report-apple-plans-to-launch-ai-powered-wearable-pin-device-as-soon-as-2027/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Samuel Axon]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Jan 2026 21:32:28 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[Humane]]></category>
+		<category><![CDATA[LLM]]></category>
+		<category><![CDATA[Siri]]></category>
+		<category><![CDATA[wearable]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/apple/2026/01/report-apple-plans-to-launch-ai-powered-wearable-pin-device-as-soon-as-2027/</guid>
+
+                                    <description>
+                        <![CDATA[Apple, OpenAI, Meta, and more are all racing toward AI hardware products.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Apple is working on a wearable device that will allow the user to take advantage of AI models, according to sources familiar with the product who spoke <a href="https://www.theinformation.com/articles/apple-developing-ai-wearable-pin">with tech publication The Information.</a></p>
+<p>The product is said to be "the same size as an AirTag, only slightly thicker," and will be worn as a pin, inviting comparisons to the failed Humane AI pin that launched to bad reviews and lackluster sales in 2024. The Humane product was criticized for sluggish performance and low battery life, but those shortcomings could potentially be addressed by Apple's solution, should Apple offload the processing to a synced external device like an iPhone.</p>
+<p>The Information's sources don't specify whether that's the plan, or if it will be a standalone device.</p><p><a href="https://arstechnica.com/apple/2026/01/report-apple-plans-to-launch-ai-powered-wearable-pin-device-as-soon-as-2027/">Read full article</a></p>
+<p><a href="https://arstechnica.com/apple/2026/01/report-apple-plans-to-launch-ai-powered-wearable-pin-device-as-soon-as-2027/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>66</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2021/05/AirTag-1-1152x648.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/05/AirTag-1-500x500.png" width="500"/>
+<media:credit>Samuel Axon</media:credit><media:text>The new wearable is said to resemble an AirTag like this.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Asking Grok to delete fake nudes may force victims to sue in Musk's chosen court</title>
+                <link>https://arstechnica.com/tech-policy/2026/01/asking-grok-to-delete-fake-nudes-may-force-victims-to-sue-in-musks-chosen-court/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/01/asking-grok-to-delete-fake-nudes-may-force-victims-to-sue-in-musks-chosen-court/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Jan 2026 21:16:42 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ai csam]]></category>
+		<category><![CDATA[chatbot]]></category>
+		<category><![CDATA[csam]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[grok]]></category>
+		<category><![CDATA[ncii]]></category>
+		<category><![CDATA[nudify apps]]></category>
+		<category><![CDATA[X]]></category>
+		<category><![CDATA[xAI]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/asking-grok-to-delete-fake-nudes-may-force-victims-to-sue-in-musks-chosen-court/</guid>
+
+                                    <description>
+                        <![CDATA[Millions likely harmed by Grok-edited sex images as X advertisers shrugged.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Journalists and advocates have been trying to grasp how many victims in total were harmed by <a href="https://arstechnica.com/tech-policy/2026/01/uk-investigating-x-after-grok-undressed-thousands-of-women-and-children/">Grok's nudifying scandal</a> after <a href="https://arstechnica.com/tech-policy/2026/01/musk-still-defending-groks-partial-nudes-as-california-ag-opens-probe/">xAI delayed restricting outputs</a> and <a href="https://arstechnica.com/google/2026/01/apps-like-grok-are-explicitly-banned-under-googles-rules-why-is-it-still-in-the-play-store/">app stores refused to cut off access</a> for days.</p>
+<p>The latest estimates show that perhaps millions were harmed in the days immediately after Elon Musk promoted Grok's undressing feature on his own X feed by posting a pic of himself in a bikini.</p>
+<p>Over just 11 days after Musk's post, Grok sexualized more than 3 million images, of which 23,000 were of children, the Center for Countering Digital Hate (CCDH) <a href="https://counterhate.com/research/grok-floods-x-with-sexualized-images/">estimated</a> in research published Thursday.</p><p><a href="https://arstechnica.com/tech-policy/2026/01/asking-grok-to-delete-fake-nudes-may-force-victims-to-sue-in-musks-chosen-court/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/01/asking-grok-to-delete-fake-nudes-may-force-victims-to-sue-in-musks-chosen-court/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>43</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2255893185-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2255893185-500x500.jpg" width="500"/>
+<media:credit>Leon Neal / Staff | Getty Images News</media:credit><media:text>A post by Elon Musk on the X app, showing an AI prompt-created image, made with xAI's Grok app, depicting Musk wearing a bikini.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Google begins offering free SAT practice tests powered by Gemini</title>
+                <link>https://arstechnica.com/google/2026/01/google-begins-offering-free-sat-practice-tests-powered-by-gemini/</link>
+                                    <comments>https://arstechnica.com/google/2026/01/google-begins-offering-free-sat-practice-tests-powered-by-gemini/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Jan 2026 20:46:10 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[education]]></category>
+		<category><![CDATA[google]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/google/2026/01/google-begins-offering-free-sat-practice-tests-powered-by-gemini/</guid>
+
+                                    <description>
+                        <![CDATA[Google says more kinds of standardized tests will be added in the future. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>It's no secret that students worldwide use AI chatbots to do their homework and avoid learning things. On the flip side, students can also use AI as a tool to beef up their knowledge and plan for the future with flashcards or study guides. Google hopes its latest Gemini feature will help with the latter. The company has <a href="https://blog.google/products-and-platforms/products/education/practice-sat-gemini/">announced</a> that Gemini can now create free SAT practice tests and coach students to help them get higher scores.</p>
+<p>As a standardized test, the content of the SAT follows a predictable pattern. So there's no need to use a lengthy, personalized prompt to get Gemini going. Just say something like, "I want to take a practice SAT test," and the chatbot will generate one complete with clickable buttons, graphs, and score analysis.</p>
+<p>Of course, generative AI can go off the rails and provide incorrect information, which is a problem when you're trying to learn things. However, Google says it has worked with education firms like The Princeton Review to ensure the AI-generated tests resemble what students will see in the real deal.</p><p><a href="https://arstechnica.com/google/2026/01/google-begins-offering-free-sat-practice-tests-powered-by-gemini/">Read full article</a></p>
+<p><a href="https://arstechnica.com/google/2026/01/google-begins-offering-free-sat-practice-tests-powered-by-gemini/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>28</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Gemini-SAT-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Gemini-SAT-500x500.jpg" width="500"/>
+<media:credit>Google</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Check out the first trailer for Masters of the Universe</title>
+                <link>https://arstechnica.com/culture/2026/01/check-out-the-first-trailer-for-masters-of-the-universe/</link>
+                                    <comments>https://arstechnica.com/culture/2026/01/check-out-the-first-trailer-for-masters-of-the-universe/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Jan 2026 19:18:34 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[amazon mgm studios]]></category>
+		<category><![CDATA[entertainment]]></category>
+		<category><![CDATA[film trailers]]></category>
+		<category><![CDATA[He-Man]]></category>
+		<category><![CDATA[Masters of the Universe]]></category>
+		<category><![CDATA[Trailers]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2026/01/check-out-the-first-trailer-for-masters-of-the-universe/</guid>
+
+                                    <description>
+                        <![CDATA["Talking tigers, spaceships, and magic swords that can make a man as mighty as a god."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/ZmEx7wQI6RY?start=0&amp;wmode=transparent"></div></div>
+<p>Ars readers of a certain age no doubt remember the 1980s <em>He-Man and the Masters of the Universe</em> series (and its spinoff, <em>She-Ra: Princess of Powers</em>) and the many, many offshoots of this hugely <a href="https://en.wikipedia.org/wiki/Masters_of_the_Universe">popular Mattel franchise</a>, including an extensive line of action figures. Amazon MGM Studios no doubt hopes to cash in on any lingering nostalgia with its forthcoming film, <a href="https://en.wikipedia.org/wiki/Masters_of_the_Universe_(2026_film)"><em>Masters of the Universe.</em></a> Judging by the extended teaser trailer, we're getting an origin story for He-Man.</p>
+<p>It's not the first time someone has turned He-Man into a feature film: Dolph Lundgren starred in 1987's <em>Masters of the Universe</em>, a critical and box office bomb that also featured Frank Langella as arch-villain Skeletor. Its poor reception might have stemmed from the 1987 film deviating significantly from the original cartoon, angering fans. But frankly, it was just a bad, cheesy movie, though it still has its share of cult fans today.</p>
+<p>This latest big-screen live-action adaptation has been languishing in development hell for nearly two decades. There were rumors in 2007 that John Woo would direct a He-Man feature for Warner Bros., but the project never got the green light. Sony Pictures gained the rights in 2009, and there were multiple script rewrites and much shuffling of possible directors (with John Chu, McG, and David S. Goyer among the candidates).</p><p><a href="https://arstechnica.com/culture/2026/01/check-out-the-first-trailer-for-masters-of-the-universe/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2026/01/check-out-the-first-trailer-for-masters-of-the-universe/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>115</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/heman4-1152x648-1769098758.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/heman4-500x500.jpg" width="500"/>
+<media:credit>YouTube/Amazon MGM Studios</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Blue Origin makes impressive strides with reuse—next launch will refly booster</title>
+                <link>https://arstechnica.com/space/2026/01/blue-origin-makes-impressive-strides-with-reuse-next-launch-will-refly-booster/</link>
+                                    <comments>https://arstechnica.com/space/2026/01/blue-origin-makes-impressive-strides-with-reuse-next-launch-will-refly-booster/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Jan 2026 17:49:24 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[ast spacemobile]]></category>
+		<category><![CDATA[blue origin]]></category>
+		<category><![CDATA[reuse]]></category>
+		<category><![CDATA[space]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/01/blue-origin-makes-impressive-strides-with-reuse-next-launch-will-refly-booster/</guid>
+
+                                    <description>
+                        <![CDATA[With this quick turnaround, Blue Origin takes a step toward a faster cadence.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Blue Origin confirmed Thursday that the next launch of its New Glenn rocket will carry a large communications satellite into low-Earth orbit for AST SpaceMobile.</p>
+<p>The rocket will launch the next-generation Block 2 BlueBird satellite "no earlier than late February" from Launch Complex 36 at Cape Canaveral Space Force Station.</p>
+<p>However, <a href="https://www.blueorigin.com/news/new-glenn-3-to-launch-ast-spacemobile-bluebird-satellite">the update from Blue Origin</a> appears to have buried the real news toward the end: "The mission follows the successful NG-2 mission, which included the landing of the 'Never Tell Me The Odds' booster. The same booster is being refurbished to power NG-3," the company said.</p><p><a href="https://arstechnica.com/space/2026/01/blue-origin-makes-impressive-strides-with-reuse-next-launch-will-refly-booster/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/01/blue-origin-makes-impressive-strides-with-reuse-next-launch-will-refly-booster/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>39</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/blue-bird-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/blue-bird-500x500.jpg" width="500"/>
+<media:credit>AST SpaceMobile</media:credit><media:text>BlueBird satellites will provide direct-to-cell connectivity.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Google adds your Gmail and Photos to AI Mode to enable "Personal Intelligence"</title>
+                <link>https://arstechnica.com/google/2026/01/google-ai-mode-can-now-customize-responses-with-your-email-and-photos/</link>
+                                    <comments>https://arstechnica.com/google/2026/01/google-ai-mode-can-now-customize-responses-with-your-email-and-photos/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Jan 2026 16:35:41 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[search]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/google/2026/01/google-ai-mode-can-now-customize-responses-with-your-email-and-photos/</guid>
+
+                                    <description>
+                        <![CDATA[Personal Intelligence is optional and rolling out first to AI Pro and AI Ultra subscribers.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google believes AI is the future of search, and it's <a href="https://arstechnica.com/gadgets/2025/05/at-i-o-2025-google-leaves-no-doubt-that-ai-mode-is-the-future-of-search/">not shy about saying it</a>. After adding <a href="https://arstechnica.com/google/2026/01/gemini-can-now-scan-your-photos-email-and-more-to-provide-better-answers/">account-level personalization</a> to Gemini earlier this month, it's now updating <a href="https://arstechnica.com/google/2025/03/google-is-expanding-ai-overviews-and-testing-ai-only-search-results/">AI Mode</a> with so-called "Personal Intelligence." According to Google, this makes the bot's answers more useful because they are tailored to your personal context.</p>
+<p>Starting today, the feature is rolling out to all users who subscribe to Google AI Pro or AI Ultra. However, it will be a <a href="https://labs.google.com/search/experiment/22">Labs feature</a> that needs to be explicitly enabled (subscribers will be prompted to do this). Google tends to expand access to new AI features to free accounts later on, so free users will most likely get access to Personal Intelligence in the future. Whenever this option does land on your account, it's entirely optional and can be disabled at any time.</p>
+<p>If you decide to integrate your data with AI Mode, the search bot will be able to scan your Gmail and Google Photos. That's less extensive than the Gemini app version, which supports Gmail, Photos, Search, and YouTube history. Gmail will probably be the biggest contributor to AI Mode—a great many life events involve confirmation emails. Traditional search results when you are logged in are adjusted based on your usage history, but this goes a step further.</p><p><a href="https://arstechnica.com/google/2026/01/google-ai-mode-can-now-customize-responses-with-your-email-and-photos/">Read full article</a></p>
+<p><a href="https://arstechnica.com/google/2026/01/google-ai-mode-can-now-customize-responses-with-your-email-and-photos/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>105</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/AI-Mode-1152x648.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/AI-Mode-500x500.png" width="500"/>
+<media:credit>Google</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Finally, a new controller that solves the Switch 2's "flat Joy-Con" problem</title>
+                <link>https://arstechnica.com/gaming/2026/01/finally-a-new-controller-that-solves-the-switch-2s-flat-joy-con-problem/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/01/finally-a-new-controller-that-solves-the-switch-2s-flat-joy-con-problem/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Jan 2026 16:15:08 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[controller]]></category>
+		<category><![CDATA[drift]]></category>
+		<category><![CDATA[hall effect]]></category>
+		<category><![CDATA[joy con]]></category>
+		<category><![CDATA[Nintendo]]></category>
+		<category><![CDATA[nyxi]]></category>
+		<category><![CDATA[Switch]]></category>
+		<category><![CDATA[switch 2]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/01/finally-a-new-controller-that-solves-the-switch-2s-flat-joy-con-problem/</guid>
+
+                                    <description>
+                        <![CDATA[But Nyxi's Hyperion 3 upgrade comes with a pretty high asking price.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>When I <a href="https://arstechnica.com/gaming/2025/06/nintendo-switch-2-the-ars-technica-review/">reviewed the Switch 2 back in June</a>, I noted that the lack of any sort of extended grip on the extremely thin Joy-Con 2 controllers made them relatively awkward to hold, both when connected to the system and when cradled in separate hands. At the time, I said that "my Switch 2 will probably need something like <a href="https://nyxigame.com/products/nyxi-hyperion-pro-purple-style-wireless-joy-pad-for-switch-switch-oled?sv1=affiliate&amp;sv_campaign_id=78888&amp;sscid=95943_1769092363_1038034ce8587237102389cdbd188388&amp;awc=95943_1769092363_1038034ce8587237102389cdbd188388">the Nyxi Hyperion Pro</a>, which I’ve come to rely on to make portable play on the original Switch much more comfortable."</p>
+<p>Over half a year later, Nyxi is once again addressing my Switch controller-related comfort concerns with the <a href="https://nyxigame.com/products/nyxi-hyperion-3-wireless-joypad-for-switch-2">Hyperion 3</a>, which was <a href="https://www.facebook.com/NYXIGameOFFICIAL/videos/25434137766281969/">made available for preorder earlier this week</a> ahead of planned March 1 shipments. Unfortunately, it looks like players will have to pay a relatively high price for a potentially more ergonomic Switch 2 experience.</p>
+<p>While there are <a href="https://www.powera.com/p/nintendo/nintendo-switch-2/controllers/wireless/advantage-wireless-controller-for-nintendo-switch-2-black-nsgp0545-01/?utm_source=google&amp;utm_medium=pmax&amp;utm_campaign=gpmax-2025_Jun_6_gpmax-nsw2_smart_paid_sales_all_product&amp;gad_source=1">plenty</a> of <a href="https://www.bestbuy.com/product/next-wireless-rechargeable-pro-controller-for-switch-2-switch-midnight/J3R4V77RLK/sku/6601305?utm_source=feed&amp;extStoreId=1129&amp;ref=212&amp;loc=20510845600&amp;gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20510847514">third-party controllers</a> for the Switch 2, none of the current options mimic the official Joy-Cons' ability to connect magnetically to the console tablet itself (controllers designed to slide into the grooves on the original Switch tablet also can't hook to the successor console). The Hyperion 3 is the first Switch 2 controller to offer this magnetic connection, making it uniquely suited for handheld play on the system.</p><p><a href="https://arstechnica.com/gaming/2026/01/finally-a-new-controller-that-solves-the-switch-2s-flat-joy-con-problem/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/01/finally-a-new-controller-that-solves-the-switch-2s-flat-joy-con-problem/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>50</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/hyperion3-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/hyperion3-500x500.jpg" width="500"/>
+<media:credit>Nyxi</media:credit><media:text>Imagine if the official Switch 2 Joy-Cons looked something like this?</media:text></media:content>
+            </item>
+                    <item>
+                <title>eBay bans illicit automated shopping amid rapid rise of AI agents</title>
+                <link>https://arstechnica.com/information-technology/2026/01/ebay-bans-illicit-automated-shopping-amid-rapid-rise-of-ai-agents/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/01/ebay-bans-illicit-automated-shopping-amid-rapid-rise-of-ai-agents/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Jan 2026 15:56:33 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[agentic commerce]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI shopping]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[arbitration]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[eBay]]></category>
+		<category><![CDATA[eCommerce]]></category>
+		<category><![CDATA[Etsy]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[Perplexity]]></category>
+		<category><![CDATA[shopify]]></category>
+		<category><![CDATA[user agreements]]></category>
+		<category><![CDATA[web scraping]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/01/ebay-bans-illicit-automated-shopping-amid-rapid-rise-of-ai-agents/</guid>
+
+                                    <description>
+                        <![CDATA[New policy requires "buy for me" AI tools and chatbots to obtain permission before accessing the platform.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Tuesday, eBay updated its <a href="https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259">User Agreement</a> to explicitly ban third-party "buy for me" agents and AI chatbots from interacting with its platform without permission, first spotted by <a href="https://www.valueaddedresource.net/ebay-bans-ai-agents-updates-arbitration-user-agreement-feb-2026/">Value Added Resource</a>. On its face, a one-line terms of service update doesn't seem like major news, but what it implies is more significant: The change reflects the rapid emergence of what some are calling "agentic commerce," a new category of AI tools designed to browse, compare, and purchase products on behalf of users.</p>
+<p>eBay's updated terms, which go into effect on February 20, 2026, specifically prohibit users from employing "buy-for-me agents, LLM-driven bots, or any end-to-end flow that attempts to place orders without human review" to access eBay's services without the site's permission. The previous version of the agreement contained a general prohibition on robots, spiders, scrapers, and automated data gathering tools but did not mention AI agents or LLMs by name.</p>
+<p>At first glance, the phrase "agentic commerce" may sound like aspirational marketing jargon, but the tools are already here, and people are apparently using them. While fitting loosely under one label, these tools come in many forms.</p><p><a href="https://arstechnica.com/information-technology/2026/01/ebay-bans-illicit-automated-shopping-amid-rapid-rise-of-ai-agents/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/01/ebay-bans-illicit-automated-shopping-amid-rapid-rise-of-ai-agents/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>51</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/robot_shopper_1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/robot_shopper_1-500x500.jpg" width="500"/>
+<media:credit>Westend61 via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>All sorts of interesting flags and artifacts will fly to the Moon on Artemis II</title>
+                <link>https://arstechnica.com/space/2026/01/nasa-to-fly-apollo-aviation-artifacts-on-artemis-ii/</link>
+                                    <comments>https://arstechnica.com/space/2026/01/nasa-to-fly-apollo-aviation-artifacts-on-artemis-ii/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Robert Pearlman]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Jan 2026 14:41:38 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[Apollo 18]]></category>
+		<category><![CDATA[artemis II]]></category>
+		<category><![CDATA[Artemis moon trees]]></category>
+		<category><![CDATA[artemis program]]></category>
+		<category><![CDATA[Canadian Space Agency]]></category>
+		<category><![CDATA[ESA]]></category>
+		<category><![CDATA[european space agency]]></category>
+		<category><![CDATA[Integrity]]></category>
+		<category><![CDATA[Legacy Flag]]></category>
+		<category><![CDATA[manifest]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[National Air and Space Museum]]></category>
+		<category><![CDATA[Official Flight Kit]]></category>
+		<category><![CDATA[OFK]]></category>
+		<category><![CDATA[orion]]></category>
+		<category><![CDATA[sls]]></category>
+		<category><![CDATA[Smithsonian]]></category>
+		<category><![CDATA[space collectibles]]></category>
+		<category><![CDATA[Space exploration]]></category>
+		<category><![CDATA[space history]]></category>
+		<category><![CDATA[space launch system]]></category>
+		<category><![CDATA[space memorabilia]]></category>
+		<category><![CDATA[Wright Flyer]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/01/nasa-to-fly-apollo-aviation-artifacts-on-artemis-ii/</guid>
+
+                                    <description>
+                        <![CDATA[More than 2,300 commemorative items fill the duffel bag-size pouch.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>NASA's first astronauts to fly to the Moon in more than 50 years will pay tribute to the lunar and space exploration missions that preceded them, as well as aviation and American history, by taking with them artifacts and mementos representing those past accomplishments.</p>
+<p>NASA, on Wednesday, January 21, revealed the contents of the Artemis II mission's Official Flight Kit (OFK), continuing a tradition dating back to the Apollo program of packing a duffel bag-sized pouch of symbolic and celebratory items to commemorate the flight and recognize the people behind it. The kit includes more than 2,300 items, including a handful of relics.</p>
+<p>"This mission will bring together pieces of our earliest achievements in aviation, defining moments from human spaceflight and symbols of where we're headed next," Jared Isaacman, NASA's administrator, said in a statement. "Historical artifacts flying aboard Artemis II reflect the long arc of American exploration and the generations of innovators who made this moment possible."</p><p><a href="https://arstechnica.com/space/2026/01/nasa-to-fly-apollo-aviation-artifacts-on-artemis-ii/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/01/nasa-to-fly-apollo-aviation-artifacts-on-artemis-ii/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>39</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/news-012226a-lg-1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/news-012226a-lg-1-500x500.jpg" width="500"/>
+<media:credit> Cole Simmons via collectSPACE.com</media:credit><media:text>A sign hung on a glass exhibit case at NASA Headquarters in Washington reads that the Apollo 18 lunar surface flag that had been on display was "removed for flight to the moon" as part of the Official Flight Kit for the Artemis II mission.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Meta wants to block data about social media use, mental health in child safety trial</title>
+                <link>https://arstechnica.com/tech-policy/2026/01/meta-wants-to-block-data-about-social-media-use-mental-health-in-child-safety-trial/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/01/meta-wants-to-block-data-about-social-media-use-mental-health-in-child-safety-trial/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Lauren Goode, wired.com]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Jan 2026 14:25:35 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[social media]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/meta-wants-to-block-data-about-social-media-use-mental-health-in-child-safety-trial/</guid>
+
+                                    <description>
+                        <![CDATA[Company is pulling out all the stops to protect itself in advance of New Mexico trial.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As Meta heads to trial in the state of New Mexico for allegedly failing to protect minors from sexual exploitation, the company is making an aggressive push to have certain information excluded from the court proceedings.</p>
+<p>The company has petitioned the judge to exclude certain research studies and articles around social media and youth mental health; any mention of a recent high-profile case involving teen suicide and social media content; and any references to Meta’s financial resources, the personal activities of employees, and Mark Zuckerberg’s time as a student at Harvard University.</p>
+<p>Meta’s requests to exclude information, known as motions in limine, are a standard part of pretrial proceedings, in which a party can ask a judge to determine in advance which evidence or arguments are permissible in court. This is to ensure the jury is presented with facts and not irrelevant or prejudicial information and that the defendant is granted a fair trial.</p><p><a href="https://arstechnica.com/tech-policy/2026/01/meta-wants-to-block-data-about-social-media-use-mental-health-in-child-safety-trial/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/01/meta-wants-to-block-data-about-social-media-use-mental-health-in-child-safety-trial/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>54</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/meta-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/meta-500x500.jpg" width="500"/>
+<media:credit>CFOTO/Future Publishing via Getty</media:credit></media:content>
+            </item>
+                    <item>
                 <title>Judge orders stop to FBI search of devices seized from Washington Post reporter</title>
                 <link>https://arstechnica.com/tech-policy/2026/01/judge-orders-stop-to-fbi-search-of-devices-seized-from-washington-post-reporter/</link>
                                     <comments>https://arstechnica.com/tech-policy/2026/01/judge-orders-stop-to-fbi-search-of-devices-seized-from-washington-post-reporter/#comments</comments>
@@ -43,7 +536,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>38</slash:comments>
+                                    <slash:comments>82</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/judges-gavel-1152x648-1747771043.jpg" width="1152">
@@ -80,7 +573,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>37</slash:comments>
+                                    <slash:comments>61</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/sms-phone-risk-trap-privacy-security-1152x648.jpg" width="1152">
@@ -117,7 +610,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>30</slash:comments>
+                                    <slash:comments>56</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/12/GettyImages-1290558683.jpg">
@@ -150,7 +643,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>105</slash:comments>
+                                    <slash:comments>174</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/jimmy-kimmel-return-1152x648-1758739114.jpg" width="1152">
@@ -189,7 +682,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>56</slash:comments>
+                                    <slash:comments>77</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Tomb-Raider-hero-1152x648.jpg" width="1152">
@@ -222,7 +715,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>47</slash:comments>
+                                    <slash:comments>70</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/kioxia-ssds-1152x648.jpg" width="1152">
@@ -258,465 +751,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>18</slash:comments>
+                                    <slash:comments>20</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/swarm1-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/swarm1-500x500.jpg" width="500"/>
 <media:credit>Merihan Alhafnawi</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Spotify won court order against Anna’s Archive, taking down .org domain</title>
-                <link>https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Jan 2026 19:34:14 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Anna's archive]]></category>
-		<category><![CDATA[spotify]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/</guid>
-
-                                    <description>
-                        <![CDATA[Lawsuit was filed under seal; Anna's Archive wasn't notified until after takedown.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>When shadow library Anna's Archive <a href="https://arstechnica.com/tech-policy/2026/01/annas-archive-loses-org-domain-says-suspension-likely-unrelated-to-spotify-piracy/">lost its .org domain</a> in early January, the controversial site's operator said the suspension didn't appear to have anything to do with its recent <a href="https://arstechnica.com/tech-policy/2025/12/worlds-largest-shadow-library-brags-it-scraped-300tb-of-spotify-music-metadata/">mass scraping of Spotify</a>.</p>
-<p>But it turns out, probably not surprisingly to most people, that the domain suspension resulted from a lawsuit filed by Spotify, along with major record labels Sony, Warner, and Universal Music Group (UMG). The music companies sued Anna's Archive in late December in US District Court for the Southern District of New York, and the case was initially sealed.</p>
-<p>A judge ordered the case unsealed on January 16 "because the purpose for which sealing was ordered has been fulfilled." Numerous documents were made public on the court docket yesterday, and they explain events around the domain suspension.</p><p><a href="https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>41</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/spotify-logos-1152x648-1767642275.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/spotify-logos-500x500-1767642286.jpg" width="500"/>
-<media:credit>Getty Images | Anadolu</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Another Jeff Bezos company has announced plans to develop a megaconstellation</title>
-                <link>https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/</link>
-                                    <comments>https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Jan 2026 18:40:21 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[blue origin]]></category>
-		<category><![CDATA[megaconstellation]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[terawave]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/</guid>
-
-                                    <description>
-                        <![CDATA[With data speeds of up to 6Tbps, one could stream a lot of HD movies.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The announcement came out of the blue, from Blue, on Wednesday.</p>
-<p>The space company founded by Jeff Bezos, Blue Origin, said it was developing a new megaconstellation named TeraWave to deliver data speeds of up to 6Tbps anywhere on Earth. The constellation will consist of 5,408 optically interconnected satellites, with a majority in low-Earth orbit and the remainder in medium-Earth orbit.</p>
-<p>The satellites in low-Earth orbit will provide up to 144Gbps through radio spectrum, whereas those in medium-Earth orbit will provide higher data rates through optical links.</p><p><a href="https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>138</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/G_NEl2bbgAAr100-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/G_NEl2bbgAAr100-500x500.jpg" width="500"/>
-<media:credit>Blue Origin</media:credit><media:text>A schematic of the proposed TeraWave constellation.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Here's Volvo's new EX60 $60,000 electric midsize SUV</title>
-                <link>https://arstechnica.com/cars/2026/01/heres-volvos-new-ex60-60000-electric-midsize-suv/</link>
-                                    <comments>https://arstechnica.com/cars/2026/01/heres-volvos-new-ex60-60000-electric-midsize-suv/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Jan 2026 17:30:58 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Volvo EX60]]></category>
-		<category><![CDATA[Volvo EX60 Cross Country]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/01/heres-volvos-new-ex60-60000-electric-midsize-suv/</guid>
-
-                                    <description>
-                        <![CDATA[The EX60 goes into production in April 2026.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>After <a href="https://arstechnica.com/cars/2026/01/volvo-says-new-ex60-has-400-mile-range-charges-up-to-400-kw/">a teaser campaign</a> that included <a href="https://arstechnica.com/cars/2026/01/exclusive-volvo-tells-us-why-having-gemini-in-your-next-car-is-a-good-thing/">a world exclusive with Ars</a>, Volvo has officially unveiled its next electric vehicle, the EX60. We already knew it would have up to 400 miles of range, according to the US EPA test cycle, and be capable of charging at rates of up to 400 kW. And we learned last week that the EX60 is packed full of powerful computer hardware from Nvidia and Qualcomm, enabling both advanced driver assistance systems and a new AI personal assistant. Today, we got full tech specs for the three different EX60 powertrain variants, as well as a pair of rugged EX60 Cross Country models.</p>
-<h2>P6, P10, P12</h2>
-<p>The entry-level version of Volvo's next midsize crossover is the EX60 P6. This is a single-motor variant, with 369 hp (275 kW), 354 lb-ft (480 Nm) on tap at the rear wheels. The 80 kWh (usable, 83 kWH gross) battery pack can charge at up to 320 kW and can take as little as 18 minutes to DC charge from 10 to 80 percent. The EX60 will also be the first Volvo model on sale in the US with a built-in NACS port. Range for the P6 version is 310 miles (490 km) when fitted with 20-inch wheels; subtract 10 miles (16 km) for the 21-inch wheels and 20 miles (32 km) for the 22-inch wheels. 0–60 mph (0–98 km/h) takes 5.7 seconds, and like all modern Volvos, the EX60 is <a href="https://arstechnica.com/cars/2019/03/from-2020-volvo-will-limit-all-its-new-cars-to-112mph/">speed-limited to 112 mph</a> (180 km/h).</p>
-<p>(Again, all range estimates are based on the US EPA test cycle; if you see different numbers online at non-US publications, those are using Europe's WLTP test.)</p><p><a href="https://arstechnica.com/cars/2026/01/heres-volvos-new-ex60-60000-electric-midsize-suv/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/01/heres-volvos-new-ex60-60000-electric-midsize-suv/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>98</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/JPG-Full-TIM_1154_EX60_DETAIL_HIGH_FRONT-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/JPG-Full-TIM_1154_EX60_DETAIL_HIGH_FRONT-500x500.jpg" width="500"/>
-<media:credit>Volvo </media:credit><media:text>Volvo's next EV uses an all-new platform called SPA3. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Has Gemini surpassed ChatGPT? We put the AI models to the test.</title>
-                <link>https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/</link>
-                                    <comments>https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Jan 2026 15:03:39 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[gemini]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[openai]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/</guid>
-
-                                    <description>
-                        <![CDATA[Did Apple make the right choice in partnering with Google for Siri's AI features?]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The last time we did comparative tests of AI models from OpenAI and Google at Ars was <a href="https://arstechnica.com/ai/2023/12/chatgpt-vs-google-bard-round-2-how-does-the-new-gemini-model-fare/">in late 2023</a>, when Google's offering was still called Bard. In the roughly two years since, a lot has happened in the world of artificial intelligence. And now that Apple has <a href="https://arstechnica.com/apple/2026/01/apple-says-its-new-ai-powered-siri-will-use-googles-gemini-language-models/">made the consequential decision to partner with Google Gemini</a> to power the next generation of its Siri voice assistant, we thought it was high time to do some new tests to see where the models from these AI giants stand today.</p>
-<p>For this test, we're comparing the default models that both OpenAI and Google present to users who don't pay for a regular subscription—ChatGPT 5.2 for OpenAI and Gemini 3.2 Fast for Google. While other models might be more powerful, we felt this test best recreates the AI experience as it would work for the vast majority of Siri users, who don't pay to subscribe to either company's services.</p>
-<p>As in the past, we'll feed the same prompts to both models and evaluate the results using a combination of objective evaluation and subjective feel. Rather than re-using the relatively simple prompts we ran back in 2023, though, we'll be running these models on an updated set of more complex prompts that we first used when <a href="https://arstechnica.com/ai/2025/08/is-gpt-5-really-worse-than-gpt-4o-ars-puts-them-to-the-test/">pitting GPT-5 against GPT-4o last summer</a>.</p><p><a href="https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/">Read full article</a></p>
-<p><a href="https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>120</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/chatgpt-vs-gemini-apple-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/chatgpt-vs-gemini-apple-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson | Getty Images</media:credit><media:text>Thankfully, neither ChatGPT or Gemini are currently able to put on literal boxing gloves and punch each other.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Zillow removed climate risk scores. This climate expert is restoring them.</title>
-                <link>https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/</link>
-                                    <comments>https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Claire Barber, Inside Climate News]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Jan 2026 14:33:00 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[California]]></category>
-		<category><![CDATA[climate change]]></category>
-		<category><![CDATA[insurance risk]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/</guid>
-
-                                    <description>
-                        <![CDATA[Real estate website scrubbed data under pressure from California real estate brokers.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Even as exposure to floods, fire, and extreme heat increase in the face of climate change, a popular tool for evaluating risk has disappeared from the nation’s leading real estate website.</p>
-<p>Zillow removed the feature displaying climate risk data to home buyers in November after the California Regional Multiple Listing Service, which provides a database of real estate listings to real estate agents and brokers in the state, questioned the accuracy of the flood risk models on the site.</p>
-<p>Now, a climate policy expert in California is working to put data back in buyers’ hands.</p><p><a href="https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>94</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/floods-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/floods-500x500.jpg" width="500"/>
-<media:credit>Stephen Lam/San Francisco Chronicle via Getty Images</media:credit><media:text>A street is inundated with floodwater during a King Tide event on Jan. 3 in Corte Madera, Calif.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Wikipedia volunteers spent years cataloging AI tells. Now there's a plugin to avoid them.</title>
-                <link>https://arstechnica.com/ai/2026/01/new-ai-plugin-uses-wikipedias-ai-writing-detection-rules-to-help-it-sound-human/</link>
-                                    <comments>https://arstechnica.com/ai/2026/01/new-ai-plugin-uses-wikipedias-ai-writing-detection-rules-to-help-it-sound-human/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Benj Edwards]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Jan 2026 12:15:23 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[AI detection]]></category>
-		<category><![CDATA[AI detectors]]></category>
-		<category><![CDATA[ai slop]]></category>
-		<category><![CDATA[AI writing]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[chatbots]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[chatgtp]]></category>
-		<category><![CDATA[Claude]]></category>
-		<category><![CDATA[generative ai]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[wikipedia]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/01/new-ai-plugin-uses-wikipedias-ai-writing-detection-rules-to-help-it-sound-human/</guid>
-
-                                    <description>
-                        <![CDATA[The web's best guide to spotting AI writing has become a manual for hiding it.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>On Saturday, tech entrepreneur Siqi Chen <a href="https://github.com/blader/humanizer">released</a> an open source plugin for Anthropic's <a href="https://arstechnica.com/information-technology/2026/01/10-things-i-learned-from-burning-myself-out-with-ai-coding-agents/">Claude Code</a> AI assistant that instructs the AI model to stop writing like an AI model. Called "Humanizer," the simple prompt plugin feeds Claude a list of 24 language and formatting patterns that Wikipedia editors have <a href="https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing">listed</a> as chatbot giveaways. Chen published the plugin on GitHub, where it has picked up over 1,600 stars as of Monday.</p>
-<p>"It's really handy that Wikipedia went and collated a detailed list of 'signs of AI writing,'" Chen <a href="https://x.com/blader/status/2013015738622284156">wrote</a> on X. "So much so that you can just tell your LLM to... not do that."</p>
-<p>The source material is a guide from WikiProject AI Cleanup, a group of Wikipedia editors who have been hunting AI-generated articles since late 2023. French Wikipedia editor Ilyas Lebleu founded the project. The volunteers have tagged over 500 articles for review and, in August 2025, <a href="https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing">published</a> a formal list of the patterns they kept seeing.</p><p><a href="https://arstechnica.com/ai/2026/01/new-ai-plugin-uses-wikipedias-ai-writing-detection-rules-to-help-it-sound-human/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/01/new-ai-plugin-uses-wikipedias-ai-writing-detection-rules-to-help-it-sound-human/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>103</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/10/ai_typewriter_getty-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/10/ai_typewriter_getty-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Webb reveals a planetary nebula with phenomenal clarity, and it is spectacular</title>
-                <link>https://arstechnica.com/space/2026/01/webb-has-given-us-with-a-stunning-new-view-of-a-well-known-planetary-nebula/</link>
-                                    <comments>https://arstechnica.com/space/2026/01/webb-has-given-us-with-a-stunning-new-view-of-a-well-known-planetary-nebula/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Jan 2026 23:33:57 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[helix nebula]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[Nebula]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[Webb]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/01/webb-has-given-us-with-a-stunning-new-view-of-a-well-known-planetary-nebula/</guid>
-
-                                    <description>
-                        <![CDATA[The colors show the star’s final breath transforming into the raw ingredients for new worlds.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Helix Nebula is one of the most well-known and commonly photographed planetary nebulae because it resembles the "<a href="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/streams/2012/February/120220/61361-6330284.jpg">Eye of Sauron</a>." It is also one of the closest bright nebulae to Earth, located approximately 655 light-years from our Solar System.</p>
-<p>You may not know what this particular nebula looks like when reading its name, but the Hubble Space Telescope has taken some iconic images of it over the years. And almost certainly, you'll recognize a photograph of the Helix Nebula, shown below.</p>
-<p>Like many objects in astronomy, planetary nebulae have a confusing name, since they are formed not by planets but by stars like our own Sun, though a little larger. Near the end of their lives, these stars shed large amounts of gas in an expanding shell that, however briefly in cosmological time, put on a grand show.</p><p><a href="https://arstechnica.com/space/2026/01/webb-has-given-us-with-a-stunning-new-view-of-a-well-known-planetary-nebula/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/01/webb-has-given-us-with-a-stunning-new-view-of-a-well-known-planetary-nebula/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>105</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/STScI-01KCMAMZ8ZSMRTR9KKD8Y6EMRJ-1152x648.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/STScI-01KCMAMZ8ZSMRTR9KKD8Y6EMRJ-500x500.png" width="500"/>
-<media:credit>ASA, ESA, CSA, STScI; Image Processing: Alyssa Pagan (STScI)</media:credit><media:text>A new image from NASA’s James Webb Space Telescope of a portion of the Helix Nebula.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Zuck stuck on Trump’s bad side: FTC appeals loss in Meta monopoly case</title>
-                <link>https://arstechnica.com/tech-policy/2026/01/zuck-stuck-on-trumps-bad-side-ftc-appeals-loss-in-meta-monopoly-case/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/01/zuck-stuck-on-trumps-bad-side-ftc-appeals-loss-in-meta-monopoly-case/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Jan 2026 23:22:26 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Antitrust law]]></category>
-		<category><![CDATA[Facebook]]></category>
-		<category><![CDATA[FTC]]></category>
-		<category><![CDATA[Instagram]]></category>
-		<category><![CDATA[meta]]></category>
-		<category><![CDATA[monopoly]]></category>
-		<category><![CDATA[whatsapp]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/zuck-stuck-on-trumps-bad-side-ftc-appeals-loss-in-meta-monopoly-case/</guid>
-
-                                    <description>
-                        <![CDATA[FTC will appeal ruling that found Meta has no monopoly in social networking.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Still feeling uneasy about Meta's acquisition of Instagram in 2012 and WhatsApp in 2014, the Federal Trade Commission will be appealing a <a href="https://arstechnica.com/tech-policy/2025/11/meta-wins-monopoly-trial-convinces-judge-that-social-networking-is-dead/">November ruling</a> that cleared Meta of allegations that it holds an illegal monopoly in a market dubbed "personal social networking."</p>
-<p>The FTC hopes the US Court of Appeals for the District of Columbia will agree that "robust evidence at trial" showed that Meta's acquisitions were improper. In the initial trial, the FTC sought a breakup of Meta's apps, with Meta risking forced divestments of Instagram or WhatsApp.</p>
-<p>In a <a href="https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-appeals-ruling-meta-monopolization-case">press release</a> Tuesday, the FTC confirmed that it "continues to allege" that "for over a decade Meta has illegally maintained a monopoly in personal social networking services through anticompetitive conduct—by buying the significant competitive threats it identified in Instagram and WhatsApp."</p><p><a href="https://arstechnica.com/tech-policy/2026/01/zuck-stuck-on-trumps-bad-side-ftc-appeals-loss-in-meta-monopoly-case/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/01/zuck-stuck-on-trumps-bad-side-ftc-appeals-loss-in-meta-monopoly-case/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>90</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/zuck-the-monopolist-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/zuck-the-monopolist-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Verizon starts requiring 365 days of paid service before it will unlock phones</title>
-                <link>https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Jan 2026 22:35:32 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[phone unlocking]]></category>
-		<category><![CDATA[tracfone]]></category>
-		<category><![CDATA[verizon]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/</guid>
-
-                                    <description>
-                        <![CDATA[Verizon changed prepaid brands' policy a week after FCC waived unlocking rule.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Verizon has started enforcing a 365-day lock period on phones purchased through its TracFone division, one week after the Federal Communications Commission <a href="https://arstechnica.com/tech-policy/2026/01/fcc-lets-verizon-lock-phones-for-longer-making-it-harder-to-switch-carriers/">waived a requirement</a> that Verizon unlock handsets 60 days after they are activated on its network.</p>
-<p>Verizon was previously required to unlock phones automatically after 60 days due to restrictions imposed on its <a href="https://arstechnica.com/uncategorized/2008/05/verizon-we-promise-to-honor-the-block-c-open-access-rules/">spectrum licenses</a> and <a href="https://docs.fcc.gov/public/attachments/FCC-21-121A1.pdf">merger conditions</a> that helped Verizon obtain approval of its <a href="https://arstechnica.com/tech-policy/2020/09/verizon-to-buy-tracfone-expanding-big-carriers-control-of-prepaid-industry/">purchase of TracFone</a>. But an update applied today to the <a href="https://www.tfwunlockpolicy.com/wps/portal/home/">TracFone unlocking policy</a> said new phones will be locked for at least a year and that each customer will have to request an unlock instead of getting it automatically.</p>
-<p>The "new" TracFone policy is basically a return to the yearlong locking it <a href="https://web.archive.org/web/20210922001247/https://www.tfwunlockpolicy.com/wps/portal/home">imposed</a> before Verizon bought the company in 2021. TracFone first agreed to provide unlocking in a 2015 <a href="https://docs.fcc.gov/public/attachments/DOC-334195A1.pdf">settlement with the Obama-era FCC</a>, which alleged that TracFone failed to comply with a commitment to unlock phones for customers enrolled in the Lifeline subsidy program. TracFone later shortened the locking period from a year to 60 days as a condition of the Verizon merger.</p><p><a href="https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/01/verizon-starts-requiring-365-days-of-paid-service-before-it-will-unlock-phones/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>114</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/verizon-1152x648-1752087139.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/verizon-500x500-1752087145.jpg" width="500"/>
-<media:credit>Getty Images | Kevin Carter</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Google temporarily disabled YouTube's advanced captions without warning</title>
-                <link>https://arstechnica.com/gadgets/2026/01/google-temporarily-disabled-youtubes-advanced-captions-without-warning/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/01/google-temporarily-disabled-youtubes-advanced-captions-without-warning/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Jan 2026 22:17:02 +0000</pubDate>
-                		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[YouTube]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/01/google-temporarily-disabled-youtubes-advanced-captions-without-warning/</guid>
-
-                                    <description>
-                        <![CDATA[Google says SRV3 captions were causing playback errors, so it has "temporarily" disabled them.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>YouTubers have been increasingly frustrated with Google's management of the platform, with <a href="https://arstechnica.com/gadgets/2025/10/youtube-explains-how-banned-creators-can-get-a-second-chance/">disinformation welcomed back</a> and an <a href="https://arstechnica.com/google/2026/01/googles-updated-veo-model-can-make-vertical-videos-from-reference-images-with-4k-upscaling/">aggressive push for more AI</a> (except where Google <a href="https://arstechnica.com/google/2025/12/youtube-bans-two-popular-channels-that-created-fake-ai-movie-trailers/">doesn't like it</a>). So it's no surprise that creators have been up in arms over the suspicious removal of YouTube's advanced SRV3 caption format. You don't have to worry too much just yet—Google says this is only temporary, and it's working on a fix for the underlying bug.</p>
-<p>Google added support for this custom subtitle format around 2018, giving creators more customization options than with traditional captions. SRV3 (also known as YTT or YouTube Timed Text) allows for custom colors, transparency, animations, fonts, and precise positioning in videos. Uploaders using this format can color-code and position captions to help separate multiple speakers, create sing-along animations, or style them to match the video.</p>
-<p>Over the last several days, creators who have become accustomed to this level of control <a href="https://www.reddit.com/r/youtube/comments/1qdvgmc/uploading_srv3_subtitles_got_brokendisabled/?sort=new">have been dismayed</a> to see that YouTube is no longer accepting videos with this Google-created format. Many worried Google had ditched the format entirely, which could be problematic for all those previously uploaded videos.</p><p><a href="https://arstechnica.com/gadgets/2026/01/google-temporarily-disabled-youtubes-advanced-captions-without-warning/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/01/google-temporarily-disabled-youtubes-advanced-captions-without-warning/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>32</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/youtube-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/youtube-500x500.jpg" width="500"/>
-<media:credit>Chris Ratcliffe/Bloomberg via Getty</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Flesh-eating flies are eating their way through Mexico, CDC warns</title>
-                <link>https://arstechnica.com/health/2026/01/be-on-the-lookout-for-flesh-eating-flies-cdc-tells-clinicians-in-alert/</link>
-                                    <comments>https://arstechnica.com/health/2026/01/be-on-the-lookout-for-flesh-eating-flies-cdc-tells-clinicians-in-alert/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Jan 2026 21:59:38 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[CDC]]></category>
-		<category><![CDATA[flies]]></category>
-		<category><![CDATA[HAN]]></category>
-		<category><![CDATA[new world screwworm]]></category>
-		<category><![CDATA[parasites]]></category>
-		<category><![CDATA[screwworm]]></category>
-		<category><![CDATA[USDA]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/01/be-on-the-lookout-for-flesh-eating-flies-cdc-tells-clinicians-in-alert/</guid>
-
-                                    <description>
-                        <![CDATA[Eight animal cases in Mexico's Tamaulipas spur CDC to warn doctors of festering wounds.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The US Centers for Disease Control and Prevention issued <a href="https://www.cdc.gov/han/php/notices/han00526.html">a health alert to clinicians</a> Tuesday, warning that the savage, flesh-eating parasitic fly—<a href="https://arstechnica.com/health/2025/05/screwworms-are-coming-and-theyre-just-as-horrifying-as-they-sound/">the New World Screwworm</a>—is not only approaching the Texas border, but also felling an increasing number of animals in the bordering Mexican state of Tamaulipas.</p>
-<p>The advisory, released through the agency's Health Alert Network, directs doctors, veterinarians, and other health workers to be on the lookout for <a href="https://arstechnica.com/health/2025/08/screwworm-larvae-eat-their-way-into-us-via-overseas-travelers-flesh/">patients with wounds teeming with ferocious maggots</a> burrowing into their living flesh. The alert also provides guidance on what to do if any such festering wounds are encountered—namely, remove each and every maggot to prevent the patient from dying, and, under no circumstance allow any of the parasites to survive and escape.</p>
-<p>The New World Screwworm (NWS) is a fly that lays its eggs—up to 400 at a time—in the wounds, orifices, and mucus membranes of any warm-blooded animal. The eggs hatch into flesh-eating maggots, which look and act much like screws, twisting and boring into their victims while eating them alive.</p><p><a href="https://arstechnica.com/health/2026/01/be-on-the-lookout-for-flesh-eating-flies-cdc-tells-clinicians-in-alert/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/01/be-on-the-lookout-for-flesh-eating-flies-cdc-tells-clinicians-in-alert/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>73</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2016/11/CSIRO_ScienceImage_115_The_Tip_of_a_Screw_Worm_Fly_Larvae.jpg">
-<media:thumbnail height="425" url="https://cdn.arstechnica.net/wp-content/uploads/2016/11/CSIRO_ScienceImage_115_The_Tip_of_a_Screw_Worm_Fly_Larvae-500x425.jpg" width="500"/>
-<media:credit>CSIRO</media:credit><media:text>The tip of a screwworm fly larvae. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Macaque facial gestures are more than just a reflex, study finds</title>
-                <link>https://arstechnica.com/science/2026/01/macaque-facial-gestures-are-more-than-just-a-reflex-study-finds/</link>
-                                    <comments>https://arstechnica.com/science/2026/01/macaque-facial-gestures-are-more-than-just-a-reflex-study-finds/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jacek Krywko]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Jan 2026 21:25:30 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[macaques]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/01/macaque-facial-gestures-are-more-than-just-a-reflex-study-finds/</guid>
-
-                                    <description>
-                        <![CDATA[Study is first to implant micro-electrode arrays to record neurons as they produce facial gestures.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Recent advances in brain-computer interfaces have made it possible to more accurately extract speech from neural signals in humans, but language is just one of the tools we use to communicate. “When my young nephew asks for ice cream before dinner and I say ‘no,’ the meaning is entirely dictated by whether the word is punctuated with a smirk or a stern frown,” says Geena Ianni, a neuroscientist at the University of Pennsylvania. That’s why in the future, she thinks, neural prostheses meant for patients with a stroke or paralysis will decode facial gestures from brain signals in the same way they decode speech.</p>
-<p>To lay a foundation for these future facial gesture decoders, Ianni and her colleagues designed an experiment to find out how neural circuitry responsible for making faces really works. “Although in recent years neuroscience got a good handle on how the brain perceives facial expressions, we know relatively little about how they are generated,” Ianni says. And it turned out that a surprisingly large part of what neuroscientists assumed about facial gestures was wrong.</p>
-<h2>The natural way</h2>
-<p>For a long time, neuroscientists thought facial gestures in primates stemmed from a neat division of labor in the brain. “Case reports of patients with brain lesions suggested some brain regions were responsible for certain types of emotional expressions while other regions were responsible for volitional movements like speech,” Ianni explains. We’ve developed a clearer picture of speech by tracing the origin of these movements down to the level of individual neurons. But we’ve not done the same for facial expressions. To fill this gap, Ianni and her team designed a study using macaques—social primates that share most of their complex facial musculature with humans.</p><p><a href="https://arstechnica.com/science/2026/01/macaque-facial-gestures-are-more-than-just-a-reflex-study-finds/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/01/macaque-facial-gestures-are-more-than-just-a-reflex-study-finds/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>9</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2243934190-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2243934190-500x500.jpg" width="500"/>
-<media:credit>Gu Jianfeng</media:credit><media:text>Majestic Japanese macaque (snow monkey).</media:text></media:content>
-            </item>
-                    <item>
-                <title>Netflix to pay all cash for Warner Bros. to fend off Paramount hostile takeover</title>
-                <link>https://arstechnica.com/tech-policy/2026/01/netflix-to-pay-all-cash-for-warner-bros-to-fend-off-paramount-hostile-takeover/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/01/netflix-to-pay-all-cash-for-warner-bros-to-fend-off-paramount-hostile-takeover/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Jan 2026 19:24:12 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Netflix]]></category>
-		<category><![CDATA[paramount]]></category>
-		<category><![CDATA[Warner Bros.]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/netflix-to-pay-all-cash-for-warner-bros-to-fend-off-paramount-hostile-takeover/</guid>
-
-                                    <description>
-                        <![CDATA[Netflix and Warner seek quick shareholder vote as Paramount tries to upend deal.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Netflix agreed to pay all cash for Warner Bros. Discovery, amending its $72 billion deal in an attempt to fight off Paramount's hostile takeover bid.</p>
-<p>Netflix originally agreed to buy the company with a mix of cash and stock. To sweeten the offer for shareholders, Netflix and Warner Bros. today <a href="https://www.wbd.com/news/netflix-and-warner-bros-discovery-amend-agreement-all-cash-transaction">announced</a> that Netflix will pay all cash instead. If successful, Netflix's purchase will include HBO Max, WB Studios, and other assets.</p>
-<p>The price is unchanged at $27.75 per share, and Warner Bros. is targeting an April 2026 shareholder vote. The original plan was for Netflix to buy each Warner Bros. share with $23.25 in cash and $4.50 in Netflix stock.</p><p><a href="https://arstechnica.com/tech-policy/2026/01/netflix-to-pay-all-cash-for-warner-bros-to-fend-off-paramount-hostile-takeover/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/01/netflix-to-pay-all-cash-for-warner-bros-to-fend-off-paramount-hostile-takeover/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>115</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/netflix-paramount-wb-icons-1152x648-1767815429.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/netflix-paramount-wb-icons-500x500-1767815415.jpg" width="500"/>
-<media:credit>Getty Images | Kenneth Cheung</media:credit></media:content>
             </item>
             </channel>
 </rss>
