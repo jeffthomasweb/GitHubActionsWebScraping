@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Sat, 24 Jan 2026 19:19:53 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jan 2026 00:32:50 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,366 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>OpenAI spills technical details about how its AI coding agent works</title>
+                <link>https://arstechnica.com/ai/2026/01/openai-spills-technical-details-about-how-its-ai-coding-agent-works/</link>
+                                    <comments>https://arstechnica.com/ai/2026/01/openai-spills-technical-details-about-how-its-ai-coding-agent-works/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Mon, 26 Jan 2026 23:05:17 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[code agents]]></category>
+		<category><![CDATA[Codex]]></category>
+		<category><![CDATA[Developer Tools]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[prompt caching]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/01/openai-spills-technical-details-about-how-its-ai-coding-agent-works/</guid>
+
+                                    <description>
+                        <![CDATA[Unusually detailed post explains how OpenAI handles the Codex agent loop.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Friday, OpenAI engineer Michael Bolin <a href="https://openai.com/index/unrolling-the-codex-agent-loop/">published</a> a detailed technical breakdown of how the company's <a href="https://arstechnica.com/ai/2025/05/openai-introduces-codex-its-first-full-fledged-ai-agent-for-coding/">Codex CLI</a> coding agent works internally, offering developers insight into AI coding tools that can write code, run tests, and fix bugs with human supervision. It complements our article <a href="https://arstechnica.com/information-technology/2025/12/how-do-ai-coding-agents-work-we-look-under-the-hood/">in December</a> on how AI agents work by filling in technical details on how OpenAI implements its "agentic loop."</p>
+<p>AI coding agents are having something of a "ChatGPT moment," where Claude Code with Opus 4.5 and Codex with GPT-5.2 have reached a new level of usefulness for rapidly coding up prototypes, interfaces, and churning out boilerplate code. The timing of OpenAI's post details the design philosophy behind Codex just as AI agents are becoming more practical tools for everyday work.</p>
+<p>These tools aren't perfect and remain controversial for some software developers. While OpenAI has <a href="https://arstechnica.com/ai/2025/12/how-openai-is-using-gpt-5-codex-to-improve-the-ai-tool-itself/">previously told</a> Ars Technica that it uses Codex as a coding tool to help develop the Codex product itself, we also <a href="https://arstechnica.com/information-technology/2026/01/10-things-i-learned-from-burning-myself-out-with-ai-coding-agents/">discovered</a>, through hands-on experience, that these tools can be astonishingly fast at simple tasks but remain brittle beyond their training data and require human oversight for production work. The rough framework of a project tends to come fast and feels magical, but filling in the details involves tedious debugging and workarounds for limitations the agent cannot overcome on its own.</p><p><a href="https://arstechnica.com/ai/2026/01/openai-spills-technical-details-about-how-its-ai-coding-agent-works/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/01/openai-spills-technical-details-about-how-its-ai-coding-agent-works/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>12</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/coding_robots_agents-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/coding_robots_agents-500x500.jpg" width="500"/>
+<media:credit>akinbostanci via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Doctors face-palm as RFK Jr.’s top vaccine advisor questions need for polio shot</title>
+                <link>https://arstechnica.com/science/2026/01/do-we-really-need-polio-shots-deep-thoughts-by-rfk-jr-advisor-get-dragged/</link>
+                                    <comments>https://arstechnica.com/science/2026/01/do-we-really-need-polio-shots-deep-thoughts-by-rfk-jr-advisor-get-dragged/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Mon, 26 Jan 2026 21:31:13 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[ACIP]]></category>
+		<category><![CDATA[anti-vaccine]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[Kirk Milhoan]]></category>
+		<category><![CDATA[measles]]></category>
+		<category><![CDATA[polio]]></category>
+		<category><![CDATA[robert f kennedy jr]]></category>
+		<category><![CDATA[vaccines]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/01/do-we-really-need-polio-shots-deep-thoughts-by-rfk-jr-advisor-get-dragged/</guid>
+
+                                    <description>
+                        <![CDATA[Kirk Milhoan's comments come as federal vaccine policy slides to insignificance.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The chair of a federal vaccine advisory panel under anti-vaccine Health Secretary Robert F. Kennedy Jr. made his stance clear on vaccines in a podcast last week—and that stance was so alarming that the American Medical Association was compelled to respond with a scathing statement.</p>
+<p>Kirk Milhoan, who was <a href="https://arstechnica.com/health/2025/12/meet-cdcs-new-lead-vaccine-advisor-who-thinks-shots-cause-heart-disease/">named chair of the Advisory Committee on Immunization Practices</a> for the Centers for Disease Control and Prevention in December, appeared on the aptly named podcast "<a href="https://podcasts.apple.com/us/podcast/a-conversation-w-dr-kirk-milhoan-chair-of-acip-on/id1788335471?i=1000746190751">Why Should I Trust You</a>." In the hour-long interview, Milhoan made a wide range of comments that have concerned medical experts and raised eyebrows.</p>
+<p>Early into the discussion, Milhoan, a pediatric cardiologist, declared, "I don't like established science," and that "science is what I observe." He lambasted the evidence-based methodology that previous ACIP panels used to carefully and transparently craft vaccine policy.</p><p><a href="https://arstechnica.com/science/2026/01/do-we-really-need-polio-shots-deep-thoughts-by-rfk-jr-advisor-get-dragged/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/01/do-we-really-need-polio-shots-deep-thoughts-by-rfk-jr-advisor-get-dragged/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>110</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2235571142-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2235571142-500x500-1769462500.jpg" width="500"/>
+<media:credit>Getty | Elijah Nouvelage</media:credit><media:text>Kirk Milhoan, James Pagano, and Robert Malone are seen during a meeting of the CDC's Advisory Committee on Immunization Practices on September 18, 2025 in Chamblee, Georgia.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Why has Microsoft been routing example.com traffic to a company in Japan?</title>
+                <link>https://arstechnica.com/information-technology/2026/01/odd-anomaly-caused-microsofts-network-to-mishandle-example-com-traffic/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/01/odd-anomaly-caused-microsofts-network-to-mishandle-example-com-traffic/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 26 Jan 2026 21:02:26 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[example.com]]></category>
+		<category><![CDATA[Internet routing]]></category>
+		<category><![CDATA[microsoft]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/01/odd-anomaly-caused-microsofts-network-to-mishandle-example-com-traffic/</guid>
+
+                                    <description>
+                        <![CDATA[Company's autodiscover caused users' test credentials to be sent outside Microsoft networks.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>From the Department of Bizarre Anomalies: Microsoft has suppressed an unexplained anomaly on its network that was routing traffic destined to example.com—a domain reserved for testing purposes—to a maker of electronics cables located in Japan.</p>
+<p>Under the <a href="https://datatracker.ietf.org/doc/html/rfc2606">RFC2606</a>—an official standard maintained by the Internet Engineering Task Force—example.com isn't obtainable by any party. Instead it resolves to IP addresses assigned to Internet Assiged Names Authority. The designation is intended to prevent third parties from being bombarded with traffic when developers, penetration testers, and others need a domain for testing or discussing technical issues. Instead of naming an Internet-routable domain, they are to choose example.com or two others, example.net and example.org.</p>
+<h2>Misconfig gone, but is it fixed?</h2>
+<p>Output from the terminal command cURL shows that devices inside Azure and other Microsoft networks have been routing some traffic to subdomains of sei.co.jp, a domain belonging to Sumitomo Electric. Most of the resulting text is exactly what’s expected. The exception is the JSON-based response. Here’s the JSON output from Friday:</p><p><a href="https://arstechnica.com/information-technology/2026/01/odd-anomaly-caused-microsofts-network-to-mishandle-example-com-traffic/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/01/odd-anomaly-caused-microsofts-network-to-mishandle-example-com-traffic/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>24</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/08/error-message-1000x648.jpg" width="1000">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/08/error-message-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Apple's AirTag 2 is easier to find thanks to new chip</title>
+                <link>https://arstechnica.com/gadgets/2026/01/apple-introduces-new-airtag-with-better-range-and-a-louder-speaker/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/01/apple-introduces-new-airtag-with-better-range-and-a-louder-speaker/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Samuel Axon]]>
+                </dc:creator>
+                <pubDate>Mon, 26 Jan 2026 20:18:02 +0000</pubDate>
+                		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[AirTag]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[bluetooth]]></category>
+		<category><![CDATA[location tracker]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/01/apple-introduces-new-airtag-with-better-range-and-a-louder-speaker/</guid>
+
+                                    <description>
+                        <![CDATA[This is the first major upgrade since Apple introduced AirTags five years ago.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Apple is introducing a new version of its AirTag tracking device—simply dubbed "the new AirTag"—and claims it offers substantial improvements thanks to a new Bluetooth chip.</p>
+<p>The original AirTag came out five years ago now, and it became popular in a variety of contexts. There were some problems, though—there was real concern about unwanted tracking and stalking with the devices, based on real stories of it being used for that. The company gradually introduced new features and protections against that, getting it to a much better place.</p>
+<p>This new version is focused on making the device more effective in general. Thanks to the inclusion of the second-generation Ultra Wideband chip (the same one found in other recently released Apple devices like the iPhone 17), Apple says the new AirTag can work with the Precision Finding feature in the Find My app to direct users to the AirTag (and whatever lost item it's stored with or attached to) from up to 50 percent farther away.</p><p><a href="https://arstechnica.com/gadgets/2026/01/apple-introduces-new-airtag-with-better-range-and-a-louder-speaker/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/01/apple-introduces-new-airtag-with-better-range-and-a-louder-speaker/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>52</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2021/05/AirTag-2-1152x648.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/05/AirTag-2-500x500.png" width="500"/>
+<media:credit>Samuel Axon</media:credit><media:text>Apple's AirTag.</media:text></media:content>
+            </item>
+                    <item>
+                <title>“Wildly irresponsible”: DOT's use of AI to draft safety rules sparks concerns</title>
+                <link>https://arstechnica.com/tech-policy/2026/01/wildly-irresponsible-dots-use-of-ai-to-draft-safety-rules-sparks-concerns/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/01/wildly-irresponsible-dots-use-of-ai-to-draft-safety-rules-sparks-concerns/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Mon, 26 Jan 2026 20:13:47 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI hallucination]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[department of transportation]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[google]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/wildly-irresponsible-dots-use-of-ai-to-draft-safety-rules-sparks-concerns/</guid>
+
+                                    <description>
+                        <![CDATA[Staffers warn DOT's use of Gemini to draft rules could cause injuries and deaths.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The US Department of Transportation apparently thinks it's a good idea to use artificial intelligence to draft rules impacting the safety of airplanes, cars, and pipelines, a ProPublica investigation <a href="https://www.propublica.org/article/trump-artificial-intelligence-google-gemini-transportation-regulations">revealed</a> Monday.</p>
+<p>It could be a problem if DOT becomes the first agency to use AI to draft rules, ProPublica pointed out, since AI is known to confidently get things wrong and hallucinate fabricated information. Staffers fear that any failure to catch AI errors could result in flawed laws, leading to lawsuits, injuries, or even deaths in the transportation system.</p>
+<p>But the DOT's top lawyer, Gregory Zerzan, isn't worried about that, December meeting notes revealed, because the point isn't for AI to be perfect. It's for AI to help speed up the rulemaking process, so that rules that take weeks or months to draft can instead be written within 30 days. According to Zerzan, DOT's preferred tool, Google Gemini, can draft rules in under 30 minutes.</p><p><a href="https://arstechnica.com/tech-policy/2026/01/wildly-irresponsible-dots-use-of-ai-to-draft-safety-rules-sparks-concerns/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/01/wildly-irresponsible-dots-use-of-ai-to-draft-safety-rules-sparks-concerns/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>57</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-1438737819-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-1438737819-500x500.jpg" width="500"/>
+<media:credit>Donald Iain Smith | Photodisc</media:credit></media:content>
+            </item>
+                    <item>
+                <title>How to encrypt your PC's disk without giving the keys to Microsoft</title>
+                <link>https://arstechnica.com/gadgets/2026/01/how-to-encrypt-your-pcs-disk-without-giving-the-keys-to-microsoft/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/01/how-to-encrypt-your-pcs-disk-without-giving-the-keys-to-microsoft/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Mon, 26 Jan 2026 18:29:08 +0000</pubDate>
+                		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[BitLocker]]></category>
+		<category><![CDATA[windows 10]]></category>
+		<category><![CDATA[windows 11]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/01/how-to-encrypt-your-pcs-disk-without-giving-the-keys-to-microsoft/</guid>
+
+                                    <description>
+                        <![CDATA[Storing recovery keys with Microsoft allows the company to unlock your disk.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In early 2025, Forbes <a href="https://www.forbes.com/sites/thomasbrewster/2026/01/22/microsoft-gave-fbi-keys-to-unlock-bitlocker-encrypted-data/">reports</a>, investigators at the FBI served Microsoft with a warrant seeking the BitLocker encryption recovery keys for several laptops it believed held evidence of fraud in Guam's COVID-19 unemployment assistance program. And Microsoft complied with the FBI's request.</p>
+<p>BitLocker is the name of the full-disk encryption technology that has been part of Windows for nearly two decades. Though initially only available to owners of the Pro editions of Windows who turned it on manually, <a href="https://arstechnica.com/information-technology/2013/10/windows-8-1-includes-seamless-automatic-disk-encryption-if-your-pc-supports-it/">during the Windows 8 era</a> Microsoft began using BitLocker to encrypt local disks automatically for all Windows 11 Home and Pro PCs that signed in with a Microsoft account. Using BitLocker in this way also uploads a recovery key for your device to Microsoft's servers—this makes it possible to unlock your disk so you don't lose data if something goes wrong with your system, or if you install a CPU upgrade or some other hardware change that breaks BitLocker. But it also (apparently) makes it possible for Microsoft to unlock your disk, too.</p>
+<p>A Microsoft rep said that the company handled "around 20" similar BitLocker recovery key requests from government authorities per year, and that these requests often fail because users haven't stored their recovery keys on Microsoft's servers. Microsoft and other tech companies have generally <a href="https://mashable.com/archive/fbi-microsoft-bitlocker-backdoor">refused requests</a> to install universal encryption backdoors for law enforcement purposes, and some companies (like Apple) <a href="https://mjtsai.com/blog/2025/09/22/tahoe-filevault-icloud-keychain-and-ssh/">claim</a> to store device encryption keys using another layer of encryption that renders the keys inaccessible to the company.</p><p><a href="https://arstechnica.com/gadgets/2026/01/how-to-encrypt-your-pcs-disk-without-giving-the-keys-to-microsoft/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/01/how-to-encrypt-your-pcs-disk-without-giving-the-keys-to-microsoft/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>97</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/02/win11-pc-2023-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/02/win11-pc-2023-500x500.jpeg" width="500"/>
+<media:credit>Microsoft</media:credit><media:text>A PC running Windows 11.</media:text></media:content>
+            </item>
+                    <item>
+                <title>The brothers meet Yoshi in Super Mario Galaxy Movie trailer</title>
+                <link>https://arstechnica.com/culture/2026/01/yoshi-joins-the-fun-in-latest-super-mario-galaxy-movie-trailer/</link>
+                                    <comments>https://arstechnica.com/culture/2026/01/yoshi-joins-the-fun-in-latest-super-mario-galaxy-movie-trailer/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Mon, 26 Jan 2026 18:05:50 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[entertainment]]></category>
+		<category><![CDATA[film trailers]]></category>
+		<category><![CDATA[Super Mario Galaxy (film)]]></category>
+		<category><![CDATA[Trailers]]></category>
+		<category><![CDATA[Universal Pictures]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2026/01/yoshi-joins-the-fun-in-latest-super-mario-galaxy-movie-trailer/</guid>
+
+                                    <description>
+                        <![CDATA[Toad: "So some dinosaur just shows up and he's now part of the group. Cool."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/SA9ohTuGl4Q?start=0&amp;wmode=transparent"></div></div>
+<p>Universal Pictures and Illumination dropped a new trailer for the upcoming <em>Super Mario Galaxy Movie,</em> and gaming fans will no doubt be delighted at the news that Yoshi, the little green dinosaur, features prominently, along with plenty of other Easter eggs for sharp-eyed fans.</p>
+<p>As <a href="https://arstechnica.com/culture/2025/11/nintendo-drops-official-trailer-for-super-mario-galaxy-movie/">previously reported</a>, the first attempt at a Super Mario movie adaptation in 1993 was notoriously a <a href="https://collider.com/super-mario-bros-movie-1993-history-explained/">dismal failure</a>, although it still has its ’90s-nostalgic fans. But 2023’s <em>Super Mario Bros. Movie</em> won over gaming fans who were skeptical about another adaptation—<a href="https://arstechnica.com/gaming/2023/04/review-the-super-mario-bros-movie-is-a-madcap-love-letter-to-fans/">including</a> Ars Senior Gaming Editor Kyle Orland.</p>
+<p>The 2023 film reintroduced Mario and Luigi, two tight-knit but struggling Brooklyn plumbers who got separated when they unexpectedly fell into the fantastical Mushroom Kingdom. Mario sought Princess Peach’s help to rescue his brother from the evil clutches of Bowser, ruler of the Dark Lands, who was keen to marry Peach and threatened to destroy the Mushroom Kingdom with a Super Star if she refused him. So Peach led Mario on a quest to recruit allies and stop Bowser for good. They succeeded, shrinking Bowser and imprisoning him in a jar. Mario and Luigi moved to the Mushroom Kingdom and continued their plumbing work there.</p><p><a href="https://arstechnica.com/culture/2026/01/yoshi-joins-the-fun-in-latest-super-mario-galaxy-movie-trailer/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2026/01/yoshi-joins-the-fun-in-latest-super-mario-galaxy-movie-trailer/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>27</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/mario2-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/mario2-500x500-1769448399.jpg" width="500"/>
+<media:credit>YouTube/Universal Pictures</media:credit></media:content>
+            </item>
+                    <item>
+                <title>TikTok explained why some US creators are seeing posts with "0 views"</title>
+                <link>https://arstechnica.com/tech-policy/2026/01/tiktok-glitches-caused-by-data-center-power-outage-us-joint-venture-says/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/01/tiktok-glitches-caused-by-data-center-power-outage-us-joint-venture-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Mon, 26 Jan 2026 16:23:48 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[outage]]></category>
+		<category><![CDATA[tiktok]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/tiktok-glitches-caused-by-data-center-power-outage-us-joint-venture-says/</guid>
+
+                                    <description>
+                        <![CDATA[US TikTok users experienced a wide range of errors, sparking conspiracies.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>TikTok has been glitching for US users since Sunday, and <a href="https://arstechnica.com/tech-policy/2026/01/tiktok-finalizes-trump-deal-that-allows-bytedance-to-maintain-some-control/">TikTok's new US owners</a> finally confirmed the cause: a power outage at a US data center.</p>
+<p>"Since yesterday we’ve been working to restore our services following a power outage at a US data center impacting TikTok and other apps we operate," the TikTok USDS Joint Venture posted on X on Monday morning. "We're working with our data center partner to stabilize our service. We're sorry for this disruption and hope to resolve it soon."</p>
+<p>By Monday evening, the issues had not been resolved, with the TikTok USDS account posting an update warning users to expect "bugs, slower load times, or timed-out requests, including when posting new content." The X post directly confronted creator concerns about receiving "0 views" on new videos and/or missing earnings. The glitch is temporary, TikTok USDS said, "your actual data and engagement are safe."</p><p><a href="https://arstechnica.com/tech-policy/2026/01/tiktok-glitches-caused-by-data-center-power-outage-us-joint-venture-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/01/tiktok-glitches-caused-by-data-center-power-outage-us-joint-venture-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>67</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2257704765-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2257704765-500x500-1769443637.jpg" width="500"/>
+<media:credit>Cheng Xin / Contributor | Getty Images News</media:credit></media:content>
+            </item>
+                    <item>
+                <title>How to get Doom running on a pair of earbuds</title>
+                <link>https://arstechnica.com/gaming/2026/01/how-to-get-doom-running-on-a-pair-of-earbuds/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/01/how-to-get-doom-running-on-a-pair-of-earbuds/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Mon, 26 Jan 2026 16:13:22 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[can it run doom]]></category>
+		<category><![CDATA[coding]]></category>
+		<category><![CDATA[Doom]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[id]]></category>
+		<category><![CDATA[port]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/01/how-to-get-doom-running-on-a-pair-of-earbuds/</guid>
+
+                                    <description>
+                        <![CDATA[No display? No problem for the UART-to-web-server "Doombuds" project.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Over the years, hackers and modders at large have <a href="https://canitrundoom.org/">made it their mission</a> to port classic first-person shooter <em>Doom</em> to <a href="https://arstechnica.com/gaming/2025/01/someone-made-a-captcha-where-you-play-doom-on-nightmare-difficulty/">practically</a> <a href="https://arstechnica.com/gaming/2024/01/can-it-run-doom-gut-bacteria-edition/">anything</a> with <a href="https://arstechnica.com/gaming/2024/01/can-it-run-doom-gut-bacteria-edition/">a display</a>. Recently, though, coder <a href="https://www.linkedin.com/in/arin-sarkisian/">Arin Sarkisan</a> has taken the "Can it Run <em>Doom</em>?" idea in an unlikely direction: wireless earbuds that aren't designed to output graphics at all.</p>
+<p>To be clear, this hack doesn't apply to any generic set of earbuds. <a href="https://doombuds.com/">The "Doombuds" project</a> is designed specifically for the <a href="https://pine64.com/product/pinebuds-pro-open-firmware-capable-anc-wireless-earbuds/">PineBuds Pro</a>, which are unique in featuring <a href="https://github.com/pine64/OpenPineBuds">completely open source firmware</a> and <a href="https://pine64.org/documentation/PineBuds_Pro/Software/">a community-maintained SDK</a>.</p>
+<p>That means Sarkisan was able to <a href="https://github.com/arin-s/DOOMBUDS-JS">code up a JavaScript interface</a> that uses the earbuds' <a href="https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter">UART contact pads</a> to send <a href="https://www.adobe.com/creativecloud/file-types/video/codec/mjpeg.html">a heavily compressed MJPEG video stream</a> to a web server (via a serial server). The 2.4 MB/s data stream from the UART connection can put out about 22 to 27 frames per second in this format, which is more than enough for a CPU that can only run the game at a maximum of 18 fps anyway.</p><p><a href="https://arstechnica.com/gaming/2026/01/how-to-get-doom-running-on-a-pair-of-earbuds/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/01/how-to-get-doom-running-on-a-pair-of-earbuds/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>29</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/PineBuds-Pro-4-1152x648-1769443386.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/PineBuds-Pro-4-500x500.jpg" width="500"/>
+<media:credit>Piine64</media:credit><media:text>Behold, the latest and perhaps unlikeliest platform to run &lt;em&gt;Doom&lt;/em&gt;.</media:text></media:content>
+            </item>
+                    <item>
+                <title>EU launches formal investigation of xAI over Grok's sexualized deepfakes</title>
+                <link>https://arstechnica.com/tech-policy/2026/01/eu-launches-formal-investigation-of-xai-over-groks-sexualized-deepfakes/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/01/eu-launches-formal-investigation-of-xai-over-groks-sexualized-deepfakes/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Barbara Moens, Financial Times]]>
+                </dc:creator>
+                <pubDate>Mon, 26 Jan 2026 14:17:46 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[xAI Grok]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/eu-launches-formal-investigation-of-xai-over-groks-sexualized-deepfakes/</guid>
+
+                                    <description>
+                        <![CDATA[Elon Musk's company faces fines of up to 6 percent of its daily turnover.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The EU has launched a formal investigation into Elon Musk’s xAI following a public outcry over how its Grok chatbot spread sexualized images of women and children.</p>
+<p>The billionaire entrepreneur has come under scrutiny from regulators around the world this month after people began using Grok to generate deepfakes of people without consent. The images were posted on the X social network as well as the separate Grok app, both of which are run by xAI.</p>
+<p>The probe, announced on Monday under the EU’s Digital Services Act, will assess if xAI tried to mitigate the risks of deploying Grok’s tools on X and the proliferation of content that “may amount to child sexual abuse material.”</p><p><a href="https://arstechnica.com/tech-policy/2026/01/eu-launches-formal-investigation-of-xai-over-groks-sexualized-deepfakes/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/01/eu-launches-formal-investigation-of-xai-over-groks-sexualized-deepfakes/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>79</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/xai-grok-1152x648-1752596823.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/xai-grok-500x500-1752596846.jpg" width="500"/>
+<media:credit>Getty Images | VCG </media:credit></media:content>
+            </item>
+                    <item>
                 <title>Former astronaut on lunar spacesuits: "I don't think they're great right now"</title>
                 <link>https://arstechnica.com/space/2026/01/former-astronaut-on-lunar-spacesuits-i-dont-think-theyre-great-right-now/</link>
                                     <comments>https://arstechnica.com/space/2026/01/former-astronaut-on-lunar-spacesuits-i-dont-think-theyre-great-right-now/#comments</comments>
@@ -51,7 +411,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>10</slash:comments>
+                                    <slash:comments>208</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/jsc2025e077725-1152x648.jpg" width="1152">
@@ -84,7 +444,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>31</slash:comments>
+                                    <slash:comments>35</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/ADAM_BEN_L1560319-1152x648-1769205900.jpg" width="1152">
@@ -109,10 +469,10 @@
                 <guid isPermaLink="true">https://arstechnica.com/security/2026/01/wiper-malware-targeted-poland-energy-grid-but-failed-to-knock-out-electricity/</guid>
 
                                     <description>
-                        <![CDATA[Destructive payload unleashed on 10-year anniversary of Russia's attack on Ukraine's grid.]]>
+                        <![CDATA[Destructive payload unleashed on tenth anniversary of Russia's attack on Ukraine's grid.]]>
                     </description>
                                                                 <content:encoded>
-                            <![CDATA[<p>Researchers on Friday said that Poland’s electric grid was targeted by wiper malware, likely unleashed by Russia state hackers, in an attempt to disrupt electricity delivery operations.</p>
+                            <![CDATA[<p>Researchers on Friday said that Poland’s electric grid was targeted by wiper malware, likely unleashed by Russia state hackers in an attempt to disrupt electricity delivery operations.</p>
 <p>A cyberattack, <a href="https://www.reuters.com/sustainability/climate-energy/massive-cyberattack-polish-power-system-december-failed-minister-says-2026-01-13/">Reuters reported</a>, occurred during the last week of December. The news organization said it was aimed at disrupting communications between renewable installations and the power distribution operators but failed for reasons not explained.</p>
 <h2>Wipers R Us</h2>
 <p>On Friday, security firm ESET <a href="https://www.welivesecurity.com/en/eset-research/eset-research-sandworm-cyberattack-poland-power-grid-late-2025/">said</a> the malware responsible was a wiper, a type of malware that permanently erases code and data stored on servers with the goal of destroying operations completely. After studying the tactics, techniques, and procedures (TTPs) used in the attack, company researchers said the wiper was likely the work of a Russian government hacker group tracked under the name Sandworm.</p><p><a href="https://arstechnica.com/security/2026/01/wiper-malware-targeted-poland-energy-grid-but-failed-to-knock-out-electricity/">Read full article</a></p>
@@ -120,12 +480,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>146</slash:comments>
+                                    <slash:comments>179</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/data-wiper-malware-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/data-wiper-malware-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>Removing computer data and clearing digital code from a hard drive or memory storage server as a hacking or internet security conept as a 3D illustration.</media:text></media:content>
+<media:credit>Getty Images</media:credit></media:content>
             </item>
                     <item>
                 <title>Did Edison accidentally make graphene in 1879?</title>
@@ -150,12 +510,12 @@
                                                                 <content:encoded>
                             <![CDATA[<p>Graphene is the thinnest material yet known, composed of a single layer of carbon atoms arranged in a hexagonal lattice. That structure gives it many unusual properties that hold great promise for real-world applications: batteries, super capacitors, antennas, water filters, transistors, solar cells, and touchscreens, just to name a few. The physicists who first synthesized graphene in the lab won the <a href="https://www.nobelprize.org/prizes/physics/2010/summary/">2010 Nobel Prize in Physics</a>. But 19th century inventor Thomas Edison may have unknowingly created graphene as a byproduct of his original experiments on incandescent bulbs over a century earlier, according to a <a href="https://pubs.acs.org/doi/10.1021/acsnano.5c12759">new paper</a> published in the journal ACS Nano.</p>
 <p>“To reproduce what <a href="https://en.wikipedia.org/wiki/Thomas_Edison">Thomas Edison</a> did, with the tools and knowledge we have now, is very exciting,” <a href="https://news.rice.edu/news/2026/rice-researchers-replicating-edisons-1879-light-bulb-experiments-show-graphene-may-have">said co-author James Tour</a>, a chemist at Rice University. “Finding that he could have produced graphene inspires curiosity about what other information lies buried in historical experiments. What questions would our scientific forefathers ask if they could join us in the lab today? What questions can we answer when we revisit their work through a modern lens?”</p>
-<p>Edison didn't invent the concept of incandescent lamps; there were several versions predating his efforts. However, they generally had a a very short life span and required high electric current, so they weren't well suited to Edison's vision of large-scale commercialization. He experimented with different filament materials starting with carbonized cardboard and compressed lampblack. This, too, quickly burnt out, as did filaments made with various grasses and canes, like hemp and palmetto. Eventually Edison discovered that carbonized bamboo made for the best filament, with life spans over 1200 hours using a 110 volt power source.</p><p><a href="https://arstechnica.com/science/2026/01/did-edison-accidentally-make-graphene-in-1879/">Read full article</a></p>
+<p>Edison didn't invent the concept of incandescent lamps; there were several versions predating his efforts. However, they generally had a very short life span and required high electric current, so they weren't well suited to Edison's vision of large-scale commercialization. He experimented with different filament materials starting with carbonized cardboard and compressed lampblack. This, too, quickly burnt out, as did filaments made with various grasses and canes, like hemp and palmetto. Eventually Edison discovered that carbonized bamboo made for the best filament, with life spans over 1,200 hours using a 110 volt power source.</p><p><a href="https://arstechnica.com/science/2026/01/did-edison-accidentally-make-graphene-in-1879/">Read full article</a></p>
 <p><a href="https://arstechnica.com/science/2026/01/did-edison-accidentally-make-graphene-in-1879/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>61</slash:comments>
+                                    <slash:comments>77</slash:comments>
                 
                 
                 <media:content height="632" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/edison3-1152x632.jpg" width="1152">
@@ -184,7 +544,7 @@
                         <![CDATA[While the rash has a clear link to ketones, the underlying mechanism remains elusive.]]>
                     </description>
                                                                 <content:encoded>
-                            <![CDATA[<p>A 20-year old man in Taiwan went to a dermatology clinic for a strange rash that had developed across his shoulders and chest. The raised, red, and itchy condition had been bothering him for a full month. By this point, he had also developed patches of pigmented skin interlaced with the red rash.</p>
+                            <![CDATA[<p>A 20-year-old man in Taiwan went to a dermatology clinic for a strange rash that had developed across his shoulders and chest. The raised, red, and itchy condition had been bothering him for a full month. By this point, he had also developed patches of pigmented skin interlaced with the red rash.</p>
 <p>According to <a href="https://www.nejm.org/doi/full/10.1056/NEJMicm2514242?logout=true">a case report in the New England Journal of Medicine</a>, a skin biopsy showed swelling between his skin cells and inflammation around blood vessels, but testing came up negative for other common signs of skin conditions, leaving doctors with few leads. The doctors ultimately came to a diagnosis not by analyzing his skin further but by hearing about his diet.</p>
 <img width="640" height="281" src="https://cdn.arstechnica.net/wp-content/uploads/2026/01/nejmicm2514242_f1-640x281.jpg" class="center medium" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/01/nejmicm2514242_f1-640x281.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/nejmicm2514242_f1-1024x450.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/nejmicm2514242_f1-768x337.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/nejmicm2514242_f1-1536x674.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/nejmicm2514242_f1-2048x899.jpg 2048w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/nejmicm2514242_f1-980x430.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/nejmicm2514242_f1-1440x632.jpg 1440w" sizes="auto, (max-width: 640px) 100vw, 640px">
       The man's chest and shoulders, showing his rash and hyperpigmentation.
@@ -196,7 +556,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>101</slash:comments>
+                                    <slash:comments>117</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/nejmicm2514242_f1-1152x648.jpg" width="1152">
@@ -235,7 +595,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>35</slash:comments>
+                                    <slash:comments>38</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/4-1152x648.jpg" width="1152">
@@ -270,7 +630,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>105</slash:comments>
+                                    <slash:comments>128</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/intel-core-ultra-series-3-1152x648.jpg" width="1152">
@@ -305,7 +665,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>201</slash:comments>
+                                    <slash:comments>233</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2257128839-1024x648.jpg" width="1024">
@@ -337,7 +697,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>424</slash:comments>
+                                    <slash:comments>557</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/nekima-levy-white-house-manipulated-image-1152x648-1769192287.jpg" width="1152">
@@ -369,377 +729,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>83</slash:comments>
+                                    <slash:comments>87</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/652fa4f61e054d1c335ce241_Rectangle_20180_203.jpg">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/652fa4f61e054d1c335ce241_Rectangle_20180_203-500x500.jpg" width="500"/>
 <media:credit>Telly</media:credit><media:text>A marketing image for a dual-screen Telly TV.</media:text></media:content>
-            </item>
-                    <item>
-                <title>TikTok deal is done; Trump wants praise while users fear MAGA tweaks</title>
-                <link>https://arstechnica.com/tech-policy/2026/01/tiktok-finalizes-trump-deal-that-allows-bytedance-to-maintain-some-control/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/01/tiktok-finalizes-trump-deal-that-allows-bytedance-to-maintain-some-control/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Fri, 23 Jan 2026 17:29:06 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[bytedance]]></category>
-		<category><![CDATA[china]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[tiktok]]></category>
-		<category><![CDATA[us-china trade war]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/01/tiktok-finalizes-trump-deal-that-allows-bytedance-to-maintain-some-control/</guid>
-
-                                    <description>
-                        <![CDATA[“I am so happy”: Trump closes deal that hands TikTok US to his allies.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The TikTok deal is done, and Donald Trump is claiming a win, although it remains unclear if the joint venture he arranged with ByteDance and the Chinese government actually resolves Congress' national security concerns.</p>
-<p>In a <a href="https://newsroom.tiktok.com/announcement-from-the-new-tiktok-usds-joint-venture-llc">press release</a> Thursday, TikTok announced the "TikTok USDS Joint Venture LLC," an entity established to keep TikTok operating in the US.</p>
-<p>Giving Americans majority ownership, ByteDance retains 19.9 percent of the joint venture, the release said, which has been valued at $14 billion. Three managing investors—Silver Lake, Oracle, and MGX—each hold 15 percent, while other investors, including Dell Technologies CEO Michael Dell's investment firm, Dell Family Office, hold smaller, undisclosed stakes.</p><p><a href="https://arstechnica.com/tech-policy/2026/01/tiktok-finalizes-trump-deal-that-allows-bytedance-to-maintain-some-control/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/01/tiktok-finalizes-trump-deal-that-allows-bytedance-to-maintain-some-control/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>120</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2257704699-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2257704699-500x500.jpg" width="500"/>
-<media:credit>Cheng Xin / Contributor | Getty Images News</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Tesla kills Autopilot, locks lane-keeping behind $99/month fee</title>
-                <link>https://arstechnica.com/cars/2026/01/tesla-wants-recurring-revenue-discontinues-autopilot-in-favor-of-fsd/</link>
-                                    <comments>https://arstechnica.com/cars/2026/01/tesla-wants-recurring-revenue-discontinues-autopilot-in-favor-of-fsd/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Fri, 23 Jan 2026 16:54:12 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[tesla autopilot]]></category>
-		<category><![CDATA[Tesla FSD]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/01/tesla-wants-recurring-revenue-discontinues-autopilot-in-favor-of-fsd/</guid>
-
-                                    <description>
-                        <![CDATA[With falling sales and shrinking profits, the recurring revenue will be most welcome.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Love it or hate it, Tesla has been responsible for helping to shape the tastes of automotive consumers over the past decade-plus. Over-the-air updates that add more features, an all-touchscreen human-machine interface, large castings, and hands-free driver assists were all introduced or popularized by Tesla's electric vehicles, <a href="https://arstechnica.com/cars/2024/02/ford-rethinks-ev-strategy-is-working-on-a-smaller-cheaper-ev-platform/" target="_blank" rel="noopener">prompting other automakers to copy them</a>, mostly in the hopes of seeing the same stratospheric gains in their stock prices. But starting on Valentine's Day, if you want your new Tesla to steer itself, you'll have to pay a $99 monthly subscription fee.</p>
-<p>Tesla currently offers a pair of so-called "level 2" partially automated driver assist systems. Autopilot is the older of these, combining Tesla's adaptive cruise control (Tesla calls this TACC) and lane-keeping assist (Tesla calls this Autosteer). <a href="https://arstechnica.com/cars/2026/01/feds-give-tesla-another-five-weeks-to-respond-to-fsd-probe/">FSD is the newer system</a>, meant to be more capable and for use on surface streets and divided-lane highways. Although the company and Tesla CEO Elon Musk regularly tout these systems' capabilities, both still require the human driver to provide situational awareness.</p>
-<p>But Autopilot has been under fire from regulators and the courts. Multiple wrongful death lawsuits are in the works, and after <a href="https://arstechnica.com/cars/2025/08/tesla-loses-autopilot-wrongful-death-case-in-329-million-verdict/">a high-profile loss resulting in a $329 million judgment</a> against Tesla, expect many of these suits to be settled. Both the <a href="https://arstechnica.com/cars/2022/10/teslas-autopilot-is-the-subject-of-a-federal-criminal-investigation/">federal government</a> and <a href="https://arstechnica.com/tech-policy/2023/12/tesla-fights-autopilot-false-advertising-claim-with-free-speech-argument/">California</a> have investigated whether Tesla misled customers, and in December, an administrative law judge <a href="https://www.cnbc.com/2025/12/16/california-judge-says-tesla-engaged-in-deceptive-autopilot-marketing-.html">ruled that Tesla indeed engaged in deceptive marketing</a> by implying that its cars could drive themselves. The judge suspended Tesla's license to sell cars in California, a decision that the California Department of Motor Vehicles stayed for 60 days.</p><p><a href="https://arstechnica.com/cars/2026/01/tesla-wants-recurring-revenue-discontinues-autopilot-in-favor-of-fsd/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/01/tesla-wants-recurring-revenue-discontinues-autopilot-in-favor-of-fsd/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>468</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-1415090444-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-1415090444-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>Tesla has long championed hands-free driving assists. Now it's making them subscription-only.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Rocket Report: Chinese rockets fail twice in 12 hours; Rocket Lab reports setback</title>
-                <link>https://arstechnica.com/space/2026/01/rocket-report-rocket-lab-reports-neutron-setback-australia-backs-launch-startup/</link>
-                                    <comments>https://arstechnica.com/space/2026/01/rocket-report-rocket-lab-reports-neutron-setback-australia-backs-launch-startup/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Fri, 23 Jan 2026 14:31:44 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[australia]]></category>
-		<category><![CDATA[Commercial space]]></category>
-		<category><![CDATA[Gilmour space]]></category>
-		<category><![CDATA[isar aerospace]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[rocket report]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/01/rocket-report-rocket-lab-reports-neutron-setback-australia-backs-launch-startup/</guid>
-
-                                    <description>
-                        <![CDATA[Another partially reusable Chinese rocket, the Long March 12B, is nearing its first test flight.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Welcome to Edition 8.26 of the Rocket Report! The past week has been one of advancements and setbacks in the rocket business. NASA rolled the massive rocket for the Artemis II mission to its launch pad in Florida, while Chinese launchers suffered back-to-back failures within a span of approximately 12 hours. Rocket Lab's march toward a debut of its new Neutron launch vehicle in the coming months may have stalled after a failure during a key qualification test. We cover all this and more in this week's Rocket Report.</p>
-<p>As always, we <a href="https://arstechnica.wufoo.com/forms/launch-stories/">welcome reader submissions</a>. If you don't want to miss an issue, please subscribe using the box below (the form will not appear on AMP-enabled versions of the site). Each report will include information on small-, medium-, and heavy-lift rockets, as well as a quick look ahead at the next three launches on the calendar.</p>
-<figure class="ars-img-shortcode id-1314289 align-center">
-    <div>
-                        <img decoding="async" width="560" height="81" src="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png" class="center full" alt="" srcset="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png 560w, https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll-300x43.png 300w" sizes="(max-width: 560px) 100vw, 560px">
-                  </div>
-      </figure>
-
-<p><b>Australia invests in sovereign launch. </b>Six months after its first orbital rocket cleared the launch tower for just 14 seconds before crashing back to Earth, Gilmour Space Technologies has secured 217 million Australian dollars ($148 million) in funding that CEO Adam Gilmour says finally gives Australia a fighting chance in the global space race, <a href="https://www.smh.com.au/technology/adam-s-last-rocket-blew-up-taxpayers-are-betting-75m-the-next-one-will-go-better-20260119-p5nv0k.html">the Sydney Morning Herald reports</a>. The funding round, led by the federal government's National Reconstruction Fund Corporation and superannuation giant Hostplus with $75 million each, makes the Queensland company Australia’s newest unicorn<span class="s1">—</span>a fast-growth start-up valued at more than $1 billion<span class="s1">—</span>and one of the country’s most heavily backed private technology<strong> </strong>ventures.</p><p><a href="https://arstechnica.com/space/2026/01/rocket-report-rocket-lab-reports-neutron-setback-australia-backs-launch-startup/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/01/rocket-report-rocket-lab-reports-neutron-setback-australia-backs-launch-startup/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>66</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/54643108625_7db2967a37_k-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/54643108625_7db2967a37_k-500x500.jpg" width="500"/>
-<media:credit>Rocket Lab</media:credit><media:text>An Archimedes engine for Rocket Lab's Neutron rocket is test-fired at Stennis Space Center, Mississippi.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Tiny falcons are helping keep the food supply safe on cherry farms</title>
-                <link>https://arstechnica.com/science/2026/01/tiny-falcons-are-helping-keep-the-food-supply-safe-on-cherry-farms/</link>
-                                    <comments>https://arstechnica.com/science/2026/01/tiny-falcons-are-helping-keep-the-food-supply-safe-on-cherry-farms/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[K.R. Callaway]]>
-                </dc:creator>
-                <pubDate>Fri, 23 Jan 2026 14:10:48 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[birds]]></category>
-		<category><![CDATA[cherries]]></category>
-		<category><![CDATA[Ecology]]></category>
-		<category><![CDATA[food supply]]></category>
-		<category><![CDATA[kestrels]]></category>
-		<category><![CDATA[raptors]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/01/tiny-falcons-are-helping-keep-the-food-supply-safe-on-cherry-farms/</guid>
-
-                                    <description>
-                        <![CDATA[Their presence appears to lower the risk of food-borne illnesses from pathogens.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Every spring, raptors return to nesting sites across northern Michigan. The smallest of these birds of prey, a falcon called the American kestrel (<em>Falco sparverius</em>), flies through the region’s many cherry orchards and spends its days hunting for even tinier creatures to eat. This quest keeps the kestrels fed, but it also benefits the region’s cherry farmers.</p>
-<p>Fruit farmers have been working symbiotically with kestrels for decades, adding nesting boxes and reaping the benefits of the birds eliminating the mice, voles, songbirds, and other pests that wreak havoc by feeding on not-yet-harvested crops. In addition to limiting the crop damage caused by hungry critters, new research suggests kestrels also lower the risk of food-borne illnesses.</p>
-<p>The study, published in November in the <a href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2664.70209">Journal of Applied Ecology</a>, suggests the kestrels help keep harmful pathogens off of fruit headed to consumers by eating and scaring off small birds that carry those pathogens. Orchards housing the birds in nest boxes saw fewer cherry-eating birds than orchards without kestrels on site. This translated to an 81 percent reduction in crop damage—such as bite marks or missing fruit—and a 66 percent decrease in branches contaminated with bird feces.</p><p><a href="https://arstechnica.com/science/2026/01/tiny-falcons-are-helping-keep-the-food-supply-safe-on-cherry-farms/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/01/tiny-falcons-are-helping-keep-the-food-supply-safe-on-cherry-farms/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>70</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/kestrel-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/kestrel-500x500.jpg" width="500"/>
-<media:credit>Jon G. Fuller/Universal Images Group via Getty Images</media:credit><media:text>An American kestrel. </media:text></media:content>
-            </item>
-                    <item>
-                <title>2026 Lucid Air Touring review: This feels like a complete car now</title>
-                <link>https://arstechnica.com/features/2026/01/2026-lucid-air-touring-review-this-feels-like-a-complete-car-now/</link>
-                                    <comments>https://arstechnica.com/features/2026/01/2026-lucid-air-touring-review-this-feels-like-a-complete-car-now/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Fri, 23 Jan 2026 12:00:31 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[car review]]></category>
-		<category><![CDATA[Lucid Air Touring]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/features/2026/01/2026-lucid-air-touring-review-this-feels-like-a-complete-car-now/</guid>
-
-                                    <description>
-                        <![CDATA[It's efficient, easy to live with, and smooth to drive.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Life as a startup carmaker is hard—just ask Lucid Motors.</p>
-<p>When we <a href="https://arstechnica.com/cars/2017/03/tesla-might-have-real-competition-soon-meet-the-lucid-air/">met the brand and its prototype Lucid Air sedan in 2017</a>, the company planned to put the first cars in customers' hands within a couple of years. But you know what they say about plans. A lack of funding paused everything until late 2018, when Saudi Arabia's sovereign wealth fund <a href="https://arstechnica.com/cars/2018/09/lucid-motors-raises-1-billion-to-build-all-electric-cars-in-arizona/">bought itself a stake</a>. A billion dollars meant Lucid could build a factory—at the cost of alienating some former fans because of the source.</p>
-<p>Then the pandemic happened, <a href="https://arstechnica.com/cars/2020/06/please-dont-describe-us-as-a-tesla-killer-ars-talks-to-lucid-motors/">further pushing back timelines</a> as supply shortages took hold. But the Air did go on sale, and it has more recently been joined by the <a href="https://arstechnica.com/features/2024/12/the-2025-lucid-gravity-impresses-us-with-slick-handling-magic-ride/">Gravity SUV</a>. There's even a much more affordable midsize SUV in the works called the Earth. Sales more than doubled in 2025, and after spending a week with a model year 2026 Lucid Air Touring, I can understand why.</p><p><a href="https://arstechnica.com/features/2026/01/2026-lucid-air-touring-review-this-feels-like-a-complete-car-now/">Read full article</a></p>
-<p><a href="https://arstechnica.com/features/2026/01/2026-lucid-air-touring-review-this-feels-like-a-complete-car-now/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>169</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/2026-Lucid-Air-Touring-1-e1768932171844-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/2026-Lucid-Air-Touring-1-e1768932171844-500x500-1768932196.jpg" width="500"/>
-<media:credit>Jonathan Gitlin</media:credit><media:text>The 2026 Lucid Air Touring sees the brand deliver on its early promise.</media:text></media:content>
-            </item>
-                    <item>
-                <title>This 67,800-year-old hand stencil is the world's oldest human-made art</title>
-                <link>https://arstechnica.com/science/2026/01/this-67800-year-old-hand-stencil-is-the-worlds-oldest-human-made-art/</link>
-                                    <comments>https://arstechnica.com/science/2026/01/this-67800-year-old-hand-stencil-is-the-worlds-oldest-human-made-art/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kiona N. Smith]]>
-                </dc:creator>
-                <pubDate>Fri, 23 Jan 2026 12:00:29 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[anthropology]]></category>
-		<category><![CDATA[Archaeology]]></category>
-		<category><![CDATA[australia]]></category>
-		<category><![CDATA[cave art]]></category>
-		<category><![CDATA[hominins]]></category>
-		<category><![CDATA[human migration]]></category>
-		<category><![CDATA[Indonesia]]></category>
-		<category><![CDATA[rock art]]></category>
-		<category><![CDATA[Sahul]]></category>
-		<category><![CDATA[science]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/01/this-67800-year-old-hand-stencil-is-the-worlds-oldest-human-made-art/</guid>
-
-                                    <description>
-                        <![CDATA[The world's oldest art has an unintentional story to tell about human exploration.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The world’s oldest surviving rock art is a faded outline of a hand on an Indonesian cave wall, left 67,800 years ago.</p>
-<p>On a tiny island just off the coast of Sulawesi (a much larger island in Indonesia), a cave wall bears the stenciled outline of a person’s hand—and it’s at least 67,800 years old, according to a recent study. The hand stencil is now the world’s oldest work of art (at least until archaeologists find something even older), as well as the oldest evidence of our species on any of the islands that stretch between continental Asia and Australia.</p>
-<img width="1024" height="1365" src="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Dr-Adhi-Agus-Oktaviana--1024x1365.jpg" class="none large" alt="Photo of an archaeologists examining a hand stencil painted on a cave wall, using a flashlight" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Dr-Adhi-Agus-Oktaviana--1024x1365.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/Dr-Adhi-Agus-Oktaviana--640x853.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/Dr-Adhi-Agus-Oktaviana--768x1024.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/Dr-Adhi-Agus-Oktaviana--1152x1536.jpg 1152w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/Dr-Adhi-Agus-Oktaviana--1536x2048.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/Dr-Adhi-Agus-Oktaviana--980x1307.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/Dr-Adhi-Agus-Oktaviana--1440x1920.jpg 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
-      Adhi Oktaviana examines a slightly more recent hand stencil on the wall of Liang Metanduno.
-        Credit:
-          Oktaviana et al. 2026
-      
-<h2>Hands reaching out from the past</h2>
-<p>Archaeologist Adhi Agus Oktaviana, of Indonesia’s National Research and Innovation Agency, and his colleagues have spent the last six years surveying 44 rock art sites, mostly caves, on Sulawesi’s southeastern peninsula and the handful of tiny “satellite islands” off its coast. They found 14 previously undocumented sites and used rock formations to date 11 individual pieces of rock art in eight caves—including the oldest human artwork discovered so far.</p><p><a href="https://arstechnica.com/science/2026/01/this-67800-year-old-hand-stencil-is-the-worlds-oldest-human-made-art/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/01/this-67800-year-old-hand-stencil-is-the-worlds-oldest-human-made-art/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>55</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Narrowed-finger-hand-stencils-from-Leang-Jarie-Maros-Sulawesi-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Narrowed-finger-hand-stencils-from-Leang-Jarie-Maros-Sulawesi-500x500.jpg" width="500"/>
-<media:credit>OKtaviana et al. 2026</media:credit><media:text>These 17,000-year-old hand stencils from Liang Jarie Maros, in another area of Sulawesi, bear a striking resemblance to the much older ones in Liang Metanduno.</media:text></media:content>
-            </item>
-                    <item>
-                <title>US officially out of WHO, leaving hundreds of millions of dollars unpaid</title>
-                <link>https://arstechnica.com/health/2026/01/us-stiffs-who-hundreds-of-millions-as-it-officially-withdrawals/</link>
-                                    <comments>https://arstechnica.com/health/2026/01/us-stiffs-who-hundreds-of-millions-as-it-officially-withdrawals/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Thu, 22 Jan 2026 23:07:45 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[trump administration]]></category>
-		<category><![CDATA[WHO]]></category>
-		<category><![CDATA[World Health Organization]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/01/us-stiffs-who-hundreds-of-millions-as-it-officially-withdrawals/</guid>
-
-                                    <description>
-                        <![CDATA[US did not pay $278 million in 2024–2025 dues and millions more in promised funds.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>As of today, the US is no longer a member of the World Health Organization—and it leaves the United Nations health agency with hundreds of millions of dollars in unpaid bills, according to <a href="https://www.statnews.com/2026/01/21/trump-withdrawal-world-health-organization-leaves-unpaid-bills-behind/">reporting by Stat News</a>.</p>
-<p>A year ago today, the US <a href="https://arstechnica.com/tech-policy/2025/01/trump-orders-us-withdrawal-from-the-world-health-organization/">informed the WHO</a> of its intent to exit, setting the clock for a one-year withdrawal period mandated in a 1948 joint resolution of Congress. But, in practice, the withdrawal was immediate, with the Trump administration cutting all ties with WHO upon the announcement. In explaining his reasoning for leaving the WHO, Trump referenced his long-standing complaints about the agency’s handling of the COVID-19 pandemic, dues payments, and alleged protection of China. Trump had attempted to extract the US from WHO <a href="https://arstechnica.com/tech-policy/2020/07/trump-officially-takes-us-out-of-who-but-withdrawal-is-a-year-long-process/">during his first term</a>, but the Biden administration rescinded the withdrawal on the first day in office, well before the one-year notice period was reached.</p>
-<p>The joint resolution also stipulated that the US would have to pay its financial obligations in full before departing. But, that too has not been honored by the Trump administration. According to Stat, the US owed the WHO $278 million in dues, which are a percentage of each member state’s gross domestic product. That dues payment covered the country's 2024–2025 membership, as WHO runs on a two-year budget cycle.</p><p><a href="https://arstechnica.com/health/2026/01/us-stiffs-who-hundreds-of-millions-as-it-officially-withdrawals/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/01/us-stiffs-who-hundreds-of-millions-as-it-officially-withdrawals/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>302</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/GettyImages-1250822831-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/GettyImages-1250822831-500x500.jpeg" width="500"/>
-<media:credit>Getty | FABRICE COFFRINI</media:credit><media:text>World Health Organization (WHO) chief Tedros Adhanom Ghebreyesus speaks at a press conference on the World Health Organization's 75th anniversary in Geneva, on April 6, 2023. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Overrun with AI slop, cURL scraps bug bounties to ensure "intact mental health"</title>
-                <link>https://arstechnica.com/security/2026/01/overrun-with-ai-slop-curl-scraps-bug-bounties-to-ensure-intact-mental-health/</link>
-                                    <comments>https://arstechnica.com/security/2026/01/overrun-with-ai-slop-curl-scraps-bug-bounties-to-ensure-intact-mental-health/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Thu, 22 Jan 2026 22:46:30 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[bug bounties]]></category>
-		<category><![CDATA[LLMs]]></category>
-		<category><![CDATA[slop]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2026/01/overrun-with-ai-slop-curl-scraps-bug-bounties-to-ensure-intact-mental-health/</guid>
-
-                                    <description>
-                        <![CDATA[The onslaught includes LLMs finding bogus vulnerabilities and code that won't compile.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The project developer for one of the Internet’s most popular networking tools is scrapping its vulnerability reward program after being overrun by a spike in the submission of low-quality reports, much of it AI-generated slop.</p>
-<p>“We are just a small single open source project with a small number of active maintainers,” Daniel Stenberg, the founder and lead developer of the open source app cURL, <a href="https://github.com/curl/curl/pull/20312">said Thursday</a>. “It is not in our power to change how all these people and their slop machines work. We need to make moves to ensure our survival and intact mental health.”</p>
-<h2>Manufacturing bogus bugs</h2>
-<p>His comments came as cURL users complained that the move was treating the symptoms caused by AI slop without addressing the cause. The users said they were concerned the move would eliminate a key means for ensuring and maintaining the security of the tool. Stenberg largely agreed, but indicated his team had little choice.</p><p><a href="https://arstechnica.com/security/2026/01/overrun-with-ai-slop-curl-scraps-bug-bounties-to-ensure-intact-mental-health/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2026/01/overrun-with-ai-slop-curl-scraps-bug-bounties-to-ensure-intact-mental-health/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>86</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/ai-slop-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/ai-slop-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Hacker who stole 120,000 bitcoins wants a second chance—and a security job</title>
-                <link>https://arstechnica.com/security/2026/01/hacker-who-stole-120000-bitcoins-wants-a-second-chance-and-a-security-job/</link>
-                                    <comments>https://arstechnica.com/security/2026/01/hacker-who-stole-120000-bitcoins-wants-a-second-chance-and-a-security-job/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Cyrus Farivar]]>
-                </dc:creator>
-                <pubDate>Thu, 22 Jan 2026 22:23:15 +0000</pubDate>
-                		<category><![CDATA[Security]]></category>
-		<category><![CDATA[bitcoin]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[cybercrime]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2026/01/hacker-who-stole-120000-bitcoins-wants-a-second-chance-and-a-security-job/</guid>
-
-                                    <description>
-                        <![CDATA[Crypto theft was "the worst thing I had ever done."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>On Thursday, Ilya Lichtenstein, who was at the center of a massive 2016 crypto heist worth billions at the time, wrote online that he is now out of prison and has changed his ways.</p>
-<p>“Ten years ago, I decided that I would hack the largest cryptocurrency exchange in the world,” Lichtenstein wrote on <a href="https://www.linkedin.com/pulse/i-hacked-bitcoin-exchange-10-billion-heres-what-ilya-lichtenstein-vgyje/?trackingId=5Wh8%2BdnTSgmxW9eS5XSP4w%3D%3D">LinkedIn</a>, detailing a time when his startup was barely making money and he decided to steal some instead.</p>
-<p>“This was a terrible idea. It was the worst thing I had ever done,” he added. “It upended my life, the lives of people close to me, and affected thousands of users of the exchange. I know I disappointed a lot of people who believed in me and grossly misused my talents.”</p><p><a href="https://arstechnica.com/security/2026/01/hacker-who-stole-120000-bitcoins-wants-a-second-chance-and-a-security-job/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2026/01/hacker-who-stole-120000-bitcoins-wants-a-second-chance-and-a-security-job/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>63</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/04/getty-hacker-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/04/getty-hacker-500x500-1769119458.jpg" width="500"/>
-<media:credit>Getty Images | seksan Mongkhonkhamsao</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Report: Apple plans to launch AI-powered wearable pin device as soon as 2027</title>
-                <link>https://arstechnica.com/apple/2026/01/report-apple-plans-to-launch-ai-powered-wearable-pin-device-as-soon-as-2027/</link>
-                                    <comments>https://arstechnica.com/apple/2026/01/report-apple-plans-to-launch-ai-powered-wearable-pin-device-as-soon-as-2027/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Samuel Axon]]>
-                </dc:creator>
-                <pubDate>Thu, 22 Jan 2026 21:32:28 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[gemini]]></category>
-		<category><![CDATA[Humane]]></category>
-		<category><![CDATA[LLM]]></category>
-		<category><![CDATA[Siri]]></category>
-		<category><![CDATA[wearable]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/apple/2026/01/report-apple-plans-to-launch-ai-powered-wearable-pin-device-as-soon-as-2027/</guid>
-
-                                    <description>
-                        <![CDATA[Apple, OpenAI, Meta, and more are all racing toward AI hardware products.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Apple is working on a wearable device that will allow the user to take advantage of AI models, according to sources familiar with the product who spoke <a href="https://www.theinformation.com/articles/apple-developing-ai-wearable-pin">with tech publication The Information.</a></p>
-<p>The product is said to be "the same size as an AirTag, only slightly thicker," and will be worn as a pin, inviting comparisons to the failed Humane AI pin that launched to bad reviews and lackluster sales in 2024. The Humane product was criticized for sluggish performance and low battery life, but those shortcomings could potentially be addressed by Apple's solution, should Apple offload the processing to a synced external device like an iPhone.</p>
-<p>The Information's sources don't specify whether that's the plan, or if it will be a standalone device.</p><p><a href="https://arstechnica.com/apple/2026/01/report-apple-plans-to-launch-ai-powered-wearable-pin-device-as-soon-as-2027/">Read full article</a></p>
-<p><a href="https://arstechnica.com/apple/2026/01/report-apple-plans-to-launch-ai-powered-wearable-pin-device-as-soon-as-2027/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>151</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2021/05/AirTag-1-1152x648.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/05/AirTag-1-500x500.png" width="500"/>
-<media:credit>Samuel Axon</media:credit><media:text>The new wearable is said to resemble an AirTag like this.</media:text></media:content>
             </item>
             </channel>
 </rss>
