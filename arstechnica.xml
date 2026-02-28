@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Sat, 28 Feb 2026 00:41:28 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 28 Feb 2026 03:40:25 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,43 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Google quantum-proofs HTTPS by squeezing 2.5kB of data into 64-byte space</title>
+                <link>https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/</link>
+                                    <comments>https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Sat, 28 Feb 2026 01:26:41 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[certificate transparency]]></category>
+		<category><![CDATA[HTTPS]]></category>
+		<category><![CDATA[merkle trees]]></category>
+		<category><![CDATA[shor's algorithm]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/</guid>
+
+                                    <description>
+                        <![CDATA[Merkle Tree Certificate support is already in Chrome. Soon, it will be everywhere.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google on Friday unveiled its plan for its Chrome browser to secure HTTPS certificates against quantum computer attacks without breaking the Internet.</p>
+<p>The objective is a tall order. The quantum-resistant cryptographic data needed to transparently publish TLS certificates is roughly 40 times bigger than the classical cryptographic material used today. Today’s <a href="https://en.wikipedia.org/wiki/X.509">X.509 certificates</a> are about 64 bytes in size, and comprise six elliptic curve signatures and two EC public keys. This material can be cracked through the quantum-enabled <a href="https://en.wikipedia.org/wiki/Shor's_algorithm">Shor’s algorithm</a>. Certificates containing the equivalent quantum-resistant cryptographic material are roughly 2.5 kilobytes. All this data must be transmitted when a browser connects to a site.</p>
+<h2>The bigger they come, the slower they move</h2>
+<p>“The bigger you make the certificate, the slower the handshake and the more people you leave behind,” said Bas Westerbaan, principal research engineer at Cloudflare, which is partnering with Google on the transition. “Our problem is we don’t want to leave people behind in this transition.” Speaking to Ars, he said that people will likely disable the new encryption if it slows their browsing. He added that the massive size increase can also degrade “middle boxes,” which sit between browsers and the final site.</p><p><a href="https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>15</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/https-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/https-500x500-1772240635.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
                 <title>The Air Force's new ICBM is nearly ready to fly, but there’s nowhere to put it</title>
                 <link>https://arstechnica.com/space/2026/02/the-air-forces-new-icbm-is-nearly-ready-to-fly-but-theres-nowhere-to-put-them/</link>
                                     <comments>https://arstechnica.com/space/2026/02/the-air-forces-new-icbm-is-nearly-ready-to-fly-but-theres-nowhere-to-put-them/#comments</comments>
@@ -47,7 +84,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>16</slash:comments>
+                                    <slash:comments>56</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/6404099-1152x648-1772236795.jpg" width="1152">
@@ -87,7 +124,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>55</slash:comments>
+                                    <slash:comments>85</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-79075226-1152x648.jpg" width="1152">
@@ -121,7 +158,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>18</slash:comments>
+                                    <slash:comments>23</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/niac_2011_thibeault-1041x648.jpg" width="1041">
@@ -153,7 +190,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>124</slash:comments>
+                                    <slash:comments>136</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/cbp-drone-1152x648-1772218578.jpg" width="1152">
@@ -189,12 +226,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>31</slash:comments>
+                                    <slash:comments>35</slash:comments>
                 
                 
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/goodluckTOP-1152x648-1771948616.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/goodluckTOP-500x500.jpg" width="500"/>
-<media:credit>Briarcliff Entertainment</media:credit></media:content>
+                <media:content height="617" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GLHFDD-TOP-1152x617.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GLHFDD-TOP-500x500.jpg" width="500"/>
+<media:credit>Briarcliff Entertainment </media:credit></media:content>
             </item>
                     <item>
                 <title>Hyperion author Dan Simmons dies from stroke at 77</title>
@@ -223,7 +260,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>101</slash:comments>
+                                    <slash:comments>116</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2015/06/Hyperion-1152x648-1772217993.jpg" width="1152">
@@ -260,7 +297,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>103</slash:comments>
+                                    <slash:comments>109</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/csgogun-1-1152x648.jpeg" width="1152">
@@ -292,7 +329,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>131</slash:comments>
+                                    <slash:comments>133</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/2026-Toyota-bZ-1-1152x648.jpg" width="1152">
@@ -333,7 +370,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>184</slash:comments>
+                                    <slash:comments>194</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-2258061457-1152x648.jpg" width="1152">
@@ -370,7 +407,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>226</slash:comments>
+                                    <slash:comments>255</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/eus_art-1152x648-1753395940.jpg" width="1152">
@@ -412,7 +449,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>78</slash:comments>
+                                    <slash:comments>81</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/tahoe-goodbye-imac-1152x648.jpg" width="1152">
@@ -446,7 +483,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>176</slash:comments>
+                                    <slash:comments>180</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/jack-1152x648.jpg" width="1152">
@@ -482,7 +519,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>79</slash:comments>
+                                    <slash:comments>80</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/DSC_5638-1152x648.jpg" width="1152">
@@ -520,7 +557,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>67</slash:comments>
+                                    <slash:comments>69</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/Neutron-Hungry-Hippo-1152x648.jpg" width="1152">
@@ -555,7 +592,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>133</slash:comments>
+                                    <slash:comments>139</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-1243699616-1024x648.jpg" width="1024">
@@ -705,38 +742,6 @@
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/NB2_Hero.width-2200.format-webp-1152x648.png" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/NB2_Hero.width-2200.format-webp-500x500.png" width="500"/>
 <media:credit>Google</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Ford is recalling 4.3 million trucks and SUVs to fix a towing software bug</title>
-                <link>https://arstechnica.com/cars/2026/02/ford-is-recalling-4-3-million-trucks-and-suvs-to-fix-a-towing-software-bug/</link>
-                                    <comments>https://arstechnica.com/cars/2026/02/ford-is-recalling-4-3-million-trucks-and-suvs-to-fix-a-towing-software-bug/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Thu, 26 Feb 2026 16:53:50 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[auto recall]]></category>
-		<category><![CDATA[Ford]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/02/ford-is-recalling-4-3-million-trucks-and-suvs-to-fix-a-towing-software-bug/</guid>
-
-                                    <description>
-                        <![CDATA[An OTA update will be pushed out in a few weeks; owners can also go to a dealership.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Last year, Ford set a new industry record: It issued 152 safety recalls, almost twice the previous high set by General Motors back in 2014. More than 24 million vehicles were recalled in the US last year, and more than half—13 million—were either Fords or Lincolns. By contrast, Tesla issued 11 recalls, affecting just 745,000 vehicles.</p>
-<p>Truth be told, Ford's not doing too hot in 2026, either; it's currently leading the National Highway Traffic Safety Administration's <a href="https://data.transportation.gov/Automobiles/NHTSA-Recalls-by-Manufacturer/mu99-t4jn">chart for recalls</a> this year, with 10 on the books already. The latest is a big one, affecting almost 4.4 million trucks, vans, and SUVs.</p>
-<p>The recall affects the Ford Maverick (model years 2022–2026), Ford Ranger (MY 2024–2026), Ford Expedition (MY 2022–2026), Ford E-Transit (MY 2026), Ford F-150 (MY 2021–2026), Ford F-250 SD (MY 2022–2026), and the Lincoln Navigator (MY 2022–2026). Just the F-150s alone number 2.3 million.</p><p><a href="https://arstechnica.com/cars/2026/02/ford-is-recalling-4-3-million-trucks-and-suvs-to-fix-a-towing-software-bug/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/02/ford-is-recalling-4-3-million-trucks-and-suvs-to-fix-a-towing-software-bug/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>135</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/2025_Ford_Ranger_Lariat_FX4_1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/2025_Ford_Ranger_Lariat_FX4_1-500x500.jpg" width="500"/>
-<media:credit>Ford</media:credit></media:content>
             </item>
             </channel>
 </rss>
