@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Mon, 02 Mar 2026 22:39:12 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 03 Mar 2026 03:25:54 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,80 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>LLMs can unmask pseudonymous users at scale with surprising accuracy</title>
+                <link>https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/</link>
+                                    <comments>https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Mar 2026 12:30:24 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[deanonymization]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[privacy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/</guid>
+
+                                    <description>
+                        <![CDATA[Pseudonymity has never been perfect for preserving privacy. Soon it may be pointless.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Burner accounts on social media sites can increasingly be analyzed to identify the pseudonymous users who post to them using AI in research that has far-reaching consequences for privacy on the Internet, researchers said.</p>
+<p>The finding, from a recently published <a href="https://arxiv.org/pdf/2602.16800">research paper</a>, is based on results of experiments correlating specific individuals with accounts or posts across more than one social media platform. The success rate was far greater than existing classical deanonymization work that relied on humans assembling structured data sets suitable for algorithmic matching or manual work by skilled investigators. Recall—that is, how many users were successfully deanonymized—was as high as 68 percent. Precision—meaning the rate of guesses that correctly identify the user—was up to 90 percent.</p>
+<h2>I know what you posted last year</h2>
+<p>The findings have the potential to upend pseudonymity, an imperfect but often sufficient privacy measure used by many people to post queries and participate in sometimes sensitive public discussions while making it hard for others to positively identify the speakers. The ability to cheaply and quickly identify the people behind such obscured accounts opens them up to doxxing, stalking, and the assembly of detailed marketing profiles that track where speakers live, what they do for a living, and other personal information. This pseudonymity measure no longer holds.</p><p><a href="https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>6</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/unmask-deanymize-privacy-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/unmask-deanymize-privacy-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>With developer verification, Google's Apple envy threatens to dismantle Android's open legacy</title>
+                <link>https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Mar 2026 12:00:30 +0000</pubDate>
+                		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[developer verification]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[security]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/</guid>
+
+                                    <description>
+                        <![CDATA[Questions remain as Google prepares to lock down Android app distribution in the name of security.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>It's been nearly 20 years since Google revealed Android, which the company described as the first "truly open" mobile operating system, setting Google-powered phones apart from the iPhone's aggressively managed experience. Over time, though, Android has become more aligned with Apple's approach. For the moment, users still have the final say in what software runs on their increasingly locked-down smartphones. Later this year, though, Google plans to seriously curtail that freedom in the name of security.</p>
+<p>In the coming weeks, Google will officially debut <a href="https://arstechnica.com/gadgets/2025/08/google-will-block-sideloading-of-unverified-android-apps-starting-next-year/">Android developer verification</a>, which will require app makers outside the Play Store to register with their real names and <a href="https://arstechnica.com/gadgets/2025/10/google-confirms-android-dev-verification-will-have-free-and-paid-tiers-no-public-list-of-devs/">pay a fee</a> to Google. Failure to do so will block their apps from installation (sometimes called sideloading) on virtually all Android devices. Google says this is a necessary evolution of the platform's security model, but upending the status quo could push developers away from Android and risk the privacy of those that remain.</p>
+<p>This might make your phone a little safer, sure, but it won't stop people from getting scammed. At the same time, it could rob the Android ecosystem of what made it special in the first place.</p><p><a href="https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>15</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/app-cops-1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/app-cops-1-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit><media:text>Google plans to begin policing all Android apps later this year. </media:text></media:content>
+            </item>
+                    <item>
                 <title>Clueless cops post seized crypto wallet password. $5M quickly stolen.</title>
                 <link>https://arstechnica.com/tech-policy/2026/03/oops-south-korean-cops-lost-5m-in-seized-crypto-after-leaking-wallet-password/</link>
                                     <comments>https://arstechnica.com/tech-policy/2026/03/oops-south-korean-cops-lost-5m-in-seized-crypto-after-leaking-wallet-password/#comments</comments>
@@ -44,7 +118,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>21</slash:comments>
+                                    <slash:comments>70</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-1251331351-1152x648.jpg" width="1152">
@@ -78,7 +152,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>102</slash:comments>
+                                    <slash:comments>119</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/cox-truck-1152x648-1772475039.jpg" width="1152">
@@ -112,7 +186,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>81</slash:comments>
+                                    <slash:comments>96</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/iowadatacenter-1152x648.jpg" width="1152">
@@ -148,7 +222,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>54</slash:comments>
+                                    <slash:comments>74</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/ipad-air-m4-1152x648.jpg" width="1152">
@@ -183,7 +257,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>42</slash:comments>
+                                    <slash:comments>58</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/blackhole-1152x648.jpg" width="1152">
@@ -221,7 +295,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>79</slash:comments>
+                                    <slash:comments>100</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/Apple-iPhone-17e-family-lineup-260302-1152x648-1772463997.jpg" width="1152">
@@ -254,7 +328,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>113</slash:comments>
+                                    <slash:comments>127</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/2026_Subaru_Trailerseeker_16-1152x648.jpg" width="1152">
@@ -289,7 +363,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>79</slash:comments>
+                                    <slash:comments>97</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/KSC-20200119-PH-KLS01_0182medium-1152x648.jpg" width="1152">
@@ -325,7 +399,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>81</slash:comments>
+                                    <slash:comments>89</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/stephen-colbert-with-talarico-1152x648-1772225883.jpg" width="1152">
@@ -358,7 +432,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>62</slash:comments>
+                                    <slash:comments>83</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/ryzen-ai-400-desktop-1152x648.jpg" width="1152">
@@ -392,7 +466,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>65</slash:comments>
+                                    <slash:comments>69</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-492781221-1152x648.jpg" width="1152">
@@ -465,7 +539,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>145</slash:comments>
+                                    <slash:comments>156</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-1904444791-1152x648.jpg" width="1152">
@@ -538,7 +612,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>257</slash:comments>
+                                    <slash:comments>266</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/6404099-1152x648-1772236795.jpg" width="1152">
@@ -578,7 +652,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>160</slash:comments>
+                                    <slash:comments>163</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-79075226-1152x648.jpg" width="1152">
@@ -612,7 +686,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>71</slash:comments>
+                                    <slash:comments>76</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/niac_2011_thibeault-1041x648.jpg" width="1041">
@@ -644,82 +718,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>211</slash:comments>
+                                    <slash:comments>213</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/cbp-drone-1152x648-1772218578.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/cbp-drone-500x500.jpg" width="500"/>
 <media:credit>Getty Images | Herika Martinez</media:credit><media:text>US Border Patrol agent from the Big Bend Sector demonstrates the use of a drone to detect undocumented migrants near the Marfa checkpoint in Texas on November 3, 2025. </media:text></media:content>
-            </item>
-                    <item>
-                <title>The AI apocalypse is nigh in Good Luck, Have Fun, Don't Die</title>
-                <link>https://arstechnica.com/culture/2026/02/the-ai-apocalypse-is-nigh-in-good-luck-have-fun-dont-die/</link>
-                                    <comments>https://arstechnica.com/culture/2026/02/the-ai-apocalypse-is-nigh-in-good-luck-have-fun-dont-die/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Fri, 27 Feb 2026 19:04:23 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Briarcliff Entertainment]]></category>
-		<category><![CDATA[film]]></category>
-		<category><![CDATA[Good Luck Have Fun Don't Die]]></category>
-		<category><![CDATA[Gore Verbinski]]></category>
-		<category><![CDATA[Sam Rockwell]]></category>
-		<category><![CDATA[science fiction film]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2026/02/the-ai-apocalypse-is-nigh-in-good-luck-have-fun-dont-die/</guid>
-
-                                    <description>
-                        <![CDATA[Director Gore Verbinksi and screenwriter Matthew Robinson on the making of this darkly satirical sci-fi film.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>We haven't had a new film from Gore Verbinski for nine years. But the director who brought us the first three Pirates of the Caribbean movies, the nightmare-inducing horror of <em>The Ring</em> (2002), and the Oscar-winning hijinks of <em>Rango</em> (2011) is back in peak form with <a href="https://en.wikipedia.org/wiki/Good_Luck,_Have_Fun,_Don%27t_Die"><em>Good Luck, Have Fun, Don't Die.</em></a> It's a darkly satirical, inventive, and hugely entertaining time-loop adventure that also serves as a cautionary tale about our widespread online technology addiction.</p>
-<p><strong>(Some spoilers below but no major reveals.)</strong></p>
-<p>Sam Rockwell stars as an otherwise unnamed man who shows up at a <a href="https://en.wikipedia.org/wiki/Norms_Restaurants">Norms diner</a> in Los Angeles looking like a homeless person but claiming to be a time traveler from an apocalyptic future. He’s there to recruit the locals into his war against a rogue AI, although the diner patrons are understandably dubious about his sanity. (“I come from a nightmare apocalypse,” he assures the crowd about his grubby appearance. “This is the height of f*@ing fashion!”)</p><p><a href="https://arstechnica.com/culture/2026/02/the-ai-apocalypse-is-nigh-in-good-luck-have-fun-dont-die/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2026/02/the-ai-apocalypse-is-nigh-in-good-luck-have-fun-dont-die/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>49</slash:comments>
-                
-                
-                <media:content height="617" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GLHFDD-TOP-1152x617.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GLHFDD-TOP-500x500.jpg" width="500"/>
-<media:credit>Briarcliff Entertainment </media:credit></media:content>
-            </item>
-                    <item>
-                <title>Hyperion author Dan Simmons dies from stroke at 77</title>
-                <link>https://arstechnica.com/culture/2026/02/hyperion-author-dan-simmons-dies-from-stroke-at-77/</link>
-                                    <comments>https://arstechnica.com/culture/2026/02/hyperion-author-dan-simmons-dies-from-stroke-at-77/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Fri, 27 Feb 2026 18:36:04 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[dan simmons]]></category>
-		<category><![CDATA[Hyperion]]></category>
-		<category><![CDATA[obituary]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2026/02/hyperion-author-dan-simmons-dies-from-stroke-at-77/</guid>
-
-                                    <description>
-                        <![CDATA[I went into <em>Hyperion</em> blind, decades ago, knowing almost nothing about it. I was never the same.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Dan Simmons, the author of more than three dozen books, including the famed <em>Hyperion Cantos</em>, has died from a stroke. <a href="https://www.dignitymemorial.com/obituaries/longmont-co/daniel-simmons-12758871">He was 77</a>.</p>
-<p>Simmons, who worked in elementary education before becoming an author in the 1980s, produced a broad portfolio of writing that spanned several genres, including horror fiction, historical fiction, and science fiction. Often, his books included elements of all of these. This obituary will focus on what is generally considered his greatest work, and what I believe is possibly the greatest science fiction novel of all time, <em>Hyperion</em>.</p>
-<p>Published in 1989, <em>Hyperion</em> is set in a far-flung future in which human settlement spans hundreds of planets. The novel feels both familiar, in that its structure follows Chaucer's <em>Canterbury Tales</em>, and utterly unfamiliar in its strange, far-flung setting.</p><p><a href="https://arstechnica.com/culture/2026/02/hyperion-author-dan-simmons-dies-from-stroke-at-77/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2026/02/hyperion-author-dan-simmons-dies-from-stroke-at-77/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>159</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2015/06/Hyperion-1152x648-1772217993.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2015/06/Hyperion-500x500.jpg" width="500"/>
-<media:credit>Gary Ruddell / Bantam Spectra / Doubleday</media:credit><media:text>Cover art for the novel &lt;em&gt;Hyperion&lt;/em&gt;.</media:text></media:content>
             </item>
             </channel>
 </rss>
