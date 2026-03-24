@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Mon, 23 Mar 2026 23:10:05 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 24 Mar 2026 12:40:53 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,73 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Self-propagating malware poisons open source software and wipes Iran-based machines</title>
+                <link>https://arstechnica.com/security/2026/03/self-propagating-malware-poisons-open-source-software-and-wipes-iran-based-machines/</link>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 24 Mar 2026 12:38:09 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[teampcp]]></category>
+		<category><![CDATA[worm]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/03/self-propagating-malware-poisons-open-source-software-and-wipes-iran-based-machines/</guid>
+
+                                    <description>
+                        <![CDATA[Development houses: It's time to check your networks for infections.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A new hacking group has been rampaging the Internet in a persistent campaign that spreads a self-propagating and never-before-seen backdoor—and curiously a data wiper that targets Iranian machines.</p>
+<p>The group, tracked under the name TeamPCP, first gained visibility in December, when researchers from security firm Flare <a href="https://flare.io/learn/resources/blog/">observed </a> it unleashing a worm that targeted cloud-hosted platforms that weren’t properly secured. The objective was to build a distributed proxy and scanning infrastructure and then use it to compromise servers for exfiltrating data, deploying ransomware, conducting extortion, and mining cryptocurrency. The group is notable for its skill in large-scale automation and integration of well-known attack techniques.</p>
+<h2>Relentless and constantly evolving</h2>
+<p>More recently, TeamPCP has waged a relentless campaign that uses continuously evolving malware to bring ever more systems under its control. Late last week, it <a href="https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/">compromised</a> virtually all versions of the widely used Trivy vulnerability scanner in a supply-chain attack after gaining privileged access to the GitHub account of Aqua Security, the Trivy creator.</p><p><a href="https://arstechnica.com/security/2026/03/self-propagating-malware-poisons-open-source-software-and-wipes-iran-based-machines/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/03/self-propagating-malware-poisons-open-source-software-and-wipes-iran-based-machines/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/malware-threat-1000x648.jpg" width="1000">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/malware-threat-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Orbital data centers, part 1: There’s no way this is economically viable, right?</title>
+                <link>https://arstechnica.com/space/2026/03/orbital-data-centers-part-1-theres-no-way-this-is-economically-viable-right/</link>
+                                    <comments>https://arstechnica.com/space/2026/03/orbital-data-centers-part-1-theres-no-way-this-is-economically-viable-right/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Tue, 24 Mar 2026 11:00:59 +0000</pubDate>
+                		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[economic reality]]></category>
+		<category><![CDATA[orbital data centers]]></category>
+		<category><![CDATA[space]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/03/orbital-data-centers-part-1-theres-no-way-this-is-economically-viable-right/</guid>
+
+                                    <description>
+                        <![CDATA["This is not physically impossible; it’s only a question of whether this is a rational thing."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Let's start with the basics. What, exactly, is an orbital data center?</p>
+<p>On the ground, data centers are typically large, warehouse-sized facilities filled with racks of storage and servers, and usually some high-speed networking gear to connect everything. A data center can be small or large, but the ones SpaceX is looking to supplant are of the big kind—the ones operated by major industry players like Amazon Web Services and Google, which provide most of the online services you use today. These are sprawling buildings, or even campuses of buildings, with redundant connections to the electrical grid, on-site generators, massive banks of batteries, and enormous cooling systems to handle the heat being shed by thousands upon thousands of machines operating around the clock.</p>
+<p>An <em>orbital</em> data center replicates all of that, but in space.</p><p><a href="https://arstechnica.com/space/2026/03/orbital-data-centers-part-1-theres-no-way-this-is-economically-viable-right/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/03/orbital-data-centers-part-1-theres-no-way-this-is-economically-viable-right/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>36</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/space-datacenter-analysis-two-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/space-datacenter-analysis-two-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit><media:text>In this article, we assess the economics behind the space data center race.</media:text></media:content>
+            </item>
+                    <item>
                 <title>A mission NASA might kill is still returning fascinating science from Jupiter</title>
                 <link>https://arstechnica.com/space/2026/03/a-mission-nasa-might-kill-is-still-returning-fascinating-science-from-jupiter/</link>
                                     <comments>https://arstechnica.com/space/2026/03/a-mission-nasa-might-kill-is-still-returning-fascinating-science-from-jupiter/#comments</comments>
@@ -41,13 +108,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>Jupiter's colossal storms generate lightning flashes at least 100 times more powerful than those on Earth, according to scientists analyzing data from NASA's Juno spacecraft.</p>
-<p>The findings were published March 20 in the journal <em>AGU Advances. </em>Researchers used data recorded by Juno in 2021 and 2022, after NASA granted an extension to the spacecraft's operations upon completing a five-year science campaign at Jupiter. Juno remains in <a href="https://arstechnica.com/space/2025/09/scientists-its-do-or-die-time-for-americas-primacy-exploring-the-solar-system/">good health</a>, but NASA officials have not said if they will approve another extension for the mission. The issue is money.</p>
+<p>The findings were published March 20 in the journal AGU Advances and were based on data recorded by Juno in 2021 and 2022, after NASA granted an extension to the spacecraft's operations upon completing a five-year science campaign at Jupiter. Juno remains in <a href="https://arstechnica.com/space/2025/09/scientists-its-do-or-die-time-for-americas-primacy-exploring-the-solar-system/">good health</a>, but NASA officials have not said if they will approve another extension for the mission. The issue is money.</p>
 <p>Questions about the future of Juno and more than a dozen other robotic science missions began swirling nearly a year ago, when the Trump administration asked mission leaders to submit "closeout" plans for how to turn off their spacecraft. <a href="https://arstechnica.com/space/2025/07/trump-administration-moves-to-tighten-the-noose-around-nasa-science-missions/">Ars first reported</a> the news soon after the White House released a budget request that called for slashing NASA's science budget by nearly half.</p><p><a href="https://arstechnica.com/space/2026/03/a-mission-nasa-might-kill-is-still-returning-fascinating-science-from-jupiter/">Read full article</a></p>
 <p><a href="https://arstechnica.com/space/2026/03/a-mission-nasa-might-kill-is-still-returning-fascinating-science-from-jupiter/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>7</slash:comments>
+                                    <slash:comments>38</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/jupiter_juno_pj39-enhanced-crop.jpg">
@@ -77,7 +144,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>31</slash:comments>
+                                    <slash:comments>74</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2262971243-1152x648.jpg" width="1152">
@@ -114,7 +181,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>75</slash:comments>
+                                    <slash:comments>152</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/dlss5offon-1152x648-1774299057.jpg" width="1152">
@@ -146,7 +213,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>44</slash:comments>
+                                    <slash:comments>117</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/intoxalock-1152x648-1774298848.jpeg" width="1152">
@@ -180,7 +247,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>19</slash:comments>
+                                    <slash:comments>32</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/XPS-16-1152x648-1767726799.jpeg" width="1152">
@@ -218,7 +285,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>109</slash:comments>
+                                    <slash:comments>150</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-1407548980-1024x648.jpg" width="1024">
@@ -252,7 +319,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>48</slash:comments>
+                                    <slash:comments>59</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/turbotax-display-1152x648-1774290432.jpg" width="1152">
@@ -289,7 +356,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>31</slash:comments>
+                                    <slash:comments>40</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/Apple-WWDC26-event-branding-1152x648.jpg" width="1152">
@@ -321,7 +388,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>35</slash:comments>
+                                    <slash:comments>40</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/fingernail1-1152x648-1774203689.jpg" width="1152">
@@ -353,7 +420,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>167</slash:comments>
+                                    <slash:comments>183</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-922106816-1152x648.jpg" width="1152">
@@ -388,7 +455,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>95</slash:comments>
+                                    <slash:comments>139</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2208370345-1152x648.jpg" width="1152">
@@ -420,7 +487,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>49</slash:comments>
+                                    <slash:comments>54</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-1437375470-1152x648.jpg" width="1152">
@@ -452,7 +519,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>96</slash:comments>
+                                    <slash:comments>103</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/01/ai_lawsuit_hero-1152x648.jpg" width="1152">
@@ -491,7 +558,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>48</slash:comments>
+                                    <slash:comments>59</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/KSC-04pd2074orig-1152x648.jpg" width="1152">
@@ -526,7 +593,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>191</slash:comments>
+                                    <slash:comments>205</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/highlander22-1152x648-1772826096.jpg" width="1152">
@@ -559,7 +626,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>96</slash:comments>
+                                    <slash:comments>99</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2174489591-1152x648.jpg" width="1152">
@@ -628,81 +695,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>182</slash:comments>
+                                    <slash:comments>185</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2153431003-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2153431003-500x500.jpg" width="500"/>
 <media:credit>	fhm</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Jury finds Musk owes damages to Twitter investors for his tweets</title>
-                <link>https://arstechnica.com/tech-policy/2026/03/jury-agrees-that-musks-tweets-during-twitter-takeover-constituted-fraud/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/03/jury-agrees-that-musks-tweets-during-twitter-takeover-constituted-fraud/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[John Timmer]]>
-                </dc:creator>
-                <pubDate>Fri, 20 Mar 2026 22:27:42 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[class action]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[fraud]]></category>
-		<category><![CDATA[lawsuit]]></category>
-		<category><![CDATA[Twitter]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/jury-agrees-that-musks-tweets-during-twitter-takeover-constituted-fraud/</guid>
-
-                                    <description>
-                        <![CDATA[The verdict, while not a complete loss, could still cost him billions.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>On Friday, a jury in California determined that Elon Musk <a href="https://www.courthousenews.com/san-francisco-jury-finds-elon-musk-defrauded-twitter-investors-during-44-billion-takeover/">had misled investors</a> in Twitter via public statements that depressed the price of the company's stock ahead of Musk's purchase of the service. Because this was a class action lawsuit, Musk is likely to owe damages to a huge range of investors—payments that may ultimately reach billions of dollars.</p>
-<p>In the lead-up to Musk's ultimate purchase of the social media platform, he made a number of comments on the platform itself and while appearing as a guest on a podcast, largely focused on the alleged prevalence of bot accounts on the platform. This raised fears that the deal wouldn't go through and depressed the price of Twitter's shares, causing some investors to sell shares at a depressed price during this period.</p>
-<p>A number of those investors started a suit that was certified as a class action, claiming that the statements defrauded them and that Musk made them intentionally as part of a larger scheme. The jury rejected arguments about this larger scheme but found Musk liable for the tweets.</p><p><a href="https://arstechnica.com/tech-policy/2026/03/jury-agrees-that-musks-tweets-during-twitter-takeover-constituted-fraud/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/03/jury-agrees-that-musks-tweets-during-twitter-takeover-constituted-fraud/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>177</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-2217854935-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-2217854935-500x500.jpg" width="500"/>
-<media:credit>Kevin Dietsch / Staff | Getty Images News</media:credit></media:content>
-            </item>
-                    <item>
-                <title>You're likely already infected with a brain-eating virus you've never heard of</title>
-                <link>https://arstechnica.com/health/2026/03/youre-likely-already-infected-with-a-brain-eating-virus-youve-never-heard-of/</link>
-                                    <comments>https://arstechnica.com/health/2026/03/youre-likely-already-infected-with-a-brain-eating-virus-youve-never-heard-of/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Fri, 20 Mar 2026 22:11:24 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[case study]]></category>
-		<category><![CDATA[Infectious disease]]></category>
-		<category><![CDATA[JC virus]]></category>
-		<category><![CDATA[PML]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/03/youre-likely-already-infected-with-a-brain-eating-virus-youve-never-heard-of/</guid>
-
-                                    <description>
-                        <![CDATA[Fatal brain infection was thought to be from profound immune suppression. Not anymore.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>There's a virus you may have never heard of before that is estimated to infect up to 90 percent of people and lurks quietly in your cells for life—but if it becomes activated, it will destroy your brain. If that's not startling enough, <a href="https://www.acpjournals.org/doi/10.7326/aimcc.2025.0633">researchers reported this week</a> that there may be a new way for this virus to activate—one that affects up to 10 percent of adults worldwide.</p>
-<p>The virus is the human polyomavirus 2, commonly called either the JC virus or John Cunningham virus, named after the poor patient from whom it was first isolated in 1971. It shows up in the urine and stool of infected people and spreads via the fecal-oral route. Many people are thought to be infected early in life, and blood testing surveys have suggested that <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3652120/#sec1">50–90 percent of adults</a> have been exposed at some point.</p>
-<p>Researchers hypothesize that the initial site of infection is the tonsils, or perhaps the gastrointestinal tract. But wherever it happens, that initial infection is asymptomatic. At that point, a person is infected with what's called the <a href="https://www.mdpi.com/1999-4915/12/9/969">archetype JC virus</a>, which quietly sets up a persistent but utterly silent lifelong infection.</p><p><a href="https://arstechnica.com/health/2026/03/youre-likely-already-infected-with-a-brain-eating-virus-youve-never-heard-of/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/03/youre-likely-already-infected-with-a-brain-eating-virus-youve-never-heard-of/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>153</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/images_250633_ff1-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/images_250633_ff1-500x500.jpg" width="500"/>
-<media:credit>Annals of Internal Medicine: Clinical Cases, 2026</media:credit><media:text>MRI of PML lesions in a patient with chronic kidney disease.</media:text></media:content>
             </item>
             </channel>
 </rss>
