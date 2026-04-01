@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Mon, 30 Mar 2026 22:45:21 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 01 Apr 2026 01:36:50 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,679 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>NASA is leading the way to the Moon, but the military won't be far behind</title>
+                <link>https://arstechnica.com/space/2026/03/nasa-is-leading-the-way-to-the-moon-but-the-military-wont-be-far-behind/</link>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Wed, 01 Apr 2026 01:36:50 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[artemis]]></category>
+		<category><![CDATA[artemis II]]></category>
+		<category><![CDATA[Department of Defense]]></category>
+		<category><![CDATA[military space]]></category>
+		<category><![CDATA[moon]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Pentagon]]></category>
+		<category><![CDATA[US Space Force]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/03/nasa-is-leading-the-way-to-the-moon-but-the-military-wont-be-far-behind/</guid>
+
+                                    <description>
+                        <![CDATA["I just don't want to get caught flat-footed when we start to have to protect US interests out there."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>KENNEDY SPACE CENTER, Florida<span class="s1">—</span>The US military has always been part of NASA's human spaceflight program. The first astronauts were nearly all military pilots, and two of the four crew members set to fly around the Moon on NASA's Artemis II mission were Navy test pilots before joining the astronaut corps.</p>
+<p>Artemis II, the first crew mission to the Moon's vicinity since 1972, is <a href="https://arstechnica.com/space/2026/03/after-more-than-53-years-humans-may-finally-return-to-the-moon-this-week/">set for launch Wednesday</a> from Kennedy Space Center in Florida. Commander Reid Wiseman and pilot Victor Glover, both Navy test pilots, will be at the controls of the Space Launch System rocket and Orion spacecraft for the ride to space. NASA astronaut Christina Koch and Canadian astronaut Jeremy Hansen round out the four-person crew.</p>
+<p>The mission will depart from NASA property on Florida's Space Coast, but the Space Force will play an important role in the launch. A range crew from the Space Force will track the SLS rocket as it arcs over the Atlantic Ocean. Their primary job will be ensuring public safety, with the unenviable responsibility of sending a destruct signal to the rocket if it flies off course. Thankfully for the astronauts inside the spacecraft, the Orion capsule has an abort rocket to pull it away from an exploding launch vehicle in the event of a catastrophic failure.</p><p><a href="https://arstechnica.com/space/2026/03/nasa-is-leading-the-way-to-the-moon-but-the-military-wont-be-far-behind/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/03/nasa-is-leading-the-way-to-the-moon-but-the-military-wont-be-far-behind/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-1238720256-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-1238720256-500x500.jpg" width="500"/>
+<media:credit>Sercan Kucuksahin/Anadolu Agency via Getty Images</media:credit><media:text>A Turkish special operations soldier silhouetted by the Moon.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Running local models on Macs gets faster with Ollama's MLX support</title>
+                <link>https://arstechnica.com/apple/2026/03/running-local-models-on-macs-gets-faster-with-ollamas-mlx-support/</link>
+                                    <comments>https://arstechnica.com/apple/2026/03/running-local-models-on-macs-gets-faster-with-ollamas-mlx-support/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Samuel Axon]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 23:00:23 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[alibaba]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Apple silicon]]></category>
+		<category><![CDATA[mlx]]></category>
+		<category><![CDATA[ollama]]></category>
+		<category><![CDATA[Qwen]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/apple/2026/03/running-local-models-on-macs-gets-faster-with-ollamas-mlx-support/</guid>
+
+                                    <description>
+                        <![CDATA[Apple Silicon Macs get a performance boost thanks to better unified memory usage.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Ollama, a runtime system for operating large language models on a local computer, has introduced support for Apple's open source <a href="https://opensource.apple.com/projects/mlx/">MLX</a> framework for machine learning. Additionally, Ollama says it has improved caching performance and now supports Nvidia's <a href="https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/">NVFP4</a> format for model compression, making for much more efficient memory usage in certain models.</p>
+<p>Combined, these developments promise significantly improved performance on Macs with Apple Silicon chips (M1 or later)—and the timing couldn't be better, as local models are starting to gain steam in ways they haven't before outside researcher and hobbyist communities.</p>
+<p>The recent runaway success of OpenClaw—which raced its way to over 300,000 stars <a href="https://github.com/openclaw/openclaw">on GitHub</a>, made headlines with experiments like <a href="https://arstechnica.com/ai/2026/03/meta-acquires-moltbook-the-ai-agent-social-network/">Moltbook</a> and became an obsession in China <a href="https://www.bloomberg.com/news/newsletters/2026-03-13/gripped-by-openclaw-china-runs-massive-risky-ai-experiment">in particular</a>—has many people experimenting with running models on their machines.</p><p><a href="https://arstechnica.com/apple/2026/03/running-local-models-on-macs-gets-faster-with-ollamas-mlx-support/">Read full article</a></p>
+<p><a href="https://arstechnica.com/apple/2026/03/running-local-models-on-macs-gets-faster-with-ollamas-mlx-support/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>21</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/ollama-speed-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/ollama-speed-500x500.jpg" width="500"/>
+<media:credit>Ollama</media:credit><media:text>A graphic made by Ollama to announce MLX support.</media:text></media:content>
+            </item>
+                    <item>
+                <title>RFK Jr. wants Americans to use peptides that were banned over safety risks</title>
+                <link>https://arstechnica.com/health/2026/03/rfk-jr-s-fda-expected-to-lift-restrictions-on-risky-unproven-peptides/</link>
+                                    <comments>https://arstechnica.com/health/2026/03/rfk-jr-s-fda-expected-to-lift-restrictions-on-risky-unproven-peptides/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 21:51:26 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[drug]]></category>
+		<category><![CDATA[fda]]></category>
+		<category><![CDATA[Peptides]]></category>
+		<category><![CDATA[robert f kennedy jr]]></category>
+		<category><![CDATA[safety]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/03/rfk-jr-s-fda-expected-to-lift-restrictions-on-risky-unproven-peptides/</guid>
+
+                                    <description>
+                        <![CDATA[The FDA is reportedly planning to allow production of 14 previously banned peptides.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Anti-vaccine Health Secretary Robert F. Kennedy Jr.—who has long dismissed reams of data on lifesaving vaccines as being insufficient to prove safety—is pushing the Food and Drug Administration to lift restrictions on over a dozen injectable peptide treatments. The treatments have little to no efficacy data behind them and were previously banned by the FDA for posing significant safety risks.</p>
+<p>Kennedy is a self-proclaimed "big fan" of the risky treatments. Peptides, generally, are chains of amino acids linked together with peptide bonds, a link between the carboxyl group of one amino acid and the amino group of another. Bioactive peptides can have a range of cellular functions and influence various biochemical processes. Well-established, FDA-approved types of peptide drugs include GLP-1s for obesity and insulin for diabetes. But online, peptide drugs are now seemingly synonymous with unproven, non-FDA-approved treatment. They've grown extremely popular among wellness influencers, celebrities, and "biohackers," who claim without evidence that peptides can treat various diseases, reverse aging, and improve appearance.</p>
+<p>On February 27, Kennedy touted such unproven peptides as a guest on Joe Rogan's podcast, saying he had used them to treat injuries with "really good effect." He also vowed to end the FDA's "war on peptides" and revealed his plan to reverse the FDA's restrictions on many of them.</p><p><a href="https://arstechnica.com/health/2026/03/rfk-jr-s-fda-expected-to-lift-restrictions-on-risky-unproven-peptides/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/03/rfk-jr-s-fda-expected-to-lift-restrictions-on-risky-unproven-peptides/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>60</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2268348621-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2268348621-500x500.jpg" width="500"/>
+<media:credit>Getty | Leandro Lozada</media:credit><media:text>US Secretary of Health and Human Services Robert F. Kennedy Jr. speaks during the Conservative Political Action Conference (CPAC) in Grapevine, Texas, on March 27, 2026. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Starlink satellite breaks apart into "tens of objects"; SpaceX confirms "anomaly"</title>
+                <link>https://arstechnica.com/tech-policy/2026/03/starlink-satellite-breaks-apart-into-tens-of-objects-spacex-confirms-anomaly/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/03/starlink-satellite-breaks-apart-into-tens-of-objects-spacex-confirms-anomaly/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 21:28:15 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[starlink]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/starlink-satellite-breaks-apart-into-tens-of-objects-spacex-confirms-anomaly/</guid>
+
+                                    <description>
+                        <![CDATA[Satellite failure cause is unexplained after second "fragment creation event."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>SpaceX's Starlink division confirmed yesterday that it lost contact with a satellite on Sunday and is trying to locate space debris that might have been produced by... whatever happened there.</p>
+<p>Starlink said there appeared to be "no new risk" to other space operations and did not use the word "explosion." But it seems that something caused a Starlink broadband satellite to break apart into at least tens of pieces. LeoLabs, which operates a <a href="https://leolabs.space/radars/">radar network</a> that can track objects in low Earth orbit, <a href="https://x.com/LeoLabs_Space/status/2038680177408880719">said in an X post</a> that it "detected a fragment creation event involving SpaceX Starlink 34343," one of the <a href="https://planet4589.org/space/con/star/stats.html">10,000 or so</a> Starlink satellites in orbit.</p>
+<p>"LeoLabs Global Radar Network immediately detected tens of objects in the vicinity of the satellite after the event, with a first pass over our radar site in the Azores, Portugal," LeoLabs said. "Additional fragments may have been produced—analysis is ongoing."</p><p><a href="https://arstechnica.com/tech-policy/2026/03/starlink-satellite-breaks-apart-into-tens-of-objects-spacex-confirms-anomaly/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/03/starlink-satellite-breaks-apart-into-tens-of-objects-spacex-confirms-anomaly/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>53</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/starlink-dominance-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/starlink-dominance-500x500-1768005711.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>He-Man gets an origin story in Masters of the Universe trailer</title>
+                <link>https://arstechnica.com/culture/2026/03/he-man-gets-an-origin-story-in-masters-of-the-universe-trailer/</link>
+                                    <comments>https://arstechnica.com/culture/2026/03/he-man-gets-an-origin-story-in-masters-of-the-universe-trailer/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 20:26:39 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[amazon mgm studios]]></category>
+		<category><![CDATA[entertainment]]></category>
+		<category><![CDATA[film trailers]]></category>
+		<category><![CDATA[Masters of the Universe]]></category>
+		<category><![CDATA[Trailers]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2026/03/he-man-gets-an-origin-story-in-masters-of-the-universe-trailer/</guid>
+
+                                    <description>
+                        <![CDATA["Skeletor took my family and he destroyed our world."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/X21JsHLHnY8?start=0&amp;wmode=transparent"></div></div>
+<p>We've got a brand new trailer for <em><a href="https://en.wikipedia.org/wiki/Masters_of_the_Universe_(2026_film)">Masters of the Universe</a>, </em>the new film adaptation of the 1980s <em>He-Man and the Masters of the Universe</em> series.</p>
+<p>As <a href="https://arstechnica.com/culture/2026/01/check-out-the-first-trailer-for-masters-of-the-universe/">previously reported</a>, Sony Pictures gained the rights in 2009, and there were multiple script rewrites and much shuffling of possible directors (with John Chu, McG, and David S. Goyer among the candidates). This went on until 2022, when Netflix acquired the rights after its success with animated shows starring Kyle Allen as He-Man. Netflix canceled the project the following year, though, citing budget concerns, so Allen never got that big-screen break. And then Amazon MGM stepped in, tapping Travis Knight (<em>Bumblebee</em>,<em> Kubo and the Two Strings</em>) as director and casting Nicholas Galitzine (2021’s <em>Cinderella</em>,<em> 100 Nights of Hero</em>) as He-Man.</p>
+<p>In addition to Galitzine, the cast includes Camila Mendes as Teela; Jared Leto as Keldor/Skeletor; Alison Brie as Professor Evelyn Powers (aka Evil-Lyn), lieutenant to Skeletor; Idris Elba as Duncan/Man-at-Arms; Morena Baccarin as the Sorceress of Castle Grayskull; Johannes Haukur as Malcolm/Fisto; James Purefoy and Charlotte Riley as King Randor and Queen Marlena, rulers of Eternia; Sasheer Zamata as Suzie, Adam/He-Man’s BFF on Earth; Kristen Wiig as Roboto; Jon Xue Zhang as Ram-Man; Kojo Attah as the bounty hunter Tri-Klops; Sam C. Wilson as cyborg/weapons expert Kronis/Trap-Jaw; and Hafþór Júlíus Björnsson as Goat Man.</p><p><a href="https://arstechnica.com/culture/2026/03/he-man-gets-an-origin-story-in-masters-of-the-universe-trailer/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2026/03/he-man-gets-an-origin-story-in-masters-of-the-universe-trailer/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>46</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/heman-1152x648-1774988707.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/heman-500x500-1774988155.jpg" width="500"/>
+<media:credit>Amazon MGM Studios</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Sweaty, glassy-eyed Tiger Woods blames cell phone use for his car crash</title>
+                <link>https://arstechnica.com/tech-policy/2026/03/sweaty-glassy-eyed-tiger-woods-blames-cell-phone-use-for-his-car-crash/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/03/sweaty-glassy-eyed-tiger-woods-blames-cell-phone-use-for-his-car-crash/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Nate Anderson]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 20:00:20 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[cell phone]]></category>
+		<category><![CDATA[distracted driving]]></category>
+		<category><![CDATA[Tiger Woods]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/sweaty-glassy-eyed-tiger-woods-blames-cell-phone-use-for-his-car-crash/</guid>
+
+                                    <description>
+                        <![CDATA[Cops arrest Woods after incident.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Celebrities—they're just like us!</p>
+<p>We recently covered a strange story out of Michigan last week, where a woman <a href="https://arstechnica.com/tech-policy/2026/03/judge-irate-as-defendant-joins-by-zoom-while-driving-then-lies-about-it/">connected to a Zoom court hearing while driving her car down the road</a>—and then tried to gaslight the judge about this fact. At the end of that piece, I noted just how often I see similar kinds of distracted driving, where people are (illegally in my state) one-handing cell phones even while navigating tricky intersections.</p>
+<p>Famous people aren't immune from this kind of behavior, either. Police in Martin County, Florida, today <a href="https://sports.yahoo.com/articles/woods-says-looking-phone-crash-174839398.html?guccounter=1">released their affidavit</a> used to arrest golfer Tiger Woods after a car crash last week near his home. Woods was driving down a residential street, apparently at high speed, and managed to clip the trailer of another vehicle. He then swerved hard enough to flip his vehicle onto its side as it went skidding down the road. Woods had to be helped out through the front passenger-seat window of his SUV.</p><p><a href="https://arstechnica.com/tech-policy/2026/03/sweaty-glassy-eyed-tiger-woods-blames-cell-phone-use-for-his-car-crash/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/03/sweaty-glassy-eyed-tiger-woods-blames-cell-phone-use-for-his-car-crash/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>70</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2268351717-1152x648-1774986237.jpg" width="1152">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2268351717.jpg"/>
+<media:credit>Martin County via Getty Images</media:credit><media:text>Tiger Woods' most recent mug shot.</media:text></media:content>
+            </item>
+                    <item>
+                <title>It's a race against time to save Krypto in Supergirl trailer</title>
+                <link>https://arstechnica.com/culture/2026/03/its-a-race-against-time-to-save-krypto-in-supergirl-trailer/</link>
+                                    <comments>https://arstechnica.com/culture/2026/03/its-a-race-against-time-to-save-krypto-in-supergirl-trailer/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 19:50:50 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[DCU Chapter One]]></category>
+		<category><![CDATA[entertainment]]></category>
+		<category><![CDATA[Supergirl]]></category>
+		<category><![CDATA[Trailers]]></category>
+		<category><![CDATA[Warner Bros.]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2026/03/its-a-race-against-time-to-save-krypto-in-supergirl-trailer/</guid>
+
+                                    <description>
+                        <![CDATA[Have these villains not seen <em>John Wick</em>? ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/oGTJKzpEIYw?start=0&amp;wmode=transparent"></div></div>
+<p>We haven't heard much about Warner Bros.' forthcoming <a href="https://en.wikipedia.org/wiki/Supergirl_(2026_film)"><em>Supergirl</em></a>, starring Milly Alcock in the title role, since the first teaser dropped back in December. But with its summer release approaching, the studio just released the first official full trailer, and it's definitely a crowd-pleaser.</p>
+<p>As <a href="https://arstechnica.com/culture/2025/12/milly-alcock-is-out-for-revenge-in-supergirl-teaser/">previously reported</a>, we met Alcock’s Supergirl briefly at the end of <em>Superman</em>, when she showed up to collect her dog Krypto, still a bit hungover from partying on a red-sun planet. She is more jaded than her cousin, having witnessed the destruction of Krypton and the loss of everything and everyone she loved. “He sees the good in everyone, and I see the truth,” she says in the teaser.</p>
+<p>Kara, aka Supergirl, is turning 23 and declares it will be the best year yet, which is admittedly “not a very high bar to clear.” While she might not be too keen on the prospect, she’s going to be a superhero nonetheless. Per the logline: “When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice.”</p><p><a href="https://arstechnica.com/culture/2026/03/its-a-race-against-time-to-save-krypto-in-supergirl-trailer/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2026/03/its-a-race-against-time-to-save-krypto-in-supergirl-trailer/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>31</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/supergirl1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/supergirl1-500x500-1774983464.jpg" width="500"/>
+<media:credit>Warner Bros.</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Entire Claude Code CLI source code leaks thanks to exposed map file</title>
+                <link>https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/</link>
+                                    <comments>https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Samuel Axon]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 19:09:33 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude Code]]></category>
+		<category><![CDATA[cli]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[map file]]></category>
+		<category><![CDATA[repo]]></category>
+		<category><![CDATA[repository]]></category>
+		<category><![CDATA[source code]]></category>
+		<category><![CDATA[typescript]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/</guid>
+
+                                    <description>
+                        <![CDATA[512,000 lines of code that competitors and hobbyists will be studying for weeks.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The entire source code for Anthropic's Claude Code command line interface application (not the models themselves) has been leaked and disseminated, apparently due to a serious internal error. The leak gives competitors and armchair enthusiasts a detailed blueprint for how Claude Code works—a significant setback for a company that has seen explosive user growth and industry impact over the past several months.</p>
+<p>Early this morning, Anthropic published version 2.1.88 of Claude Code npm package—but it was quickly discovered that package included a source map file, which could be used to access the entirety of Claude Code's source—almost 2,000 TypeScript files and more than 512,000 lines of code.</p>
+<p>Security researcher Chaofan Shou was the first to publicly <a href="https://x.com/Fried_rice/status/2038894956459290963">point it out on X</a>, with a link to an archive containing the files. The codebase was then put in a public GitHub repository, and it has been forked tens of thousands of times.</p><p><a href="https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>87</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-code-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-code-500x500-1774983656.jpg" width="500"/>
+<media:credit>Samuel Axon</media:credit><media:text>A screenshot of Claude Code running in the command line.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Quantum computers need vastly fewer resources than thought to break vital encryption</title>
+                <link>https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/</link>
+                                    <comments>https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 18:25:33 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[elliptic curve cryptography]]></category>
+		<category><![CDATA[neutral atoms]]></category>
+		<category><![CDATA[quantum computing]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/</guid>
+
+                                    <description>
+                        <![CDATA[No, the sky isn't falling, but Q Day <em>is</em> coming, and it won't be as expensive as thought.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Building a utility-scale quantum computer that can crack one of the most vital cryptosystems—elliptic curves—doesn’t require nearly the resources anticipated just a year or two ago, two independently written whitepapers have concluded. In one, researchers demonstrated the use of neutral atoms as reconfigurable qubits that have free access to each other. They went on to show this approach could allow a quantum computer to break 256-bit elliptic-curve cryptography (ECC) in 10 days while using 100 times less overhead than previously estimated. In a second paper, Google researchers demonstrated how to break ECC-securing blockchains for bitcoin and other cryptocurrencies in less than nine minutes while achieving a 20-fold resource reduction.</p>
+<p>Taken together, the papers are the latest sign that cryptographically relevant quantum computing (CRQC) at utility-scale is making meaningful progress. The advances are largely being driven by new quantum architectures developed by physicists and computer scientists in a push to create quantum computers that operate correctly even in the presence of errors that occur whenever qubits—the quantum analog to classical computing bits—interact with their environment. The other key drivers are ever-more efficient algorithms to supercharge Shor’s algorithm, the 1994 series of equations proving that quantum computing could break the ECC and RSA cryptosystems in polynomial time, specifically <a href="https://en.wikipedia.org/wiki/Time_complexity">cubic time</a>, far faster than the exponential time provided by today’s classical computers.</p>
+<p>Neither paper has been peer-reviewed.</p><p><a href="https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>27</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-1070527780-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-1070527780-500x500.jpg" width="500"/>
+<media:credit>vital</media:credit></media:content>
+            </item>
+                    <item>
+                <title>You can finally change the goofy Gmail address you chose years ago</title>
+                <link>https://arstechnica.com/gadgets/2026/03/you-can-finally-change-the-goofy-gmail-address-you-chose-years-ago/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/03/you-can-finally-change-the-goofy-gmail-address-you-chose-years-ago/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 17:55:39 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[gmail]]></category>
+		<category><![CDATA[google]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/03/you-can-finally-change-the-goofy-gmail-address-you-chose-years-ago/</guid>
+
+                                    <description>
+                        <![CDATA[All your data remains intact, and you can go back to your original address at any time. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Someone is celebrating a birthday tomorrow—it's Gmail. The iconic email service debuted <a href="https://arstechnica.com/uncategorized/2004/03/3596-2/">22 years ago</a> on April 1, forever altering what people expected from free email. But 22 years is a long time, and the username you chose when you finally got your hands on an invite in 2004 may not have stood the test of time. <a href="https://blog.google/products-and-platforms/products/workspace/google-account-username-change/">Starting today</a>, Google will let US-based users ditch an old username without creating a new account.</p>
+<p>Google started testing this option some months ago, both in the US and internationally. Today, the name change feature is rolling out widely in the US. You can check for the option on <a href="http://myaccount.google.com/google-account-email">this account page</a> to get started (you'll have to log in). Some of the accounts we've checked already have the option, but it could take a while for it to appear for everyone.</p>
+<p>Over the years, many users have abandoned old Gmail addresses because the handle is too personal or their names have changed. Now, you don't have to abandon anything. When the option appears, you'll be able to change the username portion of your email (the part before @gmail) to anything you desire. However, Google says you can only change your address once every 12 months. The company hasn't explained why you're limited to one change per year, but it may be a measure to combat spam.</p><p><a href="https://arstechnica.com/gadgets/2026/03/you-can-finally-change-the-goofy-gmail-address-you-chose-years-ago/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/03/you-can-finally-change-the-goofy-gmail-address-you-chose-years-ago/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>66</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/gmail-app-1-1152x648-1740415116.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/gmail-app-1-500x500.jpg" width="500"/>
+<media:credit>Ryan Whitwam</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OkCupid gave 3 million dating-app photos to facial recognition firm, FTC says</title>
+                <link>https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 17:33:21 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[match]]></category>
+		<category><![CDATA[OKCupid]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/</guid>
+
+                                    <description>
+                        <![CDATA[OkCupid and Match settle with Trump FTC, don't have to pay any financial penalty.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>OkCupid and its owner Match Group reached a settlement with the Trump administration for not telling dating-app customers that nearly 3 million user photos were shared with a company making a facial recognition system. OkCupid also gave the facial recognition firm access to user location information and other details without customers' consent, the Federal Trade Commission said.</p>
+<p>OkCupid and Match do not have to pay a financial penalty in a deal made with the FTC over an incident from 2014. OkCupid and Match did not admit or deny the allegations but agreed to a permanent prohibition barring them from misrepresenting how they use and share personal data, the FTC <a href="https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party">said yesterday</a>.</p>
+<p>The FTC has been run entirely by Republicans since President Trump <a href="https://arstechnica.com/tech-policy/2025/03/trump-fires-both-ftc-democrats-in-challenge-to-supreme-court-precedent/">fired both Democratic commissioners</a>. The proposed <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/MatchGroupAmericasandHumorRainbowStipulatedOrder.pdf">settlement</a> requires approval from a judge and was submitted in US District Court for the Northern District of Texas.</p><p><a href="https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>50</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/okcupid-1152x648-1774975675.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/okcupid-500x500-1774975682.jpg" width="500"/>
+<media:credit>Getty Images | NurPhoto</media:credit></media:content>
+            </item>
+                    <item>
+                <title>This is my third Orion launch, but it feels totally different</title>
+                <link>https://arstechnica.com/features/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/</link>
+                                    <comments>https://arstechnica.com/features/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 17:09:31 +0000</pubDate>
+                		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[artemis I]]></category>
+		<category><![CDATA[artemis II]]></category>
+		<category><![CDATA[Gateway]]></category>
+		<category><![CDATA[jared isaacman]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[orion]]></category>
+		<category><![CDATA[sls]]></category>
+		<category><![CDATA[space]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/features/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/</guid>
+
+                                    <description>
+                        <![CDATA[The first two launches of Orion felt hollow, but NASA is finally on a better course.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>KENNEDY SPACE CENTER, Fla.—This will be the third time I have observed NASA’s Orion spacecraft take flight. But with this one, for the first time, am I genuinely hopeful about the future of the space agency and its plans to build a station on the surface of the Moon.</p>
+<p>The two previous flights, in 2014 and 2022, both felt hollow. NASA, an aging bureaucracy, has repeatedly sought to recapture its fading glory while also looking toward a supposedly brighter future. Agency leaders would say things like this, from then-NASA Administrator Charlie Bolden, after the first Orion launch in 2014: “This is the beginning of the Mars era.”</p>
+<p>It wasn’t. No one who was paying attention believed it. But it was the kind of thing you had to say, I guess.</p><p><a href="https://arstechnica.com/features/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/">Read full article</a></p>
+<p><a href="https://arstechnica.com/features/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>92</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/55165944221_60d35d49b5_k-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/55165944221_60d35d49b5_k-500x500.jpg" width="500"/>
+<media:credit>NASA</media:credit><media:text>NASA Administrator Jared Isaacman speaks at the Ignition event on March 24.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Costco sued for seeking refunds on tariffs customers paid</title>
+                <link>https://arstechnica.com/tech-policy/2026/03/costco-sued-for-seeking-refunds-on-tariffs-customers-paid/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/03/costco-sued-for-seeking-refunds-on-tariffs-customers-paid/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 16:09:14 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Costco]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[ieepa tariffs]]></category>
+		<category><![CDATA[tariff refunds]]></category>
+		<category><![CDATA[tariffs]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/costco-sued-for-seeking-refunds-on-tariffs-customers-paid/</guid>
+
+                                    <description>
+                        <![CDATA[Proposed class action accuses Costco of unjust enrichment.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A <a href="https://cdn.arstechnica.net/wp-content/uploads/2026/03/Briggs-et-al-v-Costco-Complaint-3-27-26.pdf">proposed class action</a> has accused Costco of unjust enrichment after the retail giant allegedly made customers pay for tariffs, then planned to pocket the full refund <a href="https://arstechnica.com/tech-policy/2026/02/supreme-court-blocks-trumps-emergency-tariffs-billions-in-refunds-may-be-owed/">after they were deemed unlawful</a>.</p>
+<p>Costco "collected the tariff costs from consumers through elevated pricing, while simultaneously seeking refunds of the same tariff payments from the federal government," the complaint alleged. Unless the court intervenes, "Costco stands to recover the same tariff payments twice."</p>
+<p>Filed in a US District Court in Washington, the lawsuit points to public statements from Costco executives that customers said made it clear that the company had raised prices on some goods while the tariffs were in effect. But the company has since offered "no legally binding commitment to return tariff-related overcharges to the consumers who actually paid them."</p><p><a href="https://arstechnica.com/tech-policy/2026/03/costco-sued-for-seeking-refunds-on-tariffs-customers-paid/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/03/costco-sued-for-seeking-refunds-on-tariffs-customers-paid/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>147</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-855684128-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-855684128-500x500-1774971182.jpg" width="500"/>
+<media:credit>ablokhin | iStock Editorial / Getty Images Plus</media:credit></media:content>
+            </item>
+                    <item>
+                <title>What's the best cabin layout for aircraft evacuation?</title>
+                <link>https://arstechnica.com/science/2026/03/whats-the-best-cabin-layout-for-aircraft-evacuation/</link>
+                                    <comments>https://arstechnica.com/science/2026/03/whats-the-best-cabin-layout-for-aircraft-evacuation/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 15:00:57 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[air safety]]></category>
+		<category><![CDATA[air travel]]></category>
+		<category><![CDATA[aircraft]]></category>
+		<category><![CDATA[Computer simulations]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[risk management]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/03/whats-the-best-cabin-layout-for-aircraft-evacuation/</guid>
+
+                                    <description>
+                        <![CDATA[The key is to evenly distribute elderly passengers, who move more slowly, among the aircraft cabins.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Federal Aviation Administration (FAA) requires that, in the event of an emergency, all airplane passengers must be able to evacuate any aircraft within a 90-second window. But is that a realistic requirement, particularly given the increasing number of elderly passengers who might need more time and assistance? According to a <a href="https://doi.org/10.1063/5.0310405">new paper</a> published in the journal AIP Advances, it is not. Various simulated scenarios showed evacuation times significantly higher than the 90-second requirement.</p>
+<p>This isn't the first time scientists have puzzled over this kind of optimization problem. <a href="https://arxiv.org/PS_cache/arxiv/pdf/1108/1108.5211v1.pdf">Back in 2011</a>, Jason Steffen, now a physicist at the University of Nevada, Las Vegas, <a href="https://home.fnal.gov/~jsteffen/airplanes.html">became intrigued</a> by the question of the most efficient boarding method; he applied the same optimization routine used to solve the famous <a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">traveling salesman problem</a> to airline boarding strategies. Steffen fully expected that boarding from the back to the front would be the most efficient strategy and was surprised when his results showed that strategy was actually the least efficient.</p>
+<p>The most efficient, <a href="https://www.vox.com/2014/4/25/5647696/the-way-we-board-airplanes-makes-absolutely-no-sense">aka the “Steffen method,”</a> has the passengers board in a series of waves. Field tests <a href="https://www.sciencedirect.com/science/article/abs/pii/S0969699711000986?via%3Dihub">bore out the results</a>, showing that Steffen’s method was almost twice as fast as boarding back-to-front or rotating blocks of rows and 20–30 percent faster than random boarding. The key is parallelism: The ideal scenario is having more than one person sitting down at the same time.</p><p><a href="https://arstechnica.com/science/2026/03/whats-the-best-cabin-layout-for-aircraft-evacuation/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/03/whats-the-best-cabin-layout-for-aircraft-evacuation/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>91</slash:comments>
+                
+                
+                <media:content height="530" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/airplane1-1152x530.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/airplane1-500x500-1774801256.jpg" width="500"/>
+<media:credit>Zhao et al.</media:credit></media:content>
+            </item>
+                    <item>
+                <title>After more than 53 years, humans may finally return to the Moon this week</title>
+                <link>https://arstechnica.com/space/2026/03/after-more-than-53-years-humans-may-finally-return-to-the-moon-this-week/</link>
+                                    <comments>https://arstechnica.com/space/2026/03/after-more-than-53-years-humans-may-finally-return-to-the-moon-this-week/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 14:25:38 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[artemis]]></category>
+		<category><![CDATA[artemis II]]></category>
+		<category><![CDATA[human spaceflight]]></category>
+		<category><![CDATA[moon]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[orion]]></category>
+		<category><![CDATA[space launch system]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/03/after-more-than-53-years-humans-may-finally-return-to-the-moon-this-week/</guid>
+
+                                    <description>
+                        <![CDATA["Things are certainly starting to feel real here at the Cape."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>KENNEDY SPACE CENTER, Florida—The two-day countdown for the launch of NASA's Artemis II mission began Monday evening, with clocks timed for the first of six opportunities in early April to send a crew of four astronauts around the far side of the Moon.</p>
+<p>Liftoff from Launch Complex 39B at Kennedy Space Center in Florida is scheduled for a two-hour launch window opening at 6:24 pm EDT (22:24 UTC) on Wednesday. NASA has backup launch opportunities each day through Monday, April 6, or else the mission will have to wait until the end of the month.</p>
+<p>Mission managers said Monday that all systems were looking good for launch this week. The weather forecast is favorable, with an 80 percent chance of acceptable conditions for liftoff Wednesday. The only weather concern at the launch site in Florida is a low chance of rain showers and cloud cover that could present a risk of lightning. But with a two-hour launch window, there should be plenty of time to wait out any scattered storms.</p><p><a href="https://arstechnica.com/space/2026/03/after-more-than-53-years-humans-may-finally-return-to-the-moon-this-week/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/03/after-more-than-53-years-humans-may-finally-return-to-the-moon-this-week/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>86</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/NHQ202603270007large-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/NHQ202603270007large-500x500.jpg" width="500"/>
+<media:credit>NASA/Aubrey Gemignani</media:credit><media:text>The SLS rocket on its launch pad at Kennedy Space Center, Florida.</media:text></media:content>
+            </item>
+                    <item>
+                <title>No more Chinese Polestar 3s as production shifts entirely to the US</title>
+                <link>https://arstechnica.com/cars/2026/03/polestar-3-production-consolidated-to-the-us-to-keep-volvo-factory-busy/</link>
+                                    <comments>https://arstechnica.com/cars/2026/03/polestar-3-production-consolidated-to-the-us-to-keep-volvo-factory-busy/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 14:11:07 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Polestar]]></category>
+		<category><![CDATA[volvo]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/03/polestar-3-production-consolidated-to-the-us-to-keep-volvo-factory-busy/</guid>
+
+                                    <description>
+                        <![CDATA[Building the big electric SUV at two sites doesn't make sense anymore.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Volvo factory outside Charleston, South Carolina, will get even busier this year. Formerly the site that built the S60 sedan, in recent years it shifted to building big electric SUVs, the <a href="https://arstechnica.com/cars/2025/07/2025-volvo-ex90-a-low-key-luxury-electric-suv/">EX90</a> and closely related <a href="https://arstechnica.com/cars/2025/07/2025-polestar-3-drives-sporty-looks-sharp-can-be-a-little-annoying/">Polestar 3</a>. Today, Volvo and Polestar announced that Charleston will now be the sole production site for the Polestar 3; until now, it was also being built at a factory in Chengdu, China.</p>
+<p>"The move to consolidate global Polestar 3 production in Charleston help[s] generate efficiencies for both companies, whilst also underscoring our confidence in the plant and the role it plays in our manufacturing footprint," said Håkan Samuelsson, chief executive of Volvo Cars. "The US is a very important market for Volvo Cars, both to support our growth ambitions as well as a strategic production site to meet regional and export demands."</p>
+<p>Volvo had a challenging 2025, with sales falling by 7 percent. Meanwhile, Polestar, which was spun out from the Swedish OEM's performance arm into a standalone startup in <a href="https://arstechnica.com/cars/2017/10/volvo-tears-up-the-rules-with-a-subscription-only-600-hp-electric-gt/">2017</a>, had a rather good 2025, seeing a 34 percent increase in sales. So increasing the proportion of Polestar 3s to come out of South Carolina seems sensible.</p><p><a href="https://arstechnica.com/cars/2026/03/polestar-3-production-consolidated-to-the-us-to-keep-volvo-factory-busy/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/03/polestar-3-production-consolidated-to-the-us-to-keep-volvo-factory-busy/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>44</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/Original-5471-polestar-3-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/Original-5471-polestar-3-500x500-1774965261.jpeg" width="500"/>
+<media:credit>Polestar</media:credit></media:content>
+            </item>
+                    <item>
+                <title>How did Anthropic measure AI's "theoretical capabilities" in the job market?</title>
+                <link>https://arstechnica.com/ai/2026/03/how-did-anthropic-measure-ais-theoretical-capabilities-in-the-job-market/</link>
+                                    <comments>https://arstechnica.com/ai/2026/03/how-did-anthropic-measure-ais-theoretical-capabilities-in-the-job-market/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 14:01:33 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[economy]]></category>
+		<category><![CDATA[jobs]]></category>
+		<category><![CDATA[study]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/03/how-did-anthropic-measure-ais-theoretical-capabilities-in-the-job-market/</guid>
+
+                                    <description>
+                        <![CDATA[2023 study made a lot of assumptions about future "anticipated LLM-powered software."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>If you follow the ongoing debate over AI's growing economic impact, you may have seen the graphic below floating around this month. It comes from <a href="https://www.anthropic.com/research/labor-market-impacts">an Anthropic report on the labor market impacts of AI</a> and is meant to compare the current "observed exposure" of occupations to LLMs (in red) to the "theoretical capability" of those same LLMs (in blue) across 22 job categories.</p>
+<p>While the current "observed exposure" area is interesting in its own right, it's the blue "theoretical capability" that jumps out. At a glance, the graph implies that LLM-based systems could perform at least 80 percent of the individual "job tasks" across a shockingly wide range of human occupations, at least theoretically. It looks like Anthropic is predicting that LLMs will eventually be able to do the vast majority of jobs in broad categories ranging from "Arts &amp; Media" and "Office &amp; Admin" to "Legal, Business &amp; Finance," and even "Management."</p>
+<img width="3840" height="3840" src="https://cdn.arstechnica.net/wp-content/uploads/2026/03/anthropic_jobs.png" class="fullwidth full" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/03/anthropic_jobs.png 3840w, https://cdn.arstechnica.net/wp-content/uploads/2026/03/anthropic_jobs-640x640.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/03/anthropic_jobs-1024x1024.png 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/03/anthropic_jobs-300x300.png 300w, https://cdn.arstechnica.net/wp-content/uploads/2026/03/anthropic_jobs-768x768.png 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/03/anthropic_jobs-1536x1536.png 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/03/anthropic_jobs-2048x2048.png 2048w, https://cdn.arstechnica.net/wp-content/uploads/2026/03/anthropic_jobs-500x500.png 500w, https://cdn.arstechnica.net/wp-content/uploads/2026/03/anthropic_jobs-1000x1000.png 1000w, https://cdn.arstechnica.net/wp-content/uploads/2026/03/anthropic_jobs-980x980.png 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/03/anthropic_jobs-1440x1440.png 1440w" sizes="auto, (max-width: 3840px) 100vw, 3840px">
+      That "theoretical AI coverage" area seems like it's destined to eat a huge swath of the US job market!
+        Credit:
+          <a href="https://www.anthropic.com/research/labor-market-impacts" target="_blank">Anthropic</a>
+      
+<p>Digging into the basis for those "theoretical capability" numbers, though, provides a much less chilling image of AI's future occupational impacts. When you drill down into the specifics, that blue field represents some outdated and heavily speculative educated guesses about where AI is likely to improve human productivity and not necessarily where it will take over for humans altogether.</p><p><a href="https://arstechnica.com/ai/2026/03/how-did-anthropic-measure-ais-theoretical-capabilities-in-the-job-market/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/03/how-did-anthropic-measure-ais-theoretical-capabilities-in-the-job-market/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>51</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2259634870-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2259634870-500x500-1774962138.jpg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>Is AI poised to crush the job market like a giant robot hand crushing a cubicle worker?</media:text></media:content>
+            </item>
+                    <item>
+                <title>Iran's hackers are on the offensive against the US and Israel</title>
+                <link>https://arstechnica.com/security/2026/03/irans-hackers-are-on-the-offensive-against-the-us-and-israel/</link>
+                                    <comments>https://arstechnica.com/security/2026/03/irans-hackers-are-on-the-offensive-against-the-us-and-israel/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jacob Judah, Financial Times]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 13:37:48 +0000</pubDate>
+                		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[USA-Iran War]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/03/irans-hackers-are-on-the-offensive-against-the-us-and-israel/</guid>
+
+                                    <description>
+                        <![CDATA[Tehran hopes to stoke fear and extract intel in a series of cyber attacks.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As missile sirens wailed over Israel earlier this month, thousands of Israelis received texts claiming to be from their military, encouraging them to download a fake shelter app, which could have stolen reams of personal data.</p>
+<p>Others received a mass text saying: “Netanyahu is dead. Death is approaching you and soon the gates of hell will open before you. Before the fire of Iranian missiles destroys you, leave Palestine.”</p>
+<p>The messages, cyber security experts say, are the most visible end of a vast war being waged in the far reaches of the Internet between Iran, Israel, and the US and their online sympathizers.</p><p><a href="https://arstechnica.com/security/2026/03/irans-hackers-are-on-the-offensive-against-the-us-and-israel/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/03/irans-hackers-are-on-the-offensive-against-the-us-and-israel/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>54</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/iranhax-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/iranhax-500x500.jpg" width="500"/>
+<media:credit>mirsad sarajlic/Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>As electric truck demand craters, GM lays off workers and idles plant</title>
+                <link>https://arstechnica.com/cars/2026/03/gm-idles-electric-truck-factory-lays-off-1300-workers-for-a-month/</link>
+                                    <comments>https://arstechnica.com/cars/2026/03/gm-idles-electric-truck-factory-lays-off-1300-workers-for-a-month/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Tue, 31 Mar 2026 12:28:43 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[EV adoption]]></category>
+		<category><![CDATA[General Motors]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/03/gm-idles-electric-truck-factory-lays-off-1300-workers-for-a-month/</guid>
+
+                                    <description>
+                        <![CDATA[Factory Zero went idle on March 16, workers expected to return April 13.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>After getting a little overoptimistic about the speed and nature of electric vehicle adoption in the US, automakers are <a href="https://arstechnica.com/cars/2026/03/honda-cancels-the-two-electric-vehicles-it-was-developing-with-sony/">now scaling back</a> their production plans. The imposition of tariffs and the abolishment of federal EV incentives are mostly to blame, although the domestic OEMs' attempt to easily transition their full-size truck customers into all-electric versions has stumbled due to a mix of range and towing anxiety.</p>
+<p>General Motors has been well represented in the large electric vehicle segment by Cadillac, Chevrolet, and GMC with a mix of pickup trucks and SUVs. But the plant that assembles them—Factory Zero in Hamtramck, Michigan—was idled two weeks ago. Thirteen-hundred workers have been <a href="https://www.autonews.com/general-motors/an-gm-factory-zero-idled-again-0330/">temporarily laid off</a> until it restarts on April 13, resuming production of the <a href="https://arstechnica.com/cars/2025/03/the-2025-cadillac-escalade-iq-first-drive-460-miles-on-a-single-charge/">Escalade IQ</a>, Chevrolet Silverado EV, <a href="https://arstechnica.com/cars/2024/11/the-2025-gmc-sierra-ev-denali-brings-big-power-at-a-bigger-cost/">GMC Sierra EV</a>, and the <a href="https://arstechnica.com/cars/2024/11/driving-the-biggest-least-efficient-electric-car-the-hummer-ev-suv/">GMC Hummer EVs</a>.</p>
+<p>In <a href="https://arstechnica.com/cars/2025/10/weak-ev-demand-sees-gm-lay-off-1700-workers-at-two-plants/">late October last year</a>, GM permanently laid off 1,700 workers in Michigan and Tennessee at EV and battery plants, including Factory Zero. Then, it also idled the production line for the big EVs for about a month before restarting with just a single shift. At least production will restart at all. In December, Ford <a href="https://arstechnica.com/cars/2025/12/ford-ends-f-150-lightning-production-starts-battery-storage-business/">canceled</a> its F-150 Lightning pickup truck, and Ram <a href="https://arstechnica.com/cars/2025/02/theres-a-battery-bigger-than-in-most-bevs-inside-the-ramcharger-hybrid/">never even got</a> a battery EV truck into production.</p><p><a href="https://arstechnica.com/cars/2026/03/gm-idles-electric-truck-factory-lays-off-1300-workers-for-a-month/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/03/gm-idles-electric-truck-factory-lays-off-1300-workers-for-a-month/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>167</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2243494784-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2243494784-500x500.jpg" width="500"/>
+<media:credit>Bill Pugliano/Getty Images</media:credit></media:content>
+            </item>
+                    <item>
                 <title>Water utility announces it's ditching fluoride—then reveals it did so years ago</title>
                 <link>https://arstechnica.com/health/2026/03/water-utility-announces-its-ditching-fluoride-then-reveals-it-did-so-years-ago/</link>
                                     <comments>https://arstechnica.com/health/2026/03/water-utility-announces-its-ditching-fluoride-then-reveals-it-did-so-years-ago/#comments</comments>
@@ -46,682 +719,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>34</slash:comments>
+                                    <slash:comments>238</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-486641681-1152x648.jpeg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-486641681-500x500.jpeg" width="500"/>
 <media:credit>Getty |  Thomas Trutschel</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Judge halts Nexstar/Tegna merger after FCC let firms exceed TV ownership limit</title>
-                <link>https://arstechnica.com/tech-policy/2026/03/judge-halts-nexstar-tegna-merger-after-fcc-let-firms-exceed-tv-ownership-limit/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/03/judge-halts-nexstar-tegna-merger-after-fcc-let-firms-exceed-tv-ownership-limit/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Mon, 30 Mar 2026 20:18:16 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[DIRECTV]]></category>
-		<category><![CDATA[FCC]]></category>
-		<category><![CDATA[nexstar]]></category>
-		<category><![CDATA[tegna]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/judge-halts-nexstar-tegna-merger-after-fcc-let-firms-exceed-tv-ownership-limit/</guid>
-
-                                    <description>
-                        <![CDATA["Defendants must immediately cease" actions to integrate and consolidate the firms.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Although the Trump administration approved Nexstar Media Group’s $6.2 billion purchase of Tegna, a US judge has ordered the two companies to stop integrating their assets and operations. US District Judge Troy Nunley, an Obama appointee, <a href="https://storage.courtlistener.com/recap/gov.uscourts.caed.484734/gov.uscourts.caed.484734.60.0_3.pdf">issued a temporary restraining order</a> on Friday prohibiting integration of the companies until further rulings by the court.</p>
-<p>"Defendants must immediately cease all ongoing actions relating to integration and consolidation of Nexstar and Tegna," wrote Nunley, the chief judge in US District Court for the Eastern District of California.</p>
-<p>Nunley said he agrees with plaintiff DirecTV that immediate integration of the merging firms could eliminate competition, result in newsroom layoffs and shutdowns, and make it more difficult to divest Tegna stations if the court ends up requiring a divestiture after reviewing the merger. DirecTV has established that "the Nexstar-TEGNA merger will substantially lessen competition in markets in which it participates," and that there would be irreparable harm if a restraining order isn't issued, Nunley wrote.</p><p><a href="https://arstechnica.com/tech-policy/2026/03/judge-halts-nexstar-tegna-merger-after-fcc-let-firms-exceed-tv-ownership-limit/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/03/judge-halts-nexstar-tegna-merger-after-fcc-let-firms-exceed-tv-ownership-limit/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>25</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/judges-gavel-1152x648-1747771043.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/judges-gavel-500x500.jpg" width="500"/>
-<media:credit>Getty Images | SimpleImages</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Authors' lucky break in court may help class action over Meta torrenting</title>
-                <link>https://arstechnica.com/tech-policy/2026/03/meta-hopes-scotus-piracy-ruling-will-help-it-beat-lawsuit-over-torrenting-ai-data/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/03/meta-hopes-scotus-piracy-ruling-will-help-it-beat-lawsuit-over-torrenting-ai-data/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Mon, 30 Mar 2026 19:04:01 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AI training]]></category>
-		<category><![CDATA[BItTorrent]]></category>
-		<category><![CDATA[class action]]></category>
-		<category><![CDATA[copyright infringement]]></category>
-		<category><![CDATA[meta]]></category>
-		<category><![CDATA[seeding]]></category>
-		<category><![CDATA[torrenting]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/meta-hopes-scotus-piracy-ruling-will-help-it-beat-lawsuit-over-torrenting-ai-data/</guid>
-
-                                    <description>
-                        <![CDATA[Judge gave authors an easier attack on Meta’s torrenting. Meta hopes SCOTUS ruling will block it.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Looks like Meta is hoping the recent Supreme Court ruling that found <a href="https://arstechnica.com/tech-policy/2026/03/supreme-court-rejects-sonys-attempt-to-kick-music-pirates-off-the-internet/">Internet service providers aren't liable for piracy</a> on their networks will help the social media giant dodge liability claims over its <a href="https://arstechnica.com/tech-policy/2025/02/meta-torrented-over-81-7tb-of-pirated-books-to-train-ai-authors-say/">torrenting of AI training data</a>.</p>
-<p>Last week, Meta filed a <a href="https://cdn.arstechnica.net/wp-content/uploads/2026/03/Entrepreneur-Media-v-Meta-Statement-on-Recent-Decision-3-25-26.pdf">statement</a> in a lawsuit that alleged that Meta should be liable under copyright law for contributory infringement simply because the company knows how torrenting works. By seeding perhaps 80 terabytes of pirated works, the company allegedly knew it was inducing infringement by allowing uploads to help speed up its downloads, the plaintiffs, Entrepreneur Media, argued.</p>
-<p>This contributory infringement claim is much easier to prove than a separate claim raised in a class action filed by book authors in <em>Kadrey v. Meta</em>, which alleged that <a href="https://arstechnica.com/tech-policy/2025/02/meta-defends-its-vast-book-torrenting-were-just-a-leech-no-proof-of-seeding/">Meta's torrenting meant it was liable for a "distribution" claim</a> of direct copyright infringement. TorrentFreak <a href="https://torrentfreak.com/judge-allows-bittorrent-seeding-claims-against-meta-despite-lawyers-lame-excuses/">noted</a> that the authors' claim required evidence that Meta torrented an entire work, whereas the contributory infringement claim only depends on proving that Meta facilitated torrent transfers.</p><p><a href="https://arstechnica.com/tech-policy/2026/03/meta-hopes-scotus-piracy-ruling-will-help-it-beat-lawsuit-over-torrenting-ai-data/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/03/meta-hopes-scotus-piracy-ruling-will-help-it-beat-lawsuit-over-torrenting-ai-data/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>27</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2224516673-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2224516673-500x500.jpg" width="500"/>
-<media:credit>Rob Wilkinson | iStock / Getty Images Plus</media:credit></media:content>
-            </item>
-                    <item>
-                <title>F1 in Japan: Oh no, what have they done to all the fast corners?</title>
-                <link>https://arstechnica.com/cars/2026/03/f1-in-japan-oh-no-what-have-they-done-to-all-the-fast-corners/</link>
-                                    <comments>https://arstechnica.com/cars/2026/03/f1-in-japan-oh-no-what-have-they-done-to-all-the-fast-corners/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Mon, 30 Mar 2026 17:22:33 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[F1]]></category>
-		<category><![CDATA[Formula 1]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/03/f1-in-japan-oh-no-what-have-they-done-to-all-the-fast-corners/</guid>
-
-                                    <description>
-                        <![CDATA[F1 cars don't have enough energy in a lap to attack fast corners, and that's bad.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Following this past weekend's Japanese Grand Prix, Formula 1 goes into a five-week hiatus now that war in the Gulf has made it impossible to hold races in Bahrain and Saudi Arabia. The unplanned break is probably welcomed up and down the paddock as teams, drivers, and officials try to get their heads around this new generation of F1 car and the radical new demands it places on them all. Those new challenges were on full display at Suzuka.</p>
-<p>On the plus side, the race itself was quite exciting. That's something you could not have said in 2025, <a href="https://arstechnica.com/cars/2025/04/f1-in-japan-reminds-us-a-great-track-might-not-make-for-a-great-race/">a snoozefest with cars driving in procession</a> and few opportunities to overtake. A hefty reduction in aerodynamic downforce for 2026 means that cars can follow each other more closely. But after this visit to one of motorsport's most-loved, most challenging circuits, it's very hard to avoid the conclusion that F1 has painted itself into a corner with its new hybrid systems. The sport itself recognizes this; on April 9, it will hold crisis talks to try to find a solution.</p>
-<h2>You don't have the energy</h2>
-<p>The problem, as we have been warned for some time, is the new hybrid power trains, which combine a 1.6 L V6 that generates 400 kW (536 hp) with a 350 kW (469 hp) electric motor. Getting to a near 50:50 split between internal combustion and electric power was key to attracting new auto manufacturers to the sport, and Audi, Ford, Cadillac, and Honda were all enticed by the 2026 rules. The electric motor is fed by a 1.1 kWh (4 MJ) battery pack, but depending on the track, cars are allowed to deploy 8–9 MJ from the electric side, which means recovering that energy while out on track.</p><p><a href="https://arstechnica.com/cars/2026/03/f1-in-japan-oh-no-what-have-they-done-to-all-the-fast-corners/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/03/f1-in-japan-oh-no-what-have-they-done-to-all-the-fast-corners/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>83</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2268527216-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2268527216-500x500.jpg" width="500"/>
-<media:credit>George Hitchens/SOPA Images/LightRocket via Getty Images</media:credit><media:text>The start of the 2026 Japanese Grand Prix at Suzuka.</media:text></media:content>
-            </item>
-                    <item>
-                <title>After 16 years and $8 billion, the military's new GPS software still doesn't work</title>
-                <link>https://arstechnica.com/space/2026/03/after-16-years-and-8-billion-the-militarys-new-gps-software-still-doesnt-work/</link>
-                                    <comments>https://arstechnica.com/space/2026/03/after-16-years-and-8-billion-the-militarys-new-gps-software-still-doesnt-work/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Mon, 30 Mar 2026 17:11:46 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[global positioning system]]></category>
-		<category><![CDATA[GNSS]]></category>
-		<category><![CDATA[GPS]]></category>
-		<category><![CDATA[military space]]></category>
-		<category><![CDATA[navigation]]></category>
-		<category><![CDATA[Raytheon]]></category>
-		<category><![CDATA[rtx]]></category>
-		<category><![CDATA[US Space Force]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/03/after-16-years-and-8-billion-the-militarys-new-gps-software-still-doesnt-work/</guid>
-
-                                    <description>
-                        <![CDATA["It's a very stressing program. We are still considering how to ensure we move forward."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Last year, just before the Fourth of July holiday, the US Space Force officially took ownership of a new operating system for the GPS navigation network, raising hopes that one of the military's most troubled space programs might finally bear fruit.</p>
-<p>The GPS Next-Generation Operational Control System, or OCX, is designed for command and control of the military's constellation of more than 30 GPS satellites. It consists of software to handle new signals and jam-resistant capabilities of the latest generation of GPS satellites, GPS III, which started launching in 2018. The ground segment also includes two master control stations and upgrades to ground monitoring stations around the world, among other hardware elements.</p>
-<p>RTX Corporation, formerly known as Raytheon, won a Pentagon contract in 2010 to develop and deliver the control system. The program was supposed to be complete in 2016 at a cost of $3.7 billion. Today, the official cost for the ground system for the <a href="https://arstechnica.com/space/2026/03/spacex-swipes-yet-another-military-contract-from-united-launch-alliance/">GPS III satellites</a> stands at $7.6 billion. RTX is developing an OCX augmentation projected to cost more than $400 million to support a new series of GPS IIIF satellites set to begin launching next year, bringing the total effort to $8 billion.</p><p><a href="https://arstechnica.com/space/2026/03/after-16-years-and-8-billion-the-militarys-new-gps-software-still-doesnt-work/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/03/after-16-years-and-8-billion-the-militarys-new-gps-software-still-doesnt-work/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>86</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/9470308-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/9470308-500x500.jpg" width="500"/>
-<media:credit>US Space Force/David Dozoretz</media:credit><media:text>US Space Force Guardians assigned to Space Delta 5 monitor computer workstations at Vandenberg Space Force Base, California.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Trump convenes "God Squad" to override Endangered Species Act, up oil production</title>
-                <link>https://arstechnica.com/tech-policy/2026/03/trump-convenes-god-squad-to-override-endangered-species-act-up-oil-production/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/03/trump-convenes-god-squad-to-override-endangered-species-act-up-oil-production/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kiley Price, Inside Climate News]]>
-                </dc:creator>
-                <pubDate>Mon, 30 Mar 2026 13:30:42 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[endangered species act]]></category>
-		<category><![CDATA[energy policy]]></category>
-		<category><![CDATA[gulf of mexico]]></category>
-		<category><![CDATA[Oil drilling]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/trump-convenes-god-squad-to-override-endangered-species-act-up-oil-production/</guid>
-
-                                    <description>
-                        <![CDATA[Administration wants to exempt all federally regulated offshore oil from protections.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Trump administration is turning to the nuclear option on endangered-species protections in the name of national security.</p>
-<p>A rarely tapped panel nicknamed the “God Squad” will meet Tuesday to discuss whether overriding Endangered Species Act regulations for all federally regulated fossil fuel operations in the Gulf of Mexico is more important than preventing the extinction of several imperiled species. That includes sea turtles and a whale species down to its last 51 individuals.</p>
-<p>Interior Secretary Doug Burgum <a href="https://www.federalregister.gov/documents/2026/03/16/2026-05242/endangered-species-committee-meeting-announcement">announced</a> the upcoming Endangered Species Committee meeting last week, with no details on specific projects in the Gulf or the basis for what would constitute an extraordinary action. Only twice in the panel’s nearly half-century has it ever lifted restrictions.</p><p><a href="https://arstechnica.com/tech-policy/2026/03/trump-convenes-god-squad-to-override-endangered-species-act-up-oil-production/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/03/trump-convenes-god-squad-to-override-endangered-species-act-up-oil-production/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>191</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2018/01/GettyImages-526100006-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2018/01/GettyImages-526100006-scaled-500x500-1774877262.jpg" width="500"/>
-<media:credit>Julie Dermansky/Corbis via Getty Images</media:credit><media:text>Aerial view of an oil production platform in the Gulf of Mexico.</media:text></media:content>
-            </item>
-                    <item>
-                <title>What happened to Amelia Earhart? New book takes on the case.</title>
-                <link>https://arstechnica.com/science/2026/03/what-happened-to-amelia-earhart-new-book-takes-on-the-case/</link>
-                                    <comments>https://arstechnica.com/science/2026/03/what-happened-to-amelia-earhart-new-book-takes-on-the-case/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Mon, 30 Mar 2026 12:31:19 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Amelia Earhart]]></category>
-		<category><![CDATA[aviation history]]></category>
-		<category><![CDATA[books]]></category>
-		<category><![CDATA[historical mysteries]]></category>
-		<category><![CDATA[History]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/03/what-happened-to-amelia-earhart-new-book-takes-on-the-case/</guid>
-
-                                    <description>
-                        <![CDATA[Rachel Hartigan on her new book, <em>Lost: Amelia Earhart's Three Mysterious Deaths and One Extraordinary Life</em>.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Famed aviator <a href="https://en.wikipedia.org/wiki/Amelia_Earhart">Amelia Earhart</a> mysteriously disappeared in 1937 during an attempt to become the first female pilot to circumnavigate the globe. Speculative theories abound about what really happened to Earhart, but while tantalizing hints of her fate have popped up from time to time over the last 90 years, none have proved conclusive. The people behind those theories, and the extraordinary woman who still inspires them, are the focus of an eminently readable new book, <a href="https://www.amazon.com/dp/1426222548?ref=ppx_yo2ov_dt_b_fed_asin_title"><em>Lost: Amelia Earhart's Three Mysterious Deaths and One Extraordinary Life</em></a>, by Rachel Hartigan.</p>
-<p>A former editor of The Washington Post's Book World, Hartigan worked for National Geographic magazine for 12 years, covering such diverse topics as the genetics of persimmon trees and the history of women's suffrage. So why a book about Earhart? Hartigan acknowledged that she asked that question herself "in the darkest moments of writing."</p>
-<p>After all, there are countless biographies for readers of all ages, as well as books touting various theories about Earhart's disappearance, not to mention occasional news coverage about the latest attempts to locate Earhart's plane or her remains. (Last fall, <a href="https://arstechnica.com/culture/2025/09/new-amelia-earhart-bio-delves-into-her-unconventional-marriage/">we reported</a> on Laurie Gwen Shapiro's <a href="https://www.amazon.com/Aviator-Showman-Earhart-Marriage-American/dp/0593295900"><em>The Aviator and the Showman</em></a>, a biography exploring Earhart's unconventional marriage to George Putnam, a flamboyant publisher with a flair for marketing.) "I just didn't feel there was a book that tied everything together," Hartigan told Ars. "You get these news stories of people saying they know where Amelia Earhart is, but you don't have any context beyond the immediate story, all the things that make it a full picture."</p><p><a href="https://arstechnica.com/science/2026/03/what-happened-to-amelia-earhart-new-book-takes-on-the-case/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/03/what-happened-to-amelia-earhart-new-book-takes-on-the-case/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>66</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/ameliaTOP-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/ameliaTOP-500x500.jpg" width="500"/>
-<media:credit>Public domain</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Pints meet prop bets: Polymarket’s “Situation Room” pop-up bar in DC</title>
-                <link>https://arstechnica.com/culture/2026/03/pints-meet-prop-bets-polymarkets-situation-room-pop-up-bar-in-dc/</link>
-                                    <comments>https://arstechnica.com/culture/2026/03/pints-meet-prop-bets-polymarkets-situation-room-pop-up-bar-in-dc/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Rob Pegoraro]]>
-                </dc:creator>
-                <pubDate>Sun, 29 Mar 2026 11:35:10 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[dc]]></category>
-		<category><![CDATA[polymarket]]></category>
-		<category><![CDATA[prediction market]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2026/03/pints-meet-prop-bets-polymarkets-situation-room-pop-up-bar-in-dc/</guid>
-
-                                    <description>
-                        <![CDATA[Why did a leading prediction market feel the need for an in-person bar in DC?]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Polymarket’s temporary makeover of a K Street bar as “The Situation Room” yielded a few notable differences from other Washington watering holes: more laptops open, more overheard conversations about cryptocurrency, and more screens—most of which were not showing sports.</p>
-<p>The New York-based prediction market announced in a <a href="https://x.com/Polymarket/status/2034272538465841410">March 18 thread on X</a> that it was opening what it called “the world's first bar dedicated to monitoring the situation,” touting the availability of “live X feeds, flight radar, Bloomberg terminals, and Polymarket screens.” The bar would only be there for a three-day run.</p>
-<p>The reality—as reported by journalists who showed up for a press-preview event Friday night—fell vastly short of that, with power and Wi-Fi problems that <a href="https://washingtonian.com/2026/03/20/not-much-situation-monitoring-happened-on-the-opening-night-of-polymarkets-pop-up-bar/">left all the displays dark</a>. Polymarket fixed the screens the next day, however, and on my own visit on Sunday afternoon, dozens of displays offered a choice of CNN, CBS, the local Fox station, FS1, and various pages on Polymarket’s site. No normal bar would have CNBC or C-SPAN on, but those networks were a logical fit for this one.</p><p><a href="https://arstechnica.com/culture/2026/03/pints-meet-prop-bets-polymarkets-situation-room-pop-up-bar-in-dc/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2026/03/pints-meet-prop-bets-polymarkets-situation-room-pop-up-bar-in-dc/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>115</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/image-2-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/image-2-500x500.jpeg" width="500"/>
-<media:credit>Rob Pegoraro</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Polygraphs have major flaws. Are there better options?</title>
-                <link>https://arstechnica.com/science/2026/03/polygraphs-have-major-flaws-are-there-better-options/</link>
-                                    <comments>https://arstechnica.com/science/2026/03/polygraphs-have-major-flaws-are-there-better-options/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Sarah Scoles, Undark Magazine]]>
-                </dc:creator>
-                <pubDate>Sun, 29 Mar 2026 11:01:46 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[polygraph]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[undark]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/03/polygraphs-have-major-flaws-are-there-better-options/</guid>
-
-                                    <description>
-                        <![CDATA[Research proceeds on alternatives, but some doubt whether true lie detection is possible.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>When George W. Maschke applied to work for the FBI in 1994, he had already held a security clearance for over 11 years. The government had deemed him trustworthy through his career in the Army. But soon, a machine and a man would not come to the same conclusion.</p>
-<p>His application to be a special agent had passed initial muster. And so, in the spring of 1995, according to his account, he found himself sitting across from an FBI polygraph examiner, answering questions about his life and loyalties.</p>
-<p>He told the truth, he said in an interview with Undark. But in a blog post on his website, he recalled the examiner told him that the polygraph machine—which measured some of Maschke’s physiological responses—indicated that he was being deceptive about keeping classified information secret, and about his contacts with foreign intelligence agencies.</p><p><a href="https://arstechnica.com/science/2026/03/polygraphs-have-major-flaws-are-there-better-options/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/03/polygraphs-have-major-flaws-are-there-better-options/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>172</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/liedetector-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/liedetector-500x500.jpg" width="500"/>
-<media:credit>SerhiiBobyk via Getty</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Explanation for why we don't see two-foot-long dragonflies anymore fails</title>
-                <link>https://arstechnica.com/science/2026/03/leading-explanation-for-ancient-giant-flying-insects-gets-squashed/</link>
-                                    <comments>https://arstechnica.com/science/2026/03/leading-explanation-for-ancient-giant-flying-insects-gets-squashed/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jacek Krywko]]>
-                </dc:creator>
-                <pubDate>Sat, 28 Mar 2026 12:30:43 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[breathing]]></category>
-		<category><![CDATA[insects]]></category>
-		<category><![CDATA[metabolism]]></category>
-		<category><![CDATA[physiology]]></category>
-		<category><![CDATA[trachea]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/03/leading-explanation-for-ancient-giant-flying-insects-gets-squashed/</guid>
-
-                                    <description>
-                        <![CDATA[Breathing capacity could have compensated for lower atmospheric oxygen.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Three-hundred million years ago, the skies of the late Palaeozoic era were buzzing with giant insects. <em>Meganeuropsis permiana</em>, a predatory insect resembling a modern-day dragonfly, had a wingspan of over 70 centimeters and weighed 100 grams. Biologists looked at these ancient behemoths and asked why bugs aren’t this big anymore. Thirty years ago, they came up with an <a href="https://www.nature.com/articles/375117a0">answer</a> known as the "oxygen constraint hypothesis."</p>
-<p>For decades, we thought that any dragonflies the size of hawks needed highly oxygenated air to survive because insect breathing systems are less efficient than those of mammals, birds, or reptiles. As atmospheric oxygen levels dropped, there wasn’t enough to support giant bugs anymore. “It’s a simple, elegant explanation,” said Edward Snelling, a professor of veterinary science at the University of Pretoria. “But it’s wrong.”</p>
-<h2>Insect breathing</h2>
-<p>Unlike mammals, insects don't have a centralized pair of lungs and a closed circulatory system that delivers oxygen-rich blood to their tissues. “They breathe through internalized tubing called the tracheal system,” Snelling explained.</p><p><a href="https://arstechnica.com/science/2026/03/leading-explanation-for-ancient-giant-flying-insects-gets-squashed/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/03/leading-explanation-for-ancient-giant-flying-insects-gets-squashed/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>181</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-1471125296-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-1471125296-500x500.jpg" width="500"/>
-<media:credit>VitaSerendipity</media:credit><media:text>Imagine one of these, but the size of the entire forearm.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Causality optional? Testing the "indefinite causal order" superposition</title>
-                <link>https://arstechnica.com/science/2026/03/getting-formal-about-quantum-mechanics-lack-of-causality/</link>
-                                    <comments>https://arstechnica.com/science/2026/03/getting-formal-about-quantum-mechanics-lack-of-causality/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[John Timmer]]>
-                </dc:creator>
-                <pubDate>Sat, 28 Mar 2026 12:00:31 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[causality]]></category>
-		<category><![CDATA[Physics]]></category>
-		<category><![CDATA[quantum mechanics]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/03/getting-formal-about-quantum-mechanics-lack-of-causality/</guid>
-
-                                    <description>
-                        <![CDATA[A quantum experiment shows that we can formally test if the order of events matters.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Over a decade ago, when I was first starting to pretend I could write about quantum mechanics, I <a href="https://arstechnica.com/science/2012/11/measurements-retroactively-force-photons-to-be-both-wave-and-particle/">covered a truly bizarre experiment</a>. One half of a pair of entangled photons was sent through a device it could navigate as either a particle or a wave. After it was clear of the device, the other half of the pair was measured in a way that forced the first to act as one or the other. Once that was done, the first invariably behaved as if it were whatever the measurement made it into the whole time.</p>
-<p>It was as if the measurement had reached backward in time to alter the photon's behavior, raising questions about whether causality itself actually applied to quantum mechanics.</p>
-<p>Unbeknownst to me, physicists have been asking the same question and have designed experiments to probe it in detail. A few weeks back, they provided an experiment that seems to indicate it's possible to create quantum superpositions of two different series of events, essentially making the question of whether A or B happened first a matter of probability*. While the current experiment leaves a few loopholes, the researchers behind the work think they could ultimately be eliminated.</p><p><a href="https://arstechnica.com/science/2026/03/getting-formal-about-quantum-mechanics-lack-of-causality/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/03/getting-formal-about-quantum-mechanics-lack-of-causality/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>103</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/sites/3/2015/10/ligo-laser.jpg">
-<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/sites/3/2015/10/ligo-laser.jpg"/>
-</media:content>
-            </item>
-                    <item>
-                <title>How new fishing tech can reduce bycatch of turtles and other creatures</title>
-                <link>https://arstechnica.com/science/2026/03/how-new-fishing-tech-can-reduce-bycatch-of-turtles-and-other-creatures/</link>
-                                    <comments>https://arstechnica.com/science/2026/03/how-new-fishing-tech-can-reduce-bycatch-of-turtles-and-other-creatures/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Gennaro Tomma, Knowable Magazine]]>
-                </dc:creator>
-                <pubDate>Sat, 28 Mar 2026 11:15:35 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[deep sea fishing]]></category>
-		<category><![CDATA[fisheries]]></category>
-		<category><![CDATA[marine conservation]]></category>
-		<category><![CDATA[oceanography]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/03/how-new-fishing-tech-can-reduce-bycatch-of-turtles-and-other-creatures/</guid>
-
-                                    <description>
-                        <![CDATA[Specially equipped nets can help save some species, while allowing fisherman to still catch others.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Our oceans are full of sophisticated, perfect traps: Nets, hooks, fishing lines. Designed to capture animals destined for our dinner tables, they often catch other wildlife too.</p>
-<p>This accidental harvest is known as bycatch, and every year it causes the death <a href="https://www.wwf.org.uk/whats-in-the-net#:~:text=It%20is%20estimated%20that%20every%20year%20fisheries%20bycatch%20kills%3A%20720%2C000%20seabirds%2C%20300%2C000%20whales%20and%20dolphins%2C%20345%2C000%20seals%20and%20sea%20lions%2C%20over%20250%2C000%20turtles%2C%20and%20more%20than%201.1%20million%20tonnes%20of%20sharks%20and%20rays.%20Many%20of%20these%20species%20are%20endangered%20or%20on%20the%20brink%20of%20extinction.%C2%A0">of millions of marine animals</a>, including whales, dolphins, sharks, turtles, and seabirds. Nets and gear can asphyxiate animals or cause fatal injuries; even when the animals are tossed back to sea, they frequently die. Bycatch is also a dilemma for fishermen—entangled creatures can destroy equipment, costing time, money, and fisheries’ reputations.</p>
-<p>Over the decades, conservationists, researchers, and fishermen have developed ways to minimize various kinds of bycatch in different fishing stocks around the world. But putting these solutions to work is often a challenge, and many mitigation strategies are never widely implemented.</p><p><a href="https://arstechnica.com/science/2026/03/how-new-fishing-tech-can-reduce-bycatch-of-turtles-and-other-creatures/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/03/how-new-fishing-tech-can-reduce-bycatch-of-turtles-and-other-creatures/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>16</slash:comments>
-                
-                
-                <media:content height="600" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/seaturtle-1152x600.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/seaturtle-500x500.jpg" width="500"/>
-<media:credit>Dan Foster / NOAA Fisheries</media:credit><media:text>A turtle escapes from a net via a turtle excluder device. The contraptions direct the creatures to an opening without letting shrimp—the target catch—get away.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Playing Wolfenstein 3D with one hand in 2026</title>
-                <link>https://arstechnica.com/gaming/2026/03/playing-wolfenstein-3d-with-one-hand-in-2026/</link>
-                                    <comments>https://arstechnica.com/gaming/2026/03/playing-wolfenstein-3d-with-one-hand-in-2026/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Fri, 27 Mar 2026 22:09:00 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[first-person shooter]]></category>
-		<category><![CDATA[fps]]></category>
-		<category><![CDATA[id Software]]></category>
-		<category><![CDATA[pc]]></category>
-		<category><![CDATA[retro]]></category>
-		<category><![CDATA[wolfenstein 3d]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/03/playing-wolfenstein-3d-with-one-hand-in-2026/</guid>
-
-                                    <description>
-                        <![CDATA[Over three decades later, this historical curiosity has more than a few rough edges]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[
-<p>Like practically everyone who owned a PC in the early '90s, I tore through the shareware episode of <i>Wolfenstein 3D </i>shortly after it came out. At the time, the game’s mere existence seemed like a magic trick, offering a smooth-scrolling first-person perspective that was unlike pretty much anything I had ever seen. Strictly speaking, the game might have been ironically two-dimensional (lacking even the simulated gameplay “height” of follow-up <i>Doom</i>), but the sense of depth conveyed by the viewpoint was simply mind-blowing.</p>
-<p>Coming back to <i>Wolfenstein 3D </i>in 2026 feels quite a bit different. The initial magic trick of the game’s perspective has worn off after nearly 35 years of playing the countless first-person shooters it inspired. And the advancements in shooter design since 1992 make some of the decisions id Software made for its first experiment in the genre feel a bit archaic from a modern perspective.</p>
-<p>Still, it’s fascinating to look back at <em>Wolfenstein 3D</em> today and see the seeds that would sprout into one of gaming’s most popular genres. Playing it today feels like going to a car museum and taking a Model T for a spin, with all the confusion and danger that entails.</p><p><a href="https://arstechnica.com/gaming/2026/03/playing-wolfenstein-3d-with-one-hand-in-2026/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2026/03/playing-wolfenstein-3d-with-one-hand-in-2026/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>70</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/wofl3d-1.jpg">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/wofl3d-1-500x500-1774646731.jpg" width="500"/>
-<media:credit>id Software</media:credit><media:text>Not a lot of cover to be found in rooms like this...</media:text></media:content>
-            </item>
-                    <item>
-                <title>With new plugins feature, OpenAI officially takes Codex beyond coding</title>
-                <link>https://arstechnica.com/ai/2026/03/openai-brings-plugins-to-codex-closing-some-of-the-gap-with-claude-code/</link>
-                                    <comments>https://arstechnica.com/ai/2026/03/openai-brings-plugins-to-codex-closing-some-of-the-gap-with-claude-code/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Samuel Axon]]>
-                </dc:creator>
-                <pubDate>Fri, 27 Mar 2026 21:53:45 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[Claude Code]]></category>
-		<category><![CDATA[Codex]]></category>
-		<category><![CDATA[LLM]]></category>
-		<category><![CDATA[MCP]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[plugins]]></category>
-		<category><![CDATA[skills]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/03/openai-brings-plugins-to-codex-closing-some-of-the-gap-with-claude-code/</guid>
-
-                                    <description>
-                        <![CDATA[Things are moving fast, and competitors have offered something similar for a while.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>OpenAI has added plugin support to its agentic coding app Codex in an apparent attempt to match similar features offered by competitors Anthropic (in Claude Code) and Google (in Gemini's command line interface).</p>
-<p>What OpenAI calls "plugins" are actually bundles that may include skills ("prompts that describe workflows to Codex"—a standard feature in tools like this these days), app integrations, and MCP (Model Context Protocol) servers.</p>
-<p>The idea is that they make it possible to configure Codex in certain ways for specific tasks to be easier for the user and replicable across multiple users in an organization.</p><p><a href="https://arstechnica.com/ai/2026/03/openai-brings-plugins-to-codex-closing-some-of-the-gap-with-claude-code/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/03/openai-brings-plugins-to-codex-closing-some-of-the-gap-with-claude-code/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>59</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/codex-plugins-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/codex-plugins-500x500.jpg" width="500"/>
-<media:credit>Samuel Axon</media:credit><media:text>A screenshot of the plugins menu in Codex.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Outbreak linked to raw cheese grows; 9 cases total, one with kidney failure</title>
-                <link>https://arstechnica.com/health/2026/03/kidney-failure-case-reported-in-raw-cheese-outbreak-maker-still-denies-link/</link>
-                                    <comments>https://arstechnica.com/health/2026/03/kidney-failure-case-reported-in-raw-cheese-outbreak-maker-still-denies-link/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Fri, 27 Mar 2026 21:43:00 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[E. coli]]></category>
-		<category><![CDATA[Raw Farm]]></category>
-		<category><![CDATA[shiga toxin]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/03/kidney-failure-case-reported-in-raw-cheese-outbreak-maker-still-denies-link/</guid>
-
-                                    <description>
-                        <![CDATA[Raw Farm denies link to illnesses, while patients keep identifying its products.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Two more illnesses have been identified in an <em>E. coli</em> outbreak linked to unpasteurized cheese and milk, <a href="https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o157h7-raw-cheddar-cheese-march-2026">the Food and Drug Administration reported Thursday</a>. The maker of the products, California-based Raw Farm, continues to deny the link and has refused to issue a recall.</p>
-<p>According to the FDA, at least nine people have been sickened in three states, an increase of two cases since <a href="https://arstechnica.com/health/2026/03/fda-links-raw-cheese-to-outbreak-makers-100-disagree-refuse-recall/">the outbreak was announced earlier this month</a>. Three of the nine cases required hospitalization, and one person developed a life-threatening complication called Hemolytic uremic syndrome, or HUS, which causes a type of kidney failure.</p>
-<p>Outbreak investigators have interviewed eight of the nine people sickened. All eight reported consuming unpasteurized dairy. One person couldn't recall a brand, but the remaining seven all singled out products from Raw Farm. Five people ate Raw Farm's raw cheddar, and two drank Raw Farm's raw milk. Whole genome sequencing of the <em>E. coli </em>isolates from the patients shows high similarity, suggesting they came from a common source.</p><p><a href="https://arstechnica.com/health/2026/03/kidney-failure-case-reported-in-raw-cheese-outbreak-maker-still-denies-link/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/03/kidney-failure-case-reported-in-raw-cheese-outbreak-maker-still-denies-link/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>142</slash:comments>
-                
-                
-                <media:content medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/RAW-FARM-Raw-Cheddar-Cheese-Label.png">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/RAW-FARM-Raw-Cheddar-Cheese-Label-500x500.png" width="500"/>
-<media:credit>FDA, Raw Farm cheddar cheese label</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Judge irate as defendant joins by Zoom while driving—then lies about it</title>
-                <link>https://arstechnica.com/tech-policy/2026/03/judge-irate-as-defendant-joins-by-zoom-while-driving-then-lies-about-it/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/03/judge-irate-as-defendant-joins-by-zoom-while-driving-then-lies-about-it/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Nate Anderson]]>
-                </dc:creator>
-                <pubDate>Fri, 27 Mar 2026 21:10:25 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[judge]]></category>
-		<category><![CDATA[Michigan]]></category>
-		<category><![CDATA[safety]]></category>
-		<category><![CDATA[zoom]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/judge-irate-as-defendant-joins-by-zoom-while-driving-then-lies-about-it/</guid>
-
-                                    <description>
-                        <![CDATA["Let me see the driver!"]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A local judge in Woodhaven, Michigan, lost it this week when a <a href="https://www.fox2detroit.com/news/do-you-think-im-stupid-wayne-county-judge-berates-woman-joining-court-while-driving">defendant showed up</a> to her court hearing late, on Zoom, and... while driving a car.</p>
-<p>Kimberly Carroll was facing a hearing over a few thousand dollars that she allegedly owed and had defaulted on. She was allowed to attend remotely, but when the hearing began, she wasn't yet available on Zoom.</p>
-<p>When she finally joined, <a href="https://33court.com/honorable-Michael-k-mcnally/">Judge Michael McNally</a> told her she needed to turn her camera on.</p><p><a href="https://arstechnica.com/tech-policy/2026/03/judge-irate-as-defendant-joins-by-zoom-while-driving-then-lies-about-it/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/03/judge-irate-as-defendant-joins-by-zoom-while-driving-then-lies-about-it/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>148</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-1407642057-1152x648-1774644559.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-1407642057-500x500-1774644568.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>AV1’s open, royalty-free promise in question as Dolby sues Snapchat over codec</title>
-                <link>https://arstechnica.com/gadgets/2026/03/av1s-open-royalty-free-promise-in-question-as-dolby-sues-snapchat-over-codec/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/03/av1s-open-royalty-free-promise-in-question-as-dolby-sues-snapchat-over-codec/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Fri, 27 Mar 2026 20:31:21 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[av1]]></category>
-		<category><![CDATA[dolby]]></category>
-		<category><![CDATA[lawsuit]]></category>
-		<category><![CDATA[snapchat]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/03/av1s-open-royalty-free-promise-in-question-as-dolby-sues-snapchat-over-codec/</guid>
-
-                                    <description>
-                        <![CDATA[Big Tech declaring AV1 royalty-free “doesn't mean that it is," critic says. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>AOMedia Video 1 (AV1) was invented by a group of technology companies to be an open, royalty-free alternative to other video codecs, like HEVC/H.265. But a lawsuit that Dolby Laboratories Inc. filed this week against Snap Inc. calls all that into question with claims of patent infringement.</p>
-<p>Numerous lawsuits are currently open in the US regarding the use of HEVC. Relevant patent holders, such as Nokia and InterDigital, have sued numerous <a href="https://www.streamtvinsider.com/video/nokia-sues-amazon-hp-over-video-compression-technology">hardware vendors and streaming service providers</a> in pursuit of licensing fees for the use of patented technologies deemed essential to HEVC.</p>
-<p>It’s a touch rarer to see a lawsuit filed over the implementation of AV1. The Alliance for Open Media (AOMedia), whose members include Amazon, Apple, Google, Microsoft, Mozilla, and Netflix, <a href="https://aomedia.org/resources/The-Future-of-Innovation-is-Open/">says</a> it developed AV1 “under a royalty-free patent policy (<a href="https://aomedia.org/about/legal/">Alliance for Open Media Patent License 1.0</a>)” and that the standard is “supported by high-quality reference implementations under a simple, permissive license (<a href="https://aomedia.org/license/software-license/bsd-3-c-c/">BSD 3-Clause Clear License</a>).”</p><p><a href="https://arstechnica.com/gadgets/2026/03/av1s-open-royalty-free-promise-in-question-as-dolby-sues-snapchat-over-codec/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/03/av1s-open-royalty-free-promise-in-question-as-dolby-sues-snapchat-over-codec/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>136</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2259062605-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2259062605-500x500.jpg" width="500"/>
-<media:credit>Jakub Porzycki/NurPhoto via Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Hegseth, Trump had no authority to order Anthropic to be blacklisted, judge says</title>
-                <link>https://arstechnica.com/tech-policy/2026/03/hegseth-trump-had-no-authority-to-order-anthropic-to-be-blacklisted-judge-says/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/03/hegseth-trump-had-no-authority-to-order-anthropic-to-be-blacklisted-judge-says/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Fri, 27 Mar 2026 19:49:18 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[AI safety]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[Claude]]></category>
-		<category><![CDATA[department of war]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[military AI]]></category>
-		<category><![CDATA[Pete Hegseth]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/hegseth-trump-had-no-authority-to-order-anthropic-to-be-blacklisted-judge-says/</guid>
-
-                                    <description>
-                        <![CDATA[“I don’t know”: Department of War fails to justify blacklisting Anthropic.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>"Classic First Amendment retaliation." That's how US District Judge Rita Lin described the Department of War's <a href="https://arstechnica.com/tech-policy/2026/03/anthropic-sues-us-over-blacklisting-white-house-calls-firm-radical-left-woke/">effort to blacklist Anthropic and designate it a supply-chain risk</a>.</p>
-<p>By all appearances, "these measures appear designed to punish Anthropic," Lin wrote in an order granting Anthropic's request for a preliminary injunction.</p>
-<p>Officials seemingly had no authority to take such extreme actions without considering less restrictive alternatives or offering any evidence that Anthropic posed an urgent risk to national security, Lin said. Instead, "the Department of War’s records show that it designated Anthropic as a supply chain risk because of its 'hostile manner through the press.'"</p><p><a href="https://arstechnica.com/tech-policy/2026/03/hegseth-trump-had-no-authority-to-order-anthropic-to-be-blacklisted-judge-says/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/03/hegseth-trump-had-no-authority-to-order-anthropic-to-be-blacklisted-judge-says/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>194</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2267370596-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2267370596-500x500-1774638087.jpg" width="500"/>
-<media:credit>Win McNamee / Staff | Getty Images News</media:credit><media:text>Secretary of War Pete Hegseth called Anthropic "arrogant" for warning of AI safety concerns.</media:text></media:content>
-            </item>
-                    <item>
-                <title>DOJ confirms FBI Director Kash Patel’s personal email was hacked</title>
-                <link>https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Fri, 27 Mar 2026 16:24:05 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[email]]></category>
-		<category><![CDATA[fbi]]></category>
-		<category><![CDATA[Federal Bureau of Investigation]]></category>
-		<category><![CDATA[gmail]]></category>
-		<category><![CDATA[hackers]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/</guid>
-
-                                    <description>
-                        <![CDATA[Hackers claimed the attack was retaliation after Patel vowed to "hunt" them.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Iran-linked hackers successfully broke into FBI Director Kash Patel's personal email, the Department of Justice confirmed <a href="https://www.reuters.com/world/us/iran-linked-hackers-claim-breach-of-fbi-directors-personal-email-doj-official-2026-03-27/">to Reuters</a> on Friday.</p>
-<p>Reuters could not authenticate the leaked emails themselves but noted that the Gmail address matched an email account "linked to Patel in previous data breaches ⁠preserved by the dark web intelligence firm District 4 Labs." The DOJ suggested the emails appeared to be authentic.</p>
-<p>On their website, the Handala Hack Team boasted that Patel "will now find his name among the list of successfully hacked victims." The hacker group taunted Patel by sharing photos of him sniffing cigars and holding up a jug of rum, along with other documents that Reuters reported were from 2010 to 2019.</p><p><a href="https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>206</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2266689842-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2266689842-500x500.jpg" width="500"/>
-<media:credit>Bill Clark / Contributor | CQ-Roll Call, Inc.</media:credit><media:text>FBI Director Kash Patel's personal email account was hacked.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Sony is raising PlayStation 5 prices again, this time by between $100 and $150</title>
-                <link>https://arstechnica.com/gadgets/2026/03/sony-is-raising-playstation-5-prices-again-this-time-by-between-100-and-150/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/03/sony-is-raising-playstation-5-prices-again-this-time-by-between-100-and-150/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Fri, 27 Mar 2026 15:57:40 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[PlayStation]]></category>
-		<category><![CDATA[playstation 5]]></category>
-		<category><![CDATA[ps5]]></category>
-		<category><![CDATA[Sony]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/03/sony-is-raising-playstation-5-prices-again-this-time-by-between-100-and-150/</guid>
-
-                                    <description>
-                        <![CDATA[Memory, storage shortages have made all kinds of consumer tech more expensive.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Memory and storage shortages and price hikes that <a href="https://arstechnica.com/gadgets/2026/01/ram-shortage-chaos-expands-to-gpus-high-capacity-ssds-and-even-hard-drives/">started hitting PC components</a> late last year have steadily rippled outward across all kinds of consumer tech—some products have <a href="https://arstechnica.com/gadgets/2026/03/apples-512gb-mac-studio-vanishes-a-quiet-acknowledgement-of-the-ram-shortage/" target="_blank" rel="noopener">disappeared,</a> <a href="https://arstechnica.com/gadgets/2026/02/valves-steam-deck-intermittently-out-of-stock-as-ram-shortage-drags-on/" target="_blank" rel="noopener">gone out of stock,</a> or been <a href="https://arstechnica.com/gadgets/2026/02/ram-shortage-delays-valves-steam-machine-desktop-and-steam-frame-headset/">delayed</a>, and <a href="https://arstechnica.com/gadgets/2026/02/frameworks-ram-prices-climbing-on-a-monthly-cadence-with-more-hikes-to-come/">others</a> have undergone <a href="https://arstechnica.com/gadgets/2026/02/ongoing-ram-crisis-prompts-raspberry-pis-second-price-hike-in-two-months/">multiple rounds</a> of price hikes.</p>
-<p>Today's bad news comes from Sony, which is <a href="https://blog.playstation.com/2026/03/27/new-price-changes-for-ps5-ps5-pro-and-playstation-portal-remote-player/">raising prices</a> for PlayStation 5 consoles in the US <a href="https://arstechnica.com/gadgets/2025/08/sony-joins-xbox-and-nintendo-in-hiking-playstation-5-prices-in-the-us/">just eight months after their last price hike</a>. The drive-less Digital Edition will increase from $500 to $600; the base PS5 with an optical drive will increase from $550 to $650; and the PS5 Pro is going up from $750 to a whopping $900. At the beginning of 2025, these consoles cost $450, $500, and $700, respectively.</p>
-<p>Sony, <a href="https://arstechnica.com/gaming/2025/09/microsoft-raises-xbox-console-prices-for-the-second-time-this-year/">Microsoft</a>, and <a href="https://arstechnica.com/gadgets/2025/08/citing-market-conditions-nintendo-hikes-prices-for-original-switch-consoles/">Nintendo</a> had all announced one or more price increases for one or more consoles throughout 2025, though these were driven more by <a href="https://arstechnica.com/tech-policy/2026/02/supreme-court-blocks-trumps-emergency-tariffs-billions-in-refunds-may-be-owed/">the Trump administration's tariffs</a> on imported goods than component shortages. Game console price cuts <a href="https://arstechnica.com/gadgets/2025/05/chips-arent-improving-like-they-used-to-and-its-killing-game-console-price-cuts/">had already become less common</a> over the course of the 2010s, making consoles like the 5-plus-year-old PS5 <a href="https://arstechnica.com/gaming/2025/08/todays-game-consoles-are-historically-overpriced/">historically expensive</a> compared to older consoles at this point in their lifespans.</p><p><a href="https://arstechnica.com/gadgets/2026/03/sony-is-raising-playstation-5-prices-again-this-time-by-between-100-and-150/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/03/sony-is-raising-playstation-5-prices-again-this-time-by-between-100-and-150/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>111</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/ps-logo-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/ps-logo-500x500.jpg" width="500"/>
-<media:credit>Sony</media:credit></media:content>
             </item>
             </channel>
 </rss>
