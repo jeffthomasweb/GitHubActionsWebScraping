@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Mon, 27 Apr 2026 12:29:39 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 28 Apr 2026 00:14:09 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,553 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Put it in pencil: NASA's Artemis III mission will launch no earlier than late 2027</title>
+                <link>https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027/</link>
+                                    <comments>https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Tue, 28 Apr 2026 00:14:09 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[artemis]]></category>
+		<category><![CDATA[artemis iii]]></category>
+		<category><![CDATA[blue moon]]></category>
+		<category><![CDATA[blue origin]]></category>
+		<category><![CDATA[human spaceflight]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[orion]]></category>
+		<category><![CDATA[space launch system]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[starship]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027/</guid>
+
+                                    <description>
+                        <![CDATA[SpaceX and Blue Origin tell NASA their lunar landers will be ready for Artemis III in late 2027.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>NASA Administrator Jared Isaacman told lawmakers on Monday that SpaceX and Blue Origin, the agency's two lunar lander contractors, say they could have their spacecraft ready for the next Artemis mission in Earth orbit in late 2027, somewhat later than NASA's previous schedule.</p>
+<p>This mission, Artemis III, will <a href="https://arstechnica.com/space/2026/02/nasa-shakes-up-its-artemis-program-to-speed-up-lunar-return/">not fly to the Moon</a>. Instead, NASA will launch an Orion capsule with a team of astronauts to rendezvous and potentially dock with one or both landers in Earth orbit. The details of the Artemis III flight plan remain under review, with <a href="https://arstechnica.com/space/2026/04/with-orion-still-flying-nasa-is-nearing-key-decisions-about-artemis-iii/">key questions</a> about the orbit's altitude and the configuration of the Space Launch System rocket still unanswered.</p>
+<p>A mission to low-Earth orbit, just a few hundred miles in altitude, may not require NASA to use up an SLS upper stage that is already built and in storage, saving the unit for the following Artemis mission to attempt a landing on the Moon. A launch into a higher orbit would require the upper stage, but it would allow NASA to perform tests in an environment more similar to the Moon. NASA is <a href="https://arstechnica.com/space/2026/03/ding-dong-the-exploration-upper-stage-is-dead/">buying a new commercial upper stage</a>, the Centaur V from United Launch Alliance, to pair with the SLS rocket after flying the last of the rocket's existing upper stages.</p><p><a href="https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>10</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/jsc2023e076235-1-1152x648-1777333909.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/jsc2023e076235-1-500x500.jpg" width="500"/>
+<media:credit>SpaceX</media:credit><media:text>This photo from 2023 shows a ground test of the docking mechanism for Starship, derived from the system used on SpaceX's Crew Dragon spacecraft.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Open source package with 1 million monthly downloads stole user credentials</title>
+                <link>https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/</link>
+                                    <comments>https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 27 Apr 2026 21:04:03 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Open source software]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/</guid>
+
+                                    <description>
+                        <![CDATA[If you're one of millions using element-data, it's time to check for compromise.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Open source software with more than 1 million monthly downloads was compromised after a threat actor exploited a vulnerability in the developers’ account workflow that gave access to its signing keys and other sensitive information.</p>
+<p>On Friday, unknown attackers exploited the vulnerability to push a new version of <a href="https://github.com/elementary-data/elementary/pkgs/container/elementary">element-data</a>, a command-line interface that helps users monitor performance and anomalies in machine-learning systems. When run, the malicious package scoured systems for sensitive data, including user profiles, warehouse credentials, cloud provider keys, API tokens, and SSH keys, developers <a href="https://www.elementary-data.com/post/security-incident-report-malicious-release-of-elementary-oss-python-cli-v0-23-3">said</a>. The malicious version was tagged as 0.23.3 and was published to the developers’ Python Package Index and Docker image accounts. It was removed about 12 hours later, on Saturday. Elementary Cloud, the Elementary dbt package, and all other CLI versions weren't affected.</p>
+<h2>Assume compromise</h2>
+<p>“Users who installed 0.23.3, or who pulled and ran the affected Docker image, should assume that any credentials accessible to the environment where it ran may have been exposed,” the developers wrote.</p><p><a href="https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>18</slash:comments>
+                
+                
+                <media:content height="627" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/browser-security-threat-1152x627.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/browser-security-threat-500x500.jpg" width="500"/>
+</media:content>
+            </item>
+                    <item>
+                <title>Musk and Altman face off in trial that will determine OpenAI's future</title>
+                <link>https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Mon, 27 Apr 2026 20:45:18 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[xAI]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future/</guid>
+
+                                    <description>
+                        <![CDATA[Musk’s shifting stance on AI dangers may complicate trial over OpenAI’s mission.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A hotly anticipated trial starts this week, where Elon Musk will attempt to prove that OpenAI, under Sam Altman, has abandoned its mission to remain a nonprofit in order to ensure that artificial intelligence serves humanity, and not just billionaires.</p>
+<p>Many view the lawsuit as a grudge match between Musk—who left OpenAI after serving as an early major donor and advisor—and Altman—who currently runs OpenAI, despite <a href="https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/">insiders' allegedly growing distrust</a> in his commitment to the dominant AI firm's mission. But the lawsuit is about much more than a couple billionaires' big egos. The outcome could radically change the AI landscape, impacting how OpenAI runs and what resources the firm will have to uphold its mission.</p>
+<p>If Musk wins, OpenAI's hopes of growing a for-profit arm that can fund the nonprofit could be dashed. Additionally, Brockman and Altman could be dropped as officers, and Altman risks losing his seat on OpenAI's board.</p><p><a href="https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>33</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/elon-and-sam-are-bffs-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/elon-and-sam-are-bffs-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI ends its exclusive partnership with Microsoft</title>
+                <link>https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/</link>
+                                    <comments>https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Mon, 27 Apr 2026 20:10:11 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[agreement]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[azure]]></category>
+		<category><![CDATA[bedrock]]></category>
+		<category><![CDATA[cloud]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[partnership]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/</guid>
+
+                                    <description>
+                        <![CDATA[Amended agreement clears the way for OpenAI models to run on Amazon Bedrock.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Since Microsoft <a href="https://www.hpcwire.com/2019/07/22/microsoft-investing-1b-in-openai-artificial-general-intelligence-rd/">invested $1 billion in OpenAI in 2019</a>, the exclusive partnership between the two firms has been one of the strongest and most consequential in the AI industry. Today, though, OpenAI and Microsoft <a href="https://openai.com/index/next-phase-of-microsoft-partnership/">jointly</a> <a href="https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/">announced</a> an amended agreement that will allow the company to go beyond Microsoft's Azure and "serve all its products to customers across any cloud provider."</p>
+<p>The announcement clarifies that Microsoft will continue to have a license for OpenAI's IP and models through 2032 and that Azure will remain the "primary cloud partner" for OpenAI during that time (should Microsoft continue to be able to honor that). But Microsoft's license "will now be non-exclusive," the announcement reads, letting OpenAI make its models available through other major cloud providers going forward.</p>
+<p>While OpenAI will continue to make the same 20 percent revenue share payments to Microsoft under the amended deal, that total payment will now be limited to an unspecified cap and is only guaranteed to run through 2030. Importantly, that revenue share is now "independent of OpenAI’s technology progress," an apparent reference to the infamous "AGI clause" in the original partnership that would have scrapped the exclusivity deal if and when OpenAI <a href="https://arstechnica.com/information-technology/2025/10/expert-panel-will-determine-agi-arrival-in-new-microsoft-openai-agreement/">achieved the hard-to-gauge benchmark of artificial general intelligence.</a></p><p><a href="https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>29</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-2153474326-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-2153474326-500x500.jpg" width="500"/>
+<media:credit>JASON REDMOND / Contributor | AFP</media:credit><media:text>OpenAI CEO Sam Altman (L) shakes hands with Microsoft Chief Technology Officer and Executive VP of Artificial Intelligence Kevin Scott during the Microsoft Build conference at the Seattle Convention Center Summit Building in Seattle, Washington on May 21, 2024.</media:text></media:content>
+            </item>
+                    <item>
+                <title>EU tells Google to open up AI on Android; Google says that's "unwarranted intervention"</title>
+                <link>https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/</link>
+                                    <comments>https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Mon, 27 Apr 2026 20:03:49 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Digital Markets Act]]></category>
+		<category><![CDATA[europe]]></category>
+		<category><![CDATA[European Commision]]></category>
+		<category><![CDATA[google]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/</guid>
+
+                                    <description>
+                        <![CDATA[Gemini gets preferential treatment on Android, but maybe not for long (in Europe). ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In January, the European Commission began an initial investigation, known as a specification proceeding, into how Google has implemented AI in the Android operating system. The results are in, and the EU says Android needs to be more open, which is not surprising. Meanwhile, Google says this amounts to "unwarranted intervention," which is equally unsurprising. Regardless of Google's characterization of the investigation, the commission may force Google to make Android AI changes this summer.</p>
+<p>This action stems from the continent's Digital Markets Act (DMA), a sweeping law that designates seven dominant technology companies as "gatekeepers" that are <a href="https://arstechnica.com/tech-policy/2024/03/apple-google-and-meta-are-failing-dma-compliance-eu-suspects/">subject to greater regulation</a> to ensure fair competition. Google has consistently spoken against the regulations imposed under the DMA, but it and the other gatekeepers have been subject to the law for several years now, and there's little chance the commission backs away from it.</p>
+<p>The issue before the commission currently is the built-in advantage for Gemini on Android. When you turn on any Google-powered Android phone, Gemini is already there and gets special treatment at the system level. The European Commission is taking aim at the lack of features available to third-party AI services. The commission believes that there are too many experiences on Android that only work with Google's Gemini AI, and as a gatekeeper, Google must change that.</p><p><a href="https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>27</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-IO-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-IO-500x500-1749567268.jpg" width="500"/>
+<media:credit>Ryan Whitwam</media:credit></media:content>
+            </item>
+                    <item>
+                <title>With new patch design, the Crew-13 astronauts clearly aren't superstitious</title>
+                <link>https://arstechnica.com/space/2026/04/nasas-spacex-crew-13-pays-homage-to-apollo-13-on-mission-patch/</link>
+                                    <comments>https://arstechnica.com/space/2026/04/nasas-spacex-crew-13-pays-homage-to-apollo-13-on-mission-patch/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Robert Pearlman]]>
+                </dc:creator>
+                <pubDate>Mon, 27 Apr 2026 19:45:06 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[13]]></category>
+		<category><![CDATA[apollo 13]]></category>
+		<category><![CDATA[astronauts]]></category>
+		<category><![CDATA[Canadian Space Agency]]></category>
+		<category><![CDATA[cosmonaut]]></category>
+		<category><![CDATA[Crew-13]]></category>
+		<category><![CDATA[emblem]]></category>
+		<category><![CDATA[insignia]]></category>
+		<category><![CDATA[Jessica Watkins]]></category>
+		<category><![CDATA[Joshua Kutryk]]></category>
+		<category><![CDATA[Luke Delaney]]></category>
+		<category><![CDATA[mission patch]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[roscosmos]]></category>
+		<category><![CDATA[Sergey Teteryatnikov]]></category>
+		<category><![CDATA[space collectible]]></category>
+		<category><![CDATA[Space exploration]]></category>
+		<category><![CDATA[space history]]></category>
+		<category><![CDATA[space memorabilia]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[thirteen]]></category>
+		<category><![CDATA[triskaidekaphobia]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/04/nasas-spacex-crew-13-pays-homage-to-apollo-13-on-mission-patch/</guid>
+
+                                    <description>
+                        <![CDATA[Houston, we have another "13."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>NASA has assigned its first crew to launch on a mission "13" since Apollo 13 "had a problem" on the way to the Moon 56 years ago.</p>
+<p>Jessica Watkins and Luke Delaney with NASA, Joshua Kutryk with the Canadian Space Agency, and Roscosmos cosmonaut Sergey Teteryatnikov will lift off for the International Space Station <a href="https://www.collectspace.com/news/news-042526a-crew-13-mission-patch-apollo-13-nasa-spacex.html" target="_blank" rel="noopener">as Crew-13 on a SpaceX Dragon spacecraft</a> in mid-September. The four will serve as members of the station's Expedition 75 and 76 crews, before returning to Earth about five months later.</p>
+<p>"This flight is the 13th crew rotation with SpaceX," NASA's announcement read. "The crew will conduct scientific investigations and technology demonstrations to help prepare humans for future exploration missions to the moon and Mars, and benefit people on Earth."</p><p><a href="https://arstechnica.com/space/2026/04/nasas-spacex-crew-13-pays-homage-to-apollo-13-on-mission-patch/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/04/nasas-spacex-crew-13-pays-homage-to-apollo-13-on-mission-patch/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>18</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/news-042526a-lg-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/news-042526a-lg-500x500.jpg" width="500"/>
+<media:credit>NASA/collectSPACE.com</media:credit><media:text>NASA's SpaceX Crew-13 mission patch pays homage to the Apollo 13 insignia, united by a common numerical.</media:text></media:content>
+            </item>
+                    <item>
+                <title>"Super ZSNES" is a stab at a modern SNES emulator from the original developers</title>
+                <link>https://arstechnica.com/gadgets/2026/04/super-zsnes-is-a-stab-at-a-modern-snes-emulator-from-the-original-developers/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/04/super-zsnes-is-a-stab-at-a-modern-snes-emulator-from-the-original-developers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Mon, 27 Apr 2026 18:30:14 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[emulation]]></category>
+		<category><![CDATA[SNES]]></category>
+		<category><![CDATA[Super Nintendo]]></category>
+		<category><![CDATA[Super Nintendo Entertainment System]]></category>
+		<category><![CDATA[zsnes]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/04/super-zsnes-is-a-stab-at-a-modern-snes-emulator-from-the-original-developers/</guid>
+
+                                    <description>
+                        <![CDATA[Upgrades to SNES graphics and sound go way beyond the typical screen filtering.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Aficionados of game console emulator history will almost certainly be familiar with ZSNES, an MS-DOS-based (and, later, Windows-based) emulator for the Super Nintendo Entertainment System that originally launched back in 1997. Originally written in x86 assembly code, it was known best for its performance on low-end PCs and was capable of running some games at full speed on chips as slow as a 233 MHz Pentium II, though it usually did so <a href="https://arstechnica.com/gaming/2011/08/accuracy-takes-power-one-mans-3ghz-quest-to-build-a-perfect-snes-emulator/">at the expense of emulation accuracy</a>.</p>
+<p>ZSNES developed rapidly (alongside the contemporary, competing Snes9x project) throughout the late ’90s and early 2000s. Updates slowed after the original creators left the project, and new releases ceased entirely around 2007.</p>
+<p>But a successor to ZSNES has arrived. The project's original creators (who go by the handles <a href="https://bsky.app/profile/zsknight.bsky.social">zsKnight</a> and _Demo_) have returned 19 years later with a new follow-up project called "<a href="https://zsnes.com/">Super ZSNES</a>," an SNES emulator that emphasizes audio-visual upgrades to those aging ’90s-era Super Nintendo games. The only more surprising emulator news would be if <a href="https://en.wikipedia.org/wiki/NESticle">NESticle</a> somehow rose from the dead.</p><p><a href="https://arstechnica.com/gadgets/2026/04/super-zsnes-is-a-stab-at-a-modern-snes-emulator-from-the-original-developers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/04/super-zsnes-is-a-stab-at-a-modern-snes-emulator-from-the-original-developers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>38</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/super-zsnes-1152x648.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/super-zsnes-500x500.png" width="500"/>
+<media:credit>Super ZSNES</media:credit><media:text>Super ZSNES is more of a sequel than an update to the original emulator.</media:text></media:content>
+            </item>
+                    <item>
+                <title>China kills Meta’s acquisition of Manus as US-China AI rivalry deepens</title>
+                <link>https://arstechnica.com/ai/2026/04/china-kills-metas-acquisition-of-manus-as-us-china-ai-rivalry-deepens/</link>
+                                    <comments>https://arstechnica.com/ai/2026/04/china-kills-metas-acquisition-of-manus-as-us-china-ai-rivalry-deepens/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Mon, 27 Apr 2026 18:12:04 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI companies]]></category>
+		<category><![CDATA[ai startup]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[Manus]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[US-China relations]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/04/china-kills-metas-acquisition-of-manus-as-us-china-ai-rivalry-deepens/</guid>
+
+                                    <description>
+                        <![CDATA[The unwinding of Meta’s deal shows how tech founders struggle to cut China ties.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>China has blocked US tech giant Meta’s acquisition of the AI company Manus that was founded by Chinese tech entrepreneurs. That development indicates how difficult it has become for US and Chinese tech companies to strike and sustain such deals as government authorities on both sides take an increasingly hard line amid the deepening US-China AI rivalry.</p>
+<p>The Chinese government formally asked Meta to unwind the acquisition on April 27 after deciding to ban foreign investment in Manus based on national security concerns. It had already spent months officially scrutinizing Meta’s $2 billion acquisition of Manus that took place in December 2025—Chinese regulators announced they were reviewing the deal in January 2026 and instructed the two Manus cofounders to <a href="https://www.wsj.com/tech/leaders-of-ai-firm-bought-by-meta-are-restricted-from-leaving-china-6b79da34?mod=article_inline">not leave China</a> while the investigation was ongoing, according to The <a href="https://www.wsj.com/world/china/china-bans-metas-acquisition-of-manus-on-national-security-grounds-71e10c3f">Wall Street Journal</a>.</p>
+<p>Manus burst onto the scene in March 2025 with its “<a href="https://manus.im/docs/introduction/welcome">general AI agent,</a>” designed to help users with tasks such as searching real estate sites for a new home or booking airline tickets and hotels for an international trip. The Manus AI agent is an “agentic wrapper” or “agentic harness” that enables an underlying AI model—in this case, Anthropic’s <a href="https://www.theinformation.com/newsletters/ai-agenda/anthropics-claude-drives-strong-revenue-growth-while-powering-manus-sensation">Claude 3.7 Sonnet</a>—to take actions to carry out user requests. But Manus actually incorporates <a href="https://x.com/peakji/status/1898994802194346408">multiple AI agents</a> to perform and verify tasks, including a planner agent that assigns tasks and an executor agent that can browse and interact with websites, create spreadsheets, use various software tools, and even code new applications.</p><p><a href="https://arstechnica.com/ai/2026/04/china-kills-metas-acquisition-of-manus-as-us-china-ai-rivalry-deepens/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/04/china-kills-metas-acquisition-of-manus-as-us-china-ai-rivalry-deepens/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>24</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/Meta-and-Manus-logos-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/Meta-and-Manus-logos-500x500.jpg" width="500"/>
+<media:credit>Cheng Xin/Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Study: Infrasound likely a key factor in alleged hauntings</title>
+                <link>https://arstechnica.com/science/2026/04/that-spooky-sensation-likely-due-to-rumbling-pipes-not-spirits/</link>
+                                    <comments>https://arstechnica.com/science/2026/04/that-spooky-sensation-likely-due-to-rumbling-pipes-not-spirits/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Mon, 27 Apr 2026 18:00:35 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[acoustics]]></category>
+		<category><![CDATA[behavioral neuroscience]]></category>
+		<category><![CDATA[Debunking]]></category>
+		<category><![CDATA[ghosts]]></category>
+		<category><![CDATA[haunted house]]></category>
+		<category><![CDATA[infrasound]]></category>
+		<category><![CDATA[paranormal]]></category>
+		<category><![CDATA[psychology]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/04/that-spooky-sensation-likely-due-to-rumbling-pipes-not-spirits/</guid>
+
+                                    <description>
+                        <![CDATA[Low-frequency infrasound (below 20 Hz) can raise cortisol levels in saliva and increase irritability.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The next time you walk into a purportedly "haunted" house and sense a ghostly presence, consider that those feelings might be due to vibrating pipes, mechanical or climate control systems, rumbling from traffic, or wind turbines, rather than anything paranormal. That's the conclusion of a <a href="https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2026.1729876/full">new paper</a> published in the journal Frontiers in Behavioral Neuroscience. All of those are sources of <a href="https://en.wikipedia.org/wiki/Infrasound">infrasound</a>.</p>
+<p>Scientists have long sought to find <a href="https://pubmed.ncbi.nlm.nih.gov/18635163/">logical explanations</a> for alleged hauntings. In 2003, for instance, University of Hertfordshire psychologist Richard Wiseman <a href="https://pubmed.ncbi.nlm.nih.gov/12803815/">conducted two studies</a> that investigated the psychological mechanisms underlying supposed "ghostly" activity. Subjects walked around Hampton Court Palace in Surrey, England, and the South Bridge Vaults in Edinburgh, Scotland—both with reputations for manifesting unusual phenomena—and reported back on which places at those sites they sensed such phenomena. The subjects reported more odd experiences in places rumored to be haunted, regardless of whether the subjects were aware of those rumors or not.</p>
+<p>Those areas did, however, feature variances in local magnetic fields, humidity, and lighting levels, suggesting that such sensations are simply people responding to normal environmental factors. Wiseman hypothesized that stronger magnetic fields may affect the brain, similar to how electrical stimulation of the angular gyrus can make one feel as if there is another person standing behind, mimicking one's movements.</p><p><a href="https://arstechnica.com/science/2026/04/that-spooky-sensation-likely-due-to-rumbling-pipes-not-spirits/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/04/that-spooky-sensation-likely-due-to-rumbling-pipes-not-spirits/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>84</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/infrasound2-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/infrasound2-500x500.jpg" width="500"/>
+<media:credit>Public domain</media:credit><media:text>Ireland's Kinnitty Castle is reportedly the home of many ghosts, including the Phantom Monk of Kinnitty</media:text></media:content>
+            </item>
+                    <item>
+                <title>Steam Controller: The Ars Technica review</title>
+                <link>https://arstechnica.com/gaming/2026/04/steam-controller-the-ars-technica-review/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/04/steam-controller-the-ars-technica-review/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Mon, 27 Apr 2026 17:36:33 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[controller]]></category>
+		<category><![CDATA[hardware]]></category>
+		<category><![CDATA[Steam]]></category>
+		<category><![CDATA[steam machine]]></category>
+		<category><![CDATA[Valve]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/04/steam-controller-the-ars-technica-review/</guid>
+
+                                    <description>
+                        <![CDATA[Valve's new hardware is solid but might not justify its $99 price.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Since time immemorial, serious PC gamers have proselytized about <a href="https://arstechnica.com/gaming/2018/08/fortnite-devs-working-to-segregate-keyboardmouse-players/">the superiority of mouse and keyboard control schemes</a> over <a href="https://arstechnica.com/staff/2006/03/3152/">the more input-limited handheld controllers</a> used by <a href="https://arstechnica.com/gaming/2018/11/fortnite-among-xbox-ones-first-keyboardmouse-games-this-week/">most</a> console gamers (<a href="https://arstechnica.com/gaming/2023/06/missing-titanic-sub-isnt-the-first-to-use-game-controls-for-heavy-machinery/">and others</a>). In recent years, though, many PC gamers have started keeping a spare Xbox controller (<a href="https://arstechnica.com/gaming/2021/04/8bitdo-pro-2-gamepad-review-a-50-bargain-for-cool-features-killer-performance/">or similar</a>) nearby for <a href="https://arstechnica.com/gaming/2013/02/sorry-to-say-it-but-keyboard-and-mouse-are-losing-the-fps-market/">the increasing number of PC games</a> designed primarily <a href="https://arstechnica.com/gaming/2016/06/dangerous-golf-requires-pc-players-to-use-a-controller/">or exclusively</a> with thumbsticks and buttons in mind.</p>
+<p>Valve's upcoming <a href="https://store.steampowered.com/sale/steamcontroller">Steam Controller</a> (not to be confused with <a href="https://arstechnica.com/gaming/2014/01/steam-controller-impressions-a-case-of-love-and-hate-at-first-sight/">the 2015 controller of the same name</a>) is the Steam maker's effort to replace those controllers with something more explicitly designed for the PC, and for <a href="https://arstechnica.com/gaming/2025/11/steam-deck-minus-the-screen-valve-announces-new-steam-machine-controller-hardware/">the upcoming Steam Machine</a>. After spending a few weeks with the controller, though, we're not quite sure it sets itself apart from the competition enough to justify its high $99 asking price.</p>
+<figure>
+      <img decoding="async" width="1024" height="768" src="https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc9-1024x768.jpg" class="ars-gallery-image" alt="" loading="lazy" aria-labelledby="caption-2151716" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc9-1024x768.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc9-640x480.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc9-768x576.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc9-1536x1152.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc9-2048x1536.jpg 2048w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc9-980x735.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc9-1440x1080.jpg 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
+      <figcaption>
+        <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      The rear buttons are pretty perfectly positioned for your middle and ring fingers to rest comfortably.
+
+              <span class="caption-credit mt-2 text-xs">
+          Credit:
+
+          
+          Kyle Orland
+
+                  </span>
+          </div>
+  </div>
+      </figcaption>
+    </figure>
+      <figure>
+      <img decoding="async" width="1024" height="1365" src="https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc10-1024x1365.jpg" class="ars-gallery-image" alt="" loading="lazy" aria-labelledby="caption-2151715" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc10-1024x1365.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc10-640x853.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc10-768x1024.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc10-1152x1536.jpg 1152w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc10-1536x2048.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc10-980x1307.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc10-1440x1920.jpg 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
+      <figcaption>
+        <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      There's a nice lip on the shoulder trigger to prevent your finger from sliding off the back.
+
+              <span class="caption-credit mt-2 text-xs">
+          Credit:
+
+          
+          Kyle Orland
+
+                  </span>
+          </div>
+  </div>
+      </figcaption>
+    </figure>
+      <figure>
+      <img decoding="async" width="1024" height="768" src="https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc12-1024x768.jpg" class="ars-gallery-image" alt="" loading="lazy" aria-labelledby="caption-2151713" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc12-1024x768.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc12-640x480.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc12-768x576.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc12-1536x1152.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc12-2048x1536.jpg 2048w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc12-980x735.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc12-1440x1080.jpg 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
+      <figcaption>
+        <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      The face buttons on the Steam Controller are suitably springy and responsive.
+
+              <span class="caption-credit mt-2 text-xs">
+          Credit:
+
+          
+          Kyle Orland
+
+                  </span>
+          </div>
+  </div>
+      </figcaption>
+    </figure>
+  
+<h2>Baseline quality</h2>
+<p>From the first time you hold a Steam Controller in your hands, it's clear that this is a well-made piece of hardware. There's a sturdy build quality to all the pieces that makes the controller feel solid in the hand, with just enough heft to feel substantial without being too heavy.</p><p><a href="https://arstechnica.com/gaming/2026/04/steam-controller-the-ars-technica-review/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/04/steam-controller-the-ars-technica-review/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>115</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc8-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/sc8-500x500.jpg" width="500"/>
+<media:credit>Kyle Orland</media:credit><media:text>I am Steam Controller, second of his name!</media:text></media:content>
+            </item>
+                    <item>
+                <title>National Science Board eviscerated; Trump admin fires all 22 members</title>
+                <link>https://arstechnica.com/science/2026/04/national-science-board-eviscerated-trump-admin-fires-all-22-members/</link>
+                                    <comments>https://arstechnica.com/science/2026/04/national-science-board-eviscerated-trump-admin-fires-all-22-members/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Mon, 27 Apr 2026 15:04:00 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[National Science Board]]></category>
+		<category><![CDATA[National Science Foundation]]></category>
+		<category><![CDATA[NSF]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[Trump]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/04/national-science-board-eviscerated-trump-admin-fires-all-22-members/</guid>
+
+                                    <description>
+                        <![CDATA[Members had planned to release report that US is ceding scientific ground to China.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>All 22 members of the National Science Board were terminated by the Trump administration via a terse email on Friday.</p>
+<p>The administration has provided no explanation for purging the board, which helps steer the National Science Foundation and acts as an independent advisory body for the president and Congress on scientific and engineering issues, providing reports throughout the year. The ousters represent another severe blow to the NSF and the overall scientific enterprise in America.</p>
+<p>Members received a two-sentence email saying that, "On behalf of President Donald J. Trump," their positions were "terminated, effective immediately."</p><p><a href="https://arstechnica.com/science/2026/04/national-science-board-eviscerated-trump-admin-fires-all-22-members/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/04/national-science-board-eviscerated-trump-admin-fires-all-22-members/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>183</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2221489911-1152x648-1753287237.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2221489911-500x500-1753287220.jpg" width="500"/>
+<media:credit>Bloomberg / Contributor | Bloomberg</media:credit><media:text>The National Science Foundation headquarters in Alexandria, Virginia.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Next El Niño could be tipping point for a hotter climate</title>
+                <link>https://arstechnica.com/science/2026/04/next-el-nino-could-be-tipping-point-for-a-hotter-climate/</link>
+                                    <comments>https://arstechnica.com/science/2026/04/next-el-nino-could-be-tipping-point-for-a-hotter-climate/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Inside Climate News]]>
+                </dc:creator>
+                <pubDate>Mon, 27 Apr 2026 14:12:41 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[anthropogenic climate change]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[El Niño]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/04/next-el-nino-could-be-tipping-point-for-a-hotter-climate/</guid>
+
+                                    <description>
+                        <![CDATA[Pacific heat pulse is temporary, but scientists warn that its climate impacts are not.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Pacific Ocean is a giant climate cauldron, with a powerful heat engine that affects storms, fisheries, and rainfall patterns half a world away, and scientists are watching closely to see if it’s about to boil over.</p>
+<p>Their <a href="https://bsky.app/profile/weatherprof.bsky.social/post/3mj5h63qfj22x">projections</a> suggest the tropical Pacific is simmering toward a strong <a href="https://oceanservice.noaa.gov/facts/ninonina.html">El Niño</a>, the warm phase of an ocean-atmosphere cycle that can intensify and shift those impacts.</p>
+<p>In a world already superheated by greenhouse gases, a strong El Niño during the next 12 to 18 months could permanently push the planet’s average annual temperature past the 1.5 degrees Celsius warming threshold enshrined in <a href="https://www.ipcc.ch/sr15/">scientific documents</a> and <a href="https://unfccc.int/process-and-meetings/the-paris-agreement">political agreements</a> as a turning point for potentially irreversible climate impacts.</p><p><a href="https://arstechnica.com/science/2026/04/next-el-nino-could-be-tipping-point-for-a-hotter-climate/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/04/next-el-nino-could-be-tipping-point-for-a-hotter-climate/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>57</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/amazondust-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/amazondust-500x500.jpg" width="500"/>
+<media:credit>Luis Acosta/AFP via Getty Images</media:credit><media:text>The 2024 El Niño in the Tropical Pacific, combined with human-caused warming, dried out vast tracts of the Amazon region, crushing livelihoods and displacing people, and also flipped some forests to release more carbon dioxide than they absorb and store, a “regime shift” in the Amazon carbon cycle. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Gateway manufacturer finally acknowledges issue, fails to mention "corrosion"</title>
+                <link>https://arstechnica.com/space/2026/04/gateway-manufacturer-finally-acknowledges-issue-fails-to-mention-corrosion/</link>
+                                    <comments>https://arstechnica.com/space/2026/04/gateway-manufacturer-finally-acknowledges-issue-fails-to-mention-corrosion/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Mon, 27 Apr 2026 14:02:43 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[lunar gateway]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[space]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/04/gateway-manufacturer-finally-acknowledges-issue-fails-to-mention-corrosion/</guid>
+
+                                    <description>
+                        <![CDATA["At this time, further comments would be premature."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>One of the more intriguing space stories in a while broke last week when <a href="https://arstechnica.com/space/2026/04/well-this-is-embarrassing-the-lunar-gateways-primary-modules-are-corroded/">NASA Administrator Jared Isaacman said</a> during a congressional hearing that the two habitation modules built for the Lunar Gateway had been corroded.</p>
+<p>The immediate response to these comments on Wednesday before a House committee from some space industry observers was doubt—Isaacman, <a href="https://x.com/fabriziocolista/status/2047011470844559822">they said</a>, <a href="https://x.com/RenewalCaptain/status/2047008885664280660">must be lying</a>.</p>
+<p>However, the primary contractor for the Habitation and Logistics Outpost, Northrop Grumman, soon <a href="https://arstechnica.com/space/2026/04/well-this-is-embarrassing-the-lunar-gateways-primary-modules-are-corroded/">acknowledged there was a manufacturing irregularity</a>. On Friday, the European Space Agency, providing the other habitation module (I-HAB), acknowledged that there had been "corrosion" observed.</p><p><a href="https://arstechnica.com/space/2026/04/gateway-manufacturer-finally-acknowledges-issue-fails-to-mention-corrosion/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/04/gateway-manufacturer-finally-acknowledges-issue-fails-to-mention-corrosion/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>66</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/halo-module-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/halo-module-500x500.jpg" width="500"/>
+<media:credit>Northrop Grumman</media:credit><media:text>The HALO module arrives in North America from Italy in 2025.</media:text></media:content>
+            </item>
+                    <item>
                 <title>Meet the players who lost big money on Peter Molyneux’s failed Legacy</title>
                 <link>https://arstechnica.com/gaming/2026/04/how-legacy-became-a-costly-crypto-bust-for-players-and-a-business-win-for-peter-molyneux/</link>
                                     <comments>https://arstechnica.com/gaming/2026/04/how-legacy-became-a-costly-crypto-bust-for-players-and-a-business-win-for-peter-molyneux/#comments</comments>
@@ -49,7 +596,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>59</slash:comments>
+                                    <slash:comments>164</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/milhouse-nft-pog-1152x648.jpg" width="1152">
@@ -92,7 +639,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>45</slash:comments>
+                                    <slash:comments>74</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/trekkie1-1152x648.jpg" width="1152">
@@ -127,7 +674,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>60</slash:comments>
+                                    <slash:comments>77</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/spidey1-1152x648.jpg" width="1152">
@@ -161,7 +708,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>27</slash:comments>
+                                    <slash:comments>34</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1455924520-1152x648.jpg" width="1152">
@@ -201,7 +748,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>36</slash:comments>
+                                    <slash:comments>39</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/SSC-20211207-s00284orig-1152x648-1777057589.jpg" width="1152">
@@ -236,7 +783,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>263</slash:comments>
+                                    <slash:comments>292</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/baddies-1152x648.jpg" width="1152">
@@ -272,463 +819,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>115</slash:comments>
+                                    <slash:comments>121</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2269444130-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2269444130-500x500.jpg" width="500"/>
 <media:credit>Wisam Hashlamoun/Anadolu via Getty Images</media:credit><media:text>Missiles launched by Iran are seen in the skies over the West Bank on April 06, 2026.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Google will invest as much as $40 billion in Anthropic</title>
-                <link>https://arstechnica.com/ai/2026/04/google-will-invest-as-much-as-40-billion-in-anthropic/</link>
-                                    <comments>https://arstechnica.com/ai/2026/04/google-will-invest-as-much-as-40-billion-in-anthropic/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Samuel Axon]]>
-                </dc:creator>
-                <pubDate>Fri, 24 Apr 2026 22:05:45 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[Claude]]></category>
-		<category><![CDATA[Claude Code]]></category>
-		<category><![CDATA[compute]]></category>
-		<category><![CDATA[google]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/04/google-will-invest-as-much-as-40-billion-in-anthropic/</guid>
-
-                                    <description>
-                        <![CDATA[This follows a similar, but smaller, investment by Amazon just days ago.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Google will invest at least $10 billion in Anthropic, and that amount could rise to $40 billion if Anthropic meets certain performance targets, Bloomberg <a href="https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic">reports</a>.</p>
-<p>The investment follows Amazon's $5 billion initial <a href="https://arstechnica.com/ai/2026/04/anthropic-gets-5b-investment-from-amazon-will-use-it-to-buy-amazon-chips/">investment in Anthropic</a> a few days ago; the Amazon deal also leaves the door open to further investment based on performance. Both investments value Anthropic at $350 billion.</p>
-<p>Anthropic has seen rapid growth in the use of its Claude models and related products, such as Claude Code, which promises to significantly increase the speed and efficiency with which companies or individuals can develop software. (The reality varies from big improvements to setbacks, depending on the nature of the project and company, how Claude Code is used, and many other factors.)</p><p><a href="https://arstechnica.com/ai/2026/04/google-will-invest-as-much-as-40-billion-in-anthropic/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/04/google-will-invest-as-much-as-40-billion-in-anthropic/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>96</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/TPU-8i-rack-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/TPU-8i-rack-500x500.jpg" width="500"/>
-<media:credit>Google</media:credit><media:text>Two racks of TPU 8i chips. Each rack has eight boards with four TPUs.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Europe—not US—first to authorize Moderna's combo mRNA flu-COVID vaccine</title>
-                <link>https://arstechnica.com/health/2026/04/europe-not-us-first-to-authorize-modernas-combo-mrna-flu-covid-vaccine/</link>
-                                    <comments>https://arstechnica.com/health/2026/04/europe-not-us-first-to-authorize-modernas-combo-mrna-flu-covid-vaccine/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Fri, 24 Apr 2026 21:11:43 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[COVID-19]]></category>
-		<category><![CDATA[flu]]></category>
-		<category><![CDATA[moderna]]></category>
-		<category><![CDATA[vaccine]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/04/europe-not-us-first-to-authorize-modernas-combo-mrna-flu-covid-vaccine/</guid>
-
-                                    <description>
-                        <![CDATA[Amid RFK Jr.'s anti-vaccine agenda, Moderna withdrew its FDA application last year.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Moderna's mRNA-based combination vaccine against both flu and COVID-19 has gotten the green light in Europe—but it continues to be shelved in the US, where it was developed.</p>
-<p>This week, the European Commission authorized Moderna to market the vaccine, mRNA-1083 or mCOMBRIAX, making it the world's first authorized combination shot for the two respiratory viruses. The decision follows <a href="https://feeds.issuerdirect.com/news-release.html?newsid=8245752892462590&amp;symbol=MRNA">a positive review</a> in February from a key European Medicines Agency's committee, which paved the way for the approval.</p>
-<p>Moderna CEO Stéphane Bancel welcomed the news. "By combining protection against two significant respiratory viruses in a single dose, our vaccine aims to simplify immunization for adults, particularly those at high risk," Bancel said <a href="https://feeds.issuerdirect.com/news-release.html?newsid=6037570860109793&amp;symbol=MRNA">in a press release</a>. "mCOMBRIAX offers an important new option for Europeans, while also aiming to strengthen the resilience of healthcare systems across Europe."</p><p><a href="https://arstechnica.com/health/2026/04/europe-not-us-first-to-authorize-modernas-combo-mrna-flu-covid-vaccine/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/04/europe-not-us-first-to-authorize-modernas-combo-mrna-flu-covid-vaccine/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>140</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/12/GettyImages-1229912839-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/12/GettyImages-1229912839-500x500.jpg" width="500"/>
-<media:credit> JOSEPH PREZIOSO / Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>FCC: Router ban includes portable hotspots, but not phones with hotspot features</title>
-                <link>https://arstechnica.com/tech-policy/2026/04/fcc-says-ban-on-foreign-made-routers-includes-portable-wi-fi-hotspots/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/04/fcc-says-ban-on-foreign-made-routers-includes-portable-wi-fi-hotspots/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Fri, 24 Apr 2026 19:30:14 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[FCC]]></category>
-		<category><![CDATA[hotspots]]></category>
-		<category><![CDATA[router ban]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/04/fcc-says-ban-on-foreign-made-routers-includes-portable-wi-fi-hotspots/</guid>
-
-                                    <description>
-                        <![CDATA[FCC defines consumer routers expansively, updates FAQ to include Wi-Fi hotspots.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Federal Communications Commission clarified this week that its sweeping ban on foreign-made consumer routers also affects portable hotspot devices.</p>
-<p>The FCC added a new section to an <a href="https://www.fcc.gov/faqs-recent-updates-fcc-covered-list-regarding-routers-produced-foreign-countries">FAQ</a> titled, "Is my device a consumer-grade router under the National Security Determination?" The new FAQ section says this category includes "consumer-grade portable or mobile MiFi Wi-Fi or hotspot devices for residential use." The ban does not cover "mobile phones with hotspot features," the FAQ says.</p>
-<p>This means that companies making consumer hotspots need an exemption from the government to import and sell any future hotspots that haven't previously been approved by the FCC. As with routers, devices previously approved for sale in the US can continue to be imported and sold without obtaining a special exemption.</p><p><a href="https://arstechnica.com/tech-policy/2026/04/fcc-says-ban-on-foreign-made-routers-includes-portable-wi-fi-hotspots/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/04/fcc-says-ban-on-foreign-made-routers-includes-portable-wi-fi-hotspots/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>89</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/brendan-carr-fcc-crest-1152x648-1771622570.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/brendan-carr-fcc-crest-500x500-1771622581.jpg" width="500"/>
-<media:credit>Getty Images | Kevin Dietsch</media:credit><media:text>FCC Chairman Brendan Carr speaks at a news conference following an FCC meeting on February 18, 2026 in Washington, DC.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Why are top university websites serving porn? It comes down to shoddy housekeeping.</title>
-                <link>https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/</link>
-                                    <comments>https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Fri, 24 Apr 2026 19:00:39 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[cname records]]></category>
-		<category><![CDATA[domain hijacking]]></category>
-		<category><![CDATA[porn]]></category>
-		<category><![CDATA[universities]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/</guid>
-
-                                    <description>
-                        <![CDATA[Hundreds of subdomains from dozens of universities have been hijacked by scammers.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Websites for some of the world’s most prestigious universities are serving explicit porn and malicious content after scammers exploited the shoddy record-keeping of the site administrators, a researcher found recently.</p>
-<p>The sites included berkeley.edu, columbia.edu, and washu.edu, the official domains for the University of California, Berkeley, Columbia University, and Washington University in St. Louis. Subdomains such as hXXps://causal.stat.berkeley.edu/ymy/video/xxx-porn-girl-and-boy-ej5210.html, hXXps://conversion-dev.svc.cul.columbia[.]edu/brazzers-gym-porn, and hXXps://provost.washu.edu/app/uploads/formidable/6/dmkcsex-10.pdf. All deliver explicit pornography and, in at least one case, a scam site falsely claiming a visitor’s computer is infected and advising the visitor to pay a fee for the non-existent malware to be removed. In all, researcher Alex Shakhov said, hundreds of subdomains for at least 34 universities are being abused. Search results returned by Google list thousands of hijacked pages.</p>
-<img width="640" height="340" src="https://cdn.arstechnica.net/wp-content/uploads/2026/04/hijacked-columbia-university-subdomains-640x340.png" class="none medium" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/04/hijacked-columbia-university-subdomains-640x340.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/hijacked-columbia-university-subdomains-1024x545.png 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/hijacked-columbia-university-subdomains-768x409.png 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/hijacked-columbia-university-subdomains-1536x817.png 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/hijacked-columbia-university-subdomains-2048x1089.png 2048w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/hijacked-columbia-university-subdomains-980x521.png 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/hijacked-columbia-university-subdomains-1440x766.png 1440w" sizes="auto, (max-width: 640px) 100vw, 640px">
-      A handful of hijacked columbia.edu subdomains listed by Google
-    
-<img width="640" height="390" src="https://cdn.arstechnica.net/wp-content/uploads/2026/04/redicted-ucberkeley-subdomain-640x390.png" class="none medium" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/04/redicted-ucberkeley-subdomain-640x390.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/redicted-ucberkeley-subdomain-1024x623.png 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/redicted-ucberkeley-subdomain-768x467.png 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/redicted-ucberkeley-subdomain-1536x935.png 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/redicted-ucberkeley-subdomain-2048x1246.png 2048w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/redicted-ucberkeley-subdomain-980x596.png 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/redicted-ucberkeley-subdomain-1440x876.png 1440w" sizes="auto, (max-width: 640px) 100vw, 640px">
-      One of the sites redirected by a UC Berkeley subdomain.
-    
-<h2>Hijacking a university's good name</h2>
-<p>Shakhov, founder of SH Consulting, said that the scammers—which a separate researcher has linked to a known group tracked as <a href="https://www.infoblox.com/threat-intel/threat-actors/hazy-hawk/">Hazy Hawk</a>—are seizing on what amounts to a clerical error by site administrators of the affected universities. When they commission a subdomain such as provost.washu.edu, they create a <a href="https://en.wikipedia.org/wiki/CNAME_record">CNAME</a> record, which assignes a subdomain to a "canonical" domain. When the subdomain is eventually decommissioned—something that happens frequently for various reasons—the record is never removed. Scammers like Hazy Hawk then swoop in by hijacking the old record.</p><p><a href="https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>64</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/GettyImages-1137650996-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/GettyImages-1137650996-500x500.jpg" width="500"/>
-<media:credit>ssuaphoto | iStock / Getty Images Plus</media:credit></media:content>
-            </item>
-                    <item>
-                <title>In rare chickenpox case, itchy blisters mushroom into large, rubbery nodules</title>
-                <link>https://arstechnica.com/health/2026/04/in-rare-chickenpox-case-itchy-blisters-mushroom-into-large-rubbery-nodules/</link>
-                                    <comments>https://arstechnica.com/health/2026/04/in-rare-chickenpox-case-itchy-blisters-mushroom-into-large-rubbery-nodules/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Fri, 24 Apr 2026 18:44:53 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[ars-health-featured]]></category>
-		<category><![CDATA[ars-health-shingles]]></category>
-		<category><![CDATA[chickenpox]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/04/in-rare-chickenpox-case-itchy-blisters-mushroom-into-large-rubbery-nodules/</guid>
-
-                                    <description>
-                        <![CDATA[Treatment options are tricky. The teen opted to live with the masses.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Those who suffered through chickenpox as kids likely remember the agony of its itchy rash. Oven mitts or snow gloves may have been used to prevent you from inadvertently clawing your skin off, while dips in oatmeal may have offered some temporary relief. But in the end, you just had to endure the full cycle of the rash—from the breakout of the first raised, itchy papules that inflate into fluid-filled blisters that then break and leak, to the scabs that form over the crusty remains. More papules emerge as blisters burst, prolonging the torment.</p>
-<p>For one 15-year-old in Nepal, the misery continued long after the blisters burst. After some of her crusty scabs began to form scars, they mushroomed into large, uncontrolled skin growths, which were also painful and itchy—and permanent. One on her chest, the largest, measured 4 by 4 cm (about 1.6 by 1.6 inches).</p>
-<p>These rubbery, firm nodules are called keloids, which are poorly understood skin growths that result from wound healing that goes awry and expands beyond the borders of the original wound. In the teen's case, five large keloids abruptly burst from her chickenpox scars, breaking out in different places on her body—on her right jaw, chest, abdomen, and right flank. The simultaneous emergence of the growths aligns with the diagnosis of "eruptive keloids," an ultra-rare outcome of a chickenpox infection. Only five such cases appear to exist in the scientific literature. <a href="https://onlinelibrary.wiley.com/doi/10.1002/ccr3.72579">Her case</a>, marking the sixth, was published this week in the journal Clinical Case Reports.</p><p><a href="https://arstechnica.com/health/2026/04/in-rare-chickenpox-case-itchy-blisters-mushroom-into-large-rubbery-nodules/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/04/in-rare-chickenpox-case-itchy-blisters-mushroom-into-large-rubbery-nodules/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>45</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-913456630-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-913456630-500x500.jpg" width="500"/>
-<media:credit>Getty | CDC</media:credit><media:text>A typical chickenpox rash</media:text></media:content>
-            </item>
-                    <item>
-                <title>Soldier won $410K in Polymarket bets on timing of Maduro capture, US alleges</title>
-                <link>https://arstechnica.com/tech-policy/2026/04/soldier-won-410k-in-polymarket-bets-on-timing-of-maduro-capture-us-alleges/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/04/soldier-won-410k-in-polymarket-bets-on-timing-of-maduro-capture-us-alleges/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Fri, 24 Apr 2026 17:41:43 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[maduro]]></category>
-		<category><![CDATA[polymarket]]></category>
-		<category><![CDATA[prediction markets]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/04/soldier-won-410k-in-polymarket-bets-on-timing-of-maduro-capture-us-alleges/</guid>
-
-                                    <description>
-                        <![CDATA[It's like "Pete Rose betting on his own team," Trump says of arrested soldier.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A US Army soldier was arrested for insider trading after being accused of making prediction-market wagers on the timing of the military's capture of Venezuelan President Nicolás Maduro.</p>
-<p>Army soldier Gannon Ken Van Dyke made a profit of nearly $410,000 by making bets on Polymarket, and he was <a href="https://www.justice.gov/usao-sdny/media/1437781/dl">indicted</a> on charges of unlawful use of confidential government information for personal gain, theft of nonpublic government information, commodities fraud, wire fraud, and making an unlawful monetary transaction, the Department of Justice <a href="https://www.justice.gov/opa/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets">announced yesterday</a>.</p>
-<p>"As alleged in the indictment, Van Dyke participated in the planning and execution of the US military operation to capture Nicolás Maduro, called 'Operation Absolute Resolve,' and Van Dyke used his access to classified information about that operation to personally profit," the DOJ said.</p><p><a href="https://arstechnica.com/tech-policy/2026/04/soldier-won-410k-in-polymarket-bets-on-timing-of-maduro-capture-us-alleges/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/04/soldier-won-410k-in-polymarket-bets-on-timing-of-maduro-capture-us-alleges/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>131</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/maduro-capture-1152x648-1777049881.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/maduro-capture-500x500-1777049893.jpg" width="500"/>
-<media:credit>Getty Images | Bloomberg</media:credit><media:text>Ousted Venezuelan President Nicolas Maduro arrives at the Wall Street heliport ahead of his appearance in federal court in New York, on Monday, January 5, 2026.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Meet the 19-meter Cretaceous kraken that swam with mosasaurs</title>
-                <link>https://arstechnica.com/science/2026/04/meet-the-19-meter-cretaceous-kraken-that-swam-with-mosasaurs/</link>
-                                    <comments>https://arstechnica.com/science/2026/04/meet-the-19-meter-cretaceous-kraken-that-swam-with-mosasaurs/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jacek Krywko]]>
-                </dc:creator>
-                <pubDate>Fri, 24 Apr 2026 17:23:49 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[Cretaceous]]></category>
-		<category><![CDATA[evolution]]></category>
-		<category><![CDATA[octopus]]></category>
-		<category><![CDATA[paleontology]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/04/meet-the-19-meter-cretaceous-kraken-that-swam-with-mosasaurs/</guid>
-
-                                    <description>
-                        <![CDATA[Layer by layer, researchers revealed the jaws of an ancient predator.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Some 80 million years ago, the late Cretaceous oceans were patrolled by 17-meter mosasaurs, long-necked plesiosaurs, and massive, predatory sharks. For decades, the paleontological consensus was that this was the age of vertebrates; anything without a backbone was lunch.</p>
-<p>However, a new Science paper argues there was another apex predator lurking in the depths, and it didn’t have a single bone in its body. Researchers have uncovered the fossilized remains of ancient, finned octopuses that likely reached lengths of up to 19 meters. They were armed with powerful, hardened beaks and likely had high intelligence.</p>
-<h2>Reverse 3D printing</h2>
-<p>"Before this study, Cretaceous marine ecosystems were generally understood as worlds in which large vertebrate predators occupied the top of the food web," said Yasuhiro Iba, a paleontologist at Hokkaido University and co-author of the study. Invertebrates, on the other hand, were seen as prey that evolved protective structures such as hard shells in response to predation. Octopuses were especially difficult to evaluate because they rarely fossilize. “Our study changes that picture,” Iba said.</p><p><a href="https://arstechnica.com/science/2026/04/meet-the-19-meter-cretaceous-kraken-that-swam-with-mosasaurs/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/04/meet-the-19-meter-cretaceous-kraken-that-swam-with-mosasaurs/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>33</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/Header-5-scaled-1-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/Header-5-scaled-1-500x500.jpeg" width="500"/>
-<media:credit>Yohei Utsuki/Hokkaido University</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Report: Samsung execs worried company could lose money on smartphones for the first time</title>
-                <link>https://arstechnica.com/gadgets/2026/04/samsung-may-be-bracing-for-first-ever-annual-loss-in-smartphone-business/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/04/samsung-may-be-bracing-for-first-ever-annual-loss-in-smartphone-business/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Fri, 24 Apr 2026 16:58:45 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[Samsung]]></category>
-		<category><![CDATA[smartphones]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/04/samsung-may-be-bracing-for-first-ever-annual-loss-in-smartphone-business/</guid>
-
-                                    <description>
-                        <![CDATA[The AI-driven memory shortage is hitting Samsung's bottom line. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Selling smartphones used to be easy—everyone wanted one, and every new phone was a lot better than the one that came before. Things are different now that smartphones are mature products. Plenty of manufacturers have thrown in the towel, leaving big players like Samsung to sell a new phone every couple of years. But even Samsung may find it tough to turn a profit in 2026 due to the ongoing race to build more AI capacity.</p>
-<p>According to <a href="https://www.mt.co.kr/industry/2026/04/22/2026042115433622701">Money Today</a> (Korean), Samsung MX (mobile experience) head TM Roh has warned company leadership that it could be headed for the first net loss on smartphones in the company's history. Even during times of economic strife or amid pandemic-related supply chain chaos, Samsung still made money on smartphones. The skyrocketing price of DRAM and NAND may be what finally breaks the streak despite strong <a href="https://arstechnica.com/reviews/2026/03/samsung-galaxy-s26-ultra-review-private-and-performant/">Galaxy S26</a> sales.</p>
-<p>Shortages of these components have affected all types of computing hardware, from <a href="https://arstechnica.com/gadgets/2026/01/the-ram-shortages-silver-lining-less-talk-about-ai-pcs/">consumer laptops</a> to servers. The LPDDR5x memory found in most mobile devices is increasingly important for AI. Nvidia's Vera AI CPU, which will replace Grace later in 2026, will have up to 1.5 TB of LPDDR5x memory. The company's upcoming rack-scale AI platforms will have 36 Vera CPUs alongside 72 Rubin GPUs. The CPUs in a single server will consume enough RAM for 4,600 Galaxy S26 Ultra devices (12GB each).</p><p><a href="https://arstechnica.com/gadgets/2026/04/samsung-may-be-bracing-for-first-ever-annual-loss-in-smartphone-business/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/04/samsung-may-be-bracing-for-first-ever-annual-loss-in-smartphone-business/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>87</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/Samsung-Galaxy-S26-Ultra-2-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/Samsung-Galaxy-S26-Ultra-2-500x500.jpg" width="500"/>
-<media:credit>Ryan Whitwam</media:credit><media:text>Samsung might lose money on smartphones in 2026 despite strong S26 sales. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Man faces 5 years in prison for using AI to fake sighting of runaway wolf</title>
-                <link>https://arstechnica.com/tech-policy/2026/04/after-wolf-escaped-zoo-man-arrested-for-creating-fake-ai-sighting-for-fun/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/04/after-wolf-escaped-zoo-man-arrested-for-creating-fake-ai-sighting-for-fun/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Fri, 24 Apr 2026 15:05:23 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[fake AI images]]></category>
-		<category><![CDATA[generative ai]]></category>
-		<category><![CDATA[South Korea]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/04/after-wolf-escaped-zoo-man-arrested-for-creating-fake-ai-sighting-for-fun/</guid>
-
-                                    <description>
-                        <![CDATA[Beloved wolf gripped the nation after burrowing out of the zoo.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A 40-year-old man was arrested after using artificial intelligence to generate a fake image of a runaway wolf that South Korean authorities said obstructed an urgent investigation, the BBC <a href="https://www.bbc.com/news/articles/c4gx1n0dl9no">reported</a>.</p>
-<img width="640" height="440" src="https://cdn.arstechnica.net/wp-content/uploads/2026/04/AI-generated-pic-of-Neukgu-640x440.jpg" class="none medium" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/04/AI-generated-pic-of-Neukgu-640x440.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/AI-generated-pic-of-Neukgu-1024x704.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/AI-generated-pic-of-Neukgu-768x528.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/AI-generated-pic-of-Neukgu-980x674.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/AI-generated-pic-of-Neukgu-1440x990.jpg 1440w, https://cdn.arstechnica.net/wp-content/uploads/2026/04/AI-generated-pic-of-Neukgu.jpg 1453w" sizes="auto, (max-width: 640px) 100vw, 640px">
-      AI-generated image of Neukgu.
-    
-<p>After Neukgu, a 2-year-old wolf, burrowed out of a zoo in Daejeon city, officials launched an all-out effort to bring him back. The third-generation descendant's safe return was deemed critical to a yearslong effort to revive wolf populations after native South Korean wolves became extinct in the wild in the 1960s.</p>
-<p>Concern increased nationwide, with animal rights activists worried the wolf would be injured in the wild or perhaps killed during his rescue. South Korea’s president, Lee Jae Myung, promised that rescue teams would prioritize Neukgu's safety, The Guardian <a href="https://www.theguardian.com/world/2026/apr/17/south-korea-escaped-wolf-captured-returned-zoo-safely">reported</a>.</p><p><a href="https://arstechnica.com/tech-policy/2026/04/after-wolf-escaped-zoo-man-arrested-for-creating-fake-ai-sighting-for-fun/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/04/after-wolf-escaped-zoo-man-arrested-for-creating-fake-ai-sighting-for-fun/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>48</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1057635418-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1057635418-500x500.jpg" width="500"/>
-<media:credit>Adria  Photography | Moment</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Well, this is embarrassing: The Lunar Gateway's primary modules are corroded</title>
-                <link>https://arstechnica.com/space/2026/04/well-this-is-embarrassing-the-lunar-gateways-primary-modules-are-corroded/</link>
-                                    <comments>https://arstechnica.com/space/2026/04/well-this-is-embarrassing-the-lunar-gateways-primary-modules-are-corroded/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Fri, 24 Apr 2026 14:47:19 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[lunar gateway]]></category>
-		<category><![CDATA[space]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/04/well-this-is-embarrassing-the-lunar-gateways-primary-modules-are-corroded/</guid>
-
-                                    <description>
-                        <![CDATA["Preliminary findings indicate that the issue likely results from a combination of factors."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>For a decade, NASA promoted the idea of building a space station around the Moon known as the Lunar Gateway. It touted the facility as both a platform for exploring the lunar environment and testing the technology needed for deep-space habitation.</p>
-<p>Like many major space projects, it faced delays. Originally, the first component of the space station <a href="https://www.nasa.gov/news-release/nasa-awards-artemis-contract-for-lunar-gateway-power-propulsion/">was due to launch in 2022</a>. <span style="box-sizing: border-box; margin: 0px; padding: 0px;">Later, it was decided that this module, to provide power and propulsion, would launch in tandem with a habitable volume known as the Habitation and Logistics Outpost (HALO) <a href="https://www.nasa.gov/news-release/nasa-awards-contract-to-launch-initial-elements-for-lunar-outpost/" target="_blank" rel="noopener">in 2024</a>.</span> This core was slated to be joined by another pressurized habitation module contributed by international partners I-HAB in 2026.</p>
-<p>These dates, of course, have come and gone. And in March, NASA Administrator <a href="https://arstechnica.com/space/2026/03/nasa-kills-lunar-space-station-to-focus-on-ambitious-moon-base/">Jared Isaacman announced</a> that the Gateway was being "paused" so the space agency could focus on the lunar surface.</p><p><a href="https://arstechnica.com/space/2026/04/well-this-is-embarrassing-the-lunar-gateways-primary-modules-are-corroded/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/04/well-this-is-embarrassing-the-lunar-gateways-primary-modules-are-corroded/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>161</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/jsc2025e034729large-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/jsc2025e034729large-500x500.jpg" width="500"/>
-<media:text>Technicians prepare the HALO module for transport at the Thales Alenia Space facility in Turin, Italy.</media:text></media:content>
-            </item>
-                    <item>
-                <title>As electric aspirations fade, Porsche sells its stake in Bugatti</title>
-                <link>https://arstechnica.com/cars/2026/04/as-electric-aspirations-fade-porsche-sells-its-stake-in-bugatti/</link>
-                                    <comments>https://arstechnica.com/cars/2026/04/as-electric-aspirations-fade-porsche-sells-its-stake-in-bugatti/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Fri, 24 Apr 2026 13:54:17 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[bugatti]]></category>
-		<category><![CDATA[Rimac]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/04/as-electric-aspirations-fade-porsche-sells-its-stake-in-bugatti/</guid>
-
-                                    <description>
-                        <![CDATA[Porsche's stake in Bugatti and Rimac Group have been sold to private equity.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A new chapter in the Bugatti story begins today. Twenty-eight years after bringing the storied luxury brand back from the dead, Volkswagen Group no longer counts Bugatti among its stable of brands. Porsche, which <a href="https://arstechnica.com/cars/2021/07/porsche-and-ev-specialists-rimac-form-joint-venture-to-run-bugatti/">became the VW Group steward of Bugatti in 2021</a>, is selling its stake to a consortium of investors.</p>
-<p>Bugatti dates back to 1909, when its eponymous founder Ettore Bugatti started making cars in the Alsace region contested by France and Germany. That incarnation lasted through two world wars but was gone by 1963. The supercar boom of the late 1980s brought Bugatti back for the first time with the high-tech EB110, a car that combined a carbon fiber monocoque built by Aérospatiale (now better known as Airbus) with an F1-sized V12 (with four turbochargers) and all-wheel drive. As <a href="https://arstechnica.com/cars/2019/08/these-mclaren-f1s-and-bugatti-eb110s-were-the-stars-of-car-week/">spectacular as that sounds</a>, the twin threats of the even more superlative McLaren F1 and an economic downturn saw it fizzle out in the mid-'90s.</p>
-<p>The Bugatti you know now returned in 1998, one of a number of projects of <a href="https://arstechnica.com/cars/2019/08/ferdinand-piech-dies-father-of-the-porsche-917-and-bugatti-veyron/">Ferdinand Piech</a>, who was then boss of VW Group. Piech wanted to show off the superiority of VW Group's engineering. One project was an <a href="https://arstechnica.com/cars/2020/05/teardrops-and-wind-tunnels-a-look-at-the-worlds-most-aerodynamic-cars/">ultra-streamlined commuter car</a>, the XL1. Another was the Bugatti Veyron, a hand-built mid-engined two-seater with a thousand metric horsepower and manners so docile his grandmother could drive it to the opera.</p><p><a href="https://arstechnica.com/cars/2026/04/as-electric-aspirations-fade-porsche-sells-its-stake-in-bugatti/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/04/as-electric-aspirations-fade-porsche-sells-its-stake-in-bugatti/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>81</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/02-BUGATTI_French-Racing-Blue-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/02-BUGATTI_French-Racing-Blue-500x500.jpg" width="500"/>
-<media:credit>Bugatti</media:credit><media:text>The first three eras of Bugatti are in this photo, let's see what comes next.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Six things I'll remember when I think about Tim Cook's version of Apple</title>
-                <link>https://arstechnica.com/gadgets/2026/04/six-things-ill-remember-when-i-think-about-tim-cooks-version-of-apple/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/04/six-things-ill-remember-when-i-think-about-tim-cooks-version-of-apple/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Fri, 24 Apr 2026 13:40:50 +0000</pubDate>
-                		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[Tim Cook]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/04/six-things-ill-remember-when-i-think-about-tim-cooks-version-of-apple/</guid>
-
-                                    <description>
-                        <![CDATA[Under Cook, Apple became hugely successful, if not always surprising.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Apple CEO Tim Cook announced this week that he's stepping down from his position in September and handing the reins to John Ternus, currently the company's senior vice president of Hardware Engineering and a 25-year employee.</p>
-<p>This change had been telegraphed pretty far in advance, both by media reports (Bloomberg's well-connected Mark Gurman <a href="https://www.bloomberg.com/news/articles/2024-05-08/apple-s-next-ceo-list-of-aapl-insiders-who-could-succeed-tim-cook">flagged</a> Ternus as a frontrunner in May 2024, and The New York Times gave him a glossy profile in January) and by Apple (when it <a href="https://arstechnica.com/gadgets/2026/03/the-599-macbook-neo-is-apples-long-awaited-colorful-lower-cost-macbook/">announced the MacBook Neo</a> last month, it was Ternus, not Cook, who delivered the prepared remarks).</p>
-<p>I've been covering Apple for various outlets throughout Cook's tenure as CEO, and I've been thinking a lot about how Apple has changed in the 15 years since he formally took over from an ailing Steve Jobs in the summer of 2011. Under Cook, the company has become less surprising but massively financially successful; some of Apple's newer products have flopped or underperformed, but far more have become and stayed excellent thanks to years of competent iteration.</p><p><a href="https://arstechnica.com/gadgets/2026/04/six-things-ill-remember-when-i-think-about-tim-cooks-version-of-apple/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/04/six-things-ill-remember-when-i-think-about-tim-cooks-version-of-apple/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>285</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/apple-cook-2019-2-1152x648-1777034370.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/apple-cook-2019-2-500x500-1777034347.jpeg" width="500"/>
-<media:credit>Apple</media:credit><media:text>Tim Cook at an Apple event in the Steve Jobs Theater in 2019.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Trump administration attempt to gut Endangered Species Act hits roadblock</title>
-                <link>https://arstechnica.com/tech-policy/2026/04/trump-administration-attempt-to-gut-endangered-species-act-hits-roadblock/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/04/trump-administration-attempt-to-gut-endangered-species-act-hits-roadblock/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kiley Price, Inside Climate News]]>
-                </dc:creator>
-                <pubDate>Fri, 24 Apr 2026 13:17:00 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[climate change]]></category>
-		<category><![CDATA[endangered species act]]></category>
-		<category><![CDATA[fossil fuels]]></category>
-		<category><![CDATA[oil production]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/04/trump-administration-attempt-to-gut-endangered-species-act-hits-roadblock/</guid>
-
-                                    <description>
-                        <![CDATA[House vote to defang the Endangered Species Act was unexpectedly cancelled]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Trump administration and congressional Republicans have spent the last year <a href="https://arstechnica.com/tech-policy/2026/03/trump-convenes-god-squad-to-override-endangered-species-act-up-oil-production/">trying to defang the Endangered Species Act</a>, the country’s bedrock conservation law. But one of the most aggressive and far-reaching attempts just faced a major setback—and concerns from within the party were at least part of the reason.</p>
-<p>Republicans in the US House of Representatives abruptly canceled a vote that had been scheduled for Wednesday—Earth Day—on legislation that aims to codify into law many of President Donald Trump’s moves to weaken endangered species protections. Some lawmakers, mostly in tourism-dependent areas along the Gulf of Mexico, expressed concerns about the bill.</p>
-<p>“Don’t tread on my turtles. Protected means protected,” US Rep. Anna Paulina Luna (R-Fla.) wrote in <a href="https://x.com/repluna/status/2046350116026470439?s=46">a social media post on Monday</a> ahead of the then-pending vote.</p><p><a href="https://arstechnica.com/tech-policy/2026/04/trump-administration-attempt-to-gut-endangered-species-act-hits-roadblock/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/04/trump-administration-attempt-to-gut-endangered-species-act-hits-roadblock/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>72</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/08/800px-Fledgling_Northern_Spotted_Owls_8739231002-800x648.jpg" width="800">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2019/08/800px-Fledgling_Northern_Spotted_Owls_8739231002-500x500.jpg" width="500"/>
-<media:credit>By Pacific Southwest Region USFWS from Sacramento, US - Fledgling Northern Spotted Owls, Public Domain, https://commons.wikimedia.org/w/index.php?curid=68988708</media:credit><media:text>The northern spotted owl is practically the poster child for the Endangered Species Act. </media:text></media:content>
             </item>
             </channel>
 </rss>
