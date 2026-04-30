@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Wed, 29 Apr 2026 12:54:02 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 29 Apr 2026 21:29:38 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,415 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>ABC can beat Trump FCC's license threat if owner Disney is willing to fight</title>
+                <link>https://arstechnica.com/tech-policy/2026/04/abc-can-beat-trump-fccs-license-threat-if-owner-disney-is-willing-to-fight/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/04/abc-can-beat-trump-fccs-license-threat-if-owner-disney-is-willing-to-fight/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Wed, 29 Apr 2026 19:14:44 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ABC]]></category>
+		<category><![CDATA[Disney]]></category>
+		<category><![CDATA[FCC]]></category>
+		<category><![CDATA[jimmy kimmel]]></category>
+		<category><![CDATA[Trump]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/04/abc-can-beat-trump-fccs-license-threat-if-owner-disney-is-willing-to-fight/</guid>
+
+                                    <description>
+                        <![CDATA[Broadcast license renewals are "all but automatic" due to 1996 change in US law.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Disney will have the law on its side in its fight against the unusual broadcast license review ordered yesterday by the Federal Communications Commission, legal experts say.</p>
+<p>In 1996, Congress made it a lot harder for the FCC to take away a broadcast license, even when it's up for renewal. "Since the NAB [National Association of Broadcasters] got an amendment in the 1996 Telecommunications Act, denying renewal to a broadcaster faces an almost insurmountable burden," Andrew Jay Schwartzman, senior counselor of the Benton Institute for Broadband &amp; Society, told Ars this week.</p>
+<p>The Telecommunications Act of 1996 was a major update to the Communications Act, the 1934 law that established the FCC and provides the agency with its legal authority.</p><p><a href="https://arstechnica.com/tech-policy/2026/04/abc-can-beat-trump-fccs-license-threat-if-owner-disney-is-willing-to-fight/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/04/abc-can-beat-trump-fccs-license-threat-if-owner-disney-is-willing-to-fight/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>52</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/trump-carr-1152x648-1734382746.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/trump-carr-500x500-1734382753.jpg" width="500"/>
+<media:credit>Getty Images | Brandon Bell </media:credit><media:text>President-elect Donald Trump speaks to Brendan Carr, his intended pick for Chairman of the Federal Communications Commission, as he attends a SpaceX Starship rocket launch on November 19, 2024 in Brownsville, Texas.</media:text></media:content>
+            </item>
+                    <item>
+                <title>OpenAI Codex system prompt includes explicit directive to "never talk about goblins"</title>
+                <link>https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins/</link>
+                                    <comments>https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Wed, 29 Apr 2026 19:00:58 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Codex]]></category>
+		<category><![CDATA[goblin]]></category>
+		<category><![CDATA[GPT-5]]></category>
+		<category><![CDATA[GPT-5.5]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[system prompt]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins/</guid>
+
+                                    <description>
+                        <![CDATA[Directions also include system instructions to act like "you have a vivid inner life."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The system prompt for OpenAI's Codex CLI contains a perplexing and repeated warning for the most recent GPT model to "never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query."</p>
+<p>The explicit operational warning was <a href="https://github.com/openai/codex/commit/c10f95ddac7b35095d334dece2ebcf69bcde61fc">made public last week</a> as part of the latest open source code for Codex CLI that OpenAI <a href="https://github.com/openai/codex/blob/main/codex-rs/models-manager/models.json#L55">posted on GitHub</a>. The prohibition is repeated twice in a 3,500-plus word set of "base instructions" for the recently released GPT-5.5, alongside more anodyne reminders not to "use emojis or em dashes unless explicitly instructed" and to "never use destructive commands like 'git reset --hard' or 'git checkout --' unless the user has clearly asked for that operation."</p>
+<p>Separate system prompt instructions for earlier models contained in the same JSON file do not contain the specific prohibition against mentioning goblins and other creatures, suggesting OpenAI is fighting a new problem that has popped up in its latest model release. <a href="https://x.com/LeoMozoloa/status/2049082289116582386">Anecdotal</a> <a href="https://x.com/iamBarronRoth/status/2049123594467475481">evidence</a> on <a href="https://x.com/AndyAyrey/status/2047956630676095280">social media</a> shows <a href="https://x.com/MainStreetAIHQ/status/2049335057370976408">some users complaining</a> about GPT's penchant for focusing on goblins in completely unrelated conversations in recent days.</p><p><a href="https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>63</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-935113346-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-935113346-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>Without a system prompt telling it not to, GPT-5.5 would probably love to talk about this freaky little guy.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Howdy's dated $3/month ad-free streaming service said to have 1M subscribers</title>
+                <link>https://arstechnica.com/gadgets/2026/04/howdys-dated-3-month-ad-free-streaming-service-said-to-have-1m-subscribers/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/04/howdys-dated-3-month-ad-free-streaming-service-said-to-have-1m-subscribers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 29 Apr 2026 18:02:20 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[roku]]></category>
+		<category><![CDATA[streaming]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/04/howdys-dated-3-month-ad-free-streaming-service-said-to-have-1m-subscribers/</guid>
+
+                                    <description>
+                        <![CDATA[Most are keeping their subscriptions after signing up, too, research firm says. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Six months after its launch, research firm Antenna estimates that the <a href="https://arstechnica.com/gadgets/2025/08/roku-gets-frugal-with-the-content-and-price-of-its-new-streaming-service/">Howdy streaming service</a> has more than 1 million subscribers.</p>
+<p>Roku debuted Howdy in August. The subscription video-on-demand (SVOD) service is $3 per month and doesn't have commercials.</p>
+<p>In an announcement today, Antenna estimated that almost 300,000 people signed up for Howdy in August and that the service gained 100,000 subscribers in each subsequent month.</p><p><a href="https://arstechnica.com/gadgets/2026/04/howdys-dated-3-month-ad-free-streaming-service-said-to-have-1m-subscribers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/04/howdys-dated-3-month-ad-free-streaming-service-said-to-have-1m-subscribers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>37</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/Raw-Deal-e1777484088809-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/Raw-Deal-e1777484088809-500x500.jpg" width="500"/>
+<media:credit>De Laurentiis Entertainment Group</media:credit><media:text>&lt;em&gt;Raw Deal&lt;/em&gt; (1986) is one of Howdy's featured movies. </media:text></media:content>
+            </item>
+                    <item>
+                <title>New Sam Bankman-Fried trial would be huge waste of court’s time, judge says</title>
+                <link>https://arstechnica.com/tech-policy/2026/04/new-sam-bankman-fried-trial-would-be-huge-waste-of-courts-time-judge-says/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/04/new-sam-bankman-fried-trial-would-be-huge-waste-of-courts-time-judge-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Wed, 29 Apr 2026 17:52:52 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[FTX]]></category>
+		<category><![CDATA[sam bankman-fried]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/04/new-sam-bankman-fried-trial-would-be-huge-waste-of-courts-time-judge-says/</guid>
+
+                                    <description>
+                        <![CDATA[FTX fraudster came out as Republican, then tried to claim Biden's DOJ targeted him.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In an <a href="ttps://cdn.arstechnica.net/wp-content/uploads/2026/04/US-v-Bankman-Fried-Order-Denying-New-Trial-4-28-26.pdf">order</a> denying Sam Bankman-Fried's request for a new trial, a judge accused the disgraced FTX founder of wasting precious court resources on wild conspiracies. To the judge, the motion seemed like a last-ditch attempt to give himself a MAGA makeover that the <a href="https://arstechnica.com/tech-policy/2026/03/trumps-doj-is-not-falling-for-sam-bankman-frieds-maga-makeover-on-x/">Trump administration absolutely wasn't buying</a>.</p>
+<p>Bankman-Fried was <a href="https://arstechnica.com/tech-policy/2024/03/ftx-fraudster-sam-bankman-fried-sentenced-to-25-years-in-prison/">sentenced to 25 years in prison</a> in 2024 for "masterminding one of the largest financial frauds in American history," US District Judge Lewis Kaplan wrote in his order. He was convicted on all charges, including wire fraud, conspiracy to commit securities fraud, commodities fraud, and money laundering.</p>
+<p>There is already an appeal pending in another court, the judge noted. But Bankman-Fried filed a separate motion for a new trial, claiming that there were "newly discovered" witnesses and evidence that might have helped his defense, if Joe Biden's Department of Justice hadn't intimidated them into refusing to testify or, in one case, lying on the stand. He also asked for a new judge, wanting Kaplan to recuse himself.</p><p><a href="https://arstechnica.com/tech-policy/2026/04/new-sam-bankman-fried-trial-would-be-huge-waste-of-courts-time-judge-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/04/new-sam-bankman-fried-trial-would-be-huge-waste-of-courts-time-judge-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>33</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1258714334-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1258714334-500x500.jpg" width="500"/>
+<media:credit>Anadolu / Contributor | Anadolu</media:credit><media:text>FTX Founder Sam Bankman-Fried represented himself in failed bid for a new trial.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Drone strikes on data centers spook Big Tech, halting Middle East projects</title>
+                <link>https://arstechnica.com/ai/2026/04/data-center-developer-pauses-middle-east-projects-after-war-damage/</link>
+                                    <comments>https://arstechnica.com/ai/2026/04/data-center-developer-pauses-middle-east-projects-after-war-damage/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Wed, 29 Apr 2026 17:27:53 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[ai data centers]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[Iran]]></category>
+		<category><![CDATA[middle east]]></category>
+		<category><![CDATA[military drones]]></category>
+		<category><![CDATA[Silicon Valley]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/04/data-center-developer-pauses-middle-east-projects-after-war-damage/</guid>
+
+                                    <description>
+                        <![CDATA[Uninsurable war damage is forcing tech companies to rethink Middle East plans.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A data center developer has paused all Middle East project investments after one of its facilities was damaged by an Iranian missile or drone attack. The decision comes as the Iran war is forcing Silicon Valley investors and tech companies to rethink a trillion-dollar plan to build more AI and cloud data centers in Gulf countries.</p>
+<p>The damaged data center is owned by Pure Data Centre Group, a London-based company that is operating or developing more than 1 gigawatt of data center capacity across Europe, the Middle East, and Asia. “No one’s going to run into a burning building, so to speak,” Pure DC CEO Gary Wojtaszek told <a href="https://www.cnbc.com/2026/04/29/oaktree-owned-pure-dc-investment-decisions-gulf-data-centers.html">CNBC</a>. “No one’s going to put in new additional capital at scale to do anything until everything settles down."</p>
+<p>Data center developers are already eating the costs of uninsurable war damage from the conflict, which began with a US-Israeli attack on Iran on February 28. Iran primarily responded by attacking shipping to shut down the <a href="https://arstechnica.com/security/2026/04/crypto-scam-lures-ships-into-strait-of-hormuz-falsely-promising-safe-passage/">Strait of Hormuz</a> trade corridor along with striking US military bases and energy infrastructure across the Gulf region.</p><p><a href="https://arstechnica.com/ai/2026/04/data-center-developer-pauses-middle-east-projects-after-war-damage/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/04/data-center-developer-pauses-middle-east-projects-after-war-damage/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>56</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2244357858-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2244357858-500x500.jpg" width="500"/>
+<media:credit>Giuseppe CACACE / AFP via Getty Images</media:credit><media:text>Guests look at a model of the largest data center in the UAE under construction in Abu Dhabi as the Stargate initiative, a joint venture between G42, Microsoft, and OpenAI, during the Abu Dhabi International Petroleum Exhibition Conference (ADIPEC) in Abu Dhabi on November 3, 2025.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Motorola reveals 2026 Razr lineup with modest upgrades and higher prices</title>
+                <link>https://arstechnica.com/gadgets/2026/04/motorola-reveals-2026-razr-lineup-with-modest-upgrades-and-higher-prices/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/04/motorola-reveals-2026-razr-lineup-with-modest-upgrades-and-higher-prices/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Wed, 29 Apr 2026 16:55:58 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[Foldables]]></category>
+		<category><![CDATA[motorola]]></category>
+		<category><![CDATA[smartphones]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/04/motorola-reveals-2026-razr-lineup-with-modest-upgrades-and-higher-prices/</guid>
+
+                                    <description>
+                        <![CDATA[Motorola's foldable lineup is bigger and more spendy than ever. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Motorola is crazy about foldables. With each passing year, the company has beefed up its folding phone lineup, and in 2026, there will be four devices launching on May 21. At the top end is the company's first tablet-style foldable, the Razr Fold. Below that, Motorola will again offer three flip-style foldables: the Razr Ultra, Razr+, and Razr. These phones get a few modest upgrades over <a href="https://arstechnica.com/gadgets/2025/05/motorola-razr-and-razr-ultra-2025-review-cool-as-hell-but-too-much-ai/">last year's phones</a>, along with price increases. Motorola is unfortunately not immune to the rising cost of components.</p>
+<div class="table-wrapper"><table class="specifications right" width="400">
+<thead>
+<tr>
+<th style="text-align: left;" colspan="5">Specs at a glance: 2026 Motorola Razr series</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td><strong>Razr 2026 ($800)</strong></td>
+<td><strong>Razr+ 2026 ($1,100)</strong></td>
+<td><strong>Razr Ultra 2026 ($1,500)</strong></td>
+<td><strong>Razr Fold ($1,900)</strong></td>
+</tr>
+<tr>
+<td><strong>SoC</strong></td>
+<td>MediaTek Dimensity 7450X</td>
+<td> Snapdragon 8s Gen 3</td>
+<td> Snapdragon 8 Elite "Pro"</td>
+<td> Snapdragon 8 Elite Gen 5</td>
+</tr>
+<tr>
+<td><strong>Memory</strong></td>
+<td>8GB</td>
+<td>12GB</td>
+<td>16GB</td>
+<td>16GB</td>
+</tr>
+<tr>
+<td><strong>Storage</strong></td>
+<td>128GB</td>
+<td> 256GB</td>
+<td>512GB</td>
+<td>512GB</td>
+</tr>
+<tr>
+<td><strong>Display</strong></td>
+<td>External: 3.6-inch 1056 x 1066 OLED, 90 Hz, 1700 nits; Internal: 6.9-inch 1080 x 2640 OLED, 120 Hz, 3000 nits</td>
+<td>External: 4-inch 1272 x 1080 OLED, 165 Hz, 2400 nits; Internal: 6.9-inch 1080 x 2640 OLED, 165 Hz, 3000 nits</td>
+<td>External: 4-inch 1272 x 1080 OLED, 165 Hz, 3000 nits; Internal: 7-inch 1224 x 2992 OLED, 165 Hz, 5000 nits</td>
+<td>External: 6.6-inch 2520 x 1080 pOLED, 165 Hz, 6000 nits; Internal: 8.1-inch 2484 x 2232 LTPO OLED, 120 Hz, 6,200 nits</td>
+</tr>
+<tr>
+<td><strong>Cameras</strong></td>
+<td>50 MP wide, f/1.7; 50 MP ultrawide, f/2.0;<br>
+32 MP selfie, f/2.4</td>
+<td>50 MP wide, f/1.8; 50 MP ultrawide, f/2.0;<br>
+32 MP selfie, f/2.4</td>
+<td>50 MP wide, f/1.8; 50 MP ultrawide, f/2.0;<br>
+50 MP selfie, f/2.0</td>
+<td>50 MP wide, F/1.6; 50 MP ultrawide with Macro, f/2.2;<br>
+50 MP 3x telephoto; 32 MP outer selfie, f/2.4; 20 MP inner selfie, f/2.4</td>
+</tr>
+<tr>
+<td><strong>Software</strong></td>
+<td>Android 16</td>
+<td>Android 16</td>
+<td>Android 16</td>
+<td>Android 16</td>
+</tr>
+<tr>
+<td><strong>Battery</strong></td>
+<td>4800 mAh, up to 30 W wired charging, wireless charging</td>
+<td>4500 mAh, up to 45 W wired charging, wireless charging</td>
+<td>5,000 mAh, up to 68 W wired, wireless charging</td>
+<td>6000 mAh, up to 80 W wired charging, 50 W wireless charging</td>
+</tr>
+<tr>
+<td><strong>Connectivity</strong></td>
+<td>Sub-6 GHz  5G</td>
+<td>Sub-6 GHz  5G</td>
+<td>Sub-6 GHz  5G</td>
+<td>Sub-6 GHz  5G</td>
+</tr>
+<tr>
+<td><strong>Measurements</strong></td>
+<td>Open: 171.30 × 73.99 × 7.25 mm<br>
+Closed: 88.08 × 73.99 × 15.85 mm, 188g</td>
+<td>Open: 171.42 × 73.99 × 7.09 mm<br>
+Closed: 88.09 × 73.99 × 15.32 mm, 189g</td>
+<td>Open: 171.48 × 73.99 × 7.19 mm<br>
+Closed: 88.12 × 73.99 × 15.69 mm, 199g</td>
+<td>Open: 160 height × 144.4 width × 4.55 depth (mm); Closed: 160 height × 73.6 width × 9.89 depth (mm), 243g</td>
+</tr>
+<tr>
+<td><strong>Colors</strong></td>
+<td>Hematite, Violet Ice, Sporting Green, Bright White</td>
+<td>Mountain View</td>
+<td>Orient Blue, Cocoa</td>
+<td>Blackened Blue, Lily White</td>
+</tr>
+</tbody>
+</table></div>
+<p>The Razr Fold represents a big step for Moto. Its foldable flip phones have revived the Razr name and offered a good alternative to Samsung's Z Flip line, but people buying foldables are generally more interested in the large format. As prices at the lower end of the spectrum ratchet up, there's less and less distance between premium flip phones and bigger foldables. At $1,900, the Razr Fold is not a cheap phone, but it's roughly in line with the pricing of 2025 foldables (right between Google and Samsung). Given the current state of things, that's a small win for 512GB of storage and 16GB of RAM.</p>
+<img width="1920" height="1080" src="https://cdn.arstechnica.net/wp-content/uploads/2026/01/razr-fold.jpg" class="fullwidth full" alt="Razr Fold open back" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/01/razr-fold.jpg 1920w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/razr-fold-640x360.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/razr-fold-1024x576.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/razr-fold-768x432.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/razr-fold-1536x864.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/razr-fold-384x216.jpg 384w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/razr-fold-1152x648.jpg 1152w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/razr-fold-980x551.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/01/razr-fold-1440x810.jpg 1440w" sizes="auto, (max-width: 1920px) 100vw, 1920px">
+      Moto's first big foldable is almost here.
+        Credit:
+          Motorola
+      
+<p>Motorola is not reinventing the wheel with the Fold, so you can expect a device that looks and feels similar to other big foldables like the <a href="https://arstechnica.com/gadgets/2025/10/google-pixel-10-pro-fold-review-the-ultimate-google-phone/">Pixel 10 Pro Fold</a>. It's about the same size as Google's foldable but slightly thinner and lighter. <a href="https://arstechnica.com/gadgets/2025/07/samsung-galaxy-z-fold-7-review-the-foldable-we-deserve-but-not-the-one-we-can-afford/">Samsung's Z Fold 7</a>, however, is much thinner and lighter. Motorola does have the advantage of stylus input, which Samsung has dropped from its foldables. The Moto Stylus will launch at $99 alongside the Razr Fold on May 21.</p><p><a href="https://arstechnica.com/gadgets/2026/04/motorola-reveals-2026-razr-lineup-with-modest-upgrades-and-higher-prices/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/04/motorola-reveals-2026-razr-lineup-with-modest-upgrades-and-higher-prices/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>22</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/motorola-razr-ultra-2026_-Lifestyle-Imagery_0223-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/motorola-razr-ultra-2026_-Lifestyle-Imagery_0223-500x500.jpg" width="500"/>
+<media:credit>Motorola</media:credit><media:text>The Razr Ultra 2026 has a wood panel option. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Nvidia fixes the 8GB RAM problem with one of its GPUs—if you can pay for it</title>
+                <link>https://arstechnica.com/gadgets/2026/04/nvidia-fixes-the-8gb-ram-problem-with-one-of-its-gpus-if-you-can-pay-for-it/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/04/nvidia-fixes-the-8gb-ram-problem-with-one-of-its-gpus-if-you-can-pay-for-it/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Wed, 29 Apr 2026 16:06:28 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[framework]]></category>
+		<category><![CDATA[framework laptop 16]]></category>
+		<category><![CDATA[geforce 5070]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[nvidia geforce]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/04/nvidia-fixes-the-8gb-ram-problem-with-one-of-its-gpus-if-you-can-pay-for-it/</guid>
+
+                                    <description>
+                        <![CDATA[Framework charges nearly double for the 12GB version of the mobile RTX 5070.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Whether you're a gamer trying to play recent AAA titles at high resolutions and maxed-out settings or an AI enthusiast trying to run models locally, we've reached the point where a GPU with 8GB of video memory is a pretty limiting bottleneck. But because of ongoing memory shortages and price spikes, it's also a uniquely bad time for GPU makers to attempt to fix this problem—<a href="https://www.pcmag.com/news/nvidia-reportedly-hits-pause-delays-rtx-50-super-gpus-heres-why">rumors suggested</a> that a RAM-boosting mid-generation "Super" refresh for Nvidia's RTX 50-series GPUs was quietly delayed or canceled earlier this year, at least in part because of memory costs.</p>
+<p>One of Nvidia's GPUs <em>is</em> getting a RAM upgrade, according to an announcement the company buried <a href="https://www.nvidia.com/en-us/geforce/news/conan-exiles-enhanced-geforce-game-ready-driver/">at the bottom of a blog post</a> about a routine Game Ready driver update. The laptop version of the GeForce RTX 5070 is getting a bump from 8GB to 12GB of GDDR7, a 50 percent increase that should reduce some performance bottlenecks and generally future-proof the GPU.</p>
+<p>Otherwise, the 12GB version of the mobile RTX 5070 is the same as the 8GB version. The RAM is still connected to the GPU with a 128-bit memory interface, and the GPU still has 4,608 CUDA cores. The mobile 5070 uses the same GB206 silicon die as the desktop RTX 5060 instead of the larger, more powerful GB205 die in the desktop version of the RTX 5070, meaning that despite the RAM increase, the desktop version remains a much more powerful GPU.</p><p><a href="https://arstechnica.com/gadgets/2026/04/nvidia-fixes-the-8gb-ram-problem-with-one-of-its-gpus-if-you-can-pay-for-it/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/04/nvidia-fixes-the-8gb-ram-problem-with-one-of-its-gpus-if-you-can-pay-for-it/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>55</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/geforce-rtx-50-series-laptop-hero-af360-p@2x-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/geforce-rtx-50-series-laptop-hero-af360-p@2x-500x500.jpg" width="500"/>
+<media:credit>Nvidia</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Professional school grads from diverse classes get higher salaries</title>
+                <link>https://arstechnica.com/science/2026/04/professional-school-grads-from-diverse-classes-get-higher-salaries/</link>
+                                    <comments>https://arstechnica.com/science/2026/04/professional-school-grads-from-diverse-classes-get-higher-salaries/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Wed, 29 Apr 2026 15:55:55 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[affirmative action]]></category>
+		<category><![CDATA[business school]]></category>
+		<category><![CDATA[dei]]></category>
+		<category><![CDATA[diversity]]></category>
+		<category><![CDATA[law school]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/04/professional-school-grads-from-diverse-classes-get-higher-salaries/</guid>
+
+                                    <description>
+                        <![CDATA[Study authors say courts should reconsider rulings in light of this new evidence.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Even before the Trump administration went to war against DEI and attempts to address historical discrimination, diversity efforts in the US were controversial. A pivotal moment came in 2023, when <a href="https://en.wikipedia.org/wiki/Students_for_Fair_Admissions_v._Harvard">the Supreme Court ruled</a> that race-based affirmative action programs violated the Constitution. The decision partly rested on universities' inability to clearly measure the benefits of diverse student bodies and the lack of defined standards to determine when equity had been achieved and such programs should end.</p>
+<p>A new paper highlights the uncertainty. "Learning theory argues that racial diversity promotes student learning, which should increase salaries," its authors write. "However, well-documented racial wage discrimination indicates that higher racial diversity should decrease salaries."</p>
+<p>But the authors—Debanjan Mitra, Peter Golder, and Mariya Topchy—have developed a metric suggesting that graduates benefit financially if they graduate with a diverse peer group. The researchers argue that this evidence should be sufficient to prompt courts to reconsider earlier rulings.</p><p><a href="https://arstechnica.com/science/2026/04/professional-school-grads-from-diverse-classes-get-higher-salaries/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/04/professional-school-grads-from-diverse-classes-get-higher-salaries/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>53</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1374727807-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1374727807-500x500.jpg" width="500"/>
+<media:credit>Iparraguirre Recio</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Attempt to repeal Colorado's right-to-repair law fails</title>
+                <link>https://arstechnica.com/tech-policy/2026/04/attempt-to-repeal-colorados-right-to-repair-law-fails/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/04/attempt-to-repeal-colorados-right-to-repair-law-fails/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Boone Ashworth, wired.com]]>
+                </dc:creator>
+                <pubDate>Wed, 29 Apr 2026 14:00:19 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[right to repair]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/04/attempt-to-repeal-colorados-right-to-repair-law-fails/</guid>
+
+                                    <description>
+                        <![CDATA[Manufacturers backed effort to repeal the law but ultimately failed.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A controversial bill in Colorado that would have undone some repair protections in the state has failed. The bill had been the target of <a href="https://www.wired.com/tag/right-to-repair/">right-to-repair</a> advocates, who saw it as a bellwether for how tech companies might try to undo repair legislation more broadly in the US.</p>
+<p>Colorado’s landmark 2024 repair law, the <a href="https://arstechnica.com/tech-policy/2023/04/colorado-governor-signs-tractor-right-to-repair-law-opposed-by-john-deere/">Consumer Right to Repair Digital Electronic Equipment</a>, went into effect in January 2026 and ensured access to tools and documentation people needed to modify and fix digital electronics such as phones, computers, and Wi-Fi routers. The new bill, <a href="https://leg.colorado.gov/bills/SB26-090">SB26-090</a>, would have carved out an exception to those repair protections for “critical infrastructure,” a loosely defined term that repair advocates worried could be applied to just about any technology.</p>
+<p>SB26-090 was introduced during a Colorado <a href="https://www.wired.com/story/tech-companies-are-trying-to-neuter-colorados-landmark-right-to-repair-law/">Senate hearing</a> on April 2 and was supported by lobbying efforts from companies such as Cisco and IBM. It passed that hearing unanimously. The bill then <a href="https://leg.colorado.gov/bill_votes/29193">passed</a> in the Colorado Senate on April 16. On Monday evening, the bill was discussed in a long, delayed hearing in the Colorado House’s State, Civic, Military, and Veterans Affairs Committee. Dozens of supporters and detractors gave public comments. Finally, the bill was shot down in a 7-to-4 vote and classified as postponed indefinitely.</p><p><a href="https://arstechnica.com/tech-policy/2026/04/attempt-to-repeal-colorados-right-to-repair-law-fails/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/04/attempt-to-repeal-colorados-right-to-repair-law-fails/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>47</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/phonerepair-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/phonerepair-500x500.jpg" width="500"/>
+<media:credit>Bloomberg/Getty</media:credit></media:content>
+            </item>
+                    <item>
                 <title>A Falcon 9 rocket will hit the Moon this summer at seven times the speed of sound</title>
                 <link>https://arstechnica.com/space/2026/04/a-falcon-9-upper-stage-will-strike-the-moon-in-august/</link>
                                     <comments>https://arstechnica.com/space/2026/04/a-falcon-9-upper-stage-will-strike-the-moon-in-august/#comments</comments>
@@ -45,7 +454,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>24</slash:comments>
+                                    <slash:comments>124</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/Firefly_i_Space_outside39mound_DSC_1723_desktop_463a0c9a28-1152x648.jpg" width="1152">
@@ -82,7 +491,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>32</slash:comments>
+                                    <slash:comments>121</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2261040231-1024x648.jpg" width="1024">
@@ -136,7 +545,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>6</slash:comments>
+                                    <slash:comments>27</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/news-042826a-lg-1152x648.jpg" width="1152">
@@ -163,7 +572,7 @@
                         <![CDATA[Security firms find themselves especially exposed.]]>
                     </description>
                                                                 <content:encoded>
-                            <![CDATA[<p>It has been a bad six weeks for security firm Checmarx. Over the past 40 days, it has been the victim of at least one supply-chain attack that delivered malware to customers on two separate occasions. Now it has been hit by a ransomware attack from prolific fame-seeking hackers.</p>
+                            <![CDATA[<p>It has been a bad six weeks for security firm Checkmarx. Over the past 40 days, it has been the victim of at least one supply-chain attack that delivered malware to customers on two separate occasions. Now it has been hit by a ransomware attack from prolific fame-seeking hackers.</p>
 <p>The streak of misfortunes started on March 19 with the <a href="https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/">supply-chain attack</a> of Trivy, a widely used vulnerability scanner. The attackers behind the breach first breached the Trivy GitHub account and then used their access to push malware to Trivy users, one of which was Checkmarx. The pushed malware scoured infected machines for repository tokens, SSH keys, and other credentials.</p>
 <h2>Both a target and delivery mechanism</h2>
 <p>Four days later, Checkmarx’s GitHub account was compromised and began pushing malware to the security firm’s users. The company contained and remediated the breach and replaced the malware with the legitimate apps. Or so Checkmarx thought.</p><p><a href="https://arstechnica.com/information-technology/2026/04/why-a-recent-supply-chain-attack-singled-out-security-firms-checkmarx-and-bitwarden/">Read full article</a></p>
@@ -171,7 +580,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>7</slash:comments>
+                                    <slash:comments>19</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg">
@@ -206,7 +615,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>190</slash:comments>
+                                    <slash:comments>270</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/department-of-clowns-1152x648.jpg" width="1152">
@@ -240,7 +649,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>97</slash:comments>
+                                    <slash:comments>118</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-151039025-1152x648.jpg" width="1152">
@@ -274,7 +683,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>140</slash:comments>
+                                    <slash:comments>160</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/jimmy-kimmel-1152x648-1758212989.jpg" width="1152">
@@ -317,7 +726,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>43</slash:comments>
+                                    <slash:comments>67</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/powderhorn_jan_10-1152x648.jpg" width="1152">
@@ -354,7 +763,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>72</slash:comments>
+                                    <slash:comments>88</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2272048837-1152x648.jpg" width="1152">
@@ -390,7 +799,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>173</slash:comments>
+                                    <slash:comments>181</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/copilot-1152x648.png" width="1152">
@@ -423,338 +832,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>75</slash:comments>
+                                    <slash:comments>82</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2168883875-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2168883875-500x500.jpg" width="500"/>
 <media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>The great American data center divide</title>
-                <link>https://arstechnica.com/ai/2026/04/rural-america-is-resisting-the-surge-in-data-center-construction/</link>
-                                    <comments>https://arstechnica.com/ai/2026/04/rural-america-is-resisting-the-surge-in-data-center-construction/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Susannah Savage, Rafe Rosner-Uddin, Eva Xiao, and Zehra Munir, FT]]>
-                </dc:creator>
-                <pubDate>Tue, 28 Apr 2026 14:15:11 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[cheap land]]></category>
-		<category><![CDATA[data centers]]></category>
-		<category><![CDATA[farmland]]></category>
-		<category><![CDATA[meta]]></category>
-		<category><![CDATA[rural America]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/04/rural-america-is-resisting-the-surge-in-data-center-construction/</guid>
-
-                                    <description>
-                        <![CDATA[Many rural communities are viscerally opposed to AI infrastructure.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>In Tazewell County, Illinois, Michael Deppert depends on a natural pool of water beneath the sandy soils of his farm to irrigate the pumpkins, corn, and soybeans growing in his fields.</p>
-<p>So when a data center was proposed about eight miles away, he feared it would tap the same aquifer, potentially eroding crop yields and profits.</p>
-<p>Deppert, who is also the president of the local farm bureau lobby group, says locals were also “nervous” about how a data center would affect the “good, clean drinking water.” Residents launched a fierce opposition campaign, packing city council meetings and mounting petitions. After several months, the project, led by developer Western Hospitality Partners, was scrapped.</p><p><a href="https://arstechnica.com/ai/2026/04/rural-america-is-resisting-the-surge-in-data-center-construction/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/04/rural-america-is-resisting-the-surge-in-data-center-construction/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>133</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/dekalb-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/dekalb-500x500.jpg" width="500"/>
-<media:credit>Bruce Leighty via Getty</media:credit><media:text>Main Street (Route 38) in DeKalb, Illilnois. Meta is building a data center outside Dekalb.</media:text></media:content>
-            </item>
-                    <item>
-                <title>A billion miles in less than a decade: GM's Super Cruise reaches a milestone</title>
-                <link>https://arstechnica.com/cars/2026/04/gms-super-cruise-passes-a-billion-driven-miles-since-2017/</link>
-                                    <comments>https://arstechnica.com/cars/2026/04/gms-super-cruise-passes-a-billion-driven-miles-since-2017/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Tue, 28 Apr 2026 14:00:26 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Super Cruise]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/04/gms-super-cruise-passes-a-billion-driven-miles-since-2017/</guid>
-
-                                    <description>
-                        <![CDATA[The hands-free, eyes-on driver assist only works on geofenced highways.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>When Super Cruise debuted in the Cadillac CT6 <a href="https://arstechnica.com/cars/2017/04/cadillac-super-cruises-to-the-front-with-the-most-advanced-semi-autonomous-car-on-the-market/">in 2017</a>, it showed there was a responsible way to give drivers a hands-free assistance system. <a href="https://arstechnica.com/cars/2018/10/tesla-autopilot-loses-to-gms-super-cruise-in-consumer-reports-ratings/">Unlike Tesla</a>, General Motors geofenced the system to only work on restricted-access highways that had been lidar-scanned and HD-mapped ahead of time. What's more, it added a driver-facing infrared camera to track their gaze and ensure their eyes remain on the road ahead for the system to stay active.</p>
-<p>After starting out in the Cadillac flagship sedan, GM began adding Super Cruise to more and more of its models, and the system has just passed a billion miles driven (1.6 billion km) across almost 750,000 vehicles in the US and Canada. "And we're continuing to grow that, both with the new sales and also we have a very high renewal rate," said Rashed Haq, vice president of autonomous vehicles at GM.</p>
-<p>That renewal rate is close to 40 percent for GM owners with Super Cruise, according to Haq, which is <a href="https://arstechnica.com/cars/2020/08/always-read-the-fine-print-gm-super-cruise-only-free-for-three-years/">free for the first three years</a> then is tied to an active OnStar subscription. "It really shows how Super Cruise is passing what I call the toothbrush test. The customers are using it continuously. Once they use it, they never go back. They continue to use it, and then they use it multiple times a day, just like a toothbrush. So it's really past that kind of stickiness test," Haq told me.</p><p><a href="https://arstechnica.com/cars/2026/04/gms-super-cruise-passes-a-billion-driven-miles-since-2017/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/04/gms-super-cruise-passes-a-billion-driven-miles-since-2017/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>99</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Ars-Technica-Cadillac-Optiq-26-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/Ars-Technica-Cadillac-Optiq-26-500x500.jpg" width="500"/>
-<media:credit>Michael Teo Van Runkle</media:credit><media:text>The Super Cruise hands-free driver assist is quite mature now. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Start with the sensors, then design the rest: How Zoox built its robotaxi</title>
-                <link>https://arstechnica.com/cars/2026/04/start-with-the-sensors-then-design-the-rest-how-zoox-built-its-robotaxi/</link>
-                                    <comments>https://arstechnica.com/cars/2026/04/start-with-the-sensors-then-design-the-rest-how-zoox-built-its-robotaxi/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Tue, 28 Apr 2026 11:20:49 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[autonomous vehicles]]></category>
-		<category><![CDATA[robotaxis]]></category>
-		<category><![CDATA[Zoox]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/04/start-with-the-sensors-then-design-the-rest-how-zoox-built-its-robotaxi/</guid>
-
-                                    <description>
-                        <![CDATA[The bidirectional design has some clear advantages for a working taxi.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>These days, the hype is all about AI and robots, but almost a decade ago, the <em>tech du jour</em> was self-driving. You couldn't <a href="https://arstechnica.com/cars/2018/02/the-car-of-the-future-is-taking-shape-and-it-will-know-how-we-feel-about-it/">swing a lanyard at CES</a> for the latter half of the last decade without hitting a robotaxi; post-COVID, the number of startups has shrunk, but the technology has definitely matured. Go to the right cities—San Francisco and Austin, Texas, spring to mind—and you might see dozens of sensor-festooned vehicles among the downtown traffic.</p>
-<p>The pod-like robotaxis belonging to Zoox stand out. Other robotaxi developers are retrofitting existing vehicles like Hyundai Ioniq 5s with sensors and the computing power necessary for self-driving. Zoox, <a href="https://arstechnica.com/cars/2020/06/amazon-pays-1-2-billion-for-self-driving-startup-zoox/">which was bought by Amazon in 2020</a>, did that with its test fleet, but as it starts to offer ride-hailing services—currently in Las Vegas and San Francisco—it's doing so with a purpose-built design that looks like it just drove off the set of a big-budget sci-fi production.</p>
-<p>"A robotaxi is not a car; it's not a human-driven vehicle, and the requirements are wildly different, although it has to live in that world," explained Chris Stoffel, director of robot industrial design and studio engineering at Zoox.</p><p><a href="https://arstechnica.com/cars/2026/04/start-with-the-sensors-then-design-the-rest-how-zoox-built-its-robotaxi/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/04/start-with-the-sensors-then-design-the-rest-how-zoox-built-its-robotaxi/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>87</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/Zoox-Las-Vegas-6-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/Zoox-Las-Vegas-6-500x500.jpg" width="500"/>
-<media:credit>Zoox</media:credit><media:text>Zoox took an original approach to its robotaxi design.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Neanderthal brains measure up to ours—literally</title>
-                <link>https://arstechnica.com/science/2026/04/neanderthal-brains-measure-up-to-ours-literally/</link>
-                                    <comments>https://arstechnica.com/science/2026/04/neanderthal-brains-measure-up-to-ours-literally/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kiona N. Smith]]>
-                </dc:creator>
-                <pubDate>Tue, 28 Apr 2026 11:05:46 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[anthropology]]></category>
-		<category><![CDATA[Archaeology]]></category>
-		<category><![CDATA[brains]]></category>
-		<category><![CDATA[hominin evolution]]></category>
-		<category><![CDATA[hominins]]></category>
-		<category><![CDATA[human evolution]]></category>
-		<category><![CDATA[Neanderthals]]></category>
-		<category><![CDATA[paleoanthropology]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/04/neanderthal-brains-measure-up-to-ours-literally/</guid>
-
-                                    <description>
-                        <![CDATA[The differences between our brains and Neanderthals' were likely cosmetic.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>If you look at a Neanderthal skull and a <i>Homo sapiens</i> skull, they're visibly different: Neanderthal skulls are lower and longer, whereas ours tend to be rounder. However, those differences probably don’t say much about the brains within them, according to a recent study, which compared MRI scans of modern people’s brains with casts of the inside of Neanderthal skulls.</p>
-<p>The results suggest that there’s more variation in brain size among modern people than between Neanderthals and Pleistocene <i>Homo sapiens</i>. And because brain size is actually a terrible way to predict cognitive capability, Neanderthals could have been a lot more like us than some previous studies have claimed, which definitely fits what the archaeological record tells us about how they lived. It would also mean that our species probably didn't out-compete the Neanderthals by being smarter or more adaptable.</p>
-<h2>Neanderthal brains fit within the modern human range</h2>
-<p>Years after you die, the inner vault of your skull will hold the shape of your brain; if future archaeologists make a cast of that inner space, they’ll get a neat resin model of the outer contours of your brain, called an endocast. (Sediment that filled the skull of an <i>Australopithecus africanus</i> child who died 2.8 million years ago did this naturally, <a href="https://www.johnhawks.net/p/research-highlight-brain-of-the-taung-child">creating an endocast</a> that’s half rocky brain-sculpture and half sparkling crystal.) For years, researchers have studied endocasts of Neanderthal skulls, trying to piece together how their brains were different or similar to ours. And that has been a matter of some debate.</p><p><a href="https://arstechnica.com/science/2026/04/neanderthal-brains-measure-up-to-ours-literally/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/04/neanderthal-brains-measure-up-to-ours-literally/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>59</slash:comments>
-                
-                
-                <media:content medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2021/02/Sapiens_neanderthal_comparison_en_blackbackground.png">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/02/Sapiens_neanderthal_comparison_en_blackbackground-500x500.png" width="500"/>
-<media:credit>Wikimedia Commons</media:credit><media:text>The difference between modern human (left) and Neanderthal skulls means there must be some differences in how their brains develop.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Put it in pencil: NASA's Artemis III mission will launch no earlier than late 2027</title>
-                <link>https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027/</link>
-                                    <comments>https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Tue, 28 Apr 2026 00:14:09 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[artemis]]></category>
-		<category><![CDATA[artemis iii]]></category>
-		<category><![CDATA[blue moon]]></category>
-		<category><![CDATA[blue origin]]></category>
-		<category><![CDATA[human spaceflight]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[orion]]></category>
-		<category><![CDATA[space launch system]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[starship]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027/</guid>
-
-                                    <description>
-                        <![CDATA[SpaceX and Blue Origin tell NASA their lunar landers will be ready for Artemis III in late 2027.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>NASA Administrator Jared Isaacman told lawmakers on Monday that SpaceX and Blue Origin, the agency's two lunar lander contractors, say they could have their spacecraft ready for the next Artemis mission in Earth orbit in late 2027, somewhat later than NASA's previous schedule.</p>
-<p>This mission, Artemis III, will <a href="https://arstechnica.com/space/2026/02/nasa-shakes-up-its-artemis-program-to-speed-up-lunar-return/">not fly to the Moon</a>. Instead, NASA will launch an Orion capsule with a team of astronauts to rendezvous and potentially dock with one or both landers in Earth orbit. The details of the Artemis III flight plan remain under review, with <a href="https://arstechnica.com/space/2026/04/with-orion-still-flying-nasa-is-nearing-key-decisions-about-artemis-iii/">key questions</a> about the orbit's altitude and the configuration of the Space Launch System rocket still unanswered.</p>
-<p>A mission to low-Earth orbit, just a few hundred miles in altitude, may not require NASA to use up an SLS upper stage that is already built and in storage, saving the unit for the following Artemis mission to attempt a landing on the Moon. A launch into a higher orbit would require the upper stage, but it would allow NASA to perform tests in an environment more similar to the Moon. NASA is <a href="https://arstechnica.com/space/2026/03/ding-dong-the-exploration-upper-stage-is-dead/">buying a new commercial upper stage</a>, the Centaur V from United Launch Alliance, to pair with the SLS rocket after flying the last of the rocket's existing upper stages.</p><p><a href="https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>108</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/jsc2023e076235-1-1152x648-1777333909.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/jsc2023e076235-1-500x500.jpg" width="500"/>
-<media:credit>SpaceX</media:credit><media:text>This photo from 2023 shows a ground test of the docking mechanism for Starship, derived from the system used on SpaceX's Crew Dragon spacecraft.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Open source package with 1 million monthly downloads stole user credentials</title>
-                <link>https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/</link>
-                                    <comments>https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Mon, 27 Apr 2026 21:04:03 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[GitHub]]></category>
-		<category><![CDATA[Open source software]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/</guid>
-
-                                    <description>
-                        <![CDATA[If you're one of millions using element-data, it's time to check for compromise.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Open source software with more than 1 million monthly downloads was compromised after a threat actor exploited a vulnerability in the developers’ account workflow that gave access to its signing keys and other sensitive information.</p>
-<p>On Friday, unknown attackers exploited the vulnerability to push a new version of <a href="https://github.com/elementary-data/elementary/pkgs/container/elementary">element-data</a>, a command-line interface that helps users monitor performance and anomalies in machine-learning systems. When run, the malicious package scoured systems for sensitive data, including user profiles, warehouse credentials, cloud provider keys, API tokens, and SSH keys, developers <a href="https://www.elementary-data.com/post/security-incident-report-malicious-release-of-elementary-oss-python-cli-v0-23-3">said</a>. The malicious version was tagged as 0.23.3 and was published to the developers’ Python Package Index and Docker image accounts. It was removed about 12 hours later, on Saturday. Elementary Cloud, the Elementary dbt package, and all other CLI versions weren't affected.</p>
-<h2>Assume compromise</h2>
-<p>“Users who installed 0.23.3, or who pulled and ran the affected Docker image, should assume that any credentials accessible to the environment where it ran may have been exposed,” the developers wrote.</p><p><a href="https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>32</slash:comments>
-                
-                
-                <media:content height="627" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/browser-security-threat-1152x627.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/browser-security-threat-500x500.jpg" width="500"/>
-</media:content>
-            </item>
-                    <item>
-                <title>Musk and Altman face off in trial that will determine OpenAI's future</title>
-                <link>https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Mon, 27 Apr 2026 20:45:18 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[generative ai]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[sam altman]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[xAI]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future/</guid>
-
-                                    <description>
-                        <![CDATA[Musk’s shifting stance on AI dangers may complicate trial over OpenAI’s mission.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A hotly anticipated trial starts this week, where Elon Musk will attempt to prove that OpenAI, under Sam Altman, has abandoned its mission to remain a nonprofit in order to ensure that artificial intelligence serves humanity, and not just billionaires.</p>
-<p>Many view the lawsuit as a grudge match between Musk—who left OpenAI after serving as an early major donor and advisor—and Altman—who currently runs OpenAI, despite <a href="https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/">insiders' allegedly growing distrust</a> in his commitment to the dominant AI firm's mission. But the lawsuit is about much more than a couple billionaires' big egos. The outcome could radically change the AI landscape, impacting how OpenAI runs and what resources the firm will have to uphold its mission.</p>
-<p>If Musk wins, OpenAI's hopes of growing a for-profit arm that can fund the nonprofit could be dashed. Additionally, Brockman and Altman could be dropped as officers, and Altman risks losing his seat on OpenAI's board.</p><p><a href="https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>88</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/elon-and-sam-are-bffs-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/elon-and-sam-are-bffs-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>OpenAI ends its exclusive partnership with Microsoft</title>
-                <link>https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/</link>
-                                    <comments>https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Mon, 27 Apr 2026 20:10:11 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[agreement]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[azure]]></category>
-		<category><![CDATA[bedrock]]></category>
-		<category><![CDATA[cloud]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[partnership]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/</guid>
-
-                                    <description>
-                        <![CDATA[Amended agreement clears the way for OpenAI models to run on Amazon Bedrock.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Since Microsoft <a href="https://www.hpcwire.com/2019/07/22/microsoft-investing-1b-in-openai-artificial-general-intelligence-rd/">invested $1 billion in OpenAI in 2019</a>, the exclusive partnership between the two firms has been one of the strongest and most consequential in the AI industry. Today, though, OpenAI and Microsoft <a href="https://openai.com/index/next-phase-of-microsoft-partnership/">jointly</a> <a href="https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/">announced</a> an amended agreement that will allow the company to go beyond Microsoft's Azure and "serve all its products to customers across any cloud provider."</p>
-<p>The announcement clarifies that Microsoft will continue to have a license for OpenAI's IP and models through 2032 and that Azure will remain the "primary cloud partner" for OpenAI during that time (should Microsoft continue to be able to honor that). But Microsoft's license "will now be non-exclusive," the announcement reads, letting OpenAI make its models available through other major cloud providers going forward.</p>
-<p>While OpenAI will continue to make the same 20 percent revenue share payments to Microsoft under the amended deal, that total payment will now be limited to an unspecified cap and is only guaranteed to run through 2030. Importantly, that revenue share is now "independent of OpenAI’s technology progress," an apparent reference to the infamous "AGI clause" in the original partnership that would have scrapped the exclusivity deal if and when OpenAI <a href="https://arstechnica.com/information-technology/2025/10/expert-panel-will-determine-agi-arrival-in-new-microsoft-openai-agreement/">achieved the hard-to-gauge benchmark of artificial general intelligence.</a></p><p><a href="https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>53</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-2153474326-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-2153474326-500x500.jpg" width="500"/>
-<media:credit>JASON REDMOND / Contributor | AFP</media:credit><media:text>OpenAI CEO Sam Altman (L) shakes hands with Microsoft Chief Technology Officer and Executive VP of Artificial Intelligence Kevin Scott during the Microsoft Build conference at the Seattle Convention Center Summit Building in Seattle, Washington on May 21, 2024.</media:text></media:content>
-            </item>
-                    <item>
-                <title>EU tells Google to open up AI on Android; Google says that's "unwarranted intervention"</title>
-                <link>https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/</link>
-                                    <comments>https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Mon, 27 Apr 2026 20:03:49 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[Digital Markets Act]]></category>
-		<category><![CDATA[europe]]></category>
-		<category><![CDATA[European Commision]]></category>
-		<category><![CDATA[google]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/</guid>
-
-                                    <description>
-                        <![CDATA[Gemini gets preferential treatment on Android, but maybe not for long (in Europe). ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>In January, the European Commission began an initial investigation, known as a specification proceeding, into how Google has implemented AI in the Android operating system. The results are in, and the EU says Android needs to be more open, which is not surprising. Meanwhile, Google says this amounts to "unwarranted intervention," which is equally unsurprising. Regardless of Google's characterization of the investigation, the commission may force Google to make Android AI changes this summer.</p>
-<p>This action stems from the continent's Digital Markets Act (DMA), a sweeping law that designates seven dominant technology companies as "gatekeepers" that are <a href="https://arstechnica.com/tech-policy/2024/03/apple-google-and-meta-are-failing-dma-compliance-eu-suspects/">subject to greater regulation</a> to ensure fair competition. Google has consistently spoken against the regulations imposed under the DMA, but it and the other gatekeepers have been subject to the law for several years now, and there's little chance the commission backs away from it.</p>
-<p>The issue before the commission currently is the built-in advantage for Gemini on Android. When you turn on any Google-powered Android phone, Gemini is already there and gets special treatment at the system level. The European Commission is taking aim at the lack of features available to third-party AI services. The commission believes that there are too many experiences on Android that only work with Google's Gemini AI, and as a gatekeeper, Google must change that.</p><p><a href="https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>51</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-IO-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-IO-500x500-1749567268.jpg" width="500"/>
-<media:credit>Ryan Whitwam</media:credit></media:content>
             </item>
             </channel>
 </rss>
