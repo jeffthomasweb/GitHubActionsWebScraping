@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Mon, 04 May 2026 13:23:22 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 04 May 2026 21:59:30 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,284 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>"Notepad++ for Mac" release is disavowed by the creator of the original</title>
+                <link>https://arstechnica.com/gadgets/2026/05/unofficial-vibe-coded-notepad-for-mac-draws-objections-from-original-author/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/05/unofficial-vibe-coded-notepad-for-mac-draws-objections-from-original-author/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Mon, 04 May 2026 21:38:37 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Anthropic Claude]]></category>
+		<category><![CDATA[MacOS]]></category>
+		<category><![CDATA[notepad]]></category>
+		<category><![CDATA[vibe coding]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/05/unofficial-vibe-coded-notepad-for-mac-draws-objections-from-original-author/</guid>
+
+                                    <description>
+                        <![CDATA["To be clear: Notepad++ has never released a macOS version."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As its name implies, the venerable <a href="https://notepad-plus-plus.org/">Notepad++ text editor</a> began as a more capable version of the classic Windows Notepad, with features such as line numbering and syntax highlighting. It was created in 2003 by Don Ho, who continues to be its primary author and maintainer, and it has been <a href="https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/SUPPORTED_SYSTEM.md">a Windows-exclusive app</a> throughout its existence (older Notepad++ versions support OSes as old as Windows 95; the current version officially supports everything going back to Windows 7).</p>
+<p>I'm not a devoted user of the app, but I was aware of its history, which is why I was surprised to see news of a "Notepad++ for Mac" port <a href="https://web.archive.org/web/20260429083840/https://www.macrumors.com/2026/04/29/notepad-plus-plus-editor-comes-to-mac/">making the rounds last week</a>, as though it were a port of the original available from the Notepad++ website.</p>
+<p>Apparently, this news surprised Ho as well, who <a href="https://notepad-plus-plus.org/news/npp-trademark-infringement/">claims</a> that the Mac version and its author, <a href="https://aletik.me/about/">Andrey Letov</a>, are "using <a href="https://data.inpi.fr/marques/FR5133202#">the Notepad++ trademark</a> (the name) without permission."</p><p><a href="https://arstechnica.com/gadgets/2026/05/unofficial-vibe-coded-notepad-for-mac-draws-objections-from-original-author/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/05/unofficial-vibe-coded-notepad-for-mac-draws-objections-from-original-author/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>24</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-4.50.42-PM-1152x648-1777928517.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-4.50.42-PM-500x500-1777928501.png" width="500"/>
+<media:credit>NextPad++</media:credit><media:text>Despite the icon and some reporting, "Notepad++ for Mac" is not an official port of the original.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Canadian election databases use "canary traps"—and they work</title>
+                <link>https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Nate Anderson]]>
+                </dc:creator>
+                <pubDate>Mon, 04 May 2026 19:45:57 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[canary trap]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[elections]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/</guid>
+
+                                    <description>
+                        <![CDATA[Intentional errors can be useful.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In a world awash in high-tech security tools like passkeys, quantum-safe algorithms, and public-key cryptography, it can be refreshing to get back to the simple things... like a good old-fashioned canary trap.</p>
+<p>The canary trap is a simple tool often used to identify leakers or double agents. To make one, you simply share a document, image, or database but make tiny changes that are unique to each recipient. That way, if those changes show up verbatim in any leak of the information, you know immediately which recipient was behind the leak.</p>
+<p>You don't often see canary traps in the news, though they have long been a staple of spy fiction (and practice), so an <a href="https://www.cbc.ca/news/canada/edmonton/elections-alberta-electors-database-9.7182667">account out of Canada</a> last week caught my eye.</p><p><a href="https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>82</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-626440930-1152x648-1777922464.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-626440930-500x500-1777922481.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Influential study touting ChatGPT in education retracted over red flags</title>
+                <link>https://arstechnica.com/ai/2026/05/influential-study-touting-chatgpt-in-education-retracted-over-red-flags/</link>
+                                    <comments>https://arstechnica.com/ai/2026/05/influential-study-touting-chatgpt-in-education-retracted-over-red-flags/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Mon, 04 May 2026 19:03:39 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AI education]]></category>
+		<category><![CDATA[AI in education]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[education]]></category>
+		<category><![CDATA[students]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/05/influential-study-touting-chatgpt-in-education-retracted-over-red-flags/</guid>
+
+                                    <description>
+                        <![CDATA[The retracted study on ChatGPT in education was already cited hundreds of times.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A study that claimed OpenAI’s ChatGPT can positively impact student learning has been <a href="https://www.nature.com/articles/s41599-026-07310-z">retracted</a> nearly one year after publication. The journal publisher, Springer Nature, cited “discrepancies” in the analysis and a lack of confidence in the conclusions—but not before the paper racked up hundreds of citations and made the rounds on social media.</p>
+<p>“The paper's authors made some very attention-grabbing claims about the benefits of ChatGPT on learning outcomes,” said <a href="https://edwebprofiles.ed.ac.uk/profile/ben-williamson">Ben Williamson</a>, a senior lecturer at the Centre for Research in Digital Education and the Edinburgh Futures Institute at the University of Edinburgh in Scotland, in an email to Ars. “It was treated by many on social media as one of the first pieces of hard, gold standard evidence that ChatGPT, and generative AI more broadly, benefits learners.”</p>
+<p>The <a href="https://www.nature.com/articles/s41599-025-04787-y">retracted paper</a> attempted to quantify “the effect of ChatGPT on students’ learning performance, learning perception, and higher-order thinking” by analyzing results from 51 previous research studies. Its meta-analysis calculated the effect size between various studies’ experimental groups that used ChatGPT in education and control groups that did not use the AI chatbot.</p><p><a href="https://arstechnica.com/ai/2026/05/influential-study-touting-chatgpt-in-education-retracted-over-red-flags/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/05/influential-study-touting-chatgpt-in-education-retracted-over-red-flags/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>39</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2235760397-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2235760397-500x500.jpg" width="500"/>
+<media:credit>Malte Mueller | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>GameStop offers $56 billion for eBay, struggles to explain how it'll pay for it</title>
+                <link>https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Mon, 04 May 2026 17:57:46 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[eBay]]></category>
+		<category><![CDATA[Gamestop]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/</guid>
+
+                                    <description>
+                        <![CDATA[Amid falling revenue and store closures, GameStop wants to buy the much larger eBay.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>GameStop yesterday made an unsolicited offer to buy eBay for $55.5 billion. GameStop claims that eBay has underperformed and spends too much on sales and marketing and argues that it would become a stronger company if it cuts costs and is combined with GameStop's physical retail locations.</p>
+<p>"GameStop’s ~1,600 US locations give eBay a national network for authentication, intake, fulfillment, and live commerce," GameStop Chairman and CEO Ryan Cohen wrote in a <a href="https://s205.q4cdn.com/272884106/files/doc_downloads/2026/05/Offer-Letter.pdf">letter</a> to eBay Chairman Paul Pressler.</p>
+<p>eBay's market capitalization is over four times larger than GameStop's. GameStop faces skepticism about the viability of its offer but says it will obtain debt financing and pay with a mix of cash and stock.</p><p><a href="https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>101</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/gamestop-store-1152x648-1777915631.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/gamestop-store-500x500-1777915641.jpg" width="500"/>
+<media:credit>Getty Images | Jeff Greenberg </media:credit><media:text>A GameStop store at Aventura Mall in Miami, Florida, in September 2025. The store has since been closed.</media:text></media:content>
+            </item>
+                    <item>
+                <title>F1 in Miami: That's what it looks like when an upgrade works</title>
+                <link>https://arstechnica.com/cars/2026/05/f1-in-miami-thats-what-it-looks-like-when-an-upgrade-works/</link>
+                                    <comments>https://arstechnica.com/cars/2026/05/f1-in-miami-thats-what-it-looks-like-when-an-upgrade-works/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Mon, 04 May 2026 17:47:05 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Formula 1]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/05/f1-in-miami-thats-what-it-looks-like-when-an-upgrade-works/</guid>
+
+                                    <description>
+                        <![CDATA[2026's Formula 1 championship now looks far from a foregone thing.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>After an unanticipated five-week break in the season, Formula One resumed action this past weekend in Miami. Held at a temporary circuit around Hard Rock Stadium, the event is emblematic of the <a href="https://arstechnica.com/cars/2016/09/formula-1-to-be-bought-by-us-based-liberty-media-group/">Liberty</a> era of F1: a turbocharged marketing extravaganza crammed full of hospitality suites with ticket prices as high as <a href="https://www.nytimes.com/athletic/7247994/2026/05/02/miami-gp-yacht-club-tickets-f1/">$95,000</a>. It might be miles from the sea—the original plans to race across a bridge over Biscayne Bay <a href="https://www.racefans.net/2022/05/03/the-evolution-of-miamis-f1-track-seven-layouts-which-led-to-its-final-design/">did not survive contact</a> with locals—but the sport is doing its best to make this a modern Monaco, playing up the host city's glamorous reputation and pastel color palette.</p>
+<p><a href="https://arstechnica.com/cars/2026/04/f1-new-hybrid-rules-will-come-into-effect-at-the-miami-grand-prix-in-may/">As we learned a couple of weeks ago</a>, there have been tweaks to the amount of energy that the cars' new hybrid power units can regenerate and deploy via the electric motor that contributes almost half of the car's power output. The first three races of this season were <a href="https://arstechnica.com/cars/2026/03/2026-australian-grand-prix-formula-1-debuts-a-new-style-of-racing/">frenetic</a>, but they <a href="https://arstechnica.com/cars/2026/03/f1-in-china-ive-never-seen-so-many-people-in-those-grandstands/">alarmed</a> many longtime fans, as the cars are now <a href="https://arstechnica.com/cars/2026/03/f1-in-japan-oh-no-what-have-they-done-to-all-the-fast-corners/">too energy-limited</a> to be driven flat-out during qualifying; that energy limitation also led to cars swapping positions multiple times, derisively dubbed "yo-yo" racing by critics.</p>
+<p>The new limits on harvesting energy from the V6 to charge the battery on the move should reduce the potential for huge speed differentials like the one that caused Oliver Bearman's crash in Japan, and energy management was (thankfully) not much of a topic this weekend. Miami's layout definitely helps there, with plenty of braking zones to help regenerate much of the now-allowed 7 MJ each lap.</p><p><a href="https://arstechnica.com/cars/2026/05/f1-in-miami-thats-what-it-looks-like-when-an-upgrade-works/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/05/f1-in-miami-thats-what-it-looks-like-when-an-upgrade-works/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>29</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2274048573-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2274048573-500x500.jpg" width="500"/>
+<media:credit>Mark Thompson/Getty Images</media:credit><media:text>Lewis Hamilton goes by in a blur.</media:text></media:content>
+            </item>
+                    <item>
+                <title>AMD is adding HDMI 2.1 support for Linux. That's good news for the Steam Machine.</title>
+                <link>https://arstechnica.com/gaming/2026/05/amd-is-adding-hdmi-2-1-support-for-linux-thats-good-news-for-the-steam-machine/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/05/amd-is-adding-hdmi-2-1-support-for-linux-thats-good-news-for-the-steam-machine/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Mon, 04 May 2026 16:26:49 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[AMD]]></category>
+		<category><![CDATA[HDMI]]></category>
+		<category><![CDATA[hdmi 2.1]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[steam machine]]></category>
+		<category><![CDATA[Valve]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/05/amd-is-adding-hdmi-2-1-support-for-linux-thats-good-news-for-the-steam-machine/</guid>
+
+                                    <description>
+                        <![CDATA[Fixed Rate Link being added now; Display Stream Compression coming soon.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Last year, we noted how the long-standing vagaries of <a href="https://arstechnica.com/gadgets/2024/02/hdmi-forum-to-amd-no-you-cant-make-an-open-source-hdmi-2-1-driver/">HDMI licensing and open source AMD driver development</a> combined to prevent the upcoming <a href="https://arstechnica.com/gaming/2025/12/why-wont-steam-machine-support-hdmi-2-1-digging-in-on-the-display-standard-drama/">Steam Machine from receiving official support for the HDMI 2.1 display standard</a>. Now, though, it seems that AMD is making real progress on adding full HDMI 2.1 compliance to its Linux amdgpu driver in the near future.</p>
+<p>In patch series notes for an amdgpu driver update <a href="https://lore.kernel.org/amd-gfx/20260501140441.41068-1-harry.wentland@amd.com/">posted on Friday</a> (and <a href="https://www.phoronix.com/news/AMDGPU-HDMI-2.1-FRL-Patches">noticed by Phoronix</a>), AMD's Harry Wentland says that the company is finally adding HDMI FRL (Fixed Rate Link) support to the popular Linux display driver. That's the feature that <a href="https://www.avproglobal.com/pages/murideo-brand-frl-data-rate-chart">allows for higher bandwidth on compatible HDMI cables</a> compared to the TMDS standard found on HDMI 2.0 and earlier. That in turn enables direct support for higher resolutions, dynamic HDR, and features like Variable Refresh Rate that aren't supported in HDMI 2.0.</p>
+<p>Wentland notes that this update is still just "a representative subset of HDMI compliance," in part because it is missing the code to support the <a href="https://www.cablematters.com/Blog/DisplayPort/what-is-display-stream-compression">Display Stream Compression</a> (DSC) that allows for even higher resolutions and frame rates up to 10K at 100 Hz. But Wentland adds that DSC support "is still being tested and will be sent out later," and that "a full compliance run" for HDMI 2.1 is "in the works." An AMD driver developer with the handle agd5f also <a href="https://www.phoronix.com/forums/forum/phoronix/latest-phoronix-articles/1631149-amd-posts-hdmi-2-1-frl-patches-for-their-amdgpu-linux-driver?p=1631154#post1631154">commented on Phoronix</a>, noting that "a full implementation [of HDMI 2.1] will ultimately be available once the patches are ready and have completed compliance testing."</p><p><a href="https://arstechnica.com/gaming/2026/05/amd-is-adding-hdmi-2-1-support-for-linux-thats-good-news-for-the-steam-machine/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/05/amd-is-adding-hdmi-2-1-support-for-linux-thats-good-news-for-the-steam-machine/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>48</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/valve-steam-machine-desktop-1-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/valve-steam-machine-desktop-1-500x500.jpeg" width="500"/>
+<media:credit>Valve</media:credit><media:text>Valve's upcoming Linux-based hardware may be able to support HDMI 2.1 after all.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Musk’s “World War III” threat in Twitter lawsuit haunts him at OpenAI trial</title>
+                <link>https://arstechnica.com/tech-policy/2026/05/musks-world-war-iii-threat-in-twitter-lawsuit-haunts-him-at-openai-trial/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/05/musks-world-war-iii-threat-in-twitter-lawsuit-haunts-him-at-openai-trial/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Mon, 04 May 2026 15:05:58 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[agi]]></category>
+		<category><![CDATA[artificial general intelligence]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[greg brockman]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[X]]></category>
+		<category><![CDATA[xAI]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/05/musks-world-war-iii-threat-in-twitter-lawsuit-haunts-him-at-openai-trial/</guid>
+
+                                    <description>
+                        <![CDATA[OpenAI accuses Musk of trying to "coerce" a settlement days before trial started.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Just days before the trial started, Elon Musk tried to settle his lawsuit, which alleges that under Sam Altman's direction, OpenAI abandoned its mission to serve as a nonprofit making AI to benefit humanity.</p>
+<p>According to a Sunday <a href="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Musk-v-Altman-Application-to-Introduce-Evidence-of-Pretrial-Communication-5-3-26.pdf">court filing</a> from OpenAI, Musk messaged OpenAI President Greg Brockman two days ahead of the trial to "gauge interest" in a possible settlement. Brockman promptly responded, suggesting that "both sides" drop their claims. But Musk refused, then appeared to grow threatening enough that the court may allow Brockman to testify on the message as evidence supposedly revealing Musk's true motives for pursuing the litigation.</p>
+<p>"By the end of this week, you and Sam will be the most hated men in America," Musk responded to Brockman's suggestion that all claims be dropped. "If you insist, so it will be."</p><p><a href="https://arstechnica.com/tech-policy/2026/05/musks-world-war-iii-threat-in-twitter-lawsuit-haunts-him-at-openai-trial/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/05/musks-world-war-iii-threat-in-twitter-lawsuit-haunts-him-at-openai-trial/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>77</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2273259145-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2273259145-500x500.jpg" width="500"/>
+<media:credit>JOSH EDELSON / Contributor | AFP</media:credit><media:text>An Elon Musk sign sits in a bush at the federal courthouse during proceedings in the trial over Elon Musk's lawsuit against OpenAI.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Mac mini starting price goes up to $799, may be hard to get for "months"</title>
+                <link>https://arstechnica.com/gadgets/2026/05/apple-may-take-several-months-to-catch-up-to-mac-mini-and-studio-demand/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/05/apple-may-take-several-months-to-catch-up-to-mac-mini-and-studio-demand/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Mon, 04 May 2026 14:55:48 +0000</pubDate>
+                		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Apple silicon]]></category>
+		<category><![CDATA[Mac mini]]></category>
+		<category><![CDATA[Mac Studio]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/05/apple-may-take-several-months-to-catch-up-to-mac-mini-and-studio-demand/</guid>
+
+                                    <description>
+                        <![CDATA[Chip shortages and demand from AI enthusiasts are both playing a part.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Apple's Mac mini and Mac Studio desktops have been <a href="https://arstechnica.com/gadgets/2026/04/apples-m4-mac-mini-including-the-599-one-is-gradually-becoming-impossible-to-buy/">increasingly difficult to buy</a> over the course of the year—multiple configurations are listed on Apple's site as "currently unavailable," which almost never happens, and others will take weeks or months to ship if you order them today. A top-end version of the Mac Studio with 512GB of RAM was <a href="https://arstechnica.com/gadgets/2026/03/apples-512gb-mac-studio-vanishes-a-quiet-acknowledgement-of-the-ram-shortage/">delisted from Apple's store entirely</a>.</p>
+<p>Now, the $599 entry-level Mac mini has also been removed from Apple's store. The cheapest Mac mini you can currently order from Apple costs $799, which gets you an M4 chip, 16GB of RAM, and 512GB of storage.</p>
+<p class="p1">This isn’t technically a price hike; Apple has charged the same amount for these specs since launching the M4 Mac mini in late 2024. But now that the basic model with 256GB of storage has apparently been discontinued, it’s no longer possible to buy a Mac mini for its original $599 starting price unless you can find stock left over at some third-party retailer somewhere.</p><p><a href="https://arstechnica.com/gadgets/2026/05/apple-may-take-several-months-to-catch-up-to-mac-mini-and-studio-demand/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/05/apple-may-take-several-months-to-catch-up-to-mac-mini-and-studio-demand/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>143</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/IMG_0159-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/IMG_0159-500x500.jpeg" width="500"/>
+<media:credit>Andrew Cunningham</media:credit><media:text>Apple's Mac Studio and Mac mini are hard to buy now, and Tim Cook says they may stay that way for months.</media:text></media:content>
+            </item>
+                    <item>
                 <title>Trump administration cites national security in stalling 165 wind farms</title>
                 <link>https://arstechnica.com/science/2026/05/trump-administration-cites-national-security-in-stalling-165-wind-farms/</link>
                                     <comments>https://arstechnica.com/science/2026/05/trump-administration-cites-national-security-in-stalling-165-wind-farms/#comments</comments>
@@ -32,6 +310,7 @@
 		<category><![CDATA[offshore wind]]></category>
 		<category><![CDATA[renewable energy]]></category>
 		<category><![CDATA[renewables]]></category>
+		<category><![CDATA[syndication]]></category>
                 <guid isPermaLink="true">https://arstechnica.com/science/2026/05/trump-administration-cites-national-security-in-stalling-165-wind-farms/</guid>
 
                                     <description>
@@ -39,13 +318,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>The Trump administration has brought US onshore wind development to a halt citing national security concerns, representing a major escalation in the president’s crusade against renewable energy.</p>
-<p>Approvals for about 165 onshore wind projects on private lands are being stalled by the Department of Defense, including wind farms which were awaiting final sign-off, others in the middle of negotiations and some that typically would not require oversight by the department, according to the American Clean Power Association (ACP) and people close to the matter.</p>
-<p>Wind farms require routine approval from the defence department to ensure they do not interfere with radar systems. This typically involves the level of risk being assessed and the developer paying an agreed sum for the army to update its radar filter system so it can locate the windmill. Some projects can be deemed not to pose a risk due to their distance from army facilities and flight paths. Normally these assessments can take as little as a few days to complete.</p><p><a href="https://arstechnica.com/science/2026/05/trump-administration-cites-national-security-in-stalling-165-wind-farms/">Read full article</a></p>
+<p>Approvals for about 165 onshore wind projects on private lands are being stalled by the Department of Defense, including wind farms that were awaiting final sign-off, others in the middle of negotiations, and some that typically would not require oversight by the department, according to the American Clean Power Association (ACP) and people close to the matter.</p>
+<p>Wind farms require routine approval from the Defense Department to ensure they do not interfere with radar systems. This typically involves the level of risk being assessed and the developer paying an agreed sum for the army to update its radar filter system so it can locate the windmill. Some projects can be deemed not to pose a risk due to their distance from army facilities and flight paths. Normally these assessments can take as little as a few days to complete.</p><p><a href="https://arstechnica.com/science/2026/05/trump-administration-cites-national-security-in-stalling-165-wind-farms/">Read full article</a></p>
 <p><a href="https://arstechnica.com/science/2026/05/trump-administration-cites-national-security-in-stalling-165-wind-farms/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>7</slash:comments>
+                                    <slash:comments>187</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/03/4991007667_eeca19cf67_b.jpg">
@@ -70,13 +349,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>Violin makers, aka luthiers, traditionally learn from hands-on experience how to craft parts and select materials to shape an instrument's final sound. MIT engineers hope to streamline that painstaking process with their new virtual violin. It's a computer simulation tool that can capture the precise physics of the instrument and even reproduce a realistic sound of a plucked string, according to <a href="https://www.nature.com/articles/s44384-026-00049-6">a paper</a> published in the journal npj Acoustics.</p>
-<p>Unlike the more common software programs and plugins that simulate violin sounds via sampling, averaging the final sound based on thousands of notes, the MIT model is based on the fundamental physics of the instrument. “We’re not saying that we can reproduce the artisan’s magic,” <a href="https://news.mit.edu/2026/mit-engineers-virtual-violin-produces-realistic-sounds-0429">said co-author Nicholas Makris</a>. “We’re just trying to understand the physics of violin sound, and perhaps help luthiers in the design process.”</p>
+<p>Unlike more common software programs and plugins that simulate violin sounds via sampling, averaging the final sound from thousands of notes, the MIT model is based on the fundamental physics of the instrument. “We’re not saying that we can reproduce the artisan’s magic,” <a href="https://news.mit.edu/2026/mit-engineers-virtual-violin-produces-realistic-sounds-0429">said co-author Nicholas Makris</a>. “We’re just trying to understand the physics of violin sound, and perhaps help luthiers in the design process.”</p>
 <p>Violin acoustics has long been a hot topic of research among acousticians, particularly when it comes to <a href="https://www.scientificamerican.com/blog/cocktail-party-physics/anatomy-of-a-stradivarius/">unlocking the secret</a> to the superior sounds of violins crafted during the so-called "Golden Age"—notably <a href="https://en.wikipedia.org/wiki/Stradivarius">the instruments</a> of famed Cremona luthier <a href="https://en.wikipedia.org/wiki/Antonio_Stradivari">Antonio Stradivari</a>, as well as those of the <a href="https://en.wikipedia.org/wiki/Amati">Amati family</a> and <a href="https://en.wikipedia.org/wiki/Giuseppe_Guarneri">Giuseppe Guarneri</a>. There are plenty of variables to consider, given a violin's acoustic complexity.</p><p><a href="https://arstechnica.com/science/2026/05/mits-virtual-violin-offers-luthiers-a-new-design-tool/">Read full article</a></p>
 <p><a href="https://arstechnica.com/science/2026/05/mits-virtual-violin-offers-luthiers-a-new-design-tool/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>2</slash:comments>
+                                    <slash:comments>27</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/09/stradTOP-1152x648-1777837031.jpg" width="1152">
@@ -111,7 +390,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>43</slash:comments>
+                                    <slash:comments>157</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/Official-Launch-1-1152x648-1777295784.jpg" width="1152">
@@ -155,7 +434,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>60</slash:comments>
+                                    <slash:comments>65</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/dolphin1-1152x648.jpg" width="1152">
@@ -189,7 +468,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>181</slash:comments>
+                                    <slash:comments>200</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-1472054212-1152x648.jpg" width="1152">
@@ -226,7 +505,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>59</slash:comments>
+                                    <slash:comments>72</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-1338190481-1152x648.jpg" width="1152">
@@ -263,7 +542,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>121</slash:comments>
+                                    <slash:comments>141</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/press_oled_orb-1-1152x648.jpeg" width="1152">
@@ -296,7 +575,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>124</slash:comments>
+                                    <slash:comments>137</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2163390042-1152x648.jpg" width="1152">
@@ -331,7 +610,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>74</slash:comments>
+                                    <slash:comments>75</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/11/error-503-1000x648.jpg" width="1000">
@@ -363,7 +642,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>72</slash:comments>
+                                    <slash:comments>76</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/us-capitol-1152x648-1777657457.jpg" width="1152">
@@ -402,7 +681,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>82</slash:comments>
+                                    <slash:comments>83</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-1211553945-1152x648.jpg" width="1152">
@@ -440,288 +719,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>124</slash:comments>
+                                    <slash:comments>125</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2264958756-1024x648.jpg" width="1024">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2264958756-500x500.jpg" width="500"/>
 <media:credit>Christopher Pike/Getty Images</media:credit><media:text>Smoke rises after an explosion in the industrial zone, caused by debris after interception of a drone by air defense, according to the Fujairah media office on March 5, 2026, in Fujairah, United Arab Emirates.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Scorpions go terminator mode and reinforce their weapons with metal</title>
-                <link>https://arstechnica.com/science/2026/05/scorpions-go-terminator-mode-and-reinforce-their-weapons-with-metal/</link>
-                                    <comments>https://arstechnica.com/science/2026/05/scorpions-go-terminator-mode-and-reinforce-their-weapons-with-metal/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jacek Krywko]]>
-                </dc:creator>
-                <pubDate>Fri, 01 May 2026 16:24:45 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[Biomechanics]]></category>
-		<category><![CDATA[biomineralization]]></category>
-		<category><![CDATA[metals]]></category>
-		<category><![CDATA[scorpions]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/05/scorpions-go-terminator-mode-and-reinforce-their-weapons-with-metal/</guid>
-
-                                    <description>
-                        <![CDATA[Different hunting patterns seem to dictate different distributions of metal.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Scorpions are armed with dual front pincers (technically known as chelae or pedipalp appendages) and a venom-injecting telson, or stinger, on the posterior of their tail. These things look dangerous enough on their own, but a chemical examination showed they contain metals like zinc, manganese, and iron.</p>
-<p>“That the metals are there has been known since the 1990s,” said Sam Campbell, a biologist at the University of Queensland, Australia. “What we didn’t know was whether scorpions evolved to be like that or if it was accidental and they were just picking the metals up from the environment.”</p>
-<p>To answer this question, Campbell and his colleagues examined how metals are distributed across the stingers and pincers of different scorpion species. Based on their data, detailed in a recent study published in the Journal of The Royal Society Interface, there was nothing accidental about it.</p><p><a href="https://arstechnica.com/science/2026/05/scorpions-go-terminator-mode-and-reinforce-their-weapons-with-metal/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/05/scorpions-go-terminator-mode-and-reinforce-their-weapons-with-metal/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>63</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-998526802-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-998526802-500x500.jpg" width="500"/>
-<media:credit>Nimit Virdi</media:credit></media:content>
-            </item>
-                    <item>
-                <title>GPT-5.5 matches heavily hyped Mythos Preview in new cybersecurity tests</title>
-                <link>https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good/</link>
-                                    <comments>https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Fri, 01 May 2026 15:32:27 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[AISI]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[cybersecurity]]></category>
-		<category><![CDATA[GPT-5.5]]></category>
-		<category><![CDATA[Mythos]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[test]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good/</guid>
-
-                                    <description>
-                        <![CDATA[New results suggest Mythos' cyber threat isn't "a breakthrough specific to one model."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Last month, Anthropic <a href="https://red.anthropic.com/2026/mythos-preview/">made a big deal</a> about the supposedly outsize cybersecurity threat represented by its Mythos Preview model, leading the company to <a href="https://arstechnica.com/ai/2026/04/anthropic-limits-access-to-mythos-its-new-cybersecurity-ai-model/">restrict the initial release to “critical industry partners.”</a> But <a href="https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities">new research from the UK's AI Security Institute</a> (AISI) suggests that OpenAI's GPT-5.5, which <a href="https://openai.com/index/introducing-gpt-5-5/">launched publicly last week</a>, reached "a similar level of performance on our cyber evaluations" as Mythos Preview, which the group <a href="https://arstechnica.com/ai/2026/04/uk-govs-mythos-ai-tests-help-separate-cybersecurity-threat-from-hype/">evaluated last month</a>.</p>
-<p>Since 2023, the AISI has run a variety of frontier AI models through 95 different <a href="https://www.eccouncil.org/cybersecurity-exchange/ethical-hacking/capture-the-flag-ctf-cybersecurity/">Capture the Flag challenges</a> designed to test capabilities on cybersecurity tasks, such as reverse engineering, web exploitation, and cryptography. On the highest-level "Expert" tasks, GPT-5.5 passed an average of 71.4 percent, slightly higher than the 68.6 percent achieved by Mythos Preview (though within the margin of error). In one particularly difficult task that involved building a disassembler to decode a Rust binary, AISI notes that "GPT-5.5 solved the challenge in 10 minutes and 22 seconds with no human assistance at a cost of $1.73" in API calls.</p>
-<p>GPT-5.5 also matched Mythos Preview in its progress on <a href="https://arxiv.org/abs/2603.11214">"The Last Ones"</a> (TLO), an AISI test range set up to simulate a 32-step data extraction attack on a corporate network. GPT-5.5 succeeded in 3 of 10 attempts on TLO, compared to 2 of 10 for Mythos Preview—no previous model had ever succeeded at the test even once. But GPT-5.5 still fails at AISI's more difficult "Cooling Tower" simulation of an attempted disruption of the control software for a power plant, as every previously tested AI model also has.</p><p><a href="https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>107</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2234175849-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2234175849-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>An actual photo of GPT-5.5 performing AISI's cybersecurity tests.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Is your Purosangue SUV not sharp enough? Ferrari has you covered.</title>
-                <link>https://arstechnica.com/cars/2026/05/is-your-purosangue-suv-not-sharp-enough-ferrari-has-you-covered/</link>
-                                    <comments>https://arstechnica.com/cars/2026/05/is-your-purosangue-suv-not-sharp-enough-ferrari-has-you-covered/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Fri, 01 May 2026 15:23:38 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Ferrari Purosangue]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/05/is-your-purosangue-suv-not-sharp-enough-ferrari-has-you-covered/</guid>
-
-                                    <description>
-                        <![CDATA[We'll soon get to see the brand's first EV; first, a more honed V12 four-seater.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Did you know that SUVs now account for <a href="https://www.autonews.com/manufacturing/automakers/ane-bodytype-analysis-2020-2025-1219/">6 in 10</a> new vehicles sold in Europe? That's even higher than in the US or China, where market share for lifted hatchbacks currently runs at about 40 percent. So the fact that Ferrari decided to enter the segment with the Purosangue in 2023 should be seen clearly in that context. Anyway, Four-seat Ferraris aren't entirely unheard of: I remain a big fan of the looks of the shooting brake <a href="https://arstechnica.com/cars/2016/02/getting-to-know-the-ff-a-ferrari-you-can-drive-every-day/">FF</a> and GTC4Lusso—if not the <a href="https://arstechnica.com/cars/2018/07/the-gtc4lusso-t-is-a-ferrari-you-really-could-drive-every-day/">reliability of the latter</a>.</p>
-<p>But the test drivers in Maranello (where Ferrari's factory is) must have found something a little lacking with the way the Purosangue drove because they got to work on an upgrade for the SUV, which debuted this week. It's a new <em>Handling Speciale</em> option, featuring new active suspension calibration that better resists the body's roll, pitch, and yaw, something Ferrari says makes the Purosangue feel more compact than its 16.3 feet (4.9 m) might suggest. Expect Ferrari's always-quick steering to feel even sharper, then.</p>
-<p>The control strategies for the double-clutch paddle-shift gearbox have also been improved, cutting shift times at the expense of a bit of refinement. But then that's the point: If you want a soothing luxury SUV, many other companies will sell you one. Ferrari buyers want the feeling of the next gear engaging to be a little more brutal, particularly if they're in one of the more permissive traction and stability control settings (or if those are disengaged entirely). In manual mode, that happens when you shift above 5,500 rpm, Ferrari tells us.</p><p><a href="https://arstechnica.com/cars/2026/05/is-your-purosangue-suv-not-sharp-enough-ferrari-has-you-covered/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/05/is-your-purosangue-suv-not-sharp-enough-ferrari-has-you-covered/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>43</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Ferrari_Purosangue_HS_04-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Ferrari_Purosangue_HS_04-500x500.jpg" width="500"/>
-<media:credit>Ferrari</media:credit><media:text>The Purosangue now corners even better.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Virgin Galactic reveals new ship, but it's running out of time and cash</title>
-                <link>https://arstechnica.com/space/2026/05/the-suborbital-space-tourism-industry-is-on-life-support/</link>
-                                    <comments>https://arstechnica.com/space/2026/05/the-suborbital-space-tourism-industry-is-on-life-support/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Fri, 01 May 2026 14:42:45 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[blue origin]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[suborbital space tourism]]></category>
-		<category><![CDATA[Virgin Galactic]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/05/the-suborbital-space-tourism-industry-is-on-life-support/</guid>
-
-                                    <description>
-                        <![CDATA[It's not clear whether Virgin Galactic has the cash reserves to fund a prolonged test phase.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>On Thursday, the publicly traded spaceflight company Virgin Galactic <a href="https://x.com/virgingalactic/status/2049804151220322306">shared on social media</a> a new photo of its next-generation spaceship being towed outside of its factory in Mesa, Arizona.</p>
-<p>You remember Virgin Galactic, right? The space tourism company was founded 22 years ago by Sir Richard Branson to bring spaceflight to the masses. Hundreds of people began buying tickets to space nearly two decades ago. And after a long, and at times deadly, development campaign, the company reached outer space (defined, <a href="https://arstechnica.com/science/2018/12/virgin-galactic-just-flew-to-82-68-kilometers-is-this-space/">somewhat controversially</a>, as an altitude of 80 km and above) in December 2018.</p>
-<p>The company began flying passengers in May 2021 with its VSS <em>Unity</em> spacecraft, and impressively completed six spaceflights in 2023. But a few months later, <a href="https://arstechnica.com/space/2024/06/virgin-galactic-has-ceased-flying-its-only-space-plane-now-what/">in June 2024</a>, Virgin Galactic stopped flying VSS<em> Unity</em> to focus on the development of its next-generation vehicle capable of more frequent, lower-cost spaceflights.</p><p><a href="https://arstechnica.com/space/2026/05/the-suborbital-space-tourism-industry-is-on-life-support/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/05/the-suborbital-space-tourism-industry-is-on-life-support/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>96</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/HHJd9nqbYAAGbnb-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/HHJd9nqbYAAGbnb-500x500.jpg" width="500"/>
-<media:credit>Virgin Galactic</media:credit><media:text>Virgin Galactic says it has reached a new production milestone with its new spaceship.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Apple may take "several months" to catch up to Mac mini and Studio demand</title>
-                <link>https://arstechnica.com/gadgets/2026/05/apple-may-take-several-months-to-catch-up-to-mac-mini-and-studio-demand/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/05/apple-may-take-several-months-to-catch-up-to-mac-mini-and-studio-demand/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Fri, 01 May 2026 14:10:48 +0000</pubDate>
-                		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[Apple silicon]]></category>
-		<category><![CDATA[Mac mini]]></category>
-		<category><![CDATA[Mac Studio]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/05/apple-may-take-several-months-to-catch-up-to-mac-mini-and-studio-demand/</guid>
-
-                                    <description>
-                        <![CDATA[Chip shortages and demand from AI enthusiasts are both playing a part.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Apple's Mac mini and Mac Studio desktops have been <a href="https://arstechnica.com/gadgets/2026/04/apples-m4-mac-mini-including-the-599-one-is-gradually-becoming-impossible-to-buy/">increasingly difficult to buy</a> over the course of the year—multiple configurations are listed on Apple's site as "currently unavailable," which almost never happens, and others will take weeks or months to ship if you order them today. A top-end version of the Mac Studio with 512GB of RAM was <a href="https://arstechnica.com/gadgets/2026/03/apples-512gb-mac-studio-vanishes-a-quiet-acknowledgement-of-the-ram-shortage/">delisted from Apple's store entirely</a>.</p>
-<p>Current Apple CEO Tim Cook addressed the situation on <a href="https://www.fool.com/earnings/call-transcripts/2026/04/30/apple-aapl-q2-2026-earnings-call-transcript/">Apple's Q2 earnings call yesterday</a> as part of a larger conversation about how Apple is navigating component shortages, and he partly blamed the shortage on the popularity of those desktops among users looking to run AI agents and other tools locally.</p>
-<p>"Both [the Mac mini and the Mac Studio] are amazing platforms for AI and agentic tools, and the customer recognition of that is happening faster than what we had predicted, and so we saw higher-than-expected demand," said Cook. "We think looking forward that the Mac mini and the Mac Studio may take several months to reach supply-demand balance."</p><p><a href="https://arstechnica.com/gadgets/2026/05/apple-may-take-several-months-to-catch-up-to-mac-mini-and-studio-demand/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/05/apple-may-take-several-months-to-catch-up-to-mac-mini-and-studio-demand/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>112</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/IMG_0159-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/IMG_0159-500x500.jpeg" width="500"/>
-<media:credit>Andrew Cunningham</media:credit><media:text>Apple's Mac Studio and Mac mini are hard to buy now, and Tim Cook says they may stay that way for months.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Women sue the men who used their Instagram feeds to create AI porn influencers</title>
-                <link>https://arstechnica.com/tech-policy/2026/05/women-sue-men-who-used-their-instagram-feed-to-create-ai-porn-influencers/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/05/women-sue-men-who-used-their-instagram-feed-to-create-ai-porn-influencers/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ej Dickson, wired.com]]>
-                </dc:creator>
-                <pubDate>Fri, 01 May 2026 13:26:34 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AI influencers]]></category>
-		<category><![CDATA[AI ModelForge]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/05/women-sue-men-who-used-their-instagram-feed-to-create-ai-porn-influencers/</guid>
-
-                                    <description>
-                        <![CDATA[AI ModelForge is a platform that teaches men how to generate their own AI influencers.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A little over a year ago, MG was leading the relatively normal life of a twentysomething in Scottsdale, Arizona. She worked as a personal assistant and supplemented her income by waiting tables on the weekends. Like most women her age, she had an <a href="https://www.wired.com/tag/instagram/">Instagram</a> account, where she’d occasionally post Stories and photos of herself getting matcha and hanging out by the pool with her friends, or going to Pilates.</p>
-<p>“I never really cared to pop off and become popular on social media,” says MG (who is cited only as MG in the lawsuit to protect her identity). “I just used it the way most people did when it first came out, to share their lives with the people closest to them.” She has a little more than 9,000 followers—a robust following, but nowhere close to a massive platform.</p>
-<p>Last summer, she received a DM from one of her followers. Did she know, the person asked her, that photos and videos of a woman who looked exactly like MG were circulating on Instagram? MG clicked the link and saw multiple Reels of what appeared to be her face superimposed onto a body that looked exactly like her own. The woman in the photo was scantily clad, with tattoos in the same places as MG.</p><p><a href="https://arstechnica.com/tech-policy/2026/05/women-sue-men-who-used-their-instagram-feed-to-create-ai-porn-influencers/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/05/women-sue-men-who-used-their-instagram-feed-to-create-ai-porn-influencers/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>103</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/woman-silhouette-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/woman-silhouette-500x500.jpg" width="500"/>
-<media:credit>Modroff via Getty</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Rocket Report: Falcon Heavy is back; Russia's Soyuz-5 finally debuts</title>
-                <link>https://arstechnica.com/space/2026/05/rocket-report-falcon-heavy-is-back-russias-soyuz-5-finally-debuts/</link>
-                                    <comments>https://arstechnica.com/space/2026/05/rocket-report-falcon-heavy-is-back-russias-soyuz-5-finally-debuts/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Fri, 01 May 2026 12:39:03 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[rocket report]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/05/rocket-report-falcon-heavy-is-back-russias-soyuz-5-finally-debuts/</guid>
-
-                                    <description>
-                        <![CDATA[Two launches this week delivered 61 more satellites to orbit for the Amazon Leo broadband network.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Welcome to Edition 8.39 of the Rocket Report! There's a lot of news to share in the universe of powerful rockets this week, and we're delighted to sum it up in this week's edition. The biggest rocket of them all, Starship, had a relatively quiet week as SpaceX aims to launch the vehicle's next test flight, perhaps sometime in May. The results of that flight and the outcome of Blue Origin's first attempt to land on the Moon with its Blue Moon cargo lander in the coming months should tell us a lot about NASA's actual chances of putting astronauts on the lunar surface in 2028.</p>
-<p>As always, we <a href="https://arstechnica.wufoo.com/forms/launch-stories/">welcome reader submissions</a>. If you don't want to miss an issue, please subscribe using the box below (the form will not appear on AMP-enabled versions of the site). Each report will include information on small-, medium-, and heavy-lift rockets, as well as a quick look ahead at the next three launches on the calendar.</p>
-<figure class="ars-img-shortcode id-1314289 align-center">
-    <div>
-                        <img decoding="async" width="560" height="81" src="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png" class="center full" alt="" srcset="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png 560w, https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll-300x43.png 300w" sizes="(max-width: 560px) 100vw, 560px">
-                  </div>
-      </figure>
-
-<p><b>These 12 companies are developing SBIs. </b>The US Space Force released a list on April 24 of a dozen companies working on Space-Based Interceptors for the Pentagon’s Golden Dome initiative, a multilayer defense system to shield US territory from drones and ballistic, hypersonic, and cruise missile attacks, <a href="https://arstechnica.com/space/2026/04/this-is-whos-developing-golden-domes-orbital-interceptors-if-theyre-ever-built/">Ars reports</a>. The roster of <a href="https://arstechnica.com/space/2026/01/trade-wars-muzzle-allied-talks-on-trumps-golden-dome-missile-shield/">Golden Dome</a> Space-Based Interceptor (SBI) contractors, some of which were previously reported, includes Anduril Industries, Booz Allen Hamilton, General Dynamics Mission Systems, GITAI USA, Lockheed Martin, Northrop Grumman, Quindar, Raytheon, Sci-Tec, SpaceX, True Anomaly, and Turion Space. The companies will contribute in different areas to develop and deliver SBI prototypes for testing. The agreements have a maximum combined value of $3.2 billion. Contracts for full-scale production will come later with a significantly higher price tag.</p><p><a href="https://arstechnica.com/space/2026/05/rocket-report-falcon-heavy-is-back-russias-soyuz-5-finally-debuts/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/05/rocket-report-falcon-heavy-is-back-russias-soyuz-5-finally-debuts/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>107</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/fh_viasat_streak-1152x648-1777603849.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/fh_viasat_streak-500x500.jpg" width="500"/>
-<media:credit>SpaceX</media:credit><media:text>This long exposure photo shows the triple exhaust plume from SpaceX's Falcon Heavy rocket as it streaked away from Launch Complex 39A at Kennedy Space Center, Florida, on April 29, 2026.</media:text></media:content>
-            </item>
-                    <item>
-                <title>There's a lot of hype about Chinese EVs—is any of it true?</title>
-                <link>https://arstechnica.com/cars/2026/05/theres-a-lot-of-hype-about-chinese-evs-is-any-of-it-true/</link>
-                                    <comments>https://arstechnica.com/cars/2026/05/theres-a-lot-of-hype-about-chinese-evs-is-any-of-it-true/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Fri, 01 May 2026 11:00:15 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Chinese EVs]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/05/theres-a-lot-of-hype-about-chinese-evs-is-any-of-it-true/</guid>
-
-                                    <description>
-                        <![CDATA[In addition to being full of screens, China now wants its cars to be packed with AI.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Beijing Auto Show is currently taking place in China, offering those of us behind the Trump tariff curtain a peek at what's increasingly being dubbed the world's most advanced car market. Chinese EVs leave everyone else in the dust, we're told, with infotainment that makes your smartphone look like a StarTac, range numbers that would make a turbodiesel Audi weep, and charging that might be even faster than filling up with gas, depending on the size of your tank.</p>
-<p>As an American, I mostly have to take someone else's word for that. If there's one thing Democratic politicians can agree on with Republicans, even now, it's that they don't want cars from Chinese automakers on US roads. Toward the end of his administration, President Joe Biden <a href="https://arstechnica.com/cars/2024/05/biden-set-to-levy-100-tariffs-on-chinese-evs-this-week/">levied a 100 percent tariff</a> on Chinese EVs. Under the Biden and then Trump administrations, Congress passed a law restricting <a href="https://arstechnica.com/cars/2025/10/us-demand-grows-for-chinese-cars-despite-privacy-and-security-fears/" target="_blank" rel="noopener">the sale of Chinese-linked connected car software</a> in the US. President Trump has <a href="https://arstechnica.com/tech-policy/2025/04/trump-boosts-china-tariffs-to-125-pauses-tariff-hikes-on-other-countries/">added further tariffs to Chinese imports</a>, making their cars even less competitive here. <a href="https://www.wsj.com/business/autos/house-lawmakers-urge-trump-to-prohibit-chinas-automakers-from-building-cars-in-the-u-s-a4b2fb8f">And just this week</a>, more than 70 Democratic representatives called for maintaining barriers to Chinese cars for both national security and economic reasons.</p>
-<p>This puts those elected officials increasingly out of step with popular sentiment on the Internet (I'm using the Ars comments and social media platform Bluesky as my bellwethers). From what I can see, there's strong appetite for those sweet, cheap Chinese electric vehicles. Headlines like <a href="https://www.reuters.com/business/autos-transportation/average-price-car-us-you-could-buy-5-new-chinese-evs-2026-04-28/">Reuters' claim</a> that "[f]or the average price of a car in the US, you could buy 5 new Chinese EVs" only reinforce that sentiment.</p><p><a href="https://arstechnica.com/cars/2026/05/theres-a-lot-of-hype-about-chinese-evs-is-any-of-it-true/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/05/theres-a-lot-of-hype-about-chinese-evs-is-any-of-it-true/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>460</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/image-3-1152x648.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/image-3-500x500.png" width="500"/>
-<media:credit>Wuling</media:credit><media:text>Are Chinese cars the best thing ever, or are we being spun a bit of a tale?</media:text></media:content>
             </item>
             </channel>
 </rss>
