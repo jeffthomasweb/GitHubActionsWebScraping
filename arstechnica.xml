@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Thu, 07 May 2026 13:51:50 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 07 May 2026 21:45:31 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,8 +19,176 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>DHS can’t create vast DNA database to track ICE critics, lawsuit says</title>
+                <link>https://arstechnica.com/tech-policy/2026/05/ice-protesters-sue-to-stop-dhs-from-seizing-dna-samples/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/05/ice-protesters-sue-to-stop-dhs-from-seizing-dna-samples/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Thu, 07 May 2026 21:35:01 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Department of Homeland Security]]></category>
+		<category><![CDATA[DHS]]></category>
+		<category><![CDATA[DNA]]></category>
+		<category><![CDATA[dna database]]></category>
+		<category><![CDATA[dna samples]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[immigration and customs enforcement]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/05/ice-protesters-sue-to-stop-dhs-from-seizing-dna-samples/</guid>
+
+                                    <description>
+                        <![CDATA[Lawsuit accuses DHS of plugging DNA database into ICE surveillance machine.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Four protesters are suing to stop the Department of Homeland Security (DHS) and the Federal Bureau of Investigation (FBI) from seizing DNA samples from Americans arrested while peacefully protesting Immigration and Customs Enforcement (ICE) activity.</p>
+<p>In a <a href="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Briggs-v-DHS-Complaint-5-6-26.pdf">complaint</a> filed in an Illinois district court on Wednesday, protesters arrested at the Broadview ICE facility during "Operation Midway Blitz"—when thousands of federal agents flooded Chicago—demanded an injunction to stop alleged violations of the First and Fourth Amendments, as well as the Administrative Procedure Act.</p>
+<p>They have accused the federal government of "wrongfully arresting peaceful protesters, collecting their DNA, uploading their genetic profiles to government databases, and storing their DNA samples in federal labs—permanently."</p><p><a href="https://arstechnica.com/tech-policy/2026/05/ice-protesters-sue-to-stop-dhs-from-seizing-dna-samples/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/05/ice-protesters-sue-to-stop-dhs-from-seizing-dna-samples/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>18</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2238676352-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2238676352-500x500-1778185068.jpg" width="500"/>
+<media:credit>Anadolu / Contributor | Anadolu</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Mozilla says 271 vulnerabilities found by Mythos have "almost no false positives"</title>
+                <link>https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 07 May 2026 19:18:16 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[firefox]]></category>
+		<category><![CDATA[Mythos]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/</guid>
+
+                                    <description>
+                        <![CDATA[The developer of Firefox says it has "completely bought in" on AI-assisted bug discovery.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The disbelief was palpable when Mozilla’s CTO last month declared that AI-assisted vulnerability detection meant “<a href="https://arstechnica.com/ai/2026/04/mozilla-anthropics-mythos-found-271-zero-day-vulnerabilities-in-firefox-150/">zero-days are numbered</a>” and “defenders finally have a chance to win, decisively.” After all, it looked like part of an all-too-familiar pattern: Cherry-pick a handful of impressive AI-achieved results, leave out any of the fine print that might paint a more nuanced picture, and let the hype train roll on.</p>
+<p>Mindful of the skepticism, Mozilla on Thursday provided a behind-the-scenes look into its use of Anthropic Mythos—an AI model for identifying software vulnerabilities—to ferret out 271 Firefox security flaws over two months. In a <a href="https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/">post</a>, Mozilla engineers said the finally ready-for-prime-time breakthrough they achieved was primarily the result of two things: (1) improvement in the models themselves and (2) Mozilla’s development of a custom “<a href="https://arxiv.org/abs/2603.28052">harness</a>” that supported Mythos as it analyzed Firefox source code.</p>
+<h2>"Almost no false positives"</h2>
+<p>The engineers said their earlier brushes with AI-assisted vulnerability detection were fraught with “unwanted slop.” Typically, someone would prompt a model to analyze a block of code. The model would then produce plausible-reading bug reports, and often at unprecedented scales. Invariably, however, when human developers further investigated, they’d find a large percentage of the details had been hallucinated. The humans would then need to invest significant work handling the vulnerability reports the old-fashioned way.</p><p><a href="https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>61</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2167753513-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2167753513-500x500-1773169243.jpg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>Meet your new open source coding team!</media:text></media:content>
+            </item>
+                    <item>
+                <title>Google unveils screenless Fitbit Air and Google Health app to replace Fitbit</title>
+                <link>https://arstechnica.com/gadgets/2026/05/google-unveils-screenless-fitbit-air-and-google-health-app-to-replace-fitbit/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/05/google-unveils-screenless-fitbit-air-and-google-health-app-to-replace-fitbit/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Thu, 07 May 2026 14:00:50 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[fitbit]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[wearables]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/05/google-unveils-screenless-fitbit-air-and-google-health-app-to-replace-fitbit/</guid>
+
+                                    <description>
+                        <![CDATA[The $100 Fitbit Air is available for preorder today.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Wearables have really come full circle. The early Fitbits didn't have screens, but the move to smartwatches put a screen on everyone's wrist. Now, devices like <a href="https://arstechnica.com/gadgets/2025/05/wearables-firms-endless-free-hardware-upgrades-were-too-good-to-be-true/">Whoop</a> and Hume are designed as data trackers first and foremost without so much as a clock. Google's newest wearable jumps on that trend: The Fitbit Air doesn't have a screen, but it does have a suite of health sensors that pipe data into the new Google Health app. And if you want, Google has a new AI-powered health coach in the app ready to tell you what that data means (maybe).</p>
+<p>The Fitbit Air itself is a small plastic puck about 1.4 inches long and 0.7 inches wide. It slots into various bands that hold the bottom-mounted sensors against your wrist. There's no display pointing upward, so the entire device is covered by the fabric or plastic of the band. It's a streamlined and potentially stylish look—in uncharacteristic fashion, Google has plenty of colors and style options available, including a special-edition Steph Curry version. You may have heard chatter about Curry being seen teasing a new screenless Fitbit, and this is it.</p>
+<figure>
+      <img decoding="async" width="1024" height="577" src="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Active-1024x577.png" class="ars-gallery-image" alt="" loading="lazy" aria-labelledby="caption-2153308" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Active-1024x577.png 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Active-640x361.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Active-768x432.png 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Active-1536x864.png 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Active-2048x1155.png 2048w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Active-384x216.png 384w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Active-1152x648.png 1152w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Active-980x553.png 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Active-1440x812.png 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
+      <figcaption>
+        <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      Active bands.
+
+              <span class="caption-credit mt-2 text-xs">
+          Credit:
+
+          
+          Google
+
+                  </span>
+          </div>
+  </div>
+      </figcaption>
+    </figure>
+      <figure>
+      <img decoding="async" width="1024" height="577" src="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Performace-1-1024x577.png" class="ars-gallery-image" alt="" loading="lazy" aria-labelledby="caption-2153312" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Performace-1-1024x577.png 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Performace-1-640x361.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Performace-1-768x432.png 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Performace-1-1536x864.png 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Performace-1-2048x1154.png 2048w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Performace-1-384x216.png 384w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Performace-1-1152x648.png 1152w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Performace-1-980x552.png 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Performace-1-1440x811.png 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
+      <figcaption>
+        <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      Performance Loop bands.
+
+              <span class="caption-credit mt-2 text-xs">
+          Credit:
+
+          
+          Google
+
+                  </span>
+          </div>
+  </div>
+      </figcaption>
+    </figure>
+      <figure>
+      <img decoding="async" width="1024" height="578" src="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Elevated-1-1024x578.png" class="ars-gallery-image" alt="" loading="lazy" aria-labelledby="caption-2153313" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Elevated-1-1024x578.png 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Elevated-1-640x361.png 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Elevated-1-768x433.png 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Elevated-1-1536x866.png 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Elevated-1-2048x1155.png 2048w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Elevated-1-384x216.png 384w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Elevated-1-980x553.png 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/Band_Elevated-1-1440x812.png 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
+      <figcaption>
+        <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      Elevated Modern bands.
+
+              <span class="caption-credit mt-2 text-xs">
+          Credit:
+
+          
+          Google
+
+                  </span>
+          </div>
+  </div>
+      </figcaption>
+    </figure>
+  
+<p>Smartwatches never quite became a must-have device—plenty of people have them, but we don't all wear them all the time because they need to be charged often and aren't always very comfortable. The screenless Fitbit Air doesn't have those issues. Google says it lasts about a week on a charge, and it does that while collecting continuous health data. It can even store a day of data without being connected to your phone.</p><p><a href="https://arstechnica.com/gadgets/2026/05/google-unveils-screenless-fitbit-air-and-google-health-app-to-replace-fitbit/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/05/google-unveils-screenless-fitbit-air-and-google-health-app-to-replace-fitbit/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>95</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Lavender-Lifestyle-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Lavender-Lifestyle-500x500.jpg" width="500"/>
+<media:credit>Google</media:credit><media:text>Fitbit Air with the lavender performance loop band. </media:text></media:content>
+            </item>
+                    <item>
                 <title>RIP social media. What comes next is messy.</title>
                 <link>https://arstechnica.com/science/2026/05/rip-social-media-what-comes-next-is-messy/</link>
+                                    <comments>https://arstechnica.com/science/2026/05/rip-social-media-what-comes-next-is-messy/#comments</comments>
                 
                 <dc:creator>
                     <![CDATA[Jennifer Ouellette]]>
@@ -44,6 +212,7 @@
 ]]>
                         </content:encoded>
                                     
+                                    <slash:comments>227</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-1372511250-1152x648.jpg" width="1152">
@@ -78,7 +247,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>10</slash:comments>
+                                    <slash:comments>80</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/12/getty-musk-1152x648.jpg" width="1152">
@@ -111,7 +280,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>14</slash:comments>
+                                    <slash:comments>45</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/MH10574__2_A3_RGB-1-1152x648.jpg" width="1152">
@@ -145,7 +314,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>7</slash:comments>
+                                    <slash:comments>21</slash:comments>
                 
                 
                 <media:content height="627" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/rendering-1-1152x627.png" width="1152">
@@ -176,12 +345,12 @@
                                                                 <content:encoded>
                             <![CDATA[<p>It is far too soon to mention retirement, but astute observers of the space industry have noticed SpaceX's workhorse Falcon 9 rocket is not launching as often as it used to.</p>
 <p>The decline is modest so far, and it does not signal any problem at SpaceX or with the Falcon 9. Rather, it is a manifestation of SpaceX's eagerness to shift focus to the much larger Starship rocket, an enabler of what the company wants to do in space: missions to <a href="https://arstechnica.com/space/2026/04/nasas-moon-ship-and-rocket-seem-to-be-working-well-so-what-about-the-landers/">land on the Moon</a> and Mars, <a href="https://arstechnica.com/space/2026/03/orbital-data-centers-part-1-theres-no-way-this-is-economically-viable-right/">orbital data centers</a>, and next-gen Starlink.</p>
-<p>Elon Musk's SpaceX conducted 165 launches with the Falcon 9 rocket (no Falcon Heavy missions) last year, up from 134 Falcon 9 and Falcon Heavy launches in 2024 and 96 Falcon flights in 2023. The company plans "maybe 140, 145-ish" Falcon launches in 2026, SpaceX president Gwynne Shotwell <a href="https://time.com/article/2026/03/26/spacex-gwynne-shotwell-full-interview/">told Time</a> earlier this year. "This year we'll still launch a lot, but not as much," she said. "And then we'll tail off our launches as Starship is coming online."</p><p><a href="https://arstechnica.com/space/2026/05/spacex-is-starting-to-move-on-from-the-worlds-most-successful-rocket/">Read full article</a></p>
+<p>Elon Musk's SpaceX conducted 165 launches with the Falcon 9 rocket (no Falcon Heavy missions) last year, up from 134 Falcon 9 and Falcon Heavy launches in 2024 and 96 Falcon flights in 2023. The company plans "maybe 140, 145-ish" Falcon launches in 2026, SpaceX President Gwynne Shotwell <a href="https://time.com/article/2026/03/26/spacex-gwynne-shotwell-full-interview/">told Time</a> earlier this year. "This year we'll still launch a lot, but not as much," she said. "And then we'll tail off our launches as Starship is coming online."</p><p><a href="https://arstechnica.com/space/2026/05/spacex-is-starting-to-move-on-from-the-worlds-most-successful-rocket/">Read full article</a></p>
 <p><a href="https://arstechnica.com/space/2026/05/spacex-is-starting-to-move-on-from-the-worlds-most-successful-rocket/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>65</slash:comments>
+                                    <slash:comments>98</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2211835635-1152x648.jpg" width="1152">
@@ -218,7 +387,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>67</slash:comments>
+                                    <slash:comments>85</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Dario-Amodei-Code-with-Claude-SF-2026-1152x648.jpg" width="1152">
@@ -257,7 +426,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>36</slash:comments>
+                                    <slash:comments>49</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Hai-Long-wind-turbine-1152x648.jpg" width="1152">
@@ -282,13 +451,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>An appeals court today struck down federal rules that prohibit discrimination in access to broadband services, delivering a victory to telecom and cable lobby groups. The court ruling was welcomed by Federal Communications Commission Chairman Brendan Carr, who voted against the Biden-era rules when they were <a href="https://arstechnica.com/tech-policy/2023/11/cable-lobby-and-ted-cruz-are-disappointed-as-fcc-bans-digital-discrimination/">approved in 2023</a>.</p>
-<p>The FCC exceeded its legal authority by imposing liability for actions that result in "disparate impact," instead of merely policing "disparate treatment," said a <a href="https://cdn.arstechnica.net/wp-content/uploads/2026/05/fcc-discrimination-rules-overturned.pdf">ruling</a> by from the US Court of Appeals for the 8th Circuit. The FCC also exceeded its authority by applying the rules to entities that don't directly offer Internet service to subscribers, according to the ruling issued unanimously by three judges appointed by Republican presidents.</p>
+<p>The FCC exceeded its legal authority by imposing liability for actions that result in "disparate impact," instead of merely policing "disparate treatment," said a <a href="https://cdn.arstechnica.net/wp-content/uploads/2026/05/fcc-discrimination-rules-overturned.pdf">ruling</a> from the US Court of Appeals for the 8th Circuit. The FCC also exceeded its authority by applying the rules to entities that don't directly offer Internet service to subscribers, according to the ruling issued unanimously by three judges appointed by Republican presidents.</p>
 <p>“Today’s appellate court decision is another common-sense win for nondiscrimination," Carr <a href="https://docs.fcc.gov/public/attachments/DOC-421520A1.pdf">said</a> today. Carr claimed the rules "would have required broadband providers and many other businesses to discriminate against people based on their race, gender, or other protected characteristics," but did not explain how the rules would have required discrimination. Carr also compared the rules to diversity, equity, and inclusion (DEI) policies that he has called discriminatory.</p><p><a href="https://arstechnica.com/tech-policy/2026/05/court-strikes-down-fcc-anti-discrimination-rule-opposed-by-internet-providers/">Read full article</a></p>
 <p><a href="https://arstechnica.com/tech-policy/2026/05/court-strikes-down-fcc-anti-discrimination-rule-opposed-by-internet-providers/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>42</slash:comments>
+                                    <slash:comments>55</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/getty-digital-gavel-1152x648.jpg" width="1152">
@@ -320,14 +489,14 @@
                         <![CDATA[Trump forced to admit Biden was right on AI safety testing.]]>
                     </description>
                                                                 <content:encoded>
-                            <![CDATA[<p>This week, the Trump administration backpedaled and <a href="https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing">signed agreements</a> with Google DeepMind, Microsoft, and xAI to run government safety checks on the firms' frontier AI models before and after their release.</p>
+                            <![CDATA[<p>This week, the Trump administration back pedaled and <a href="https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing">signed agreements</a> with Google DeepMind, Microsoft, and xAI to run government safety checks on the firms' frontier AI models before and after their release.</p>
 <p>Previously, Donald Trump had stubbornly cast aside the <a href="https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research">Biden-era policy</a>, dismissing the need for voluntary safety checks as overregulation blocking unbridled innovation. Soon after taking office, he took the extra step of rebranding the US AI Safety Institute to the Center for AI Standards and Innovation (CAISI), removing "safety" from the name in a pointed jab at Joe Biden.</p>
-<p>But after Anthropic announced that it would be <a href="https://arstechnica.com/ai/2026/04/mozilla-anthropics-mythos-found-271-zero-day-vulnerabilities-in-firefox-150/">too risky</a> to release its <a href="https://arstechnica.com/ai/2026/04/anthropic-limits-access-to-mythos-its-new-cybersecurity-ai-model/">latest Claude Mythos model</a>—fearing that bad actors might exploit its advanced cybersecurity capabilities—Trump's suddenly concerned about AI safety. According to White House National Economic Council Director Kevin Hassett, Trump may soon issue an executive order mandating government testing of advanced AI systems prior to release, Fortune <a href="https://fortune.com/2026/05/06/trump-administration-embraces-ai-oversight-policies-it-once-rejected-anthropic-mythos-caisi/">reported</a>.</p><p><a href="https://arstechnica.com/tech-policy/2026/05/everything-that-could-go-wrong-with-trumps-ai-safety-tests-according-to-experts/">Read full article</a></p>
+<p>But after Anthropic announced that it would be <a href="https://arstechnica.com/ai/2026/04/mozilla-anthropics-mythos-found-271-zero-day-vulnerabilities-in-firefox-150/">too risky</a> to release its <a href="https://arstechnica.com/ai/2026/04/anthropic-limits-access-to-mythos-its-new-cybersecurity-ai-model/">latest Claude Mythos model</a>—fearing that bad actors might exploit its advanced cybersecurity capabilities—Trump is suddenly concerned about AI safety. According to White House National Economic Council Director Kevin Hassett, Trump may soon issue an executive order mandating government testing of advanced AI systems prior to release, Fortune <a href="https://fortune.com/2026/05/06/trump-administration-embraces-ai-oversight-policies-it-once-rejected-anthropic-mythos-caisi/">reported</a>.</p><p><a href="https://arstechnica.com/tech-policy/2026/05/everything-that-could-go-wrong-with-trumps-ai-safety-tests-according-to-experts/">Read full article</a></p>
 <p><a href="https://arstechnica.com/tech-policy/2026/05/everything-that-could-go-wrong-with-trumps-ai-safety-tests-according-to-experts/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>41</slash:comments>
+                                    <slash:comments>56</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2194583448-1024x648.jpg" width="1024">
@@ -361,7 +530,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>178</slash:comments>
+                                    <slash:comments>198</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/GettyImages-2217854935-1024x648.jpg" width="1024">
@@ -400,7 +569,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>49</slash:comments>
+                                    <slash:comments>57</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2016/08/eve-online-1152x648.jpg" width="1152">
@@ -434,7 +603,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>41</slash:comments>
+                                    <slash:comments>44</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/earth1-1152x648.jpg" width="1152">
@@ -469,7 +638,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>101</slash:comments>
+                                    <slash:comments>108</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-2216571317-1152x648-1778084381.jpg" width="1152">
@@ -506,7 +675,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>36</slash:comments>
+                                    <slash:comments>37</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Claude-Managed-Agents-Blog-Followup-Dreaming-1152x648-1778041638.png" width="1152">
@@ -541,7 +710,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>42</slash:comments>
+                                    <slash:comments>44</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/Gemma-social-share.width-1300-1152x648.jpg" width="1152">
@@ -584,7 +753,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>34</slash:comments>
+                                    <slash:comments>35</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/54362872324_50b58cd770_o-1152x648.jpg" width="1152">
@@ -617,120 +786,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>243</slash:comments>
+                                    <slash:comments>272</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/saddoctor-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/saddoctor-500x500.jpg" width="500"/>
 <media:credit>JGI/Jamie Grill via Getty</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Ars Asks: Share your shell and show us your tricked-out terminals!</title>
-                <link>https://arstechnica.com/information-technology/2026/05/ars-asks-share-your-shell-and-show-us-your-tricked-out-terminals/</link>
-                                    <comments>https://arstechnica.com/information-technology/2026/05/ars-asks-share-your-shell-and-show-us-your-tricked-out-terminals/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Lee Hutchinson]]>
-                </dc:creator>
-                <pubDate>Wed, 06 May 2026 13:32:47 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[ANSI]]></category>
-		<category><![CDATA[bash]]></category>
-		<category><![CDATA[cli]]></category>
-		<category><![CDATA[command line]]></category>
-		<category><![CDATA[fish]]></category>
-		<category><![CDATA[fish shell]]></category>
-		<category><![CDATA[Terminal]]></category>
-		<category><![CDATA[text mode]]></category>
-		<category><![CDATA[TUI]]></category>
-		<category><![CDATA[Vim]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/05/ars-asks-share-your-shell-and-show-us-your-tricked-out-terminals/</guid>
-
-                                    <description>
-                        <![CDATA[A celebration of the tweaks and customizations that make life easier at the CLI.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>I spend more time today than ever before interacting with terminal windows, which is something I don't think Past Me would have believed in the early '90s. Back then, poor MS-DOS was the staid whipping boy of the industry, and at least on the consumer side, graphical environments like Windows (and maybe even odder creatures like <a href="https://arstechnica.com/series/history-of-the-amiga/" target="_blank" rel="noopener">AmigaOS</a>) seemed poised to stamp the command line into oblivion, leaving text interfaces behind as we all blasted into the ooey-GUI future.</p>
-<p>As it turns out, though, the command line is still the best tool for some jobs—many jobs, in fact. I read a wise post some years ago (probably on Slashdot) arguing that a mouse-driven point-and-click interface essentially reduces the user to pointing at something on the screen and grunting, "DO! DO THAT!" at the computer. (The rise of right-click context menus adds the ability for the user to also grunt "MORE THINGS!" but doesn't otherwise add vocabulary.)</p>
-<p>The command line, by contrast, gives the user the opportunity to precisely tell the computer what they want done, using words instead of one or two gestalts that the computer must interpret based on context.</p><p><a href="https://arstechnica.com/information-technology/2026/05/ars-asks-share-your-shell-and-show-us-your-tricked-out-terminals/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2026/05/ars-asks-share-your-shell-and-show-us-your-tricked-out-terminals/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>195</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/terminal-hotness-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/terminal-hotness-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>More than just an SUV? Rivian is working on more R2 variants.</title>
-                <link>https://arstechnica.com/cars/2026/05/more-than-just-an-suv-rivian-is-working-on-more-r2-variants/</link>
-                                    <comments>https://arstechnica.com/cars/2026/05/more-than-just-an-suv-rivian-is-working-on-more-r2-variants/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Wed, 06 May 2026 12:48:53 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Rivian]]></category>
-		<category><![CDATA[Rivian R2]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/05/more-than-just-an-suv-rivian-is-working-on-more-r2-variants/</guid>
-
-                                    <description>
-                        <![CDATA[Without giving much away, CEO RJ Scaringe teased the idea of an R2 pickup and an R2X.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>We don't have too much longer to wait for Rivian's hotly anticipated R2 electric SUV. After cutting its teeth with the ground-breaking R1T electric pickup truck, plus the three-row SUV version (the R1S) and all those Amazon delivery vans, its next step is something smaller and more affordable—launch models of the midsize R2 are <a href="https://arstechnica.com/cars/2026/03/rivian-reveals-pricing-and-trim-details-for-its-r2-suv/">competitively priced</a> against rivals like the <a href="https://arstechnica.com/cars/2025/12/great-handling-advanced-ev-tech-we-drive-the-2026-bmw-ix3/">BMW iX3</a>, and next year if all goes to plan, Rivian will add a $45,000 R2 with a smaller battery.</p>
-<p>But according to Rivian CEO RJ Scaringe, who was <a href="https://www.reuters.com/business/autos-transportation/rivian-developing-variants-its-more-affordable-r2-evs-2026-05-06/">interviewed by Reuters</a>, there's more R2 in the works. "So clearly there could be an R2X," Scaringe told Reuters. "There's ⁠going to be combinations... I want to be careful not to announce the program," he said. Scaringe <a href="https://www.reuters.com/business/autos-transportation/rivian-mulls-making-its-own-lidar-sensors-possibly-partnership-with-chinese-2026-05-06/">also told the news organization</a> that Rivian was considering making its own lidar sensors, in collaboration with a Chinese company.</p>
-<p>Initial R2s are being built at Rivian's factory in Normal, Illinois. But the R2, <a href="https://arstechnica.com/cars/2024/03/rivian-reveals-three-new-smaller-electric-suvs-the-r2-r3-and-r3x/">together with an even smaller R3 (and R3X)</a> that will follow it, will also be built at Rivian's new factory in Georgia. That plant is due to come online in 2028, funded in part by a $4.5 billion loan from the Department of Energy, which Rivian will begin to access next year.</p><p><a href="https://arstechnica.com/cars/2026/05/more-than-just-an-suv-rivian-is-working-on-more-r2-variants/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/05/more-than-just-an-suv-rivian-is-working-on-more-r2-variants/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>74</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/R2_HERO_SHOT_SLATE_BLUEjpg_2880x1920_t2aluk-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/R2_HERO_SHOT_SLATE_BLUEjpg_2880x1920_t2aluk-500x500.jpg" width="500"/>
-<media:credit>Rivian</media:credit><media:text>The R2 interior.</media:text></media:content>
-            </item>
-                    <item>
-                <title>OpenAI president forced to read his personal diary entries to jury</title>
-                <link>https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Tue, 05 May 2026 22:28:12 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[artificial general intelligence]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[xAI]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/</guid>
-
-                                    <description>
-                        <![CDATA[Elon Musk argued the journals show the moment when OpenAI abandoned its mission.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Greg Brockman never wanted to discuss his personal journal in public. But the OpenAI president has been stuck for days doing exactly that, while testifying in a trial in which Elon Musk has alleged that OpenAI abandoned its nonprofit mission to instead focus on personally enriching leaders like Brockman and Sam Altman.</p>
-<p>"It's very painful," Brockman told OpenAI lawyer Sarah Eddy during his second day on the stand.</p>
-<p>Although he's not "ashamed" of any of the journal entries, he considers them to be deeply personal, he said. Rather than serving as a straightforward log of his actions or feelings, the entries reflect a stream of consciousness that meanders as it explores alternate viewpoints.</p><p><a href="https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>121</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/greg-brockman-is-you-taking-notes-on-criminal-conspiracy-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/greg-brockman-is-you-taking-notes-on-criminal-conspiracy-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
             </item>
             </channel>
 </rss>
