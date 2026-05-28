@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Wed, 27 May 2026 15:48:11 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 27 May 2026 21:08:51 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,478 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>California defeats Tesla's attempt to throw out racial discrimination lawsuit</title>
+                <link>https://arstechnica.com/tech-policy/2026/05/california-defeats-teslas-attempt-to-throw-out-racial-discrimination-lawsuit/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/05/california-defeats-teslas-attempt-to-throw-out-racial-discrimination-lawsuit/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Wed, 27 May 2026 21:08:51 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Tesla]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/05/california-defeats-teslas-attempt-to-throw-out-racial-discrimination-lawsuit/</guid>
+
+                                    <description>
+                        <![CDATA[California civil rights agency hails win over Tesla, anticipates trial in July.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Over four years after a California agency sued Tesla over an alleged pattern of racial discrimination, a judge has dismissed Tesla's motion to throw out the lawsuit.</p>
+<p>The California Civil Rights Department (CRD) <a href="https://calcivilrights.ca.gov/2026/05/27/state-court-order-clears-path-for-tesla-race-discrimination-case-to-go-to-trial/">said today</a> that the Alameda County Superior Court order clears a path for the case to go to trial, which is currently scheduled for July 20. Tesla "employment practices remain rooted in some of the ugliest relics of the past," CRD Director Kevin Kish said. "Black workers are paid less for their work. They are subjected to racist slurs. They face threats of being fired for speaking out... We look forward to having our day in court to hold Tesla accountable and to protect the rights of workers in our state.”</p>
+<p>The lawsuit alleges widespread discrimination, especially at Tesla's Fremont factory, and seeks financial damages and injunctive relief. At trial, the case may include claims of discrimination going back to June 2018. The judge partially granted Tesla's request to block claims under the statute of limitations, but only for incidents that happened before June 18, 2018.</p><p><a href="https://arstechnica.com/tech-policy/2026/05/california-defeats-teslas-attempt-to-throw-out-racial-discrimination-lawsuit/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/05/california-defeats-teslas-attempt-to-throw-out-racial-discrimination-lawsuit/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>10</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/tesla-fremont-1152x648-1779913505.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/tesla-fremont-500x500-1779913514.jpg" width="500"/>
+<media:credit>Getty Images | Justin Sullivan</media:credit><media:text>Tesla factory in Fremont, California on January 29, 2026</media:text></media:content>
+            </item>
+                    <item>
+                <title>Websites have a new way to spy on visitors: analyzing their SSD activity</title>
+                <link>https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/</link>
+                                    <comments>https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 27 May 2026 20:56:03 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[side channel attacks]]></category>
+		<category><![CDATA[solid state drives]]></category>
+		<category><![CDATA[SSDs]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/</guid>
+
+                                    <description>
+                        <![CDATA[Telltale SSD activity can be measured in the browser using simple JavaScript.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Over the decades, there has been no shortage of sites using clever techniques to covertly track visitors’ <a href="https://www.theregister.com/security/2010/12/03/popular-sites-caught-sniffing-user-browser-history/795097">browsing histories</a>, <a href="https://arstechnica.com/information-technology/2013/10/top-sites-and-maybe-the-nsa-track-users-with-device-fingerprinting/">device fingerprints</a>, and log <a href="https://arstechnica.com/tech-policy/2017/11/an-alarming-number-of-sites-employ-privacy-invading-session-replay-scripts/">keystrokes and mouse movements</a> in real time. Even Meta and Yandex were recently caught joining in the privacy-invasive <a href="https://arstechnica.com/security/2025/06/meta-and-yandex-are-de-anonymizing-android-users-web-browsing-identifiers/">free-for-all</a>.</p>
+<p>Now sites have a new way to spy on their visitors: measuring subtle interactions with their solid-state drives. The technique, named FROST (fingerprinting remotely using OPFS-based SSD timing), allows sites to monitor other sites a visitor is viewing and what apps are open on their devices.</p>
+<h2>A side channel based on contention</h2>
+<p>The technique, laid out in a <a href="https://hannesweissteiner.com/pdfs/frost.pdf">research paper</a>, exploits a <a href="https://en.wikipedia.org/wiki/Side-channel_attack">side channel</a>, a form of leak resulting from physical manifestations such as electromagnetic emanations, data caches, or the time required to complete a task. By measuring the manifestations, attackers can decrypt encrypted traffic and infer other confidential data.</p><p><a href="https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>16</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/solid-state-drive-ssd-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/solid-state-drive-ssd-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Mystery GPS jammer in Iran becomes test for NASA satellites’ capabilities</title>
+                <link>https://arstechnica.com/gadgets/2026/05/nasa-satellites-can-spot-gps-jammers-on-earth/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/05/nasa-satellites-can-spot-gps-jammers-on-earth/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Wed, 27 May 2026 20:43:54 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[cygnss]]></category>
+		<category><![CDATA[GNSS]]></category>
+		<category><![CDATA[GPS]]></category>
+		<category><![CDATA[GPS jamming]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[nisar]]></category>
+		<category><![CDATA[satellites]]></category>
+		<category><![CDATA[signal jammer]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/05/nasa-satellites-can-spot-gps-jammers-on-earth/</guid>
+
+                                    <description>
+                        <![CDATA[NASA science satellites show dual use in locating sources of GPS interference.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>NASA satellites designed to observe cyclone wind speeds and collapsing ice sheets have also proven capable of identifying the approximate locations of GPS jammers. That could help monitor high-risk areas for aircraft and ships navigating the growing prevalence of GPS interference worldwide.</p>
+<p>Two different NASA satellite systems showed how they could locate a known but mysterious GPS jammer within several kilometers of its position in Iran, according to an experiment by <a href="https://www.linkedin.com/in/sean-gorman-93a79/">Sean Gorman</a>, CEO and cofounder of the location-based technology company <a href="http://zephr.xyz">Zephr.xyz</a> that was detailed in the magazine <a href="https://www.gpsworld.com/converging-on-the-jammer-dual-satellite-gps-interference-localization-from-space/">GPS World</a>. Such <a href="https://arstechnica.com/information-technology/2025/12/gps-is-vulnerable-to-jamming-heres-how-we-might-fix-it/">jammers</a> use strong signals to overpower the weaker radio signals coming from US-operated GPS satellites and other global navigation satellite systems.</p>
+<p>Such NASA satellites cannot perform “near-real time monitoring” or pinpoint the exact location of GPS jammers, said <a href="https://www.linkedin.com/in/clara-chew-5712411b/">Clara Chew</a>, principal scientist and lead of the GNSS systems and data team at the California-based satellite manufacturer Muon Space, who was not involved in the study. But Chew told Ars that identifying the approximate locations of GPS jammers “could potentially be helpful for flight planning” or for “indicating high risk areas for maritime shipping.”</p><p><a href="https://arstechnica.com/gadgets/2026/05/nasa-satellites-can-spot-gps-jammers-on-earth/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/05/nasa-satellites-can-spot-gps-jammers-on-earth/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>8</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/NISAR-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/NISAR-500x500.jpg" width="500"/>
+<media:credit> NASA/JPL-Caltech</media:credit><media:text>The NASA-ISRO Synthetic Aperture Radar can bounce radar signals off the planet's solid surfaces to track movements down to fractions of an inch.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Mina the Hollower is the best old-school action adventure I've played in a while</title>
+                <link>https://arstechnica.com/gaming/2026/05/mina-the-hollower-is-the-best-old-school-action-adventure-ive-played-in-a-while/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/05/mina-the-hollower-is-the-best-old-school-action-adventure-ive-played-in-a-while/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Wed, 27 May 2026 20:22:04 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[action adventure]]></category>
+		<category><![CDATA[mina the hollower]]></category>
+		<category><![CDATA[yacht club games]]></category>
+		<category><![CDATA[Zelda]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/05/mina-the-hollower-is-the-best-old-school-action-adventure-ive-played-in-a-while/</guid>
+
+                                    <description>
+                        <![CDATA[Smooth movement, compelling combat, and tons of secrets make for an innovative throwback.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[
+<p>Modern Legend of Zelda games like <em>Breath of the Wild</em> are built around Link's ability to run, climb, and jump with the best of them. In old-school, top-down Zelda titles, though, the ability to increase Link's sad starting mobility was a banner event. Finding items like the speed-enhancing Pegasus Boots in <em>Link to the Past</em> or the jump-granting Roc's Feather in <em>Link's Awakening</em> made the methodical exploration in these games feel that much more kinetic and akin to a top-down platform game.</p>
+<p>This kind of kinetic feeling is built into <em>Mina the Hollower </em>from the start. As the titular, mouse-like Hollower, you're armed with the ability to jump up and burrow into soft soil, zipping under obstacles and past enemies with satisfying pep as you do. After a short sojourn underground, you pop out with an extended jump that quickly becomes second nature.</p>
+<p>The sense of energy and verve built in to this simple movement system makes Mina a joy to control. You feel that joy when you burrow away from an enemy attack only to quickly circle back to pop out for a quick counter. You feel it burrowing underneath the scenery through a small hole to uncover a labyrinthine secret corridor. You feel it hopping and bouncing across a series of gaps on inflatable, balloon-like pads.</p><p><a href="https://arstechnica.com/gaming/2026/05/mina-the-hollower-is-the-best-old-school-action-adventure-ive-played-in-a-while/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/05/mina-the-hollower-is-the-best-old-school-action-adventure-ive-played-in-a-while/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>6</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/webp" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/mina1-1152x648.webp" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/mina1-500x500.webp" width="500"/>
+<media:credit>Yacht Club Games</media:credit><media:text>Old-school graphics meets new-school sprite processing limits.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Nvidia bets $150B on Taiwan as Trump's plan to make US an AI hub backfires</title>
+                <link>https://arstechnica.com/tech-policy/2026/05/nvidia-ceo-wants-taiwan-to-be-center-of-ai-revolution-not-us/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/05/nvidia-ceo-wants-taiwan-to-be-center-of-ai-revolution-not-us/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Wed, 27 May 2026 19:59:40 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[chip tariffs]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[Jensen Huang]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[Nvidia H200]]></category>
+		<category><![CDATA[semiconductor tariffs]]></category>
+		<category><![CDATA[Taiwan]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/05/nvidia-ceo-wants-taiwan-to-be-center-of-ai-revolution-not-us/</guid>
+
+                                    <description>
+                        <![CDATA[Nvidia will invest $150 billion a year to make Taiwan an AI “epicenter.”]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In a splashy move that signals that Taiwan remains irreplaceable to the AI industry's short-term and long-term goals, Nvidia CEO Jensen Huang announced Wednesday that his chip company will invest $150 billion a year to make sure Taiwan remains at the "epicenter" of the "AI revolution."</p>
+<p>"This is where the chips come, packaging comes, this is where the systems are made, this is where AI supercomputers were created," Huang said. "The number of partners we work with here in Taiwan, incredible."</p>
+<p>As Reuters <a href="https://www.reuters.com/world/asia-pacific/nvidia-ceo-says-taiwan-is-epicentre-ai-revolution-2026-05-27/">reported</a>, the substantial investments will be used to create a new Taiwan headquarters for Nvidia, which Huang expects will drive so much AI innovation that the partnership will cement Taiwan as "the world's tech manufacturing hub for a long time." That ambitious project will be operational by 2030, Nvidia anticipates, after breaking ground this year.</p><p><a href="https://arstechnica.com/tech-policy/2026/05/nvidia-ceo-wants-taiwan-to-be-center-of-ai-revolution-not-us/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/05/nvidia-ceo-wants-taiwan-to-be-center-of-ai-revolution-not-us/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>42</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2212801534-2-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2212801534-2-500x500-1779906949.jpg" width="500"/>
+<media:credit>Andrew Harnik / Staff | Getty Images News</media:credit><media:text>Donald Trump (L) listens as Nvidia CEO Jensen Huang speaks during a White House event on "Investing in America."</media:text></media:content>
+            </item>
+                    <item>
+                <title>Roku OS’s home screen now features a large, permanent ad</title>
+                <link>https://arstechnica.com/gadgets/2026/05/roku-oss-home-screen-now-features-a-large-permanent-ad/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/05/roku-oss-home-screen-now-features-a-large-permanent-ad/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 27 May 2026 19:12:59 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ads]]></category>
+		<category><![CDATA[roku]]></category>
+		<category><![CDATA[software]]></category>
+		<category><![CDATA[streaming]]></category>
+		<category><![CDATA[TVs]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/05/roku-oss-home-screen-now-features-a-large-permanent-ad/</guid>
+
+                                    <description>
+                        <![CDATA[“I don't want recommendations! I know what I want to watch." ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Roku just unveiled the biggest overhaul to its smart TV operating system (OS) in 10 years. One of the most noticeable differences is that ad space now takes up a large chunk of the screen’s landing page.</p>
+<p>Before the update, loading up a Roku OS-powered smart TV or streaming device would yield a menu on the left side with sections including “What to Watch,” “Live,” and “Search.” The right side had a row of tiles for “Recommended” content above several rows of tiles representing downloaded apps. Once a user started started navigating the home screen, the menu would collapse, and they'd see a large ad on the right side of the screen.</p>
+<img width="640" height="408" src="https://cdn.arstechnica.net/wp-content/uploads/2026/05/roku-tv-fall-2025-75in-2-640x408.jpg" class="right medium" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/05/roku-tv-fall-2025-75in-2-640x408.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/roku-tv-fall-2025-75in-2-1024x652.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/roku-tv-fall-2025-75in-2-768x489.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/roku-tv-fall-2025-75in-2-980x624.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/05/roku-tv-fall-2025-75in-2.jpg 1280w" sizes="auto, (max-width: 640px) 100vw, 640px">
+      The old Roku OS landing page before the ad is visible. 
+        Credit:
+          Roku
+      
+<p> </p><p><a href="https://arstechnica.com/gadgets/2026/05/roku-oss-home-screen-now-features-a-large-permanent-ad/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/05/roku-oss-home-screen-now-features-a-large-permanent-ad/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>84</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Roku-1-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Roku-1-500x500.jpeg" width="500"/>
+<media:text>The new Roku home screen. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Valve's Steam Deck is back in stock after months, but you won't like it</title>
+                <link>https://arstechnica.com/gadgets/2026/05/valves-steam-deck-is-back-in-stock-after-months-but-you-wont-like-it/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/05/valves-steam-deck-is-back-in-stock-after-months-but-you-wont-like-it/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andrew Cunningham]]>
+                </dc:creator>
+                <pubDate>Wed, 27 May 2026 19:02:21 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Steam]]></category>
+		<category><![CDATA[steam deck]]></category>
+		<category><![CDATA[Valve]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/05/valves-steam-deck-is-back-in-stock-after-months-but-you-wont-like-it/</guid>
+
+                                    <description>
+                        <![CDATA[Four-year-old handheld is saddled with an unfortunately modern price tag.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Valve's Steam Deck handheld <a href="https://arstechnica.com/gadgets/2026/02/valves-steam-deck-intermittently-out-of-stock-as-ram-shortage-drags-on/">has been largely unavailable to buy</a> since mid-February, a victim of the RAM and storage shortages that have been driving up prices for most consumer tech since the fall of 2025. The good news is that the Deck is <a href="https://store.steampowered.com/steamdeck">back in stock on Valve's site</a> and ready to ship in three to five days; the bad news is that it appears to have returned because somebody wished for it on a <a href="https://en.wikipedia.org/wiki/The_Monkey's_Paw">monkey's paw</a>.</p>
+<p>The 512GB version of the OLED Steam Deck now sells for a whopping $789, $240 more than its previous $549 price. The 1TB version (which also includes an anti-glare screen coating, a slightly nicer case, and an "exclusive startup movie and keyboard theme") will now run you $949, a $300 increase from its old $649 price. The old $399 base model with 256GB of storage and the older LCD screen has been discontinued, though this <a href="https://www.techpowerup.com/344310/valve-discontinues-steam-deck-lcd-oled-versions-remain">had been announced</a> well before these price increases took effect.</p>
+<p>These prices are particularly hard to swallow for a <a href="https://arstechnica.com/gaming/2023/11/steam-deck-oled-promises-better-screen-longer-battery-life-and-faster-wi-fi/">nearly 3-year-old revision</a> of an <a href="https://arstechnica.com/gaming/2022/02/steam-deck-the-comprehensive-ars-technica-review/">over-4-year-old handheld PC</a>. If there's a saving grace for Valve, it's that most competing handhelds from the likes of Asus and Lenovo are also pushing or exceeding that $1,000 mark. Of the Deck's major competitors, <a href="https://www.bestbuy.com/product/rog-xbox-ally-7-fhd-120hz-gaming-handheld-3-month-xbox-game-pass-premium-amd-ryzen-z2-a-16gb-ram-512gb-ssd-windows/JJGHGPGFL4">only the $600 Asus ROG Xbox Ally</a> (and its AMD Ryzen Z2 A processor, which is very similar to the Deck's semi-custom AMD chip) is significantly cheaper than the Steam Deck.</p><p><a href="https://arstechnica.com/gadgets/2026/05/valves-steam-deck-is-back-in-stock-after-months-but-you-wont-like-it/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/05/valves-steam-deck-is-back-in-stock-after-months-but-you-wont-like-it/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>61</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Screenshot-2026-05-27-at-2.34.28-PM-1152x648-1779906944.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Screenshot-2026-05-27-at-2.34.28-PM-500x500-1779906923.jpeg" width="500"/>
+<media:credit>Valve</media:credit><media:text>Valve's Steam Deck.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Trump admin to block Ebola-exposed Americans from US, move them to Kenya</title>
+                <link>https://arstechnica.com/health/2026/05/us-walls-itself-off-from-ebola-beefed-up-travel-ban-no-citizen-repatriation/</link>
+                                    <comments>https://arstechnica.com/health/2026/05/us-walls-itself-off-from-ebola-beefed-up-travel-ban-no-citizen-repatriation/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Wed, 27 May 2026 18:52:45 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[drc]]></category>
+		<category><![CDATA[ebola]]></category>
+		<category><![CDATA[kenya]]></category>
+		<category><![CDATA[outbreak]]></category>
+		<category><![CDATA[travel restrictions]]></category>
+		<category><![CDATA[Trump]]></category>
+		<category><![CDATA[WHO]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/05/us-walls-itself-off-from-ebola-beefed-up-travel-ban-no-citizen-repatriation/</guid>
+
+                                    <description>
+                        <![CDATA[Trump official asked CDC staff to volunteer to screen travelers at airports.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Ebola outbreak in the Democratic Republic of the Congo continues to spread wildly, outpacing the international response efforts sprinting to catch up to the deadly Bundibugyo virus strain. The outbreak was first announced May 15 and is already the third largest recorded. The World Health Organization's latest numbers <a href="https://www.afro.who.int/countries/democratic-republic-of-congo/publication/ebola-bundibugyo-virus-disease-outbreak-0">as of May 24</a> are 1,018 cases (906 suspected, 112 confirmed) with 234 deaths (223 suspected, 11 confirmed). But these are known to be a significant undercount of the true spread and are also likely out of date by now.</p>
+<p>The WHO and other national health agencies are calling for international support and collaboration to bring the outbreak under control. But it appears that the US is instead choosing to try to wall itself off—even to its own citizens and lawful residents.</p>
+<p>On Friday, the Trump administration announced it was <a href="https://www.cdc.gov/port-health/legal-authorities/evdorder.html">escalating its controversial travel ban</a>, now barring even lawful permanent residents (green card holders) from entering the country if they have traveled to the DRC, Uganda, or South Sudan in the 21 days prior. The move is in addition to already barring non-US passport holders with such a travel history. Notably, Uganda has only reported seven cases and one death in the outbreak; there have been no reported cases in South Sudan.</p><p><a href="https://arstechnica.com/health/2026/05/us-walls-itself-off-from-ebola-beefed-up-travel-ban-no-citizen-repatriation/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/05/us-walls-itself-off-from-ebola-beefed-up-travel-ban-no-citizen-repatriation/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>67</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2277709807-1-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2277709807-1-500x500.jpg" width="500"/>
+<media:credit>Getty |  Badru KATUMBA</media:credit><media:text>Workers from the Uganda Red Cross Society don protective suits as they prepare to evacuate the body of a suspected Ebola victim in Kampala on May 26, 2026. 
+</media:text></media:content>
+            </item>
+                    <item>
+                <title>"Little red dot" in early Universe is a naked supermassive black hole</title>
+                <link>https://arstechnica.com/science/2026/05/little-red-dot-in-early-universe-is-a-naked-supermassive-black-hole/</link>
+                                    <comments>https://arstechnica.com/science/2026/05/little-red-dot-in-early-universe-is-a-naked-supermassive-black-hole/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Wed, 27 May 2026 18:37:57 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[astrophysics]]></category>
+		<category><![CDATA[black hole]]></category>
+		<category><![CDATA[JWST]]></category>
+		<category><![CDATA[supermassive black hole]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/05/little-red-dot-in-early-universe-is-a-naked-supermassive-black-hole/</guid>
+
+                                    <description>
+                        <![CDATA[The black hole accounts for over two-thirds the mass of the object it inhabits.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The James Webb Space Telescope (JWST) was designed to give us the ability to look at one of the earliest periods in the evolution of the Universe, a time when some of the earliest stars were putting out enough light to ionize the hydrogen that accounted for almost all of the normal matter present at the time. There were lots of ideas about what we might see, but the Universe is full of surprises.</p>
+<p>One of the first surprises was the existence of what picked up the moniker "little red dots," which are exactly what their name suggests. After some initial arguments, it <a href="https://arstechnica.com/science/2026/01/early-universes-supermassive-black-holes-grew-in-cocoons-like-butterflies/">became clear</a> that these were early versions of the supermassive black holes that presently sit at the center of almost every galaxy. Now, gravitational lensing has allowed astronomers to confirm that a little red dot is little more than a supermassive black hole without much in the way of a galaxy around it.</p>
+<h2>Making a little red dot bigger</h2>
+<p>The little red dot in question is called Abell 2744−QSO1, and gravitational lensing has both magnified it and caused it to appear three times in the vicinity of the galaxy cluster that did the lensing. Based on details in its spectrum, we're looking at the object as it appeared just 700 million years after the Big Bang.</p><p><a href="https://arstechnica.com/science/2026/05/little-red-dot-in-early-universe-is-a-naked-supermassive-black-hole/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/05/little-red-dot-in-early-universe-is-a-naked-supermassive-black-hole/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>14</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/image-2-1152x648.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/image-2-500x500.png" width="500"/>
+<media:credit>NASA, ESA, CSA, Lukas Furtak, Alyssa Pagan</media:credit><media:text>Three images of QSO1 have been created by gravitational lensing.</media:text></media:content>
+            </item>
+                    <item>
+                <title>US Space Force confirms SpaceX will build sensor-to-shooter targeting network</title>
+                <link>https://arstechnica.com/space/2026/05/us-space-force-confirms-spacex-will-build-sensor-to-shooter-targeting-network/</link>
+                                    <comments>https://arstechnica.com/space/2026/05/us-space-force-confirms-spacex-will-build-sensor-to-shooter-targeting-network/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Wed, 27 May 2026 18:19:51 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[military space]]></category>
+		<category><![CDATA[space data network]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[starlink]]></category>
+		<category><![CDATA[starshield]]></category>
+		<category><![CDATA[US Space Force]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/05/us-space-force-confirms-spacex-will-build-sensor-to-shooter-targeting-network/</guid>
+
+                                    <description>
+                        <![CDATA["We aren’t trading speed for scale; we are demanding both," says the military's program manager.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>SpaceX has won a lucrative contract to provide the US military with a means of distributing space-based sensing and targeting data, forming the "backbone" of a rearchitected network after separate Pentagon initiatives stalled, officials announced Tuesday.</p>
+<p>Space Systems Command, the Space Force's primary procurement and acquisition center, <a href="https://www.ssc.spaceforce.mil/Newsroom/Article-Display/Article/4500761/us-space-force-advances-space-data-network-backbone-for-global-warfighter-conne">announced</a> the $2.29 billion firm-fixed-price agreement, confirming long-simmering reports that the Pentagon was likely to tap SpaceX for a new communications network in low-Earth orbit. SpaceX's selection for the Space Data Network (SDN) Backbone contract "accelerates the delivery of a resilient, high-speed communications network in space," Space Systems Command said in a statement.</p>
+<p>The network will be based on technology originally developed for SpaceX's Starlink global Internet constellation. SpaceX already builds and launches specially designed satellites, called Starshield, for military applications. The SDN Backbone network in low-Earth orbit (LEO) will presumably use the Starshield platform.</p><p><a href="https://arstechnica.com/space/2026/05/us-space-force-confirms-spacex-will-build-sensor-to-shooter-targeting-network/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/05/us-space-force-confirms-spacex-will-build-sensor-to-shooter-targeting-network/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>27</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/9467712-1152x648-1779903261.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/9467712-500x500.jpg" width="500"/>
+<media:credit>US Space Force/Gwendolyn Kurzen</media:credit><media:text>A SpaceX Falcon 9 rocket streaks into orbit with a batch of Starlink Internet satellites on January 4, 2026.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Disclosure Day final trailer features Spielberg himself</title>
+                <link>https://arstechnica.com/culture/2026/05/disclosure-day-final-trailer-features-spielberg-himself/</link>
+                                    <comments>https://arstechnica.com/culture/2026/05/disclosure-day-final-trailer-features-spielberg-himself/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Wed, 27 May 2026 17:51:07 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[Disclosure Day]]></category>
+		<category><![CDATA[entertainment]]></category>
+		<category><![CDATA[film trailers]]></category>
+		<category><![CDATA[Steven Spielberg]]></category>
+		<category><![CDATA[Trailers]]></category>
+		<category><![CDATA[Universal Pictures]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2026/05/disclosure-day-final-trailer-features-spielberg-himself/</guid>
+
+                                    <description>
+                        <![CDATA[Director describes how his views on existence of aliens have changed, interspersed with footage from film.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video ars-video--horizontal"><div><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/icDuEHSxE-w?start=0&amp;wmode=transparent"></div></div></div>
+<p>Universal Pictures has released one last trailer for <a href="https://en.wikipedia.org/wiki/Disclosure_Day"><em>Disclosure Day</em></a>, director Steven Spielberg’s hotly anticipated return to his “aliens are among us” summer blockbuster roots. And the director features prominently, offering his thoughts on the existence of aliens in between footage from the film.</p>
+<p>Per the official logline: “If you found out we weren’t alone, if someone showed you, proved it to you, would that frighten you? This summer, the truth belongs to 7 billion people. We are coming close to… Disclosure Day.”</p>
+<p>David Koepp, who has worked with Spielberg on numerous projects (including <em>Jurassic Park</em> and <em>War of the Worlds</em>), wrote the screenplay, while John Williams composed the score. Emily Blunt stars as a TV meteorologist in Kansas City. Her co-stars include Josh O’Connor, Colin Firth, Eve Hewson, Colman Domingo, Wyatt Russell, Elizabeth Marvel, Henry Lloyd-Hughes, Michael Gaston, and Mckenna Bridger. Professional wrestlers Chavo Guerrero Jr., Lance Archer, and Brian Cage will also appear.</p><p><a href="https://arstechnica.com/culture/2026/05/disclosure-day-final-trailer-features-spielberg-himself/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2026/05/disclosure-day-final-trailer-features-spielberg-himself/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>39</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/disclosure2-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/disclosure2-500x500.jpg" width="500"/>
+<media:credit>YouTube/Universal Pictures</media:credit></media:content>
+            </item>
+                    <item>
+                <title>YouTube to begin automatically labeling AI videos</title>
+                <link>https://arstechnica.com/google/2026/05/youtube-to-begin-automatically-labeling-ai-videos/</link>
+                                    <comments>https://arstechnica.com/google/2026/05/youtube-to-begin-automatically-labeling-ai-videos/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Wed, 27 May 2026 17:36:10 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Ai video]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[YouTube]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/google/2026/05/youtube-to-begin-automatically-labeling-ai-videos/</guid>
+
+                                    <description>
+                        <![CDATA[AI videos that are animated, unrealistic, or only have a little AI may still hide their origins, though.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>AI content creation tools like Google's new <a href="https://arstechnica.com/google/2026/05/google-announces-agent-optimized-gemini-3-5-flash-and-a-do-anything-model-called-omni/">Omni model</a> threaten to make reality even harder to discern from AI fantasy, but YouTube is taking an important step toward verifying video origins. After debuting wishy-washy AI content labeling in 2024, Google will begin using more prominent labeling for AI videos, and the site will no longer rely entirely on uploaders to divulge when they use AI tools to create a video.</p>
+<p>When YouTube first attempted to <a href="https://arstechnica.com/gadgets/2024/03/youtube-rolls-out-warnings-for-ai-manipulated-videos/">tackle the identification of AI videos</a> in 2024, it was almost gratuitous. AI videos at the time nearly always outed themselves by looking bizarre or disjointed. In just a few years, AI models like Seedance, Runway, and Google's own Veo have raised the bar for realism and consistency in AI video—<a href="https://arstechnica.com/ai/2025/05/googles-will-smith-double-is-better-at-eating-ai-spaghetti-but-its-crunchy/">the spaghetti</a> is more accurate than ever.</p>
+<p>Recognizing that, YouTube is making the AI labels more prominent and automating part of the process. Creators are still required to indicate when uploading videos if they were created with the help of AI tools. However, uploaders didn't have any incentive to be honest about that before. Starting this month, YouTube will use "new internal signals" to flag AI content. This will apparently apply to videos that show "significant photorealistic AI use."</p><p><a href="https://arstechnica.com/google/2026/05/youtube-to-begin-automatically-labeling-ai-videos/">Read full article</a></p>
+<p><a href="https://arstechnica.com/google/2026/05/youtube-to-begin-automatically-labeling-ai-videos/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>40</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/10/youtube-logo-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/10/youtube-logo-500x500.jpg" width="500"/>
+<media:credit>Future Publishing | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Smart light company Govee apologizes for “white supremacy” marketing imagery</title>
+                <link>https://arstechnica.com/gadgets/2026/05/govee-says-it-mistakenly-licensed-white-supremacy-book-pic-to-sell-smart-lights/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/05/govee-says-it-mistakenly-licensed-white-supremacy-book-pic-to-sell-smart-lights/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 27 May 2026 17:00:50 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[goi]]></category>
+		<category><![CDATA[smart home]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/05/govee-says-it-mistakenly-licensed-white-supremacy-book-pic-to-sell-smart-lights/</guid>
+
+                                    <description>
+                        <![CDATA[PR exec says Govee "did not meet the standard required." ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Smart lighting manufacturer Govee is apologizing after a pair of books showing only the words “white supremacy” were featured in a marketing image on its website.</p>
+<p>The books were visible in an image (shown above) on Govee’s US website for bedroom lighting. Disturbingly, the books sat under toy animals on a shelf just above a child’s bed. Only the books’ spines were visible.</p>
+<p><a href="https://www.theverge.com/tech/937378/govee-white-supremacy-book-promotional-image">The Verge</a> was the first to report on the controversy after a reader contacted the publication. The publication reported that it contacted Govee, which subsequently removed the image but didn’t respond to the site's queries before it published its initial report.</p><p><a href="https://arstechnica.com/gadgets/2026/05/govee-says-it-mistakenly-licensed-white-supremacy-book-pic-to-sell-smart-lights/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/05/govee-says-it-mistakenly-licensed-white-supremacy-book-pic-to-sell-smart-lights/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>88</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/PC-1_ffbd8ec7-f183-40e0-acdb-89add26bcfa3-1152x648-1779898329.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/PC-1_ffbd8ec7-f183-40e0-acdb-89add26bcfa3-500x500.jpg" width="500"/>
+<media:credit>Govee</media:credit><media:text>Books with "White Supremacy" on their spines sit beside a clock. Another book in the image is curiously shown in reverse and is titled &lt;em&gt;Another Art Book&lt;/em&gt;, which is &lt;a href="https://www.abebooks.com/9783865218605/Another-Art-Book-3865218601/plp"&gt;the name of a real book by Jefferson Hack&lt;/a&gt;.</media:text></media:content>
+            </item>
+                    <item>
                 <title>Nvidia kills Windows XP-era Control Panel "after 20 years of dedicated service"</title>
                 <link>https://arstechnica.com/gadgets/2026/05/nvidia-kills-windows-xp-era-control-panel-after-20-years-of-dedicated-service/</link>
                                     <comments>https://arstechnica.com/gadgets/2026/05/nvidia-kills-windows-xp-era-control-panel-after-20-years-of-dedicated-service/#comments</comments>
@@ -45,7 +517,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>20</slash:comments>
+                                    <slash:comments>59</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/nvidia-control-panel-1152x648-1779893010.jpg" width="1152">
@@ -78,7 +550,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>26</slash:comments>
+                                    <slash:comments>70</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/EX60-Global-media-drive-in-Barcelona-1152x648.jpg" width="1152">
@@ -118,7 +590,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>44</slash:comments>
+                                    <slash:comments>55</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Razr-2026-1-1152x648.jpg" width="1152">
@@ -153,7 +625,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>114</slash:comments>
+                                    <slash:comments>176</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2263649204-1152x648.jpg" width="1152">
@@ -188,7 +660,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>166</slash:comments>
+                                    <slash:comments>193</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2214681415-1152x648-1779832466.jpg" width="1152">
@@ -222,7 +694,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>124</slash:comments>
+                                    <slash:comments>138</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/lucas-drone-1152x648-1779827554.jpg" width="1152">
@@ -258,471 +730,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>69</slash:comments>
+                                    <slash:comments>85</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/art002e009283large-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/art002e009283large-500x500.jpg" width="500"/>
 <media:credit>NASA</media:credit><media:text>A view of the heavily cratered eastern edge of the South Pole-Aitken Basin where NASA aims to establish a Moon Base.</media:text></media:content>
-            </item>
-                    <item>
-                <title>We're starting to see some PC makers respond to Apple's MacBook Neo</title>
-                <link>https://arstechnica.com/gadgets/2026/05/were-starting-to-see-some-pc-makers-respond-to-apples-macbook-neo/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/05/were-starting-to-see-some-pc-makers-respond-to-apples-macbook-neo/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Tue, 26 May 2026 20:47:31 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Intel]]></category>
-		<category><![CDATA[intel core]]></category>
-		<category><![CDATA[intel core series 3]]></category>
-		<category><![CDATA[macbook neo]]></category>
-		<category><![CDATA[wildcat lake]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/05/were-starting-to-see-some-pc-makers-respond-to-apples-macbook-neo/</guid>
-
-                                    <description>
-                        <![CDATA[Sub-$600 laptops have existed for years, but consistently good ones remain rare.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>It seems fair to say that <a href="https://arstechnica.com/gadgets/2026/03/apple-macbook-neo-review-can-a-mac-get-by-with-an-iphones-processor-inside/">Apple's MacBook Neo</a> took the rest of the PC industry by surprise. Companies are used to competing on price and features with $1,000-and-up Apple laptops like the MacBook Air and MacBook Pro, but their $600 and $700 models usually come with cut corners and compromises that are more noticeable than the Neo's. The CEO of Asus <a href="https://www.tomshardware.com/laptops/asus-chief-says-macbook-neos-affordable-pricing-came-as-a-shock-to-the-entire-pc-market-compares-usd599-notebook-to-a-tablet-and-content-consumption-device">admitted to being surprised</a> by the laptop's price (while simultaneously trying to downplay the Neo's value); <a href="https://signal65.com/research/windows-11-pcs-compared-to-macbook-neo/">a Microsoft-backed study</a> comparing PCs to the MacBook Neo included several laptops that can't compete with the Neo's price unless they're deeply discounted.</p>
-<p>In the last couple of weeks, we've started to see a more intentional and targeted response to the MacBook Neo from PC makers. These mostly seem to revolve around <a href="https://arstechnica.com/gadgets/2026/04/intels-non-ultra-core-cpus-are-new-silicon-this-year-for-a-change/">Intel's low-end Core Series 3 processors</a>, codenamed Wildcat Lake; while Intel's last few generations of low-end chips have mostly been rebrands of older and less power-efficient parts, Wildcat Lake is a new purpose-built budget chip that benefits from Intel's latest CPU and GPU architectures and its 18A manufacturing process. This should help these chips compete better with the Apple A18 Pro in the MacBook Neo.</p>
-<p>Many early Wildcat Lake systems have already been announced, though not all have included a price tag, and several have only been announced for the Chinese market as of this writing. Lenovo is planning to launch some <a href="https://psref.lenovo.com/Product/IdeaPad/IdeaPad_Slim_5_13IWC11">IdeaPad Slim models</a> with the new processors, with some optional spec upgrades including 16GB of RAM and a 120 Hz high-refresh-rate display. <a href="https://www.techspot.com/news/112452-asus-hp-unveil-intel-wildcat-lake-laptops-starting.html">Asus and HP</a> have also announced some early products.</p><p><a href="https://arstechnica.com/gadgets/2026/05/were-starting-to-see-some-pc-makers-respond-to-apples-macbook-neo/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/05/were-starting-to-see-some-pc-makers-respond-to-apples-macbook-neo/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>141</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/intel-core-series-3-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/intel-core-series-3-500x500.jpg" width="500"/>
-<media:credit>Intel</media:credit><media:text>Intel's Core Series 3 processor, codenamed Wildcat Lake. These chips may make it easier for PC makers to compete with the MacBook Neo.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Millions of AI agents imperiled by critical vulnerability in open source package</title>
-                <link>https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/</link>
-                                    <comments>https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Tue, 26 May 2026 19:50:33 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[AI agents]]></category>
-		<category><![CDATA[Starlette]]></category>
-		<category><![CDATA[vulnerability]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/</guid>
-
-                                    <description>
-                        <![CDATA["BadHost" was found in Starlette, a package with 325 million weekly downloads.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Millions of AI agents and tools around the world have been imperiled by a critical vulnerability that can allow hackers to breach the servers running them and make off with sensitive data and credentials to third-party accounts, a security researcher is warning.</p>
-<p>The vulnerability is present in Starlette, an open source framework that its developer says receives 325 million downloads per week. Thousands of other open source projects are also vulnerable because they require Starlette to work. The framework is an implementation of the ASGI (asynchronous server gateway interface), which allows large numbers of requests to be efficiently processed simultaneously. Starlette is the base of FastAPI and other widely used frameworks for building services in Python apps, as well as many others.</p>
-<h2>Trivial to exploit, millions of servers exposed</h2>
-<p>ASGI, and by extension Starlette, have access to servers running the MCP (model context protocol), which allows AI agents from major providers to access external sources, including user data bases, email and calendar accounts, and all manner of other resources. To connect with these external systems, MCP servers store credentials for each one, making them especially valuable storehouses for attackers to breach.</p><p><a href="https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>54</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Want an oxygen-rich atmosphere? Stuff oxygen’s friends in the mantle.</title>
-                <link>https://arstechnica.com/science/2026/05/the-oxygenation-of-earths-air-might-owe-a-lot-to-plate-tectonics/</link>
-                                    <comments>https://arstechnica.com/science/2026/05/the-oxygenation-of-earths-air-might-owe-a-lot-to-plate-tectonics/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scott K. Johnson]]>
-                </dc:creator>
-                <pubDate>Tue, 26 May 2026 18:30:58 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[atmospheric oxygen]]></category>
-		<category><![CDATA[geology]]></category>
-		<category><![CDATA[oxygenation]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/05/the-oxygenation-of-earths-air-might-owe-a-lot-to-plate-tectonics/</guid>
-
-                                    <description>
-                        <![CDATA[Getting carbon and sulfur into Earth’s interior may be part of oxygen’s story.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Planet Earth has some pretty great qualities going for it. (Negative reviews mostly revolve around the staff and clientele.) Pretty high on the list of positives is a richly oxygenated atmosphere. But that’s something that evolved and built up over a couple billion years, only eventually resulting in a world conducive to animal life like us.</p>
-<p>Scientists have many ideas about what could have caused oxygen to increase, and it seems that <a href="https://arstechnica.com/science/2023/05/the-complicated-history-of-how-the-earths-atmosphere-became-breathable/">a number of them are probably correct</a>. No one thing in isolation seems to explain it. Life is part of the story, with photosynthetic life pumping out oxygen. The chemistry of the solid Earth also had a role to play, both through supporting photosynthetic life and through reactions that can shuttle oxygen between the atmosphere and rocks deep inside the Earth.</p>
-<p>A new study led by Wei Shi of the Chengdu University of Technology suggests that evidence of changes in the subduction of tectonic plates—the process by which they disappear down into Earth’s interior—lines up with the timing of jumps in oxygen levels.</p><p><a href="https://arstechnica.com/science/2026/05/the-oxygenation-of-earths-air-might-owe-a-lot-to-plate-tectonics/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/05/the-oxygenation-of-earths-air-might-owe-a-lot-to-plate-tectonics/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>18</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-157380693-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-157380693-500x500.jpg" width="500"/>
-<media:credit>AZemdega</media:credit></media:content>
-            </item>
-                    <item>
-                <title>FBI agent explains how easy it is to ID people posting AI porn without consent</title>
-                <link>https://arstechnica.com/tech-policy/2026/05/fbi-easily-nabs-man-selling-sexy-deepfakes-who-used-his-own-photo-in-profile/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/05/fbi-easily-nabs-man-selling-sexy-deepfakes-who-used-his-own-photo-in-profile/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Tue, 26 May 2026 17:46:01 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[ai porn]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[etc]]></category>
-		<category><![CDATA[fbi]]></category>
-		<category><![CDATA[nudify]]></category>
-		<category><![CDATA[revenge porn]]></category>
-		<category><![CDATA[take it down act]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/05/fbi-easily-nabs-man-selling-sexy-deepfakes-who-used-his-own-photo-in-profile/</guid>
-
-                                    <description>
-                        <![CDATA[A creepy saved post on Instagram linked man to AI porn account, FBI says.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The earliest arrests under the Take It Down Act (TIDA) suggest that cops don't have to work too hard to identify people illegally posting and selling nonconsensual sexualized deepfakes of women online.</p>
-<p>Last week, the FBI <a href="https://www.justice.gov/usao-edny/pr/two-individuals-arrested-publishing-ai-deepfake-pornography-violation-take-it-down-act">arrested</a> two men after visiting porn websites and clicking on hashtags like #AI #Deepfakes or video titles like "AI_tits" or "Ass_AI."</p>
-<p>One suspect accused of violating TIDA was 20-year-old Arturo Hernandez. He allegedly posted 113 albums viewed nearly a million times featuring AI-generated sexualized images and videos of approximately 50 women. Victims included political figures, actresses, and musicians, as well as women who are not public figures, such as female individuals who attended his Texas high school and an Instagram friend.</p><p><a href="https://arstechnica.com/tech-policy/2026/05/fbi-easily-nabs-man-selling-sexy-deepfakes-who-used-his-own-photo-in-profile/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/05/fbi-easily-nabs-man-selling-sexy-deepfakes-who-used-his-own-photo-in-profile/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>63</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2228756838medium-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2228756838medium-500x500.jpg" width="500"/>
-<media:credit>Francesco Carta fotografo | Moment</media:credit></media:content>
-            </item>
-                    <item>
-                <title>3D-printable humanoid legs let robotics experiments run wild</title>
-                <link>https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild/</link>
-                                    <comments>https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jeremy Hsu]]>
-                </dc:creator>
-                <pubDate>Tue, 26 May 2026 17:16:07 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Bipedalism]]></category>
-		<category><![CDATA[Hugging Face]]></category>
-		<category><![CDATA[humanoid robots]]></category>
-		<category><![CDATA[robot training]]></category>
-		<category><![CDATA[Robotics]]></category>
-		<category><![CDATA[robots]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild/</guid>
-
-                                    <description>
-                        <![CDATA[Hugging Face debuts $2,500 bipedal robot project for builders and researchers.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A $2,500 pair of humanoid robot legs built from 3D-printed parts and off-the-shelf components is not going to win marathons just yet. But such relatively inexpensive hardware could enable researchers to more easily test and train AI-powered robotics software in a physical body during real-world experiments.</p>
-<p>The newly available <a href="https://github.com/Virgileboat/lerobot-humanoid">LeRobot Humanoid</a> project comes from the machine-learning and AI development platform <a href="https://arstechnica.com/tag/hugging-face/">Hugging Face</a>. The full-stack release gives robot builders and researchers access to a bill of materials, files for 3D-printable parts, wiring documentation, and physical assembly instructions—but it also includes software tools for calibrating and controlling the robot in both the physical body and in simulation.</p>
-<p>“If you are looking for the most advanced humanoid robot, this is not it,” wrote <a href="https://huggingface.co/VirgileBatto">Virgile Batto</a>, a robotics engineer at Hugging Face, in a <a href="https://huggingface.co/blog/VirgileBatto/lerobot-humanoid">blog post</a> coauthored with other colleagues. “If you are looking for a humanoid you can build, understand, repair, instrument, simulate, and use for learning experiments, this is the robot we are trying to make.”</p><p><a href="https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>31</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Hugging-Face-LeHumanoid-Robot-legs-1152x648.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Hugging-Face-LeHumanoid-Robot-legs-500x500.png" width="500"/>
-<media:credit>Hugging Face</media:credit><media:text>Hugging Face's LeHumanoid Robot offers a $2,500 bipedal robot platform as a starting price.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Windows' classic 3D Space Cadet pinball is getting a physical re-creation</title>
-                <link>https://arstechnica.com/gaming/2026/05/windows-classic-3d-space-cadet-pinball-is-getting-a-physical-re-creation/</link>
-                                    <comments>https://arstechnica.com/gaming/2026/05/windows-classic-3d-space-cadet-pinball-is-getting-a-physical-re-creation/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Tue, 26 May 2026 16:24:02 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[3D space cadet]]></category>
-		<category><![CDATA[hackers]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[pinball]]></category>
-		<category><![CDATA[Windows]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/05/windows-classic-3d-space-cadet-pinball-is-getting-a-physical-re-creation/</guid>
-
-                                    <description>
-                        <![CDATA[But there are some real-world constraints that virtual pinball could easily ignore.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>If you owned a Windows computer in the late '90s or early '00s, you probably remember <a href="https://archive.org/details/3-d-pinball-for-windows.-7z"><em>3D Pinball for Windows - Space Cadet</em></a>, a surprisingly competent virtual table included for free with multiple Microsoft OS releases through Windows XP. Despite the game's authenticity to real pinball, <em>Space Cadet</em> wasn't based on an extant physical table, but was merely one part of the <a href="https://collectionchamber.blogspot.com/p/full-tilt-pinball.html"><em>Full Tilt! Pinball</em></a> software collection sold by Maxis starting in 1995.</p>
-<p>In the intervening years, hobbyists and enthusiasts have <a href="https://www.reddit.com/r/pinball/comments/k16dqo/physical_space_cadet_pinball/">discussed</a> the <a href="https://pinside.com/pinball/forum/topic/one-more-post-about-space-cadet">possibility</a> of crafting a homebrew physical table based on <em>Space Cadet</em> many times, without much tangible progress to show for it. A company called Deeproot Pinball went so far as to <a href="https://www.reddit.com/r/pinball/comments/u6md5l/deeproot_made_a_prototype_for_a_game_called/">develop a reskinned prototype</a> of <em>Space Cadet</em>'s layout for a <a href="https://twip.kineticist.com/p/this-week-in-pinball-april-13th-2020">planned 2021 release</a> before the whole company <a href="https://www.pinballnews.com/site/2021/08/21/game-over-for-deeproot-pinball/">went under amid fraud allegations</a>.</p>
-<p>Where Deeproot failed, though, hobbyist CNCDan hopes to succeed in creating a physical <em>Space Cadet</em> table. In <a href="https://www.youtube.com/watch?v=BU_02HABZ4s">a video</a>, he documents the start of his build process, which already includes 3D-printed mechanical flippers, pop bumpers (complete with embedded LEDs), slingshots, and even a raised playfield, all designed to mimic the look and feel of the original Windows table.</p><p><a href="https://arstechnica.com/gaming/2026/05/windows-classic-3d-space-cadet-pinball-is-getting-a-physical-re-creation/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2026/05/windows-classic-3d-space-cadet-pinball-is-getting-a-physical-re-creation/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>46</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/3dspacecadet-1152x648-1779811060.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/3dspacecadet-500x500-1779811072.jpeg" width="500"/>
-<media:credit>Microsoft</media:credit><media:text>You can almost hear the '90s era hard drive spinning up underneath a CRT monitor.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Review: The Boroughs is a smart, pitch-perfect creature feature</title>
-                <link>https://arstechnica.com/culture/2026/05/review-the-boroughs-is-a-smart-pitch-perfect-creature-feature/</link>
-                                    <comments>https://arstechnica.com/culture/2026/05/review-the-boroughs-is-a-smart-pitch-perfect-creature-feature/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Tue, 26 May 2026 14:35:13 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Duffer brothers]]></category>
-		<category><![CDATA[entertainment]]></category>
-		<category><![CDATA[Netflix]]></category>
-		<category><![CDATA[reviews]]></category>
-		<category><![CDATA[streaming television]]></category>
-		<category><![CDATA[The Boroughs]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2026/05/review-the-boroughs-is-a-smart-pitch-perfect-creature-feature/</guid>
-
-                                    <description>
-                        <![CDATA[Top-notch ensemble cast, smart writing, and an engrossing supernatural mystery make for a winning combo.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<div class="ars-video"><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/PsvUvqXoTpE?start=0&amp;wmode=transparent"></div></div>
-<p>The <a href="https://en.wikipedia.org/wiki/The_Duffer_Brothers">Duffer brothers</a> wrapped up their blockbuster series <a href="https://arstechnica.com/culture/2026/01/review-stranger-things-frustrating-finale-didnt-quite-stick-the-landing/"><em>Stranger Things</em></a> earlier this year and also departed Netflix for a lucrative new production deal with Paramount. But a couple of their production projects remain with Netflix: the animated series <a href="https://en.wikipedia.org/wiki/Stranger_Things:_Tales_from_%2785"><em>Stranger Things: Tales from '85</em></a>, which dropped in April to mixed reviews; and the newly released <a href="https://en.wikipedia.org/wiki/The_Boroughs"><em>The Boroughs</em></a>, a supernatural thriller set in a retirement community in the New Mexico desert. I'm happy to report that <em>The Boroughs</em> is a creative home run, with a smart, witty script, terrific ensemble cast, and engrossing central mystery.</p>
-<p><strong>(Some spoilers below but no major reveals.)</strong></p>
-<p>Sam Cooper (Alfred Molina) is a recently widowed, retired aeronautical engineer who (very) reluctantly moves into The Boroughs retirement community. It was his late wife's choice to move there, and the company refuses to let him out of the contract he co-signed when Lilly (Jane Kaczmarek) was still alive. So he's grumpy about the whole arrangement, snapping at his long-suffering daughter, Claire (Jena Malone) and pretty much anyone else who crosses his path.</p><p><a href="https://arstechnica.com/culture/2026/05/review-the-boroughs-is-a-smart-pitch-perfect-creature-feature/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2026/05/review-the-boroughs-is-a-smart-pitch-perfect-creature-feature/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>42</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/boroughs14-1152x648-1779640645.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/boroughs14-500x500.jpg" width="500"/>
-<media:credit>Netflix</media:credit></media:content>
-            </item>
-                    <item>
-                <title>A global brand but local cars is Audi's future, says CEO</title>
-                <link>https://arstechnica.com/cars/2026/05/audis-boss-talks-local-production-wagons-and-maybe-a-new-r8-supercar/</link>
-                                    <comments>https://arstechnica.com/cars/2026/05/audis-boss-talks-local-production-wagons-and-maybe-a-new-r8-supercar/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Tue, 26 May 2026 14:21:33 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Audi]]></category>
-		<category><![CDATA[Audi R8]]></category>
-		<category><![CDATA[station wagon]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/05/audis-boss-talks-local-production-wagons-and-maybe-a-new-r8-supercar/</guid>
-
-                                    <description>
-                        <![CDATA[We talk with Gernot Döllner, CEO of Audi AG, about where he's taking the company.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<aside class="pullbox sidebar fullwidth">Audi provided flights from Washington, DC, to Munich, Germany, and accommodation so Ars could see its new Q, as well as drive its new RS5, which you can read about later this week. While we were there, we spoke with the CEO. Ars does not accept paid editorial content.</aside>
-<p>MUNICH—One of the defining car industry trends of the early 21st century was the <a href="https://www.bloomberg.com/news/articles/2009-06-04/can-fords-world-car-bet-pay-off">global, or world, car</a>. Spread the development costs out across multiple markets, the thinking went, and efficiency takes care of the rest. At least that was the idea; post-COVID, post-<a href="https://arstechnica.com/cars/2021/03/the-massive-cargo-ship-that-blocked-the-suez-canal-is-now-moving-again/"><em>Ever Given</em></a>, and in a world now erupting into <a href="https://arstechnica.com/cars/2025/03/trump-on-car-tariffs-i-couldnt-care-less-if-they-raise-prices/">trade wars</a> and <a href="https://arstechnica.com/cars/2022/03/the-chaos-of-war-and-covid-continues-to-close-car-factories/">actual shooting wars</a>, plans need to change.</p>
-<p>"With Audi, we have to be flexible on a global perspective," said Audi AG CEO Gernot Döllner, and the new Q9 is an example of that. "It's really the car where US requirements were at the center of the product development process. It's dedicated to the US for the first time. Global launch, not Europe and then US. And for the Q9, it's the US first and then it's also dominated the volume we expect by the US American market. And then after the US, we will have the global launch of that car," he said.</p>
-<p>Yes, that means bigger and better cup holders that can handle the insulated mugs that everyone had to have, <a href="https://arstechnica.com/cars/2026/05/take-a-look-inside-audis-new-big-three-row-q9-suv/">as we saw from the Q9's interior</a>. But it also means paying more attention to things like the JD Power surveys and so on. For example, for the Q9, "we rearranged the smart door panels we have in our A5, A6, and Q5 cars and came back to dedicated switches, optimized the interior cooling, and of course seating, the roof concept, all that with a key customer focus," Döllner said.</p><p><a href="https://arstechnica.com/cars/2026/05/audis-boss-talks-local-production-wagons-and-maybe-a-new-r8-supercar/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/05/audis-boss-talks-local-production-wagons-and-maybe-a-new-r8-supercar/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>29</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/A251501_large-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/A251501_large-500x500.jpg" width="500"/>
-<media:credit>Audi</media:credit><media:text>Audi CEO Gernot Döllner to the right of the Audi Concept C.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Analyst on China's spent rocket stages: "Things only continue to get worse"</title>
-                <link>https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/</link>
-                                    <comments>https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Tue, 26 May 2026 13:57:30 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[china]]></category>
-		<category><![CDATA[rocket bodies]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[upper stages]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/</guid>
-
-                                    <description>
-                        <![CDATA[Spent upper stages are the most dangerous kind of space debris.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Up until a decade ago, China had never launched as many as 20 orbital rockets a year. But beginning in 2022, the Asian country launched 64 rockets and last year reached a record total of 93, marking it as the second-most productive space power in the world.</p>
-<p>Further growth is anticipated from both the company's state-owned enterprises as well as a rapidly expanding number of private launch companies. There is nothing wrong with this, as China's rapid growth in launch has been mirrored by the United States and, in particular, SpaceX.</p>
-<p>However there is an issue with these launches, as China appears to be ignoring long-established norms about disposing of the upper stages of rockets. These are the parts of the vehicle that separate from the first stage of a rocket and push a satellite or spacecraft into orbit.</p><p><a href="https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/05/analyst-on-chinas-spent-rocket-stages-things-only-continue-to-get-worse/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>104</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/rocket-body-mass-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/rocket-body-mass-500x500.jpg" width="500"/>
-<media:credit>Jim Shell</media:credit><media:text>Growth in rocket body mass in long-lived orbits since January 2022.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Amazing interior, controversial exterior: Ferrari's first electric car</title>
-                <link>https://arstechnica.com/cars/2026/05/the-most-controversial-ferrari-ever-meet-the-luce-its-first-ever-ev/</link>
-                                    <comments>https://arstechnica.com/cars/2026/05/the-most-controversial-ferrari-ever-meet-the-luce-its-first-ever-ev/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Tue, 26 May 2026 12:56:32 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Ferrari Luce]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/05/the-most-controversial-ferrari-ever-meet-the-luce-its-first-ever-ev/</guid>
-
-                                    <description>
-                        <![CDATA[The interior is spectacular; the exterior looks better in person than on screen.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<aside class="pullbox sidebar fullwidth">Ferrari provided flights from Washington, DC, to Rome and accommodation so Ars could see the Luce. Ars does not accept paid editorial content.</aside>
-<p>ROME—The arrival of any new Ferrari that isn't a two-seater is usually controversial, but the Luce might be the most divisive yet. It's Ferrari's first four-door sedan and first five-seater, but perhaps most importantly—especially for readers of Ars Technica—it's Ferrari's first battery-electric vehicle.</p>
-<p>Each of those individually is probably anathema to some Ferrari fans, never mind all three together. But it's 2026, and the reality is that the manufacturer absolutely needs an emissions-free offering for vitally important markets like China and Silicon Valley. And now, here it is.</p>
-<p>Like some legendary Ferraris of the past, the company chose to work with an outside design team for the Luce, in this case LoveFrom, helmed by Jony Ive and Marc Newson. Many will detect some hints of Apple in the car's design; more than one journalist said they could imagine it wearing that computer company's logo rather than the prancing horse shields that dot its exterior. But the almost cab-forward glasshouse perhaps calls to mind the Lotus Etna concept, with some Ferrari F90 (a one-off for the Sultan of Brunei) here and there, too. And the four round tail lights obviously reference '90s designs like the 360 and 550.</p><p><a href="https://arstechnica.com/cars/2026/05/the-most-controversial-ferrari-ever-meet-the-luce-its-first-ever-ev/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/05/the-most-controversial-ferrari-ever-meet-the-luce-its-first-ever-ev/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>263</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Luce_22rtv3_lightsOn_6000x3375-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Luce_22rtv3_lightsOn_6000x3375-500x500.jpg" width="500"/>
-<media:credit>Ferrari</media:credit><media:text>I think the shape works best in Rosso Dino, but I still need to see the car in sunlight.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Driving Porsche's most powerful car—and no, it's not a 911</title>
-                <link>https://arstechnica.com/cars/2026/05/porsches-cayenne-coupe-electric-brings-formula-e-tech-to-the-autobahn/</link>
-                                    <comments>https://arstechnica.com/cars/2026/05/porsches-cayenne-coupe-electric-brings-formula-e-tech-to-the-autobahn/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Tim Stevens]]>
-                </dc:creator>
-                <pubDate>Tue, 26 May 2026 12:00:11 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[car review]]></category>
-		<category><![CDATA[First drive]]></category>
-		<category><![CDATA[Porsche Cayenne]]></category>
-		<category><![CDATA[Porsche Cayenne Coupe electric]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/05/porsches-cayenne-coupe-electric-brings-formula-e-tech-to-the-autobahn/</guid>
-
-                                    <description>
-                        <![CDATA[1,139 horsepower, 400 kW charging, brutally fast, and brutally expensive.
-]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<aside class="pullbox sidebar fullwidth">Porsche provided flights from Albany, New York, to Munich, Germany, and accommodation so Ars could drive the electric Cayenne Coupe. Ars does not accept paid editorial content.</aside>
-<p>MUNICH, GERMANY—Think about every fast Porsche you've ever seen on the road—the ones with big wings, bold colors, and wide wheels. Now get ready for an uncomfortable fact: None of them had more horsepower than the SUV you see pictured here. This is the new Cayenne Turbo Coupe, a fastback, dual-motor, upgraded version of Porsche's electric SUV.</p>
-<p>It makes a whopping 1,139 hp (850 kW) and 1,106 lb-ft of torque (1,500 Nm), enough to drive this 5,637 lb (2,557 kg) machine and its 113-kilowatt-hour battery pack from zero to 60 mph (97 km/h)  in 2.4 seconds. That makes it not only Porsche's most powerful production car ever but also among its quickest, bested only by the <a href="https://arstechnica.com/cars/2024/03/porsche-adds-1000-horsepower-taycan-turbo-gt-to-its-electric-vehicle-lineup/">Taycan Turbo GT</a>.</p>
-<p>But unlike that pared-down, performance-oriented take on Porsche's sultry electric sedan, the Cayenne Coupe is meant to be an everyday hauler for friends, family, and whatever else you can fit underneath its hatch. Does it succeed? That's what I went to Munich to find out.</p><p><a href="https://arstechnica.com/cars/2026/05/porsches-cayenne-coupe-electric-brings-formula-e-tech-to-the-autobahn/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/05/porsches-cayenne-coupe-electric-brings-formula-e-tech-to-the-autobahn/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>81</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/2026-Porsche-Cayenne-Coupe-Turbo-2-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/2026-Porsche-Cayenne-Coupe-Turbo-2-500x500.jpg" width="500"/>
-<media:credit>Tim Stevens</media:credit><media:text>The SUV saved Porsche from ruin, now it's made a ruinously powerful SUV.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Citing Gandalf, Pope Leo says we must "disarm" AI</title>
-                <link>https://arstechnica.com/tech-policy/2026/05/citing-gandalf-pope-leo-says-we-must-disarm-ai/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/05/citing-gandalf-pope-leo-says-we-must-disarm-ai/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Nate Anderson]]>
-                </dc:creator>
-                <pubDate>Mon, 25 May 2026 21:07:42 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[Catholic Church]]></category>
-		<category><![CDATA[morality]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/05/citing-gandalf-pope-leo-says-we-must-disarm-ai/</guid>
-
-                                    <description>
-                        <![CDATA[In an age of AI, Pope looks for "artisans of hope."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>With the co-founder of Anthropic at his side today in Rome, Pope Leo XIV <a href="https://www.vatican.va/content/leo-xiv/en/speeches/2026/may/documents/20260525-presentazione-enciclica.html">released</a> a <a href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html">major new encyclical</a>—his first—called <em>Magnifica Humanitas</em> (<em>Magnificent Humanity</em>). It calls for AI to be "disarmed" in service of the common good.</p>
-<p>"The word is strong," Leo admits, but he chose the language of "disarmament" deliberately, "because this moment needs words capable of attracting attention, awakening consciences, and indicating paths forward for humanity." AI today must be "freed from logics that turn it into an instrument of domination, exclusion, and death."</p>
-<p>The 40,000-word encyclical contains uncompromising critiques of AI-powered autonomous weapons, neo-colonial attitudes toward data collection, and the hoarding of "new forms of property, such as patents, algorithms, digital platforms, technological infrastructure, and data."</p><p><a href="https://arstechnica.com/tech-policy/2026/05/citing-gandalf-pope-leo-says-we-must-disarm-ai/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/05/citing-gandalf-pope-leo-says-we-must-disarm-ai/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>199</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2277573960-1-1152x648-1779741792.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2277573960-1-500x500-1779741774.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>Pope Leo XIV presents &lt;em&gt;Magnifica Humanitas&lt;/em&gt; at the Vatican.</media:text></media:content>
-            </item>
-                    <item>
-                <title>US's big bet on quantum computing may not be entirely legal</title>
-                <link>https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[John Timmer]]>
-                </dc:creator>
-                <pubDate>Mon, 25 May 2026 12:00:15 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[foundry]]></category>
-		<category><![CDATA[funding]]></category>
-		<category><![CDATA[government]]></category>
-		<category><![CDATA[ibm]]></category>
-		<category><![CDATA[quantum computing]]></category>
-		<category><![CDATA[starups]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/</guid>
-
-                                    <description>
-                        <![CDATA[Deal also launched the first quantum foundry company, but is there a need for it?]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Last week, the US government announced <a href="https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms/">$2 billion in investments</a> in quantum computing companies, allocating $100 million each to a range of startups in exchange for equity in the companies. Those could be make-or-break investments for many companies that are likely years away from a product that could see widespread use. But a member of the US Congress is now arguing that those deals are illegal, as Congress did not allocate the money for this purpose—instead, it was meant to support public research in semiconductors.</p>
-<p>But the biggest chunk of money would go to a company that likely wouldn't exist if it weren't for the government's backing. Anderon will be set up with a billion dollars each from IBM and the government and will inherit personnel and IP from IBM. It will serve as a foundry for fabricating quantum processing units and will contract its services out to IBM and any other company that wants access to cutting-edge hardware.</p>
-<h2>Is any of this legal?</h2>
-<p>Zoe Lofgren (D–Calif.), the ranking member of the House Science, Space, and Technology Committee, <a href="https://lofgren.house.gov/media/press-releases/ranking-member-lofgren-calls-out-trump-admin-illegal-use-chips-and-science">made it clear</a> that she is not happy with how the government is using its money to support this technology.</p><p><a href="https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>111</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/image-2-1152x648.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/image-2-500x500.jpeg" width="500"/>
-<media:credit>IBM</media:credit><media:text>A wafer full of quantum processors fabricated by IBM. In the future, that fabrication will be done by a newly launched company.</media:text></media:content>
             </item>
             </channel>
 </rss>
