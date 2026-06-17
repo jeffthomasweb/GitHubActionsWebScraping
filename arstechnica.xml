@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Tue, 16 Jun 2026 22:33:31 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jun 2026 14:41:07 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,72 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Native NACS ports, infotainment upgrade for MY27 Porsche Taycan</title>
+                <link>https://arstechnica.com/cars/2026/06/native-nacs-ports-infotainment-upgrade-for-my27-porsche-taycan/</link>
+                                    <comments>https://arstechnica.com/cars/2026/06/native-nacs-ports-infotainment-upgrade-for-my27-porsche-taycan/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Wed, 17 Jun 2026 12:00:45 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[NACS]]></category>
+		<category><![CDATA[Porsche Taycan]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/06/native-nacs-ports-infotainment-upgrade-for-my27-porsche-taycan/</guid>
+
+                                    <description>
+                        <![CDATA[The bigger battery is standard and there are now simulated "E-Shifts."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Has the allure of the Porsche Taycan waned? The four-door electric sedan that thinks it's a GT sold well for the first few years after its <a href="https://arstechnica.com/cars/2019/09/the-porsche-taycan-every-bit-as-good-as-a-200000-porsche-should-be/">initial introduction in 2020</a>, but sales began to slip even before the brand added the smaller, more affordable <a href="https://arstechnica.com/cars/2024/04/the-2024-porsche-macan-ev-has-character-pace-and-the-right-badge/">Macan SUV</a> to its electric lineup. The EV went through its midlife refresh a couple of years ago, but it seems Stuttgart wasn't done yet; Porsche has some more tweaks for model year 2027, at least for the US market.</p>
+<p>For one thing, the 105 kWh performance battery is standard across the Taycan range now—which starts at $111,900—and can charge at up to 320 kW with an 800 V DC fast charger.</p>
+<p>And as long as you're not ordering the stripped-out <a href="https://arstechnica.com/cars/2024/03/porsche-adds-1000-horsepower-taycan-turbo-gt-to-its-electric-vehicle-lineup/">Turbo GT with the Weissach Pack</a>, there's a new plug for that—the CCS1 port that usually lives on the passenger side has been replaced by a NACS port. So no adapter is needed to charge at any of those thousands of Tesla superchargers, but only a small percentage of them operate at sufficient voltage to charge near the Taycan's limit. But IONNA has native NACS chargers capable of 400 kW, and Porsche will provide a CCS1 adapter to use with Electrify America and other 800 V chargers.</p><p><a href="https://arstechnica.com/cars/2026/06/native-nacs-ports-infotainment-upgrade-for-my27-porsche-taycan/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/06/native-nacs-ports-infotainment-upgrade-for-my27-porsche-taycan/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>28</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/m10-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/m10-500x500.jpg" width="500"/>
+<media:credit>Porsche</media:credit><media:text>One of our favorite electric vehicles is getting a little long in the tooth, but that hasn't stopped Porsche from adding a new charge port, and new infotainment.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Windows and Linux users: The deadline to update Secure Boot keys is near</title>
+                <link>https://arstechnica.com/security/2026/06/windows-and-linux-users-the-deadline-to-update-secure-boot-keys-is-near/</link>
+                                    <comments>https://arstechnica.com/security/2026/06/windows-and-linux-users-the-deadline-to-update-secure-boot-keys-is-near/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 17 Jun 2026 11:15:17 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[bootkits]]></category>
+		<category><![CDATA[secure boot]]></category>
+		<category><![CDATA[uefi]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/06/windows-and-linux-users-the-deadline-to-update-secure-boot-keys-is-near/</guid>
+
+                                    <description>
+                        <![CDATA[What you need to know about the expiration of keys securing your machine's boot sequence.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The clock is ticking for Windows and Linux users to update cryptographic keys that protect their systems against firmware-based UEFI infections, a pernicious form of malware that loads before operating system and anti-malware protections start.</p>
+<p>Beginning June 24, three certificates that cryptographically verify that each piece of firmware and software that loads during system boot will expire. The Microsoft-signed certificates are the linchpins of Secure Boot, a Microsoft-designed chain of trust. Secure Boot checks the digital signatures of all firmware that loads during system startup to ensure it originates from a trusted provider, such as the manufacturer of the motherboard the system runs on.</p>
+<p>Secure Boot is designed to thwart UEFI bootkits, a form of malware that alters the Unified Extensible Firmware Interface, the successor to the BIOS, both of which begin the initial boot sequence. Because these bootkits load before the OS and most other code, they can be difficult to detect. Once installed, they typically load malware onto the OS that steals credentials, backdoors the system, or performs other malicious actions. Even when the OS is disinfected, the bootkit can reinfect the system. Bootkits survive OS reinstallations as well.</p><p><a href="https://arstechnica.com/security/2026/06/windows-and-linux-users-the-deadline-to-update-secure-boot-keys-is-near/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/06/windows-and-linux-users-the-deadline-to-update-secure-boot-keys-is-near/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>51</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/computer-power-button-1000x648.jpg" width="1000">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/computer-power-button-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
                 <title>Trump admin tries to block Clean Air Act lawsuit over xAI's gas turbines</title>
                 <link>https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war/</link>
                                     <comments>https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war/#comments</comments>
@@ -46,7 +112,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>21</slash:comments>
+                                    <slash:comments>64</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/xai-grok-1152x648.jpg" width="1152">
@@ -79,7 +145,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>8</slash:comments>
+                                    <slash:comments>28</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1166474639-1152x648.jpg" width="1152">
@@ -114,7 +180,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>4</slash:comments>
+                                    <slash:comments>18</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1906194565-1152x648.jpg" width="1152">
@@ -149,7 +215,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>26</slash:comments>
+                                    <slash:comments>68</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/amazon-leo-1152x648.jpg" width="1152">
@@ -181,13 +247,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>Last month, Anthropic <a href="https://x.com/bcherny/status/2040206441756471399?lang=en">announced a billing change</a> that would have substantially increased costs for heavy users of <a href="https://code.claude.com/docs/en/agent-sdk/overview">its automation-focused Claude Agent SDK</a>, including many third-party apps. On Monday, though, Anthropic abruptly announced it had paused those pricing changes just as they were set to take effect, allowing Agent SDK users to continue drawing from the more generous usage limits in their existing Claude subscriptions.</p>
-<p>The plan, as <a href="https://x.com/ClaudeDevs/status/2054610152817619388">announced on May 13</a>, would have treated usage of the Claude Agent SDK (including via third-party apps and <a href="https://code.claude.com/docs/en/headless">the programmatic "claude -p" command</a>) separately from "standard" Claude usage via the chat interface or the official Claude CLI. As of June 15, Anthropic said that kind of outside SDK usage would be billed at <a href="https://platform.claude.com/docs/en/about-claude/pricing">Anthropic's prevailing API rates</a>, with subscribers receiving a simple monthly usage credit equal to their subscription price.</p>
+<p>The plan, as <a href="https://x.com/ClaudeDevs/status/2054610152817619388">announced on May 13</a>, would have treated usage of the Claude Agent SDK (including via third-party apps and <a href="https://code.claude.com/docs/en/headless">the programmatic "claude -p" command</a>) separately from "standard" Claude usage via the chat interface or the official Claude CLI. At the time, Anthropic said that, as of June 15, that kind of outside SDK usage would be billed at <a href="https://platform.claude.com/docs/en/about-claude/pricing">Anthropic's prevailing API rates</a>, with subscribers receiving a simple monthly usage credit equal to their subscription price.</p>
 <p>That would have been a major change from the current setup, where Agent SDK use is limited only by the <a>standard</a> weekly <a href="https://support.claude.com/en/articles/11049741-what-is-the-max-plan#h_cfd2904008">caps</a> applied to a user's current Claude subscription tier. Those generous limits allow power users to squeeze a lot more usage out of those paid subscriptions than they would get by paying the same price for API fees. <a href="https://fazm.ai/blog/claude-pro-vs-api-cost-comparison">One analysis suggests</a> that Claude Opus users start saving money from their subscription after just two to three messages per day, and that their subscription could be worth many multiples of its monthly cost in API usage.</p><p><a href="https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/">Read full article</a></p>
 <p><a href="https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>28</slash:comments>
+                                    <slash:comments>71</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/claude37_header-1152x648.jpg" width="1152">
@@ -219,7 +285,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>58</slash:comments>
+                                    <slash:comments>78</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/larry-ellison-and-trump-1152x648-1781632802.jpg" width="1152">
@@ -258,7 +324,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>61</slash:comments>
+                                    <slash:comments>94</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Hegseth-Congress-1024x648.jpg" width="1024">
@@ -294,7 +360,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>28</slash:comments>
+                                    <slash:comments>35</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/Android-statue-1152x648.jpg" width="1152">
@@ -329,7 +395,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>94</slash:comments>
+                                    <slash:comments>110</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1350384252-1152x648.jpg" width="1152">
@@ -365,7 +431,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>105</slash:comments>
+                                    <slash:comments>122</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Cursor-1152x648-1781627048.png" width="1152">
@@ -402,7 +468,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>131</slash:comments>
+                                    <slash:comments>169</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1828746438-1152x648.jpg" width="1152">
@@ -434,7 +500,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>38</slash:comments>
+                                    <slash:comments>40</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2177874163-1152x648-1781618456.jpg" width="1152">
@@ -470,7 +536,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>126</slash:comments>
+                                    <slash:comments>146</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/ars_2026_survey-1152x648-1781525563.jpg" width="1152">
@@ -506,7 +572,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>75</slash:comments>
+                                    <slash:comments>80</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2242817595-1152x648.jpg" width="1152">
@@ -539,7 +605,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>142</slash:comments>
+                                    <slash:comments>155</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Commodore-Callback-8020-BASIC-Beige-005-1152x648.png" width="1152">
@@ -577,7 +643,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>46</slash:comments>
+                                    <slash:comments>47</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/spectrumroll-1152x648.jpg" width="1152">
@@ -612,7 +678,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>80</slash:comments>
+                                    <slash:comments>85</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/04/GettyImages-1232060072-1152x648.jpeg" width="1152">
@@ -645,81 +711,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>214</slash:comments>
+                                    <slash:comments>262</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/social-apps-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/social-apps-500x500.jpg" width="500"/>
 <media:credit>Getty Images | lixu</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Chipmaker Nvidia seeks to raise over $25B in first bond deal since 2021</title>
-                <link>https://arstechnica.com/ai/2026/06/chipmaker-nvidia-seeks-to-raise-over-25b-in-first-bond-deal-since-2021/</link>
-                                    <comments>https://arstechnica.com/ai/2026/06/chipmaker-nvidia-seeks-to-raise-over-25b-in-first-bond-deal-since-2021/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Michelle Chan and Tim Bradshaw, Financial Times]]>
-                </dc:creator>
-                <pubDate>Mon, 15 Jun 2026 19:07:02 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[NVIDIA]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/06/chipmaker-nvidia-seeks-to-raise-over-25b-in-first-bond-deal-since-2021/</guid>
-
-                                    <description>
-                        <![CDATA[Debt sale set to test investor appetite for further exposure to AI sector amid a deluge of borrowing.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Chipmaker Nvidia is planning to sell $25 billion of investment-grade debt in the US on Monday, its first bond sale in five years, in a test of investor appetite for further exposure to the AI sector.</p>
-<p>In a marquee seven-part bond offering, the company will issue a wide range of maturities from two years to 30 years, according to a term sheet seen by the FT.</p>
-<p>The issuance was upsized from $20 billion after receiving more than $85 billion in orders by early afternoon in New York, according to people familiar with the deal.</p><p><a href="https://arstechnica.com/ai/2026/06/chipmaker-nvidia-seeks-to-raise-over-25b-in-first-bond-deal-since-2021/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/06/chipmaker-nvidia-seeks-to-raise-over-25b-in-first-bond-deal-since-2021/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>61</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/nvidia-chip-1152x648-1754500479.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/nvidia-chip-500x500-1754500471.jpg" width="500"/>
-<media:credit>Getty Images | VCG </media:credit></media:content>
-            </item>
-                    <item>
-                <title>A Chinese rocket breaks apart dangerously close to the Starlink constellation</title>
-                <link>https://arstechnica.com/space/2026/06/a-chinese-rocket-breaks-apart-dangerously-close-to-the-starlink-constellation/</link>
-                                    <comments>https://arstechnica.com/space/2026/06/a-chinese-rocket-breaks-apart-dangerously-close-to-the-starlink-constellation/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Mon, 15 Jun 2026 18:55:41 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[china]]></category>
-		<category><![CDATA[LandSpace]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[space debris]]></category>
-		<category><![CDATA[space junk]]></category>
-		<category><![CDATA[starlink]]></category>
-		<category><![CDATA[Zhuque-2]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/06/a-chinese-rocket-breaks-apart-dangerously-close-to-the-starlink-constellation/</guid>
-
-                                    <description>
-                        <![CDATA[The rocket's breakup likely generated 100 to 150 new pieces of space junk.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The upper stage from a commercial Chinese rocket that launched last week has broken apart in space, spreading debris in a heavily trafficked part of low-Earth orbit home to the International Space Station and a significant portion of SpaceX's Starlink broadband network.</p>
-<p>The breakup occurred shortly after the Zhuque-2E rocket reached orbit on June 9 with two satellites providing direct-to-cell communications, perhaps around the time the upper stage was expected to perform a disposal burn. The US Space Force confirmed the breakup event in a post on <a href="https://www.space-track.org/">space-track.org</a>, a website used by the military to distribute orbit data to the public.</p>
-<p>"The tracked pieces are being incorporated into routine conjunction assessment to support spaceflight safety," the Space Force wrote in an advisory. "There are currently no threats to human spaceflight. Analysis is ongoing."</p><p><a href="https://arstechnica.com/space/2026/06/a-chinese-rocket-breaks-apart-dangerously-close-to-the-starlink-constellation/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/06/a-chinese-rocket-breaks-apart-dangerously-close-to-the-starlink-constellation/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>78</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2280560778-1152x648-1781545304.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2280560778-500x500.jpg" width="500"/>
-<media:credit>Wang Heng/Xinhua via Getty Images</media:credit><media:text>A Zhuque-2E rocket climbs into space from a commercial launch zone at the Jiuquan Satellite Launch Center in northwestern China.</media:text></media:content>
             </item>
             </channel>
 </rss>
