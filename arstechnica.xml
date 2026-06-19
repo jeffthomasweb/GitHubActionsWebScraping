@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Thu, 18 Jun 2026 14:34:36 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jun 2026 01:19:05 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,8 +19,419 @@
 	<height>32</height>
 </image> 
             <item>
-                <title>Cosmonaut Aleksandr Samokutyaev, 56, is first former ISS crew member to die</title>
+                <title>A bold satellite rescue mission came together in record time, but will it work?</title>
+                <link>https://arstechnica.com/space/2026/06/a-bold-satellite-rescue-mission-came-together-in-record-time-but-will-it-work/</link>
+                                    <comments>https://arstechnica.com/space/2026/06/a-bold-satellite-rescue-mission-came-together-in-record-time-but-will-it-work/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Fri, 19 Jun 2026 00:39:30 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[astrophysics]]></category>
+		<category><![CDATA[katalyst space]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Northrop Grumman]]></category>
+		<category><![CDATA[pegasus rocket]]></category>
+		<category><![CDATA[Swift]]></category>
+		<category><![CDATA[Wallops]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/06/a-bold-satellite-rescue-mission-came-together-in-record-time-but-will-it-work/</guid>
+
+                                    <description>
+                        <![CDATA["I consider this a success already, just from the fact that we're even going to try this."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>WALLOPS ISLAND, Virginia—Just 10 months ago, NASA asked three companies if they could do something nobody had done before. Could they build and launch a satellite to save a $500 million astronomy mission at risk of crashing back to Earth? What's more, could they do it in less than a year on a tight budget?</p>
+<p>Katalyst Space Technologies, a startup founded in 2020, presented the most compelling solution. "T<span class="s1">hey came back with a response that was technically and programmatically plausible, and then we were like, 'Yeah, let’s do it,'" said </span><span class="s1">Shawn Domagal-Goldman, director of NASA's astrophysics division.</span></p>
+<p>That was in August of last year. In September, NASA awarded Katalyst a $30 million contract to build, test, and launch a small satellite to chase down Swift and latch onto it with three robotic arms. Then, Katalyst's Link servicing spacecraft will boost Swift's orbit back to a safe operating altitude, allowing it to resume scientific observations. Easier said than done.</p><p><a href="https://arstechnica.com/space/2026/06/a-bold-satellite-rescue-mission-came-together-in-record-time-but-will-it-work/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/06/a-bold-satellite-rescue-mission-came-together-in-record-time-but-will-it-work/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>14</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Testing-Link-Vibration-tests-2_4000x2600-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Testing-Link-Vibration-tests-2_4000x2600-500x500.jpg" width="500"/>
+<media:credit>NASA/Scott Wiessinger</media:credit><media:text>The Link spacecraft developed by Katalyst Space Technologies moves into a vibration chamber at NASA's Goddard Space Flight Center in Maryland on April 15, 2026.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Microsoft discovers new lightweight backdoor that steals cryptocurrency</title>
+                <link>https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/</link>
+                                    <comments>https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 18 Jun 2026 23:28:52 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[crypto stealer]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[worm]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/</guid>
+
+                                    <description>
+                        <![CDATA[Crypto Clipper spreads over USB and communicates over Tor.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Microsoft says it has detected new self-propagating malware that spreads through USB drives in search of cryptocurrency credentials, which it then sends to attacker-controlled servers.</p>
+<p>The company named the worm Crypto Clipper because it monitors the contents of device clipboards for patterns consistent with wallet addresses or seed phrases. When found, the malware also takes five screenshots over a 10-second period. Both the credentials and the screenshots are then sent to the attacker through Tor, a network protocol that provides anonymous routing by sending traffic through redundant nodes so logs can’t capture both the sending and receiving IP addresses. Crypto Clipper establishes the Tor connection by using a SOCKS5 proxy, a network protocol that sends traffic through a proxy server, which then forwards it to its final destination.</p>
+<h2>A lightweight backdoor</h2>
+<p>“The execution of this clipper is notable because it does not depend on a traditional installer or exposed IP-based C2 infrastructure,” Microsoft <a href="https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/">said</a> Thursday. “Instead, it deploys a portable Tor client, routes traffic through a local SOCKS5 proxy, and blends data theft with remote code execution, turning a financially motivated stealer into a lightweight backdoor.”</p><p><a href="https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>12</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/cryptocurrency-theft-heist-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/cryptocurrency-theft-heist-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>FDA advisors unanimously vote to approve Moderna's mRNA after agency drama</title>
+                <link>https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/</link>
+                                    <comments>https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Thu, 18 Jun 2026 22:08:59 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[ACIP]]></category>
+		<category><![CDATA[anti-vaccine]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[fda]]></category>
+		<category><![CDATA[moderna]]></category>
+		<category><![CDATA[Prasad]]></category>
+		<category><![CDATA[robert f kennedy jr]]></category>
+		<category><![CDATA[VRBPAC]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/</guid>
+
+                                    <description>
+                        <![CDATA[In February, a Trump official refused to review the vaccine.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Independent advisors for the Food and Drug Administration on Friday voted 9–0 in support of approving Moderna's seasonal mRNA flu vaccine, which a Trump appointee at the agency initially tried to block from even being reviewed.</p>
+<p>In an all-day meeting, members of the FDA's advisory committee—known as VRBPAC for Vaccines and Related Biological Products Advisory Committee—pored over data and presentations on the vaccine, which is dubbed mRNA-1010 and branded as mFlusiva. The presentations included a review from FDA scientists, which was supportive of the vaccine.</p>
+<p>Data from a Phase 3 trial including over 40,000 adults age 50 and older found the mRNA vaccine was around 27 percent more effective against seasonal flu than a standard flu shot. A smaller Phase 3 trial, involving data from nearly 3,000 people age 65 years and older, showed the shot produces stronger immune responses than a high-dose flu vaccine, which is recommended for this age group. The safety profile of the vaccine was also generally good.</p><p><a href="https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>29</slash:comments>
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/12/GettyImages-1290558683.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/12/GettyImages-1290558683-500x500.jpg" width="500"/>
+<media:credit> DeFodi Images </media:credit></media:content>
+            </item>
+                    <item>
+                <title>As China looms, Taiwan makes more drones for defense and the US military</title>
+                <link>https://arstechnica.com/ai/2026/06/as-china-looms-taiwan-makes-more-drones-for-defense-and-the-us-military/</link>
+                                    <comments>https://arstechnica.com/ai/2026/06/as-china-looms-taiwan-makes-more-drones-for-defense-and-the-us-military/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Thu, 18 Jun 2026 21:21:26 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AI drones]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[commercial drones]]></category>
+		<category><![CDATA[drones]]></category>
+		<category><![CDATA[military drones]]></category>
+		<category><![CDATA[Taiwan]]></category>
+		<category><![CDATA[US Military]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/06/as-china-looms-taiwan-makes-more-drones-for-defense-and-the-us-military/</guid>
+
+                                    <description>
+                        <![CDATA[Taiwan's drone spending plans for defense could also boost business overseas.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Taiwan’s existence as a self-governing democracy may depend heavily on having enough military drones to discourage any attempted invasion by China’s military. As the Taiwanese government aims to boost domestic production of military drones and Taiwanese citizens sign up for drone flight training, Taiwanese companies are forming international partnerships to sell more drones to the US military and other overseas buyers.</p>
+<p>Taiwan’s Ministry of National Defense proposed a special budget that would spend $6.6 billion over six years on buying drones made in Taiwan, according to the <a href="https://focustaiwan.tw/politics/202606180012">Central News Agency</a> that represents the national news service of Taiwan. Presented on June 18, the budget proposal would allow the government to buy more than 208,000 coastal attack drones, along with more than 1,400 coastal reconnaissance drones and 1,320 uncrewed surface vessels, between 2026 and 2031.</p>
+<p>That would be a significant boost to the Taiwanese military arsenal that currently includes just 5,000 US-made attack drones and domestically produced drones, according to <a href="https://resiliencemedia.co/taiwans-drone-industry-is-booming-thanks-to-us-and-european-exports/">Resilience Media</a>. During military exercises in early June, Taiwanese soldiers fired Altius-600 loitering munition drones—made by a subsidiary of the US military technology company Anduril Industries—from towed flatbed launchers to strike offshore targets, according to <a href="https://news.usni.org/2026/06/10/taiwanese-forces-deploy-american-made-attack-drones-against-maritime-targets">USNI News</a>. In another exercise earlier this year, Taiwanese Marines used Taiwan-made drones to similarly strike targets at sea.</p><p><a href="https://arstechnica.com/ai/2026/06/as-china-looms-taiwan-makes-more-drones-for-defense-and-the-us-military/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/06/as-china-looms-taiwan-makes-more-drones-for-defense-and-the-us-military/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>13</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Taiwan-military-drones-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Taiwan-military-drones-500x500.jpg" width="500"/>
+<media:credit>I-Hwa Cheng / AFP via Getty Images</media:credit><media:text>Taiwan reservists operate a drone during a training session in Yilan County, Taiwan, on December 2, 2025. </media:text></media:content>
+            </item>
+                    <item>
+                <title>NASA asks Northrop Grumman to stop working on lunar HALO module</title>
+                <link>https://arstechnica.com/space/2026/06/nasas-1-1-billion-gateway-habitation-module-is-unlikely-to-be-used-for-something-else/</link>
+                                    <comments>https://arstechnica.com/space/2026/06/nasas-1-1-billion-gateway-habitation-module-is-unlikely-to-be-used-for-something-else/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Thu, 18 Jun 2026 20:49:55 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[Gateway]]></category>
+		<category><![CDATA[Halo]]></category>
+		<category><![CDATA[space]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/06/nasas-1-1-billion-gateway-habitation-module-is-unlikely-to-be-used-for-something-else/</guid>
+
+                                    <description>
+                        <![CDATA["We are reassigning most affected employees across existing opportunities and programs."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Three months ago, during a flashy event at its Washington, DC, headquarters, <a href="https://arstechnica.com/space/2026/03/nasa-kills-lunar-space-station-to-focus-on-ambitious-moon-base/">NASA announced</a> that it was shifting the focus of its lunar plans from an orbital space station to a Moon base on the surface.</p>
+<p>As part of this, officials said work would be paused on the Lunar Gateway planned to orbit the Moon. Of the two elements that were furthest along, NASA also revealed that one of them—the  Power and Propulsion Element—<a href="https://arstechnica.com/space/2026/03/here-is-nasas-plan-for-nuking-gateway-and-sending-it-to-mars/">would be repurposed</a> to serve as a core module for a nuclear-electric propulsion demonstration in deep space.</p>
+<p>Less was said about the fate of the other major component, the Habitation and Logistics Outpost (HALO). This is the large pressurized module, 6.1 meters long, in which visiting astronauts would spend the majority of their time when visiting the Lunar Gateway. NASA has awarded contracts worth $1.1 billion to Northrop Grumman to design, build, and integrate the habitation module with the Power and Propulsion Element.</p><p><a href="https://arstechnica.com/space/2026/06/nasas-1-1-billion-gateway-habitation-module-is-unlikely-to-be-used-for-something-else/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/06/nasas-1-1-billion-gateway-habitation-module-is-unlikely-to-be-used-for-something-else/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>27</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/jsc2025e036490medium-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/jsc2025e036490medium-500x500.jpg" width="500"/>
+<media:credit>NASA/Josh Valcarcel</media:credit><media:text>At Northrop Grumman’s Gilbert, Arizona, facility, teams remove Gateway’s HALO (Habitation and Logistics Outpost) from its transport container in April 2025.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Android verification is coming: Google confirms timeline and supported app stores</title>
+                <link>https://arstechnica.com/gadgets/2026/06/google-shares-updated-timeline-for-rolling-out-android-developer-verification/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/06/google-shares-updated-timeline-for-rolling-out-android-developer-verification/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Thu, 18 Jun 2026 19:53:33 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[developer verification]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[smartphones]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/06/google-shares-updated-timeline-for-rolling-out-android-developer-verification/</guid>
+
+                                    <description>
+                        <![CDATA[A new system service will roll out this month ahead of big changes starting in September.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Almost 20 years ago, Google pitched Android as the more open alternative to Apple's walled garden. Last year, Google announced it would <a href="https://arstechnica.com/gadgets/2025/08/google-will-block-sideloading-of-unverified-android-apps-starting-next-year/">begin erecting its own walls</a> through developer verification. The company has issued an update on its plans, affirming that the verification system will begin rolling out in select countries later this year. We're also learning which app stores are participating in verification and the timeline for key features like the recently revealed "advanced flow" for bypassing verification.</p>
+<p>Google has claimed that developer verification is a necessary change to smartphone software distribution, pointing to the increased prevalence of scams that trick Android users into installing malware apps. Google's solution requires verifying the identities of developers outside the Play Store just like it does for devs publishing on its platform. This has <a href="https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/">proven to be a contentious change</a> for myriad reasons.</p>
+<p>In the <a href="https://android-developers.googleblog.com/2026/06/android-developer-verification.html">new blog post</a>, Google's Matthew Forsythe confirms that the developer verification system is slated to come online on September 30 of this year. The initial deployment will be limited to countries with a high level of app scams: Brazil, Indonesia, Singapore, and Thailand.</p><p><a href="https://arstechnica.com/gadgets/2026/06/google-shares-updated-timeline-for-rolling-out-android-developer-verification/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/06/google-shares-updated-timeline-for-rolling-out-android-developer-verification/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>80</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-IO-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-IO-500x500-1749567268.jpg" width="500"/>
+<media:credit>Ryan Whitwam</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Apple patches high-severity eavesdropping vulnerability in Beats Studio Buds</title>
+                <link>https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds/</link>
+                                    <comments>https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 18 Jun 2026 19:41:35 +0000</pubDate>
+                		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Beats Studio Buds]]></category>
+		<category><![CDATA[bluetooth]]></category>
+		<category><![CDATA[eavesdropping]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds/</guid>
+
+                                    <description>
+                        <![CDATA[The vulnerability, disclosed 12 months ago, affects multiple manufacturers.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Apple has updated its Beats Studio Buds wireless earbuds to patch a high-severity vulnerability that could be exploited by nearby hackers to eavesdrop on users.</p>
+<p>The vulnerability, <a href="https://www.cve.org/CVERecord?id=CVE-2025-20701">CVE-2025-20701</a>, allowed improper authentication in the firmware running on the Bluetooth-related chips, enabling people within signal range to impersonate devices that had previously been paired with the earbuds. The researchers demonstrated this in a series of end-to-end attacks that allowed them to eavesdrop on conversations or sounds within earshot of the phone microphone.</p>
+<h2>Apple joins the patch party</h2>
+<p>“Impact: An attacker within Bluetooth range may be able to listen through the microphone of a device which is not yet paired and actively seeking pair requests,” Apple said in a Tuesday security <a href="https://support.apple.com/en-us/127557">advisory</a>. The fix is contained in Beats Firmware Update 1B211, which is delivered automatically while headphones are paired with and within Bluetooth range of a user’s iPhone, iPad, or Mac. Users can check their firmware version by going to Settings on their device, navigating to Bluetooth, and tapping the info button next to the headphones.</p><p><a href="https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds/">Read full article</a></p>
+<p><a href="https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>4</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/11/Beats-Studio-Buds-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/11/Beats-Studio-Buds-500x500.jpg" width="500"/>
+<media:credit>Jeff Dunn</media:credit><media:text>Beats' Studio Buds noise-canceling true wireless earphones.</media:text></media:content>
+            </item>
+                    <item>
+                <title>After Senate vote, Trump admin backs off plans to kill ocean monitoring</title>
+                <link>https://arstechnica.com/science/2026/06/after-senate-vote-trump-admin-backs-off-plans-to-kill-ocean-monitoring/</link>
+                                    <comments>https://arstechnica.com/science/2026/06/after-senate-vote-trump-admin-backs-off-plans-to-kill-ocean-monitoring/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Thu, 18 Jun 2026 18:19:44 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Earth science]]></category>
+		<category><![CDATA[ocean monitoring]]></category>
+		<category><![CDATA[oceanography]]></category>
+		<category><![CDATA[Science policy]]></category>
+		<category><![CDATA[Trump]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/06/after-senate-vote-trump-admin-backs-off-plans-to-kill-ocean-monitoring/</guid>
+
+                                    <description>
+                        <![CDATA[It's unclear whether the system is currently intact.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In May, the federal government announced without warning that it would <a href="https://arstechnica.com/science/2026/06/alaskans-will-be-flying-blind-after-nsf-decommissions-ocean-monitoring-network/">take apart a network of ocean monitoring systems</a> that it had spent over $350 million to build. No reason was given for the decision to shut down the <a href="https://oceanobservatories.org">Ocean Observatories Initiative</a> (OOI), but suspicion immediately focused on the network's role in tracking climate change.</p>
+<p>But the OOI also provides data that's useful for weather forecasting and fisheries management, leading to widespread opposition. Today, it appears that the opposition has won, as the government will announce that it's reversing the decision. The big remaining question is how much damage the OOI took during the intervening month.</p>
+<p>As of now, there is no formal statement available from the federal government. However, The New York Times <a href="https://www.nytimes.com/2026/06/18/climate/trump-ocean-observatories-initiative.html?smid=nytcore-ios-share">reports</a> that the decision will be announced later today, and Ars received a statement from Zoe Lofgren, the ranking Democrat on the House Science Committee, indicating that the decision has been made.</p><p><a href="https://arstechnica.com/science/2026/06/after-senate-vote-trump-admin-backs-off-plans-to-kill-ocean-monitoring/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/06/after-senate-vote-trump-admin-backs-off-plans-to-kill-ocean-monitoring/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>57</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/image-2-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/image-2-500x500.jpeg" width="500"/>
+<media:credit>OOI</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Before SpaceX IPO, investors in China secretly acquired stakes</title>
+                <link>https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[stin Elliott and Joshua Kaplan, ProPublica]]>
+                </dc:creator>
+                <pubDate>Thu, 18 Jun 2026 17:42:18 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Chinese]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[spacex ipo]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/</guid>
+
+                                    <description>
+                        <![CDATA[One previously unreported SpaceX investor has ties to Chinese military contractors.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A businessman with ties to Chinese military contractors was among the overseas investors who acquired stakes in SpaceX while it was still a private company. An entity linked to the Qatari royal family also took a stake.</p>
+<p>The new details come from a <a href="https://www.documentcloud.org/documents/28232877-jx-537-r/">private investor list</a> obtained by ProPublica that sheds light on a particularly delicate issue for Elon Musk’s rocket company: which people in countries like China bought into the company, and how. SpaceX built its business off sensitive US government work like making spy satellites for the Pentagon. While there is no ban on Chinese investment in US military contractors, such investment is heavily regulated.</p>
+<p>In a sign of its sensitivity to the concerns, SpaceX barred investors from China and Hong Kong from buying shares in its initial public offering last week due to “regulatory and compliance risks,” <a href="https://www.bloomberg.com/news/articles/2026-06-05/chinese-hk-investors-banned-from-spacex-ipo-on-security-grounds">Bloomberg reported</a>. The US government alleges that China has a strategy of using investments in sensitive industries for espionage and to get access to cutting-edge technology.</p><p><a href="https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>23</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2281248250-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2281248250-500x500.jpg" width="500"/>
+<media:credit>Spencer Platt/Getty Images</media:credit><media:text>SpaceX President Gwynne Shotwell (center right) celebrates with family and other SpaceX employees at the Nasdaq Marketsite in Times Square during the launch of the SpaceX initial public offering.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Bernie Sanders unveils $7 trillion plan to give Americans control of AI industry</title>
+                <link>https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Thu, 18 Jun 2026 17:02:49 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI harms]]></category>
+		<category><![CDATA[ai industry]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[artifical intelligence]]></category>
+		<category><![CDATA[bernie sanders]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry/</guid>
+
+                                    <description>
+                        <![CDATA[Biggest AI firms will likely recoil at Bernie Sanders' AI wealth fund.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Bernie Sanders has unveiled an aggressive plan to transfer trillions from leading AI firms to the public, and, to the likely horror of AI firms, it goes even further than expected to give Americans more control over the AI industry.</p>
+<p>Sanders shared a summary of his legislation with <a href="https://apnews.com/article/bernie-sanders-ai-public-ownership-57b9f20d96490083e2749adba0f13977">AP News</a>. If passed, the law would create a sovereign wealth fund “financed through a one-time 50 percent tax on the stock of the largest AI companies,” AP News reported. Any AI firm that does $200 million in annual AI sales would be subject to the tax, as would any new firm once it reaches that revenue level.</p>
+<p>In total, Sanders estimated the fund could be worth $7 trillion, generating “hundreds of billions of dollars annually in direct payments to Americans and programs such as health care, education and housing,” AP News reported. Each American would likely receive more than $1,000 annually in 5 percent annual dividends, Sanders estimated.</p><p><a href="https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>169</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2230233284-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2230233284-500x500.jpg" width="500"/>
+<media:credit>Nuthawut Somsuk | iStock / Getty Images Plus</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Hunter-gatherers in Siberia died of a plague outbreak 5,500 years ago</title>
+                <link>https://arstechnica.com/science/2026/06/hunter-gatherers-in-siberia-died-of-a-plague-outbreak-5500-years-ago/</link>
+                                    <comments>https://arstechnica.com/science/2026/06/hunter-gatherers-in-siberia-died-of-a-plague-outbreak-5500-years-ago/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kiona N. Smith]]>
+                </dc:creator>
+                <pubDate>Thu, 18 Jun 2026 15:04:40 +0000</pubDate>
+                		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[ancient DNA]]></category>
+		<category><![CDATA[Archaeology]]></category>
+		<category><![CDATA[biological archaeology]]></category>
+		<category><![CDATA[epidemiology]]></category>
+		<category><![CDATA[forensic archaeology]]></category>
+		<category><![CDATA[marmots]]></category>
+		<category><![CDATA[plague]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[the plague]]></category>
+		<category><![CDATA[Y. pestis]]></category>
+		<category><![CDATA[yersinia pestis]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/06/hunter-gatherers-in-siberia-died-of-a-plague-outbreak-5500-years-ago/</guid>
+
+                                    <description>
+                        <![CDATA[We can't blame the Neolithic Transition for the plague anymore.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Plague swept through groups of hunter-gatherers in southeastern Siberia 5,500 years ago, leaving dozens dead in its wake—with DNA from <i>Yersinia pestis</i> bacteria still trapped inside their teeth.</p>
+<p>University of Oxford ancient DNA researcher Ruairidh Macleod and his colleagues recently sequenced the telltale bacterial DNA in teeth from plague victims at four ancient cemeteries in the area around Russia’s Lake Baikal. The tragedy that befell these communities is now the earliest known plague outbreak, courtesy of the oldest strain of <i>Y. pestis</i> ever sequenced.</p>
+<h2>Unearthing a new backstory for the plague</h2>
+<p>Until recently, scientists who study the evolution of diseases have held two fairly solid ideas about the origins of plague, the disease caused by <i>Yersinia pestis</i> bacteria. It's a scourge so awful that it has gone down in history as not just <em>a</em> plague but <i>the</i> plague. The first idea is that the earliest strains didn't have the right genetic traits to be really lethal. And the second is that the plague first began menacing humans when the first farmers settled in densely packed towns alongside rats and domestic animals.</p><p><a href="https://arstechnica.com/science/2026/06/hunter-gatherers-in-siberia-died-of-a-plague-outbreak-5500-years-ago/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/06/hunter-gatherers-in-siberia-died-of-a-plague-outbreak-5500-years-ago/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>31</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Artistic-reconstruction-Illustration-by-Kelvin-Wilson-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Artistic-reconstruction-Illustration-by-Kelvin-Wilson-500x500.jpg" width="500"/>
+<media:credit>Kevin WIlson</media:credit><media:text>This artist's illustration, by Kevin Wilson, shows how the ancient plague victims might have been laid to rest.</media:text></media:content>
+            </item>
+                    <item>
+                <title>The first long-duration resident of the ISS, a cosmonaut, has died</title>
                 <link>https://arstechnica.com/space/2026/06/cosmonaut-aleksandr-samokutyaev-56-is-first-former-iss-crew-member-to-die/</link>
+                                    <comments>https://arstechnica.com/space/2026/06/cosmonaut-aleksandr-samokutyaev-56-is-first-former-iss-crew-member-to-die/#comments</comments>
                 
                 <dc:creator>
                     <![CDATA[Robert Pearlman]]>
@@ -64,6 +475,7 @@
 ]]>
                         </content:encoded>
                                     
+                                    <slash:comments>35</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-061726i-lg-1152x648.jpg" width="1152">
@@ -100,7 +512,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>45</slash:comments>
+                                    <slash:comments>79</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/brandnewday-1152x648.jpg" width="1152">
@@ -135,7 +547,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>70</slash:comments>
+                                    <slash:comments>110</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-829469540-1152x648.jpg" width="1152">
@@ -174,7 +586,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>8</slash:comments>
+                                    <slash:comments>14</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Libra-internals44-copy-1152x648.jpeg" width="1152">
@@ -209,7 +621,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>65</slash:comments>
+                                    <slash:comments>87</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/woman-dialing-phone-1152x648-1781724369.jpg" width="1152">
@@ -245,7 +657,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>58</slash:comments>
+                                    <slash:comments>72</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg">
@@ -278,7 +690,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>84</slash:comments>
+                                    <slash:comments>113</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1265241057-1152x648.jpg" width="1152">
@@ -315,7 +727,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>35</slash:comments>
+                                    <slash:comments>42</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Screenshot-2026-06-17-at-2.40.06-PM-1152x648.png" width="1152">
@@ -346,419 +758,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>191</slash:comments>
+                                    <slash:comments>246</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/Blank-Slate-Roller-2-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/Blank-Slate-Roller-2-500x500.jpg" width="500"/>
 <media:credit>Slate Auto</media:credit><media:text>If you've ever said you'd buy a barebones truck with no infotainment and manual windows if only they'd build one, it's time to clear the cobwebs out of your wallet. </media:text></media:content>
-            </item>
-                    <item>
-                <title>"Dangerous" AI models are coming no matter what</title>
-                <link>https://arstechnica.com/ai/2026/06/dangerous-ai-models-are-coming-no-matter-what/</link>
-                                    <comments>https://arstechnica.com/ai/2026/06/dangerous-ai-models-are-coming-no-matter-what/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Lily Hay Newman, WIRED.com]]>
-                </dc:creator>
-                <pubDate>Wed, 17 Jun 2026 17:50:46 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Anthropic Claude]]></category>
-		<category><![CDATA[Mythos]]></category>
-		<category><![CDATA[Mythos 5]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/06/dangerous-ai-models-are-coming-no-matter-what/</guid>
-
-                                    <description>
-                        <![CDATA[AI models with advanced hacking capabilities will soon be the norm.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Late last week, Anthropic took its new <a href="https://www.wired.com/story/anthropic-releases-claude-fable-5-mythos-5/">Claude Fable 5 and Mythos 5</a> AI models offline following a United States government export-control directive barring “any foreign national” from using the services. The company has been in <a href="https://www.wired.com/story/anthropic-is-still-at-odds-with-the-white-house-over-claude-fable-5/">talks with the White House</a> since Friday but has yet to secure an agreement that would allow it to reinstate the offerings.</p>
-<p>Since <a href="https://www.wired.com/story/anthropic-mythos-preview-project-glasswing/">Mythos debuted in April</a>, Anthropic has claimed—and warned—that the model has advanced capabilities for not only finding software vulnerabilities to help defenders patch them, but also figuring out ways to exploit them that could be used by bad actors. Anthropic itself noted this double-edged sword in its launch of Mythos 5 and Claude Fable 5. “A great deal of advanced usage of AI models is dual use: the same queries that are beneficial in the hands of cybersecurity professionals and biology researchers could be dangerous if available to malicious actors,” the company <a href="https://www.anthropic.com/news/claude-fable-5-mythos-5" target="_blank" rel="nofollow noopener" data-offer-url="https://www.anthropic.com/news/claude-fable-5-mythos-5" data-event-click='{"pattern":"ExternalLink"}' data-event-boundary="click" data-in-view='{"pattern":"ExternalLink"}' data-include-experiments="true">wrote in a blog post</a> last week.</p>
-<p>With this in mind, the company initially released a version called Mythos Preview to a select consortium as part of a working group known as Project Glasswing. Mythos 5 was also privately released to this group last week, while Claude Fable 5, which is a Mythos-grade model, was released to the general public with specific blocks on its ability to give responses to questions about biology and cybersecurity.</p><p><a href="https://arstechnica.com/ai/2026/06/dangerous-ai-models-are-coming-no-matter-what/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/06/dangerous-ai-models-are-coming-no-matter-what/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>96</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Dario-Amodei-Code-with-Claude-SF-2026-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Dario-Amodei-Code-with-Claude-SF-2026-500x500.jpg" width="500"/>
-<media:credit>Samuel Axon</media:credit><media:text>Dario Amodei on stage at Code with Claude 2026 in San Francisco.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Ten months later, the $100 Google Home Speaker is finally available for preorder</title>
-                <link>https://arstechnica.com/google/2026/06/the-gemini-powered-google-home-speaker-arrives-on-june-25-for-100/</link>
-                                    <comments>https://arstechnica.com/google/2026/06/the-gemini-powered-google-home-speaker-arrives-on-june-25-for-100/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Wed, 17 Jun 2026 15:57:14 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[gemini]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[Google Home]]></category>
-		<category><![CDATA[smart home]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/google/2026/06/the-gemini-powered-google-home-speaker-arrives-on-june-25-for-100/</guid>
-
-                                    <description>
-                        <![CDATA[Google's new smart speaker is more about Gemini than audio quality. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Good things take time, but not all things that take time are good. The jury is still out on the Google Home Speaker, but it certainly took a while to arrive. After announcing its new speaker last August, Google finally has a release date. The company's first new smart home speaker in years will launch on June 25, and you can <a href="https://store.google.com/product/google_home_speaker?hl=en-US">preorder it today for $100</a>.</p>
-<p>The generically named Google Home Speaker is Google's first home audio device in almost six years. The last one was the <a href="https://arstechnica.com/gadgets/2020/09/the-google-home-sequel-the-nest-audio-is-official-for-99-99/">Nest Audio</a>, which debuted back in September 2020. The new device is small and round—an oblate spheroid, technically. It's covered in a partially recycled fabric available in four colors: hazel, porcelain, jade, and berry (jade and berry are limited to the US). <a href="https://blog.google/products-and-platforms/devices/google-nest/google-home-speaker-gemini-features/">Google says</a> the device produces "360-degree sound" for a uniform listening experience anywhere in a room.</p>
-<img width="3840" height="2160" src="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-light.jpg" class="fullwidth full" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-light.jpg 3840w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-light-640x360.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-light-1024x576.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-light-768x432.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-light-1536x864.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-light-2048x1152.jpg 2048w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-light-384x216.jpg 384w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-light-1152x648.jpg 1152w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-light-980x551.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-light-1440x810.jpg 1440w" sizes="auto, (max-width: 3840px) 100vw, 3840px">
-      Google is into lighting effects again.
-        Credit:
-          Google
-      
-<p>Previous Google speakers included Assistant-style illuminated lights, but the Google Home Speaker features a light ring around the bottom that glows when the device is listening, "thinking," or responding. This is becoming a trend with Google. The company will require a similar glowing lightbar embellishment on the upcoming <a href="https://arstechnica.com/gadgets/2026/05/googles-android-powered-laptops-are-called-googlebooks-and-theyre-coming-this-year/">Googlebook laptops</a>. There are three far-field microphones distributed around the speaker that will pick up your speech, and there's a mute switch when you don't want it listening for the "OK Google" trigger.</p><p><a href="https://arstechnica.com/google/2026/06/the-gemini-powered-google-home-speaker-arrives-on-june-25-for-100/">Read full article</a></p>
-<p><a href="https://arstechnica.com/google/2026/06/the-gemini-powered-google-home-speaker-arrives-on-june-25-for-100/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>62</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-Jade-copy-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google-Home-Speaker-Jade-copy-500x500-1781708619.jpg" width="500"/>
-<media:credit>Google</media:credit><media:text>The Google Home Speaker in Jade.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Towers once planned for California shuttle launches leveled for SpaceX rockets</title>
-                <link>https://arstechnica.com/space/2026/06/towers-once-planned-for-california-shuttle-launches-leveled-for-spacex-rockets/</link>
-                                    <comments>https://arstechnica.com/space/2026/06/towers-once-planned-for-california-shuttle-launches-leveled-for-spacex-rockets/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Robert Pearlman]]>
-                </dc:creator>
-                <pubDate>Wed, 17 Jun 2026 15:47:09 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[access tower]]></category>
-		<category><![CDATA[assembly building]]></category>
-		<category><![CDATA[delta iv]]></category>
-		<category><![CDATA[demolition]]></category>
-		<category><![CDATA[detonation]]></category>
-		<category><![CDATA[falcon 9]]></category>
-		<category><![CDATA[falcon heavy]]></category>
-		<category><![CDATA[Manned Orbiting Laboratory]]></category>
-		<category><![CDATA[mobile service tower]]></category>
-		<category><![CDATA[modernization]]></category>
-		<category><![CDATA[MOL]]></category>
-		<category><![CDATA[slc-6]]></category>
-		<category><![CDATA[Space exploration]]></category>
-		<category><![CDATA[space history]]></category>
-		<category><![CDATA[Space Launch Complex-6]]></category>
-		<category><![CDATA[Space shuttle]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[U.S. Space Force]]></category>
-		<category><![CDATA[Vandenberg space force base]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/06/towers-once-planned-for-california-shuttle-launches-leveled-for-spacex-rockets/</guid>
-
-                                    <description>
-                        <![CDATA["Space Launch Complex-6 represents six decades of American innovation."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>One of the United States' most storied space launch sites has been cleared of its decades-old support towers, making way for modern rockets to use the pad. Space Launch Complex-6 (SLC-6) at Vandenberg Space Force Station is <a href="https://www.collectspace.com/news/news-061726a-space-launch-complex-slc-6-vandenberg-space-force-base-demolition-spacex.html" target="_blank" rel="noopener">arguably better known for what did not lift off</a> from there than for what did.</p>
-<p>A series of demolition charges on Tuesday (June 16) brought down the access tower, mobile service tower, and what remained of the assembly building at SLC-6—pronounced "slick-six"—in Southern California. Once the location for the US Air Force's first effort to put humans into space and later, the West Coast launch site for the space shuttle, SLC-6 will next be used by SpaceX in support of Falcon 9 and Falcon Heavy missions.</p>
-<img width="640" height="360" src="https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-061726b-lg-640x360.jpg" class="center medium" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-061726b-lg-640x360.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-061726b-lg-1024x576.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-061726b-lg-768x432.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-061726b-lg-1536x864.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-061726b-lg-384x216.jpg 384w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-061726b-lg-1152x648.jpg 1152w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-061726b-lg-980x551.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-061726b-lg-1440x810.jpg 1440w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-061726b-lg.jpg 1791w" sizes="auto, (max-width: 640px) 100vw, 640px">
-      Vandenberg Space Force Base personnel watch as the assembly building at Space Launch Complex-6 (SLC-6) is toppled on June 16, 2026, to make way for SpaceX's use of the site.
-        Credit:
-          Space Launch Delta 30/Tech. Sgt. Draeke Layman
-      
-<p>"Space Launch Complex-6 represents six decades of American innovation and our unwavering commitment to securing space superiority," Col. James T. Horne III, commander of Space Launch Delta 30 at Vandenberg, <a href="https://www.vandenberg.spaceforce.mil/News/Article-Display/Article/4519296/vandenberg-space-force-base-modernizes-historic-space-launch-complex-6-for-next/" target="_blank" rel="noopener">said in a statement</a>. "By modernizing this historic footprint in partnership with our defense industrial base, we are building directly upon the foundation of our pioneers."</p><p><a href="https://arstechnica.com/space/2026/06/towers-once-planned-for-california-shuttle-launches-leveled-for-spacex-rockets/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/06/towers-once-planned-for-california-shuttle-launches-leveled-for-spacex-rockets/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>48</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-061726a-lg-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-061726a-lg-500x500.jpg" width="500"/>
-<media:credit>Space Launch Delta 30/Staff Sgt. Daekwon Stith</media:credit><media:text>Towers originally built to support early Air Force spaceflight efforts and later never-realized West Coast launches of the space shuttle were toppled at Vandenberg Space Force Base's Space Launch Complex-6 (SLC-6) in California on June 16, 2026.</media:text></media:content>
-            </item>
-                    <item>
-                <title>"Truly evil" FDA rejection of gene therapy overturned after Trump official ousted</title>
-                <link>https://arstechnica.com/health/2026/06/truly-evil-fda-rejection-of-gene-therapy-overturned-after-trump-official-ousted/</link>
-                                    <comments>https://arstechnica.com/health/2026/06/truly-evil-fda-rejection-of-gene-therapy-overturned-after-trump-official-ousted/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Wed, 17 Jun 2026 15:12:31 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[fda]]></category>
-		<category><![CDATA[gene therapy]]></category>
-		<category><![CDATA[UniQure]]></category>
-		<category><![CDATA[vinay prasad]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/06/truly-evil-fda-rejection-of-gene-therapy-overturned-after-trump-official-ousted/</guid>
-
-                                    <description>
-                        <![CDATA[Gene therapy company UniQure had another FDA meeting after Vinay Prasad's exit.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A gene therapy for Huntington's disease has a new path toward approval from the Food and Drug Administration after the ouster of several Trump officials, particularly <a href="https://arstechnica.com/health/2026/03/trumps-divisive-fda-vaccine-regulator-self-destructs-will-exit-agency-again/">Vinay Prasad</a>, who rejected the therapy in a shocking move one former FDA official called "truly evil."</p>
-<p>Huntington's disease is an inherited condition that typically strikes in middle age and causes nerve cells in the brain to gradually break down. There are currently no treatments for the disease, and many afflicted die in their 50s and 60s.</p>
-<p>Gene therapy company UniQure developed a one-time treatment, AMT-130, that aims to lower brain levels of the mutant protein behind the disease, called huntingtin. Data from a small, early trial suggested the drug could <a href="https://www.uniqure.com/programs-pipeline/huntingtons-disease">slow the progression of the disease up to 75 percent</a>, and patients and advocates have closely watched the drug's development in hopeful anticipation.</p><p><a href="https://arstechnica.com/health/2026/06/truly-evil-fda-rejection-of-gene-therapy-overturned-after-trump-official-ousted/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/06/truly-evil-fda-rejection-of-gene-therapy-overturned-after-trump-official-ousted/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>100</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/05/GettyImages-496532228-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2019/05/GettyImages-496532228-500x500.jpg" width="500"/>
-<media:credit>Getty | Congressional Quarterly</media:credit><media:text>The Food and Drug Administration headquarters in White Oak, Maryland.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Native NACS ports, infotainment upgrade for MY27 Porsche Taycan</title>
-                <link>https://arstechnica.com/cars/2026/06/native-nacs-ports-infotainment-upgrade-for-my27-porsche-taycan/</link>
-                                    <comments>https://arstechnica.com/cars/2026/06/native-nacs-ports-infotainment-upgrade-for-my27-porsche-taycan/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Wed, 17 Jun 2026 12:00:45 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[NACS]]></category>
-		<category><![CDATA[Porsche Taycan]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/06/native-nacs-ports-infotainment-upgrade-for-my27-porsche-taycan/</guid>
-
-                                    <description>
-                        <![CDATA[The bigger battery is standard and there are now simulated "E-Shifts."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Has the allure of the Porsche Taycan waned? The four-door electric sedan that thinks it's a GT sold well for the first few years after its <a href="https://arstechnica.com/cars/2019/09/the-porsche-taycan-every-bit-as-good-as-a-200000-porsche-should-be/">introduction in 2020</a>, but sales began to slip even before the brand added the smaller, more affordable <a href="https://arstechnica.com/cars/2024/04/the-2024-porsche-macan-ev-has-character-pace-and-the-right-badge/">Macan SUV</a> to its electric lineup. The EV underwent its midlife refresh a couple of years ago, but it seems Stuttgart wasn't done yet; Porsche has some more tweaks for model year 2027, at least for the US market.</p>
-<p>For one thing, the 105 kWh performance battery is standard across the Taycan range now—which starts at $111,900—and can charge at up to 320 kW with an 800 V DC fast charger.</p>
-<p>And as long as you're not ordering the stripped-out <a href="https://arstechnica.com/cars/2024/03/porsche-adds-1000-horsepower-taycan-turbo-gt-to-its-electric-vehicle-lineup/">Turbo GT with the Weissach Pack</a>, there's a new plug for that—the CCS1 port that usually lives on the passenger side has been replaced by a NACS port. So no adapter is needed to charge at any of those thousands of Tesla superchargers, but only a small percentage of them operate at sufficient voltage to charge near the Taycan's limit. But IONNA has native NACS chargers capable of 400 kW, and Porsche will provide a CCS1 adapter to use with Electrify America and other 800 V chargers.</p><p><a href="https://arstechnica.com/cars/2026/06/native-nacs-ports-infotainment-upgrade-for-my27-porsche-taycan/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/06/native-nacs-ports-infotainment-upgrade-for-my27-porsche-taycan/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>70</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/m10-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/m10-500x500.jpg" width="500"/>
-<media:credit>Porsche</media:credit><media:text>One of our favorite electric vehicles is getting a little long in the tooth, but that hasn't stopped Porsche from adding a new charge port, and new infotainment.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Windows and Linux users: The deadline to update Secure Boot keys is near</title>
-                <link>https://arstechnica.com/security/2026/06/windows-and-linux-users-the-deadline-to-update-secure-boot-keys-is-near/</link>
-                                    <comments>https://arstechnica.com/security/2026/06/windows-and-linux-users-the-deadline-to-update-secure-boot-keys-is-near/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Wed, 17 Jun 2026 11:15:17 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[bootkits]]></category>
-		<category><![CDATA[secure boot]]></category>
-		<category><![CDATA[uefi]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2026/06/windows-and-linux-users-the-deadline-to-update-secure-boot-keys-is-near/</guid>
-
-                                    <description>
-                        <![CDATA[What you need to know about the expiration of keys securing your machine's boot sequence.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The clock is ticking for Windows and Linux users to update cryptographic keys that protect their systems against firmware-based UEFI infections, a pernicious form of malware that loads before operating system and anti-malware protections start.</p>
-<p>Beginning June 24, three certificates that cryptographically verify that each piece of firmware and software that loads during system boot will expire. The Microsoft-signed certificates are the linchpins of Secure Boot, a Microsoft-designed chain of trust. Secure Boot checks the digital signatures of all firmware that loads during system startup to ensure it originates from a trusted provider, such as the manufacturer of the motherboard the system runs on.</p>
-<p>Secure Boot is designed to thwart UEFI bootkits, a form of malware that alters the Unified Extensible Firmware Interface, the successor to the BIOS, both of which begin the initial boot sequence. Because these bootkits load before the OS and most other code, they can be difficult to detect. Once installed, they typically load malware onto the OS that steals credentials, backdoors the system, or performs other malicious actions. Even when the OS is disinfected, the bootkit can reinfect the system. Bootkits survive OS reinstallations as well.</p><p><a href="https://arstechnica.com/security/2026/06/windows-and-linux-users-the-deadline-to-update-secure-boot-keys-is-near/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2026/06/windows-and-linux-users-the-deadline-to-update-secure-boot-keys-is-near/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>119</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/computer-power-button-1000x648.jpg" width="1000">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/computer-power-button-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Trump admin tries to block Clean Air Act lawsuit over xAI's gas turbines</title>
-                <link>https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Tue, 16 Jun 2026 22:22:44 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[grok]]></category>
-		<category><![CDATA[naacp]]></category>
-		<category><![CDATA[trump administration]]></category>
-		<category><![CDATA[xAI]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war/</guid>
-
-                                    <description>
-                        <![CDATA[NAACP lawsuit says xAI uses gas turbines without permits for Grok data center.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Trump administration is trying to help Elon Musk's xAI Corp. beat a Clean Air Act lawsuit filed by the National Association for the Advancement of Colored People (NAACP). The US said the NAACP lawsuit threatens an xAI data center that powers Grok systems needed by the military.</p>
-<p>The NAACP <a href="https://storage.courtlistener.com/recap/gov.uscourts.msnd.52261/gov.uscourts.msnd.52261.1.0.pdf">sued</a> xAI and subsidiary MZX Tech in April, alleging that they violated the Clean Air Act by operating 27 gas turbines without an air permit in Southaven, Mississippi. The number of unpermitted turbines rose to 57 by mid-May and there were plans to install two more, the NAACP said in a <a href="https://storage.courtlistener.com/recap/gov.uscourts.msnd.52261/gov.uscourts.msnd.52261.52.0_2.pdf">June 12 filing</a>.</p>
-<p>"Defendants’ Colossus Gas Plant powers xAI’s nearby Colossus 2 data center, which in turn powers the chatbot 'Grok,'" the lawsuit said. The gas turbines have fueled both health concerns and <a href="https://arstechnica.com/tech-policy/2026/02/pops-whines-and-roars-xai-accused-of-torturing-neighbors-of-noisy-power-plant/">noise complaints</a>.</p><p><a href="https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>91</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/xai-grok-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/xai-grok-500x500.jpg" width="500"/>
-<media:credit>Getty Images | SOPA Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Year of free HPE software a “step in the correct direction” in VMware rivalry</title>
-                <link>https://arstechnica.com/information-technology/2026/06/hpe-tempts-vmware-users-partners-with-year-of-free-virtualization-software/</link>
-                                    <comments>https://arstechnica.com/information-technology/2026/06/hpe-tempts-vmware-users-partners-with-year-of-free-virtualization-software/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Tue, 16 Jun 2026 22:11:15 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Broadcom]]></category>
-		<category><![CDATA[hewlett packard enterprise]]></category>
-		<category><![CDATA[vmware]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/06/hpe-tempts-vmware-users-partners-with-year-of-free-virtualization-software/</guid>
-
-                                    <description>
-                        <![CDATA[Partner tells Ars that HPE should be giving out more free VM Essentials licenses. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Hewlett Packard Enterprise’s (HPE) new virtualization software promotion will likely pique the interest of end users and resellers who are unhappy with Broadcom's pricing of VMware.</p>
-<p>During its HPE Discover event in Las Vegas this week, HPE announced that customers could use its “HPE Morpheus Software—VM Essentials” offering for free for “up to one year,” per a press release. <a href="https://www.hpe.com/us/en/morpheus-software/virtualization.html">HPE’s website</a> describes its virtualization platform as a “VMware alternative.” It includes a hardware virtual machine (HVM) hypervisor and unified management and lets users "manage VMware ESXi and HVM clusters from one console and migrate when you’re ready,” HPE’s website says.</p>
-<p>“New VM Essentials customers can receive up to one free year of licenses for VM Essentials, a year of HPE Zerto for $1 to support non-disruptive migration to HPE virtual machines, and 0 percent interest on software through HPE Financial Services,” HPE’s announcement reads, referring to HPE’s group for helping IT teams manage funding.</p><p><a href="https://arstechnica.com/information-technology/2026/06/hpe-tempts-vmware-users-partners-with-year-of-free-virtualization-software/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2026/06/hpe-tempts-vmware-users-partners-with-year-of-free-virtualization-software/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>34</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1166474639-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1166474639-500x500.jpg" width="500"/>
-<media:credit>Getty</media:credit><media:text>August 5, 2019 Palo Alto, CA - Hewlett Packard Enterprise (HPE) corporate headquarters located in Silicon Valley.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Cockroaches scurry around with thousands of pieces of bacterial genomes</title>
-                <link>https://arstechnica.com/science/2026/06/cockroaches-scurry-around-with-thousands-of-pieces-of-bacterial-genomes/</link>
-                                    <comments>https://arstechnica.com/science/2026/06/cockroaches-scurry-around-with-thousands-of-pieces-of-bacterial-genomes/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[John Timmer]]>
-                </dc:creator>
-                <pubDate>Tue, 16 Jun 2026 21:54:41 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[cockroaches]]></category>
-		<category><![CDATA[evolution]]></category>
-		<category><![CDATA[Genomics]]></category>
-		<category><![CDATA[Horizontal gene transfer]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/06/cockroaches-scurry-around-with-thousands-of-pieces-of-bacterial-genomes/</guid>
-
-                                    <description>
-                        <![CDATA[Transferring genes across species doesn't just happen in microbes.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Last week, we looked at a new study of <a href="https://arstechnica.com/science/2026/06/the-first-complex-cells-had-genes-from-a-complex-mix-of-species/">the origin of complex cells</a>, one that showed that our ancestors' genomes were pieced together from bits and pieces of multiple species. It put a spotlight on a phenomenon called horizontal gene transfer, in which a gene from one species is incorporated into the genome of a distantly related species. The frequency of horizontal gene transfer means that, in addition to the neatly branching trees that relate species by common descent, there are small threads connecting distant branches of the tree of life.</p>
-<p>It's easy to see why horizontal gene transfer would be common among microbes. They often live in complex communities that are likely awash in the DNA of dead and damaged cells. Plus, bacteria and archaea lack a membrane between their DNA and the rest of the cell, making it easier for environmental DNA to find its way to the genome.</p>
-<p>However, a new study this week shows that horizontal gene transfers are remarkably common even in multicellular animals. And it does so by examining the genomes of multiple cockroach species, which have had bits of bacterial DNA for millions of years.</p><p><a href="https://arstechnica.com/science/2026/06/cockroaches-scurry-around-with-thousands-of-pieces-of-bacterial-genomes/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/06/cockroaches-scurry-around-with-thousands-of-pieces-of-bacterial-genomes/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>21</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1906194565-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1906194565-500x500.jpg" width="500"/>
-<media:credit>Nugroho Ridho</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Among the large new rockets Amazon was counting on, only Europe has delivered</title>
-                <link>https://arstechnica.com/space/2026/06/amid-launch-bottleneck-amazon-has-hundreds-of-satellites-waiting-to-fly/</link>
-                                    <comments>https://arstechnica.com/space/2026/06/amid-launch-bottleneck-amazon-has-hundreds-of-satellites-waiting-to-fly/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Tue, 16 Jun 2026 21:14:08 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[Internet]]></category>
-		<category><![CDATA[leo]]></category>
-		<category><![CDATA[satellite]]></category>
-		<category><![CDATA[space]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/06/amid-launch-bottleneck-amazon-has-hundreds-of-satellites-waiting-to-fly/</guid>
-
-                                    <description>
-                        <![CDATA["As for Arianespace, they have definitely stepped up."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Amazon now has hundreds of flight-ready satellites standing idle in Florida, waiting to join the company's low-Earth orbit Internet constellation, an Amazon official said Tuesday.</p>
-<p>"They're built, and sitting in a payload processing facility waiting for trips to orbit," said Steve Metayer, vice president of Amazon Leo Production Operations, during a teleconference with reporters. "And we're currently manufacturing several satellites a day."</p>
-<p>Metayer spoke on the eve of the company's next mission, during which an Ariane 64 rocket will launch three dozen Amazon Leo satellites into orbit from a spaceport in French Guiana. Liftoff is targeted for 7:53 am ET (11:53 UTC) on Wednesday.</p><p><a href="https://arstechnica.com/space/2026/06/amid-launch-bottleneck-amazon-has-hundreds-of-satellites-waiting-to-fly/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/06/amid-launch-bottleneck-amazon-has-hundreds-of-satellites-waiting-to-fly/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>87</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/amazon-leo-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/amazon-leo-500x500.jpg" width="500"/>
-<media:credit>Amazon</media:credit><media:text>Three dozen Leo satellites are encapsulated inside the Ariane 6's 20-meter long fairing ahead of Leo Europe 3 (LE-03).
-</media:text></media:content>
-            </item>
-                    <item>
-                <title>Anthropic "pauses" token-based billing for its Claude Agent SDK</title>
-                <link>https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/</link>
-                                    <comments>https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Tue, 16 Jun 2026 21:00:35 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[billing]]></category>
-		<category><![CDATA[Claude]]></category>
-		<category><![CDATA[costs]]></category>
-		<category><![CDATA[SDK]]></category>
-		<category><![CDATA[subscription]]></category>
-		<category><![CDATA[token-based]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/</guid>
-
-                                    <description>
-                        <![CDATA[Move originally planned for Monday would have heavily increased power users' costs.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Last month, Anthropic <a href="https://x.com/bcherny/status/2040206441756471399?lang=en">announced a billing change</a> that would have substantially increased costs for heavy users of <a href="https://code.claude.com/docs/en/agent-sdk/overview">its automation-focused Claude Agent SDK</a>, including many third-party apps. On Monday, though, Anthropic abruptly announced it had paused those pricing changes just as they were set to take effect, allowing Agent SDK users to continue drawing from the more generous usage limits in their existing Claude subscriptions.</p>
-<p>The plan, as <a href="https://x.com/ClaudeDevs/status/2054610152817619388">announced on May 13</a>, would have treated usage of the Claude Agent SDK (including via third-party apps and <a href="https://code.claude.com/docs/en/headless">the programmatic "claude -p" command</a>) separately from "standard" Claude usage via the chat interface or the official Claude CLI. At the time, Anthropic said that, as of June 15, that kind of outside SDK usage would be billed at <a href="https://platform.claude.com/docs/en/about-claude/pricing">Anthropic's prevailing API rates</a>, with subscribers receiving a simple monthly usage credit equal to their subscription price.</p>
-<p>That would have been a major change from the current setup, where Agent SDK use is limited only by the <a>standard</a> weekly <a href="https://support.claude.com/en/articles/11049741-what-is-the-max-plan#h_cfd2904008">caps</a> applied to a user's current Claude subscription tier. Those generous limits allow power users to squeeze a lot more usage out of those paid subscriptions than they would get by paying the same price for API fees. <a href="https://fazm.ai/blog/claude-pro-vs-api-cost-comparison">One analysis suggests</a> that Claude Opus users start saving money from their subscription after just two to three messages per day, and that their subscription could be worth many multiples of its monthly cost in API usage.</p><p><a href="https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>98</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/claude37_header-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/claude37_header-500x500.jpg" width="500"/>
-<media:credit>Anthropic</media:credit><media:text>Pricing for Anthropic's Claude Agent SDK isn't changing for the time being.</media:text></media:content>
             </item>
             </channel>
 </rss>
