@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Thu, 02 Jul 2026 14:04:28 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 02 Jul 2026 20:32:47 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,8 +19,371 @@
 	<height>32</height>
 </image> 
             <item>
-                <title>Woman's puzzling decline turns out to be cobalt poisoning from hip replacement</title>
+                <title>Newly discovered PamStealer isn't your typical macOS malware</title>
+                <link>https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/</link>
+                                    <comments>https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 02 Jul 2026 19:38:57 +0000</pubDate>
+                		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[infostealers]]></category>
+		<category><![CDATA[MacOS Malware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/</guid>
+
+                                    <description>
+                        <![CDATA[The discovery underscores the increased effort being poured into Mac infostealers.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers have found a never-before-seen piece of macOS malware that combines a series of clever tradecraft to infect Macs with stealthy, custom-developed credential-stealing code.</p>
+<p>The malware is delivered in two stages. The first is distributed in a disk image that masquerades as <a href="https://maccy.app/">Maccy</a>, a clipboard manager for Macs. It’s compiled as AppleScript that is notable for the way it delivers the second stage. The malware is named PamStealer because the Rust-written infostealer uses the Pluggable Authentication Modules interface built into macOS to validate the target’s login password before sending it to an attacker-controlled server.</p>
+<h2>A quieter execution chain</h2>
+<p>The use of both disk image and AppleScript is common in malware for Macs. More unusual is the way PamStealer combines them to gain stealth. When the AppleScript is double-clicked, it’s opened in the macOS Script Editor, where the malicious functionality is buried deep within the file.</p><p><a href="https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>8</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/04/GettyImages-1299483011-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/04/GettyImages-1299483011-500x500.jpg" width="500"/>
+</media:content>
+            </item>
+                    <item>
+                <title>FAA proposal: Supersonic airliners can fly over US cities if they’re quiet</title>
+                <link>https://arstechnica.com/gadgets/2026/07/faa-proposal-supersonic-airliners-can-fly-over-us-cities-if-theyre-quiet/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/07/faa-proposal-supersonic-airliners-can-fly-over-us-cities-if-theyre-quiet/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Thu, 02 Jul 2026 17:29:37 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[boom supersonic]]></category>
+		<category><![CDATA[FAA]]></category>
+		<category><![CDATA[Federal Aviation Administration]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[supersonic boom]]></category>
+		<category><![CDATA[supersonic flight]]></category>
+		<category><![CDATA[supersonic travel]]></category>
+		<category><![CDATA[X-59]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/07/faa-proposal-supersonic-airliners-can-fly-over-us-cities-if-theyre-quiet/</guid>
+
+                                    <description>
+                        <![CDATA[New US rules would legalize quiet supersonic flights without the sonic boom.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A long-standing ban on commercial supersonic flights over the United States would be overturned in a new rule proposed by the US Federal Aviation Administration. That could pave the way for the possible return of commercial supersonic airliners—as long as such aircraft can reduce the ground-level impacts of their sonic booms.</p>
+<p>The FAA originally banned overland supersonic flights by civil aircraft in 1973, following US military tests involving supersonic flights over US cities such as Oklahoma City, Chicago, and St. Louis in the 1960s. But the <a href="https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-announces-supersonic-flight-coming-us">Trump administration has championed</a> the repeal of the ban to pave the way for supersonic airliners that could operate without disruptive sonic booms. So the FAA’s new rulemaking action on June 30, 2026, follows the direction of an <a href="https://www.whitehouse.gov/presidential-actions/2025/06/leading-the-world-in-supersonic-flight/">executive order </a>issued by President Trump on June 6, 2025.</p>
+<p>The newly <a href="https://www.faa.gov/newsroom/ARM-260115-001_Supersonic_NPRM_06-10-26.pdf">proposed rule</a> would replace the 53-year prohibition with an interim “noise-based” certification standard requiring any sonic boom overpressure at the surface to be kept below 0.11 pounds per square foot. That proposed standard is based on the Colorado-based startup <a href="https://boomsupersonic.com/">Boom Supersonic</a> having demonstrated quiet <a href="https://en.wikipedia.org/wiki/Mach_cutoff">Mach cutoff</a> flights with its <a href="https://boomsupersonic.com/flyby/up-to-speed-february-2025">XB-1 aircraft</a>—harnessing specific atmospheric conditions while flying just beyond supersonic speeds at higher altitudes so that the aircraft’s shockwaves are refracted upward into the atmosphere rather than traveling to the ground.</p><p><a href="https://arstechnica.com/gadgets/2026/07/faa-proposal-supersonic-airliners-can-fly-over-us-cities-if-theyre-quiet/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/07/faa-proposal-supersonic-airliners-can-fly-over-us-cities-if-theyre-quiet/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>72</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Overture-Rockies-1152x648.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Overture-Rockies-500x500.png" width="500"/>
+<media:credit>Boom Supersonic</media:credit><media:text>Concept art of Boom Supersonic's Overture airliner flying over the Rocky Mountains.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Ars Live recap: When are the big rockets NASA desperately needs going to be ready?</title>
+                <link>https://arstechnica.com/space/2026/07/ars-live-recap-when-are-the-big-rockets-nasa-desperately-needs-going-to-be-ready/</link>
+                                    <comments>https://arstechnica.com/space/2026/07/ars-live-recap-when-are-the-big-rockets-nasa-desperately-needs-going-to-be-ready/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Thu, 02 Jul 2026 16:46:47 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[ars live]]></category>
+		<category><![CDATA[artemis]]></category>
+		<category><![CDATA[blue origin]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[spacex]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/07/ars-live-recap-when-are-the-big-rockets-nasa-desperately-needs-going-to-be-ready/</guid>
+
+                                    <description>
+                        <![CDATA[I have not seen anyone put out a date for a new rocket, and actually hit it.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video ars-video--horizontal"><div><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/cyJEFjTktPA?start=0&amp;wmode=transparent"></div><div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      New Glenn Catastrophe Aftermath: What's Next for the Space Industry? | Ars Live
+
+          </div>
+  </div>
+</div></div>
+<p>This week <a href="https://www.youtube.com/watch?v=cyJEFjTktPA">Ars hosted a live discussion</a> with two space industry experts about the aftermath of the <a href="https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/">catastrophic explosion</a> of the New Glenn rocket in late May.</p>
+<p>Along with Ars Technica Space Editor Eric Berger; the director of research at <a href="https://www.quiltyspace.com/">Quilty Space</a>, Caleb Henry; and the host of the <a href="https://mainenginecutoff.com/podcast">Main Engine Cut Off podcast</a>, Anthony Colangelo, spoke about various topics. Chief among them was the implications of this failure for NASA's attempt to land humans on the Moon for the Artemis IV mission. Blue Origin and SpaceX are both building landers to support this goal and the rockets to deliver them to the Moon.</p>
+<p>During the conversation, Berger reported that the current Blue Origin "architecture" for a human mission would require four launches of new variant of the New Glenn rocket, known as 9x4, because it has nine first stage engines, and four upper stage engines. This is a more powerful version than the "7x2" variant that exploded a little more than a month ago. Blue Origin has not set a target date for the 9x4 rocket's debut, but some sources have indicated the company is targeting late 2027 or early 2028.</p><p><a href="https://arstechnica.com/space/2026/07/ars-live-recap-when-are-the-big-rockets-nasa-desperately-needs-going-to-be-ready/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/07/ars-live-recap-when-are-the-big-rockets-nasa-desperately-needs-going-to-be-ready/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>18</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/new-glenn-9x4-1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/new-glenn-9x4-1-500x500.jpg" width="500"/>
+<media:credit>Blue Origin</media:credit><media:text>A rendering of the 9x4 variant of a New Glenn rocket taking off.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Plex debuts 5-year membership pass for $250</title>
+                <link>https://arstechnica.com/gadgets/2026/07/250-used-to-get-you-a-lifetime-plex-pass-now-you-get-a-five-year-subscription/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/07/250-used-to-get-you-a-lifetime-plex-pass-now-you-get-a-five-year-subscription/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Thu, 02 Jul 2026 16:35:59 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Plex]]></category>
+		<category><![CDATA[streaming]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/07/250-used-to-get-you-a-lifetime-plex-pass-now-you-get-a-five-year-subscription/</guid>
+
+                                    <description>
+                        <![CDATA[Plex is pushing customers to newer features and more frequent payments. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>When Plex launched in 2012, it sold lifetime access to its media server software for $75. In 2014, Plex raised the price to be more sustainable for the company, it said, and for years, Lifetime Plex Passes cost $120. Even the pricier $250 rate, which Plex offered from March 2025 until yesterday, was a steal compared to what $250 buys you at Plex now: a five-year subscription.</p>
+<p>As first spotted by <a href="https://thedesk.net/2026/07/plex-raises-price-of-lifetime-plex-pass-introduces-five-year-plan-at-250/">The Desk</a>, Plex yesterday launched the five-year Plex Pass. It comes alongside <a href="https://arstechnica.com/gadgets/2026/05/plexs-200-lifetime-pass-price-hike-tries-forcing-users-to-another-subscription/">Lifetime Pass prices increasing to $750</a> yesterday, a change that Plex announced in May and, in a<a href="https://www.plex.tv/blog/new-lifetime-plex-pass-pricing/"> blog post update</a> this week, said: “reflects the real, ongoing value of the software and our commitment to building, improving, and supporting Plex for years to come.”</p>
+<p>The stark change in what $250 can get you at Plex is indicative of the company’s financial goals. Plex hasn’t yet announced profitability and has raised $87.6 million over nine rounds of funding, per <a href="https://www.cbinsights.com/company/plex-inc/financials">CB Insights</a>. The company is looking to squeeze more money out of its users and price its media server business higher.</p><p><a href="https://arstechnica.com/gadgets/2026/07/250-used-to-get-you-a-lifetime-plex-pass-now-you-get-a-five-year-subscription/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/07/250-used-to-get-you-a-lifetime-plex-pass-now-you-get-a-five-year-subscription/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>97</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2276656517-1152x648-1783004998.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2276656517-500x500.jpg" width="500"/>
+<media:credit>Avishek Das/SOPA Images/LightRocket via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Africa CDC confirms Marburg case in Uganda as Ebola outbreak rages</title>
+                <link>https://arstechnica.com/health/2026/07/africa-cdc-confirms-marburg-case-in-uganda-as-ebola-outbreak-rages/</link>
+                                    <comments>https://arstechnica.com/health/2026/07/africa-cdc-confirms-marburg-case-in-uganda-as-ebola-outbreak-rages/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Thu, 02 Jul 2026 16:30:37 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[Africa CDC]]></category>
+		<category><![CDATA[ebola]]></category>
+		<category><![CDATA[Ebola Outbreak]]></category>
+		<category><![CDATA[Marburg]]></category>
+		<category><![CDATA[uganda]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/07/africa-cdc-confirms-marburg-case-in-uganda-as-ebola-outbreak-rages/</guid>
+
+                                    <description>
+                        <![CDATA[Early reports indicate there may be another case, but spread is thought to be localized.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Amid disease surveillance for the ongoing Ebola outbreak, Ugandan health authorities identified a case of Marburg virus disease in a one-and-a-half-year-old child, who has died, according to Africa Centers for Disease Control and Prevention. But Ugandan health officials appear reluctant to publicly disclose information about the case and its context.</p>
+<p>Marburg virus is related to <em>Ebolaviruses </em>and causes similar hemorrhagic disease. Its transmission routes and prevention measures are likewise similar.</p>
+<p>On Wednesday, <a href="https://www.reuters.com/business/healthcare-pharmaceuticals/africa-cdc-uganda-health-ministry-confirms-isolated-marburg-case-2026-07-01/?utm_campaign=morning_rounds&amp;utm_medium=email&amp;_hsenc=p2ANqtz-_YMHVINueyrZbw7BNSdbuFShCvjhl7E2Y0XZB5gbwCYq8EUJ9hkyp2nXpVZ2gpxE5s8lpuo4U8X06eUQUlMeCoTPmMD0ygFQXXMdN8N0XlHnvnib8&amp;_hsmi=426571683&amp;utm_content=426571683&amp;utm_source=hs_email">Africa CDC told Reuters</a> that no contacts of the deceased toddler had developed symptoms, and there were no other current active cases in the country, citing Ugandan health authorities. But when Reuters reached out to Uganda's health ministry, a spokesperson said he was not aware of a Marburg outbreak.</p><p><a href="https://arstechnica.com/health/2026/07/africa-cdc-confirms-marburg-case-in-uganda-as-ebola-outbreak-rages/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/07/africa-cdc-confirms-marburg-case-in-uganda-as-ebola-outbreak-rages/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>18</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2279919981-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2279919981-500x500.jpg" width="500"/>
+<media:credit>Getty | BADRU KATUMBA</media:credit><media:text>A health worker wearing a face mask as part of his personal protection equipment (PPE) looks on at the  Mulago National Referral Hospital isolation unit in Kampala, Uganda, on July 8, 2026. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Artificial cell manages a few rounds of cell division</title>
+                <link>https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division/</link>
+                                    <comments>https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Thu, 02 Jul 2026 16:21:23 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[cell biology]]></category>
+		<category><![CDATA[evolution]]></category>
+		<category><![CDATA[origin of life]]></category>
+		<category><![CDATA[spudcells]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division/</guid>
+
+                                    <description>
+                        <![CDATA[It only works for a few divisions thanks to a lot of added materials.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Understanding the origin of life requires addressing a collection of overlapping scientific questions. We've made a lot of progress toward explaining how simple chemicals present on an early Earth built the complex molecules used by life and how some of those chemicals built the first genetic/catalytic molecules. But we're much further from understanding a key conundrum: How did membranes end up surrounding the first cells?</p>
+<p>It's relatively easy to make membranes spontaneously form in water, and they'll enclose anything dissolved in that water, including nucleic acids. But the membranes then cut their interior off from everything else in the solution. Any interesting chemical reactions enclosed there would eat through the raw materials and grind to a halt.</p>
+<p>Now, a lab at the University of Minnesota has announced that it has developed a simplified system in which a membrane encloses some genetic material but can continually import new materials supplied to it. The system also spontaneously divides, producing a few generations of "offspring" before things start failing. It's still extremely dependent upon human intervention, but it might provide a new avenue to explore questions about the origin of life and what a truly minimalistic form of life might look like.</p><p><a href="https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>15</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-1152x648-1783004554.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-500x500.jpeg" width="500"/>
+<media:credit>Biotic</media:credit><media:text>SpudCells in the process of dividing.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Google loses long-running appeal of record EU fine, will have to cough up $4.7 billion</title>
+                <link>https://arstechnica.com/gadgets/2026/07/google-loses-long-running-appeal-of-record-eu-fine-will-have-to-cough-up-4-7-billion/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/07/google-loses-long-running-appeal-of-record-eu-fine-will-have-to-cough-up-4-7-billion/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Thu, 02 Jul 2026 16:15:41 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[anticompetitive conduct]]></category>
+		<category><![CDATA[europe]]></category>
+		<category><![CDATA[google]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/07/google-loses-long-running-appeal-of-record-eu-fine-will-have-to-cough-up-4-7-billion/</guid>
+
+                                    <description>
+                        <![CDATA[The EU went after Google for the practice of bundling its search engine and browser with Android.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Back in 2018, Google was handed a record-setting 4.34 billion-euro ($4.9 billion) fine in Europe for abusing its monopoly on Android. The company has spent the intervening years challenging that decision, but the continent's highest court has put a stop to that. The Court of Justice of the European Union has affirmed the penalty, meaning Google is out of options.</p>
+<p>Google's fight may not have turned out the way the company wanted, but it wasn't for nothing. The initial amount was <a href="https://arstechnica.com/gadgets/2022/09/eu-upholds-googles-e4-1-billion-fine-for-bundling-search-with-android/">trimmed slightly</a> by a lower court in 2022, bringing the total to a still record-setting 4.1 billion euros ($4.7 billion). And that looks like the amount Google will have to pay since there are no further avenues for appeal.</p>
+<p>The fine stems from the way Google bundles apps and services with Android phones. The EU took issue with Google search and Chrome being the default options on Android. Even devices made by other companies, such as Samsung and Xiaomi, include Google apps as the default per the Android licensing agreement, giving Google an unfair advantage, according to European antitrust regulators. This is not to be confused with a 2.95 billion euro ($3.45 billion) fine against Google's advertising monopoly <a href="https://arstechnica.com/gadgets/2025/09/europe-slaps-google-with-2-95b-euro-fine-over-advertising-monopoly/">issued by the European Union last year</a>.</p><p><a href="https://arstechnica.com/gadgets/2026/07/google-loses-long-running-appeal-of-record-eu-fine-will-have-to-cough-up-4-7-billion/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/07/google-loses-long-running-appeal-of-record-eu-fine-will-have-to-cough-up-4-7-billion/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>24</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/06/GettyImages-1005907962-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/06/GettyImages-1005907962-500x500.jpg" width="500"/>
+<media:credit>Getty Images /  SOPA Images </media:credit><media:text>KRAKOW, POLAND - 2018/07/26:  In this photo illustration, the Google logo is seen displayed on an Android mobile with European Union flag in the background. (Photo Illustration by Omar Marques/SOPA Images/SOPA Images/LightRocket via Getty Images)</media:text></media:content>
+            </item>
+                    <item>
+                <title>Trump gets OpenAI to offer US 5% stake, far lower than Sanders’ target</title>
+                <link>https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Thu, 02 Jul 2026 15:12:25 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI regulation]]></category>
+		<category><![CDATA[ai sovereign wealth fund]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[trump administration]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/</guid>
+
+                                    <description>
+                        <![CDATA[Insiders say Sam Altman is in active talks with the Trump administration.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>OpenAI CEO Sam Altman is reportedly in active talks with the Trump administration about the US potentially acquiring a 5 percent stake in the leading AI firm.</p>
+<p>Insider sources <a href="https://www.ft.com/content/7c803eab-8e80-4431-9a87-e943bf00e00b">told the Financial Times</a> that these talks are in “early stages,” but Altman “has argued that giving the public a financial stake in the company is the best way to share the upside of AI.”</p>
+<p>Donald Trump favors the idea, and his administration has reportedly been talking to several AI firms about the possibility. According to FT’s sources, other companies approached to share similar stakes include Google and Meta.</p><p><a href="https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>52</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2267710211-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2267710211-500x500.jpg" width="500"/>
+<media:credit>NurPhoto / Contributor | NurPhoto</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Musk’s X poses “serious risk to Americans’ privacy,” advocates warn FTC</title>
+                <link>https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Thu, 02 Jul 2026 14:39:17 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI training]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[chatbot]]></category>
+		<category><![CDATA[data privacy]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[FTC]]></category>
+		<category><![CDATA[grok]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<category><![CDATA[X]]></category>
+		<category><![CDATA[xAI]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc/</guid>
+
+                                    <description>
+                        <![CDATA[FTC urged to reject Elon Musk’s bid to end X monitoring amid AI concerns.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Ahead of a July 2 deadline to submit public comments, advocates are <a href="https://www.eff.org/deeplinks/2026/06/eff-and-allies-xs-ftc-petition-waive-privacy-violation-order-should-be-rejected">warning</a> the Federal Trade Commission that it must keep close watch over Elon Musk’s X and firmly reject a<a href="https://arstechnica.com/tech-policy/2026/06/elon-musk-tries-again-to-escape-ftc-audits-of-x-data-handling/"> recent bid to end the agency’s ongoing audits</a> of the platform’s data handling.</p>
+<p>Last month, the FTC posted a notice explaining that X had argued that an FTC order was no longer necessary due to changes Musk had made to the platform.</p>
+<p>The initial order came as a penalty after the FTC found that a coding error had caused then-Twitter to improperly share users’ contact information for ad targeting that had initially been submitted for two-factor authentication. Under the order, X is subjected to costly independent audits, and the FTC has authority to demand documents to ensure compliance with data privacy laws without taking additional legal action.</p><p><a href="https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>37</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2280413039-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2280413039-500x500.jpg" width="500"/>
+<media:credit>CHARLY TRIBALLEAU / Contributor | AFP</media:credit><media:text>An inflatable effigy of  Elon Musk, protesting Grok AI, stands in Times Square in New York City on June 11, 2026.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Tesla sales increase by 25% in Q2 2026</title>
+                <link>https://arstechnica.com/cars/2026/07/tesla-sales-increase-by-25-in-q2-2026/</link>
+                                    <comments>https://arstechnica.com/cars/2026/07/tesla-sales-increase-by-25-in-q2-2026/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Thu, 02 Jul 2026 14:11:07 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/07/tesla-sales-increase-by-25-in-q2-2026/</guid>
+
+                                    <description>
+                        <![CDATA[Deliveries outstripped production, suggesting Tesla has cleared some inventory.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>If the car-buying public had qualms about Tesla, it appears to have gotten over them. This morning, the automaker <a href="https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments">released</a> its sales and production numbers for the second quarter of the year. And if you're a fan of activist CEO Elon Musk, it's good news, as April, May, and June were great months for the company. In total, Tesla sold 480,126 EVs during Q2, <a href="https://arstechnica.com/cars/2025/07/tesla-q2-2025-sales-dropped-more-than-13-year-over-year/">a 25 percent year-over-year increase</a>.</p>
+<p>As expected, the Model 3 and Y make up the vast majority of sales; despite its size, Tesla still only mass-produces these two models, which accounted for 467,762 deliveries, a 25.2 percent increase compared to Q2 last year. The remaining 12,364 vehicles—a 19 percent increase compared to the same quarter in 2025—were a mix of the <a href="https://arstechnica.com/cars/2026/01/tesla-kills-models-s-and-x-to-build-humanoid-robots-instead/">now-discontinued Models S and X</a> and the controversial <a href="https://arstechnica.com/tag/cybertruck/">Cybertruck</a>, which is only sold in North America and the Middle East.</p>
+<p>Better news for Tesla fans is that the company appears to be getting a handle on its overproduction problem. As we noted when it published its Q1 2026 results in March, Tesla had a growing inventory problem, repeatedly building more cars each month than it could sell. But total production for Q2 was 451,758 cars; this is a 10 percent increase year over year but also nearly 30,000 fewer cars than it sold this quarter.</p><p><a href="https://arstechnica.com/cars/2026/07/tesla-sales-increase-by-25-in-q2-2026/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/07/tesla-sales-increase-by-25-in-q2-2026/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>136</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-187005526-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-187005526-500x500.jpg" width="500"/>
+<media:credit>Justin Sullivan/Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Woman's hip replacement disintegrates, causing severe metal poisoning</title>
                 <link>https://arstechnica.com/health/2026/07/womans-puzzling-decline-turns-out-to-be-cobalt-poisoning-from-hip-replacement/</link>
+                                    <comments>https://arstechnica.com/health/2026/07/womans-puzzling-decline-turns-out-to-be-cobalt-poisoning-from-hip-replacement/#comments</comments>
                 
                 <dc:creator>
                     <![CDATA[Beth Mole]]>
@@ -45,6 +408,7 @@
 ]]>
                         </content:encoded>
                                     
+                                    <slash:comments>69</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/hip-replacement-786x648.jpg" width="786">
@@ -86,7 +450,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>31</slash:comments>
+                                    <slash:comments>48</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2246163658-1152x648.jpg" width="1152">
@@ -122,7 +486,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>32</slash:comments>
+                                    <slash:comments>69</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2203858255-1152x648.jpg" width="1152">
@@ -156,7 +520,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>72</slash:comments>
+                                    <slash:comments>80</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/getty-t-mobile-sign-1152x648.jpg" width="1152">
@@ -191,7 +555,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>27</slash:comments>
+                                    <slash:comments>31</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/webp" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/News_NG-ReturnToFlight_2-RocketLift-1152x648.webp" width="1152">
@@ -232,7 +596,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>99</slash:comments>
+                                    <slash:comments>106</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2200913289-1152x648.jpg" width="1152">
@@ -317,7 +681,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>162</slash:comments>
+                                    <slash:comments>178</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2186493403-1024x648.jpg" width="1024">
@@ -349,7 +713,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>90</slash:comments>
+                                    <slash:comments>108</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/2026-Volvo-EX30-Cross-Country-1-1152x648.jpg" width="1152">
@@ -385,379 +749,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>63</slash:comments>
+                                    <slash:comments>67</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/odyssey-1152x648-1782916077.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/odyssey-500x500.jpg" width="500"/>
 <media:credit>YouTube/Universal Pictures</media:credit></media:content>
-            </item>
-                    <item>
-                <title>After spooking Trump into safety testing, Anthropic AI models get global release</title>
-                <link>https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Wed, 01 Jul 2026 16:44:18 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[Anthropic Claude]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[fable 5]]></category>
-		<category><![CDATA[frontier ai]]></category>
-		<category><![CDATA[frontier models]]></category>
-		<category><![CDATA[Mythos 5]]></category>
-		<category><![CDATA[trump administration]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/</guid>
-
-                                    <description>
-                        <![CDATA[US lifts curbs on Anthropic’s advanced Fable and Mythos models.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The US has lifted export curbs on Anthropic’s newest Claude models, Fable 5 and Mythos 5, about three weeks after the Trump administration <a href="https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/">flagged the models as national security risks</a>.</p>
-<p>As of today, Anthropic confirmed in a <a href="https://www.anthropic.com/news/redeploying-fable-5">blog post</a>, Fable 5 will be available globally, and US organizations have had access restored to Mythos 5 since June 26. Anthropic said it is now working with the government to expand Mythos access to a “broader set of domestic and international partners in the Glasswing program.” That program allows cybersecurity researchers at trusted companies to access Mythos for defensive purposes.</p>
-<p>In a letter to Anthropic viewed <a href="https://www.reuters.com/business/us-lift-export-controls-anthropics-fable-ai-model-tuesday-source-says-2026-06-30/">by Reuters</a> and <a href="https://www.nytimes.com/2026/06/30/technology/us-lifts-restrictions-anthropic.html">The New York Times</a>, Commerce Secretary Howard Lutnick said Anthropic would “no longer need a license for exports or in-country transfers of its Claude Mythos and Claude Fable AI models.” The letter acknowledged that Anthropic had “taken steps in close coordination with the US government to address the risks” posed by the models.</p><p><a href="https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>46</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2280258777-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2280258777-500x500-1782918942.jpg" width="500"/>
-<media:credit>NurPhoto / Contributor | NurPhoto</media:credit></media:content>
-            </item>
-                    <item>
-                <title>NASA inspector general suggests Boeing's Starliner will now be a decade late</title>
-                <link>https://arstechnica.com/space/2026/07/nasa-inspector-general-suggests-boeings-starliner-will-now-be-a-decade-late/</link>
-                                    <comments>https://arstechnica.com/space/2026/07/nasa-inspector-general-suggests-boeings-starliner-will-now-be-a-decade-late/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Wed, 01 Jul 2026 16:11:39 +0000</pubDate>
-                		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Boeing]]></category>
-		<category><![CDATA[commercial crew]]></category>
-		<category><![CDATA[human spaceflight]]></category>
-		<category><![CDATA[international space station]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[Office of Inspector General]]></category>
-		<category><![CDATA[starliner]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/07/nasa-inspector-general-suggests-boeings-starliner-will-now-be-a-decade-late/</guid>
-
-                                    <description>
-                        <![CDATA[Starliner's certification may be delayed to 2027, 10 years later than Boeing's original schedule.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>NASA's inspector general <a href="https://oig.nasa.gov/audits/nasas-management-of-its-commercial-crew-program/">released an audit Tuesday</a> of the agency's Commercial Crew Program, and it looks increasingly likely that Boeing's Starliner crew capsule won't be certified for operational flights to the International Space Station until next year.</p>
-<p>That's just three years before NASA's official retirement date for the ISS in 2030, though lawmakers in Congress are seeking an extension until 2032. What's more, declaring Starliner ready for regular crew rotation flights next year would put the Boeing crew capsule a decade behind its original target of 2017.</p>
-<p>The inspector general issued six recommendations. NASA officials agreed to all of them. The recommendations include developing a schedule for the next Starliner flight and future crew missions and making sure the schedule is updated to include sufficient time to ensure all of the problems from Starliner's first test flight with astronauts in 2024 are "resolved and documented."</p><p><a href="https://arstechnica.com/space/2026/07/nasa-inspector-general-suggests-boeings-starliner-will-now-be-a-decade-late/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/07/nasa-inspector-general-suggests-boeings-starliner-will-now-be-a-decade-late/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>86</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/52004657971_02c9a5ce1b_o-1152x648-1782919980.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/52004657971_02c9a5ce1b_o-500x500.jpg" width="500"/>
-<media:credit>Boeing</media:credit><media:text>A Starliner crew module is lifted for integration with its service module at NASA's Kennedy Space Center in Florida in 2022.</media:text></media:content>
-            </item>
-                    <item>
-                <title>A space history mystery: What happened to the Viking arm used 50 years ago?</title>
-                <link>https://arstechnica.com/space/2026/07/50-years-on-will-the-mars-lander-arm-that-opened-the-air-and-space-raise-its-hand/</link>
-                                    <comments>https://arstechnica.com/space/2026/07/50-years-on-will-the-mars-lander-arm-that-opened-the-air-and-space-raise-its-hand/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Robert Pearlman]]>
-                </dc:creator>
-                <pubDate>Wed, 01 Jul 2026 15:20:34 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[1976]]></category>
-		<category><![CDATA[50th anniversary]]></category>
-		<category><![CDATA[July 1]]></category>
-		<category><![CDATA[lander]]></category>
-		<category><![CDATA[Mars]]></category>
-		<category><![CDATA[michael collins]]></category>
-		<category><![CDATA[National Air and Space Museum]]></category>
-		<category><![CDATA[President Gerald Ford]]></category>
-		<category><![CDATA[ribbon cutting]]></category>
-		<category><![CDATA[robotic arm]]></category>
-		<category><![CDATA[signal]]></category>
-		<category><![CDATA[Smithsonian]]></category>
-		<category><![CDATA[Space exploration]]></category>
-		<category><![CDATA[space history]]></category>
-		<category><![CDATA[surface sampler arm]]></category>
-		<category><![CDATA[Viking 1]]></category>
-		<category><![CDATA[Warren Burger]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/07/50-years-on-will-the-mars-lander-arm-that-opened-the-air-and-space-raise-its-hand/</guid>
-
-                                    <description>
-                        <![CDATA[A timely tale about a 50-year-old robotic arm...]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Michael Collins looked down at his watch.</p>
-<p>The Apollo 11 astronaut had already beaten the original schedule for the opening of the National Air and Space Museum by three days, but no one would remember that <a href="https://www.collectspace.com/news/news-070126a-national-air-space-museum-50th-ribbon-cutting-mystery.html" target="_blank" rel="noopener">if these final 36 minutes didn't go perfectly</a>.</p>
-<p>President Gerald Ford and Vice President Nelson Rockefeller took 35 seconds to find their seats on the red, white, and blue bunting-lined outdoor stage. The flyover by the Thunderbirds was quick enough. At any other event, it would have been the only time-dependent concern of the day.</p><p><a href="https://arstechnica.com/space/2026/07/50-years-on-will-the-mars-lander-arm-that-opened-the-air-and-space-raise-its-hand/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/07/50-years-on-will-the-mars-lander-arm-that-opened-the-air-and-space-raise-its-hand/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>30</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/news-070126aa-lg-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/news-070126aa-lg-500x500.jpg" width="500"/>
-<media:credit>Smithsonian/collectSPACE.com</media:credit><media:text>Apollo 11 astronaut Michael Collins, the first director of the National Air and Space Museum, looks down at his watch as he, President Gerald Ford (at left) and Secretary of the Smithsonian Dillon Ripley await the signal from Mars to trigger a Viking lander arm to cut the ribbon, opening the museum on July 1, 1976. </media:text></media:content>
-            </item>
-                    <item>
-                <title>UK likely to intervene in Paramount takeover of Warner Bros. Discovery</title>
-                <link>https://arstechnica.com/tech-policy/2026/07/uk-likely-to-intervene-in-paramount-takeover-of-warner-bros-discovery/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/07/uk-likely-to-intervene-in-paramount-takeover-of-warner-bros-discovery/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Daniel Thomas, Financial Times]]>
-                </dc:creator>
-                <pubDate>Wed, 01 Jul 2026 13:24:39 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[media]]></category>
-		<category><![CDATA[paramount merger]]></category>
-		<category><![CDATA[Paramount Pictures]]></category>
-		<category><![CDATA[WBD]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/07/uk-likely-to-intervene-in-paramount-takeover-of-warner-bros-discovery/</guid>
-
-                                    <description>
-                        <![CDATA[The acquisition was approved without concessions by the Department of Justice in June.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The British government could intervene in the $111 billion takeover of Warner Bros. Discovery by Paramount Skydance, citing concerns around the need for a plurality of views in news as well as media ownership in the UK.</p>
-<p>UK culture secretary Lisa Nandy said on Tuesday that she was “minded to intervene” in the deal, which would create one of the world’s largest media and entertainment groups.</p>
-<p>The takeover would lead to WBD media franchises such as CNN, HBO, and Warner Bros. movies being added to Paramount’s stable of assets, which include CBS in the US and Channel 5 in the UK.</p><p><a href="https://arstechnica.com/tech-policy/2026/07/uk-likely-to-intervene-in-paramount-takeover-of-warner-bros-discovery/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/07/uk-likely-to-intervene-in-paramount-takeover-of-warner-bros-discovery/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>65</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2250240969-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2250240969-500x500.jpg" width="500"/>
-<media:credit>Cheng Xin/Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Scientists find no link between Tylenol and autism, again, after Trump warning</title>
-                <link>https://arstechnica.com/health/2026/07/trump-and-rfk-jr-still-wrong-about-tylenol-and-autism-another-study-finds/</link>
-                                    <comments>https://arstechnica.com/health/2026/07/trump-and-rfk-jr-still-wrong-about-tylenol-and-autism-another-study-finds/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Wed, 01 Jul 2026 11:01:38 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[acetaminophen]]></category>
-		<category><![CDATA[ADHD]]></category>
-		<category><![CDATA[autism]]></category>
-		<category><![CDATA[robert f kennedy jr]]></category>
-		<category><![CDATA[Trump]]></category>
-		<category><![CDATA[tylenol]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/07/trump-and-rfk-jr-still-wrong-about-tylenol-and-autism-another-study-finds/</guid>
-
-                                    <description>
-                        <![CDATA[After Trump's claims, Tylenol usage dropped during pregnancies. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Another large study has found no link between autism and Tylenol use during pregnancy, refuting claims by President Trump and <a href="https://arstechnica.com/health/2025/09/anti-vaccine-groups-melt-down-over-reports-rfk-jr-to-link-autism-to-tylenol/">anti-vaccine Health Secretary Robert F. Kennedy Jr</a>.</p>
-<p>In September, Trump and Kennedy <a href="https://arstechnica.com/health/2025/09/trump-pacifies-anti-vaccine-allies-by-trashing-shots-alongside-tylenol/">held a press conference</a> in which they stated without clear evidence that the common fever and pain reducer acetaminophen—sold as Tylenol in the US and also known as paracetamol—causes autism in children if taken during pregnancy. Trump repeatedly warned pregnant people not to take Tylenol and instead "tough it out" with fever and/or pain.</p>
-<p>Medical organizations decried Trump's message, emphasizing that acetaminophen is a safe pain and fever reliever during pregnancy and that untreated fever during pregnancy is known to increase the risk of autism in babies as well as other conditions, including miscarriage, birth defects, and premature birth. Still, the president's warning was effective. <a href="https://arstechnica.com/health/2025/10/if-things-in-america-werent-stupid-enough-texas-is-suing-tylenol-maker/">Texas sued the maker of Tylenol</a> over the alleged connection. And a study in The Lancet in March found that use of acetaminophen in pregnant patients in emergency departments<a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00243-6/fulltext"> fell by 10 percent after Trump's press conference</a>.</p><p><a href="https://arstechnica.com/health/2026/07/trump-and-rfk-jr-still-wrong-about-tylenol-and-autism-another-study-finds/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/07/trump-and-rfk-jr-still-wrong-about-tylenol-and-autism-another-study-finds/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>128</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-2236338199-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-2236338199-500x500.jpg" width="500"/>
-<media:credit>Getty |  Francis Chung</media:credit><media:text>US President Donald Trump, right, and Robert F. Kennedy Jr., US secretary of Health and Human Services (HHS), in the Roosevelt Room of the White House in Washington, DC, on Sept. 22, 2025.</media:text></media:content>
-            </item>
-                    <item>
-                <title>June research roundup: 6 cool science stories we almost missed</title>
-                <link>https://arstechnica.com/science/2026/06/june-research-roundup-6-cool-science-stories-we-almost-missed/</link>
-                                    <comments>https://arstechnica.com/science/2026/06/june-research-roundup-6-cool-science-stories-we-almost-missed/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Tue, 30 Jun 2026 22:11:10 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[biophysics]]></category>
-		<category><![CDATA[Physics]]></category>
-		<category><![CDATA[research roundup]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/06/june-research-roundup-6-cool-science-stories-we-almost-missed/</guid>
-
-                                    <description>
-                        <![CDATA[Also, the science of poop's distinctive shape, boron buckyballs, and the secret to a soccer feint.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>It’s a regrettable reality that there is never enough time to cover all the interesting scientific stories we come across. So every month, we highlight a handful of the best stories that nearly slipped through the cracks.  June’s list includes insight into the science of soccer's scissors feint; the physics of poo's distinctive coiled shape; a boron buckyball; and the latest breakthrough in the ongoing Vesuvius challenge to decipher the Herculaneum scrolls.</p>
-<h2>The science of soccer's scissors feint</h2>
-<p><img width="640" height="432" src="https://cdn.arstechnica.net/wp-content/uploads/2026/06/soccer1-640x432.jpg" class="none medium" alt="close up of a soccer player's legs on the field as player performs the scissors feint" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/06/soccer1-640x432.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/soccer1-1024x691.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/soccer1-768x518.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/soccer1-980x662.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/06/soccer1.jpg 1200w" sizes="auto, (max-width: 640px) 100vw, 640px">
-        Credit:
-          <a href="https://www.youtube.com/watch?v=cME8ZKE983U" target="_blank">Screenshot/YouTube/Howcast</a>
-      </p>
-<p>With the FIFA World Cup in full swing, even scientists' thoughts are turning to soccer (or football for everyone else in the world). For instance, one common and highly effective dribbling maneuver is the "scissors feint," in which a player uses the outside of their feet to fake going one way and then cutting to the other. Japanese scientists studied university and junior high school soccer players of varying skill levels to study dribbling dynamics, focusing on the scissors feint. The movements were captured with high-speed cameras.</p><p><a href="https://arstechnica.com/science/2026/06/june-research-roundup-6-cool-science-stories-we-almost-missed/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/06/june-research-roundup-6-cool-science-stories-we-almost-missed/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>26</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/ballistaspider-1152x648-1782840720.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/ballistaspider-500x500.jpg" width="500"/>
-<media:credit>Pranav Joshi</media:credit><media:text>A fully constructed conical snare of the ballista spider
-</media:text></media:content>
-            </item>
-                    <item>
-                <title>Reddit will require you to log in to use old.reddit.com</title>
-                <link>https://arstechnica.com/gadgets/2026/06/reddit-will-require-you-to-log-in-to-use-old-reddit-com/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/06/reddit-will-require-you-to-log-in-to-use-old-reddit-com/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Tue, 30 Jun 2026 21:46:35 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[reddit]]></category>
-		<category><![CDATA[social media]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/06/reddit-will-require-you-to-log-in-to-use-old-reddit-com/</guid>
-
-                                    <description>
-                        <![CDATA[Logged-out Old Reddit access is “significant source of abusive scraping." ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Reddit will start requiring people to be logged into Reddit to use old.reddit.com.</p>
-<p>The new requirement will take effect “over the next month,” a Reddit employee going by the username boat-botany <a href="https://old.reddit.com/r/modnews/comments/1ujtebf/logging_in_to_use_old_reddit/">announced</a> on the social media platform today. The person claimed that the change is part of an ongoing effort to “tighten how automated systems access Reddit.”</p>
-<p>The Reddit employee wrote:</p><p><a href="https://arstechnica.com/gadgets/2026/06/reddit-will-require-you-to-log-in-to-use-old-reddit-com/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/06/reddit-will-require-you-to-log-in-to-use-old-reddit-com/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>180</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-2203349473-1152x648-1782854744.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-2203349473-500x500-1758049506.jpg" width="500"/>
-<media:credit>Getty</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Amazon blames piracy apps with malware for killing new Fire Stick sideloading</title>
-                <link>https://arstechnica.com/gadgets/2026/06/exec-blames-malware-threat-for-amazon-blocking-sideloading-on-new-fire-sticks/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/06/exec-blames-malware-threat-for-amazon-blocking-sideloading-on-new-fire-sticks/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Tue, 30 Jun 2026 21:04:53 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[amazon alexa]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/06/exec-blames-malware-threat-for-amazon-blocking-sideloading-on-new-fire-sticks/</guid>
-
-                                    <description>
-                        <![CDATA[New Fire Stick OS helps Amazon block third-party homepage launchers, ad blockers. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Amazon is blaming the threat of malware for its decision to <a href="https://arstechnica.com/gadgets/2026/04/amazon-wont-release-fire-sticks-that-support-sideloading-anymore/">stop releasing new Fire Sticks that support sideloading</a> apps from outside Amazon’s Appstore.</p>
-<p>Amazon has released two Fire Stick models that use its proprietary, Linux-based operating system, Vega OS. Previous Fire Sticks ran Fire OS, which is an Android fork based on the Android Open Source Project. One of the biggest differences between Vega OS and Fire OS is that the former doesn’t support sideloading.</p>
-<p>It <a href="https://arstechnica.com/gadgets/2025/09/amazon-fire-tv-devices-expected-to-ditch-android-for-linux-in-2025/">wasn’t surprising</a> when Amazon released its first Vega OS-based Fire Stick. Although many tinkerers sideloaded apps, especially from the Google Play Store, for added functionality, sideloading had also become largely associated with streaming piracy, <a href="https://www.nytimes.com/athletic/6161947/2025/02/26/sports-streaming-piracy-premier-league/">especially of sporting events</a>.</p><p><a href="https://arstechnica.com/gadgets/2026/06/exec-blames-malware-threat-for-amazon-blocking-sideloading-on-new-fire-sticks/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/06/exec-blames-malware-threat-for-amazon-blocking-sideloading-on-new-fire-sticks/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>73</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/MGViZTU1YTIt._CB799536100_-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/MGViZTU1YTIt._CB799536100_-500x500.jpg" width="500"/>
-<media:credit>Amazon</media:credit><media:text>A Vega OS-based Fire TV Stick 4K Select with its remote. </media:text></media:content>
-            </item>
-                    <item>
-                <title>NASA may send a backup, nuclear-powered Mars rover to the Moon</title>
-                <link>https://arstechnica.com/space/2026/06/nasa-may-send-a-backup-nuclear-powered-mars-rover-to-the-moon/</link>
-                                    <comments>https://arstechnica.com/space/2026/06/nasa-may-send-a-backup-nuclear-powered-mars-rover-to-the-moon/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Tue, 30 Jun 2026 20:50:14 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[mars rover]]></category>
-		<category><![CDATA[moon]]></category>
-		<category><![CDATA[moon base]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[perseverance]]></category>
-		<category><![CDATA[space]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/06/nasa-may-send-a-backup-nuclear-powered-mars-rover-to-the-moon/</guid>
-
-                                    <description>
-                        <![CDATA["That would be an awesome capability."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>NASA officials said Tuesday that they are seriously considering sending the full-scale engineering model of the Perseverance rover, which is currently housed at the Jet Propulsion Laboratory in California, to the Moon to expedite their efforts to explore the south pole region.</p>
-<p>The car-sized rover nicknamed "Promise," which serves as a testbed for Perseverance and was not otherwise planned for a launch, would land equipped with a multi-mission radioisotope thermoelectric generator (MMRTG) to power it across difficult terrain and through the lunar night. NASA's other rovers primarily operate on solar power.</p>
-<p>"We are thinking very hard right now about sending Promise to the Moon," NASA Administrator Jared Isaacman said Tuesday during a monthly update on the agency's plans to build a Moon base.</p><p><a href="https://arstechnica.com/space/2026/06/nasa-may-send-a-backup-nuclear-powered-mars-rover-to-the-moon/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/06/nasa-may-send-a-backup-nuclear-powered-mars-rover-to-the-moon/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>94</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/jpegPIA24528-1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/jpegPIA24528-1-500x500.jpg" width="500"/>
-<media:credit>NASA</media:credit><media:text>The twin of NASA's Perseverance Mars rover arrives at JPL's Mars Yard garage on October 29, 2021.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Google kills Tenor GIF API, forcing changes at X, Discord, and more</title>
-                <link>https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Tue, 30 Jun 2026 20:38:51 +0000</pubDate>
-                		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[gifs]]></category>
-		<category><![CDATA[google]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more/</guid>
-
-                                    <description>
-                        <![CDATA[Tenor still connects to Google apps, but other platforms must look elsewhere for GIFs.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Google is so famous for killing products that there's a whole <a href="https://killedbygoogle.com/">virtual graveyard</a> you can explore. Google's latest shutdown now has a headstone of its own. Effective today, Google has discontinued the Tenor API, which you may not be familiar with by name. You've probably used it, though. Tenor is a database of searchable GIFs, which used to serve animated images to sites like X/Twitter, Discord, and more. Now, it only serves Google—maybe the headstone is a bit premature.</p>
-<p>Like many Google products, Tenor started as an independent company. Google came along and bought Tenor in 2018, and it continued running it largely unchanged in the intervening years. Tenor was integrated into Google products like Gboard and Google Messages, but the API also gave other platforms a way to help users find, share, and save GIFs. It's similar to services like Giphy and Klipy.</p>
-<p>In January, Google announced it was going to start winding down that API access. It stopped accepting new integrations at that time, and the end date has now arrived: As of June 30, the Tenor API is no more. Google, a company with nearly 200,000 employees and more than $130 billion in 2025 profit, says it decided to stop supporting the image API so it could better focus its resources. The real problem was probably that Tenor was free, and Google didn't see a way it could make money from a GIF API.</p><p><a href="https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>60</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-stamp-grain-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-stamp-grain-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson</media:credit></media:content>
             </item>
             </channel>
 </rss>
