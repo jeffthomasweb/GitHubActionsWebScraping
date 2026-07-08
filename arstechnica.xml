@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Tue, 07 Jul 2026 22:29:00 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jul 2026 12:56:45 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,74 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Blue Origin, for the first time, is expected to raise private capital</title>
+                <link>https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/</link>
+                                    <comments>https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Wed, 08 Jul 2026 12:47:35 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[blue origin]]></category>
+		<category><![CDATA[Jeff Bezos]]></category>
+		<category><![CDATA[space]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/</guid>
+
+                                    <description>
+                        <![CDATA[The company is raising $10 billion, leading to a valuation of $130 billion.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The rocket company founded by Jeff Bezos, Blue Origin, is raising private capital, the <a href="https://messaging-custom-newsletters.nytimes.com/dynamic/render?campaign_id=4&amp;emc=edit_dk_20260708&amp;instance_id=178391&amp;isViewInBrowser=true&amp;nl=dealbook&amp;paid_regi=1&amp;productCode=DK&amp;regi_id=77722883&amp;segment_id=222758&amp;sendId=222758&amp;uri=nyt://newsletter/5f0bfd29-6f4b-5db4-a780-b5dab19d0563&amp;user_id=d5e9cff6cf0c03ffbb9921bcd45f630c">DealBook newsletter reported</a> early Wednesday.</p>
+<p>According to the publication, the company is raising $10 billion, leading to a valuation of $130 billion. Coatue Management, a big asset manager, is expected to lead with a $4 billion commitment. Another $4 billion is expected to come from large institutional investors. And Bezos will contribute an additional $2 billion.</p>
+<p>Founded in the year 2000, Blue Origin is seeking to become a global leader in spaceflight, developing a line of super heavy lift rockets, lunar landers, and plans for two megaconstellations. It is seeking to compete in the same areas—launch, telecommunications, data centers from space—as SpaceX.</p><p><a href="https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>7</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/02/GettyImages-520716332-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/02/GettyImages-520716332-500x500.jpg" width="500"/>
+<media:credit>Matthew Staver/Bloomberg via Getty Images</media:credit><media:text>Jeff Bezos, founder of Blue Origin, speaks during the 32nd Space Symposium in 2016. A few months later, the company would formally announce development of the huge New Glenn rocket.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Hackers can use 9 of the most popular AI tools to assemble massive botnets</title>
+                <link>https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/</link>
+                                    <comments>https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 08 Jul 2026 07:00:51 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[hallucinations]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[typosquatting]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/</guid>
+
+                                    <description>
+                        <![CDATA["HalluSquatting" weaponizes LLMs' inability to say "I don't know."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In the brief history of AI security, the prompt injection has quickly become the top threat. Large language models are inherently unable to distinguish between legitimate instructions provided by users and malicious ones sneaked into emails, source code, and other third-party content the models are processing. This makes it trivial to surreptitiously inject malicious commands that the LLM readily follows.</p>
+<p>With no way to enforce this crucial boundary between trusted and untrusted sources, AI engine developers are left to erect elaborate guardrails designed to mitigate the damage rather than solve the root cause.</p>
+<p>To date, most prompt injections have fallen into a class known as push, in which each potential victim is targeted. For example, the adversary injects malicious instructions into an individual email or calendar invitation. Because the injection must then be sent (or pushed) to each specific target, the scale of the attack is limited, hampering mass exploits that hit the Internet at large.</p><p><a href="https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>22</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/rogue-ai-agent-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/rogue-ai-agent-500x500.jpg" width="500"/>
+</media:content>
+            </item>
+                    <item>
                 <title>Michigan sees explosive outbreak of diarrheal parasite with over 700 cases</title>
                 <link>https://arstechnica.com/health/2026/07/michigan-sees-explosive-outbreak-of-diarrheal-parasite-with-over-700-cases/</link>
                                     <comments>https://arstechnica.com/health/2026/07/michigan-sees-explosive-outbreak-of-diarrheal-parasite-with-over-700-cases/#comments</comments>
@@ -45,7 +113,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>4</slash:comments>
+                                    <slash:comments>87</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/7827_lores-700x648.jpg" width="700">
@@ -84,7 +152,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>23</slash:comments>
+                                    <slash:comments>52</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Electric-Arc-Furnace-1152x648.jpg" width="1152">
@@ -122,7 +190,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>14</slash:comments>
+                                    <slash:comments>48</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2267590795-1152x648.jpg" width="1152">
@@ -154,7 +222,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>31</slash:comments>
+                                    <slash:comments>68</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/texas-flag-1152x648.jpg" width="1152">
@@ -190,7 +258,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>57</slash:comments>
+                                    <slash:comments>106</slash:comments>
                 
                 
                 <media:content height="524" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/keen-1152x524.jpg" width="1152">
@@ -226,7 +294,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>52</slash:comments>
+                                    <slash:comments>74</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Pixel-11-event-1152x648.jpg" width="1152">
@@ -259,7 +327,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>51</slash:comments>
+                                    <slash:comments>63</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2164684199-1152x648-1783447853.jpg" width="1152">
@@ -295,7 +363,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>44</slash:comments>
+                                    <slash:comments>64</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/nintendo-switch-1152x648-1776887603.jpg" width="1152">
@@ -321,13 +389,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>To varying degrees, each form of motorsport combines sport, entertainment, and technological development. As Ars has explored, there are <a href="https://arstechnica.com/cars/2025/01/how-car-racing-data-could-help-nasa-build-ai-caretaker-for-mars-mission/">valuable lessons</a> that companies can learn <a href="https://arstechnica.com/cars/2018/11/the-golden-age-tech-speeds-from-racetrack-to-road-faster-than-ever/">from competition</a>, particularly when the pressure is as intense as <a href="https://arstechnica.com/cars/2016/05/turbulent-times-for-formula-1-engines-result-in-unprecedented-efficiency-gains/">Formula 1</a>. If you asked me last month, I would likely have said that when it comes to historic racing, it's almost all about the sport and entertainment, with precious little tech development.</p>
-<p>But that was before I spoke with Matt Faulks, executive innovation director at Lola Cars, about the company's new run of T70S. The original T70 debuted in 1965, and Lola built more than 100, which in the latter half of the 1960s proved effective in short races like the Can-Am series as well as endurance events like Le Mans or Daytona. Latterly, T70S have proved popular among the historic racing crowd, and <a href="https://arstechnica.com/cars/2022/08/rebuilding-a-once-great-racing-name-the-return-of-lola-cars/">as Lola rebuilds itself</a> after a 2022 bankruptcy, it's joining some of the other storied manufacturers that will build you a continuation car. Lola will have 16 new cars, configured either for historic racing complete with the necessary FIA homologation papers as the T70S, or as a UK road-legal version, the T70S GT.</p>
+<p>But that was before I spoke with Matt Faulks, executive innovation director at Lola Cars, about the company's new run of T70s. The original T70 debuted in 1965, and Lola built more than 100, which in the latter half of the 1960s proved effective in short races like the Can-Am series as well as endurance events like Le Mans or Daytona. Latterly, T70s have proved popular among the historic racing crowd, and <a href="https://arstechnica.com/cars/2022/08/rebuilding-a-once-great-racing-name-the-return-of-lola-cars/">as Lola rebuilds itself</a> after being saved in  2022, it's joining some of the other storied manufacturers by digging into its archive. Lola will have 16 new cars, configured either for historic racing complete with the necessary FIA homologation papers as the T70S, or as a UK road-legal version, the T70S GT.</p>
 <p>But it's the use of materials that makes the new T70S particularly interesting.</p><p><a href="https://arstechnica.com/cars/2026/07/this-race-car-is-made-from-plant-fibers-volcanoes-and-seawater/">Read full article</a></p>
 <p><a href="https://arstechnica.com/cars/2026/07/this-race-car-is-made-from-plant-fibers-volcanoes-and-seawater/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>23</slash:comments>
+                                    <slash:comments>30</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/3O0A6846-1152x648.jpg" width="1152">
@@ -365,7 +433,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>25</slash:comments>
+                                    <slash:comments>33</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2195894561-1152x648.jpg" width="1152">
@@ -418,7 +486,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>46</slash:comments>
+                                    <slash:comments>53</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/dragonfly1-1152x648.jpg" width="1152">
@@ -470,7 +538,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>24</slash:comments>
+                                    <slash:comments>26</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1230363263-1152x648.jpg" width="1152">
@@ -506,7 +574,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>68</slash:comments>
+                                    <slash:comments>78</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/55370181785_141924edbe_4k-1152x648.jpg" width="1152">
@@ -546,7 +614,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>111</slash:comments>
+                                    <slash:comments>136</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Agility_Digit_06-1152x648.jpg" width="1152">
@@ -578,7 +646,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>161</slash:comments>
+                                    <slash:comments>172</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/online-bill-1152x648-1783369462.jpg" width="1152">
@@ -613,7 +681,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>70</slash:comments>
+                                    <slash:comments>81</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2238288864-1152x648.jpg" width="1152">
@@ -668,7 +736,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>38</slash:comments>
+                                    <slash:comments>40</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/news-070326a-lg-1152x648.jpg" width="1152">
@@ -709,92 +777,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>125</slash:comments>
+                                    <slash:comments>140</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2283985401-1024x648.jpg" width="1024">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2283985401-500x500.jpg" width="500"/>
 <media:credit>SOPA Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Katalyst's satellite rescue mission is now in pursuit of NASA's Swift</title>
-                <link>https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/</link>
-                                    <comments>https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Mon, 06 Jul 2026 17:14:09 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[air launch]]></category>
-		<category><![CDATA[Commercial space]]></category>
-		<category><![CDATA[katalyst space]]></category>
-		<category><![CDATA[kwajalein atoll]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[Northrop Grumman]]></category>
-		<category><![CDATA[pegasus rocket]]></category>
-		<category><![CDATA[Swift]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/</guid>
-
-                                    <description>
-                        <![CDATA[It will take several weeks for the Link spacecraft to rendezvous with NASA's Swift observatory.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>High above the remote Pacific Ocean, about halfway between Hawaii and the northernmost part of Australia, an air-launched rocket fired into space on Independence Day weekend to kick off a weekslong pursuit of a NASA astronomy satellite perilously close to falling out of orbit.</p>
-<p>The endeavor to rescue NASA's Swift satellite is the first mission of its kind. NASA put out a call for commercial companies less than a year ago to propose how they could rapidly build and launch a small satellite to latch onto the Swift spacecraft and boost its altitude so that it doesn't come down in a few months.</p>
-<p>Katalyst Space Technologies responded with the best offer. NASA awarded the company a contract last September to build and launch a mission to rescue Swift. A little more than nine months later, Katalyst's nearly half-ton Link satellite is safely in orbit. For anyone who follows the space industry, building, testing, and launching a functioning first-of-its-kind satellite of that size in less than a year is a remarkable achievement; it would usually take several years.</p><p><a href="https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>64</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Pegasus-Image-2-resized-1000x648.jpg" width="1000">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Pegasus-Image-2-resized-500x500.jpg" width="500"/>
-<media:credit>Northrop Grumman</media:credit><media:text>Northrop Grumman's L-1011 carrier aircraft and the Pegasus XL rocket take off from Mojave Air and Space Port in California to begin the next leg of its journey to Kwajalein Atoll in the equatorial Pacific Ocean.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance</title>
-                <link>https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Mon, 06 Jul 2026 16:44:18 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AI privacy]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[china]]></category>
-		<category><![CDATA[Claude]]></category>
-		<category><![CDATA[Claude Code]]></category>
-		<category><![CDATA[Distillation]]></category>
-		<category><![CDATA[frontier ai]]></category>
-		<category><![CDATA[surveillance]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/</guid>
-
-                                    <description>
-                        <![CDATA[Anthropic accused of spying on users; engineer says “experiment” is over.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Anthropic quickly removed a tracker secretly monitoring Claude Code users in China after a security researcher <a href="https://thereallo.dev/blog/claude-code-prompt-steganography">exposed</a> the hidden code and condemned the spyware-like tracking as a “serious breach of user trust.”</p>
-<p>Last week, a web developer known as “Thereallo” was researching privacy issues in Claude Code and was shocked to find that the AI firm was using “prompt steganography” to hide code that tracks Chinese users “in plain sight.” This code wasn’t malicious, but it was sending information to Anthropic that most users wouldn’t detect, relying on shorthand markers to quietly flag users’ timezone, proxy, and potential connection to Chinese AI labs that <a href="https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/">Anthropic has accused of distillation attacks</a>.</p>
-<p>On X, Anthropic engineer Thariq Shihipar confirmed that the tracker was added to Claude Code as an “experiment” in March. According to Shihipar, the code “was meant to prevent account abuse from unauthorized resellers and protect against distillation.” Regarding the former, <a href="https://www.washingtonpost.com/national-security/2026/07/06/why-anthropic-alleges-chinese-firms-are-distilling-knowledge-claude/">The Washington Post found</a> unauthorized retailers have sold access to free models for $1 a month, and pro subscriptions that can cost $100 monthly sell for "as little as $12."</p><p><a href="https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>107</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2277613277-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2277613277-500x500.jpg" width="500"/>
-<media:credit>SOPA Images / Contributor | LightRocket</media:credit></media:content>
             </item>
             </channel>
 </rss>
