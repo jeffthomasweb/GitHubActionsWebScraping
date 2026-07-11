@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Fri, 10 Jul 2026 13:51:10 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jul 2026 00:22:37 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,7 +19,394 @@
 	<height>32</height>
 </image> 
             <item>
-                <title>VW Group and unions disagree on plan to streamline the automaker</title>
+                <title>Quantum error correction can constantly recalibrate a processor</title>
+                <link>https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/</link>
+                                    <comments>https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Fri, 10 Jul 2026 23:02:30 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[drift]]></category>
+		<category><![CDATA[Error correction]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[quantum computing]]></category>
+		<category><![CDATA[quantum mechanics]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/</guid>
+
+                                    <description>
+                        <![CDATA[Reinforcement learning uses error information to adjust control algorithms.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>There are some obvious big picture issues that stand between us and useful quantum computing. Issues like whether we can make enough high-quality hardware qubits to connect into the error-corrected logical qubits we need, and how we generate the states needed to perform universal computation on those logical qubits. But there are also many less prominent challenges that will need to be solved before we can perform calculations.</p>
+<p>One of those challenges, which only affects some types of hardware, is calibration. For devices we manufacture, like superconducting qubits, there are always subtle variations among individual qubits. (This is not true when we use something like an atom to hold the qubit, but the lasers that control them can drift.) As a result, this hardware is put through a process called calibration, where we test different frequencies and amplitudes of the microwave pulses that control them to find the combination that produces the lowest error rates, and then save those settings for use in calculations.</p>
+<p>However, you can't perform the typical calibration process while you're doing calculations, which means drift becomes an issue for long and complicated algorithms. Google, though, has figured out that it's possible to do calibration using the same data that's used for error correction.</p><p><a href="https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>4</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/10/Sycamore-Rainbow-cropped-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2019/10/Sycamore-Rainbow-cropped-500x500.jpg" width="500"/>
+<media:credit>Google</media:credit><media:text>Google's Sycamore processor.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Increased drone surveillance of illegal July 4th fireworks led to $100K fine</title>
+                <link>https://arstechnica.com/gadgets/2026/07/on-americas-250th-more-cities-used-drone-surveillance-to-spot-illegal-fireworks/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/07/on-americas-250th-more-cities-used-drone-surveillance-to-spot-illegal-fireworks/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Fri, 10 Jul 2026 22:37:22 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[aerial surveillance]]></category>
+		<category><![CDATA[drones]]></category>
+		<category><![CDATA[firefighters]]></category>
+		<category><![CDATA[fireworks]]></category>
+		<category><![CDATA[law enforcement]]></category>
+		<category><![CDATA[surveillance]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/07/on-americas-250th-more-cities-used-drone-surveillance-to-spot-illegal-fireworks/</guid>
+
+                                    <description>
+                        <![CDATA[More police and firefighters use drones to catch and deter illegal fireworks.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>More cities and towns deployed drones to spot illegal fireworks during the Fourth of July celebrations commemorating America’s 250th anniversary—leading to a $100,000 fine in one instance and coming as part of a broader national trend of first responders turning to drone surveillance.</p>
+<p>Police and fire departments have described using both increased drone surveillance and steep fines to deter people from shooting off illegal fireworks, with many departments publicizing their drone videos on social media and warning that their drones will be watching in the future. Incidents involving illegal fireworks have led to costly <a href="https://www.aol.com/articles/illegal-4th-july-fireworks-ignite-234114000.html">fires</a>, injuries, and <a href="https://abc7chicago.com/story/brittany-armstrong-charged-involuntary-manslaughter-illegal-fireworks-start-fire-killed-cashmere-elijah-parker-dunn-north-carolina/19465259/">even</a> <a href="https://abc7.com/post/woman-dead-3-other-people-injured-including-child-in-fireworks-explosion-during-fourth-of-july-gathering-in-chino/19452109/">multiple</a> <a href="https://abc11.com/post/cashmere-elijah-parker-nc-boy-killed-when-fireworks-related-fire-burns-apartments-neighbor-brittany-armstrong-charged-dunn/19464066/">deaths</a> each year, along with creating local air and noise pollution for residential neighborhoods.</p>
+<p>This year, the $100,000 fine for illegal fireworks came from the Sacramento Fire Department in Northern California deploying its own drones for the first time on the Fourth of July, according to <a href="https://www.cbsnews.com/sacramento/news/sacramento-fire-cracks-down-on-illegal-fireworks-with-drone-technology/">CBS News Sacramento</a>. Sacramento Fire Captain Justin Sylvia described the fire department’s drones as being capable of recording scenes in high-resolution video to help investigators identify the house or closest location using Google Maps.</p><p><a href="https://arstechnica.com/gadgets/2026/07/on-americas-250th-more-cities-used-drone-surveillance-to-spot-illegal-fireworks/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/07/on-americas-250th-more-cities-used-drone-surveillance-to-spot-illegal-fireworks/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>41</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2282959319-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2282959319-500x500.jpg" width="500"/>
+<media:credit>MediaNews Group/Orange County Register via Getty Images / Contributor</media:credit><media:text>Officer Taylor Palmero practices flying a drone at the Riverside Police Department in California on June 26, 2026, in preparation for firework enforcement on Independence Day.</media:text></media:content>
+            </item>
+                    <item>
+                <title>China recovered its first reusable rocket and showed a new way to do it</title>
+                <link>https://arstechnica.com/space/2026/07/china-recovered-its-first-reusable-rocket-and-showed-a-new-way-to-do-it/</link>
+                                    <comments>https://arstechnica.com/space/2026/07/china-recovered-its-first-reusable-rocket-and-showed-a-new-way-to-do-it/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Fri, 10 Jul 2026 21:41:43 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[long march 10]]></category>
+		<category><![CDATA[long march 10b]]></category>
+		<category><![CDATA[reusable rocket]]></category>
+		<category><![CDATA[Wenchang]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/07/china-recovered-its-first-reusable-rocket-and-showed-a-new-way-to-do-it/</guid>
+
+                                    <description>
+                        <![CDATA["Clearly, they admire the work that's being done by SpaceX and are trying to replicate it."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>China's sprawling state-owned rocket developer, maker of the country's Long March rocket family, announced it recovered a reusable orbital-class booster for the first time Friday in the South China Sea.</p>
+<p>The milestone mission began with the liftoff of a Long March 10B rocket from the Wenchang Commercial Space Launch Site on Hainan Island, China's southernmost province. Powered by seven kerosene-fueled engines, the approximately 209-foot-tall (63.6-meter) rocket took off at 12:15 am EDT (04:15 UTC), or 12:15 pm local time at the seaside spaceport at Wenchang.</p>
+<p>About 10 minutes later, the Long March 10B booster descended from space and guided itself into a four-legged frame affixed to an offshore vessel. Tensioned cables stretched over the ship in a grid pattern captured the rocket as it shut down its landing engines, leaving the smoldering booster hanging in midair. The rocket's upper stage continued into orbit and deployed a payload known only as CX-26. Chinese officials hailed the flight as a "complete success."</p><p><a href="https://arstechnica.com/space/2026/07/china-recovered-its-first-reusable-rocket-and-showed-a-new-way-to-do-it/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/07/china-recovered-its-first-reusable-rocket-and-showed-a-new-way-to-do-it/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>51</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/lm10bcatch2-872x648.jpg" width="872">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/lm10bcatch2-500x500.jpg" width="500"/>
+<media:credit>Chinese Foreign Ministry via X</media:credit><media:text>China's Long March 10B booster, 16 feet (5 meters) in diameter, descends toward its recovery vessel in the South China Sea.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Check out the first images of Quest shipwreck</title>
+                <link>https://arstechnica.com/science/2026/07/expedition-captures-first-images-of-shackletons-last-ship/</link>
+                                    <comments>https://arstechnica.com/science/2026/07/expedition-captures-first-images-of-shackletons-last-ship/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Fri, 10 Jul 2026 19:59:31 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Archaeology]]></category>
+		<category><![CDATA[maritime archaeology]]></category>
+		<category><![CDATA[maritime history]]></category>
+		<category><![CDATA[shipwrecks]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/07/expedition-captures-first-images-of-shackletons-last-ship/</guid>
+
+                                    <description>
+                        <![CDATA[The <em>Quest</em> shipwreck is in worse shape than expected, but it has turned into a thriving marine ecosystem.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video ars-video--horizontal"><div><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/tQeVb2Hs9TQ?start=0&amp;wmode=transparent"></div></div></div>
+<p>Back in 2024, <a href="https://arstechnica.com/science/2024/06/expedition-finds-wreckage-of-ship-on-which-shackleton-made-his-final-voyage/">we reported</a> on the discovery of the <em>Quest</em> shipwreck, the polar exploration vessel that served Arctic explorer Sir Ernest Shackleton on his last voyage. Shackleton died before reaching their destination, and the ship sank in 1962. The Royal Canadian Geographic Society (RCGS) has now released the first images of the wreck more than 60 years after it sank, <a href="https://canadiangeographic.ca/articles/first-images-of-quest-wreck-reveal-shackletons-last-ship-draped-with-abandoned-fishing-nets-bursting-with-life/">published in</a> Canadian Geographic magazine.</p>
+<p>Shackleton, of course, is most famous for his ill-fated voyage on the <em>Endurance,</em> which became trapped in sea ice in 1914 and sank. Shackleton and his crew defied the odds and survived. (The <em>Endurance</em> shipwreck was <a href="https://arstechnica.com/science/2022/03/long-lost-endurance-shipwreck-found-off-coast-of-antarctica/">finally found</a> in 2022.) By the time Shackleton returned to England, the country was embroiled in World War I, and many of his men enlisted. Shackleton was considered too old for active service. He was also deeply in debt from the <em>Endurance</em> expedition, earning a living on the lecture circuit. But he still dreamed of making another expedition to the Arctic Ocean north of Alaska to explore the Beaufort Sea. He got funding from an old school chum, <a href="https://en.wikipedia.org/wiki/John_Quiller_Rowett">John Quillier Rowett</a>.</p>
+<p>Shackleton purchased a wooden Norwegian whaler, <em>Foca I</em>, which his wife Emily renamed <em>Quest</em>. When the Canadian government withdrew its support, the mission shifted back to the Antarctic, and the <em>Quest</em> received an extensive retrofit. The improvements included a new deckhouse, a heated crow’s nest, a wireless set, and an odograph for tracing and charting the route automatically, as well as a Lucas deep-sea sounding machine, a large and pricey collection of cameras and photographic equipment, and even a small airplane.</p><p><a href="https://arstechnica.com/science/2026/07/expedition-captures-first-images-of-shackletons-last-ship/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/07/expedition-captures-first-images-of-shackletons-last-ship/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>3</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/questTOP-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/questTOP-500x500-1783707910.jpg" width="500"/>
+<media:credit>YouTube/Canadian Geographic</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Ransomware negotiator hired to represent victims was working for the attackers</title>
+                <link>https://arstechnica.com/tech-policy/2026/07/ransomware-negotiator-helped-attackers-extort-his-own-clients-gets-6-year-sentence/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/07/ransomware-negotiator-helped-attackers-extort-his-own-clients-gets-6-year-sentence/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Fri, 10 Jul 2026 19:40:11 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[alphv]]></category>
+		<category><![CDATA[blackcat]]></category>
+		<category><![CDATA[ransomware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/07/ransomware-negotiator-helped-attackers-extort-his-own-clients-gets-6-year-sentence/</guid>
+
+                                    <description>
+                        <![CDATA[Six years in prison for man who "sold out the very victims he was hired to represent."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A former ransomware negotiator was <a href="https://storage.courtlistener.com/recap/gov.uscourts.flsd.708190/gov.uscourts.flsd.708190.46.0.pdf">sentenced</a> to 70 months in prison yesterday after colluding with BlackCat scammers to extort the victims he was hired to protect.</p>
+<p>As a ransomware negotiator for the <a href="https://digitalmint.io/services/ransomware-cryptocurrency-settlement/">company DigitalMint</a>, Florida resident Angelo Martino's job was "to negotiate with cybercriminals to mitigate the ransoms paid by [DigitalMint's] clients," the US government said in a <a href="https://storage.courtlistener.com/recap/gov.uscourts.flsd.708190/gov.uscourts.flsd.708190.40.0.pdf">sentencing memorandum</a> on Tuesday. "Instead, Martino provided the cybercriminals with confidential negotiation information to maximize the ransoms in exchange for a portion of the ransom payments. Five of the victims whom Martino was supposed to help paid over $75 million to ransomware affiliates, including likely millions of dollars in ransom demands inflated as a result of the confidential information provided by Martino."</p>
+<p>Martino, 41, pleaded guilty and <a href="https://storage.courtlistener.com/recap/gov.uscourts.flsd.708190/gov.uscourts.flsd.708190.37.0.pdf">asked for a 24-month sentence</a>, noting that he "provided substantial assistance that contributed to the indictment and conviction of two co-defendants." As described in <a href="https://arstechnica.com/security/2025/11/fbi-arrests-ransomware-clean-up-experts-for-planting-ransomware/">this November 2025 article</a>, the co-defendants were Texas resident Kevin Martin, a ransomware negotiator for DigitalMint, and Georgia resident Ryan Goldberg, an incident manager at security firm Sygnia.</p><p><a href="https://arstechnica.com/tech-policy/2026/07/ransomware-negotiator-helped-attackers-extort-his-own-clients-gets-6-year-sentence/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/07/ransomware-negotiator-helped-attackers-extort-his-own-clients-gets-6-year-sentence/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>12</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/security-illustration-skull-1152x648-1783710141.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/security-illustration-skull-500x500-1783710086.jpg" width="500"/>
+<media:credit>Getty Images | cokada</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Study shows how toxic RFK Jr.’s change to measles vaccine is for US toddlers</title>
+                <link>https://arstechnica.com/health/2026/07/anti-vaccine-changes-under-rfk-jr-will-hurt-vulnerable-toddlers-study-confirms/</link>
+                                    <comments>https://arstechnica.com/health/2026/07/anti-vaccine-changes-under-rfk-jr-will-hurt-vulnerable-toddlers-study-confirms/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Fri, 10 Jul 2026 19:25:04 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[ACIP]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[measles]]></category>
+		<category><![CDATA[mmrv]]></category>
+		<category><![CDATA[robert f kennedy jr]]></category>
+		<category><![CDATA[vaccine]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/07/anti-vaccine-changes-under-rfk-jr-will-hurt-vulnerable-toddlers-study-confirms/</guid>
+
+                                    <description>
+                        <![CDATA[The children who get a combination shot are some of the most vulnerable.
+
+]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>With no new data or clear reasoning, a panel of advisors hand-selected by anti-vaccine Health Secretary Robert F. Kennedy Jr. voted last September to <a href="https://arstechnica.com/health/2025/09/in-new-level-of-stupid-rfk-jr-s-anti-vaccine-advisors-axe-mmrv-recommendation/">strip federal recommendations</a> for a combination shot against <a href="https://arstechnica.com/health/2025/06/after-rfk-jr-overhauls-cdc-panel-measles-and-flu-vaccines-are-up-for-debate/">measles, mumps, rubella, and varicella (chickenpox)</a>. An <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2851537">analysis published today</a> by independent researchers does the work the advisors neglected to do before the vote and, in turn, shows how harmful the decision is to vulnerable US toddlers.</p>
+<p>The decision last fall followed clumsy discussion by Kennedy's <a href="https://arstechnica.com/health/2026/03/judge-temporarily-blocks-rfk-jr-s-changes-to-cdc-vaccine-recommendations/">dubiously qualified advisors</a>, who make up the Advisory Committee on Immunization Practices (ACIP) for the Centers for Disease Control and Prevention. Most noticeably, their unprompted review of the MMRV vaccine did not include a standard decision-making framework ACIP has historically used to comprehensively evaluate what the change would mean for US children in practice—including basic questions, such as which children would be affected.</p>
+<p>Still, the decision meant that private health insurance providers would no longer be required to cover the vaccine, called MMRV. It also meant the shot would <a href="https://arstechnica.com/health/2025/09/rfk-jr-s-anti-vaccine-panel-realizes-it-has-no-idea-what-its-doing-skips-vote/">no longer be available through a federal program</a> that provides vaccines to about half of American children, mostly from low-income families.</p><p><a href="https://arstechnica.com/health/2026/07/anti-vaccine-changes-under-rfk-jr-will-hurt-vulnerable-toddlers-study-confirms/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/07/anti-vaccine-changes-under-rfk-jr-will-hurt-vulnerable-toddlers-study-confirms/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>39</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2268348621-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2268348621-500x500.jpg" width="500"/>
+<media:credit>Getty | Leandro Lozada</media:credit><media:text>US Secretary of Health and Human Services Robert F. Kennedy Jr. speaks during the Conservative Political Action Conference (CPAC) in Grapevine, Texas, on March 27, 2026. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Valve's new Steam Machine verification system is silent on these Steam Deck-busters</title>
+                <link>https://arstechnica.com/gaming/2026/07/valves-steam-machine-verified-ratings-offer-more-questions-than-answers/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/07/valves-steam-machine-verified-ratings-offer-more-questions-than-answers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Fri, 10 Jul 2026 16:53:31 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Steam]]></category>
+		<category><![CDATA[steam deck]]></category>
+		<category><![CDATA[Valve]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/07/valves-steam-machine-verified-ratings-offer-more-questions-than-answers/</guid>
+
+                                    <description>
+                        <![CDATA[Dozens of titles too taxing for Steam Deck are still unrated for the new hardware.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>About a month ago, Valve <a href="https://steamcommunity.com/groups/steamworks/announcements/detail/716780409378048028">announced</a> that it would expand <a href="https://arstechnica.com/gaming/2021/10/valves-deck-verified-badge-will-show-which-games-run-well-on-steam-deck/">its long-standing Steam Deck Verified program</a> to <a href="https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/">the now-shipping Steam Machine</a>, offering a separate rating of Steam games' compatibility and playability for the fresh living room-focused hardware. Now that those ratings started appearing on Steam store pages last night (under a "Learn More" link next to Steam Deck Compatibility), we've found that Valve is frustratingly "still learning about" Steam Machine compatibility for dozens of games that the Steam Deck is too weak to run capably.</p>
+<p>The Steam Machine compatibility for many Steam games is pretty simple to figure out, of course. If a game is already verified on Steam Deck, it is seemingly guaranteed to be verified on the Steam Machine, as far as we can tell. On the other side, games that have <a href="https://arstechnica.com/gaming/2025/05/valve-adds-steamos-compatible-game-label-as-it-prepares-to-expand-beyond-steam-deck/">already been confirmed not to work with SteamOS</a> (which can happen <a href="https://arstechnica.com/gaming/2022/01/heres-why-some-games-arent-verified-for-steam-deck-compatibility/">for various reasons</a>) obviously won't work on the SteamOS-powered Steam Machine.</p>
+<p>The messy middle is where a Steam Machine Verified badge could come in most handy. These are games that Valve has confirmed will load on SteamOS, but which the aging, portable Steam Deck can't handle at the <a href="https://partner.steamgames.com/doc/steamhardware/compat">1200x800, 30 fps standard that Valve requires at default settings</a> (for the Steam Machine, this requirement grows to 1080p and 30 fps). On the Steam Store, these games show up as "Unsupported" on Steam Deck because "the game's graphics settings cannot be configured to run well on Steam Deck" or "this game requires manual configuration of graphics settings to perform well on Steam Deck."</p><p><a href="https://arstechnica.com/gaming/2026/07/valves-steam-machine-verified-ratings-offer-more-questions-than-answers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/07/valves-steam-machine-verified-ratings-offer-more-questions-than-answers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>45</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/steammachine-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/steammachine-500x500.jpg" width="500"/>
+<media:credit>Valve</media:credit><media:text>It would be nice to know for sure which games this beast can run that the Steam Deck can't...</media:text></media:content>
+            </item>
+                    <item>
+                <title>Firmware update bricks Hue Bridge Pro devices; Philips gives free replacements</title>
+                <link>https://arstechnica.com/gadgets/2026/07/firmware-update-bricks-hue-bridge-pro-devices-philips-gives-free-replacements/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/07/firmware-update-bricks-hue-bridge-pro-devices-philips-gives-free-replacements/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Fri, 10 Jul 2026 16:36:09 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[phillips hue]]></category>
+		<category><![CDATA[smart home]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/07/firmware-update-bricks-hue-bridge-pro-devices-philips-gives-free-replacements/</guid>
+
+                                    <description>
+                        <![CDATA[Affected users will have to configure their lights and settings all over again. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A firmware update is behind recent reports that some Hue Bridge Pro smart hubs are no longer working, Ars Technica has confirmed.</p>
+<p>In late June, there were <a href="https://9to5google.com/2026/06/29/philips-hue-bridge-pro-update-seems-to-be-breaking-the-hub-taking-lights-down-with-it/">reports</a> of some Hue Bridge Pro devices <a href="https://www.notebookcheck.net/Philips-Hue-Bridge-Pro-may-become-inoperable-after-latest-update.1331377.0.html">not working properly</a> after installing a firmware update. Philips released firmware version 2071353020 in early June, saying that it included “several small changes” to make Hue Bridge Pros work “better.” But some customers had a different experience: Their devices stopped responding and displayed a red LED.</p>
+<p>A Reddit user going by the name statelymachine is one of the people online who reported that the update “bricked” their device.</p><p><a href="https://arstechnica.com/gadgets/2026/07/firmware-update-bricks-hue-bridge-pro-devices-philips-gives-free-replacements/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/07/firmware-update-bricks-hue-bridge-pro-devices-philips-gives-free-replacements/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>35</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/hue-bridge-pro-1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/hue-bridge-pro-1-500x500.jpg" width="500"/>
+<media:credit>Philips</media:credit><media:text>The Hue Bridge Pro came out in September and currently costs $140.</media:text></media:content>
+            </item>
+                    <item>
+                <title>An orbiting disco ball gave Einstein’s theory its most precise test yet</title>
+                <link>https://arstechnica.com/science/2026/07/an-orbiting-disco-ball-gave-einsteins-theory-its-most-precise-test-yet/</link>
+                                    <comments>https://arstechnica.com/science/2026/07/an-orbiting-disco-ball-gave-einsteins-theory-its-most-precise-test-yet/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jacek Krywko]]>
+                </dc:creator>
+                <pubDate>Fri, 10 Jul 2026 16:11:35 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[frame dragging]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[relativity]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/07/an-orbiting-disco-ball-gave-einsteins-theory-its-most-precise-test-yet/</guid>
+
+                                    <description>
+                        <![CDATA[The Earth may not be that massive, but it still distorts space-time.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Albert Einstein’s general theory of relativity predicts that a rotating mass like the Earth pulls the fabric of space and time around with it in a perpetual swirl. This phenomenon is known as frame dragging or the Lense-Thirring effect, after the two physicists who modeled it back in 1918. Frame dragging becomes more significant with larger masses and faster rotation, so we’ve mainly observed it around huge black holes.</p>
+<p>Measuring how much the Earth twists spacetime as it rotates has been much more challenging because our pale blue dot of a planet is millions of times lighter than a typical black hole and rotates rather slowly.</p>
+<p>But now, a team of astronomers led by Ignazio Ciufolini, a physicist at the Wuhan Institute of Physics and Mathematics in China, reports the most accurate measurement of the terrestrial Lense-Thirring effect to date. Their work brings our uncertainty down from a few percentage points to just 0.2 percent. And they did it with a satellite that looks like a cross between a golf ball and a disco globe.</p><p><a href="https://arstechnica.com/science/2026/07/an-orbiting-disco-ball-gave-einsteins-theory-its-most-precise-test-yet/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/07/an-orbiting-disco-ball-gave-einsteins-theory-its-most-precise-test-yet/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>40</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-1-1048x648.png" width="1048">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-1-500x500.png" width="500"/>
+<media:credit>NASA</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Disable autoplay and infinite scroll or risk massive fines, EU tells Meta</title>
+                <link>https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Fri, 10 Jul 2026 15:46:18 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[child safety]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[Meta AI]]></category>
+		<category><![CDATA[muse]]></category>
+		<category><![CDATA[online privacy]]></category>
+		<category><![CDATA[social media]]></category>
+		<category><![CDATA[social media addiction]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/</guid>
+
+                                    <description>
+                        <![CDATA[Digital Services Act may force Meta to make big changes on its platforms.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The European Union is ramping up pressure on Meta to make big changes to Facebook and Instagram after the European Commission <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1579">preliminarily found</a> that features like autoplay, infinite scroll, and highly personalized content recommendations were addictive.</p>
+<p>On Thursday, the EC said its investigation indicated that “Meta did not adequately assess the risks of its addictive design on the physical and mental wellbeing of users, including minors and vulnerable adults.”</p>
+<p>“These features fuel the user's urge to keep scrolling and shift the brain into ‘autopilot mode,' contributing to unhealthy habits and compulsive use,” the commission said.</p><p><a href="https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>74</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2284791473-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2284791473-500x500.jpg" width="500"/>
+<media:credit>NurPhoto / Contributor | NurPhoto</media:credit></media:content>
+            </item>
+                    <item>
+                <title>NASA sure seems to be asking an awful lot of private space stations</title>
+                <link>https://arstechnica.com/space/2026/07/nasa-finally-releases-a-critical-planning-document-for-private-space-stations/</link>
+                                    <comments>https://arstechnica.com/space/2026/07/nasa-finally-releases-a-critical-planning-document-for-private-space-stations/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Fri, 10 Jul 2026 15:15:58 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[CLDs]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Private space stations]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[vast]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/07/nasa-finally-releases-a-critical-planning-document-for-private-space-stations/</guid>
+
+                                    <description>
+                        <![CDATA["Industry finally knows what NASA is asking of them."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>NASA this week released <a href="https://www.nasa.gov/humans-in-space/commercial-space/nasa-seeks-industry-input-on-second-phase-of-commercial-space-stations/">a much-anticipated document</a>, known as a "draft Request for Proposals," that provides some clarity about what it expects from US companies attempting to build privately operated space stations in low-Earth orbit.</p>
+<p>The stakes are high with this document, known as a draft RFP. The space agency, publicly, has set an end date for the International Space Station of 2030. Although there is likely to be a two-year extension, time is still running short to build, test, and fly a vehicle as complex as a space station. NASA officials and the US Congress have both said they want to avoid a gap in having a human presence in orbit, and this has created considerable urgency about what comes next.</p>
+<p>Nearly five years ago the space agency took a concrete step toward filling this gap, <a href="https://arstechnica.com/science/2021/12/nasa-sets-sail-into-a-promising-but-perilous-future-of-private-space-stations/">awarding funding</a> to three companies to develop space station concepts. Previously, NASA had also provided $140 million to another space station company, Axiom Space. These Space Act Agreements were intended as a prelude to a second phase of the program, which would award substantially more funding to one or two more companies to proceed into the construction and launch of their space stations. But phase two of the program kept getting delayed, in part because Congress dithered on funding.</p><p><a href="https://arstechnica.com/space/2026/07/nasa-finally-releases-a-critical-planning-document-for-private-space-stations/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/07/nasa-finally-releases-a-critical-planning-document-for-private-space-stations/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>54</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/51814201006_e93b98b15e_k-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/51814201006_e93b98b15e_k-500x500.jpg" width="500"/>
+<media:credit>NASA</media:credit><media:text>The International Space Station orbits 260 miles (420 kilometers) above the Earth.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Volkswagen Group tells its board how to fix it, unions disagree</title>
                 <link>https://arstechnica.com/cars/2026/07/vw-group-and-unions-disagree-on-plan-to-streamline-the-automaker/</link>
                                     <comments>https://arstechnica.com/cars/2026/07/vw-group-and-unions-disagree-on-plan-to-streamline-the-automaker/#comments</comments>
                 
@@ -35,14 +422,14 @@
                         <![CDATA[VW's plan calls for half as many models but didn't mention closures or job cuts.]]>
                     </description>
                                                                 <content:encoded>
-                            <![CDATA[<p>Volkswagen Group is doing well with electric vehicle sales in its home region, but costly tariffs and eroding market share in China and North America have been hurting it badly. Europe's largest automaker, which also owns brands including Audi, Porsche, Skoda, and Lamborghini, has seen its profit margins evaporate, and yesterday the company's supervisory board was presented with a plan to ameliorate that. An <a href="https://arstechnica.com/cars/2026/06/vw-may-close-four-factories-to-adapt-to-the-future-report-says/">expected call for factory closures and redundancies</a> wasn't included—at least not in VW Group's public statement—but <a href="https://www.reuters.com/business/volkswagen-rescue-plan-short-specifics-after-tense-stakeholder-talks-2026-07-10/">according to Reuters</a> the measure failed anyway by a vote of 12-7.</p>
-<p>Unlike most automakers, worker unions are extremely powerful at VW Group. Fully half of the 20 seats on the supervisory board are appointed by worker councils. Another two seats are spoken for thanks in part to the company's partial ownership by the German state of Lower Saxony—currently held by that state's minister of education and minister-president. So while profit has been important, it's not the only thing that matters to the decision-makers.</p>
-<p>Over the years, there have been lengthy fights at any suggestion of redundancies. Lately, VW Group and its unions spent months in negotiations in 2024 before finally agreeing to a plan to cut 35,000 jobs by 2030.</p><p><a href="https://arstechnica.com/cars/2026/07/vw-group-and-unions-disagree-on-plan-to-streamline-the-automaker/">Read full article</a></p>
+                            <![CDATA[<p>Volkswagen Group is doing well with electric vehicle sales in its home region, but costly tariffs and eroding market share in China and North America have been hurting it badly. Europe's largest automaker, which also owns brands including Audi, Porsche, Skoda, and Lamborghini, has seen its profit margins evaporate, and yesterday the company's supervisory board was presented with a plan to ameliorate that. An <a href="https://arstechnica.com/cars/2026/06/vw-may-close-four-factories-to-adapt-to-the-future-report-says/">expected call for factory closures and redundancies</a> wasn't included—at least not in VW Group's public statement—but <a href="https://www.reuters.com/business/volkswagen-rescue-plan-short-specifics-after-tense-stakeholder-talks-2026-07-10/">according to Reuters</a>, the measure failed anyway in a 12-7 vote.</p>
+<p>Unlike most automakers, worker unions are extremely powerful at the VW Group. Half of the 20 seats on the supervisory board are appointed by worker councils. Another two seats are spoken for thanks in part to the company's partial ownership by the German state of Lower Saxony—currently held by that state's minister of education and minister-president. So while profit has been important, it's not the only thing that matters to the decision-makers.</p>
+<p>Over the years, there have been lengthy fights over any suggestion of redundancies. Lately, VW Group and its unions spent months in negotiations in 2024 before finally agreeing to a plan to cut 35,000 jobs by 2030.</p><p><a href="https://arstechnica.com/cars/2026/07/vw-group-and-unions-disagree-on-plan-to-streamline-the-automaker/">Read full article</a></p>
 <p><a href="https://arstechnica.com/cars/2026/07/vw-group-and-unions-disagree-on-plan-to-streamline-the-automaker/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>1</slash:comments>
+                                    <slash:comments>80</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2284728396-1152x648.jpg" width="1152">
@@ -88,7 +475,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>7</slash:comments>
+                                    <slash:comments>22</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/news-070926f-lg.jpg">
@@ -123,7 +510,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>71</slash:comments>
+                                    <slash:comments>241</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2277821243-1152x648.jpg" width="1152">
@@ -161,7 +548,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>17</slash:comments>
+                                    <slash:comments>69</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Full-Stack_Alignment_1-1024x767-1-1024x648.jpg" width="1024">
@@ -194,7 +581,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>22</slash:comments>
+                                    <slash:comments>102</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/Calibration_APR-1152x648.jpeg" width="1152">
@@ -238,7 +625,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>33</slash:comments>
+                                    <slash:comments>47</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/komododragon_slasher_ZA_7204-750x500-1.jpg">
@@ -274,7 +661,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>66</slash:comments>
+                                    <slash:comments>88</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1615411744-1152x648.jpg" width="1152">
@@ -308,7 +695,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>40</slash:comments>
+                                    <slash:comments>53</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/webp" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/gptwork-1152x648-1783630571.webp" width="1152">
@@ -343,395 +730,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>27</slash:comments>
+                                    <slash:comments>40</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-1152x648-1783631068.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-500x500-1783631088.jpg" width="500"/>
 <media:credit>Photo Illustration by Igor Golovniov/SOPA Images/LightRocket via Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Allstate accuses Broadcom of auditing it because it quit VMware, CA</title>
-                <link>https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/</link>
-                                    <comments>https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Thu, 09 Jul 2026 20:28:55 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Allstate]]></category>
-		<category><![CDATA[Broadcom]]></category>
-		<category><![CDATA[lawsuit]]></category>
-		<category><![CDATA[vmware]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/</guid>
-
-                                    <description>
-                        <![CDATA[Broadcom accuses Allstate of dodging VMware audits. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Allstate Insurance Company has accused Broadcom of haphazardly issuing audits against it because the insurance firm decided not to renew its contracts with VMware and CA Technologies.</p>
-<p>The allegations were made in relation to a lawsuit that VMware filed against Allstate in December 2025, according to <a href="https://www.theregister.com/virtualization/2026/07/08/allstate-insurance-quits-broadcom-alleges-vengeful-license-audit-on-the-way-out/5268155">The Register</a>. In the complaint, Broadcom alleges that Allstate failed to comply with license audits, which Broadcom claims its contract with Allstate requires.</p>
-<p>In a June 12 filing, Allstate suggested that Broadcom issued the audits in response to Allstate deciding to end business with its companies. Allstate's statement reads:</p><p><a href="https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>66</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2279315069-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2279315069-500x500.jpg" width="500"/>
-<media:credit>Samuel Boivin/NurPhoto via Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Humanoid robots controlled by surgeons did world-first operation on live pigs</title>
-                <link>https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/</link>
-                                    <comments>https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jeremy Hsu]]>
-                </dc:creator>
-                <pubDate>Thu, 09 Jul 2026 20:12:03 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[humanoid robots]]></category>
-		<category><![CDATA[medical robots]]></category>
-		<category><![CDATA[robotic surgery]]></category>
-		<category><![CDATA[robots]]></category>
-		<category><![CDATA[surgery]]></category>
-		<category><![CDATA[teleoperation]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/</guid>
-
-                                    <description>
-                        <![CDATA[Preclinical trial is testing the feasibility of humanoid robots in surgery.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Humanoid robots have surgically removed the gallbladders from living animals in an unprecedented medical experiment—but not as autonomous machines capable of replacing human doctors. Instead, skilled human surgeons remotely controlled the robots’ movements in a new example of human-robot teamups.</p>
-<p>The <a href="https://humanoid-surgeon.github.io/">teleoperated humanoid robots</a> completed two minimally invasive surgeries by removing gallbladders from live pigs during a preclinical trial that was <a href="https://www.nature.com/articles/s41586-026-10796-x">published in the journal Nature</a>. If this approach eventually proves clinically ready for human patients, surgeons could use such humanoid robots to remotely perform robotic-assisted surgical care in smaller hospitals and clinics that lack the resources to install specialized but expensive surgical robots.</p>
-<p>“It's a fraction of the cost and it takes a fraction of the space in an operating room,” said <a href="https://providers.ucsd.edu/details/1043558653/colon-and-rectal-surgery-cancer-surgery">Shanglei Liu</a>, an assistant professor of surgery at the University of California San Diego School of Medicine, in an interview with <a href="https://today.ucsd.edu/story/surgeons-use-teleoperated-humanoid-robots-to-perform-live-surgery-a-world-first">UC San Diego Today</a>. “So it’s easy to deploy, anywhere from rural areas, to the battlefield, and even to space.”</p><p><a href="https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>37</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/humanoid-robot-surgeons-1152x648.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/humanoid-robot-surgeons-500x500.png" width="500"/>
-<media:credit>UC San Diego</media:credit><media:text>Two humanoid robots stand over a surgical dummy while handling surgical instruments.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Judge doesn't like Elon Musk settlement with SEC, but says court can't block it</title>
-                <link>https://arstechnica.com/tech-policy/2026/07/judge-doesnt-like-elon-musk-settlement-with-sec-but-says-court-cant-block-it/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/07/judge-doesnt-like-elon-musk-settlement-with-sec-but-says-court-cant-block-it/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Thu, 09 Jul 2026 19:10:33 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[Securities and Exchange Commission]]></category>
-		<category><![CDATA[Twitter]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/07/judge-doesnt-like-elon-musk-settlement-with-sec-but-says-court-cant-block-it/</guid>
-
-                                    <description>
-                        <![CDATA[Judge reluctantly approves $1.5M settlement with SEC over Twitter stock violation.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A federal judge reluctantly approved a $1.5 million settlement between Elon Musk and the Trump administration despite raising numerous concerns about a deal that lets Musk get off lightly for a rule violation that allegedly harmed Twitter investors.</p>
-<p>In an <a href="https://storage.courtlistener.com/recap/gov.uscourts.dcd.276446/gov.uscourts.dcd.276446.59.0.pdf">order</a> approving the deal, US District Judge Sparkle Sooknanan said she "has significant misgivings about the settlement" between Musk and the Securities and Exchange Commission (SEC), and described "red flags" in the SEC's decision-making. This isn't surprising given that she <a href="https://arstechnica.com/tech-policy/2026/05/judge-probes-whether-musk-settlement-with-trump-admin-is-tainted-by-corruption/">previously questioned</a> whether the deal is tainted by corruption. But there is a high legal bar for rejecting the settlement, and the circumstances do not meet "that high threshold," she wrote yesterday.</p>
-<p>"That means that this Court must accept the Parties’ consent judgment," Sooknanan, a Biden appointee, wrote. "Whether the Executive Branch (through the SEC) has done enough to hold Mr. Musk to account for his alleged violation is, like many other issues, for our citizenry to decide at the ballot box."</p><p><a href="https://arstechnica.com/tech-policy/2026/07/judge-doesnt-like-elon-musk-settlement-with-sec-but-says-court-cant-block-it/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/07/judge-doesnt-like-elon-musk-settlement-with-sec-but-says-court-cant-block-it/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>55</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/02/getty-musk-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/02/getty-musk-500x500.jpg" width="500"/>
-<media:credit>Getty Images | Dimitrios Kambouris</media:credit><media:text>Elon Musk attends the 2022 Met Gala at The Metropolitan Museum of Art on May 2, 2022, in New York City. </media:text></media:content>
-            </item>
-                    <item>
-                <title>OpenAI may have made a fatal misstep in copyright fight with news orgs</title>
-                <link>https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Thu, 09 Jul 2026 18:57:53 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AI training]]></category>
-		<category><![CDATA[copyright]]></category>
-		<category><![CDATA[copyright infringement]]></category>
-		<category><![CDATA[generative ai]]></category>
-		<category><![CDATA[new york times]]></category>
-		<category><![CDATA[online journalism]]></category>
-		<category><![CDATA[openai]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/</guid>
-
-                                    <description>
-                        <![CDATA[OpenAI may be sanctioned for hiding, deleting ChatGPT logs in NYT copyright fight.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>OpenAI is facing calls for "serious sanctions" after <a href="https://arstechnica.com/tech-policy/2025/06/openai-says-court-forcing-it-to-save-all-chatgpt-logs-is-a-privacy-nightmare/">fighting to keep news organizations from snooping through millions of logs</a> to find evidence of users skirting their paywalls by prompting ChatGPT to regurgitate their articles.</p>
-<p>This evidence is considered among the most important to both sides, potentially either dooming OpenAI as an infringer or exonerating its chatbot technology as a transformative fair use of news sites' content.</p>
-<p>In a <a href="https://cdn.arstechnica.net/wp-content/uploads/2026/07/NYT-v-OpenAI-Memorandum-of-Law-in-Support-of-Motion-for-Sanctions-Against-OpenAI-7-9-26.pdf">sanctions motion</a> Thursday, news organizations suing OpenAI—led by The New York Times—accused the AI firm of repeatedly lying for years to conceal evidence of infringement that could hobble OpenAI's defense.</p><p><a href="https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>52</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2270682238-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2270682238-500x500.jpg" width="500"/>
-<media:credit>Alona Horkova | iStock / Getty Images Plus</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Surprised doctors find 10-inch worm in man's groin during elective surgery</title>
-                <link>https://arstechnica.com/health/2026/07/surprised-doctors-find-10-inch-worm-in-mans-groin-during-elective-surgery/</link>
-                                    <comments>https://arstechnica.com/health/2026/07/surprised-doctors-find-10-inch-worm-in-mans-groin-during-elective-surgery/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Thu, 09 Jul 2026 15:33:41 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[New England Journal of Medicine]]></category>
-		<category><![CDATA[parasite]]></category>
-		<category><![CDATA[sparganosis]]></category>
-		<category><![CDATA[worm]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/07/surprised-doctors-find-10-inch-worm-in-mans-groin-during-elective-surgery/</guid>
-
-                                    <description>
-                        <![CDATA[Oddly, it wasn't the first time this had happened to the man.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>When surgeons dug into a man's groin to repair a painless bulge, they made the unexpected discovery of a living, 10-inch-long (26 cm) worm snug in his abdomen. Adding to the oddity, the man told the surgeons that this had actually happened to him before, according to <a href="https://www.nejm.org/doi/full/10.1056/NEJMicm2603440">a case report in the New England Journal of Medicine</a>.</p>
-<p>The 71-year-old man had opted to have surgery to repair the bulge, which was an inguinal hernia. These types of protrusions are fairly common, particularly in older men, and occur when a small amount of abdominal contents, such as fat or a bit of intestines, slips through a gap or weak point in the muscles and tissues of the abdominal wall. This bodily leakage creates an external bulge that, in some cases, can be painful and uncomfortable. If the bulge's contents become stuck and pinched off, it can even create a life-threatening situation called a strangulated hernia. But, in other cases, the escaped innards are painless and loose and can be temporarily put back in place by simple, gentle massage.</p>
-<p>Most people with inguinal hernias will need surgery at some point to patch up their weak abdominal wall. But, for older men with no pain or discomfort, doctors may suggest watchful waiting, delaying surgery until the need is clear. This was the case for the man. But he elected to repair the inguinal hernia, which was on his right side.</p><p><a href="https://arstechnica.com/health/2026/07/surprised-doctors-find-10-inch-worm-in-mans-groin-during-elective-surgery/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/07/surprised-doctors-find-10-inch-worm-in-mans-groin-during-elective-surgery/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>84</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Sparganum_UHUHS_A.jpg">
-<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Sparganum_UHUHS_A.jpg"/>
-<media:credit>CDC |John H. Cross</media:credit><media:text>A clinical example of a Sparganum removed from a patient.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Conspiracies and regrets abound in Dune: Part Three trailer</title>
-                <link>https://arstechnica.com/culture/2026/07/conspiracies-and-regrets-abound-in-dune-part-three-trailer/</link>
-                                    <comments>https://arstechnica.com/culture/2026/07/conspiracies-and-regrets-abound-in-dune-part-three-trailer/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Thu, 09 Jul 2026 14:45:44 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[denis villeneuve]]></category>
-		<category><![CDATA[Dune: Part 3]]></category>
-		<category><![CDATA[film trailers]]></category>
-		<category><![CDATA[Trailers]]></category>
-		<category><![CDATA[Warner Bros.]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2026/07/conspiracies-and-regrets-abound-in-dune-part-three-trailer/</guid>
-
-                                    <description>
-                        <![CDATA["You promised me that you would never take power in your name."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<div class="ars-video ars-video--horizontal"><div><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/26yqAcJ1kGY?start=0&amp;wmode=transparent"></div></div></div>
-<p>We haven't seen much footage to date for Denis Villeneuve’s <a href="https://en.wikipedia.org/wiki/Dune:_Part_Three"><em>Dune: Part Three</em></a>, other than the broody and haunting extended teaser Warner Bros. <a href="https://arstechnica.com/culture/2026/03/paul-atreides-faces-the-cost-of-his-holy-war-in-dune-part-3-teaser/">dropped in March</a>. But now we've got a shiny new trailer jam-packed with tantalizing hints of what to expect, and plenty of Easter eggs to delight avid book fans.</p>
-<p><strong>(Spoilers for first two films in the franchise below.)</strong></p>
-<p>As <a href="https://arstechnica.com/culture/2026/03/paul-atreides-faces-the-cost-of-his-holy-war-in-dune-part-3-teaser/">previously reported</a>, in 2021’s <em>Dune</em>, we first met Frank Herbert’s iconic anti-hero, Paul Atreides (Timothée Chalamet). That film culminated in the brutal defeat of House Atreides by rival House Harkonnen, with Paul and his mother, Lady Jessica (Rebecca Ferguson), fleeing to the desert and taking refuge among the Fremen. Among them is Chani (Zendaya), whom Paul has been seeing in visions all along.</p><p><a href="https://arstechnica.com/culture/2026/07/conspiracies-and-regrets-abound-in-dune-part-three-trailer/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2026/07/conspiracies-and-regrets-abound-in-dune-part-three-trailer/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>99</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/duneTOP-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/duneTOP-500x500.jpg" width="500"/>
-<media:credit>Warner Bros.</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Ruf debuts new flat-eight engine at Goodwood</title>
-                <link>https://arstechnica.com/cars/2026/07/ruf-debuts-new-flat-eight-engine-at-goodwood/</link>
-                                    <comments>https://arstechnica.com/cars/2026/07/ruf-debuts-new-flat-eight-engine-at-goodwood/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Thu, 09 Jul 2026 14:32:48 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Ruf]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/07/ruf-debuts-new-flat-eight-engine-at-goodwood/</guid>
-
-                                    <description>
-                        <![CDATA[The 4.8 L eight-cylinder generates more than 1,000 hp and 1,000 Nm, Ruf says.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Ruf has come quite a long way from its roots as a tuner of Porsches. The German company (no doubt familiar to those of us in the PlayStation generation as <em>Gran Turismo 2</em>'s workaround because <a href="https://arstechnica.com/cars/2016/12/porsches-exclusive-deal-with-electronic-arts-is-no-more/">someone else owned the video game rights</a> to the real 911) has evolved past that stage and now builds cars of its own design. And today at the Goodwood Festival of Speed in England, it fired up a brand-new engine for the first time in public.</p>
-<p>In fact, the German authorities have considered Ruf a distinct manufacturer (as opposed to a tuner) for some time—the BTR in 1983 was <a href="https://www.pcarmarket.com/editorials/the-forgotten-story-of-the-ruf-btr-the-first-production-car-to-reach-300-kmh-before-any-porsche-or-ferrari">the first</a> to carry a Ruf vehicle identification number rather than the one that Porsche originally stamped on the chassis. Then in 2007, it revealed the CTR3. The Porsche DNA was clear, but the CTR3 was mid-engined, unlike the rear-engined 911, and featured a frame chassis developed by Ruf together with Multimatic.</p>
-<p>More recently, it has been building its own all-carbon monocoque chassis for cars like the SCR and Rodeo, which otherwise look like 964-era Porsche 911s. Those still use horizontally opposed six-cylinder engines, but for its next generation of cars, it seems Ruf wanted something a little different.</p><p><a href="https://arstechnica.com/cars/2026/07/ruf-debuts-new-flat-eight-engine-at-goodwood/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/07/ruf-debuts-new-flat-eight-engine-at-goodwood/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>61</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Ruf_8-Zylinder_01-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Ruf_8-Zylinder_01-500x500.jpg" width="500"/>
-<media:credit>Ruf</media:credit><media:text>This modified Ruf CTR3 carries a prototype flat-eight engine in its lengthened chassis.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Free Waymo rides in California? You can thank a regulatory quirk.</title>
-                <link>https://arstechnica.com/cars/2026/07/free-waymo-rides-in-california-you-can-thank-a-regulatory-quirk/</link>
-                                    <comments>https://arstechnica.com/cars/2026/07/free-waymo-rides-in-california-you-can-thank-a-regulatory-quirk/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Aarian Marshall]]>
-                </dc:creator>
-                <pubDate>Thu, 09 Jul 2026 13:31:00 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[waymo]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/07/free-waymo-rides-in-california-you-can-thank-a-regulatory-quirk/</guid>
-
-                                    <description>
-                        <![CDATA[State agency's delay could mean free robotaxi rides in company’s new Ojai vehicle for a few months.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Robotaxi companies have thrived in California, where the good weather, enthusiasm for technology, and sophisticated labor force have supported their growth for nearly two decades. But a delayed decision from a state regulatory agency is now slowing Alphabet’s subsidiary Waymo, the US leader in driverless robotaxi service.</p>
-<p>The holdup means that Waymo isn’t yet allowed to expand into parts of Northern and Southern California. And, in an upside for riders, Waymo still isn’t able to charge California passengers for rides in its new vehicle, a pale blue Chinese-made car it’s calling the Ojai, which started picking up riders last month.</p>
-<p>If Waymo continues to operate these vehicles in its driverless ride-hail service, they could be gratis until the end of September and perhaps beyond. (The company continues to charge for rides in its Jaguar I-Pace robotaxis, which make up the majority of its fleet.)</p><p><a href="https://arstechnica.com/cars/2026/07/free-waymo-rides-in-california-you-can-thank-a-regulatory-quirk/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/07/free-waymo-rides-in-california-you-can-thank-a-regulatory-quirk/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>41</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2277937156-1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2277937156-1-500x500.jpg" width="500"/>
-<media:credit>Allen J. Schaben / Contributor</media:credit></media:content>
-            </item>
-                    <item>
-                <title>The newest entrant in the military’s launch competition isn't actually a launch company</title>
-                <link>https://arstechnica.com/space/2026/07/the-newest-entrant-in-the-militarys-launch-competition-isnt-actually-a-launch-company/</link>
-                                    <comments>https://arstechnica.com/space/2026/07/the-newest-entrant-in-the-militarys-launch-competition-isnt-actually-a-launch-company/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Thu, 09 Jul 2026 13:08:27 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[geo]]></category>
-		<category><![CDATA[Helios]]></category>
-		<category><![CDATA[impulse space]]></category>
-		<category><![CDATA[NSSL]]></category>
-		<category><![CDATA[space]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/07/the-newest-entrant-in-the-militarys-launch-competition-isnt-actually-a-launch-company/</guid>
-
-                                    <description>
-                        <![CDATA["I think it's fair to say that Phase 3 did not contemplate this."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>This week the US Space Force brought two more companies into the pool of bidders eligible to compete for its launch contracts—Impulse Space and Relativity Space. For a rocket company, cracking into the lucrative US military launch market is both a sign of maturity, as well as an important source of revenue.</p>
-<p>The inclusion of Relativity Space, which is making credible progress toward the launch of its heavy-lift Terran R rocket, is perhaps not a huge surprise. <a href="https://arstechnica.com/space/2025/03/former-google-ceo-eric-schmidt-is-the-new-leader-of-relativity-space/">Under the leadership</a> of former Google chief executive Eric Schmidt, the company has continued to work toward bringing the partly reusable rocket to the launch pad.</p>
-<p>The addition of Impulse Space, however, was something of a surprise. The company specializes in building spacecraft for in-space operations, rather than launching from Earth.</p><p><a href="https://arstechnica.com/space/2026/07/the-newest-entrant-in-the-militarys-launch-competition-isnt-actually-a-launch-company/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/07/the-newest-entrant-in-the-militarys-launch-competition-isnt-actually-a-launch-company/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>26</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/36af0186816f14ac23c368a204957528772f23b1-6635x4423-1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/36af0186816f14ac23c368a204957528772f23b1-6635x4423-1-500x500.jpg" width="500"/>
-<media:credit>Impulse Space</media:credit><media:text>Impulse Space recently shipped a Helios test tank to its test stand in Mojave, California.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Payloads used to dictate the terms of launch. That's finally changing.</title>
-                <link>https://arstechnica.com/space/2026/07/rocket-developers-used-to-chase-satellite-trends-is-the-inverse-now-true/</link>
-                                    <comments>https://arstechnica.com/space/2026/07/rocket-developers-used-to-chase-satellite-trends-is-the-inverse-now-true/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Thu, 09 Jul 2026 11:00:26 +0000</pubDate>
-                		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[aerospace corporation]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[muon space]]></category>
-		<category><![CDATA[satellites]]></category>
-		<category><![CDATA[starlink]]></category>
-		<category><![CDATA[starship]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/07/rocket-developers-used-to-chase-satellite-trends-is-the-inverse-now-true/</guid>
-
-                                    <description>
-                        <![CDATA["The Starship Pez dispenser demonstrates very smart industrial design and scale."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>It wasn't easy to find anyone outside of SpaceX clamoring for a rocket like Starship just 10 years ago. Today, the space industry <a href="https://arstechnica.com/space/2026/05/the-us-space-enterprise-is-desperately-waiting-for-starship-will-it-finally-deliver/">can't wait for Starship to finally deliver</a>.</p>
-<p>With a payload capacity of more than 100 metric tons (220,000 pounds) to low-Earth orbit, SpaceX's new rocket is changing the thinking of just about everyone in the space industry. With the unrealized but potentially game-changing benefits of refueling, Starship could carry the same amount of payload to higher orbits, the Moon, or Mars.</p>
-<p>It's important to note that Starship is still very much in its experimental phase, far from proving Elon Musk's loftiest claims about what it can do. Still, NASA and the US military are considering novel ways to use Starship to <a href="https://arstechnica.com/space/2026/04/nasas-moon-ship-and-rocket-seem-to-be-working-well-so-what-about-the-landers/">fly to the Moon</a> or transport cargo to far-flung war zones. Scientists are eager to use its enormous volume to launch giant space telescopes. <a href="https://arstechnica.com/space/2025/11/for-stoke-space-nothing-else-matters-but-full-and-rapid-rocket-reuse/">Competitors are taking notice</a>. China, the strongest strategic adversary America has ever faced, <a href="https://arstechnica.com/space/2024/11/chinas-long-term-lunar-plans-now-depend-on-developing-its-own-starship/">is looking for its own Starship</a>. Now, some US satellite manufacturers are adapting for the substantial capacity of the world's most powerful rocket.</p><p><a href="https://arstechnica.com/space/2026/07/rocket-developers-used-to-chase-satellite-trends-is-the-inverse-now-true/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/07/rocket-developers-used-to-chase-satellite-trends-is-the-inverse-now-true/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>122</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/starlinkv3deploy-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/starlinkv3deploy-500x500.jpg" width="500"/>
-<media:credit>SpaceX</media:credit><media:text>Artist's illustration of Starship releasing a Starlink V3 satellite from its "Pez dispenser" deployment system.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%</title>
-                <link>https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/</link>
-                                    <comments>https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Nate Anderson]]>
-                </dc:creator>
-                <pubDate>Wed, 08 Jul 2026 21:42:44 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[cheating]]></category>
-		<category><![CDATA[higher ed]]></category>
-		<category><![CDATA[Ivy League]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/</guid>
-
-                                    <description>
-                        <![CDATA[AI cheating leads to "a failed society," professor says.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Ivy League college students are, by definition, intelligent. They don't <em>need</em> to use generative AI to cheat on exams; they could just learn the material. But they also tend to be competitive, ambitious, and overscheduled, so AI can look like an easy shortcut that makes more time in their lives for things that can't be done by a chatbot. When the pressure is on, which approach do they choose?</p>
-<p>A new scandal at Brown University reveals that huge numbers of these students are likely to cheat.</p>
-<h2>Record scores</h2>
-<p>A <a href="https://arstechnica.com/tech-policy/2026/05/ai-driven-cheating-widespread-even-at-elite-schools-like-princeton/">recent survey of Princeton students</a> found that 29.9 percent admitted to cheating with AI on at least one exam or assignment. But the situation at Brown gives us a better sense of what this kind of cheating looks like in one particular class—and just how much it may be substituting for actual learning. And we know all this because the blind economics professor at the center of it all, Roberto Serrano, is not letting it go.</p><p><a href="https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>440</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2261090247-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2261090247-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
             </item>
             </channel>
 </rss>
