@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Wed, 29 Jul 2026 23:34:52 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 16:10:31 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,81 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Quantum computers outperform classical ones, with results you can trust</title>
+                <link>https://arstechnica.com/science/2026/07/if-a-quantum-computer-outperforms-normal-ones-can-you-tell-if-its-right/</link>
+                                    <comments>https://arstechnica.com/science/2026/07/if-a-quantum-computer-outperforms-normal-ones-can-you-tell-if-its-right/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Thu, 30 Jul 2026 15:59:37 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[algorithms]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[error mitigation]]></category>
+		<category><![CDATA[ibm]]></category>
+		<category><![CDATA[ising model]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[quantum computing]]></category>
+		<category><![CDATA[quantum mechanics]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/07/if-a-quantum-computer-outperforms-normal-ones-can-you-tell-if-its-right/</guid>
+
+                                    <description>
+                        <![CDATA[Three approaches to the issue of quantum results that can't be verified classically.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>There are many algorithms for which it has been mathematically proven that a quantum computer can generate results that would take a classical computer an unreasonable amount of time to generate. Unfortunately, today's quantum computers either can't run those algorithms or can only run simplified versions that classical computers can also handle. This has left the field facing a challenging question: Can we demonstrate the promise of quantum computers on today's noisy, limited hardware?</p>
+<p>That's a more difficult question than it may first appear. If you generate a result that's out of reach of today's regular computers, it may not be possible to verify that you got the right result. And given that today's quantum computers are somewhat error-prone, getting the wrong result is a distinct possibility. Further, in the absence of a mathematical proof of the capabilities of quantum hardware, it's possible that a better classical algorithm could outperform the quantum hardware.</p>
+<p>These issues inspired IBM to launch a quantum advantage tracker. On Thursday, the company announced three new entries that it says clearly show a quantum advantage, each using a different approach to overcoming errors and validating quantum results. "Trusted computing when you can do classical simulations is irrelevant," IBM's Jay Gambetta told Ars. "Trusted computing when you can't do classical simulations is a big deal."</p><p><a href="https://arstechnica.com/science/2026/07/if-a-quantum-computer-outperforms-normal-ones-can-you-tell-if-its-right/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/07/if-a-quantum-computer-outperforms-normal-ones-can-you-tell-if-its-right/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>5</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-4-1152x648.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-4-500x500-1785423728.png" width="500"/>
+<media:credit>IBM</media:credit></media:content>
+            </item>
+                    <item>
+                <title>New MCP specification addresses the main barrier to enterprise adoption</title>
+                <link>https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/</link>
+                                    <comments>https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Samuel Axon]]>
+                </dc:creator>
+                <pubDate>Thu, 30 Jul 2026 14:53:07 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AAIF]]></category>
+		<category><![CDATA[Agentic AI Foundation]]></category>
+		<category><![CDATA[agents]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Linux Foundation]]></category>
+		<category><![CDATA[MCP]]></category>
+		<category><![CDATA[Model Context Protocol]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/</guid>
+
+                                    <description>
+                        <![CDATA[Plus, a new policy for the AI protocol ensures features aren't removed suddenly.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p><!-- obsidian --></p>
+<p>This week, the <a href="https://github.com/modelcontextprotocol/modelcontextprotocol">Model Context Protocol (MCP)</a>, an open source standard for how AI systems interact with external tools and data sources, saw its largest update since its introduction. Most notably, MCP's protocol core is now stateless, so requests are no longer dependent on a session tied to an individual server instance. This change has the potential to address long-standing barriers to scalability.</p>
+<p>The blog post announcing the specification, written by lead maintainers David Soria Parra and Den Delimarsky (who both work at Anthropic), says:</p><p><a href="https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>22</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/MCP-logo-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/MCP-logo-500x500.jpg" width="500"/>
+<media:credit>Model Context Protocol</media:credit><media:text>The goal is to expand Model Context Protocol beyond its previous, more limited deployments and use cases.</media:text></media:content>
+            </item>
+                    <item>
                 <title>Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission</title>
                 <link>https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/</link>
                                     <comments>https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/#comments</comments>
@@ -43,7 +118,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>22</slash:comments>
+                                    <slash:comments>45</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/broken-encryption-lock-1152x648.jpg" width="1152">
@@ -79,7 +154,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>65</slash:comments>
+                                    <slash:comments>148</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1229892464-1024x648.jpg" width="1024">
@@ -117,7 +192,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>49</slash:comments>
+                                    <slash:comments>74</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Unitree-robots-boxing-1152x648.jpg" width="1152">
@@ -148,7 +223,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>62</slash:comments>
+                                    <slash:comments>96</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/banana-cream-pie-1152x648-1785351920.jpg" width="1152">
@@ -181,7 +256,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>76</slash:comments>
+                                    <slash:comments>119</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/ars-subscriber-ball-track-1152x648.jpg" width="1152">
@@ -215,7 +290,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>21</slash:comments>
+                                    <slash:comments>36</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/05/google-play-store-1152x648.jpg" width="1152">
@@ -253,7 +328,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>111</slash:comments>
+                                    <slash:comments>134</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2255893185-2-1152x648-1785343633.jpg" width="1152">
@@ -291,7 +366,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>5</slash:comments>
+                                    <slash:comments>7</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-3-1152x648.png" width="1152">
@@ -326,7 +401,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>45</slash:comments>
+                                    <slash:comments>63</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-2148806962-1152x648.jpg" width="1152">
@@ -363,7 +438,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>99</slash:comments>
+                                    <slash:comments>117</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/microsoft-logo-1024x648.jpg" width="1024">
@@ -398,7 +473,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>21</slash:comments>
+                                    <slash:comments>24</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/Civ7-Steam-Deck-1152x648.jpg" width="1152">
@@ -432,7 +507,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>35</slash:comments>
+                                    <slash:comments>43</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/jumanji-1152x648.jpg" width="1152">
@@ -467,7 +542,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>70</slash:comments>
+                                    <slash:comments>91</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/etruscan-1024x648.jpg" width="1024">
@@ -503,7 +578,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>74</slash:comments>
+                                    <slash:comments>82</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/synthid-fingerprint-1152x648.jpg" width="1152">
@@ -540,7 +615,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>235</slash:comments>
+                                    <slash:comments>264</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2239391568-1024x648.jpg" width="1024">
@@ -612,7 +687,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>115</slash:comments>
+                                    <slash:comments>125</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/A263825_large-1152x648.jpg" width="1152">
@@ -647,7 +722,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>138</slash:comments>
+                                    <slash:comments>147</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/link_arrays_katalyst-1152x648.jpg" width="1152">
@@ -681,81 +756,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>110</slash:comments>
+                                    <slash:comments>125</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2163393367-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2163393367-500x500.jpg" width="500"/>
 <media:credit>Getty |  CAVALLINI JAMES</media:credit><media:text>Microscopy image of &lt;em&gt;Neisseria meningitidis&lt;/em&gt;.</media:text></media:content>
-            </item>
-                    <item>
-                <title>We now have a better understanding how OpenAI hacked into Hugging Face</title>
-                <link>https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/</link>
-                                    <comments>https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Tue, 28 Jul 2026 21:36:39 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Hugging Face]]></category>
-		<category><![CDATA[jfrog]]></category>
-		<category><![CDATA[large langage models]]></category>
-		<category><![CDATA[LLMs]]></category>
-		<category><![CDATA[openai]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/</guid>
-
-                                    <description>
-                        <![CDATA[10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Last week’s unprecedented security event in which two OpenAI security hacking models trespassed into the network of fellow AI company Hugging Face was enabled by exploiting one or more zero-day vulnerabilities in Artifactory, JFrog, the product’s developer, said Monday.</p>
-<p>In an incident mimicking a dystopian sci-fi novel, two OpenAI models broke out of the restricted environment meant to keep them from accessing the Internet during an internal test, the AI company <a href="https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack/">revealed last week</a>. The models went on to breach Hugging Face’s network and steal confidential information and credentials. OpenAI said its agent achieved the feat by exploiting a previously unknown vulnerability. The company called the event “unprecedented,” and outsiders largely agreed.</p>
-<h2>Not the triumph it was made out to be</h2>
-<p>OpenAI said the models exploited multiple attack vectors, including stolen credentials and zero-days, to gain remote code execution capabilities, but until now, the vulnerable software was unknown. JFrog’s Monday disclosure <a href="https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/">said</a> the product was a self-managed instance Artifactory, a repository management system that secures and streamlines customers’ software development operations. JFrog <a href="https://jfrog.com/solution-sheet/jfrog-artifactory/">says</a><a href="https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/"> Artifactory is used by more than 7,500 developer Teams, 80 percent of which work for Fortune 100 companies.</a></p><p><a href="https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>95</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson</media:credit></media:content>
-            </item>
-                    <item>
-                <title>eBay pays $46M to journalists it targeted in bizarre harassment campaign</title>
-                <link>https://arstechnica.com/tech-policy/2026/07/ebay-former-execs-pay-56m-to-settle-bloody-pig-mask-harassment-case/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/07/ebay-former-execs-pay-56m-to-settle-bloody-pig-mask-harassment-case/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Tue, 28 Jul 2026 21:02:15 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[eBay]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/07/ebay-former-execs-pay-56m-to-settle-bloody-pig-mask-harassment-case/</guid>
-
-                                    <description>
-                        <![CDATA[eBay sent bloody pig mask and other macabre deliveries to journalists' home.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>eBay and three former executives agreed to pay nearly $56 million in a settlement over a <a href="https://arstechnica.com/tech-policy/2020/06/ebay-execs-sent-cockroaches-and-bloody-pig-mask-to-harass-journalists-feds/">macabre campaign of cyberstalking and harassment</a> that targeted two journalists in 2019.</p>
-<p>As we've <a href="https://arstechnica.com/tech-policy/2021/07/lawsuit-ebay-tried-to-terrorize-stalk-and-silence-couple-that-ran-news-site/">previously written</a>, the case involved deliveries of live cockroaches, a funeral wreath, a book about surviving the loss of a spouse, and a bloody pig mask to the home of a couple who run a news website. There were also harassing messages sent via email and Twitter, and an attempt to install a GPS tracking device on the victims' car. Criminal charges resulted in guilty pleas and prison terms for former eBay employees.</p>
-<p>The victims were Ina and David Steiner of Natick, Massachusetts, who run the news website EcommerceBytes. "David and I officially settled the lawsuit we filed in 2021 against eBay and its former executives over the stalking and harassment campaign we endured in 2019 designed to stop our reporting," Ina Steiner <a href="https://www.ecommercebytes.com/C/blog/blog.pl?/pl/2026/7/1785201549.html">wrote</a> on EcommerceBytes yesterday. "The landmark civil rights settlement includes $55.7 million in compensation and charitable commitments."</p><p><a href="https://arstechnica.com/tech-policy/2026/07/ebay-former-execs-pay-56m-to-settle-bloody-pig-mask-harassment-case/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/07/ebay-former-execs-pay-56m-to-settle-bloody-pig-mask-harassment-case/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>63</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/06/ebay-pig-mask-1152x648-1785271314.jpeg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/06/ebay-pig-mask-500x500-1785271301.jpeg" width="500"/>
-<media:credit>FBI</media:credit><media:text>A bloody pig mask mailed to cyberstalking victims by then-eBay employees.</media:text></media:content>
             </item>
             </channel>
 </rss>
