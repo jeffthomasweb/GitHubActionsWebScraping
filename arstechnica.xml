@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Wed, 05 Aug 2026 13:38:55 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 05 Aug 2026 23:53:34 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,529 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Thousands of servers can be backdoored by exploiting buggy motherboard controllers</title>
+                <link>https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/</link>
+                                    <comments>https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 22:35:20 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[baseboard management controller]]></category>
+		<category><![CDATA[bmcs]]></category>
+		<category><![CDATA[exploits]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/</guid>
+
+                                    <description>
+                        <![CDATA[Baseboard management controllers from the world's biggest manufacturers are a security mess.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Thousands of Internet-connected servers sold by the world’s biggest manufacturers can be remotely backdoored by exploiting critical vulnerabilities—some more than a decade old—that lurk deep inside system motherboards, according to research presented Wednesday.</p>
+<p>Baseboard management controllers are miniature computers that are embedded into the motherboards of virtually every enterprise server. The microcontrollers, typically abbreviated as BMCs, run with their own operating system firmware, network stack, and IP address. Administrators rely on them to monitor the physical status of large fleets of servers and to perform a variety of tasks, including rebooting machines, installing updates, and even reinstalling operating systems. BMCs provide what’s known as “lights out” and “out-of-band” management because they work even when servers they’re attached to are turned off or are unresponsive.</p>
+<h2>A “pervasive, under-monitored, under-patched parallel attack surface”</h2>
+<p>Researchers have warned <a href="https://arstechnica.com/information-technology/2013/08/remote-admin-tool-imperils-servers/">since at least 2013</a> that BMCs present a golden opportunity for hackers looking for ways to gain deep and persistent access to datacenters. The chief culprit was <a href="https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface">IPMI</a>, the protocol that allows BMCs to operate independently of servers and to perform administrative tasks. Vulnerabilities in this firmware made it possible for attackers to remotely execute malicious code on the controllers and, from there, infect the servers they manage.</p><p><a href="https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>13</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/data-center-server-room-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/data-center-server-room-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>A data center corridor lined with rows of locked glass server racks filled with blinking electronic network equipment. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Schwartz confirmed as CDC director after bungling confirmation hearing</title>
+                <link>https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing/</link>
+                                    <comments>https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 21:03:18 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[anti-vaccine]]></category>
+		<category><![CDATA[Cassidy]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[robert f kennedy jr]]></category>
+		<category><![CDATA[Schwartz]]></category>
+		<category><![CDATA[vaccines]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing/</guid>
+
+                                    <description>
+                        <![CDATA[Schwartz is well-qualified for the role, but crashed and burned in Senate hearing.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In a 51–44 vote Wednesday, the US Senate confirmed Erica Schwartz as director of the Centers for Disease Control and Prevention, despite <a href="https://arstechnica.com/health/2026/07/two-trump-health-nominees-crash-and-burn-in-tense-senate-hearing/">failing miserably</a> to convince senators last month that she could stand up to anti-vaccine Health Secretary Robert F. Kennedy Jr.</p>
+<p>The confirmation ends a near yearlong vacancy for the position since Kennedy fired the previous CDC director, Susan Monarez, last August. Monarez was ousted after she refused to rubber-stamp vaccine recommendations from a panel of Kennedy's hand-selected advisors, who hold similar anti-vaccine views to his own.</p>
+<p>Schwartz is highly qualified for the role, coming to the CDC with a medical degree, a master’s degree in public health, and a law degree. She previously had a long stint as a Navy officer and held leadership roles including chief medical officer for the US Coast Guard and deputy surgeon general in the first Trump administration. Notably, she has been a public advocate for vaccines and outbreak preparedness.</p><p><a href="https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>36</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/Rear_Admiral_Erica_Schwartz-1152x648-1776453357.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/Rear_Admiral_Erica_Schwartz-500x500-1776453341.jpg" width="500"/>
+<media:credit>Wikipedia | HHS</media:credit><media:text>Erica G. Schwartz, M.D., J.D., M.P.H. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Anthropic’s AI used fake identities, malware in rogue attack on GitHub project</title>
+                <link>https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/</link>
+                                    <comments>https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 20:47:11 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[frontier ai]]></category>
+		<category><![CDATA[GPT-5.6 Sol]]></category>
+		<category><![CDATA[Mythos 5]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[UK AI Security Institute]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/</guid>
+
+                                    <description>
+                        <![CDATA[Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Routine cybersecurity testing of frontier AI models sparked a series of unexpected security incidents—the most serious case arising when Anthropic’s Mythos 5 model attempted to insert malicious code into an open source software application and created fake identities to deceive the human developers maintaining the project.</p>
+<p>The security incidents occurred during a cyber evaluation of seven leading AI models’ capabilities by the AI Security Institute (AISI), a research organization within the UK government, in late July. The researchers discovered 19 instances in which “AI agents took unsanctioned action on the live Internet, including cases that targeted real people and organizations,” according to an <a href="https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing">AISI blog post</a> published on August 4.</p>
+<p>Almost all the “autonomous, unsanctioned” actions came from Anthropic’s Mythos 5 model, with two such actions coming from OpenAI’s GPT-5.6 Sol. The AI Security Institute’s security team first realized that something was amiss on the morning of July 28, when its commercial security monitoring service flagged data leaving one of the testing systems through the Tor anonymity network.</p><p><a href="https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>48</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285051730-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285051730-500x500.jpg" width="500"/>
+<media:credit>Imen Ben Youssef / Hans Lucas / AFP via Getty Images</media:credit><media:text>A smartphone displaying the Anthropic logo is shown in the foreground with a blurred Claude Mythos themed background.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Reddit signals ominous upcoming "changes” for old.reddit.com</title>
+                <link>https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 20:01:32 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[reddit]]></category>
+		<category><![CDATA[social media]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com/</guid>
+
+                                    <description>
+                        <![CDATA[Reddit says the beloved site is used for some "bad behavior." ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Old.reddit.com’s days appear to be numbered.</p>
+<p>Reddit has strayed from saying that it will shutter the website, which many long-time Redditors prefer for its layout, navigation, and fewer feed recommendations.</p>
+<p>In a <a href="https://redditinc.com/news/modernizing-reddits-infrastructure-and-moderation-tools">blog post</a> today, Reddit made a vague statement about upcoming “changes” to Old Reddit:</p><p><a href="https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>69</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2256966963-1152x648-1785958066.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2256966963-500x500-1785958057.jpg" width="500"/>
+<media:credit>Kirill Kudryavtsev / AFP via Getty Images)</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Hank Green found the AI problem that YouTube labels can’t catch</title>
+                <link>https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/</link>
+                                    <comments>https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Nate Anderson]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 19:51:40 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[hank green]]></category>
+		<category><![CDATA[YouTube]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/</guid>
+
+                                    <description>
+                        <![CDATA["Slop" isn't the only problem.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>YouTube currently <a href="https://support.google.com/youtube/answer/14328491">requires</a> that content creators let viewers know "when they use AI to meaningfully alter or generate photorealistic content."</p>
+<p>The policy draws some strange boundaries. It applies to "AI-generated music" (not photorealistic) but not to "riding a unicorn through a fantastical world" (this could be photorealistic, though it is not plausible). YouTube then summarizes the policy in a different way: "Realistic AI content and meaningful changes require disclosure, while non-realistic or minor edits don’t."</p>
+<p>But AI uses that require no disclosure can include everything from "idea generation" up through "production assistance, like using generative AI tools to create or improve a video outline, script, thumbnail, title, or infographic." Creators are free to clone their own voices for voiceovers. They can also use "AI-generated or altered animation of a missile in a fully animated video."</p><p><a href="https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>70</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2194534888-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2194534888-500x500-1785956226.jpeg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>AI model deep in thought on the yellow background. Machine learning, artificial intelligence concept. Vector illustration.</media:text></media:content>
+            </item>
+                    <item>
+                <title>SpaceX claims Starlink Mobile will be better than AT&amp;T, T-Mobile, and Verizon</title>
+                <link>https://arstechnica.com/tech-policy/2026/08/spacex-claims-starlink-mobile-will-be-better-than-att-t-mobile-and-verizon/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/08/spacex-claims-starlink-mobile-will-be-better-than-att-t-mobile-and-verizon/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 19:38:56 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[starlink mobile]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/08/spacex-claims-starlink-mobile-will-be-better-than-att-t-mobile-and-verizon/</guid>
+
+                                    <description>
+                        <![CDATA[SpaceX won't build large cell towers but plans small base stations across US.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>SpaceX says it has a plan for Starlink Mobile to compete against the big three wireless carriers and take a large number of customers away from them.</p>
+<p>SpaceX has so far partnered with traditional mobile carriers to supplement their ground-based networks with Starlink satellite capacity, mainly to ensure <a href="https://arstechnica.com/tech-policy/2025/02/t-mobile-expands-starlink-texting-service-to-cover-verizon-and-att-users/">coverage from space in dead zones</a> not reached by cell towers. But SpaceX is buying spectrum licenses that would let it offer its own terrestrial service to compete directly against the big carriers, and the firm's top executives said in yesterday's earnings call they plan to do just that.</p>
+<p>"The spectrum that we <a href="https://arstechnica.com/tech-policy/2025/09/spacex-complaints-to-fcc-pay-off-with-17-billion-spectrum-buy-from-echostar/">purchased from EchoStar</a> does have terrestrial components, so we definitely intend to build out the terrestrial component," SpaceX President Gwynne Shotwell said in response to questions on the <a href="https://www.youtube.com/watch?v=OA2VL9TFvPo">earnings call</a>. "So you will have not only the capacity from the satellites themselves, but you will have a buildout of the terrestrial, basically the hardware and systems necessary to make a true mobile service exactly what you want it to be."</p><p><a href="https://arstechnica.com/tech-policy/2026/08/spacex-claims-starlink-mobile-will-be-better-than-att-t-mobile-and-verizon/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/08/spacex-claims-starlink-mobile-will-be-better-than-att-t-mobile-and-verizon/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>64</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/starlink-dominance-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/starlink-dominance-500x500-1768005711.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>This Atlantic hurricane season is looking like a dud, but there will be a price to pay</title>
+                <link>https://arstechnica.com/science/2026/08/this-atlantic-hurricane-season-is-looking-like-a-dud-but-there-will-be-a-price-to-pay/</link>
+                                    <comments>https://arstechnica.com/science/2026/08/this-atlantic-hurricane-season-is-looking-like-a-dud-but-there-will-be-a-price-to-pay/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 19:19:04 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[El Niño]]></category>
+		<category><![CDATA[hurricane season]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[Weather]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/08/this-atlantic-hurricane-season-is-looking-like-a-dud-but-there-will-be-a-price-to-pay/</guid>
+
+                                    <description>
+                        <![CDATA["The models are forecasting something outside the envelope of anything we have ever observed."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The city of Houston, where I live, has been ground zero for the 2026 Atlantic hurricane season. So far this year there have been two named storms, Arthur and Bertha, that have formed. And the centers of both have passed near or directly over Houston.</p>
+<p>Two "strikes" in a year might seem notable, but like the middling hurricane season to date, Arthur and Bertha were both middle-of-the road tropical storms in terms of intensity.</p>
+<p>As a resident of a coastal region prone to hurricanes, one never wants to tempt fate. And in truth, since it is only early August, the bulk of seasonal activity definitely lies ahead of us. But all indications are we can look forward to a quiet season.</p><p><a href="https://arstechnica.com/science/2026/08/this-atlantic-hurricane-season-is-looking-like-a-dud-but-there-will-be-a-price-to-pay/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/08/this-atlantic-hurricane-season-is-looking-like-a-dud-but-there-will-be-a-price-to-pay/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>52</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/newplot-1152x648.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/newplot-500x500.png" width="500"/>
+<media:credit>The Climate Brink</media:credit><media:text>The years 1997 and 2015, the two strongest developing El Niños in this record, are highlighted. So far 2026 is outpacing them.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Google's AI shake-up: DeepMind's Hassabis steps aside, senior scientists depart</title>
+                <link>https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 19:05:58 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google deepmind]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/</guid>
+
+                                    <description>
+                        <![CDATA[Google's AI brain drain continues. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google got a slow start with generative AI after seemingly being <a href="https://arstechnica.com/gadgets/2023/04/googles-ai-panic-forces-merger-of-rival-divisions-deepmind-and-brain/">caught flat-footed</a> by Microsoft's Copilot reveal. What a difference a few years make. Now, Google is at the forefront of AI development (for better or worse), but new cracks are beginning to show. The company's string of high-profile personnel departures continues, and DeepMind CEO Demis Hassabis has now said he will <a href="https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/">hand off day-to-day responsibilities</a> to take on an oversight role at parent company Alphabet.</p>
+<p>Hassabis was one of the founders of DeepMind, and he maintained a key leadership role after Google acquired it. As the generative AI boom took off, Hassabis has been <a href="https://arstechnica.com/gadgets/2025/05/at-i-o-2025-google-leaves-no-doubt-that-ai-mode-is-the-future-of-search/">one of the loudest voices</a> predicting the impending creation of artificial general intelligence (AGI), which is typically described as an AI with human-like capabilities and intelligence.</p>
+<p>In his memo announcing his decision to leave DeepMind, Hassabis again leans on the promise of AGI. "I've been working towards AGI my whole life and now, like many of you, I feel it is close at hand," said Hassabis.</p><p><a href="https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>35</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2261835158-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2261835158-500x500-1785954410.jpg" width="500"/>
+<media:credit>Ruhani Kaur/Bloomberg via Getty Images</media:credit><media:text>Demis Hassabis, the now former CEO of Google DeepMind, during an interview in 2026.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Review: Spider-Man: Brand New Day reminds us that superhero movies can be good</title>
+                <link>https://arstechnica.com/culture/2026/08/review-spider-man-brand-new-day-reminds-us-that-superhero-movies-can-be-good/</link>
+                                    <comments>https://arstechnica.com/culture/2026/08/review-spider-man-brand-new-day-reminds-us-that-superhero-movies-can-be-good/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 18:27:15 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[film reviews]]></category>
+		<category><![CDATA[MCU Phase Six]]></category>
+		<category><![CDATA[reviews]]></category>
+		<category><![CDATA[Sony Pictures]]></category>
+		<category><![CDATA[Tom Holland]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2026/08/review-spider-man-brand-new-day-reminds-us-that-superhero-movies-can-be-good/</guid>
+
+                                    <description>
+                        <![CDATA[It's as much about grounded characters and well-timed emotional beats as CGI-filled action extravaganzas.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Over the past few years, it has become a rather rare treat when I end up genuinely, unequivocally enjoying the latest superhero film. Mostly I find them to be middling entertainment, sometimes a bit dull—and for <em>The Eternals</em>, nearly unwatchable—with the notable exception of 2024's <em>Deadpool &amp; Wolverine</em> and last year's <em>Thunderbolts*</em>.</p>
+<p>Add <em>Spider-Man: Brand New Day</em> to that list of exceptions. Tom Holland's latest outing as the titular web-slinger reminds us that superhero movies can still be very, very good—as much about well-drawn characters with interesting developmental arcs and well-timed emotional beats as CGI-filled action extravaganzas. There's plenty of the latter in <em>Brand New Day</em>, of course, but it's the grounded humanity at its heart that makes director Destin Daniel Cretton's film work so well.</p>
+<p><strong>(Spoilers below but no major reveals until after the gallery. We'll give you a heads up when we get there)</strong></p><p><a href="https://arstechnica.com/culture/2026/08/review-spider-man-brand-new-day-reminds-us-that-superhero-movies-can-be-good/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2026/08/review-spider-man-brand-new-day-reminds-us-that-superhero-movies-can-be-good/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>42</slash:comments>
+                
+                
+                <media:content height="637" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/spidey2-1152x637.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/spidey2-500x500-1785868617.jpg" width="500"/>
+<media:credit>Sony Pictures</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Weeks into explosive diarrhea outbreak, sluggish CDC plans response team</title>
+                <link>https://arstechnica.com/health/2026/08/report-cdc-finally-plans-formal-response-team-for-explosive-diarrhea-outbreak/</link>
+                                    <comments>https://arstechnica.com/health/2026/08/report-cdc-finally-plans-formal-response-team-for-explosive-diarrhea-outbreak/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 18:11:11 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[CDC]]></category>
+		<category><![CDATA[cyclospora]]></category>
+		<category><![CDATA[cyclosporiasis]]></category>
+		<category><![CDATA[fda]]></category>
+		<category><![CDATA[lettuce]]></category>
+		<category><![CDATA[taylor farms]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/08/report-cdc-finally-plans-formal-response-team-for-explosive-diarrhea-outbreak/</guid>
+
+                                    <description>
+                        <![CDATA[Reports of cases began in June, and the national tally is now nearing 23,000.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Trump administration continues to respond sluggishly to the explosive, nationwide outbreak of <em>Cyclospora</em>—a unicellular parasite spread from human feces that has now sickened nearly 23,000 people in 47 states, killing two and sending over 500 to the hospital.</p>
+<p><a href="https://arstechnica.com/health/2026/08/trump-admin-aware-of-deaths-in-explosive-diarrhea-outbreak-delays-reporting/">Michigan health officials reported the two deaths</a> Monday, and The Washington Post first reported Tuesday that federal health officials <a href="https://www.washingtonpost.com/health/2026/08/04/cdc-expands-largest-known-cyclospora-outbreak-15-states/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWFzb24iOiJnaWZ0IiwibmJmIjoxNzg1ODE2MDAwLCJpc3MiOiJzdWJzY3JpcHRpb25zIiwiZXhwIjoxNzg3MTk4Mzk5LCJpYXQiOjE3ODU4MTYwMDAsImp0aSI6IjE0ZTZmNGMyLTEzNDktNDM1Ni1hYzZjLTVkNTRhOWFmMWIzOSIsInVybCI6Imh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS9oZWFsdGgvMjAyNi8wOC8wNC9jZGMtZXhwYW5kcy1sYXJnZXN0LWtub3duLWN5Y2xvc3BvcmEtb3V0YnJlYWstMTUtc3RhdGVzLyJ9.ll0c4xR_S2RiPClQplY2YkUByqfbJfvLTIfWM5jrnI0">have expanded a list of states with linked cases from nine to 15</a>. But those updates still have not appeared on public outbreak pages for the <a href="https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/index.html">Centers for Disease Control and Prevention</a> or the <a href="https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-9-state-outbreak-cyclospora-illnesses-iceberg-lettuce-july-2026">Food and Drug Administration</a>, and Americans are struggling to understand the risk of eating fresh fruits and vegetables.</p>
+<p>In comments to Ars Technica on Monday, a spokesperson for the Department of Health and Human Services, which oversees CDC and FDA, said the outbreak information will be updated sometime "this week." Sources for The New York Times said that the CDC plans to set up a "<a href="https://www.nytimes.com/2026/08/04/well/eat/cdc-cyclospora-outbreak-15-states.html">formal response team</a>" for the outbreak sometime this week. Cases in the outbreak began in June.</p><p><a href="https://arstechnica.com/health/2026/08/report-cdc-finally-plans-formal-response-team-for-explosive-diarrhea-outbreak/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/08/report-cdc-finally-plans-formal-response-team-for-explosive-diarrhea-outbreak/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>42</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2278289810-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2278289810-500x500.jpg" width="500"/>
+<media:credit>Getty | Al Drago</media:credit><media:text>Lettuces and salad greens for sale at a grocery store on May 24, 2026 in Washington, DC. </media:text></media:content>
+            </item>
+                    <item>
+                <title>After jacking up prices, Disney+ and Netflix consider offering free alternatives</title>
+                <link>https://arstechnica.com/gadgets/2026/08/after-jacking-up-prices-disney-and-netflix-consider-offering-free-alternatives/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/08/after-jacking-up-prices-disney-and-netflix-consider-offering-free-alternatives/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 17:12:39 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[disney plus]]></category>
+		<category><![CDATA[Netflix]]></category>
+		<category><![CDATA[streaming]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/08/after-jacking-up-prices-disney-and-netflix-consider-offering-free-alternatives/</guid>
+
+                                    <description>
+                        <![CDATA[Disney is interested in "price-sensitive" streaming customers.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Disney is “exploring a free product” for streaming customers, CEO Josh D’Amaro confirmed in a call with investors today.</p>
+<p>D’Amaro, who succeeded Bob Iger as Disney’s chief in March, said that a free Disney-owned streaming service would help Disney reach more “price-sensitive” customers, which is a “strategic priority” for Disney, according to a <a href="https://finance.yahoo.com/quote/DIS/earnings/DIS-Q3-2026-earnings_call-661406.html">transcript</a> of the call.</p>
+<p>A free streaming service would also generate more ad revenue, which has become increasingly important for streaming services challenged by plateauing subscriber numbers, subscriber churn, and competition from <a href="https://arstechnica.com/gadgets/2026/04/howdys-dated-3-month-ad-free-streaming-service-said-to-have-1m-subscribers/">cheaper</a> and free <a href="https://arstechnica.com/gadgets/2025/08/these-are-the-best-streaming-services-you-arent-watching/">rivals</a>.</p><p><a href="https://arstechnica.com/gadgets/2026/08/after-jacking-up-prices-disney-and-netflix-consider-offering-free-alternatives/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/08/after-jacking-up-prices-disney-and-netflix-consider-offering-free-alternatives/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>72</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-1232471426-1152x648-1758659091.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-1232471426-500x500-1758659083.jpg" width="500"/>
+<media:credit>Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>EVgo starts building Tesla Superchargers under license</title>
+                <link>https://arstechnica.com/cars/2026/08/evgo-starts-building-tesla-superchargers-under-license/</link>
+                                    <comments>https://arstechnica.com/cars/2026/08/evgo-starts-building-tesla-superchargers-under-license/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 17:00:38 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[EVgo]]></category>
+		<category><![CDATA[Tesla Supercharger]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/08/evgo-starts-building-tesla-superchargers-under-license/</guid>
+
+                                    <description>
+                        <![CDATA[The V4 Superchargers will show up in the Tesla nav app and have NACS and CCS1 plugs.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>For most of its existence, the Tesla Supercharger network was both the automaker's crown jewel and a walled garden. Tightly integrated to work only with Tesla electric vehicles, the DC fast-charging experience for Tesla customers was painless in ways that EV drivers dependent on CCS1 chargers operated by a patchwork of networks could only dream of. Then, in 2023, Tesla began opening up the network to other EVs. Ford <a href="https://arstechnica.com/cars/2023/05/ford-evs-will-get-access-to-teslas-supercharger-network-in-2024/">was the first to sign a deal</a>, and by the following year, the CCS1 plug, which was the de facto non-Tesla standard, was living on borrowed time.</p>
+<p>But it's not just other automakers that are adopting the J3400 standard, <a href="https://arstechnica.com/cars/2022/07/the-ars-technica-guide-to-electric-vehicle-charging/">better known as NACS</a>. Manufacturers of DC fast charging equipment can also license Tesla's Supercharger design. In fact, the first license-built Superchargers were <a href="https://www.notebookcheck.net/Superchargers-no-longer-Tesla-exclusive-as-third-party-stations-open-under-Tesla-for-all-banner.816234.0.html">deployed in the UK in 2024</a>. And today we learned that's what EVgo will be doing here in the US. It says it will start deploying EVgo-made Tesla V4 Superchargers onto its network later this fall.</p>
+<p>The DC chargers can deliver up to 500 kW (operating at up to 1,000 V) and support both NACS and CCS1 plugs. And because they're Tesla Superchargers built under license, the EVgo units will appear in Tesla's in-car navigation app and be included when a Tesla driver uses their onboard route planner. The hardware will be owned and operated by EVgo, which will also "manage activities such as site host engagement, utility interconnection, and price management at EVgo Supercharger sites," the company told Ars.</p><p><a href="https://arstechnica.com/cars/2026/08/evgo-starts-building-tesla-superchargers-under-license/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/08/evgo-starts-building-tesla-superchargers-under-license/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>32</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/webp" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/evgo-tesla-partnership-1920x1080.jpg-1152x648.webp" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/evgo-tesla-partnership-1920x1080.jpg-500x500-1785947344.webp" width="500"/>
+<media:credit>EVgo</media:credit><media:text>As part of opening up the J3400 standard, Tesla now licenses the Supercharger design. In this case, to EVgo.</media:text></media:content>
+            </item>
+                    <item>
+                <title>D-Wave shows off its new entry in quantum computing race</title>
+                <link>https://arstechnica.com/science/2026/08/d-wave-on-rails-company-tests-entanglement-on-its-dual-rail-qubits/</link>
+                                    <comments>https://arstechnica.com/science/2026/08/d-wave-on-rails-company-tests-entanglement-on-its-dual-rail-qubits/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 16:37:07 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[D-Wave]]></category>
+		<category><![CDATA[dual-rail qubits]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[quantum computing]]></category>
+		<category><![CDATA[quantum mechanics]]></category>
+		<category><![CDATA[qubits]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/08/d-wave-on-rails-company-tests-entanglement-on-its-dual-rail-qubits/</guid>
+
+                                    <description>
+                        <![CDATA[Company noted for building quantum annealers now also making gate-based hardware.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>D-Wave is a bit of an oddity in the quantum computing space, having been founded back in the last century. And its initial offering wasn't a quantum computer like those being developed by IBM or Google. Instead, <a href="https://arstechnica.com/science/2013/08/d-waves-black-box-starts-to-open-up/">the company built</a> what's now called a quantum annealer, a machine that isn't general-purpose but can <a href="https://arstechnica.com/science/2019/10/what-problems-can-you-solve-on-a-quantum-annealer/">solve a large class of optimization problems</a>. While the hardware shares some similarities with the qubits used in gate-based quantum computers, it operates in a fundamentally different way.</p>
+<p>But a few years back, D-Wave started working on gate-based hardware, apparently choosing a somewhat unusual qubit technology <a href="https://en.wikipedia.org/wiki/Fluxonium">called fluxonium</a>. And this year, the company acquired a startup called Quantum Circuits that spun out of Yale University and has been developing what's called a dual-rail qubit (the same technology <a href="https://arstechnica.com/science/2025/02/amazon-details-its-take-on-quantum-computing-two-types-of-qubits-1-chip/">used by Amazon</a>), which promises to make most errors very easy to detect, simplifying error correction.</p>
+<p>On Wednesday, the company is publishing a paper in Nature that describes a key step in validating this dual-rail technology, showing that two of the qubits can be entangled without altering their best feature: Most are a single type that is easy to detect.</p><p><a href="https://arstechnica.com/science/2026/08/d-wave-on-rails-company-tests-entanglement-on-its-dual-rail-qubits/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/08/d-wave-on-rails-company-tests-entanglement-on-its-dual-rail-qubits/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>8</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/webp" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/v5-834x648.webp" width="834">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/v5-500x500.webp" width="500"/>
+<media:credit>D-Wave</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Google plans to kill Assistant on your phone on September 4</title>
+                <link>https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4/</link>
+                                    <comments>https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 15:30:02 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Google Assistant]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4/</guid>
+
+                                    <description>
+                        <![CDATA[Assistant will disappear, leaving only Gemini for voice control in the coming weeks. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google Assistant's days have been numbered for a while, but the company has now settled on a date to retire its pre-AI assistant robot. In an email being sent out to users, Google confirms that Assistant on Android devices will be shut down starting on September 4, forcing everyone over to Gemini. Google told us it was coming, but that doesn't make it hurt any less.</p>
+<p>The <a href="https://arstechnica.com/google/2025/03/end-of-life-gemini-will-completely-replace-google-assistant-later-this-year/">initial plan</a> was to retire Assistant in late 2025, but the service got a brief reprieve as Google shored up some aspects of Gemini. Now that Gemini is ready to take over, Google will begin ending support for the old system on September 4, but the email notes that it may take several weeks for the process to complete. So those stubbornly clinging to Assistant may still be able to use it a bit longer before the option disappears. For those who made the switch already, nothing will change.</p>
+<p>By ending Assistant on mobile devices, Google is also killing it on myriad other gadgets that connect to your phone for smart features. So smartwatches, headphones, and cars with Android Auto are also being forcibly moved to Gemini. Most of Google's smart home devices have already transitioned to Gemini.</p><p><a href="https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>108</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson</media:credit></media:content>
+            </item>
+                    <item>
+                <title>SpaceX spooks investors with debut earnings report</title>
+                <link>https://arstechnica.com/ai/2026/08/spacex-spooks-investors-with-debut-earnings-report/</link>
+                                    <comments>https://arstechnica.com/ai/2026/08/spacex-spooks-investors-with-debut-earnings-report/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[George Hammond, Financial Times]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Aug 2026 13:59:17 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[quarterly earnings]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[starlink]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[Tesla]]></category>
+		<category><![CDATA[X]]></category>
+		<category><![CDATA[xAI]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/08/spacex-spooks-investors-with-debut-earnings-report/</guid>
+
+                                    <description>
+                        <![CDATA[Shares slide in pre-market trading even as group says its quarterly revenues nearly doubled.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>SpaceX shares dropped on Wednesday after Elon Musk’s plans for blockbuster spending to position his AI and rocket company as a data center developer spooked investors.</p>
+<p>SpaceX surpassed analysts’ expectations in Tuesday’s debut earnings report, posting quarterly revenues of $7.8 billion, well above analysts’ estimates of $6.82 billion and up 92 percent from a year earlier. It posted a net loss of about $541 million, better than estimates of $2.12 billion.</p>
+<p>But shares in SpaceX fell 10 percent in early trading after it reported capital expenditure of almost $16 billion on AI, double the previous quarter and well above Wall Street’s expectations. It said spending would persist at current levels for at least two more quarters.</p><p><a href="https://arstechnica.com/ai/2026/08/spacex-spooks-investors-with-debut-earnings-report/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/08/spacex-spooks-investors-with-debut-earnings-report/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>145</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacex-nasdaq-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacex-nasdaq-500x500.jpg" width="500"/>
+<media:credit>Timothy A Clary/GEtty</media:credit></media:content>
+            </item>
+                    <item>
                 <title>Pushing the limits: Infinite Machine's Olto is barely a bicycle</title>
                 <link>https://arstechnica.com/cars/2026/08/pushing-the-limits-infinite-machines-olto-is-barely-a-bicycle/</link>
                                     <comments>https://arstechnica.com/cars/2026/08/pushing-the-limits-infinite-machines-olto-is-barely-a-bicycle/#comments</comments>
@@ -46,7 +569,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>44</slash:comments>
+                                    <slash:comments>127</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/IMG_1971-1152x648-1785165291.jpeg" width="1152">
@@ -79,7 +602,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>118</slash:comments>
+                                    <slash:comments>160</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2170814475-1152x648.jpg" width="1152">
@@ -111,7 +634,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>30</slash:comments>
+                                    <slash:comments>60</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/trump-with-smartphone-1152x648-1785876893.jpg" width="1152">
@@ -149,7 +672,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>93</slash:comments>
+                                    <slash:comments>138</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2288039036-1152x648.jpg" width="1152">
@@ -180,550 +703,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>71</slash:comments>
+                                    <slash:comments>80</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2270890949-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2270890949-500x500.jpg" width="500"/>
 <media:credit>Qilai Shen/Bloomberg via Getty Images</media:credit><media:text>Tesla's factory in Shanghai, China.</media:text></media:content>
-            </item>
-                    <item>
-                <title>The Pixel 11's "glow" feature is actually called HiLight—here's what it does</title>
-                <link>https://arstechnica.com/gadgets/2026/08/the-pixel-11s-glow-feature-is-actually-called-hilight-heres-what-it-does/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/08/the-pixel-11s-glow-feature-is-actually-called-hilight-heres-what-it-does/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Tue, 04 Aug 2026 16:11:05 +0000</pubDate>
-                		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[gemini]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[LEDs]]></category>
-		<category><![CDATA[smartphones]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/08/the-pixel-11s-glow-feature-is-actually-called-hilight-heres-what-it-does/</guid>
-
-                                    <description>
-                        <![CDATA[The camera flash will evolve into a multicolor LED that illuminates when your phone is face down.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Google will reveal the <a href="https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/">Pixel 11 series</a> later this month, but leaks and teasers so far have painted a picture of phones that have barely changed since <a href="https://arstechnica.com/gadgets/2025/08/google-pixel-10-series-review-dont-call-it-an-android/">last year</a>. One notable exception seems to be the illuminated dot from some of the teasers. This has been rumored as "Pixel Glow," but a new leak all but confirms a different (and less interesting) name. Say hello to HiLight.</p>
-<p>A <a href="https://bsky.app/profile/rquandt.bsky.social/post/3ms7jpb45v22w">post on Bluesky</a> by WinFuture's Roland Quandt shows the new LED inside the camera module of the Pixel 11 Pro Fold. We can see the actual body of the device rather than a shadowy outline as in Google's teasers, and it does look a bit different than the previous Pixel Fold.</p>
-<p>The camera bump on the Pixel 11 Pro Fold is smaller, with no separate section for the flash off to the right. It appears that HiLight is the flash. Presumably, it still works as a flashlight and camera flash, but it can also produce a range of colors.</p><p><a href="https://arstechnica.com/gadgets/2026/08/the-pixel-11s-glow-feature-is-actually-called-hilight-heres-what-it-does/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/08/the-pixel-11s-glow-feature-is-actually-called-hilight-heres-what-it-does/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>97</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/HiLight-crop-1152x648-1785858816.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/HiLight-crop-500x500-1785858830.jpg" width="500"/>
-<media:credit>Google</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Tom DeLay helped create TV ownership cap—he says Trump FCC has no authority to repeal it</title>
-                <link>https://arstechnica.com/tech-policy/2026/08/can-trump-fcc-repeal-39-tv-ownership-cap-republican-who-wrote-cap-into-law-says-no/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/08/can-trump-fcc-repeal-39-tv-ownership-cap-republican-who-wrote-cap-into-law-says-no/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Tue, 04 Aug 2026 15:51:00 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[brendan carr]]></category>
-		<category><![CDATA[tom delay]]></category>
-		<category><![CDATA[trump fcc]]></category>
-		<category><![CDATA[TV ownership cap]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/08/can-trump-fcc-repeal-39-tv-ownership-cap-republican-who-wrote-cap-into-law-says-no/</guid>
-
-                                    <description>
-                        <![CDATA[Congress set ownership limit at 39%, but FCC claims authority to kill the rule.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Tom DeLay, the Texas Republican who was House majority leader from 2003 to 2005, said the Federal Communications Commission has no legal authority to repeal the National Television Ownership Rule. Despite DeLay's warning, the Trump FCC appears ready to eliminate the rule at its meeting this week.</p>
-<p>DeLay wrote an op-ed describing how he helped write the law that prohibited any single broadcast station owner from reaching more than 39 percent of all TV households in the US. DeLay said that only Congress, not the Trump FCC, can change the cap because the 39 percent limit is specified in US law and wasn't chosen by the commission.</p>
-<p>DeLay gave his view in an <a href="https://www.dailywire.com/news/tom-delay-i-helped-create-the-fccs-ownership-cap-heres-how-we-did-it">op-ed for The Daily Wire</a> yesterday, less than three weeks after FCC Chairman Brendan Carr <a href="https://arstechnica.com/tech-policy/2026/07/fcc-to-repeal-39-tv-ownership-cap-in-boost-for-trump-friendly-news-orgs/">announced a plan to eliminate the cap</a>. The FCC is scheduled to vote on Carr's proposal on Thursday.</p><p><a href="https://arstechnica.com/tech-policy/2026/08/can-trump-fcc-repeal-39-tv-ownership-cap-republican-who-wrote-cap-into-law-says-no/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/08/can-trump-fcc-repeal-39-tv-ownership-cap-republican-who-wrote-cap-into-law-says-no/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>81</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/brendan-carr-fcc-crest-1152x648-1771622570.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/brendan-carr-fcc-crest-500x500-1771622581.jpg" width="500"/>
-<media:credit>Getty Images | Kevin Dietsch</media:credit><media:text>FCC Chairman Brendan Carr speaks at a news conference following an FCC meeting on February 18, 2026 in Washington, DC.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Trump admin "aware" of deaths in explosive diarrhea outbreak, delays reporting</title>
-                <link>https://arstechnica.com/health/2026/08/trump-admin-aware-of-deaths-in-explosive-diarrhea-outbreak-delays-reporting/</link>
-                                    <comments>https://arstechnica.com/health/2026/08/trump-admin-aware-of-deaths-in-explosive-diarrhea-outbreak-delays-reporting/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Tue, 04 Aug 2026 15:06:07 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[CDC]]></category>
-		<category><![CDATA[cyclospora]]></category>
-		<category><![CDATA[cyclosporiasis]]></category>
-		<category><![CDATA[diarrhea]]></category>
-		<category><![CDATA[fda]]></category>
-		<category><![CDATA[lettuce]]></category>
-		<category><![CDATA[outbreatk]]></category>
-		<category><![CDATA[taylor frams]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/08/trump-admin-aware-of-deaths-in-explosive-diarrhea-outbreak-delays-reporting/</guid>
-
-                                    <description>
-                        <![CDATA[Federal officials will update the outbreak sometime "this week," a spokesperson said.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Two people have died amid the ongoing record-breaking outbreak of explosive diarrhea from the foodborne parasite <em>Cyclospora</em>, Michigan health officials announced Monday.</p>
-<p>Cyclosporiasis fatalities are extremely rare, and despite the massive size of the outbreak, some experts were still surprised by the deaths. The Michigan Department of Health and Human Services on Monday said that medical records of both individuals indicated that they had "significant underlying health conditions that may have been impacted by cyclosporiasis and dehydration."</p>
-<p>MDHHS noted that both fell ill with the diarrheal infection before Taylor Farms recalled its shredded iceberg lettuce grown in Mexico, which has been linked to thousands of cases in at least nine states.<em> Cyclospora</em> is a unicellular parasite that spreads in human feces and is often transmitted via contaminated fresh produce, such as lettuces and other fruits and vegetables that have uneven surfaces for the parasite to grip. Past culprits have included fresh herbs, raspberries, green onions, and snow peas.</p><p><a href="https://arstechnica.com/health/2026/08/trump-admin-aware-of-deaths-in-explosive-diarrhea-outbreak-delays-reporting/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/08/trump-admin-aware-of-deaths-in-explosive-diarrhea-outbreak-delays-reporting/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>116</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2285922416-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2285922416-500x500.jpg" width="500"/>
-<media:credit>Getty | Benjamin Fanjoy</media:credit><media:text>Trucks rest at a Taylor Farms facility on July 17, 2026, in Salinas, California. </media:text></media:content>
-            </item>
-                    <item>
-                <title>2027 Chevrolet Corvette Grand Sport X proves code is as important as hardware</title>
-                <link>https://arstechnica.com/cars/2026/08/2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-hardware/</link>
-                                    <comments>https://arstechnica.com/cars/2026/08/2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-hardware/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Tim Stevens]]>
-                </dc:creator>
-                <pubDate>Tue, 04 Aug 2026 14:45:08 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/08/2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-hardware/</guid>
-
-                                    <description>
-                        <![CDATA[Chevy's 721-hp hybrid ups the ante with few compromises, but at a steep cost.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<aside class="pullbox sidebar fullwidth">Chevrolet provided flights from Albany, New York, to Denver and accommodation so Ars could drive the Grand Sport X. Ars does not accept paid editorial content.</aside>
-<p>When Chevrolet introduced a hybrid system to the Corvette lineup in 2023, <a href="https://arstechnica.com/cars/2023/01/heres-everything-we-know-about-the-2024-corvette-e-ray-hybrid/">creating the E-Ray</a>, many fans were confused. If it was meant to be a performance option, where did it fit alongside <a href="https://arstechnica.com/cars/2025/05/2025-chevrolet-corvette-zr1-first-drive-engineered-for-insane-speed/">the ZR1</a> and <a href="https://arstechnica.com/cars/2025/06/the-first-corvette-hypercar-chevrolets-1250-hp-zr1x-hybrid-breaks-cover/">ZR1X</a>? Was this a concession to emissions, or was it a sign of the fabled Stingray getting soft? Promises of silent cruising through neighborhoods and the application of all-season tires didn't help the situation.</p>
-<p>Three years later, <a href="https://arstechnica.com/cars/2026/03/the-corvette-e-ray-is-dead-long-live-the-grand-sport-x/">the E-Ray is dead</a>, but the hybrid system lives on in the new Grand Sport X. This, though, isn't intended to be a direct successor. A series of subtle and not-so-subtle software tweaks, plus some additional drive modes and a whole new engine, conspire to create a machine that sounds and feels far more edgy and exciting.</p>
-<h2>From E-Ray to Grand Sport X</h2>
-<p>"There were some customers who didn't necessarily understand the car," Keith Badgley said of the E-Ray. He was the lead development engineer for that machine, as well as the Grand Sport X and the ZR1X. I spoke with him after spending a few days behind the wheel of the Grand Sport X.</p><p><a href="https://arstechnica.com/cars/2026/08/2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-hardware/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/08/2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-hardware/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>53</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/2026-Chevrolet-Corvette-Grand-Sport-X-005-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/2026-Chevrolet-Corvette-Grand-Sport-X-005-500x500.jpg" width="500"/>
-<media:credit>Tim Stevens</media:credit><media:text>The Grand Sport recipe has made some great Corvettes in the past. How does a hybrid powertrain affect that?</media:text></media:content>
-            </item>
-                    <item>
-                <title>OpenAI says Apple's trade secrets lawsuit is "aggressive and oddly personal"</title>
-                <link>https://arstechnica.com/tech-policy/2026/08/openai-says-apples-trade-secrets-lawsuit-is-aggressive-and-oddly-personal/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/08/openai-says-apples-trade-secrets-lawsuit-is-aggressive-and-oddly-personal/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jamie John, Financial Times]]>
-                </dc:creator>
-                <pubDate>Tue, 04 Aug 2026 13:38:29 +0000</pubDate>
-                		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/08/openai-says-apples-trade-secrets-lawsuit-is-aggressive-and-oddly-personal/</guid>
-
-                                    <description>
-                        <![CDATA[“We do not have, nor want, any of their trade secrets,” the ChatGPT maker says.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>OpenAI has accused Apple of waging a “careless, aggressive and oddly personal lawsuit” in a <a href="https://openai.com/index/apple-is-getting-this-wrong/">blog post</a> rebutting the iPhone maker’s claims that the AI start-up stole top-secret information.</p>
-<p>“We do not have, nor want, any of their trade secrets,” the ChatGPT maker wrote on Monday evening, accusing Apple of “making vague accusations” and “trying to change their narrative.”</p>
-<p>The post marks the latest escalation in a dispute that began last month when <a href="https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/">Apple filed a lawsuit</a> claiming OpenAI had stolen hardware designs as it planned to launch its own AI-focused consumer devices.</p><p><a href="https://arstechnica.com/tech-policy/2026/08/openai-says-apples-trade-secrets-lawsuit-is-aggressive-and-oddly-personal/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/08/openai-says-apples-trade-secrets-lawsuit-is-aggressive-and-oddly-personal/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>72</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/openai-logo-1152x648-1741196873.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/openai-logo-500x500-1741196880.jpg" width="500"/>
-<media:credit>Getty Images | Vincent Feuray</media:credit></media:content>
-            </item>
-                    <item>
-                <title>US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own</title>
-                <link>https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/</link>
-                                    <comments>https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jeremy Hsu]]>
-                </dc:creator>
-                <pubDate>Mon, 03 Aug 2026 22:11:39 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[AI drones]]></category>
-		<category><![CDATA[Auterion]]></category>
-		<category><![CDATA[drone swarms]]></category>
-		<category><![CDATA[drones]]></category>
-		<category><![CDATA[military drones]]></category>
-		<category><![CDATA[Russia invasion of Ukraine]]></category>
-		<category><![CDATA[Russian invasion of Ukraine]]></category>
-		<category><![CDATA[skyfall]]></category>
-		<category><![CDATA[Ukraine war]]></category>
-		<category><![CDATA[US Military]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/</guid>
-
-                                    <description>
-                        <![CDATA[$100 million deal gives 50,000 Ukrainian drones US-developed AI capabilities.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Ukrainian drone operators have destroyed many Russian armored vehicles on the ground and even military helicopters in midair using $400 Shrike drones with explosive payloads. Now thousands of such drones are getting upgraded with an AI system capable of autonomously tracking and homing in on moving targets.</p>
-<p>In mid-July, the Ukrainian military began receiving Shrike drones made by the Ukrainian company SkyFall equipped with AI-powered autonomy hardware and software developed by the US company Auterion. The companies plan to <a href="https://auterion.com/auterion-and-skyfall-to-ship-50000-shrike-strike-drones-to-ukraines-front-lines/">deliver 50,000 drones</a> equipped with <a href="https://auterion.com/product/skynode-s/">Auterion’s Skynode S</a> strike kits in the coming months.</p>
-<p>That allows human operators to manually fly the Shrike first-person view (FPV) drones into a battlefield area, designate a target up to half a mile away, and then “flip the switch to turn it into fire-and-forget terminal guidance mode,” <a href="https://www.linkedin.com/in/meierlorenz/">Lorenz Meier</a>, co-founder and CEO of Auterion, told Ars.</p><p><a href="https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>161</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/Screenshot-2026-08-03-at-5.14.23-PM-1152x648.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/Screenshot-2026-08-03-at-5.14.23-PM-500x500.png" width="500"/>
-<media:credit>Lorenz Meier | Auterion</media:credit><media:text>Drones equipped with Auterion's Nemyx swarm autonomy system crash into a self-propelled gun during a test demonstration.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Research roundup: 6 cool science stories we almost missed</title>
-                <link>https://arstechnica.com/science/2026/08/research-roundup-6-cool-science-stories-we-almost-missed-5/</link>
-                                    <comments>https://arstechnica.com/science/2026/08/research-roundup-6-cool-science-stories-we-almost-missed-5/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Mon, 03 Aug 2026 20:13:37 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[ancient DCA]]></category>
-		<category><![CDATA[animal behavior]]></category>
-		<category><![CDATA[Archaeology]]></category>
-		<category><![CDATA[astronomy]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[Robotics]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/08/research-roundup-6-cool-science-stories-we-almost-missed-5/</guid>
-
-                                    <description>
-                        <![CDATA[Also: Cyborg diving suits for cockroaches, why sleepy sperm whales blow bubbles, Betelgeuse's companion star.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>It’s a regrettable reality that there is never enough time to cover all the interesting scientific stories we come across. So every month, we highlight a handful of the best stories that nearly slipped through the cracks. July’s list includes outfitting cyborg cockroaches with a tiny diving suit for navigating flooded terrain; confirmation that a Medici duke died of malaria, not poisoning; the best evidence to date that Betelgeuse is orbited by a companion star; and evidence that some ancient Egyptian princesses were skilled archers.</p>
-<h2>Sacrificial Incan boy died of blunt force trauma</h2>
-<p><img width="640" height="388" src="https://cdn.arstechnica.net/wp-content/uploads/2026/07/incaboy2-640x388.jpg" class="none medium" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/07/incaboy2-640x388.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/07/incaboy2-1024x620.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/07/incaboy2-768x465.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/07/incaboy2-980x594.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/07/incaboy2.jpg 1200w" sizes="auto, (max-width: 640px) 100vw, 640px">
-        Credit:
-          Administrative Archive, Regional Museum of Iquique–CORMUDESI
-      </p>
-<p>It's known that the Incas practiced a human sacrifice ritual known as Capachoca, in which children were offered to the mountains and believed to become divine themselves, serving as intermediaries with the gods. This often involved pilgrimages to the remote sacrificial sites, with colonial accounts describing strangulation, asphyxiation, and blunt force trauma as the most common methods of sacrifice. Archaeologists have reanalyzed the remains of one such victim and concluded the boy died from blunt force trauma, rather than freezing to death as previously believed. They described their findings in <a href="https://www.science.org/doi/10.1126/sciadv.adz9055">a paper</a> published in the journal Science Advances.</p><p><a href="https://arstechnica.com/science/2026/08/research-roundup-6-cool-science-stories-we-almost-missed-5/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/08/research-roundup-6-cool-science-stories-we-almost-missed-5/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>51</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/incaboy-1152x648-1785365793.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/incaboy-500x500.jpg" width="500"/>
-<media:credit>National Museum of Natural History of Chile</media:credit><media:text>The Boy of Cerro El Plomo and his funerary assemblage</media:text></media:content>
-            </item>
-                    <item>
-                <title>Lego deploys Hubble Space Telescope as detailed desktop model</title>
-                <link>https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/</link>
-                                    <comments>https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Robert Pearlman]]>
-                </dc:creator>
-                <pubDate>Mon, 03 Aug 2026 19:21:16 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[35 years]]></category>
-		<category><![CDATA[ESA]]></category>
-		<category><![CDATA[Hubble Space Telescope]]></category>
-		<category><![CDATA[Lego]]></category>
-		<category><![CDATA[LEGO Icons]]></category>
-		<category><![CDATA[LEGO model]]></category>
-		<category><![CDATA[minifigure]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[science instruments]]></category>
-		<category><![CDATA[set 11382]]></category>
-		<category><![CDATA[space collectible]]></category>
-		<category><![CDATA[Space exploration]]></category>
-		<category><![CDATA[space history]]></category>
-		<category><![CDATA[space memorabilia]]></category>
-		<category><![CDATA[space telescope]]></category>
-		<category><![CDATA[space toy]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/</guid>
-
-                                    <description>
-                        <![CDATA[The orbiting observatory in minifigure scale.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>For 35 years, the Hubble Space Telescope has looked out into the Universe. Now, Lego is inviting builders to look inward with its latest model of the orbiting observatory.</p>
-<p>The new <a href="https://www.collectspace.com/news/news-080226a-lego-icons-hubble-space-telescope-details.html" target="_blank" rel="noopener">Lego Icons Hubble Space Telescope</a> (set no. 11382) was released on August 1 for $140 at the toy company's stores and its online shop. The 1,252-piece kit builds a 15-inch-long (38-cm) desktop model that is about twice as large as the previously released Lego Hubble models.</p>
-<p>The Icons Hubble is the first to be sized in comparison to a Lego minifigure, such that the included astronaut provides a sense of scale for the telescope.</p><p><a href="https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>68</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/news-080226a-lg-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/news-080226a-lg-500x500.jpg" width="500"/>
-<media:credit>LEGO</media:credit><media:text>The new LEGO Icons Hubble Space Telescope is detailed inside and out, as a look down its open aperture door reveals. </media:text></media:content>
-            </item>
-                    <item>
-                <title>An AI-supervised remote exam went so badly that 58,000 students must retake it</title>
-                <link>https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/</link>
-                                    <comments>https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Nate Anderson]]>
-                </dc:creator>
-                <pubDate>Mon, 03 Aug 2026 19:00:50 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[cheating]]></category>
-		<category><![CDATA[higher ed]]></category>
-		<category><![CDATA[test]]></category>
-		<category><![CDATA[universities]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/</guid>
-
-                                    <description>
-                        <![CDATA[Top scores increased by 5x.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Earlier this summer, nearly 160,000 applicants took the entrance exam for UNAM, Mexico's largest university. For the first time, they did it completely remotely, using a "lockdown" browser and AI-powered webcam proctoring software, over several weeks from late May through early June.</p>
-<p>It was a disaster.</p>
-<p>When exam results came in, they bore little resemblance to past results, especially at the top. Between 2021 and 2025, 3.5 percent of test takers scored 100 or more on the 120-question UNAM test. This year, 16.3 percent did so.</p><p><a href="https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>193</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-82955454-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-82955454-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>2026 Volkswagen Jetta Sport: The cheap car isn't completely extinct yet</title>
-                <link>https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet/</link>
-                                    <comments>https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Mon, 03 Aug 2026 16:10:22 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[2026 Volkswagen Jetta Sport]]></category>
-		<category><![CDATA[car review]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet/</guid>
-
-                                    <description>
-                        <![CDATA[At $25,305, you won't find many new cars for less. But you get what you pay for.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>As so many career counselors and lifestyle coaches have explained, first impressions matter. A bad one can set the tone for an entire relationship, whether that's with a person, a novel, a restaurant, or a car. And the 2026 Volkswagen Jetta Sport and I did not get off to the best of starts.</p>
-<p>Picture the scene: You've been at home for a total of one night out of the previous eight, and you've just landed at the airport after an eight-hour flight. It's 85˚F (30˚C) and raining. You could take the metro home. Sure, 80 minutes isn't quick, but all you have to do is sit there, then walk home a block. But you can't because there's a car to be reviewed, waiting to be driven home. In rush hour.</p>
-<p>I will confess, I did not know VW made a Jetta Sport. For one thing, it's <em>not</em> the Jetta GLI. That car has plenty of power and torque and uprated suspension, and it can even be ordered with a six-speed manual, unlike the Golf GTI, although <a href="https://arstechnica.com/cars/2025/08/2025-vw-jetta-gli-its-got-power-but-driving-poetry-takes-a-back-seat/">based on our most recent GLI drive</a>, you may regret ticking that particular box.</p><p><a href="https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>110</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/2026-VW-Jetta-1-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/2026-VW-Jetta-1-500x500.jpg" width="500"/>
-<media:credit>Volkswagen</media:credit><media:text>The Volkswagen Jetta is one of the cheapest new cars you can buy in 2026.</media:text></media:content>
-            </item>
-                    <item>
-                <title>SpaceX is set to acquire 130,000 acres of marshland in southern Louisiana</title>
-                <link>https://arstechnica.com/space/2026/08/spacex-is-set-to-acquire-130000-acres-of-marshland-in-southern-louisiana/</link>
-                                    <comments>https://arstechnica.com/space/2026/08/spacex-is-set-to-acquire-130000-acres-of-marshland-in-southern-louisiana/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Mon, 03 Aug 2026 14:41:46 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Louisiana]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[starship]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/08/spacex-is-set-to-acquire-130000-acres-of-marshland-in-southern-louisiana/</guid>
-
-                                    <description>
-                        <![CDATA[A Louisiana launch site would offer several significant advantages.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>SpaceX and the state of Louisiana are close to finalizing a deal for the launch company to acquire about 130,000 acres along the northern coast of the Gulf of Mexico.</p>
-<p>There have been persistent rumors about such an agreement for months, but now The Times-Picayune | The New Orleans Advocate <a href="https://www.nola.com/news/business/spacex-planning-spaceport-in-coastal-southwest-louisiana/article_01510d48-5f43-4381-aff9-6294b4d9d04c.html">reports that</a> Louisiana Gov. Jeff Landry is expected to announce the agreement later this month.</p>
-<p>The deal would give SpaceX control of an 18-mile stretch of marshland southwest of Lafayette. The site, known as Pecan Island, became available as part of a legal settlement that resolves dozens of lawsuits that blame ExxonMobil for pollution and coastal land loss, the newspaper reports.</p><p><a href="https://arstechnica.com/space/2026/08/spacex-is-set-to-acquire-130000-acres-of-marshland-in-southern-louisiana/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/08/spacex-is-set-to-acquire-130000-acres-of-marshland-in-southern-louisiana/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>286</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/HI-A7kbXEAEZyU_-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/HI-A7kbXEAEZyU_-500x500.jpg" width="500"/>
-<media:credit>SpaceX</media:credit><media:text>Starship climbs away from Starbase, Texas, after liftoff at 5:30 pm local time Friday.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Trump wants the power to stop the public from suing polluters</title>
-                <link>https://arstechnica.com/tech-policy/2026/08/trump-wants-the-power-to-stop-the-public-from-suing-polluters/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/08/trump-wants-the-power-to-stop-the-public-from-suing-polluters/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Sarah J. Morath, The Conversation]]>
-                </dc:creator>
-                <pubDate>Mon, 03 Aug 2026 13:33:56 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[clean air act]]></category>
-		<category><![CDATA[EPA]]></category>
-		<category><![CDATA[pollution]]></category>
-		<category><![CDATA[syndication]]></category>
-		<category><![CDATA[trump administration]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/08/trump-wants-the-power-to-stop-the-public-from-suing-polluters/</guid>
-
-                                    <description>
-                        <![CDATA[Trump's DOJ says citizens should no longer be able to enforce environmental laws.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Reducing <a href="https://theconversation.com/the-us-used-to-be-really-dirty-environmental-cleanup-laws-have-made-a-huge-difference-271277">rampant pollution across the United States</a> was so important that when Congress passed many environmental protection laws, including the Clean Air Act, Clean Water Act, and Safe Drinking Water Act, it didn’t want to leave enforcement only to the executive branch.</p>
-<p>Congress specifically wrote into those laws ways for citizens to enforce them through the courts when the government does not act to address the problem. Called “<a href="https://www.law.cornell.edu/uscode/text/42/7604">citizen suit provisions</a>,” those parts of the laws allow regular people and advocacy groups to sue companies they believe are violating the law. Citizens can also sue federal agencies that fail to enforce the laws.</p>
-<p>Since the 1970s, those provisions have been used in over <a href="https://ssrn.com/abstract=1334218">2,000 lawsuits</a>. In fact, a majority of environmental cases are citizen suit cases. Citizen suits have been used to <a href="https://supreme.justia.com/cases/federal/us/437/153/">halt the construction of dams to protect endangered species</a>, <a href="https://earthjustice.org/wp-content/uploads/18-260_5i36_scotus-maui.pdf">end the injection of wastewater into groundwater</a>, and <a href="https://www.nelc.org/news/supreme-court-confirms-exxons-liability-in-16-year-clean-air-citizen-suit/">secure US$14.2 million in civil penalties</a> for illegal emissions from a petrochemical facility. In short, these cases have shaped modern environmental law.</p><p><a href="https://arstechnica.com/tech-policy/2026/08/trump-wants-the-power-to-stop-the-public-from-suing-polluters/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/08/trump-wants-the-power-to-stop-the-public-from-suing-polluters/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>256</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/refinery-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/refinery-500x500.jpg" width="500"/>
-<media:credit>Brandon Bell/Getty</media:credit><media:text>A citizen-initiated lawsuit under the Clean Air Act forced a cleanup at ExxonMobil’s Baytown, Texas, refinery and chemical complex.</media:text></media:content>
-            </item>
-                    <item>
-                <title>How headlights got brighter, whiter, and more blinding after dark</title>
-                <link>https://arstechnica.com/cars/2026/08/how-headlights-got-brighter-whiter-and-more-blinding-after-dark/</link>
-                                    <comments>https://arstechnica.com/cars/2026/08/how-headlights-got-brighter-whiter-and-more-blinding-after-dark/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Matthew MacConnell ]]>
-                </dc:creator>
-                <pubDate>Mon, 03 Aug 2026 11:00:11 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[headlights]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/08/how-headlights-got-brighter-whiter-and-more-blinding-after-dark/</guid>
-
-                                    <description>
-                        <![CDATA[Automotive lights are better than they've ever been, but there's a trade-off.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Every so often, I’ll be piloting some sensor-laden, software-defined press car down a dark stretch of highway when an oncoming driver’s high beams arrive like a targeted retinal strike, an involuntary reminder that modern automotive lighting has entered its own lumen arms race.</p>
-<p>Anyone who has driven at night in the last few years knows what I'm talking about: A modern crossover crests a hill in the opposite lane, and the cabin briefly fills with enough cold-white light to suggest a police helicopter has joined traffic. The obvious assumption is that drivers are simply leaving their high beams on more often, but the reality is more complicated.</p>
-<h2>An old problem</h2>
-<p>Before cars became the modern mode of transportation, horse-drawn carriages used oil lanterns to light the way, as roads were largely unlit outside of towns and cities. These lanterns weren’t particularly bright, though, meaning that after-dark collisions and near-misses were common.</p><p><a href="https://arstechnica.com/cars/2026/08/how-headlights-got-brighter-whiter-and-more-blinding-after-dark/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/08/how-headlights-got-brighter-whiter-and-more-blinding-after-dark/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>286</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/FJCG3729-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/FJCG3729-500x500-1782920572.jpg" width="500"/>
-<media:credit>IIHS</media:credit><media:text>Headlights need to illuminate the road ahead for drivers, but not at the expense of everyone else.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Here's how engineers plan to save the satellite sent to save NASA's Swift mission</title>
-                <link>https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/</link>
-                                    <comments>https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Sat, 01 Aug 2026 18:20:11 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Commercial space]]></category>
-		<category><![CDATA[katalyst space]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[satellite servicing]]></category>
-		<category><![CDATA[Swift]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/</guid>
-
-                                    <description>
-                        <![CDATA["We believe that a capture of Swift, an attempted capture of Swift, is very much in the cards."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>One week ago, more than 200 miles above the Earth, a refrigerator-size satellite making its way toward an attempted rescue of NASA's $500 million Swift gamma-ray observatory <a href="https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/">suddenly spun out of control</a>.</p>
-<p>It didn't look good. The spacecraft, named Link, was rotating on multiple axes, rendering it unable to maintain a reliable communications link with the ground and complicating efforts to arrest the spin. Two of the satellite's three reaction wheels, used for pointing, also stopped working. Through sporadic radio contact, engineers discovered a problem with some of the spacecraft's cold gas thrusters used for finer attitude control.</p>
-<p>The Link satellite is built, owned, and operated by Katalyst Space Technologies, a satellite servicing startup that won a $30 million contract from NASA to fly up to the Swift observatory, grab onto it, and boost its orbit before succumbing to aerodynamic drag and burning up in the atmosphere.</p><p><a href="https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>104</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Swift_and_LINK_withEarthartist_concept-1152x648.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/Swift_and_LINK_withEarthartist_concept-500x500.png" width="500"/>
-<media:credit>NASA</media:credit><media:text>Artist's illustration of Katalyst's Link spacecraft (left) with NASA's Swift observatory (right).</media:text></media:content>
-            </item>
-                    <item>
-                <title>Review: Yes, we're still arguing about Nolan's The Odyssey</title>
-                <link>https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/</link>
-                                    <comments>https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Sat, 01 Aug 2026 15:19:04 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Christopher Nolan]]></category>
-		<category><![CDATA[film reviews]]></category>
-		<category><![CDATA[reviews]]></category>
-		<category><![CDATA[The Odyssey]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/</guid>
-
-                                    <description>
-                        <![CDATA[Christopher Nolan's impressionistic remix of Homer's epic poem finds the man behind the myth.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Christopher Nolan's <a href="https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"><em>The Odyssey</em></a> has been a lightning rod for controversy ever since the first <a href="https://greekreporter.com/2026/05/15/outrage-over-casting-of-lupita-nyongo-as-helen-of-troy-in-the-odyssey/">casting</a> and <a href="https://consequence.net/2025/02/christopher-nolan-odyssey-photo-historians/">design</a> reveals, igniting afresh with each new <a href="https://arstechnica.com/culture/2026/05/nolans-the-odyssey-gets-a-new-trailer-and-were-here-for-it/">trailer</a>. The film has garnered plenty of well-deserved accolades (<a href="https://variety.com/2026/film/box-office/the-odyssey-700-million-globally-fourth-biggest-movie-1236823343/">and earnings</a>) since its release, and yet somehow the debates rage on between classicists and the general public alike—all this over an adaptation of an epic poem that's <a href="https://en.wikipedia.org/wiki/Odyssey">been around</a> since roughly the 8th century BCE.</p>
-<p>My take: the <a href="https://www.hollywoodreporter.com/movies/movie-news/nolan-odyssey-first-blockbuster-to-only-use-imax-cameras-1236217925/">IMAX scale</a> might be epic, but Nolan gives the story an intimate feel, weaving a captivating, nearly three-hour cinematic spell. While the magic slowly starts to dissipate once one leaves the theater, the powerful imagery will resonate for days. And the film gave me, personally, a fresh perspective on the central character of Odysseus.</p>
-<p><strong>(Spoilers below.)</strong></p><p><a href="https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>408</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/odysseyTOP-1152x648-1784208660.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/odysseyTOP-500x500.jpg" width="500"/>
-<media:credit>Universal Pictures</media:credit></media:content>
             </item>
             </channel>
 </rss>
