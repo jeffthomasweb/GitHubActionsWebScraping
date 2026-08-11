@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Mon, 10 Aug 2026 23:38:20 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 12:34:49 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,41 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>New Pass-ta-key attack reveals all the things we didn't know about passkeys</title>
+                <link>https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/</link>
+                                    <comments>https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 11 Aug 2026 11:30:08 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[authentication]]></category>
+		<category><![CDATA[Google password manager]]></category>
+		<category><![CDATA[passkeys]]></category>
+		<category><![CDATA[Windows]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/</guid>
+
+                                    <description>
+                        <![CDATA[Why passkey apps treat Windows differently than other operating systems. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Last week a researcher outlined what he said was a “novel attack surface” in passkeys, the new authentication paradigm that offers a more secure alternative over password-based methods. In fact, the attacks demonstrated in the post are neither novel nor unique to passkeys. This distinction is important because the research has generated confusion among end users and security professionals as they assess whether this new mechanism is truly safe to use.</p>
+<p>The attack is called Pass-ta-key—a blending of the word passkey with the phrase “pass the key” and a nod to a plate of pasta. Arie Olshtein, a researcher at security firm Palo Alto Networks, described in a <a href="https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/">post</a> last week how Pass-ta-key could obtain all passkeys stored in the Google Password Manager app (GPM) for Windows when it’s running on a machine infected with malware.</p>
+<p>This came as a surprise to many people because they believed passkeys are stored exclusively in the trusted platform manager (TPM), the locked-down enclave in a hardened silicon chip that’s reserved for storing cryptographic keys and other highly sensitive information on Windows machines. If passkeys are stored in the TPM, then how was Pass-ta-key able to extract the entire set of passkeys stored by the app, they wanted to know?</p><p><a href="https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>26</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/passkey-target-illustration-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/passkey-target-illustration-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
                 <title>Ars Live: Ross Scott discusses the Stop Killing Games movement</title>
                 <link>https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/</link>
                                     <comments>https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/#comments</comments>
@@ -43,7 +78,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>17</slash:comments>
+                                    <slash:comments>29</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/skg.jpg">
@@ -76,12 +111,12 @@
                                                                 <content:encoded>
                             <![CDATA[<p><!-- obsidian --></p>
 <p>Meta has announced its intention to focus on open-weight large language models. Additionally, the company announced the release of an open model called Muse Glimmer and a promise to open the weights for Muse Spark 1.2, its more powerful model, in the next few weeks.</p>
-<p>Alongside these announcements, Meta CEO Mark Zuckerberg published a more than 6,000-word <a href="https://about.fb.com/news/2026/08/the-future-is-for-everyone/">essay</a> outlining the company's philosophy about AI systems and governance moving forward. The essay aims to differentiate Meta from companies like OpenAI and Anthropic, which develop proprietary models and which have lobbied the US government for help competing against large-scale distillation—which involves using an existing model to train a new one—or open-weight models by Chinese labs.</p><p><a href="https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/">Read full article</a></p>
+<p>Alongside these announcements, Meta CEO Mark Zuckerberg published a more than 6,000-word <a href="https://about.fb.com/news/2026/08/the-future-is-for-everyone/">essay</a> outlining the company's philosophy about AI systems and governance moving forward. The essay aims to differentiate Meta from companies like OpenAI and Anthropic, which develop proprietary models and have lobbied the US government for help competing against large-scale distillation—which involves using an existing model to train a new one—or open-weight models by Chinese labs.</p><p><a href="https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/">Read full article</a></p>
 <p><a href="https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>45</slash:comments>
+                                    <slash:comments>76</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2162539176-1024x648.jpg" width="1024">
@@ -117,7 +152,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>177</slash:comments>
+                                    <slash:comments>276</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2289391344-1024x648.jpg" width="1024">
@@ -152,7 +187,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>45</slash:comments>
+                                    <slash:comments>59</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/ss_03896903e32739497c26e1724dcbab75772970fe.1920x1080-1152x648.jpg" width="1152">
@@ -191,7 +226,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>59</slash:comments>
+                                    <slash:comments>87</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2267221283-1152x648.jpg" width="1152">
@@ -228,7 +263,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>143</slash:comments>
+                                    <slash:comments>185</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2190858040-1152x648.jpg" width="1152">
@@ -259,7 +294,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>134</slash:comments>
+                                    <slash:comments>147</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/ford-logo-pcb-style-1152x648.jpg" width="1152">
@@ -295,7 +330,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>95</slash:comments>
+                                    <slash:comments>109</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2252731557-1152x648.jpg" width="1152">
@@ -332,7 +367,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>47</slash:comments>
+                                    <slash:comments>56</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/powered-by-steam-os-1152x648.jpg" width="1152">
@@ -371,7 +406,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>38</slash:comments>
+                                    <slash:comments>41</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/11/googleplay.jpeg">
@@ -404,7 +439,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>51</slash:comments>
+                                    <slash:comments>58</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1936304422-1152x648.jpg" width="1152">
@@ -438,7 +473,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>100</slash:comments>
+                                    <slash:comments>114</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/doggy1-1152x648-1786207383.jpg" width="1152">
@@ -470,7 +505,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>96</slash:comments>
+                                    <slash:comments>100</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/5F3A8338-1152x648.jpg" width="1152">
@@ -503,7 +538,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>68</slash:comments>
+                                    <slash:comments>75</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/rubbish-1152x648.jpg" width="1152">
@@ -538,7 +573,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>67</slash:comments>
+                                    <slash:comments>74</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/peer-review-difficulties-1152x648.jpg" width="1152">
@@ -573,7 +608,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>75</slash:comments>
+                                    <slash:comments>81</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/image-1.jpeg">
@@ -607,7 +642,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>136</slash:comments>
+                                    <slash:comments>149</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/PIA26379-Sol-1295-Navcam-NLF_1295_0781909732_909RZS_N0603852NCAM02295_0A0195J01-1152x648.jpg" width="1152">
@@ -687,36 +722,6 @@
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/2026-08-03-00_00_2026-08-03-23_59_Sentinel-2_L2A_Wildfires-1-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/2026-08-03-00_00_2026-08-03-23_59_Sentinel-2_L2A_Wildfires-1-500x500.jpg" width="500"/>
 <media:credit>European Union | Copernicus Sentinel-2</media:credit><media:text>A satellite image taken by Europe's Sentinel 2 satellites shows a wildfire and smoke near Spokane, Washington.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Flesh-eating screwworms feast on humans in Mexico; human cases top 500</title>
-                <link>https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/</link>
-                                    <comments>https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Fri, 07 Aug 2026 21:09:00 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/</guid>
-
-                                    <description>
-                        <![CDATA[Six deaths reported among screwworm cases, one directly attributed to the flies.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Since the <a href="https://arstechnica.com/health/2025/05/screwworms-are-coming-and-theyre-just-as-horrifying-as-they-sound/">flesh-eating screwworm fly</a> reinvaded Mexico in 2024, human cases of the voracious parasite have been mounting. According to a <a href="https://www.gob.mx/cms/uploads/attachment/file/1095476/sem29.pdf">July surveillance report from Mexico's Ministry of Health</a>, there have been over 500 human cases in 2025 and 2026. <a href="https://wwwnc.cdc.gov/eid/article/32/10/26-1235_article">A study this week in the journal Emerging Infectious Diseases</a> analyzed the information on over 200 confirmed cases reported between April 2025 and March 2026 and found that the infestation pace is increasing.</p>
-<p>Among the 200 confirmed cases in the study, six deaths were reported. At least one of the deaths was directly caused by the fly's maggots, researchers in Mexico reported in the study.</p>
-<p>The New World screwworm (NWS) fly was once endemic in Mexico—as well as the US. The flies lay hundreds of eggs in the wounds, inflamed tissue, mucous membranes, and orifices of warm-blooded creatures. The resulting maggots hatch within a day and begin ravenously feasting on the living flesh of their victims. While the fly's maggots generate ghastly, life-threatening wounds in a variety of warm-blooded species, including humans, they're particularly devastating to livestock.</p><p><a href="https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>146</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2016/11/CSIRO_ScienceImage_115_The_Tip_of_a_Screw_Worm_Fly_Larvae.jpg">
-<media:thumbnail height="425" url="https://cdn.arstechnica.net/wp-content/uploads/2016/11/CSIRO_ScienceImage_115_The_Tip_of_a_Screw_Worm_Fly_Larvae-500x425.jpg" width="500"/>
-<media:credit>CSIRO</media:credit><media:text>The tip of a screwworm fly larvae. </media:text></media:content>
             </item>
             </channel>
 </rss>
