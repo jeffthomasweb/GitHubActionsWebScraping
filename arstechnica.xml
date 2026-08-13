@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Wed, 12 Aug 2026 12:45:31 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 12 Aug 2026 22:41:31 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,465 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Toddler's tragic death from brain-destroying amoeba offers lessons for doctors</title>
+                <link>https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/</link>
+                                    <comments>https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Aug 2026 22:31:19 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[ameoba]]></category>
+		<category><![CDATA[brain]]></category>
+		<category><![CDATA[case report]]></category>
+		<category><![CDATA[infection]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/</guid>
+
+                                    <description>
+                        <![CDATA[Boy's unusual symptoms could help identify the next case sooner. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A healthy toddler in Washington state fell ill abruptly. It began with vomiting, lethargy, and weakness on his right side. Then it progressed to a headache, fever, and trouble swallowing. At one point, he briefly became unresponsive, and he had episodes where he stopped breathing. Doctors admitted him to the hospital, but his condition only deteriorated.</p>
+<p>The boy was infected with an ultra-rare amoeba known for ravaging the brain. The opportunistic pathogen was <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8579774/">first identified in 1986</a> from the brain of a San Diego Zoo monkey, which died from the infection. Since then, only about 200 human cases have been recorded worldwide. About 90 percent of them have been fatal.</p>
+<p>The initial symptoms can be vague and, given its rarity, the infection is notorious for being undiagnosed or misdiagnosed. Still, the scant medical literature does provide some telltale signs, clues of what it can look like on tests and scans. But for the toddler, the infection looked different, sending doctors down the wrong path.</p><p><a href="https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>27</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2163387581-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2163387581-500x500.jpg" width="500"/>
+<media:credit>Getty | CDC</media:credit><media:text>Balamuthia mandrillaris is a free-living amoeba (a single-celled living organism) naturally present in the environment. Balamuthia can cause a rare and serious brain infection called amoebic granulomatous encephalitis. (Photo by: CDC/IMAGE POINT FR/BSIP/Universal Images Group via Getty Images)</media:text></media:content>
+            </item>
+                    <item>
+                <title>The web’s newest weapon against AI scrapers is a font</title>
+                <link>https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/</link>
+                                    <comments>https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Aug 2026 22:02:25 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AI scrapers]]></category>
+		<category><![CDATA[Font]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[models]]></category>
+		<category><![CDATA[scrapers]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/</guid>
+
+                                    <description>
+                        <![CDATA[“ShieldFont” aims to poison AI training data without making pages unreadable for people.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>AI companies' penchant for <a href="https://arstechnica.com/ai/2025/03/devs-say-ai-crawlers-dominate-traffic-forcing-blocks-on-entire-countries/">scraping through large swathes of the public web</a> in search of <a href="https://arstechnica.com/information-technology/2024/01/openai-says-its-impossible-to-create-useful-ai-models-without-copyrighted-material/">valuable training data</a> has already led to <a href="https://arstechnica.com/tech-policy/2025/10/reddit-sues-to-block-perplexity-from-scraping-google-search-results/">lawsuits</a> and <a href="https://arstechnica.com/tag/ai-scraping/">technical fixes</a> aimed at stopping the practice. Now, a pair of designers are hoping to stymie these scrapers with a new font designed to offer people a perfectly readable webpage while serving scrapers a subtly edited, nonsensical version in the underlying HTML.</p>
+<p>ShieldFont, as designers Isaque Seneda and Gabriel Abrucio <a href="https://shieldfont.org/white-paper/">write in a recent white paper</a>, was made to offer web publishers "a practical opt-out from unauthorized AI training and [to] disrupt what is collected when that choice is ignored."</p>
+<h2>When is a horse a potato?</h2>
+<p>The font is based around <a href="https://en.wikipedia.org/wiki/Ligature_(writing)">ligatures</a>, a long-standing feature of many fonts that is usually used to replace certain letter pairs with a more readable version when they're smushed up next to each other. With ShieldFont, though, those ligatures are instead used to replace entire words with others in an attempt to destroy the text's value to scrapers. This substitution only happens when the font engine draws the page on screen, meaning scrapers that simply download plaintext source code get an altered version that end users never see.</p><p><a href="https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>54</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2261896328-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2261896328-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>The cowboy was riding a potato? Huh... guess I'd better update my weights for potato tokens...</media:text></media:content>
+            </item>
+                    <item>
+                <title>Terabytes of credentials leaked in massive supply-chain attack</title>
+                <link>https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/</link>
+                                    <comments>https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Aug 2026 21:43:21 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[litellm]]></category>
+		<category><![CDATA[supply chain attacks]]></category>
+		<category><![CDATA[teampcp]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/</guid>
+
+                                    <description>
+                        <![CDATA[The data was scraped and exfiltrated from 2,500 users of a compromised AI package.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Terabytes worth of credentials, many belonging to the world’s biggest and most sensitive organizations, have been exposed in a supply-chain attack on LiteLLM, an open source tool that streamlines AI-driven software development. Microsoft, Amazon, Cisco, Samsung, and Salesforce are only a handful of the entities whose access secrets were exposed.</p>
+<p>The revelation was posted on <a href="https://www.cloudsek.com/blog/ai-supply-chain-breach-2500-companies-434000-cicd-pipelines">Tuesday</a> and <a href="https://www.hudsonrock.com/blog/largest-ai-supply-chain-breach-of-2026-litellm-hack-impacts-thousands-of-global-enterprises-claim-your-ethical-disclosure">Wednesday</a> by security firms CloudSEK and Hudson Rock. CloudSEK said it found cloud keys, repository tokens, SSH keys, Kubernetes secrets, package publishing credentials, environment variables, and AI provider keys that could allow attackers to gain access to more than 2,500 organizations.</p>
+<h2>40 minutes is all it takes</h2>
+<p>The credentials were extracted during a 40-minute window in March while the victims used compromised versions of LiteLLM downloaded from the package’s official location in the Python Package Index repository. Hudson Rock said it made the discovery after analyzing a 195TB file that it obtained. Neither firm identified the source of the information.</p><p><a href="https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>26</slash:comments>
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach-500x500.jpeg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Have physicists finally discovered glueballs? New evidence points to yes.</title>
+                <link>https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/</link>
+                                    <comments>https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Aug 2026 21:13:39 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[glueballs]]></category>
+		<category><![CDATA[particle physics]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[QCD]]></category>
+		<category><![CDATA[the standard model]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/</guid>
+
+                                    <description>
+                        <![CDATA[“It’s the strongest evidence yet that particles dominated by a glueball component can exist in nature.”]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Physicists with the Beijing Spectrometer III (BES III) experiment have uncovered <a href="https://www.msn.com/en-us/science/physics/glueball-confirmed-particle-made-of-pure-force-closes-fifty-year-physics-search/ar-AA29F7qG">convincing new evidence</a> of the existence of so-called <a href="https://en.wikipedia.org/wiki/Glueball">glueballs</a>, an elusive composite particle made entirely of gluons predicted by quantum theory. The <a href="https://english.ihep.cas.cn/nw/han/y26/202608/t20260804_1186878.html">results</a> appeared in <a href="https://arxiv.org/abs/2607.20366">a preprint</a> posted to arXiv last month and were <a href="https://indico.cern.ch/event/1522800/contributions/7201543/">also presented</a> last week at the International Conference on High Energy Physics (ICHEP).</p>
+<p>All the stuff we see around us is made up of quarks held together by gluons (carriers of the nuclear strong force) to form protons and neutrons, which comprise the core of every single atom. The <a href="https://en.wikipedia.org/wiki/Higgs_boson">Higgs boson</a>, discovered in 2012 after decades of searching, was widely touted as the final missing piece of the Standard Model of Particle Physics. But there are still plenty of unanswered questions, including whether or not glueballs really exist. They should, if the Standard Model is correct; they're a direct prediction of quantum chromodynamics, i.e., the theory of the strong nuclear force. There should even be several kinds of glueballs.</p>
+<p>As Matthew Francis <a href="https://arstechnica.com/science/2015/10/missing-glueballs-are-sticky-problem-for-particle-physics/">wrote for Ars</a> in 2015:</p><p><a href="https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>20</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/glueball1-1152x648-1786561096.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/glueball1-500x500.jpg" width="500"/>
+<media:credit>BES III Collaboration</media:credit><media:text>Physicists with the Beijing Spectrometer III in China have found new evidence for exotic particles known as glueballs.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Twitch content has trained Amazon AI for years, but users can opt out now</title>
+                <link>https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/</link>
+                                    <comments>https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Aug 2026 21:00:30 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[social media]]></category>
+		<category><![CDATA[twitch]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/</guid>
+
+                                    <description>
+                        <![CDATA[Streaming platform says user-generated content "may be used for future Gen AI model improvements."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Twitch now lets users opt out of Amazon's use of content from their channels to train Amazon's "generative AI content models." The change, announced today, comes more than two years after a company executive confirmed that Amazon was using Twitch content for AI training.</p>
+<p>In an updated <a href="https://help.twitch.tv/s/article/twitch-account-settings?language=en_US">support page</a>, Twitch confirms that users must opt out if they don’t want their “streams, VODs, clips, stream chats, and pictures and text on your channel [to] be used in future training of a model developed by Amazon whose purpose is to generate or synthesize text, audio, images, or video.”</p>
+<p>To opt out, users must go to the proper settings at <a href="http://www.twitch.tv/settings/security">www.twitch.tv/settings/security</a>.</p><p><a href="https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>18</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2286491305-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2286491305-500x500.jpg" width="500"/>
+<media:credit>Omar Marques/SOPA Images/LightRocket via Getty Images</media:credit><media:text>Twitch</media:text></media:content>
+            </item>
+                    <item>
+                <title>Trump sued over "brazen" scheme to sell Truth Social API access for $100K a month</title>
+                <link>https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Aug 2026 20:20:52 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Trump]]></category>
+		<category><![CDATA[truth api]]></category>
+		<category><![CDATA[truth social]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/</guid>
+
+                                    <description>
+                        <![CDATA[With Truth API, Trump is "selling priority access to news he himself generates."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>President Trump was sued by nonprofit news groups today over Truth Social's "Truth API" that sells real-time access to posts from Trump and other top users of the social network. Trump is profiting from selling preferential access to government information, the lawsuit said.</p>
+<p>Trump's social media company this month started charging customers up to $100,000 per month for the earliest access to posts that can have immediate impacts on financial markets. The first customers are mostly high-frequency trading firms that could benefit financially from getting official government news milliseconds before others.</p>
+<p>"This scheme is profoundly corrupt. The President stands to gain financially by giving 'market-moving' government information to those who are willing and able to pay his personal company," the <a href="https://cdn.arstechnica.net/wp-content/uploads/2026/08/Intercept-Media-v-Trump-Complaint-8-12-26.pdf">lawsuit</a> said.</p><p><a href="https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>55</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/trump-pointing-1152x648-1786564574.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/trump-pointing-500x500.jpg" width="500"/>
+<media:credit>Getty Images | Kevin Dietsch </media:credit><media:text>President Donald Trump at the White House on October 14, 2025.</media:text></media:content>
+            </item>
+                    <item>
+                <title>US boosts drone surveillance as flesh-eating screwworms spread in Texas</title>
+                <link>https://arstechnica.com/gadgets/2026/08/us-boosts-drone-surveillance-as-flesh-eating-screwworms-spread-in-texas/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/08/us-boosts-drone-surveillance-as-flesh-eating-screwworms-spread-in-texas/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Aug 2026 19:40:46 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[AI drones]]></category>
+		<category><![CDATA[animals]]></category>
+		<category><![CDATA[cbp]]></category>
+		<category><![CDATA[customs and border protection]]></category>
+		<category><![CDATA[drones]]></category>
+		<category><![CDATA[flies]]></category>
+		<category><![CDATA[livestock]]></category>
+		<category><![CDATA[new world screwworm]]></category>
+		<category><![CDATA[screwworm]]></category>
+		<category><![CDATA[screwworms]]></category>
+		<category><![CDATA[US Department of Agriculture]]></category>
+		<category><![CDATA[USDA]]></category>
+		<category><![CDATA[wildlife]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/08/us-boosts-drone-surveillance-as-flesh-eating-screwworms-spread-in-texas/</guid>
+
+                                    <description>
+                        <![CDATA[Hundreds of Homeland Security drones retasked to survey wildlife and livestock.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Hundreds of US government drones have switched from border surveillance to a different surveillance mission this summer—looking for signs of screwworm infestations in wild animals and livestock herds.</p>
+<p>The flesh-eating New World Screwworm is the parasitic larva that emerges from eggs laid by flies in the open wounds or body openings of warm-blooded animals and humans, with untreated cases potentially leading to severe injury or death. Since the first screwworm cases were <a href="https://arstechnica.com/health/2026/06/flesh-eating-screwworm-infection-detected-in-south-texas-usda-says/">detected in South Texas</a> in June, the US Department of Agriculture and US Customs and Border Protection have been conducting “one of the most extensive animal-health surveillance operations in the country,” <a href="https://x.com/Screwworm_RR/status/2086846942387036495">according to the USDA</a> in <a href="https://www.facebook.com/USDAAPHIS/posts/secretary-rollins-is-reviewing-the-technology-supporting-one-of-the-most-extensi/1073665485182547/">social media posts</a> on platforms like X and Facebook on August 10.</p>
+<p>The effort involves at least 200 drones owned by the Department of Homeland Security, which includes the Customs and Border Protection (CBP) agency. The USDA has described performing more than 1,000 drone flights and surveying more than 22,000 animals so far.</p><p><a href="https://arstechnica.com/gadgets/2026/08/us-boosts-drone-surveillance-as-flesh-eating-screwworms-spread-in-texas/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/08/us-boosts-drone-surveillance-as-flesh-eating-screwworms-spread-in-texas/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>23</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/CBP-drone-for-screwworm-surveillance-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/CBP-drone-for-screwworm-surveillance-500x500.jpeg" width="500"/>
+<media:credit>US Department of Agriculture</media:credit><media:text>US Agriculture Secretary Brooke Rollins watches a Customs and Border Protection officer talk about a drone used to survey livestock and wild animals for signs of screwworm infestation.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Two hydrogen-burning engines powered this car to a new land speed record</title>
+                <link>https://arstechnica.com/cars/2026/08/jcb-sets-a-new-406-mph-speed-record-for-hydrogen-powered-cars/</link>
+                                    <comments>https://arstechnica.com/cars/2026/08/jcb-sets-a-new-406-mph-speed-record-for-hydrogen-powered-cars/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Aug 2026 17:01:11 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[hydrogen combustion engine]]></category>
+		<category><![CDATA[land speed record]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/08/jcb-sets-a-new-406-mph-speed-record-for-hydrogen-powered-cars/</guid>
+
+                                    <description>
+                        <![CDATA[JCB has invested heavily in hydrogen to power its diggers and other machinery.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>It's been far too long since I've been able to report a new land speed record. For a while, it looked like <a href="https://arstechnica.com/gadgets/2018/11/bloodhound-ssc/">Bloodhound</a> might have been able to make good on its 1,000 mph (1,609 km/h) attempt, but <a href="https://arstechnica.com/cars/2021/01/bad-news-for-land-speed-record-fans-as-bloodhound-goes-up-for-sale/">then the money ran out</a>. As a result, Thrust SSC's two-way average of 763.6 mph (1,229 km/h), set in 1997, <a href="https://arstechnica.com/cars/2015/10/breaking-the-sound-barrier-by-air-by-land-and-in-free-fall/">remains the fastest anyone has ever driven a wheeled vehicle over a timed mile</a>. But yesterday, on the Bonneville Salt Flats in Utah, a new record was set by the JCB Hydromax for hydrogen-powered cars.</p>
+<p>JCB is a UK-based manufacturer of heavy industrial and agricultural equipment—think diggers, loaders, backhoes, tractors, and so on. And as JCB is based in the UK, it doesn't have the luxury of being able to ignore carbon emissions targets; it has to have alternatives to diesel engines. For some products, that means switching to batteries, but the company has also been working with hydrogen. At first, that meant fuel cells, but after developing prototypes, JCB concluded the tech was too expensive and too fragile for life on the farm or the construction site. Instead, in 2020, the company started developing its own hydrogen combustion engine.</p>
+<p>The idea of burning hydrogen in an internal combustion engine has been tried before with little success. For example, in 2006, BMW modified a naturally aspirated V12 engine in a 7 Series to run on hydrogen, which it did, but with 60 percent of the power and five times the fuel consumption compared to gasoline. More recently, Toyota's president Akio Toyoda has been among the drivers of an <a href="https://arstechnica.com/cars/2021/06/toyota-tells-us-about-doing-a-24-hour-race-with-a-hydrogen-engine/">experimental hydrogen-burning Toyota Corolla</a> in some <a href="https://arstechnica.com/cars/2024/06/toyota-tests-liquid-hydrogen-burning-corolla-in-another-24-hour-race/">Japanese endurance races</a>. In this case, Toyota started with the GR Corolla's turbocharged three-cylinder engine; the forced induction from the turbocharger made up somewhat for the reduced energy density of hydrogen.</p><p><a href="https://arstechnica.com/cars/2026/08/jcb-sets-a-new-406-mph-speed-record-for-hydrogen-powered-cars/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/08/jcb-sets-a-new-406-mph-speed-record-for-hydrogen-powered-cars/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>70</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/06_08_26_JCB_HM_D4_JA_093-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/06_08_26_JCB_HM_D4_JA_093-500x500.jpg" width="500"/>
+<media:credit>JCB</media:credit><media:text>This is the JCB Hydromax, and it just set a new land speed record.</media:text></media:content>
+            </item>
+                    <item>
+                <title>US tries to override New York gambling laws, orders Kalshi to keep operating</title>
+                <link>https://arstechnica.com/tech-policy/2026/08/us-tries-to-override-new-york-gambling-laws-orders-kalshi-to-keep-operating/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/08/us-tries-to-override-new-york-gambling-laws-orders-kalshi-to-keep-operating/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Aug 2026 16:33:43 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[cftc]]></category>
+		<category><![CDATA[Kalshi]]></category>
+		<category><![CDATA[prediction markets]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/08/us-tries-to-override-new-york-gambling-laws-orders-kalshi-to-keep-operating/</guid>
+
+                                    <description>
+                        <![CDATA[Trump admin claims New York suing Kalshi created "market emergency."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Trump administration is trying to stop New York from enforcing its gambling laws against Kalshi, and yesterday said it ordered the prediction market to continue operating in the state.</p>
+<p>The Commodity Futures Trading Commission (CFTC) <a href="https://www.cftc.gov/PressRoom/PressReleases/9281-26">announced</a> that it exercised its emergency authority in response to a "market emergency." The CFTC said it acted "to ensure market stability" and "ordered the exchange to continue to operate in accordance with the Commodity Exchange Act’s Core Principles." The Trump administration took the action after a request from Kalshi.</p>
+<p>The market emergency alleged by the CFTC is that New York Attorney General Letitia James sued Kalshi on July 31. James' <a href="https://ag.ny.gov/sites/default/files/court-filings/new-york-v-kalshiex-llc-petition-2026.pdf">lawsuit</a> seeks a court order to permanently enjoin Kalshi "from operating an unlawful gambling business" in the state. The lawsuit also demands that Kalshi "make full restitution to customers who have engaged in betting" and pay financial penalties.</p><p><a href="https://arstechnica.com/tech-policy/2026/08/us-tries-to-override-new-york-gambling-laws-orders-kalshi-to-keep-operating/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/08/us-tries-to-override-new-york-gambling-laws-orders-kalshi-to-keep-operating/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>123</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/kalshi-ad-1152x648-1783536871.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/kalshi-ad-500x500-1783536860.jpg" width="500"/>
+<media:credit>Getty Images | Bloomberg</media:credit><media:text>A Kalshi advertisement at a bus stop in Washington, DC on Thursday, March 19, 2026. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Booksellers suspect AI firms are buying and then destroying rare books</title>
+                <link>https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Aug 2026 15:19:17 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI training]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[rare books]]></category>
+		<category><![CDATA[xAI]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/</guid>
+
+                                    <description>
+                        <![CDATA[AI firms quietly bulk buying rare books face resistance from booksellers.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>If you can truly appreciate an old book—and maybe even marvel at how its fragile, yellowing pages contain some of the earliest ways that people tried to make sense of the world around them—then headlines about tech companies that are <a href="https://www.theatlantic.com/technology/2026/08/ai-companies-buying-used-books-for-data/688167/">destroying</a> <a href="https://www.404media.co/ai-companies-are-buying-tons-of-old-books-because-theyre-free-of-ai-slop/">books</a> <a href="https://www.telegraph.co.uk/news/2026/07/30/why-ai-companies-are-destroying-millions-of-old-books/?ICID=continue_without_subscribing_reg_first">to train AI</a> likely torture a tender part of your soul.</p>
+<p>It’s indeed depressing to imagine piles of book spines waiting to be fed into wood chippers while torn-out pages are cropped, scanned, and trashed. But that’s the cheapest and easiest way to scan books as fast as possible, and AI companies are in a race to advance their models by training on the kind of engaging, high-quality long-form texts that can only be found in books. So book lovers fear it’s likely that the practice is happening on a grander scale than is currently being reported and that some physical copies of books will be lost forever.</p>
+<p>What makes this destruction extra painful, though, is that it doesn’t have to be this way.</p><p><a href="https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>263</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-162426304-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-162426304-500x500-1786543365.jpg" width="500"/>
+<media:credit>hexvivo | iStock / Getty Images Plus</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Google reveals 2026 hardware lineup: Pixel 11, Pixel Watch 5, and Pixel Tag</title>
+                <link>https://arstechnica.com/gadgets/2026/08/google-reveals-2026-hardware-lineup-pixel-11-pixel-watch-5-and-pixel-tag/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/08/google-reveals-2026-hardware-lineup-pixel-11-pixel-watch-5-and-pixel-tag/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Aug 2026 14:00:51 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[pixel 11]]></category>
+		<category><![CDATA[pixel watch 5]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/08/google-reveals-2026-hardware-lineup-pixel-11-pixel-watch-5-and-pixel-tag/</guid>
+
+                                    <description>
+                        <![CDATA[Google focuses more on AI and curated experiences than spec upgrades in 2026. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google has revealed its Pixel phone hardware for 2026, and you won't be surprised. The Pixel 11 series looks a lot like <a href="https://arstechnica.com/gadgets/2025/08/google-pixel-10-series-review-dont-call-it-an-android/">last year's lineup</a>, featuring an evolution of the design Google adopted with the Pixel 9. There are some minor tweaks, a few new hardware goodies, and yes, even more Gemini-powered AI. The new phones are joined by an updated Pixel Watch 5 with much the same story, as well as Google's first in-house tracker device, the Pixel Tag. And you can place orders for all of Google's new hardware today.</p>
+<p>The Pixel 11 series is clearly the star of the show. You might even call it the highlight—or <em>HiLight</em>. Just as the <a href="https://arstechnica.com/gadgets/2026/08/the-pixel-11s-glow-feature-is-actually-called-hilight-heres-what-it-does/">leaks predicted</a>, Google's most notable hardware innovation for the 2026 Pixel phones is the return of the notification LED (sort of).</p>
+<p>The new HiLight feature is available on the Pro phones, so the base model Pixel will remain unilluminated. HiLight consists of a ring of RGB LEDs inside the flash assembly on the back of the phone. It lights up when you're talking to Gemini, so you don't have to look at the screen of your phone to know you've been heard or that the AI is working. Thus, it makes the most sense when the phone is lying face down.</p><p><a href="https://arstechnica.com/gadgets/2026/08/google-reveals-2026-hardware-lineup-pixel-11-pixel-watch-5-and-pixel-tag/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/08/google-reveals-2026-hardware-lineup-pixel-11-pixel-watch-5-and-pixel-tag/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>97</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/Google-2026-lineup-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/Google-2026-lineup-500x500.jpg" width="500"/>
+<media:credit>Google</media:credit><media:text>Google's 2026 lineup looks a lot like its 2025 lineup.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Researchers found a way to hijack devices through Zoom screen sharing</title>
+                <link>https://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing/</link>
+                                    <comments>https://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Lily Hay Newman, wired.com]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Aug 2026 13:37:12 +0000</pubDate>
+                		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AI hacking]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[zoom]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing/</guid>
+
+                                    <description>
+                        <![CDATA[A public AI tool found the dangerous Zoom flaw in under 20 prompts.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As AI models gain advanced <a href="https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/">capabilities</a> to find vulnerabilities in software, develop <a href="https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/">ways to exploit them</a>, and even carry out autonomous <a href="https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/">hacking sprees</a>, researchers offered a sobering new example on Tuesday, <a href="https://a.security/blog/asecurity-zoomsday">disclosing vulnerabilities</a> in the video conferencing platform Zoom that could have been exploited to take over targets’ devices. Anyone on a call that involved screen sharing, whether participants or the host, would have been vulnerable to a silent attack that could be carried out with no indication and no interaction from the victim.</p>
+<p>Researchers from the digital defense firm A Security say the <a href="https://www.zoom.com/en/trust/security-bulletin/zsb-26015/">bug</a> was discovered in early June using publicly available AI models, and that it took fewer than 20 prompts to uncover the vulnerabilities and create a working attack. Zoom issued a security advisory on Tuesday, including details about fixes the company has already begun rolling out to address the flaws, which affected devices running all operating systems that Zoom supports—Windows, macOS, Linux, iOS, and Android.</p>
+<p>“What is interesting for us and what we believe is dangerous is the democratization of these capabilities—the barrier to entry is dropping rapidly,” A Security cofounder Omer Gull told WIRED ahead of the disclosure. “Before it would have taken a team of five people maybe six months with a lot of refining and iteration to find this. Now people can reach the same results with under 20 prompts. And Zoom is an important type of target because people assume trust when using it. They don’t see it as a threat.”</p><p><a href="https://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>29</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/08/GettyImages-1233188488-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/08/GettyImages-1233188488-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Formula E finds a new home on Disney+, ESPN+</title>
+                <link>https://arstechnica.com/cars/2026/08/formula-e-finds-a-new-home-on-disney-espn/</link>
+                                    <comments>https://arstechnica.com/cars/2026/08/formula-e-finds-a-new-home-on-disney-espn/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Aug 2026 13:35:30 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Disney]]></category>
+		<category><![CDATA[ESPN]]></category>
+		<category><![CDATA[Formula E]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/08/formula-e-finds-a-new-home-on-disney-espn/</guid>
+
+                                    <description>
+                        <![CDATA[The deal starts with the arrival of the GEN4 car and 2026-27 season this December.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Formula E is set to make a big change in terms of visibility when season 12 gets underway this December. It has signed a new multiyear deal to broadcast the sport on Disney+ and ESPN+ in 144 countries, with live coverage of each entire ePrix, from practice through qualifying to the race. The new media deal means that here in the US, Formula E will be shown on the streaming networks from next season; since 2023, the sport has been shown live on Roku.</p>
+<p>"This is a landmark moment for Formula E and reflects the incredible momentum behind our Championship," said Formula E's CEO Jeff Dodds. "Disney’s unrivaled global reach and storytelling will introduce Formula E to millions of new fans while bringing them closer than ever to the drama, innovation, and excitement of electric racing. As we enter the GEN4 era, this provides an exceptional platform to accelerate our global growth and continue building one of the world’s most exciting sports properties."</p>
+<p>As we've previously covered here at Ars, next season was already shaping up to be a massive one for the electric racing series. It debuts <a href="https://arstechnica.com/cars/2025/11/formula-e-gets-2x-the-power-and-awd-with-new-gen4-car/">the new GEN4 car</a> in December as well. The new car has double the power of the current racer, with a nominal 603 hp (450 kW) from a twin-motor, all-wheel drive powertrain that goes up to 804 hp (600 kW) in Attack Mode. Which means that for much of a lap, a Formula E GEN4 car will generate <a href="https://arstechnica.com/cars/2026/05/f1-set-for-another-engine-tweak-in-2027-and-whats-this-about-v8s/">as much power as a 2027-spec Formula 1 car</a>; the F1 car is also stuck with just 602 hp from its V6 engine when the battery has no charge.</p><p><a href="https://arstechnica.com/cars/2026/08/formula-e-finds-a-new-home-on-disney-espn/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/08/formula-e-finds-a-new-home-on-disney-espn/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>35</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GEN4-HERO2-2048x2048-1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GEN4-HERO2-2048x2048-1-500x500.jpg" width="500"/>
+<media:credit>Simon Galloway/LAT Images</media:credit><media:text>The Formula E GEN4 car in testing.</media:text></media:content>
+            </item>
+                    <item>
                 <title>Did poop enable the evolution of complex animals?</title>
                 <link>https://arstechnica.com/science/2026/08/feces-fueled-a-flurry-of-evolution-during-the-cambrian-study-suggests/</link>
                                     <comments>https://arstechnica.com/science/2026/08/feces-fueled-a-flurry-of-evolution-during-the-cambrian-study-suggests/#comments</comments>
@@ -43,13 +502,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p class="western" align="left">The Cambrian explosion may have been fueled by poop.</p>
-<p class="western" align="left">The first animals on Earth emerged about 600 million years ago, and 60 million years later, those simple early animals evolved into wildly different directions, branching out into a diverse menagerie of complicated new forms and conquering new ecological niches. Known as the Cambrian Explosion, this flurry of rapid evolution produced most of the animal phyla and ecosystems we see around us today.</p>
+<p class="western" align="left">The first animals on Earth emerged about 600 million years ago, and 60 million years later, those simple early animals evolved in wildly different directions, branching out into a diverse menagerie of complicated new forms and conquering new ecological niches. Known as the Cambrian Explosion, this flurry of rapid evolution produced most of the animal phyla and ecosystems we see around us today.</p>
 <p class="western" align="left">And it may have taken off because some of those early animals evolved a bizarre new ability: pooping. According to a recent study, the first poo pellets helped spread nutrients to deeper parts of the ocean, fueling the evolution of bigger animals in more diverse ecosystems.</p><p><a href="https://arstechnica.com/science/2026/08/feces-fueled-a-flurry-of-evolution-during-the-cambrian-study-suggests/">Read full article</a></p>
 <p><a href="https://arstechnica.com/science/2026/08/feces-fueled-a-flurry-of-evolution-during-the-cambrian-study-suggests/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>5</slash:comments>
+                                    <slash:comments>45</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/figureH-1-1098x648.jpg" width="1098">
@@ -74,13 +533,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>On Monday, passengers aboard Delta flight 591 going from Las Vegas to Atlanta allegedly spoofed the onboard Wi-Fi, raising the attention of federal law enforcement.</p>
-<p>The incident came one day after the DEF CON security conference concluded in Las Vegas, and was first <a href="https://live.acarsdrama.com/@acarsdrama/117072256729860162">described</a> on social media accounts that <a href="https://x.com/Turbinetraveler/status/2087050102930026619">follow</a> publicly available air-to-ground messages, known as ACARS.</p>
-<p>According to the “ACARS Drama” account, a message was sent by pilots from the plane stated: “NO INFO AS OF NOW WE HAVE A BUNCH OF PAX THAT WERE AT A CYBER CONFERENCE IN LAS THEY WERE ABLE TO JAM OUR WIFI AND BROADCAST THEIR SIGNAL.”</p><p><a href="https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/">Read full article</a></p>
+<p>The incident came one day after the DEF CON security conference concluded in Las Vegas and was first <a href="https://live.acarsdrama.com/@acarsdrama/117072256729860162">described</a> on social media accounts that <a href="https://x.com/Turbinetraveler/status/2087050102930026619">follow</a> publicly available air-to-ground messages, known as ACARS.</p>
+<p>According to the “ACARS Drama” account, a message sent by pilots from the plane stated: “NO INFO AS OF NOW WE HAVE A BUNCH OF PAX THAT WERE AT A CYBER CONFERENCE IN LAS THEY WERE ABLE TO JAM OUR WIFI AND BROADCAST THEIR SIGNAL.”</p><p><a href="https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/">Read full article</a></p>
 <p><a href="https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>108</slash:comments>
+                                    <slash:comments>133</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/07/GettyImages-1233218421-scaled-1152x648-1786493250.jpg" width="1152">
@@ -119,7 +578,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>102</slash:comments>
+                                    <slash:comments>183</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-2236338199-1152x648.jpg" width="1152">
@@ -160,7 +619,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>66</slash:comments>
+                                    <slash:comments>91</slash:comments>
                 
                 
                 <media:content medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/Screenshot-2026-08-11-at-4.40.55-PM.png">
@@ -198,7 +657,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>35</slash:comments>
+                                    <slash:comments>47</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/phishing-account-takeover-1152x648.jpg" width="1152">
@@ -230,7 +689,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>36</slash:comments>
+                                    <slash:comments>51</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/facebook-instagram-1152x648-1761326412.jpg" width="1152">
@@ -265,478 +724,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>78</slash:comments>
+                                    <slash:comments>105</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-500x500.jpg" width="500"/>
 <media:credit>Aurich Lawson</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Used EV buying guide: The $30,000 edition</title>
-                <link>https://arstechnica.com/cars/2026/08/used-ev-buying-guide-the-30000-edition/</link>
-                                    <comments>https://arstechnica.com/cars/2026/08/used-ev-buying-guide-the-30000-edition/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Tue, 11 Aug 2026 18:31:53 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[used ev prices]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/08/used-ev-buying-guide-the-30000-edition/</guid>
-
-                                    <description>
-                        <![CDATA[Depending on the model, you might have hundreds to choose from—or just one.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p><span style="box-sizing: border-box; margin: 0px; padding: 0px;">A strange thing is happening in the used EV market. Supply is up thanks to an ever-increasing stream of ex-lease cars reaching the market, and yet prices have been going up as well. As a result of America's latest war in the Middle East, used EVs have appreciated by just over 5 percent since February. Despite the stronger pricing, used EV sales have been strong this year—up 25 percent year over year by May, although <a href="https://www.coxautoinc.com/insights/ev-market-monitor-june-2026/" target="_blank" rel="noopener">a weaker June</a> has brought overall sales up just over 20 percent year over year, according to the analysts at Cox Automotive.</span></p>
-<p>Used EVs also hang around on dealer lots a lot less than new ones—the same analysts at Cox found just 38 days' supply of used EVs in June, but 81 days for new EVs. And much of the demand is at the cheaper end of the spectrum, <a href="https://www.recurrentauto.com/research/used-electric-vehicle-buying-report">say the analysts at Recurrent</a>. In previous installments of our used EV buyers' guide, we've already looked at the most affordable used EVs, <a href="https://arstechnica.com/cars/2026/04/25000-buys-plenty-of-used-evs-here-are-some-options/">ending last time at $25,000</a>—EVs that <a href="https://arstechnica.com/cars/2026/07/first-time-ev-buyers-in-california-can-now-claim-a-new-rebate/">may now qualify for a $1,750 rebate</a> if you're in California. Today we're looking at used EVs that cost between $25,000 and $30,000, and according to Autotrader's search, there are more than 9,000 used EVs for sale in that price range.</p>
-<p>Broadly, you can split the results into three buckets: Cars where you'll find plenty to choose from; ones where there might be a couple of hundred for sale nationwide; and then the oddities where there might just be a handful to pick from.</p><p><a href="https://arstechnica.com/cars/2026/08/used-ev-buying-guide-the-30000-edition/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/08/used-ev-buying-guide-the-30000-edition/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>78</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/electric-piggy-bank-30k-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/electric-piggy-bank-30k-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Less than 2.5% of Taylor Farms' recalled lettuce went to Taco Bells</title>
-                <link>https://arstechnica.com/health/2026/08/less-than-2-5-of-taylor-farms-recalled-lettuce-went-to-taco-bells/</link>
-                                    <comments>https://arstechnica.com/health/2026/08/less-than-2-5-of-taylor-farms-recalled-lettuce-went-to-taco-bells/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Tue, 11 Aug 2026 18:00:14 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[CDC]]></category>
-		<category><![CDATA[cyclospora]]></category>
-		<category><![CDATA[fda]]></category>
-		<category><![CDATA[food safety]]></category>
-		<category><![CDATA[iceberg lettuce]]></category>
-		<category><![CDATA[lettuce]]></category>
-		<category><![CDATA[outbreak]]></category>
-		<category><![CDATA[recall]]></category>
-		<category><![CDATA[taylor farms]]></category>
-		<category><![CDATA[walmart]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/08/less-than-2-5-of-taylor-farms-recalled-lettuce-went-to-taco-bells/</guid>
-
-                                    <description>
-                        <![CDATA[FDA report reveals where Taylor Farms sent its lettuce—and it raises questions.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Although shredded iceberg lettuce at Taco Bell restaurants has been a prime suspect in an explosive outbreak of the diarrheal parasite <em>Cyclospora</em>, a new report from the Food and Drug Administration finally reveals where all the contaminated lettuce was sold—and only a sliver of it went to Taco Bell locations.</p>
-<p>The feces-tainted lettuce was sourced from Mexico and sold by Taylor Farms, a mammoth produce provider based in California. Taylor Farms has drawn scrutiny for its ties to the Trump administration and reluctance to provide information amid the outbreak, which has now sickened over 23,000 people across 47 states, killing two and sending over 500 others to the hospital. Taylor Farms reportedly attempted to delay issuing a recall amid the illnesses and, since then, has refused to clearly report how much tainted lettuce it recalled and where all of it had been shipped.</p>
-<p>The <a href="https://www.accessdata.fda.gov/scripts/ires/?Event=99453">FDA's Enforcement Report</a> finally provides some answers: Taylor Farms recalled 236,192 cases of lettuce due to potential <em>Cyclospora</em> contamination. Of those, only 5,900—just shy of 2.5 percent—were sold to Yum, the parent company of Taco Bell, Pizza Hut, and KFC. The other 97.5 percent of the lettuce that potentially sickened Americans was distributed elsewhere.</p><p><a href="https://arstechnica.com/health/2026/08/less-than-2-5-of-taylor-farms-recalled-lettuce-went-to-taco-bells/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/08/less-than-2-5-of-taylor-farms-recalled-lettuce-went-to-taco-bells/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>83</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2287552371-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2287552371-500x500.jpg" width="500"/>
-<media:credit>Getty | Kevin Carter</media:credit><media:text> Packages of Taylor Farms greens are displayed for sale in the refrigerated produce department at a Costco Wholesale warehouse on July 29, 2026 in Arlington, Virginia.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Tracking extreme heat by the hour makes climate change seem even worse</title>
-                <link>https://arstechnica.com/science/2026/08/tracking-extreme-heat-by-the-hour-makes-climate-change-seem-even-worse/</link>
-                                    <comments>https://arstechnica.com/science/2026/08/tracking-extreme-heat-by-the-hour-makes-climate-change-seem-even-worse/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scott K. Johnson]]>
-                </dc:creator>
-                <pubDate>Tue, 11 Aug 2026 16:26:38 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[climate change]]></category>
-		<category><![CDATA[extreme heat]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/08/tracking-extreme-heat-by-the-hour-makes-climate-change-seem-even-worse/</guid>
-
-                                    <description>
-                        <![CDATA[Hot hours of summer could triple in the coming decades.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Global warming is leading to more extremely hot weather. There is perhaps no more obvious consequence of climate change. But changing how we analyze this problem can still help scientists think about it in a different way that may yield surprises.</p>
-<p>Generally, studies on heat extremes work with some combination of daily minimum, maximum, and mean temperatures. Sometimes they focus on multi-day heatwaves using those metrics, since the discomfort and health impacts increase for longer events. There are different thresholds you can use to define extreme heat in these analyses, either based on past statistics or on the human body’s physiological limits.</p>
-<p>A new study led by Weilin Liao and Xuanzong Zhang at Sun Yat-sen University tried breaking down heat extremes to the hourly level instead, which reveals some interesting nuances.</p><p><a href="https://arstechnica.com/science/2026/08/tracking-extreme-heat-by-the-hour-makes-climate-change-seem-even-worse/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/08/tracking-extreme-heat-by-the-hour-makes-climate-change-seem-even-worse/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>78</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1410976365-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1410976365-500x500.jpg" width="500"/>
-<media:credit>invizbk/Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>A Google insider spills the tea on how the company forsook its founding ideals</title>
-                <link>https://arstechnica.com/gadgets/2026/08/a-google-insider-spills-the-tea-on-how-the-company-forsook-its-founding-ideals/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/08/a-google-insider-spills-the-tea-on-how-the-company-forsook-its-founding-ideals/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Tue, 11 Aug 2026 16:07:34 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[books]]></category>
-		<category><![CDATA[google]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/08/a-google-insider-spills-the-tea-on-how-the-company-forsook-its-founding-ideals/</guid>
-
-                                    <description>
-                        <![CDATA[Claire Stapleton's new book, <em>Don't Be Evil</em>, recounts her journey from company cheerleader to outspoken dissident.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>In 2018, 20,000 Google employees worldwide made headlines when they staged <a href="https://en.wikipedia.org/wiki/2018_Google_walkouts">a walkout</a> to <a href="https://arstechnica.com/tech-policy/2018/11/google-offices-from-mountain-view-to-atlanta-protest-sexual-misconduct/">protest how</a> the company had handled sexual misconduct allegations against key corporate executives, among other grievances. One of the organizers was <a href="https://en.wikipedia.org/wiki/Claire_Stapleton">Claire Stapleton</a>, a communications specialist whose distinctive voice and ability to channel the corporate ethos had once earned her the internal moniker "Bard of Google."</p>
-<p>Six months later, a disillusioned Stapleton resigned, claiming she had been demoted during the most recent restructuring as retaliation for helping to spearhead the walkout. The story of how she went from enthusiastic cheerleader to proactive dissident, and the many lessons she learned along the way, are featured in her new book, <a href="https://www.amazon.com/Dont-Be-Evil-Bosses-Promises/dp/0063465140"><em>Don't Be Evil: Bad Bosses, Fake Promises, and My Escape from Big Tech—A Biting Memoir of Twelve Years Inside Google</em></a>.</p>
-<p>Stapleton didn't set out to be a rabble-rouser. When she joined Google out of college in 2007, it was like "getting the golden ticket in <em>Willy Wonka</em>," she told Ars. Awareness of her good fortune offset any initial uneasiness or skepticism, although Stapleton was sufficiently independent-minded not to move into what was then Google's new corporate housing development in Mountain View, California. Stapleton was very good at her job, and she quickly moved up the ranks, playing a key role in shaping the company's public image.</p><p><a href="https://arstechnica.com/gadgets/2026/08/a-google-insider-spills-the-tea-on-how-the-company-forsook-its-founding-ideals/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/08/a-google-insider-spills-the-tea-on-how-the-company-forsook-its-founding-ideals/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>98</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/07/GettyImages-1207206237-scaled-1152x648-1785956683.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/07/GettyImages-1207206237-scaled-500x500-1785956669.jpg" width="500"/>
-<media:credit>Alex Tai | SOPA Images | LightRocket | Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Trump to give Republicans a 3-1 FCC majority, isn't filling empty Democratic seat</title>
-                <link>https://arstechnica.com/tech-policy/2026/08/trump-to-give-republicans-a-3-1-fcc-majority-isnt-filling-empty-democratic-seat/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/08/trump-to-give-republicans-a-3-1-fcc-majority-isnt-filling-empty-democratic-seat/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Tue, 11 Aug 2026 15:28:43 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[FCC]]></category>
-		<category><![CDATA[Trump]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/08/trump-to-give-republicans-a-3-1-fcc-majority-isnt-filling-empty-democratic-seat/</guid>
-
-                                    <description>
-                        <![CDATA[Trump has resisted urge to fire FCC Democrat despite recent Supreme Court win.
-]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Federal Communications Commission has been shorthanded throughout President Trump's second term, but it's about to get a new commissioner. Unsurprisingly, Trump is breaking a historical norm with a nomination that would give Republicans a 3-1 advantage on the FCC.</p>
-<p>Historically, the president and Senate worked together to ensure that the president's party maintained only a one-vote majority. Normally, the president's party has three FCC members while the minority party has two.</p>
-<p>Instead of the typical 3-2 split, the FCC has operated with a 2-1 Republican majority during Trump's second term. On Friday, Trump <a href="https://www.whitehouse.gov/presidential-actions/2026/08/nominations-sent-to-the-senate-e61c/">nominated</a> Republican Danielle Thumann Severs to take one of the empty spots. Thumann Severs, a lawyer, has been working as FCC Chairman Brendan Carr's senior counsel. She must be confirmed by the Republican-controlled Senate before being sworn in as a commissioner.</p><p><a href="https://arstechnica.com/tech-policy/2026/08/trump-to-give-republicans-a-3-1-fcc-majority-isnt-filling-empty-democratic-seat/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/08/trump-to-give-republicans-a-3-1-fcc-majority-isnt-filling-empty-democratic-seat/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>81</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/trump-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/trump-500x500.jpg" width="500"/>
-<media:credit>Getty Images | Anna Moneymaker</media:credit><media:text>President Donald Trump in the Oval Office of the White House on August 10, 2026 </media:text></media:content>
-            </item>
-                    <item>
-                <title>New surveillance tech links your phone to your license plate</title>
-                <link>https://arstechnica.com/security/2026/08/new-surveillance-tech-links-your-phone-to-your-license-plate/</link>
-                                    <comments>https://arstechnica.com/security/2026/08/new-surveillance-tech-links-your-phone-to-your-license-plate/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Nicole M. Bennett, The Conversation]]>
-                </dc:creator>
-                <pubDate>Tue, 11 Aug 2026 13:15:24 +0000</pubDate>
-                		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Flock!]]></category>
-		<category><![CDATA[license plate readers]]></category>
-		<category><![CDATA[privacy]]></category>
-		<category><![CDATA[surveillance]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2026/08/new-surveillance-tech-links-your-phone-to-your-license-plate/</guid>
-
-                                    <description>
-                        <![CDATA[Phone and Bluetooth signals could turn roadside cameras into far richer tracking tools.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Imagine that you share a ride to work with the same colleague most mornings. As it passes by a license plate reader, the camera records the car, which can be linked through vehicle records to its registered owner. Beside it, another sensor detects signals broadcast by devices traveling nearby, such as your phone and your colleague’s smartwatch.</p>
-<p>After enough trips, software may treat some of those devices as a recurring electronic signature associated with the vehicle. Weeks later, one of the same device signals appears alongside a different car connected to an investigation. The signal itself may not contain its owner’s name, but its previous association with a known vehicle gives investigators another clue they can use to work out who was carrying the device.</p>
-<p><a href="https://www.leonardocompany-us.com/lpr/elsag-signaltrace">SignalTrace</a>, a system marketed by the security company <a href="https://www.leonardocompany-us.com/">Leonardo</a>, is designed to work alongside automatic license plate readers. The company says it can recognize groups of consumer devices that regularly move together, then associate them with license plate records and time-stamped locations. The pattern can then be searched even when a police investigator does not know the plate number.</p><p><a href="https://arstechnica.com/security/2026/08/new-surveillance-tech-links-your-phone-to-your-license-plate/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2026/08/new-surveillance-tech-links-your-phone-to-your-license-plate/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>124</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/flock-camera-1152x648-1779223467.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/flock-camera-500x500-1779223476.jpg" width="500"/>
-<media:credit>Getty Images | Smith Collection/Gado </media:credit><media:text>Flock license plate reader and camera with solar panel in Pleasant Hill, California on April 16, 2026.</media:text></media:content>
-            </item>
-                    <item>
-                <title>New Pass-ta-key attack reveals all the things we didn't know about passkeys</title>
-                <link>https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/</link>
-                                    <comments>https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Tue, 11 Aug 2026 11:30:08 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[authentication]]></category>
-		<category><![CDATA[Google password manager]]></category>
-		<category><![CDATA[passkeys]]></category>
-		<category><![CDATA[Windows]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/</guid>
-
-                                    <description>
-                        <![CDATA[Why passkey apps treat Windows differently than other operating systems. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Last week, a researcher outlined what he said was a “novel attack surface” in passkeys, the new authentication paradigm that offers a more secure alternative to password-based methods. In fact, the attacks demonstrated in the post are neither novel nor unique to passkeys. This distinction is important because the research has generated confusion among end users and security professionals as they assess whether this new mechanism is truly safe to use.</p>
-<p>The attack is called Pass-ta-key—a blending of the word passkey with the phrase “pass the key” and a nod to a plate of pasta. Arie Olshtein, a researcher at security firm Palo Alto Networks, described in a <a href="https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/">post</a> last week how Pass-ta-key could obtain all passkeys stored in the Google Password Manager app (GPM) for Windows when it’s running on a machine infected with malware.</p>
-<p>This came as a surprise to many people because they believed passkeys are stored exclusively in the trusted platform manager (TPM), the locked-down enclave in a hardened silicon chip that’s reserved for storing cryptographic keys and other highly sensitive information on Windows machines. If passkeys are stored in the TPM, then how was Pass-ta-key able to extract the entire set of passkeys stored by the app, they wanted to know.</p><p><a href="https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>222</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/passkey-target-illustration-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/passkey-target-illustration-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Live now: Ross Scott discusses the Stop Killing Games movement</title>
-                <link>https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/</link>
-                                    <comments>https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Mon, 10 Aug 2026 22:23:43 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[ars live]]></category>
-		<category><![CDATA[preservation]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/</guid>
-
-                                    <description>
-                        <![CDATA[Our discussion takes place live on August 11 at 2:30 pm ET.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>By now, any serious gamer is familiar with a favorite title becoming unplayable after a centralized online server gets shut down, or being unable to purchase and download a digitally delisted, critically acclaimed title from yesteryear. Can anything be done about this video game preservation problem?</p>
-<p>To help answer that question, we'll be <a href="https://youtube.com/live/IxS_FIhhH28?feature=share">hosting a live conversation with Ross Scott</a>, the founder of <a href="https://www.stopkillinggames.com/en">the Stop Killing Games campaign</a>, on August 11 at 2:30 pm ET as part of the Ars Live series. As Ars' Senior Gaming Editor, I've <a href="https://arstechnica.com/gaming/2018/06/guitar-hero-live-goes-offline-in-december-making-92-of-songs-unplayable/">documented</a> <a href="https://arstechnica.com/gaming/2022/12/the-day-the-plastic-music-died-epic-shutting-down-rock-band-and-other-servers/">countless</a> <a href="https://arstechnica.com/gaming/2026/01/biowares-anthem-will-soon-be-completely-unplayable/">examples</a> of once vibrant games <a href="https://arstechnica.com/gaming/2023/10/wii-u-3ds-online-servers-to-shut-down-in-six-months/">being left for dead</a> by their creators.</p>
-<div class="ars-video ars-video--horizontal"><div><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/IxS_FIhhH28?start=0&amp;wmode=transparent"></div><div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
-    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
-    <div class="caption-content">
-      Our live discussion with Ross and Kyle.
-
-          </div>
-  </div>
-</div></div>
-<p>Scott founded the Stop Killing Games movement in 2024 after Ubisoft decided to shut down the servers for <em>The Crew</em>. Since then, he's helped gather millions of gamers' signatures on government petitions demanding legislative action to provide some form of perpetual access for games people purchase—either via continuing centralized server support or an option for players to maintain their own servers. The movement has already led to <a href="https://citizens-initiative.europa.eu/stop-destroying-videogames-commissions-reply-european-citizens-initiative_en">an official parliamentary debate and response</a> from the European Commission and <a href="https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/">proposed legislation</a> that is working its way through the California legislature.</p><p><a href="https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>43</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/skg.jpg">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/skg-500x500-1778860940.jpg" width="500"/>
-<media:credit>Stop Killing Games</media:credit><media:text>Your controller won't literally disintegrate when an online game's servers shut down, but it can feel that way sometimes.</media:text></media:content>
-            </item>
-                    <item>
-                <title>With new open models, Meta pitches another reboot of its struggling AI strategy</title>
-                <link>https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/</link>
-                                    <comments>https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Samuel Axon]]>
-                </dc:creator>
-                <pubDate>Mon, 10 Aug 2026 22:13:03 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[large language models]]></category>
-		<category><![CDATA[LLMs]]></category>
-		<category><![CDATA[Mark Zuckerberg]]></category>
-		<category><![CDATA[meta]]></category>
-		<category><![CDATA[Muse Glimmer]]></category>
-		<category><![CDATA[muse spark]]></category>
-		<category><![CDATA[open source AI]]></category>
-		<category><![CDATA[open weights]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/</guid>
-
-                                    <description>
-                        <![CDATA[Meta has been trailing competitors. Zuckerberg thinks he's found a way forward.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p><!-- obsidian --></p>
-<p>Meta has announced its intention to focus on open-weight large language models. Additionally, the company announced the release of an open model called Muse Glimmer and a promise to open the weights for Muse Spark 1.2, its more powerful model, in the next few weeks.</p>
-<p>Alongside these announcements, Meta CEO Mark Zuckerberg published a more than 6,000-word <a href="https://about.fb.com/news/2026/08/the-future-is-for-everyone/">essay</a> outlining the company's philosophy about AI systems and governance moving forward. The essay aims to differentiate Meta from companies like OpenAI and Anthropic, which develop proprietary models and have lobbied the US government for help competing against large-scale distillation—which involves using an existing model to train a new one—or open-weight models by Chinese labs.</p><p><a href="https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>91</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2162539176-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2162539176-500x500.jpg" width="500"/>
-<media:credit>Bloomberg / Contributor | Bloomberg</media:credit><media:text>Mark Zuckerberg in a company presentation.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Trump signs bonkers order that cuts vaccines, promotes ones that don't exist</title>
-                <link>https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/</link>
-                                    <comments>https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Mon, 10 Aug 2026 21:42:56 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[anti-vaccine]]></category>
-		<category><![CDATA[measles]]></category>
-		<category><![CDATA[MMR]]></category>
-		<category><![CDATA[Robert F. Kennedy]]></category>
-		<category><![CDATA[Trump]]></category>
-		<category><![CDATA[vaccine]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/</guid>
-
-                                    <description>
-                        <![CDATA[Trump falsely claimed the MMR vaccine is "quite lethal" and linked shots to autism.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>President Trump signed an executive order Monday that makes sweeping, unilateral changes to federal vaccine recommendations. The order aims to reduce the number of lifesaving vaccines all children are recommended to get—from 18 to 11—while also splitting them up and spacing them out over more time and more medical visits.</p>
-<p>The vaccine changes are not backed by evidence or spurred by new findings. Rather, they are based on false anti-vaccine fearmongering about harms, including the debunked claim that they cause autism, and misinformation that multiple vaccinations can "overwhelm" children's immune systems. This <a href="https://ysph.yale.edu/research/information-sheets/childhood-vaccinations/#4-children-receive-so-many-more-vaccines-these-days-why?-is-this-okay?">false claim</a> has also been <a href="https://www.aap.org/en/news-room/fact-checked/fact-checked-receiving-multiple-vaccines-does-not-overwhelm-a-childs-immune-system/?srsltid=AfmBOoovXqfwyvncJ033i3DSQ2JVCCCKj3OXSh7L_HofpbC0IghwajFN">repeatedly debunked</a> and <a href="https://www.gavi.org/vaccineswork/do-multiple-vaccines-overload-childs-immune-system-heres-what-science-says">explained</a>.</p>
-<p>During a signing event at the White House on Monday afternoon, Trump falsely claimed that pediatricians "have a vaccination that looks like the size of a bottle of soda," that is "poured into a little child's body, and bad things happen in too many cases. This is an explosion; this is an epidemic," Trump said.</p><p><a href="https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>422</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2289391344-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2289391344-500x500.jpg" width="500"/>
-<media:credit>Getty | Bonnie Cash</media:credit><media:text>US President Donald Trump during an executive order signing in the Oval Office of the White House in Washington, DC, on Monday, Aug. 10, 2026. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Developer Cold Iron Studios shuts down cloud version of $60 game with no refunds</title>
-                <link>https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Mon, 10 Aug 2026 21:26:38 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[cloud]]></category>
-		<category><![CDATA[cloud gaming]]></category>
-		<category><![CDATA[Nintendo]]></category>
-		<category><![CDATA[nintendo switch]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/</guid>
-
-                                    <description>
-                        <![CDATA[A reminder of the perils of digital ownership. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Following its announcement in March, game developer Cold Iron Studios has shut down the servers for the cloud version of <em>Aliens: Fireteam Elite </em>on the Nintendo Switch<em>. </em>The game originally cost $30 (or $60 for an “Ultimate” version with additional content).</p>
-<p>Cold Iron Studios hasn't offered customers refunds.</p>
-<p><a href="https://www.thegamer.com/aliens-fireteam-elite-nintendo-switch-cloud-version-shut-down/">TheGamer</a> reported that affected players are entitled to a discount for the <a href="https://arstechnica.com/gaming/2025/06/nintendo-switch-2-the-ars-technica-review/">Nintendo Switch 2</a> version of the game, which is a 2021 co-op, third-person shooter based on the Alien film franchise. However, that would mean paying money for a game that you have already paid money for once.</p><p><a href="https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>92</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/ss_03896903e32739497c26e1724dcbab75772970fe.1920x1080-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/ss_03896903e32739497c26e1724dcbab75772970fe.1920x1080-500x500.jpg" width="500"/>
-<media:credit> Cold Iron Studios/Steam</media:credit><media:text>A scene from &lt;em&gt;Aliens: Fireteam Elite&lt;/em&gt;.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Amazon backs power plant that may become top source of US climate pollution</title>
-                <link>https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Mon, 10 Aug 2026 20:45:52 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[air pollution]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[clean air act]]></category>
-		<category><![CDATA[data center]]></category>
-		<category><![CDATA[gas power plant]]></category>
-		<category><![CDATA[off-the-grid data center]]></category>
-		<category><![CDATA[trump administration]]></category>
-		<category><![CDATA[xAI]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/</guid>
-
-                                    <description>
-                        <![CDATA[Amazon announces first off-the-grid data center in race to reap AI profits.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Amazon’s artificial intelligence ambitions will soon be partly fueled by a natural gas-burning power plant in Texas that “could become the largest single source of climate pollution in the United States,” The New York Times <a href="https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html">reported</a>.</p>
-<p>These gas-burning plants are increasingly lumped into data center projects. They produce harmful pollutants, which can accelerate climate change impacts and harm public health—contributing to conditions like asthma, heart disease, lung cancer, and strokes. Some communities are demanding more stringent environmental reviews, but the Trump administration favors fast-tracking that can include skipping the permitting process entirely.</p>
-<p>Since Elon Musk’s xAI <a href="https://arstechnica.com/tech-policy/2025/04/elon-musks-xai-accused-of-lying-to-black-communities-about-harmful-pollution/">controversially began relying on gas turbines</a> last spring to power its biggest AI data center, Colossus, there has been <a href="https://arstechnica.com/tech-policy/2025/06/xai-faces-legal-threat-over-alleged-colossus-data-center-pollution-in-memphis/">public backlash</a> to off-the-grid data centers like the one Amazon is building.</p><p><a href="https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>152</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2267221283-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2267221283-500x500.jpg" width="500"/>
-<media:credit>eric1513 | iStock / Getty Images Plus</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Zuckerberg’s superyacht ignored emergency channel, failed to aid stranded boat</title>
-                <link>https://arstechnica.com/gadgets/2026/08/zuckerbergs-super-yacht-stood-by-while-stranded-boaters-looked-for-help/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/08/zuckerbergs-super-yacht-stood-by-while-stranded-boaters-looked-for-help/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jeremy Hsu]]>
-                </dc:creator>
-                <pubDate>Mon, 10 Aug 2026 20:01:15 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[AIS]]></category>
-		<category><![CDATA[Mark Zuckerberg]]></category>
-		<category><![CDATA[meta]]></category>
-		<category><![CDATA[ships]]></category>
-		<category><![CDATA[Super yacht]]></category>
-		<category><![CDATA[superyacht]]></category>
-		<category><![CDATA[yacht]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/08/zuckerbergs-super-yacht-stood-by-while-stranded-boaters-looked-for-help/</guid>
-
-                                    <description>
-                        <![CDATA[Zuckerberg’s superyacht and support ship were slow to heed Coast Guard call.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Social media scuttlebutt about Mark Zuckerberg’s $300 million superyacht failing to assist stranded boaters off the coast of Alaska was partly corroborated by ship-tracking data—and eventually prompted responses from both the US Coast Guard and a spokesperson for Zuckerberg.</p>
-<p>The incident was made public when Michael Love, a passenger aboard the replica steamship <em><a href="https://uncruise.com/blogs/our-ships/wilderness-legacy">Wilderness Legacy</a></em> during an Alaska cruise, <a href="https://bsky.app/profile/elkmovie.bsky.social/post/3mscqsxfulk26">posted about it</a> on the social media platform Bluesky. The ship detoured to rescue a stranded 21-foot skiff with two women, a child and a dog, after the US Coast Guard had supposedly first radioed Zuckerberg’s superyacht, <em>Launchpad</em>, for help without success.</p>
-<p>“There was near unanimous booing when the captain announced this,” Love wrote in describing the Alaska cruise passengers’ response to the lack of help from Zuckerberg’s ship.</p><p><a href="https://arstechnica.com/gadgets/2026/08/zuckerbergs-super-yacht-stood-by-while-stranded-boaters-looked-for-help/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/08/zuckerbergs-super-yacht-stood-by-while-stranded-boaters-looked-for-help/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>220</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2190858040-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2190858040-500x500.jpg" width="500"/>
-<media:credit>Sylvain Lefevre/Getty Images</media:credit><media:text>Marc Zuckerberg's super yacht, named &lt;em&gt;Launchpad&lt;/em&gt;, is seen on December 19, 2024 in Raiatea, French Polynesia.</media:text></media:content>
             </item>
             </channel>
 </rss>
