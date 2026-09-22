@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Mon, 21 Sep 2026 17:08:13 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 02:06:23 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,115 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day</title>
+                <link>https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/</link>
+                                    <comments>https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 21 Sep 2026 22:24:38 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[zero days]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/</guid>
+
+                                    <description>
+                        <![CDATA[A simple ClickFix attack is only one way to completely hijack the new agent.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Meta founder and CEO Mark Zuckerberg has gone to <a href="https://x.com/finkd/status/2097402102477701478">great lengths</a> to hype the security of its new AI assistant Muse, claiming it is “built from the ground up for privacy and security.” A zero-day vulnerability that gives locally run apps and terminal commands complete control of the agent raises serious doubts. Further raising questions, Amazon on Sunday began blocking Muse from its site.</p>
+<p>Meta <a href="https://ai.meta.com/muse/">introduced</a> Muse a few weeks ago. The assistant “books appointments, fills out forms and handles customer service,” “proactively takes tasks off your plate,” and can “make purchases, generate images, create documents, and connect with your favorite apps and services.” The macOS app (curiously, there’s no Windows version) also works with a user’s WhatsApp, email, calendar, and social media accounts. When a task requires a tool that doesn’t exist, Muse creates one on the fly.</p>
+<h2>Meta doth hype Muse security too much</h2>
+<p>Of course, for Muse to do any of these things, users must first give it access to their accounts. This includes authenticating the assistant to each service and, because the app runs on macOS, giving it permissions to a broad range of operating system-restricted device resources like writing files to disk, accessing the mic and camera, and monitoring location and calendars. Apple has spent years developing these defenses to prevent installed apps or commands entered into the terminal from accessing these resources, clearly because the company considers them a security threat. Muse completely undoes these default measures.</p><p><a href="https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>35</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-agent-hacking-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-agent-hacking-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Military milestone: Ukrainian naval drone sinks Russian kamikaze drone boat</title>
+                <link>https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Mon, 21 Sep 2026 21:07:05 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[drone boats]]></category>
+		<category><![CDATA[military drones]]></category>
+		<category><![CDATA[Russia invasion of Ukraine]]></category>
+		<category><![CDATA[Russia war on Ukraine]]></category>
+		<category><![CDATA[Russian war on Ukraine]]></category>
+		<category><![CDATA[Ukraine]]></category>
+		<category><![CDATA[Ukraine war]]></category>
+		<category><![CDATA[uncrewed surface vessels]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/</guid>
+
+                                    <description>
+                        <![CDATA[Drone boat battle occurs as Ukraine and Russia target Black Sea ports and ships.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In the world’s first clash of the drone boats, a Ukrainian naval drone destroyed a Russian explosive drone boat using a remote-controlled machine gun turret. This comes as the war in Ukraine has already seen widespread deployment of such uncrewed surface vessels in combat, along with swarms of flying attack drones and ground robots.</p>
+<p>The lopsided battle took place on September 12 when members of Ukraine’s Defense Intelligence detected the Russian uncrewed surface vessel (USV) in the Black Sea and directed a Ukrainian Navy drone boat to intercept. The Russian vessel was “positively identified” as an Orcan surface drone with a “jet ski type steerable water jet” designed to ram targets and explode, according to <a href="https://www.navalnews.com/naval-news/2026/09/worlds-first-naval-drone-duel-results-in-ukrainian-success/">naval analyst HI Sutton in Naval News</a>.</p>
+<p>Such Orcan drones have already been used to attack Ukrainian ports and ships. These often work in coordination with flying drones such as Russian Geran drones that provide aerial reconnaissance and can boost communication between drone operators and drone boats, Sutton explained.</p><p><a href="https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>47</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Ukraine-drone-boat-machine-gun-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Ukraine-drone-boat-machine-gun-500x500.jpg" width="500"/>
+<media:credit>Ukrainian Navy | United 24</media:credit><media:text>A Ukrainian Sargan-3000 drone boat destroyed a Russian naval drone using a remote-controlled 12.7mm machine gun.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Saudi Arabia wants a car industry, launches Ceer with two EVs</title>
+                <link>https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/</link>
+                                    <comments>https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Chad Kirchner]]>
+                </dc:creator>
+                <pubDate>Mon, 21 Sep 2026 20:55:36 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Foxconn]]></category>
+		<category><![CDATA[Saudi Arabia]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/</guid>
+
+                                    <description>
+                        <![CDATA[The new carmaker is a joint venture between the Saudi PIF and Foxconn.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<aside class="pullbox sidebar fullwidth">Ceer provided flights from Detroit to Riyadh, Saudi Arabia, and accommodation so Ars could visit the factory. Ars does not accept paid editorial content.</aside>
+<p>KING ABDULLAH ECONOMIC CITY, Saudi Arabia—It may come as a surprise to some, but Saudi Arabia has never had a domestic automaker. That changes with Ceer. A joint venture between the country’s Public Investment Fund and Foxconn, it’s the Kingdom’s first home-grown automaker and a significant part of Saudi Arabia’s Vision 2030 plan to diversify its economy away from oil production and bring technological innovation locally by the end of the decade.</p>
+<p>Ceer in Arabic means to “drive forward,” and this forward-looking approach applies to the vehicle lineup. The flagship vehicles you see here—the Exobot sedan and SUV—are demonstrations of what the company is capable of and the vision it sees for future vehicles in the portfolio.</p>
+<p>It plans to have seven new cars in its portfolio by 2030—some of which will be hybrids—and while that doesn’t currently include sales outside the GCC (Gulf Cooperation Council) region, Ceer says it's building a competitive, world-class product and that if the demand is there, expansion is possible.</p><p><a href="https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>75</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/WhatsApp_Image_2026-09-21_at_21.24.15-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/WhatsApp_Image_2026-09-21_at_21.24.15-500x500-1790021070.jpeg" width="500"/>
+<media:credit>Ceer</media:credit><media:text>The Ceer Exobot sedan and SUV. </media:text></media:content>
+            </item>
+                    <item>
                 <title>Google confirms Gemini models hacked three companies in May 2026</title>
                 <link>https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/</link>
                                     <comments>https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/#comments</comments>
@@ -46,7 +155,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>19</slash:comments>
+                                    <slash:comments>61</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg" width="1152">
@@ -85,7 +194,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>25</slash:comments>
+                                    <slash:comments>98</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2287518863-1024x648.jpg" width="1024">
@@ -118,7 +227,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>31</slash:comments>
+                                    <slash:comments>80</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/paramount-warner-bros-1152x648.jpg" width="1152">
@@ -153,7 +262,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>60</slash:comments>
+                                    <slash:comments>114</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/08/trump-august-2025-1152x648-1756146125.jpg" width="1152">
@@ -188,7 +297,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>25</slash:comments>
+                                    <slash:comments>39</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/neagley-1152x648-1789589203.jpg" width="1152">
@@ -225,7 +334,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>75</slash:comments>
+                                    <slash:comments>142</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/IMG_3731-1152x648.jpeg" width="1152">
@@ -257,7 +366,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>69</slash:comments>
+                                    <slash:comments>97</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/HP-Googlebook-1152x648.jpg" width="1152">
@@ -294,7 +403,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>47</slash:comments>
+                                    <slash:comments>49</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2216350484-1152x648.jpg" width="1152">
@@ -326,7 +435,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>125</slash:comments>
+                                    <slash:comments>141</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/2026-Ferrari-Purosangue-1-of-15-1152x648-1789751602.jpg" width="1152">
@@ -362,7 +471,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>32</slash:comments>
+                                    <slash:comments>36</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1485364132-1152x648-1789756447.jpg" width="1152">
@@ -398,7 +507,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>170</slash:comments>
+                                    <slash:comments>178</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2181891613-1152x648.jpg" width="1152">
@@ -470,7 +579,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>232</slash:comments>
+                                    <slash:comments>235</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/chinese-cargo-ship-ai-target-1152x648.jpg" width="1152">
@@ -506,7 +615,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>175</slash:comments>
+                                    <slash:comments>179</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/DCA-airport-1152x648.jpg" width="1152">
@@ -539,7 +648,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>158</slash:comments>
+                                    <slash:comments>161</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/paramount-water-tower-logo-1152x648-1784928766.jpg" width="1152">
@@ -612,138 +721,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>37</slash:comments>
+                                    <slash:comments>39</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2260760373-1024x648.jpg" width="1024">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2260760373-500x500-1789748963.jpg" width="500"/>
 <media:credit>NurPhoto / Contributor | NurPhoto</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Meet the winner of Nikon's Small World in Motion video contest</title>
-                <link>https://arstechnica.com/science/2026/09/meet-the-winner-of-nikons-small-world-in-motion-video-contest/</link>
-                                    <comments>https://arstechnica.com/science/2026/09/meet-the-winner-of-nikons-small-world-in-motion-video-contest/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Fri, 18 Sep 2026 13:56:57 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[microscopic imagery]]></category>
-		<category><![CDATA[Nikon Small World in Motion video]]></category>
-		<category><![CDATA[scientific imaging]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/meet-the-winner-of-nikons-small-world-in-motion-video-contest/</guid>
-
-                                    <description>
-                        <![CDATA[Ning Xu of Tsinghua University captured tiny cilia beating in airways of a child with rare respiratory disorder.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<figure class="video ars-wp-video ars-wp-video--horizontal">
-  <div class="" style="">
-    <div class="wrapper ars-wp-video-wrapper relative" style="aspect-ratio: 1.7910447761194;">
-      <video class="wp-video-shortcode absolute w-full h-full object-contain left-0 top-0" id="video-2172013-1" width="1920" height="1072" preload="metadata" controls="controls"><source type="video/mp4" src="https://cdn.arstechnica.net/wp-content/uploads/2026/09/1st-2026_Xu_Ning_e42800_f27376.mp4?_=1"></source>Abnormal beating of airway cilia from a child with Primary Ciliary Dyskinesia, a genetic disorder affecting respiratory function. Credit: Ning Xu, Tsinghua University</video>
-    </div>
-
-    <figcaption>
-      <span class="icon caption-arrow icon-drop-indicator"></span>
-      <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
-    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
-    <div class="caption-content">
-      Abnormal beating of airway cilia from a child with Primary Ciliary Dyskinesia, a genetic disorder affecting respiratory function. Credit: Ning Xu, Tsinghua University
-
-          </div>
-  </div>
-    </figcaption>
-  </div>
-</figure>
-
-<p>A Chinese optical engineer is the winner of this year's <a href="https://www.nikonsmallworld.com/galleries/small-world-in-motion">Small World in Motion</a> competition, sponsored by Nikon. Ning Xu of Tsinghua University in Beijing beat out 346 other video entries from 40 different countries with his super-resolution video (above) of the abnormal beating of cilia in the airways of a child with a rare genetic respiratory disorder.</p>
-<p>Founded in 2011, the Nikon Small World in Motion competition is a spinoff of the company's Small World Photomicrography Competition, which has been around since 1974. Both are meant "to showcase the beauty and complexity of things seen through the light microscope"—one through still photographs, the other through photovideography, taking advantage of all the technological advances that now allow users to make movies or time-lapse images through the microscope.</p>
-<p>Primary ciliary dyskinesia (<a href="https://en.wikipedia.org/wiki/Primary_ciliary_dyskinesia">PCD</a>) is a genetic disorder that adversely affects the tiny hairlike structures that line the lungs, among other areas. Their wavelike motion helps move around germs, mucus, dust, and other irritants so the body can dispel them via coughing or sneezing. In people born with PCD, there is something wrong with those cilia, so those irritants build up, causing respiratory infections, among other complications. The cilia might be the wrong size, the wrong shape, or missing altogether. They might move abnormally or not move at all.</p><p><a href="https://arstechnica.com/science/2026/09/meet-the-winner-of-nikons-small-world-in-motion-video-contest/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/09/meet-the-winner-of-nikons-small-world-in-motion-video-contest/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>31</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/nikonTOP-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/nikonTOP-500x500.jpg" width="500"/>
-<media:credit>Ning Xu, Tsinghua University</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Researchers used Claude to hack OpenAI</title>
-                <link>https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/</link>
-                                    <comments>https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Cristina Criddle, Financial Times]]>
-                </dc:creator>
-                <pubDate>Fri, 18 Sep 2026 13:30:12 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[hacking]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/</guid>
-
-                                    <description>
-                        <![CDATA[Researchers used Claude to reach an OpenAI employee account and sensitive GitHub data.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p class="p1">Cyber researchers broke into OpenAI using its key rival Anthropic’s software, highlighting vulnerabilities in the ChatGPT maker’s security as leading AI companies face mounting scrutiny over safety.</p>
-<p class="p1">A small cyber security group gained access to an OpenAI employee’s ChatGPT account, which permitted them to read private software information and suggest changes.</p>
-<p class="p1">The researchers had been given access to an Anthropic tool specifically designed for security professionals, and were paid for the work as part of a program to find vulnerabilities before they could be exploited by bad actors.</p><p><a href="https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>102</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/ailogos-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/ailogos-500x500.jpg" width="500"/>
-<media:credit>Leon Neal/Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Rocket Report: China wants a Raptor 3 engine; SpaceX set for big Starship test</title>
-                <link>https://arstechnica.com/space/2026/09/rocket-report-ula-flies-into-uncertain-future-falcon-9-family-hits-700-launches/</link>
-                                    <comments>https://arstechnica.com/space/2026/09/rocket-report-ula-flies-into-uncertain-future-falcon-9-family-hits-700-launches/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Fri, 18 Sep 2026 11:00:11 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[rocket report]]></category>
-		<category><![CDATA[space]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/09/rocket-report-ula-flies-into-uncertain-future-falcon-9-family-hits-700-launches/</guid>
-
-                                    <description>
-                        <![CDATA[“I can tell you SpaceX has already gone captive."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Welcome to Edition 9.11 of the Rocket Report! The most interesting story of the week, in our view, is a deep dive by Stephen Clark, linked below, into the dwindling fortunes of United Launch Alliance. As recently as a decade ago, the launch company, co-owned by Boeing and Lockheed Martin, could claim dominance over the US industry. But those glory days are fading fast. So what's next for a company that is tied to an expendable rocket?</p>
-<p>As always, we <a href="https://arstechnica.wufoo.com/forms/launch-stories/">welcome reader submissions</a>, and if you don't want to miss an issue, please subscribe using the box below (the form will not appear on AMP-enabled versions of the site). Each report will include information on small-, medium-, and heavy-lift rockets as well as a quick look ahead at the next three launches on the calendar.</p>
-<figure class="ars-img-shortcode id-1314289 align-center">
-    <div>
-                        <img decoding="async" width="560" height="81" src="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png" class="center full" alt="" srcset="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png 560w, https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll-300x43.png 300w" sizes="(max-width: 560px) 100vw, 560px">
-                  </div>
-      </figure>
-
-<p><strong>Avio seeks to cash in on Falcon 9 retreat</strong>. Italian launch services provider Avio has seen an influx of customers who were unable to secure launch opportunities with SpaceX, <a href="https://europeanspaceflight.com/avio-ceo-reports-influx-of-customers-turned-away-by-spacex/">European Spaceflight reports</a>. “I can tell you SpaceX has already gone captive because we have a whole bunch of customers coming to us and saying, 'Oh my God, can you fly us?'” Avio CEO Giulio Ranzo said during the company’s September 10 earnings call. In recent months, SpaceX told multiple prospective customers that it was no longer accepting new orders for commercial Falcon 9 launches.</p><p><a href="https://arstechnica.com/space/2026/09/rocket-report-ula-flies-into-uncertain-future-falcon-9-family-hits-700-launches/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/09/rocket-report-ula-flies-into-uncertain-future-falcon-9-family-hits-700-launches/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>121</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Vega-C_takes_FLEX_and_Sentinel-3C_into_orbit_pillars-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Vega-C_takes_FLEX_and_Sentinel-3C_into_orbit_pillars-500x500.jpg" width="500"/>
-<media:credit>ESA/S. Corvaja</media:credit><media:text>Avio's Vega C rocket launches this week.</media:text></media:content>
             </item>
             </channel>
 </rss>
