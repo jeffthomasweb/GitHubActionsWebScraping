@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Fri, 02 Oct 2026 14:57:47 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 02 Oct 2026 23:52:57 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,7 +19,403 @@
 	<height>32</height>
 </image> 
             <item>
-                <title>The 7-year-old Nvidia Shield TV is now $100 more expensive thanks to AI</title>
+                <title>Apple changes full-disk access permissions to curb abuse from AI agents</title>
+                <link>https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 23:03:16 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[muse]]></category>
+		<category><![CDATA[privacy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/</guid>
+
+                                    <description>
+                        <![CDATA[Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Apple says it is changing its macOS privacy settings to stop third-party app developers from misusing them to access message histories.</p>
+<p>Friday's <a href="https://developer.apple.com/news/?id=p6zjojqw">announcement</a> comes two weeks after tech columnist Jason Aten <a href="https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202">said</a> that Meta’s new general-purpose AI agent Muse sent him an unsolicited notification referencing a thread between him and a co-worker over Apple Messages. Aten said he never granted Muse permissions to read his messages and had assumed they were off-limits. Social media last week blew up with masses of people who agreed and said the incident showed that AI assistants given access to calendars, emails, messages, shopping accounts, and other resources are akin to a skill saw or other power tool. While potentially useful, they can do real damage if not used carefully.</p>
+<h2>He said/she said</h2>
+<p>Meta CTO David Singleton <a href="https://www.threads.com/@davidsingleton/post/DddI7WtG8ul">joined the fray</a> with a rebuttal that appeared solid. For Muse to access Apple Messages, a user must manually give it two privileges. One is full-disk access, a macOS system-level permission. The other is to enable a Messages connector setting in Muse.</p><p><a href="https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>59</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Someone got Doom in an SQL database</title>
+                <link>https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 21:19:05 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[Doom]]></category>
+		<category><![CDATA[first-person shooter]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[id]]></category>
+		<category><![CDATA[port]]></category>
+		<category><![CDATA[SQL]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/</guid>
+
+                                    <description>
+                        <![CDATA[1,300 lines of SQL querying renders accurate bitmapped views of Hell at 35 fps.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>"Rendering <em>Doom</em> in a database is obviously a bad idea," Lukas Vogel writes in <a href="https://cedardb.com/blog/sqldoom/">a lengthy blog post</a> explaining how exactly he managed to render <em>Doom</em> using an SQL database.</p>
+<p>OK, that's not entirely accurate. The <a href="https://github.com/cedardb/sqldoom">SQLDoom project</a> uses a small Python client to handle input and output, drive the game's timing, and display each frame to the screen. Behind that, a series of CedarDB tables tracks the game geometry and state, while about 1,300 lines of SQL queries spread across 89 <a href="https://www.geeksforgeeks.org/sql/cte-in-sql/">common table expressions</a> implement the game logic and generate 35 bitmap framebuffers per second.</p>
+<p>In this, SQLDoom is a major improvement over <a href="https://cedardb.com/blog/doomql/">Vogel's previous DoomQL project</a>, which last year set out to build "a multiplayer Doom-like shooter entirely in SQL." Unfortunately, that effort ended up with raycasting-based, grayscale ASCII graphics that were more akin to the simplistic 90-degree-angled maps of <em>Wolfenstein 3D</em>. The newer SQLDoom, on the other hand, generates full-color 640x480 frames that look like they could have come from the original <em>Doom</em> executable.</p><p><a href="https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>26</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/doomsql-1152x648-1790974550.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/doomsql-500x500-1790974508.png" width="500"/>
+<media:credit>Lukas Vogel</media:credit><media:text>A debug view showing some performance statistics and rendering pipeline details for SQLDoom</media:text></media:content>
+            </item>
+                    <item>
+                <title>Amazon’s $1B plan to combat data center backlash draws more backlash</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 20:30:27 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ai data center]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[data center moratoriums]]></category>
+		<category><![CDATA[pollution]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/</guid>
+
+                                    <description>
+                        <![CDATA[Amazon praised for ending NDAs but slammed for downplaying data center pollution.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Friday, Amazon committed to donating more than $1 billion over the next five years to communities neighboring data centers.</p>
+<p>In a <a href="https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together">press release</a>, Amazon Web Services’ CEO Matt Garman said that communities would decide how to prioritize funds across “education, job training, energy affordability, water, and energy preservation, and local priorities.”</p>
+<p>Laying out other community commitments, Amazon also promised to ensure data centers wouldn’t increase power bills or wipe out local water supplies. Regarding the latter, Amazon promised to be “water positive” by 2030, while claiming that 75 percent of projects have already met this goal.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>50</slash:comments>
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2292181016.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2292181016-500x500.jpg" width="500"/>
+<media:credit>Anna Moneymaker / Staff | Getty Images News</media:credit><media:text>An aerial view of an Amazon Web Services data center in Sterling, Virginia.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Patient-zero drill put health facilities to the test—40% of them failed</title>
+                <link>https://arstechnica.com/health/2026/10/patient-zero-drill-put-health-facilities-to-the-test-40-of-them-failed/</link>
+                                    <comments>https://arstechnica.com/health/2026/10/patient-zero-drill-put-health-facilities-to-the-test-40-of-them-failed/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 20:07:59 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[bird flu]]></category>
+		<category><![CDATA[outbreak]]></category>
+		<category><![CDATA[pandemic prepardness]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/10/patient-zero-drill-put-health-facilities-to-the-test-40-of-them-failed/</guid>
+
+                                    <description>
+                        <![CDATA[Actors with makeup and fake symptoms staggered into 73 healthcare facilities. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>COVID-19 made the weaknesses in our pandemic preparedness at national and global levels painfully clear. But a new study highlights that even at the first, local steps of an outbreak with pandemic-potential, we are worryingly underprepared.</p>
+<p>Health officials in New York set up a regional test of healthcare facilities to identify and respond to a patient with a mystery infection that could pose a pandemic-level threat. But things didn't go well. Overall, responses were slow, appropriate use of personal protective equipment was spotty, and only 60 percent of facilities passed the basics of the test—an overall failing grade.</p>
+<p>"These drills identified needs for health care workers and health care facility staff member training to achieve earlier identification, masking, and isolation of potentially infectious febrile patients," the officials wrote in the study, which was <a href="https://www.cdc.gov/mmwr/volumes/75/wr/mm7538a1.htm?s_cid=OS_mm7538a1_w">published in the Morbidity and Mortality Weekly Report</a>.</p><p><a href="https://arstechnica.com/health/2026/10/patient-zero-drill-put-health-facilities-to-the-test-40-of-them-failed/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/10/patient-zero-drill-put-health-facilities-to-the-test-40-of-them-failed/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>30</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1227666052-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1227666052-500x500.jpg" width="500"/>
+<media:credit>Getty | TOLGA AKMEN</media:credit><media:text>A man wearing a mask walking outside the entrance to an emergency department.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Lyft settles landmark driver misclassification lawsuit for $272.5M</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/lyft-settles-landmark-driver-misclassification-lawsuit-for-272-5m/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/lyft-settles-landmark-driver-misclassification-lawsuit-for-272-5m/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Cyrus Farivar]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 19:09:49 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[lyft]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/lyft-settles-landmark-driver-misclassification-lawsuit-for-272-5m/</guid>
+
+                                    <description>
+                        <![CDATA[Critics say workers are still owed far more.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>California’s attorney general and three city attorneys announced a $272.5 million settlement with Lyft after allegations that the company “committed wage theft by misclassifying drivers as independent contractors rather than employees” between 2016 and 2020, according to a Thursday <a href="https://oag.ca.gov/news/press-releases/attorney-general-bonta-city-attorneys-san-francisco-san-diego-and-los-angeles">statement</a>.</p>
+<p>The case dates back to May 2020, when then-Attorney General Xavier Becerra, who is now the Democratic candidate for governor, <a href="https://www.nbcnews.com/tech/tech-news/uber-lyft-face-landmark-lawsuit-over-gig-worker-classification-n1200526">sued both Uber and Lyft</a>. That lawsuit said the ridehailing companies evaded state law when they declared that their drivers were not employees.</p>
+<p>Thursday’s settlement affects only Lyft, while the case against Uber continues.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/lyft-settles-landmark-driver-misclassification-lawsuit-for-272-5m/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/lyft-settles-landmark-driver-misclassification-lawsuit-for-272-5m/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>13</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2288109986-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2288109986-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>The 2008 economic crisis changed the US's relationship with energy</title>
+                <link>https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/</link>
+                                    <comments>https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 18:56:21 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[carbon emissions]]></category>
+		<category><![CDATA[economic growth]]></category>
+		<category><![CDATA[Energy]]></category>
+		<category><![CDATA[gdp]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/</guid>
+
+                                    <description>
+                        <![CDATA[It wasn't obvious at the time, but the US uncoupled carbon emissions and GDP growth.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>One argument that often comes up about climate change is that fossil fuels are good because they powered economic growth that has left most people better off overall. And, to an extent, that has been true, but it's also an extremely limited perspective.</p>
+<p>It's pretty obvious now that the growth they powered has come with very high costs that we've only recently started to pay, in the form of damages and disruptions from extreme weather events. With things like sea level rise expected to continue for centuries even if we hit net zero, it's difficult to estimate how expensive that growth will eventually be.</p>
+<p>But that perspective is also limited: We now have better ways to power our growth—ways that are less environmentally damaging now and won't leave our descendants with a carbon debt that will be difficult to manage.</p><p><a href="https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>34</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1487351817-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1487351817-500x500.jpg" width="500"/>
+<media:credit>Ryan J Lane</media:credit></media:content>
+            </item>
+                    <item>
+                <title>US arrests tech CEO accused of smuggling $300M in Nvidia chips into China</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 18:39:36 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[Export controls]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[us-china trade war]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/</guid>
+
+                                    <description>
+                        <![CDATA[Nvidia’s chip-smuggling problem won’t go away as arrests continue.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The US has arrested another suspect accused of smuggling high-end computer servers containing export-controlled Nvidia chips into China.</p>
+<p>In a <a href="https://www.justice.gov/opa/pr/california-man-arrested-smuggling-more-300-million-export-controlled-computer-servers-china">press release</a> on Thursday, the Department of Justice accused 38-year-old Greg Lui of using false paperwork to mask shipments of servers worth more than $300 million that he allegedly knew were ultimately destined for China.</p>
+<p>As the CEO of Earthmade Computer, Lui allegedly conspired with freight-forwarding firms in South Asian countries like Malaysia and Singapore to illegally divert chip shipments into China, including Nvidia’s A100 GPUs and H100 GPUs, the FBI’s <a href="https://cdn.arstechnica.net/wp-content/uploads/2026/10/US-v-Lui-Indictment-10-1-26.pdf">indictment</a> alleged. These are not Nvidia’s most advanced chips. However, the chips can process large amounts of data and train large language models, which the US fears could pose national security risks if China suddenly gets access to enough chips to drastically advance its AI or strengthen its military.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>27</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1258977050-2-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1258977050-2-500x500.jpg" width="500"/>
+<media:credit>Bloomberg / Contributor | Bloomberg</media:credit><media:text>Nvidia H100 graphics processor chips were illegally diverted to China, FBI says.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Research roundup: 6 cool science stories we almost missed</title>
+                <link>https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/</link>
+                                    <comments>https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 18:17:27 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Archaeology]]></category>
+		<category><![CDATA[biomaterials]]></category>
+		<category><![CDATA[cosmoramas]]></category>
+		<category><![CDATA[Dark Matter]]></category>
+		<category><![CDATA[engineering]]></category>
+		<category><![CDATA[Galileo Galilei]]></category>
+		<category><![CDATA[Large Hadron Collider]]></category>
+		<category><![CDATA[materials science]]></category>
+		<category><![CDATA[Physics]]></category>
+		<category><![CDATA[psychoaoctive compounds]]></category>
+		<category><![CDATA[quantum entanglement]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[telescopes]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/</guid>
+
+                                    <description>
+                        <![CDATA[Also: Spooky action at the LHC, Ice Age psychoactive use, yeast for building homes on Mars, and more.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>It’s a regrettable reality that there is never enough time to cover all the interesting scientific stories we come across. So every month, we highlight a handful of the best stories that nearly slipped through the cracks. September’s list includes a tantalizing hint of the elusive dark matter at the LUX-ZEPLIN detector; entangled Z bosons at the Large Hadron Collider; possible use of psychoactive substances in the Late Pleistocene; and an intriguing technical description of a telescope attributed to Galileo.</p>
+<h2>A hint of dark matter?</h2>
+<div class="ars-video ars-video--horizontal"><div><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/bKCsiK4ZZBY?start=0&amp;wmode=transparent"></div></div></div>
+<p>Physicists believe dark matter makes up roughly 85 percent of matter in our universe, with the strongest (but not only) candidate being so-called weakly interacting massive particles (WIMPs). But directly detecting WIMPs, or other alternative hypothetical dark matter particles, has eluded physicists for decades. We might have our first glimpse, however, courtesy of the LUX-ZEPLIN detector buried deep in a gold mine in South Dakota. Those potentially exciting results were presented in a scientific talk at the <a href="https://indico-icehap.phys.s.chiba-u.ac.jp/event/3/contributions/471/">2026 TeV Particle Astrophysics conference</a> in Japan, with <a href="https://arxiv.org/abs/2609.02823">a preprint</a> available on the arXiv. (It has been submitted to Physical Review Letters for peer review.)</p>
+<p>The announcement came with strong caveats: the signal is just a hint, well below the threshold needed to confirm discovery, and might just be a statistical fluke. Anyone who regularly follows dark matter news knows that past tantalizing anomalies evaporated as more data came in. But the LUX-ZEPLIN team was unable to account for this event and decided to report their result to the broader physics community. They are still collecting data, as is the XENONnT at the Gran Sasso National Laboratory in Italy. And China's PandaX detector is currently being built.</p><p><a href="https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>6</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/darkmatter-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/darkmatter-500x500.jpg" width="500"/>
+<media:credit>Greg Stewart, SLAC National Accelerator Laboratory</media:credit></media:content>
+            </item>
+                    <item>
+                <title>US military ends long-running program to spot nuclear missile launches</title>
+                <link>https://arstechnica.com/space/2026/10/us-military-ends-long-running-program-to-spot-nuclear-missile-launches/</link>
+                                    <comments>https://arstechnica.com/space/2026/10/us-military-ends-long-running-program-to-spot-nuclear-missile-launches/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 17:32:14 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[defense support program]]></category>
+		<category><![CDATA[ICBM]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[space force]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/10/us-military-ends-long-running-program-to-spot-nuclear-missile-launches/</guid>
+
+                                    <description>
+                        <![CDATA[A newer program has been operational since 2011, and the next generation could launch within 12 months. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In late 1970, a Titan IIIC rocket launched from Space Launch Complex 40 at what was then called Cape Canaveral Air Force Station. It carried a top-secret payload for the US military.</p>
+<p>Much has changed in spaceflight since then. The Titan IIIC would bow out in 1982 after dozens of launches. Various Titans continued launching from Space Launch Complex 40 until 2005, at which point the US Air Force—in a competitive process hotly opposed by United Launch Alliance—turned the pad over to a small, largely unknown startup called SpaceX. And Cape Canaveral is now a "Space Force" station.</p>
+<p>But those unspecified payloads? Until last month, some of them were still flying operationally.</p><p><a href="https://arstechnica.com/space/2026/10/us-military-ends-long-running-program-to-spot-nuclear-missile-launches/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/10/us-military-ends-long-running-program-to-spot-nuclear-missile-launches/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>36</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/071110-D-1584B-011-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/071110-D-1584B-011-500x500.jpeg" width="500"/>
+<media:credit>ULA/Carleton Bailie</media:credit><media:text>A Delta IV Heavy rocket lifts off late in the evening of Nov. 11, 2007, carrying the DSP-23 satellite.</media:text></media:content>
+            </item>
+                    <item>
+                <title>How I kept cool with NYC's free battery program for window AC units</title>
+                <link>https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 17:20:21 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[air conditioning]]></category>
+		<category><![CDATA[batteries]]></category>
+		<category><![CDATA[battery]]></category>
+		<category><![CDATA[electric utilities]]></category>
+		<category><![CDATA[electrical utilities]]></category>
+		<category><![CDATA[electricity demand]]></category>
+		<category><![CDATA[electricity grid]]></category>
+		<category><![CDATA[Every Electric]]></category>
+		<category><![CDATA[peak electricity load]]></category>
+		<category><![CDATA[power grid]]></category>
+		<category><![CDATA[power grids]]></category>
+		<category><![CDATA[utilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/</guid>
+
+                                    <description>
+                        <![CDATA[Bonus: Every Electric’s batteries are beloved by household cats.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>My family has spent four summers participating in demand response programs whereby utility companies pay customers to reduce energy use on the hottest summer days. Most summers have involved carefully precooling our New York City apartment before switching off the air conditioners and sweating it out during the designated demand response periods.</p>
+<p>But this year, we kept our window air conditioners running throughout a heat dome event that drove daytime temperatures into the triple digits and made the nights oppressively hot. The difference was that we powered the air conditioners through two household batteries tucked away unobtrusively in the corners of our living room and bedroom.</p>
+<p>We were among about 1,000 New York City households that took part in a free and growing program offered by the local startup Every Electric. The company’s proposition is simple: Get one or more batteries delivered to your home, plug the batteries into a standard wall electrical outlet, and then plug your window air conditioners into the batteries. Households can keep running air conditioners as usual during peak demand periods while also earning money through the local demand response program with the utility company Con Edison.</p><p><a href="https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>65</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/image2-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/image2-500x500.jpeg" width="500"/>
+<media:credit>Jonathon Schaff, Green Juice (www.greenjuice.wtf) </media:credit><media:text>A cat named Abby stands on top of a Bluetti battery provided by Every Electric's free A/C powerbank program.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Cybertruck sales in free fall as Tesla reports mediocre sales for Q3</title>
+                <link>https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/</link>
+                                    <comments>https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 16:05:26 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Tesla deliveries]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/</guid>
+
+                                    <description>
+                        <![CDATA[Tesla met analysts expectations as it sold fewer cars in Q3 2026 than Q3 2025.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Tesla sold 486,532 electric vehicles during the third quarter of 2026. That’s a 2.1 percent decrease on the same quarter in 2025, when the company found homes for 497,099 EVs, and one might think that would be bad news for a company valued on the premise of near-constant growth.</p>
+<p>But Tesla stock is up this morning; the year-over-year numbers might look bad, but the company still exceeded analysts’ expectations of 456,600 cars, which would have been a larger 8 percent year-on-year decline</p>
+<p>Total production at Tesla actually increased year over year; it built 464,391 vehicles—a 3.7 percent increase—457,387 of which were Models 3 and Y (a 4.9 percent increase year over year). The remaining 7,004 were other models, mostly Cybertrucks, with presumably some Semis and Cybercabs, as the Models S and X are now retired; this category saw a 39.8 percent decrease year over year.</p><p><a href="https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>187</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1415090444-2-1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1415090444-2-1-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>Tesla's sales are on autopilot.</media:text></media:content>
+            </item>
+                    <item>
+                <title>The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI</title>
                 <link>https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/</link>
                                     <comments>https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/#comments</comments>
                 
@@ -46,7 +442,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>19</slash:comments>
+                                    <slash:comments>88</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/Shield-10-yrs-1-1152x648.jpg" width="1152">
@@ -87,7 +483,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>12</slash:comments>
+                                    <slash:comments>50</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/falcon9_falconheavy-1152x648-1790915768.jpg" width="1152">
@@ -122,7 +518,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>42</slash:comments>
+                                    <slash:comments>82</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/2026_Mini-LED_M80H_FRONT_WALL_Image-1-1024x683-1-1024x648.jpg" width="1024">
@@ -157,7 +553,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>23</slash:comments>
+                                    <slash:comments>43</slash:comments>
                 
                 
                 <media:content height="510" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/image-1152x510.jpeg" width="1152">
@@ -196,7 +592,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>48</slash:comments>
+                                    <slash:comments>63</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/crewdragon1crew13-1152x648.jpg" width="1152">
@@ -233,7 +629,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>49</slash:comments>
+                                    <slash:comments>54</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2021/04/data-leak-1000x648.jpeg" width="1000">
@@ -268,7 +664,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>18</slash:comments>
+                                    <slash:comments>25</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg" width="1152">
@@ -300,7 +696,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>148</slash:comments>
+                                    <slash:comments>179</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-boink-taxi-1152x648.jpg" width="1152">
@@ -337,400 +733,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>45</slash:comments>
+                                    <slash:comments>57</slash:comments>
                 
                 
                 <media:content height="638" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/vision3-1152x638.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/vision3-500x500-1790871477.jpg" width="500"/>
 <media:credit>Marvel Studios/Disney+</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Memory executives expect RAM shortage to continue through 2028</title>
-                <link>https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/</link>
-                                    <comments>https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Thu, 01 Oct 2026 17:49:56 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Micron]]></category>
-		<category><![CDATA[RAM]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/</guid>
-
-                                    <description>
-                        <![CDATA[Prices for memory sold for 2027 "are much higher than 2026 prices." ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Micron and Samsung executives this week said the memory shortage will continue for at least the next couple of years.</p>
-<p>Micron CEO Sanjay Mehrotra expects demand for the firm’s memory to exceed its available supply over that period, he told investors last night.</p>
-<p><a href="https://arstechnica.com/gadgets/2025/12/after-nearly-30-years-crucial-will-stop-selling-ram-to-consumers/">Micron no longer sells consumer RAM,</a> and Mehrotra’s statements refer to Micron’s business-to-business sales of high-bandwidth memory (HBM) for AI and DRAM for servers. However, his comments also have implications for consumer devices. Manufacturing capacity is prioritizing memory for AI and servers, limiting the supply of memory manufactured for consumer devices.</p><p><a href="https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>124</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1723107474-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1723107474-500x500.jpg" width="500"/>
-<media:credit>Getty</media:credit><media:text>A DDR4 8GB SODIMM RAM. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Florida cops say they don't know who owns 11 unpermitted Flock cameras</title>
-                <link>https://arstechnica.com/tech-policy/2026/10/florida-cops-say-they-dont-know-who-owns-11-unpermitted-flock-cameras/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/10/florida-cops-say-they-dont-know-who-owns-11-unpermitted-flock-cameras/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Thu, 01 Oct 2026 16:49:33 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[data privacy]]></category>
-		<category><![CDATA[flock safety]]></category>
-		<category><![CDATA[Flock!]]></category>
-		<category><![CDATA[Florida]]></category>
-		<category><![CDATA[police surveillance]]></category>
-		<category><![CDATA[stalking]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/florida-cops-say-they-dont-know-who-owns-11-unpermitted-flock-cameras/</guid>
-
-                                    <description>
-                        <![CDATA[Floridians alarmed by 14 mysterious Flock cameras; 11 have no clear owner.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Florida cops are facing questions after a mandate to remove all Flock cameras tracking cars on St. Lucie County roads led local police to uncover more than a dozen suspicious cameras operating without permits.</p>
-<p>Local residents <a href="https://www.washingtonpost.com/nation/2026/10/01/florida-county-discovers-mysterious-flock-cameras-with-no-obvious-owner/">told The Washington Post</a> that they were alarmed that no one knows who owns many of the mysterious cameras.</p>
-<p>Of the 14 cameras found, 11 had no obvious owners, raising concerns about who has access to sensitive data that bad actors could abuse. After the cameras were discovered, St. Lucie County Commissioner James Clasby <a href="https://www.wbrc.com/2026/09/18/14-unpermitted-flock-cameras-found-one-florida-county-nobody-is-claiming-them/">told a local news outlet</a> that there’s “potential for non-law enforcement to have cameras out there, and I’m not OK with that.”</p><p><a href="https://arstechnica.com/tech-policy/2026/10/florida-cops-say-they-dont-know-who-owns-11-unpermitted-flock-cameras/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/10/florida-cops-say-they-dont-know-who-owns-11-unpermitted-flock-cameras/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>136</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2264289119-1152x648-1790870168.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2264289119-500x500-1790870154.jpg" width="500"/>
-<media:credit>Barry Winiker | Stockbyte Unreleased</media:credit><media:text>St. Lucie County Sheriff's Office wouldn't explain why cops installed three cameras without permits.</media:text></media:content>
-            </item>
-                    <item>
-                <title>With most information hidden, the game Stratego had stumped AI—until now</title>
-                <link>https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/</link>
-                                    <comments>https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jacek Krywko]]>
-                </dc:creator>
-                <pubDate>Thu, 01 Oct 2026 16:28:04 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Computer science]]></category>
-		<category><![CDATA[games]]></category>
-		<category><![CDATA[hidden information]]></category>
-		<category><![CDATA[strategy]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/</guid>
-
-                                    <description>
-                        <![CDATA[Adding in a second neural network that guesses the identity of hidden pieces was key.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Deep Blue took down Garry Kasparov at chess in 1997, AlphaGo beat Lee Sedol at Go in 2016, and poker bots have been beating professionals for years. But one classic game called <em>Stratego</em> held out. Even DeepMind, with its exceptional budget, couldn't build a machine that reliably beat the best human players.</p>
-<p>Now, a team of researchers from Carnegie Mellon, MIT, New York University, and Stanford University has done it. Their AI, called Ataraxos, beat Pim Niemeijer, arguably the best <em>Stratego</em> player of all time, 15 games to one, with four draws. And it took just 16 GPUs and a few thousand dollars to train it.</p>
-<h2>Hidden armies</h2>
-<p>In <em>Stratego</em>, each player gets 40 pieces representing military ranks, from a marshal down to a spy, plus bombs and a flag. You win by capturing the opponent's flag. Your opponent knows <em>where</em> your pieces are, but not <em>what</em> they are. Identities are revealed only when two pieces collide in battle—the weaker one is removed, and the identity of the winner is revealed. That makes <em>Stratego</em> an imperfect-information game, just like poker, which computers cracked years ago. “There's something super distinctive about <em>Stratego</em>, which is that it is a massive amount of hidden information that unfolds over a very long time scale,” said Eugene Vinitsky, a researcher at NYU and co-author of the study.</p><p><a href="https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>47</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1864707238-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1864707238-500x500.jpg" width="500"/>
-<media:credit>Vectorwin</media:credit></media:content>
-            </item>
-                    <item>
-                <title>As US relations fray, Canada gets serious about its own launch industry</title>
-                <link>https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/</link>
-                                    <comments>https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Thu, 01 Oct 2026 15:30:49 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Canada]]></category>
-		<category><![CDATA[canada rocket company]]></category>
-		<category><![CDATA[launch]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[united states]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/</guid>
-
-                                    <description>
-                        <![CDATA[The Canada Rocket Company gets serious about medium-lift launch.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A year or two ago, a few Canadian launch companies were trying to develop small rockets, but if we're being frank, the industry was not particularly notable. Sure, something interesting might eventually happen, but no one outside of a few Canadian space geeks was paying much attention.</p>
-<p>But then the Trump Administration started threatening and instituting tariffs. There was talk of making Canada the 51st state. And pretty much every Canadian I know began telling me how enraged they were at their neighbors to the south. It's hard to blame them.</p>
-<p>This has led the Canadian government to reassess all manner of areas where it had previously been happy to rely largely on the US government and American companies for goods and services. This included sovereign access to space. So this spring, the government announced the first awards to three companies—NordSpace, Reaction Dynamics, and Canada Rocket Company—to support work on rockets with "light lift" capability.</p><p><a href="https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>138</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/R-2-rocket-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/R-2-rocket-500x500.jpg" width="500"/>
-<media:credit>Canada Rocket Company</media:credit><media:text>The Canada Rocket Company is developing the R-2 rocket.</media:text></media:content>
-            </item>
-                    <item>
-                <title>PS5 emulation is suddenly making big strides on PC</title>
-                <link>https://arstechnica.com/gaming/2026/10/ps5-emulation-is-suddenly-making-big-strides-on-pc/</link>
-                                    <comments>https://arstechnica.com/gaming/2026/10/ps5-emulation-is-suddenly-making-big-strides-on-pc/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Thu, 01 Oct 2026 11:30:41 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[emulation]]></category>
-		<category><![CDATA[open source]]></category>
-		<category><![CDATA[pc]]></category>
-		<category><![CDATA[PlayStation]]></category>
-		<category><![CDATA[ps5]]></category>
-		<category><![CDATA[Sony]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/10/ps5-emulation-is-suddenly-making-big-strides-on-pc/</guid>
-
-                                    <description>
-                        <![CDATA[Games like <em>Astro Bot</em> and <em>Demon’s Souls</em> are running ably without a console.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>For a long time, PC gamers could access many PlayStation 5 games only if the publisher <a href="https://arstechnica.com/gaming/2020/08/sony-says-it-will-explore-more-pc-ports-for-playstation-titles/">invested in a bespoke port</a> (something Sony <a href="https://arstechnica.com/gaming/2026/03/sony-wont-bring-any-more-single-player-playstation-games-to-pc/">has recently said it will be scaling back</a>). Now, though, rapid advancements in PS5 emulators and other tools are making recent PlayStation titles increasingly playable on generic PCs.</p>
-<p>SharpEmu was the first of these emulators, advancing from <a href="https://github.com/sharpemu/sharpemu/commit/a1dea499bc00eb12ba740e6f4708f3525fe883ae">a "very early alpha stage" in May</a> to <a href="https://github.com/sharpemu/sharpemu/">a current state</a> that can "load the eboot.bin of real games, execute native CPU instructions, and partially handle GPU-related functionality." The most recent release <a href="https://sharpemu.app/compatibility/">boasts 10 tested games that reach a "playable" state</a>, including six that developer CursedIfElse <a href="https://x.com/CursedIfElse/status/2103612440143339874">says</a> are "fully playable at 60 fps." That includes <a href="https://www.youtube.com/watch?v=IKhb7P15aq4">simple 2D games like <em>Tetris Forever</em></a> but also <a href="https://x.com/iExplosiveRage/status/2105053592013181064">3D titles like <em>Astro Bot</em></a> and <a href="https://www.youtube.com/watch?v=cQJqV6PXC2s">the PS5 <em>Demon's Souls</em> remaster</a> running at playable frame rates.</p>
-<p>"SharpEmu has prioritized hardware accuracy from the very beginning, and we’re finally starting to see that investment pay off," CursedIfElse <a href="https://x.com/CursedIfElse/status/2105058607238877413">wrote on social media this week</a>. "It was built completely from scratch, and this is how far we’ve come."</p><p><a href="https://arstechnica.com/gaming/2026/10/ps5-emulation-is-suddenly-making-big-strides-on-pc/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2026/10/ps5-emulation-is-suddenly-making-big-strides-on-pc/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>84</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Screenshot-2026-09-30-at-8.12.38-PM-1152x648-1790813903.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Screenshot-2026-09-30-at-8.12.38-PM-500x500-1790813725.png" width="500"/>
-<media:credit>Youtube / PSXTech</media:credit><media:text>Believe it or not, this screenshot is the game running on a PC. </media:text></media:content>
-            </item>
-                    <item>
-                <title>NASA squeezed Treasury, vibe coded, and broke the mold in bid to save Swift</title>
-                <link>https://arstechnica.com/space/2026/10/heres-why-nasa-is-celebrating-the-failed-mission-to-save-the-swift-observatory/</link>
-                                    <comments>https://arstechnica.com/space/2026/10/heres-why-nasa-is-celebrating-the-failed-mission-to-save-the-swift-observatory/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Thu, 01 Oct 2026 11:15:15 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[astronomy]]></category>
-		<category><![CDATA[astrophysics]]></category>
-		<category><![CDATA[Commercial space]]></category>
-		<category><![CDATA[gamma rays]]></category>
-		<category><![CDATA[katalyst space]]></category>
-		<category><![CDATA[NASA]]></category>
-		<category><![CDATA[satellite servicing]]></category>
-		<category><![CDATA[Swift]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/10/heres-why-nasa-is-celebrating-the-failed-mission-to-save-the-swift-observatory/</guid>
-
-                                    <description>
-                        <![CDATA["We did some really, really cool stuff. I'm absolutely gutted we weren't able to get further."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>An attempt to save NASA's $500 million Neil Gehrels Swift Observatory from dropping out of orbit fell short, but the behind-the-scenes machinations required just to make a rescue possible deserve recognition, government and commercial space officials said in a recounting of the mission.</p>
-<p>The rescue mission was developed by Katalyst Space Technologies, working under a $30 million contract awarded by NASA last September. NASA <a href="https://arstechnica.com/space/2026/06/a-bold-satellite-rescue-mission-came-together-in-record-time-but-will-it-work/">gave Katalyst nine months</a> to build and launch a satellite to capture Swift flying some 200 miles above the Earth and boost it into a higher orbit.</p>
-<p>Katalyst's rescue spacecraft, known as Link, successfully launched July 3 and completed some of its initial checkouts before a malfunction caused it to spin out of control a few weeks later. NASA <a href="https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/">announced in August</a> that Link would not be able to reach Swift as intended, and the rescue mission was aborted.</p><p><a href="https://arstechnica.com/space/2026/10/heres-why-nasa-is-celebrating-the-failed-mission-to-save-the-swift-observatory/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/10/heres-why-nasa-is-celebrating-the-failed-mission-to-save-the-swift-observatory/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>47</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Testing-Link-Thermal-Vacuum-Testing-2._3382x1892-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/Testing-Link-Thermal-Vacuum-Testing-2._3382x1892-500x500.jpg" width="500"/>
-<media:credit>NASA/Sophia Roberts</media:credit><media:text>Katalyst engineers attach Link to a baseplate inside the Space Environment Simulator at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, on April 28, 2026. Katalyst performed environmental testing on Link inside a NASA test chamber because it was the only one sure to be available on short notice. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Dinosaur-killing impact crater might have been teeming with life</title>
-                <link>https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/</link>
-                                    <comments>https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Elizabeth Rayne]]>
-                </dc:creator>
-                <pubDate>Wed, 30 Sep 2026 21:54:12 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Chixculub]]></category>
-		<category><![CDATA[Earth science]]></category>
-		<category><![CDATA[geology]]></category>
-		<category><![CDATA[hydrothermal vents]]></category>
-		<category><![CDATA[impacts]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/</guid>
-
-                                    <description>
-                        <![CDATA[Hot, nutrient water might have lasted for over 5 million years after the impact.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>About 66 million years ago, the <a href="https://www.lpi.usra.edu/science/kring/Chicxulub/regional-effects/">Chicxulub asteroid</a> smashed into Earth, kicking up tsunamis and dropping hot debris that annihilated non-avian dinosaurs and many other species. But not everything it left in its wake was destructive. This space rock hit what is now the partially submerged Yucatan Peninsula, and at the bottom of the ocean, the impact generated enough heat to create a <a href="https://oceanexplorer.noaa.gov/wp-content/uploads/2022/10/hydrothermal-vents-fact-sheet.pdf">hydrothermal system</a> that persisted for 8 million years and may have been a hotbed of life.</p>
-<p>When researchers drilled for samples in the impact zone in 2016, they studied the types of rock that had formed as a result of the asteroid strike. This gave more insight into what happened in the immediate and long-term aftermath of this cataclysmic event.</p>
-<p>The collision was intense enough to cause deformation far beneath the surface. Subterranean effects reached 35 km (almost 22 miles) down, and included the melting an immense amount of rock. Exposure to seawater made that rock porous. As hot water seeped into the pores, a hydrothermal system formed. The hot water gushing into an isolated region of the freezing depths could have attracted microorganisms and possibly other life forms that were otherwise struggling to survive.</p><p><a href="https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>57</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1042124682-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1042124682-500x500.jpg" width="500"/>
-<media:credit>MARK GARLICK/SCIENCE PHOTO LIBRARY</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Fifth unvaccinated person dies of measles; CDC still not counting all deaths</title>
-                <link>https://arstechnica.com/health/2026/09/fifth-unvaccinated-person-dies-of-measles-cdc-still-not-counting-all-deaths/</link>
-                                    <comments>https://arstechnica.com/health/2026/09/fifth-unvaccinated-person-dies-of-measles-cdc-still-not-counting-all-deaths/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Wed, 30 Sep 2026 21:37:54 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[anti-vaccine]]></category>
-		<category><![CDATA[death]]></category>
-		<category><![CDATA[Infectious disease]]></category>
-		<category><![CDATA[measles]]></category>
-		<category><![CDATA[outbreak]]></category>
-		<category><![CDATA[pennsyvlania]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/09/fifth-unvaccinated-person-dies-of-measles-cdc-still-not-counting-all-deaths/</guid>
-
-                                    <description>
-                        <![CDATA[State health officials race to vaccinate residents by giving over 8,500 doses. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A fifth, unvaccinated person has died of measles in Pennsylvania, the <a href="https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-confirms-fifth-measles-associated-death">state's health department announced Wednesday</a>.</p>
-<p>The department identified the deceased as a resident of Lancaster County, which is the epicenter of a raging outbreak that began in late April. The updated case count as of Wednesday is 943 across 39 counties, including 119 cases reported in just the last seven days. At least 176 people have been hospitalized.</p>
-<p>Lancaster County has reported 381 cases and three of the five deaths in the outbreak. The previous two deaths were both in infants too young to be vaccinated. That includes <a href="https://arstechnica.com/health/2026/09/cdc-reported-then-deleted-two-measles-deaths-that-were-questioned-by-rfk-jr/">a newborn boy</a> and a <a href="https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/">6-week-old baby girl</a>. So far, no other information has been released about the county's third death announced today.</p><p><a href="https://arstechnica.com/health/2026/09/fifth-unvaccinated-person-dies-of-measles-cdc-still-not-counting-all-deaths/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/09/fifth-unvaccinated-person-dies-of-measles-cdc-still-not-counting-all-deaths/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>142</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2257300982-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2257300982-500x500.jpg" width="500"/>
-<media:credit>Getty | Paul Morigi</media:credit><media:text>Protect Our Care shines light on the growing measles crisis under HHS Secretary Robert F. Kennedy, Jr. with a projection on the U.S. Department of Health and Human Services building on January 20, 2026 in Washington, DC. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Returning from vacation? The government can search your phone without a warrant.</title>
-                <link>https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Cyrus Farivar]]>
-                </dc:creator>
-                <pubDate>Wed, 30 Sep 2026 21:19:56 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[cbp]]></category>
-		<category><![CDATA[phone]]></category>
-		<category><![CDATA[searches]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/</guid>
-
-                                    <description>
-                        <![CDATA[Reminder: The "border exemption" to your rights is real.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>An Argentinian-American writer and immigration advocate recently sued the federal government, demanding that it delete data that he believes was copied off of his phone when he re-entered the United States earlier this month.</p>
-<p>According to the seven-page <a href="https://www.documentcloud.org/documents/28698536-govuscourtsflsd72461911/">complaint</a>, Thomas Kennedy said that a Customs and Border Protection agent at Miami International Airport physically searched his bags, questioned him about his books and magazines, and then demanded that he hand over his phone.</p>
-<p>“[The agent] threatened me, saying that if I didn’t give him my phone, my interrogation was going to take much longer and they could retain my phone indefinitely,” Kennedy wrote. “I felt like I had no choice, so I handed my phone to the CBP agent.”</p><p><a href="https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>246</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2288940295-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2288940295-500x500-1790801222.jpg" width="500"/>
-<media:credit>Kevin Carter/Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>A local network of implants uses your body as the wiring</title>
-                <link>https://arstechnica.com/science/2026/09/scientists-built-implants-that-talk-to-each-other-through-body-tissue/</link>
-                                    <comments>https://arstechnica.com/science/2026/09/scientists-built-implants-that-talk-to-each-other-through-body-tissue/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jacek Krywko]]>
-                </dc:creator>
-                <pubDate>Wed, 30 Sep 2026 21:06:56 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[bioengineering]]></category>
-		<category><![CDATA[Biology]]></category>
-		<category><![CDATA[implants]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/09/scientists-built-implants-that-talk-to-each-other-through-body-tissue/</guid>
-
-                                    <description>
-                        <![CDATA[It's possible to send electrical signals right through human tissues.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Most implants like pacemakers and insulin pumps work in isolation. To help them coordinate with each other, a team of Georgia Tech researchers built a networking system that sends signals through body tissue instead of antennas and radio waves.</p>
-<h2>Radio problems</h2>
-<p>Implants that communicate today mostly rely on radio protocols like Bluetooth Low Energy or near-field communication (NFC). Both are a poor fit for in-body data transfer, says Alex Abramson, a Georgia Tech engineer and co-author of the new study.</p>
-<p>The first problem is power. “If you want an implant to remain in an active state such that it can respond within milliseconds, it's very difficult to do that with the Bluetooth system,” Abramson said. According to the paper, Bluetooth components, when they’re activated, can cut an implant's battery life by up to 90 percent.</p><p><a href="https://arstechnica.com/science/2026/09/scientists-built-implants-that-talk-to-each-other-through-body-tissue/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/09/scientists-built-implants-that-talk-to-each-other-through-body-tissue/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>27</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1531989233-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1531989233-500x500.jpg" width="500"/>
-<media:credit>Arturo Peña Romano Medina</media:credit><media:text>Sending signals to and among implants could be simpler.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Attackers have been exploiting critical Zimbra flaw to steal emails</title>
-                <link>https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/</link>
-                                    <comments>https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Wed, 30 Sep 2026 20:44:48 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[exploits]]></category>
-		<category><![CDATA[remote code injection]]></category>
-		<category><![CDATA[vulnerabilities]]></category>
-		<category><![CDATA[zimbra collaboration server]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/</guid>
-
-                                    <description>
-                        <![CDATA[A simple email gives the attackers the ability to remotely inject OS commands.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Hackers have been exploiting a critical vulnerability in the Zimbra Collaboration Suite in an attempt to obtain email backups and authentication credentials of vulnerable organzations, Microsoft has <a href="https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/">warned</a>.</p>
-<p>The vulnerability, tracked as CVE-2026-73570, lets attackers remotely issue operating system commands without authentication. Zimbra maintainer Synacor issued a patch on July 20, but didn’t disclose the vulnerability for more than three weeks after that. The security-focused Shadowserver Foundation <a href="https://bsky.app/profile/did:plc:3xyh2kw5hfxsax4zff3pp5ub/post/3mtt4ls2sgs2z">said last week</a> that its scans found that 274 separate instances of the Zimbra Collaboration Suite had been compromised. The number of servers running the software has fluctuated from 19,000 in the week following the patch to about 12,000 in the weeks following that. Currently, Shadowserver is <a href="https://dashboard.shadowserver.org/statistics/iot-devices/time-series/?date_range=other_range&amp;d1=2026-07-01&amp;d2=2026-09-29&amp;vendor=synacor&amp;model=zimbra+collaboration+suite&amp;limit=100&amp;group_by=geo&amp;stacking=stacked">tracking</a> about 10,000 instances.</p>
-<h2>Look, ma, no authorization</h2>
-<p>From July 28 to August 7, Microsoft said Wednesday, the company detected two distinct scanning tools probing the Internet for vulnerable endpoints. The attackers first validated their exploit worked by sending HTTP, requests and DNS, ICMP, and out-of-band identity checks to domains hosted on public services. The probes allowed the attackers to confirm the exploit successfully executed commands on vulnerable servers without actually compromising them. Eventually, the attackers began using their command injection capability to install malicious payloads. Microsoft wrote:</p><p><a href="https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>5</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
             </item>
             </channel>
 </rss>
