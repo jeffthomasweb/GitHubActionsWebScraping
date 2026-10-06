@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Mon, 05 Oct 2026 19:14:44 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 06 Oct 2026 02:12:18 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,112 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>MCP for agent-to-agent comms may be the riskiest protocol you've never heard of</title>
+                <link>https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 05 Oct 2026 22:26:35 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[MCP]]></category>
+		<category><![CDATA[Model Context Protocol]]></category>
+		<category><![CDATA[prompt injection]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/</guid>
+
+                                    <description>
+                        <![CDATA[Trust gaps in the new protocol spread malicious prompts from one agent to another.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The adoption of AI agents in millions of organizations is creating new opportunities for attackers to make them take malicious actions, such as exfiltrating database contents and sensitive business and personal information.</p>
+<p>In the past five months, Google and four other organizations—with little in common except for their use of AI agents—have acknowledged vulnerabilities that exploit one agent inside a targeted network to spread harmful instructions to other internal agents. The technique is a special form of prompt injection that targets not the LLM but a particular agent, such as one for translation or data analysis. Guardrails inside such agents, if they exist at all, are often lax and will send the instructions to other agents down the chain. Because the latter agent explicitly trusts the first one, it follows the directions.</p>
+<h2>Unexpected and hard to mitigate</h2>
+<p>Independent researcher Syed Anas Mohiuddin tested agents from organizations including Google, JP Morgan Chase, Weviate, Rapid7, the French government's interministerial digital directorate, and the US federal government. His proof-of-concept attacks exploit trust gaps in MCP, short for <a href="https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro">Model Context Protocol</a>. The standard is one way AI apps and agents communicate with each other inside an internal network. The illustration below shows a simplified MCP in action.</p><p><a href="https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>38</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Cable lobby to sue Trump FCC over repeal of national TV ownership cap</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Mon, 05 Oct 2026 20:47:48 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[cable lobby]]></category>
+		<category><![CDATA[national television ownership rule]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/</guid>
+
+                                    <description>
+                        <![CDATA[Cable industry to sue, says FCC can't repeal TV ownership limit set by Congress.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Cable lobby groups notified the Federal Communications Commission that they will sue the agency to block its controversial repeal of the National Television Ownership Rule, which limits the number of broadcast TV stations a single company may own.</p>
+<p>The cable groups said that larger broadcast TV station groups will have leverage to demand higher retransmission fees from TV providers, resulting in "higher monthly TV bills for consumers." They said the FCC repeal order "arbitrarily and capriciously ignores the harms that will surely follow from allowing broadcast station groups to exceed the National Cap."</p>
+<p>The cable lobby groups represent top providers Comcast, Charter, and various other cable operators. Top cable companies have also expanded through mergers. Charter <a href="https://corporate.charter.com/newsroom/charter-and-cox-communications-complete-transaction">completed</a> a <a href="https://arstechnica.com/tech-policy/2026/03/fcc-lets-charter-buy-cox-says-no-reason-to-worry-about-higher-internet-prices/">purchase of Cox</a> in August after the FCC rejected <a href="https://www.fcc.gov/ecfs/document/1118228420012/1">protests</a> by advocacy groups that said the cable deal "would create unchecked gatekeeper power over Internet distribution" and make it easier for the biggest cable companies to raise prices.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>46</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/brendan-carr-fcc-crest-1152x648-1771622570.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/brendan-carr-fcc-crest-500x500-1771622581.jpg" width="500"/>
+<media:credit>Getty Images | Kevin Dietsch</media:credit><media:text>FCC Chairman Brendan Carr speaks at a news conference following an FCC meeting on February 18, 2026 in Washington, DC.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Texas city demands $2M for public records on Flock usage</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Mon, 05 Oct 2026 20:31:12 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[alprs]]></category>
+		<category><![CDATA[automated license plate readers]]></category>
+		<category><![CDATA[flock safety]]></category>
+		<category><![CDATA[Flock!]]></category>
+		<category><![CDATA[Fourth Amendment]]></category>
+		<category><![CDATA[mass surveillance]]></category>
+		<category><![CDATA[unconstitutional search]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/</guid>
+
+                                    <description>
+                        <![CDATA[Prices of public records tracking cops' use of Flock go up as backlash swells.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As <a href="https://arstechnica.com/tech-policy/2025/11/flock-haters-cross-political-divides-to-remove-error-prone-cameras/">bipartisan backlash against Flock grows</a>, some cities are asking anti-surveillance advocates and media outlets to pay eye-popping fees—including charging tens of thousands or even millions—to get information about how police departments are using and potentially abusing AI-enabled camera systems that track every vehicle that passes them.</p>
+<p>On Monday, the Texas Tribune <a href="https://www.texastribune.org/2026/10/05/texas-flock-cameras-two-million-public-records-information/">reported</a> that city officials in a Fort Worth suburb, North Richland Hills, asked one group to pay $2.3 million before it would fulfill a public records request for Flock data. To reach that high fee, officials claimed that searching “about a terabyte worth of communications about errors, misuse, and effectiveness of the Flock system” would take approximately 14 years of labor at a rate of $15 per hour.</p>
+<p>Phil Mynona, who filed the request using a pseudonym on behalf of his group, the Texas Privacy Coalition, told the Tribune that the fee seemed “ludicrous” and designed to stifle his public records searches.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>34</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2288945998-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2288945998-500x500-1791229677.jpg" width="500"/>
+<media:credit>Justin Sullivan / Staff | Getty Images News</media:credit></media:content>
+            </item>
+                    <item>
                 <title>Command-line tool quickly removes Apple Intelligence from macOS 27</title>
                 <link>https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/</link>
                                     <comments>https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/#comments</comments>
@@ -40,13 +146,13 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>A new tool is allowing Mac users the ability again to easily turn off Apple Intelligence with one click and free up to 12GB of storage.</p>
-<p>Unlike with previous versions of macOS, <a href="https://arstechnica.com/gadgets/2026/09/macos-27-golden-gate-the-ars-technica-review/">macOS 27 Golden Gate </a>doesn’t have a toggle for turning off Apple Intelligence. That makes disabling AI features that you may not want more difficult. It also means that the AI models necessary for running Apple Intelligence will take up space on your disk<a href="https://support.apple.com/en-us/102149">, even if you don’t use them or if you go through your settings to individually find and disable AI capabilities.</a></p>
+<p>Unlike with previous versions of macOS, <a href="https://arstechnica.com/gadgets/2026/09/macos-27-golden-gate-the-ars-technica-review/">macOS 27 Golden Gate </a>doesn’t have a toggle for turning off Apple Intelligence. That makes disabling AI features that you may not want more difficult. It also means that the AI models necessary for running Apple Intelligence will take up space on your disk<a href="https://support.apple.com/en-us/102149">,</a> <a href="https://support.apple.com/en-us/102149">even if you don’t use them</a> or if you go through your settings to individually find and disable AI capabilities.</p>
 <p>In response, a developer known as <a href="https://github.com/omlahore">Om Lahore</a> on GitHub last week created RemoveMacAI, a command-line tool that allows macOS 27 users to “turn off Apple Intelligence on macOS 27" in a way that is “fully reversible,” per <a href="https://github.com/omlahore/RemoveMacAI">the GitHub page</a>. They said that Apple's Intelligence models take up "about 12GB," but the models can actually take up over 30GB, <a href="https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool?">The Verge</a> noted.</p><p><a href="https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/">Read full article</a></p>
 <p><a href="https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>5</slash:comments>
+                                    <slash:comments>61</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/Screenshot-2026-03-03-at-10.30.27-AM-1152x648.jpeg" width="1152">
@@ -81,7 +187,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>5</slash:comments>
+                                    <slash:comments>12</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2212760356-1152x648.jpg" width="1152">
@@ -120,7 +226,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>14</slash:comments>
+                                    <slash:comments>49</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Ukraine-data-center-1152x648.jpg" width="1152">
@@ -152,7 +258,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>40</slash:comments>
+                                    <slash:comments>56</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298078711-1152x648.jpg" width="1152">
@@ -186,7 +292,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>127</slash:comments>
+                                    <slash:comments>197</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2199370602-1152x648.jpg" width="1152">
@@ -219,7 +325,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>88</slash:comments>
+                                    <slash:comments>105</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/546417470_31238681149113739_395523165946500898_n.jpg">
@@ -252,7 +358,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>102</slash:comments>
+                                    <slash:comments>127</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/08/Varmilo-EC-1152x648.jpg" width="1152">
@@ -287,7 +393,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>55</slash:comments>
+                                    <slash:comments>76</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/egypt1-1152x648-1791134921.jpg" width="1152">
@@ -364,7 +470,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>174</slash:comments>
+                                    <slash:comments>199</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-1463437040-1152x648.jpg" width="1152">
@@ -413,7 +519,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>21</slash:comments>
+                                    <slash:comments>23</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/news-100326a-lg-1152x648.jpg" width="1152">
@@ -448,7 +554,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>130</slash:comments>
+                                    <slash:comments>131</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2261904940-1152x648.jpg" width="1152">
@@ -485,7 +591,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>227</slash:comments>
+                                    <slash:comments>228</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg" width="1152">
@@ -522,7 +628,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>49</slash:comments>
+                                    <slash:comments>50</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/doomsql-1152x648-1790974550.png" width="1152">
@@ -557,7 +663,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>78</slash:comments>
+                                    <slash:comments>79</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2292181016.jpg">
@@ -627,122 +733,6 @@
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2288109986-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2288109986-500x500.jpg" width="500"/>
 <media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>The 2008 economic crisis changed the US's relationship with energy</title>
-                <link>https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/</link>
-                                    <comments>https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[John Timmer]]>
-                </dc:creator>
-                <pubDate>Fri, 02 Oct 2026 18:56:21 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[carbon emissions]]></category>
-		<category><![CDATA[economic growth]]></category>
-		<category><![CDATA[Energy]]></category>
-		<category><![CDATA[gdp]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/</guid>
-
-                                    <description>
-                        <![CDATA[It wasn't obvious at the time, but the US uncoupled carbon emissions and GDP growth.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>One argument that often comes up about climate change is that fossil fuels are good because they powered economic growth that has left most people better off overall. And, to an extent, that has been true, but it's also an extremely limited perspective.</p>
-<p>It's pretty obvious now that the growth they powered has come with very high costs that we've only recently started to pay, in the form of damages and disruptions from extreme weather events. With things like sea level rise expected to continue for centuries even if we hit net zero, it's difficult to estimate how expensive that growth will eventually be.</p>
-<p>But that perspective is also limited: We now have better ways to power our growth—ways that are less environmentally damaging now and won't leave our descendants with a carbon debt that will be difficult to manage.</p><p><a href="https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>61</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1487351817-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1487351817-500x500.jpg" width="500"/>
-<media:credit>Ryan J Lane</media:credit></media:content>
-            </item>
-                    <item>
-                <title>US arrests tech CEO accused of smuggling $300M in Nvidia chips into China</title>
-                <link>https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Fri, 02 Oct 2026 18:39:36 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AI chips]]></category>
-		<category><![CDATA[china]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[Export controls]]></category>
-		<category><![CDATA[NVIDIA]]></category>
-		<category><![CDATA[us-china trade war]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/</guid>
-
-                                    <description>
-                        <![CDATA[Nvidia’s chip-smuggling problem won’t go away as arrests continue.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The US has arrested another suspect accused of smuggling high-end computer servers containing export-controlled Nvidia chips into China.</p>
-<p>In a <a href="https://www.justice.gov/opa/pr/california-man-arrested-smuggling-more-300-million-export-controlled-computer-servers-china">press release</a> on Thursday, the Department of Justice accused 38-year-old Greg Lui of using false paperwork to mask shipments of servers worth more than $300 million that he allegedly knew were ultimately destined for China.</p>
-<p>As the CEO of Earthmade Computer, Lui allegedly conspired with freight-forwarding firms in South Asian countries like Malaysia and Singapore to illegally divert chip shipments into China, including Nvidia’s A100 GPUs and H100 GPUs, the FBI’s <a href="https://cdn.arstechnica.net/wp-content/uploads/2026/10/US-v-Lui-Indictment-10-1-26.pdf">indictment</a> alleged. These are not Nvidia’s most advanced chips. However, the chips can process large amounts of data and train large language models, which the US fears could pose national security risks if China suddenly gets access to enough chips to drastically advance its AI or strengthen its military.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>47</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1258977050-2-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1258977050-2-500x500.jpg" width="500"/>
-<media:credit>Bloomberg / Contributor | Bloomberg</media:credit><media:text>Nvidia H100 graphics processor chips were illegally diverted to China, FBI says.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Research roundup: 6 cool science stories we almost missed</title>
-                <link>https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/</link>
-                                    <comments>https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Fri, 02 Oct 2026 18:17:27 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Archaeology]]></category>
-		<category><![CDATA[biomaterials]]></category>
-		<category><![CDATA[cosmoramas]]></category>
-		<category><![CDATA[Dark Matter]]></category>
-		<category><![CDATA[engineering]]></category>
-		<category><![CDATA[Galileo Galilei]]></category>
-		<category><![CDATA[Large Hadron Collider]]></category>
-		<category><![CDATA[materials science]]></category>
-		<category><![CDATA[Physics]]></category>
-		<category><![CDATA[psychoaoctive compounds]]></category>
-		<category><![CDATA[quantum entanglement]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[telescopes]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/</guid>
-
-                                    <description>
-                        <![CDATA[Also: Spooky action at the LHC, Ice Age psychoactive use, yeast for building homes on Mars, and more.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>It’s a regrettable reality that there is never enough time to cover all the interesting scientific stories we come across. So every month, we highlight a handful of the best stories that nearly slipped through the cracks. September’s list includes a tantalizing hint of the elusive dark matter at the LUX-ZEPLIN detector; entangled Z bosons at the Large Hadron Collider; possible use of psychoactive substances in the Late Pleistocene; and an intriguing technical description of a telescope attributed to Galileo.</p>
-<h2>A hint of dark matter?</h2>
-<div class="ars-video ars-video--horizontal"><div><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/bKCsiK4ZZBY?start=0&amp;wmode=transparent"></div></div></div>
-<p>Physicists believe dark matter makes up roughly 85 percent of matter in our universe, with the strongest (but not only) candidate being so-called weakly interacting massive particles (WIMPs). But directly detecting WIMPs, or other alternative hypothetical dark matter particles, has eluded physicists for decades. We might have our first glimpse, however, courtesy of the LUX-ZEPLIN detector buried deep in a gold mine in South Dakota. Those potentially exciting results were presented in a scientific talk at the <a href="https://indico-icehap.phys.s.chiba-u.ac.jp/event/3/contributions/471/">2026 TeV Particle Astrophysics conference</a> in Japan, with <a href="https://arxiv.org/abs/2609.02823">a preprint</a> available on the arXiv. (It has been submitted to Physical Review Letters for peer review.)</p>
-<p>The announcement came with strong caveats: the signal is just a hint, well below the threshold needed to confirm discovery, and might just be a statistical fluke. Anyone who regularly follows dark matter news knows that past tantalizing anomalies evaporated as more data came in. But the LUX-ZEPLIN team was unable to account for this event and decided to report their result to the broader physics community. They are still collecting data, as is the XENONnT at the Gran Sasso National Laboratory in Italy. And China's PandaX detector is currently being built.</p><p><a href="https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>19</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/darkmatter-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/darkmatter-500x500.jpg" width="500"/>
-<media:credit>Greg Stewart, SLAC National Accelerator Laboratory</media:credit></media:content>
             </item>
             </channel>
 </rss>
