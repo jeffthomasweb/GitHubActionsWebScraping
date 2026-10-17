@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Fri, 16 Oct 2026 15:15:55 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 16 Oct 2026 21:11:48 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,222 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>OpenAI models hacked a crypto wallet and breached more websites</title>
+                <link>https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 16 Oct 2026 20:59:01 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[models]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[unalignment]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/</guid>
+
+                                    <description>
+                        <![CDATA[The actions could have resulted in criminal charges had humans been behind the keyboard.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of its agents performing unethical and likely illegal acts.</p>
+<p>The company on Thursday issued reports of four new incidents, all of which occurred in June. They come after the company <a href="https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack/">revealed in July</a> that internal test agents exploited a zero-day vulnerability in a tool designed to restrict their access to the Internet. They then broke into the network of AI tool provider Hugging Face. The agents took that illegal action to steal answers to a hacking test that weren’t available when completing the tasks on their own. The incident—which likely would have resulted in criminal charges had they been performed directly by a person—has further heightened concerns that widespread AI use could have harmful effects on an unprecedented scale.</p>
+<h2>Easier to beg for forgiveness than ask permission</h2>
+<p>In two of the cases reported Thursday, OpenAI agents tasked with retrieving information from websites hacked them when the models ran into obstacles obtaining it directly. In one incident during reinforcement training, a model that received access denials when trying to retrieve historical hospital-bed statistics on a government statistics website “used the site's file-download feature to retrieve server configuration and application files, including sensitive credentials,” OpenAI <a href="https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/">said</a>. “It inspected the application code, bypassed the statistics endpoint's authorization checks, and retrieved data that had previously been denied. The model saved the data locally.”</p><p><a href="https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>49</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Fri, 16 Oct 2026 20:20:07 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ai csam]]></category>
+		<category><![CDATA[ai porn]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[law enforcement]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/</guid>
+
+                                    <description>
+                        <![CDATA[Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>New Jersey’s deputy attorney general, Brian Richard Fitzgerald, was arrested on “felony charges related to AI-generated child sexual abuse material (CSAM),” Bucks County Detectives said in a <a href="https://www.buckscounty.gov/m/newsflash/home/detail/1647">press release</a> Thursday.</p>
+<p>In the US, cops have vowed to crack down on AI CSAM since at least 2024, when the Department of Justice made <a href="https://arstechnica.com/tech-policy/2024/05/csam-generated-by-ai-is-still-csam-doj-says-after-rare-arrest">one of the earliest arrests</a>. After charging a Wisconsin man with spreading “thousands of realistic images of prepubescent minors” across Telegram and Instagram, the DOJ clarified to law enforcement that “CSAM generated by AI is still CSAM.”</p>
+<img width="640" height="816" src="https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Bucks-County-Detectives-Brian-Richard-Fitzgerald-640x816.jpg" class="none medium" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Bucks-County-Detectives-Brian-Richard-Fitzgerald-640x816.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Bucks-County-Detectives-Brian-Richard-Fitzgerald-768x979.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Bucks-County-Detectives-Brian-Richard-Fitzgerald-980x1250.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Bucks-County-Detectives-Brian-Richard-Fitzgerald.jpg 1010w" sizes="auto, (max-width: 640px) 100vw, 640px">
+      New Jersey’s deputy attorney general, Brian Richard Fitzgerald, was arrested at his home Thursday.
+        Credit:
+          <a href="https://www.buckscounty.gov/m/newsflash/home/detail/1647" target="_blank">via Bucks County Detectives</a>
+      
+<p>On Thursday, New Jersey officials accused 51-year-old Fitzgerald of using AI to make photos from social media of real minors into sexualized images that he then distributed on social media.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>28</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2233803629-2-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2233803629-2-500x500.jpg" width="500"/>
+<media:credit>Yurii Karvatskyi | iStock / Getty Images Plus</media:credit></media:content>
+            </item>
+                    <item>
+                <title>US Rep proposes bill to give video game buyers "ownership," not "a license"</title>
+                <link>https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Samuel Axon]]>
+                </dc:creator>
+                <pubDate>Fri, 16 Oct 2026 19:41:18 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[game preservation]]></category>
+		<category><![CDATA[Power to Players Act]]></category>
+		<category><![CDATA[Ritchie Torres]]></category>
+		<category><![CDATA[Stop Killing Games]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/</guid>
+
+                                    <description>
+                        <![CDATA[There are still significant hurdles ahead, both technical and legislative.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p><!-- obsidian --></p>
+<p>A new bill proposed by Rep. Ritchie Torres (D-NY) aims to establish new regulations that would ensure that "buying a video game would give the consumer ownership of the game rather than a license to play it," including assurances that they can continue to access the games for years after they are released.</p>
+<p>The announcement names <em>NBA 2K25</em> as an example of the problem the bill aims to solve; that game launched on September 6, 2025, but is <a href="https://www.ign.com/articles/nba-2k25-is-getting-delisted-after-just-2-years-and-single-player-story-mode-will-become-unplayable">scheduled</a> to become unplayable on December 31 due to server shutdowns. The bill, which is called the Power to Players Act, directs the FTC to take action to prevent outcomes like that in the future.</p><p><a href="https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>39</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Torres-headshot-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Torres-headshot-500x500.jpg" width="500"/>
+<media:credit>House of Representatives</media:credit><media:text>U.S. Representative Ritchie Torres (Democrat, New York).</media:text></media:content>
+            </item>
+                    <item>
+                <title>Bug turns one of the biggest fears about Ray-Ban Meta smart glasses into reality</title>
+                <link>https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Fri, 16 Oct 2026 19:11:50 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[ray-ban]]></category>
+		<category><![CDATA[smart glasses]]></category>
+		<category><![CDATA[smart home]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/</guid>
+
+                                    <description>
+                        <![CDATA[The bug is fixed, but privacy concerns remain. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Some Ray-Ban Meta smart glasses were recording people’s conversations without the wearer knowing. The recordings occurred without users saying the prompt phrase (“Hey, Meta”), in a bug that Meta says has been fixed.</p>
+<p>This week, <a href="https://www.reddit.com/r/RaybanMeta/comments/1x4n96n/warning_my_rayban_meta_glasses_are_recording/">some users</a> <a href="https://www.reddit.com/r/MetaGlasses/comments/1x4o2dm/comment/pgfb0l2/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button">reported</a> online that their Ray-Ban Metas were recording without their consent. A person going by Kindly-Audience-137 on Reddit, for example, <a href="https://www.reddit.com/r/MetaGlasses/comments/1x4o2dm/comment/pgfb0l2/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button">said</a> this happened to them across three Meta Ray-Bans and that they had the “Respond without Hey Meta” setting turned off. The person said the Meta AI app “saves audio recordings and text transcripts of these conversations in my conversation history.”</p>
+<p>“I believe this deserves a serious technical investigation. Customers should not have to wonder whether their private conversations are being captured when they have not intentionally activated their glasses’ AI assistant,” the Reddit user said.</p><p><a href="https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>47</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/unnamed-1-875x648.jpg" width="875">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/unnamed-1-500x500.jpg" width="500"/>
+<media:credit>Meta</media:credit><media:text>The LED light shines as a woman records with Ray-Ban Meta smart glasses.</media:text></media:content>
+            </item>
+                    <item>
+                <title>RFK Jr. proposes FDA look the other way on unproven peptides, report says</title>
+                <link>https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says/</link>
+                                    <comments>https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Fri, 16 Oct 2026 17:05:59 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[fda]]></category>
+		<category><![CDATA[Peptides]]></category>
+		<category><![CDATA[robert f kennedy jr]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says/</guid>
+
+                                    <description>
+                        <![CDATA[FDA scientists said none of the popular drugs have been proven safe or effective.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Under Health Secretary Robert F. Kennedy Jr., the Food and Drug Administration is moving forward with plans to ease access to unproven peptide drugs that are popular among members of Kennedy's Make America Healthy Again movement—despite FDA staff scientists finding that the drugs have not been sufficiently studied to establish safety and efficacy and may cause harms.</p>
+<p>The FDA submitted an "Interim Access Policy" on peptides for review by the White House, according to a filing notice posted on an Office of Management and Budget website. The posting does not provide information on the proposed policy. But people familiar with the proposal told The Associated Press that it would give the FDA "enforcement discretion" on certain peptide drugs. This would allow the agency to choose not to enforce current restrictions on peptides and provide an assurance to specialty pharmacies eager to start making them that they will not be targeted by the agency.</p>
+<p>The Department of Health and Human Services, which oversees the FDA, did not respond to a request for comment from Ars Technica.</p><p><a href="https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>55</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2268348621-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2268348621-500x500.jpg" width="500"/>
+<media:credit>Getty | Leandro Lozada</media:credit><media:text>US Secretary of Health and Human Services Robert F. Kennedy Jr. speaks during the Conservative Political Action Conference (CPAC) in Grapevine, Texas, on March 27, 2026. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Fri, 16 Oct 2026 15:41:00 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ai crawling]]></category>
+		<category><![CDATA[ai scraping]]></category>
+		<category><![CDATA[AI training]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[whatsapp]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/</guid>
+
+                                    <description>
+                        <![CDATA[Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Legal experts are sounding alarms that Meta will soon update its commercial terms to require business accounts to allow Meta to train AI on their linked website content, not just their social media posts.</p>
+<p>Kicking in on October 30, the TOS update won’t allow businesses to opt out, instead suggesting that businesses stop using Meta services if they won’t agree to let Meta bots freely crawl their linked content.</p>
+<p>As Nieman Lab <a href="https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/">reported</a> Thursday, this will affect all business accounts but is particularly shocking for news publishers who could perhaps charge Meta millions in licensing fees to continually access their articles for AI training. Currently <a href="https://arstechnica.com/tech-policy/2024/02/why-the-new-york-times-might-win-its-copyright-lawsuit-against-openai/">news organizations are fighting a battle with OpenAI</a> over whether such training without licensing is fair use, and Meta's terms seemingly risk granting it sweeping permissions, no matter which way the court leans.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>57</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2296621320-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2296621320-500x500.jpg" width="500"/>
+<media:credit>SOPA Images / Contributor | LightRocket</media:credit></media:content>
+            </item>
+                    <item>
                 <title>Polymarket saw $600 million in election trades after the elections were over</title>
                 <link>https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over/</link>
                                     <comments>https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over/#comments</comments>
@@ -45,7 +261,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>25</slash:comments>
+                                    <slash:comments>44</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/polymarket-1024x648.jpg" width="1024">
@@ -77,7 +293,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>128</slash:comments>
+                                    <slash:comments>421</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Roadster_87-1152x648.jpg" width="1152">
@@ -127,7 +343,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>11</slash:comments>
+                                    <slash:comments>34</slash:comments>
                 
                 
                 <media:content height="597" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/SuperScamMe_UHD_42-1152x597.jpg" width="1152">
@@ -162,7 +378,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>32</slash:comments>
+                                    <slash:comments>57</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/MS_Surface_Laptop_Ultra_Feature-1152x648.jpg" width="1152">
@@ -207,7 +423,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>23</slash:comments>
+                                    <slash:comments>42</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/stoke1-1152x648.jpg" width="1152">
@@ -241,7 +457,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>29</slash:comments>
+                                    <slash:comments>48</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Blue-Origin-Upper-Stage-Facility-Still-Render-1152x648.png" width="1152">
@@ -278,7 +494,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>43</slash:comments>
+                                    <slash:comments>82</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Googlebooks-1-1152x648.jpg" width="1152">
@@ -312,7 +528,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>86</slash:comments>
+                                    <slash:comments>105</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/KDE_Birthday_30th_Laptop-1070x648.png" width="1070">
@@ -346,7 +562,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>89</slash:comments>
+                                    <slash:comments>111</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2218632851-1152x648.jpg" width="1152">
@@ -380,7 +596,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>106</slash:comments>
+                                    <slash:comments>115</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2293221834-1152x648.jpg" width="1152">
@@ -414,7 +630,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>86</slash:comments>
+                                    <slash:comments>111</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1.jpg">
@@ -451,7 +667,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>77</slash:comments>
+                                    <slash:comments>81</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/CC27X05IX0009_sRGB_072dpi-1152x648.jpg" width="1152">
@@ -486,7 +702,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>48</slash:comments>
+                                    <slash:comments>53</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/05/bell-ALT-1152x648-1778533198.jpg" width="1152">
@@ -529,223 +745,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>174</slash:comments>
+                                    <slash:comments>188</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Black-Sea-sailors-rescued-by-Bulgaria-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Black-Sea-sailors-rescued-by-Bulgaria-500x500.jpg" width="500"/>
 <media:credit>Hristo Rusev/Getty Images</media:credit><media:text>Rescued sailors from a ship attacked by a drone arrive at Varna port in Bulgaria on October 13, 2026.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Microplastics in water aren’t inert and make damaging chemicals on their own</title>
-                <link>https://arstechnica.com/science/2026/10/microplastics-in-water-arent-inert-and-make-damaging-chemicals-on-their-own/</link>
-                                    <comments>https://arstechnica.com/science/2026/10/microplastics-in-water-arent-inert-and-make-damaging-chemicals-on-their-own/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jacek Krywko]]>
-                </dc:creator>
-                <pubDate>Thu, 15 Oct 2026 18:39:17 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[microplastic]]></category>
-		<category><![CDATA[microplastics]]></category>
-		<category><![CDATA[nanoplastics]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/microplastics-in-water-arent-inert-and-make-damaging-chemicals-on-their-own/</guid>
-
-                                    <description>
-                        <![CDATA[Its effect on people remains an ongoing question. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>One reason plastics are used so often is that they’re chemically inert, meaning bags, food containers, and cups don't react with what we put in them. Yet they can still break down into microplastics, which turn up in drinking water, human blood, arteries, and brains. The consequences of that are uncertain.</p>
-<p>“Whether microplastics can directly cause human disease is still being researched,” said Wei Min, a chemist at Columbia University. In a new Nature study, Min's team took a step toward answering this question by demonstrating that microplastics are likely not as chemically inert as we might expect.</p>
-<h2>Microdroplet chemistry</h2>
-<p>Min's lab has spent years working on microdroplet chemistry, studying how water broken into tiny droplets behaves at its boundary with air. These droplets have been reported to generate reactive oxygen species, or ROS, a family of harmful, oxygen-containing molecules. “ROS will essentially bump into proteins, lipids, DNA, and cause damage,” Min said. “You could break a DNA strand into segments. You could mutate DNA; you could misfold proteins.”</p><p><a href="https://arstechnica.com/science/2026/10/microplastics-in-water-arent-inert-and-make-damaging-chemicals-on-their-own/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/10/microplastics-in-water-arent-inert-and-make-damaging-chemicals-on-their-own/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>36</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1922961716-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1922961716-500x500.jpg" width="500"/>
-<media:credit>Brandon Bell/Getty Images</media:credit><media:text>Bottled water is displayed for sale at a Randalls grocery store on January 10, 2024 in Austin, Texas. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Trump cancels Pentagon plans to livestream firing squad execution</title>
-                <link>https://arstechnica.com/tech-policy/2026/10/trump-cancels-pentagon-plans-to-livestream-firing-squad-execution/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/10/trump-cancels-pentagon-plans-to-livestream-firing-squad-execution/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Thu, 15 Oct 2026 18:16:36 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[livestream]]></category>
-		<category><![CDATA[Pentagon]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/trump-cancels-pentagon-plans-to-livestream-firing-squad-execution/</guid>
-
-                                    <description>
-                        <![CDATA[8 in 10 Americans opposed the Pentagon's plans, a Thursday poll showed.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>On Thursday, Donald Trump called off the Pentagon’s highly controversial plans to livestream a firing squad execution that is still on schedule for December 3.</p>
-<p>Trump supports the execution of Nidal Hasan, who was convicted of killing 13 people and wounding more than 30 others in the 2009 mass shooting at Fort Hood. But sources close to Trump <a href="https://www.cnn.com/2026/10/15/politics/fort-hood-shooter-execution-livestream-called-off">told CNN</a> that the president was blindsided last week when Secretary of Defense Pete Hegseth announced that the event—which is the first US execution of a soldier since World War II—would be livestreamed.</p>
-<p>Backlash to the livestream was immediate and crossed political divides. On the morning Trump canceled the plans, an ABC News <a href="https://abcnews.com/Politics/wide-majority-americans-oppose-livestreaming-nidal-hasans-execution/story?id=137263671">poll</a> found 8 in 10 Americans were against the livestream, including a 55 percent majority of MAGA Republicans.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/trump-cancels-pentagon-plans-to-livestream-firing-squad-execution/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/10/trump-cancels-pentagon-plans-to-livestream-firing-squad-execution/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>233</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2294712564-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2294712564-500x500.jpg" width="500"/>
-<media:credit>Chip Somodevilla / Staff | Getty Images News</media:credit><media:text>Donald Trump was reportedly not aware of Pete Hegseth's plans for the livestream.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Neutron's first launch slips again amid trouble with carbon composites</title>
-                <link>https://arstechnica.com/space/2026/10/rocket-lab-announces-another-delay-for-its-medium-lift-neutron-rocket/</link>
-                                    <comments>https://arstechnica.com/space/2026/10/rocket-lab-announces-another-delay-for-its-medium-lift-neutron-rocket/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Thu, 15 Oct 2026 16:57:24 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[neutron rocket]]></category>
-		<category><![CDATA[rocket lab]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/10/rocket-lab-announces-another-delay-for-its-medium-lift-neutron-rocket/</guid>
-
-                                    <description>
-                        <![CDATA[Rocket Lab announced the Neutron rocket in 2021, aiming for a first flight in 2024.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Rocket Lab announced Wednesday that its Neutron launch vehicle won't fly until 2027, citing an issue discovered during manufacturing of the rocket's carbon composite structures.</p>
-<p>The announcement was public confirmation of what nearly everyone inside Rocket Lab and the wider space industry already knew. The most recent official update from Rocket Lab in August suggested the company still held hope of delivering the first Neutron rocket to its launch pad at Wallops Island, Virginia, before the end of this year, a schedule that would have almost certainly pushed the first flight into 2027.</p>
-<p>But Rocket Lab's statement Wednesday about Neutron's schedule suggests the company is still struggling with manufacturing the rocket's large booster stage. Neutron's reusable first stage is made of carbon composite structures, which offer low weight, high strength, and corrosion resistance. But carbon composites in aerospace are generally harder to manufacture than metallic structures.</p><p><a href="https://arstechnica.com/space/2026/10/rocket-lab-announces-another-delay-for-its-medium-lift-neutron-rocket/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/10/rocket-lab-announces-another-delay-for-its-medium-lift-neutron-rocket/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>65</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/53194639182_2982a6d6de_h-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/53194639182_2982a6d6de_h-500x500.jpg" width="500"/>
-<media:credit>Rocket Lab</media:credit><media:text>Artist's illustration of the Neutron rocket.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”</title>
-                <link>https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Thu, 15 Oct 2026 15:43:24 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[AI agents]]></category>
-		<category><![CDATA[AI security]]></category>
-		<category><![CDATA[andrew ferguson]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[federal trade commission]]></category>
-		<category><![CDATA[frontier ai]]></category>
-		<category><![CDATA[FTC]]></category>
-		<category><![CDATA[openai]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/</guid>
-
-                                    <description>
-                        <![CDATA[FTC may fine AI firms on par with companies that delay data breach reports.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p style="font-weight: 400;">Following a string of incidents where AI models <a href="https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack/">hacked websites</a> and <a href="https://arstechnica.com/ai/2026/09/heres-what-actually-happened-in-openais-australian-govt-server-hack/">breached government systems</a> during testing phases, the Federal Trade Commission is officially probing Anthropic and OpenAI over consumer harms, an insider <a href="https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation">told Axios</a>.</p>
-<p style="font-weight: 400;">On Wednesday, the FTC sent out civil investigative demands seeking a wide range of information from the AI firms on recent safety incidents.</p>
-<p style="font-weight: 400;">The FTC did not respond to Ars’ request to review the subpoena demands. However, Axios’ source said the requests spanned more than 50 pages of questions and sought documents related to the incidents, internal security measures taken, and marketing materials that may suggest consumers were misled.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>56</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2277824748-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2277824748-500x500.jpg" width="500"/>
-<media:credit>Tom Williams / Contributor | CQ-Roll Call, Inc.</media:credit><media:text>FTC Chair Andrew Ferguson has said AI firms are liable for losing control of AI agents.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Singer or clanker? YouTube Music will tell you with new gen AI labeling.</title>
-                <link>https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/</link>
-                                    <comments>https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Thu, 15 Oct 2026 15:12:58 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[AI music]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[youtube music]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/</guid>
-
-                                    <description>
-                        <![CDATA[The AI music labels are rolling out now in YouTube Music and will come to YouTube soon.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Genuine human creativity takes time, but you know what doesn't? AI slop. There are countless AI models out there that can make something that passes for music, and you might come across those tracks on streaming services without realizing it. <a href="https://blog.youtube/news-and-events/youtube-music-ai-labels/">Google says</a> it will begin labeling that content in YouTube Music, building on similar disclosures in the main YouTube app.</p>
-<p>Google is not outright banning AI music or even speaking ill of it. "Generative AI is opening up new ways for artists to create, experiment, and share music," the company says in a blog post.</p>
-<p>However, the company also acknowledges that people want to know if a song was created with generative AI tools. A new label for AI content on YouTube Music is now rolling out in the app and on the website, which looks a lot like a label Google <a href="https://arstechnica.com/google/2026/05/youtube-to-begin-automatically-labeling-ai-videos/">began adding</a> to AI-generated videos on YouTube earlier this year.</p><p><a href="https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>85</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/youtube-music-gen-ai-labels-fill2-1152x648.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/youtube-music-gen-ai-labels-fill2-500x500.png" width="500"/>
-<media:credit>Google</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Rewilding could help vulnerable islands keep pace with rising seas</title>
-                <link>https://arstechnica.com/science/2026/10/seabirds-forests-and-coral-could-help-save-sinking-islands/</link>
-                                    <comments>https://arstechnica.com/science/2026/10/seabirds-forests-and-coral-could-help-save-sinking-islands/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Bob Berwyn, Inside Climate News]]>
-                </dc:creator>
-                <pubDate>Thu, 15 Oct 2026 15:05:40 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[atolls]]></category>
-		<category><![CDATA[climate change]]></category>
-		<category><![CDATA[coral reefs]]></category>
-		<category><![CDATA[ocean levels]]></category>
-		<category><![CDATA[rewilding]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/seabirds-forests-and-coral-could-help-save-sinking-islands/</guid>
-
-                                    <description>
-                        <![CDATA[Seabirds, native plants, and healthy reefs can help atolls build as seas rise.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Coral-fringed tropical atolls are among the landforms most threatened by global warming, but many have a potential superpower: Healthy ecosystems may help them keep pace with rising seas.</p>
-<p>Atoll islands with native vegetation and thriving seabird populations are “naturally active systems that can change and adapt to their environmental conditions if they are allowed to do so,” said <a href="https://www.lancaster.ac.uk/lec/about-us/people/nick-graham">Nick Graham</a>, a marine ecologist at Lancaster University in the United Kingdom, who led an international team of scientists that studied island resilience across 28 atoll islands in the Pacific and Indian oceans.</p>
-<p>Their paper, <a href="https://doi.org/10.1126/sciadv.aem6116">published Wednesday in Science Advances</a>, shows that restoring atoll ecosystems reinforces their growth. Seabirds ferry nutrients from the open ocean and deposit them on the atolls as guano that nurtures land plants, marine life and coral growth. This provides more material for reef building, as parrotfish and other reef feeders turn dead coral into sand to maintain beaches, while native plants with extensive root networks stabilize sediments.</p><p><a href="https://arstechnica.com/science/2026/10/seabirds-forests-and-coral-could-help-save-sinking-islands/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/10/seabirds-forests-and-coral-could-help-save-sinking-islands/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>13</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/researchersatoll-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/researchersatoll-500x500.jpg" width="500"/>
-<media:credit>Alexis Rosenfeld/Getty Images</media:credit><media:text>Researchers inspect heat-resilient corals in Tatakoto, French Polynesia.</media:text></media:content>
             </item>
             </channel>
 </rss>
