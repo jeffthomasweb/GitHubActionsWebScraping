@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Wed, 21 Oct 2026 22:17:50 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 22 Oct 2026 13:31:42 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,114 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Forget "Malaise 2.0," GM says it's still all-in on EVs and autonomy</title>
+                <link>https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/</link>
+                                    <comments>https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Chad Kirchner]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 13:04:32 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Gen-4 EV architecture]]></category>
+		<category><![CDATA[General Motors]]></category>
+		<category><![CDATA[GM Future]]></category>
+		<category><![CDATA[Sterling Anderson]]></category>
+		<category><![CDATA[Super Cruise]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/</guid>
+
+                                    <description>
+                        <![CDATA[General Motors' plans will require quite a lot of customers' trust.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<aside class="pullbox sidebar fullwidth">GM provided flights from Detroit to New York and accommodation so Ars could attend the GM Future event. Ars does not accept paid editorial content.</aside>
+<p>It’s easy to criticize US automakers and their tepid approach to electric vehicles under the current administration and the expiration of the <a href="https://arstechnica.com/tag/ev-tax-credit/">EV tax credit</a>. It’s also easy to look at the rest of the world's embrace of EVs and wonder if the US is entering a “Malaise 2.0” era. Which is why GM wants the world to know that it is still focused on its end goals of electrification, autonomy, and improving vehicle quality while reducing development time.</p>
+<p>At this year’s GM Forward event, company executives announced that its hands-off, eyes-off Super Cruise technology will expand across the lineup and be available on nearly every vehicle. This will include the pickup trucks and the crossovers, and not just the Escalade IQ that it was announced for last year.</p>
+<p>Sterling Anderson, GM’s head of product, said the company is testing this technology to the tune of 1 million miles (1.6 million km) a month in both the virtual and real world. The goal is that not only would the vehicle be able to take you places, but it could go and do things for you.</p><p><a href="https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>19</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/OnStar-AI-Assistant-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/OnStar-AI-Assistant-500x500.jpg" width="500"/>
+<media:credit>GM</media:credit></media:content>
+            </item>
+                    <item>
+                <title>333 Tor exit nodes hijacked to intercept SSH traffic and retrieve plaintext email</title>
+                <link>https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 11:30:33 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[exploit]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[the onion router]]></category>
+		<category><![CDATA[tor]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/</guid>
+
+                                    <description>
+                        <![CDATA[For 3 days this month, 333 exit nodes were hacked in hopes of stealing sensitive data.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Unknown hackers hijacked more than 300 Tor exit nodes and reconfigured them to favor unencrypted email traffic and redirect SSH connections through servers they controlled, a researcher reported Tuesday.</p>
+<p>The hijacking began in late August, when, <a href="https://lists.torproject.org/mailman3/hyperkitty/list/tor-relays@lists.torproject.org/thread/QHRD6YOX6RZRDR7NCHNDO7GLCEA6VFM6/">according to Tor volunteers</a>, the attacker used a valid password that had been reused to gain access to a Tor management server. The attacker then installed <a href="https://www.eset.com/us/about/newsroom/press-releases/eset-research-ebury-botnet-alive-growing/">Ebury</a>, a backdoor written for Linux that was discovered 12 years ago.</p>
+<h2>Mysteries remain</h2>
+<p>Then the attacker connected from the management server to a second Tor server, called Switzerland2, through SSH, using an RSA key that, for unknown reasons, investigators couldn’t find among Switzerland2’s authorized keys. With administrative control of Switzerland2, the attackers installed Ebury there as well. Finally, the attacker reconfigured settings on two exit nodes that Switzerland2 hosted.</p><p><a href="https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>13</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1237260150-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1237260150-500x500.jpg" width="500"/>
+<media:credit>Photo Illustration by Pavlo Gonchar/SOPA Images/LightRocket via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>UN says we're going to blow past 1.5º warming, offers a "now what?" answer</title>
+                <link>https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/</link>
+                                    <comments>https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 11:15:36 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[climate goals]]></category>
+		<category><![CDATA[paris agreement]]></category>
+		<category><![CDATA[warming]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/</guid>
+
+                                    <description>
+                        <![CDATA[Best case is now an overshoot to 1.8º C, accompanied by massive carbon removal.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In 2015, all but two countries agreed to make an effort to keep global temperatures from reaching 1.5° C above pre-industrial readings. Since then, most of the world has largely treated what they signed on to as aspirational, and one of the largest emitters (the US) has alternately withdrawn and recommitted to the agreement. Meanwhile, the planet has responded as expected to steadily rising carbon emissions and appears to be practically at the 1.5° limit.</p>
+<p>On Wednesday, for the first time, the United Nations Environmental Programme (UNEP) <a href="https://www.unep.org/en/news-and-stories/press-release/new-unep-report-lays-out-emission-cuts-needed-return-15degc">acknowledged that reality</a>, and conceded that the goal of keeping warming below 1.5° was no longer a viable one. Instead, its new goalposts focus on keeping both how long we exceed that limit and how much we exceed it by, at a minimum. Doing that will require both dramatic emissions cuts now and the removal of hundreds of gigatonnes of carbon dioxide from the atmosphere before the century is out.</p>
+<h2>Bowing to the inevitable</h2>
+<p>Depending on which baseline you use to establish pre-industrial temperatures, as well as which reconstruction of global temperatures you rely on, the world has either gotten very close to, or already exceeded the 1.5° milestone. The current El Niño event, which appears exceptionally strong, will almost certainly mean that we've gone over it no matter which records you choose.</p><p><a href="https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>35</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2170672849-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2170672849-500x500.jpg" width="500"/>
+<media:credit>Abstract Aerial Art</media:credit></media:content>
+            </item>
+                    <item>
                 <title>FCC chair warns media not to run the "fake polls" Trump keeps complaining about</title>
                 <link>https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about/</link>
                                     <comments>https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about/#comments</comments>
@@ -45,7 +153,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>62</slash:comments>
+                                    <slash:comments>138</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/trump-carr-1152x648-1734382746.jpg" width="1152">
@@ -84,7 +192,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>49</slash:comments>
+                                    <slash:comments>124</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/xcloud3-1152x648.jpg" width="1152">
@@ -116,7 +224,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>14</slash:comments>
+                                    <slash:comments>50</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-832621336-1024x648.jpg" width="1024">
@@ -137,7 +245,7 @@
                 <guid isPermaLink="true">https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/</guid>
 
                                     <description>
-                        <![CDATA[Tesla’s once-booming energy storage business also shrunk in Q3 2026.]]>
+                        <![CDATA[Tesla’s once-booming energy storage business also shrank in Q3 2026.]]>
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>Tesla published its third-quarter 2026 financial results this afternoon. <a href="https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/">Earlier in October, it reported</a> its sales and deliveries for the three-month period, selling fewer cars than in <a href="https://arstechnica.com/cars/2025/10/tesla-profits-fall-37-in-q3-despite-healthy-sales/">the same quarter in 2025</a>, yet it still beat analyst projections. Now we can see how those sales translate to the bottom line. Tesla brought in $28 billion in revenue in Q3, almost the same as in 2025.</p>
@@ -147,7 +255,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>52</slash:comments>
+                                    <slash:comments>106</slash:comments>
                 
                 
                 <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/10/tesla-polarizing.jpg">
@@ -181,7 +289,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>55</slash:comments>
+                                    <slash:comments>87</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/apple-music-rebrand-icon-1152x648.jpg" width="1152">
@@ -217,7 +325,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>112</slash:comments>
+                                    <slash:comments>151</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/webp" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/me3ending-1152x648.webp" width="1152">
@@ -252,7 +360,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>10</slash:comments>
+                                    <slash:comments>12</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Google-cloud-IO-1152x648.jpg" width="1152">
@@ -288,7 +396,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>156</slash:comments>
+                                    <slash:comments>201</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/starlink-ukraine-1152x648-1792605015.jpg" width="1152">
@@ -329,7 +437,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>30</slash:comments>
+                                    <slash:comments>38</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/xAI-Thermal-Image-1152x648.jpg" width="1152">
@@ -366,7 +474,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>53</slash:comments>
+                                    <slash:comments>69</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2226225055-1152x648.jpg" width="1152">
@@ -400,7 +508,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>94</slash:comments>
+                                    <slash:comments>121</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/HTU8ja-XgAE6GwQ-1152x648.jpg" width="1152">
@@ -437,7 +545,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>64</slash:comments>
+                                    <slash:comments>67</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/openevidencelist-1152x648.jpg" width="1152">
@@ -473,7 +581,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>65</slash:comments>
+                                    <slash:comments>72</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/carrieTOP-1152x648.jpg" width="1152">
@@ -515,7 +623,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>31</slash:comments>
+                                    <slash:comments>35</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_184926781-1152x648.jpg" width="1152">
@@ -551,7 +659,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>139</slash:comments>
+                                    <slash:comments>149</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-1000x648.jpeg" width="1000">
@@ -587,7 +695,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>228</slash:comments>
+                                    <slash:comments>234</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/tesla-in-space-1152x648.jpg" width="1152">
@@ -621,114 +729,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>119</slash:comments>
+                                    <slash:comments>127</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1234276092-1152x648.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1234276092-500x500.jpg" width="500"/>
 <media:credit>Getty | Nicholas Kajoba</media:credit><media:text>A medical worker prepares a hepatitis B vaccine. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Microsoft reportedly projects $1,200 to $1,800 price for 2028 Project Helix</title>
-                <link>https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/</link>
-                                    <comments>https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Oct 2026 21:14:33 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[project helix]]></category>
-		<category><![CDATA[XBox]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/</guid>
-
-                                    <description>
-                        <![CDATA[Xbox maker is also apparently planning its own gaming handheld for next year.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>We haven't heard many details about Microsoft's upcoming "Project Helix" gaming hardware since <a href="https://arstechnica.com/gaming/2026/03/ms-exec-microsofts-next-console-will-play-xbox-and-pc-games/">the company announced it in March</a> as a device that will "play your Xbox and PC games." In <a href="https://fortune.com/2026/10/20/the-non-gamer-ceo-racing-to-save-microsofts-xbox/">a new wide-ranging profile of Xbox CEO Asha Sharma</a>, though, Fortune alludes to a dual release strategy for upcoming Microsoft gaming hardware, with "a next-generation handheld device" planned by the end of next year and a 2028 holiday season console release that could cost between $1,200 and $1,800.</p>
-<p>That future console price range is based on what has "internally been projected" at the company, according to Fortune. But the price for consumers could come down if "Microsoft decides to subsidize the cost," the outlet says, as <a href="https://arstechnica.com/gaming/2012/10/why-nintendo-is-losing-money-on-each-wii-u-launch-unit/">many console makers</a> have <a href="https://arstechnica.com/gaming/2006/11/8239/">done in the past</a>.</p>
-<p>While a $1,200 starting price would be historically high for the game console market, <a href="https://arstechnica.com/gaming/2025/08/todays-game-consoles-are-historically-overpriced/">even accounting for inflation</a>, it also reflects a new normal: <a href="https://arstechnica.com/gadgets/2025/05/chips-arent-improving-like-they-used-to-and-its-killing-game-console-price-cuts/">The slowdown in Moore's Law</a> and <a href="https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/">AI-driven component shortages</a> means cutting-edge gaming hardware just isn't as cheap as it used to be. This year, <a href="https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/">the Steam Machine broke the $1,000 starting price</a>, while <a href="https://arstechnica.com/gaming/2024/11/the-ps5-pros-biggest-problem-is-that-the-ps5-is-already-very-good/">the 2-year-old technology in the PlayStation 5 Pro</a> is <a href="https://arstechnica.com/gadgets/2026/03/sony-is-raising-playstation-5-prices-again-this-time-by-between-100-and-150/">now going for $900</a>, and the 6-year-old Xbox Series X <a href="https://news.xbox.com/en-us/2026/06/25/xbox-console-price-update/">now starts at $750</a>.</p><p><a href="https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>153</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/07/xbox-dominoes-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/07/xbox-dominoes-500x500.jpg" width="500"/>
-<media:text>The tumbling continues.</media:text></media:content>
-            </item>
-                    <item>
-                <title>JustWatch, which tackles streaming fragmentation, launches own streaming service</title>
-                <link>https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Oct 2026 20:20:12 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[streaming]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/</guid>
-
-                                    <description>
-                        <![CDATA[A lifetime ad-free subscription is available. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Since launching in 2015, JustWatch has helped people navigate the growing number of streaming services by providing a guide on where to find movies they want to stream. Now JustWatch has its own streaming service and wants people to subscribe.</p>
-<p>Launched today, JustWatch TV offers some movies available for free with ads that aren’t free on any other streaming service, including <em>Green Room</em> (2015), <em>Locke</em> (2013), and <em>Sing Sing</em> (2023). Other free movies include <em>Fiddlin</em>’ (2018<em>), Friday the 13th </em>(1980), and <em>Hotel Mumbai</em> (2018). I could play movies available for free on JustWatch TV without creating an account.</p>
-<p>JustWatch TV also has movies you can rent.</p><p><a href="https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>48</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Global_banner_preview-1152x648.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Global_banner_preview-500x500.png" width="500"/>
-<media:credit>JustWatch</media:credit><media:text>A marketing image for the JustWatchTV streaming service that launched today. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Meta drops the word "train" from its commercial TOS after AI backlash</title>
-                <link>https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Oct 2026 20:07:58 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[ai scraping]]></category>
-		<category><![CDATA[AI training]]></category>
-		<category><![CDATA[Facebook]]></category>
-		<category><![CDATA[Instagram]]></category>
-		<category><![CDATA[meta]]></category>
-		<category><![CDATA[social media]]></category>
-		<category><![CDATA[whatsapp]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/</guid>
-
-                                    <description>
-                        <![CDATA[Meta changes AI scraping policy but won’t add language respecting robots.txt.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Hoping to quell criticism, Meta has dropped the word “train” from its <a href="https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/">“streamlined” commercial terms of service</a> that kick in on October 30.</p>
-<p>Last week, Meta faced backlash after legal experts <a href="https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/">warned</a> that the tech giant’s sweeping new commercial terms of service seemed to give Meta permission to endlessly scrape websites linked on business pages. Talking to Nieman Lab, experts suggested that Meta could possibly use the policy to avoid millions in licensing fees from news organizations by requiring all business users to share a wealth of AI training data simply for running a business page.</p>
-<p>A Meta spokesperson confirmed that Meta did not alert users to the changed language following backlash. This potentially only adds to confusion ahead of the policy rollout. In response to backlash, Meta's spokesperson provided a statement to Ars, acknowledging Nieman Lab's initial report but not its follow-up report reiterating experts' concerns:</p><p><a href="https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>21</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2299491134-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2299491134-500x500-1792525443.jpg" width="500"/>
-<media:credit>filo | DigitalVision Vectors</media:credit></media:content>
             </item>
             </channel>
 </rss>
