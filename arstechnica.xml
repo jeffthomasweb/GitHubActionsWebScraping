@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Thu, 22 Oct 2026 13:31:42 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 22 Oct 2026 23:51:38 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,608 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Switch 2 security takes a hit as hackers unlock homebrew access</title>
+                <link>https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 22:25:33 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[exploit]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[Nintendo]]></category>
+		<category><![CDATA[smilebasic]]></category>
+		<category><![CDATA[Switch]]></category>
+		<category><![CDATA[switch 2]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/</guid>
+
+                                    <description>
+                        <![CDATA["Userland" exploit relies on integer overflow found in "SmileBasic" interpreter.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A security researcher has demonstrated a software-only partial jailbreak of the Switch 2, gaining "userland" access that he says "lets us run homebrew, reverse engineer and mod Switch 2 games, back up save files off the Switch, and access most of the Switch 2’s peripherals through MMIO."</p>
+<p><a href="https://gitlab.com/pepsipu/ns2jb">The hack</a> relies on the original Switch version of <a href="https://www.petc4.smilebasic.com/about?lang=en">SmileBasic 4</a>, the latest in a long-running series of programming environments and interpreters that run on Nintendo hardware. The so-called "tethered" hack also requires access to a macOS or Linux PC on the same network to run a node.js package that helps enable privileged system access.</p>
+<p>Researcher Sammy Hajhamid <a href="https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/">writes</a> that he used <a href="https://chatgpt.com/codex/">OpenAI's Codex</a> to poke at SmileBasic's language interpreter, using a custom harness that could send USB commands to the system and view results via HDMI (as well as power cycling via a Bluetooth light switch flipping device). After "substantial effort for ~2 weeks," that harness discovered a 32-bit integer overflow that occurs when removing items from an array in SmileBasic. That error gives access to an array pointer, which in turn allows read and write access to portions of system memory.</p><p><a href="https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>10</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/switch2hack-1152x648-1792704912.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/switch2hack-500x500-1792704893.png" width="500"/>
+<media:credit>Pepsipu.com</media:credit><media:text>A proof of concept showing new characters being modded into &lt;em&gt;Mario Kart World&lt;/em&gt; thanks to a new console hack.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%</title>
+                <link>https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/</link>
+                                    <comments>https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 22:12:19 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[cancer]]></category>
+		<category><![CDATA[melanoma]]></category>
+		<category><![CDATA[merck]]></category>
+		<category><![CDATA[moderna]]></category>
+		<category><![CDATA[mRNA]]></category>
+		<category><![CDATA[vaccine]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/</guid>
+
+                                    <description>
+                        <![CDATA[Markers released top-line results today after previously reporting the trial succeeded.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Personalized mRNA vaccines against melanoma—the deadliest form of skin cancer—reduced the risk of death or recurrence by 42 percent compared to standard treatment in a late-stage trial, <a href="https://feeds.issuerdirect.com/news-release.html?newsid=8277620888059962&amp;symbol=MRNA">pharmaceutical partners Merck and Moderna announced Thursday</a>.</p>
+<p>The results are a significant advance in melanoma treatment; Merck and Moderna are already engaging with regulatory authorities to get the vaccine approved. More broadly, the vaccine's success bolsters hope that mRNA vaccines and individualized cancer-targeting medicines offer a new paradigm for cancer therapies.</p>
+<p>"From the beginning, we believed mRNA technology could make it possible to develop cancer treatments uniquely matched to each patient’s tumor," Moderna CEO Stéphane Bancel said in a statement. The trial results "mark a defining moment for that vision and show what’s possible when we rethink how medicines are made." They also "reinforce our conviction that mRNA has the potential to fundamentally change how we treat cancer," he said.</p><p><a href="https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>25</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2260256951-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2260256951-500x500.jpg" width="500"/>
+<media:credit>Getty | Nikolas Kokovlis</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Latest estimate for Starship launches required to support a Moon landing? 22.</title>
+                <link>https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/</link>
+                                    <comments>https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 21:52:31 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[artemis]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[starship]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/</guid>
+
+                                    <description>
+                        <![CDATA["We need to keep our eyes on numerous required fuelings for the lander."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>NASA does not have, nor want, nuclear weapons. But when it comes to a particular metric that is part of the Artemis Program to land people on the Moon, NASA guards a particular number like they are trying to prevent outsiders from cracking nuclear codes.</p>
+<p>I am speaking of the number of Starship launches required to fuel a Starship-based lunar lander in low-Earth orbit such that it can fly out to the Moon, land there, and return to lunar orbit.</p>
+<p>This number has been a moving target over the years. The general response from NASA has typically been, 'We don't know for sure, so we're not going to say.' In 2023, for example, the then-director of NASA's Human Landing System, Lisa Watson-Morgan, <a href="https://arstechnica.com/space/2023/11/what-nasa-wants-to-see-from-spacexs-second-starship-test-flight/">told Ars</a>, "We have a general idea, but I’m reluctant to say exactly what that is."</p><p><a href="https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>56</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/HS7_82eXsAAa-Hx-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/HS7_82eXsAAa-Hx-500x500.jpeg" width="500"/>
+<media:credit>SpaceX</media:credit><media:text>SpaceX has stacked the Starship vehicle in advance of Flight 14.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Comcast loses more customers, claims other ISPs' cheap prices are "irrational"</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/comcast-loses-more-customers-claims-other-isps-cheap-prices-are-irrational/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/comcast-loses-more-customers-claims-other-isps-cheap-prices-are-irrational/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 21:07:09 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Comcast]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/comcast-loses-more-customers-claims-other-isps-cheap-prices-are-irrational/</guid>
+
+                                    <description>
+                        <![CDATA[Comcast plans job cuts and more AI agents for its shrinking cable customer base.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Comcast reportedly plans significant job cuts in its cable division as the firm continues to lose residential broadband and TV customers. Comcast lost 144,000 residential broadband customers in Q3 2026, up from a 91,000-customer loss in the same quarter a year ago, the company said in its <a href="https://www.cmcsa.com/static-files/14d5a2cc-cfdb-41f5-8b41-85fb055bc695">earnings report</a> today.</p>
+<p>Comcast historically capitalized on a lack of competition for high-speed wired broadband. But now it faces stronger competition from fixed wireless providers and from fiber providers in parts of its cable territory.</p>
+<p>"Fixed wireless remains aggressive and continues to take share, while fiber construction remains elevated, with pockets of irrational pricing and promotional activity," Comcast co-CEO Mike Cavanagh said today in an <a href="https://finance.yahoo.com/quote/CTP2.DE/earnings/CTP2.DE-Q3-2026-earnings_call-713956.html">earnings call</a>.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/comcast-loses-more-customers-claims-other-isps-cheap-prices-are-irrational/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/comcast-loses-more-customers-claims-other-isps-cheap-prices-are-irrational/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>56</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/11/getty-comcast-van-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/11/getty-comcast-van-500x500.jpg" width="500"/>
+<media:credit>Getty Images | Smith Collection/Gado </media:credit></media:content>
+            </item>
+                    <item>
+                <title>Disgraced eMudhra drops out of TLS business after using cert private key of 4</title>
+                <link>https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 20:17:52 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cerfificate authority]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[tls]]></category>
+		<category><![CDATA[transport layer security]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/</guid>
+
+                                    <description>
+                        <![CDATA[Flubbed key signing "ceremony" allowed minting of web credentials for any site.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>eMudhra, the certificate authority that issued eight intermediate TLS credentials so weak that anyone could mint certificates for any website or mail server—one had a private encryption key of just 4—said it’s getting out of the business.</p>
+<p>V. Srinivasan, chairman of India-based eMudhra Limited, <a href="https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business">cited</a> increasing costs and complexities of compliance requirements—paired with the business generating just 1 percent of its revenue. He also said that the emergence of organizations providing TLS certificates free of charge further reduced returns on investment when compared to other products and services the company offers.</p>
+<h2>Don't let the door hit you on the butt</h2>
+<p>“However, the level of social media amplification around this incident has brought scrutiny that is out of proportion to SSL/TLS’s place in our business,” the company continued in a Thursday post. “In view of this, after detailed deliberations our board has concluded that withdrawing from global SSL/TLS is the right decision for eMudhra and its shareholders.”</p><p><a href="https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>56</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-1778229942-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-1778229942-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit><media:text>Much like this headless entity, Let's Encrypt can provide encryption certificates, but it will no longer email you to remind you to re-up them.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Leaked Mass Effect: Universe trailer gives a taste of what we're all missing</title>
+                <link>https://arstechnica.com/gaming/2026/10/leaked-mass-effect-universe-trailer-gives-a-taste-of-what-were-all-missing/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/10/leaked-mass-effect-universe-trailer-gives-a-taste-of-what-were-all-missing/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 19:59:37 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Bioware]]></category>
+		<category><![CDATA[EA]]></category>
+		<category><![CDATA[Electronic Arts]]></category>
+		<category><![CDATA[Mass Effect]]></category>
+		<category><![CDATA[mass effect universe]]></category>
+		<category><![CDATA[teaser]]></category>
+		<category><![CDATA[trailer]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/10/leaked-mass-effect-universe-trailer-gives-a-taste-of-what-were-all-missing/</guid>
+
+                                    <description>
+                        <![CDATA[We can't have nice things, but at least we can get trailers for them.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Those mourning yesterday's <a href="https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/">shuttering of highly praised and influential developer BioWare</a> also had to deal with the cancellation of the next <em>Mass Effect</em> game, which was <a href="https://www.youtube.com/watch?v=Lg-Ctg6k_Ao">first teased back in 2020</a>. Today, we got our best look at what that game could have been with a short, leaked trailer for <em>Mass Effect: Universe</em>.</p>
+<p>In the roughly two-minute montage—which describes itself as "in-engine footage from our small team" that "uses our pre-production assets"—an ex-military officer wearing an N7 trenchcoat (similar to the one seen in that 2020 teaser) encounters an Asari at a bar. He talks of his frustration with military life—"by the time you put out one fire, another had already started"—before discussing his new line of work "stopping [the fires] before they start" and "making the choices no one else is willing to make. Going where others are afraid to go."</p>
+<blockquote class="reddit-embed-bq" style="height: 500px;" data-embed-height="546"><p><a href="https://www.reddit.com/r/masseffect/comments/1xclmpu/mass_effect_universe_trailer/">Mass Effect: Universe Trailer</a><br>
+by<br>
+<a href="https://www.reddit.com/user/Random_Hyabusa_Ninja/">u/Random_Hyabusa_Ninja</a> in<br>
+<a href="https://www.reddit.com/r/masseffect/">masseffect</a></p></blockquote>
+<p><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script></p><p><a href="https://arstechnica.com/gaming/2026/10/leaked-mass-effect-universe-trailer-gives-a-taste-of-what-were-all-missing/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/10/leaked-mass-effect-universe-trailer-gives-a-taste-of-what-were-all-missing/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>40</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/meuniverse-1152x648.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/meuniverse-500x500-1792697650.png" width="500"/>
+<media:credit>Reddit</media:credit><media:text>Get a good look.
+You're not gonna get to play it.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Ink droplets in motion snag top prize in Nikon Small World contest</title>
+                <link>https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/</link>
+                                    <comments>https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 19:34:40 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Nikon Small World Photo Microscopy]]></category>
+		<category><![CDATA[photomicrography]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/</guid>
+
+                                    <description>
+                        <![CDATA[Ole Bielfeldt of Germany captured a microscopic view of an inkjet printer depositing ink onto paper.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A 25-year-old German experimental photographer has won the 2026 Nikon Small World photomicrography competition with a striking image of droplets of ink being deposited on paper by an inkjet printer. Ole Bielfeldt beat out 1,802 other entries hailing from 69 different countries.</p>
+<p>Bielfeldt became interested in photomicrography during the COVID-19 lockdown after discovering an old microscope in his parents' attic. He figured out how to build an adaptor out of a tube and some wood to connect the microscope to his father's camera and taught himself the art through trial and error, building custom tools as needed. He <a href="https://www.instagram.com/macrofying/?hl=en">documents</a> how he captures transformative images of everyday objects with behind-the-scenes videos posted to <a href="https://www.macrofying.com/">macrofying</a>, his photography and videography brand.</p>
+<p>It was Bielfeldt's curiosity about the inner workings of inkjet printers that inspired his winning entry, but capturing the action of ink drops being deposited on paper was a challenge, given that the process happens so quickly. The droplets, for instance, moved faster than the camera's shutter speed. Bielfeldt's solution was to deconstruct the printer so that the paper moved under a stationary (rather than moving) printhead, and then take the image in a dark room, using a flash to serve as the shutter, thereby freezing the ink drops mid-air. There was no need for pricey equipment. Bielfeldt does not use AI in his images, preferring to rely on traditional techniques.</p><p><a href="https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>17</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/nikonTOP-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/nikonTOP-500x500.jpg" width="500"/>
+<media:credit>Ole Bielfeldt</media:credit></media:content>
+            </item>
+                    <item>
+                <title>"Disillusioned" MAHA leader quits as Trump admin's food agenda spoils: Report</title>
+                <link>https://arstechnica.com/health/2026/10/disillusioned-maha-leader-quits-as-trump-admins-food-agenda-spoils-report/</link>
+                                    <comments>https://arstechnica.com/health/2026/10/disillusioned-maha-leader-quits-as-trump-admins-food-agenda-spoils-report/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 19:04:06 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[Calley Means]]></category>
+		<category><![CDATA[MAHA]]></category>
+		<category><![CDATA[robert f kennedy jr]]></category>
+		<category><![CDATA[Trump]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/10/disillusioned-maha-leader-quits-as-trump-admins-food-agenda-spoils-report/</guid>
+
+                                    <description>
+                        <![CDATA[The departure comes amid turmoil in Kennedy's Make America Healthy Again movement.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Calley Means—a top ally to anti-vaccine Health Secretary Robert F. Kennedy Jr. and a co-author of the so-called "MAHA bible"—resigned from his role in the Trump administration Thursday, reportedly in frustration over delays to food policy changes sought by the Make America Healthy Again movement.</p>
+<p>"I am resigning from the White House with tremendous respect for President Trump and Bobby Kennedy," Means wrote in <a href="https://x.com/calleymeans/status/2113320722919559349">a social media post this afternoon</a>. "It was an honor to advocate for MAHA moms in the administration and steer policies like Dietary Guidelines reform, psychedelic reform, removing soda from SNAP, removing food dyes, GRAS reform, and overhauling government food procurement."</p>
+<p>His post did not provide a reason for his departure. Means served as a senior advisor to Kennedy.</p><p><a href="https://arstechnica.com/health/2026/10/disillusioned-maha-leader-quits-as-trump-admins-food-agenda-spoils-report/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/10/disillusioned-maha-leader-quits-as-trump-admins-food-agenda-spoils-report/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>51</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2210915866-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2210915866-500x500.jpg" width="500"/>
+<media:credit>Getty | Andrew Harnik</media:credit><media:text>Former special government employee  Calley Means.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Electric or gas? BMW goes both ways with new 2027 X5 and iX5.</title>
+                <link>https://arstechnica.com/cars/2026/10/electric-or-gas-bmw-goes-both-ways-with-new-2027-x5-and-ix5/</link>
+                                    <comments>https://arstechnica.com/cars/2026/10/electric-or-gas-bmw-goes-both-ways-with-new-2027-x5-and-ix5/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 19:01:23 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[BMW iX5]]></category>
+		<category><![CDATA[BMW X5]]></category>
+		<category><![CDATA[car review]]></category>
+		<category><![CDATA[First drive]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/10/electric-or-gas-bmw-goes-both-ways-with-new-2027-x5-and-ix5/</guid>
+
+                                    <description>
+                        <![CDATA[460 kW charging and 450 miles of range are among the reasons the EV is the one to get.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<aside class="pullbox sidebar fullwidth">BMW provided flights from Washington, DC, to Los Angeles and accommodation so Ars could drive the new X5 and iX5, as well as a refreshed i7 (which you can read about soon). Ars does not accept paid editorial content.</aside>
+<p>When we first drove BMW’s first Neue Klasse model, <a href="https://arstechnica.com/cars/2025/12/great-handling-advanced-ev-tech-we-drive-the-2026-bmw-ix3/">the iX3</a>, it quickly revealed that BMW knows how to make a good electric vehicle. A clean-sheet design, it featured the automaker’s <a href="https://arstechnica.com/cars/2025/09/neue-klasse-bmws-tech-filled-ix3-electric-suv-is-unveiled/">sixth-generation electric powertrain</a>, a completely reimagined dashboard, and powerful computers to run the whole show. Now, much of that technology is being ported over to the larger X5 line.</p>
+<p>But BMW knows not all its customers are ready to go electric, especially in the US, so it’s sticking with its powertrain-agnostic CLAR platform, as used in cars as diverse as the large 7 Series and the new gasoline 3 Series. Which means in addition to the all-electric iX5, there are also mild hybrid and plug-in hybrid X5s available, and in time, even a hydrogen-powered option. For now, as I’ll explain, I think the EV is the pick of the bunch.</p>
+<figure>
+      <img decoding="async" width="1024" height="683" src="https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_23-1024x683.jpg" class="ars-gallery-image" alt="A BMW iX5 drives on the road." loading="lazy" aria-labelledby="caption-2178122" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_23-1024x683.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_23-640x427.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_23-768x512.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_23-1536x1024.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_23-2048x1365.jpg 2048w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_23-980x653.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_23-1440x960.jpg 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
+      <figcaption>
+        <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      Get used to it, because this is what BMW SUV kidney grilles look like from now on.
+
+              <span class="caption-credit mt-2 text-xs">
+          Credit:
+
+          
+          BMW
+
+                  </span>
+          </div>
+  </div>
+      </figcaption>
+    </figure>
+      <figure>
+      <img decoding="async" width="1024" height="683" src="https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_34-1024x683.jpg" class="ars-gallery-image" alt="A BMW iX5 drives away from the camera" loading="lazy" aria-labelledby="caption-2178121" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_34-1024x683.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_34-640x427.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_34-768x512.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_34-1536x1024.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_34-2048x1365.jpg 2048w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_34-980x653.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Pine-Grey_34-1440x960.jpg 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px">
+      <figcaption>
+        <div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      If you looked very carefully you'd see this was an iX5 because there's no exhausts. Of course, reading the badge is probably easier.
+
+              <span class="caption-credit mt-2 text-xs">
+          Credit:
+
+          
+          BMW
+
+                  </span>
+          </div>
+  </div>
+      </figcaption>
+    </figure>
+  
+<h2>Pick your power</h2>
+<p>The most conventional option is the X5 40 xDrive, powered by a 3.0 L turbocharged inline six-cylinder engine that generates 394 hp (294 kW) and 428 lb-ft (580 Nm). The 48 V mild hybrid system can contribute a decent slug of torque (148 lb-ft/200 Nm) if necessary, and the engine operates under the Miller cycle for better efficiency, as well as featuring the usual BMW engine technology, like variable valve timing. Expect around 26 mpg (9 L/100 km) from this powertrain and a full-to-empty range of 569 miles (915 km).</p><p><a href="https://arstechnica.com/cars/2026/10/electric-or-gas-bmw-goes-both-ways-with-new-2027-x5-and-ix5/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/10/electric-or-gas-bmw-goes-both-ways-with-new-2027-x5-and-ix5/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>25</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Tanzanite-Blue_43-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Tanzanite-Blue_43-500x500.jpg" width="500"/>
+<media:credit>BMW</media:credit><media:text>There's a new generation of BMW X5, and it wants you to know it.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Samsung all but confirms iPhone Duo is goosing Galaxy Z8 sales</title>
+                <link>https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 18:49:14 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Foldables]]></category>
+		<category><![CDATA[galaxy z fold]]></category>
+		<category><![CDATA[iphone duo]]></category>
+		<category><![CDATA[Samsung]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales/</guid>
+
+                                    <description>
+                        <![CDATA[Searches for Samsung foldables just happened to skyrocket following iPhone Duo unveiling.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Android-powered foldable phones have been available for years, but most people never paid attention to them. As predicted, that could be changing now that Apple has entered the folding phone market with the <a href="https://arstechnica.com/gadgets/2026/09/apples-long-rumored-foldable-becomes-reality-with-the-2000-iphone-duo/">iPhone Duo</a>. Analysts have speculated that <a href="https://arstechnica.com/gadgets/2026/07/samsung-unveils-new-galaxy-z8-foldables-and-galaxy-watches-available-august-7/">Samsung's Z8 foldables</a> were seeing a boost from the iPhone announcement, and now Samsung has seemingly confirmed that.</p>
+<p>In a new <a href="https://news.samsung.com/uk/samsung-continues-to-see-record-sales-for-galaxy-z8-series-in-europe-with-galaxy-z-fold8-and-fold8-ultra-up-almost-50">blog post</a>, Samsung UK crows that the company's 2026 foldable lineup is moving much faster than last year's models. Compared to the Galaxy Z Fold 7, combined European sales for the Galaxy Z Fold 8 and <a href="https://arstechnica.com/gadgets/2026/08/samsung-galaxy-z-fold-8-ultra-review-the-ultra-foldable-with-an-ultra-price/">Galaxy Z Fold 8 Ultra</a> are up 45 percent. Samsung isn't talking about Z Flip 8 sales, but it previously noted that its larger foldables made up about 80 percent of foldable purchases. We can assume any increase there is not impressive enough to mention.</p>
+<p>The reason for flat Z Flip sales may simply be that Apple didn't release a flip phone. Unsurprisingly, Samsung doesn't mention Apple or the iPhone Duo in its press release. However, it does say that search volume for the Z8 series across Europe spiked 460 percent the week of September 6 to 12. And guess what was announced on September 9? Yep, the iPhone Duo. Z Fold 8 search volume across the entire month of September (when the phones launched) was up 260 percent.</p><p><a href="https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>36</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Galaxy-Z8-1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Galaxy-Z8-1-500x500-1792692078.jpg" width="500"/>
+<media:credit>Ryan Whitwam</media:credit><media:text>The Galaxy Z Fold 8 (right) is a lot wider than its Ultra counterpart. </media:text></media:content>
+            </item>
+                    <item>
+                <title>US official: Russia's stalker satellite sure looks like an orbital weapon</title>
+                <link>https://arstechnica.com/space/2026/10/russia-claims-its-stalker-satellite-is-purely-peaceful-in-character/</link>
+                                    <comments>https://arstechnica.com/space/2026/10/russia-claims-its-stalker-satellite-is-purely-peaceful-in-character/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 18:29:39 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[iceye]]></category>
+		<category><![CDATA[kosmos 2612]]></category>
+		<category><![CDATA[russia space program]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/10/russia-claims-its-stalker-satellite-is-purely-peaceful-in-character/</guid>
+
+                                    <description>
+                        <![CDATA[The Russian official who called commercial satellites "legitimate targets" now says concerns are "unfounded."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Four years ago, a senior official in Russia's foreign ministry painted a bullseye on commercial satellite networks that assist Ukraine in its fight against invading Russian military forces.</p>
+<p>On Wednesday, several days after a Russian military spacecraft moved within striking distance of one of those commercial satellites, the same Russian diplomat assured the world there's no reason to worry.</p>
+<p>There's a sharp incongruity in those statements from <span class="s4">Konstantin Vorontsov, deputy head of Russia's delegation to the United Nations. </span><span class="s4">Vorontsov's comments Wednesday in the UN General Assembly's First Committee came moments after a US official called attention to <a href="https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/">recent maneuvers by Kosmos 2612</a>, a Russian military craft that approached a US-registered commercial satellite some 340 miles (550 kilometers) above Earth.<b></b></span></p><p><a href="https://arstechnica.com/space/2026/10/russia-claims-its-stalker-satellite-is-purely-peaceful-in-character/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/10/russia-claims-its-stalker-satellite-is-purely-peaceful-in-character/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>28</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/vorontsov-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/vorontsov-500x500.jpg" width="500"/>
+<media:credit>UN General Assembly</media:credit><media:text>Konstantin Vorontsov, deputy head of the Russian delegation to the United Nations, speaks at the General Assembly's First Committee on Wednesday.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Meta shocked by $25B fine after N.M. refused to join multistate settlement</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 17:04:31 +0000</pubDate>
+                		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[consumer protection laws]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Mark Zuckerberg]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[New Mexico]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/</guid>
+
+                                    <description>
+                        <![CDATA[Meta will appeal a ruling imposing the largest fine Mark Zuckerberg has ever seen.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Meta must pay $25 billion to New Mexico after a jury found the tech giant guilty of nearly 44 million violations of state consumer protection laws.</p>
+<p>The largest fine to ever hit Meta came after New Mexico Attorney General Raúl Torrez declined to join an <a href="https://arstechnica.com/tech-policy/2026/08/meta-settles-states-child-safety-claims-for-18b-florida-rejects-deal-as-peanuts/">$18 billion settlement Meta reached earlier this year</a> with attorneys general in nearly all states.</p>
+<p>In his <a href="https://cdn.arstechnica.net/wp-content/uploads/2026/10/State-of-New-Mexico-v-Meta-Judgment-10-21-26.pdf">opinion</a> Wednesday, US district court judge Francis J. Mathew said there was no “bright line rule” for determining the appropriate penalty for Meta's repeated and willful deception of users since 2010 about their “control of data, third-party data misuse, misinformation, hate speech, and equal enforcement.”</p><p><a href="https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>115</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1968308632-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1968308632-500x500.jpg" width="500"/>
+<media:credit>ANDREW CABALLERO-REYNOLDS / Contributor | AFP</media:credit></media:content>
+            </item>
+                    <item>
+                <title>US-backed vaccine trial on babies canceled after international outcry</title>
+                <link>https://arstechnica.com/health/2026/10/unethical-vaccine-trial-on-babies-backed-by-rfk-jr-is-formally-canceled/</link>
+                                    <comments>https://arstechnica.com/health/2026/10/unethical-vaccine-trial-on-babies-backed-by-rfk-jr-is-formally-canceled/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 16:37:00 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[anti-vaccine]]></category>
+		<category><![CDATA[Guinea-Bissau]]></category>
+		<category><![CDATA[hepatitis B vaccine]]></category>
+		<category><![CDATA[newborn dose]]></category>
+		<category><![CDATA[robert f kennedy jr]]></category>
+		<category><![CDATA[vaccine trial]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/10/unethical-vaccine-trial-on-babies-backed-by-rfk-jr-is-formally-canceled/</guid>
+
+                                    <description>
+                        <![CDATA[The decried trial was canceled last week before police seized vaccine doses.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Government officials in Guinea-Bissau have formally rejected a clinical trial that would be run by Danish researchers and funded by the US to look for alleged nonspecific harms from the newborn dose of the hepatitis B vaccine. The vaccine dose is currently recommended globally for all newborns and has been used safely and effectively for decades.</p>
+<p>In an email to Ars Technica, one of the trial's lead researchers, Christine Stabell Benn of Bandim Health Project and the University of Southern Denmark, said that Guinea-Bissau's Council of Ministers "formally reaffirmed its non-acceptance of the study on 16 October."</p>
+<p>The revelation that the study was formally rejected last week comes after news on Monday that judicial police in Guinea-Bissau <a href="https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/?comments-page=2#comments">raided Bandim Health's offices and seized vaccines</a>. Stabell Benn highlighted that the police search came after the trial was rejected.</p><p><a href="https://arstechnica.com/health/2026/10/unethical-vaccine-trial-on-babies-backed-by-rfk-jr-is-formally-canceled/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/10/unethical-vaccine-trial-on-babies-backed-by-rfk-jr-is-formally-canceled/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>52</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-629400903-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-629400903-500x500.jpg" width="500"/>
+<media:credit>Getty | BSIP</media:credit><media:text>A baby receives a hepatitis B vaccine.</media:text></media:content>
+            </item>
+                    <item>
+                <title>This emulator reimagines Nintendo’s Virtual Boy with a full color display</title>
+                <link>https://arstechnica.com/gaming/2026/10/this-emulator-reimagines-nintendos-virtual-boy-with-a-full-color-display/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/10/this-emulator-reimagines-nintendos-virtual-boy-with-a-full-color-display/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 15:59:40 +0000</pubDate>
+                		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Color]]></category>
+		<category><![CDATA[emulation]]></category>
+		<category><![CDATA[emulator]]></category>
+		<category><![CDATA[Nintendo]]></category>
+		<category><![CDATA[virtual boy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/10/this-emulator-reimagines-nintendos-virtual-boy-with-a-full-color-display/</guid>
+
+                                    <description>
+                        <![CDATA[Tile-based color palettes go way beyond the four shades of red on original hardware.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Last year, we <a href="https://arstechnica.com/gaming/2025/07/not-just-seeing-red-virtual-boy-emulator-adds-full-color-support/">reported on Red Viper</a>, a Virtual Boy emulator that added a splash of <a href="https://www.youtube.com/watch?v=660FVHPm1OA">Super Game Boy-style color</a> to Nintendo's famously failed red-on-black "portable" 3D headset from the '90s. Now, a new emulation experiment, <a href="https://github.com/yuk27/VBoyColor">VBoy Color</a>, has taken the concept to a higher level, using a tile-based palette system that allows for many more distinct colors in each individual Virtual Boy frame.</p>
+<p>Rather than simply replacing the Virtual Boy's four shades of red with four different colors, VBoy Color's <a href="https://github.com/yuk27/VBoyColor/blob/main/docs/COLOR_PACKS.md">readme files</a> explain how the emulator's game-specific Color Packs can assign a distinct four-color palette to each 8x8 tile in a Virtual Boy scene. That means the emulator can differentiate between green pipes, grey platforms, and red brick wall in <em>Mario Clash</em>, for instance, even though all those in-game objects share the same overlapping red hues in the original game.</p>
+<p>The Game Boy Color-esque results feel like being transported into an alternate history where Nintendo invested in a full-color display rather than cheaper red LEDs for the Virtual Boy hardware. The increased contrast between differently colored elements is particularly welcome in games like <em>Jack Bros.</em> or <em>Vertical Force</em>, where the original red-on-red display often makes it hard to differentiate the player-character from busy red background elements.</p><p><a href="https://arstechnica.com/gaming/2026/10/this-emulator-reimagines-nintendos-virtual-boy-with-a-full-color-display/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/10/this-emulator-reimagines-nintendos-virtual-boy-with-a-full-color-display/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>21</slash:comments>
+                
+                
+                <media:content medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/mtcolor.png">
+<media:thumbnail height="378" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/mtcolor-500x378.png" width="500"/>
+<media:credit>VBoy Color</media:credit><media:text>No, that's not a Game Boy Color game, it's a new Virtual Boy emulator.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Hackers got a four-day head start on epic PHP2Shell vulnerability</title>
+                <link>https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Tom Wilson and Rafe Rosner-Uddin, Financial Times]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 15:25:02 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[PHP exploit]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/</guid>
+
+                                    <description>
+                        <![CDATA[Hackers were already probing the bug before defenders were told it existed.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Amazon has warned that <a href="https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/">vulnerabilities in a programming language</a> that underpins much of the Internet, discovered using AI tools, are being “broadly exploited” as governments and companies rush to secure their systems.</p>
+<p>The world’s largest cloud computing provider on Wednesday said it had identified an attempt by hackers to exploit the bug four days before the weakness was disclosed to the public.</p>
+<p>Amazon added the flaws were “now being broadly exploited in the wild.”</p><p><a href="https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>46</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/internet-routing-1000x648.jpeg" width="1000">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/internet-routing-500x500.jpeg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Sauron recruits his future Ringwraiths in Rings of Power S3 trailer</title>
+                <link>https://arstechnica.com/culture/2026/10/sauron-recruits-his-future-ringwraiths-in-rings-of-power-s3-trailer/</link>
+                                    <comments>https://arstechnica.com/culture/2026/10/sauron-recruits-his-future-ringwraiths-in-rings-of-power-s3-trailer/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Thu, 22 Oct 2026 14:22:31 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[entertainment]]></category>
+		<category><![CDATA[LOTR Rings of Power]]></category>
+		<category><![CDATA[prime video]]></category>
+		<category><![CDATA[streaming television]]></category>
+		<category><![CDATA[Trailers]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2026/10/sauron-recruits-his-future-ringwraiths-in-rings-of-power-s3-trailer/</guid>
+
+                                    <description>
+                        <![CDATA["I will take my place as the conqueror, a sorcerer, a king."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<div class="ars-video ars-video--horizontal"><div><div class="relative" allow="fullscreen" loading="lazy" src="https://www.youtube.com/embed/maP_Kyy3DCA?start=0&amp;wmode=transparent"></div></div></div>
+<p><em>Lord of the Rings: The Rings of Power</em> returns next month for its third season. Prime Video <a href="https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/">unveiled a teaser</a> earlier this year at San Diego Comic-Con, but we haven't heard much about the new season otherwise. We now have the official full trailer, and it's jam-packed with a rising Sauron, who is intent on conquering Middle-Earth with his army of Orcs—with the fractured opposition of elves, dwarves, and men scrambling to figure out how best to stop him. We also meet the human men who will become the Ringwraiths; the showrunners have dubbed them the Nazgnagol ("Rings-servant").</p>
+<p><strong>(Some spoilers for the first two seasons below.)</strong></p>
+<p>Prime Video <a href="https://arstechnica.com/culture/2024/07/lavish-the-rings-of-power-s2-trailer-debuts-at-san-diego-comic-con/">made a major</a> investment in <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Rings_of_Power"><em>The Rings of Power</em></a> when it acquired the rights to the source material from the Tolkien estate, even committing to multiple seasons upfront. S3 is set seven years after the events of S2 and opens when the war between the elves and Sauron is at its height. Per the official synopsis:</p><p><a href="https://arstechnica.com/culture/2026/10/sauron-recruits-his-future-ringwraiths-in-rings-of-power-s3-trailer/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2026/10/sauron-recruits-his-future-ringwraiths-in-rings-of-power-s3-trailer/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>48</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/sauron-1152x648-1792610020.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/sauron-500x500.jpg" width="500"/>
+<media:credit>Prime Video</media:credit></media:content>
+            </item>
+                    <item>
                 <title>Forget "Malaise 2.0," GM says it's still all-in on EVs and autonomy</title>
                 <link>https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/</link>
                                     <comments>https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/#comments</comments>
@@ -47,7 +649,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>19</slash:comments>
+                                    <slash:comments>126</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/OnStar-AI-Assistant-1152x648.jpg" width="1152">
@@ -83,7 +685,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>13</slash:comments>
+                                    <slash:comments>27</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1237260150-1152x648.jpg" width="1152">
@@ -112,14 +714,14 @@
                     </description>
                                                                 <content:encoded>
                             <![CDATA[<p>In 2015, all but two countries agreed to make an effort to keep global temperatures from reaching 1.5° C above pre-industrial readings. Since then, most of the world has largely treated what they signed on to as aspirational, and one of the largest emitters (the US) has alternately withdrawn and recommitted to the agreement. Meanwhile, the planet has responded as expected to steadily rising carbon emissions and appears to be practically at the 1.5° limit.</p>
-<p>On Wednesday, for the first time, the United Nations Environmental Programme (UNEP) <a href="https://www.unep.org/en/news-and-stories/press-release/new-unep-report-lays-out-emission-cuts-needed-return-15degc">acknowledged that reality</a>, and conceded that the goal of keeping warming below 1.5° was no longer a viable one. Instead, its new goalposts focus on keeping both how long we exceed that limit and how much we exceed it by, at a minimum. Doing that will require both dramatic emissions cuts now and the removal of hundreds of gigatonnes of carbon dioxide from the atmosphere before the century is out.</p>
+<p>On Wednesday, for the first time, the United Nations Environmental Programme (UNEP) <a href="https://www.unep.org/en/news-and-stories/press-release/new-unep-report-lays-out-emission-cuts-needed-return-15degc">acknowledged that reality</a> and conceded that the goal of keeping warming below 1.5° was no longer a viable one. Instead, its new goalposts focus on keeping both how long we exceed that limit and how much we exceed it by, at a minimum. Doing that will require both dramatic emissions cuts now and the removal of hundreds of gigatonnes of carbon dioxide from the atmosphere before the century is out.</p>
 <h2>Bowing to the inevitable</h2>
-<p>Depending on which baseline you use to establish pre-industrial temperatures, as well as which reconstruction of global temperatures you rely on, the world has either gotten very close to, or already exceeded the 1.5° milestone. The current El Niño event, which appears exceptionally strong, will almost certainly mean that we've gone over it no matter which records you choose.</p><p><a href="https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/">Read full article</a></p>
+<p>Depending on which baseline you use to establish pre-industrial temperatures, as well as which reconstruction of global temperatures you rely on, the world has either gotten very close to, or already exceeded, the 1.5° milestone. The current El Niño event, which appears exceptionally strong, will almost certainly mean that we've gone over it no matter which records you choose.</p><p><a href="https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/">Read full article</a></p>
 <p><a href="https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>35</slash:comments>
+                                    <slash:comments>129</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2170672849-1152x648.jpg" width="1152">
@@ -153,588 +755,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>138</slash:comments>
+                                    <slash:comments>176</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/trump-carr-1152x648-1734382746.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/trump-carr-500x500-1734382753.jpg" width="500"/>
 <media:credit>Getty Images | Brandon Bell </media:credit><media:text>President-elect Donald Trump speaks to Brendan Carr, his intended pick for Chairman of the Federal Communications Commission, as he attends a SpaceX Starship rocket launch on November 19, 2024 in Brownsville, Texas.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought</title>
-                <link>https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/</link>
-                                    <comments>https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 22:06:07 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[cloud gaming]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[streaming]]></category>
-		<category><![CDATA[XBox]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/</guid>
-
-                                    <description>
-                        <![CDATA[Time-based a la carte charges come on top of the purchase price for the games themselves.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>In September, when Microsoft <a href="https://arstechnica.com/gaming/2026/09/xbox-imposes-harsh-new-time-limits-for-game-pass-game-streaming/">severely limited the game-streaming buffet available to Game Pass subscribers</a>, the company said non-subscribers would soon be able to "purchase cloud playtime hours through the Xbox Store and stream eligible games they own on supported devices." Today, Microsoft <a href="https://news.xbox.com/en-us/2026/10/21/cloud-playtime-now-available-to-test-with-xbox-insiders/">rolled out those a la carte Cloud Playtime purchases</a> to Xbox Insiders, with prices that might be a bit galling for players who have already purchased these streamable games.</p>
-<p>The "introductory launch pricing" for Xbox's Cloud Playtime purchases is as follows:</p>
-<ul>
-<li>10 hours for $4 (~$0.40/hour)</li>
-<li>25 hours for $8 (~$0.32/hour)</li>
-<li>50 hours for $12 (~$0.24/hour)</li>
-</ul>
-<p>Purchased playtime "remains available until it’s used," Microsoft writes, so you don't have to worry about your 50-hour purchase expiring before you can use it fully.</p><p><a href="https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>124</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/xcloud3-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/xcloud3-500x500.jpg" width="500"/>
-<media:credit>Microsoft</media:credit><media:text>Would you pay a quarter for an hour of access to your Xbox library on the phone?</media:text></media:content>
-            </item>
-                    <item>
-                <title>Enterprises keep buying software upgrades that IT thinks will make things worse</title>
-                <link>https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/</link>
-                                    <comments>https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 21:48:52 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[IT]]></category>
-		<category><![CDATA[software]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/</guid>
-
-                                    <description>
-                        <![CDATA[Survey of 2,018 IT heads at big firms points to a lack of leverage. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Enterprise-sized businesses spend, on average, 28 percent of their software budgets on unwanted upgrades, migrations, and licensing changes. Often, those firms' IT heads think those changes are detrimental.</p>
-<p>Those results are according to a survey of 2,018 chief information officers and senior IT decision-makers at companies with at least 10,000 employees that Origina commissioned for its report, “<a href="https://www.origina.com/guides-and-reports/software-tax-enterprise-software-costs?utm_source=software+tax&amp;utm_medium=media&amp;utm_campaign=press-release">The Software Tax</a>.” About half of the respondents (1,011) are from the US, and the rest are from the United Kingdom. All respondents worked at companies with at least $1 billion in annual revenue.</p>
-<p>Keep in mind that Origina provides maintenance for various enterprise software. Its report points to independent software maintenance as a way for IT leaders to regain control over software budgets, illustrating its potential bias. A third-party research consultancy, <a href="https://censuswide.com/who-we-are/">Censuswide</a>, conducted the survey.</p><p><a href="https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>50</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-832621336-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-832621336-500x500.jpg" width="500"/>
-<media:credit>Clara Molden/PA Images via Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Tesla profits drop 43% in Q3</title>
-                <link>https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/</link>
-                                    <comments>https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 21:35:07 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Tesla earnings]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/</guid>
-
-                                    <description>
-                        <![CDATA[Tesla’s once-booming energy storage business also shrank in Q3 2026.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Tesla published its third-quarter 2026 financial results this afternoon. <a href="https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/">Earlier in October, it reported</a> its sales and deliveries for the three-month period, selling fewer cars than in <a href="https://arstechnica.com/cars/2025/10/tesla-profits-fall-37-in-q3-despite-healthy-sales/">the same quarter in 2025</a>, yet it still beat analyst projections. Now we can see how those sales translate to the bottom line. Tesla brought in $28 billion in revenue in Q3, almost the same as in 2025.</p>
-<p>Automotive revenues were $20.6 billion, a 3 percent decrease year over year. Perhaps more troubling is the decline in revenue from solar panels and storage batteries—this line of business had been growing, but for Q3 revenue fell 16 percent year over year to $2.9 billion. Services and other revenues, though, which include parts and Supercharger use, grew by a third to $4.6 billion.</p>
-<p>But the company—like the rest of us—has seen its expenses go up. Operating expenses rose by 39 percent to $4.8 billion, dropping the company’s operating margin to just 2.6 percent; in Q3 2025, Tesla’s margin was 5.8 percent. Net profit fell to $787 million, down 43 percent year over year. What’s more, capital expenditures were up by 110 percent to $4.7 billion, and free cash flow was down 62 percent to $1.5 billion.</p><p><a href="https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>106</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2019/10/tesla-polarizing.jpg">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2019/10/tesla-polarizing-500x500.jpg" width="500"/>
-<media:credit>JIM WATSON/AFP/Getty Images/Aurich Lawson</media:credit></media:content>
-            </item>
-                    <item>
-                <title>The new human-crafted Apple Music brand matters in an AI world</title>
-                <link>https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/</link>
-                                    <comments>https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Aurich Lawson]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 19:44:40 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[opinion]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/</guid>
-
-                                    <description>
-                        <![CDATA[Opinion: In a world of AI slop, showing the human hands making things helps.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Apple just revealed a new brand identity for Apple Music, with the expected turn to Liquid Glass. I’m not much of a fan of their new design language in general; this is where I admit that I’m still running MacOS Sequoia and have grumpy things to say about rounded corner radii and text legibility.</p>
-<p>It’s just a trend, it will pass, and at some point I’ll probably cave and upgrade when it starts actually affecting my ability to get work done, or more importantly get security updates. Once I adjust, I’ll stop noticing it, and life will go on.</p>
-<p>As such, I wouldn’t normally find an obvious rebrand like this notable, much less feel like I had much to say about it. But then I happened to catch Apple’s behind-the-scenes video in my YouTube recommendations, and I realized I did have thoughts.</p><p><a href="https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>87</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/apple-music-rebrand-icon-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/apple-music-rebrand-icon-500x500.jpg" width="500"/>
-<media:credit>Apple</media:credit></media:content>
-            </item>
-                    <item>
-                <title>RIP BioWare: EA shuts down storied RPG studio after over three decades</title>
-                <link>https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/</link>
-                                    <comments>https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Kyle Orland]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 19:12:16 +0000</pubDate>
-                		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[anthem]]></category>
-		<category><![CDATA[Bioware]]></category>
-		<category><![CDATA[Dragon Age]]></category>
-		<category><![CDATA[EA]]></category>
-		<category><![CDATA[Electronic Arts]]></category>
-		<category><![CDATA[Mass Effect]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/</guid>
-
-                                    <description>
-                        <![CDATA[Next <em>Mass Effect</em> project canceled as parent company lays off 400.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The legendary studio behind series like <em>Mass Effect</em>, <em>Dragon Age</em>, <em>Neverwinter Nights</em>, and <em>Star Wars: Knights of the Old Republic</em> is no more. BioWare <a href="https://x.com/bioware/status/2112953618093535510">announced via social media</a> Wednesday afternoon that "after more than three decades of shared adventures, BioWare is closing and early development on the next <em>Mass Effect</em> project is ending."</p>
-<p>The official announcement was posted mere minutes after <a href="https://www.bloomberg.com/news/articles/2026-10-21/electronic-arts-to-cut-400-jobs-shut-down-bioware">a Bloomberg report</a> detailed 400 job cuts across BioWare parent company Electronic Arts, including 50 at BioWare, based on reports from "a person familiar with the company's plans."</p>
-<p>"Across our portfolio, we’re making deliberate choices to align talent and investments where we see the greatest opportunities for players and long-term growth," EA executives wrote in a message to staff, according to Bloomberg.</p><p><a href="https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>151</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/webp" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/me3ending-1152x648.webp" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/me3ending-500x500.webp" width="500"/>
-<media:credit>BioWare</media:credit><media:text>BioWare has had some experience with controversial endings.</media:text></media:content>
-            </item>
-                    <item>
-                <title>OpenAI's latest AI models are coming to Google Cloud and Antigravity</title>
-                <link>https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/</link>
-                                    <comments>https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 18:51:42 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[google cloud]]></category>
-		<category><![CDATA[openai]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/</guid>
-
-                                    <description>
-                        <![CDATA[Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Google would certainly prefer that everyone used its Gemini models with Google Cloud services, but soon, you'll have more options. OpenAI and Google have <a href="https://openai.com/index/openai-models-google-cloud/">come to an arrangement</a> that will see the former's frontier models arrive in Google Cloud services. Perhaps more importantly, GPT models will soon appear in Antigravity, Google's agent-powered coding tool.</p>
-<p>For enterprise customers and AI enthusiasts, OpenAI's latest model will appear in Google's "Model Garden" in the coming weeks, adding to its 200-plus options. The garden already offers access to Google's Gemini models, as well as an assortment of open models like Mistral, Llama, and Gemma. Anthropic's Claude AI has also been available for some time. <a href="https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers">Google says</a> it's now the only large cloud provider offering access to all three leading closed LLMs.</p>
-<p>While OpenAI notes that Microsoft continues to be its primary cloud partner, the full suite of current GPT 6 and 6.1 models—Astra, Sol, and Luna—will launch on Google Cloud. Astra will naturally cost the most to run, but Google's system supports dynamically moving workloads between LLMs based on performance, latency, and efficiency.</p><p><a href="https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>12</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Google-cloud-IO-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Google-cloud-IO-500x500.jpg" width="500"/>
-<media:credit>Ryan Whitwam</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Report: Musk ordered Starlink slowdown in Ukraine, then blamed it on Trump</title>
-                <link>https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 18:35:38 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[starlink]]></category>
-		<category><![CDATA[starshield]]></category>
-		<category><![CDATA[Trump]]></category>
-		<category><![CDATA[Ukraine]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/</guid>
-
-                                    <description>
-                        <![CDATA[Musk and Trump both denied ordering Starlink slowdown. WSJ reports it was Musk.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A Wall Street Journal report said SpaceX CEO Elon Musk ordered the Starlink throttling that <a href="https://arstechnica.com/gadgets/2026/10/ukraine-blindsided-by-starlink-throttling-restrictions-and-intelligence-gaps/">blindsided Ukraine's air assault forces</a> last week, despite Musk's claim that all decisions on the military version of Starlink are made by the US military and President Trump.</p>
-<p>Trump denied ordering the restrictions. While Musk may have spoken to Trump and administration officials before the decision, The Wall Street Journal <a href="https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193">reported yesterday</a> that Musk made the final call. The decision came after both Musk and Trump criticized Ukraine for attacking Russian diesel refineries.</p>
-<p>"Elon Musk ordered the slowdown of a military-grade version of Starlink relied on by Ukraine, a decision that sparked panic in Kyiv and confusion inside the Trump administration," the WSJ wrote, citing unnamed US officials and people familiar with the matter. The report said that "Musk capped the speeds at which Ukrainian hardware could stay connected to the satellite-based network... rendering some offensive drones and interceptor drones virtually useless."</p><p><a href="https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>201</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/starlink-ukraine-1152x648-1792605015.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/starlink-ukraine-500x500-1792605024.jpg" width="500"/>
-<media:credit>Getty Images | Bloomberg</media:credit><media:text>A Starlink terminal and router on a rooftop in Kyiv, Ukraine on March 11, 2025. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits</title>
-                <link>https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 18:20:40 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[clean air act]]></category>
-		<category><![CDATA[colossus data center]]></category>
-		<category><![CDATA[data center protests]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[Environmental Protection Agency]]></category>
-		<category><![CDATA[EPA]]></category>
-		<category><![CDATA[pollution]]></category>
-		<category><![CDATA[SpaceXAI]]></category>
-		<category><![CDATA[xAI]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/</guid>
-
-                                    <description>
-                        <![CDATA[Trump’s EPA can't unilaterally dismiss SpaceXAI pollution lawsuit, court rules.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Elon Musk’s SpaceXAI is stuck facing a lawsuit over alleged data center pollution after Donald Trump failed to convince a judge that his Environmental Protection Agency (EPA) has complete control over all Clean Air Act lawsuits and can dismiss any suit at whim.</p>
-<p>Soon after <a href="https://arstechnica.com/tech-policy/2025/04/elon-musks-xai-accused-of-lying-to-black-communities-about-harmful-pollution/">unpermitted gas turbines were discovered</a> powering Musk’s giant Colossus data center in Memphis, Tennessee, the <a href="https://arstechnica.com/tech-policy/2025/06/xai-faces-legal-threat-over-alleged-colossus-data-center-pollution-in-memphis/">NAACP sued</a>. Its lawsuit sought an injunction requiring xAI (which, following a <a href="https://arstechnica.com/ai/2026/02/spacex-acquires-xai-plans-1-million-satellite-constellation-to-power-it/">merger</a>, is known now as SpaceXAI) to use the best available pollution control technology when operating the turbines and ordering penalties up to $124,426 per day per violation. Without such remedies, the turbines risked drastically spiking pollution in already vulnerable neighborhoods housing predominantly Black communities nearby, the NAACP argued.</p>
-<p>To block the lawsuit, Trump tried to intervene, arguing that the EPA had the power to unilaterally dismiss lawsuits any time the president decides against enforcing the Clean Air Act. According to Trump, it would supposedly “not serve the public interest” if citizens were allowed to seek massive civil penalties to punish polluting AI firms that were trying to get data centers operational as fast as possible to support <a href="https://arstechnica.com/ai/2025/07/white-house-unveils-sweeping-plan-to-win-global-ai-race-through-deregulation/">Trump’s AI Action Plan</a>.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>38</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/xAI-Thermal-Image-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/04/xAI-Thermal-Image-500x500.jpg" width="500"/>
-<media:credit>©Steve Jones, Flight by Southwings for SELC</media:credit><media:text>Thermal imaging of xAI's Memphis facility prompted allegations that more than 30 of xAI’s methane gas turbines are operating without environmental permitting.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Does opting out of smart TV tracking work? Research finds “suspicious” traffic.</title>
-                <link>https://arstechnica.com/gadgets/2026/10/does-opting-out-of-smart-tv-tracking-work-research-finds-suspicious-traffic/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/10/does-opting-out-of-smart-tv-tracking-work-research-finds-suspicious-traffic/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 18:00:37 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[ads]]></category>
-		<category><![CDATA[privacy]]></category>
-		<category><![CDATA[Samsung]]></category>
-		<category><![CDATA[smart home]]></category>
-		<category><![CDATA[TVs]]></category>
-		<category><![CDATA[Vizio]]></category>
-		<category><![CDATA[walmart]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/does-opting-out-of-smart-tv-tracking-work-research-finds-suspicious-traffic/</guid>
-
-                                    <description>
-                        <![CDATA[OS operators throwing out that data is "unlikely," research author tells Ars. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Smart TVs running operating systems from Samsung, Vizio, and Roku continue sending data to automatic content recognition (ACR) endpoints after users opt out of tracking in the devices’ settings, according to research published on Monday. The paper from Northeastern University researchers points to potential privacy violations from some of the biggest TV brands.</p>
-<p>ACR captures video screenshots or audio clips from smart TVs and sends the data to remote servers, where it's used for things like measuring content viewership and serving targeted ads.</p>
-<p>The paper, <a href="https://watchingthewatchers.github.io/watchingthewatchers/paper.html">"Watching the Watchers: Privacy Analysis of US Smart TV Automatic Content Recognition,"</a> examined eight smart TV OSes across 12 smart TVs from 10 manufacturers (Amazon, Hisense, LG, Roku, Samsung, Sony, Supersonic, TCL, Vizio, and Westinghouse) to examine when smart TVs use ACR and how effective opting out of user tracking is.</p><p><a href="https://arstechnica.com/gadgets/2026/10/does-opting-out-of-smart-tv-tracking-work-research-finds-suspicious-traffic/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/10/does-opting-out-of-smart-tv-tracking-work-research-finds-suspicious-traffic/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>69</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2226225055-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2226225055-500x500.jpg" width="500"/>
-<media:credit>https://www.gettyimages.com/detail/photo/modern-living-room-with-smart-tv-and-remote-control-royalty-free-image/2226225055</media:credit></media:content>
-            </item>
-                    <item>
-                <title>SpaceX to attempt Starship catch on next flight, with eye on rapid cadence increase</title>
-                <link>https://arstechnica.com/space/2026/10/spacex-will-attempt-to-reach-weekly-starship-launches-by-early-2027/</link>
-                                    <comments>https://arstechnica.com/space/2026/10/spacex-will-attempt-to-reach-weekly-starship-launches-by-early-2027/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 16:46:19 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[starlink]]></category>
-		<category><![CDATA[starship]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/10/spacex-will-attempt-to-reach-weekly-starship-launches-by-early-2027/</guid>
-
-                                    <description>
-                        <![CDATA["We have had significant constructive engagement with the FAA."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>In its current iteration, SpaceX is largely a data company seeking to provide enormous amounts of compute for artificial intelligence. During an earnings call on Tuesday afternoon, company officials spent much of their time discussing ambitious plans to roll out up to 10 GW of compute in 2027—on the ground.</p>
-<p>Gone are the days of aspirational talk about sending humans to Mars and settling the red planet. Now it is almost all about artificial intelligence and the data needed to support its expansion. However, the company's long-term ambitions to provide data services from space, initially with the Starlink Internet constellation and eventually through the "Starmind" data center constellation, still rely on an actual rocket.</p>
-<p>That would be the Starship vehicle, and during the earnings call, SpaceX founder Elon Musk and the company's president and chief operating officer, Gwynne Shotwell, provided new performance targets for the vehicle.</p><p><a href="https://arstechnica.com/space/2026/10/spacex-will-attempt-to-reach-weekly-starship-launches-by-early-2027/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/10/spacex-will-attempt-to-reach-weekly-starship-launches-by-early-2027/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>121</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/HTU8ja-XgAE6GwQ-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/HTU8ja-XgAE6GwQ-500x500.jpg" width="500"/>
-<media:credit>SpaceX</media:credit><media:text>SpaceX's 14th Starship test flight began with a Monday morning liftoff from Starbase, Texas. The city of South Padre Island is visible in the background.</media:text></media:content>
-            </item>
-                    <item>
-                <title>The $15 billion ad-powered AI startup your doctor may already be using</title>
-                <link>https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/</link>
-                                    <comments>https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Rafe Rosner-Uddin, Financial Times]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 15:14:07 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Health]]></category>
-		<category><![CDATA[AI and health care]]></category>
-		<category><![CDATA[AI health]]></category>
-		<category><![CDATA[health care]]></category>
-		<category><![CDATA[healthcare]]></category>
-		<category><![CDATA[OpenEvidence]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/</guid>
-
-                                    <description>
-                        <![CDATA[OpenEvidence is booming despite questions about accuracy and ads.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Nearly two-thirds of US doctors are turning to an AI-powered search engine to make patient decisions, propelling a little-known tech startup to a $15 billion valuation while prompting a debate over the future of patient care.</p>
-<p>Miami-based OpenEvidence, founded by serial entrepreneur Daniel Nadler in 2022, said that many of America’s 1 million physicians processed more than 42 million prompts last month. Doctors are using the company’s chatbot to scour medical journals and clinical guidelines to help diagnose and treat patients.</p>
-<p>The ads-powered platform has grown largely by word of mouth, penetrating a sector where few tools have seen similar traction. “We’re the first viral consumer internet app in healthcare,” Nadler told the FT in an interview.</p><p><a href="https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>67</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/openevidencelist-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/openevidencelist-500x500.jpg" width="500"/>
-<media:credit>OpenEvidence</media:credit><media:text>Doctors use the chatbot to scour medical journals and clinical guidelines to help diagnose and treat patients.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Review: Carrie is a triumphant remix with one major flaw</title>
-                <link>https://arstechnica.com/culture/2026/10/review-carrie-is-a-triumphant-remix-with-one-major-flaw/</link>
-                                    <comments>https://arstechnica.com/culture/2026/10/review-carrie-is-a-triumphant-remix-with-one-major-flaw/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 11:19:12 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Carrie]]></category>
-		<category><![CDATA[film anniversaries]]></category>
-		<category><![CDATA[Mike Flanagan]]></category>
-		<category><![CDATA[prime video]]></category>
-		<category><![CDATA[reviews]]></category>
-		<category><![CDATA[stephen king]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2026/10/review-carrie-is-a-triumphant-remix-with-one-major-flaw/</guid>
-
-                                    <description>
-                        <![CDATA[Mike Flanagan's re-imagining of Stephen King's classic is well worth watching.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Carrie White, the telekinetic prom queen from hell, is one of the most beloved horror icons in popular culture. First introduced in Stephen King's 1974 novel, <em>Carrie</em>, the character was immortalized in director Brian De Palma's 1976 adaptation, widely regarded as one of the best horror films of all time. It's certainly one of the best King adaptations. So Mike Flanagan faced a massive challenge when he signed on to create an eight-episode miniseries for Prime Video based on the book, released just in time to mark the 50th anniversary of de Palma's film.</p>
-<p>I was among the skeptics who questioned why a <em>Carrie</em> miniseries was even necessary, although as a diehard Flanagan fan ("Flana-fan"?), I was willing to give him the benefit of the doubt. If anyone has an affinity for smartly adapting horror in general, and King's work in particular, it's Flanagan. And you know what? With one (very big) exception, Flanagan pulls it off, giving us a richly textured version of the story that is as much about kindness and lost innocence as bloody, vengeful rage—although we get plenty of the latter, too.</p>
-<p><strong>(Many spoilers below for <a href="https://en.wikipedia.org/wiki/Carrie_(novel)">the novel</a> and the <a href="https://en.wikipedia.org/wiki/Carrie_(1976_film)">1976 film</a>, but there are no major reveals for the new series until after the second gallery. We'll give you a heads-up when we get there.)</strong></p><p><a href="https://arstechnica.com/culture/2026/10/review-carrie-is-a-triumphant-remix-with-one-major-flaw/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2026/10/review-carrie-is-a-triumphant-remix-with-one-major-flaw/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>72</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/carrieTOP-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/carrieTOP-500x500.jpg" width="500"/>
-<media:credit>Prime VIdeo</media:credit></media:content>
-            </item>
-                    <item>
-                <title>The past, present, and future share a show floor at Pinball Expo 2026</title>
-                <link>https://arstechnica.com/gaming/2026/10/the-past-present-and-future-share-a-show-floor-at-pinball-expo-2026/</link>
-                                    <comments>https://arstechnica.com/gaming/2026/10/the-past-present-and-future-share-a-show-floor-at-pinball-expo-2026/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Nick Indge]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 11:00:04 +0000</pubDate>
-                		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Dungeon Crawler Carl pinball]]></category>
-		<category><![CDATA[Jersey Jack]]></category>
-		<category><![CDATA[Multimorphic P3]]></category>
-		<category><![CDATA[Pinball Construction Set]]></category>
-		<category><![CDATA[Pocket Pinball]]></category>
-		<category><![CDATA[Spooky]]></category>
-		<category><![CDATA[Stern]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/10/the-past-present-and-future-share-a-show-floor-at-pinball-expo-2026/</guid>
-
-                                    <description>
-                        <![CDATA[Flipping through the highlights in and around Pinball Expo 2026.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>It's October in the Midwest, which means it's time for the pinball world to descend on a convention center in Chicagoland for the annual Pinball Expo. Once thought to be an entertainment sector slowly bleeding out, pinball has come back in a big way in recent years. I visited one of Chicago's last old-school manufacturers before heading down the road to see what's new in the silver-ball universe.</p>
-<h2>Behind the silver ball</h2>
-<p>Hundreds gathered on a brisk fall Friday morning outside Stern Pinball's headquarters in Elk Grove, Illinois, waiting to enter a Wonka-like wonder factory where piles of raw parts become licensed creations from <em>Jaws</em> to the brand-new <em>Fallout</em>. Stern invited me to tour its offices and factory floor before heading off to the convention in nearby Schaumburg, Illinois.</p>
-<img width="1914" height="1080" src="https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_134708667.jpg" class="fullwidth full" alt="An early morning line begins to form outside of Stern HQ as busses of Pinball Expo attendees arrived for tours." decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_134708667.jpg 1914w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_134708667-640x361.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_134708667-1024x578.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_134708667-768x432.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_134708667-1536x867.jpg 1536w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_134708667-384x216.jpg 384w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_134708667-980x553.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_134708667-1440x813.jpg 1440w" sizes="auto, (max-width: 1914px) 100vw, 1914px">
-      An early-morning line begins to form outside of Stern HQ as buses of Pinball Expo attendees arrive for tours.
-    
-<p>As I stood with my tour group in Stern Pinball's HQ lobby, mouth agape at the dozens of machines lining the walls, we were greeted by the man himself, Gary Stern, who gave us some background on the company's 40-year history. After a stop at Gary's podium, we were ushered to the factory floor entrance, where Stern employee and legendary game designer George Gomez briefed us on the tour rules and answered questions. According to Gomez, "at any given time, Stern controls 90 percent of the current pinball market, and everybody else splits the rest."</p><p><a href="https://arstechnica.com/gaming/2026/10/the-past-present-and-future-share-a-show-floor-at-pinball-expo-2026/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gaming/2026/10/the-past-present-and-future-share-a-show-floor-at-pinball-expo-2026/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>35</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_184926781-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_184926781-500x500.jpg" width="500"/>
-</media:content>
-            </item>
-                    <item>
-                <title>PHP warns it plans to release 2 emergency patches imminently</title>
-                <link>https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/</link>
-                                    <comments>https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Wed, 21 Oct 2026 02:12:18 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[exploits]]></category>
-		<category><![CDATA[patches]]></category>
-		<category><![CDATA[php]]></category>
-		<category><![CDATA[vulnerabilities]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/</guid>
-
-                                    <description>
-                        <![CDATA[Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Website admins, brace yourselves. Fixes for what are believed to be uncommonly severe vulnerabilities are scheduled to drop in a little more than 12 hours for PHP, a programming language that powers websites and Web applications everywhere.</p>
-<p>PHP maintainers <a href="https://www.php.net/archive/2026.php#2026-10-20-1">said Monday</a> that they planned to release patches for two vulnerabilities, both with severity ratings of 9.2 out of a possible 10.</p>
-<h2>Waiting for PHP2Shell</h2>
-<p>“All PHP users are encouraged to prepare now so they can upgrade as soon as the release is available,” the advisory stated. “We reserve the right to release earlier should details of either vulnerability become public, or should evidence of active exploitation appear in the wild.”</p><p><a href="https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>149</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-1000x648.jpeg" width="1000">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Merging SpaceX and Tesla would be a "good idea," Musk says</title>
-                <link>https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/</link>
-                                    <comments>https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Oct 2026 22:04:54 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[merger]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[Tesla]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/</guid>
-
-                                    <description>
-                        <![CDATA["I do think there's a lot of merit to combining the companies."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Elon Musk said Tuesday that he would like to see the consolidation of his business empire by formally merging his two largest companies, SpaceX and Tesla.</p>
-<p>"Do I think it would be a good idea? Yes," Musk said of a potential merger. He was speaking during a question-and-answer period as part of SpaceX's third-quarter earnings call. Musk said, ultimately, it not his decision. "But at the end of the day the shareholders have to be supportive of this."</p>
-<p>Musk's talk of a merger comes after a busy year in which SpaceX already acquired Musk's artificial intelligence firm, xAI, in February. In June, SpaceX went public with the largest initial public offering on record.</p><p><a href="https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>234</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/tesla-in-space-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/tesla-in-space-500x500.jpg" width="500"/>
-<media:credit>SpaceX</media:credit><media:text>Eight years after a Falcon Heavy launched a Tesla Roadster into space, SpaceX and Tesla may merge.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies</title>
-                <link>https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/</link>
-                                    <comments>https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Tue, 20 Oct 2026 21:44:34 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[Guinae-Bissau]]></category>
-		<category><![CDATA[hepatitis B]]></category>
-		<category><![CDATA[robert f kennedy jr]]></category>
-		<category><![CDATA[vaccine]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/</guid>
-
-                                    <description>
-                        <![CDATA[Guinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Police in Guinea-Bissau raided the offices of Danish researchers on Monday, seizing doses of hepatitis B vaccine intended for a vaccine trial for newborns. International health experts have called the trial "<a href="https://www.who.int/news/item/13-02-2026-statement-on-the-planned-hepatitis-b-birth-dose-vaccine-trial-in-guinea-bissau">unethical</a>," but anti-vaccine Health Secretary Robert F. Kennedy Jr. has attempted to fund it with US taxpayer dollars.</p>
-<p>Under Kennedy, the US Centers for Disease Control and Prevention announced in December that it had awarded the Danish researchers—led by married couple Peter Aaby and Christine Stabell Benn of Bandim Health Project—<a href="https://www.federalregister.gov/documents/2025/12/18/2025-23245/notice-of-award-of-a-single-source-unsolicited-grant-to-fund-university-of-southern-denmark-sdu">an unsolicited $1.6 million grant to run the trial</a>. Aaby and Stabell Benn are controversial vaccine researchers who claim vaccines cause overlooked harms. They have been repeatedly praised by Kennedy but are currently under investigation by Danish authorities for alleged scientific misconduct.</p>
-<p><a href="https://arstechnica.com/health/2026/02/who-slams-us-funded-newborn-vaccine-trial-as-unethical/">Plans for the trial were halted in January</a> as widespread condemnation erupted over the trial's design, which would potentially expose thousands of newborns in the country to hepatitis B, risking a lifelong infection that can lead to liver cirrhosis, cancer, and premature death. <a href="https://arstechnica.com/health/2026/10/rfk-jr-still-eager-to-fund-vaccine-trial-that-would-expose-babies-to-deadly-virus/">Outrage flared again</a> after a Rolling Stone story earlier this month claimed the CDC set aside another $1.6 million in funding in late September and planned to move forward with the trial.</p><p><a href="https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>127</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1234276092-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1234276092-500x500.jpg" width="500"/>
-<media:credit>Getty | Nicholas Kajoba</media:credit><media:text>A medical worker prepares a hepatitis B vaccine. </media:text></media:content>
             </item>
             </channel>
 </rss>
