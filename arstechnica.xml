@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Mon, 02 Nov 2026 23:30:16 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2026 17:08:21 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,215 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Google dismantles botnet secretly running on 1.3 million Android TV boxes</title>
+                <link>https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/</link>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 17:08:21 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[android tv]]></category>
+		<category><![CDATA[botnets]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[security]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/</guid>
+
+                                    <description>
+                        <![CDATA[Google has cut ties with the company behind the botnet campaign. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google's Threat Intelligence Group says it has shut down a massive botnet called x.cpe. At its height, x.cpe ran on more than 1.3 million Android TV devices, and unusually, these were Google-certified boxes. Google says its screening process missed the malware due to "obfuscation techniques" employed by Shenzhen-based Videostrong Technology.</p>
+<p>In a detailed <a href="https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/">blog post</a>, the Threat Intelligence Group explains how the x.cpe botnet evolved quickly from a single-stage dropper into a modular three-stage malware platform that sold access to third parties. Manufacturers must have their devices certified if they want access to Google apps and branding, a process that is supposed to catch threats like this. However, Videostrong's compromised boxes, mostly sold under the MECOOL brand, evaded detection by using a backdoor to remotely install the malware after the devices were set up and online.</p>
+<p>After devices appeared online, a stub application called x.cpe or com.oemservice would phone home. This package did not have any malicious capabilities of its own, but it had the system-level permissions necessary to install malware modules at the operator's behest. It also disabled Play Protect, which would have otherwise flagged the silently installed packages as malicious.</p><p><a href="https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/">Read full article</a></p>
+<p><a href="https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/mecool-malware.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/mecool-malware-500x500.jpg" width="500"/>
+<media:credit>Google</media:credit><media:text>The Mecool KT1 is just one of the many devices in the x.cpe botnet. </media:text></media:content>
+            </item>
+                    <item>
+                <title>This space company is betting its future on a propellant available everywhere</title>
+                <link>https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/</link>
+                                    <comments>https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 16:50:32 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[argo space]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[water propulsion]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/</guid>
+
+                                    <description>
+                        <![CDATA[Is that water in your spacecraft, or are you just happy to see the delta-V?]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Robert, Ryan, and Kirby Carlisle are three engineers who worked at SpaceX during the Falcon 9 era, seeing the revolution in the global launch industry from the inside.</p>
+<p>The brothers launched rockets, refurbished rockets, and sold rockets. But when it came time for them to leave SpaceX and start their own space company—a lifetime dream for the Carlisle brothers—they chose not to build rockets. Rather, they focused on spacecraft.</p>
+<p>In late 2022, the three Carlisles founded Argo Space to build infrastructure in space. Their vision was not just in-space transportation but also removing the need to use propellants from Earth to move around the heavens. They chose water, which is potentially harvestable on the Moon and found all over the Solar System, as a means of propulsion.</p><p><a href="https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>5</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Argonaut-Transit-to-Moon-16x9-1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Argonaut-Transit-to-Moon-16x9-1-500x500.jpg" width="500"/>
+<media:credit>Argo Space</media:credit><media:text>Rendering of an Argonaut spacecraft transiting to the Moon.</media:text></media:content>
+            </item>
+                    <item>
+                <title>UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?</title>
+                <link>https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/</link>
+                                    <comments>https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 16:03:13 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[secure boot]]></category>
+		<category><![CDATA[uefi]]></category>
+		<category><![CDATA[Windows]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/</guid>
+
+                                    <description>
+                        <![CDATA[UEFI bootkit BlackX exploits Microsoft's lack of clarity around Secure Boot protections.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In 2023, malware tracked as BlackLotus became the first publicly documented in-the-wild UEFI bootkit capable of bypassing Secure Boot on fully updated Windows 11 systems. With the industry-wide chain-of-trust mechanism subverted, the malware was able to run malicious code before Windows was fully loaded and many security defenses were operational.</p>
+<p>Microsoft had already patched the vulnerability that BlackLotus exploited in 2022. In 2023 and 2024, Microsoft issued additional updates. The first added a new certificate that no longer trusted the vulnerable boot managers. The second provided the means to revoke trust in the digital certificate used to sign older vulnerable Windows boot managers. The organizations infected by the new bootkit, which is tracked under the name BlackX, had installed all of these patches. So how did they fall victim?</p>
+<h2>UEFI bootkit refresher</h2>
+<p>Before discussing the incident further, a brief review of BlackLotus and UEFI malware is in order. Short for <a href="https://uefi.org/specs/UEFI/2.10/01_Introduction.html">Unified Extensible Firmware Interface</a>, UEFI is firmware that runs immediately after a computer is turned on. One of its main jobs is to load system configuration settings, identify and initialize hardware components, and prepare the computer to start its OS.</p><p><a href="https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>11</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-1000x648.jpg" width="1000">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Trump wanted to give No Kings no air. Then, Meta suspended its Instagram.</title>
+                <link>https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 15:39:30 +0000</pubDate>
+                		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[election content]]></category>
+		<category><![CDATA[election misinformation]]></category>
+		<category><![CDATA[Mark Zuckerberg]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[no kings]]></category>
+		<category><![CDATA[trump administration]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/</guid>
+
+                                    <description>
+                        <![CDATA[Meta faces pressure to protect No Kings Instagram on election day.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Over the weekend, the No Kings Coalition said Meta declined to commit to taking steps to prevent automated systems from suspending one of Instagram's most prominent pro-democracy accounts if activity surged around the page during the midterm elections.</p>
+<p>A demand for action came after Meta apologized for temporarily suspending the No Kings Instagram account and disabling access for four hours at the peak of an early voting push from the group. In a post on X, Meta’s Andy Stone said the account had been using a Claude AI tool in a way that made it appear to be a bot. But even though automated review detected the error within an hour, Stone acknowledged that additional hurdles kept admins locked out. State and federal lawmakers—as well as a <a href="https://oag.ca.gov/news/press-releases/attorney-general-bonta-questions-meta-no-kings-coalition-instagram-suspension">coalition of 14 attorneys general</a>—have asked Meta to further explain its actions.</p>
+<p>In a <a href="https://static1.squarespace.com/static/6810f35a92c2904fa082829a/t/6adbd29e36c7da42855801dd/1792791198088/Letter+from+Meta+to+Interested+Parties+of+No+Kings+Coalition+%2810.21.2026%29.pdf">letter</a> to No Kings, Meta offered to arrange a meeting with a technical expert who could better explain the mistake. But No Kings <a href="https://static1.squarespace.com/static/6810f35a92c2904fa082829a/t/6adbd1671b898e06625e1865/1792790887079/Meta+Response+Letter.pdf">rejected</a> the response, saying it failed to address any of the group's ongoing concerns and requesting a meeting with Meta senior leadership instead. The group stressed that the issue goes beyond its Instagram account, saying that Americans who rely on Meta's platforms need assurance that voting content won’t be suppressed ahead of or on election day. Among eight questions, the coalition asked Meta to publicly disclose any communications with the Trump administration about the No Kings account or the <a href="https://www.nytimes.com/2026/11/02/us/politics/early-vote-turnout-senate-battlegrounds.html">historic early voting day</a> event.</p><p><a href="https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>52</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/zuck-trump-no-kings-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/zuck-trump-no-kings-500x500-1793646871.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images | Minh Connors | Alex Wong</media:credit><media:text>Mark Zuckerberg in Menlo Park, California on Wednesday, Sept. 23, 2026. Donald Trump in Fort Myers, Florida on October 23, 2026.</media:text></media:content>
+            </item>
+                    <item>
+                <title>EPA throws in the towel on policing air pollution from factory farms</title>
+                <link>https://arstechnica.com/tech-policy/2026/11/epa-throws-in-the-towel-on-policing-air-pollution-from-factory-farms/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/11/epa-throws-in-the-towel-on-policing-air-pollution-from-factory-farms/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Georgina Gustin, Inside Climate News]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 14:49:00 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[clean air act]]></category>
+		<category><![CDATA[EPA]]></category>
+		<category><![CDATA[factory farming]]></category>
+		<category><![CDATA[methane emissions]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/epa-throws-in-the-towel-on-policing-air-pollution-from-factory-farms/</guid>
+
+                                    <description>
+                        <![CDATA[Critics say EPA is effectively abandoning Clean Air Act enforcement at factory farms.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Environmental Protection Agency late last week <a href="https://www.epa.gov/newsreleases/trump-epa-brings-closure-20-year-old-agreement-ending-decades-long-uncertainty">announced</a> it would end a 20-plus-year effort to develop methods to monitor air pollution from factory farms, effectively shuttering the agency’s stop-and-start attempts to regulate the potentially pollutant-spewing facilities under the Clean Air Act.</p>
+<p>The announcement came just days before the midterm elections and was characterized by the agency as a long-awaited reprieve for farmers, a historically important constituency for Trump and the Republican Party.</p>
+<p>When tens of thousands of animals are packed into one place, pollution from their waste is blown from ventilation fans or emanates from giant lagoons of liquid effluent. Livestock facilities emit fine particulate matter, ammonia, nitrogen oxides, sulfur dioxide, and volatile organic compounds, all contributing to a toxic mix. Research <a href="https://www.pnas.org/doi/pdf/10.1073/pnas.2013637118">has shown</a> that emissions from these operations are a major cause of air pollution, causing nearly 12,700 deaths in the United States a year.</p><p><a href="https://arstechnica.com/tech-policy/2026/11/epa-throws-in-the-towel-on-policing-air-pollution-from-factory-farms/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/11/epa-throws-in-the-towel-on-policing-air-pollution-from-factory-farms/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>36</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/factory-farm-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/factory-farm-500x500.jpg" width="500"/>
+<media:credit>Carl Banks/Getty</media:credit><media:text>Aerial view of modern commercial poultry broiler houses on a chicken farm with industrial buildings on a cold morning in Tennessee.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Beyond screens: Mercedes-Benz's new holographic heads-up display</title>
+                <link>https://arstechnica.com/cars/2026/11/beyond-screens-mercedes-benzs-new-holographic-heads-up-display/</link>
+                                    <comments>https://arstechnica.com/cars/2026/11/beyond-screens-mercedes-benzs-new-holographic-heads-up-display/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[James Riswick]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 14:00:07 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[heads-up display]]></category>
+		<category><![CDATA[Mercedes-Benz]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/11/beyond-screens-mercedes-benzs-new-holographic-heads-up-display/</guid>
+
+                                    <description>
+                        <![CDATA[After pioneering the passenger screen, Mercedes has designs on the windshield. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<aside class="pullbox sidebar fullwidth">Mercedes-Benz provided flights from Los Angeles to Stuttgart, Germany, and accommodation so Ars could experience the holographic display. Ars does not accept paid editorial content.</aside>
+<p>Do screens in cars represent luxury? Judging by the latest car interiors, the answer would seem to be an emphatic “yes.” Screens aren't just getting larger; they are multiplying across the dashboard and morphing into different forms and concepts. Indeed, an interior’s screens are a pretty good indicator of what brand made the car—or at least how much the owner paid for it.</p>
+<p>But is this <a href="https://arstechnica.com/cars/2024/08/ai-good-passenger-infotainment-screens-bad-says-car-technology-survey/">actually what customers want</a>? Are more screens really better? And even if they are, luxury car features inevitably trickle down to cheaper, more mainstream offerings, and screens can only get so big. That leaves luxury automakers with another question to answer: “What’s next?”</p>
+<p>Mercedes-Benz is working on a new display alternative that could provide an answer. For now, it's known as the holographic display. Forget the images from Star Trek and Star Wars that just popped into your head, though. It's effectively a more advanced form of heads-up display, or HUD.</p><p><a href="https://arstechnica.com/cars/2026/11/beyond-screens-mercedes-benzs-new-holographic-heads-up-display/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/11/beyond-screens-mercedes-benzs-new-holographic-heads-up-display/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>52</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/26C0308_008-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/26C0308_008-500x500.jpg" width="500"/>
+<media:credit>Mercedes-Benz</media:credit><media:text>Because Mercedes installed its test system in a right-hand drive car, this is actually the passenger's view.</media:text></media:content>
+            </item>
+                    <item>
                 <title>"At Home in Space" opens, caps Air and Space Museum renovation</title>
                 <link>https://arstechnica.com/space/2026/11/at-home-in-space-opens-caps-air-and-space-museum-renovation/</link>
                                     <comments>https://arstechnica.com/space/2026/11/at-home-in-space-opens-caps-air-and-space-museum-renovation/#comments</comments>
@@ -57,7 +266,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>8</slash:comments>
+                                    <slash:comments>19</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/news-103026a-lg-1152x648.jpg" width="1152">
@@ -93,12 +302,12 @@
 <h2>Why large dogs age faster</h2>
 <div class="ars-video ars-video--horizontal"><div><div class="relative" allow="fullscreen" loading="lazy" src="https://player.vimeo.com/video/1242487078?color=ff9933"></div></div></div>
 <p>In many mammalian species, larger creatures tend to have longer lifespans. Mice, for instance, live an average of just two years, while some whales can last for as long as 200 years. Dogs, however, buck this pattern; larger dogs tend to age faster and die younger than smaller ones, which makes canines an ideal model for biologists to study to learn more about aging in general. Arizona State University scientists report that these lifespan differences seem to be due to so-called "jumping genes," according to <a href="https://www.science.org/doi/10.1126/science.aeb2986">a paper</a> published in the journal Science.</p>
-<p>The authors used data from 864 dogs collected in the Dog Aging Project to map patterns of DNA methylation (which influences how much certain genes are turned on or off)  across the entire genome. It's part of the epigenome, whose markers can change over time in response to stress and other environmental factors. Genetic sequences, by contrast, are largely fixed. So DNA methylation is a good chemical indicator of aging and DNA regulation.</p><p><a href="https://arstechnica.com/science/2026/11/research-roundup-6-cool-science-stories-we-almost-missed-7/">Read full article</a></p>
+<p>The authors used data from 864 dogs collected in the Dog Aging Project to map patterns of DNA methylation (which influences how much certain genes are turned on or off) across the entire genome. It's part of the epigenome, whose markers can change over time in response to stress and other environmental factors. Genetic sequences, by contrast, are largely fixed. So DNA methylation is a good chemical indicator of aging and DNA regulation.</p><p><a href="https://arstechnica.com/science/2026/11/research-roundup-6-cool-science-stories-we-almost-missed-7/">Read full article</a></p>
 <p><a href="https://arstechnica.com/science/2026/11/research-roundup-6-cool-science-stories-we-almost-missed-7/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>9</slash:comments>
+                                    <slash:comments>35</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/doggos-1152x648-1793464886.jpg" width="1152">
@@ -135,7 +344,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>22</slash:comments>
+                                    <slash:comments>39</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2190742287-1152x648.jpg" width="1152">
@@ -170,7 +379,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>72</slash:comments>
+                                    <slash:comments>96</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/zelda-google-1152x648.jpg" width="1152">
@@ -205,7 +414,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>28</slash:comments>
+                                    <slash:comments>37</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2182089944-1152x648.jpg" width="1152">
@@ -241,7 +450,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>127</slash:comments>
+                                    <slash:comments>154</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Apple-CEO-John-Ternus-1152x648.jpg" width="1152">
@@ -279,7 +488,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>133</slash:comments>
+                                    <slash:comments>169</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1180626096-1152x648.jpg" width="1152">
@@ -315,7 +524,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>106</slash:comments>
+                                    <slash:comments>121</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/china-1-1152x648.jpg" width="1152">
@@ -347,7 +556,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>52</slash:comments>
+                                    <slash:comments>64</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2302218135-1152x648.jpg" width="1152">
@@ -383,7 +592,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>24</slash:comments>
+                                    <slash:comments>25</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/1620px-Jabiru_-_Garzon_Soldado_Jabiru_mycteria_8576613973-1152x648.jpg" width="1152">
@@ -422,7 +631,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>81</slash:comments>
+                                    <slash:comments>93</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/TRMNL_Seeed_Kit_Ferengi_Rules-1152x648.jpg" width="1152">
@@ -528,231 +737,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>154</slash:comments>
+                                    <slash:comments>156</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/hst_vantor-1080x648.jpg" width="1080">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/hst_vantor-500x500.jpg" width="500"/>
 <media:credit>Vantor</media:credit><media:text>A recent view of the Hubble Space Telescope from a Vantor commercial imaging satellite.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Flesh-eating screwworms spread to third state and are attacking pets</title>
-                <link>https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week/</link>
-                                    <comments>https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Fri, 30 Oct 2026 22:36:41 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[arizona]]></category>
-		<category><![CDATA[livestock]]></category>
-		<category><![CDATA[mexico]]></category>
-		<category><![CDATA[New Mexico]]></category>
-		<category><![CDATA[nws]]></category>
-		<category><![CDATA[parasites]]></category>
-		<category><![CDATA[pets]]></category>
-		<category><![CDATA[screwworm]]></category>
-		<category><![CDATA[texas]]></category>
-		<category><![CDATA[USDA]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week/</guid>
-
-                                    <description>
-                        <![CDATA[USDA has identified 74 animal cases in US since parasitic flies invaded in June.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>For a genuine fright this Halloween, you can turn your gaze to the southern border, where ravenous, flesh-eating maggots are festering and have taken to eating people's pets.</p>
-<p>This week, the country's New World Screwworm (NWS) infestation spread to a third state, Arizona, which joins New Mexico and Texas in being plagued by the horrifying parasites. To date, <a href="https://www.aphis.usda.gov/animals/animal-health/livestock-and-poultry-disease/stop-screwworm/current-status/confirmed">74 animal cases</a> have been identified in the US since the flies re-invaded the country in June.</p>
-<p>The flies lay hundreds of eggs in wounds and moist orifices of animals, and the resulting voracious maggots feast on their victims. The maggots resemble screws and tortuously bore and twist into living flesh, causing severe, sometimes fatal wounds before dropping to the ground to develop into adults.</p><p><a href="https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>117</slash:comments>
-                
-                
-                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2016/11/CSIRO_ScienceImage_115_The_Tip_of_a_Screw_Worm_Fly_Larvae.jpg">
-<media:thumbnail height="425" url="https://cdn.arstechnica.net/wp-content/uploads/2016/11/CSIRO_ScienceImage_115_The_Tip_of_a_Screw_Worm_Fly_Larvae-500x425.jpg" width="500"/>
-<media:credit>CSIRO</media:credit><media:text>The tip of a screwworm fly larvae. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Oh captain, our captain: Ars staff remembers Patrick Stewart</title>
-                <link>https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/</link>
-                                    <comments>https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jennifer Ouellette]]>
-                </dc:creator>
-                <pubDate>Fri, 30 Oct 2026 22:21:05 +0000</pubDate>
-                		<category><![CDATA[Culture]]></category>
-		<category><![CDATA[Jean Luc Picard]]></category>
-		<category><![CDATA[Obituaries]]></category>
-		<category><![CDATA[patrick stewart]]></category>
-		<category><![CDATA[sir patrick stewart]]></category>
-		<category><![CDATA[Staff source]]></category>
-		<category><![CDATA[StarTrek: The Next Generation]]></category>
-		<category><![CDATA[X-Men]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/</guid>
-
-                                    <description>
-                        <![CDATA["For huge numbers of people, I will always be Jean-Luc Picard. ... We created an admirable individual."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Along with the rest of the world, we at Ars are mourning <a href="https://en.wikipedia.org/wiki/Patrick_Stewart">Sir Patrick Stewart</a>—the beloved award-winning actor best known as Captain Jean-Luc Picard in <em>Star Trek: The Next Generation</em> and Professor Charles Xavier in the X-Men franchise—who <a href="https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html">died Wednesday</a> at the age of 86.</p>
-<p>A statement released by Stewart's representatives said:</p>
-<blockquote><p>We announce with great sorrow the passing of Sir Patrick Stewart yesterday at his home in Los Angeles, in the loving care of his beloved wife Sunny, following a brief and poignant journey with Alzheimer’s Disease and Lewy Body Dementia. He has been held in the warm embrace of family and friends, surrounded by live music, prayer, tears, laughter, and the kind of profound emotion that only he could inspire after a lifetime of devotion to us all. We will forever cherish the peaceful ease and reflection on his face, an enduring reminder of his invincible grace.</p></blockquote>
-<p>Through the actor's <a href="https://x.com/SirPatStew/status/2115891266131300517?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2115891266131300517%7Ctwgr%5Ee715a01f30cf4d2dae55b745754748e869db4bf2%7Ctwcon%5Es1_&amp;ref_url=https%3A%2F%2Fgizmodo.com%2Fpatrick-stewart-death-obituary-2000832670">X account</a>, the family has requested that, in lieu of flowers, memorial contributions be made to the <a href="https://alzresearch.org/giving/">Johns Hopkins Alzheimer’s Disease Research Center Fund</a> and the <a href="https://alzfdn.org/donate/">Alzheimer’s Foundation of America Caregiver Resources</a>.</p><p><a href="https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/">Read full article</a></p>
-<p><a href="https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>125</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Screenshot-2026-10-30-at-4.17.03-PM-1152x648-1793391748.png" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Screenshot-2026-10-30-at-4.17.03-PM-500x500.png" width="500"/>
-<media:credit>CBS/Paramount+</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Supersonic airliner in doubt as company shifts to powering AI data centers</title>
-                <link>https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jeremy Hsu]]>
-                </dc:creator>
-                <pubDate>Fri, 30 Oct 2026 21:41:54 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[ai data centers]]></category>
-		<category><![CDATA[boom supersonic]]></category>
-		<category><![CDATA[data centers]]></category>
-		<category><![CDATA[natural gas]]></category>
-		<category><![CDATA[supersonic]]></category>
-		<category><![CDATA[supersonic boom]]></category>
-		<category><![CDATA[supersonic flight]]></category>
-		<category><![CDATA[supersonic travel]]></category>
-		<category><![CDATA[United Airlines]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/</guid>
-
-                                    <description>
-                        <![CDATA[Boom’s airliner may be delayed, and its data center power business lost a customer.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Boom Supersonic CEO Blake Scholl recently declared “it’s time for a renaissance in energy and in supersonic flight” as the supersonic airliner company unveiled a Colorado factory dedicated to making gas turbines for AI data centers. But Boom may be facing turbulence after early backers for both ventures have questioned the company’s delivery timeline or backed out entirely.</p>
-<p>One of the company’s first customers, United Airlines CEO Scott Kirby, has expressed doubts about Boom’s original plan to deliver the first Overture supersonic airliner in 2029. Kirby’s latest frank assessment came during an interview with the <a href="https://www.youtube.com/watch?v=LnorCpBR3aA">Office Hours: Business Edition</a> podcast that appeared on October 28, 2026.</p>
-<p>“‘29 is their official timeline,” Kirby told podcast host Monica Langley. “It’s not going to happen in ‘29—it’s going to take longer.”</p><p><a href="https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>198</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Superpower-Superfactory-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Superpower-Superfactory-500x500.jpg" width="500"/>
-<media:credit>Boom Supersonic</media:credit><media:text>Boom Supersonic CEO Blake Scholl speaks during the unveiling of a factory dedicated to manufacturing natural gas turbines for AI data centers.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Anthropic VS code extension on Cursor backdoored for nearly 12 hours</title>
-                <link>https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/</link>
-                                    <comments>https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Fri, 30 Oct 2026 21:09:54 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[Claude]]></category>
-		<category><![CDATA[cursor]]></category>
-		<category><![CDATA[supply chain attacks]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/</guid>
-
-                                    <description>
-                        <![CDATA[It's still unknown how attackers got access to Anthropic's verified Cursor account.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>An official extension for Anthropic’s Claude model was backdoored and threatened as many as 5,000 developers' machines, multiple sources reported Friday. Anthropic so far has yet to warn customers of the incident.</p>
-<p>The compromised package was a VS Code extension available in the marketplace of Cursor, a maker of AI-assisted developer tools, the company <a href="https://cursor.com/blog/claude-code-extension-security-notice">said</a> Friday. The malicious version, 2.1.313, subsequently affected “at most 5,000 users,” presumably when they either downloaded it or their systems automatically fetched and installed it. Anthropic pushed version 2.1.314 several hours after the previous version became available on Cursor, <a href="https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2">according to</a> independent researcher Kevin Beaumont. Both Beaumont and the CTO and co-founder of security firm Phorion said that version 2.1.313 was distributed through Anthropic’s official account on Cursor. So far, neither Cursor nor Anthropic has explained how the attackers gained control of the account.</p>
-<h2>In search of cloud credentials</h2>
-<p>“It was a supply-chain compromise where the attacker gained access to the official distribution channel,” Phorion CTO and co-founder Luke Roberts told Ars. “The malicious version 2.1.313 was posted to the official Anthropic account, effectively superseding 2.1.312. Extensions auto-update in Cursor by default, but users can configure this in settings.” Phorion has more details <a href="https://phorion.io/blog/offical-claude-code-vsx-compromise/">here</a>.</p><p><a href="https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/">Read full article</a></p>
-<p><a href="https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>36</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-1000x648.jpeg" width="1000">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" width="500"/>
-<media:credit>Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job</title>
-                <link>https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Nate Anderson]]>
-                </dc:creator>
-                <pubDate>Fri, 30 Oct 2026 20:40:13 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Dartmouth]]></category>
-		<category><![CDATA[high ed]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/</guid>
-
-                                    <description>
-                        <![CDATA[People who love AI don't always love telling others they used it.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>On August 9, 2026, Dartmouth College Provost Santiago Schnell wrote a <a href="https://www.washingtonpost.com/opinions/2026/08/09/university-fight-against-ai-cheating-doesnt-go-far-enough/">Washington Post op-ed</a> called "Universities are fighting AI cheating. But there’s a deeper problem." This week, Schnell discovered the depths of the problem himself as he resigned from the university after an advisory committee <a href="https://president.dartmouth.edu/sites/president/files/2026-10/Advisory%20Committee%20Report%20to%20President%202026-10-27.pdf">found</a> that he failed to disclose significant AI use in an academic paper and in the Washington Post op-ed, even though publishers required such disclosure.</p>
-<p>Schnell didn't make it especially easy for the committee to investigate his AI use; the report uses the term "insufficient cooperation." He did turn over his Dartmouth laptop, but he did not turn over logs from his personal LLM accounts related to the writings in question. Nor did he agree to meet with the committee.</p>
-<p>The committee did get access to the Claude enterprise account Schnell had used through Dartmouth, though. This shows him using the LLM as a tool for revising his papers, finding and fixing bugs in code, and editing or generating figures. For instance, Schnell would run his papers through Claude and ask things like:</p><p><a href="https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>141</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2228700612-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2228700612-500x500.jpg" width="500"/>
-<media:credit>Getty Images</media:credit><media:text>Dartmouth's New Hampshire campus.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Over 25% of people lie to get antibiotics—and their lies aren't even good</title>
-                <link>https://arstechnica.com/health/2026/10/over-25-of-people-lie-to-get-antibiotics-and-their-lies-arent-even-good/</link>
-                                    <comments>https://arstechnica.com/health/2026/10/over-25-of-people-lie-to-get-antibiotics-and-their-lies-arent-even-good/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Beth Mole]]>
-                </dc:creator>
-                <pubDate>Fri, 30 Oct 2026 20:17:50 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[antibiotics]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/10/over-25-of-people-lie-to-get-antibiotics-and-their-lies-arent-even-good/</guid>
-
-                                    <description>
-                        <![CDATA[Faked symptoms still point to infections that antibiotics don't treat.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>A significant number of patients in the US lie to their doctors to get antibiotics they likely don't need, according to two new studies. While that may not be a startling revelation, the studies drill down on the phenomenon, finding that the lies patients tell are generally bad ones—and yet, they work almost all the time.</p>
-<p>In the <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856032">two</a> linked <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856033">studies</a> published Friday in JAMA Network Open, a team of researchers led by Alistair Thorpe at the University of Utah analyzed online survey data from over 1,000 adults. They found that over a quarter of people reported having lied to a clinician at least once to get an antibiotic prescription for themselves or a child in their care. Patients lied by either exaggerating symptoms, making up symptoms, or—most often—both.</p>
-<p>But interestingly, the lies people told to get antibiotics involved making up or exaggerating symptoms of infections that wouldn't be treated with antibiotics. For example, the most common falsehoods were symptoms associated with colds, such as fever, cough, and sore throat. That's despite the fact that colds are caused by viruses, not bacteria—which antibiotics treat.</p><p><a href="https://arstechnica.com/health/2026/10/over-25-of-people-lie-to-get-antibiotics-and-their-lies-arent-even-good/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/10/over-25-of-people-lie-to-get-antibiotics-and-their-lies-arent-even-good/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>86</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1219036990-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1219036990-500x500.jpg" width="500"/>
-<media:credit>Getty | AnnaStills</media:credit></media:content>
             </item>
             </channel>
 </rss>
