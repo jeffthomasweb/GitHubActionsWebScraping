@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://arstechnica.com</link>
         <description>All Ars Technica stories</description>
-        <lastBuildDate>Thu, 05 Nov 2026 18:52:04 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 06 Nov 2026 02:53:43 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,8 +19,331 @@
 	<height>32</height>
 </image> 
             <item>
-                <title>Is MAHA dying—or will it be reborn? What's next after crushing midterm losses?</title>
+                <title>Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost</title>
+                <link>https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/</link>
+                                    <comments>https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Fri, 06 Nov 2026 00:17:06 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[blue origin]]></category>
+		<category><![CDATA[GS3]]></category>
+		<category><![CDATA[new glenn]]></category>
+		<category><![CDATA[northstar]]></category>
+		<category><![CDATA[space]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/</guid>
+
+                                    <description>
+                        <![CDATA["This is going to be a game-changer."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>KENNEDY SPACE CENTER, Fla.—Blue Origin announced two significant upgrades to its New Glenn rocket on Thursday, reducing the cost of manufacturing the vehicle and expanding its capacity for payload delivery to geostationary orbit and the Moon.</p>
+<p>With these upgrades, the company aims to eventually position New Glenn to launch more than 1,000 times a year.</p>
+<p>"There has never been higher demand for launch, ever," Dave Limp, chief executive officer of Blue Origin, said during the UP.Summit conference at the Shuttle Landing Facility in Florida.</p><p><a href="https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>36</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/webp" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/News_BlueOrigin-Northstar-Engine-1152x648.webp" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/News_BlueOrigin-Northstar-Engine-500x500.webp" width="500"/>
+<media:credit>Blue Origin</media:credit><media:text>Blue Origin is building a Northstar engine about every 10 days.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Meet *sshole, the vulnerability that lets hackers SSH into Linux devices</title>
+                <link>https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/</link>
+                                    <comments>https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 05 Nov 2026 23:09:36 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[alpine]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[SSH]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/</guid>
+
+                                    <description>
+                        <![CDATA[Certain configurations of Alpine are affected. Other distros may be as well.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Devices running some configurations of Alpine Linux, and possibly other distributions, are affected by a decade-old vulnerability that allows attackers to log into devices with no password.</p>
+<p>The vulnerability exists in the interaction between OpenSSH, the code library implementing SSH connections, and musl, a lightweight alternative to the libc library that, unlike most other Linux distributions, is used in Alpine. Further, OpenSSH using musl (pronounced muscle) must not use PAM (pluggable authentication modules), a framework that handles user authentication and account-access checks. Alpine is a lightweight, widely used Linux distribution. Other platforms may be affected if they use the same configurations.</p>
+<h2>One connection, works every time, needs no retries</h2>
+<p>There are two other conditions necessary for successful exploitation. First, a system must have at least one user account that’s accessible using a password that is hashed using the SHA256 or SHA512 functions. Second, the target system account must be configured to be passwordless, by way of specifying a "*" in the password field in /etc/shadow, the Linux file where password hashes are stored. Passwordless accounts are commonly used for accounts that use certificate-based authentication. This setting is common for certain types of accounts.</p><p><a href="https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>29</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2017/05/getty-hacking-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2017/05/getty-hacking-500x500.jpg" width="500"/>
+<media:credit>Getty Images | Sergey Balakhnichev</media:credit></media:content>
+            </item>
+                    <item>
+                <title>NASA unveils mysterious X-70 experimental aircraft using AI-generated image</title>
+                <link>https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Thu, 05 Nov 2026 22:49:03 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[aircraft]]></category>
+		<category><![CDATA[experimental aircraft]]></category>
+		<category><![CDATA[jared isaacman]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[X-59]]></category>
+		<category><![CDATA[X-70]]></category>
+		<category><![CDATA[x-plane]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/</guid>
+
+                                    <description>
+                        <![CDATA[NASA’s X-70 Fractal announcement comes as agency aims to grow X-plane fleet.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>NASA has announced a new experimental aircraft, the X-70 Fractal, that will supposedly feature reconfigurable flight-control technology and a modular design for swapping in different payloads. But much remains unknown about the aircraft’s design and development timeline, even as NASA administrator Jared Isaacman said the X-plane could take flight within two years.</p>
+<p>The mystery surrounding NASA’s newest X-plane was exemplified by the <a href="https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/">agency’s press release,</a> including an apparently AI-generated image of the X-70, showing a dark silhouette vaguely resembling a military fighter jet obscured by smoke. The news was announced by Isaacman during the <a href="https://up.partners/summit/">UP.Summit </a>held at the agency’s Kennedy Space Center in Florida on November 4.</p>
+<p>“The X-70 Fractal gives NASA a crewed, high-performance platform to test advanced flight-control, maneuverability, and other cutting-edge technologies in real flight,” Isaacman said. “Its modular design and ability to rapidly swap internal and external payloads will keep our teams flying, learning, and moving quickly from one experiment to the next.”</p><p><a href="https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>28</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/nasa-x-70-image-1152x648.jpeg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/nasa-x-70-image-500x500.jpeg" width="500"/>
+<media:credit>NASA</media:credit><media:text>NASA's announcement of the X-70 experimental aircraft was accompanied by this AI-generated image.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Sony revives the original Walkman headphones, adds USB-C</title>
+                <link>https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Thu, 05 Nov 2026 21:56:36 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[audio]]></category>
+		<category><![CDATA[Sony]]></category>
+		<category><![CDATA[Walkman]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/</guid>
+
+                                    <description>
+                        <![CDATA[Orange ear cushions included. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Color us nostalgic.</p>
+<p>Sony has brought back the MDR-3-series headphones that debuted in 1979 alongside the <a href="https://music.si.edu/story/smithsonian-collections-object-sony-tps-l2-%E2%80%9Cwalkman%E2%80%9D-cassette-player-national-museum-american">Walkman TPS-L2</a> cassette player.</p>
+<img width="640" height="389" src="https://cdn.arstechnica.net/wp-content/uploads/2026/11/assets_MS2027636_000001_feature-1-1-D-640x389.jpg" class="right medium" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/11/assets_MS2027636_000001_feature-1-1-D-640x389.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/11/assets_MS2027636_000001_feature-1-1-D-1024x622.jpg 1024w, https://cdn.arstechnica.net/wp-content/uploads/2026/11/assets_MS2027636_000001_feature-1-1-D-768x467.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/11/assets_MS2027636_000001_feature-1-1-D-980x595.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/11/assets_MS2027636_000001_feature-1-1-D.jpg 1440w" sizes="auto, (max-width: 640px) 100vw, 640px">
+      In this marketing image Sony shared, you can see the Walkman TPS-L2.
+        Credit:
+          Sony
+      
+<p>Originally called the "MDR-3L2," the first Walkman headphones were known for their sleek, adjustable gray plastic headband, which extended via metal sliders and ended in signature orange, circular ear cushions. The lightweight, on-ear headphones are a contrast to the bulky headsets that are popular these days, which use wide, cushioned headbands for long-term comfort and large earcups that can support big drivers and are often heavily padded for noise isolation.</p><p><a href="https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>48</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/assets_MS2027641_000001_feature-2-3-D-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/assets_MS2027641_000001_feature-2-3-D-500x500.jpg" width="500"/>
+<media:credit>Sony</media:credit><media:text>A woman wearing Sony's new MDR-3R USB-C headphones. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable</title>
+                <link>https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/</link>
+                                    <comments>https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Thu, 05 Nov 2026 21:40:36 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[ai search]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[search]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/</guid>
+
+                                    <description>
+                        <![CDATA[Google is technically offering schools more choice but not the choices anyone wants. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google faced the ire of educators and parents earlier this week when it announced a <a href="https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/">new AI policy for K–12 schools</a>. Google said that it developed its new approach to give schools more control, but early reporting also suggested Google would block search access for schools that didn't want to use AI. Google didn't see the backlash coming, but now that it's here, the search giant is clarifying what exactly its new policy means and what's changing.</p>
+<p>The gist of the new policy, according to Google's blog post, is that schools using Google apps will have to opt into its AI products going forward. Since the company considers search part of its AI portfolio (Gemini, Gemini Notebook, Gemini in Classroom, and Search), schools have to specifically turn that on for logged-in student accounts.</p>
+<p>When Google revealed its new policy, the company's VP for education spoke exclusively to <a href="https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html">The New York Times</a>, which interpreted the situation as Google will "turn off search" if schools reject AI. This has a nefarious vibe, but it's probably not the most accurate way to describe how Google's educational AI system will operate. Google's approach may not be entirely altruistic, but it technically offers schools more choice and control than they have now. Instead of <em>Google</em> turning off search, it will let <em>schools</em> make that decision based on their internal AI policies.</p><p><a href="https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>39</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-500x500-1748638352.jpg" width="500"/>
+<media:credit>Ryan Whitwam</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.</title>
+                <link>https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Thu, 05 Nov 2026 21:39:40 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI safety]]></category>
+		<category><![CDATA[attempted murder]]></category>
+		<category><![CDATA[chatbot]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[murder]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[poisoning]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/</guid>
+
+                                    <description>
+                        <![CDATA[Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>ChatGPT allegedly helped a North Carolina woman, Cheryl Gates, craft a “personalized plan” to poison her husband, James, after fueling her delusions that he planned to divorce her and leave her with nothing.</p>
+<p>A grand jury indicted Cheryl Gates on charges of attempted first-degree murder and food contamination in October. About a week prior, the accusations that ChatGPT was a co-conspirator in the attempted murder came in a <a href="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Gates-v-OpenAI-Complaint-11-5-26.pdf">lawsuit</a> filed in San Francisco County Superior Court that was made public this week. In it, James Gates alleged that OpenAI and Sam Altman failed to employ technical safeguards to shut down Cheryl’s chats even after her queries became “obviously suspicious” and sought advice on how to execute and conceal a homicide.</p>
+<p>At first, Cheryl told ChatGPT that she was researching poisoning out of fear that her husband might possibly try to kill her—framing her queries as “self-protection.” Coming to the rescue, ChatGPT did not terminate the conversation. Instead, it helped her “with specific instructions for the preparation, dosage, and administration of Oleander, including whether anti-nausea medicine would accelerate or inhibit death, whether it would show on an autopsy report, and whether it could be injected into a vein or muscle instead of being ingested in tea and have the same lethal effect,” the lawsuit said.</p><p><a href="https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>72</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2240656304-1024x648.jpg" width="1024">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2240656304-500x500.jpg" width="500"/>
+<media:credit>Aaron M. Sprecher / Contributor | Getty Images Sport</media:credit></media:content>
+            </item>
+                    <item>
+                <title>BMW bumps battery for the better: The 2027 i7 60 xDrive, driven</title>
+                <link>https://arstechnica.com/cars/2026/11/bmw-bumps-battery-for-the-better-the-2027-i7-60-xdrive-driven/</link>
+                                    <comments>https://arstechnica.com/cars/2026/11/bmw-bumps-battery-for-the-better-the-2027-i7-60-xdrive-driven/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Thu, 05 Nov 2026 20:45:50 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[2027 BMW i7]]></category>
+		<category><![CDATA[car review]]></category>
+		<category><![CDATA[First drive]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/11/bmw-bumps-battery-for-the-better-the-2027-i7-60-xdrive-driven/</guid>
+
+                                    <description>
+                        <![CDATA[BMW has updated its flagship sedan with the newest EV and infotainment tech.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<aside class="pullbox sidebar fullwidth">BMW provided flights from Washington, DC, to Los Angeles and accommodation so Ars could drive the 2027 i7 as well as the 2027 iX5 and X5. Ars does not accept paid editorial content.</aside>
+<p>When BMW debuted the new 7 Series in 2022, it set a new standard for large luxury sedans, increasingly irrelevant though that class is. Rather than siloing off an electric alternative like Mercedes, with its EQS alongside the normal S-Class, BMW simply made the powertrain an option. <a href="https://arstechnica.com/cars/2022/11/how-the-the-wire-helped-me-understand-the-2023-bmw-760i-xdrive/">Stick with a V8</a> if you want, or consider the rather good electric version instead—only subtle differences like the badging and lack of exhaust pipes give the game away.</p>
+<p>Since then, BMW has brought out a string of even newer electric vehicles for the 5 and 3 Series (plus their SUV counterparts). It has switched from battery packs made of prismatic cells to more energy-dense arrangements of cylindrical cells. The motors are still electrically excited synchronous ones, but now the drive units feature silicon carbide inverters and more compact packaging.</p>
+<p>This sixth-generation electric powertrain was designed for the <a href="https://arstechnica.com/cars/2025/12/great-handling-advanced-ev-tech-we-drive-the-2026-bmw-ix3/">clean-sheet Neue Klasse</a> family, which also threw out the legacy cruft of dozens and dozens of discrete single-function electronic control units for a handful of powerful domain controllers. These computers take over those functions but with much faster processing power—and therefore more capabilities in terms of chassis control or powertrain efficiency—as well as the ability to be more easily updated.</p><p><a href="https://arstechnica.com/cars/2026/11/bmw-bumps-battery-for-the-better-the-2027-i7-60-xdrive-driven/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/11/bmw-bumps-battery-for-the-better-the-2027-i7-60-xdrive-driven/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>25</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/BMW_i7_60_xD_Vancouver-Green_023-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/BMW_i7_60_xD_Vancouver-Green_023-500x500.jpg" width="500"/>
+<media:credit>Daniel Kraus/BMW</media:credit><media:text>BMW tweaked the nose on the i7 for model-year 2027, but the changes are far deeper than that.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Software squeezes more data out of Webb Telescope for imaging exoplanets</title>
+                <link>https://arstechnica.com/science/2026/11/getting-software-to-help-block-out-a-star-so-we-can-see-exoplanets/</link>
+                                    <comments>https://arstechnica.com/science/2026/11/getting-software-to-help-block-out-a-star-so-we-can-see-exoplanets/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Thu, 05 Nov 2026 19:59:22 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[coronagraph]]></category>
+		<category><![CDATA[software]]></category>
+		<category><![CDATA[telescopes]]></category>
+		<category><![CDATA[Webb telescope]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/11/getting-software-to-help-block-out-a-star-so-we-can-see-exoplanets/</guid>
+
+                                    <description>
+                        <![CDATA[Software optimizes a physical model of the telescope to reduce noise.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>With a huge and still-growing catalog of exoplanets, researchers are eager to take the next steps: trying to infer what conditions are like on them, either by imaging them directly or by capturing the light that has passed through their atmosphere. Both are substantial challenges, given the presence of stars that are far, far brighter than light that has come to us via the planet.</p>
+<p>While telescopes can be fitted with devices called coronagraphs that block out much of a star's light, there are limits to their effectiveness, caused by noise from subtle variations in the telescope's configuration and pointing between observations. Now, researchers have developed a new software package that optimizes a physical model of the telescope in a way that allows us to better model these differences, producing low-noise imaging of exoplanets.</p>
+<h2>Point spreads</h2>
+<p>Central to this work is the concept of a point spread function. If you use a telescope to image a single point of light, it will not appear that way in the actual image. Instead, it will be slightly blurry and spread out, due to imperfections in the telescope hardware and the limits of our ability to keep it pointed accurately through the time it takes to image something. The mathematical description of how a telescope distorts a point of light is called its point spread function.</p><p><a href="https://arstechnica.com/science/2026/11/getting-software-to-help-block-out-a-star-so-we-can-see-exoplanets/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/11/getting-software-to-help-block-out-a-star-so-we-can-see-exoplanets/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>16</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1-1152x648.png" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1-500x500.png" width="500"/>
+<media:credit>Gemini Observatory, NSF's NOIRLab, NSF, AURA, Julien Rameau (University of Montreal), Christian Marois (NRC Herzberg)</media:credit><media:text>Even with a coronagraph, it can be difficult to pick out planets.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Kalshi court losses pile up as judges refuse to block state gambling laws</title>
+                <link>https://arstechnica.com/tech-policy/2026/11/kalshi-court-losses-pile-up-as-judges-refuse-to-block-state-gambling-laws/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/11/kalshi-court-losses-pile-up-as-judges-refuse-to-block-state-gambling-laws/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Thu, 05 Nov 2026 19:46:37 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Kalshi]]></category>
+		<category><![CDATA[prediction market]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/kalshi-court-losses-pile-up-as-judges-refuse-to-block-state-gambling-laws/</guid>
+
+                                    <description>
+                        <![CDATA[Kalshi can't avoid gambling law by claiming it doesn't offer gambling, state AG says.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Kalshi is having a bad week in the federal court system. Two circuit appeals courts rejected the prediction market's latest attempts to block state gambling laws in Connecticut, New York, and Nevada. Kalshi is separately facing a new lawsuit filed by the Arkansas attorney general.</p>
+<p>In all cases involving Kalshi and state governments around the US, the main issue is <a href="https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/">whether state gambling laws apply to prediction markets</a> despite Kalshi's claim that its platform offers "swaps" that can only be regulated by the US Commodity Futures Exchange (CFTC). The Trump administration is on Kalshi's side, with Donald Trump Jr. serving as an advisor to Kalshi in exchange for a <a href="https://www.ft.com/content/f70147b1-ee77-4d75-8587-707a49ddb605?syn-25a6b1a6=1">generous equity deal</a>.</p>
+<p>"Kalshi insists that its products are not gambling," but "Arkansas law is concerned with substance, not semantics," Arkansas Attorney General Tim Griffin said yesterday when <a href="https://media.ark.org/ag/2026-11-04-Kalshi-lawsuit_FINAL.pdf">announcing</a> his lawsuit against Kalshi. Kalshi's prediction market lets customers "wager money on the outcome of just about anything" despite the fact that "gambling on an unregulated platform is squarely prohibited by Arkansas law," he said.</p><p><a href="https://arstechnica.com/tech-policy/2026/11/kalshi-court-losses-pile-up-as-judges-refuse-to-block-state-gambling-laws/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/11/kalshi-court-losses-pile-up-as-judges-refuse-to-block-state-gambling-laws/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>63</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/kalshi-ad-1152x648-1783536871.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/kalshi-ad-500x500-1783536860.jpg" width="500"/>
+<media:credit>Getty Images | Bloomberg</media:credit></media:content>
+            </item>
+                    <item>
+                <title>MAHA lost bigly in the midterms—is it at death's door?</title>
                 <link>https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/</link>
+                                    <comments>https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/#comments</comments>
                 
                 <dc:creator>
                     <![CDATA[Beth Mole]]>
@@ -44,6 +367,7 @@
 ]]>
                         </content:encoded>
                                     
+                                    <slash:comments>112</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2301676134-1024x648.jpg" width="1024">
@@ -76,7 +400,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>19</slash:comments>
+                                    <slash:comments>36</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/png" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/gta6dlss-1152x648.png" width="1152">
@@ -112,7 +436,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>51</slash:comments>
+                                    <slash:comments>129</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1487351817-1152x648.jpg" width="1152">
@@ -146,7 +470,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>51</slash:comments>
+                                    <slash:comments>65</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/signature27-1-1152x648.jpg" width="1152">
@@ -182,7 +506,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>42</slash:comments>
+                                    <slash:comments>59</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Agility-Digit-5-humanoid-robots-at-work-1152x648.jpg" width="1152">
@@ -220,7 +544,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>49</slash:comments>
+                                    <slash:comments>68</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/20261104_095710-1152x648.jpg" width="1152">
@@ -255,7 +579,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>49</slash:comments>
+                                    <slash:comments>69</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/26C0344_001-1152x648.jpg" width="1152">
@@ -294,7 +618,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>48</slash:comments>
+                                    <slash:comments>52</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/switchcarts-1152x648.jpg" width="1152">
@@ -329,7 +653,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>15</slash:comments>
+                                    <slash:comments>18</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/malware-1000x648.jpg" width="1000">
@@ -364,7 +688,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>85</slash:comments>
+                                    <slash:comments>107</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/cube1-1152x648-1793713257.jpg" width="1152">
@@ -396,375 +720,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>67</slash:comments>
+                                    <slash:comments>74</slash:comments>
                 
                 
                 <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2024/01/GettyImages-474325206-1152x648-1753374517.jpg" width="1152">
 <media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2024/01/GettyImages-474325206-500x500.jpg" width="500"/>
 <media:credit>Getty</media:credit></media:content>
-            </item>
-                    <item>
-                <title>AMD's record quarter: Data center business doubles, while gaming craters</title>
-                <link>https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Nick Indge]]>
-                </dc:creator>
-                <pubDate>Wed, 04 Nov 2026 21:29:46 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[AI Halo]]></category>
-		<category><![CDATA[AMD]]></category>
-		<category><![CDATA[MI350P]]></category>
-		<category><![CDATA[quarterly earnings]]></category>
-		<category><![CDATA[Ryzen]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/</guid>
-
-                                    <description>
-                        <![CDATA[AMD's gaming revenue fell 40 percent in an otherwise record $13.4 billion quarter. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>AMD <a href="https://newsroom.amd.com/news/amd-reports-third-quarter-2026-earnings/">reported third-quarter revenues</a> on Tuesday with a record $13.4 billion, an increase of 45 percent year over year, as data center business nearly doubled and the company's gaming segment cratered.</p>
-<p>AMD CFO Jean Hu said, "We expect revenue to be approximately $17 billion, plus or minus 3%. The middle point of our guidance represents approximately 66% year-over-year revenue growth, primarily driven by the acceleration of our Data Center segment." AMD says its Q4 revenue projections are up another 27 percent from this quarter's results. As reported <a href="https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections">by Tom's Hardware</a>, Intel's <a href="https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results">Q4 guidance</a> places revenue estimates between $15 billion and $16 billion. That means that if both companies land where they expect to at the end of the fourth quarter, AMD would exceed Intel's revenue for the first time in history.</p>
-<p>The data center segment of AMD's business was up 97 percent year over year, with a record $8.5 billion. AMD attributes the growth to demand for its <a href="https://www.amd.com/en/products/processors/server/epyc.html">EPYC line</a> of enterprise server CPUs, along with the launch of the <a href="https://www.amd.com/en/products/accelerators/instinct/mi400.html">Instinct MI450 series GPUs</a>. Sales of AMD Ryzen mobile chips led growth in the Client business, which includes desktop Ryzen processors and posted $2.95 billion in revenue, up 7 percent year over year.</p><p><a href="https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>38</slash:comments>
-                
-                
-                <media:content height="540" medium="image" type="image/webp" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/AMD_Helios_Rack_Instinct_MI455X-1152x540.webp" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/AMD_Helios_Rack_Instinct_MI455X-500x500.webp" width="500"/>
-<media:credit>AMD</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”</title>
-                <link>https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Wed, 04 Nov 2026 20:55:50 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[ai data center]]></category>
-		<category><![CDATA[ai election]]></category>
-		<category><![CDATA[ai race]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[china]]></category>
-		<category><![CDATA[data center moratoriums]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[midterm elections]]></category>
-		<category><![CDATA[SpaceXAI]]></category>
-		<category><![CDATA[texas]]></category>
-		<category><![CDATA[trump administration]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/</guid>
-
-                                    <description>
-                        <![CDATA[Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Donald Trump’s big, rapid American AI buildout now faces a major slowdown as voters in yesterday’s elections overwhelmingly supported candidates and measures that favored increasing restrictions on AI and data centers nationwide.</p>
-<p>One resource from a polling firm, called Redbud Consulting, tracked <a href="https://datacentersontheballot.com/">data center initiatives on the ballot</a> and reported that out of 44 measures across 10 states seeking to restrict data centers, 38 passed so far. Those measures included dozens of moratoriums and bans. Analysts suggested those won’t impact data centers already under construction or approved through 2027, instead largely impacting future projects planned for 2028. Only <a href="https://datacentersontheballot.com/?race=nd-harwood">one measure passed</a> allowing a data center to proceed. But even that small win represented pushback on the AI industry—requiring data center developers in a North Dakota city to pay for independent reviews and hold public hearings when expanding or proposing projects.</p>
-<p>In addition to increasing regulations on data centers, voters also backed anti-AI candidates, electing officials vowing crackdowns in key states building out the most data center capacity in the US.</p><p><a href="https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>219</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2302983449-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2302983449-500x500.jpg" width="500"/>
-<media:credit>Joel Angel Juarez / Stringer | Getty Images News</media:credit><media:text>People react during an election night watch party for Texas Democratic gubernatorial candidate, Gina Hinojosa.</media:text></media:content>
-            </item>
-                    <item>
-                <title>After Texas' blue wave, what happens to Elon Musk and SpaceX?</title>
-                <link>https://arstechnica.com/space/2026/11/elon-musk-moved-spacex-to-red-texas-now-its-blue-what-happens-next/</link>
-                                    <comments>https://arstechnica.com/space/2026/11/elon-musk-moved-spacex-to-red-texas-now-its-blue-what-happens-next/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Wed, 04 Nov 2026 20:36:05 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Abbott]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[midterms]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[spacex]]></category>
-		<category><![CDATA[talarico]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/11/elon-musk-moved-spacex-to-red-texas-now-its-blue-what-happens-next/</guid>
-
-                                    <description>
-                        <![CDATA["Data centers in space looking pretty appealing right now."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Following his public disputes with California authorities during the COVID-19 pandemic, Elon Musk personally moved to Texas, outside of Austin, in 2020.</p>
-<p>Over the next six years, he doubled down on the Lone Star State. In 2021, Musk increasingly focused the Starship program in South Texas, urging SpaceX employees to move there and work on the company's future. In March of that year, he began using the name Starbase to describe the production and launch facilities near the Rio Grande River.</p>
-<p>In 2023, he built a massive factory east of Austin to manufacture customer terminals and other electronics for the Starlink program. In July 2024, he announced that SpaceX would relocate its corporate headquarters from Hawthorne, California, to Starbase, Texas. <a href="https://www.texastribune.org/2024/07/16/elon-musk-x-space-x-texas-california/">He cited</a> California's regulatory and political environment as the motivating factor.</p><p><a href="https://arstechnica.com/space/2026/11/elon-musk-moved-spacex-to-red-texas-now-its-blue-what-happens-next/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/11/elon-musk-moved-spacex-to-red-texas-now-its-blue-what-happens-next/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>447</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/elon-how-do-you-do-fellow-democrats-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/elon-how-do-you-do-fellow-democrats-500x500.jpg" width="500"/>
-<media:credit>Aurich Lawson</media:credit><media:text>How do you do, fellow Dems?</media:text></media:content>
-            </item>
-                    <item>
-                <title>Ted Cruz aims to stack FCC with Republicans before Democrats take Senate control</title>
-                <link>https://arstechnica.com/tech-policy/2026/11/ted-cruz-aims-to-put-another-republican-on-fcc-in-senates-lame-duck-session/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/11/ted-cruz-aims-to-put-another-republican-on-fcc-in-senates-lame-duck-session/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Wed, 04 Nov 2026 19:08:23 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Anna Gomez]]></category>
-		<category><![CDATA[brendan carr]]></category>
-		<category><![CDATA[danielle thumann severs]]></category>
-		<category><![CDATA[FCC]]></category>
-		<category><![CDATA[ted cruz]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/ted-cruz-aims-to-put-another-republican-on-fcc-in-senates-lame-duck-session/</guid>
-
-                                    <description>
-                        <![CDATA[Cruz and Trump seem to have no plans to fill FCC's empty Democratic seat.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Senator Ted Cruz (R-Texas) is aiming to widen the Republican majority on the Federal Communications Commission before Democrats take over control of the Senate in January 2027.</p>
-<p>Just before the Republicans' midterm loss, Cruz yesterday <a href="https://www.commerce.senate.gov/press/rep/release/chairman-cruz-announces-nominations-hearing/">announced</a> a November 10 nomination hearing for Trump's FCC nominee, Danielle Thumann Severs. In his final two months as chairman of the Senate Commerce Committee, Cruz seems set on moving the Thumann Severs nomination to a full vote of the Senate.</p>
-<p>Confirming Thumann Severs would give Republicans an unusual 3-1 advantage on the FCC. That could become a 3-0 advantage at the end of 2027 because FCC Democrat Anna Gomez would have to leave the commission at that time if Trump does not agree to renominate her.</p><p><a href="https://arstechnica.com/tech-policy/2026/11/ted-cruz-aims-to-put-another-republican-on-fcc-in-senates-lame-duck-session/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/11/ted-cruz-aims-to-put-another-republican-on-fcc-in-senates-lame-duck-session/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>88</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/ted-cruz-1152x648-1751388273.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/ted-cruz-500x500-1751388283.jpg" width="500"/>
-<media:credit>Getty Images | Alex Wong </media:credit><media:text>Sen. Ted Cruz (R-Texas) and Sen. Maria Cantwell (D-Wash.) at a Senate Commerce Committee hearing on May 8, 2025.</media:text></media:content>
-            </item>
-                    <item>
-                <title>People say they want small smartphones—the Enough Phone will put that to the test</title>
-                <link>https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ryan Whitwam]]>
-                </dc:creator>
-                <pubDate>Wed, 04 Nov 2026 18:00:40 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[android]]></category>
-		<category><![CDATA[smartphones]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/</guid>
-
-                                    <description>
-                        <![CDATA[It won't win the specs race, but it will actually fit in your hand.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The first modern smartphones had 3.5-inch screens, which can be hard to remember in today's world of gargantuan glass slabs. Sure, people talk about wanting smaller phones, but will they buy one? Enough Phone is betting they will. The company will begin taking preorders for its first device today, which is built around a petite 5.3-inch screen that is apparently the smallest it could find with decent performance metrics.</p>
-<p>The company's cheeky name is reflected in its approach to phone design. A flagship killer this is not, but it's probably "enough" for most people. It has a mid-range MediaTek processor, a single rear-facing camera, a polycarbonate body, and a fingerprint sensor in the power button.</p>
-<div class="table-wrapper"><table class="specifications right" width="400">
-<thead>
-<tr>
-<th style="text-align: left;" colspan="2">Specs at a glance: Enough Phone ($399 for a limited time, $599 MSRP)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>SoC</strong></td>
-<td>MediaTek Dimensity 7500</td>
-</tr>
-<tr>
-<td><strong>Memory</strong></td>
-<td>8GB</td>
-</tr>
-<tr>
-<td><strong>Storage</strong></td>
-<td>128GB with microSD</td>
-</tr>
-<tr>
-<td><strong>Display</strong></td>
-<td>5.3-inch 1520x720 HD+ LCD</td>
-</tr>
-<tr>
-<td><strong>Cameras</strong></td>
-<td>Sony IMX766 50 MP, 32 MP selfie</td>
-</tr>
-<tr>
-<td><strong>Software</strong></td>
-<td>Android 17 or OdysseyOS</td>
-</tr>
-<tr>
-<td><strong>Battery</strong></td>
-<td>3500 mAh (removable)</td>
-</tr>
-<tr>
-<td><strong>Connectivity</strong></td>
-<td>5G, LTE, Wi-Fi 6, Bluetooth, NFC, SIM+eSIM</td>
-</tr>
-<tr>
-<td><strong>Measurements</strong></td>
-<td>133×64×12 mm</td>
-</tr>
-</tbody>
-</table></div>
-<p>With that compact screen, the Enough Phone will be dwarfed by almost every existing smartphone. While it's a bit thicker, the device has almost the same footprint as the iPhone 13 Mini. Thinness takes a hit, as the designers have opted to make the battery user-replaceable. Like the <a href="https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/">Fairphone</a>, you'll just have to remove a few screws to get the back cover off.</p><p><a href="https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>141</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Enough-Phone-in-Hand-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Enough-Phone-in-Hand-500x500.jpg" width="500"/>
-<media:credit>Enough Phone</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Binance says hackers who stole billions in crypto spent months planning heist</title>
-                <link>https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/</link>
-                                    <comments>https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Dan Goodin]]>
-                </dc:creator>
-                <pubDate>Wed, 04 Nov 2026 16:06:03 +0000</pubDate>
-                		<category><![CDATA[Biz & IT]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[hacking]]></category>
-		<category><![CDATA[tradertraitor]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/</guid>
-
-                                    <description>
-                        <![CDATA[Techniques included laptop infections, compromised internal tooling, and fake job interviews.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The hackers who stole billions of dollars in cryptocurrency from the Binance exchange spent months working on the theft and used both social engineering and novel malware in the process, the company said Tuesday.</p>
-<p>The heist, which both the <a href="https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack">FBI</a> and the TRM Security firm attributed to North Korean actors, initially targeted $6.34 billion in cryptocurrency from Binance wallets. The exchange has since frozen or intercepted $2.85 billion of that sum. Binance said it has set aside funds required to cover the loss and provided <a href="https://www.binance.com/en/proof-of-reserves">this link</a> to a Proof of Reserves page. The $6.34 billion represents the <a href="https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history">biggest sum</a> ever targeted in a cryptocurrency theft.</p>
-<h2>Advanced persistent threat</h2>
-<p>Binance <a href="https://www.binance.com/en/square/post/384312159834579">said</a> the people behind the heist began no later than June and continued until last Thursday, when they successfully compromised an engineer's laptop and withdrew assets from several wallets. Like just about every organization that suffers a public, high-consequence hack, Binance said the threat actor was sophisticated and resourceful.</p><p><a href="https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/">Read full article</a></p>
-<p><a href="https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>69</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/binance-1024x648.jpg" width="1024">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/binance-500x500.jpg" width="500"/>
-<media:credit>Dan Kitwood/Getty</media:credit></media:content>
-            </item>
-                    <item>
-                <title>What I learned driving the Slate electric truck prototype</title>
-                <link>https://arstechnica.com/cars/2026/11/what-i-learned-driving-the-slate-electric-truck-prototype/</link>
-                                    <comments>https://arstechnica.com/cars/2026/11/what-i-learned-driving-the-slate-electric-truck-prototype/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jonathan M. Gitlin]]>
-                </dc:creator>
-                <pubDate>Wed, 04 Nov 2026 15:42:18 +0000</pubDate>
-                		<category><![CDATA[Cars]]></category>
-		<category><![CDATA[First drive]]></category>
-		<category><![CDATA[Slate Auto]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/cars/2026/11/what-i-learned-driving-the-slate-electric-truck-prototype/</guid>
-
-                                    <description>
-                        <![CDATA[After 45 minutes behind the wheel, I am more optimistic about the $25,000 EV.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>If my 45-minute drive yesterday morning is anything to go by, I think Slate Auto will have quite the hit on its hands. The startup had one of its prototype trucks in town and asked if I wanted to check it out—no jumping on a plane or having to spend yet another night in an interchangeable hotel room, just a drive from southwest DC to Rockville, Maryland. Easy-peasy.</p>
-<p>The <a href="https://arstechnica.com/features/2026/06/we-take-a-ride-in-slates-24950-electric-pickup/">prototype truck</a> had been well-used, with almost 6,000 miles (9,656 km) showing on the small and minimalist but very legible digital display that also shows your speed and, if you engage reverse, the backup camera. And while the cabin layout was representative of the production version, the surfaces most certainly weren’t—the prototype instead uses a lot of hard and shiny black plastic, with strips of Velcro here and there left over from when the interior had to be camouflaged when the vehicle was out in public.</p>
-<p>Getting acquainted with the Slate was refreshingly easy. The Morris Marina-like door handles open with a pleasing mechanical action. The seat and steering column adjust manually but with plenty of reach, something many budget models used to leave out to save on cost.</p><p><a href="https://arstechnica.com/cars/2026/11/what-i-learned-driving-the-slate-electric-truck-prototype/">Read full article</a></p>
-<p><a href="https://arstechnica.com/cars/2026/11/what-i-learned-driving-the-slate-electric-truck-prototype/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>257</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/slate-in-car-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/slate-in-car-500x500.jpg" width="500"/>
-<media:credit>Jonathan Gitlin</media:credit><media:text>Don't get distracted by the shiny plastics, those aren't representative of the production truck.</media:text></media:content>
-            </item>
-                    <item>
-                <title>The DEA banned a drug some opioid users called a miracle</title>
-                <link>https://arstechnica.com/health/2026/11/the-dea-banned-a-drug-some-opioid-users-called-a-miracle/</link>
-                                    <comments>https://arstechnica.com/health/2026/11/the-dea-banned-a-drug-some-opioid-users-called-a-miracle/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Manisha Krishnan, wired.com]]>
-                </dc:creator>
-                <pubDate>Wed, 04 Nov 2026 15:08:48 +0000</pubDate>
-                		<category><![CDATA[Health]]></category>
-		<category><![CDATA[DEA]]></category>
-		<category><![CDATA[drug addiction]]></category>
-		<category><![CDATA[opiods]]></category>
-		<category><![CDATA[opioid crisis]]></category>
-		<category><![CDATA[syndication]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/health/2026/11/the-dea-banned-a-drug-some-opioid-users-called-a-miracle/</guid>
-
-                                    <description>
-                        <![CDATA[Researchers say the Schedule I ban could kill studies of a promising opioid treatment.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>In 2012, as the driver of deaths in the <a href="https://www.wired.com/tag/opioids/">opioid</a> crisis began moving from prescription pills to heroin, Laura Bohn was tasked with finding safer drugs to manage pain.</p>
-<p>Funded by the National Institute on Drug Abuse, in 2017 she and other scientists revealed in the <a href="https://www.cell.com/cell/fulltext/S0092-8674(17)31257-6">science journal Cell</a> that several compounds—including a particularly promising one called SR-17018—could relieve pain in mice without causing respiratory depression. That’s a big deal, because respiratory depression is typically what causes people using opioids to stop breathing and die.</p>
-<p>Bohn, senior associate vice president of research at University of South Florida Health, says her team filed a patent on SR-17018. They went on to discover that mice using the chemical did not develop a high tolerance for it and that mice already dependent on morphine—a powerful opioid—could consume SR-17018 to reset their tolerance without suffering from painful withdrawal symptoms.</p><p><a href="https://arstechnica.com/health/2026/11/the-dea-banned-a-drug-some-opioid-users-called-a-miracle/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/11/the-dea-banned-a-drug-some-opioid-users-called-a-miracle/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>88</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2017/11/GettyImages-679470044-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2017/11/GettyImages-679470044-500x500.jpg" width="500"/>
-<media:credit>Tom Kelley/Getty Images</media:credit></media:content>
-            </item>
-                    <item>
-                <title>California fights "preposterous" Trump admin demand to scrap state broadband laws</title>
-                <link>https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Tue, 03 Nov 2026 22:39:37 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[BEAD program]]></category>
-		<category><![CDATA[Broadband Equity Access and Deployment program]]></category>
-		<category><![CDATA[California]]></category>
-		<category><![CDATA[trump administration]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/</guid>
-
-                                    <description>
-                        <![CDATA[State tries to obtain broadband funds despite rejecting Trump admin condition.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>California is accepting $1.42 billion in broadband grant funding from the Trump administration, but the state is not accepting the Trump administration's demand that it stop enforcing a net neutrality law and other telecom regulations.</p>
-<p>California's stand against the Trump administration could result in multiple legal battles involving the state, federal government, and Internet providers seeking government funds. Although California told the federal government it would accept the money, it is reserving the right to challenge the condition imposed by the US. The state could delay or cancel plans to distribute broadband grants depending on how the process unfolds.</p>
-<p>The National Telecommunications and Information Administration (NTIA) <a href="https://arstechnica.com/tech-policy/2025/10/trump-admin-demands-states-exempt-isps-from-net-neutrality-and-price-laws/">decided last year</a> that states must agree not to enforce any rate regulation or net neutrality rule on ISPs that receive money from the $42 billion Broadband Equity, Access, and Deployment (BEAD) program. <a href="https://arstechnica.com/tech-policy/2026/09/california-may-gut-state-net-neutrality-law-to-comply-with-trump-admin-demand/">California had to decide</a> whether to accept its share of the fund despite that restriction. <span class="md-plain md-expand">California is slated to </span><span class="md-meta-i-c md-link"><a href="https://broadbandusa.ntia.gov/sites/default/files/2026-07/BEAD_FP_Overview_CA.pdf"><span class="md-plain">spend $1.42 billion</span></a></span><span class="md-plain md-expand"> to deploy broadband to 270,571 locations and may ultimately receive up to $1.86 billion from BEAD for a mix of deployment and non-deployment projects.</span></p><p><a href="https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>76</slash:comments>
-                
-                
-                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/06/getty-fiber-1152x648.jpg" width="1152">
-<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/06/getty-fiber-500x500.jpg" width="500"/>
-<media:credit>Getty Images | Yuichiro Chino</media:credit></media:content>
             </item>
             </channel>
 </rss>
