@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml" />
         <link>https://arstechnica.com</link>
         <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
-        <lastBuildDate>Fri, 13 Nov 2026 02:33:38 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 13 Nov 2026 19:16:50 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,289 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>OpenAI board member worries an AI &quot;takeover&quot; of society could be months away</title>
+                <link>https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/</link>
+                                    <comments>https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Fri, 13 Nov 2026 17:25:45 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Doom]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sci-fi]]></category>
+		<category><![CDATA[takeover]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/</guid>
+
+                                    <description>
+                        <![CDATA[Researcher traces a path from AI reward hacking to potential human extinction.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>How do you think you're going to die?</p>
+<p>If you go by <a href="https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm">the current statistics for deaths in the US</a>, it's reasonable to expect that cancer or heart disease will eventually get you. But OpenAI Foundation board member and <a href="https://www.alignment.org/">Alignment Research Center</a> Executive Director Paul Cristiano thinks we should all be worried about another major mortality risk. <a href="https://www.youtube.com/watch?v=-Ef0ocEoBCs">Speaking at a lecture series this week</a>, Cristiano bluntly told the audience in a Toronto Convention Center, "I think for most people in this room, the most likely reason they will die is because of an AI accident."</p>
+<p>In the opening lecture of a <a href="https://www.youtube.com/watch?v=QQUfMHx5Aug">three-part</a> <a href="https://www.youtube.com/watch?v=s0qUNvgFgHg">series</a>, Cristiano outlined his worries about the risk of an impending "AI takeover." He defined that as a situation where goal-pursuing AI systems "call the shots in the same sense that humans today call the shots and what happens on Earth" and where any human trying to stop them "would be as ineffective as if you or me was trying to stop the US military." Such a situation would likely lead to mass death and perhaps uninhabitable environments for humans, Cristiano said.</p><p><a href="https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/">Read full article</a></p>
+<p><a href="https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>79</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Windows 0-day dropped by disgruntled researcher hands hackers System rights</title>
+                <link>https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/</link>
+                                    <comments>https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 13 Nov 2026 16:26:32 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[exploits]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[zerodays]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/</guid>
+
+                                    <description>
+                        <![CDATA["SignDrop" exploit lets local users gain all-powerful System rights.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Nightmare Eclipse, the pseudonym of a researcher with an ongoing, very public beef with Microsoft, has dropped yet another Windows zero-day.</p>
+<p>On Tuesday, Nightmare Eclipse disclosed SignDrop, a vulnerability that gives local users full System rights on some versions of Windows. The vulnerability resides in the <a href="https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-the-common-log-file-system">Common Log File System</a>, which Microsoft describes as a “general-purpose logging service used by software clients running in user-mode or kernel-mode.” By forcing a privileged process such as Windows Defender to open a crafted CLFS container, an attacker with ordinary user rights can abuse the privileged file creation to elevate privileges to System.</p>
+<h2>Turning a Windows defense against itself</h2>
+<p>The attack exploits the interaction of CLFS, Windows Defender, and Windows file permissions. The exploit uses Windows Defender to open a log file created by a standard user by calling ServerMpUpdateEngineSignature, a legitimate Defender function for processing antivirus signature updates.</p><p><a href="https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>50</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-1152x648-1783631068.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-500x500-1783631088.jpg" width="500" height="500" />
+<media:credit>Photo Illustration by Igor Golovniov/SOPA Images/LightRocket via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Microsoft’s global outage may be worse than Amazon&#039;s or CrowdStrike&#039;s, expert says</title>
+                <link>https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Fri, 13 Nov 2026 15:26:53 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[copilot]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[microsoft 365]]></category>
+		<category><![CDATA[microsoft outage]]></category>
+		<category><![CDATA[Outlook]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/</guid>
+
+                                    <description>
+                        <![CDATA[Governments, hospitals, courts scrambled by global Microsoft outage.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A global outage taking down a wide range of Microsoft 365 services remains ongoing Friday morning.</p>
+<p>The outage started midday Thursday, impacting users of Microsoft email, cloud, and AI services. Microsoft has documented the <a href="https://status.cloud.microsoft/">full list of services impacted</a> by the error, while moving early Friday morning to protect customers around the world from losing emails during the extended disruptions.</p>
+<p>“Recovery actions are ongoing,” the Microsoft 365 Status account confirmed on X. “To help preserve delayed mail during this event, we’ve extended email timeout to 48 hours.”</p><p><a href="https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>141</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2191081646-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2191081646-500x500-1794581824.jpg" width="500" height="500" />
+<media:credit>NurPhoto / Contributor | NurPhoto</media:credit></media:content>
+            </item>
+                    <item>
+                <title>It&#039;s the end of the world as we know it, per a physicist&#039;s 1960 prediction</title>
+                <link>https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/</link>
+                                    <comments>https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jennifer Ouellette]]>
+                </dc:creator>
+                <pubDate>Fri, 13 Nov 2026 15:09:39 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[doomsday predictions]]></category>
+		<category><![CDATA[population growth]]></category>
+		<category><![CDATA[Pseudoscience]]></category>
+		<category><![CDATA[superstition]]></category>
+		<category><![CDATA[Thomas Malthus]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/</guid>
+
+                                    <description>
+                        <![CDATA[Heinz von Foerster thought population would grow exponentially and "squeeze" us all to death.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As of this morning, Microsoft is <a href="https://www.usatoday.com/story/tech/2026/11/13/microsoft-outage-outlook-updates-friday/92752697007/">still scrambling</a> to restore service following yesterday's global outage, with millions of users unable to access Outlook and other vital tools. It's not the end of the world, but it does seem fitting that this should happen on the day a <a href="https://theconversation.com/scientists-predicted-friday-13-november-2026-would-be-doomsday-should-you-be-worried-290354">physicist predicted</a> would be the end of humanity: November 13, 2026. And it falls on a Friday, too. The physicist in question is Heinz von Foerster, who published a <a href="https://www.science.org/doi/10.1126/science.132.3436.1291?fbclid=IwY2xjawUY1axwZG9mAWV4dG4DYWVtAjEwAGJyaWQRMTluRTFFOFV3TUcxQ3hzZWxzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeKSLoiHol-7d6rKQbMee9cozBV9tSMvrTlrUYRMadLbJbIWoNHaRpjWSg5ZY_aem_p9Y_BAxf-1VrukOJ9eVh6g&amp;referrer=https%3A%2F%2Fl.facebook.com%2F">1960 paper</a> in the journal Science predicting that by today, overpopulation would reach the breaking point.</p>
+<p>It's not a new fear. English economist <a href="https://en.wikipedia.org/wiki/Thomas_Robert_Malthus">Thomas Malthus</a>—one of the early pioneers in modeling population dynamics—made a similar prediction in 1798, claiming that a rapidly growing population would eventually exhaust the available food supply, and humanity would starve to death. His model rested on the assumption of exponential growth, but the equation is only applicable under specific conditions, such as scientists growing bacteria in a lab in a perfectly controlled environment. Even then, while growth occurs exponentially for a time, it does not continue forever.</p>
+<p>Population dynamics are notoriously tricky to calculate because there are so many variables to consider and so much unpredictability in the system. In his 1960 analysis, Von Foerster accurately measured past trends in population growth, but like Malthus, he assumed those trends would carry into the future largely unchanged. So he projected that human population growth would march inexorably toward infinity. We wouldn't starve to death; von Foerster thought we would be ingenious enough to solve the food supply problem. Instead, "they will be squeezed to death," he wrote.</p><p><a href="https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>62</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/cometTOP-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/cometTOP-500x500-1794509624.jpg" width="500" height="500" />
+<media:credit>NASA/W. Liller/Public domain</media:credit><media:text>Some believed Halley's comet would destroy the Earth on April 29, 1986. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Screenless GPS: Slate Auto says, &quot;Remember the road atlas&quot;</title>
+                <link>https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas/</link>
+                                    <comments>https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Fri, 13 Nov 2026 14:45:04 +0000</pubDate>
+                		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[GPS]]></category>
+		<category><![CDATA[navigation]]></category>
+		<category><![CDATA[Slate Auto]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas/</guid>
+
+                                    <description>
+                        <![CDATA[What’s more fitting than a spiral-bound map for a bare-bones two-door pickup?]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Whether it's nostalgia or a sense that technology has gotten a bit too pervasive, there’s no denying that Slate Auto appears to be tuned into the particular moment. The startup has <a href="https://arstechnica.com/features/2026/06/we-take-a-ride-in-slates-24950-electric-pickup/">a simple pitch</a>: an affordable electric truck with <a href="https://arstechnica.com/cars/2026/10/visiting-slates-first-showroom-as-its-25000-electric-truck-nears-production/">just the basics</a>, leaving owners to DIY and BYOD for everything else, all for a sub-$25,000 starting price.</p>
+<p>Among the things Slate does without is an embedded infotainment system. The small digital display on the dashboard that shows your speed and range is also where the backup camera appears if you engage reverse, and there are two USB-C ports that provide power but not connectivity, and that’s that. But there is a solution to getting lost, and it's called “Screenless GPS.” Even though we don’t have a Slate truck to test it with, the OEM sent us a unit to review.</p>
+<p>That’s right, it’s a good old spiral-bound road atlas! “We believe you should use the devices you know and love,” Slate says, and it reckons that maps worked just fine for past generations, so they should still work now.</p><p><a href="https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas/">Read full article</a></p>
+<p><a href="https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>108</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Slate-GPS-1-of-3-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Slate-GPS-1-of-3-500x500.jpg" width="500" height="500" />
+<media:credit>Jonathan Gitlin</media:credit><media:text>No built-in GPS is not a problem, you just have to remember how to read a map.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Scientists warn 1.5°C climate change threshold could arrive by 2029</title>
+                <link>https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/</link>
+                                    <comments>https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Bob Berwyn, Inside Climate News]]>
+                </dc:creator>
+                <pubDate>Fri, 13 Nov 2026 14:29:15 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[anthropogenic climate change]]></category>
+		<category><![CDATA[COP31]]></category>
+		<category><![CDATA[global warming]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/</guid>
+
+                                    <description>
+                        <![CDATA[Climate action has stalled for five years as fossil fuel development keeps growing.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>ANTALYA, Turkey—Amid upbeat green-tech pep talks and notices for happy hours at the annual United Nations <a href="https://unfccc.int/cop31">COP31</a> climate change conference on Thursday, two new reports offered a stark reminder of how far the world remains from containing global warming.</p>
+<p><a href="https://climateactiontracker.org/publications/warming-projections-global-update-2026/">Climate Action Tracker</a>, a nonprofit group that analyzes climate policies, found that the planet is still on track to warm nearly 5° Fahrenheit by 2100, a rise that would devastate coral reefs, disrupt agriculture and forests and melt most of the world’s ice. In a separate bulletin, the European Union’s <a href="https://climate.copernicus.eu/how-fast-world-has-moved-closer-15degc-global-warming-paris-agreement">Copernicus</a> climate change service reported that global warming has accelerated significantly since the 2015 <a href="https://insideclimatenews.org/tags/paris-climate-agreement/">Paris climate agreement</a>.</p>
+<p>When the Paris agreement was adopted, the average global temperature was projected to surpass the pact’s long-term threshold of 2.7° Fahrenheit above the preindustrial average around 2045. After another decade of global climate summits, warming is now projected to cross that benchmark as soon as 2029, according to Copernicus.</p><p><a href="https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>35</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/cop31-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/cop31-500x500.jpg" width="500" height="500" />
+<media:credit>Burak Kara/Getty</media:credit><media:text>ANTALYA, TURKEY - Conference participants walk past the Turkey pavilion on the opening day at the COP31 UNFCCC Climate Conference on November 9, 2026 in Antalya, Turkey. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Rocket Report: Starship set for historic test flight; a century of Electron</title>
+                <link>https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/</link>
+                                    <comments>https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Fri, 13 Nov 2026 12:00:40 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[rocket report]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[starship]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/</guid>
+
+                                    <description>
+                        <![CDATA["You can simplify it as a big tank feeding engines."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Welcome to Edition 9.19 of the Rocket Report! Will something historic happen this weekend? No orbital rocket has ever been fully recovered with the intent of reusing all of its components. But that's just what SpaceX is going to try to do with a Starship launch on Friday, and an upper stage landing attempt 22.5 hours later on Saturday afternoon, local time. Ars will be on hand in Starbase, Texas, to provide coverage of it all.</p>
+<p>As always, we <a href="https://arstechnica.wufoo.com/forms/launch-stories/">welcome reader submissions</a>, and if you don't want to miss an issue, please subscribe using the box below (the form will not appear on AMP-enabled versions of the site). Each report will include information on small-, medium-, and heavy-lift rockets as well as a quick look ahead at the next three launches on the calendar.</p>
+<figure class="ars-img-shortcode id-1314289 align-center">
+    <div>
+                        <img decoding="async" width="560" height="81" src="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png" class="center full" alt="" srcset="https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll.png 560w, https://cdn.arstechnica.net/wp-content/uploads/2018/05/smalll-300x43.png 300w" sizes="(max-width: 560px) 100vw, 560px">
+                  </div>
+      </figure>
+
+<p><strong>Electron set for milestone launch</strong>. The next launch of Rocket Lab’s Electron vehicle is due to lift off from the Mahia Peninsula in New Zealand on November 14 at 5:30 UTC. This mission will serve as Electron’s 100th overall mission—a notable milestone for the small rocket that first flew in 2017, <a href="https://www.nasaspaceflight.com/2026/11/launch-preview-11092026/">NASASpaceflight.com reports</a>.</p><p><a href="https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>70</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/electron-livery-1152x648.jpeg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/electron-livery-500x500.jpeg" width="500" height="500" />
+<media:credit>Rocket Lab</media:credit><media:text>Electron goes golden with its 100th launch.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Specialized’s Tarmac SL9 S-Level is built to wreck your Zone 2 ride</title>
+                <link>https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Bangeman]]>
+                </dc:creator>
+                <pubDate>Fri, 13 Nov 2026 11:50:38 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Aero bikes]]></category>
+		<category><![CDATA[bike review]]></category>
+		<category><![CDATA[Road bikes]]></category>
+		<category><![CDATA[Specialized]]></category>
+		<category><![CDATA[Specialized Tarmac SL9 S-Level]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/</guid>
+
+                                    <description>
+                        <![CDATA[Specialized’s second-fastest bike may be the smart buy.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>I love a good <a href="https://rouvy.com/blog/zone-2-training-cycling-guide">Zone 2 ride</a>. There’s nothing like getting on the bike, settling into a groove, and letting the miles (and hours) flow by. But sometimes when I hopped on the Specialized Tarmac SL9 S-Level, Zone 2 would turn into a tempo ride. It was like having a little imp—the stereotype dressed in red with the pitchfork—on my left shoulder whispering into my ear: “Go fast. This bike was built to go fast. Speed is good. You can do a Zone 2 ride tomorrow.” Normally, I'd count on the good imp—the dude with the harp and wings—on my right shoulder to restrain these urges. But the Tarmac is so seductive that he would just shrug and say “he’s got a point.” And in a moment of weakness, I would drop the hammer and head into the red, just because the SL9 makes that so rewarding.</p>
+<p>The Tarmac SL9 is Specialized’s aero road bike, with the S-Level sitting just below the S-Works in Specialized’s top tier of carbon, aero road bikes, where it replaced the Tarmac SL8 Pro. After it got an update this year, I spent several weeks riding it, putting nearly 1,000 miles on it</p>
+<p>Specialized offers the Tarmac SL9 in four models, all available with SRAM and Shimano drivetrains (Ars tested the SRAM version). Notably, you don't need to buy the top-of-the-line bike to get the top-of-the-line groupset. Here's the breakdown of the Tarmac SL9 lineup (note that the Shimano versions of the Expert is 20 g lighter and Comp is 70 grams heavier than the SRAM versions):</p><p><a href="https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>47</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/specialized_3170-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/specialized_3170-500x500.jpg" width="500" height="500" />
+<media:credit>Eric Bangeman/Ars Technica</media:credit><media:text>The Specialized Tarmac SL9 S-Level ready to ride.</media:text></media:content>
+            </item>
+                    <item>
                 <title>In reversal, American Cancer Society urges routine prostate cancer screening</title>
                 <link>https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men/</link>
                                     <comments>https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men/#comments</comments>
@@ -38,14 +321,14 @@
                         <![CDATA[Men aged 50–69 and at average risk should get PSA screening every two years.]]>
                     </description>
                                                                 <content:encoded>
-                            <![CDATA[<p>In a significant update to its guidelines for prostate cancer screening, the American Cancer Society is now recommending that men get routinely screened for prostate cancer with a PSA test.</p>
+                            <![CDATA[<p>In a significant update to its guidelines for prostate cancer screening, the American Cancer Society is now recommending that men get routinely screened for prostate cancer with a PSA (prostate-specific antigen) test.</p>
 <p>Men at average risk should get a PSA test every two years from age 50 to 69, <a href="https://www.cancer.org/cancer/types/prostate-cancer/detection-diagnosis-staging/acs-recommendations.html">according to the new guidelines</a> released Thursday.</p>
 <p>Men considered at high risk due to race and family history should start testing earlier, at 45, and most are recommended to get tested every year. Specifically, yearly testing starting at age 45 is recommended for all Black men, who have higher rates of prostate cancer. Non-Black men should also get yearly testing starting at 45 if a close relative was diagnosed with prostate cancer before age 65, or if more than one of their relatives has had prostate cancer. On the other hand, if only one close relative was diagnosed with prostate cancer and it was diagnosed at age 65 or older, non-Black men in this case should start PSA screening at 45, but are recommended to get testing only every two years.</p><p><a href="https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men/">Read full article</a></p>
 <p><a href="https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men/#comments">Comments</a></p>
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>28</slash:comments>
+                                    <slash:comments>97</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Prostate-Cancer.jpg" type="image/jpeg" medium="image">
@@ -84,7 +367,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>45</slash:comments>
+                                    <slash:comments>81</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -131,7 +414,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>32</slash:comments>
+                                    <slash:comments>43</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ukraine-data-center-under-attack-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -165,7 +448,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>30</slash:comments>
+                                    <slash:comments>51</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/torch-hall-1152x648.webp" type="image/webp" medium="image" width="1152" height="648">
@@ -199,7 +482,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>25</slash:comments>
+                                    <slash:comments>33</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -233,7 +516,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>120</slash:comments>
+                                    <slash:comments>182</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/zelenskyy-1152x648-1794506400.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -271,7 +554,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>31</slash:comments>
+                                    <slash:comments>37</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Win-win-1152x648.jpeg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -309,7 +592,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>25</slash:comments>
+                                    <slash:comments>34</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/raygunn-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -342,7 +625,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>47</slash:comments>
+                                    <slash:comments>64</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/black-lift.webp" type="image/webp" medium="image">
@@ -377,7 +660,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>100</slash:comments>
+                                    <slash:comments>139</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-595668825-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -410,7 +693,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>44</slash:comments>
+                                    <slash:comments>61</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1149x648.jpeg" type="image/jpeg" medium="image" width="1149" height="648">
@@ -447,286 +730,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>123</slash:comments>
+                                    <slash:comments>155</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
 <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-500x500.jpg" width="500" height="500" />
 <media:credit>Google, Warby Parker</media:credit><media:text>Google's intelligent eyewear follows a familiar formula. </media:text></media:content>
-            </item>
-                    <item>
-                <title>Nvidia CEO Jensen Huang has resigned</title>
-                <link>https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Demetri Sevastopulo, Financial Times]]>
-                </dc:creator>
-                <pubDate>Thu, 12 Nov 2026 14:05:17 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Jensen Huang]]></category>
-		<category><![CDATA[NVIDIA]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/</guid>
-
-                                    <description>
-                        <![CDATA[Nvidia CEO also had an affair with a senior executive at the firm.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Nvidia chief executive Jensen Huang has resigned following revelations that he had two extramarital affairs, plunging the chipmaker at the heart of the global AI boom into crisis.</p>
-<p>The 63-year-old will be replaced by chief financial officer Colette Kress, who will serve as interim chief executive.</p>
-<p>His exit comes after he admitted to having a relationship with a woman that US authorities believe was a Chinese spy. It also emerged on Wednesday that Huang had an affair with a senior Nvidia executive.</p><p><a href="https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>776</slash:comments>
-                
-                
-                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2296993009-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
-<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2296993009-500x500.jpg" width="500" height="500" />
-<media:credit>Kevin Dietsch / Staff | Getty Images News</media:credit><media:text>Nvidia CEO Jensen Huang looks on as US President Donald Trump hosts a state dinner for Chinese President Xi Jinping.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Hundreds of streaming services and nothing to watch</title>
-                <link>https://arstechnica.com/gadgets/2026/11/hundreds-of-streaming-services-and-nothing-to-watch/</link>
-                                    <comments>https://arstechnica.com/gadgets/2026/11/hundreds-of-streaming-services-and-nothing-to-watch/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Thu, 12 Nov 2026 14:00:19 +0000</pubDate>
-                		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[streaming]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/11/hundreds-of-streaming-services-and-nothing-to-watch/</guid>
-
-                                    <description>
-                        <![CDATA[Most viewers wish there was a TV Guide for streaming. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>“Fifty-seven channels, and nothin’ on.”</p>
-<p>Bruce Springsteen famously said those words <a href="https://www.youtube.com/watch?v=2xktsE-VaU">during a concert</a> and later <a href="https://www.youtube.com/watch?v=YAlDbP4tdqc">in a song</a> in the 1990s about the number of TV channels seemingly growing disproportionately to the availability of enjoyable content.</p>
-<p>Within a few years, there would be hundreds of TV channels and still, some would argue in hyperbolic frustration, “<a href="https://time.com/archive/6721869/500-channels-and-nothing-to-watch/">nothing to watch.”</a></p><p><a href="https://arstechnica.com/gadgets/2026/11/hundreds-of-streaming-services-and-nothing-to-watch/">Read full article</a></p>
-<p><a href="https://arstechnica.com/gadgets/2026/11/hundreds-of-streaming-services-and-nothing-to-watch/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>124</slash:comments>
-                
-                
-                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2230766677-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
-<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2230766677-500x500.jpg" width="500" height="500" />
-<media:credit>Getty</media:credit><media:text>England, London, TV remote control, in London, 2025, (Photo Peter Dazeley/Getty Images)</media:text></media:content>
-            </item>
-                    <item>
-                <title>Review: Apple&#039;s M6 iMac is pricey, but it&#039;s still a good choice for a clean desk</title>
-                <link>https://arstechnica.com/features/2026/11/review-apples-m6-imac-is-pricey-but-its-still-a-good-choice-for-a-clean-desk/</link>
-                                    <comments>https://arstechnica.com/features/2026/11/review-apples-m6-imac-is-pricey-but-its-still-a-good-choice-for-a-clean-desk/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Andrew Cunningham]]>
-                </dc:creator>
-                <pubDate>Thu, 12 Nov 2026 12:00:37 +0000</pubDate>
-                		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[apple m6]]></category>
-		<category><![CDATA[Apple silicon]]></category>
-		<category><![CDATA[iMac]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/features/2026/11/review-apples-m6-imac-is-pricey-but-its-still-a-good-choice-for-a-clean-desk/</guid>
-
-                                    <description>
-                        <![CDATA[Apple's M6 keeps the iMac current without shaking things up much.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Apple Silicon iMac got its fourth refresh this month.</p>
-<p>Every other Apple Silicon Mac has found a way to move forward over the last half-decade—we've gotten a more Pro design for the MacBook Pro, a mini-er design for the Mac mini, and a Mac Studio that has finally made Apple admit it doesn't want to make the Mac Pro anymore.</p>
-<p>But the Apple Silicon iMac has always been more interested in looking backward. It's the thin, screen-on-a-stand iMac design by way of the original Bondi Blue G3 iMac. It's a clean and pretty desktop computer, one I see all the time in small offices and on TV shows that depict small offices. We're long past the days when it was Apple's primary workstation computer.</p><p><a href="https://arstechnica.com/features/2026/11/review-apples-m6-imac-is-pricey-but-its-still-a-good-choice-for-a-clean-desk/">Read full article</a></p>
-<p><a href="https://arstechnica.com/features/2026/11/review-apples-m6-imac-is-pricey-but-its-still-a-good-choice-for-a-clean-desk/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>81</slash:comments>
-                
-                
-                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/IMG_9812-1152x648.jpeg" type="image/jpeg" medium="image" width="1152" height="648">
-<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/IMG_9812-500x500.jpeg" width="500" height="500" />
-<media:credit>Andrew Cunningham</media:credit><media:text>Apple's M6 iMac.</media:text></media:content>
-            </item>
-                    <item>
-                <title>T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says</title>
-                <link>https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jon Brodkin]]>
-                </dc:creator>
-                <pubDate>Wed, 11 Nov 2026 20:32:21 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[New York Affordable Broadband Act]]></category>
-		<category><![CDATA[t-mobile]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/</guid>
-
-                                    <description>
-                        <![CDATA[Law requires 25Mbps home Internet. T-Mobile lowers speed to 600Kbps after 50GB cap.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>T-Mobile violated a New York state law by imposing a 50GB-per-month data cap and reducing speeds to less than a megabit per second on home Internet plans it is required to offer people with low incomes, New York government officials alleged.</p>
-<p>T-Mobile agreed to a settlement requiring it to scrap the data and speed limits, to offer the required low-income plans to more parts of the state, and to make it easier for customers to find information about the plans. The settlement requires T-Mobile to eliminate the speed limits and expand availability of the plans within 120 days.</p>
-<p>The alleged legal violation and the settlement are related to T-Mobile's wireless home Internet service, not the company's mobile plans. Governor Kathy Hochul and New York Attorney General Letitia James <a href="https://www.governor.ny.gov/news/governor-hochul-and-attorney-general-james-improve-access-affordable-home-internet-vulnerable">announced the settlement</a> on Monday, saying that a state investigation found T-Mobile violated the <a href="https://www.nysenate.gov/legislation/laws/GBS/399-ZZZZZ">New York Affordable Broadband Act</a> (ABA).</p><p><a href="https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>67</slash:comments>
-                
-                
-                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/t-mobile-5g-1152x648-1794428350.jpg" type="image/jpeg" medium="image" width="1152" height="648">
-<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/t-mobile-5g-500x500-1752177364.jpg" width="500" height="500" />
-<media:credit>Getty Images | NurPhoto</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Anduril says its first satellite can see adversaries maneuver in orbital night</title>
-                <link>https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/</link>
-                                    <comments>https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Stephen Clark]]>
-                </dc:creator>
-                <pubDate>Wed, 11 Nov 2026 20:22:03 +0000</pubDate>
-                		<category><![CDATA[Science]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Anduril]]></category>
-		<category><![CDATA[apex]]></category>
-		<category><![CDATA[Commercial space]]></category>
-		<category><![CDATA[military space]]></category>
-		<category><![CDATA[space domain awareness]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/</guid>
-
-                                    <description>
-                        <![CDATA["What's unique is it's got a huge dynamic range. We can see things in full dark."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Anduril Industries has announced the successful demonstration of a new satellite-based sensor designed to track other spacecraft that may be hiding their maneuvers in Earth's shadow.</p>
-<p>Funded with Anduril's internal capital, the company's oven-sized satellite launched on a SpaceX rideshare mission in July with a package of tech demo payloads: an edge-compute processor, a power-management system adaptable to different mission types, and a long-wave infrared space sensor capable of detecting other objects in orbit.</p>
-<p>Anduril reported on the success of the tech demo mission Tuesday. The company's satellite, named Anduril-216, flies about 590 km (366 mi) above Earth, spending about one-third of each orbit in darkness. Anduril-216's night passes allow its infrared imager to shine.</p><p><a href="https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>51</slash:comments>
-                
-                
-                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/longwaveirsensor-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
-<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/longwaveirsensor-500x500.jpg" width="500" height="500" />
-<media:credit>Anduril Industries</media:credit><media:text>Anduril's long-wave infrared space sensor integrated on the Anduril-216 satellite before launch.</media:text></media:content>
-            </item>
-                    <item>
-                <title>NASA&#039;s secret weapon in the lunar space race may be ... procurement reform?</title>
-                <link>https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/</link>
-                                    <comments>https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Eric Berger]]>
-                </dc:creator>
-                <pubDate>Wed, 11 Nov 2026 19:00:26 +0000</pubDate>
-                		<category><![CDATA[Space]]></category>
-		<category><![CDATA[nasa moon base]]></category>
-		<category><![CDATA[space]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/</guid>
-
-                                    <description>
-                        <![CDATA["The pace that's occurring, and the nature of the procurements, is unprecedented."]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Senior NASA officials held a <a href="https://www.youtube.com/watch?v=MRg4uIpJ3xE">lengthy news conference</a> last weekend, <a href="https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/">laying out a series</a> of lunar contract awards, new contract opportunities, and mission decisions. They followed one after the other: landers, nuclear-powered rovers, scouting drones, power generation, storage, and communication satellites.</p>
-<p>It never seemed to end.</p>
-<p>"Hopefully, we're keeping industry on their toes trying to catch up to all the solicitations we're doing," said Carlos García-Galán, manager of the Moon Base Program, more than 90 minutes into the news conference. "This is what it takes to do the Moon Base in the timeline we have set forth."</p><p><a href="https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>58</slash:comments>
-                
-                
-                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/moon-base-artists-concept-1152x648.webp" type="image/webp" medium="image" width="1152" height="648">
-<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/moon-base-artists-concept-500x500.webp" width="500" height="500" />
-<media:credit>NASA</media:credit><media:text>Artist's concept of a lunar base.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI</title>
-                <link>https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/</link>
-                                    <comments>https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Jeremy Hsu]]>
-                </dc:creator>
-                <pubDate>Wed, 11 Nov 2026 18:16:40 +0000</pubDate>
-                		<category><![CDATA[AI]]></category>
-		<category><![CDATA[AI bubble]]></category>
-		<category><![CDATA[Anthropic]]></category>
-		<category><![CDATA[Chipmakers]]></category>
-		<category><![CDATA[chipmaking]]></category>
-		<category><![CDATA[openai]]></category>
-		<category><![CDATA[semiconductor manufacturing]]></category>
-		<category><![CDATA[Taiwan]]></category>
-		<category><![CDATA[Taiwan Semiconductor Manufacturing Company]]></category>
-		<category><![CDATA[TSMC]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/</guid>
-
-                                    <description>
-                        <![CDATA[Latest example of the AI boom’s circular financing comes as AI trade wobbles.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Top chip manufacturer TSMC is ready to invest $1 billion in Anthropic and OpenAI. That would give the Taiwanese chipmaker direct stakes in leading AI developers, even as its own contract chipmaking business has profited enormously from the AI data center buildout.</p>
-<p>The chipmaker’s board approved plans to invest up to $500 million in OpenAI preferred stock reserved for large investors and another $500 million to purchase Anthropic common shares at the latter’s expected IPO price, <a href="http://reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/">according to Reuters</a>. Such an investment may give markets “a shot of confidence as the artificial-intelligence trade shows signs of strain,” <a href="https://www.wsj.com/tech/ai/tsmc-approves-up-to-1-billion-investment-plan-in-anthropic-openai-3e4b4997">The Wall Street Journal</a> reported.</p>
-<p>But analysts also warned that such circular financing among investors, suppliers, and customers has made it difficult to evaluate real market demand for AI-related hardware and services, according to the Journal.</p><p><a href="https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>72</slash:comments>
-                
-                
-                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
-<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-500x500.jpg" width="500" height="500" />
-<media:credit>Taiwan Semiconductor Manufacturing Co., Ltd</media:credit><media:text>TSMC's Fab 18 is a leading-edge chipmaking facility in Tainan, Taiwan.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Trump admin loses fight to spy on random journalists’ LinkedIn DMs</title>
-                <link>https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Ashley Belanger]]>
-                </dc:creator>
-                <pubDate>Wed, 11 Nov 2026 18:05:26 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Donald Trump]]></category>
-		<category><![CDATA[First Amendment]]></category>
-		<category><![CDATA[LinkedIn]]></category>
-		<category><![CDATA[military leaks]]></category>
-		<category><![CDATA[press freedom]]></category>
-		<category><![CDATA[trump administration]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/</guid>
-
-                                    <description>
-                        <![CDATA[Confidential sources “lifeblood” of free press, court rules in LinkedIn fight.]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>The Trump administration’s fight to stop suspected leaks of top-secret military information on LinkedIn can’t sweep in “a vast number of confidential sources” of random journalists “who have no conceivable relationship” to the Department of Justice’s investigation, an appeals court <a href="https://storage.courtlistener.com/recap/gov.uscourts.ca4.182968/gov.uscourts.ca4.182968.106.0_1.pdf">ruled</a> Tuesday.</p>
-<p>The order came after the DOJ asked LinkedIn to turn over 18 months of communications from targeted journalists who collectively published more than 1,000 articles on many different topics over that time period. The request was not limited to journalists involved in a controversial report from a news outlet that Trump said exposed confidential military information in a foreign country. (The outlet is not being named to protect national security secrets.) Instead, the DOJ cast a wide net, requesting extensive LinkedIn data on journalists who had any possible link to the journalists around the time the report was drafted.</p>
-<p>The majority of journalists have LinkedIn accounts and publish their contact information to encourage sources to connect on the platform, LinkedIn argued. So allowing that government overreach went beyond harming targeted journalists and threatened to undermine a critical platform where journalists frequently connect with confidential sources, judges ruled. Even more concerning, the Trump administration secured a secrecy order barring LinkedIn from telling anyone about the sweeping request for a year. That left journalists unaware for far too long that their First Amendment rights had been compromised, judges ruled.</p><p><a href="https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>35</slash:comments>
-                
-                
-                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2292869198-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
-<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2292869198-500x500.jpg" width="500" height="500" />
-<media:credit>Smith Collection/Gado / Contributor | Archive Photos</media:credit></media:content>
             </item>
             </channel>
 </rss>
