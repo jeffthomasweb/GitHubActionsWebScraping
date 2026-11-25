@@ -4,7 +4,7 @@
         <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml" />
         <link>https://arstechnica.com</link>
         <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
-        <lastBuildDate>Tue, 24 Nov 2026 21:24:37 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 24 Nov 2026 22:50:11 +0000</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>
             hourly        </sy:updatePeriod>
@@ -19,6 +19,78 @@
 	<height>32</height>
 </image> 
             <item>
+                <title>Half of NASA&#039;s aging Mars fleet knocked offline by technical issues</title>
+                <link>https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/</link>
+                
+                <dc:creator>
+                    <![CDATA[Stephen Clark]]>
+                </dc:creator>
+                <pubDate>Tue, 24 Nov 2026 22:50:11 +0000</pubDate>
+                		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[jet propulsion laboratory]]></category>
+		<category><![CDATA[Mars]]></category>
+		<category><![CDATA[Mars 2020]]></category>
+		<category><![CDATA[mars odyssey]]></category>
+		<category><![CDATA[Mars Perseverance]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[planetary science]]></category>
+		<category><![CDATA[solar system]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/</guid>
+
+                                    <description>
+                        <![CDATA[Perseverance is having trouble transmitting to Earth. Odyssey is rapidly burning through its waning fuel supply.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Two of NASA's four missions operating at Mars have <a href="https://science.nasa.gov/blogs/mars/2026/11/19/nasas-perseverance-odyssey-teams-investigate-technical-issues/">suspended science operations</a> after encountering separate technical issues in recent weeks.</p>
+<p>The missions affected by the outages<span class="s1">—</span>hopefully temporary<span class="s1">—</span>are NASA's Perseverance rover and Odyssey orbiter. Both are operating beyond their original design lifetimes. Perseverance is in its sixth year exploring the surface of Mars, having collected rock and soil samples for eventual return to Earth. The rover is now studying the rim of a crater that once contained an ancient lake of liquid water. Odyssey arrived in orbit around Mars in 2001, and is the longest-lived Mars mission in history.</p>
+<h2>Losing its voice</h2>
+<p>The problem on Perseverance stems from the rover's communications system. The rover has two redundant UHF radios for high-rate communications with a fleet of orbiters that relay data to Earth. A separate X-band system is available for direct-to-Earth communications at a lower data rate.</p><p><a href="https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/PIA26752-1152x648-1795552223.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/PIA26752-500x500.jpg" width="500" height="500" />
+<media:credit>NASA/JPL-Caltech/MSSS</media:credit><media:text>NASA’s Perseverance looks down at a rocky outcrop nicknamed “Arathusa” in this selfie mosaic created using images taken from the vehicle's robotic arm.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Microsoft&#039;s historic cloud outage exposed an engineering “fog of war”</title>
+                <link>https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Nick Indge]]>
+                </dc:creator>
+                <pubDate>Tue, 24 Nov 2026 22:36:28 +0000</pubDate>
+                		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Amanda Silver]]></category>
+		<category><![CDATA[Jason Henderson]]></category>
+		<category><![CDATA[microsoft outage]]></category>
+		<category><![CDATA[MS365]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/</guid>
+
+                                    <description>
+                        <![CDATA[Internal memos reveal a “Code Red” overhaul and ambitious one-hour recovery goals.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>According to internal memos reviewed <a href="https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/">by Reuters</a>, Microsoft has declared a "Code Red" overhaul of its engineering response practices after the <a href="https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/">November 12 outage</a> that lost access to Exchange Online, Teams, and Outlook for users worldwide.</p>
+<p>Per the memos, Microsoft 365 Core President Jason Henderson described the outage as having the most customer impact in the history of Exchange Online. In a separate memo, Henderson wrote that an urgent production fix in a recent incident took five to six days to reach worldwide saturation. Microsoft's target for its most urgent security fixes is to move from detection to safe worldwide deployment in one hour. "Needless to say, we aren't here yet," Henderson wrote.</p>
+<p>The memos, which Reuters reviewed but Microsoft has not published, outline the response to the November 12 disruption. The company's <a href="https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf">post-incident report</a>, dated November 20, attributed the downtime to an undetected Windows scalability defect introduced in July, which caused lock contention in the gateway processes. A Teams traffic failover then dumped additional load onto infrastructure already under stress, as maintenance had left nearly 14 percent of gateway server capacity offline at the time of the incident.</p><p><a href="https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>2</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Microsoft_CDOC_featured-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Microsoft_CDOC_featured-500x500.jpg" width="500" height="500" />
+<media:credit>Microsoft</media:credit></media:content>
+            </item>
+                    <item>
                 <title>What&#039;s going on with the Riemann hypothesis?</title>
                 <link>https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/</link>
                                     <comments>https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/#comments</comments>
@@ -47,7 +119,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>38</slash:comments>
+                                    <slash:comments>74</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-220180413-1152x648.jpeg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -84,7 +156,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>30</slash:comments>
+                                    <slash:comments>42</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2152300024-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -122,7 +194,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>75</slash:comments>
+                                    <slash:comments>87</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/prime-air-mk30-drone-package-loading-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -162,7 +234,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>40</slash:comments>
+                                    <slash:comments>45</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/HSH9kiAbUAAzHdZ-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -200,7 +272,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>18</slash:comments>
+                                    <slash:comments>23</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/hops3-1152x648-1795358176.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -235,7 +307,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>42</slash:comments>
+                                    <slash:comments>50</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1010796264-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -268,7 +340,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>51</slash:comments>
+                                    <slash:comments>58</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -301,7 +373,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>31</slash:comments>
+                                    <slash:comments>35</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/PORSCHE_983_PROTOTYPE_PECLA_006_DSC06879-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -332,7 +404,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>102</slash:comments>
+                                    <slash:comments>105</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2153520868-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -369,7 +441,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>18</slash:comments>
+                                    <slash:comments>21</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/NHQ202604010115orig-1152x648-1793950034.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -410,7 +482,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>25</slash:comments>
+                                    <slash:comments>26</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/forest-eyes-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -445,7 +517,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>135</slash:comments>
+                                    <slash:comments>138</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2297759490-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
@@ -480,7 +552,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>28</slash:comments>
+                                    <slash:comments>29</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner.jpg" type="image/jpeg" medium="image">
@@ -523,7 +595,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>35</slash:comments>
+                                    <slash:comments>36</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/PhoneBox_Tablet_Home_Screen_TYS-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -562,7 +634,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>78</slash:comments>
+                                    <slash:comments>79</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/merkury-fire_benghazi-libya_20261122_054739_ssc4_rgb_flat_50cm_1920px_logo_geo-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
@@ -598,7 +670,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>232</slash:comments>
+                                    <slash:comments>236</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2306107359-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
@@ -638,7 +710,7 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>95</slash:comments>
+                                    <slash:comments>96</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
@@ -672,82 +744,12 @@
 ]]>
                         </content:encoded>
                                     
-                                    <slash:comments>57</slash:comments>
+                                    <slash:comments>59</slash:comments>
                 
                 
                 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/02/52674646862_dbe4378754_k-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
 <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/02/52674646862_dbe4378754_k-500x500.jpg" width="500" height="500" />
 <media:credit>NASA</media:credit><media:text>A Progress spacecraft is seen departing the space station in February 2023.</media:text></media:content>
-            </item>
-                    <item>
-                <title>Surveillance pricing uses our personal data to make us pay more</title>
-                <link>https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Mon, 23 Nov 2026 20:11:43 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[consumer advocacy]]></category>
-		<category><![CDATA[privacy]]></category>
-		<category><![CDATA[surveillance pricing]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/</guid>
-
-                                    <description>
-                        <![CDATA[Personalized pricing can mean unfair, and even biased, prices. ]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[
-<p>“It costs what it costs” is a mindset I’ve found useful when encountering a sizable, but highly necessary or desired, expense. The sentiment encourages me to accept the price because that’s the accepted value of the gadget, app, or service that I really need or want.</p>
-<p>But with surveillance pricing, that comfort is no longer a given. I could end up paying more for my TV because of where I am or more for a <a href="https://arstechnica.com/gadgets/2026/10/from-cheap-tool-to-premium-subscription-when-a-beloved-apps-price-skyrockets/">software subscription</a> because of my age.</p>
-<p>Surveillance pricing leverages data collected from our web history<a href="https://arstechnica.com/culture/2026/04/how-our-digital-devices-are-putting-our-right-to-privacy-at-risk/">,</a> <a href="https://arstechnica.com/culture/2026/04/how-our-digital-devices-are-putting-our-right-to-privacy-at-risk/">smart devices</a>, and apps with the goal of getting us to pay more. That obfuscates the value of products, challenges smart shopping and budgets, and makes it harder for people to get products and services at a fair price.</p><p><a href="https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>96</slash:comments>
-                
-                
-                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1527415822-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
-<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1527415822-500x500.jpg" width="500" height="500" />
-<media:credit>Getty</media:credit></media:content>
-            </item>
-                    <item>
-                <title>Amazon fights Delivery Protection Act by putting stickers on its packages</title>
-                <link>https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/</link>
-                                    <comments>https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/#comments</comments>
-                
-                <dc:creator>
-                    <![CDATA[Scharon Harding]]>
-                </dc:creator>
-                <pubDate>Mon, 23 Nov 2026 19:38:13 +0000</pubDate>
-                		<category><![CDATA[Policy]]></category>
-		<category><![CDATA[Tech]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[amazon delivery]]></category>
-		<category><![CDATA[amazon delivery drivers]]></category>
-                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/</guid>
-
-                                    <description>
-                        <![CDATA[Amazon now uses its packages for political purposes.
-]]>
-                    </description>
-                                                                <content:encoded>
-                            <![CDATA[<p>Amazon is placing a sticker on some of its delivery boxes to urge customers to oppose a New York City bill.</p>
-<p>This weekend, some Amazon shoppers reported getting a delivery from Amazon with <a href="https://www.reddit.com/r/AmazonDSPDrivers/comments/1y1h7yk/look_at_the_fearmongering/">a sticker</a> on it that reads: “NYC Council could add up to $5 per order. Act now to protect low prices.” The sticker reportedly includes a QR code that leads to a link for contacting NYC Councilmembers. The sticker encourages the package’s recipient to “Scan to tell your council member: no increases for New Yorkers.”</p>
-<p>Amazon is looking to stoke opposition to Introduction 0518-2026 (<a href="https://legistar.council.nyc.gov/LegislationDetail.aspx?G=2FD004F1-D85B-4588-A648-0A736C77D6E3&amp;GUID=BDDD32F1-1178-492D-80F2-205845356FD2&amp;ID=7879110&amp;Options&amp;Search&amp;amp">518</a>), also known as the Delivery Protection Act. The proposed law would require Amazon and other companies with last-mile delivery facilities in the city, such as FedEx, to directly employ third-party contractors Amazon uses for making deliveries.</p><p><a href="https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/">Read full article</a></p>
-<p><a href="https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/#comments">Comments</a></p>
-]]>
-                        </content:encoded>
-                                    
-                                    <slash:comments>116</slash:comments>
-                
-                
-                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/something-about-this-just-feels-off-to-me-v0-d584x10nr83i1-1152x648-1795460892.jpg" type="image/jpeg" medium="image" width="1152" height="648">
-<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/something-about-this-just-feels-off-to-me-v0-d584x10nr83i1-500x500-1795460897.jpg" width="500" height="500" />
-<media:credit>Playful_Bowler_5805/Reddit</media:credit><media:text>A Reddit user shared this image of an Amazon package they reportedly received recently. </media:text></media:content>
             </item>
             </channel>
 </rss>
